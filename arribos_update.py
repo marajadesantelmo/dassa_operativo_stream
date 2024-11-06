@@ -14,10 +14,10 @@ from email.message import EmailMessage
 import time
 from tokens import username, password
 from utils import rellenar_df_vacio
-if os.path.exists('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_streamlit'):
-    os.chdir('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_streamlit')
-elif os.path.exists('C:/Users/facun/OneDrive/Documentos/GitHub/dassa_streamlit'):
-    os.chdir('C:/Users/facun/OneDrive/Documentos/GitHub/dassa_streamlit')
+if os.path.exists('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_streamlit'):
+    os.chdir('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_streamlit')
+elif os.path.exists('C:/Users/facun/OneDrive/Documentos/GitHub/dassa_operativo_streamlit'):
+    os.chdir('C:/Users/facun/OneDrive/Documentos/GitHub/dassa_operativo_streamlit')
 else:
     print("Se usa working directory por defecto")
 # CONEXION SQL
