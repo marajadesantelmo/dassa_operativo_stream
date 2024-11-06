@@ -3,8 +3,8 @@ import subprocess
 import time
 
 # Define the directory where your CSV files are stored
-local_directory = '//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_streamlit/data'
-repo_directory = '//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_streamlit'
+local_directory = '//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/data'
+repo_directory = '//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream'
 
 # Function to check for changes in the directory
 def check_changes():
