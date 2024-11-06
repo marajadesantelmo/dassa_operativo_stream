@@ -6,14 +6,13 @@ Script que actualiza los googlesheets para tablero Orden del dia
 import pyodbc
 import pandas as pd
 import os
-import gspread
-from gspread_dataframe import set_with_dataframe
 from datetime import datetime, timedelta
 import smtplib
 from email.message import EmailMessage
 import time
 from tokens import username, password
 from utils import rellenar_df_vacio
+
 if os.path.exists('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_streamlit'):
     os.chdir('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_streamlit')
 elif os.path.exists('C:/Users/facun/OneDrive/Documentos/GitHub/dassa_operativo_streamlit'):

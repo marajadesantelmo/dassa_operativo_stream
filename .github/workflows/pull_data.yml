@@ -1,0 +1,21 @@
+name: Pull CSV updates
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "*/5 * * * *"  # Pull updates every 5 minutes
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Pull latest updates
+        run: |
+          git pull origin main
+          
+      # Add steps to deploy the app, reload data, or trigger Streamlit refresh if needed
