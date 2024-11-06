@@ -27,9 +27,8 @@ jobs:
     # Commit and push any changes to CSV files
     - name: Upload CSV Files
       run: |
-        git add *.csv
-        git add data/*.csv  # Adjust this path if your CSV files are in a specific directory
-        git commit -m "Subido automaticamente"
+        git add data/*.csv 
+        git commit -m "Subido automaticamente" || echo "No hay cambios"
         git push
       env:
         # Pass in the GitHub token to authenticate the push
