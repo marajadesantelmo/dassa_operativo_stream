@@ -1,0 +1,36 @@
+name: Upload CSV Files
+
+# Trigger the workflow when there are pushes or pull requests to the main branch
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '*.csv'  # Trigger only if there are changes to CSV files in the root directory
+      - 'data/*.csv'  # Adjust this path if your CSV files are located in a specific directory
+
+jobs:
+  upload_csv:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Check out the code from your repository
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Configure Git with the GitHub Actions bot
+    - name: Set up Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+    # Commit and push any changes to CSV files
+    - name: Upload CSV Files
+      run: |
+        git add *.csv
+        git add data/*.csv  # Adjust this path if your CSV files are in a specific directory
+        git commit -m "Subido automaticamente"
+        git push
+      env:
+        # Pass in the GitHub token to authenticate the push
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
