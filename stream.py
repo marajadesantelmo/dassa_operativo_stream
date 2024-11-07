@@ -6,12 +6,15 @@ import stream_expo_historico
 # Probando
 st.set_page_config(page_title="Operativa DASSA", 
                    page_icon="📊", 
-                   layout="wide", 
-                   initial_sidebar_state="expanded")
+                   layout="wide")
 
-# Sidebar Navigation
-st.sidebar.title("Menú de Navegación")
-page_selection = st.sidebar.radio('Seleccionar', ["IMPO Orden del día", "EXPO Orden del día", "IMPO Histórico", "EXPO Histórico"])
+# Top Navigation
+st.title("Orden del día")
+st.write("Menú de Navegación")
+
+page_selection = st.radio('Seleccionar una opción:', 
+                          ["IMPO Orden del día", "EXPO Orden del día", "IMPO Histórico", "EXPO Histórico"], 
+                          horizontal=True)
 
 st.markdown(
     """
