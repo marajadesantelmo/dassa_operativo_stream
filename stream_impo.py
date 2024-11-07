@@ -3,7 +3,7 @@ import pandas as pd
 import time
 from datetime import datetime
 from utils import highlight
-
+@st.cache_data(ttl=60) 
 def fetch_data_impo():
     arribos = pd.read_csv('data/arribos.csv')
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
@@ -12,7 +12,7 @@ def fetch_data_impo():
     otros_impo = pd.read_csv('data/otros_impo.csv')
     return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo
 
-def show_page():
+def show_page_impo():
     # Load data
     arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo = fetch_data_impo()
 
@@ -51,5 +51,8 @@ def show_page():
 
 # Run the show_page function
 if __name__ == "__main__":
-    show_page()
+    while True:
+        show_page_impo()
+        time.sleep(60)  
+        st.experimental_rerun() 
 

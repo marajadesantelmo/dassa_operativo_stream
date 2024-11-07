@@ -15,7 +15,7 @@ def fetch_data_expo():
     return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, retiros_expo, otros_expo, remisiones, consolidados
     
 
-def show_page():
+def show_page_expo():
     # Load data
     arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, retiros_expo, otros_expo, remisiones, consolidados = fetch_data_expo()
 
@@ -58,7 +58,9 @@ def show_page():
         st.subheader("Consolidados")
         st.dataframe(consolidados.style.apply(highlight, axis=1), hide_index=True)
 
-# Run the show_page function
 if __name__ == "__main__":
-    show_page()
+    while True:
+        show_page_expo()
+        time.sleep(60)  
+        st.experimental_rerun() 
 
