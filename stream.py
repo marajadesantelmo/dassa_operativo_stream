@@ -10,8 +10,7 @@ st.set_page_config(page_title="Operativa DASSA",
 
 # Top Navigation
 st.title("Orden del día")
-page_selection = st.radio(["IMPO Orden del día", "EXPO Orden del día"], 
-                          horizontal=True)
+page_selection = st.radio("Seleccione una opción:", ["IMPO Orden del día", "EXPO Orden del día"])
 
 st.markdown(
     """
