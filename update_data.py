@@ -318,7 +318,7 @@ existente_impo = crear_operacion(existente_impo)
 ubicaciones_existente = crear_operacion(ubicaciones_existente)
 ubicaciones_existente['ubicacion'] = ubicaciones_existente['ubicacion'].str.strip()
 existente_impo = pd.merge(existente_impo, ubicaciones_existente[['operacion', 'ubicacion']], on='operacion', how='left')
-familias_ubicaciones = pd.read_excel('flias_ubicaciones.xlsx')
+familias_ubicaciones = pd.read_excel('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/flias_ubicaciones.xlsx')
 existente_impo = pd.merge(existente_impo, familias_ubicaciones[['ubicacion', 'ubicacion_familia']], on='ubicacion', how='left')
 existente_impo['teus'] = existente_impo['dimension']/20
 existente_plz = existente_impo[existente_impo['ubicacion_familia'].isin(['Plazoleta', 'Temporal'])]
@@ -329,7 +329,7 @@ arribos['Estado'] = arribos['arribado'].apply(lambda x: 'Pendiente arribo' if x 
 arribos.loc[arribos['contenedor'].isin(pendiente_ingresado['contenedor']), 'Estado'] = 'Pendiente ingreso'
 arribos.loc[arribos['Estado'] == 'Arribado', 'tiempo_transcurrido'] = '---'
 
-arribos_historico_horarios = pd.read_csv('arribos_historico_horarios.csv')
+arribos_historico_horarios = pd.read_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/arribos_historico_horarios.csv')
 arribos = pd.merge(arribos, arribos_historico_horarios[['contenedor', 'fecha', 'estado']], on=['contenedor', 'fecha'], how='left')
 arribos['Estado'] = arribos['estado'].fillna(arribos['Estado'])
 arribos = arribos.drop(columns=['estado'])
