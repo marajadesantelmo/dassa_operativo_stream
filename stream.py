@@ -86,6 +86,22 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# JavaScript for automatic refresh every 10 seconds
+refresh_interval = 10  # Refresh interval in seconds
+st.markdown(
+    f"""
+    <script>
+    function reload() {{
+        setTimeout(function() {{
+            window.location.reload(1);
+        }}, {refresh_interval * 1000});
+    }}
+    reload();
+    </script>
+    """,
+    unsafe_allow_html=True
+)
+
 # Top Navigation
 page_selection = st.radio("", ["IMPO", "EXPO"])
 
