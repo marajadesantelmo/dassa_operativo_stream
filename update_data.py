@@ -20,6 +20,8 @@ elif os.path.exists('C:/Users/facun/OneDrive/Documentos/GitHub/dassa_operativo_s
 else:
     print("Se usa working directory por defecto")
 
+path = '//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/'
+
 ### ARRIBOS ####
 
 print('Actualizando información operativa Orden del Día DASSA')
@@ -364,16 +366,16 @@ pendiente_desconsolidar['Cliente'] = pendiente_desconsolidar['Cliente'].apply(la
 arribos = rellenar_df_vacio(arribos)
 pendiente_desconsolidar = rellenar_df_vacio(pendiente_desconsolidar)
 
-arribos.to_csv('data/arribos.csv', index=False)
-arribos_expo_carga.to_csv('data/arribos_expo_carga.csv', index=False)
-arribos_expo_ctns.to_csv('data/arribos_expo_ctns.csv', index=False)
-pendiente_ingresado.to_csv('data/pendiente_ingresado.csv', index=False)
-pendiente_desconsolidar.to_csv('data/pendiente_desconsolidar.csv', index=False)
-pendiente_consolidar.to_csv('data/pendiente_consolidar.csv', index=False)
-listos_para_remitir.to_csv('data/listos_para_remitir.csv', index=False)
-vacios_disponibles.to_csv('data/vacios_disponibles.csv', index=False)
-existente_plz.to_csv('data/existente_plz.csv', index=False)
-existente_alm.to_csv('data/existente_alm.csv', index=False)    
+arribos.to_csv(os.path.join(path, 'data/arribos.csv'), index=False)
+arribos_expo_carga.to_csv(os.path.join(path, 'data/arribos_expo_carga.csv'), index=False)
+arribos_expo_ctns.to_csv(os.path.join(path, 'data/arribos_expo_ctns.csv'), index=False)
+pendiente_ingresado.to_csv(os.path.join(path, 'data/pendiente_ingresado.csv'), index=False)
+pendiente_desconsolidar.to_csv(os.path.join(path, 'data/pendiente_desconsolidar.csv'), index=False)
+pendiente_consolidar.to_csv(os.path.join(path, 'data/pendiente_consolidar.csv'), index=False)
+listos_para_remitir.to_csv(os.path.join(path, 'data/listos_para_remitir.csv'), index=False)
+vacios_disponibles.to_csv(os.path.join(path, 'data/vacios_disponibles.csv'), index=False)
+existente_plz.to_csv(os.path.join(path, 'data/existente_plz.csv'), index=False)
+existente_alm.to_csv(os.path.join(path, 'data/existente_alm.csv'), index=False)
 
 
 #### TURNOS ####
@@ -613,11 +615,11 @@ verificaciones_impo = rellenar_df_vacio(verificaciones_impo)
 otros_impo = rellenar_df_vacio(otros_impo)
 
 
-verificaciones_expo.to_csv('data/verificaciones_expo.csv', index=False)
-verificaciones_impo.to_csv('data/verificaciones_impo.csv', index=False)
-retiros_expo.to_csv('data/retiros_expo.csv', index=False)
-retiros_impo.to_csv('data/retiros_impo.csv', index=False)
-otros_expo.to_csv('data/otros_expo.csv', index=False)
-otros_impo.to_csv('data/otros_impo.csv', index=False)
-remisiones.to_csv('data/remisiones.csv', index=False)
-consolidados.to_csv('data/consolidados.csv', index=False)
+verificaciones_expo.to_csv(os.path.join(path, 'data/verificaciones_expo.csv'), index=False)
+verificaciones_impo.to_csv(os.path.join(path, 'data/verificaciones_impo.csv'), index=False)
+retiros_expo.to_csv(os.path.join(path, 'data/retiros_expo.csv'), index=False)
+retiros_impo.to_csv(os.path.join(path, 'data/retiros_impo.csv'), index=False)
+otros_expo.to_csv(os.path.join(path, 'data/otros_expo.csv'), index=False)
+otros_impo.to_csv(os.path.join(path, 'data/otros_impo.csv'), index=False)
+remisiones.to_csv(os.path.join(path, 'data/remisiones.csv'), index=False)
+consolidados.to_csv(os.path.join(path, 'data/consolidados.csv'), index=False)
