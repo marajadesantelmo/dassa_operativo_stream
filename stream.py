@@ -10,7 +10,7 @@ st.set_page_config(page_title="Operativa DASSA",
 
 # Top Navigation
 st.title("Orden del día")
-page_selection = st.radio("Seleccione una opción:", ["IMPO Orden del día", "EXPO Orden del día"])
+page_selection = st.radio("", ["IMPO Orden del día", "EXPO Orden del día"])
 
 st.markdown(
     """
@@ -40,6 +40,8 @@ st.markdown(
         .dataframe th {
             background-color: #B0B0B0; /* Darker gray for headers */
             color: black;  /* Black text for headers */
+            font-weight: bold;  /* Bold headers */
+            font-size: 10px;  /* Larger font size for headers */
         }
         .dataframe td {
             background-color: #D3D3D3;  /* Gray background for table cells */
@@ -70,6 +72,12 @@ st.markdown(
         }
         .stButton button:hover {
             background-color: #586e75;
+        }
+
+        /* Radio button customization */
+        .stRadio > label {
+            color: white;  /* White text for radio button labels */
+            font-size: 16px;  /* Larger font size for radio button labels */
         }
     </style>
     """, 
