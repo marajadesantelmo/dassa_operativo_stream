@@ -79,9 +79,9 @@ st.markdown(
 
 # Load the appropriate page based on sidebar selection
 if page_selection == "IMPO Orden del día":
-    stream_impo.show_page()  # Function to render the IMPO page
+    stream_impo.show_page_impo()  # Function to render the IMPO page
 elif page_selection == "EXPO Orden del día":
-    stream_expo.show_page()  # Function to render the EXPO page
+    stream_expo.show_page_expo()  # Function to render the EXPO page
 elif page_selection == "IMPO Histórico":
     stream_impo_historico.show_page()  # Function to render the IMPO historical page
 elif page_selection == "EXPO Histórico":
