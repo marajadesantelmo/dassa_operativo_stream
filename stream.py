@@ -3,11 +3,15 @@ import stream_impo
 import stream_expo
 import stream_impo_historico
 import stream_expo_historico
+from streamlit_autorefresh import st_autorefresh
 
 # Page configuration
 st.set_page_config(page_title="Operativa DASSA", 
                    page_icon="📊", 
                    layout="wide")
+
+refresh_interval_ms = 30 * 1000  # 30 seconds in milliseconds
+count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refresh")
 
 # Custom CSS for styling
 st.markdown(
@@ -83,22 +87,6 @@ st.markdown(
         }
     </style>
     """, 
-    unsafe_allow_html=True
-)
-
-# JavaScript for automatic refresh every 10 seconds
-refresh_interval = 10  # Refresh interval in seconds
-st.markdown(
-    f"""
-    <script>
-    function reload() {{
-        setTimeout(function() {{
-            window.location.reload(1);
-        }}, {refresh_interval * 1000});
-    }}
-    reload();
-    </script>
-    """,
     unsafe_allow_html=True
 )
 
