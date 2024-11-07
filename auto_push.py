@@ -49,7 +49,7 @@ def main():
             print("No changes detected.")
         
         # Espera 10 mins
-        time.sleep(600)
+        time.sleep(1200)
 
 if __name__ == "__main__":
     main()
