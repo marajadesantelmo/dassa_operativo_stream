@@ -3,15 +3,13 @@ import stream_impo
 import stream_expo
 import stream_impo_historico
 import stream_expo_historico
-# Probando
+
+# Page configuration
 st.set_page_config(page_title="Operativa DASSA", 
                    page_icon="📊", 
                    layout="wide")
 
-# Top Navigation
-st.title("Orden del día")
-page_selection = st.radio("", ["IMPO Orden del día", "EXPO Orden del día"])
-
+# Custom CSS for styling
 st.markdown(
     """
     <style>
@@ -21,7 +19,7 @@ st.markdown(
             color: #839496;
         }
         h1, h2, h3, h4, h5, h6 {
-            color: #93a1a1;  /* Solarized headers */
+            color: #93a1a1;
         }
         .stApp {
             background-color: #002b36;
@@ -29,39 +27,39 @@ st.markdown(
         
         /* Table customization */
         .dataframe {
-            background-color: #D3D3D3; /* Gray background for the entire table */
-            color: black;  /* Black text for headers and cells */
+            background-color: #D3D3D3;
+            color: black;
         }
         .dataframe table {
             width: auto;
             table-layout: auto;
-            background-color: #D3D3D3; /* Ensure table background is gray */
+            background-color: #D3D3D3;
         }
         .dataframe th {
-            background-color: #B0B0B0; /* Darker gray for headers */
-            color: black;  /* Black text for headers */
-            font-weight: bold;  /* Bold headers */
-            font-size: 10px;  /* Larger font size for headers */
+            background-color: #B0B0B0;
+            color: black;
+            font-weight: bold;
+            font-size: 10px;
         }
         .dataframe td {
-            background-color: #D3D3D3;  /* Gray background for table cells */
-            color: black;  /* Black text for table cells */
-            font-size: 6px;  /* Smaller font size */
+            background-color: #D3D3D3;
+            color: black;
+            font-size: 6px;
         }
         .dataframe td, .dataframe th {
-            padding: 0.1rem;  /* Thinner padding */
+            padding: 0.1rem;
             text-align: left;
             word-wrap: break-word;
             white-space: nowrap;
-            border: 1px solid #586e75;  /* Subtle border for table */
+            border: 1px solid #586e75;
         }
         
         /* Sidebar styling */
-        .css-1d391kg {  /* Sidebar */
+        .css-1d391kg {
             background-color: #073642;
             color: #839496;
-            font-size: 8px;  /* Smaller font size */
-            width: 20px;  /* Adjust the width to make the sidebar smaller */
+            font-size: 8px;
+            width: 20px;
         }
         
         /* Streamlit buttons and input fields */
@@ -76,20 +74,23 @@ st.markdown(
 
         /* Radio button customization */
         .stRadio > label {
-            color: white;  /* White text for radio button labels */
-            font-size: 16px;  /* Larger font size for radio button labels */
+            color: white;
+            font-size: 20px;  /* Larger font size for radio button labels */
+        }
+        .stRadio > div div label {
+            font-size: 24px; /* Increase font size for "IMPO" and "EXPO" */
+            font-weight: bold; /* Bold text for better emphasis */
         }
     </style>
     """, 
     unsafe_allow_html=True
 )
 
+# Top Navigation
+page_selection = st.radio("", ["IMPO", "EXPO"])
+
 # Load the appropriate page based on sidebar selection
-if page_selection == "IMPO Orden del día":
+if page_selection == "IMPO":
     stream_impo.show_page_impo()  # Function to render the IMPO page
-elif page_selection == "EXPO Orden del día":
+elif page_selection == "EXPO":
     stream_expo.show_page_expo()  # Function to render the EXPO page
-elif page_selection == "IMPO Histórico":
-    stream_impo_historico.show_page()  # Function to render the IMPO historical page
-elif page_selection == "EXPO Histórico":
-    stream_expo_historico.show_page()  # Function to render the EXPO historical page
