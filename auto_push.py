@@ -29,7 +29,9 @@ def commit_and_push():
         subprocess.run(['git', 'add', '.'], cwd=repo_directory)
         
         # Commit the changes
-        subprocess.run(['git', 'commit', '-m', '"Update automatico de datos v2"'], cwd=repo_directory)
+        current_time = time.strftime("%H:%M")
+        commit_message = f"Update {current_time}"
+        subprocess.run(['git', 'commit', '-m', commit_message], cwd=repo_directory)
         
         # Push to GitHub
         subprocess.run(['git', 'push'], cwd=repo_directory)
