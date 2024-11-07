@@ -1,2 +1,2 @@
-"C:\Users\facun\anaconda3\python.exe" "C:\Users\facun\OneDrive\Documentos\GitHub\dassa_operativo_streamlit\update_data.py"
+"C:\Users\flastra\AppData\Local\anaconda3\python.exe" "\\dc01\Usuarios\PowerBI\flastra\Documents\dassa_operativo_stream\update_data.py"
 pause
