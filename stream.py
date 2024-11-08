@@ -95,8 +95,8 @@ st.markdown(
 #page_selection = st.radio("", ["IMPO", "EXPO"])
 # Horizontal Navigation Menu
 page_selection  = option_menu(
-    menu_title=None, 
-    options=["IMPO", "EXPO"],  # Add the options parameter
+    None,  # No menu title
+    ["IMPO", "EXPO"],  # Options parameter
     icons=["book", "book"], 
     menu_icon="cast",  
     default_index=0, 
