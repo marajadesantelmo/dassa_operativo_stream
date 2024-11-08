@@ -20,15 +20,19 @@ with open("styles.css") as f:
 
 page_selection  = option_menu(
     None,  # No menu title
-    ["IMPO", "EXPO"],  # Options parameter
-    icons=["arrow-down-circle", "arrow-up-circle"],  
+    ["IMPO", "EXPO", "IMPO - histórico", "EXPO - histórico"],  
+    icons=["arrow-down-circle", "arrow-up-circle", "book", "book"], 
     menu_icon="cast",  
     default_index=0, 
     orientation="horizontal",  
 )
 
-# Load the appropriate page based on sidebar selection
+
 if page_selection == "IMPO":
-    stream_impo.show_page_impo()  # Function to render the IMPO page
+    stream_impo.show_page_impo()  
 elif page_selection == "EXPO":
-    stream_expo.show_page_expo()  # Function to render the EXPO page
+    stream_expo.show_page_expo()
+elif page_selection == "IMPO - histórico":
+    stream_impo_historico.show_page_impo_historico()
+elif page_selection == "EXPO - histórico":
+    stream_expo_historico.show_page_expo_historico()
