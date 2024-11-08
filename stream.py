@@ -21,7 +21,7 @@ with open("styles.css") as f:
 page_selection  = option_menu(
     None,  # No menu title
     ["IMPO", "EXPO"],  # Options parameter
-    icons=["book", "book"], 
+    icons=["arrow-down-circle", "arrow-up-circle"],  
     menu_icon="cast",  
     default_index=0, 
     orientation="horizontal",  
