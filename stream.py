@@ -18,7 +18,6 @@ count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refre
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-
 page_selection  = option_menu(
     None,  # No menu title
     ["IMPO", "EXPO"],  # Options parameter

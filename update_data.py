@@ -511,7 +511,7 @@ verificaciones = turnos[turnos['destino'].str.contains('Verificacion', case=Fals
 consolidados = turnos[turnos['destino'].str.contains('Consolidado', case=False, na=False)]
 retiros_remisiones = turnos[turnos['destino'].str.contains('Retiro|Remi', case=False, na=False)]
 
-# Consolidados
+## 1. Consolidados
 existente_a_consolidar = pd.merge(consolidados, existente.drop(columns=['id', 'suborden', 'renglon', 'conocim2']), on='orden_ing', how='inner')
 contenedores_a_consolidar = existente_a_consolidar[existente_a_consolidar['Envase'] == 'Contenedor']
 mercaderia_a_consolidar = existente_a_consolidar[existente_a_consolidar['Envase'] != 'Contenedor']
@@ -519,15 +519,13 @@ mercaderia_a_consolidar = mercaderia_a_consolidar.groupby('orden_ing').agg({
     'volumen': 'sum',
     'cantidad': 'sum',
     'kilos': 'sum'}).reset_index()
-
-# Join de contenedores y mercaderia
 contenedores_a_consolidar.drop(columns=['volumen', 'cantidad', 'kilos'], inplace=True)
 consolidados = pd.merge(contenedores_a_consolidar, mercaderia_a_consolidar, on='orden_ing', how='left')
 
 # Quito conocimiento del existente
 existente.drop(columns=['conocim2', 'orden_ing', 'suborden', 'renglon'], inplace=True)
 
-
+## 2. Retiros y remisiones
 retiros_remisiones_egr = pd.merge(retiros_remisiones, egresado, on='id', how='inner')
 retiros_remisiones_egr['fecha_egr'] = pd.to_datetime(retiros_remisiones_egr['fecha_egr']).dt.date
 retiros_remisiones_egr['Estado'] = 'Pendiente'
