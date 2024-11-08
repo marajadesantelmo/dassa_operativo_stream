@@ -579,6 +579,7 @@ turnos = limpiar_columnas(turnos)
 
 turnos['cliente'] = turnos['cliente'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
 turnos['desc_merc'] = turnos['desc_merc'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
+turnos['precinto'] = turnos['precinto'].fillna('---')
 turnos['ubicacion'] = turnos['ubicacion'].str.strip()
 
 verificaciones_expo = turnos[(turnos['tipo_oper'] == 'Exportacion') & (turnos['destino'] == 'Verificacion')]
@@ -599,7 +600,6 @@ otros_impo = turnos[(turnos['tipo_oper'] == 'Importacion') & (~turnos['destino']
 otros_impo = otros_impo[['dia', 'hora', 'id', 'cliente', 'contenedor', 'Envase', 'cantidad', 'ubicacion', 'Estado']]
 otros_impo.columns = ['Dia', 'Hora', 'Operacion', 'Cliente', 'Contenedor', 'Envase', 'Cant.', 'Ubic.', 'Estado']
 
-
 retiros_expo = turnos[(turnos['tipo_oper'] == 'Exportacion') & (turnos['destino'] == 'Retiro')]
 retiros_expo = retiros_expo[['dia', 'cliente', 'conocim1', 'contenedor', 'Envase', 'cantidad', 'ubicacion', 'Estado']]
 retiros_expo.columns = ['Dia', 'Cliente', 'Conocim.', 'Contenedor', 'Envase', 'Cantidad', 'Ubic.', 'Estado']
@@ -609,7 +609,12 @@ otros_expo = otros_expo[['dia', 'hora', 'id', 'cliente', 'contenedor', 'Envase',
 otros_expo.columns = ['Dia', 'Hora', 'Operacion', 'Cliente', 'Contenedor', 'Envase', 'Cantidad', 'Ubic.']
 
 remisiones = turnos[turnos['destino'] == 'Remision']
+remisiones = remisiones[['dia', 'cliente', 'contenedor', 'volumen', 'precinto', 'observa', 'Estado']]
+remisiones.columns = ['Dia', 'Cliente', 'Contenedor', 'Volumen', 'Precinto', 'Observaciones', 'Estado']
+
 consolidados = turnos[turnos['destino'] == 'Consolidado']
+consolidados = consolidados[['dia', 'cliente', 'contenedor', 'observa', 'volumen', 'cantidad', 'kilos']]
+consolidados.columns = ['Dia', 'Cliente', 'Contenedor', 'Observaciones', 'Volumen', 'Cantidad', 'Kilos']
 
 verificaciones_expo = rellenar_df_vacio(verificaciones_expo)
 retiros_expo = rellenar_df_vacio(retiros_expo)
