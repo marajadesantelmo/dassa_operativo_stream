@@ -353,12 +353,13 @@ arribos = arribos[['terminal', 'turno', 'contenedor', 'cliente', 'bookings', 'ti
 arribos.columns = ['Terminal', 'Turno', 'Contenedor', 'Cliente', 'Bookings', 'Tipo', 'Temp.', 'Estado']
 arribos['Cliente'] = arribos['Cliente'].apply(lambda x: x[:10] + "..." if len(x) > 10 else x)
 arribos['Bookings'] = arribos['Bookings'].apply(lambda x: x[:10] + "..." if len(x) > 10 else x)
-arribos['Turno'] = arribos['Turno'].apply(lambda x: f"{str(x)[:-2]}:{str(x)[-2:]}")
+arribos['Turno'] = arribos['Turno'].apply(lambda x: f"{str(x)[0:2]}:{str(x)[2:]}")
 
 pendiente_desconsolidar = pendiente_desconsolidar[['contenedor', 'cliente', 'Entrega', 'vto_vacio', 'tipo_cnt', 'peso','Estado']]
 pendiente_desconsolidar.columns = ['Contenedor', 'Cliente', 'Entrega', 'Vto. Vacio', 'Tipo', 'Peso', 'Estado']
 pendiente_desconsolidar['Entrega'] = pendiente_desconsolidar['Entrega'].fillna('-')
-pendiente_desconsolidar['Cliente'] = pendiente_desconsolidar['Cliente'].apply(lambda x: x[:10] + "..." if len(x) > 10 else x)
+pendiente_desconsolidar['Cliente'] = pendiente_desconsolidar['Cliente'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
+pendiente_desconsolidar['contenedor'] = pendiente_desconsolidar['contenedor'].fillna('---')
 
 arribos = rellenar_df_vacio(arribos)
 pendiente_desconsolidar = rellenar_df_vacio(pendiente_desconsolidar)
