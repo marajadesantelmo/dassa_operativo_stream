@@ -97,7 +97,7 @@ st.markdown(
 page_selection  = option_menu(
     menu_title=None, 
     # Menu options
-    icons=["arrow-down-circle", "arrow-up-circle"],  s
+    icons=["arrow-down-circle", "arrow-up-circle"], 
     menu_icon="cast",  
     default_index=0, 
     orientation="horizontal",  
