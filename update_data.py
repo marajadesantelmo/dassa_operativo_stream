@@ -359,7 +359,7 @@ pendiente_desconsolidar = pendiente_desconsolidar[['contenedor', 'cliente', 'Ent
 pendiente_desconsolidar.columns = ['Contenedor', 'Cliente', 'Entrega', 'Vto. Vacio', 'Tipo', 'Peso', 'Estado']
 pendiente_desconsolidar['Entrega'] = pendiente_desconsolidar['Entrega'].fillna('-')
 pendiente_desconsolidar['Cliente'] = pendiente_desconsolidar['Cliente'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
-pendiente_desconsolidar['contenedor'] = pendiente_desconsolidar['contenedor'].fillna('---')
+pendiente_desconsolidar['Contenedor'] = pendiente_desconsolidar['Contenedor'].fillna('---')
 
 arribos = rellenar_df_vacio(arribos)
 pendiente_desconsolidar = rellenar_df_vacio(pendiente_desconsolidar)
