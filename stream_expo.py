@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import time
-from utils import highlight, rellenar_df_vacio
+from utils import highlight
 
 def fetch_data_expo():
     arribos_expo_carga = pd.read_csv('data/arribos_expo_carga.csv')
@@ -14,7 +14,6 @@ def fetch_data_expo():
     consolidados = pd.read_csv('data/consolidados.csv')
     return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, retiros_expo, otros_expo, remisiones, consolidados
     
-
 def show_page_expo():
     # Load data
     arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, retiros_expo, otros_expo, remisiones, consolidados = fetch_data_expo()
@@ -32,24 +31,24 @@ def show_page_expo():
     # Column 1: Arribos
     with col1:
         st.subheader("Arribos de Carga")
-        st.dataframe(arribos_expo_carga.style.apply(highlight, axis=1), hide_index=True)
+        st.dataframe(arribos_expo_carga.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
     # Column 2: Pendiente Desconsolidar
     with col2:
         st.subheader("Arribos de Contenedores")
-        st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1).format(precision=0), hide_index=True)
+        st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1).format(precision=0), hide_index=True, use_container_width=True)
 
     col3, col4 = st.columns(2)
     with col3:
         st.subheader("Verificaciones")
-        st.dataframe(verificaciones_expo, hide_index=True)
+        st.dataframe(verificaciones_expo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
         st.subheader("Consolidados")
-        st.dataframe(consolidados, hide_index=True)
+        st.dataframe(consolidados, hide_index=True, use_container_width=True)
 
     with col4:
         st.subheader("Remisiones")
-        st.dataframe(remisiones.style.apply(highlight, axis=1), hide_index=True)
+        st.dataframe(remisiones.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
 
 

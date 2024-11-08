@@ -24,8 +24,7 @@ page_selection  = option_menu(
     icons=["arrow-down-circle", "arrow-up-circle", "book", "book"], 
     menu_icon="cast",  
     default_index=0, 
-    orientation="horizontal",  
-)
+    orientation="horizontal")
 
 
 if page_selection == "IMPO":
