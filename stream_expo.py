@@ -55,7 +55,7 @@ def show_page_expo():
         st.dataframe(remisiones.style.apply(highlight, axis=1), hide_index=True)
 
         st.subheader("Consolidados")
-        st.dataframe(consolidados.style.apply(highlight, axis=1), hide_index=True)
+        st.dataframe(consolidados, hide_index=True)
 
 if __name__ == "__main__":
     while True:
