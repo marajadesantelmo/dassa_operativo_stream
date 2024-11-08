@@ -570,8 +570,8 @@ turnos = limpiar_columnas(turnos)
 
 ## Parte que estaba en la app
 
-turnos['cliente'] = turnos['cliente'].apply(lambda x: x[:10] + "..." if len(x) > 10 else x)
-turnos['desc_merc'] = turnos['desc_merc'].apply(lambda x: x[:10] + "..." if len(x) > 10 else x)
+turnos['cliente'] = turnos['cliente'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
+turnos['desc_merc'] = turnos['desc_merc'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
 turnos['ubicacion'] = turnos['ubicacion'].str.strip()
 
 verificaciones_expo = turnos[(turnos['tipo_oper'] == 'Exportacion') & (turnos['destino'] == 'Verificacion')]
