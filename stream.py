@@ -96,17 +96,11 @@ st.markdown(
 # Horizontal Navigation Menu
 page_selection  = option_menu(
     menu_title=None, 
-    # Menu options
-    icons=["arrow-down-circle", "arrow-up-circle"], 
+    options=["IMPO", "EXPO"],  # Add the options parameter
+    icons=["book", "book"], 
     menu_icon="cast",  
     default_index=0, 
     orientation="horizontal",  
-    styles={
-        "container": {"padding": "0!important", "background-color": "#002b36"},
-        "icon": {"color": "#93a1a1", "font-size": "25px"},
-        "nav-link": {"font-size": "20px", "text-align": "center", "margin": "0px", "--hover-color": "#586e75"},
-        "nav-link-selected": {"background-color": "#073642"},
-    }
 )
 
 # Load the appropriate page based on sidebar selection
