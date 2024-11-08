@@ -4,6 +4,7 @@ import stream_expo
 import stream_impo_historico
 import stream_expo_historico
 from streamlit_autorefresh import st_autorefresh
+from streamlit_option_menu import option_menu
 
 # Page configuration
 st.set_page_config(page_title="Operativa DASSA", 
@@ -91,7 +92,22 @@ st.markdown(
 )
 
 # Top Navigation
-page_selection = st.radio("", ["IMPO", "EXPO"])
+#page_selection = st.radio("", ["IMPO", "EXPO"])
+# Horizontal Navigation Menu
+page_selection  = option_menu(
+    menu_title=None, 
+    # Menu options
+    icons=["arrow-down-circle", "arrow-up-circle"],  s
+    menu_icon="cast",  
+    default_index=0, 
+    orientation="horizontal",  
+    styles={
+        "container": {"padding": "0!important", "background-color": "#002b36"},
+        "icon": {"color": "#93a1a1", "font-size": "25px"},
+        "nav-link": {"font-size": "20px", "text-align": "center", "margin": "0px", "--hover-color": "#586e75"},
+        "nav-link-selected": {"background-color": "#073642"},
+    }
+)
 
 # Load the appropriate page based on sidebar selection
 if page_selection == "IMPO":

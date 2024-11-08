@@ -531,41 +531,54 @@ consolidados = pd.merge(contenedores_a_consolidar, mercaderia_a_consolidar, on='
 # Quito conocimiento del existente
 existente.drop(columns=['conocim2', 'orden_ing', 'suborden', 'renglon'], inplace=True)
 
-# Retiros y remisiones (lo trato a parte porque tengo que hacer match con salidas)
-turnos_egr = pd.merge(turnos, egresado, on='id', how='inner')
-turnos_egr['Estado'] = 'En curso'
-turnos_exist = pd.merge(turnos, existente, on='id', how='inner')
-turnos_exist['Estado'] = 'Pendiente'
-turnos_exist = turnos_exist[~turnos_exist['id'].isin(turnos_egr['id'])] #Se sacan casos de retiros parciales
-turnos = pd.concat([turnos_egr, turnos_exist], ignore_index=True)
-turnos = pd.merge(turnos, salidas, on='id', how='left')
-turnos = pd.merge(turnos, salidas_vacios, on='id', how='left')
-turnos['fecha_salida_validada'] = pd.to_datetime(turnos['salida_validada'], errors='coerce').dt.date
-turnos['salida_validada'] = turnos.apply(
+retiros_remisiones = turnos[turnos['destino'].str.contains('Retiro|Remi', case=False, na=False)]
+retiros_remisiones_egr = pd.merge(retiros_remisiones, egresado, on='id', how='inner')
+retiros_remisiones_egr['fecha_egr'] = pd.to_datetime(retiros_remisiones_egr['fecha_egr']).dt.date
+retiros_remisiones_egr['Estado'] = 'Pendiente'
+retiros_remisiones_egr['Estado'] = retiros_remisiones_egr.apply(
+    lambda row: 'En curso' if row['fecha_egr'] == datetime.now().date() else row['Estado'],
+    axis=1
+)
+retiros_remisiones_exist = pd.merge(retiros_remisiones, existente, on='id', how='inner')
+retiros_remisiones_exist['Estado'] = 'Pendiente'
+#retiros_remisiones_exist = retiros_remisiones_exist[~retiros_remisiones_exist['id'].isin(retiros_remisiones_egr['id'])]  #Se sacan casos de retiros parciales (VER QUE TODAVIA HAY PROBLEMAS)
+retiros_remisiones_egr = retiros_remisiones_egr[~retiros_remisiones_egr['id'].isin(retiros_remisiones_exist['id'])]
+retiros_remisiones = pd.concat([retiros_remisiones_egr, retiros_remisiones_exist], ignore_index=True)
+retiros_remisiones = pd.merge(retiros_remisiones, salidas, on='id', how='left')
+retiros_remisiones = pd.merge(retiros_remisiones, salidas_vacios, on='id', how='left')
+retiros_remisiones['fecha_salida_validada'] = pd.to_datetime(retiros_remisiones['salida_validada'], errors='coerce').dt.date
+retiros_remisiones['salida_validada'] = retiros_remisiones.apply(
     lambda row: float('nan') if pd.notna(row['fecha_salida_validada']) and row['fecha_salida_validada'] < datetime.now().date() else row['salida_validada'],
     axis=1)
-turnos.drop(columns=['fecha_salida_validada'], inplace=True)
-turnos['Estado'] = turnos.apply(
+retiros_remisiones.drop(columns=['fecha_salida_validada'], inplace=True)
+retiros_remisiones['Estado'] = retiros_remisiones.apply(
     lambda row: row['salida_validada'][11:16] + ' Realizado' if pd.notna(row['salida_validada']) else row['Estado'],
     axis=1)
 
-# Verificaciones
+## 3. Verificaciones
+verificaciones = turnos[turnos['destino'].str.contains('Verificacion', case=False, na=False)]
 verificaciones= pd.merge(verificaciones, verificaciones_realizadas, on='id', how='left')
 verificaciones['Estado'] = verificaciones['fechaverif'].apply(lambda x: 'Realizado' if pd.notna(x) else 'Pendiente')
 verificaciones_existente = pd.merge(verificaciones, existente, on='id', how='inner')
 verificaciones_egresado = pd.merge(verificaciones, egresado, on='id', how='inner')
-# Verificaciones sin dato
 verificaciones_sin_dato = verificaciones[
     ~verificaciones['id'].isin(verificaciones_existente['id']) &
     ~verificaciones['id'].isin(verificaciones_egresado['id'])
 ]
 verificaciones = pd.concat([verificaciones_existente, verificaciones_egresado, verificaciones_sin_dato], ignore_index=True)
+
+## 4. Clasificaciones
+clasificaciones = turnos[turnos['destino'].str.contains('Clasi', case=False, na=False)]
+clasificaciones_existente = pd.merge(clasificaciones, existente, on='id', how='inner')
+clasificaciones_egresado = pd.merge(clasificaciones, egresado, on='id', how='inner')
+clasificaciones_sin_dato = clasificaciones[~clasificaciones['id'].isin(clasificaciones_existente['id']) & ~clasificaciones['id'].isin(clasificaciones_egresado['id'])]
+clasificaciones = pd.concat([clasificaciones_existente, clasificaciones_egresado, clasificaciones_sin_dato], ignore_index=True)
+
 #Junto verificaciones con resto de turnos
-turnos = pd.concat([turnos, verificaciones, consolidados], ignore_index=True)
+turnos = pd.concat([retiros_remisiones, verificaciones, consolidados, clasificaciones], ignore_index=True)
 #Join de ubicaciones
 turnos = pd.merge(turnos, ubicaciones, on='id', how='left')
 turnos = limpiar_columnas(turnos)
-
 
 
 ## Parte que estaba en la app
