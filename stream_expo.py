@@ -44,18 +44,14 @@ def show_page_expo():
         st.subheader("Verificaciones")
         st.dataframe(verificaciones_expo, hide_index=True)
 
-        st.subheader("Otros Exportaciones")
-        st.dataframe(otros_expo, hide_index=True)
+        st.subheader("Consolidados")
+        st.dataframe(consolidados, hide_index=True)
 
     with col4:
-        st.subheader("Retiros")
-        st.dataframe(retiros_expo.style.apply(highlight, axis=1), hide_index=True)
-
         st.subheader("Remisiones")
         st.dataframe(remisiones.style.apply(highlight, axis=1), hide_index=True)
 
-        st.subheader("Consolidados")
-        st.dataframe(consolidados, hide_index=True)
+
 
 if __name__ == "__main__":
     while True:
