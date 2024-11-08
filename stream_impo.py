@@ -29,24 +29,23 @@ def show_page_impo():
 
     # Column 1: Arribos
     with col1:
-        st.header("Arribos Contenedores")
+        st.subheader("Arribos Contenedores")
         st.dataframe(arribos.style.apply(highlight, axis=1).set_properties(subset=['Cliente'], **{'width': '20px'}), hide_index=True, use_container_width=True)
 
     # Column 2: Pendiente Desconsolidar
     with col2:
-        st.header("Pendiente Desconsolidar y Vacios")
+        st.subheader("Pendiente Desconsolidar y Vacios")
         st.dataframe(pendiente_desconsolidar.style.apply(highlight, axis=1).format(precision=0), hide_index=True, use_container_width=True)
 
-    st.header("Turnos")
     col3, col4 = st.columns(2)
     with col3:
-        st.header("Verificaciones")
+        st.subheader("Verificaciones")
         st.dataframe(verificaciones_impo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-        st.header("Otros")
+        st.subheader("Otros")
         st.dataframe(otros_impo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
     with col4:
-        st.header("Retiros")
+        st.subheader("Retiros")
         st.dataframe(retiros_impo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
 

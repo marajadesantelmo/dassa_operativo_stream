@@ -31,15 +31,14 @@ def show_page_expo():
 
     # Column 1: Arribos
     with col1:
-        st.header("Arribos Contenedores")
+        st.subheader("Arribos Contenedores")
         st.dataframe(arribos_expo_carga.style.apply(highlight, axis=1), hide_index=True)
 
     # Column 2: Pendiente Desconsolidar
     with col2:
-        st.header("Pendiente Desconsolidar y Vacios")
+        st.subheader("Pendiente Desconsolidar y Vacios")
         st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1).format(precision=0), hide_index=True)
 
-    st.header("Turnos")
     col3, col4 = st.columns(2)
     with col3:
         st.subheader("Verificaciones")
