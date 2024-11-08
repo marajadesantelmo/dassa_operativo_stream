@@ -14,86 +14,11 @@ st.set_page_config(page_title="Operativa DASSA",
 refresh_interval_ms = 30 * 1000  # 30 seconds in milliseconds
 count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refresh")
 
-# Custom CSS for styling
-st.markdown(
-    """
-    <style>
-        /* Solarized Dark background and text colors */
-        body {
-            background-color: #002b36;
-            color: #839496;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            color: #93a1a1;
-        }
-        .stApp {
-            background-color: #002b36;
-        }
-        
-        /* Table customization */
-        .dataframe {
-            background-color: #D3D3D3;
-            color: black;
-        }
-        .dataframe table {
-            width: auto;
-            table-layout: auto;
-            background-color: #D3D3D3;
-        }
-        .dataframe th {
-            background-color: #B0B0B0;
-            color: black;
-            font-weight: bold;
-            font-size: 10px;
-        }
-        .dataframe td {
-            background-color: #D3D3D3;
-            color: black;
-            font-size: 6px;
-        }
-        .dataframe td, .dataframe th {
-            padding: 0.1rem;
-            text-align: left;
-            word-wrap: break-word;
-            white-space: nowrap;
-            border: 1px solid #586e75;
-        }
-        
-        /* Sidebar styling */
-        .css-1d391kg {
-            background-color: #073642;
-            color: #839496;
-            font-size: 8px;
-            width: 20px;
-        }
-        
-        /* Streamlit buttons and input fields */
-        .stButton button, .stTextInput input {
-            background-color: #073642;
-            color: #93a1a1;
-            border: 1px solid #586e75;
-        }
-        .stButton button:hover {
-            background-color: #586e75;
-        }
+# Estilo
+with open("styles.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-        /* Radio button customization */
-        .stRadio > label {
-            color: white;
-            font-size: 20px;  /* Larger font size for radio button labels */
-        }
-        .stRadio > div div label {
-            font-size: 24px; /* Increase font size for "IMPO" and "EXPO" */
-            font-weight: bold; /* Bold text for better emphasis */
-        }
-    </style>
-    """, 
-    unsafe_allow_html=True
-)
 
-# Top Navigation
-#page_selection = st.radio("", ["IMPO", "EXPO"])
-# Horizontal Navigation Menu
 page_selection  = option_menu(
     None,  # No menu title
     ["IMPO", "EXPO"],  # Options parameter

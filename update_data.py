@@ -1,9 +1,6 @@
 '''
 Script que actualiza los csv
 '''
-
-
-
 import pyodbc
 import pandas as pd
 import os
@@ -508,10 +505,11 @@ ubicaciones = generate_id(ubicaciones)
 
 turnos = limpiar_columnas(turnos)
 existente = limpiar_columnas(existente)
+
 #Separo segun tipo de turnos
 verificaciones = turnos[turnos['destino'].str.contains('Verificacion', case=False, na=False)]
 consolidados = turnos[turnos['destino'].str.contains('Consolidado', case=False, na=False)]
-turnos = turnos[turnos['destino'].str.contains('Retiro|Remi', case=False, na=False)]
+retiros_remisiones = turnos[turnos['destino'].str.contains('Retiro|Remi', case=False, na=False)]
 
 # Consolidados
 existente_a_consolidar = pd.merge(consolidados, existente.drop(columns=['id', 'suborden', 'renglon', 'conocim2']), on='orden_ing', how='inner')
@@ -524,14 +522,12 @@ mercaderia_a_consolidar = mercaderia_a_consolidar.groupby('orden_ing').agg({
 
 # Join de contenedores y mercaderia
 contenedores_a_consolidar.drop(columns=['volumen', 'cantidad', 'kilos'], inplace=True)
-
 consolidados = pd.merge(contenedores_a_consolidar, mercaderia_a_consolidar, on='orden_ing', how='left')
-
 
 # Quito conocimiento del existente
 existente.drop(columns=['conocim2', 'orden_ing', 'suborden', 'renglon'], inplace=True)
 
-retiros_remisiones = turnos[turnos['destino'].str.contains('Retiro|Remi', case=False, na=False)]
+
 retiros_remisiones_egr = pd.merge(retiros_remisiones, egresado, on='id', how='inner')
 retiros_remisiones_egr['fecha_egr'] = pd.to_datetime(retiros_remisiones_egr['fecha_egr']).dt.date
 retiros_remisiones_egr['Estado'] = 'Pendiente'
@@ -556,7 +552,6 @@ retiros_remisiones['Estado'] = retiros_remisiones.apply(
     axis=1)
 
 ## 3. Verificaciones
-verificaciones = turnos[turnos['destino'].str.contains('Verificacion', case=False, na=False)]
 verificaciones= pd.merge(verificaciones, verificaciones_realizadas, on='id', how='left')
 verificaciones['Estado'] = verificaciones['fechaverif'].apply(lambda x: 'Realizado' if pd.notna(x) else 'Pendiente')
 verificaciones_existente = pd.merge(verificaciones, existente, on='id', how='inner')
