@@ -1,7 +1,4 @@
 import pandas as pd
-import gspread
-from gspread_dataframe import set_with_dataframe
-from datetime import datetime
 
 def highlight(row):
     if "Realizado" in row['Estado']:

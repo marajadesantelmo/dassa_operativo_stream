@@ -2,6 +2,9 @@ import os
 import subprocess
 import time
 from utils import logging
+import gspread
+from gspread_dataframe import set_with_dataframe
+from datetime import datetime
 
 # Define the directory where your CSV files are stored
 local_directory = '//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/data'
