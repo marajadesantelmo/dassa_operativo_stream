@@ -1,6 +1,7 @@
 import os
 import subprocess
 import time
+from utils import logging
 
 # Define the directory where your CSV files are stored
 local_directory = '//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/data'
@@ -50,6 +51,7 @@ def main():
         
         # Espera 15 mins
         time.sleep(900)
+        logging('Streamlit - Auto Push - 15 mins')
 
 if __name__ == "__main__":
     main()

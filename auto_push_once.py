@@ -1,6 +1,7 @@
 import os
 import subprocess
 import time
+from utils import logging
 
 # Define the directory where your CSV files are stored
 local_directory = '//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/data'
@@ -46,6 +47,7 @@ def main():
         commit_and_push()
     else:
         print("No changes detected.")
+    logging('Streamlit - Auto Push - Once')
 
 if __name__ == "__main__":
     main()

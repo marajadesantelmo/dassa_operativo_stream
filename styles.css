@@ -66,3 +66,29 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px; /* Increase font size for "IMPO" and "EXPO" */
     font-weight: bold; /* Bold text for better emphasis */
 }
+
+/* Scorecard styling */
+.scorecard {
+    background-color: rgba(211, 211, 211, 0.8); /* Light grey with 80% transparency */
+    padding: 15px;                              /* Space inside the card */
+    border-radius: 10px;                         /* Rounded corners for a smooth look */
+    text-align: center;                          /* Centered text alignment */
+    color: #333333;                              /* Dark text for readability */
+    font-weight: bold;                           /* Bold text for emphasis */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);  /* Subtle shadow for depth */
+    margin-bottom: 15px;                         /* Space below the scorecard */
+    max-width: 120px;                            /* Optional: control width of the scorecard */
+}
+
+/* Scorecard label styling */
+.scorecard .label {
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+/* Scorecard value styling */
+.scorecard .value {
+    font-size: 1.6em;
+    line-height: 1.4em;
+    color: #002b36; /* Darker color for value to emphasize */
+}

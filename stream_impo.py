@@ -24,17 +24,24 @@ def show_page_impo():
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Operaciones de IMPO a partir del {current_day}")
 
-    # Create two columns
     col1, col2 = st.columns(2)
 
-    # Column 1: Arribos
     with col1:
-        st.subheader("Arribos Contenedores")
+        col1_sub, col1_metric = st.columns([7, 1])
+        with col1_sub:
+            st.subheader("Arribos Contenedores día de hoy")
+        with col1_metric:
+            st.metric(label="CTNs pendientes", value=arribos[arribos['Estado'] != 'Arribado'].shape[0])
         st.dataframe(arribos.style.apply(highlight, axis=1).set_properties(subset=['Cliente'], **{'width': '20px'}), hide_index=True, use_container_width=True)
 
-    # Column 2: Pendiente Desconsolidar
     with col2:
-        st.subheader("Pendiente Desconsolidar y Vacios")
+        col2_sub, col2_metric1, col2_mentric2 = st.columns([6, 1, 1])
+        with col2_sub:
+            st.subheader("Pendiente Desconsolidar y Vacios")
+        with col2_metric1:
+            st.metric(label="Pendtes. Desco.", value=pendiente_desconsolidar[pendiente_desconsolidar['Estado'] == 'Pte. Desc.'].shape[0])
+        with col2_mentric2:
+            st.metric(label="Vacios", value=pendiente_desconsolidar[pendiente_desconsolidar['Estado'] == 'Vacio'].shape[0])
         st.dataframe(pendiente_desconsolidar.style.apply(highlight, axis=1).format(precision=0), hide_index=True, use_container_width=True)
 
     col3, col4 = st.columns(2)
