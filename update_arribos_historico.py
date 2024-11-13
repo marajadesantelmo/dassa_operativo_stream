@@ -137,6 +137,9 @@ arribos_expo_ctns = arribos_expo_ctns[['fecha', 'orden', 'contenedor' , 'cliente
 arribos_expo_ctns.columns = ['Fecha', 'Operacion', 'Contenedor', 'Cliente', 'Booking', 'Precinto', 'Estado']
 arribos_expo_ctns['Booking'] = arribos_expo_ctns['Booking'].str.strip()
 
+arribos_expo_carga.to_csv('data/arribos_expo_carga_historico.csv', index=False)
+arribos_expo_ctns.to_csv('data/arribos_expo_ctns_historico.csv', index=False)
+
 #Contenedores ingresados
 ingresos['contenedor'] = ingresos['contenedor'].str.strip()
 arribados = arribos[arribos['arribado']==1]
@@ -149,5 +152,7 @@ arribos.columns = ['Fecha', 'Turno', 'Terminal', 'Contenedor', 'Cliente', 'Booki
 arribos['Cliente'] = arribos['Cliente'].str.strip()
 arribos['Booking'] = arribos['Booking'].str.strip()
 arribos['Turno'] = arribos['Turno'].str.strip().apply(lambda x: x[:2] + ":" + x[2:]  if x.strip() else pd.NaT)
+
+
 arribos.to_csv('data/arribos_impo_historico.csv', index=False)
 
