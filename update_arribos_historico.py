@@ -133,3 +133,4 @@ arribados = arribos[arribos['arribado']==1]
 arribos = pd.merge(arribos, ingresos[['contenedor', 'fecha_ing']], on=['contenedor'], how='left')
 arribos['Pendiente'] = arribos['fecha_ing'].isna().astype(int)
 
+arribos = arribos[['fecha', 'turno', 'terminal', 'contenedor', 'cliente', 'bookings', 'operacion', ]]
