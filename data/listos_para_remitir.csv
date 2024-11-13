@@ -1,30 +1,30 @@
-orden_ing,contenedor,conocim,cliente,bookings,tipo_cnt,dimension,fecha_ing,Dias
-30411,MAGU-241502-1,ZIMUBUE9033839                ,Jsos S.R.L                                                                      ,ZIMUBUE9033839      ,DR,20,2024-08-23,82
-31610,MRKU-059121-0,245345787                     ,Manufactura Los Andes S.A.                                                      ,245345787           ,DR,40,2024-10-28,16
-31765,HLBU-143349-0,63645644                      ,Suabia Maderas Srl                                                              ,63645644            ,HC,40,2024-11-05,8
-31785,MSKU-994962-6,246069391                     ,Helvecia S.A.                                                                   ,246069391           ,HC,40,2024-11-06,7
-31807,MRKU-331109-9,245841724                     ,Arleather S.R.L.                                                                ,245841724           ,HC,40,2024-11-06,7
-31807,MRKU-331109-9,245841724                     ,Arleather S.R.L.                                                                ,245841724           ,HC,40,2024-11-06,7
-31808,HASU-457301-2,245841724                     ,Arleather S.R.L.                                                                ,245841724           ,HC,40,2024-11-06,7
-31809,MSKU-063134-1,245841724                     ,Arleather S.R.L.                                                                ,245841724           ,HC,40,2024-11-06,7
-31817,TIIU-512623-3,340400040378                  ,Helvecia S.A.                                                                   ,340400040378        ,HC,40,2024-11-06,7
-31818,GAOU-628635-6,340400040378                  ,Helvecia S.A.                                                                   ,340400040378        ,HC,40,2024-11-06,7
-31819,BMOU-580605-3,340400040492                  ,Helvecia S.A.                                                                   ,340400040492        ,HC,40,2024-11-06,7
-31820,EISU-828522-9,340400040492                  ,Helvecia S.A.                                                                   ,340400040492        ,HC,40,2024-11-06,7
-31828,TRHU-106661-3,BUA0329583                    ,Pelama Chubut S.A.                                                              ,BUA0329583          ,DR,20,2024-11-07,6
-31845,MRKU-423570-6,245841756                     ,Arleather S.R.L.                                                                ,245841756           ,HC,40,2024-11-08,5
-31846,HASU-519267-0,245841526                     ,Arleather S.R.L.                                                                ,245841526           ,HC,40,2024-11-08,5
-31847,SEKU-697041-7,245841526                     ,Arleather S.R.L.                                                                ,245841526           ,HC,40,2024-11-08,5
-31850,TCKU-776044-9,245841756                     ,Arleather S.R.L.                                                                ,245841756           ,HC,40,2024-11-08,5
-31852,MRKU-096368-4,246475697                     ,Minera Santa Rita Srl                                                           ,246475697           ,DR,40,2024-11-08,5
-31853,MRKU-023676-7,246475697                     ,Minera Santa Rita Srl                                                           ,246475697           ,DR,40,2024-11-08,5
-31854,MRKU-060694-3,246475697                     ,Minera Santa Rita Srl                                                           ,246475697           ,DR,40,2024-11-08,5
-31855,MRKU-032396-4,246475697                     ,Minera Santa Rita Srl                                                           ,246475697           ,DR,40,2024-11-08,5
-31856,TXGU-568441-3,340400038608                  ,Norfor Sa                                                                       ,340400038608        ,HC,40,2024-11-08,5
-31857,EMCU-155479-2,340400038608                  ,Norfor Sa                                                                       ,340400038608        ,HC,40,2024-11-08,5
-31858,TCLU-858638-6,340400038608                  ,Norfor Sa                                                                       ,340400038608        ,HC,40,2024-11-08,5
-31888,MSDU-896122-0,EBKG10593886                  ,Tipoiti Satic                                                                   ,EBKG10593886        ,HC,40,2024-11-11,2
-31898,CIPU-501951-5,LA0392406                     ,Tipoiti Satic                                                                   ,LA0392406           ,HC,40,2024-11-11,2
-31901,BMOU-667086-6,65311784                      ,Suabia Maderas Srl                                                              ,65311784            ,HC,40,2024-11-11,2
-31902,HLXU-850613-1,65311784                      ,Suabia Maderas Srl                                                              ,65311784            ,HC,40,2024-11-11,2
-31903,FBLU-017496-2,65311784                      ,Suabia Maderas Srl                                                              ,65311784            ,HC,40,2024-11-11,2
+Orden,Cliente,Booking,Contenedor,Conocimiento,Tipo CNT,Dias
+30411,Jsos S.R.L,ZIMUBUE9033839      ,MAGU-241502-1,ZIMUBUE9033839,DR,82
+31610,Manufactura Los Andes S.A.,245345787           ,MRKU-059121-0,245345787,DR,16
+31765,Suabia Maderas Srl,63645644            ,HLBU-143349-0,63645644,HC,8
+31785,Helvecia S.A.,246069391           ,MSKU-994962-6,246069391,HC,7
+31807,Arleather S.R.L.,245841724           ,MRKU-331109-9,245841724,HC,7
+31807,Arleather S.R.L.,245841724           ,MRKU-331109-9,245841724,HC,7
+31808,Arleather S.R.L.,245841724           ,HASU-457301-2,245841724,HC,7
+31809,Arleather S.R.L.,245841724           ,MSKU-063134-1,245841724,HC,7
+31817,Helvecia S.A.,340400040378        ,TIIU-512623-3,340400040378,HC,7
+31818,Helvecia S.A.,340400040378        ,GAOU-628635-6,340400040378,HC,7
+31819,Helvecia S.A.,340400040492        ,BMOU-580605-3,340400040492,HC,7
+31820,Helvecia S.A.,340400040492        ,EISU-828522-9,340400040492,HC,7
+31828,Pelama Chubut S.A.,BUA0329583          ,TRHU-106661-3,BUA0329583,DR,6
+31845,Arleather S.R.L.,245841756           ,MRKU-423570-6,245841756,HC,5
+31846,Arleather S.R.L.,245841526           ,HASU-519267-0,245841526,HC,5
+31847,Arleather S.R.L.,245841526           ,SEKU-697041-7,245841526,HC,5
+31850,Arleather S.R.L.,245841756           ,TCKU-776044-9,245841756,HC,5
+31852,Minera Santa Rita Srl,246475697           ,MRKU-096368-4,246475697,DR,5
+31853,Minera Santa Rita Srl,246475697           ,MRKU-023676-7,246475697,DR,5
+31854,Minera Santa Rita Srl,246475697           ,MRKU-060694-3,246475697,DR,5
+31855,Minera Santa Rita Srl,246475697           ,MRKU-032396-4,246475697,DR,5
+31856,Norfor Sa,340400038608        ,TXGU-568441-3,340400038608,HC,5
+31857,Norfor Sa,340400038608        ,EMCU-155479-2,340400038608,HC,5
+31858,Norfor Sa,340400038608        ,TCLU-858638-6,340400038608,HC,5
+31888,Tipoiti Satic,EBKG10593886        ,MSDU-896122-0,EBKG10593886,HC,2
+31898,Tipoiti Satic,LA0392406           ,CIPU-501951-5,LA0392406,HC,2
+31901,Suabia Maderas Srl,65311784            ,BMOU-667086-6,65311784,HC,2
+31902,Suabia Maderas Srl,65311784            ,HLXU-850613-1,65311784,HC,2
+31903,Suabia Maderas Srl,65311784            ,FBLU-017496-2,65311784,HC,2
