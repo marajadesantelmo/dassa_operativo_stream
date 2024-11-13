@@ -2,6 +2,9 @@ import pandas as pd
 import smtplib
 from email.mime.text import MIMEText
 import re
+import gspread
+from datetime import datetime
+from gspread_dataframe import set_with_dataframe
 
 arribados = pd.read_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/alertas_arribos.csv')
 
@@ -39,3 +42,19 @@ alertas['alerta_enviada'] = 1
 arribados = arribados[arribados['alerta_enviada'] == 1]
 arribados = pd.concat([arribados, alertas])
 arribados.to_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/alertas_arribos.csv', index=False)
+
+
+
+
+
+gc = gspread.service_account(filename='//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/credenciales_gsheets.json')
+sheet_logs =  gc.open_by_url('https://docs.google.com/spreadsheets/d/1aPUkhige3tq7_HuJezTYA1Ko7BWZ4D4W0sZJtsTyq3A')                                           
+worksheet_logs = sheet_logs.worksheet('Logeos')
+df_logs = worksheet_logs.get_all_values()
+df_logs = pd.DataFrame(df_logs[1:], columns=df_logs[0])
+now = datetime.now().strftime('%Y-%m-%d %H:%M')
+new_log_entry = pd.DataFrame([{'Rutina': 'Alertas automaticas', 'Fecha y Hora': now}])
+df_logs = pd.concat([df_logs, new_log_entry], ignore_index=True)
+worksheet_logs.clear()
+set_with_dataframe(worksheet_logs, df_logs)
+print("Se registró el logeo")
