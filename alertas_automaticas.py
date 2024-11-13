@@ -6,12 +6,26 @@ import gspread
 from datetime import datetime
 from gspread_dataframe import set_with_dataframe
 
+def log(mensaje):
+    gc = gspread.service_account(filename='//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/credenciales_gsheets.json')
+    sheet_logs =  gc.open_by_url('https://docs.google.com/spreadsheets/d/1aPUkhige3tq7_HuJezTYA1Ko7BWZ4D4W0sZJtsTyq3A')                                           
+    worksheet_logs = sheet_logs.worksheet('Logeos')
+    df_logs = worksheet_logs.get_all_values()
+    df_logs = pd.DataFrame(df_logs[1:], columns=df_logs[0])
+    now = datetime.now().strftime('%Y-%m-%d %H:%M')
+    new_log_entry = pd.DataFrame([{'Rutina': mensaje, 'Fecha y Hora': now}])
+    df_logs = pd.concat([df_logs, new_log_entry], ignore_index=True)
+    worksheet_logs.clear()
+    set_with_dataframe(worksheet_logs, df_logs)
+    print("Se registró el logeo")
+
 arribados = pd.read_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/alertas_arribos.csv')
 
 alertas = arribados[arribados['alerta_enviada'] == 0]
 
 if alertas.empty:
     print("No hay alertas para enviar")
+    log("Alertas automaticas: no se enviaron alertas")
     exit()
 
 clientes = pd.read_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/contactos_clientes.csv')
@@ -36,7 +50,7 @@ def send_email(alertas, mails):
 for _, row in alertas.iterrows():
     mails = clientes[clientes['apellido'] == row['cliente']]['email'].values[0]
     send_email(row, mails)
-    print(f'Correo enviado a {mails} para el contenedor {row["contenedor"]}')
+    log(f'Correo enviado a {mails} para el contenedor {row["contenedor"]}')
 
 alertas['alerta_enviada'] = 1
 arribados = arribados[arribados['alerta_enviada'] == 1]
@@ -46,15 +60,3 @@ arribados.to_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stre
 
 
 
-
-gc = gspread.service_account(filename='//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/credenciales_gsheets.json')
-sheet_logs =  gc.open_by_url('https://docs.google.com/spreadsheets/d/1aPUkhige3tq7_HuJezTYA1Ko7BWZ4D4W0sZJtsTyq3A')                                           
-worksheet_logs = sheet_logs.worksheet('Logeos')
-df_logs = worksheet_logs.get_all_values()
-df_logs = pd.DataFrame(df_logs[1:], columns=df_logs[0])
-now = datetime.now().strftime('%Y-%m-%d %H:%M')
-new_log_entry = pd.DataFrame([{'Rutina': 'Alertas automaticas', 'Fecha y Hora': now}])
-df_logs = pd.concat([df_logs, new_log_entry], ignore_index=True)
-worksheet_logs.clear()
-set_with_dataframe(worksheet_logs, df_logs)
-print("Se registró el logeo")
