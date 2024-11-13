@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from datetime import datetime
 
 def fetch_data_impo_historico():
     arribos_impo_historico = pd.read_csv('data/arribos_impo_historico.csv')
@@ -18,8 +19,10 @@ def show_page_impo_historico():
     col1, col2 = st.columns(2)
     with col1:
         start_date = st.date_input("Fecha Inicio", value=arribos_impo_historico['Fecha'].min())
+        st.write(f"Fecha Inicio: {start_date.strftime('%d/%m/%Y')}")
     with col2:
         end_date = st.date_input("Fecha Fin", value=arribos_impo_historico['Fecha'].max())
+        st.write(f"Fecha Fin: {end_date.strftime('%d/%m/%Y')}")
     
     # Filter data based on selected date range
     filtered_data = arribos_impo_historico[(arribos_impo_historico['Fecha'] >= pd.to_datetime(start_date)) & 
