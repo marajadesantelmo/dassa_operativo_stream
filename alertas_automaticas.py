@@ -33,9 +33,9 @@ def send_email(alertas, mails):
 for _, row in alertas.iterrows():
     mails = clientes[clientes['apellido'] == row['cliente']]['email'].values[0]
     send_email(row, mails)
+    print(f'Correo enviado a {mails} para el contenedor {row["contenedor"]}')
 
 alertas['alerta_enviada'] = 1
 arribados = arribados[arribados['alerta_enviada'] == 1]
 arribados = pd.concat([arribados, alertas])
-
-arribados.to_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/arribos_historico_horarios.csv', index=False)
+arribados.to_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/alertas_arribos.csv', index=False)
