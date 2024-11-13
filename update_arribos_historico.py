@@ -117,7 +117,7 @@ arribos_expo['terminal'] = arribos_expo['terminal'].replace(terminal_mapping)
 arribos_expo['contenedor'] = arribos_expo['contenedor'].str.strip()
 arribos_expo['operacion'] = arribos_expo['operacion'].str.strip()
 arribos_expo['tipo_oper'] = arribos_expo['tipo_oper'].str.strip()
-arribos_expo['Contenedor2'] = arribos_expo['contenedor'].str.strip()    # Ver para que contenedor2
+arribos_expo['cliente'] =  arribos_expo['cliente'].str.strip()
 arribos_expo['cliente'] =  arribos_expo['cliente'].str.title()
 arribos_expo['arribado'] = arribos_expo['arribado'].replace({0: 'Pendiente', 1: 'Arribado'})
 
@@ -126,6 +126,14 @@ arribos_expo = pd.merge(arribos_expo, arribos_expo_historico_horarios, on=['orde
 arribos_expo['arribado'] = arribos_expo['estado'].fillna(arribos_expo['arribado'])
 arribos_expo = arribos_expo.drop(columns=['estado'])
 
+arribos_expo_cnts = arribos_expo[arribos_expo['tipo_oper'] != 'VACIO']
+arribos_expo_cnts = arribos_expo_cnts[['fecha', 'orden', 'contenedor' , 'cliente', 'bookings', 'desc_merc', 'arribado']]
+arribos_expo_cnts.columns = ['Fecha', 'Operacion', 'Contenedor', 'Cliente', 'Booking', 'Descripcion', 'Estado']
+arribos_expo_cnts['Descripcion'] = arribos_expo_cnts['Descripcion'].str.strip()
+arribos_expo_cnts['Booking'] = arribos_expo_cnts['Booking'].str.strip()
+
+
+
 #Contenedores ingresados
 ingresos['contenedor'] = ingresos['contenedor'].str.strip()
 arribados = arribos[arribos['arribado']==1]
@@ -133,4 +141,10 @@ arribados = arribos[arribos['arribado']==1]
 arribos = pd.merge(arribos, ingresos[['contenedor', 'fecha_ing']], on=['contenedor'], how='left')
 arribos['Pendiente'] = arribos['fecha_ing'].isna().astype(int)
 
-arribos = arribos[['fecha', 'turno', 'terminal', 'contenedor', 'cliente', 'bookings', 'operacion', ]]
+arribos = arribos[['fecha', 'turno', 'terminal', 'contenedor', 'cliente', 'bookings', 'operacion', 'fecha_ing']]
+arribos.columns = ['Fecha', 'Turno', 'Terminal', 'Contenedor', 'Cliente', 'Booking', 'Operacion', 'Fecha Ingreso']
+arribos['Cliente'] = arribos['Cliente'].str.strip()
+arribos['Booking'] = arribos['Booking'].str.strip()
+arribos['Turno'] = arribos['Turno'].str.strip().apply(lambda x: x[:2] + ":" + x[2:]  if x.strip() else pd.NaT)
+arribos.to_csv('data/arribos_impo_historico.csv', index=False)
+
