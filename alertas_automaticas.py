@@ -11,7 +11,7 @@ if alertas.empty:
     print("No hay alertas para enviar")
     exit()
 
-#clientes = pd.read_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/contactos_clientes.csv')
+clientes = pd.read_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/contactos_clientes.csv')
 #clientes['email'] = clientes['email'].str.replace(';', ',')
 #def add_space_after_comma(email):
 #    return re.sub(r',(?=\S)', ', ', email)
@@ -20,8 +20,8 @@ if alertas.empty:
 
 # Function to send email
 def send_email(alertas, mails):
-    msg = MIMEText(f"El contendedor {alertas['Contenedor']} del cliente {alertas['Cliente']} ")
-    msg['Subject'] = 'Contenedor Arribado'
+    msg = MIMEText(f"El contendedor {alertas['contenedor']} del cliente {alertas['cliente']} ")
+    msg['Subject'] = '(correo de prueba) Contenedor Arribado'
     msg['From'] = "auto@dassa.com.ar"
     msg['To'] = mails
 
@@ -31,8 +31,8 @@ def send_email(alertas, mails):
         server.sendmail(msg['From'], [msg['To']], msg.as_string())
 
 for _, row in alertas.iterrows():
-    mails = clientes[clientes['clie_nro'] == row['Cliente']]['email'].values[0]
-    send_email(row)
+    mails = clientes[clientes['apellido'] == row['cliente']]['email'].values[0]
+    send_email(row, mails)
 
 alertas['alerta_enviada'] = 1
 arribados = arribados[arribados['alerta_enviada'] == 1]
