@@ -18,10 +18,10 @@ def show_page_impo_historico():
     # Date range filter
     col1, col2 = st.columns(2)
     with col1:
-        start_date = st.date_input("Fecha Inicio", value=arribos_impo_historico['Fecha'].min())
+        start_date = st.date_input("Fecha Inicio", value=arribos_impo_historico['Fecha'].min(), label_visibility="collapsed")
         st.write(f"Fecha Inicio: {start_date.strftime('%d/%m/%Y')}")
     with col2:
-        end_date = st.date_input("Fecha Fin", value=arribos_impo_historico['Fecha'].max())
+        end_date = st.date_input("Fecha Fin", value=arribos_impo_historico['Fecha'].max(), label_visibility="collapsed")
         st.write(f"Fecha Fin: {end_date.strftime('%d/%m/%Y')}")
     
     # Filter data based on selected date range
