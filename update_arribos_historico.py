@@ -13,6 +13,9 @@ if os.path.exists('//dc01/Usuarios/PowerBI/flastra/Documents/automatizaciones'):
     os.chdir('//dc01/Usuarios/PowerBI/flastra/Documents/automatizaciones')
 else:
     print("Se usa working directory por defecto")
+
+path = '//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/'
+
 # CONEXION SQL
 print('Descargando datos de SQL')
 server = '101.44.8.58\\SQLEXPRESS_X86,1436'
@@ -137,8 +140,9 @@ arribos_expo_ctns = arribos_expo_ctns[['fecha', 'orden', 'contenedor' , 'cliente
 arribos_expo_ctns.columns = ['Fecha', 'Operacion', 'Contenedor', 'Cliente', 'Booking', 'Precinto', 'Estado']
 arribos_expo_ctns['Booking'] = arribos_expo_ctns['Booking'].str.strip()
 
-arribos_expo_carga.to_csv('data/arribos_expo_carga_historico.csv', index=False)
-arribos_expo_ctns.to_csv('data/arribos_expo_ctns_historico.csv', index=False)
+arribos_expo_carga.to_csv(os.path.join(path, 'data/arribos_expo_carga_historico.csv'), index=False)
+arribos_expo_ctns.to_csv(os.path.join(path, 'data/arribos_expo_ctns_historico.csv'), index=False)
+
 
 #Contenedores ingresados
 ingresos['contenedor'] = ingresos['contenedor'].str.strip()
@@ -153,6 +157,5 @@ arribos['Cliente'] = arribos['Cliente'].str.strip()
 arribos['Booking'] = arribos['Booking'].str.strip()
 arribos['Turno'] = arribos['Turno'].str.strip().apply(lambda x: x[:2] + ":" + x[2:]  if x.strip() else pd.NaT)
 
-
-arribos.to_csv('data/arribos_impo_historico.csv', index=False)
+arribos.to_csv(os.path.join(path, 'data/arribos_impo_historico.csv'), index=False)
 

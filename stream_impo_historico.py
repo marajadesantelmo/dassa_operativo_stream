@@ -1,20 +1,12 @@
 import streamlit as st
+import pandas as pd
 
+def fetch_data_impo_historico():
+    arribos_impo_historico = pd.read_csv('data/arribos_impo_historico.csv')
+    return arribos_impo_historico
+    
 def show_page_impo_historico():
-    # Page title
-    st.title("DASSA - Operaciones de IMPO históricas")
-
-    # Styled "Página en construcción" message
-    st.markdown(
-        """
-        <div style="display: flex; align-items: center; justify-content: center; height: 70vh;">
-            <div style="text-align: center;">
-                <h1 style="color: #FFA500;">⚠️ Página en construcción ⚠️</h1>
-                <p style="font-size: 1.2em; color: #555;">
-                    Paso a paso vamos a agregar esta funcionalidad.
-                </p>
-            </div>
-        </div>
-        """, 
-        unsafe_allow_html=True
-    )
+    arribos_impo_historico = fetch_data_impo_historico()
+    st.title("Histórico - Operaciones de IMPO")
+    st.subheader("Arribos de contenedores")
+    st.dataframe(arribos_impo_historico, hide_index=True, use_container_width=True)
