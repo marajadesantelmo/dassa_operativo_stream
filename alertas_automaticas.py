@@ -3,7 +3,7 @@ import smtplib
 from email.mime.text import MIMEText
 import re
 
-arribados = pd.read_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/arribos_historico_horarios.csv')
+arribados = pd.read_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/alertas_arribos.csv')
 
 alertas = arribados[arribados['alerta_enviada'] == 0]
 
@@ -11,14 +11,12 @@ if alertas.empty:
     print("No hay alertas para enviar")
     exit()
 
-clientes = pd.read_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/contactos_clientes.csv')
-
-clientes['email'] = clientes['email'].str.replace(';', ',')
-def add_space_after_comma(email):
-    return re.sub(r',(?=\S)', ', ', email)
-
-clientes['email'] = clientes['email'].apply(add_space_after_comma)
-clientes['email'] = clientes['email'].str.replace('"', '')
+#clientes = pd.read_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/contactos_clientes.csv')
+#clientes['email'] = clientes['email'].str.replace(';', ',')
+#def add_space_after_comma(email):
+#    return re.sub(r',(?=\S)', ', ', email)
+#clientes['email'] = clientes['email'].apply(add_space_after_comma)
+#clientes['email'] = clientes['email'].str.replace('"', '')
 
 # Function to send email
 def send_email(alertas, mails):
