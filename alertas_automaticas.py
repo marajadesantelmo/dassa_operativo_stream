@@ -15,12 +15,13 @@ alertas = arribos_con_historico[arribos_con_historico['alert_sent'].isna()]
      
 # Function to send email
 def send_email(alertas):
-    msg = MIMEText(f"El contendedor {container_info['Contenedor']} del cliente ")
+    msg = MIMEText(f"El contendedor {alertas['Contenedor']} del cliente {alertas['Cliente']} ")
     msg['Subject'] = 'Contenedor Arribado'
     msg['From'] = "auto@dassa.com.ar"
     msg['To'] = 'marajadesantelmo@gmail.com'
 
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
+        server.starttls() 
         server.login("auto@dassa.com.ar", "gyctvgzuwfgvmlfu")
         server.sendmail(msg['From'], [msg['To']], msg.as_string())
 
