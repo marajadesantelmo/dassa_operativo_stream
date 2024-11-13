@@ -1,18 +1,15 @@
 import pandas as pd
 import smtplib
 from email.mime.text import MIMEText
-arribos_impo = pd.read_csv('data/arribos2.csv')
-historical_data = pd.read_csv('data/historical_alerts.csv')
-arribados = arribos_impo[arribos_impo['Estado'] != 'Pendiente arribo']
 
-if arribados.empty:
-    print("No new arrivals. Exiting script.")
+arribados = pd.read_csv('arribos_historico_horarios.csv')
+
+alertas = arribados[arribados['alerta_enviada'] == 0]
+
+if alertas.empty:
+    print("No hay alertas para enviar")
     exit()
 
-arribos_con_historico = pd.merge(arribados, historical_data, on='Contenedor', how='left', suffixes=('', '_hist'))
-
-alertas = arribos_con_historico[arribos_con_historico['alert_sent'].isna()]
-     
 # Function to send email
 def send_email(alertas):
     msg = MIMEText(f"El contendedor {alertas['Contenedor']} del cliente {alertas['Cliente']} ")
