@@ -8,11 +8,13 @@ def fetch_data_expo():
     arribos_expo_carga = pd.read_csv('data/arribos_expo_carga.csv')
     arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
     verificaciones_expo = pd.read_csv('data/verificaciones_expo.csv')
-    retiros_expo = pd.read_csv('data/retiros_expo.csv')
     otros_expo = pd.read_csv('data/otros_expo.csv')
     remisiones = pd.read_csv('data/remisiones.csv')
     consolidados = pd.read_csv('data/consolidados.csv')
-    return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, retiros_expo, otros_expo, remisiones, consolidados
+    pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
+    pendiente_remitir = pd.read_csv('data/pendiente_remitir.csv')
+    vacios_disponibles = pd.read_csv('data/vacios_disponibles.csv')
+    return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados, pendiente_consolidar, pendiente_remitir, vacios_disponibles
     
 def show_page_expo():
     # Load data
@@ -49,8 +51,19 @@ def show_page_expo():
     with col4:
         st.subheader("Remisiones")
         st.dataframe(remisiones.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+        st.subheader("Otros")
+        st.dataframe(otros_expo.style, hide_index=True, use_container_width=True)
 
+    st.markdown("<hr>", unsafe_allow_html=True)
 
+    st.header("Estado de la carga de EXPO")
+    col4, col5, col6 = st.columns(3)
+    with col4:
+        st.subheader("Pendiente Consolidar")
+        st.dataframe(pendiente_consolidar, hide_index=True, use_container_width=True)
+    with col5:
+        st.subheader("Almacen")
+        st.dataframe(existente_alm, hide_index=True, use_container_width=True)
 
 if __name__ == "__main__":
     while True:
