@@ -12,13 +12,13 @@ def fetch_data_expo():
     remisiones = pd.read_csv('data/remisiones.csv')
     consolidados = pd.read_csv('data/consolidados.csv')
     pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
-    pendiente_remitir = pd.read_csv('data/pendiente_remitir.csv')
+    listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
     vacios_disponibles = pd.read_csv('data/vacios_disponibles.csv')
-    return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados, pendiente_consolidar, pendiente_remitir, vacios_disponibles
+    return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados, pendiente_consolidar, listos_para_remitir, vacios_disponibles
     
 def show_page_expo():
     # Load data
-    arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, retiros_expo, otros_expo, remisiones, consolidados = fetch_data_expo()
+    arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados, pendiente_consolidar, listos_para_remitir, vacios_disponibles = fetch_data_expo()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -59,11 +59,14 @@ def show_page_expo():
     st.header("Estado de la carga de EXPO")
     col4, col5, col6 = st.columns(3)
     with col4:
-        st.subheader("Pendiente Consolidar")
+        st.subheader("Pendiente de Consolidar")
         st.dataframe(pendiente_consolidar, hide_index=True, use_container_width=True)
     with col5:
-        st.subheader("Almacen")
-        st.dataframe(existente_alm, hide_index=True, use_container_width=True)
+        st.subheader("Pendiente de Remitir")
+        st.dataframe(listos_para_remitir, hide_index=True, use_container_width=True)
+    with col6:
+        st.subheader("Vacios Disponibles")
+        st.dataframe(vacios_disponibles, hide_index=True, use_container_width=True)
 
 if __name__ == "__main__":
     while True:
