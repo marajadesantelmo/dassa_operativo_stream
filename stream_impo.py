@@ -11,11 +11,13 @@ def fetch_data_impo():
     verificaciones_impo = pd.read_csv('data/verificaciones_impo.csv')
     retiros_impo = pd.read_csv('data/retiros_impo.csv')
     otros_impo = pd.read_csv('data/otros_impo.csv')
-    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo
+    existente_plz = pd.read_csv('data/existente_plz.csv')
+    existente_alm = pd.read_csv('data/existente_alm.csv')
+    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm
 
 def show_page_impo():
     # Load data
-    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo = fetch_data_impo()
+    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm= fetch_data_impo()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -44,6 +46,8 @@ def show_page_impo():
             st.metric(label="Vacios", value=pendiente_desconsolidar[pendiente_desconsolidar['Estado'] == 'Vacio'].shape[0])
         st.dataframe(pendiente_desconsolidar.style.apply(highlight, axis=1).format(precision=0), hide_index=True, use_container_width=True)
 
+    st.markdown("<hr>", unsafe_allow_html=True)
+
     col3, col4 = st.columns(2)
     with col3:
         st.subheader("Verificaciones")
@@ -54,7 +58,17 @@ def show_page_impo():
     with col4:
         st.subheader("Retiros")
         st.dataframe(retiros_impo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+    
+    st.markdown("<hr>", unsafe_allow_html=True)
 
+    st.header("Estado de la carga de IMPO")
+    col4, col5 = st.columns(2)
+    with col4:
+        st.subheader("Plazoleta")
+        st.dataframe(existente_plz, hide_index=True, use_container_width=True)
+    with col5:
+        st.subheader("Almacen")
+        st.dataframe(existente_alm, hide_index=True, use_container_width=True)
 
 # Run the show_page function
 if __name__ == "__main__":
