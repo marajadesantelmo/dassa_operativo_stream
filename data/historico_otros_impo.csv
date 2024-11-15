@@ -1,38 +1,34 @@
-Dia,Hora,Tipo Turno,Operacion,Cliente,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
-01/11,8:30 ,Clasificacio,31280-1-1,Sukha S.R.L.,HJMU-493080-0,Bultos,54,-5,IB7,Pendiente
-01/11,8:30 ,Clasificacio,31280-1-1,Sukha S.R.L.,HJMU-493080-0,Bultos,272,-28,IB7,Pendiente
-01/11,8:30 ,Clasificacio,31280-1-1,Sukha S.R.L.,HJMU-493080-0,Bultos,158,16,IB7,Pendiente
-09/10,8:00 ,Clasificacio,30467-1-1,Geo Logistics Argent...,MSDU-609801-8,Bultos,95,-18,IB7,Pendiente
-09/10,8:00 ,Clasificacio,30467-1-1,Geo Logistics Argent...,MSDU-609801-8,Bultos,173,-33,IB7,Pendiente
-09/10,8:00 ,Clasificacio,30467-1-1,Geo Logistics Argent...,MSDU-609801-8,Bultos,42,8,IB7,Pendiente
-13/11,9:30 ,Remision,31866-0-1,Lift Van Int. Co S.A,CMAU-094661-0,Contenedor,1,0,PLZA,Pendiente
-18/10,9:30 ,Clasificacio,31280-1-1,Sukha S.R.L.,HJMU-493080-0,Bultos,158,16,IB7,Pendiente
-18/10,9:30 ,Clasificacio,31280-1-1,Sukha S.R.L.,HJMU-493080-0,Bultos,54,-5,IB7,Pendiente
-18/10,9:30 ,Clasificacio,31280-1-1,Sukha S.R.L.,HJMU-493080-0,Bultos,272,-28,IB7,Pendiente
-25/10,9:30 ,Clasificacio,30154-1-1,Industrias Saladillo...,FXLU-215948-8,Pallets,15,-17,ANEX-A1,Pendiente
-25/10,9:30 ,Clasificacio,30154-1-1,Industrias Saladillo...,FXLU-215948-8,Pallets,3,3,ANEX-A1,Pendiente
-25/10,9:30 ,Clasificacio,30154-1-1,Industrias Saladillo...,FXLU-215948-8,Pallets,2,-2,ANEX-A1,Pendiente
-25/10,9:30 ,Clasificacio,30154-1-1,Industrias Saladillo...,FXLU-215948-8,Pallets,1,-1,ANEX-A1,Pendiente
-25/10,9:30 ,Clasificacio,29491-1-1,Industrias Saladillo...,FXLU-216072-4,Pallets,5,5,IB7,Pendiente
-25/10,9:30 ,Clasificacio,29491-1-1,Industrias Saladillo...,FXLU-216072-4,Pallets,5,5,IA8,Pendiente
-25/10,9:30 ,Clasificacio,28869-1-1,Industrias Saladillo...,FCIU-413531-8,Pallets,3,3,IB7,Pendiente
-25/10,9:30 ,Clasificacio,28869-1-1,Industrias Saladillo...,FCIU-413531-8,Pallets,3,3,IA9,Pendiente
-25/10,9:30 ,Clasificacio,30083-1-1,Industrias Saladillo...,KKTU-796677-1,Pallets,17,19,ANEX-A1,Pendiente
-25/10,9:30 ,Clasificacio,29491-1-1,Industrias Saladillo...,FXLU-216072-4,Pallets,5,-5,IB7,Pendiente
-25/10,9:30 ,Clasificacio,28869-1-1,Industrias Saladillo...,FCIU-413531-8,Pallets,2,-2,IA9,Pendiente
-25/10,9:30 ,Clasificacio,28869-1-1,Industrias Saladillo...,FCIU-413531-8,Pallets,2,-2,IB7,Pendiente
-25/10,9:30 ,Clasificacio,28869-1-1,Industrias Saladillo...,FCIU-413531-8,Pallets,3,-3,IB7,Pendiente
-25/10,9:30 ,Clasificacio,28869-1-1,Industrias Saladillo...,FCIU-413531-8,Pallets,3,-3,IA9,Pendiente
-25/10,9:30 ,Clasificacio,28869-1-1,Industrias Saladillo...,FCIU-413531-8,Pallets,6,-6,IB7,Pendiente
-25/10,9:30 ,Clasificacio,30083-1-1,Industrias Saladillo...,KKTU-796677-1,Pallets,1,-1,ANEX-A1,Pendiente
-25/10,9:30 ,Clasificacio,30083-1-1,Industrias Saladillo...,KKTU-796677-1,Pallets,3,-3,ANEX-A1,Pendiente
-25/10,9:30 ,Clasificacio,28869-1-1,Industrias Saladillo...,FCIU-413531-8,Pallets,6,-6,IA9,Pendiente
-25/10,9:30 ,Clasificacio,29491-1-1,Industrias Saladillo...,FXLU-216072-4,Pallets,1,-1,IA8,Pendiente
-25/10,9:30 ,Clasificacio,29491-1-1,Industrias Saladillo...,FXLU-216072-4,Pallets,1,-1,IB7,Pendiente
-25/10,9:30 ,Clasificacio,29491-1-1,Industrias Saladillo...,FXLU-216072-4,Pallets,5,-5,IA8,Pendiente
-25/10,9:30 ,Clasificacio,29491-1-1,Industrias Saladillo...,FXLU-216072-4,Pallets,7,-7,IB7,Pendiente
-25/10,9:30 ,Clasificacio,29491-1-1,Industrias Saladillo...,FXLU-216072-4,Pallets,7,-7,IA8,Pendiente
-31/10,10:30,Clasificacio,31415-1-1,Prowood S.A.,MRKU-060858-7,Pallets,15,-13,IB4,Pendiente
-31/10,10:30,Clasificacio,31415-1-1,Prowood S.A.,MRKU-060858-7,Pallets,15,-13,IA6,Pendiente
-31/10,10:30,Clasificacio,31415-1-1,Prowood S.A.,MRKU-060858-7,Pallets,18,15,IB4,Pendiente
-31/10,10:30,Clasificacio,31415-1-1,Prowood S.A.,MRKU-060858-7,Pallets,18,15,IA6,Pendiente
+orden_ing,suborden,renglon,destino,dia,hora,observa,conocim2,Estado,id,cliente,tipo_oper_x,fecha_ing_x,contenedor_x,desc_merc,conocim1,dimension,tipo_cnt,volumen,Envase,fecha_egr,cantidad,kilos,bookings,precinto,salida_validada,salida_vacio_validada_x,fecha_ing_y,tipo_oper_y,contenedor_y,orden_ing_x,suborden_x,renglon_x,orden_ing_y,suborden_y,renglon_y,fecha_ing,tipo_oper,contenedor,salida_vacio_validada_y,fechaverif
+,,,Remision,2024-11-13,9:30 ,,ISB1579464          ,Pendiente,31866-0-1,Lift Van Int. Co S.A,IMPORTACION    ,2024-11-08,CMAU-094661-0,Mudanza,LIFBUE24090010                ,20,DR,0,Contenedor,2024-11-13,1,0,,---,,,2024-11-08,Importacion,CMAU-094661-0,31866,0,1,31866,0,1,2024-11-08,Importacion,CMAU-094661-0,,
+30467,1,1,Clasificacio,2024-10-09,8:00 ,,SHBUE240714A        ,Pendiente,30467-1-1,Geo Logistics Argent...,,,,Personal Transporter,MEDUXB248326                  ,40,HC,8,Bultos,,42,1136,MEDUXB248326        ,FJ21882317          ,,,,,,,,,,,,2024-08-27,Importacion,MSDU-609801-8,,
+31280,1,1,Clasificacio,2024-10-18,9:30 ,,SYNFOC24SE080004    ,Pendiente,31280-1-1,Sukha S.R.L.,,,,Yoga Mat Y Accesorie...,SYNFOC24SE080004              ,40,DR,16,Bultos,,158,1856,SYNFOC24SE080004    ,FJ21644119          ,,,,,,,,,,,,2024-10-14,Importacion,HJMU-493080-0,,
+30154,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24060234      ,Pendiente,30154-1-1,Industrias Saladillo...,,,,Valve Parts,NBOBUE24060234                ,20,DR,3,Pallets,,3,2007,NBOBUE24060234      ,A4240010446         ,,,,,,,,,,,,2024-08-13,Importacion,FXLU-215948-8,,
+29491,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24050057      ,Pendiente,29491-1-1,Industrias Saladillo...,,,,Valve Parts,NBOBUE24050057                ,20,DR,5,Pallets,,5,3383,NBOBUE24050057      ,A4230897747         ,,,,,,,,,,,,2024-07-08,Importacion,FXLU-216072-4,,
+28869,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24040704      ,Pendiente,28869-1-1,Industrias Saladillo...,,,,Accesorios De Alumin...,NBOBUE24040704                ,20,DR,3,Pallets,,3,5061,NBOBUE24040704      ,CO605753            ,,,,,,,,,,,,2024-05-23,Importacion,FCIU-413531-8,,
+30083,1,1,Clasificacio,2024-10-25,9:30 ,,TPNGBSG24058109     ,Pendiente,30083-1-1,Industrias Saladillo...,,,,Valve Parts,TPNGBSG24058109               ,20,DR,19,Pallets,,17,6839,TPNGBSG24058109     ,CNCY71285           ,,,,,,,,,,,,2024-08-09,Importacion,KKTU-796677-1,,
+31415,1,1,Clasificacio,2024-10-31,10:30,,MSA170434           ,Pendiente,31415-1-1,Prowood S.A.,,,,Alarm Parts,243870224                     ,40,DR,15,Pallets,,18,2398,243870224           ,0162643             ,,,,,,,,,,,,2024-10-21,Importacion,MRKU-060858-7,,
+31280,1,1,Clasificacio,2024-11-01,8:30 ,,SYNFOC24SE080004    ,Pendiente,31280-1-1,Sukha S.R.L.,,,,Yoga Mat Y Accesorie...,SYNFOC24SE080004              ,40,DR,16,Bultos,,158,1856,SYNFOC24SE080004    ,FJ21644119          ,,,,,,,,,,,,2024-10-14,Importacion,HJMU-493080-0,,
+30467,1,1,Clasificacio,2024-10-09,8:00 ,,SHBUE240714A        ,Pendiente,30467-1-1,Geo Logistics Argent...,,,,Personal Transporter,SHBUE240714A                  ,40,HC,-33,Bultos,2024-10-10,173,0,,---,,,,,,,,,,,,2024-08-27,Importacion,MSDU-609801-8,,
+30467,1,1,Clasificacio,2024-10-09,8:00 ,,SHBUE240714A        ,Pendiente,30467-1-1,Geo Logistics Argent...,,,,Personal Transporter,SHBUE240714A                  ,40,HC,-18,Bultos,2024-09-11,95,0,,---,,,,,,,,,,,,2024-08-27,Importacion,MSDU-609801-8,,
+31280,1,1,Clasificacio,2024-10-18,9:30 ,,SYNFOC24SE080004    ,Pendiente,31280-1-1,Sukha S.R.L.,,,,Yoga Mat Y Accesorie...,SYNFOC24SE080004              ,40,DR,-5,Bultos,2024-11-15,54,0,,---,,,,,,,,,,,,2024-10-14,Importacion,HJMU-493080-0,,
+31280,1,1,Clasificacio,2024-10-18,9:30 ,,SYNFOC24SE080004    ,Pendiente,31280-1-1,Sukha S.R.L.,,,,Yoga Mat Y Accesorie...,SYNFOC24SE080004              ,40,DR,-28,Bultos,2024-10-22,272,0,,---,,,,,,,,,,,,2024-10-14,Importacion,HJMU-493080-0,,
+30154,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24060234      ,Pendiente,30154-1-1,Industrias Saladillo...,,,,Valve Parts,NBOBUE24060234                ,20,DR,-2,Pallets,2024-11-14,2,0,,---,,,,,,,,,,,,2024-08-13,Importacion,FXLU-215948-8,,
+30154,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24060234      ,Pendiente,30154-1-1,Industrias Saladillo...,,,,Valve Parts,NBOBUE24060234                ,20,DR,-1,Pallets,2024-10-04,1,0,,---,,,,,,,,,,,,2024-08-13,Importacion,FXLU-215948-8,,
+30154,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24060234      ,Pendiente,30154-1-1,Industrias Saladillo...,,,,Valve Parts,NBOBUE24060234                ,20,DR,-2,Pallets,2024-09-20,2,0,,---,,,,,,,,,,,,2024-08-13,Importacion,FXLU-215948-8,,
+30154,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24060234      ,Pendiente,30154-1-1,Industrias Saladillo...,,,,Valve Parts,NBOBUE24060234                ,20,DR,-17,Pallets,2024-09-12,15,0,,---,,,,,,,,,,,,2024-08-13,Importacion,FXLU-215948-8,,
+29491,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24050057      ,Pendiente,29491-1-1,Industrias Saladillo...,,,,Valve Parts,NBOBUE24050057                ,20,DR,-5,Pallets,2024-07-30,5,0,,---,,,,,,,,,,,,2024-07-08,Importacion,FXLU-216072-4,,
+29491,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24050057      ,Pendiente,29491-1-1,Industrias Saladillo...,,,,Valve Parts,NBOBUE24050057                ,20,DR,-5,Pallets,2024-11-14,5,0,,---,,,,,,,,,,,,2024-07-08,Importacion,FXLU-216072-4,,
+29491,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24050057      ,Pendiente,29491-1-1,Industrias Saladillo...,,,,Valve Parts,NBOBUE24050057                ,20,DR,-1,Pallets,2024-09-20,1,0,,---,,,,,,,,,,,,2024-07-08,Importacion,FXLU-216072-4,,
+29491,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24050057      ,Pendiente,29491-1-1,Industrias Saladillo...,,,,Valve Parts,NBOBUE24050057                ,20,DR,-7,Pallets,2024-09-02,7,0,,---,,,,,,,,,,,,2024-07-08,Importacion,FXLU-216072-4,,
+29491,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24050057      ,Pendiente,29491-1-1,Industrias Saladillo...,,,,Valve Parts,NBOBUE24050057                ,20,DR,-1,Pallets,2024-08-15,1,0,,---,,,,,,,,,,,,2024-07-08,Importacion,FXLU-216072-4,,
+28869,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24040704      ,Pendiente,28869-1-1,Industrias Saladillo...,,,,Accesorios De Alumin...,NBOBUE24040704                ,20,DR,-6,Pallets,2024-11-14,6,0,,---,,,,,,,,,,,,2024-05-23,Importacion,FCIU-413531-8,,
+28869,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24040704      ,Pendiente,28869-1-1,Industrias Saladillo...,,,,Accesorios De Alumin...,NBOBUE24040704                ,20,DR,-3,Pallets,2024-10-04,3,0,,---,,,,,,,,,,,,2024-05-23,Importacion,FCIU-413531-8,,
+28869,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24040704      ,Pendiente,28869-1-1,Industrias Saladillo...,,,,Accesorios De Alumin...,NBOBUE24040704                ,20,DR,-3,Pallets,2024-09-20,3,0,,---,,,,,,,,,,,,2024-05-23,Importacion,FCIU-413531-8,,
+28869,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24040704      ,Pendiente,28869-1-1,Industrias Saladillo...,,,,Accesorios De Alumin...,NBOBUE24040704                ,20,DR,-2,Pallets,2024-09-02,2,0,,---,,,,,,,,,,,,2024-05-23,Importacion,FCIU-413531-8,,
+28869,1,1,Clasificacio,2024-10-25,9:30 ,,NBOBUE24040704      ,Pendiente,28869-1-1,Industrias Saladillo...,,,,Accesorios De Alumin...,NBOBUE24040704                ,20,DR,-2,Pallets,2024-08-15,2,0,,---,,,,,,,,,,,,2024-05-23,Importacion,FCIU-413531-8,,
+30083,1,1,Clasificacio,2024-10-25,9:30 ,,TPNGBSG24058109     ,Pendiente,30083-1-1,Industrias Saladillo...,,,,Valve Parts,TPNGBSG24058109               ,20,DR,-3,Pallets,2024-11-14,3,0,,---,,,,,,,,,,,,2024-08-09,Importacion,KKTU-796677-1,,
+30083,1,1,Clasificacio,2024-10-25,9:30 ,,TPNGBSG24058109     ,Pendiente,30083-1-1,Industrias Saladillo...,,,,Valve Parts,TPNGBSG24058109               ,20,DR,-1,Pallets,2024-09-20,1,0,,---,,,,,,,,,,,,2024-08-09,Importacion,KKTU-796677-1,,
+30083,1,1,Clasificacio,2024-10-25,9:30 ,,TPNGBSG24058109     ,Pendiente,30083-1-1,Industrias Saladillo...,,,,Valve Parts,TPNGBSG24058109               ,20,DR,-1,Pallets,2024-09-12,1,0,,---,,,,,,,,,,,,2024-08-09,Importacion,KKTU-796677-1,,
+31415,1,1,Clasificacio,2024-10-31,10:30,,MSA170434           ,Pendiente,31415-1-1,Prowood S.A.,,,,Alarm Parts,MSA170434                     ,40,DR,-13,Pallets,2024-11-07,15,0,,---,,,,,,,,,,,,2024-10-21,Importacion,MRKU-060858-7,,
+31280,1,1,Clasificacio,2024-11-01,8:30 ,,SYNFOC24SE080004    ,Pendiente,31280-1-1,Sukha S.R.L.,,,,Yoga Mat Y Accesorie...,SYNFOC24SE080004              ,40,DR,-5,Bultos,2024-11-15,54,0,,---,,,,,,,,,,,,2024-10-14,Importacion,HJMU-493080-0,,
+31280,1,1,Clasificacio,2024-11-01,8:30 ,,SYNFOC24SE080004    ,Pendiente,31280-1-1,Sukha S.R.L.,,,,Yoga Mat Y Accesorie...,SYNFOC24SE080004              ,40,DR,-28,Bultos,2024-10-22,272,0,,---,,,,,,,,,,,,2024-10-14,Importacion,HJMU-493080-0,,
