@@ -69,9 +69,6 @@ rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 ingresos = pd.DataFrame.from_records(rows, columns=columns)
 
-
-conn.close()
-
 #%% Formateo y procesamiento de datos Arribos
 print('Procesando datos')
 
@@ -344,8 +341,6 @@ turnos['cliente'] = turnos['cliente'].fillna('').apply(lambda x: x[:20] + "..." 
 turnos['desc_merc'] = turnos['desc_merc'].fillna('').apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
 turnos['precinto'] = turnos['precinto'].fillna('---')
 turnos['ubicacion'] = turnos['ubicacion'].str.strip()
-turnos['dia'] = pd.to_datetime(turnos['dia']).dt.strftime('%d/%m')
-turnos = turnos.sort_values(by='dia')
 turnos[['conocim1', 'conocim2']] = turnos[['conocim1', 'conocim2']].fillna('-')
 
 verificaciones_expo = turnos[(turnos['tipo_oper'] == 'Exportacion') & (turnos['destino'] == 'Verificacion')]
