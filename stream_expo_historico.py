@@ -39,7 +39,7 @@ def show_page_expo_historico():
             end_date_arribos_cargas = st.date_input("Fecha Fin", value=arribos_expo_carga_historico['Fecha'].max(), key='end_date_arribos_cargas')
             st.write(f"Fecha Fin: {end_date_arribos_cargas.strftime('%d/%m/%Y')}")
         with col1_3:
-            cliente_arribos_carga = st.multiselect("Cliente", options=arribos_expo_carga_historico['Cliente'].unique(), key='cliente_arribos_carga')
+            cliente_arribos_carga = st.selectbox("Cliente", options=arribos_expo_carga_historico['Cliente'].unique(), key='cliente_arribos_carga')
             st.write(f"Cliente: {cliente_arribos_carga}")
         
         # Filter data based on selected date range
@@ -61,7 +61,7 @@ def show_page_expo_historico():
             end_date_verificaciones = st.date_input("Fecha Fin", value=historico_verificaciones_expo['Dia'].max(), key='end_date_verificaciones')
             st.write(f"Fecha Fin: {end_date_verificaciones.strftime('%d/%m/%Y')}")
         with col1_6:
-            cliente_verificaciones = st.multiselect("Cliente", options=historico_verificaciones_expo['Cliente'].unique(), key='cliente_verificaciones')
+            cliente_verificaciones = st.selectbox("Cliente", options=historico_verificaciones_expo['Cliente'].unique(), key='cliente_verificaciones')
             st.write(f"Cliente: {cliente_verificaciones}")
         
         # Filter data based on selected date range and client
@@ -84,7 +84,7 @@ def show_page_expo_historico():
             end_date_arribos_ctns = st.date_input("Fecha Fin", value=arribos_expo_ctns_historico['Fecha'].max(), key='end_date_arribos_ctns')
             st.write(f"Fecha Fin: {end_date_arribos_ctns.strftime('%d/%m/%Y')}")
         with col2_3:
-            cliente_arribos_ctns = st.multiselect("Cliente", options=arribos_expo_ctns_historico['Cliente'].unique(), key='cliente_arribos_ctns')
+            cliente_arribos_ctns = st.selectbox("Cliente", options=arribos_expo_ctns_historico['Cliente'].unique(), key='cliente_arribos_ctns')
             st.write(f"Cliente: {cliente_arribos_ctns}")
         
         filtered_data_arribos_ctns = arribos_expo_ctns_historico.loc[(arribos_expo_ctns_historico['Fecha'] >= pd.to_datetime(start_date_arribos_ctns)) &
@@ -102,7 +102,7 @@ def show_page_expo_historico():
             end_date_remisiones = st.date_input("Fecha Fin", value=historico_remisiones['Dia'].max(), key='end_date_remisiones')
             st.write(f"Fecha Fin: {end_date_remisiones.strftime('%d/%m/%Y')}")
         with col2_6:
-            cliente_remisiones = st.multiselect("Cliente", options=historico_remisiones['Cliente'].unique(), key='cliente_remisiones')
+            cliente_remisiones = st.selectbox("Cliente", options=historico_remisiones['Cliente'].unique(), key='cliente_remisiones')
             st.write(f"Cliente: {cliente_remisiones}")
         
         # Filter data based on selected date range and client
