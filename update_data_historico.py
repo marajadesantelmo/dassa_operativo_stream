@@ -163,15 +163,23 @@ arribos.to_csv(os.path.join(path, 'data/arribos_impo_historico.csv'), index=Fals
 
 # Turnos
 
+def limpiar_columnas(df):
+    columns = ['cliente', 'tipo_oper', 'desc_merc', 'Envase']
+    for column in columns:
+        if column in df.columns:
+            df[column] = df[column].str.strip()
+            df[column] = df[column].str.title()
+    return df
+
 fecha = datetime.now().strftime('%Y-%m-%d')
 fecha_ant = datetime.now() - timedelta(days=120)
 fecha_ant = fecha_ant.strftime('%Y-%m-%d')
 fecha_ant_ult3dias = datetime.now() - timedelta(days=3)
-fecha_ant_ult3dias = fecha_ant_ult3dias.strftime('%Y-%m-%d')
-#Existente
+fecha_ant_ult3dias = fecha_ant_ult3dias.strftime('%Y-%m-%d') 
 cursor.execute("""
     SELECT e.orden_ing, e.suborden, e.renglon, e.cliente, e.tipo_oper, e.fecha_ing, 
-    e.contenedor, e.conocim1, e.desc_merc, e.dimension, e.tipo_cnt, e.volumen, env.detalle AS Envase, e.cantidad
+    e.contenedor, e.conocim1, e.desc_merc, e.dimension, e.tipo_cnt, e.volumen, env.detalle AS Envase, 
+    e.cantidad, e.conocim2, e.kilos, e.bookings, e.precinto
     FROM [DEPOFIS].[DASSA].[Existente en Stock] e
     JOIN DEPOFIS.DASSA.[Tip_env] env ON e.tipo_env = env.codigo
 """)  
@@ -255,10 +263,7 @@ egresado = generate_id(egresado)
 verificaciones_realizadas = generate_id(verificaciones_realizadas)
 salidas = generate_id(salidas)
 salidas.columns = ['salida_validada', 'id']
-salidas_vacios = generate_id(salidas_vacios)
-salidas_vacios.columns = ['salida_vacio_validada', 'id']
 ubicaciones = generate_id(ubicaciones)
-
 turnos = limpiar_columnas(turnos)
 existente = limpiar_columnas(existente)
 
@@ -275,9 +280,11 @@ mercaderia_a_consolidar = mercaderia_a_consolidar.groupby('orden_ing').agg({
     'volumen': 'sum',
     'cantidad': 'sum',
     'kilos': 'sum'}).reset_index()
+
 contenedores_a_consolidar.drop(columns=['volumen', 'cantidad', 'kilos'], inplace=True)
 consolidados = pd.merge(contenedores_a_consolidar, mercaderia_a_consolidar, on='orden_ing', how='left')
 consolidados['kilos'] = consolidados['kilos'].fillna(0).astype(float).round().astype(int)
+
 # Quito conocimiento del existente
 existente.drop(columns=['conocim2', 'orden_ing', 'suborden', 'renglon'], inplace=True)
 
