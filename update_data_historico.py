@@ -1,26 +1,27 @@
-#%% Setting
 import pyodbc
 import pandas as pd
 import os
+from datetime import datetime, timedelta
+from tokens import username, password
+from utils import rellenar_df_vacio
 import gspread
 from gspread_dataframe import set_with_dataframe
-from datetime import datetime, timedelta
-import smtplib
-from email.message import EmailMessage
-import time
+from datetime import datetime
 
-if os.path.exists('//dc01/Usuarios/PowerBI/flastra/Documents/automatizaciones'):
-    os.chdir('//dc01/Usuarios/PowerBI/flastra/Documents/automatizaciones')
+if os.path.exists('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream'):
+    os.chdir('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream')
+elif os.path.exists('C:/Users/facun/OneDrive/Documentos/GitHub/dassa_operativo_stream'):
+    os.chdir('C:/Users/facun/OneDrive/Documentos/GitHub/dassa_operativo_stream')
 else:
     print("Se usa working directory por defecto")
 
 path = '//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/'
 
-# CONEXION SQL
+### ARRIBOS ####
+
+print('Actualizando información operativa Orden del Día DASSA')
 print('Descargando datos de SQL')
 server = '101.44.8.58\\SQLEXPRESS_X86,1436'
-username = 'dassa'
-password = 'Da$$a3065!'
 conn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';UID='+username+';PWD='+ password)
 cursor = conn.cursor()
 
@@ -162,27 +163,6 @@ arribos.to_csv(os.path.join(path, 'data/arribos_impo_historico.csv'), index=Fals
 
 # Turnos
 
-
-import pyodbc
-import pandas as pd
-import os
-import gspread
-from gspread_dataframe import set_with_dataframe
-from datetime import datetime, timedelta
-import smtplib
-from email.message import EmailMessage
-import time
-if os.path.exists('//dc01/Usuarios/PowerBI/flastra/Documents/automatizaciones'):
-    os.chdir('//dc01/Usuarios/PowerBI/flastra/Documents/automatizaciones')
-else:
-    print("Se usa working directory por defecto")
-# CONEXION SQL
-print('Descargando datos de SQL')
-server = '101.44.8.58\\SQLEXPRESS_X86,1436'
-username = 'dassa'
-password = 'Da$$a3065!'
-conn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';UID='+username+';PWD='+ password)
-cursor = conn.cursor()
 fecha = datetime.now().strftime('%Y-%m-%d')
 fecha_ant = datetime.now() - timedelta(days=120)
 fecha_ant = fecha_ant.strftime('%Y-%m-%d')
@@ -406,16 +386,14 @@ clasificaciones = clasificaciones.drop_duplicates()
 verificaciones_impo = verificaciones_impo.drop_duplicates()
 otros_impo = otros_impo.drop_duplicates()
 
-
-
-verificaciones_expo.to_csv(os.path.join(path, 'data/hitorico_verificaciones_expo.csv'), index=False)
-verificaciones_impo.to_csv(os.path.join(path, 'data/hitorico_verificaciones_impo.csv'), index=False)
-retiros_expo.to_csv(os.path.join(path, 'data/hitorico_retiros_expo.csv'), index=False)
-retiros_impo.to_csv(os.path.join(path, 'data/hitorico_retiros_impo.csv'), index=False)
-otros_expo.to_csv(os.path.join(path, 'data/hitorico_otros_expo.csv'), index=False)
-otros_impo.to_csv(os.path.join(path, 'data/hitorico_otros_impo.csv'), index=False)
-remisiones.to_csv(os.path.join(path, 'data/hitorico_remisiones.csv'), index=False)
-consolidados.to_csv(os.path.join(path, 'data/hitorico_consolidados.csv'), index=False)
+verificaciones_expo.to_csv(os.path.join(path, 'data/historico_verificaciones_expo.csv'), index=False)
+verificaciones_impo.to_csv(os.path.join(path, 'data/historico_verificaciones_impo.csv'), index=False)
+retiros_expo.to_csv(os.path.join(path, 'data/historico_retiros_expo.csv'), index=False)
+retiros_impo.to_csv(os.path.join(path, 'data/historico_retiros_impo.csv'), index=False)
+otros_expo.to_csv(os.path.join(path, 'data/historico_otros_expo.csv'), index=False)
+otros_impo.to_csv(os.path.join(path, 'data/historico_otros_impo.csv'), index=False)
+remisiones.to_csv(os.path.join(path, 'data/historico_remisiones.csv'), index=False)
+consolidados.to_csv(os.path.join(path, 'data/historico_consolidados.csv'), index=False)
 
 conn.close()
 
