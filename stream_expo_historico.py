@@ -3,10 +3,12 @@ import pandas as pd
 from datetime import datetime
 
 def fetch_data_expo_historico():
-    arribos_expo_historico = pd.read_csv('data/arribos_expo_historico.csv')
-    historico_retiros_expo = pd.read_csv('data/historico_retiros_expo.csv')
+    arribos_expo_carga_historico = pd.read_csv('data/arribos_expo_carga_historico.csv')
+    arribos_expo_ctns_historico = pd.read_csv('data/arribos_expo_ctns_historico.csv')
     historico_verificaciones_expo = pd.read_csv('data/historico_verificaciones_expo.csv')
     historico_otros_expo = pd.read_csv('data/historico_otros_expo.csv')
+    historico_remisiones = pd.read_csv('data/historico_remisiones.csv')
+    historico_consolidados = pd.read_csv('data/historico_consolidados.csv') 
     return arribos_expo_historico, historico_retiros_expo, historico_verificaciones_expo, historico_otros_expo
 
 def show_page_expo_historico():
