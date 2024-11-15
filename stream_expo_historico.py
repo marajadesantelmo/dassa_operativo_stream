@@ -9,37 +9,39 @@ def fetch_data_expo_historico():
     historico_otros_expo = pd.read_csv('data/historico_otros_expo.csv')
     historico_remisiones = pd.read_csv('data/historico_remisiones.csv')
     historico_consolidados = pd.read_csv('data/historico_consolidados.csv') 
-    return arribos_expo_historico, historico_retiros_expo, historico_verificaciones_expo, historico_otros_expo
+    return arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo, historico_otros_expo, historico_remisiones, historico_consolidados
 
 def show_page_expo_historico():
-    arribos_expo_historico, historico_retiros_expo, historico_verificaciones_expo, historico_otros_expo = fetch_data_expo_historico()
-    arribos_expo_historico['Fecha'] = pd.to_datetime(arribos_expo_historico['Fecha'])
-    historico_retiros_expo['Dia'] = pd.to_datetime(historico_retiros_expo['Dia'])
+    arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo, historico_otros_expo, historico_remisiones, historico_consolidados = fetch_data_expo_historico()
+    arribos_expo_carga_historico['Fecha'] = pd.to_datetime(arribos_expo_carga_historico['Fecha'])
+    arribos_expo_ctns_historico['Fecha'] = pd.to_datetime(arribos_expo_ctns_historico['Fecha'])
     historico_verificaciones_expo['Dia'] = pd.to_datetime(historico_verificaciones_expo['Dia'])
     historico_otros_expo['Dia'] = pd.to_datetime(historico_otros_expo['Dia'])
+    historico_remisiones['Fecha'] = pd.to_datetime(historico_remisiones['Fecha'])
+    historico_consolidados['Fecha'] = pd.to_datetime(historico_consolidados['Fecha'])
     
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
         st.image('logo.png')
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
-        st.title("Histórico - Operaciones de expo")
+        st.title("Histórico - Operaciones de Expo")
 
     col1, col2 = st.columns(2)
 
     with col1: 
-        st.subheader("Arribos de contenedores")
+        st.subheader("Arribos de carga")
         col1_1, col1_2 = st.columns(2)
         with col1_1:
-            start_date_arribos = st.date_input("Fecha Inicio", value=arribos_expo_historico['Fecha'].min(), key='start_date_arribos')
+            start_date_arribos = st.date_input("Fecha Inicio", value=arribos_expo_carga_historico['Fecha'].min(), key='start_date_arribos')
             st.write(f"Fecha Inicio: {start_date_arribos.strftime('%d/%m/%Y')}")
         with col1_2:
-            end_date_arribos = st.date_input("Fecha Fin", value=arribos_expo_historico['Fecha'].max(), key='end_date_arribos')
+            end_date_arribos = st.date_input("Fecha Fin", value=arribos_expo_carga_historico['Fecha'].max(), key='end_date_arribos')
             st.write(f"Fecha Fin: {end_date_arribos.strftime('%d/%m/%Y')}")
         
         # Filter data based on selected date range
-        filtered_data_arribos = arribos_expo_historico[(arribos_expo_historico['Fecha'] >= pd.to_datetime(start_date_arribos)) & 
-                                                       (arribos_expo_historico['Fecha'] <= pd.to_datetime(end_date_arribos))]
+        filtered_data_arribos = arribos_expo_carga_historico[(arribos_expo_carga_historico['Fecha'] >= pd.to_datetime(start_date_arribos)) & 
+                                                       (arribos_expo_carga_historico['Fecha'] <= pd.to_datetime(end_date_arribos))]
         
         # Format 'Fecha' column to show only date part in Spanish format
         filtered_data_arribos['Fecha'] = filtered_data_arribos['Fecha'].dt.strftime('%d/%m/%Y')
@@ -69,27 +71,17 @@ def show_page_expo_historico():
         st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
 
     with col2:
-        st.subheader("Retiros")
+        st.subheader("Arribos de Contenedores")
         col2_1, col2_2, col2_3 = st.columns(3)
         with col2_1:
-            start_date_retiros = st.date_input("Fecha Inicio", value=historico_retiros_expo['Dia'].min(), key='start_date_retiros')
-            st.write(f"Fecha Inicio: {start_date_retiros.strftime('%d/%m/%Y')}")
+            start_date_arribos = st.date_input("Fecha Inicio", value=arribos_expo_ctns_historico['Fecha'].min(), key='start_date_arribos')
+            st.write(f"Fecha Inicio: {start_date_arribos.strftime('%d/%m/%Y')}")
         with col2_2:
-            end_date_retiros = st.date_input("Fecha Fin", value=historico_retiros_expo['Dia'].max(), key='end_date_retiros')
-            st.write(f"Fecha Fin: {end_date_retiros.strftime('%d/%m/%Y')}")
+            end_date_arribos = st.date_input("Fecha Fin", value=arribos_expo_ctns_historico['Fecha'].max(), key='end_date_arribos')
+            st.write(f"Fecha Fin: {end_date_arribos.strftime('%d/%m/%Y')}")
         with col2_3:
-            cliente_retiros = st.selectbox("Cliente", options=historico_retiros_expo['Cliente'].unique(), key='cliente_retiros')
-            st.write(f"Cliente: {cliente_retiros}")
-        
-        # Filter data based on selected date range and client
-        filtered_data_retiros = historico_retiros_expo.loc[(historico_retiros_expo['Dia'] >= pd.to_datetime(start_date_retiros)) & 
-                                                           (historico_retiros_expo['Dia'] <= pd.to_datetime(end_date_retiros)) & 
-                                                           (historico_retiros_expo['Cliente'] == cliente_retiros)]
-        
-        # Format 'Dia' column to show only date part in Spanish format
-        filtered_data_retiros['Dia'] = filtered_data_retiros['Dia'].dt.strftime('%d/%m/%Y')
-        
-        st.dataframe(filtered_data_retiros, hide_index=True, use_container_width=True)
+            cliente_arribos = st.selectbox("Cliente", options=arribos_expo_ctns_historico['Cliente'].unique(), key='cliente_arribos')
+            st.write(f"Cliente: {cliente_arribos}")
 
         st.subheader("Otros")
         col2_4, col2_5, col2_6 = st.columns(3)
