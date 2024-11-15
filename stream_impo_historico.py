@@ -27,82 +27,89 @@ def show_page_impo_historico():
 
     with col1: 
         st.subheader("Arribos de contenedores")
-        col1_1, col1_2, col1_3 = st.columns(3)
+        col1_1, col1_2 = st.columns(2)
         with col1_1:
-            start_date = st.date_input("Fecha Inicio", value=arribos_impo_historico['Fecha'].min(), label_visibility="collapsed")
-            st.write(f"Fecha Inicio: {start_date.strftime('%d/%m/%Y')}")
+            start_date_arribos = st.date_input("Fecha Inicio", value=arribos_impo_historico['Fecha'].min(), key='start_date_arribos')
+            st.write(f"Fecha Inicio: {start_date_arribos.strftime('%d/%m/%Y')}")
         with col1_2:
-            end_date = st.date_input("Fecha Fin", value=arribos_impo_historico['Fecha'].max(), label_visibility="collapsed")
-            st.write(f"Fecha Fin: {end_date.strftime('%d/%m/%Y')}")
-        with col1_3:
-            cliente = st.selectbox("Cliente", options=arribos_impo_historico['Cliente'].unique(), label_visibility="collapsed")
-            st.write(f"Cliente: {cliente}")
+            end_date_arribos = st.date_input("Fecha Fin", value=arribos_impo_historico['Fecha'].max(), key='end_date_arribos')
+            st.write(f"Fecha Fin: {end_date_arribos.strftime('%d/%m/%Y')}")
+        
         # Filter data based on selected date range
-        arribos_impo_historico_filtrado = arribos_impo_historico.loc[(arribos_impo_historico['Fecha'] >= pd.to_datetime(start_date)) & 
-                                            (arribos_impo_historico['Fecha'] <= pd.to_datetime(end_date)) &
-                                            (arribos_impo_historico['Cliente'] == cliente),]
+        filtered_data_arribos = arribos_impo_historico[(arribos_impo_historico['Fecha'] >= pd.to_datetime(start_date_arribos)) & 
+                                                       (arribos_impo_historico['Fecha'] <= pd.to_datetime(end_date_arribos))]
+        
         # Format 'Fecha' column to show only date part in Spanish format
-        arribos_impo_historico_filtrado['Fecha'] = arribos_impo_historico_filtrado['Fecha'].dt.strftime('%d/%m/%Y')
-        st.dataframe(arribos_impo_historico_filtrado, hide_index=True, use_container_width=True)
+        filtered_data_arribos['Fecha'] = filtered_data_arribos['Fecha'].dt.strftime('%d/%m/%Y')
+        
+        st.dataframe(filtered_data_arribos, hide_index=True, use_container_width=True)
 
         st.subheader("Verificaciones")
         col1_4, col1_5, col1_6 = st.columns(3)
         with col1_4:
-            start_date = st.date_input("Fecha Inicio", value=historico_verificaciones_impo['Dia'].min(), label_visibility="collapsed")
-            st.write(f"Fecha Inicio: {start_date.strftime('%d/%m/%Y')}")
+            start_date_verificaciones = st.date_input("Fecha Inicio", value=historico_verificaciones_impo['Dia'].min(), key='start_date_verificaciones')
+            st.write(f"Fecha Inicio: {start_date_verificaciones.strftime('%d/%m/%Y')}")
         with col1_5:
-            end_date = st.date_input("Fecha Fin", value=historico_verificaciones_impo['Dia'].max(), label_visibility="collapsed")
-            st.write(f"Fecha Fin: {end_date.strftime('%d/%m/%Y')}")
+            end_date_verificaciones = st.date_input("Fecha Fin", value=historico_verificaciones_impo['Dia'].max(), key='end_date_verificaciones')
+            st.write(f"Fecha Fin: {end_date_verificaciones.strftime('%d/%m/%Y')}")
         with col1_6:
-            cliente = st.selectbox("Cliente", options=historico_verificaciones_impo['Cliente'].unique(), label_visibility="collapsed")
-            st.write(f"Cliente: {cliente}")
-        # Filter data based on selected date range
-        historico_verificaciones_impo = historico_verificaciones_impo.loc[(historico_verificaciones_impo['Dia'] >= pd.to_datetime(start_date)) &
-                                            (historico_verificaciones_impo['Dia'] <= pd.to_datetime(end_date)) &
-                                            (arribos_impo_historico['Cliente'] == cliente),]
-        # Format 'Dia' column to show only date part in Spanish format
-        historico_verificaciones_impo['Dia'] = historico_verificaciones_impo['Dia'].dt.strftime('%d/%m/%Y')
-        st.dataframe(historico_verificaciones_impo, hide_index=True, use_container_width=True)
+            cliente_verificaciones = st.selectbox("Cliente", options=historico_verificaciones_impo['Cliente'].unique(), key='cliente_verificaciones')
+            st.write(f"Cliente: {cliente_verificaciones}")
         
+        # Filter data based on selected date range and client
+        filtered_data_verificaciones = historico_verificaciones_impo.loc[(historico_verificaciones_impo['Dia'] >= pd.to_datetime(start_date_verificaciones)) & 
+                                                                         (historico_verificaciones_impo['Dia'] <= pd.to_datetime(end_date_verificaciones)) & 
+                                                                         (historico_verificaciones_impo['Cliente'] == cliente_verificaciones)]
+        
+        # Format 'Dia' column to show only date part in Spanish format
+        filtered_data_verificaciones['Dia'] = filtered_data_verificaciones['Dia'].dt.strftime('%d/%m/%Y')
+        
+        st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
 
     with col2:
         st.subheader("Retiros")
         col2_1, col2_2, col2_3 = st.columns(3)
         with col2_1:
-            start_date = st.date_input("Fecha Inicio", value=historico_retiros_impo['Dia'].min(), label_visibility="collapsed")
-            st.write(f"Fecha Inicio: {start_date.strftime('%d/%m/%Y')}")
+            start_date_retiros = st.date_input("Fecha Inicio", value=historico_retiros_impo['Dia'].min(), key='start_date_retiros')
+            st.write(f"Fecha Inicio: {start_date_retiros.strftime('%d/%m/%Y')}")
         with col2_2:
-            end_date = st.date_input("Fecha Fin", value=historico_retiros_impo['Dia'].max(), label_visibility="collapsed")
-            st.write(f"Fecha Fin: {end_date.strftime('%d/%m/%Y')}")
+            end_date_retiros = st.date_input("Fecha Fin", value=historico_retiros_impo['Dia'].max(), key='end_date_retiros')
+            st.write(f"Fecha Fin: {end_date_retiros.strftime('%d/%m/%Y')}")
         with col2_3:
-            cliente = st.selectbox("Cliente", options=historico_retiros_impo['Cliente'].unique(), label_visibility="collapsed")
-            st.write(f"Cliente: {cliente}")
-        # Filter data based on selected date range
-        historico_retiros_impo = historico_retiros_impo.loc[(historico_retiros_impo['Dia'] >= pd.to_datetime(start_date)) & 
-                                            (historico_retiros_impo['Dia'] <= pd.to_datetime(end_date)) &
-                                            (arribos_impo_historico['Cliente'] == cliente),]
+            cliente_retiros = st.selectbox("Cliente", options=historico_retiros_impo['Cliente'].unique(), key='cliente_retiros')
+            st.write(f"Cliente: {cliente_retiros}")
+        
+        # Filter data based on selected date range and client
+        filtered_data_retiros = historico_retiros_impo.loc[(historico_retiros_impo['Dia'] >= pd.to_datetime(start_date_retiros)) & 
+                                                           (historico_retiros_impo['Dia'] <= pd.to_datetime(end_date_retiros)) & 
+                                                           (historico_retiros_impo['Cliente'] == cliente_retiros)]
+        
         # Format 'Dia' column to show only date part in Spanish format
-        historico_retiros_impo['Dia'] = historico_retiros_impo['Dia'].dt.strftime('%d/%m/%Y')
-        st.dataframe(historico_retiros_impo, hide_index=True, use_container_width=True)
+        filtered_data_retiros['Dia'] = filtered_data_retiros['Dia'].dt.strftime('%d/%m/%Y')
+        
+        st.dataframe(filtered_data_retiros, hide_index=True, use_container_width=True)
 
         st.subheader("Otros")
         col2_4, col2_5, col2_6 = st.columns(3)
         with col2_4:
-            start_date = st.date_input("Fecha Inicio", value=historico_otros_impo['Dia'].min(), label_visibility="collapsed")
-            st.write(f"Fecha Inicio: {start_date.strftime('%d/%m/%Y')}")
+            start_date_otros = st.date_input("Fecha Inicio", value=historico_otros_impo['Dia'].min(), key='start_date_otros')
+            st.write(f"Fecha Inicio: {start_date_otros.strftime('%d/%m/%Y')}")
         with col2_5:
-            end_date = st.date_input("Fecha Fin", value=historico_otros_impo['Dia'].max(), label_visibility="collapsed")
-            st.write(f"Fecha Fin: {end_date.strftime('%d/%m/%Y')}")
+            end_date_otros = st.date_input("Fecha Fin", value=historico_otros_impo['Dia'].max(), key='end_date_otros')
+            st.write(f"Fecha Fin: {end_date_otros.strftime('%d/%m/%Y')}")
         with col2_6:
-            cliente = st.selectbox("Cliente", options=historico_otros_impo['Cliente'].unique(), label_visibility="collapsed")
-            st.write(f"Cliente: {cliente}")
-        # Filter data based on selected date range
-        historico_otros_impo = historico_otros_impo.loc[(historico_otros_impo['Dia'] >= pd.to_datetime(start_date)) & 
-                                            (historico_otros_impo['Dia'] <= pd.to_datetime(end_date)) &
-                                            (arribos_impo_historico['Cliente'] == cliente),]
+            cliente_otros = st.selectbox("Cliente", options=historico_otros_impo['Cliente'].unique(), key='cliente_otros')
+            st.write(f"Cliente: {cliente_otros}")
+        
+        # Filter data based on selected date range and client
+        filtered_data_otros = historico_otros_impo.loc[(historico_otros_impo['Dia'] >= pd.to_datetime(start_date_otros)) & 
+                                                       (historico_otros_impo['Dia'] <= pd.to_datetime(end_date_otros)) & 
+                                                       (historico_otros_impo['Cliente'] == cliente_otros)]
+        
         # Format 'Dia' column to show only date part in Spanish format
-        historico_otros_impo['Dia'] = historico_otros_impo['Dia'].dt.strftime('%d/%m/%Y')
-        st.dataframe(historico_otros_impo, hide_index=True, use_container_width=True)
+        filtered_data_otros['Dia'] = filtered_data_otros['Dia'].dt.strftime('%d/%m/%Y')
+        
+        st.dataframe(filtered_data_otros, hide_index=True, use_container_width=True)
 
 
 
