@@ -23,32 +23,40 @@ def show_page_impo_historico():
 
     with col1: 
         st.subheader("Arribos de contenedores")
-        col1_1, col1_2 = st.columns(2)
+        col1_1, col1_2, col1_3 = st.columns(3)
         with col1_1:
             start_date = st.date_input("Fecha Inicio", value=arribos_impo_historico['Fecha'].min(), label_visibility="collapsed")
             st.write(f"Fecha Inicio: {start_date.strftime('%d/%m/%Y')}")
         with col1_2:
             end_date = st.date_input("Fecha Fin", value=arribos_impo_historico['Fecha'].max(), label_visibility="collapsed")
             st.write(f"Fecha Fin: {end_date.strftime('%d/%m/%Y')}")
+        with col1_3:
+            cliente = st.selectbox("Cliente", options=arribos_impo_historico['Cliente'].unique(), label_visibility="collapsed")
+            st.write(f"Cliente: {cliente}")
         # Filter data based on selected date range
-        filtered_data = arribos_impo_historico[(arribos_impo_historico['Fecha'] >= pd.to_datetime(start_date)) & 
-                                            (arribos_impo_historico['Fecha'] <= pd.to_datetime(end_date))]
+        filtered_data = arribos_impo_historico.loc[(arribos_impo_historico['Fecha'] >= pd.to_datetime(start_date)) & 
+                                            (arribos_impo_historico['Fecha'] <= pd.to_datetime(end_date)) &
+                                            (arribos_impo_historico['Cliente'] == cliente),]
         # Format 'Fecha' column to show only date part in Spanish format
         filtered_data['Fecha'] = filtered_data['Fecha'].dt.strftime('%d/%m/%Y')
         st.dataframe(filtered_data, hide_index=True, use_container_width=True)
 
     with col2:
         st.subheader("Retiros")
-        col2_1, col2_2 = st.columns(2)
+        col2_1, col2_2, col2_3 = st.columns(3)
         with col2_1:
             start_date = st.date_input("Fecha Inicio", value=historico_retiros_impo['Dia'].min(), label_visibility="collapsed")
             st.write(f"Fecha Inicio: {start_date.strftime('%d/%m/%Y')}")
         with col2_2:
             end_date = st.date_input("Fecha Fin", value=historico_retiros_impo['Dia'].max(), label_visibility="collapsed")
             st.write(f"Fecha Fin: {end_date.strftime('%d/%m/%Y')}")
+        with col2_3:
+            cliente = st.selectbox("Cliente", options=historico_retiros_impo['Cliente'].unique(), label_visibility="collapsed")
+            st.write(f"Cliente: {cliente}")
         # Filter data based on selected date range
-        filtered_data = historico_retiros_impo[(historico_retiros_impo['Dia'] >= pd.to_datetime(start_date)) & 
-                                            (historico_retiros_impo['Dia'] <= pd.to_datetime(end_date))]
+        filtered_data = historico_retiros_impo.loc[(historico_retiros_impo['Dia'] >= pd.to_datetime(start_date)) & 
+                                            (historico_retiros_impo['Dia'] <= pd.to_datetime(end_date)) &
+                                            (arribos_impo_historico['Cliente'] == cliente),]
         # Format 'Dia' column to show only date part in Spanish format
         filtered_data['Dia'] = filtered_data['Dia'].dt.strftime('%d/%m/%Y')
         st.dataframe(filtered_data, hide_index=True, use_container_width=True)
