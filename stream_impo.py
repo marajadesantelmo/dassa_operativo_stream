@@ -33,7 +33,8 @@ def show_page_impo():
         with col1_sub:
             st.subheader("Arribos Contenedores día de hoy")
         with col1_metric:
-            st.metric(label="CTNs pendientes", value=arribos[~arribos['Estado'].str.contains('Arribado')].shape[0])
+            ctns_pendientes = arribos[(arribos['Estado'] != '-') & (~arribos['Estado'].str.contains('Arribado'))].shape[0]
+            st.metric(label="CTNs pendientes", value=ctns_pendientes)
         st.dataframe(arribos.style.apply(highlight, axis=1).set_properties(subset=['Cliente'], **{'width': '20px'}), hide_index=True, use_container_width=True)
 
     with col2:
