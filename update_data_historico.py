@@ -132,11 +132,13 @@ arribos_expo_carga = arribos_expo_carga[['fecha', 'orden', 'contenedor' , 'clien
 arribos_expo_carga.columns = ['Fecha', 'Operacion', 'Contenedor', 'Cliente', 'Booking', 'Descripcion', 'Estado']
 arribos_expo_carga['Descripcion'] = arribos_expo_carga['Descripcion'].str.strip()
 arribos_expo_carga['Booking'] = arribos_expo_carga['Booking'].str.strip()
+arribos_expo_carga = arribos_expo_carga[arribos_expo_carga['Cliente'] != 'S/D']
 
 arribos_expo_ctns = arribos_expo[arribos_expo['tipo_oper'] == 'VACIO']
 arribos_expo_ctns = arribos_expo_ctns[['fecha', 'orden', 'contenedor' , 'cliente', 'bookings', 'precinto', 'arribado']]
 arribos_expo_ctns.columns = ['Fecha', 'Operacion', 'Contenedor', 'Cliente', 'Booking', 'Precinto', 'Estado']
 arribos_expo_ctns['Booking'] = arribos_expo_ctns['Booking'].str.strip()
+arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns['Cliente'] != 'S/D']
 
 arribos_expo_carga.to_csv(os.path.join(path, 'data/arribos_expo_carga_historico.csv'), index=False)
 arribos_expo_ctns.to_csv(os.path.join(path, 'data/arribos_expo_ctns_historico.csv'), index=False)
