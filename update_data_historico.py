@@ -122,10 +122,11 @@ arribos_expo['cliente'] =  arribos_expo['cliente'].str.strip()
 arribos_expo['cliente'] =  arribos_expo['cliente'].str.title()
 arribos_expo['arribado'] = arribos_expo['arribado'].replace({0: 'Pendiente', 1: 'Arribado'})
 
-arribos_expo_historico_horarios = pd.read_csv('arribos_expo_historico_horarios.csv')
-arribos_expo = pd.merge(arribos_expo, arribos_expo_historico_horarios, on=['orden'], how='left')
-arribos_expo['arribado'] = arribos_expo['estado'].fillna(arribos_expo['arribado'])
-arribos_expo = arribos_expo.drop(columns=['estado'])
+# Sistema de captacion de arribos expo
+#arribos_expo_historico_horarios = pd.read_csv(os.path.join(path, 'arribos_expo_historico_horarios.csv'))
+#arribos_expo = pd.merge(arribos_expo, arribos_expo_historico_horarios, on=['orden'], how='left')
+#arribos_expo['arribado'] = arribos_expo['estado'].fillna(arribos_expo['arribado'])
+#arribos_expo = arribos_expo.drop(columns=['estado'])
 
 arribos_expo_carga = arribos_expo[arribos_expo['tipo_oper'] != 'VACIO']
 arribos_expo_carga = arribos_expo_carga[['fecha', 'orden', 'contenedor' , 'cliente', 'bookings', 'desc_merc', 'arribado']]
