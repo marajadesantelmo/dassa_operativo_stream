@@ -4,9 +4,13 @@ from datetime import datetime, timedelta
 import gspread
 from gspread_dataframe import set_with_dataframe
 import time
+from tokens import username, password
 
-conn = pyodbc.connect('DRIVER={SQL Server};SERVER=clientes.syspro.com.ar\\SQLEXPRESS_X86,1436;UID=dassa;PWD=Da$$a3065!')
+print('Descargando datos de SQL')
+server = '101.44.8.58\\SQLEXPRESS_X86,1436'
+conn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';UID='+username+';PWD='+ password)
 cursor = conn.cursor()
+
 fecha = datetime.now().strftime('%Y-%m-%d')
 fecha_ant = datetime.now() - timedelta(days=120)
 fecha_ant = fecha_ant.strftime('%Y-%m-%d')
@@ -75,3 +79,18 @@ trafico.columns = ['Orden', 'Suborden', 'Renglon',
     'Volumen', 'Kilos', 'Envase', 'Estado']
 
 trafico.sort_values(by='Dia', inplace=True)
+
+def limpiar_columnas(df):
+    columns = ['Observacion', 'Cliente', 'Tipo Operacion', 'Tipo Trafico',
+               'Descripcion Mercaderia', 'Envase']
+    for column in columns:
+        if column in df.columns:
+            df[column] = df[column].str.strip()
+            df[column] = df[column].str.title()
+    return df
+
+trafico = limpiar_columnas(trafico)
+
+trafico['Conocimiento'] = trafico['Conocimiento'].str.strip()
+
+trafico.to_csv('data/trafico.csv', index=False)
