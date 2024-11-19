@@ -99,10 +99,23 @@ trafico = limpiar_columnas(trafico)
 
 trafico['Conocimiento'] = trafico['Conocimiento'].str.strip()
 
-trafico_entrega_vacio = trafico[(trafico['Tipo Operacion'].str.contains('Exportacion')) &
-                        (trafico['Descripcion Mercaderia'].str.contains('Vacio'))]
+trafico_entrega_vacio = trafico[trafico['Descripcion Mercaderia'].str.contains('Vacio')]
+
+trafico_carga = trafico[(~trafico['Descripcion Mercaderia'].str.contains('Vacio'))]
 
 
-trafico_impo = trafico[trafico['Tipo Operacion'].str.contains('Importacion')]
 trafico_entrega_vacio.to_csv('data/trafico_entrega_vacio.csv', index=False)
-trafico.to_csv('data/trafico.csv', index=False)
+trafico_carga.to_csv('data/trafico_carga.csv', index=False)
+
+
+gc = gspread.service_account(filename='//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/credenciales_gsheets.json')
+sheet_logs =  gc.open_by_url('https://docs.google.com/spreadsheets/d/1aPUkhige3tq7_HuJezTYA1Ko7BWZ4D4W0sZJtsTyq3A')                                           
+worksheet_logs = sheet_logs.worksheet('Logeos')
+df_logs = worksheet_logs.get_all_values()
+df_logs = pd.DataFrame(df_logs[1:], columns=df_logs[0])
+now = datetime.now().strftime('%Y-%m-%d %H:%M')
+new_log_entry = pd.DataFrame([{'Rutina': 'Streamlit - Orden de trafico', 'Fecha y Hora': now}])
+df_logs = pd.concat([df_logs, new_log_entry], ignore_index=True)
+worksheet_logs.clear()
+set_with_dataframe(worksheet_logs, df_logs)
+print("Se registró el logeo")
