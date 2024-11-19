@@ -5,12 +5,13 @@ import time
 from utils import highlight
 
 def fetch_data_trafico():
-    trafico = pd.read_csv('data/trafico.csv')
-    return trafico
+    trafico_entrega_vacio = pd.read_csv('data/trafico_entrega_vacio.csv')
+    trafico_carga = pd.read_csv('data/trafico_carga.csv')
+    return trafico_entrega_vacio, trafico_carga
     
 def show_page_trafico():
     # Load data
-    trafico  = fetch_data_trafico()
+    trafico_entrega_vacio, trafico_carga = fetch_data_trafico()
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
         st.image('logo.png')
@@ -18,8 +19,12 @@ def show_page_trafico():
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Orden de Tráfico")
     
-    st.subheader("Tráfico")
-    st.dataframe(trafico, hide_index=True, use_container_width=True)
+    st.subheader("Contenedores")
+    st.dataframe(trafico_entrega_vacio, hide_index=True, use_container_width=True)
+
+    st.subheader("Carga")
+    st.dataframe(trafico_carga, hide_index=True, use_container_width=True)
+    
 
 if __name__ == "__main__":
     while True:
