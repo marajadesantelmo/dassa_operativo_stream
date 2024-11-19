@@ -39,11 +39,11 @@ columns = [column[0] for column in cursor.description]
 egresado = pd.DataFrame.from_records(rows, columns=columns)
 
 #Turnos
-fecha_inicio = (datetime.now() - timedelta(days=6)).strftime('%Y-%m-%d')
-fecha_fin = (datetime.now() + timedelta(days=6)).strftime('%Y-%m-%d')
+fecha_inicio = (datetime.now() - timedelta(days=31)).strftime('%Y-%m-%d')
+fecha_fin = (datetime.now() + timedelta(days=31)).strftime('%Y-%m-%d')
 
 cursor.execute(f"""
-SELECT orden_ing, suborden, renglon, dia, hora, observa, conocim2, destino
+SELECT orden_ing, suborden, renglon, dia, hora, conocim2, destino
 FROM DEPOFIS.DASSA.[TURNOSSA]
 WHERE dia BETWEEN '{fecha_inicio}' AND '{fecha_fin}'
 """)
@@ -73,7 +73,7 @@ trafico_realizado['Estado'] = 'Realizado'
 trafico = pd.concat([trafico_pendiente, trafico_realizado])
 
 trafico.columns = ['Orden', 'Suborden', 'Renglon',
-    'Dia', 'Hora', 'Observacion', 'Conocimiento', 'Tipo Trafico', 'Operacion',
+    'Dia', 'Hora', 'Conocimiento', 'Tipo Trafico', 'Operacion',
     'Cliente',  'Tipo Operacion', 'Fecha Ingreso', 'Contenedor', 
     'Descripcion Mercaderia', 'Dimension', 'Tipo Contenedor', 
     'Volumen', 'Kilos', 'Envase', 'Estado']
@@ -81,7 +81,7 @@ trafico.columns = ['Orden', 'Suborden', 'Renglon',
 trafico.sort_values(by='Dia', inplace=True)
 
 def limpiar_columnas(df):
-    columns = ['Observacion', 'Cliente', 'Tipo Operacion', 'Tipo Trafico',
+    columns = ['Cliente', 'Tipo Operacion', 'Tipo Trafico',
                'Descripcion Mercaderia', 'Envase']
     for column in columns:
         if column in df.columns:
@@ -92,5 +92,13 @@ def limpiar_columnas(df):
 trafico = limpiar_columnas(trafico)
 
 trafico['Conocimiento'] = trafico['Conocimiento'].str.strip()
+
+trafico_entrega_vacio = trafico[(trafico['Tipo Operacion'].str.contains('Exportacion')) &
+                        (trafico['Descripcion Mercaderia'].str.contains('Vacio'))]
+
+trafico_impo = trafico[trafico['Tipo Operacion'].str.contains('Importacion')]
+
+
+trafico_entrega_vacio.to_csv('data/trafico_entrega_vacio.csv', index=False)
 
 trafico.to_csv('data/trafico.csv', index=False)
