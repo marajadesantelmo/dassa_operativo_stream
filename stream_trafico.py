@@ -19,7 +19,7 @@ def show_page_trafico():
         st.title(f"Orden de Tráfico")
     
     st.subheader("Tráfico")
-    st.dataframe(trafico.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+    st.dataframe(trafico, hide_index=True, use_container_width=True)
 
 if __name__ == "__main__":
     while True:
