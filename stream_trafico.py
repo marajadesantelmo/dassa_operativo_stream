@@ -12,6 +12,12 @@ def fetch_data_trafico():
 def show_page_trafico():
     # Load data
     trafico_entrega_vacio, trafico_carga = fetch_data_trafico()
+
+    st.markdown(
+        '<p style="color: yellow; font-size: 20px;">Sección en construcción</p>',
+        unsafe_allow_html=True
+    )
+    
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
         st.image('logo.png')
