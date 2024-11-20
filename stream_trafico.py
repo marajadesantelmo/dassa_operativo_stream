@@ -6,12 +6,11 @@ from utils import highlight
 
 def fetch_data_trafico():
     trafico_entrega_vacio = pd.read_csv('data/trafico_entrega_vacio.csv')
-    trafico_carga = pd.read_csv('data/trafico_carga.csv')
-    return trafico_entrega_vacio, trafico_carga
+    return trafico_entrega_vacio
     
 def show_page_trafico():
     # Load data
-    trafico_entrega_vacio, trafico_carga = fetch_data_trafico()
+    trafico_entrega_vacio= fetch_data_trafico()
 
     st.markdown(
         '<p style="color: yellow; font-size: 20px;">Sección en construcción</p>',
@@ -28,8 +27,6 @@ def show_page_trafico():
     st.subheader("Contenedores")
     st.dataframe(trafico_entrega_vacio, hide_index=True, use_container_width=True)
 
-    st.subheader("Carga")
-    st.dataframe(trafico_carga, hide_index=True, use_container_width=True)
     
 
 if __name__ == "__main__":
