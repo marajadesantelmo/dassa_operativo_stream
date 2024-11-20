@@ -6,6 +6,8 @@ from gspread_dataframe import set_with_dataframe
 import time
 from tokens import username, password
 
+path = '//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/'
+
 print('Descargando datos de SQL')
 server = '101.44.8.58\\SQLEXPRESS_X86,1436'
 conn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';UID='+username+';PWD='+ password)
