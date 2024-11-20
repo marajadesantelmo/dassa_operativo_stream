@@ -39,4 +39,4 @@ elif page_selection == "IMPO - histórico":
 elif page_selection == "EXPO - histórico":
     stream_expo_historico.show_page_expo_historico()
 elif page_selection == "Tráfico - histórico":
-    stream_trafico.show_page_trafico_historico()
+    stream_trafico_historico.show_page_trafico_historico()
