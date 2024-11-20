@@ -5,12 +5,12 @@ import time
 from utils import highlight
 
 def fetch_data_trafico():
-    trafico_entrega_vacio = pd.read_csv('data/trafico_entrega_vacio.csv')
-    return trafico_entrega_vacio
+    arribos_vacios = pd.read_csv('data/trafico_arribos_vacios.csv')
+    return arribos_vacios
     
 def show_page_trafico():
     # Load data
-    trafico_entrega_vacio= fetch_data_trafico()
+    arribos_vacios= fetch_data_trafico()
 
     st.markdown(
         '<p style="color: yellow; font-size: 20px;">Sección en construcción</p>',
@@ -25,7 +25,7 @@ def show_page_trafico():
         st.title(f"Orden de Tráfico")
     
     st.subheader("Contenedores")
-    st.dataframe(trafico_entrega_vacio, hide_index=True, use_container_width=True)
+    st.dataframe(arribos_vacios, hide_index=True, use_container_width=True)
 
     
 
