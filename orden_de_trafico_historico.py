@@ -41,7 +41,7 @@ columns = [column[0] for column in cursor.description]
 egresado = pd.DataFrame.from_records(rows, columns=columns)
 
 #Turnos
-fecha_inicio = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
+fecha_inicio = (datetime.now() - timedelta(days=31)).strftime('%Y-%m-%d')
 fecha_fin = (datetime.now() + timedelta(days=31)).strftime('%Y-%m-%d')
 
 cursor.execute(f"""
@@ -106,17 +106,17 @@ trafico_entrega_vacio = trafico[trafico['Descripcion Mercaderia'].str.contains('
 trafico_carga = trafico[(~trafico['Descripcion Mercaderia'].str.contains('Vacio'))]
 
 
-trafico_entrega_vacio.to_csv(f'{path}data/trafico_entrega_vacio.csv', index=False)
-trafico_carga.to_csv(f'{path}data/trafico_carga.csv', index=False)
+trafico_entrega_vacio.to_csv(f'{path}data/trafico_entrega_vacio_historico.csv', index=False)
+trafico_carga.to_csv(f'{path}data/trafico_carga_historico.csv', index=False)
 
 
-gc = gspread.service_account(filename='//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/credenciales_gsheets.json')
+gc = gspread.service_account(filename=f'{path}credenciales_gsheets.json')
 sheet_logs =  gc.open_by_url('https://docs.google.com/spreadsheets/d/1aPUkhige3tq7_HuJezTYA1Ko7BWZ4D4W0sZJtsTyq3A')                                           
 worksheet_logs = sheet_logs.worksheet('Logeos')
 df_logs = worksheet_logs.get_all_values()
 df_logs = pd.DataFrame(df_logs[1:], columns=df_logs[0])
 now = datetime.now().strftime('%Y-%m-%d %H:%M')
-new_log_entry = pd.DataFrame([{'Rutina': 'Streamlit - Orden de trafico', 'Fecha y Hora': now}])
+new_log_entry = pd.DataFrame([{'Rutina': 'Streamlit - Orden de trafico historico', 'Fecha y Hora': now}])
 df_logs = pd.concat([df_logs, new_log_entry], ignore_index=True)
 worksheet_logs.clear()
 set_with_dataframe(worksheet_logs, df_logs)
