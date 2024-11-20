@@ -33,6 +33,7 @@ if alertas.empty:
 
 
 clientes = pd.read_csv(path + 'contactos_clientes.csv')
+
 #clientes['email'] = clientes['email'].str.replace(';', ',')
 #def add_space_after_comma(email):
 #    return re.sub(r',(?=\S)', ', ', email)
