@@ -59,8 +59,8 @@ fecha_ant_ult3dias = fecha_ant_ult3dias.strftime('%Y-%m-%d')
 
 #Descargo EXPO a arribar
 cursor.execute(f"""
-SELECT c.orden, c.fecha, c.contenedor, c.sector, c.transitote, c.cantcamion, c.terminal, c.turno, c.dimension, c.tipo_cnt, c.operacion, 
-               c.cliente, c.precinto, c.buque, c.maritima, c.bookings, c.peso, c.observacio, c.arribado, c.camion, c.empresa, c.chofer, c.doc_tipo, c.doc_num, c.chapa_trac, 
+SELECT c.orden, c.fecha, c.contenedor, c.terminal, c.turno, c.dimension, c.tipo_cnt, c.operacion, 
+               c.cliente, c.precinto, c.bookings, c.peso, c.observacio, c.arribado, c.camion, c.empresa, c.chofer, c.doc_tipo, c.doc_num, c.chapa_trac, 
                c.chapa_semi, c.hora_ing, c.hora, c.despachant, c.consignat, c.tipo_oper, c.vto_vacio, c.zona, c.desc_merc, c.permemb,
        cl.apellido AS cliente, c.desc_merc, c.precinto, c.dimension, c.hora_ing
 FROM [DEPOFIS].[DASSA].[CORDICAR] c
