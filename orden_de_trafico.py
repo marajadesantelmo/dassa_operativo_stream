@@ -60,14 +60,12 @@ fecha_ant_ult3dias = fecha_ant_ult3dias.strftime('%Y-%m-%d')
 #Descargo EXPO a arribar
 cursor.execute(f"""
 SELECT c.orden, c.fecha, c.contenedor, c.terminal, c.turno, c.dimension, c.tipo_cnt, c.operacion, 
-               c.cliente, c.precinto, c.bookings, c.peso, c.observacio, c.arribado, c.camion, c.empresa, c.chofer, c.doc_tipo, c.doc_num, c.chapa_trac, 
-               c.chapa_semi, c.hora_ing, c.hora, c.despachant, c.consignat, c.tipo_oper, c.vto_vacio, c.zona, c.desc_merc, c.permemb,
-       cl.apellido AS cliente, c.desc_merc, c.precinto, c.dimension, c.hora_ing
+               c.precinto, c.bookings, c.peso, c.observacio, c.arribado, c.camion, c.empresa, c.chofer, c.doc_tipo, c.doc_num, c.chapa_trac, 
+               c.chapa_semi, c.hora_ing, c.hora, c.despachant, c.consignat, c.tipo_oper, c.vto_vacio, c.zona, c.desc_merc, c.permemb, cliente
 FROM [DEPOFIS].[DASSA].[CORDICAR] c
-JOIN DEPOFIS.DASSA.[Clientes] cl ON c.cliente = cl.clie_nro
 WHERE c.tipo_oper = 'VACIO' 
 AND c.fecha >= '{fecha}'
-""")  
+""")
 rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 arribos_vacios = pd.DataFrame.from_records(rows, columns=columns)
@@ -82,12 +80,9 @@ arribos_vacios['contenedor'] = arribos_vacios['contenedor'].str.strip()
 arribos_vacios['bookings'] = arribos_vacios['bookings'].str.strip()
 arribos_vacios['operacion'] = arribos_vacios['operacion'].str.strip()
 arribos_vacios['tipo_oper'] = arribos_vacios['tipo_oper'].str.strip()
-arribos_vacios['desc_merc'] = arribos_vacios['desc_merc'].str.strip()
-arribos_vacios['Contenedor2'] = arribos_vacios['contenedor'].str.strip()    # Ver para que contenedor2
-arribos_vacios['cliente'] = arribos_vacios['cliente'].str.strip()
-arribos_vacios['cliente'] =  arribos_vacios['cliente'].str.title()
+arribos_vacios['cliente'] = arribos_vacios['cliente'].astype(str).str.strip()
+arribos_vacios['cliente'] = arribos_vacios['cliente'].str.title()
 arribos_vacios['Estado'] = arribos_vacios['arribado'].replace({0: 'Pendiente', 1: 'Arribado'})
-arribos_vacios.loc[arribos_vacios['Estado'] == 'Arribado', 'Estado'] = arribos_vacios['hora_ing'].astype(str) + ' Arribado'
 arribos_vacios['fecha'] = pd.to_datetime(arribos_vacios['fecha']).dt.strftime('%d/%m')
 arribos_vacios = arribos_vacios.sort_values(by='fecha')
 arribos_vacios['contenedor'] = arribos_vacios['contenedor'].apply(lambda x: '-' if x.strip() == '' else x.strip())
