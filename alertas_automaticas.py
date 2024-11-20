@@ -6,6 +6,8 @@ import gspread
 from datetime import datetime
 from gspread_dataframe import set_with_dataframe
 
+path = "//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/"
+
 def log(mensaje):
     gc = gspread.service_account(filename='//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/credenciales_gsheets.json')
     sheet_logs =  gc.open_by_url('https://docs.google.com/spreadsheets/d/1aPUkhige3tq7_HuJezTYA1Ko7BWZ4D4W0sZJtsTyq3A')                                           
@@ -19,7 +21,8 @@ def log(mensaje):
     set_with_dataframe(worksheet_logs, df_logs)
     print("Se registró el logeo")
 
-arribados = pd.read_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/alertas_arribos.csv')
+arribados = pd.read_csv(path + 'alertas_arribos.csv')
+
 
 alertas = arribados[arribados['alerta_enviada'] == 0]
 
@@ -28,12 +31,17 @@ if alertas.empty:
     log("Alertas automaticas: no se enviaron alertas")
     exit()
 
-clientes = pd.read_csv('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/contactos_clientes.csv')
+
+clientes = pd.read_csv(path + 'contactos_clientes.csv')
 #clientes['email'] = clientes['email'].str.replace(';', ',')
 #def add_space_after_comma(email):
 #    return re.sub(r',(?=\S)', ', ', email)
 #clientes['email'] = clientes['email'].apply(add_space_after_comma)
 #clientes['email'] = clientes['email'].str.replace('"', '')
+
+
+# TallyBI
+tallyBi = pd.read_csv(path + 'tallybi.csv')
 
 # Function to send email
 def send_email(alertas, mails):
