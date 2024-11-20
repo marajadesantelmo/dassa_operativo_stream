@@ -1,7 +1,6 @@
 import pandas as pd
 import smtplib
 from email.mime.text import MIMEText
-import re
 import gspread
 from datetime import datetime
 from gspread_dataframe import set_with_dataframe
@@ -25,7 +24,6 @@ def log(mensaje):
 
 arribados = pd.read_csv(path + 'alertas_arribos.csv')
 
-arribados.at[arribados.index[-1], 'alerta_enviada'] = 0
 alertas = arribados[arribados['alerta_enviada'] == 0]
 
 if alertas.empty:
