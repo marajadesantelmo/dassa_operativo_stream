@@ -61,8 +61,10 @@ fecha_ant_ult3dias = fecha_ant_ult3dias.strftime('%Y-%m-%d')
 cursor.execute(f"""
 SELECT c.orden, c.fecha, c.contenedor, c.terminal, c.turno, c.dimension, c.tipo_cnt, c.operacion, 
                c.precinto, c.bookings, c.peso, c.observacio, c.arribado, c.camion, c.empresa, c.chofer, c.doc_tipo, c.doc_num, c.chapa_trac, 
-               c.chapa_semi, c.hora_ing, c.hora, c.despachant, c.consignat, c.tipo_oper, c.vto_vacio, c.zona, c.desc_merc, c.permemb, cliente
+               c.chapa_semi, c.hora_ing, c.hora, c.despachant, c.consignat, c.tipo_oper, c.vto_vacio, c.zona, c.desc_merc, c.permemb,
+       cl.apellido AS cliente
 FROM [DEPOFIS].[DASSA].[CORDICAR] c
+JOIN DEPOFIS.DASSA.[Clientes] cl ON c.cliente = cl.clie_nro
 WHERE c.tipo_oper = 'VACIO' 
 AND c.fecha >= '{fecha}'
 """)
