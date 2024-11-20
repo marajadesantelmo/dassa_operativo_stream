@@ -5,19 +5,23 @@ from datetime import datetime
 from utils import highlight
 
 @st.cache_data(ttl=60) 
-def fetch_data_impo():
+def fetch_data_tele():
     arribos = pd.read_csv('data/arribos.csv')
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
     verificaciones_impo = pd.read_csv('data/verificaciones_impo.csv')
     retiros_impo = pd.read_csv('data/retiros_impo.csv')
     otros_impo = pd.read_csv('data/otros_impo.csv')
-    existente_plz = pd.read_csv('data/existente_plz.csv')
-    existente_alm = pd.read_csv('data/existente_alm.csv')
-    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm
+    arribos_expo_carga = pd.read_csv('data/arribos_expo_carga.csv')
+    arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
+    verificaciones_expo = pd.read_csv('data/verificaciones_expo.csv')
+    otros_expo = pd.read_csv('data/otros_expo.csv')
+    remisiones = pd.read_csv('data/remisiones.csv')
+    consolidados = pd.read_csv('data/consolidados.csv')
+    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados, pendiente_consolidar, listos_para_remitir, vacios_disponibles
 
 def show_page_impo():
     # Load data
-    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm= fetch_data_impo()
+    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo,  arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados, pendiente_consolidar, listos_para_remitir, vacios_disponibles= fetch_data_tele()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -60,14 +64,6 @@ def show_page_impo():
     
     st.markdown("<hr>", unsafe_allow_html=True)
 
-    st.header("Estado de la carga de IMPO")
-    col4, col5 = st.columns(2)
-    with col4:
-        st.subheader("Plazoleta")
-        st.dataframe(existente_plz, hide_index=True, use_container_width=True)
-    with col5:
-        st.subheader("Almacen")
-        st.dataframe(existente_alm, hide_index=True, use_container_width=True)
 
 # Run the show_page function
 if __name__ == "__main__":
