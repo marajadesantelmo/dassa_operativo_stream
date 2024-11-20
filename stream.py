@@ -28,7 +28,6 @@ page_selection  = option_menu(
     default_index=0, 
     orientation="horizontal")
 
-
 if page_selection == "IMPO":
     stream_impo.show_page_impo()  
 elif page_selection == "EXPO":

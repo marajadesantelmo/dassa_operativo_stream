@@ -5,8 +5,8 @@ import time
 from utils import highlight
 
 def fetch_data_trafico():
-    trafico_entrega_vacio = pd.read_csv('data/trafico_entrega_vacio_historico.csv')
-    trafico_carga = pd.read_csv('data/trafico_carga_historico.csv')
+    trafico_entrega_vacio = pd.read_csv('data/trafico_entrega_vacio.csv')
+    trafico_carga = pd.read_csv('data/trafico_carga.csv')
     return trafico_entrega_vacio, trafico_carga
     
 def show_page_trafico():
