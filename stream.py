@@ -4,6 +4,7 @@ import stream_expo
 import stream_impo_historico
 import stream_expo_historico
 import stream_trafico
+import stream_trafico_historico
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 
@@ -21,8 +22,8 @@ with open("styles.css") as f:
 
 page_selection  = option_menu(
     None,  # No menu title
-    ["IMPO", "EXPO", "IMPO - histórico", "EXPO - histórico", "Orden de Tráfico", "Vista Tele"],  
-    icons=["arrow-down-circle", "arrow-up-circle", "book", "book"], 
+    ["IMPO", "EXPO", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico"],  
+    icons=["arrow-down-circle", "arrow-up-circle", "arrow-right-circle", "book", "book", "book"], 
     menu_icon="cast",  
     default_index=0, 
     orientation="horizontal")
@@ -32,9 +33,11 @@ if page_selection == "IMPO":
     stream_impo.show_page_impo()  
 elif page_selection == "EXPO":
     stream_expo.show_page_expo()
+elif page_selection == "Tráfico":
+    stream_trafico.show_page_trafico()
 elif page_selection == "IMPO - histórico":
     stream_impo_historico.show_page_impo_historico()
 elif page_selection == "EXPO - histórico":
     stream_expo_historico.show_page_expo_historico()
-elif page_selection == "Orden de Tráfico":
-    stream_trafico.show_page_trafico()
+elif page_selection == "Tráfico - histórico":
+    stream_trafico.show_page_trafico_historico()

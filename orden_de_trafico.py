@@ -106,8 +106,8 @@ trafico_entrega_vacio = trafico[trafico['Descripcion Mercaderia'].str.contains('
 trafico_carga = trafico[(~trafico['Descripcion Mercaderia'].str.contains('Vacio'))]
 
 
-trafico_entrega_vacio.to_csv('data/trafico_entrega_vacio.csv', index=False)
-trafico_carga.to_csv('data/trafico_carga.csv', index=False)
+trafico_entrega_vacio.to_csv(f'{path}data/trafico_entrega_vacio.csv', index=False)
+trafico_carga.to_csv(f'{path}data/trafico_carga.csv', index=False)
 
 
 gc = gspread.service_account(filename='//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/credenciales_gsheets.json')
