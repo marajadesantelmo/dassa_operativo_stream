@@ -5,6 +5,8 @@ import re
 import gspread
 from datetime import datetime
 from gspread_dataframe import set_with_dataframe
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 path = "//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/"
 
@@ -23,7 +25,7 @@ def log(mensaje):
 
 arribados = pd.read_csv(path + 'alertas_arribos.csv')
 
-
+arribados.at[arribados.index[-1], 'alerta_enviada'] = 0
 alertas = arribados[arribados['alerta_enviada'] == 0]
 
 if alertas.empty:
@@ -43,17 +45,34 @@ clientes = pd.read_csv(path + 'contactos_clientes.csv')
 # TallyBI
 tallyBi = pd.read_csv(path + 'tallybi.csv')
 
-# Function to send email
 def send_email(alertas, mails):
-    msg = MIMEText(f"El contendedor {alertas['contenedor']} del cliente {alertas['cliente']} ")
-    msg['Subject'] = '(correo de prueba) Contenedor Arribado'
+    # Create the email content with a logo
+    email_content = f"""
+    <html>
+    <body>
+        <h2>Notificación automática de Contenedor Arribado</h2>
+        <p>Estimado cliente,</p>
+        <p>Le informamos que el contenedor <strong>{alertas['contenedor']}</strong> del cliente <strong>{alertas['cliente']}</strong> arribó a las instalaciones de DASSA.</p>
+        <p>Saludos cordiales,</p>
+        <p><strong>Avisos automáticos - Dassa Operativo</strong></p>
+        <img src="https://dassa.com.ar/wp-content/uploads/elementor/thumbs/DASSA-LOGO-3.0-2024-PNG-TRANSPARENTE-qrm2px9hpjbdymy2y0xddhecbpvpa9htf30ikzgxds.png" alt="Dassa Logo" width="200">
+    </body>
+    </html>
+    """
+
+    # Create the email message
+    msg = MIMEMultipart()
+    msg['Subject'] = 'Notificación de Contenedor Arribado'
     msg['From'] = "auto@dassa.com.ar"
     msg['To'] = mails
+    msg.attach(MIMEText(email_content, 'html'))
 
+    # Send the email
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
-        server.starttls() 
+        server.starttls()
         server.login("auto@dassa.com.ar", "gyctvgzuwfgvmlfu")
         server.sendmail(msg['From'], [msg['To']], msg.as_string())
+
 
 for _, row in alertas.iterrows():
     mails = clientes[clientes['apellido'] == row['cliente']]['email'].values[0]
