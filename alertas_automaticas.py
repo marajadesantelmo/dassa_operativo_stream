@@ -44,7 +44,7 @@ clientes = pd.read_csv(path + 'contactos_clientes.csv')
 # TallyBI
 tallyBi = pd.read_csv(path + 'tallybi.csv')
 
-def send_email(alertas, mails):
+def send_email(alertas, mail):
     # Create the email content with a logo
     email_content = f"""
     <html>
@@ -63,20 +63,25 @@ def send_email(alertas, mails):
     msg = MIMEMultipart()
     msg['Subject'] = 'Notificación de Contenedor Arribado'
     msg['From'] = "auto@dassa.com.ar"
-    msg['To'] = mails
+    msg['To'] = mail
     msg.attach(MIMEText(email_content, 'html'))
 
     # Send the email
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
         server.login("auto@dassa.com.ar", "gyctvgzuwfgvmlfu")
-        server.sendmail(msg['From'], [msg['To']], msg.as_string())
+        server.sendmail(msg['From'], mail, msg.as_string())
 
+# Treat the information in clientes['email']
+clientes['email'] = clientes['email'].str.replace(';', ',')
+clientes['email'] = clientes['email'].str.replace('"', '')
+clientes['email'] = clientes['email'].apply(lambda x: [email.strip() for email in x.split(',')])
 
 for _, row in alertas.iterrows():
     mails = clientes[clientes['apellido'] == row['cliente']]['email'].values[0]
-    send_email(row, mails)
-    log(f'Correo enviado a {mails} para el contenedor {row["contenedor"]}')
+    for mail in mails:
+        send_email(row, mail)
+        log(f'Correo enviado a {mail} para el contenedor {row["contenedor"]}')
 
 alertas['alerta_enviada'] = 1
 arribados = arribados[arribados['alerta_enviada'] == 1]
