@@ -1,5 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-29751,22/11,Minera Santa Rita Srl,MRKU-053349-3,10080,DR,TD,***************     ,246525545,1,TRANSPORTES LEIRA-NO USAR     ,Rodriguez,08:05,2024-12-13,,                    ,08:05 Arribado
+29803,22/11,Lift Van Int. Co S.A,MSMU-332342-5,10074,DR,TD,****************    ,LA0395668,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,19:57,2024-12-13,Alejandro Malucelli,                    ,19:57 Arribado
+29749,22/11,Arleather S.R.L.,CMAU-447738-3,10074,HC,TD,L4365254            ,BUA0332099,1,TRANSPORTE DEL CLIENTE        ,Porco,07:59,2024-12-13,,                    ,07:59 Arribado
 29768,22/11,Arleather S.R.L.,CMAU-467516-2,10074,HC,TD,L4365300            ,BUA0332099,1,TRANSPORTE DEL CLIENTE        ,Porco,13:05,2024-12-13,,                    ,13:05 Arribado
 29770,22/11,Arleather S.R.L.,TCNU-501618-1,10074,HC,TD,L4365297            ,,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,13:10,2024-12-13,,                    ,13:10 Arribado
 29771,22/11,Arleather S.R.L.,TCNU-501618-1,10074,HC,TD,L4365297            ,,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,13:10,2024-12-13,,                    ,13:10 Arribado
@@ -7,8 +8,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 29777,22/11,Lawter Argentina S.A.,JZPU-107824-9,10074,DR,TD,******************  ,ZIMUBUE9036693,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:24,2024-12-13,,                    ,13:24 Arribado
 29801,22/11,Lawter Argentina S.A.,FCIU-411597-0,10074,DR,TD,******************* ,ZIMUBUE9036693,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,19:53,2024-12-13,,                    ,19:53 Arribado
 29780,22/11,Libertun Hermanos Srl,SEGU-817551-3,0,DR,TD,                    ,24001EC01077239Y,1,TRANSPORTE DEL CLIENTE        ,.,15:37,2024-12-13,,24001EC01077239Y    ,15:37 Arribado
-29749,22/11,Arleather S.R.L.,CMAU-447738-3,10074,HC,TD,L4365254            ,BUA0332099,1,TRANSPORTE DEL CLIENTE        ,Porco,07:59,2024-12-13,,                    ,07:59 Arribado
 29781,22/11,Libertun Hermanos Srl,EXFU-669847-6,0,DR,TD,                    ,24001EC01077239Y,1,TRANSPORTE DEL CLIENTE        ,.,15:37,2024-12-13,,24001EC01077239Y    ,15:37 Arribado
+29782,22/11,Libertun Hermanos Srl,SEGU-805437-9,0,DR,TD,                    ,24001EC01077239Y,1,TRANSPORTE DEL CLIENTE        ,.,15:37,2024-12-13,,24001EC01077239Y    ,15:37 Arribado
 29783,22/11,Libertun Hermanos Srl,STBU-263978-9,0,DR,TD,                    ,24001EC01077239Y,1,TRANSPORTE DEL CLIENTE        ,.,15:37,2024-12-13,,24001EC01077239Y    ,15:37 Arribado
 29784,22/11,Libertun Hermanos Srl,STBU-262843-9,0,DR,TD,                    ,24001EC01077239Y,1,TRANSPORTE DEL CLIENTE        ,.,15:37,2024-12-13,,24001EC01077239Y    ,15:37 Arribado
 29787,22/11,Libertun Hermanos Srl,STBU-262123-9,0,DR,TD,                    ,24001EC01077239Y,1,TRANSPORTE DEL CLIENTE        ,.,17:48,2024-12-13,,24001EC01077239Y    ,17:48 Arribado
@@ -16,10 +17,11 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 29789,22/11,Libertun Hermanos Srl,STBU-264189-4,0,DR,TD,                    ,24001EC01077239Y,1,TRANSPORTE DEL CLIENTE        ,.,17:48,2024-12-13,,24001EC01077239Y    ,17:48 Arribado
 29790,22/11,Libertun Hermanos Srl,SNTU-702194-0,0,DR,TD,                    ,24001EC01077239Y,1,TRANSPORTE DEL CLIENTE        ,.,17:48,2024-12-13,,24001EC01077239Y    ,17:48 Arribado
 29760,22/11,Norfor Sa,OOCU-711926-6,0,HC,TD,***************     ,COSU6401898700,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,09:17,2024-12-13,,                    ,09:17 Arribado
-29782,22/11,Libertun Hermanos Srl,SEGU-805437-9,0,DR,TD,                    ,24001EC01077239Y,1,TRANSPORTE DEL CLIENTE        ,.,15:37,2024-12-13,,24001EC01077239Y    ,15:37 Arribado
-29761,22/11,Norfor Sa,OOCU-721157-8,0,HC,TD,********************,COSU6401898700,1,TRANSPORTE DEL CLIENTE        ,Manfredelli,09:20,2024-12-13,,                    ,09:20 Arribado
 29748,22/11,Arleather S.R.L.,CMAU-654425-9,10074,HC,TD,L4365307            ,BUA0332166,1,TRANSPORTES LEIRA-NO USAR     ,Damian Carrega,07:55,2024-12-13,,                    ,07:55 Arribado
-29779,22/11,Maringa Maderas Sa,TCNU-286639-2,10080,HC,TD,*****************   ,246321985,1,TRANSPORTES LEIRA-NO USAR     ,Damian Carrega,15:03,2024-12-13,,                    ,15:03 Arribado
+29761,22/11,Norfor Sa,OOCU-721157-8,0,HC,TD,********************,COSU6401898700,1,TRANSPORTE DEL CLIENTE        ,Manfredelli,09:20,2024-12-13,,                    ,09:20 Arribado
+29747,22/11,Arleather S.R.L.,TCNU-543431-9,10074,HC,TD,L4365260            ,BUA0332166,1,TRANSPORTES LEIRA-NO USAR     ,Carrano Guillermo,07:49,2024-12-13,,                    ,07:49 Arribado
+29775,22/11,Hector Reboratti,MVIU-001207-5,10080,HC,TD,********************,246115841,1,TRANSPORTE DEL CLIENTE        ,Favieri,13:19,2024-12-13,,                    ,13:19 Arribado
+29751,22/11,Minera Santa Rita Srl,MRKU-053349-3,10080,DR,TD,***************     ,246525545,1,TRANSPORTES LEIRA-NO USAR     ,Rodriguez,08:05,2024-12-13,,                    ,08:05 Arribado
 29752,22/11,Minera Santa Rita Srl,MRKU-039698-1,10080,DR,TD,*****************   ,246525545,1,TRANSPORTES LEIRA-NO USAR     ,Parra,08:07,2024-12-13,246525545,                    ,08:07 Arribado
 29753,22/11,Minera Santa Rita Srl,MSKU-656944-8,10080,DR,TD,*************       ,246525545,1,TRANSPORTES LEIRA-NO USAR     ,Damian Carrega,08:10,2024-12-13,,                    ,08:10 Arribado
 29754,22/11,Minera Santa Rita Srl,MSKU-650242-3,10080,DR,TD,*************       ,246525545,1,TRANSPORTES LEIRA-NO USAR     ,Damian Carrega,08:10,2024-12-13,,                    ,08:10 Arribado
@@ -27,14 +29,14 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 29757,22/11,Minera Santa Rita Srl,MRKU-036368-0,10080,DR,TD,**************      ,246525545,1,TRANSPORTE DEL CLIENTE        ,Favieri,08:50,2024-12-13,,                    ,08:50 Arribado
 29758,22/11,Minera Santa Rita Srl,MRKU-055869-7,10080,DR,TD,**************      ,246525545,1,TRANSPORTE DEL CLIENTE        ,Porco,09:00,2024-12-13,,                    ,09:00 Arribado
 29759,22/11,Minera Santa Rita Srl,MRKU-109505-1,10080,DR,TD,********************,246525545,1,TRANSPORTE DEL CLIENTE        ,Favieri,09:01,2024-12-13,,                    ,09:01 Arribado
-29747,22/11,Arleather S.R.L.,TCNU-543431-9,10074,HC,TD,L4365260            ,BUA0332166,1,TRANSPORTES LEIRA-NO USAR     ,Carrano Guillermo,07:49,2024-12-13,,                    ,07:49 Arribado
 29778,22/11,A La Orden,TCLU-593273-6,TRP,HC,TD,***************     ,VX18FA24000486,1,TRANSPORTES LEIRA-NO USAR     ,Rodriguez,13:58,2024-12-13,Laapsa,                    ,13:58 Arribado
+29786,22/11,A La Orden,TXGU-677634-5,9,HC,TD,FX26263624          ,EBKG10696373,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,16:47,2024-12-13,Darosa,                    ,16:47 Arribado
 29763,22/11,Refractarios Argentinos Saicm,TRHU-388317-1,10081,DR,TD,***************     ,BUEE14981800,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,09:32,2024-12-13,,                    ,09:32 Arribado
 29773,22/11,Pelama Chubut S.A.,GCXU-510089-6,10080,HC,TD,*********           ,69316772,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:16,2024-12-13,,                    ,13:16 Arribado
 29766,22/11,Chemotecnica Sa,HLBU-178260-8,10080,DR,TD,********************,64981482,1,TRANSPORTE DEL CLIENTE        ,Manfredelli,10:23,2024-12-13,,                    ,10:23 Arribado
+29802,22/11,Tipoiti Satic,FCIU-918223-0,10074,HC,TD,******************  ,LA0394080,1,TRANSPORTE DEL CLIENTE        ,Manfredelli,19:55,2024-12-13,,                    ,19:55 Arribado
 29750,22/11,Asecor Srl,MSDU-842681-5,9,HC,TD,FX26262810          ,EBKG10730886,1,TRANSPORTE DEL CLIENTE        ,Porco,08:03,2024-12-13,,                    ,08:03 Arribado
 29785,22/11,Asecor Srl,MSNU-602889-6,9,HC,TD,FX26263620          ,EBKG10730886,1,TRANSPORTE DEL CLIENTE        ,Manfredelli,16:04,2024-12-13,,                    ,16:04 Arribado
 29774,22/11,Hector Reboratti,MRSU-416928-0,10080,HC,TD,246115841           ,246115841,1,TRANSPORTE DEL CLIENTE        ,Porco,13:18,2024-12-13,,                    ,13:18 Arribado
-29775,22/11,Hector Reboratti,MVIU-001207-5,10080,HC,TD,********************,246115841,1,TRANSPORTE DEL CLIENTE        ,Favieri,13:19,2024-12-13,,                    ,13:19 Arribado
-29786,22/11,A La Orden,TXGU-677634-5,9,HC,TD,FX26263624          ,EBKG10696373,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,16:47,2024-12-13,Darosa,                    ,16:47 Arribado
+29779,22/11,Maringa Maderas Sa,TCNU-286639-2,10080,HC,TD,*****************   ,246321985,1,TRANSPORTES LEIRA-NO USAR     ,Damian Carrega,15:03,2024-12-13,,                    ,15:03 Arribado
 29762,22/11,Don Satur Srl,OOLU-913919-1,TRP,HC,TD,******************* ,COSU64001000910,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,09:27,2024-12-13,,                    ,09:27 Arribado
