@@ -45,13 +45,13 @@ clientes = pd.read_csv(path + 'contactos_clientes.csv')
 tallyBi = pd.read_csv(path + 'tallybi.csv')
 
 def send_email(alertas, mail):
-    # Create the email content with a logo
+    current_time = datetime.now().strftime('%H:%M')
     email_content = f"""
     <html>
     <body>
         <h2>Notificación automática de Contenedor Arribado</h2>
         <p>Estimado cliente,</p>
-        <p>Le informamos que el contenedor <strong>{alertas['contenedor']}</strong> del cliente <strong>{alertas['cliente']}</strong> arribó a las instalaciones de DASSA.</p>
+        <p>Le informamos que el contenedor <strong>{alertas['contenedor']}</strong> del cliente <strong>{alertas['cliente']}</strong> arribó a las instalaciones de DASSA a las {current_time} hs.</p>
         <p>Saludos cordiales,</p>
         <p><strong>Avisos automáticos - Dassa Operativo</strong></p>
         <img src="https://dassa.com.ar/wp-content/uploads/elementor/thumbs/DASSA-LOGO-3.0-2024-PNG-TRANSPARENTE-qrm2px9hpjbdymy2y0xddhecbpvpa9htf30ikzgxds.png" alt="Dassa Logo" width="200">
