@@ -5,7 +5,6 @@ from email.mime.multipart import MIMEMultipart
 import gspread
 from datetime import datetime
 from gspread_dataframe import set_with_dataframe
-from tokens import password_gmail
 
 path = "//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/"
 
@@ -29,7 +28,7 @@ clientes = pd.read_csv(path + 'contactos_clientes.csv')
 clientes['email'] = clientes['email'].str.replace(';', ',')
 clientes['email'] = clientes['email'].str.replace('"', '')
 clientes['email'] = clientes['email'].apply(lambda x: [email.strip() for email in x.split(',')])
-#clientes['email'] = clientes['email'] + ", santiago@dassa.com.ar"
+clientes['email'] = clientes['email'] + ", santiago@dassa.com.ar"
 
 # Function to send email
 def send_email(alertas, mail):
@@ -70,27 +69,29 @@ def send_email(alertas, mail):
     # Send the email
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
-        server.login("auto@dassa.com.ar", password_gmail)
+        server.login("auto@dassa.com.ar", "gyctvgzuwfgvmlfu")
         server.sendmail(msg['From'], mail, msg.as_string())
 
 # Process each alert and send emails
 for _, row in alertas.iterrows():
-    mails = clientes[clientes['apellido'] == row['cliente']]['email'].values[0]
-    for mail in mails:
-        try:
-            send_email(row, mail)
-            log(f'Correo enviado a {mail} para el contenedor {row["contenedor"]}')
-        except Exception as e:
-            log(f'Error al enviar correo a {mail} para el contenedor {row["contenedor"]}: {e}')
-    
-    # Update the alert status and save immediately
-    alertas.loc[alertas['contenedor'] == row['contenedor'], 'alerta_enviada'] = 1
-    arribados.update(alertas)
-    arribados.to_csv(path + 'alertas_arribos.csv', index=False)
+    client_emails = clientes[clientes['apellido'] == row['cliente']]['email'].values
+    if len(client_emails) > 0:
+        mails = client_emails[0]
+        for mail in mails:
+            try:
+                send_email(row, mail)
+                log(f'Correo enviado a {mail} para el contenedor {row["contenedor"]}')
+            except Exception as e:
+                log(f'Error al enviar correo a {mail} para el contenedor {row["contenedor"]}: {e}')
+        
+        # Update the alert status and save immediately
+        alertas.loc[alertas['contenedor'] == row['contenedor'], 'alerta_enviada'] = 1
+        arribados.update(alertas)
+        arribados.to_csv(path + 'alertas_arribos.csv', index=False)
+    else:
+        log(f'No se encontraron correos electrónicos para el cliente {row["cliente"]}')
 
 # Save the updated DataFrame
 arribados.to_csv(path + 'alertas_arribos.csv', index=False)
-
-
 
 
