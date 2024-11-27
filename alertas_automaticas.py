@@ -28,7 +28,7 @@ clientes = pd.read_csv(path + 'contactos_clientes.csv')
 clientes['email'] = clientes['email'].str.replace(';', ',')
 clientes['email'] = clientes['email'].str.replace('"', '')
 clientes['email'] = clientes['email'].apply(lambda x: [email.strip() for email in x.split(',')])
-clientes['email'] = clientes['email'] + ", santiago@dassa.com.ar"
+
 
 # Function to send email
 def send_email(alertas, mail):
