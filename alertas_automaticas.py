@@ -32,7 +32,7 @@ clientes['email'] = clientes['email'].apply(lambda x: [email.strip() for email i
 
 
 # Function to send email
-def send_email(alertas, mail):
+def send_email(row, mail):
     # Get the current time
     current_time = datetime.now().strftime('%H:%M')
 
@@ -42,19 +42,9 @@ def send_email(alertas, mail):
     <body>
         <h2>Notificación de Contenedor Arribado</h2>
         <p>Estimado cliente,</p>
-        <p>Le informamos que el contenedor <strong>{alertas['contenedor']}</strong> del cliente <strong>{alertas['cliente']}</strong> arribó a las instalaciones de DASSA a las <strong>{current_time}</strong>.</p>
-        <p>Detalles del contenedor:</p>
-        <ul>
-            <li><strong>Contenedor:</strong> {alertas['contenedor']}</li>
-            <li><strong>Cliente:</strong> {alertas['cliente']}</li>
-            <li><strong>Estado:</strong> {alertas['estado']}</li>
-            <li><strong>Fecha de Arribo:</strong> {alertas['fecha_arribo']}</li>
-            <li><strong>Hora de Arribo:</strong> {current_time}</li>
-            <li><strong>Terminal:</strong> {alertas['terminal']}</li>
-        </ul>
-        <p>Por favor, tome las medidas necesarias.</p>
+        <p>Le informamos que el contenedor <strong>{row['contenedor']}</strong> del cliente <strong>{row['cliente']}</strong> arribó a las instalaciones de DASSA a las <strong>{current_time}</strong>.</p>
         <p>Saludos cordiales,</p>
-        <p><strong>Dassa Operativo</strong></p>
+        <p><strong>Alertas automáticas - Dassa Operativo</strong></p>
         <img src="https://dassa.com.ar/wp-content/uploads/elementor/thumbs/DASSA-LOGO-3.0-2024-PNG-TRANSPARENTE-qrm2px9hpjbdymy2y0xddhecbpvpa9htf30ikzgxds.png" alt="Dassa Logo" width="200">
     </body>
     </html>
