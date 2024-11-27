@@ -73,7 +73,9 @@ def send_email(alertas, mail):
         server.sendmail(msg['From'], mail, msg.as_string())
 
 # Process each alert and send emails
-for _, row in alertas.iterrows():
+for index in range(len(alertas)):
+    arribados = pd.read_csv(path + 'alertas_arribos.csv')
+    row = alertas.iloc[index]
     client_emails = clientes[clientes['apellido'] == row['cliente']]['email'].values
     if len(client_emails) > 0:
         mails = client_emails[0]
@@ -81,15 +83,20 @@ for _, row in alertas.iterrows():
             try:
                 send_email(row, mail)
                 log(f'Correo enviado a {mail} para el contenedor {row["contenedor"]}')
+                print(f'Correo enviado a {mail} para el contenedor {row["contenedor"]}')
             except Exception as e:
                 log(f'Error al enviar correo a {mail} para el contenedor {row["contenedor"]}: {e}')
+                print(f'Error al enviar correo a {mail} para el contenedor {row["contenedor"]}: {e}')
         
         # Update the alert status and save immediately
-        alertas.loc[alertas['contenedor'] == row['contenedor'], 'alerta_enviada'] = 1
+        alertas.at[index, 'alerta_enviada'] = 1
         arribados = pd.concat([arribados[~arribados['contenedor'].isin(alertas['contenedor'])], alertas])
         arribados.to_csv(path + 'alertas_arribos.csv', index=False)
     else:
         log(f'No se encontraron correos electrónicos para el cliente {row["cliente"]}')
+        alertas.at[index, 'alerta_enviada'] = 1
+        arribados = pd.concat([arribados[~arribados['contenedor'].isin(alertas['contenedor'])], alertas])
+        arribados.to_csv(path + 'alertas_arribos.csv', index=False)
 
 # Save the updated DataFrame
 arribados.to_csv(path + 'alertas_arribos.csv', index=False)
