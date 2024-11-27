@@ -86,7 +86,7 @@ for _, row in alertas.iterrows():
         
         # Update the alert status and save immediately
         alertas.loc[alertas['contenedor'] == row['contenedor'], 'alerta_enviada'] = 1
-        arribados.update(alertas)
+        arribados = pd.concat([arribados[~arribados['contenedor'].isin(alertas['contenedor'])], alertas])
         arribados.to_csv(path + 'alertas_arribos.csv', index=False)
     else:
         log(f'No se encontraron correos electrónicos para el cliente {row["cliente"]}')
