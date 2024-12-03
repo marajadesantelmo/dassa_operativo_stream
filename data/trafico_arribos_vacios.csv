@@ -1,8 +1,8 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 29932,03/12,Maringa Maderas Sa,-,10080,HC,TD,                    ,246821968,0,                              ,,     ,2024-12-20,,                    ,Pendiente
-29940,03/12,Suabia Maderas Srl,-,10080,HC,TD,                    ,B946025550,0,                              ,,     ,2024-12-20,,                    ,Pendiente
-29939,03/12,Suabia Maderas Srl,-,10080,HC,TD,                    ,B946025550,0,                              ,,     ,2024-12-20,,                    ,Pendiente
-29938,03/12,Suabia Maderas Srl,TIIU-466460-9,10080,HC,TD,                    ,B946025550,0,                              ,,     ,2024-12-20,,                    ,Pendiente
+29940,03/12,Suabia Maderas Srl,YMMU-657931-9,10080,HC,TD,                    ,B946025550,1,GALDERISI CARLOS ANDRES       ,.,16:37,2024-12-20,,                    ,16:37 Arribado
+29939,03/12,Suabia Maderas Srl,SEGU-450346-6,10080,HC,TD,                    ,B946025550,1,GALDERISI CARLOS ANDRES       ,.,16:37,2024-12-20,,                    ,16:37 Arribado
+29938,03/12,Suabia Maderas Srl,TIIU-466460-9,10080,HC,TD,                    ,B946025550,1,GALDERISI CARLOS ANDRES       ,.,16:37,2024-12-20,,                    ,16:37 Arribado
 29933,03/12,Maringa Maderas Sa,-,10080,HC,TD,                    ,246821968,0,                              ,,     ,2024-12-20,,                    ,Pendiente
 29956,03/12,Piranga Sa,SEGU-500008-6,Exolgan,HC,TD,*************       ,68653729,1,TRANSPORTES LEIRA-NO USAR     ,Carrega Javier,11:59,2024-12-20,,                    ,11:59 Arribado
 29931,03/12,Maringa Maderas Sa,-,10080,HC,TD,                    ,246821968,0,                              ,,     ,2024-12-20,,                    ,Pendiente
@@ -19,7 +19,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 30001,03/12,Arleather S.R.L.,-,10082,HC,C,                    ,BUA0332460,0,                              ,,     ,2024-12-24,,                    ,Pendiente
 29949,03/12,Forestal Y Ganadera Indumarca ...,MSDU-822871-7,Exolgan,HC,TD,                    ,EBKG10732117,1,TRANSPORTES LEIRA-NO USAR     ,Rao Diego,09:19,2024-12-20,,                    ,09:19 Arribado
 29934,03/12,Minera Santa Rita Srl,PCIU-179798-5,Exolgan,DR,TD,***********         ,BUE400173600,1,TRANSPORTE DEL CLIENTE        ,Manfredelli,09:53,2024-12-20,14-419,                    ,09:53 Arribado
-29941,03/12,Suabia Maderas Srl,-,10080,HC,TD,                    ,B946025550,0,                              ,,     ,2024-12-20,,                    ,Pendiente
+29941,03/12,Suabia Maderas Srl,YMMU-636294-0,10080,HC,TD,                    ,B946025550,1,GALDERISI CARLOS ANDRES       ,.,16:37,2024-12-20,,                    ,16:37 Arribado
 29955,03/12,Piranga Sa,TEMU-781390-2,Exolgan,HC,TD,**********          ,68653729,1,TRANSPORTES LEIRA-NO USAR     ,Rodriguez,10:07,2024-12-20,,                    ,10:07 Arribado
 29978,04/12,Arleather S.R.L.,-,10074,HC,C,                    ,BUA0332230,0,                              ,,     ,2024-12-24,,                    ,Pendiente
 29979,04/12,Arleather S.R.L.,-,10074,HC,C,                    ,BUA0332230,0,                              ,,     ,2024-12-24,,                    ,Pendiente
