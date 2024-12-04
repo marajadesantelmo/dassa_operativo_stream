@@ -1,28 +1,23 @@
-Dia,Cliente,Contenedor,Conocim.,Envase,Cant.,Volumen,Ubic.,Estado
-04/12,Industrias Saladillo...,FCIU-413531-8,NBOBUE24040704,Pallets,3,3,IB7,En curso
-04/12,Industrias Saladillo...,FCIU-413531-8,NBOBUE24040704,Pallets,3,3,IA9,En curso
-04/12,Moniport Cargo Sa,HLXU-355971-4,SEA007360,Bultos,1,5,PA-A,En curso
-04/12,Moniport Cargo Sa,HLXU-355971-4,SEA007360-1,Bultos,64,29,EP-IM,En curso
-04/12,Kitchen West Factory,MRKU-009853-9,OE01XZ241001694,Contenedor,1,0,PLZA,En curso
-04/12,Kitchen West Factory,MRKU-087480-1,OE01XZ241001694,Contenedor,1,0,PLZA,En curso
-04/12,Leanval S.A.,MRSU-520106-7,CTLTSZ1000596749,Bultos,28,32,ANEX-A1,En curso
-04/12,Leanval S.A.,SUDU-686403-0,CTLTSZ1000593575,Bultos,28,32,ANEX-A1,En curso
-04/12,Espert S.A.,             ,BR775200046,Pallets,13,13,ANEX-A1,En curso
-04/12,Mercovan Argentina S...,TRHU-328851-7,MVANES20241024-01,Bultos,1,5,PA-A,En curso
-04/12,Aoda Sa,TGHU-514220-0,NB240847090,Contenedor,1,0,PLZA,En curso
-04/12,Industrias Saladillo...,MEDU-552589-0,MEDUUW273558,Bultos,5,6,P-TIN,En curso
-04/12,Industrias Saladillo...,MSDU-223411-6,MEDUUW615485,Bultos,4,4,NAVEEXTERI,En curso
-04/12,Industrias Saladillo...,FBIU-052154-2,MEDUUW615485,Bultos,5,4,NAVEEXTERI,En curso
-04/12,Industrias Saladillo...,TRHU-190601-0,MEDUUW615485,Bultos,4,4,NAVEEXTERI,En curso
-04/12,Prowood S.A.,MRKU-060858-7,MSA170434,Pallets,18,15,IB4,En curso
-04/12,Prowood S.A.,MRKU-060858-7,MSA170434,Pallets,18,15,IA6,En curso
-04/12,Industrias Saladillo...,FAMU-889344-8,TPNGBSG24086038,Pallets,5,6,IA8,En curso
-05/12,Bambu Saludable Srl,BEAU-500819-3,EGLV152480134197,Contenedor,1,0,PLZA,Pendiente
-05/12,Lift Van Int. Co S.A,MSDU-474383-2,LIFBUE24110005,Bultos,309,55,IA9,Pendiente
-05/12,Maritima Maruba Sa,TRIU-035606-2,EID0819876,Bultos,1,20,ANEX-A1,Pendiente
-05/12,Telamania Srl,CSLU-612052-0,GILNB240901204,Contenedor,1,0,PLZA,Pendiente
-05/12,Geo Logistics Argent...,HLBU-614679-0,SZ24081794A,Bultos,598,36,IB5,Pendiente
-05/12,Geo Logistics Argent...,HLBU-614679-0,SZ24081794B,Bultos,100,8,IB5,Pendiente
-05/12,Net Quality S.R.L.,HMMU-663334-6,SZXSE24097046,Contenedor,1,0,PLZA,Pendiente
-05/12,Ajec Autoadhesivos S...,MRKU-058334-4,NESHTR2410072,Contenedor,1,0,PLZA,Pendiente
-06/12,Compañia Resiplast S...,BSIU-981124-3,KAOBAZ10978Y01,Bultos,3,65,P-TIN,Pendiente
+Dia,Cliente,Conocim.,Contenedor,Cant.,Volumen,Envase,Ubic.,Estado
+04/12,Aoda Sa,NB240847090,TGHU-514220-0,1,0,Contenedor,PLZA,En curso
+04/12,Espert S.A.,BR775200046,             ,13,13,Pallets,ANEX-A1,En curso
+04/12,Industrias Saladillo...,MEDUUW273558,MEDU-552589-0,5,6,Bultos,P-TIN,En curso
+04/12,Industrias Saladillo...,MEDUUW615485,"MSDU-223411-6, FBIU-052154-2, TRHU-190601-0",13,12,Bultos,NAVEEXTERI,En curso
+04/12,Industrias Saladillo...,NBOBUE24040704,FCIU-413531-8,6,6,Pallets,"IB7, IA9",En curso
+04/12,Industrias Saladillo...,TPNGBSG24086038,FAMU-889344-8,5,6,Pallets,IA8,En curso
+04/12,Kitchen West Factory,OE01XZ241001694,"MRKU-009853-9, MRKU-087480-1",2,0,Contenedor,PLZA,En curso
+04/12,Leanval S.A.,CTLTSZ1000593575,SUDU-686403-0,28,32,Bultos,ANEX-A1,En curso
+04/12,Leanval S.A.,CTLTSZ1000596749,MRSU-520106-7,28,32,Bultos,ANEX-A1,En curso
+04/12,Mercovan Argentina S...,MVANES20241024-01,TRHU-328851-7,1,5,Bultos,PA-A,En curso
+04/12,Moniport Cargo Sa,SEA007360,HLXU-355971-4,1,5,Bultos,PA-A,En curso
+04/12,Moniport Cargo Sa,SEA007360-1,HLXU-355971-4,64,29,Bultos,EP-IM,En curso
+04/12,Prowood S.A.,MSA170434,MRKU-060858-7,36,30,Pallets,"IB4, IA6",En curso
+05/12,Ajec Autoadhesivos S...,NESHTR2410072,MRKU-058334-4,1,0,Contenedor,PLZA,Pendiente
+05/12,Bambu Saludable Srl,EGLV152480134197,BEAU-500819-3,1,0,Contenedor,PLZA,Pendiente
+05/12,Geo Logistics Argent...,SZ24081794A,HLBU-614679-0,598,36,Bultos,IB5,Pendiente
+05/12,Geo Logistics Argent...,SZ24081794B,HLBU-614679-0,100,8,Bultos,IB5,Pendiente
+05/12,Lift Van Int. Co S.A,LIFBUE24110005,MSDU-474383-2,309,55,Bultos,IA9,Pendiente
+05/12,Maritima Maruba Sa,EID0819876,TRIU-035606-2,1,20,Bultos,ANEX-A1,Pendiente
+05/12,Net Quality S.R.L.,SZXSE24097046,HMMU-663334-6,1,0,Contenedor,PLZA,Pendiente
+05/12,Telamania Srl,GILNB240901204,CSLU-612052-0,1,0,Contenedor,PLZA,Pendiente
+06/12,Compañia Resiplast S...,KAOBAZ10978Y01,BSIU-981124-3,3,65,Bultos,P-TIN,Pendiente
