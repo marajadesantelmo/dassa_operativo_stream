@@ -1,46 +1,20 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-29994,04/12,Mercovan Argentina Srl,UACU-854403-4,10080,DR,TD,**********          ,60318317,1,TRANSPORTE DEL CLIENTE        ,Manfredelli,20:33,2024-12-24,Virasoro,                    ,20:33 Arribado
-29961,04/12,Piranga Sa,SEKU-630971-0,Exolgan,HC,TD,************        ,68653729,1,TRANSPORTES LEIRA-NO USAR     ,Guillermo Carrano,11:19,2024-12-19,,                    ,11:19 Arribado
-29979,04/12,Arleather S.R.L.,TCNU-331927-6,10074,HC,C,************        ,BUA0332230,1,TRANSPORTES LEIRA-NO USAR     ,Carrega Javier,09:11,2024-12-24,,                    ,09:11 Arribado
-30004,04/12,Arleather S.R.L.,RFCU-505110-9,10074,HC,C,1945436             ,BUA0332230,1,TRANSPORTES LEIRA-NO USAR     ,Rao Diego,12:19,2024-12-24,,                    ,12:19 Arribado
-30048,04/12,Arleather S.R.L.,SEGU-636677-9,10082,HC,TD,L4366153            ,BUA0332217,1,GALDERISI CARLOS ANDRES       ,.,15:20,2024-12-25,,                    ,15:20 Arribado
-30049,04/12,Arleather S.R.L.,CMAU-479741-1,10082,HC,TD,L4366043            ,BUA0332217,1,GALDERISI CARLOS ANDRES       ,.,15:20,2024-12-25,,                    ,15:20 Arribado
-30002,04/12,Forestal Y Ganadera Indumarca ...,TRHU-471634-8,Exolgan,HC,TD,                    ,69321572,1,TRANSPORTES LEIRA-NO USAR     ,.,16:49,2024-12-24,,                    ,16:49 Arribado
-30007,04/12,Forestal Y Ganadera Indumarca ...,HLBU-339411-3,Exolgan,HC,TD,                    ,69321572,1,TRANSPORTES LEIRA-NO USAR     ,.,16:49,2024-12-24,,                    ,16:49 Arribado
-30008,04/12,Forestal Y Ganadera Indumarca ...,TLLU-528863-7,Exolgan,HC,TD,                    ,69321572,1,TRANSPORTES LEIRA-NO USAR     ,.,16:50,2024-12-24,,                    ,16:50 Arribado
-30009,04/12,Forestal Y Ganadera Indumarca ...,SEGU-546898-7,Exolgan,HC,TD,                    ,69321572,1,TRANSPORTES LEIRA-NO USAR     ,.,16:50,2024-12-24,,                    ,16:50 Arribado
-29966,04/12,Pelama Chubut S.A.,HLXU-540312-4,10080,DR,C,   *********        ,62653105,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,13:26,2024-12-24,,                    ,13:26 Arribado
-30010,04/12,Forestal Y Ganadera Indumarca ...,HAMU-207964-7,Exolgan,HC,TD,                    ,69321572,1,TRANSPORTES LEIRA-NO USAR     ,.,16:50,2024-12-24,,                    ,16:50 Arribado
-30022,04/12,Dpmg S.A.,SIMU-706897-7,0,is,C,                    ,24001EC03013607F,1,TRANSPORTE DEL CLIENTE        ,.,09:20,2024-12-25,,                    ,09:20 Arribado
-30021,04/12,Dpmg S.A.,ZHCU-201727-0,0,is,C,                    ,24001EC03013617G,1,TRANSPORTE DEL CLIENTE        ,.,09:20,2024-12-25,,                    ,09:20 Arribado
-29976,04/12,Minera Santa Rita Srl,MRKU-057530-7,10080,DR,C,   ***************  ,247187407,1,TRANSPORTES LEIRA-NO USAR     ,Diaz,09:20,2024-12-24,Fc 14-421,                    ,09:20 Arribado
-29975,04/12,Minera Santa Rita Srl,MRKU-053836-6,10080,DR,C,*********           ,247187407,1,TRANSPORTES LEIRA-NO USAR     ,Rodriguez,20:24,2024-12-24,Fc 14-421,                    ,20:24 Arribado
-29974,04/12,Minera Santa Rita Srl,CLHU-458158-5,10080,DR,C,***********         ,247187407,1,TRANSPORTES LEIRA-NO USAR     ,Carrano,20:27,2024-12-24,Fc 14-421,                    ,20:27 Arribado
-29973,04/12,Minera Santa Rita Srl,MRKU-057530-7,10080,DR,C,***********         ,247187407,1,TRANSPORTES LEIRA-NO USAR     ,Diaz,20:29,2024-12-24,Fc 14-421,                    ,20:29 Arribado
-29972,04/12,Minera Santa Rita Srl,MRKU-079124-5,10080,DR,C,************        ,247187407,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,20:28,2024-12-24,Fc 14-421,                    ,20:28 Arribado
-29971,04/12,Minera Santa Rita Srl,MRKU-096747-9,10080,DR,C,**************      ,247187407,1,TRANSPORTE DEL CLIENTE        ,Sanchez,20:27,2024-12-24,Fc 14-421,                    ,20:27 Arribado
-29970,04/12,Minera Santa Rita Srl,MSKU-681258-4,10080,DR,C,************        ,247187407,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez Luis,20:25,2024-12-24,Fc 14-421,                    ,20:25 Arribado
-29969,04/12,Minera Santa Rita Srl,MRKU-070531-3,10080,DR,C,*************       ,247187407,1,TRANSPORTES LEIRA-NO USAR     ,Rao Diego,20:30,2024-12-24,Fc 14-421,                    ,20:30 Arribado
-29968,04/12,Minera Santa Rita Srl,MRKU-056414-9,10080,DR,C,************        ,247187407,1,TRANSPORTE DEL CLIENTE        ,Favieri,20:31,2024-12-24,Fc 14-421,                    ,20:31 Arribado
-29967,04/12,Minera Santa Rita Srl,MRKU-066067-2,10080,DR,C,***************     ,247187407,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,20:31,2024-12-24,Fc 14-421,                    ,20:31 Arribado
-30014,04/12,Lift Van Int. Co S.A,-,Exolgan,DR,TD,                    ,66319679,0,                              ,,     ,2024-12-24,Christophe Monribot,                    ,Pendiente
-29978,04/12,Arleather S.R.L.,CMAU-849271-9,10074,HC,C,  R1945487          ,BUA0332230,1,TRANSPORTES LEIRA-NO USAR     ,Rodriguez,09:10,2024-12-24,,                    ,09:10 Arribado
-30026,05/12,Leterago Sa,-,10080,HC,C,                    ,246727937,0,                              ,,     ,2024-12-24,,                    ,Pendiente
-30041,05/12,Carpal Sa,-,10080,HC,C,                    ,65651738,0,                              ,,     ,2024-12-24,,                    ,Pendiente
 30028,05/12,Leterago Sa,-,10080,HC,C,                    ,246727937,0,                              ,,     ,2024-12-24,,                    ,Pendiente
-30039,05/12,Carpal Sa,-,10080,HC,C,                    ,65651738,0,                              ,,     ,2024-12-24,,                    ,Pendiente
-30027,05/12,Leterago Sa,-,10080,HC,C,                    ,246727937,0,                              ,,     ,2024-12-24,,                    ,Pendiente
-30042,05/12,Suabia Maderas Srl,-,10080,HC,C,                    ,60985201,0,                              ,,     ,2024-12-24,,                    ,Pendiente
-30043,05/12,Maringa Maderas Sa,-,10080,HC,C,                    ,65984680,0,                              ,,     ,2024-12-24,,                    ,Pendiente
-30046,05/12,Overprint S.R.L.,-,15007,  ,TD,                    ,24001EC01079686W,1,TRANSPORTE DEL CLIENTE        ,Pozo Emilio Miguel,14:10,2024-12-25,,                    ,14:10 Arribado
 30050,05/12,Refractarios Argentinos Saicm,-,TRP,DR,TD,                    ,BUEE15406800,0,                              ,,     ,2024-12-25,,                    ,Pendiente
+30046,05/12,Overprint S.R.L.,-,15007,  ,TD,                    ,24001EC01079686W,1,TRANSPORTE DEL CLIENTE        ,Pozo Emilio Miguel,14:10,2024-12-25,,                    ,14:10 Arribado
+30026,05/12,Leterago Sa,-,10080,HC,C,                    ,246727937,0,                              ,,     ,2024-12-24,,                    ,Pendiente
+30043,05/12,Maringa Maderas Sa,-,10080,HC,C,                    ,65984680,0,                              ,,     ,2024-12-24,,                    ,Pendiente
+30042,05/12,Suabia Maderas Srl,-,10080,HC,C,                    ,60985201,0,                              ,,     ,2024-12-24,,                    ,Pendiente
+30027,05/12,Leterago Sa,-,10080,HC,C,                    ,246727937,0,                              ,,     ,2024-12-24,,                    ,Pendiente
+30039,05/12,Carpal Sa,-,10080,HC,C,                    ,65651738,0,                              ,,     ,2024-12-24,,                    ,Pendiente
 30040,05/12,Carpal Sa,-,10080,HC,C,                    ,65651738,0,                              ,,     ,2024-12-24,,                    ,Pendiente
-30060,06/12,Suabia Maderas Srl,-,10080,HC,TD,                    ,63653399,0,                              ,,     ,2024-12-25,,                    ,Pendiente
-30059,06/12,Suabia Maderas Srl,-,10080,HC,TD,                    ,63653399,0,                              ,,     ,2024-12-25,,                    ,Pendiente
-30057,06/12,Suabia Maderas Srl,-,10080,HC,TD,                    ,63653399,0,                              ,,     ,2024-12-25,,                    ,Pendiente
-30053,06/12,Lawter Argentina S.A.,-,10074,DR,TD,                    ,ZIMUBUE9036708,0,                              ,,     ,2024-12-25,,                    ,Pendiente
-30054,06/12,Lawter Argentina S.A.,-,10074,DR,TD,                    ,ZIMUBUE9036708,0,                              ,,     ,2024-12-25,,                    ,Pendiente
+30041,05/12,Carpal Sa,-,10080,HC,C,                    ,65651738,0,                              ,,     ,2024-12-24,,                    ,Pendiente
 30055,06/12,Lawter Argentina S.A.,-,10074,DR,TD,                    ,ZIMUBUE9036708,0,                              ,,     ,2024-12-25,,                    ,Pendiente
-30056,06/12,Kluber Lubrication Argentina S...,-,10080,HC,TD,                    ,247428416,0,                              ,,     ,2024-12-25,,                    ,Pendiente
+30054,06/12,Lawter Argentina S.A.,-,10074,DR,TD,                    ,ZIMUBUE9036708,0,                              ,,     ,2024-12-25,,                    ,Pendiente
+30053,06/12,Lawter Argentina S.A.,-,10074,DR,TD,                    ,ZIMUBUE9036708,0,                              ,,     ,2024-12-25,,                    ,Pendiente
 30052,06/12,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,247470879,0,                              ,,     ,2024-12-25,Simon Adamson,                    ,Pendiente
 30058,06/12,Suabia Maderas Srl,-,10080,HC,TD,                    ,63653399,0,                              ,,     ,2024-12-25,,                    ,Pendiente
+30057,06/12,Suabia Maderas Srl,-,10080,HC,TD,                    ,63653399,0,                              ,,     ,2024-12-25,,                    ,Pendiente
+30056,06/12,Kluber Lubrication Argentina S...,-,10080,HC,TD,                    ,247428416,0,                              ,,     ,2024-12-25,,                    ,Pendiente
+30059,06/12,Suabia Maderas Srl,-,10080,HC,TD,                    ,63653399,0,                              ,,     ,2024-12-25,,                    ,Pendiente
+30060,06/12,Suabia Maderas Srl,-,10080,HC,TD,                    ,63653399,0,                              ,,     ,2024-12-25,,                    ,Pendiente
