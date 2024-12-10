@@ -8,7 +8,7 @@ import stream_trafico_historico
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 
-# Page configuration
+# Page configurations
 st.set_page_config(page_title="Operativa DASSA", 
                    page_icon="📊", 
                    layout="wide")
