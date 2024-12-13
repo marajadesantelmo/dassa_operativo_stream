@@ -51,7 +51,7 @@ def show_page_expo_historico():
         
         filtered_data_arribos = filtered_data[(filtered_data['Fecha'] >= pd.to_datetime(start_date_arribos_carga)) & 
                                                        (filtered_data['Fecha'] <= pd.to_datetime(end_date_arribos_cargas)) ]
-        filtered_data_arribos['Fecha'] = filtered_data_arribos['Fecha'].dt.strftime('%d/%m/%Y')
+        filtered_data_arribos.loc[:, 'Fecha'] = filtered_data_arribos['Fecha'].dt.strftime('%d/%m/%Y')
         
         st.dataframe(filtered_data_arribos, hide_index=True, use_container_width=True)
 
@@ -75,7 +75,7 @@ def show_page_expo_historico():
 
         filtered_data_verificaciones = filtered_data[(filtered_data['Dia'] >= pd.to_datetime(start_date_verificaciones)) &
                                                         (filtered_data['Dia'] <= pd.to_datetime(end_date_verificaciones))]
-        filtered_data_verificaciones['Dia'] = filtered_data_verificaciones['Dia'].dt.strftime('%d/%m/%Y')
+        filtered_data_verificaciones.loc[:, 'Dia'] = filtered_data_verificaciones['Dia'].dt.strftime('%d/%m/%Y')
         st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
 
     with col2:
@@ -100,7 +100,7 @@ def show_page_expo_historico():
         filtered_data_arribos_ctns = filtered_data[(filtered_data['Fecha'] >= pd.to_datetime(start_date_arribos_ctns)) &
                                                         (filtered_data['Fecha'] <= pd.to_datetime(end_date_arribos_ctns))]
         
-        filtered_data_arribos_ctns['Fecha'] = filtered_data_arribos_ctns['Fecha'].dt.strftime('%d/%m/%Y')
+        filtered_data_arribos_ctns.loc[:, 'Fecha'] = filtered_data_arribos_ctns['Fecha'].dt.strftime('%d/%m/%Y')
         st.dataframe(filtered_data_arribos_ctns, hide_index=True, use_container_width=True)
 
         st.subheader("Remisiones")
@@ -123,7 +123,7 @@ def show_page_expo_historico():
 
         filtered_data_remisiones = filtered_data[(filtered_data['Dia'] >= pd.to_datetime(start_date_remisiones)) &
                                                         (filtered_data['Dia'] <= pd.to_datetime(end_date_remisiones))]
-        filtered_data_remisiones['Dia'] = filtered_data_remisiones['Dia'].dt.strftime('%d/%m/%Y')
+        filtered_data_remisiones.loc[:, 'Dia'] = filtered_data_remisiones['Dia'].dt.strftime('%d/%m/%Y')
         st.dataframe(filtered_data_remisiones, hide_index=True, use_container_width=True)
-        
+
     

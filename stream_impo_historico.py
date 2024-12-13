@@ -35,12 +35,9 @@ def show_page_impo_historico():
             end_date_arribos = st.date_input("Fecha Fin", value=arribos_impo_historico['Fecha'].max(), key='end_date_arribos')
             st.write(f"Fecha Fin: {end_date_arribos.strftime('%d/%m/%Y')}")
         
-        # Filter data based on selected date range
         filtered_data_arribos = arribos_impo_historico[(arribos_impo_historico['Fecha'] >= pd.to_datetime(start_date_arribos)) & 
                                                        (arribos_impo_historico['Fecha'] <= pd.to_datetime(end_date_arribos))]
-        
-        # Format 'Fecha' column to show only date part in Spanish format
-        filtered_data_arribos['Fecha'] = filtered_data_arribos['Fecha'].dt.strftime('%d/%m/%Y')
+        filtered_data_arribos.loc[:, 'Fecha'] = filtered_data_arribos['Fecha'].dt.strftime('%d/%m/%Y')
         
         st.dataframe(filtered_data_arribos, hide_index=True, use_container_width=True)
 
@@ -62,7 +59,7 @@ def show_page_impo_historico():
                                                                          (historico_verificaciones_impo['Cliente'] == cliente_verificaciones)]
         
         # Format 'Dia' column to show only date part in Spanish format
-        filtered_data_verificaciones['Dia'] = filtered_data_verificaciones['Dia'].dt.strftime('%d/%m/%Y')
+        filtered_data_verificaciones.loc[:, 'Dia'] = filtered_data_verificaciones['Dia'].dt.strftime('%d/%m/%Y')
         
         st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
 
@@ -85,7 +82,7 @@ def show_page_impo_historico():
                                                            (historico_retiros_impo['Cliente'] == cliente_retiros)]
         
         # Format 'Dia' column to show only date part in Spanish format
-        filtered_data_retiros['Dia'] = filtered_data_retiros['Dia'].dt.strftime('%d/%m/%Y')
+        filtered_data_retiros.loc[:, 'Dia'] = filtered_data_retiros['Dia'].dt.strftime('%d/%m/%Y')
         
         st.dataframe(filtered_data_retiros, hide_index=True, use_container_width=True)
 
@@ -107,7 +104,7 @@ def show_page_impo_historico():
                                                        (historico_otros_impo['Cliente'] == cliente_otros)]
         
         # Format 'Dia' column to show only date part in Spanish format
-        filtered_data_otros['Dia'] = filtered_data_otros['Dia'].dt.strftime('%d/%m/%Y')
+        filtered_data_otros.loc[:, 'Dia'] = filtered_data_otros['Dia'].dt.strftime('%d/%m/%Y')
         
         st.dataframe(filtered_data_otros, hide_index=True, use_container_width=True)
 
