@@ -27,16 +27,20 @@ def show_page_impo_historico():
 
     with col1: 
         st.subheader("Arribos de contenedores")
-        col1_1, col1_2 = st.columns(2)
+        col1_1, col1_2, col1_3 = st.columns(2)
         with col1_1:
             start_date_arribos = st.date_input("Fecha Inicio", value=arribos_impo_historico['Fecha'].min(), key='start_date_arribos')
             st.write(f"Fecha Inicio: {start_date_arribos.strftime('%d/%m/%Y')}")
         with col1_2:
             end_date_arribos = st.date_input("Fecha Fin", value=arribos_impo_historico['Fecha'].max(), key='end_date_arribos')
             st.write(f"Fecha Fin: {end_date_arribos.strftime('%d/%m/%Y')}")
-        
+        with col1_3:
+            cliente_arribos = st.selectbox("Cliente", options=arribos_impo_historico['Cliente'].unique(), key='cliente_arribos')
+            st.write(f"Cliente: {cliente_arribos}")
+                
         filtered_data_arribos = arribos_impo_historico[(arribos_impo_historico['Fecha'] >= pd.to_datetime(start_date_arribos)) & 
-                                                       (arribos_impo_historico['Fecha'] <= pd.to_datetime(end_date_arribos))]
+                                                       (arribos_impo_historico['Fecha'] <= pd.to_datetime(end_date_arribos)) &
+                                                         (arribos_impo_historico['Cliente'] == cliente_arribos)]
         filtered_data_arribos.loc[:, 'Fecha'] = filtered_data_arribos['Fecha'].dt.strftime('%d/%m/%Y')
         
         st.dataframe(filtered_data_arribos, hide_index=True, use_container_width=True)
@@ -53,12 +57,9 @@ def show_page_impo_historico():
             cliente_verificaciones = st.selectbox("Cliente", options=historico_verificaciones_impo['Cliente'].unique(), key='cliente_verificaciones')
             st.write(f"Cliente: {cliente_verificaciones}")
         
-        # Filter data based on selected date range and client
         filtered_data_verificaciones = historico_verificaciones_impo.loc[(historico_verificaciones_impo['Dia'] >= pd.to_datetime(start_date_verificaciones)) & 
                                                                          (historico_verificaciones_impo['Dia'] <= pd.to_datetime(end_date_verificaciones)) & 
                                                                          (historico_verificaciones_impo['Cliente'] == cliente_verificaciones)]
-        
-        # Format 'Dia' column to show only date part in Spanish format
         filtered_data_verificaciones.loc[:, 'Dia'] = filtered_data_verificaciones['Dia'].dt.strftime('%d/%m/%Y')
         
         st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
