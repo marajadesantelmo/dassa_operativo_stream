@@ -14,7 +14,7 @@ def fetch_data_expo_historico():
 def filter_data(data, cliente, start_date, end_date):
     if cliente == "Todos los clientes":
         filtered_data = data
-        st.write("Cliente: todos los clientes - prueba")
+        st.write("Cliente: todos los clientes")
     else:
         filtered_data = data[data['Cliente'] == cliente]
         st.write(f"Cliente: {cliente}")
