@@ -39,8 +39,6 @@ clientes['email'] = clientes['email'].apply(lambda x: [email.strip() for email i
 def send_email(row, mail):
     # Get the current time
     current_time = datetime.now().strftime('%H:%M')
-
-    # Create the email content with a logo
     email_content = f"""
     <html>
     <body>
@@ -53,25 +51,18 @@ def send_email(row, mail):
     </body>
     </html>
     """
-
-    # Create the email message
     msg = MIMEMultipart()
     msg['Subject'] = 'Notificación de Contenedor Arribado'
     msg['From'] = "auto@dassa.com.ar"
     msg['To'] = mail
     msg.attach(MIMEText(email_content, 'html'))
-
-    # Send the email
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
         server.login("auto@dassa.com.ar", "gyctvgzuwfgvmlfu")
         server.sendmail(msg['From'], mail, msg.as_string())
 
 def send_email_retiro(row, mail):
-    # Get the current time
     current_time = datetime.now().strftime('%H:%M')
-
-    # Create the email content with a logo
     email_content = f"""
     <html>
     <body>
@@ -84,13 +75,16 @@ def send_email_retiro(row, mail):
     </body>
     </html>
     """
-
-    # Create the email message
     msg = MIMEMultipart()
-    msg['Subject'] = 'Notificación de Contenedor Retirado'
-    msg['From'] = "
-
-# Process each alert and send emails
+    msg['Subject'] = '(prueba) Notificación Retiro Mercadería de Importación'
+    msg['From'] = "auto@dassa.com.ar"
+    msg['To'] = 'marajadesantelmo@gmail.com'
+    msg.attach(MIMEText(email_content, 'html'))
+    with smtplib.SMTP("smtp.gmail.com", 587) as server:
+        server.starttls()
+        server.login("auto@dassa.com.ar", "gyctvgzuwfgvmlfu")
+        server.sendmail(msg['From'], mail, msg.as_string())
+print('Enviando alertas arribos...')
 for index in range(len(alertas)):
     row = alertas.iloc[index]
     client_emails = clientes[clientes['apellido'] == row['cliente']]['email'].values
@@ -115,8 +109,34 @@ for index in range(len(alertas)):
         row_df = pd.DataFrame([row])
         arribados = pd.concat([arribados, row_df], ignore_index=True)
         arribados.to_csv(path + 'alertas_arribos.csv', index=False)
+print('Enviando alertas retiros...')
+for index in range(len(alertas_retiros)):
+    row = alertas_retiros.iloc[index]
+    client_emails = clientes[clientes['apellido'] == row['Cliente']]['email'].values
+    if len(client_emails) > 0:
+        mails = client_emails[0]
+        for mail in mails:
+            try:
+                send_email_retiro(row, mail)
+                log(f'Correo enviado a {mail} para el contenedor {row["contenedor"]}')
+                print(f'Correo enviado a {mail} para el contenedor {row["contenedor"]}')
+            except Exception as e:
+                log(f'Error al enviar correo a {mail} para el contenedor {row["contenedor"]}: {e}')
+                print(f'Error al enviar correo a {mail} para el contenedor {row["contenedor"]}: {e}')
+        
+        row['alerta_enviada'] = 1
+        row_df = pd.DataFrame([row])
+        retirados = pd.concat([retirados, row_df], ignore_index=True)
+        retirados.to_csv(path + 'alertas_retiros_impo.csv', index=False)
+    else:
+        log(f'No se encontraron correos electrónicos para el cliente {row["Cliente"]}')
+        row['alerta_enviada'] = 1
+        row_df = pd.DataFrame([row])
+        retirados = pd.concat([retirados, row_df], ignore_index=True)
+        retirados.to_csv(path + 'alertas_retiros_impo.csv', index=False)
 
-# Save the updated DataFrame
+
+# Save the updated DataFrames
 arribados.to_csv(path + 'alertas_arribos.csv', index=False)
-
+retirados.to_csv(path + 'alertas_retiros_impo.csv', index=False)
 
