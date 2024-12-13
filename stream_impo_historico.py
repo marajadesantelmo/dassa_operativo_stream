@@ -37,13 +37,15 @@ def show_page_impo_historico():
         with col1_3:
             cliente_arribos = st.selectbox("Cliente", options=arribos_impo_historico['Cliente'].unique(), key='cliente_arribos')
             st.write(f"Cliente: {cliente_arribos}")
-                
-        filtered_data_arribos = arribos_impo_historico[(arribos_impo_historico['Fecha'] >= pd.to_datetime(start_date_arribos)) & 
-                                                       (arribos_impo_historico['Fecha'] <= pd.to_datetime(end_date_arribos)) &
-                                                         (arribos_impo_historico['Cliente'] == cliente_arribos)]
-        filtered_data_arribos.loc[:, 'Fecha'] = filtered_data_arribos['Fecha'].dt.strftime('%d/%m/%Y')
         
+        filtered_data_arribos = arribos_impo_historico.loc[(arribos_impo_historico['Fecha'] >= pd.to_datetime(start_date_arribos)) &
+                                                              (arribos_impo_historico['Fecha'] <= pd.to_datetime(end_date_arribos)) & 
+                                                              (arribos_impo_historico['Cliente'] == cliente_arribos)]
+        filtered_data_arribos.loc[:, 'Fecha'] = filtered_data_arribos['Fecha'].dt.strftime('%d/%m/%Y')
+
         st.dataframe(filtered_data_arribos, hide_index=True, use_container_width=True)
+
+
 
         st.subheader("Verificaciones")
         col1_4, col1_5, col1_6 = st.columns(3)
