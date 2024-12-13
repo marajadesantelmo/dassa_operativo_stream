@@ -67,17 +67,19 @@ def show_page_expo_historico():
             end_date_verificaciones = st.date_input("Fecha Fin", value=historico_verificaciones_expo['Dia'].max(), key='end_date_verificaciones')
             st.write(f"Fecha Fin: {end_date_verificaciones.strftime('%d/%m/%Y')}")
         with col1_6:
-            cliente_verificaciones = st.selectbox("Cliente", options=historico_verificaciones_expo['Cliente'].unique(), key='cliente_verificaciones')
-            st.write(f"Cliente: {cliente_verificaciones}")
+            client_options = ["Todos los clientes"] + list(historico_verificaciones_expo['Cliente'].unique())
+            cliente_verificaciones = st.selectbox("Cliente", options=client_options, key='cliente_verificaciones')
+            if cliente_verificaciones == "Todos los clientes":
+                st.write("Cliente: Mostrando datos para todos los clientes")
+                filtered_data = historico_verificaciones_expo
+            else:
+                st.write(f"Cliente: {cliente_verificaciones}")
+                filtered_data = historico_verificaciones_expo[historico_verificaciones_expo['Cliente'] == cliente_verificaciones]
+
+        filtered_data_verificaciones = filtered_data[(filtered_data['Dia'] >= pd.to_datetime(start_date_verificaciones)) &
+                                                        (filtered_data['Dia'] <= pd.to_datetime(end_date_verificaciones))]
         
-        # Filter data based on selected date range and client
-        filtered_data_verificaciones = historico_verificaciones_expo.loc[(historico_verificaciones_expo['Dia'] >= pd.to_datetime(start_date_verificaciones)) & 
-                                                                         (historico_verificaciones_expo['Dia'] <= pd.to_datetime(end_date_verificaciones)) & 
-                                                                         (historico_verificaciones_expo['Cliente'] == cliente_verificaciones)]
-        
-        # Format 'Dia' column to show only date part in Spanish format
         filtered_data_verificaciones['Dia'] = filtered_data_verificaciones['Dia'].dt.strftime('%d/%m/%Y')
-        
         st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
 
     with col2:
@@ -90,12 +92,18 @@ def show_page_expo_historico():
             end_date_arribos_ctns = st.date_input("Fecha Fin", value=arribos_expo_ctns_historico['Fecha'].max(), key='end_date_arribos_ctns')
             st.write(f"Fecha Fin: {end_date_arribos_ctns.strftime('%d/%m/%Y')}")
         with col2_3:
-            cliente_arribos_ctns = st.selectbox("Cliente", options=arribos_expo_ctns_historico['Cliente'].unique(), key='cliente_arribos_ctns')
-            st.write(f"Cliente: {cliente_arribos_ctns}")
+            client_options = ["Todos los clientes"] + list(arribos_expo_ctns_historico['Cliente'].unique())
+            cliente_arribos_ctns = st.selectbox("Cliente", options=client_options, key='cliente_arribos_ctns')
+            if cliente_arribos_ctns == "Todos los clientes":
+                st.write("Cliente: Mostrando datos para todos los clientes")
+                filtered_data = arribos_expo_ctns_historico
+            else:
+                st.write(f"Cliente: {cliente_arribos_ctns}")
+                filtered_data = arribos_expo_ctns_historico[arribos_expo_ctns_historico['Cliente'] == cliente_arribos_ctns]
         
-        filtered_data_arribos_ctns = arribos_expo_ctns_historico.loc[(arribos_expo_ctns_historico['Fecha'] >= pd.to_datetime(start_date_arribos_ctns)) &
-                                                                    (arribos_expo_ctns_historico['Fecha'] <= pd.to_datetime(end_date_arribos_ctns)) &
-                                                                    (arribos_expo_ctns_historico['Cliente'] == cliente_arribos_ctns)]
+        filtered_data_arribos_ctns = filtered_data[(filtered_data['Fecha'] >= pd.to_datetime(start_date_arribos_ctns)) &
+                                                        (filtered_data['Fecha'] <= pd.to_datetime(end_date_arribos_ctns))]
+        
         filtered_data_arribos_ctns['Fecha'] = filtered_data_arribos_ctns['Fecha'].dt.strftime('%d/%m/%Y')
         st.dataframe(filtered_data_arribos_ctns, hide_index=True, use_container_width=True)
 
