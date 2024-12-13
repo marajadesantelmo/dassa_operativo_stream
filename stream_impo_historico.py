@@ -27,7 +27,7 @@ def show_page_impo_historico():
 
     with col1: 
         st.subheader("Arribos de contenedores")
-        col1_1, col1_2, col1_3 = st.columns(2)
+        col1_1, col1_2, col1_3 = st.columns(3)
         with col1_1:
             start_date_arribos = st.date_input("Fecha Inicio", value=arribos_impo_historico['Fecha'].min(), key='start_date_arribos')
             st.write(f"Fecha Inicio: {start_date_arribos.strftime('%d/%m/%Y')}")
