@@ -25,6 +25,10 @@ arribados = pd.read_csv(path + 'alertas_arribos.csv')
 alertas = arribados[arribados['alerta_enviada'] == 0]
 arribados = arribados[arribados['alerta_enviada'] == 1]
 
+retirados = pd.read_csv(path + 'alertas_retiros_impo.csv')
+alertas_retiros = retirados[retirados['alerta_enviada'] == 0]
+retirados = retirados[retirados['alerta_enviada'] == 1]
+
 clientes = pd.read_csv(path + 'contactos_clientes.csv')
 clientes['email'] = clientes['email'].str.replace(';', ',')
 clientes['email'] = clientes['email'].str.replace('"', '')
@@ -62,6 +66,29 @@ def send_email(row, mail):
         server.starttls()
         server.login("auto@dassa.com.ar", "gyctvgzuwfgvmlfu")
         server.sendmail(msg['From'], mail, msg.as_string())
+
+def send_email_retiro(row, mail):
+    # Get the current time
+    current_time = datetime.now().strftime('%H:%M')
+
+    # Create the email content with a logo
+    email_content = f"""
+    <html>
+    <body>
+        <h2>(prueba) Notificación de Retiro de mercadería de Importación</h2>
+        <p>Estimado cliente,</p>
+        <p>Le informamos que se realizó el retiro de la mercadería correspondiente al contenedor <strong>{row['contenedor']}</strong> del cliente <strong>{row['cliente']}</strong> a las <strong>{current_time}</strong>.</p>
+        <p>Saludos cordiales,</p>
+        <p><strong>Alertas automáticas - Dassa Operativo</strong></p>
+        <img src="https://dassa.com.ar/wp-content/uploads/elementor/thumbs/DASSA-LOGO-3.0-2024-PNG-TRANSPARENTE-qrm2px9hpjbdymy2y0xddhecbpvpa9htf30ikzgxds.png" alt="Dassa Logo" width="200">
+    </body>
+    </html>
+    """
+
+    # Create the email message
+    msg = MIMEMultipart()
+    msg['Subject'] = 'Notificación de Contenedor Retirado'
+    msg['From'] = "
 
 # Process each alert and send emails
 for index in range(len(alertas)):
