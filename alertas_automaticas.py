@@ -34,7 +34,6 @@ clientes['email'] = clientes['email'].str.replace(';', ',')
 clientes['email'] = clientes['email'].str.replace('"', '')
 clientes['email'] = clientes['email'].apply(lambda x: [email.strip() for email in x.split(',')])
 
-
 # Function to send email
 def send_email(row, mail):
     # Get the current time
@@ -68,7 +67,7 @@ def send_email_retiro(row, mail):
     <body>
         <h2>(prueba) Notificación de Retiro de mercadería de Importación</h2>
         <p>Estimado cliente,</p>
-        <p>Le informamos que se realizó el retiro de la mercadería correspondiente al contenedor <strong>{row['contenedor']}</strong> del cliente <strong>{row['cliente']}</strong> a las <strong>{current_time}</strong>.</p>
+        <p>Le informamos que se realizó el retiro de la mercadería correspondiente al contenedor <strong>{row['Contenedor']}</strong> del cliente <strong>{row['Cliente']}</strong> a las <strong>{current_time}</strong>.</p>
         <p>Saludos cordiales,</p>
         <p><strong>Alertas automáticas - Dassa Operativo</strong></p>
         <img src="https://dassa.com.ar/wp-content/uploads/elementor/thumbs/DASSA-LOGO-3.0-2024-PNG-TRANSPARENTE-qrm2px9hpjbdymy2y0xddhecbpvpa9htf30ikzgxds.png" alt="Dassa Logo" width="200">
@@ -83,7 +82,7 @@ def send_email_retiro(row, mail):
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
         server.login("auto@dassa.com.ar", "gyctvgzuwfgvmlfu")
-        server.sendmail(msg['From'], mail, msg.as_string())
+        server.sendmail(msg['From'], msg['To'], msg.as_string())
 
 
 print('Enviando alertas arribos...')
