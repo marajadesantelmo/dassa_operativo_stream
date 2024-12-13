@@ -50,8 +50,8 @@ def show_page_impo_historico():
         with col1_3:
             client_options = ["Todos los clientes"] + sorted(list(arribos_impo_historico['Cliente'].unique()))
             cliente_arribos = st.selectbox("Cliente", options=client_options, key='cliente_arribos')
+            filtered_data_arribos = filter_data(arribos_impo_historico, cliente_arribos, start_date_arribos, end_date_arribos, "Fecha")
         
-        filtered_data_arribos = filter_data(arribos_impo_historico, cliente_arribos, start_date_arribos, end_date_arribos, "Fecha")
         st.dataframe(filtered_data_arribos, hide_index=True, use_container_width=True)
 
         st.subheader("Verificaciones")
