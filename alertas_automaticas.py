@@ -138,7 +138,6 @@ for index in range(len(alertas_retiros)):
         retirados = pd.concat([retirados, row_df], ignore_index=True)
         retirados.to_csv(path + 'alertas_retiros_impo.csv', index=False)
 
-
 # Save the updated DataFrames
 arribados.to_csv(path + 'alertas_arribos.csv', index=False)
 retirados.to_csv(path + 'alertas_retiros_impo.csv', index=False)
