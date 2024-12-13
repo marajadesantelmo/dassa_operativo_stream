@@ -11,6 +11,19 @@ def fetch_data_expo_historico():
     historico_consolidados = pd.read_csv('data/historico_consolidados.csv') # Hay que armar algo con el egresado
     return arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo, historico_otros_expo, historico_remisiones, historico_consolidados
 
+def filter_data(data, cliente, start_date, end_date):
+    if cliente == "Todos los clientes":
+        filtered_data = data
+        st.write("Cliente: todos los clientes - prueba")
+    else:
+        filtered_data = data[data['Cliente'] == cliente]
+        st.write(f"Cliente: {cliente}")
+    
+    filtered_data = filtered_data[(filtered_data['Fecha'] >= pd.to_datetime(start_date)) & 
+                                  (filtered_data['Fecha'] <= pd.to_datetime(end_date))]
+    filtered_data.loc[:, 'Fecha'] = filtered_data['Fecha'].dt.strftime('%d/%m/%Y')
+    return filtered_data
+
 def show_page_expo_historico():
     arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo, historico_otros_expo, historico_remisiones, historico_consolidados = fetch_data_expo_historico()
     arribos_expo_carga_historico['Fecha'] = pd.to_datetime(arribos_expo_carga_historico['Fecha'])
@@ -39,19 +52,10 @@ def show_page_expo_historico():
             end_date_arribos_cargas = st.date_input("Fecha Fin", value=arribos_expo_carga_historico['Fecha'].max(), key='end_date_arribos_cargas')
             st.write(f"Fecha Fin: {end_date_arribos_cargas.strftime('%d/%m/%Y')}")
         with col1_3:
-            # Add "All Clients" as the first option in the list
             client_options = ["Todos los clientes"] + sorted(list(arribos_expo_carga_historico['Cliente'].unique()))
             cliente_arribos_carga = st.selectbox("Cliente", options=client_options, key='cliente_arribos_carga')
-            if cliente_arribos_carga == "Todos los clientes":
-                st.write("Cliente: todos los clientes")
-                filtered_data = arribos_expo_carga_historico  # No filtering
-            else:
-                st.write(f"Cliente: {cliente_arribos_carga}")
-                filtered_data = arribos_expo_carga_historico[arribos_expo_carga_historico['Cliente'] == cliente_arribos_carga]
-        
-        filtered_data_arribos = filtered_data[(filtered_data['Fecha'] >= pd.to_datetime(start_date_arribos_carga)) & 
-                                                       (filtered_data['Fecha'] <= pd.to_datetime(end_date_arribos_cargas)) ]
-        filtered_data_arribos.loc[:, 'Fecha'] = filtered_data_arribos['Fecha'].dt.strftime('%d/%m/%Y')
+         
+        filtered_data_arribos = filter_data(arribos_expo_carga_historico, cliente_arribos_carga, start_date_arribos_carga, end_date_arribos_cargas)
         
         st.dataframe(filtered_data_arribos, hide_index=True, use_container_width=True)
 
@@ -125,5 +129,3 @@ def show_page_expo_historico():
                                                         (filtered_data['Dia'] <= pd.to_datetime(end_date_remisiones))]
         filtered_data_remisiones.loc[:, 'Dia'] = filtered_data_remisiones['Dia'].dt.strftime('%d/%m/%Y')
         st.dataframe(filtered_data_remisiones, hide_index=True, use_container_width=True)
-
-    
