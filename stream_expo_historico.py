@@ -43,17 +43,14 @@ def show_page_expo_historico():
             client_options = ["Todos los clientes"] + list(arribos_expo_carga_historico['Cliente'].unique())
             cliente_arribos_carga = st.selectbox("Cliente", options=client_options, key='cliente_arribos_carga')
             if cliente_arribos_carga == "Todos los clientes":
-                st.write("Cliente: Mostrando datos para todos los clientes")
+                st.write("Cliente: todos los clientes")
                 filtered_data = arribos_expo_carga_historico  # No filtering
             else:
                 st.write(f"Cliente: {cliente_arribos_carga}")
                 filtered_data = arribos_expo_carga_historico[arribos_expo_carga_historico['Cliente'] == cliente_arribos_carga]
         
-        # Filter data based on selected date range
         filtered_data_arribos = filtered_data[(filtered_data['Fecha'] >= pd.to_datetime(start_date_arribos_carga)) & 
                                                        (filtered_data['Fecha'] <= pd.to_datetime(end_date_arribos_cargas)) ]
-        
-        # Format 'Fecha' column to show only date part in Spanish format
         filtered_data_arribos['Fecha'] = filtered_data_arribos['Fecha'].dt.strftime('%d/%m/%Y')
         
         st.dataframe(filtered_data_arribos, hide_index=True, use_container_width=True)
@@ -70,7 +67,7 @@ def show_page_expo_historico():
             client_options = ["Todos los clientes"] + list(historico_verificaciones_expo['Cliente'].unique())
             cliente_verificaciones = st.selectbox("Cliente", options=client_options, key='cliente_verificaciones')
             if cliente_verificaciones == "Todos los clientes":
-                st.write("Cliente: Mostrando datos para todos los clientes")
+                st.write("Cliente: todos los clientes")
                 filtered_data = historico_verificaciones_expo
             else:
                 st.write(f"Cliente: {cliente_verificaciones}")
@@ -78,7 +75,6 @@ def show_page_expo_historico():
 
         filtered_data_verificaciones = filtered_data[(filtered_data['Dia'] >= pd.to_datetime(start_date_verificaciones)) &
                                                         (filtered_data['Dia'] <= pd.to_datetime(end_date_verificaciones))]
-        
         filtered_data_verificaciones['Dia'] = filtered_data_verificaciones['Dia'].dt.strftime('%d/%m/%Y')
         st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
 
@@ -95,7 +91,7 @@ def show_page_expo_historico():
             client_options = ["Todos los clientes"] + list(arribos_expo_ctns_historico['Cliente'].unique())
             cliente_arribos_ctns = st.selectbox("Cliente", options=client_options, key='cliente_arribos_ctns')
             if cliente_arribos_ctns == "Todos los clientes":
-                st.write("Cliente: Mostrando datos para todos los clientes")
+                st.write("Cliente: todos los clientes")
                 filtered_data = arribos_expo_ctns_historico
             else:
                 st.write(f"Cliente: {cliente_arribos_ctns}")
@@ -116,16 +112,18 @@ def show_page_expo_historico():
             end_date_remisiones = st.date_input("Fecha Fin", value=historico_remisiones['Dia'].max(), key='end_date_remisiones')
             st.write(f"Fecha Fin: {end_date_remisiones.strftime('%d/%m/%Y')}")
         with col2_6:
-            cliente_remisiones = st.selectbox("Cliente", options=historico_remisiones['Cliente'].unique(), key='cliente_remisiones')
-            st.write(f"Cliente: {cliente_remisiones}")
-        
-        # Filter data based on selected date range and client
-        filtered_data_remisiones = historico_remisiones.loc[(historico_remisiones['Dia'] >= pd.to_datetime(start_date_remisiones)) & 
-                                                       (historico_remisiones['Dia'] <= pd.to_datetime(end_date_remisiones)) & 
-                                                       (historico_remisiones['Cliente'] == cliente_remisiones)]
-        
-        # Format 'Dia' column to show only date part in Spanish format
+            client_options = ["Todos los clientes"] + list(historico_remisiones['Cliente'].unique())
+            cliente_remisiones = st.selectbox("Cliente", options=client_options, key='cliente_remisiones')
+            if cliente_remisiones == "Todos los clientes":
+                st.write("Cliente: todos los clientes")
+                filtered_data = historico_remisiones
+            else:
+                st.write(f"Cliente: {cliente_remisiones}")
+                filtered_data = historico_remisiones[historico_remisiones['Cliente'] == cliente_remisiones]
+
+        filtered_data_remisiones = filtered_data[(filtered_data['Dia'] >= pd.to_datetime(start_date_remisiones)) &
+                                                        (filtered_data['Dia'] <= pd.to_datetime(end_date_remisiones))]
         filtered_data_remisiones['Dia'] = filtered_data_remisiones['Dia'].dt.strftime('%d/%m/%Y')
-        
         st.dataframe(filtered_data_remisiones, hide_index=True, use_container_width=True)
+        
     
