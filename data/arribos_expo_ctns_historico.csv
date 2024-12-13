@@ -83,11 +83,14 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-11,28000,MSKU-673122-4,Edelweiss Spedition Srl,244067792,******************  ,Arribado
 2024-09-03,27811,NIDU-231429-6,Minera Santa Rita Srl,61300427,****************    ,Arribado
 2024-09-03,27812,GLDU-579912-2,Minera Santa Rita Srl,61300427,************        ,Arribado
+2024-12-16,30234,,Minera Santa Rita Srl,247809529,                    ,Pendiente
+2024-12-16,30235,,Minera Santa Rita Srl,247809529,                    ,Pendiente
 2024-12-13,30192,,Minera Santa Rita Srl,247470442,                    ,Pendiente
 2024-12-13,30193,,Minera Santa Rita Srl,247470442,                    ,Pendiente
 2024-12-13,30194,,Minera Santa Rita Srl,247470442,                    ,Pendiente
 2024-12-13,30195,,Minera Santa Rita Srl,247470442,                    ,Pendiente
 2024-12-13,30196,,Minera Santa Rita Srl,247470442,                    ,Pendiente
+2024-12-16,30233,,Minera Santa Rita Srl,247809529,                    ,Pendiente
 2024-12-04,29975,MRKU-053836-6,Minera Santa Rita Srl,247187407,*********           ,Arribado
 2024-12-04,29976,MRKU-057530-7,Minera Santa Rita Srl,247187407,   ***************  ,Arribado
 2024-12-13,30190,,Minera Santa Rita Srl,247470442,                    ,Pendiente
@@ -228,6 +231,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-08-22,27526,HASU-410808-9,Helvecia S.A.,243192772,**************      ,Arribado
 2024-08-22,27541,TGBU-661239-6,Helvecia S.A.,340400029099,********************,Arribado
 2024-12-09,30122,EITJ-102099-9,Helvecia S.A.,340400044993,                    ,Arribado
+2024-12-16,30230,,Helvecia S.A.,340400044977,                    ,Pendiente
+2024-12-16,30231,,Helvecia S.A.,340400044977,                    ,Pendiente
+2024-12-16,30232,,Helvecia S.A.,340400044977,                    ,Pendiente
 2024-11-13,29607,BMOU-695937-6,Helvecia S.A.,EBKG10693572,FX26259532          ,Arribado
 2024-11-13,29610,EITU-190504-4,Helvecia S.A.,340400041307,********************,Arribado
 2024-11-13,29613,TGBU-924701-8,Helvecia S.A.,340400041307,******************* ,Arribado
@@ -375,6 +381,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-08-22,27528,EITU-139839-8,Isischu Srl,340400028840,**********          ,Arribado
 2024-08-22,27529,TCNU-270337-4,Isischu Srl,340400028840,********************,Arribado
 2024-08-22,27530,GAOU-638355-1,Isischu Srl,340400028840,************        ,Arribado
+2024-12-16,30228,,Isischu Srl,340400045086,                    ,Pendiente
+2024-12-16,30229,,Isischu Srl,340400045086,                    ,Pendiente
+2024-12-16,30225,,Isischu Srl,340400045086,                    ,Pendiente
+2024-12-16,30226,,Isischu Srl,340400045086,                    ,Pendiente
+2024-12-16,30227,,Isischu Srl,340400045086,                    ,Pendiente
 2024-12-09,30081,EGHU-934578-9,Isischu Srl,340400044713,                    ,Arribado
 2024-12-09,30082,TGBU-802653-7,Isischu Srl,340400044713,                    ,Arribado
 2024-12-09,30083,TRHU-503432-1,Isischu Srl,340400044713,                    ,Arribado
@@ -422,6 +433,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-23,29057,MRKU-052077-3,Valerio Oliva Forestal Sa,244573548,**********          ,Arribado
 2024-08-15,27373,TCNU-371150-1,Asecor Srl,EC01053044C,                    ,Arribado
 2024-11-28,29871,FANU-315651-8,Asecor Srl,66653151,**************      ,Arribado
+2024-12-16,30224,,Asecor Srl,67990578,                    ,Pendiente
 2024-11-20,29706,MSMU-897189-0,Asecor Srl,EBKG10693979,FX26262924          ,Arribado
 2024-11-20,29708,MSMU-601957-1,Asecor Srl,EBKG10693956,FX26262939          ,Arribado
 2024-11-22,29750,MSDU-842681-5,Asecor Srl,EBKG10730886,FX26262810          ,Arribado
@@ -456,7 +468,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-08-28,27648,ZCSU-701361-1,Hector Reboratti,ZIMUBUE9034509,*************       ,Arribado
 2024-10-02,28522,FDCU-009692-8,Hector Reboratti,EBKG10296806,FX26258555          ,Arribado
 2024-12-12,30176,TEMU-681966-0,Hector Reboratti,245303779,                    ,Arribado
-2024-12-12,30177,MSKU-083765-1,Hector Reboratti,245303779,                    ,Pendiente
+2024-12-12,30177,MSKU-083765-1,Hector Reboratti,245303779,                    ,Arribado
 2024-11-22,29774,MRSU-416928-0,Hector Reboratti,246115841,246115841           ,Arribado
 2024-11-22,29775,MVIU-001207-5,Hector Reboratti,246115841,********************,Arribado
 2024-12-12,30175,MRSU-332873-0,Hector Reboratti,245303779,                    ,Arribado
@@ -850,6 +862,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-08-31,27021,,Aj Comercio Exterior Srl,24001EC01049469S,                    ,Arribado
 2024-08-31,27022,,Aj Comercio Exterior Srl,24001EC01049469S,                    ,Arribado
 2024-08-20,27492,,Aj Comercio Exterior Srl,24001EC01054469Y,                    ,Arribado
+2024-12-13,30237,,Aj Comercio Exterior Srl,24001C01082773N,                    ,Arribado
+2024-12-13,30238,,Aj Comercio Exterior Srl,24001C01082773N,                    ,Arribado
 2024-12-11,30148,,Aj Comercio Exterior Srl,24001EC01081847Y,                    ,Arribado
 2024-12-11,30149,,Aj Comercio Exterior Srl,24001EC01081847Y,                    ,Arribado
 2024-09-24,28340,,Aj Comercio Exterior Srl,24001EC01062829N,                    ,Arribado
