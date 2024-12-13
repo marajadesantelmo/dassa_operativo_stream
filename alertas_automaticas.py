@@ -84,7 +84,6 @@ def send_email_retiro(row, mail):
         server.login("auto@dassa.com.ar", "gyctvgzuwfgvmlfu")
         server.sendmail(msg['From'], msg['To'], msg.as_string())
 
-
 print('Enviando alertas arribos...')
 for index in range(len(alertas)):
     row = alertas.iloc[index]

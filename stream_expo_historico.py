@@ -39,13 +39,19 @@ def show_page_expo_historico():
             end_date_arribos_cargas = st.date_input("Fecha Fin", value=arribos_expo_carga_historico['Fecha'].max(), key='end_date_arribos_cargas')
             st.write(f"Fecha Fin: {end_date_arribos_cargas.strftime('%d/%m/%Y')}")
         with col1_3:
-            cliente_arribos_carga = st.selectbox("Cliente", options=arribos_expo_carga_historico['Cliente'].unique(), key='cliente_arribos_carga')
-            st.write(f"Cliente: {cliente_arribos_carga}")
+            # Add "All Clients" as the first option in the list
+            client_options = ["Todos los clientes"] + list(arribos_expo_carga_historico['Cliente'].unique())
+            cliente_arribos_carga = st.selectbox("Cliente", options=client_options, key='cliente_arribos_carga')
+            if cliente_arribos_carga == "All Clients":
+                st.write("Cliente: Mostrando datos para todos los clientes")
+                filtered_data = arribos_expo_carga_historico  # No filtering
+            else:
+                st.write(f"Cliente: {cliente_arribos_carga}")
+                filtered_data = arribos_expo_carga_historico[arribos_expo_carga_historico['Cliente'] == cliente_arribos_carga]
         
         # Filter data based on selected date range
-        filtered_data_arribos = arribos_expo_carga_historico[(arribos_expo_carga_historico['Fecha'] >= pd.to_datetime(start_date_arribos_carga)) & 
-                                                       (arribos_expo_carga_historico['Fecha'] <= pd.to_datetime(end_date_arribos_cargas)) &
-                                                         (arribos_expo_carga_historico['Cliente'] == cliente_arribos_carga)]
+        filtered_data_arribos = filtered_data[(filtered_data['Fecha'] >= pd.to_datetime(start_date_arribos_carga)) & 
+                                                       (filtered_data['Fecha'] <= pd.to_datetime(end_date_arribos_cargas)) ]
         
         # Format 'Fecha' column to show only date part in Spanish format
         filtered_data_arribos['Fecha'] = filtered_data_arribos['Fecha'].dt.strftime('%d/%m/%Y')
