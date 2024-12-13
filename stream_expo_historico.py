@@ -21,7 +21,7 @@ def filter_data(data, cliente, start_date, end_date, date_column):
     
     filtered_data = filtered_data[(filtered_data[date_column] >= pd.to_datetime(start_date)) & 
                                   (filtered_data[date_column] <= pd.to_datetime(end_date))]
-    filtered_data[date_column] = filtered_data[date_column].dt.date
+    filtered_data[date_column] = filtered_data[date_column].dt.date.strftime('%d/%m/%Y')
     return filtered_data
 
 def show_page_expo_historico():
