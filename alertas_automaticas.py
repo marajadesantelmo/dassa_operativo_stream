@@ -84,20 +84,22 @@ def send_email_retiro(row, mail):
         server.starttls()
         server.login("auto@dassa.com.ar", "gyctvgzuwfgvmlfu")
         server.sendmail(msg['From'], mail, msg.as_string())
+
+
 print('Enviando alertas arribos...')
 for index in range(len(alertas)):
     row = alertas.iloc[index]
-    client_emails = clientes[clientes['apellido'] == row['cliente']]['email'].values
+    client_emails = clientes[clientes['apellido'] == row['Cliente']]['email'].values
     if len(client_emails) > 0:
         mails = client_emails[0]
         for mail in mails:
             try:
                 send_email(row, mail)
-                log(f'Correo enviado a {mail} para el contenedor {row["contenedor"]}')
-                print(f'Correo enviado a {mail} para el contenedor {row["contenedor"]}')
+                log(f'Correo enviado a {mail} para el contenedor {row["Contenedor"]}')
+                print(f'Correo enviado a {mail} para el contenedor {row["Contenedor"]}')
             except Exception as e:
-                log(f'Error al enviar correo a {mail} para el contenedor {row["contenedor"]}: {e}')
-                print(f'Error al enviar correo a {mail} para el contenedor {row["contenedor"]}: {e}')
+                log(f'Error al enviar correo a {mail} para el contenedor {row["Contenedor"]}: {e}')
+                print(f'Error al enviar correo a {mail} para el contenedor {row["Contenedor"]}: {e}')
         
         row['alerta_enviada'] = 1
         row_df = pd.DataFrame([row])
@@ -110,6 +112,7 @@ for index in range(len(alertas)):
         arribados = pd.concat([arribados, row_df], ignore_index=True)
         arribados.to_csv(path + 'alertas_arribos.csv', index=False)
 print('Enviando alertas retiros...')
+
 for index in range(len(alertas_retiros)):
     row = alertas_retiros.iloc[index]
     client_emails = clientes[clientes['apellido'] == row['Cliente']]['email'].values
@@ -118,11 +121,11 @@ for index in range(len(alertas_retiros)):
         for mail in mails:
             try:
                 send_email_retiro(row, mail)
-                log(f'Correo enviado a {mail} para el contenedor {row["contenedor"]}')
-                print(f'Correo enviado a {mail} para el contenedor {row["contenedor"]}')
+                log(f'Correo enviado a {mail} para el contenedor {row["Contenedor"]}')
+                print(f'Correo enviado a {mail} para el contenedor {row["Contenedor"]}')
             except Exception as e:
-                log(f'Error al enviar correo a {mail} para el contenedor {row["contenedor"]}: {e}')
-                print(f'Error al enviar correo a {mail} para el contenedor {row["contenedor"]}: {e}')
+                log(f'Error al enviar correo a {mail} para el contenedor {row["Contenedor"]}: {e}')
+                print(f'Error al enviar correo a {mail} para el contenedor {row["Contenedor"]}: {e}')
         
         row['alerta_enviada'] = 1
         row_df = pd.DataFrame([row])
