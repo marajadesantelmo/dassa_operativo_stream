@@ -42,7 +42,7 @@ def show_page_expo_historico():
             # Add "All Clients" as the first option in the list
             client_options = ["Todos los clientes"] + list(arribos_expo_carga_historico['Cliente'].unique())
             cliente_arribos_carga = st.selectbox("Cliente", options=client_options, key='cliente_arribos_carga')
-            if cliente_arribos_carga == "All Clients":
+            if cliente_arribos_carga == "Todos los clientes":
                 st.write("Cliente: Mostrando datos para todos los clientes")
                 filtered_data = arribos_expo_carga_historico  # No filtering
             else:
