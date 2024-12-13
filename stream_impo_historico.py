@@ -65,8 +65,7 @@ def show_page_impo_historico():
         with col1_6:
             client_options = ["Todos los clientes"] + sorted(list(historico_verificaciones_impo['Cliente'].unique()))
             cliente_verificaciones = st.selectbox("Cliente", options=client_options, key='cliente_verificaciones')
-        
-        filtered_data_verificaciones = filter_data(historico_verificaciones_impo, cliente_verificaciones, start_date_verificaciones, end_date_verificaciones, "Dia")        
+            filtered_data_verificaciones = filter_data(historico_verificaciones_impo, cliente_verificaciones, start_date_verificaciones, end_date_verificaciones, "Dia")        
         st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
 
     with col2:
@@ -81,8 +80,7 @@ def show_page_impo_historico():
         with col2_3:
             client_options = ["Todos los clientes"] + sorted(list(historico_retiros_impo['Cliente'].unique()))
             cliente_retiros = st.selectbox("Cliente", options=client_options, key='cliente_retiros')
-        
-        filtered_data_retiros = filter_data(historico_retiros_impo, cliente_retiros, start_date_retiros, end_date_retiros, "Dia") 
+            filtered_data_retiros = filter_data(historico_retiros_impo, cliente_retiros, start_date_retiros, end_date_retiros, "Dia") 
         st.dataframe(filtered_data_retiros, hide_index=True, use_container_width=True)
 
         st.subheader("Otros")
@@ -96,8 +94,7 @@ def show_page_impo_historico():
         with col2_6:
             client_options = ["Todos los clientes"] + sorted(list(historico_otros_impo['Cliente'].unique()))
             cliente_otros = st.selectbox("Cliente", options=client_options, key='cliente_otros')
-        
-        filtered_data_otros = filter_data(historico_otros_impo, cliente_otros, start_date_otros, end_date_otros, "Dia")        
+            filtered_data_otros = filter_data(historico_otros_impo, cliente_otros, start_date_otros, end_date_otros, "Dia")        
         st.dataframe(filtered_data_otros, hide_index=True, use_container_width=True)
 
 
