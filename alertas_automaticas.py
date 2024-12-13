@@ -77,7 +77,7 @@ def send_email_retiro(row, mail):
     msg = MIMEMultipart()
     msg['Subject'] = '(prueba) Notificación Retiro Mercadería de Importación'
     msg['From'] = "auto@dassa.com.ar"
-    msg['To'] = 'marajadesantelmo@gmail.com'
+    msg['To'] = "marajadesantelmo@gmail.com"
     msg.attach(MIMEText(email_content, 'html'))
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
