@@ -9,17 +9,17 @@ def fetch_data_impo_historico():
     historico_otros_impo = pd.read_csv('data/historico_otros_impo.csv')
     return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo
 
-def filter_data(data, cliente, start_date, end_date):
+def filter_data(data, cliente, start_date, end_date, date_column):
     if cliente == "Todos los clientes":
         filtered_data = data
-        st.write("Cliente: todos los clientes - prueba")
+        st.write("Cliente: todos los clientes")
     else:
         filtered_data = data[data['Cliente'] == cliente]
         st.write(f"Cliente: {cliente}")
     
-    filtered_data = filtered_data[(filtered_data['Fecha'] >= pd.to_datetime(start_date)) & 
-                                  (filtered_data['Fecha'] <= pd.to_datetime(end_date))]
-    filtered_data.loc[:, 'Fecha'] = filtered_data['Fecha'].dt.strftime('%d/%m/%Y')
+    filtered_data = filtered_data[(filtered_data[date_column] >= pd.to_datetime(start_date)) & 
+                                  (filtered_data[date_column] <= pd.to_datetime(end_date))]
+    filtered_data.loc[:, date_column] = filtered_data[date_column].dt.strftime('%d/%m/%Y')
     return filtered_data
 
 def show_page_impo_historico():
@@ -51,7 +51,7 @@ def show_page_impo_historico():
             client_options = ["Todos los clientes"] + sorted(list(arribos_impo_historico['Cliente'].unique()))
             cliente_arribos = st.selectbox("Cliente", options=client_options, key='cliente_arribos')
         
-        filtered_data_arribos = filter_data(arribos_impo_historico, cliente_arribos, start_date_arribos, end_date_arribos)
+        filtered_data_arribos = filter_data(arribos_impo_historico, cliente_arribos, start_date_arribos, end_date_arribos, "Fecha")
         st.dataframe(filtered_data_arribos, hide_index=True, use_container_width=True)
 
         st.subheader("Verificaciones")
@@ -66,7 +66,7 @@ def show_page_impo_historico():
             client_options = ["Todos los clientes"] + sorted(list(historico_verificaciones_impo['Cliente'].unique()))
             cliente_verificaciones = st.selectbox("Cliente", options=client_options, key='cliente_verificaciones')
         
-        filtered_data_verificaciones = filter_data(historico_verificaciones_impo, cliente_verificaciones, start_date_verificaciones, end_date_verificaciones)        
+        filtered_data_verificaciones = filter_data(historico_verificaciones_impo, cliente_verificaciones, start_date_verificaciones, end_date_verificaciones, "Dia")        
         st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
 
     with col2:
@@ -82,7 +82,7 @@ def show_page_impo_historico():
             client_options = ["Todos los clientes"] + sorted(list(historico_retiros_impo['Cliente'].unique()))
             cliente_retiros = st.selectbox("Cliente", options=client_options, key='cliente_retiros')
         
-        filtered_data_retiros = filter_data(historico_retiros_impo, cliente_retiros, start_date_retiros, end_date_retiros) 
+        filtered_data_retiros = filter_data(historico_retiros_impo, cliente_retiros, start_date_retiros, end_date_retiros, "Dia") 
         st.dataframe(filtered_data_retiros, hide_index=True, use_container_width=True)
 
         st.subheader("Otros")
@@ -97,7 +97,7 @@ def show_page_impo_historico():
             client_options = ["Todos los clientes"] + sorted(list(historico_otros_impo['Cliente'].unique()))
             cliente_otros = st.selectbox("Cliente", options=client_options, key='cliente_otros')
         
-        filtered_data_otros = filter_data(historico_otros_impo, cliente_otros, start_date_otros, end_date_otros)        
+        filtered_data_otros = filter_data(historico_otros_impo, cliente_otros, start_date_otros, end_date_otros, "Dia")        
         st.dataframe(filtered_data_otros, hide_index=True, use_container_width=True)
 
 
