@@ -1,12 +1,12 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 30233,16/12,Minera Santa Rita Srl,-,10080,HC,TD,                    ,247809529,0,                              ,,     ,2025-01-03,,                    ,Pendiente
 30218,16/12,Diesel Roy Alexander,-,Exolgan,HC,TD,                    ,68323531,0,                              ,,     ,2025-01-03,,                    ,Pendiente
-30224,16/12,Asecor Srl,-,10080,HC,TD,                    ,67990578,0,                              ,,     ,2025-01-03,,                    ,Pendiente
+30224,16/12,Asecor Srl,CAIU-951797-4,10080,HC,TD,*******             ,67990578,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:25,2025-01-03,,                    ,13:25 Arribado
 30229,16/12,Isischu Srl,-,TRP,HC,TD,                    ,340400045086,0,                              ,,     ,2025-01-03,,                    ,Pendiente
-30228,16/12,Isischu Srl,-,TRP,HC,TD,                    ,340400045086,0,                              ,,     ,2025-01-03,,                    ,Pendiente
-30227,16/12,Isischu Srl,-,TRP,HC,TD,                    ,340400045086,0,                              ,,     ,2025-01-03,,                    ,Pendiente
-30226,16/12,Isischu Srl,-,TRP,HC,TD,                    ,340400045086,0,                              ,,     ,2025-01-03,,                    ,Pendiente
-30225,16/12,Isischu Srl,-,TRP,HC,TD,                    ,340400045086,0,                              ,,     ,2025-01-03,,                    ,Pendiente
+30228,16/12,Isischu Srl,EMCU-853828-4,TRP,HC,TD,***************     ,340400045086,1,TRANSPORTES LEIRA-NO USAR     ,Diaz,13:32,2025-01-03,,                    ,13:32 Arribado
+30227,16/12,Isischu Srl,TGBU-441645-5,TRP,HC,TD,************        ,340400045086,1,TRANSPORTES LEIRA-NO USAR     ,Damian Carrega,13:31,2025-01-03,,                    ,13:31 Arribado
+30226,16/12,Isischu Srl,TGBU-690617-4,TRP,HC,TD,***************     ,340400045086,1,TRANSPORTES LEIRA-NO USAR     ,Rodriguez,13:28,2025-01-03,,                    ,13:28 Arribado
+30225,16/12,Isischu Srl,EITU-104462-4,TRP,HC,TD,******************  ,340400045086,1,TRANSPORTES LEIRA-NO USAR     ,Parra,13:27,2025-01-03,,                    ,13:27 Arribado
 30219,16/12,Diesel Roy Alexander,-,Exolgan,HC,TD,                    ,68323531,0,                              ,,     ,2025-01-03,,                    ,Pendiente
 30232,16/12,Helvecia S.A.,-,TRP,HC,TD,                    ,340400044977,0,                              ,,     ,2025-01-03,,                    ,Pendiente
 30230,16/12,Helvecia S.A.,-,TRP,HC,TD,                    ,340400044977,0,                              ,,     ,2025-01-03,,                    ,Pendiente
