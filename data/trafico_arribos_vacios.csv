@@ -1,6 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 30233,16/12,Minera Santa Rita Srl,-,10080,HC,TD,                    ,247809529,0,                              ,,     ,2025-01-03,,                    ,Pendiente
-30219,16/12,Diesel Roy Alexander,-,Exolgan,HC,TD,                    ,68323531,0,                              ,,     ,2025-01-03,,                    ,Pendiente
+30219,16/12,Diesel Roy Alexander,HLXU-807673-0,Exolgan,HC,TD,********************,68323531,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,15:48,2025-01-03,,                    ,15:48 Arribado
 30218,16/12,Diesel Roy Alexander,CAIU-977969-7,Exolgan,HC,TD,***************     ,68323531,1,TRANSPORTE DEL CLIENTE        ,Favieri,15:36,2025-01-03,,                    ,15:36 Arribado
 30224,16/12,Asecor Srl,CAIU-951797-4,10080,HC,TD,*******             ,67990578,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:25,2025-01-03,,                    ,13:25 Arribado
 30229,16/12,Isischu Srl,TIIU-582138-5,TRP,HC,TD,********************,340400045086,1,TRANSPORTES LEIRA-NO USAR     ,Parra,15:34,2025-01-03,,                    ,15:34 Arribado
