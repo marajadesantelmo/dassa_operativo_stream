@@ -1,16 +1,24 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 30223,17/12,Pelama Chubut S.A.,-,10080,HC,TD,                    ,66323173,0,                              ,,     ,2025-01-03,,                    ,Pendiente
-30259,17/12,Mader Zu S.R.L.,-,10080,HC,TD,                    ,246722567,0,                              ,,     ,2025-01-06,,                    ,Pendiente
-30272,17/12,Mader Zu S.R.L.,-,10080,HC,TD,                    ,66991467,0,                              ,,     ,2025-01-06,,                    ,Pendiente
-30263,17/12,Helvecia S.A.,-,TRP,HC,TD,                    ,340400044969,0,                              ,,     ,2025-01-06,,                    ,Pendiente
-30264,17/12,Helvecia S.A.,-,TRP,HC,TD,                    ,340400044969,0,                              ,,     ,2025-01-06,,                    ,Pendiente
-30265,17/12,Helvecia S.A.,CCLU-777599-0,TRP,HC,TD,************        ,COSU6404148330,1,TRANSPORTE DEL CLIENTE        ,Porco,12:42,2025-01-06,,                    ,12:42 Arribado
-30266,17/12,Helvecia S.A.,-,TRP,HC,TD,                    ,COSU6404148330,0,                              ,,     ,2025-01-06,,                    ,Pendiente
-30261,17/12,Hector Reboratti,SUDU-877270-9,10080,HC,TD,****************    ,247855258,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez Jose,12:45,2025-01-06,,                    ,12:45 Arribado
-30262,17/12,Hector Reboratti,-,10080,HC,TD,                    ,247855258,0,                              ,,     ,2025-01-06,,                    ,Pendiente
-30260,17/12,Maringa Maderas Sa,HLBU-223020-2,Exolgan,HC,TD,                    ,69322507,1,TRANSPORTES LEIRA-NO USAR     ,Damian Carrega,12:46,2025-01-06,,                    ,12:46 Arribado
-30267,17/12,Forestal Bosques Del Plata Sa,DFSU-741898-0,Exolgan,HC,TD,********************,62654748,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,10:17,2025-01-06,,                    ,10:17 Arribado
-30268,17/12,Forestal Bosques Del Plata Sa,FSCU-723917-2,Exolgan,HC,TD,******************* ,62654748,1,TRANSPORTE DEL CLIENTE        ,Manfredelli,10:18,2025-01-06,,                    ,10:18 Arribado
 30269,17/12,Forestal Bosques Del Plata Sa,TCLU-556446-5,Exolgan,HC,TD,************        ,62654748,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,10:29,2025-01-06,,                    ,10:29 Arribado
+30268,17/12,Forestal Bosques Del Plata Sa,FSCU-723917-2,Exolgan,HC,TD,******************* ,62654748,1,TRANSPORTE DEL CLIENTE        ,Manfredelli,10:18,2025-01-06,,                    ,10:18 Arribado
+30267,17/12,Forestal Bosques Del Plata Sa,DFSU-741898-0,Exolgan,HC,TD,********************,62654748,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,10:17,2025-01-06,,                    ,10:17 Arribado
+30294,17/12,Adp Trading Srl,-,0,DR,TD,                    ,24001EC01083497R,0,                              ,,     ,2025-01-07,,                    ,Pendiente
+30293,17/12,Adp Trading Srl,-,0,DR,TD,                    ,24001EC01083497R,0,                              ,,     ,2025-01-07,,                    ,Pendiente
+30292,17/12,Adp Trading Srl,SEGU-358124-8,0,DR,TD,                    ,24001EC01083497R,1,TRANSPORTE DEL CLIENTE        ,.,14:11,2025-01-07,,                    ,14:11 Arribado
+30291,17/12,Adp Trading Srl,UACU-384616-0,0,DR,TD,                    ,24001EC01083497R,1,TRANSPORTE DEL CLIENTE        ,.,14:11,2025-01-07,,                    ,14:11 Arribado
+30290,17/12,Adp Trading Srl,HLBU-137420-5,0,DR,TD,                    ,24001EC01083497R,1,TRANSPORTE DEL CLIENTE        ,.,14:11,2025-01-07,,                    ,14:11 Arribado
+30289,17/12,Adp Trading Srl,HLBU-230469-2,0,DR,TD,                    ,24001EC01083497R,1,TRANSPORTE DEL CLIENTE        ,.,14:10,2025-01-07,,                    ,14:10 Arribado
 30270,17/12,Forestal Bosques Del Plata Sa,HLBU-190164-6,Exolgan,HC,TD,**************      ,62654748,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,12:44,2025-01-06,,                    ,12:44 Arribado
+30288,17/12,Adp Trading Srl,SEKU-116626-3,0,DR,TD,                    ,24001EC01083497R,1,TRANSPORTE DEL CLIENTE        ,.,14:10,2025-01-07,,                    ,14:10 Arribado
+30260,17/12,Maringa Maderas Sa,HLBU-223020-2,Exolgan,HC,TD,                    ,69322507,1,TRANSPORTES LEIRA-NO USAR     ,Damian Carrega,12:46,2025-01-06,,                    ,12:46 Arribado
+30262,17/12,Hector Reboratti,-,10080,HC,TD,                    ,247855258,0,                              ,,     ,2025-01-06,,                    ,Pendiente
+30261,17/12,Hector Reboratti,SUDU-877270-9,10080,HC,TD,****************    ,247855258,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez Jose,12:45,2025-01-06,,                    ,12:45 Arribado
+30266,17/12,Helvecia S.A.,-,TRP,HC,TD,                    ,COSU6404148330,0,                              ,,     ,2025-01-06,,                    ,Pendiente
+30265,17/12,Helvecia S.A.,CCLU-777599-0,TRP,HC,TD,************        ,COSU6404148330,1,TRANSPORTE DEL CLIENTE        ,Porco,12:42,2025-01-06,,                    ,12:42 Arribado
+30264,17/12,Helvecia S.A.,-,TRP,HC,TD,                    ,340400044969,0,                              ,,     ,2025-01-06,,                    ,Pendiente
+30263,17/12,Helvecia S.A.,-,TRP,HC,TD,                    ,340400044969,0,                              ,,     ,2025-01-06,,                    ,Pendiente
+30272,17/12,Mader Zu S.R.L.,-,10080,HC,TD,                    ,66991467,0,                              ,,     ,2025-01-06,,                    ,Pendiente
+30259,17/12,Mader Zu S.R.L.,-,10080,HC,TD,                    ,246722567,0,                              ,,     ,2025-01-06,,                    ,Pendiente
+30287,17/12,Adp Trading Srl,RFSU-302575-6,0,DR,TD,                    ,24001EC01083497R,1,TRANSPORTE DEL CLIENTE        ,.,14:10,2025-01-07,,                    ,14:10 Arribado
 30271,17/12,Forestal Bosques Del Plata Sa,-,Exolgan,HC,TD,                    ,62654748,0,                              ,,     ,2025-01-06,,                    ,Pendiente
