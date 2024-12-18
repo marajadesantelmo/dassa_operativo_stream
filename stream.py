@@ -25,13 +25,11 @@ USERNAMES = os.getenv("USERNAMES")
 PASSWORDS = os.getenv("PASSWORDS")
 
 def login(username, password):
-    print(USERNAMES)
-    print(PASSWORDS)
     if username in USERNAMES and password in PASSWORDS:
         return True
     return False
 
-# Login system
+# Initialize session state
 if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
 if 'username' not in st.session_state:
