@@ -43,6 +43,7 @@ if not st.session_state['logged_in']:
         if login(username, password):
             st.session_state['logged_in'] = True
             st.success("Usuario logeado")
+            st.rerun() 
         else:
             st.error("Usuario o clave invalidos")
 else:
