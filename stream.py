@@ -21,8 +21,8 @@ count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refre
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-USERNAMES = os.getenv("USERNAMES")
-PASSWORDS = os.getenv("PASSWORDS")
+USERNAMES=["DASSA", "Facu"]
+PASSWORDS=["DASSA3", "123"]
 
 def login(username, password):
     if username in USERNAMES and password in PASSWORDS:
