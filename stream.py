@@ -57,7 +57,7 @@ if not st.session_state['logged_in']:
             st.success("Usuario logeado")
             st.rerun()
         else:
-            st.error("Usuario o clave invalidos"))
+            st.error("Usuario o clave invalidos")
 else:
     page_selection = option_menu(
             None,  # No menu title
