@@ -51,16 +51,14 @@ if not st.session_state['logged_in']:
         if login(username, password):
             st.session_state['logged_in'] = True
             st.session_state.username = username
-            cookies.set("logged_in", True)
-            cookies.set("username", username)
+            cookies["logged_in"] = True
+            cookies["username"] = username
+            cookies.save()  # Persist the changes
             st.success("Usuario logeado")
             st.rerun()
         else:
-            st.error("Usuario o clave invalidos")
+            st.error("Usuario o clave invalidos"))
 else:
-    st.success(f"Bienvenido {st.session_state.username}")
-    # User is logged in, show the main app
-            
     page_selection = option_menu(
             None,  # No menu title
             ["IMPO", "EXPO", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico", "Logout"],  
@@ -81,8 +79,9 @@ else:
     elif page_selection == "Tráfico - histórico":
         stream_trafico_historico.show_page_trafico_historico()
     elif page_selection == "Logout":
-            cookies.delete("logged_in")
-            cookies.delete("username")
-            st.session_state['logged_in'] = False
-            st.session_state['username'] = ""
-            st.rerun()
+        cookies.pop("logged_in", None)
+        cookies.pop("username", None)
+        cookies.save()
+        st.session_state['logged_in'] = False
+        st.session_state['username'] = ""
+        st.rerun()
