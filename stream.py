@@ -61,7 +61,7 @@ if not st.session_state['logged_in']:
             cookies.set("logged_in", True)
             cookies.set("username", username)
             st.success("Usuario logeado")
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.error("Usuario o clave invalidos")
 else:
