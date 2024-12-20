@@ -36,7 +36,10 @@ def login(username, password):
     return False
 
 # Initialize cookies manager
-cookies = EncryptedCookieManager(prefix="dassa_", password="your_secret_password")
+if 'cookies' not in st.session_state:
+    st.session_state.cookies = EncryptedCookieManager(prefix="dassa_", password="your_secret_password")
+
+cookies = st.session_state.cookies
 
 if not cookies.ready():
     st.stop()
