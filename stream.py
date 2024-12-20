@@ -22,11 +22,6 @@ count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refre
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-cookies = EncryptedCookieManager(prefix="dassa_", password="your_secret_password", key="unique_cookie_key_1")
-
-if not cookies.ready():
-    st.stop()
-
 USERNAMES = ["DASSA", "Facu"]
 PASSWORDS = ["DASSA3", "123"]
 
@@ -36,13 +31,11 @@ def login(username, password):
     return False
 
 # Initialize cookies manager
-if 'cookies' not in st.session_state:
-    st.session_state.cookies = EncryptedCookieManager(prefix="dassa_", password="your_secret_password", key="unique_cookie_key_2")
-
-cookies = st.session_state.cookies
+cookies = EncryptedCookieManager(prefix="dassa_", password="your_secret_password")
 
 if not cookies.ready():
     st.stop()
+
 
 # Check if user is already logged in
 if 'logged_in' not in st.session_state:
