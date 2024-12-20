@@ -7,7 +7,7 @@ import stream_trafico
 import stream_trafico_historico
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
-from streamlit_cookies_controller import CookieController
+from streamlit_cookies_manager import EncryptedCookieManager
 import os
 
 # Page configurations
@@ -22,49 +22,56 @@ count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refre
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-controller = CookieController()
+cookies = EncryptedCookieManager(prefix="dassa_", password="your_secret_password")
 
-USERNAMES=["DASSA", "Facu"]
-PASSWORDS=["DASSA3", "123"]
+if not cookies.ready():
+    st.stop()
+
+USERNAMES = ["DASSA", "Facu"]
+PASSWORDS = ["DASSA3", "123"]
 
 def login(username, password):
     if username in USERNAMES and password in PASSWORDS:
         return True
     return False
 
-logged_in_cookie = controller.get("logged_in")
-username_cookie = controller.get("username")
+# Initialize cookies manager
+cookies = EncryptedCookieManager(prefix="dassa_", password="your_secret_password")
 
-if not logged_in_cookie:
-    # Login form
+if not cookies.ready():
+    st.stop()
+
+# Check if user is already logged in
+if 'logged_in' not in st.session_state:
+    st.session_state.logged_in = cookies.get("logged_in", False)
+if 'username' not in st.session_state:
+    st.session_state.username = cookies.get("username", "")
+
+if not st.session_state['logged_in']:
     st.title("Login")
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
     if st.button("Login"):
         if login(username, password):
-            # Set cookies to manage login state
-            controller.set("logged_in", True)
-            controller.set("username", username)
+            st.session_state['logged_in'] = True
+            st.session_state.username = username
+            cookies.set("logged_in", True)
+            cookies.set("username", username)
             st.success("Usuario logeado")
-            st.rerun()
+            st.experimental_rerun()
         else:
             st.error("Usuario o clave invalidos")
 else:
+    st.success(f"Bienvenido {st.session_state.username}")
     # User is logged in, show the main app
-    page_selection  = option_menu(
-        None,  # No menu title
-        ["IMPO", "EXPO", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico"],  
-        icons=["arrow-down-circle", "arrow-up-circle", "arrow-right-circle", "book", "book", "book"], 
-        menu_icon="cast",  
-        default_index=0, 
-        orientation="horizontal")
-
-        # Logout button
-    if st.sidebar.button("Logout", key="logout1"):
-        controller.remove("logged_in")
-        controller.remove("username")
-        st.rerun()
-
+            
+    page_selection = option_menu(
+            None,  # No menu title
+            ["IMPO", "EXPO", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico", "Logout"],  
+            icons=["arrow-down-circle", "arrow-up-circle", "arrow-right-circle", "book", "book", "book", "box-arrow-right"],   
+            menu_icon="cast",  
+            default_index=0, 
+            orientation="horizontal")
     if page_selection == "IMPO":
         stream_impo.show_page_impo()  
     elif page_selection == "EXPO":
@@ -77,3 +84,9 @@ else:
         stream_expo_historico.show_page_expo_historico()
     elif page_selection == "Tráfico - histórico":
         stream_trafico_historico.show_page_trafico_historico()
+    elif page_selection == "Logout":
+            cookies.delete("logged_in")
+            cookies.delete("username")
+            st.session_state['logged_in'] = False
+            st.session_state['username'] = ""
+            st.experimental_rerun()
