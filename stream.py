@@ -22,6 +22,8 @@ count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refre
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
+controller = CookieController()
+
 USERNAMES=["DASSA", "Facu"]
 PASSWORDS=["DASSA3", "123"]
 
@@ -30,24 +32,25 @@ def login(username, password):
         return True
     return False
 
-# Initialize session state
-if 'logged_in' not in st.session_state:
-    st.session_state.logged_in = False
-if 'username' not in st.session_state:
-    st.session_state.username = ""
+logged_in_cookie = controller.get("logged_in")
+username_cookie = controller.get("username")
 
-if not st.session_state['logged_in']:
+if not logged_in_cookie:
+    # Login form
     st.title("Login")
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
     if st.button("Login"):
         if login(username, password):
-            st.session_state['logged_in'] = True
+            # Set cookies to manage login state
+            controller.set("logged_in", True)
+            controller.set("username", username)
             st.success("Usuario logeado")
-            st.rerun() 
+            st.rerun()
         else:
             st.error("Usuario o clave invalidos")
 else:
+    # User is logged in, show the main app
     page_selection  = option_menu(
         None,  # No menu title
         ["IMPO", "EXPO", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico"],  
@@ -55,6 +58,12 @@ else:
         menu_icon="cast",  
         default_index=0, 
         orientation="horizontal")
+
+        # Logout button
+    if st.sidebar.button("Logout", key="logout1"):
+        controller.remove("logged_in")
+        controller.remove("username")
+        st.rerun()
 
     if page_selection == "IMPO":
         stream_impo.show_page_impo()  
