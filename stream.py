@@ -51,8 +51,8 @@ if not st.session_state['logged_in']:
         if login(username, password):
             st.session_state['logged_in'] = True
             st.session_state.username = username
-            cookies["logged_in"] = True
-            cookies["username"] = username
+            cookies["logged_in"] = str(True)  # Convert to string
+            cookies["username"] = username  # Username is already a string
             cookies.save()  # Persist the changes
             st.success("Usuario logeado")
             st.rerun()
