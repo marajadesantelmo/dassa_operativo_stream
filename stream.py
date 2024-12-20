@@ -7,6 +7,7 @@ import stream_trafico
 import stream_trafico_historico
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
+from streamlit_cookies_controller import CookieController
 import os
 
 # Page configurations
