@@ -17,6 +17,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-04,27842,MSMU-108822-4,Lift Van Int. Co S.A,EBKGQ00035D2,FX26252167          ,Arribado
 2024-09-06,27901,MEDU-197687-5,Lift Van Int. Co S.A,EBKGQ0003678,FJ14985543          ,Arribado
 2024-09-06,27902,TTNU-452319-0,Lift Van Int. Co S.A,EBKGQ0003AC5,FJ14985542          ,Arribado
+2024-12-30,30478,MRKU-041923-8,Lift Van Int. Co S.A,247810338,                    ,Arribado
 2024-12-18,30329,TCLU-303857-0,Lift Van Int. Co S.A,LA0398053,**************      ,Arribado
 2024-12-27,30443,,Lift Van Int. Co S.A,TERRESTRE,                    ,Arribado
 2024-12-11,30171,UETU-278883-0,Lift Van Int. Co S.A,64321363,                    ,Arribado
@@ -392,6 +393,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-16,28843,MSKU-880048-0,Valerio Oliva Forestal Sa,244573678,***********         ,Arribado
 2024-10-23,29057,MRKU-052077-3,Valerio Oliva Forestal Sa,244573548,**********          ,Arribado
 2024-11-05,29411,MRKU-579884-9,Valerio Oliva Forestal Sa,244573548,                    ,Arribado
+2025-01-02,30481,,Asecor Srl,EBKG11142724,                    ,Pendiente
+2025-01-02,30482,,Asecor Srl,EBKG11142724,                    ,Pendiente
 2024-11-28,29871,FANU-315651-8,Asecor Srl,66653151,**************      ,Arribado
 2024-12-16,30224,CAIU-951797-4,Asecor Srl,67990578,*******             ,Arribado
 2024-12-20,30362,GAOU-755233-7,Asecor Srl,247956144,******************  ,Arribado
@@ -422,6 +425,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-15,28795,TCNU-765920-6,Hector Reboratti,EBKG10429082,FX26218387          ,Arribado
 2024-12-26,30406,TCKU-641050-7,Hector Reboratti,247908355,********************,Arribado
 2024-12-26,30436,MIEU-302819-7,Hector Reboratti,247908355,******************  ,Arribado
+2025-01-02,30483,,Hector Reboratti,EBKG11177378,                    ,Pendiente
 2024-12-12,30175,MRSU-332873-0,Hector Reboratti,245303779,                    ,Arribado
 2024-12-12,30176,TEMU-681966-0,Hector Reboratti,245303779,                    ,Arribado
 2024-12-12,30177,MSKU-083765-1,Hector Reboratti,245303779,                    ,Arribado
@@ -546,6 +550,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-01,28488,CAAU-711108-9,Taeda Sa,EBKG09971149,FX26258699          ,Arribado
 2024-11-25,29823,GAOU-645436-2,Taeda Sa,ZIMUBUE9036468,*****************   ,Arribado
 2024-12-26,30441,HLBU-214403-8,Taeda Sa,28435176,                    ,Arribado
+2025-01-02,30484,,Taeda Sa,EBKG11177429,                    ,Pendiente
 2024-12-03,29954,UACU-840445-4,Moniport Cargo Sa,66985765,********            ,Arribado
 2024-09-09,27925,FCIU-428594-0,Speed Brokers Company S.A,62969561,**************      ,Arribado
 2024-09-05,27785,HLBU-318173-5,Carpal Sa,62298789,*********           ,Arribado
@@ -795,24 +800,22 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-20,29694,MRKU-390960-3,Diesel Roy Alexander,246230622,                    ,Arribado
 2024-12-16,30218,CAIU-977969-7,Diesel Roy Alexander,68323531,***************     ,Arribado
 2024-12-16,30219,HLXU-807673-0,Diesel Roy Alexander,68323531,********************,Arribado
-2024-08-31,27021,,Aj Comercio Exterior Srl,24001EC01049469S,                    ,Arribado
-2024-08-31,27022,,Aj Comercio Exterior Srl,24001EC01049469S,                    ,Arribado
 2024-09-13,28066,,Aj Comercio Exterior Srl,TERRESTRE,                    ,Arribado
-2024-12-20,30355,,Aj Comercio Exterior Srl,24001EC01084456N,                    ,Arribado
+2024-09-13,28067,,Aj Comercio Exterior Srl,TERRESTRE,                    ,Arribado
 2024-12-20,30356,,Aj Comercio Exterior Srl,24001EC01084456N,                    ,Arribado
-2024-12-11,30149,,Aj Comercio Exterior Srl,24001EC01081847Y,                    ,Arribado
-2024-12-13,30237,,Aj Comercio Exterior Srl,24001C01082773N,                    ,Arribado
 2024-12-13,30238,,Aj Comercio Exterior Srl,24001C01082773N,                    ,Arribado
 2024-12-19,30293,,Aj Comercio Exterior Srl,24001EC01084198Z,                    ,Arribado
 2024-12-19,30294,,Aj Comercio Exterior Srl,24001EC01084198Z,                    ,Arribado
-2024-10-04,28617,,Aj Comercio Exterior Srl,24001EC01065526K,                    ,Arribado
+2024-12-20,30355,,Aj Comercio Exterior Srl,24001EC01084456N,                    ,Arribado
 2024-12-11,30148,,Aj Comercio Exterior Srl,24001EC01081847Y,                    ,Arribado
-2024-09-24,28339,,Aj Comercio Exterior Srl,24001EC01062829N,                    ,Arribado
-2024-09-24,28340,,Aj Comercio Exterior Srl,24001EC01062829N,                    ,Arribado
+2024-12-11,30149,,Aj Comercio Exterior Srl,24001EC01081847Y,                    ,Arribado
+2024-12-13,30237,,Aj Comercio Exterior Srl,24001C01082773N,                    ,Arribado
 2024-10-04,28616,,Aj Comercio Exterior Srl,24001EC01065526K,                    ,Arribado
-2024-09-13,28067,,Aj Comercio Exterior Srl,TERRESTRE,                    ,Arribado
+2024-10-04,28617,,Aj Comercio Exterior Srl,24001EC01065526K,                    ,Arribado
 2024-09-19,28245,,Aj Comercio Exterior Srl,24001EC01 061769P,                    ,Arribado
 2024-09-19,28246,,Aj Comercio Exterior Srl,24001EC01 061769P,                    ,Arribado
+2024-09-24,28339,,Aj Comercio Exterior Srl,24001EC01062829N,                    ,Arribado
+2024-09-24,28340,,Aj Comercio Exterior Srl,24001EC01062829N,                    ,Arribado
 2024-12-16,30217,CULU-618456-0,Lubricantes Argentinos De Alta Perfomance S A,VX18FA24000487,***************     ,Arribado
 2024-09-20,28254,MRKU-207729-0,Aserradero Puerta De Misiones Srl,243651339,                    ,Arribado
 2024-10-18,28943,CAAU-643852-3,Aserradero Puerta De Misiones Srl,243648838,********************,Arribado
@@ -1053,6 +1056,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-30,28431,UACU-860358-5,Dautec Argentina Sas,66307515,***************     ,Arribado
 2024-10-15,28798,MSNU-716081-8,Weiden Sociedad Anonima,EBKG10379664,FX26248596          ,Arribado
 2024-10-29,29247,EISU-824516-5,Weiden Sociedad Anonima,340400036052,                    ,Arribado
+2025-01-02,30480,,Weiden Sociedad Anonima,340400049324,                    ,Pendiente
 2024-12-20,30357,,Delta Compresion S R L,TERRESTRE,                    ,Pendiente
 2024-12-20,30358,,Delta Compresion S R L,TERRESTRE,                    ,Pendiente
 2024-12-20,30359,,Delta Compresion S R L,TERRESTRE,                    ,Pendiente
