@@ -1,7 +1,7 @@
 Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado
-Terminal 4,07:00 ,MRKU-463099-5,Eagle Service Group ...,247183120,DR,TD,03:10,Pendiente arribo
-Terminal 4,07:00 ,DFSU-767821-0,Lift Van Int. Co S.A,HLCUBSC2411BJWN8,HC,TD,03:10,Pendiente arribo
-Terminal 4,10:00 ,HASU-447214-6,Fenisan S.A.,245892160,DR,TD,00:10,Pendiente arribo
+Terminal 4,07:00 ,MRKU-463099-5,Eagle Service Group ...,247183120,DR,TD,03:20,Pendiente arribo
+Terminal 4,07:00 ,DFSU-767821-0,Lift Van Int. Co S.A,HLCUBSC2411BJWN8,HC,TD,-,Pendiente ingreso
+Terminal 4,10:00 ,HASU-447214-6,Fenisan S.A.,245892160,DR,TD,00:20,Pendiente arribo
 Terminal 4,12:00 ,FANU-324988-4,Mercovan Argentina S...,HLCUBSC241207530,HC,TD,-,Pendiente arribo
 Terminal 4,12:00 ,HLBU-120884-2,Lift Van Int. Co S.A,HLCUBSC2410CDLO5,DR,TD,-,Pendiente arribo
 Terminal 4,13:00 ,MRSU-484812-5,Nelo Sa,BL2418159,HC,T,-,Pendiente arribo
@@ -18,10 +18,12 @@ TRP,15:00 ,KOCU-434561-9,Novelty Trend Srl,TWLE24100054,HC,T,-,Pendiente arribo
 TRP,15:00 ,EGSU-963178-6,Jupam Sa,NB241051155,HC,T,-,Pendiente arribo
 TRP,15:00 ,EMCU-846762-1,Jupam Sa,NB241051157,HC,T,-,Pendiente arribo
 TRP,15:00 ,EMCU-185214-3,Jupam Sa,TWLE24100128,HC,T,-,Pendiente arribo
-Exolgan,15:00 ,KKFU-786895-5,Berkma S.A.,SY241051202,HC,T,-,Pendiente arribo
-Exolgan,15:00 ,ONEU-569801-4,Berkma S.A.,SY241051202,HC,T,-,Pendiente arribo
 Exolgan,15:00 ,TRHU-832201-8,Berkma S.A.,SY241051202,HC,T,-,Pendiente arribo
+Exolgan,15:00 ,ONEU-569801-4,Berkma S.A.,SY241051202,HC,T,-,Pendiente arribo
+Exolgan,15:00 ,KKFU-786895-5,Berkma S.A.,SY241051202,HC,T,-,Pendiente arribo
 Exolgan,15:00 ,FSCU-582086-6,Grouport Srl,ONEYNBOE25891900,RF,TD,-,Pendiente arribo
+TRP,16:00 ,EMCU-612431-0,Laboratorio Pyam Sa,EGLV14140150127,DR,TD,-,Pendiente arribo
 TRP,16:00 ,TEMU-003450-0,Noah Servicess.R.L.,IBC1268467,DR,TD,-,Pendiente arribo
-TRP,16:00 ,EMCU-858409-0,Jupam Sa,TWLE24110021,HC,T,-,Pendiente arribo
 TRP,16:00 ,TCNU-414607-2,Printel S.A,EID0827485,HC,TD,-,Pendiente arribo
+TRP,16:00 ,EMCU-858409-0,Jupam Sa,TWLE24110021,HC,T,-,Pendiente arribo
+TRP,18:00 ,EMCU-625854-0,Laboratorio Pyam Sa,EGLV141401050143,DR,TD,-,Pendiente arribo
