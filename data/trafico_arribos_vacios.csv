@@ -1,5 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-30535,03/01,Minera Santa Rita Srl,-      -,10080,HC,TD,                    ,248453305,0,                              ,,     ,2025-01-23,Fact 14-425,                    ,Pendiente
+30535,03/01,Minera Santa Rita Srl,MRKU-066251-0,10080,HC,TD,******************* ,248453305,1,TRANSPORTES LEIRA-NO USAR     ,Diaz,10:31,2025-01-23,Fact 14-425,                    ,10:31 Arribado
 30564,03/01,Norfor Sa,-,Exolgan,HC,TD,                    ,EBKG10993198,0,                              ,,     ,2025-01-23,,                    ,Pendiente
 30565,03/01,Norfor Sa,-,Exolgan,HC,TD,                    ,EBKG10993198,0,                              ,,     ,2025-01-23,,                    ,Pendiente
 30555,03/01,Norfor Sa,-,Exolgan,HC,TD,                    ,EBKG11080911,0,                              ,,     ,2025-01-23,,                    ,Pendiente
@@ -18,7 +18,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 30566,03/01,Forestal Y Ganadera Indumarca ...,-,10080,HC,TD,                    ,39391022,0,                              ,,     ,2025-01-23,,                    ,Pendiente
 30562,03/01,Norfor Sa,-,Exolgan,HC,TD,                    ,EBKG10993198,0,                              ,,     ,2025-01-23,,                    ,Pendiente
 30548,03/01,Norfor Sa,FDCU-019997-3,Exolgan,HC,TD,FX26267079          ,EBKG11159572,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez Luis,10:15,2025-01-23,,                    ,10:15 Arribado
-30536,03/01,Minera Santa Rita Srl,-      -,10080,HC,TD,                    ,248453305,0,                              ,,     ,2025-01-23,Fact 14-425,                    ,Pendiente
+30536,03/01,Minera Santa Rita Srl,MRKU-086722-7,10080,HC,TD,****************    ,248453305,1,TRANSPORTES LEIRA-NO USAR     ,Carrano,10:34,2025-01-23,Fact 14-425,                    ,10:34 Arribado
 30537,03/01,Minera Santa Rita Srl,-      -,10080,HC,TD,                    ,248453305,0,                              ,,     ,2025-01-23,Fact 14-425,                    ,Pendiente
 30538,03/01,Minera Santa Rita Srl,-      -,10080,HC,TD,                    ,248453305,0,                              ,,     ,2025-01-23,Fact 14-425,                    ,Pendiente
 30539,03/01,Minera Santa Rita Srl,-      -,10080,HC,TD,                    ,248453305,0,                              ,,     ,2025-01-23,Fact 14-425,                    ,Pendiente
@@ -27,10 +27,10 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 30561,03/01,Norfor Sa,-,Exolgan,HC,TD,                    ,EBKG10993198,0,                              ,,     ,2025-01-23,,                    ,Pendiente
 30542,03/01,Minera Santa Rita Srl,-      -,10080,HC,TD,                    ,248453305,0,                              ,,     ,2025-01-23,Fact 14-425,                    ,Pendiente
 30570,03/01,Overprint S.R.L.,-,15004,  ,TD,                    ,TERRESTRE,1,TRANSPORTE DEL CLIENTE        ,Alberto Oliver,10:11,2025-01-24,420000266/270-Op-17120,24001EC01 084458P   ,10:11 Arribado
-30543,03/01,Norfor Sa,-,Exolgan,HC,TD,                    ,EBKG10993206,0,                              ,,     ,2025-01-23,,                    ,Pendiente
-30544,03/01,Norfor Sa,-,Exolgan,HC,TD,                    ,EBKG10993206,0,                              ,,     ,2025-01-23,,                    ,Pendiente
-30545,03/01,Norfor Sa,-,Exolgan,HC,TD,                    ,EBKG10993206,0,                              ,,     ,2025-01-23,,                    ,Pendiente
+30543,03/01,Norfor Sa,MSDU-594726-0,Exolgan,HC,TD,FX26267073          ,EBKG10993206,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,10:25,2025-01-23,,                    ,10:25 Arribado
+30544,03/01,Norfor Sa,MSMU-799241-3,Exolgan,HC,TD,FX26267096          ,EBKG10993206,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,10:26,2025-01-23,,                    ,10:26 Arribado
+30545,03/01,Norfor Sa,MSMU-896457-1,Exolgan,HC,TD,FX26267101          ,EBKG10993206,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:28,2025-01-23,,                    ,10:28 Arribado
 30546,03/01,Norfor Sa,-,Exolgan,HC,TD,                    ,EBKG10993206,0,                              ,,     ,2025-01-23,,                    ,Pendiente
 30547,03/01,Norfor Sa,MSNU-568483-7,Exolgan,HC,TD,FX26267078          ,EBKG11159572,1,TRANSPORTES LEIRA-NO USAR     ,Irala  Walter,10:13,2025-01-23,,                    ,10:13 Arribado
-30568,03/01,Pelama Chubut S.A.,-,10074,DR,TD,                    ,BUEE16807700,0,                              ,,     ,2025-01-23,,                    ,Pendiente
+30568,03/01,Pelama Chubut S.A.,TCLU-748363-4,10074,DR,TD,******************  ,BUEE16807700,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:29,2025-01-23,,                    ,10:29 Arribado
 30567,03/01,Forestal Y Ganadera Indumarca ...,-,10080,HC,TD,                    ,39391022,0,                              ,,     ,2025-01-23,,                    ,Pendiente
