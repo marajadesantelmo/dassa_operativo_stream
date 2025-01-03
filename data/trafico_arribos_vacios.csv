@@ -16,7 +16,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 30554,03/01,Norfor Sa,MSMU-863281-2,Exolgan,HC,TD,FX26267052          ,EBKG11080911,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez Luis,13:49,2025-01-23,,                    ,13:49 Arribado
 30560,03/01,Norfor Sa,-,Exolgan,HC,TD,                    ,EBKG10993230,0,                              ,,     ,2025-01-23,,                    ,Pendiente
 30566,03/01,Forestal Y Ganadera Indumarca ...,HLBU-186965-2,10080,HC,TD,*************       ,39391022,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,14:17,2025-01-23,,                    ,14:17 Arribado
-30562,03/01,Norfor Sa,-,Exolgan,HC,TD,                    ,EBKG10993198,0,                              ,,     ,2025-01-23,,                    ,Pendiente
+30562,03/01,Norfor Sa,BEAU-587470-5,Exolgan,HC,TD,FX26267051          ,EBKG10993198,1,TRANSPORTES LEIRA-NO USAR     ,Jorge Rodriguez,14:41,2025-01-23,,                    ,14:41 Arribado
 30548,03/01,Norfor Sa,FDCU-019997-3,Exolgan,HC,TD,FX26267079          ,EBKG11159572,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez Luis,10:15,2025-01-23,,                    ,10:15 Arribado
 30536,03/01,Minera Santa Rita Srl,MRKU-086722-7,10080,HC,TD,****************    ,248453305,1,TRANSPORTES LEIRA-NO USAR     ,Carrano,10:34,2025-01-23,Fact 14-425,                    ,10:34 Arribado
 30537,03/01,Minera Santa Rita Srl,MRKU-036026-9,10080,HC,TD,**************      ,248453305,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,10:41,2025-01-23,Fact 14-425,                    ,10:41 Arribado
@@ -25,7 +25,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 30540,03/01,Minera Santa Rita Srl,SUDU-548817-6,10080,HC,TD,************        ,248453305,1,TRANSPORTES LEIRA-NO USAR     ,Irala  Walter,11:44,2025-01-23,Fact 14-425,                    ,11:44 Arribado
 30541,03/01,Minera Santa Rita Srl,MRKU-075569-6,10080,HC,TD,**********          ,248453305,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,11:46,2025-01-23,Fact 14-425,                    ,11:46 Arribado
 30561,03/01,Norfor Sa,MSBU-513110-9,Exolgan,HC,TD,FX26267037          ,EBKG10993198,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez Jose,14:28,2025-01-23,,                    ,14:28 Arribado
-30542,03/01,Minera Santa Rita Srl,-      -,10080,HC,TD,                    ,248453305,0,                              ,,     ,2025-01-23,Fact 14-425,                    ,Pendiente
+30542,03/01,Minera Santa Rita Srl,MRKU-011362-8,10080,HC,TD,**********          ,248453305,1,TRANSPORTE DEL CLIENTE        ,Ortiz,14:37,2025-01-23,Fact 14-425,                    ,14:37 Arribado
 30570,03/01,Overprint S.R.L.,-,15004,  ,TD,                    ,TERRESTRE,1,TRANSPORTE DEL CLIENTE        ,Alberto Oliver,10:11,2025-01-24,420000266/270-Op-17120,24001EC01 084458P   ,10:11 Arribado
 30543,03/01,Norfor Sa,MSDU-594726-0,Exolgan,HC,TD,FX26267073          ,EBKG10993206,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,10:25,2025-01-23,,                    ,10:25 Arribado
 30544,03/01,Norfor Sa,MSMU-799241-3,Exolgan,HC,TD,FX26267096          ,EBKG10993206,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,10:26,2025-01-23,,                    ,10:26 Arribado
