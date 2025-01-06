@@ -17,6 +17,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-27,30443,,Lift Van Int. Co S.A,TERRESTRE,                    ,Arribado
 2024-12-30,30478,MRKU-041923-8,Lift Van Int. Co S.A,247810338,                    ,Arribado
 2025-01-06,30582,,Lift Van Int. Co S.A,LA0399679,                    ,Pendiente
+2025-01-07,30593,,Lift Van Int. Co S.A,248449898,                    ,Pendiente
 2024-12-18,30329,TCLU-303857-0,Lift Van Int. Co S.A,LA0398053,**************      ,Arribado
 2024-12-06,30052,MRKU-655796-0,Lift Van Int. Co S.A,247470879,                    ,Arribado
 2024-12-11,30171,UETU-278883-0,Lift Van Int. Co S.A,64321363,                    ,Arribado
@@ -234,8 +235,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-11,27992,BEAU-476178-8,Capilatis S.A.,SNG0439290,L4362454            ,Arribado
 2024-09-11,27993,CMAU-486455-1,Capilatis S.A.,SNG0439290,L4362452            ,Arribado
 2024-12-03,29948,TCNU-723379-8,Capilatis S.A.,SCLE29284300,                    ,Arribado
-2025-01-06,30580,,Capilatis S.A.,SNG0452152,                    ,Pendiente
-2025-01-06,30581,,Capilatis S.A.,SNG0452152,                    ,Pendiente
+2025-01-06,30580,CMAU-836147-3,Capilatis S.A.,SNG0452152,R1945320            ,Arribado
+2025-01-06,30581,CMAU-482423-0,Capilatis S.A.,SNG0452152,R1945315            ,Arribado
 2024-11-07,29470,TCNU-527915-1,Capilatis S.A.,SNG0445327,L4361238            ,Arribado
 2024-11-07,29471,TXGU-527714-6,Capilatis S.A.,SNG0445327,L4361068            ,Arribado
 2024-11-07,29472,TLLU-480931-9,Capilatis S.A.,SNG0445327,L4361070            ,Arribado
@@ -652,15 +653,15 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-17,28133,MEDU-556805-9,Borax Argentina S A,EBKG10026064,FX26277054          ,Arribado
 2024-09-17,28134,TCLU-206283-8,Borax Argentina S A,EBKG10026064,FX26277055          ,Arribado
 2024-09-17,28135,MSDU-225553-0,Borax Argentina S A,EBKG10026064,FX26277037          ,Arribado
-2024-12-30,30454,,Borax Argentina S A,BUA0334152,                    ,Pendiente
-2024-12-30,30455,,Borax Argentina S A,BUA0334152,                    ,Pendiente
-2024-12-30,30456,,Borax Argentina S A,BUA0334152,                    ,Pendiente
+2025-01-07,30589,,Borax Argentina S A,BUA0334152,                    ,Pendiente
+2025-01-07,30590,,Borax Argentina S A,BUA0334152,                    ,Pendiente
+2025-01-07,30591,,Borax Argentina S A,BUA0334152,                    ,Pendiente
+2025-01-07,30592,,Borax Argentina S A,BUA0334152,                    ,Pendiente
 2024-12-23,30387,PCIU-009983-0,Borax Argentina S A,BUE400190400,********************,Arribado
-2024-12-30,30449,,Borax Argentina S A,BUA0334144,                    ,Pendiente
-2024-12-30,30450,,Borax Argentina S A,BUA0334144,                    ,Pendiente
-2024-12-30,30451,,Borax Argentina S A,BUA0334144,                    ,Pendiente
-2024-12-30,30452,,Borax Argentina S A,BUA0334144,                    ,Pendiente
-2024-12-30,30453,,Borax Argentina S A,BUA0334152,                    ,Pendiente
+2025-01-07,30449,,Borax Argentina S A,BUA0334144,                    ,Pendiente
+2025-01-07,30586,,Borax Argentina S A,BUA0334144,                    ,Pendiente
+2025-01-07,30587,,Borax Argentina S A,BUA0334144,                    ,Pendiente
+2025-01-07,30588,,Borax Argentina S A,BUA0334144,                    ,Pendiente
 2024-12-23,30379,MSKU-763910-7,Borax Argentina S A,247907982,*************       ,Arribado
 2024-12-23,30380,MRSU-003727-0,Borax Argentina S A,247907982,********************,Arribado
 2024-12-23,30386,PCIU-000278-6,Borax Argentina S A,BUE400190300,************        ,Arribado
@@ -803,7 +804,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-03,30562,BEAU-587470-5,Norfor Sa,EBKG10993198,FX26267051          ,Arribado
 2025-01-03,30563,MEDU-949098-2,Norfor Sa,EBKG10993198,FX26267020          ,Arribado
 2025-01-03,30564,DFSU-622684-8,Norfor Sa,EBKG10993198,FX26267003          ,Arribado
-2025-01-03,30565,,Norfor Sa,EBKG10993198,                    ,Pendiente
+2025-01-03,30565,MSDU-596173-6,Norfor Sa,EBKG10993198,FX26293663          ,Arribado
 2025-01-03,30555,MSMU-478125-3,Norfor Sa,EBKG11080911,FX26267050          ,Arribado
 2025-01-03,30556,MSMU-807600-9,Norfor Sa,EBKG11159503,FX26267054          ,Arribado
 2025-01-03,30557,MSMU-783169-8,Norfor Sa,EBKG11159503,FX26267047          ,Arribado
