@@ -2,6 +2,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-09,27924,,Mercovan Argentina Srl,244173265,                    ,Pendiente
 2024-09-16,28094,MSKU-675085-7,Mercovan Argentina Srl,243699132,****************    ,Arribado
 2024-12-27,30440,UETU-274435-9,Mercovan Argentina Srl,66657399,********************,Arribado
+2025-01-07,30598,,Mercovan Argentina Srl,21086563,                    ,Pendiente
 2024-11-25,29817,TGHU-520858-7,Mercovan Argentina Srl,63984259,HLD0315580          ,Arribado
 2024-12-04,29994,UACU-854403-4,Mercovan Argentina Srl,60318317,**********          ,Arribado
 2024-11-07,29500,HLXU-846225-0,Mercovan Argentina Srl,62647146,                    ,Arribado
@@ -14,6 +15,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-26,28371,UACU-385757-1,Mercovan Argentina Srl,60973247,*******             ,Arribado
 2024-09-19,28242,SEGU-368078-6,Mercovan Argentina Srl,EBKG10228587,FX262298572         ,Arribado
 2024-09-09,27923,MRKU-022019-0,Lift Van Int. Co S.A,244177956,************        ,Arribado
+2025-01-07,30603,,Lift Van Int. Co S.A,248449394,                    ,Pendiente
 2024-12-27,30443,,Lift Van Int. Co S.A,TERRESTRE,                    ,Arribado
 2024-12-30,30478,MRKU-041923-8,Lift Van Int. Co S.A,247810338,                    ,Arribado
 2025-01-06,30582,,Lift Van Int. Co S.A,LA0399679,                    ,Pendiente
@@ -536,6 +538,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-18,28188,TCLU-595413-9,Taeda Sa,EBKG10134047,FX26298725          ,Arribado
 2024-09-18,28189,TRHU-798788-9,Taeda Sa,EBKG10204572,FX26298719          ,Arribado
 2024-10-01,28488,CAAU-711108-9,Taeda Sa,EBKG09971149,FX26258699          ,Arribado
+2025-01-07,30596,,Taeda Sa,EBKG11366605,                    ,Pendiente
+2025-01-07,30597,,Taeda Sa,EBKG11366605,                    ,Pendiente
 2024-11-25,29823,GAOU-645436-2,Taeda Sa,ZIMUBUE9036468,*****************   ,Arribado
 2024-12-26,30441,HLBU-214403-8,Taeda Sa,28435176,                    ,Arribado
 2025-01-02,30484,FFAU-173297-1,Taeda Sa,EBKG11177429,FX26267190          ,Arribado
@@ -561,6 +565,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-26,28362,HLXU-803031-7,Carpal Sa,61634559,********************,Arribado
 2024-09-17,28128,MRKU-578270-8,Arleather S.R.L.,244475707,***************     ,Arribado
 2024-09-17,28129,MRKU-393468-0,Arleather S.R.L.,244475707,***********         ,Arribado
+2025-01-07,30605,MRSU-331981-0,Arleather S.R.L.,248789379,*********           ,Arribado
+2025-01-07,30606,MSKU-192855-0,Arleather S.R.L.,248789379,********            ,Arribado
+2025-01-07,30607,,Arleather S.R.L.,248789379,                    ,Pendiente
+2025-01-07,30608,,Arleather S.R.L.,248789571,                    ,Pendiente
+2025-01-07,30609,,Arleather S.R.L.,248789571,                    ,Pendiente
 2024-12-18,30310,TEMU-834796-4,Arleather S.R.L.,BUA0332468,R1943840            ,Arribado
 2024-12-18,30320,CMAU-456815-9,Arleather S.R.L.,BUA0332468,R1943848            ,Arribado
 2024-12-26,30413,TCNU-855832-9,Arleather S.R.L.,248113277,********************,Arribado
@@ -653,13 +662,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-17,28133,MEDU-556805-9,Borax Argentina S A,EBKG10026064,FX26277054          ,Arribado
 2024-09-17,28134,TCLU-206283-8,Borax Argentina S A,EBKG10026064,FX26277055          ,Arribado
 2024-09-17,28135,MSDU-225553-0,Borax Argentina S A,EBKG10026064,FX26277037          ,Arribado
-2025-01-07,30589,,Borax Argentina S A,BUA0334152,                    ,Pendiente
-2025-01-07,30590,,Borax Argentina S A,BUA0334152,                    ,Pendiente
-2025-01-07,30591,,Borax Argentina S A,BUA0334152,                    ,Pendiente
-2025-01-07,30592,,Borax Argentina S A,BUA0334152,                    ,Pendiente
+2025-01-07,30589,CAIU-361218-8,Borax Argentina S A,BUA0334152,R1945826            ,Arribado
+2025-01-07,30590,TCKU-323127-8,Borax Argentina S A,BUA0334152,R1945830            ,Arribado
+2025-01-07,30591,FCIU-250638-5,Borax Argentina S A,BUA0334152,R1945827            ,Arribado
+2025-01-07,30592,FCIU-465372-3,Borax Argentina S A,BUA0334152,R1945825            ,Arribado
 2024-12-23,30387,PCIU-009983-0,Borax Argentina S A,BUE400190400,********************,Arribado
-2025-01-07,30449,,Borax Argentina S A,BUA0334144,                    ,Pendiente
-2025-01-07,30586,,Borax Argentina S A,BUA0334144,                    ,Pendiente
+2025-01-07,30449,TEMU-242251-0,Borax Argentina S A,BUA0334144,R1945828            ,Arribado
+2025-01-07,30586,TCLU-687971-8,Borax Argentina S A,BUA0334144,R1945824            ,Arribado
 2025-01-07,30587,,Borax Argentina S A,BUA0334144,                    ,Pendiente
 2025-01-07,30588,,Borax Argentina S A,BUA0334144,                    ,Pendiente
 2024-12-23,30379,MSKU-763910-7,Borax Argentina S A,247907982,*************       ,Arribado
