@@ -1,6 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-30671,10/01,Tipoiti Satic,TCNU-789897-8,10074,HC,TD,***********         ,LA0401266,0,                              ,,     ,2025-01-30,,                    ,Pendiente
-30672,10/01,Tipoiti Satic,-,10074,HC,TD,                    ,LA0401266,0,                              ,,     ,2025-01-30,,                    ,Pendiente
+30671,10/01,Tipoiti Satic,TCNU-789897-8,10074,HC,TD,***********         ,LA0401266,1,TRANSPORTE DEL CLIENTE        ,Diaz,09:24,2025-01-30,,                    ,09:24 Arribado
+30672,10/01,Tipoiti Satic,TCLU-880858-6,10074,HC,TD,***********         ,LA0401266,1,TRANSPORTES LEIRA-NO USAR     ,Parra,09:26,2025-01-30,,                    ,09:26 Arribado
 30673,10/01,Tipoiti Satic,-,10074,HC,TD,                    ,LA0401266,0,                              ,,     ,2025-01-30,,                    ,Pendiente
 30674,10/01,Tipoiti Satic,-,10074,HC,TD,                    ,LA0401266,0,                              ,,     ,2025-01-30,,                    ,Pendiente
 30675,10/01,Tipoiti Satic,-,10074,HC,TD,                    ,LA0401266,0,                              ,,     ,2025-01-30,,                    ,Pendiente
