@@ -134,6 +134,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-05,29416,ZCSU-678023-9,Aniceto Gomez Sa,ZIMUBUE9036282,********************,Arribado
 2024-11-05,29417,CAAU-545496-2,Aniceto Gomez Sa,ZIMUBUE9036282,******************  ,Arribado
 2025-01-10,30715,TXGU-701586-5,Aniceto Gomez Sa,153IAR0646477,FX26294677          ,Arribado
+2025-01-10,30719,FFAU-582685-2,Aniceto Gomez Sa,153IAR0646477,FX26294640          ,Arribado
 2024-09-14,28109,,A La Orden,61638602,                    ,Pendiente
 2024-09-16,28110,HLBU-152833-7,A La Orden,61638602,***************     ,Arribado
 2024-10-22,29023,SEGU-115664-0,A La Orden,BUEE13225500,**************      ,Arribado
@@ -266,7 +267,6 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-24,29107,,Overprint S.R.L.,TERRESTRE,                    ,Arribado
 2024-12-05,30046,,Overprint S.R.L.,24001EC01079686W,                    ,Arribado
 2025-01-03,30570,,Overprint S.R.L.,TERRESTRE,                    ,Arribado
-2024-09-12,28019,MRKU-662428-7,Geo-Trade Comercio Exterior Srl,244066539,******************* ,Arribado
 2024-09-13,28055,MRKU-076231-3,Manufactura Los Andes S.A.,244066552,********************,Arribado
 2024-09-13,28056,MRKU-014433-6,Manufactura Los Andes S.A.,244066552,******************  ,Arribado
 2024-10-28,29209,MRKU-059121-0,Manufactura Los Andes S.A.,245345787,**************      ,Arribado
@@ -300,29 +300,29 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-16,28118,,Tipoiti Satic,TERRESTRE,                    ,Arribado
 2024-09-18,28193,TCLU-833964-2,Tipoiti Satic,LM0384966,************        ,Arribado
 2024-09-18,28194,MSMU-488037-0,Tipoiti Satic,LM0384966,**************      ,Arribado
-2025-01-10,30673,CAIU-494355-5,Tipoiti Satic,LA0401266,*************       ,Arribado
+2024-09-18,28195,MSDU-838574-2,Tipoiti Satic,LM0384966,*****               ,Arribado
 2025-01-10,30674,MEDU-727401-1,Tipoiti Satic,LA0401266,***************     ,Arribado
 2025-01-10,30675,DFSU-748921-6,Tipoiti Satic,LA0401266,**************      ,Arribado
-2025-01-10,30676,,Tipoiti Satic,LA0401266,                    ,Pendiente
-2024-11-22,29802,FCIU-918223-0,Tipoiti Satic,LA0394080,******************  ,Arribado
+2025-01-10,30676,MSMU-420880-6,Tipoiti Satic,LA0401266,**************      ,Arribado
 2024-11-25,29820,TCLU-305140-0,Tipoiti Satic,LA0394569,************        ,Arribado
 2024-11-25,29822,TCLU-834914-7,Tipoiti Satic,LA0394570,******************* ,Arribado
 2024-11-26,29839,,Tipoiti Satic,24001EC01077083L,                    ,Arribado
 2025-01-10,30671,TCNU-789897-8,Tipoiti Satic,LA0401266,***********         ,Arribado
 2025-01-10,30672,TCLU-880858-6,Tipoiti Satic,LA0401266,***********         ,Arribado
-2024-11-11,29538,CIPU-501951-5,Tipoiti Satic,LA0392406,**************      ,Arribado
+2025-01-10,30673,CAIU-494355-5,Tipoiti Satic,LA0401266,*************       ,Arribado
 2024-11-11,29553,MSDU-896122-0,Tipoiti Satic,EBKG10593886,FX26259729          ,Arribado
+2024-11-22,29802,FCIU-918223-0,Tipoiti Satic,LA0394080,******************  ,Arribado
 2024-10-17,28876,ONEU-125801-7,Tipoiti Satic,BUEE13414500,***************     ,Arribado
 2024-10-17,28877,TCNU-508761-0,Tipoiti Satic,BUEE13414500,*****************   ,Arribado
 2024-10-18,28922,,Tipoiti Satic,24001EC01067764Z,                    ,Arribado
+2024-11-11,29538,CIPU-501951-5,Tipoiti Satic,LA0392406,**************      ,Arribado
 2024-10-14,28774,TCLU-870492-0,Tipoiti Satic,LA0388004,**********          ,Arribado
 2024-10-14,28775,TGHU-603242-4,Tipoiti Satic,LA0388004,******************  ,Arribado
 2024-10-14,28776,TEMU-850185-3,Tipoiti Satic,LA0388004,*************       ,Arribado
 2024-10-14,28777,TRHU-705045-0,Tipoiti Satic,LA0388004,********************,Arribado
-2024-10-04,28619,,Tipoiti Satic,TERRESTRE,                    ,Arribado
-2024-09-18,28195,MSDU-838574-2,Tipoiti Satic,LM0384966,*****               ,Arribado
 2024-10-04,28579,TRHU-427083-1,Tipoiti Satic,BUEE12872500,********************,Arribado
 2024-10-04,28580,SEGU-578430-5,Tipoiti Satic,BUEE12872500,********************,Arribado
+2024-10-04,28619,,Tipoiti Satic,TERRESTRE,                    ,Arribado
 2024-11-04,29398,,Essadin Int´L S.A.,24001PE01000488T,                    ,Arribado
 2024-09-26,28388,DAYU-612005-9,Global Rover Logistic Srl,68635291,********************,Arribado
 2024-09-26,28389,HAMU-219456-9,Global Rover Logistic Srl,68635291,*****************   ,Arribado
@@ -549,24 +549,21 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-26,30441,HLBU-214403-8,Taeda Sa,28435176,                    ,Arribado
 2025-01-02,30484,FFAU-173297-1,Taeda Sa,EBKG11177429,FX26267190          ,Arribado
 2024-12-03,29954,UACU-840445-4,Moniport Cargo Sa,66985765,********            ,Arribado
-2024-09-12,28010,DAYU-611655-2,Carpal Sa,68299591,*****************/  ,Arribado
-2024-09-12,28011,CAIU-440748-6,Carpal Sa,68299591,******************  ,Arribado
-2024-09-12,28012,HAMU-129372-0,Carpal Sa,68299591,***************     ,Arribado
-2024-11-11,29539,GCXU-596553-9,Carpal Sa,69978293,***************     ,Arribado
-2024-11-11,29540,FANU-313236-8,Carpal Sa,69978293,***********         ,Arribado
+2024-09-26,28362,HLXU-803031-7,Carpal Sa,61634559,********************,Arribado
 2024-12-05,30039,GESU-642121-2,Carpal Sa,65651738,                    ,Arribado
 2024-12-05,30040,HLBU-185143-7,Carpal Sa,65651738,                    ,Arribado
 2024-12-05,30041,GATU-876938-8,Carpal Sa,65651738,                    ,Arribado
-2024-10-03,28555,SEGU-544917-0,Carpal Sa,69972252,******************  ,Arribado
-2024-10-10,28724,HLBU-168366-8,Carpal Sa,68641669,**************      ,Arribado
 2024-10-24,29099,CAIU-939093-5,Carpal Sa,68310391,********************,Arribado
-2024-09-26,28368,TLLU-836910-0,Carpal Sa,66633765,*****************   ,Arribado
+2024-11-11,29539,GCXU-596553-9,Carpal Sa,69978293,***************     ,Arribado
+2024-11-11,29540,FANU-313236-8,Carpal Sa,69978293,***********         ,Arribado
 2024-10-03,28553,TCNU-647869-3,Carpal Sa,69972252,******************* ,Arribado
 2024-10-03,28554,BEAU-440423-0,Carpal Sa,69972252,******************* ,Arribado
-2024-09-26,28362,HLXU-803031-7,Carpal Sa,61634559,********************,Arribado
+2024-10-03,28555,SEGU-544917-0,Carpal Sa,69972252,******************  ,Arribado
+2024-10-10,28724,HLBU-168366-8,Carpal Sa,68641669,**************      ,Arribado
 2024-09-26,28363,MAGU-567502-2,Carpal Sa,61634559,********************,Arribado
 2024-09-26,28366,HLBU-206807-2,Carpal Sa,66633765,***************     ,Arribado
 2024-09-26,28367,TEMU-699547-0,Carpal Sa,66633765,******************  ,Arribado
+2024-09-26,28368,TLLU-836910-0,Carpal Sa,66633765,*****************   ,Arribado
 2024-09-17,28128,MRKU-578270-8,Arleather S.R.L.,244475707,***************     ,Arribado
 2024-09-17,28129,MRKU-393468-0,Arleather S.R.L.,244475707,***********         ,Arribado
 2024-09-17,28130,GCXU-566453-5,Arleather S.R.L.,244475707,************        ,Arribado
@@ -676,7 +673,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-10,30687,TLLU-319414-3,Borax Argentina S A,EBKG11332430,FX26294691          ,Arribado
 2025-01-10,30688,MSMU-149493-8,Borax Argentina S A,EBKG11332430,FX26294689          ,Arribado
 2025-01-07,30592,FCIU-465372-3,Borax Argentina S A,BUA0334152,R1945825            ,Arribado
-2025-01-10,30670,,Borax Argentina S A,93402451,                    ,Pendiente
+2025-01-10,30670,HLXU-101788-5,Borax Argentina S A,93402451,***********         ,Arribado
 2025-01-10,30682,MSMU-181303-8,Borax Argentina S A,EBKG11332430,FX26294720          ,Arribado
 2025-01-10,30683,MSDU-217608-8,Borax Argentina S A,EBKG11332430,FX26294712          ,Arribado
 2025-01-10,30684,TCLU-256532-3,Borax Argentina S A,EBKG11332430,FX26294711          ,Arribado
@@ -730,6 +727,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-01,28478,ZIMU-132328-6,Lawter Argentina S.A.,ZIMUBUE9035425,********************,Arribado
 2024-10-04,28576,ZIMU-311995-0,Lawter Argentina S.A.,ZIMUBUE9035490,**************      ,Arribado
 2024-10-09,28723,TRLU-917025-8,Lawter Argentina S.A.,69309913,***************     ,Arribado
+2025-01-10,30716,MEDU-545103-6,Lawter Argentina S.A.,EBKG11332605E,FX26289714          ,Arribado
+2025-01-10,30718,TGBU-306030-7,Lawter Argentina S.A.,EBKG11332605E,FX26289718          ,Arribado
 2024-12-26,30437,CMAU-035001-9,Lawter Argentina S.A.,BUA0333881,R1945625            ,Arribado
 2025-01-09,30660,CMAU-072308-8,Lawter Argentina S.A.,BUA0334443,R1943590            ,Arribado
 2025-01-09,30661,CMAU-305883-9,Lawter Argentina S.A.,BUA0334443,R1943383            ,Arribado
@@ -950,7 +949,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-28,29867,EITU-138278-7,Laharrague Chodorge Sociedad Anonima,340400043865,*************       ,Arribado
 2024-11-28,29868,TIIU-462774-0,Laharrague Chodorge Sociedad Anonima,340400043865,+**********         ,Arribado
 2024-12-20,30361,TCNU-838166-0,Laharrague Chodorge Sociedad Anonima,69324992,**********          ,Arribado
-2025-01-10,30677,,Laharrague Chodorge Sociedad Anonima,340400050233,                    ,Pendiente
+2025-01-10,30677,EISU-857444-8,Laharrague Chodorge Sociedad Anonima,340400050233,***************     ,Arribado
 2024-10-10,28732,CAIU-938730-9,Laharrague Chodorge Sociedad Anonima,245099341,********************,Arribado
 2024-10-10,28733,MIEU-306212-3,Laharrague Chodorge Sociedad Anonima,245099341,********************,Arribado
 2024-10-10,28734,MRKU-233601-9,Laharrague Chodorge Sociedad Anonima,245099341,********************,Arribado
@@ -962,18 +961,17 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-10,28729,MSKU-053337-1,Laharrague Chodorge Sociedad Anonima,245099341,********************,Arribado
 2024-10-10,28730,HASU-412952-2,Laharrague Chodorge Sociedad Anonima,245099341,****************    ,Arribado
 2024-10-10,28731,MSKU-114604-2,Laharrague Chodorge Sociedad Anonima,245099341,**************      ,Arribado
-2024-09-12,28013,HLBU-269134-9,Pallets Jauregui Sociedad Anonima,64299135,*************       ,Arribado
 2024-09-19,28235,TLLU-528895-6,Pallets Jauregui Sociedad Anonima,60966260,*************       ,Arribado
 2024-10-08,28670,BEAU-417498-6,Pallets Jauregui Sociedad Anonima,60637638,********************,Arribado
 2024-10-08,28671,TCKU-655178-4,Pallets Jauregui Sociedad Anonima,60637638,***************     ,Arribado
 2024-10-10,28726,CAIU-853356-4,Pallets Jauregui Sociedad Anonima,63975008,***********         ,Arribado
-2024-10-22,29021,TCLU-597305-7,Pallets Jauregui Sociedad Anonima,61302910,**********          ,Arribado
 2024-10-22,29022,MAGU-562759-6,Pallets Jauregui Sociedad Anonima,61302910,***********         ,Arribado
 2024-12-10,30123,,Pallets Jauregui Sociedad Anonima,24001EC01066272J,                    ,Arribado
 2024-12-13,30202,HLBU-176861-5,Pallets Jauregui Sociedad Anonima,60322236,                    ,Arribado
 2024-12-13,30203,FCIU-732303-1,Pallets Jauregui Sociedad Anonima,60322236,                    ,Arribado
 2024-10-22,29010,TEMU-813541-4,Pallets Jauregui Sociedad Anonima,67302901,*****************   ,Arribado
 2024-10-22,29011,HAMU-206467-3,Pallets Jauregui Sociedad Anonima,67302901,******************* ,Arribado
+2024-10-22,29021,TCLU-597305-7,Pallets Jauregui Sociedad Anonima,61302910,**********          ,Arribado
 2024-09-30,28412,,Siete Hermanos Srl,62974382,                    ,Pendiente
 2024-09-30,28413,,Siete Hermanos Srl,62974382,                    ,Pendiente
 2024-09-30,28434,UACU-605916-9,Siete Hermanos Srl,62307715,***************     ,Arribado
