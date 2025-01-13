@@ -133,7 +133,6 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-05,29417,CAAU-545496-2,Aniceto Gomez Sa,ZIMUBUE9036282,******************  ,Arribado
 2025-01-10,30715,TXGU-701586-5,Aniceto Gomez Sa,153IAR0646477,FX26294677          ,Arribado
 2025-01-10,30719,FFAU-582685-2,Aniceto Gomez Sa,153IAR0646477,FX26294640          ,Arribado
-2024-09-14,28109,,A La Orden,61638602,                    ,Pendiente
 2024-09-16,28110,HLBU-152833-7,A La Orden,61638602,***************     ,Arribado
 2024-10-22,29023,SEGU-115664-0,A La Orden,BUEE13225500,**************      ,Arribado
 2024-11-13,29614,ZCSU-266285-5,A La Orden,ZIMUBUE9036450,***************     ,Arribado
@@ -159,6 +158,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-24,28342,TCLU-310186-2,Refractarios Argentinos Saicm,BUEE12212700,******************* ,Arribado
 2024-10-15,28819,BMOU-126494-6,Refractarios Argentinos Saicm,65643285,****************    ,Arribado
 2024-11-22,29763,TRHU-388317-1,Refractarios Argentinos Saicm,BUEE14981800,***************     ,Arribado
+2025-01-13,30738,,Refractarios Argentinos Saicm,93665959,                    ,Pendiente
 2024-12-05,30050,FCIU-567195-3,Refractarios Argentinos Saicm,BUEE15406800,                    ,Arribado
 2024-12-05,30061,TRLU-973195-5,Refractarios Argentinos Saicm,BUEE15166400,                    ,Arribado
 2024-09-16,28095,MRKU-733534-0,Pelama Chubut S.A.,244227065,**************      ,Arribado
@@ -199,6 +199,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-28,29184,TGBU-885040-7,Hilado Sa,COSU6398422240,************        ,Arribado
 2024-10-28,29185,SEGU-660078-4,Hilado Sa,COSU6398422240,*************       ,Arribado
 2024-12-16,30222,MRSU-369302-9,Hilado Sa,247535328,*********           ,Arribado
+2025-01-13,30735,TRHU-850284-8,Hilado Sa,247809156,**************      ,Arribado
+2025-01-13,30736,MRKU-233713-9,Hilado Sa,247809156,********************,Arribado
+2025-01-13,30737,MSKU-957385-8,Hilado Sa,247809156,********************,Arribado
 2024-12-16,30220,HASU-401749-8,Hilado Sa,247535328,**********          ,Arribado
 2024-12-16,30221,MRSU-301618-3,Hilado Sa,247535328,**********          ,Arribado
 2024-09-20,28253,TLLU-434073-0,Bochert Denis Alfredo,BUA0326998,L4361336            ,Arribado
@@ -465,10 +468,17 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-24,29101,HLBU-342568-3,Maringa Maderas Sa,66309075,********************,Arribado
 2024-10-09,28693,TLLU-860604-8,Suabia Maderas Srl,EBKG10379281,FX26245597          ,Arribado
 2024-10-09,28694,FFAU-274664-5,Suabia Maderas Srl,EBKG10379281,FX26245585          ,Arribado
+2025-01-13,30729,MSDU-806152-7,Suabia Maderas Srl,EBKG11388263,FX26294514          ,Arribado
+2025-01-13,30730,MSMU-529338-2,Suabia Maderas Srl,EBKG11388263,FX26294507          ,Arribado
+2025-01-13,30731,GAOU-672627-0,Suabia Maderas Srl,EBKG11388263,FX26294508          ,Arribado
+2025-01-13,30732,MSMU-727059-7,Suabia Maderas Srl,EBKG11388263,FX26294509          ,Arribado
+2025-01-13,30733,,Suabia Maderas Srl,EBKG11388263,                    ,Pendiente
+2025-01-13,30734,,Suabia Maderas Srl,EBKG11388263,                    ,Pendiente
 2024-12-19,30333,MSDU-592942-0,Suabia Maderas Srl,EBKG11180389,FX26239961          ,Arribado
 2024-12-19,30334,MSDU-627797-0,Suabia Maderas Srl,EBKG11180389,FX26239927          ,Arribado
 2024-12-19,30335,MSNU-665698-0,Suabia Maderas Srl,EBKG11180389,FX26239931          ,Arribado
 2024-12-19,30339,MSMU-809267-4,Suabia Maderas Srl,EBKG11180389,FX26239893          ,Arribado
+2025-01-13,30728,TGHU-954229-4,Suabia Maderas Srl,EBKG11388263,FX26294530          ,Arribado
 2024-12-06,30057,FANU-108090-1,Suabia Maderas Srl,63653399,                    ,Arribado
 2024-12-06,30058,TEMU-747606-2,Suabia Maderas Srl,63653399,                    ,Arribado
 2024-12-06,30059,HLBU-316961-6,Suabia Maderas Srl,63653399,                    ,Arribado
@@ -1029,6 +1039,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-08,28667,GESU-957941-2,Lehia Srl,66308095,***************     ,Arribado
 2024-10-16,28814,MRKU-440256-8,Forestal Y Ganadera Indumarca Sa,245350576,                    ,Arribado
 2024-10-24,29096,EMCU-997262-8,Forestal Y Ganadera Indumarca Sa,340400034904,************        ,Arribado
+2025-01-13,30739,TRHU-807311-0,Forestal Y Ganadera Indumarca Sa,EBKG11357915,FX26294503          ,Arribado
 2024-12-12,30174,MSKU-090127-8,Forestal Y Ganadera Indumarca Sa,247181580,                    ,Arribado
 2024-12-26,30411,HLBU-194910-4,Forestal Y Ganadera Indumarca Sa,64658547,********************,Arribado
 2024-12-27,30442,UETU-619829-8,Forestal Y Ganadera Indumarca Sa,64658547,*****************   ,Arribado
