@@ -72,6 +72,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-25,28353,TCLU-335020-6,Minera Santa Rita Srl,68639073,***************     ,Arribado
 2024-09-25,28354,HLBU-104101-4,Minera Santa Rita Srl,68639073,****************    ,Arribado
 2025-01-03,30542,MRKU-011362-8,Minera Santa Rita Srl,248453305,**********          ,Arribado
+2025-01-14,30768,,Minera Santa Rita Srl,0011440424 / 11360224 / 114405,                    ,Arribado
 2025-01-03,30536,MRKU-086722-7,Minera Santa Rita Srl,248453305,****************    ,Arribado
 2025-01-03,30537,MRKU-036026-9,Minera Santa Rita Srl,248453305,**************      ,Arribado
 2025-01-03,30538,MRKU-096164-0,Minera Santa Rita Srl,248453305,**************      ,Arribado
@@ -158,7 +159,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-24,28342,TCLU-310186-2,Refractarios Argentinos Saicm,BUEE12212700,******************* ,Arribado
 2024-10-15,28819,BMOU-126494-6,Refractarios Argentinos Saicm,65643285,****************    ,Arribado
 2024-11-22,29763,TRHU-388317-1,Refractarios Argentinos Saicm,BUEE14981800,***************     ,Arribado
-2025-01-13,30738,,Refractarios Argentinos Saicm,93665959,                    ,Pendiente
+2025-01-13,30738,BEAU-221251-5,Refractarios Argentinos Saicm,93665959,                    ,Arribado
 2024-12-05,30050,FCIU-567195-3,Refractarios Argentinos Saicm,BUEE15406800,                    ,Arribado
 2024-12-05,30061,TRLU-973195-5,Refractarios Argentinos Saicm,BUEE15166400,                    ,Arribado
 2024-09-16,28095,MRKU-733534-0,Pelama Chubut S.A.,244227065,**************      ,Arribado
@@ -472,8 +473,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-13,30730,MSMU-529338-2,Suabia Maderas Srl,EBKG11388263,FX26294507          ,Arribado
 2025-01-13,30731,GAOU-672627-0,Suabia Maderas Srl,EBKG11388263,FX26294508          ,Arribado
 2025-01-13,30732,MSMU-727059-7,Suabia Maderas Srl,EBKG11388263,FX26294509          ,Arribado
-2025-01-13,30733,,Suabia Maderas Srl,EBKG11388263,                    ,Pendiente
-2025-01-13,30734,,Suabia Maderas Srl,EBKG11388263,                    ,Pendiente
+2025-01-13,30733,FFAU-372002-8,Suabia Maderas Srl,EBKG11388263,FX26297452          ,Arribado
+2025-01-13,30734,TRHU-852624-3,Suabia Maderas Srl,EBKG11388263,FX26297453          ,Arribado
 2024-12-19,30333,MSDU-592942-0,Suabia Maderas Srl,EBKG11180389,FX26239961          ,Arribado
 2024-12-19,30334,MSDU-627797-0,Suabia Maderas Srl,EBKG11180389,FX26239927          ,Arribado
 2024-12-19,30335,MSNU-665698-0,Suabia Maderas Srl,EBKG11180389,FX26239931          ,Arribado
@@ -724,8 +725,14 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-01,28478,ZIMU-132328-6,Lawter Argentina S.A.,ZIMUBUE9035425,********************,Arribado
 2024-10-04,28576,ZIMU-311995-0,Lawter Argentina S.A.,ZIMUBUE9035490,**************      ,Arribado
 2024-10-09,28723,TRLU-917025-8,Lawter Argentina S.A.,69309913,***************     ,Arribado
+2025-01-14,30760,MRKU-030338-2,Lawter Argentina S.A.,248860087,***********         ,Arribado
+2025-01-14,30761,MRKU-041507-9,Lawter Argentina S.A.,248860087,****************    ,Arribado
+2025-01-14,30762,MSKU-630419-8,Lawter Argentina S.A.,248860087,***************     ,Arribado
 2025-01-10,30716,MEDU-545103-6,Lawter Argentina S.A.,EBKG11332605E,FX26289714          ,Arribado
 2025-01-10,30718,TGBU-306030-7,Lawter Argentina S.A.,EBKG11332605E,FX26289718          ,Arribado
+2025-01-14,30756,PONU-191084-4,Lawter Argentina S.A.,248860087,********************,Arribado
+2025-01-14,30758,MRKU-046482-8,Lawter Argentina S.A.,248860087,***************     ,Arribado
+2025-01-14,30759,MRKU-089306-2,Lawter Argentina S.A.,248860087,*************       ,Arribado
 2024-12-26,30437,CMAU-035001-9,Lawter Argentina S.A.,BUA0333881,R1945625            ,Arribado
 2025-01-09,30660,CMAU-072308-8,Lawter Argentina S.A.,BUA0334443,R1943590            ,Arribado
 2025-01-09,30661,CMAU-305883-9,Lawter Argentina S.A.,BUA0334443,R1943383            ,Arribado
@@ -821,7 +828,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-20,28261,EITU-934169-7,Norfor Sa,340400032154,                    ,Arribado
 2024-09-20,28262,EITU-166199-2,Norfor Sa,340400032154,******************  ,Arribado
 2024-09-20,28263,EITU-179869-2,Norfor Sa,340400032154,********************,Arribado
+2025-01-14,30766,,Norfor Sa,340400044985,                    ,Pendiente
 2025-01-08,30647,TRHU-796403-4,Norfor Sa,EBKG10993215,FX26275445          ,Arribado
+2025-01-14,30763,TCLU-869294-2,Norfor Sa,340400044985,*************       ,Arribado
+2025-01-14,30764,TLLU-496267-3,Norfor Sa,340400044985,********************,Arribado
+2025-01-14,30765,,Norfor Sa,340400044985,                    ,Pendiente
 2025-01-03,30561,MSBU-513110-9,Norfor Sa,EBKG10993198,FX26267037          ,Arribado
 2025-01-03,30562,BEAU-587470-5,Norfor Sa,EBKG10993198,FX26267051          ,Arribado
 2025-01-03,30563,MEDU-949098-2,Norfor Sa,EBKG10993198,FX26267020          ,Arribado
