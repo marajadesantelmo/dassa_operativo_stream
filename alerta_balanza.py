@@ -8,8 +8,10 @@ cursor.execute(f"""
 SELECT *
 FROM DEPOFIS.DASSA.BALANZA_PESADA
 """)
+
 rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 balanza = pd.DataFrame.from_records(rows, columns=columns)
 balanza = balanza.tail(100)
 balanza.to_excel('ver_balanza.xlsx', index=False)
+
