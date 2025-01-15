@@ -1,7 +1,7 @@
 import pandas as pd
 import pyodbc
 
-clientes = pd.read_csv('contacto_clientes.csv')
+clientes = pd.read_csv('contactos_clientes.csv')
 alertas_balanza = pd.read_csv('alertas_balanza.csv')
 
 today = pd.Timestamp.today().strftime('%Y-%m-%d')
@@ -19,6 +19,3 @@ rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 balanza = pd.DataFrame.from_records(rows, columns=columns)
 
-balanza.to_excel('ver_balanza.xlsx', index=False)
-
-balanza.columns
