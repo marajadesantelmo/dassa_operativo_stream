@@ -264,7 +264,7 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
 2024-11-14,Noah Servicess.R.L.,NS122-A,TEMU-002759-0,Bultos,139,-20,ANEX-A1,Pendiente
 2024-11-12,Lift Van Int. Co S.A,ZIMUCRT906285,GAOU-734120-5,Contenedor,1,0,PLZA,Pendiente
 2024-11-12,Novelty Trend Srl,ESL24080667,MRKU-475096-4,Contenedor,1,0,PLZA,Pendiente
-2024-11-19,Lectus S.A.,BR469207701,             ,Pallets,3,-2,ANEX-A1,11:41 Realizado
+2024-11-19,Lectus S.A.,BR469207701,             ,Pallets,3,-2,ANEX-A1,Pendiente
 2024-11-19,Tmcp S.A.S.,BSZFL24091129,MRKU-241779-0,Contenedor,1,0,PLZA,Pendiente
 2024-11-19,Tmcp S.A.S.,BSZFL24091129,TLLU-598482-5,Contenedor,1,0,PLZA,Pendiente
 2024-11-19,Lift Van Int. Co S.A,LIFBUE24100011,HLBU-296185-0,Bultos,75,-18,IB6,Pendiente
@@ -460,6 +460,7 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
 2024-12-26,La Tela Srl,NBOE24009542,FFAU-247801-2,Contenedor,1,0,PLZA,Pendiente
 2024-12-26,Noah Servicess.R.L.,HBOL3403,MRSU-568114-0,Bultos,105,-60,IB8,Pendiente
 2024-12-27,Mercovan Argentina S...,MVANLT020240511,MSKU-703187-9,Bultos,118,-15,EP-IM,Pendiente
+2024-12-27,Lift Van Int. Co S.A,CL-1848.2980,             ,Bultos,148,-40,EP-IM,Pendiente
 2024-12-27,Lift Van Int. Co S.A,LIFBUE24120003,HLBU-105790-0,Bultos,202,-40,EP-IM,Pendiente
 2024-12-27,Jupam Sa,TWLE24100127,GAOU-630445-0,Contenedor,1,0,PLZA,Pendiente
 2024-12-27,Lift Van Int. Co S.A,LIFBUE24100004,UACU-377340-2,Contenedor,1,-30,PLZA,Pendiente
@@ -512,6 +513,8 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
 2025-01-09,Lift Van Int. Co S.A,LIFBUE24110009,DFSU-767821-0,Contenedor,1,-60,PLZA,Pendiente
 2025-01-09,Dodero & Cia S.R.L.,DOD780201,MSMU-460776-6,Contenedor,1,0,PLZA,Pendiente
 2025-01-09,Dodero & Cia S.R.L.,DOD780201,MSDU-530548-7,Contenedor,1,0,PLZA,Pendiente
+2025-01-09,Minera Santa Rita Sr...,QGD1304271A,CMAU-511015-5,Bultos,8,-10,PLZA,Pendiente
+2025-01-09,Minera Santa Rita Sr...,QGD1304271A,CMAU-511015-5,Bultos,32,-40,PLZA,Pendiente
 2025-01-09,Minera Santa Rita Sr...,QGD1304271A,CMAU-915030-4,Bultos,27,-50,PLZA,Pendiente
 2025-01-09,Minera Santa Rita Sr...,QGD1304271A,TCLU-829538-0,Bultos,15,-50,PLZA,Pendiente
 2025-01-09,Minera Santa Rita Sr...,QGD1304271A,CMAU-699215-0,Bultos,45,-50,PLZA,Pendiente
@@ -557,13 +560,24 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
 2025-01-13,Fenisan S.A.,HBOL2160,HASU-447214-6,Contenedor,1,0,PLZA,Pendiente
 2025-01-13,Eagle Service Group ...,HB107580CMG-1,MRKU-463099-5,Bultos,136,-30,IA1,Pendiente
 2025-01-13,Eagle Service Group ...,HB107580CMG-4,MRKU-463099-5,Bultos,82,-10,IA1,Pendiente
-2025-01-14,Grupo Simpa Sa,TCSH2410007,FCBU-020230-4,Bultos,192,-21,ANEX-A1,10:39 Realizado
-2025-01-14,Grupo Simpa Sa,TCSH2410007,ZCSU-790636-3,Bultos,1221,-69,ANEX-A1,10:39 Realizado
-2025-01-14,Grupo Simpa Sa,TCSH2410132,ZCSU-713684-8,Bultos,357,-60,IA6,10:39 Realizado
-2025-01-15,Lectus S.A.,BR469207701,             ,Pallets,3,-2,ANEX-A1,11:41 Realizado
-2025-01-15,Telamania Srl,NBOE24010181,TCNU-819833-0,Rollos,721,-68,CTNNAC,10:38 Realizado
-2025-01-15,Dmc Import Group S.R...,TS2411056,TCLU-980615-0,Contenedor,1,0,PLZA,09:17 Realizado
-2025-01-15,Poka S.A.,BK2431734,EISU-827267-0,Contenedor,1,0,PLZA,10:38 Realizado
+2025-01-14,Grupo Simpa Sa,TCSH2410007,FCBU-020230-4,Bultos,192,-21,ANEX-A1,Pendiente
+2025-01-14,Grupo Simpa Sa,TCSH2410007,ZCSU-790636-3,Bultos,1221,-69,ANEX-A1,Pendiente
+2025-01-14,Grupo Simpa Sa,TCSH2410132,ZCSU-713684-8,Bultos,357,-60,IA6,Pendiente
+2025-01-15,Lectus S.A.,BR469207701,             ,Pallets,3,-2,ANEX-A1,Pendiente
+2025-01-15,Telamania Srl,NBOE24010181,TCNU-819833-0,Rollos,721,-68,CTNNAC,Pendiente
+2025-01-15,Dmc Import Group S.R...,TS2411056,TCLU-980615-0,Contenedor,1,0,PLZA,Pendiente
+2025-01-15,Minera Santa Rita Sr...,QGD1304271A,CMAU-511015-5,Bultos,8,-10,PLZA,Pendiente
+2025-01-15,Minera Santa Rita Sr...,QGD1304271A,CMAU-511015-5,Bultos,32,-40,PLZA,Pendiente
+2025-01-15,Poka S.A.,BK2431734,EISU-827267-0,Contenedor,1,0,PLZA,Pendiente
+2025-01-15,Jupam Sa,NB241050333,EMCU-861810-0,Contenedor,1,-60,PLZA,10:18 Realizado
+2025-01-16,Grupo Simpa Sa,TCXM2411016B,TEMU-725533-3,Bultos,1,-1,IB6,En curso
+2025-01-16,Grupo Simpa Sa,TCSH2410265A,ZCSU-748314-8,Bultos,1452,-51,IB9,En curso
+2025-01-16,Grupo Simpa Sa,TCSH2410265B,ZCSU-748314-8,Bultos,1,-3,IB9,En curso
+2025-01-16,Jupam Sa,NB241050879,EGHU-963893-5,Contenedor,1,-60,PLZA,10:18 Realizado
+2025-01-16,Luial Sa,SY241051290,MAGU-537722-3,Contenedor,1,-60,PLZA,10:30 Realizado
+2025-01-16,Luial Sa,SY241051415,EITU-108544-9,Contenedor,1,-60,PLZA,10:03 Realizado
+2025-01-16,Jupam Sa,NB241050333,EMCU-861810-0,Contenedor,1,-60,PLZA,10:18 Realizado
+2025-01-16,Trading Sud S.R.L.,OLGM246853,PCIU-612131-3,Contenedor,1,0,PLZA,12:05 Realizado
 2024-10-04,Industrias Saladillo...,NBOBUE24060234,FXLU-215948-8,Pallets,3,3,ANEX-A1,Pendiente
 2024-10-21,Grouport Srl,SYNTAO24SE070474,PCIU-020309-7,Bultos,70,14,ANEX-A1,Pendiente
 2024-11-06,Grouport Srl,SZX24041664,MSMU-557586-9,Bultos,100,18,NV1,Pendiente
@@ -579,18 +593,24 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
 2024-12-23,Industrias Saladillo...,TPNGBSG24058109,KKTU-796677-1,Pallets,2,2,ANEX-A1,Pendiente
 2024-12-26,Daniel Berant,GSZBUE24100624,MSMU-809267-4,Bultos,263,9,NV1,Pendiente
 2024-12-26,Daniel Berant,GSZBUE24100624,MSMU-809267-4,Bultos,263,9,IA2,Pendiente
-2024-12-27,Lift Van Int. Co S.A,CL-1848.2980,             ,Bultos,148,40,EP-IM,Pendiente
 2024-12-30,Daniel Berant,GSZBUE24100624,MSMU-809267-4,Bultos,263,9,NV1,Pendiente
 2024-12-30,Daniel Berant,GSZBUE24100624,MSMU-809267-4,Bultos,263,9,IA2,Pendiente
 2025-01-06,Industrias Saladillo...,TPNGBSG24106008,ZIMU-143152-6,Pallets,10,10,ANEX-A1,Pendiente
 2025-01-06,Industrias Saladillo...,TPNGBSG24086038,FAMU-889344-8,Pallets,10,11,NV1,Pendiente
 2025-01-06,Industrias Saladillo...,TPNGBSG24086038,FAMU-889344-8,Pallets,10,11,IA8,Pendiente
 2025-01-06,Industrias Saladillo...,TPNGBSG24058109,KKTU-796677-1,Pallets,2,2,ANEX-A1,Pendiente
-2025-01-09,Minera Santa Rita Sr...,QGD1304271A,CMAU-511015-5,Bultos,8,10,PLZA,Pendiente
 2025-01-13,Indelplas Srl,GILSH240900041,MSDU-436374-5,Bultos,1506,56,EA8,Pendiente
 2025-01-15,Letral Srl,WGUY201815571,             ,Pallets,12,0,ANEX-A1,Pendiente
-2025-01-15,Minera Santa Rita Sr...,QGD1304271A,CMAU-511015-5,Bultos,8,10,PLZA,Pendiente
 2025-01-15,Novelty Trend Srl,TWLE24100081,KOCU-434678-6,Rollos,448,30,NV5,Pendiente
-2025-01-16,Grupo Simpa Sa,TCXM2411016A/B,TEMU-725533-3,Bultos,1,1,IB6,Pendiente
-2025-01-16,Grupo Simpa Sa,TCSH2410265A/B/C,ZCSU-748314-8,Bultos,1452,51,IB9,Pendiente
-2025-01-16,Grupo Simpa Sa,TCSH2410265A/B/C,ZCSU-748314-8,Bultos,1,3,IB9,Pendiente
+2025-01-16,Letral Srl,WGUY201815571,             ,Pallets,12,0,ANEX-A1,Pendiente
+2025-01-16,Jupam Sa,,AKLU-650714-6,Contenedor,1,0,PLZA,Pendiente
+2025-01-17,Lift Van Int. Co S.A,HLCUME3241120058,HLBU-357377-8,Bultos,65,20,EP-IM,Pendiente
+2025-01-17,Lift Van Int. Co S.A,HLCUME3241045330,UACU-407895-6,Bultos,111,28,EP-IM,Pendiente
+2025-01-17,Laboratorio Pyam Sa,EGLV14140150127,EMCU-612431-0,Bultos,448,0,CTNNAC,Pendiente
+2025-01-17,Talwin Transport Ser...,HLCUBSC241246058,HLXU-807229-3,Bultos,196,35,IA5,Pendiente
+2025-01-17,Talwin Transport Ser...,HLCUBSC241246058,HLXU-807229-3,Bultos,1,5,PA-A,Pendiente
+2025-01-17,Letral Srl,WGUY201815571,             ,Pallets,12,0,ANEX-A1,Pendiente
+2025-01-20,Edelweiss Spedition ...,244576558,TCLU-171951-1,Bultos,268,68,NV3,Pendiente
+2025-01-20,Espert S.A.,BR .7752.00041,             ,Pallets,40,40,IB7,Pendiente
+2025-01-21,A La Orden,,GLDU-360700-4,Bultos,200,16,NV1,Pendiente
+2025-01-21,A La Orden,,GLDU-360700-4,Bultos,200,16,CTNNAC,Pendiente
