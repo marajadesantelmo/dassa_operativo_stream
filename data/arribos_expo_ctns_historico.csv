@@ -1,7 +1,7 @@
 Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-24,28324,MSKU-380932-9,Mercovan Argentina Srl,244430335,***************     ,Arribado
 2025-01-17,30821,UACU-394837-3,Mercovan Argentina Srl,37758475,**********          ,Arribado
-2025-01-20,30847,,Mercovan Argentina Srl,93378671,                    ,Pendiente
+2025-01-20,30847,BMOU-308108-1,Mercovan Argentina Srl,93378671,***************     ,Arribado
 2025-01-07,30598,UASU-105352-9,Mercovan Argentina Srl,21086563,HLD0315467          ,Arribado
 2024-12-27,30440,UETU-274435-9,Mercovan Argentina Srl,66657399,********************,Arribado
 2024-11-25,29817,TGHU-520858-7,Mercovan Argentina Srl,63984259,HLD0315580          ,Arribado
@@ -19,7 +19,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-26,28369,TGHU-097985-3,Lift Van Int. Co S.A,69630195,*************       ,Arribado
 2024-09-30,28455,MSDU-430360-1,Lift Van Int. Co S.A,EBKGQ0003C6E,FX26258789          ,Arribado
 2025-01-17,30817,HLBU-127505-4,Lift Van Int. Co S.A,69986413,*************       ,Arribado
-2025-01-20,30840,,Lift Van Int. Co S.A,EBKGQ0008A6A,                    ,Pendiente
+2025-01-20,30840,MSDU-259283-0,Lift Van Int. Co S.A,EBKGQ0008A6A,FX26285133          ,Arribado
 2025-01-07,30603,MRSU-631244-5,Lift Van Int. Co S.A,248449394,***********         ,Arribado
 2025-01-09,30669,SEGU-111854-8,Lift Van Int. Co S.A,LA0400808,************        ,Arribado
 2024-12-27,30443,,Lift Van Int. Co S.A,TERRESTRE,                    ,Arribado
@@ -151,7 +151,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-22,29778,TCLU-593273-6,A La Orden,VX18FA24000486,***************     ,Arribado
 2024-11-22,29786,TXGU-677634-5,A La Orden,EBKG10696373,FX26263624          ,Arribado
 2025-01-20,30849,,A La Orden,BUEF00399700,                    ,Pendiente
-2025-01-20,30850,,A La Orden,BUEF00399700,                    ,Pendiente
+2025-01-20,30850,UETU-405667-4,A La Orden,BUEF00399700,********************,Arribado
 2024-10-23,29054,MRKU-206193-0,Unlimited World S.A.,245790712,                    ,Arribado
 2024-12-06,30076,,Fijaciones Py S.A.,24001EC01080691K,                    ,Arribado
 2024-09-25,28355,ZHLU-201517-4,Dpmg S.A.,24001EC03010510S,                    ,Arribado
@@ -323,6 +323,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-26,28391,FSCU-843243-7,Global Rover Logistic Srl,68635291,******************  ,Arribado
 2024-09-26,28392,TCNU-376277-2,Global Rover Logistic Srl,68635291,**************      ,Arribado
 2024-10-04,28578,,Global Rover Logistic Srl,245045964,                    ,Pendiente
+2025-01-20,30853,,Global Rover Logistic Srl,EBKG11357988,                    ,Pendiente
+2025-01-20,30854,,Global Rover Logistic Srl,EBKG11357988,                    ,Pendiente
+2025-01-20,30855,,Global Rover Logistic Srl,EBKG11357988,                    ,Pendiente
+2025-01-20,30856,,Global Rover Logistic Srl,EBKG11357988,                    ,Pendiente
+2025-01-20,30857,,Global Rover Logistic Srl,EBKG11357988,                    ,Pendiente
+2025-01-20,30858,,Global Rover Logistic Srl,EBKG11357988,                    ,Pendiente
 2025-01-09,30663,EMCU-872166-0,Global Rover Logistic Srl,340500000360,******************  ,Arribado
 2025-01-09,30664,EGHU-960091-9,Global Rover Logistic Srl,340500000360,********************,Arribado
 2025-01-09,30665,TRHU-800120-8,Global Rover Logistic Srl,340500000360,****************    ,Arribado
@@ -462,7 +468,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-09,28693,TLLU-860604-8,Suabia Maderas Srl,EBKG10379281,FX26245597          ,Arribado
 2024-10-09,28694,FFAU-274664-5,Suabia Maderas Srl,EBKG10379281,FX26245585          ,Arribado
 2024-10-09,28695,MSDU-579448-0,Suabia Maderas Srl,EBKG10379281,FX26245516          ,Arribado
-2025-01-20,30851,,Suabia Maderas Srl,34093842,                    ,Pendiente
+2025-01-20,30851,TGBU-518361-4,Suabia Maderas Srl,34093842,*****************   ,Arribado
 2025-01-13,30730,MSMU-529338-2,Suabia Maderas Srl,EBKG11388263,FX26294507          ,Arribado
 2025-01-13,30731,GAOU-672627-0,Suabia Maderas Srl,EBKG11388263,FX26294508          ,Arribado
 2025-01-13,30732,MSMU-727059-7,Suabia Maderas Srl,EBKG11388263,FX26294509          ,Arribado
@@ -693,10 +699,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-01,28478,ZIMU-132328-6,Lawter Argentina S.A.,ZIMUBUE9035425,********************,Arribado
 2024-10-04,28576,ZIMU-311995-0,Lawter Argentina S.A.,ZIMUBUE9035490,**************      ,Arribado
 2024-10-09,28723,TRLU-917025-8,Lawter Argentina S.A.,69309913,***************     ,Arribado
-2025-01-20,30841,,Lawter Argentina S.A.,24264393,                    ,Pendiente
-2025-01-20,30842,,Lawter Argentina S.A.,24264393,                    ,Pendiente
-2025-01-20,30843,,Lawter Argentina S.A.,24264393,                    ,Pendiente
-2025-01-20,30844,,Lawter Argentina S.A.,24264393,                    ,Pendiente
+2025-01-20,30841,BMOU-297440-7,Lawter Argentina S.A.,24264393,********************,Arribado
+2025-01-20,30842,CAIU-322173-2,Lawter Argentina S.A.,24264393,*****************   ,Arribado
+2025-01-20,30843,BSIU-219092-5,Lawter Argentina S.A.,24264393,****************    ,Arribado
+2025-01-20,30844,HLXU-137854-8,Lawter Argentina S.A.,24264393,*****************   ,Arribado
 2025-01-20,30845,,Lawter Argentina S.A.,24264393,                    ,Pendiente
 2025-01-20,30846,,Lawter Argentina S.A.,24264393,                    ,Pendiente
 2025-01-14,30761,MRKU-041507-9,Lawter Argentina S.A.,248860087,****************    ,Arribado
@@ -1050,7 +1056,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-22,29044,CSNU-212835-1,Don Satur Srl,COSU6399731130,                    ,Arribado
 2024-11-22,29762,OOLU-913919-1,Don Satur Srl,COSU64001000910,******************* ,Arribado
 2024-12-23,30384,TEMU-016095-6,Don Satur Srl,COSU6405307280,*****************   ,Arribado
-2025-01-20,30848,,Don Satur Srl,COSU6407879510,                    ,Pendiente
+2025-01-20,30848,UETU-267480-0,Don Satur Srl,COSU6407879510,*****************   ,Arribado
 2024-12-13,30188,TRHU-119868-8,Laboratorio Elea Phoenix Sa,BUEE15573600,                    ,Arribado
 2024-11-25,29809,GESU-119504-6,Holliday Scott S A,SNG0446327,                    ,Arribado
 2024-11-28,29861,TRHU-808693-0,Sandrin Paola Karina,34040003831,*************       ,Arribado
