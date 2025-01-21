@@ -394,8 +394,8 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
 2024-12-11,Lift Van Int. Co S.A,LIFBUE24110001,HLBU-152685-9,Bultos,253,-40,IA9,Pendiente
 2024-12-12,Sematryn Sa,OLGM243553,TRHU-547935-9,Bultos,130,-34,NV1,Pendiente
 2024-12-12,Sematryn Sa,OLGM243553,TRHU-547935-9,Bultos,121,-31,NV1,Pendiente
-2024-12-12,Chemotecnica Sa,HDMUMAAM66642100,HMMU-201855-0,Pallets,18,-22,NV4,Pendiente
 2024-12-12,Chemotecnica Sa,HDMUMAAM66642100,HMMU-201855-0,Pallets,2,-2,NV4,Pendiente
+2024-12-12,Chemotecnica Sa,HDMUMAAM66642100,HMMU-201855-0,Pallets,18,-22,NV4,Pendiente
 2024-12-12,Compañia Resiplast S...,KAOBAZ10978Y01,BSIU-981124-3,Bultos,3,-65,P-TIN,Pendiente
 2024-12-12,Manupackaging Argent...,242980957,CAAU-662983-3,Pallets,18,-40,CTNNAC,Pendiente
 2024-12-12,Manupackaging Argent...,242980957,MRSU-517462-9,Pallets,18,-40,CTNNAC,Pendiente
@@ -580,7 +580,7 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
 2025-01-17,Lift Van Int. Co S.A,LIFBUE24120016,HLBU-357377-8,Bultos,65,-20,EP-IM,Pendiente
 2025-01-17,Lift Van Int. Co S.A,LIFBUE24120008,UACU-407895-6,Bultos,111,-28,EP-IM,Pendiente
 2025-01-17,Laboratorio Pyam Sa,EGLV141401050127,EMCU-612431-0,Bultos,448,0,CTNNAC,Pendiente
-2025-01-17,Talwin Transport Ser...,PEVARBUE-3891,HLXU-807229-3,Bultos,196,-35,IA5,En curso
+2025-01-17,Talwin Transport Ser...,PEVARBUE-3891,HLXU-807229-3,Bultos,196,-35,IA5,Pendiente
 2025-01-17,Talwin Transport Ser...,PEVARBUE-3892,HLXU-807229-3,Bultos,1,-5,PA-A,Pendiente
 2025-01-17,Talwin Transport Ser...,PEVARBUE-3893,HLXU-807229-3,Bultos,1,-5,PA-A,Pendiente
 2025-01-17,Letral Srl,WGUY201815571,             ,Pallets,12,0,ANEX-A1,Pendiente
@@ -591,7 +591,16 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
 2025-01-17,Espert S.A.,BR775200050,             ,Pallets,13,-19,IA1,Pendiente
 2025-01-17,Espert S.A.,BR775200050,             ,Pallets,13,-19,IB7,Pendiente
 2025-01-17,Trice Transport Comp...,TRB4165,HLBU-127175-8,Bultos,205,-50,IA8,Pendiente
-2025-01-20,Edelweiss Spedition ...,EDWBUE24110003,TCLU-171951-1,Bultos,268,-68,NV3,En curso
+2025-01-20,Edelweiss Spedition ...,EDWBUE24110003,TCLU-171951-1,Bultos,268,-68,NV3,Pendiente
+2025-01-21,Distribuidora V.R. S...,NBFC2404027,GLDU-360700-4,Bultos,200,-16,CTNNAC,En curso
+2025-01-21,Distribuidora V.R. S...,NBFC2404027,GLDU-360700-4,Bultos,200,-16,NV1,En curso
+2025-01-21,Distribuidora V.R. S...,NBFC2404027,GLDU-360700-4,Bultos,168,-14,CTNNAC,Pendiente
+2025-01-21,Distribuidora V.R. S...,NBFC2404027,GLDU-360700-4,Bultos,168,-14,NV1,Pendiente
+2025-01-21,Lift Van Int. Co S.A,LIFBUE24120003B,HLBU-105790-0,Bultos,1,-7,EP-IM,En curso
+2025-01-21,Mercovan Argentina S...,MVANES20240512,CMAU-271236-0,Bultos,96,-28,IA7,En curso
+2025-01-21,Grupo Simpa Sa,TCSH2410264,TLLU-459581-3,Bultos,1240,-68,EA9,En curso
+2025-01-21,Grupo Simpa Sa,TCSH2410264,WBPU-705626-4,Bultos,2055,-67,EA8,En curso
+2025-01-21,Grupo Simpa Sa,TCSH2410264,TCLU-815832-5,Bultos,2048,-65,EA9,En curso
 2024-10-04,Industrias Saladillo...,NBOBUE24060234,FXLU-215948-8,Pallets,3,3,ANEX-A1,Pendiente
 2024-10-21,Grouport Srl,SYNTAO24SE070474,PCIU-020309-7,Bultos,70,14,ANEX-A1,Pendiente
 2024-11-06,Grouport Srl,SZX24041664,MSMU-557586-9,Bultos,100,18,NV1,Pendiente
@@ -614,12 +623,8 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
 2025-01-13,Indelplas Srl,GILSH240900041,MSDU-436374-5,Bultos,306,11,EA8,Pendiente
 2025-01-15,Novelty Trend Srl,TWLE24100081,KOCU-434678-6,Rollos,448,30,NV5,Pendiente
 2025-01-20,Indelplas Srl,GILSH240900041,MSDU-436374-5,Bultos,306,11,EA8,Pendiente
-2025-01-21,Espert S.A.,BR .7752.00041,             ,Pallets,40,40,IB7,Pendiente
-2025-01-21,A La Orden,,GLDU-360700-4,Bultos,200,16,NV1,Pendiente
-2025-01-21,A La Orden,,GLDU-360700-4,Bultos,200,16,CTNNAC,Pendiente
-2025-01-21,Lift Van Int. Co S.A,HLCUME3240924106,HLBU-105790-0,Bultos,1,7,EP-IM,Pendiente
-2025-01-21,Mercovan Argentina S...,SSN109858,CMAU-271236-0,Bultos,96,28,IA7,Pendiente
-2025-01-21,Grupo Simpa Sa,TCSH2410264,TLLU-459581-3,Bultos,1240,68,EA9,Pendiente
-2025-01-21,Grupo Simpa Sa,TCSH2410264,WBPU-705626-4,Bultos,2055,67,EA8,Pendiente
-2025-01-21,Grupo Simpa Sa,TCSH2410264,TCLU-815832-5,Bultos,2048,65,EA9,Pendiente
+2025-01-21,Tmcp S.A.S.,,MSMU-823013-5,Contenedor,1,0,PLZA,Pendiente
+2025-01-21,Tmcp S.A.S.,,MSMU-881608-6,Contenedor,1,0,PLZA,Pendiente
+2025-01-21,Tmcp S.A.S.,,FFAU-195830-0,Contenedor,1,0,PLZA,Pendiente
 2025-01-23,Lift Van Int. Co S.A,ONEYRICEKU900300,TLLU-605074-6,Bultos,340,60,IB8,Pendiente
+2025-01-23,Planet Seguridad S.R...,,SUDU-875402-7,Contenedor,1,0,PLZA,Pendiente

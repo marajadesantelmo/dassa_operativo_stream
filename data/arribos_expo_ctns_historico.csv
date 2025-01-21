@@ -1,7 +1,11 @@
 Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-24,28324,MSKU-380932-9,Mercovan Argentina Srl,244430335,***************     ,Arribado
+2025-01-21,30881,TEMU-178418-1,Mercovan Argentina Srl,31536016,HLD0315449          ,Arribado
 2025-01-17,30821,UACU-394837-3,Mercovan Argentina Srl,37758475,**********          ,Arribado
 2025-01-20,30847,BMOU-308108-1,Mercovan Argentina Srl,93378671,***************     ,Arribado
+2025-01-21,30871,UETU-214676-3,Mercovan Argentina Srl,33196222,HLD0315445          ,Arribado
+2025-01-21,30872,TEMU-146918-0,Mercovan Argentina Srl,37049253,HLD0315444          ,Arribado
+2025-01-21,30880,UACU-849592-1,Mercovan Argentina Srl,39693917,0315447             ,Arribado
 2025-01-07,30598,UASU-105352-9,Mercovan Argentina Srl,21086563,HLD0315467          ,Arribado
 2024-12-27,30440,UETU-274435-9,Mercovan Argentina Srl,66657399,********************,Arribado
 2024-11-25,29817,TGHU-520858-7,Mercovan Argentina Srl,63984259,HLD0315580          ,Arribado
@@ -150,7 +154,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-13,29614,ZCSU-266285-5,A La Orden,ZIMUBUE9036450,***************     ,Arribado
 2024-11-22,29778,TCLU-593273-6,A La Orden,VX18FA24000486,***************     ,Arribado
 2024-11-22,29786,TXGU-677634-5,A La Orden,EBKG10696373,FX26263624          ,Arribado
-2025-01-20,30849,,A La Orden,BUEF00399700,                    ,Pendiente
+2025-01-20,30849,TCKU-462475-2,A La Orden,BUEF00399700,**************      ,Arribado
 2025-01-20,30850,UETU-405667-4,A La Orden,BUEF00399700,********************,Arribado
 2024-10-23,29054,MRKU-206193-0,Unlimited World S.A.,245790712,                    ,Arribado
 2024-12-06,30076,,Fijaciones Py S.A.,24001EC01080691K,                    ,Arribado
@@ -292,6 +296,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-18,28925,HLXU-534490-5,Kluber Lubrication Argentina S A,62641596,********************,Arribado
 2024-12-06,30056,MRSU-383456-0,Kluber Lubrication Argentina S A,247428416,                    ,Arribado
 2024-11-22,29766,HLBU-178260-8,Chemotecnica Sa,64981482,********************,Arribado
+2025-01-20,30859,,Chemotecnica Sa,25001EC01002179G,                    ,Arribado
 2024-10-07,28646,ZIMU-114659-7,Gestion Forward S.R.L.,ZIMUBUE9035599,********************,Arribado
 2025-01-08,30648,HLBU-180579-2,Gestion Forward S.R.L.,35381588,******************  ,Arribado
 2024-10-04,28579,TRHU-427083-1,Tipoiti Satic,BUEE12872500,********************,Arribado
@@ -323,12 +328,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-26,28391,FSCU-843243-7,Global Rover Logistic Srl,68635291,******************  ,Arribado
 2024-09-26,28392,TCNU-376277-2,Global Rover Logistic Srl,68635291,**************      ,Arribado
 2024-10-04,28578,,Global Rover Logistic Srl,245045964,                    ,Pendiente
-2025-01-20,30853,,Global Rover Logistic Srl,EBKG11357988,                    ,Pendiente
-2025-01-20,30854,,Global Rover Logistic Srl,EBKG11357988,                    ,Pendiente
-2025-01-20,30855,,Global Rover Logistic Srl,EBKG11357988,                    ,Pendiente
-2025-01-20,30856,,Global Rover Logistic Srl,EBKG11357988,                    ,Pendiente
-2025-01-20,30857,,Global Rover Logistic Srl,EBKG11357988,                    ,Pendiente
-2025-01-20,30858,,Global Rover Logistic Srl,EBKG11357988,                    ,Pendiente
+2025-01-20,30853,TGBU-256194-2,Global Rover Logistic Srl,EBKG11357988,FX26285079          ,Arribado
+2025-01-20,30854,MSMU-339823-4,Global Rover Logistic Srl,EBKG11357988,FX26285080          ,Arribado
+2025-01-20,30855,CAXU-320619-6,Global Rover Logistic Srl,EBKG11357988,FX26285019          ,Arribado
+2025-01-20,30856,HPCU-253926-0,Global Rover Logistic Srl,EBKG11357988,FX26285018          ,Arribado
+2025-01-20,30857,MEDU-545320-8,Global Rover Logistic Srl,EBKG11357988,FX26285747          ,Arribado
+2025-01-20,30858,MSDU-116712-1,Global Rover Logistic Srl,EBKG11357988,FX26285748          ,Arribado
 2025-01-09,30663,EMCU-872166-0,Global Rover Logistic Srl,340500000360,******************  ,Arribado
 2025-01-09,30664,EGHU-960091-9,Global Rover Logistic Srl,340500000360,********************,Arribado
 2025-01-09,30665,TRHU-800120-8,Global Rover Logistic Srl,340500000360,****************    ,Arribado
@@ -344,6 +349,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-23,28292,BSIU-803225-4,Isischu Srl,340400031689,*************       ,Arribado
 2024-09-23,28293,EITU-922109-5,Isischu Srl,340400031689,**********          ,Arribado
 2024-09-23,28294,TIIU-522934-0,Isischu Srl,340400031689,*************       ,Arribado
+2025-01-21,30870,FFAU-305213-0,Isischu Srl,EBKG11435113,FX26285011          ,Arribado
+2025-01-21,30876,MSCU-528836-5,Isischu Srl,EBKG11435113,FX26285716          ,Arribado
 2025-01-09,30668,FANU-111819-1,Isischu Srl,26131280,********************,Arribado
 2024-12-23,30385,EGSU-133924-8,Isischu Srl,3640400046813,                    ,Arribado
 2024-12-23,30390,EITU-189666-2,Isischu Srl,340400047942,*****************   ,Arribado
@@ -786,8 +793,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-09,28690,MRKU-382170-2,Virasoro Maderas S R L,244763827,********************,Arribado
 2024-10-09,28691,MRSU-380455-0,Virasoro Maderas S R L,244763827,****************    ,Arribado
 2024-10-09,28692,MRKU-604799-2,Virasoro Maderas S R L,244763827,******************  ,Arribado
+2025-01-21,30877,TRHU-735082-2,Virasoro Maderas S R L,EBKG11226629,FX26285736          ,Arribado
+2025-01-21,30878,TCLU-793240-0,Virasoro Maderas S R L,EBKG11226629,FX26285735          ,Arribado
+2025-01-21,30879,TGBU-987916-0,Virasoro Maderas S R L,EBKG11226629,FX26285719          ,Arribado
 2024-10-14,28780,CAAU-526439-2,Virasoro Maderas S R L,244269707,*************       ,Arribado
 2024-11-01,29341,MRSU-322731-3,Virasoro Maderas S R L,246121429,************        ,Arribado
+2025-01-21,30868,MEDU-757108-8,Virasoro Maderas S R L,EBKG11226629,FX26285008          ,Arribado
+2025-01-21,30869,MSDU-706614-4,Virasoro Maderas S R L,EBKG11226629,FX26285009          ,Arribado
 2024-12-26,30410,HLBU-166037-0,Tony Maderas Sa,67658483,********************,Arribado
 2025-01-17,30822,HAMU-119628-0,Tony Maderas Sa,23783227,***********         ,Arribado
 2024-10-31,29315,,Libertun Hermanos Srl,24001EC01071925K,                    ,Arribado
