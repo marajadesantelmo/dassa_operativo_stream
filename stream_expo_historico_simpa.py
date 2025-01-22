@@ -4,10 +4,15 @@ from datetime import datetime
 
 def fetch_data_expo_historico():
     arribos_expo_carga_historico = pd.read_csv('data/arribos_expo_carga_historico.csv')
+    arribos_expo_carga_historico = arribos_expo_carga_historico[arribos_expo_carga_historico['Cliente']=='Grupo Simpa Sa']
     arribos_expo_ctns_historico = pd.read_csv('data/arribos_expo_ctns_historico.csv')
+    arribos_expo_ctns_historico = arribos_expo_ctns_historico[arribos_expo_ctns_historico['Cliente']=='Grupo Simpa Sa']
     historico_verificaciones_expo = pd.read_csv('data/historico_verificaciones_expo.csv')
+    historico_verificaciones_expo = historico_verificaciones_expo[historico_verificaciones_expo['Cliente']=='Grupo Simpa Sa']
     historico_otros_expo = pd.read_csv('data/historico_otros_expo.csv')
+    historico_otros_expo = historico_otros_expo[historico_otros_expo['Cliente']=='Grupo Simpa Sa']
     historico_remisiones = pd.read_csv('data/historico_remisiones.csv')
+    historico_remisiones = historico_remisiones[historico_remisiones['Cliente']=='Grupo Simpa Sa']
     historico_consolidados = pd.read_csv('data/historico_consolidados.csv') # Hay que armar algo con el egresado
     return arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo, historico_otros_expo, historico_remisiones, historico_consolidados
 

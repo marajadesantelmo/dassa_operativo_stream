@@ -6,14 +6,23 @@ from utils import highlight
 
 def fetch_data_expo():
     arribos_expo_carga = pd.read_csv('data/arribos_expo_carga.csv')
+    arribos_expo_carga = arribos_expo_carga[arribos_expo_carga['Cliente']=='Grupo Simpa Sa']
     arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
+    arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns['Cliente']=='Grupo Simpa Sa']
     verificaciones_expo = pd.read_csv('data/verificaciones_expo.csv')
+    verificaciones_expo = verificaciones_expo[verificaciones_expo['Cliente']=='Grupo Simpa Sa']
     otros_expo = pd.read_csv('data/otros_expo.csv')
+    otros_expo = otros_expo[otros_expo['Cliente']=='Grupo Simpa Sa']
     remisiones = pd.read_csv('data/remisiones.csv')
+    remisiones = remisiones[remisiones['Cliente']=='Grupo Simpa Sa']
     consolidados = pd.read_csv('data/consolidados.csv')
+    consolidados = consolidados[consolidados['Cliente']=='Grupo Simpa Sa']
     pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
+    pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente']=='Grupo Simpa Sa']
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
+    listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente']=='Grupo Simpa Sa']
     vacios_disponibles = pd.read_csv('data/vacios_disponibles.csv')
+    vacios_disponibles = vacios_disponibles[vacios_disponibles['Cliente']=='Grupo Simpa Sa']
     return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados, pendiente_consolidar, listos_para_remitir, vacios_disponibles
     
 def show_page_expo():
