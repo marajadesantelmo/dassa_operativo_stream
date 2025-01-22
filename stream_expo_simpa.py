@@ -29,12 +29,15 @@ def show_page_expo():
     # Load data
     arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados, pendiente_consolidar, listos_para_remitir, vacios_disponibles = fetch_data_expo()
 
-    col_logo, col_title = st.columns([2, 5])
+    col_logo, col_title, col_simpa = st.columns([1, 5, 1])
     with col_logo:
         st.image('logo.png')
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
-        st.title(f"Operaciones de EXPO a partir del {current_day}")
+        st.title(f"Operaciones de IMPO a partir del {current_day}")
+    with col_simpa:
+        st.image('logo_simpa.png')
+
 
     # Create two columns
     col1, col2 = st.columns(2)
