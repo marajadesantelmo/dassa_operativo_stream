@@ -26,12 +26,14 @@ def show_page_impo():
     # Load data
     arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm= fetch_data_impo()
 
-    col_logo, col_title = st.columns([2, 5])
+    col_logo, col_title, col_simpa = st.columns([1, 5, 1])
     with col_logo:
         st.image('logo.png')
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Operaciones de IMPO a partir del {current_day}")
+    with col_simpa:
+        st.image('logo_simpa.png')
 
     col1, col2 = st.columns(2)
 
