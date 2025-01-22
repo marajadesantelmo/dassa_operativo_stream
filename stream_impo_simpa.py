@@ -7,6 +7,7 @@ from utils import highlight
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
     arribos = pd.read_csv('data/arribos.csv')
+    arribos = arribos[arribos['Cliente']=='Grupo Simpa Sa']
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
     pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar['Cliente']=='Grupo Simpa Sa']
     verificaciones_impo = pd.read_csv('data/verificaciones_impo.csv')

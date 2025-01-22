@@ -23,8 +23,8 @@ with open("styles.css") as f:
 
 page_selection = option_menu(
         None,  # No menu title
-        ["IMPO", "EXPO", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico"],  
-        icons=["arrow-down-circle", "arrow-up-circle", "arrow-right-circle", "book", "book", "book"],   
+        ["IMPO", "EXPO"],  
+        icons=["arrow-down-circle", "arrow-up-circle"],   
         menu_icon="cast",  
         default_index=0, 
         orientation="horizontal")
