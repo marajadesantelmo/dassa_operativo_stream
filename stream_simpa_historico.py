@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
+import time
 
 def fetch_data_impo_historico():
     arribos_impo_historico = pd.read_csv('data/arribos_impo_historico.csv')
@@ -83,5 +84,9 @@ def show_page_impo_historico():
         st.dataframe(filtered_data_otros, hide_index=True, use_container_width=True)
 
 
-
+if __name__ == "__main__":
+    while True:
+        show_page_impo_historico
+        time.sleep(60)  
+        st.experimental_rerun() 
 

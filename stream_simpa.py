@@ -22,14 +22,14 @@ with open("styles.css") as f:
 
 page_selection = option_menu(
         None,  # No menu title
-        ["IMPO", "EXPO", "Histórico"],  
+        ["Existente", "Orden del Día", "Histórico"],  
         icons=["arrow-down-circle", "arrow-up-circle", "clock-history"],   
         menu_icon="cast",  
         default_index=0, 
         orientation="horizontal")
-if page_selection == "IMPO":
+if page_selection == "Existente":
     stream_simpa_existente.show_page_existente()
-elif page_selection == "EXPO":
+elif page_selection == "Orden del Día":
     stream_simpa_orden_del_dia.show_page_orden_del_dia()
 elif page_selection == "Histórico":
     stream_simpa_historico.show_page_impo_historico()
