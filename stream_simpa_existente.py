@@ -14,7 +14,7 @@ def fetch_data_impo():
 
 def show_page_existente():
     # Load data
-    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm= fetch_data_impo()
+    existente_plz, existente_alm= fetch_data_impo()
 
     col_logo, col_title, col_simpa = st.columns([1, 5, 1])
     with col_logo:
