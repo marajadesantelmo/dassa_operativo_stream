@@ -16,8 +16,8 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
 2024-10-04,Industrias Saladillo...,ANT1807475,CMAU-721519-7,Pallets,18,-50,NV1,Pendiente
 2024-10-04,Industrias Saladillo...,NBOBUE24040704,FCIU-413531-8,Pallets,3,-3,IB7,Pendiente
 2024-10-04,Industrias Saladillo...,NBOBUE24040704,FCIU-413531-8,Pallets,6,-6,IB7,Pendiente
-2024-10-04,Industrias Saladillo...,TPNGBSG24048006,FXLU-215813-6,Pallets,12,-12,NV1,Pendiente
 2024-10-04,Industrias Saladillo...,TPNGBSG24048006,FXLU-215813-6,Pallets,4,-4,NV1,Pendiente
+2024-10-04,Industrias Saladillo...,TPNGBSG24048006,FXLU-215813-6,Pallets,12,-12,NV1,Pendiente
 2024-10-04,Mgp Logistics S.R.L,ONEYHFAE023168007,ONEU-301534-0,Bultos,122,-30,EP-IM,Pendiente
 2024-10-04,Grouport Srl,ONEYNB3BT7591900,TTNU-840599-7,Bultos,112,0,NV1,Pendiente
 2024-10-04,Transcargo Argentina...,OH-24090006,MRKU-101756-8,Bultos,1,-17,PA-A,Pendiente
@@ -330,8 +330,8 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
 2024-12-02,Industrias Saladillo...,TPNGBSG24096011,ZIMU-295917-0,Pallets,5,-5,ANEX-A1,Pendiente
 2024-12-02,Industrias Saladillo...,TPNGBSG24096011,ZIMU-295917-0,Pallets,14,-13,ANEX-A1,Pendiente
 2024-12-02,Industrias Saladillo...,TPNGBSG24096011,ZIMU-295917-0,Pallets,1,-1,ANEX-A1,Pendiente
-2024-12-02,Industrias Saladillo...,TPNGBSG24048006,FXLU-215813-6,Pallets,12,-12,NV1,Pendiente
 2024-12-02,Industrias Saladillo...,TPNGBSG24048006,FXLU-215813-6,Pallets,4,-4,NV1,Pendiente
+2024-12-02,Industrias Saladillo...,TPNGBSG24048006,FXLU-215813-6,Pallets,12,-12,NV1,Pendiente
 2024-12-04,Prowood S.A.,MSA170434,MRKU-060858-7,Pallets,18,-15,IA6,Pendiente
 2024-12-04,Prowood S.A.,MSA170434,MRKU-060858-7,Pallets,18,-15,IB4,Pendiente
 2024-12-04,Prowood S.A.,MSA170434,MRKU-060858-7,Pallets,15,-13,IA6,Pendiente
@@ -394,8 +394,8 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
 2024-12-11,Lift Van Int. Co S.A,LIFBUE24110001,HLBU-152685-9,Bultos,253,-40,IA9,Pendiente
 2024-12-12,Sematryn Sa,OLGM243553,TRHU-547935-9,Bultos,130,-34,NV1,Pendiente
 2024-12-12,Sematryn Sa,OLGM243553,TRHU-547935-9,Bultos,121,-31,NV1,Pendiente
-2024-12-12,Chemotecnica Sa,HDMUMAAM66642100,HMMU-201855-0,Pallets,18,-22,NV4,Pendiente
 2024-12-12,Chemotecnica Sa,HDMUMAAM66642100,HMMU-201855-0,Pallets,2,-2,NV4,Pendiente
+2024-12-12,Chemotecnica Sa,HDMUMAAM66642100,HMMU-201855-0,Pallets,18,-22,NV4,Pendiente
 2024-12-12,Compañia Resiplast S...,KAOBAZ10978Y01,BSIU-981124-3,Bultos,3,-65,P-TIN,Pendiente
 2024-12-12,Manupackaging Argent...,242980957,CAAU-662983-3,Pallets,18,-40,CTNNAC,Pendiente
 2024-12-12,Manupackaging Argent...,242980957,MRSU-517462-9,Pallets,18,-40,CTNNAC,Pendiente
@@ -604,10 +604,17 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
 2025-01-21,Tmcp S.A.S.,SZSEHBUE2410061A,MSMU-823013-5,Contenedor,1,0,PLZA,Pendiente
 2025-01-21,Tmcp S.A.S.,SZSEHBUE2410061A,MSMU-881608-6,Contenedor,1,0,PLZA,Pendiente
 2025-01-21,Tmcp S.A.S.,SZSEHBUE2410061A,FFAU-195830-0,Contenedor,1,0,PLZA,Pendiente
-2025-01-22,Jupam Sa,NB241051157,EMCU-846762-1,Contenedor,1,0,PLZA,En curso
-2025-01-22,Transcargo Argentina...,OH-24120084,MSKU-693073-5,Bultos,1,-10,PA-A,12:20 Realizado
-2025-01-22,Transcargo Argentina...,OH-24120083,MSKU-693073-5,Bultos,1,-3,PA-A,12:20 Realizado
-2025-01-22,Compañia Bulk S.A.,DLSH24100250,HLBU-201158-6,Contenedor,1,0,PLZA,En curso
+2025-01-22,Jupam Sa,NB241051157,EMCU-846762-1,Contenedor,1,0,PLZA,Pendiente
+2025-01-22,Jupam Sa,NB241051155,EGSU-963178-6,Contenedor,1,0,PLZA,Pendiente
+2025-01-22,Transcargo Argentina...,OH-24120084,MSKU-693073-5,Bultos,1,-10,PA-A,Pendiente
+2025-01-22,Transcargo Argentina...,OH-24120083,MSKU-693073-5,Bultos,1,-3,PA-A,Pendiente
+2025-01-22,Compañia Bulk S.A.,DLSH24100250,HLBU-201158-6,Contenedor,1,0,PLZA,Pendiente
+2025-01-23,Lift Van Int. Co S.A,LIFBUE24120012,TLLU-605074-6,Bultos,340,-60,IB8,En curso
+2025-01-23,Grouport Srl,MEDUXC429610,SZLU-932923-7,Bultos,364,-28,IA7,En curso
+2025-01-23,Grouport Srl,MEDUXC429610,SZLU-932923-7,Bultos,364,-28,IA7,11:28 Realizado
+2025-01-23,Grouport Srl,MEDUXC429610,SZLU-932923-7,Bultos,490,-37,IA7,Pendiente
+2025-01-23,Grouport Srl,MEDUXC429610,SZLU-932923-7,Bultos,490,-37,IA7,11:28 Realizado
+2025-01-23,Compañia Bulk S.A.,DLTJ2410096,HLBU-250585-0,Contenedor,1,0,PLZA,08:58 Realizado
 2024-10-04,Industrias Saladillo...,NBOBUE24060234,FXLU-215948-8,Pallets,3,3,ANEX-A1,Pendiente
 2024-10-21,Grouport Srl,SYNTAO24SE070474,PCIU-020309-7,Bultos,70,14,ANEX-A1,Pendiente
 2024-11-06,Grouport Srl,SZX24041664,MSMU-557586-9,Bultos,100,18,NV1,Pendiente
@@ -630,15 +637,15 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado
 2025-01-13,Indelplas Srl,GILSH240900041,MSDU-436374-5,Bultos,306,11,EA8,Pendiente
 2025-01-15,Novelty Trend Srl,TWLE24100081,KOCU-434678-6,Rollos,448,30,NV5,Pendiente
 2025-01-20,Indelplas Srl,GILSH240900041,MSDU-436374-5,Bultos,306,11,EA8,Pendiente
-2025-01-22,Jupam Sa,,EGSU-963178-6,Contenedor,1,0,PLZA,Pendiente
 2025-01-22,Ing. Hector J Resino...,,MRKU-848144-1,Contenedor,1,0,PLZA,Pendiente
 2025-01-22,Novelty Trend Srl,,KOCU-434561-9,Contenedor,1,0,PLZA,Pendiente
-2025-01-23,Lift Van Int. Co S.A,ONEYRICEKU900300,TLLU-605074-6,Bultos,340,60,IB8,Pendiente
 2025-01-23,Planet Seguridad S.R...,,SUDU-875402-7,Contenedor,1,0,PLZA,Pendiente
 2025-01-23,Telamania Srl,,MEDU-736441-3,Contenedor,1,0,PLZA,Pendiente
 2025-01-23,20N S.R.L.,,HMMU-203251-6,Contenedor,1,0,PLZA,Pendiente
-2025-01-23,Grouport Srl,MEDUXC429610,SZLU-932923-7,Bultos,364,28,IA7,Pendiente
-2025-01-23,Grouport Srl,ONEYNBOE25891900,FSCU-582086-6,Cajas,940,60,IA5,Pendiente
-2025-01-23,Compañia Bulk S.A.,,HLBU-250585-0,Contenedor,1,0,PLZA,Pendiente
+2025-01-23,Grouport Srl,ONEYNBOE25891900,FSCU-582086-6,Cajas,690,44,IA5,11:28 Realizado
 2025-01-28,Lift Van Int. Co S.A,,SEGU-223708-0,Contenedor,1,0,PLZA,Pendiente
 2025-01-24,Edelweiss Spedition ...,MEDUM2670922,GLDU-406499-8,Bultos,204,60,IB9,Pendiente
+2025-01-24,Planet Seguridad S.R...,,SUDU-875402-7,Contenedor,1,0,PLZA,Pendiente
+2025-01-24,Noah Servicess.R.L.,245947862,MRSU-622371-2,Bultos,21,30,IA9,Pendiente
+2025-01-24,Corona Insumos Srl,GSZBUE24101914,KOCU-428583-9,Bultos,1746,68,IB7,Pendiente
+2025-01-27,Lift Van Int. Co S.A,ZIMUGOA1074581,ZCSU-711608-1,Bultos,324,66,EP-IM,Pendiente
