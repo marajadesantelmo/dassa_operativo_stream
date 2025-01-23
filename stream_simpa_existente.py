@@ -22,7 +22,7 @@ def fetch_data_impo():
     existente_alm = existente_alm[existente_alm['Cliente']=='Grupo Simpa Sa']
     return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm
 
-def show_page_impo():
+def show_page_existente():
     # Load data
     arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm= fetch_data_impo()
 
@@ -81,7 +81,7 @@ def show_page_impo():
 # Run the show_page function
 if __name__ == "__main__":
     while True:
-        show_page_impo()
+        show_page_existente()
         time.sleep(60)  
         st.experimental_rerun() 
 
