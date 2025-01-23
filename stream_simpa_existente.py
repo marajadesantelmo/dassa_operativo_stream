@@ -6,21 +6,11 @@ from utils import highlight
 
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
-    arribos = pd.read_csv('data/arribos.csv')
-    arribos = arribos[arribos['Cliente']=='Grupo Simpa Sa']
-    pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
-    pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar['Cliente']=='Grupo Simpa Sa']
-    verificaciones_impo = pd.read_csv('data/verificaciones_impo.csv')
-    verificaciones_impo = verificaciones_impo[verificaciones_impo['Cliente']=='Grupo Simpa Sa']
-    retiros_impo = pd.read_csv('data/retiros_impo.csv')
-    retiros_impo = retiros_impo[retiros_impo['Cliente']=='Grupo Simpa Sa']
-    otros_impo = pd.read_csv('data/otros_impo.csv')
-    otros_impo = otros_impo[otros_impo['Cliente']=='Grupo Simpa Sa']
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz = existente_plz[existente_plz['Cliente']=='Grupo Simpa Sa']
     existente_alm = pd.read_csv('data/existente_alm.csv')
     existente_alm = existente_alm[existente_alm['Cliente']=='Grupo Simpa Sa']
-    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm
+    return existente_plz, existente_alm
 
 def show_page_existente():
     # Load data

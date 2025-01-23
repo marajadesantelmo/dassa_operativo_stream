@@ -1,8 +1,7 @@
 import streamlit as st
-import stream_impo_simpa
-import stream_expo_simpa
-import stream_impo_historico_simpa
-import stream_expo_historico_simpa
+import stream_simpa_existente
+import stream_simpa_orden_del_dia
+import stream_simpa_historico
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
@@ -23,17 +22,16 @@ with open("styles.css") as f:
 
 page_selection = option_menu(
         None,  # No menu title
-        ["IMPO", "EXPO"],  
-        icons=["arrow-down-circle", "arrow-up-circle"],   
+        ["IMPO", "EXPO", "Histórico"],  
+        icons=["arrow-down-circle", "arrow-up-circle", "clock-history"],   
         menu_icon="cast",  
         default_index=0, 
         orientation="horizontal")
 if page_selection == "IMPO":
-    stream_impo_simpa.show_page_impo()  
+    stream_simpa_existente.show_page_existente()
 elif page_selection == "EXPO":
-    stream_expo_simpa.show_page_expo()
-elif page_selection == "IMPO - histórico":
-    stream_impo_historico_simpa.show_page_impo_historico()
-elif page_selection == "EXPO - histórico":
-    stream_expo_historico_simpa.show_page_expo_historico()
+    stream_simpa_orden_del_dia.show_page_orden_del_dia()
+elif page_selection == "Histórico":
+    stream_simpa_historico.show_page_impo_historico()
+
 

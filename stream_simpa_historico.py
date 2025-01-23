@@ -13,16 +13,9 @@ def fetch_data_impo_historico():
     historico_otros_impo = historico_otros_impo[historico_otros_impo['Cliente']=='Grupo Simpa Sa']
     return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo
 
-def filter_data(data, cliente, start_date, end_date, date_column):
-    if cliente == "Todos los clientes":
-        filtered_data = data
-        st.write("Cliente: todos los clientes")
-    else:
-        filtered_data = data[data['Cliente'] == cliente]
-        st.write(f"Cliente: {cliente}")
-    
-    filtered_data = filtered_data[(filtered_data[date_column] >= pd.to_datetime(start_date)) & 
-                                  (filtered_data[date_column] <= pd.to_datetime(end_date))]
+def filter_data(data, start_date, end_date, date_column):
+    filtered_data = data[(data[date_column] >= pd.to_datetime(start_date)) & 
+                         (data[date_column] <= pd.to_datetime(end_date))]
     filtered_data[date_column] = filtered_data[date_column].dt.strftime('%d/%m/%Y')
     return filtered_data
 
@@ -51,10 +44,7 @@ def show_page_impo_historico():
         with col1_2:
             end_date_arribos = st.date_input("Fecha Fin", value=arribos_impo_historico['Fecha'].max(), key='end_date_arribos')
             st.write(f"Fecha Fin: {end_date_arribos.strftime('%d/%m/%Y')}")
-        with col1_3:
-            client_options = ["Todos los clientes"] + sorted(list(arribos_impo_historico['Cliente'].unique()))
-            cliente_arribos = st.selectbox("Cliente", options=client_options, key='cliente_arribos')
-            filtered_data_arribos = filter_data(arribos_impo_historico, cliente_arribos, start_date_arribos, end_date_arribos, "Fecha")
+        filtered_data_arribos = filter_data(arribos_impo_historico, start_date_arribos, end_date_arribos, "Fecha")
         
         st.dataframe(filtered_data_arribos, hide_index=True, use_container_width=True)
 
@@ -66,10 +56,7 @@ def show_page_impo_historico():
         with col1_5:
             end_date_verificaciones = st.date_input("Fecha Fin", value=historico_verificaciones_impo['Dia'].max(), key='end_date_verificaciones')
             st.write(f"Fecha Fin: {end_date_verificaciones.strftime('%d/%m/%Y')}")
-        with col1_6:
-            client_options = ["Todos los clientes"] + sorted(list(historico_verificaciones_impo['Cliente'].unique()))
-            cliente_verificaciones = st.selectbox("Cliente", options=client_options, key='cliente_verificaciones')
-            filtered_data_verificaciones = filter_data(historico_verificaciones_impo, cliente_verificaciones, start_date_verificaciones, end_date_verificaciones, "Dia")        
+        filtered_data_verificaciones = filter_data(historico_verificaciones_impo, start_date_verificaciones, end_date_verificaciones, "Dia")        
         st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
 
     with col2:
@@ -81,10 +68,7 @@ def show_page_impo_historico():
         with col2_2:
             end_date_retiros = st.date_input("Fecha Fin", value=historico_retiros_impo['Dia'].max(), key='end_date_retiros')
             st.write(f"Fecha Fin: {end_date_retiros.strftime('%d/%m/%Y')}")
-        with col2_3:
-            client_options = ["Todos los clientes"] + sorted(list(historico_retiros_impo['Cliente'].unique()))
-            cliente_retiros = st.selectbox("Cliente", options=client_options, key='cliente_retiros')
-            filtered_data_retiros = filter_data(historico_retiros_impo, cliente_retiros, start_date_retiros, end_date_retiros, "Dia") 
+        filtered_data_retiros = filter_data(historico_retiros_impo, start_date_retiros, end_date_retiros, "Dia") 
         st.dataframe(filtered_data_retiros, hide_index=True, use_container_width=True)
 
         st.subheader("Otros")
@@ -95,10 +79,7 @@ def show_page_impo_historico():
         with col2_5:
             end_date_otros = st.date_input("Fecha Fin", value=historico_otros_impo['Dia'].max(), key='end_date_otros')
             st.write(f"Fecha Fin: {end_date_otros.strftime('%d/%m/%Y')}")
-        with col2_6:
-            client_options = ["Todos los clientes"] + sorted(list(historico_otros_impo['Cliente'].unique()))
-            cliente_otros = st.selectbox("Cliente", options=client_options, key='cliente_otros')
-            filtered_data_otros = filter_data(historico_otros_impo, cliente_otros, start_date_otros, end_date_otros, "Dia")        
+        filtered_data_otros = filter_data(historico_otros_impo, start_date_otros, end_date_otros, "Dia")        
         st.dataframe(filtered_data_otros, hide_index=True, use_container_width=True)
 
 
