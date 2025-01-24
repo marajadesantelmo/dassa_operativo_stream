@@ -5,13 +5,13 @@ import time
 
 def fetch_data_impo_historico():
     arribos_impo_historico = pd.read_csv('data/arribos_impo_historico.csv')
-    arribos_impo_historico = arribos_impo_historico[arribos_impo_historico['Cliente']=='Grupo Simpa Sa']
+    arribos_impo_historico = arribos_impo_historico[arribos_impo_historico['Cliente']=='Grupo Simpa Sa'].drop(columns=['Cliente'])
     historico_retiros_impo = pd.read_csv('data/historico_retiros_impo.csv')
-    historico_retiros_impo = historico_retiros_impo[historico_retiros_impo['Cliente']=='Grupo Simpa Sa']
+    historico_retiros_impo = historico_retiros_impo[historico_retiros_impo['Cliente']=='Grupo Simpa Sa'].drop(columns=['Cliente'])
     historico_verificaciones_impo = pd.read_csv('data/historico_verificaciones_impo.csv')
-    historico_verificaciones_impo = historico_verificaciones_impo[historico_verificaciones_impo['Cliente']=='Grupo Simpa Sa']
+    historico_verificaciones_impo = historico_verificaciones_impo[historico_verificaciones_impo['Cliente']=='Grupo Simpa Sa'].drop(columns=['Cliente'])
     historico_otros_impo = pd.read_csv('data/historico_otros_impo.csv')
-    historico_otros_impo = historico_otros_impo[historico_otros_impo['Cliente']=='Grupo Simpa Sa']
+    historico_otros_impo = historico_otros_impo[historico_otros_impo['Cliente']=='Grupo Simpa Sa'].drop(columns=['Cliente'])
     return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo
 
 def filter_data(data, start_date, end_date, date_column):
