@@ -4,6 +4,15 @@ import time
 from datetime import datetime
 from utils import highlight
 
+def make_clickable_links(df, url_column):
+    """
+    Converts URLs in the specified column into clickable links with an icon.
+    """
+    df[url_column] = df[url_column].apply(
+        lambda url: f'<a href="{url}" target="_blank">🔗</a>' if pd.notnull(url) else ""
+    )
+    return df
+
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
     arribos = pd.read_csv('data/arribos.csv')
@@ -67,7 +76,9 @@ def show_page_impo():
         st.dataframe(existente_plz, hide_index=True, use_container_width=True)
     with col5:
         st.subheader("Almacen")
-        st.dataframe(existente_alm, hide_index=True, use_container_width=True)
+        existente_alm = make_clickable_links(existente_alm, 'e-tally')
+        st.markdown(existente_alm.to_html(escape=False, index=False), unsafe_allow_html=True)
+        #st.dataframe(existente_alm, hide_index=True, use_container_width=True)
 
 # Run the show_page function
 if __name__ == "__main__":
