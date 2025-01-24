@@ -21,14 +21,15 @@ def show_page_orden_del_dia():
     # Load data
     arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo = fetch_data_orden_del_dia()
 
-    col_logo, col_title, col_simpa = st.columns([1, 5, 1])
-    with col_logo:
-        st.image('logo.png')
+    col_title, col_logo, col_simpa = st.columns([5, 1, 1])
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
-        st.title(f"Operaciones de IMPO a partir del {current_day}")
+        st.header(f"Operaciones de IMPO a partir del {current_day}")
+    with col_logo:
+        st.image('logo.png')
     with col_simpa:
         st.image('logo_simpa.png')
+    col1, col2 = st.columns(2)
 
     col1, col2 = st.columns(2)
 

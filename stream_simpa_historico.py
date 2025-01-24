@@ -35,13 +35,14 @@ def show_page_impo_historico():
         if not df.empty:
             df[date_col] = pd.to_datetime(df[date_col])
     
-    col_logo, col_title = st.columns([2, 5])
+    
+    col_title, col_logo, col_simpa = st.columns([5, 1, 1])
+    with col_title:
+        st.header(f"Histórico - Operaciones de IMPO")
     with col_logo:
         st.image('logo.png')
-    with col_title:
-        current_day = datetime.now().strftime("%d/%m/%Y")
-        st.title("Histórico - Operaciones de IMPO")
-
+    with col_simpa:
+        st.image('logo_simpa.png')
     col1, col2 = st.columns(2)
 
     with col1: 

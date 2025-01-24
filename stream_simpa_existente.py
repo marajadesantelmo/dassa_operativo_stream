@@ -16,7 +16,14 @@ def show_page_existente():
     # Load data
     existente_plz, existente_alm= fetch_data_impo()
 
-    st.header("Estado de la carga de IMPO")
+    col_title, col_logo, col_simpa = st.columns([5, 1, 1])
+    with col_title:
+        st.header(f"Estado de la carga de IMPO")
+    with col_logo:
+        st.image('logo.png')
+    with col_simpa:
+        st.image('logo_simpa.png')
+    col1, col2 = st.columns(2)
     col4, col5 = st.columns(2)
     with col4:
         st.subheader("Plazoleta")
