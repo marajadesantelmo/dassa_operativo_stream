@@ -40,7 +40,7 @@ def show_page_orden_del_dia():
         with col1_metric:
             ctns_pendientes = arribos[(arribos['Estado'] != '-') & (~arribos['Estado'].str.contains('Arribado'))].shape[0]
             st.metric(label="CTNs pendientes", value=ctns_pendientes)
-        st.dataframe(arribos.style.apply(highlight, axis=1).set_properties(subset=['Cliente'], **{'width': '20px'}), hide_index=True, use_container_width=True)
+        st.dataframe(arribos.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
     with col2:
         col2_sub, col2_metric1, col2_mentric2 = st.columns([6, 1, 1])
