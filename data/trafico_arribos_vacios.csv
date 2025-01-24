@@ -1,19 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-30939,23/01,Richter Miriam Raquel,CSLU-600989-9,10081,HC,TD,********************,COSU6407730150,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,14:58,2025-02-13,,                    ,14:58 Arribado
-30930,23/01,Adp Trading Srl,ZIMU-316233-9,Exolgan,DR,TD,                    ,25001EC01004033U,1,TRANSPORTE DEL CLIENTE        ,.,14:47,2025-02-13,,                    ,14:47 Arribado
-30932,23/01,Adp Trading Srl,ZIMU-313872-8,Exolgan,DR,TD,                    ,25001EC01004033U,1,TRANSPORTE DEL CLIENTE        ,.,14:48,2025-02-13,,                    ,14:48 Arribado
-30933,23/01,Adp Trading Srl,STJU-206174-5,Exolgan,DR,TD,                    ,25001EC01004033U,1,TRANSPORTE DEL CLIENTE        ,.,14:48,2025-02-13,,                    ,14:48 Arribado
-30944,23/01,Borax Argentina S A,HASU-115728-5,10080,DR,TD,************        ,249381600,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,15:26,2025-02-13,,                    ,15:26 Arribado
-30934,23/01,Adp Trading Srl,STJU-205631-1,Exolgan,DR,TD,                    ,25001EC01004033U,1,TRANSPORTE DEL CLIENTE        ,.,14:48,2025-02-13,,                    ,14:48 Arribado
-30931,23/01,Adp Trading Srl,ZIMU-309519-0,Exolgan,DR,TD,                    ,25001EC01004033U,1,TRANSPORTE DEL CLIENTE        ,.,14:47,2025-02-13,,                    ,14:47 Arribado
-30936,23/01,Adp Trading Srl,JPZU-409622-5,Exolgan,DR,TD,                    ,25001EC01004033U,1,TRANSPORTE DEL CLIENTE        ,.,14:48,2025-02-13,,                    ,14:48 Arribado
-30929,23/01,Isischu Srl,FFAU-220327-3,10080,HC,TD,******************* ,26603084,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,17:18,2025-02-13,,                    ,17:18 Arribado
-30935,23/01,Adp Trading Srl,GOAU-257568-5,Exolgan,DR,TD,                    ,25001EC01004033U,1,TRANSPORTE DEL CLIENTE        ,.,14:48,2025-02-13,,                    ,14:48 Arribado
-30937,23/01,Richter Miriam Raquel,TCNU-268381-1,10081,HC,TD,************        ,COSU6407730150,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,14:54,2025-02-13,,                    ,14:54 Arribado
+30951,24/01,Paolini Saic,-,15007,DR,TD,                    ,249424959,0,                              ,,     ,2025-02-13,,                    ,Pendiente
 30979,24/01,Sandrin Paola Karina,-,9,HC,TD,                    ,EBKG11388361,0,                              ,,     ,2025-02-13,,                    ,Pendiente
-30980,24/01,Sandrin Paola Karina,-,9,HC,TD,                    ,EBKG11388361,0,                              ,,     ,2025-02-13,,                    ,Pendiente
-30981,24/01,Sandrin Paola Karina,-,9,HC,TD,                    ,EBKG11388361,0,                              ,,     ,2025-02-13,,                    ,Pendiente
-30956,24/01,Norfor Sa,-,10076,HC,TD,                    ,340500001293,0,                              ,,     ,2025-02-13,,                    ,Pendiente
 30975,24/01,Santa Anita Oil Sa,-,0,  ,TD,                    ,28134592,0,                              ,,     ,2025-02-13,28134592,                    ,Pendiente
 30973,24/01,Santa Anita Oil Sa,-,0,  ,TD,                    ,28134592,0,                              ,,     ,2025-02-13,28134592,                    ,Pendiente
 30971,24/01,Santa Anita Oil Sa,-,0,  ,TD,                    ,28134592,0,                              ,,     ,2025-02-13,28134592,                    ,Pendiente
@@ -22,25 +9,27 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 30978,24/01,Norfor Sa,-,9,HC,TD,                    ,EBKG11198443,0,                              ,,     ,2025-02-13,,                    ,Pendiente
 30962,24/01,Norfor Sa,-,10076,HC,TD,                    ,340500002133,0,                              ,,     ,2025-02-13,,                    ,Pendiente
 30961,24/01,Norfor Sa,-,10076,HC,TD,                    ,340500002133,0,                              ,,     ,2025-02-13,,                    ,Pendiente
-30951,24/01,Paolini Saic,-,15007,DR,TD,                    ,249424959,0,                              ,,     ,2025-02-13,,                    ,Pendiente
+30956,24/01,Norfor Sa,-,10076,HC,TD,                    ,340500001293,0,                              ,,     ,2025-02-13,,                    ,Pendiente
+30984,24/01,Lawter Argentina S.A.,-,10080,DR,TD,                    ,248951035,0,                              ,,     ,2025-02-13,,                    ,Pendiente
+30983,24/01,Lawter Argentina S.A.,-,10080,DR,TD,                    ,248951035,0,                              ,,     ,2025-02-13,,                    ,Pendiente
 30982,24/01,Lawter Argentina S.A.,-,10080,DR,TD,                    ,248951035,0,                              ,,     ,2025-02-13,,                    ,Pendiente
+30966,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556293,0,                              ,,     ,2025-02-13,Ebkg11556293,                    ,Pendiente
+30965,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556293,0,                              ,,     ,2025-02-13,Ebkg11556293,                    ,Pendiente
+30964,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556293,0,                              ,,     ,2025-02-13,Ebkg11556293,                    ,Pendiente
+30963,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556293,0,                              ,,     ,2025-02-13,Ebkg11556293,                    ,Pendiente
 30968,24/01,Suabia Maderas Srl,-,9,HC,TD,                    ,EBKG11435131,0,                              ,,     ,2025-02-13,,                    ,Pendiente
 30970,24/01,Suabia Maderas Srl,-,9,HC,TD,                    ,EBKG11435131,0,                              ,,     ,2025-02-13,,                    ,Pendiente
 30972,24/01,Suabia Maderas Srl,-,9,HC,TD,                    ,EBKG11435131,0,                              ,,     ,2025-02-13,,                    ,Pendiente
 30974,24/01,Suabia Maderas Srl,-,9,HC,TD,                    ,EBKG11435131,0,                              ,,     ,2025-02-13,,                    ,Pendiente
 30976,24/01,Suabia Maderas Srl,-,9,HC,TD,                    ,EBKG11435131,0,                              ,,     ,2025-02-13,,                    ,Pendiente
 30977,24/01,Suabia Maderas Srl,-,9,HC,TD,                    ,EBKG11435131,0,                              ,,     ,2025-02-13,,                    ,Pendiente
+30980,24/01,Sandrin Paola Karina,-,9,HC,TD,                    ,EBKG11388361,0,                              ,,     ,2025-02-13,,                    ,Pendiente
 30952,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556312,0,                              ,,     ,2025-02-13,Ebkg11556312,                    ,Pendiente
-30953,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556312,0,                              ,,     ,2025-02-13,Ebkg11556312,                    ,Pendiente
-30984,24/01,Lawter Argentina S.A.,-,10080,DR,TD,                    ,248951035,0,                              ,,     ,2025-02-13,,                    ,Pendiente
 30954,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556312,0,                              ,,     ,2025-02-13,Ebkg11556312,                    ,Pendiente
+30955,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556312,0,                              ,,     ,2025-02-13,Ebkg11556312,                    ,Pendiente
 30957,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556253,0,                              ,,     ,2025-02-13,Ebkg11556253,                    ,Pendiente
-30966,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556293,0,                              ,,     ,2025-02-13,Ebkg11556293,                    ,Pendiente
 30958,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556253,0,                              ,,     ,2025-02-13,Ebkg11556253,                    ,Pendiente
 30959,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556253,0,                              ,,     ,2025-02-13,Ebkg11556253,                    ,Pendiente
 30960,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556253,0,                              ,,     ,2025-02-13,Ebkg11556253,                    ,Pendiente
-30963,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556293,0,                              ,,     ,2025-02-13,Ebkg11556293,                    ,Pendiente
-30964,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556293,0,                              ,,     ,2025-02-13,Ebkg11556293,                    ,Pendiente
-30965,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556293,0,                              ,,     ,2025-02-13,Ebkg11556293,                    ,Pendiente
-30955,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556312,0,                              ,,     ,2025-02-13,Ebkg11556312,                    ,Pendiente
-30983,24/01,Lawter Argentina S.A.,-,10080,DR,TD,                    ,248951035,0,                              ,,     ,2025-02-13,,                    ,Pendiente
+30953,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556312,0,                              ,,     ,2025-02-13,Ebkg11556312,                    ,Pendiente
+30981,24/01,Sandrin Paola Karina,-,9,HC,TD,                    ,EBKG11388361,0,                              ,,     ,2025-02-13,,                    ,Pendiente
