@@ -66,8 +66,10 @@ def show_page_impo_historico():
             with col1_5:
                 end_date_verificaciones = st.date_input("Fecha Fin", value=historico_verificaciones_impo['Dia'].max() if not historico_verificaciones_impo.empty else datetime.now(), key='end_date_verificaciones')
                 st.write(f"Fecha Fin: {end_date_verificaciones.strftime('%d/%m/%Y')}")
-        filtered_data_verificaciones = filter_data(historico_verificaciones_impo, start_date_verificaciones, end_date_verificaciones, "Dia")        
-        st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
+            filtered_data_verificaciones = filter_data(historico_verificaciones_impo, start_date_verificaciones, end_date_verificaciones, "Dia")        
+            st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
+        else:
+            st.dataframe(historico_verificaciones_impo, hide_index=True, use_container_width=True)
 
     with col2:
         st.subheader("Retiros")
