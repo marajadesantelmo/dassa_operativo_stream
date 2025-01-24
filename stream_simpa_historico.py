@@ -84,8 +84,8 @@ def show_page_impo_historico():
                 st.write(f"Fecha Fin: {end_date_retiros.strftime('%d/%m/%Y')}")
             filtered_data_retiros = filter_data(historico_retiros_impo, start_date_retiros, end_date_retiros, "Dia") 
             st.dataframe(filtered_data_retiros, 
-                         column_config={'e-tally': st.column_config.LinkColumn('e-tally link', 
-                                                                           display_text='e-tally',)},
+                         #column_config={'e-tally': st.column_config.LinkColumn('e-tally link', 
+                         #                                                  display_text='e-tally',)},
                          hide_index=True, 
                          use_container_width=True)
         else:
