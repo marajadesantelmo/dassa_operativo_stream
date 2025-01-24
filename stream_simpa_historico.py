@@ -59,12 +59,13 @@ def show_page_impo_historico():
 
         st.subheader("Verificaciones")
         col1_4, col1_5, col1_6 = st.columns(3)
-        with col1_4:
-            start_date_verificaciones = st.date_input("Fecha Inicio", value=historico_verificaciones_impo['Dia'].min() if not historico_verificaciones_impo.empty else datetime.now(), key='start_date_verificaciones')
-            st.write(f"Fecha Inicio: {start_date_verificaciones.strftime('%d/%m/%Y')}")
-        with col1_5:
-            end_date_verificaciones = st.date_input("Fecha Fin", value=historico_verificaciones_impo['Dia'].max() if not historico_verificaciones_impo.empty else datetime.now(), key='end_date_verificaciones')
-            st.write(f"Fecha Fin: {end_date_verificaciones.strftime('%d/%m/%Y')}")
+        if not historico_verificaciones_impo.empty:
+            with col1_4:
+                start_date_verificaciones = st.date_input("Fecha Inicio", value=historico_verificaciones_impo['Dia'].min() if not historico_verificaciones_impo.empty else datetime.now(), key='start_date_verificaciones')
+                st.write(f"Fecha Inicio: {start_date_verificaciones.strftime('%d/%m/%Y')}")
+            with col1_5:
+                end_date_verificaciones = st.date_input("Fecha Fin", value=historico_verificaciones_impo['Dia'].max() if not historico_verificaciones_impo.empty else datetime.now(), key='end_date_verificaciones')
+                st.write(f"Fecha Fin: {end_date_verificaciones.strftime('%d/%m/%Y')}")
         filtered_data_verificaciones = filter_data(historico_verificaciones_impo, start_date_verificaciones, end_date_verificaciones, "Dia")        
         st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
 
