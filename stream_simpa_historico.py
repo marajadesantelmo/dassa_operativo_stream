@@ -22,10 +22,18 @@ def filter_data(data, start_date, end_date, date_column):
 
 def show_page_impo_historico():
     arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo = fetch_data_impo_historico()
-    arribos_impo_historico['Fecha'] = pd.to_datetime(arribos_impo_historico['Fecha'])
-    historico_retiros_impo['Dia'] = pd.to_datetime(historico_retiros_impo['Dia'])
-    historico_verificaciones_impo['Dia'] = pd.to_datetime(historico_verificaciones_impo['Dia'])
-    historico_otros_impo['Dia'] = pd.to_datetime(historico_otros_impo['Dia'])
+    
+    # Convert date columns to datetime
+    date_columns = {
+        'arribos_impo_historico': 'Fecha',
+        'historico_retiros_impo': 'Dia',
+        'historico_verificaciones_impo': 'Dia',
+        'historico_otros_impo': 'Dia'
+    }
+    for df_name, date_col in date_columns.items():
+        df = locals()[df_name]
+        if not df.empty:
+            df[date_col] = pd.to_datetime(df[date_col])
     
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -40,10 +48,10 @@ def show_page_impo_historico():
         st.subheader("Arribos de contenedores")
         col1_1, col1_2, col1_3 = st.columns(3)
         with col1_1:
-            start_date_arribos = st.date_input("Fecha Inicio", value=arribos_impo_historico['Fecha'].min(), key='start_date_arribos')
+            start_date_arribos = st.date_input("Fecha Inicio", value=arribos_impo_historico['Fecha'].min() if not arribos_impo_historico.empty else datetime.now(), key='start_date_arribos')
             st.write(f"Fecha Inicio: {start_date_arribos.strftime('%d/%m/%Y')}")
         with col1_2:
-            end_date_arribos = st.date_input("Fecha Fin", value=arribos_impo_historico['Fecha'].max(), key='end_date_arribos')
+            end_date_arribos = st.date_input("Fecha Fin", value=arribos_impo_historico['Fecha'].max() if not arribos_impo_historico.empty else datetime.now(), key='end_date_arribos')
             st.write(f"Fecha Fin: {end_date_arribos.strftime('%d/%m/%Y')}")
         filtered_data_arribos = filter_data(arribos_impo_historico, start_date_arribos, end_date_arribos, "Fecha")
         
@@ -52,10 +60,10 @@ def show_page_impo_historico():
         st.subheader("Verificaciones")
         col1_4, col1_5, col1_6 = st.columns(3)
         with col1_4:
-            start_date_verificaciones = st.date_input("Fecha Inicio", value=historico_verificaciones_impo['Dia'].min(), key='start_date_verificaciones')
+            start_date_verificaciones = st.date_input("Fecha Inicio", value=historico_verificaciones_impo['Dia'].min() if not historico_verificaciones_impo.empty else datetime.now(), key='start_date_verificaciones')
             st.write(f"Fecha Inicio: {start_date_verificaciones.strftime('%d/%m/%Y')}")
         with col1_5:
-            end_date_verificaciones = st.date_input("Fecha Fin", value=historico_verificaciones_impo['Dia'].max(), key='end_date_verificaciones')
+            end_date_verificaciones = st.date_input("Fecha Fin", value=historico_verificaciones_impo['Dia'].max() if not historico_verificaciones_impo.empty else datetime.now(), key='end_date_verificaciones')
             st.write(f"Fecha Fin: {end_date_verificaciones.strftime('%d/%m/%Y')}")
         filtered_data_verificaciones = filter_data(historico_verificaciones_impo, start_date_verificaciones, end_date_verificaciones, "Dia")        
         st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
@@ -64,10 +72,10 @@ def show_page_impo_historico():
         st.subheader("Retiros")
         col2_1, col2_2, col2_3 = st.columns(3)
         with col2_1:
-            start_date_retiros = st.date_input("Fecha Inicio", value=historico_retiros_impo['Dia'].min(), key='start_date_retiros')
+            start_date_retiros = st.date_input("Fecha Inicio", value=historico_retiros_impo['Dia'].min() if not historico_retiros_impo.empty else datetime.now(), key='start_date_retiros')
             st.write(f"Fecha Inicio: {start_date_retiros.strftime('%d/%m/%Y')}")
         with col2_2:
-            end_date_retiros = st.date_input("Fecha Fin", value=historico_retiros_impo['Dia'].max(), key='end_date_retiros')
+            end_date_retiros = st.date_input("Fecha Fin", value=historico_retiros_impo['Dia'].max() if not historico_retiros_impo.empty else datetime.now(), key='end_date_retiros')
             st.write(f"Fecha Fin: {end_date_retiros.strftime('%d/%m/%Y')}")
         filtered_data_retiros = filter_data(historico_retiros_impo, start_date_retiros, end_date_retiros, "Dia") 
         st.dataframe(filtered_data_retiros, hide_index=True, use_container_width=True)
@@ -75,18 +83,17 @@ def show_page_impo_historico():
         st.subheader("Otros")
         col2_4, col2_5, col2_6 = st.columns(3)
         with col2_4:
-            start_date_otros = st.date_input("Fecha Inicio", value=historico_otros_impo['Dia'].min(), key='start_date_otros')
+            start_date_otros = st.date_input("Fecha Inicio", value=historico_otros_impo['Dia'].min() if not historico_otros_impo.empty else datetime.now(), key='start_date_otros')
             st.write(f"Fecha Inicio: {start_date_otros.strftime('%d/%m/%Y')}")
         with col2_5:
-            end_date_otros = st.date_input("Fecha Fin", value=historico_otros_impo['Dia'].max(), key='end_date_otros')
+            end_date_otros = st.date_input("Fecha Fin", value=historico_otros_impo['Dia'].max() if not historico_otros_impo.empty else datetime.now(), key='end_date_otros')
             st.write(f"Fecha Fin: {end_date_otros.strftime('%d/%m/%Y')}")
         filtered_data_otros = filter_data(historico_otros_impo, start_date_otros, end_date_otros, "Dia")        
         st.dataframe(filtered_data_otros, hide_index=True, use_container_width=True)
-
 
 if __name__ == "__main__":
     while True:
         show_page_impo_historico
         time.sleep(60)  
-        st.experimental_rerun() 
+        st.experimental_rerun()
 
