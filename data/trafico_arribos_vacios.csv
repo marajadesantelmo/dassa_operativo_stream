@@ -8,7 +8,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 30967,24/01,Santa Anita Oil Sa,FANU-360044-3,10080,HC,TD,***********         ,28134592,1,TRANSPORTE DEL CLIENTE        ,Favieri,11:22,2025-02-13,28134592,                    ,11:22 Arribado
 30978,24/01,Norfor Sa,-,9,HC,TD,                    ,EBKG11198443,0,                              ,,     ,2025-02-13,,                    ,Pendiente
 30962,24/01,Norfor Sa,-,10076,HC,TD,                    ,340500002133,0,                              ,,     ,2025-02-13,,                    ,Pendiente
-30961,24/01,Norfor Sa,EMCU-838174-4,10076,HC,TD,**********          ,340500002133,0,                              ,,     ,2025-02-13,,                    ,Pendiente
+30961,24/01,Norfor Sa,EMCU-838174-4,10076,HC,TD,**********          ,340500002133,1,TRANSPORTES LEIRA-NO USAR     ,Rao Diego,12:05,2025-02-13,,                    ,12:05 Arribado
 30956,24/01,Norfor Sa,EISU-830509-5,10076,HC,TD,*************       ,340500001293,1,TRANSPORTES LEIRA-NO USAR     ,Carrega Damian,10:24,2025-02-13,,                    ,10:24 Arribado
 30984,24/01,Lawter Argentina S.A.,-,10080,DR,TD,                    ,248951035,0,                              ,,     ,2025-02-13,,                    ,Pendiente
 30983,24/01,Lawter Argentina S.A.,-,10080,DR,TD,                    ,248951035,0,                              ,,     ,2025-02-13,,                    ,Pendiente
@@ -27,9 +27,9 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 30952,24/01,Borax Argentina S A,HPCU-231214-8,10081,HC,TD,FX26241222          ,EBKG11556312,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,11:26,2025-02-13,Ebkg11556312,                    ,11:26 Arribado
 30954,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556312,0,                              ,,     ,2025-02-13,Ebkg11556312,                    ,Pendiente
 30955,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556312,0,                              ,,     ,2025-02-13,Ebkg11556312,                    ,Pendiente
-30957,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556253,0,                              ,,     ,2025-02-13,Ebkg11556253,                    ,Pendiente
-30958,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556253,0,                              ,,     ,2025-02-13,Ebkg11556253,                    ,Pendiente
+30957,24/01,Borax Argentina S A,TGHU-066662-7,10081,HC,TD,FX26241229          ,EBKG11556253,1,TRANSPORTE DEL CLIENTE        ,Ortiz,12:12,2025-02-13,Ebkg11556253,                    ,12:12 Arribado
+30958,24/01,Borax Argentina S A,GESU-134477-2,10081,DC,TD,FX26241228          ,EBKG11556253,1,TRANSPORTE DEL CLIENTE        ,Ortiz,12:14,2025-02-13,Ebkg11556253,                    ,12:14 Arribado
 30959,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556253,0,                              ,,     ,2025-02-13,Ebkg11556253,                    ,Pendiente
 30960,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556253,0,                              ,,     ,2025-02-13,Ebkg11556253,                    ,Pendiente
-30953,24/01,Borax Argentina S A,-,0,  ,TD,                    ,EBKG11556312,0,                              ,,     ,2025-02-13,Ebkg11556312,                    ,Pendiente
+30953,24/01,Borax Argentina S A,FCIU-237941-8,10081,DC,TD,FX26241221          ,EBKG11556312,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,12:07,2025-02-13,Ebkg11556312,                    ,12:07 Arribado
 30981,24/01,Sandrin Paola Karina,-,9,HC,TD,                    ,EBKG11388361,0,                              ,,     ,2025-02-13,,                    ,Pendiente
