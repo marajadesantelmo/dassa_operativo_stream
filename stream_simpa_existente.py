@@ -7,9 +7,9 @@ from utils import highlight
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
     existente_plz = pd.read_csv('data/existente_plz.csv')
-    existente_plz = existente_plz[existente_plz['Cliente']=='Grupo Simpa Sa']
+    existente_plz = existente_plz[existente_plz['Cliente']=='Grupo Simpa Sa'].drop(columns=['Cliente'])
     existente_alm = pd.read_csv('data/existente_alm.csv')
-    existente_alm = existente_alm[existente_alm['Cliente']=='Grupo Simpa Sa']
+    existente_alm = existente_alm[existente_alm['Cliente']=='Grupo Simpa Sa'].drop(columns=['Cliente'])
     return existente_plz, existente_alm
 
 def show_page_existente():
