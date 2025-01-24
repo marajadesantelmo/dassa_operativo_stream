@@ -77,8 +77,7 @@ def show_page_impo():
     with col5:
         st.subheader("Almacen")
         existente_alm = make_clickable_links(existente_alm, 'e-tally')
-        st.markdown(existente_alm.to_html(escape=False, index=False), unsafe_allow_html=True)
-        #st.dataframe(existente_alm, hide_index=True, use_container_width=True)
+        st.dataframe(existente_alm, hide_index=True, use_container_width=True)
 
 # Run the show_page function
 if __name__ == "__main__":
