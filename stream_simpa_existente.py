@@ -10,6 +10,8 @@ def fetch_data_impo():
     existente_plz = existente_plz[existente_plz['Cliente']=='Grupo Simpa Sa'].drop(columns=['Cliente'])
     existente_alm = pd.read_csv('data/existente_alm.csv')
     existente_alm = existente_alm[existente_alm['Cliente']=='Grupo Simpa Sa'].drop(columns=['Cliente'])
+    existente_plz = existente_plz.drop_duplicates()
+    existente_alm = existente_alm.drop_duplicates()
     return existente_plz, existente_alm
 
 def show_page_existente():
