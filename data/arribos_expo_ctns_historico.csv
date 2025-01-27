@@ -192,6 +192,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-06,29442,MRKU-275496-0,Mader Zu S.R.L.,245737435,*************       ,Arribado
 2024-11-12,29586,TCKU-662034-0,Mader Zu S.R.L.,246408318,*****************   ,Arribado
 2024-11-12,29587,MRKU-580744-7,Mader Zu S.R.L.,246408318,*****************   ,Arribado
+2025-01-27,31003,FANU-352902-0,Mader Zu S.R.L.,10215814,**************      ,Arribado
+2025-01-27,31008,FANU-331546-1,Mader Zu S.R.L.,17939029,*************       ,Arribado
 2024-11-25,29816,MRKU-318851-2,Mader Zu S.R.L.,246407861,***********         ,Arribado
 2024-12-17,30259,TCNU-636262-0,Mader Zu S.R.L.,246722567,***************     ,Arribado
 2024-12-17,30272,CAXU-814349-1,Mader Zu S.R.L.,66991467,*************       ,Arribado
@@ -460,6 +462,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-24,30974,FFAU-168729-7,Suabia Maderas Srl,EBKG11435131,FX26282276          ,Arribado
 2025-01-24,30976,MSMU-792343-3,Suabia Maderas Srl,EBKG11435131,FX26282282          ,Arribado
 2025-01-24,30977,,Suabia Maderas Srl,EBKG11435131,                    ,Pendiente
+2025-01-27,31004,HLBU-106421-5,Suabia Maderas Srl,21287765,*************       ,Arribado
+2025-01-27,31005,HAMU-182667-1,Suabia Maderas Srl,21287765,*************       ,Arribado
+2025-01-27,31007,HLBU-167475-3,Suabia Maderas Srl,21287765,*****************   ,Arribado
 2025-01-20,30851,TGBU-518361-4,Suabia Maderas Srl,34093842,*****************   ,Arribado
 2025-01-24,30968,MSMU-759832-8,Suabia Maderas Srl,EBKG11435131,FX26282339          ,Arribado
 2025-01-24,30970,MSMU-824316-9,Suabia Maderas Srl,EBKG11435131,FX26282321          ,Arribado
@@ -645,16 +650,16 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-24,30964,,Borax Argentina S A,EBKG11556293,                    ,Pendiente
 2025-01-24,30965,,Borax Argentina S A,EBKG11556293,                    ,Pendiente
 2025-01-24,30966,,Borax Argentina S A,EBKG11556293,                    ,Pendiente
-2025-01-24,30955,,Borax Argentina S A,EBKG11556312,                    ,Pendiente
+2025-01-24,30955,FCIU-366307-5,Borax Argentina S A,EBKG11556312,FX26241177          ,Arribado
 2025-01-24,30957,TGHU-066662-7,Borax Argentina S A,EBKG11556253,FX26241229          ,Arribado
 2025-01-24,30958,GESU-134477-2,Borax Argentina S A,EBKG11556253,FX26241228          ,Arribado
-2025-01-24,30959,,Borax Argentina S A,EBKG11556253,                    ,Pendiente
-2025-01-24,30960,,Borax Argentina S A,EBKG11556253,                    ,Pendiente
-2025-01-24,30963,,Borax Argentina S A,EBKG11556293,                    ,Pendiente
+2025-01-24,30959,CAIU-234571-8,Borax Argentina S A,EBKG11556253,FX26241173          ,Arribado
+2025-01-24,30960,GLDU-958876-6,Borax Argentina S A,EBKG11556253,FX26241174          ,Arribado
+2025-01-24,30963,|   -      -,Borax Argentina S A,EBKG11556293,                    ,Pendiente
 2025-01-23,30944,HASU-115728-5,Borax Argentina S A,249381600,************        ,Arribado
 2025-01-24,30952,HPCU-231214-8,Borax Argentina S A,EBKG11556312,FX26241222          ,Arribado
 2025-01-24,30953,FCIU-237941-8,Borax Argentina S A,EBKG11556312,FX26241221          ,Arribado
-2025-01-24,30954,,Borax Argentina S A,EBKG11556312,                    ,Pendiente
+2025-01-24,30954,MEDU-251982-6,Borax Argentina S A,EBKG11556312,FX26241176          ,Arribado
 2025-01-10,30686,FTAU-125647-1,Borax Argentina S A,EBKG11332430,FX26294690          ,Arribado
 2025-01-10,30687,TLLU-319414-3,Borax Argentina S A,EBKG11332430,FX26294691          ,Arribado
 2025-01-10,30688,MSMU-149493-8,Borax Argentina S A,EBKG11332430,FX26294689          ,Arribado
@@ -922,7 +927,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-22,29012,HLXU-845430-0,Santa Anita Oil Sa,65641857,***********         ,Arribado
 2024-10-22,29013,GESU-631843-6,Santa Anita Oil Sa,65641857,****************    ,Arribado
 2024-10-22,29026,FANU-105903-6,Santa Anita Oil Sa,65641857,**************      ,Arribado
-2025-01-24,30969,,Santa Anita Oil Sa,28134592,                    ,Pendiente
+2025-01-24,30969,FANU-147599-0,Santa Anita Oil Sa,28134592,                    ,Arribado
 2025-01-24,30971,,Santa Anita Oil Sa,28134592,                    ,Pendiente
 2025-01-24,30973,FFAU-215574-5,Santa Anita Oil Sa,28134592,**********          ,Arribado
 2025-01-24,30975,HAMU-185696-2,Santa Anita Oil Sa,28134592,**************      ,Arribado
