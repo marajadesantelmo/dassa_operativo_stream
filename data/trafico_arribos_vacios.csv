@@ -1,6 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 31022,28/01,Lift Van Int. Co S.A,-,0,  ,TD,                    ,EBKGQ0008F46,0,                              ,,     ,2025-02-17,Kate Tyler,                    ,Pendiente
-31039,28/01,Lift Van Int. Co S.A,MSBU-402973-0,9,DR,TD,FX26282935          ,EBKGQ0008F46,0,                              ,,     ,2025-02-18,Kate  Tyler,                    ,Pendiente
+31039,28/01,Lift Van Int. Co S.A,MSBU-402973-0,9,DR,TD,FX26282935          ,EBKGQ0008F46,1,TRANSPORTE DEL CLIENTE        ,Porco,10:04,2025-02-18,Kate  Tyler,                    ,10:04 Arribado
 31028,28/01,Minera Santa Rita Srl,-,0,  ,TD,                    ,BUE500010500,0,                              ,,     ,2025-02-17,Bue500010500,                    ,Pendiente
 31029,28/01,Mader Zu S.R.L.,-,0,  ,TD,                    ,COSU6408485040,0,                              ,,     ,2025-02-17,Cosu6408485040,                    ,Pendiente
 31030,28/01,Mader Zu S.R.L.,-,0,  ,TD,                    ,COSU6408485040,0,                              ,,     ,2025-02-17,Cosu6408485040,                    ,Pendiente
