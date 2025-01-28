@@ -17,6 +17,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-01,28489,TCLU-441552-8,Lift Van Int. Co S.A,63971447,********************,Arribado
 2024-10-02,28521,TCLU-744139-3,Lift Van Int. Co S.A,BUA0328771,L4359710            ,Arribado
 2025-01-21,30883,HLXU-112451-7,Lift Van Int. Co S.A,24286067E,**************      ,Arribado
+2025-01-28,31022,,Lift Van Int. Co S.A,EBKGQ0008F46,                    ,Pendiente
+2025-01-28,31039,MSBU-402973-0,Lift Van Int. Co S.A,EBKGQ0008F46,FX26282935          ,Arribado
 2025-01-17,30817,HLBU-127505-4,Lift Van Int. Co S.A,69986413,*************       ,Arribado
 2025-01-20,30840,MSDU-259283-0,Lift Van Int. Co S.A,EBKGQ0008A6A,FX26285133          ,Arribado
 2025-01-07,30593,GAOU-733470-0,Lift Van Int. Co S.A,248449898,***********         ,Arribado
@@ -68,6 +70,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-11,29401,CAIU-267470-8,Minera Santa Rita Srl,69314890,                    ,Arribado
 2025-01-16,30800,MRKU-068434-0,Minera Santa Rita Srl,248690575,***********         ,Arribado
 2025-01-16,30801,MRKU-030920-4,Minera Santa Rita Srl,248690575,************        ,Arribado
+2025-01-28,31028,,Minera Santa Rita Srl,BUE500010500,                    ,Pendiente
 2025-01-16,30794,MRKU-010255-7,Minera Santa Rita Srl,248588448,********************,Arribado
 2025-01-16,30795,MRKU-092783-5,Minera Santa Rita Srl,248588448,****************    ,Arribado
 2025-01-16,30796,MRKU-044157-1,Minera Santa Rita Srl,248690575,********************,Arribado
@@ -192,8 +195,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-06,29442,MRKU-275496-0,Mader Zu S.R.L.,245737435,*************       ,Arribado
 2024-11-12,29586,TCKU-662034-0,Mader Zu S.R.L.,246408318,*****************   ,Arribado
 2024-11-12,29587,MRKU-580744-7,Mader Zu S.R.L.,246408318,*****************   ,Arribado
+2025-01-28,31030,BSIU-952574-3,Mader Zu S.R.L.,COSU6408485040,******************  ,Arribado
+2025-01-28,31031,TGBU-778182-6,Mader Zu S.R.L.,COSU6408485040,***********         ,Arribado
+2025-01-28,31032,,Mader Zu S.R.L.,COSU6408485040,                    ,Pendiente
+2025-01-27,31035,FANU-352902-0,Mader Zu S.R.L.,10215814,                    ,Arribado
 2025-01-27,31003,FANU-352902-0,Mader Zu S.R.L.,10215814,**************      ,Arribado
 2025-01-27,31008,FANU-331546-1,Mader Zu S.R.L.,17939029,*************       ,Arribado
+2025-01-28,31029,FCIU-952478-1,Mader Zu S.R.L.,COSU6408485040,****************    ,Arribado
 2024-11-25,29816,MRKU-318851-2,Mader Zu S.R.L.,246407861,***********         ,Arribado
 2024-12-17,30259,TCNU-636262-0,Mader Zu S.R.L.,246722567,***************     ,Arribado
 2024-12-17,30272,CAXU-814349-1,Mader Zu S.R.L.,66991467,*************       ,Arribado
@@ -430,6 +438,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-04,28581,FBLU-010573-0,Maringa Maderas Sa,66305561,********************,Arribado
 2024-10-10,28725,UACU-570009-3,Maringa Maderas Sa,64974599,****************    ,Arribado
 2024-10-14,28770,FFAU-175574-5,Maringa Maderas Sa,64974599,*****************   ,Arribado
+2025-01-28,31043,MSKU-875261-1,Maringa Maderas Sa,248961228,********************,Arribado
+2025-01-28,31044,,Maringa Maderas Sa,248961228,                    ,Pendiente
+2025-01-28,31045,,Maringa Maderas Sa,248961228,                    ,Pendiente
 2024-12-12,30179,,Maringa Maderas Sa,63987257,                    ,Pendiente
 2024-12-17,30260,HLBU-223020-2,Maringa Maderas Sa,69322507,                    ,Arribado
 2025-01-16,30789,HLBU-169790-7,Maringa Maderas Sa,90175424,************        ,Arribado
@@ -459,6 +470,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-09,28693,TLLU-860604-8,Suabia Maderas Srl,EBKG10379281,FX26245597          ,Arribado
 2024-10-09,28694,FFAU-274664-5,Suabia Maderas Srl,EBKG10379281,FX26245585          ,Arribado
 2024-10-09,28695,MSDU-579448-0,Suabia Maderas Srl,EBKG10379281,FX26245516          ,Arribado
+2025-01-28,31023,,Suabia Maderas Srl,EBKG11435131,                    ,Pendiente
 2025-01-24,30974,FFAU-168729-7,Suabia Maderas Srl,EBKG11435131,FX26282276          ,Arribado
 2025-01-24,30976,MSMU-792343-3,Suabia Maderas Srl,EBKG11435131,FX26282282          ,Arribado
 2025-01-24,30977,,Suabia Maderas Srl,EBKG11435131,                    ,Pendiente
@@ -531,6 +543,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-01,28488,CAAU-711108-9,Taeda Sa,EBKG09971149,FX26258699          ,Arribado
 2024-11-25,29823,GAOU-645436-2,Taeda Sa,ZIMUBUE9036468,*****************   ,Arribado
 2025-01-16,30788,MSMU-607919-0,Taeda Sa,EBKG11247978,FX26302878          ,Arribado
+2025-01-28,31025,,Taeda Sa,EBKG11247991,                    ,Pendiente
+2025-01-28,31041,MSNU-747272-9,Taeda Sa,,FX26282860          ,Arribado
 2024-12-26,30441,HLBU-214403-8,Taeda Sa,28435176,                    ,Arribado
 2025-01-02,30484,FFAU-173297-1,Taeda Sa,EBKG11177429,FX26267190          ,Arribado
 2025-01-07,30596,MEDU-487060-8,Taeda Sa,EBKG11366605,FX26275361          ,Arribado
@@ -647,15 +661,16 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-29,29277,MSNU-305730-8,Borax Argentina S A,EBKG10668794,********************,Arribado
 2024-10-29,29278,MEDU-256708-5,Borax Argentina S A,EBKG10668799,**********          ,Arribado
 2024-10-29,29279,MSMU-153893-3,Borax Argentina S A,EBKG10668794,****************    ,Arribado
-2025-01-24,30964,,Borax Argentina S A,EBKG11556293,                    ,Pendiente
-2025-01-24,30965,,Borax Argentina S A,EBKG11556293,                    ,Pendiente
-2025-01-24,30966,,Borax Argentina S A,EBKG11556293,                    ,Pendiente
+2025-01-24,30964,MSMU-335097-1,Borax Argentina S A,EBKG11556293,FX-26241241         ,Arribado
+2025-01-24,30965,FTAU-122846-4,Borax Argentina S A,EBKG11556293,FX26241171          ,Arribado
+2025-01-24,30966,FBIU-049893-0,Borax Argentina S A,EBKG11556293,FX-26241179         ,Arribado
+2025-01-27,31017,MEDU-535783-7,Borax Argentina S A,EBKG11556293,FX-26241180         ,Arribado
 2025-01-24,30955,FCIU-366307-5,Borax Argentina S A,EBKG11556312,FX26241177          ,Arribado
 2025-01-24,30957,TGHU-066662-7,Borax Argentina S A,EBKG11556253,FX26241229          ,Arribado
 2025-01-24,30958,GESU-134477-2,Borax Argentina S A,EBKG11556253,FX26241228          ,Arribado
 2025-01-24,30959,CAIU-234571-8,Borax Argentina S A,EBKG11556253,FX26241173          ,Arribado
 2025-01-24,30960,GLDU-958876-6,Borax Argentina S A,EBKG11556253,FX26241174          ,Arribado
-2025-01-24,30963,|   -      -,Borax Argentina S A,EBKG11556293,                    ,Pendiente
+2025-01-24,30963,MEDU-535783-7,Borax Argentina S A,EBKG11556293,FX-26241180         ,Arribado
 2025-01-23,30944,HASU-115728-5,Borax Argentina S A,249381600,************        ,Arribado
 2025-01-24,30952,HPCU-231214-8,Borax Argentina S A,EBKG11556312,FX26241222          ,Arribado
 2025-01-24,30953,FCIU-237941-8,Borax Argentina S A,EBKG11556312,FX26241221          ,Arribado
@@ -828,6 +843,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-09-30,28425,MRKU-414800-5,Norfor Sa,244809617,********************,Arribado
 2024-09-30,28426,TLLU-766737-3,Norfor Sa,244809617,******************* ,Arribado
 2025-01-24,30978,,Norfor Sa,EBKG11198443,                    ,Pendiente
+2025-01-28,31024,,Norfor Sa,EBKG11198443,                    ,Pendiente
 2025-01-22,30900,MSDU-835297-0,Norfor Sa,EBKG11198471,FX26285616          ,Arribado
 2025-01-22,30901,MSDU-616232-8,Norfor Sa,EBKG11198471,FX26285603          ,Arribado
 2025-01-22,30902,TGCU-502829-4,Norfor Sa,EBKG11198471,FX26285600          ,Arribado
@@ -987,6 +1003,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-01,28482,GESU-109393-3,Jsos S.R.L,BUA0328572,L4359353            ,Arribado
 2024-10-01,28483,TLLU-209261-4,Jsos S.R.L,BUA0328572,L4359308            ,Arribado
 2024-10-01,28484,TRHU-180167-8,Jsos S.R.L,BUA0328572,L4359306            ,Arribado
+2025-01-28,31033,,Jul & Ana Srl,22652139,                    ,Pendiente
+2025-01-28,31034,,Jul & Ana Srl,22652139,                    ,Pendiente
+2025-01-28,31037,HLBU-201158-6,Jul & Ana Srl,22652139,********************,Arribado
+2025-01-28,31038,TGCU-516596-0,Jul & Ana Srl,22652139,********************,Arribado
 2025-01-23,30932,ZIMU-313872-8,Adp Trading Srl,25001EC01004033U,                    ,Arribado
 2025-01-23,30933,STJU-206174-5,Adp Trading Srl,25001EC01004033U,                    ,Arribado
 2025-01-23,30934,STJU-205631-1,Adp Trading Srl,25001EC01004033U,                    ,Arribado
@@ -1094,10 +1114,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-28,29884,TGBU-652716-5,Sandrin Paola Karina,34040003831,***********         ,Arribado
 2024-11-28,29885,TGBU-458198-0,Sandrin Paola Karina,34040003831,************        ,Arribado
 2024-11-28,29886,TCNU-208593-3,Sandrin Paola Karina,34040003831,*********           ,Arribado
+2025-01-28,31027,TGBU-405602-4,Sandrin Paola Karina,EBKG11388361,FX26282855          ,Arribado
 2024-12-18,30306,FFAU-251522-4,Sandrin Paola Karina,153IAR0646025,FX26266093          ,Arribado
 2025-01-24,30979,MSMU-668804-7,Sandrin Paola Karina,EBKG11388361,FX26282345          ,Arribado
 2025-01-24,30980,,Sandrin Paola Karina,EBKG11388361,                    ,Pendiente
 2025-01-24,30981,,Sandrin Paola Karina,EBKG11388361,                    ,Pendiente
+2025-01-28,31026,TGBU-932716-0,Sandrin Paola Karina,EBKG11388361,FX26282913          ,Arribado
 2024-12-18,30301,MSCU-510410-7,Sandrin Paola Karina,153IAR0646025,FX26266073          ,Arribado
 2024-12-18,30302,MSMU-509566-4,Sandrin Paola Karina,153IAR0646025,FX26266075          ,Arribado
 2024-12-18,30303,MSMU-844430-6,Sandrin Paola Karina,153IAR0646025,FX26266086          ,Arribado
@@ -1117,3 +1139,4 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-08,30650,,Atrim Argentina S.A.,35381588,                    ,Pendiente
 2025-01-23,30937,TCNU-268381-1,Richter Miriam Raquel,COSU6407730150,************        ,Arribado
 2025-01-23,30939,CSLU-600989-9,Richter Miriam Raquel,COSU6407730150,********************,Arribado
+2025-01-27,31009,FCIU-664805-3,Intervan,92847015,********************,Arribado
