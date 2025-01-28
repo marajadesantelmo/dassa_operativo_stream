@@ -22,7 +22,7 @@ cursor = conn.cursor()
 cursor.execute(f"""
 SELECT idpesada, idcliente, cl_nombre, idata, ata_nombre, entrada, salida, peso_bruto, peso_tara, peso_neto, contenedor
 FROM DEPOFIS.DASSA.BALANZA_PESADA
-WHERE fecha > '{today}'
+WHERE fecha > '2024-01-27'
 """)
 
 rows = cursor.fetchall()
@@ -49,7 +49,7 @@ def send_email(row, mail):
     msg = MIMEMultipart()
     msg['Subject'] = 'Notificación de Contenedor Arribado'
     msg['From'] = "auto@dassa.com.ar"
-    msg['To'] = mail
+    msg['To'] = "marajadesantelmo@gmail.com"
     msg.attach(MIMEText(email_content, 'html'))
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
