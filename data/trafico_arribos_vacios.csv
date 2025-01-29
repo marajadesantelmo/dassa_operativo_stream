@@ -1,5 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-31070,29/01,Lift Van Int. Co S.A,-,Exolgan,DR,TD,                    ,22630466,0,                              ,,     ,2025-02-19,Arias Rosales,                    ,Pendiente
+31070,29/01,Lift Van Int. Co S.A,TEMU-597889-0,Exolgan,DR,TD,************        ,22630466,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,15:03,2025-02-19,Arias Rosales,                    ,15:03 Arribado
 31051,29/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,249463805,0,                              ,,     ,2025-02-18,249463805,                    ,Pendiente
 31050,29/01,Lawter Argentina S.A.,TRLU-910157-6,10080,DR,TD,******************  ,249463805,1,TRANSPORTES LEIRA-NO USAR     ,Damian Carrega,13:38,2025-02-18,249463805,                    ,13:38 Arribado
 31049,29/01,Lawter Argentina S.A.,MRKU-976821-0,10080,DR,TD,********************,249463805,1,TRANSPORTE DEL CLIENTE        ,Porco,13:30,2025-02-18,249463805,                    ,13:30 Arribado
@@ -18,6 +18,6 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 31062,29/01,Isischu Srl,MSCU-549849-0,9,HC,TD,FX26282787          ,EBKG11541989,1,TRANSPORTES LEIRA-NO USAR     ,Rao Diego,09:48,2025-02-18,Ebkg11541989,                    ,09:48 Arribado
 31061,29/01,Isischu Srl,TRHU-800755-1,9,HC,TD,FX26282772          ,EBKG11541989,1,TRANSPORTES LEIRA-NO USAR     ,Rodriguez,09:03,2025-02-18,Ebkg11541989,                    ,09:03 Arribado
 31068,29/01,Mader Zu S.R.L.,TGBU-884297-3,10081,HC,TD,************        ,COSU6408485040,1,TRANSPORTES LEIRA-NO USAR     ,Sampayo,09:53,2025-02-19,,                    ,09:53 Arribado
-31071,29/01,Lift Van Int. Co S.A,-,Exolgan,DR,TD,                    ,26126616,0,                              ,,     ,2025-02-19,Etienne Lambert,                    ,Pendiente
+31071,29/01,Lift Van Int. Co S.A,BMOU-137661-1,Exolgan,DR,TD,*************       ,26126616,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,15:04,2025-02-19,Etienne Lambert,                    ,15:04 Arribado
 31055,29/01,Lawter Argentina S.A.,CAIU-628107-8,10080,DR,TD,***********         ,249582789,1,TRANSPORTE DEL CLIENTE        ,Porco,13:49,2025-02-18,249582789,                    ,13:49 Arribado
 31072,29/01,Lawter Argentina S.A.,MRSU-056969-4,10080,DR,TD,******************  ,249463805,1,TRANSPORTES LEIRA-NO USAR     ,Rao Diego,14:34,2025-02-19,,                    ,14:34 Arribado
