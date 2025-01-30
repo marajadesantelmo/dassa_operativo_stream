@@ -1,17 +1,27 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 31079,30/01,Lift Van Int. Co S.A,-,0,  ,TD,                    ,14222673,0,                              ,,     ,2025-02-19,Santiago Barajas,                    ,Pendiente
-31080,30/01,Lift Van Int. Co S.A,-,0,  ,TD,                    ,14222673,0,                              ,,     ,2025-02-19,Oren Forward,                    ,Pendiente
-31113,30/01,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,249224028,0,                              ,,     ,2025-02-20,Abelardo Gudiño,                    ,Pendiente
-31114,30/01,Lift Van Int. Co S.A,-,10080,HC,TD,                    ,249224028,0,                              ,,     ,2025-02-20,Abelardo Gudiño,                    ,Pendiente
-31099,30/01,Isischu Srl,FFAU-352338-0,9,HC,TD,FX26280156          ,EBKG11571997,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,09:23,2025-02-20,,                    ,09:23 Arribado
-31111,30/01,Isischu Srl,MEDU-435910-0,9,HC,TD,FX26280149          ,EBKG11571997,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:12,2025-02-20,,                    ,10:12 Arribado
-31085,30/01,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,EBKG11496032,0,                              ,,     ,2025-02-19,Ebkg11496032,                    ,Pendiente
-31086,30/01,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,EBKG11496032,0,                              ,,     ,2025-02-19,Ebkg11496032,                    ,Pendiente
-31081,30/01,Hector Reboratti,MRSU-418313-8,10080,HC,TD,******************* ,249175996,1,TRANSPORTES LEIRA-NO USAR     ,Sampayo,08:47,2025-02-19,249175996,                    ,08:47 Arribado
-31082,30/01,Hector Reboratti,-,0,  ,TD,                    ,249175996,0,                              ,,     ,2025-02-19,249175996,                    ,Pendiente
-31083,30/01,Hector Reboratti,-,0,  ,TD,                    ,249175996,0,                              ,,     ,2025-02-19,249175996,                    ,Pendiente
+31119,30/01,Libertun Hermanos Srl,ITTU-305098-2,0,is,TD,                    ,25001EC01006056E,1,TRANSPORTE DEL CLIENTE        ,.,13:43,2025-02-20,,                    ,13:43 Arribado
+31118,30/01,Libertun Hermanos Srl,CXTU-104125-0,0,is,TD,                    ,25001EC01006056E,1,TRANSPORTE DEL CLIENTE        ,.,13:43,2025-02-20,,                    ,13:43 Arribado
+31117,30/01,Libertun Hermanos Srl,IHOU-305273-0,0,is,TD,                    ,25001EC01006056E,1,TRANSPORTE DEL CLIENTE        ,.,13:43,2025-02-20,,                    ,13:43 Arribado
+31116,30/01,Libertun Hermanos Srl,ITTU-706367-4,0,is,TD,                    ,25001EC01006056E,1,TRANSPORTE DEL CLIENTE        ,.,13:42,2025-02-20,,                    ,13:42 Arribado
+31115,30/01,Libertun Hermanos Srl,ITTU-706495-8,0,is,TD,                    ,25001EC01006056E,1,TRANSPORTE DEL CLIENTE        ,.,13:42,2025-02-20,,                    ,13:42 Arribado
+31090,30/01,Los Tres Pinos Srl,-,0,  ,TD,                    ,249329322,0,                              ,,     ,2025-02-19,249329322,                    ,Pendiente
+31089,30/01,Los Tres Pinos Srl,-,0,  ,TD,                    ,249329322,0,                              ,,     ,2025-02-19,249329322,                    ,Pendiente
+31088,30/01,Los Tres Pinos Srl,-,0,  ,TD,                    ,249329322,0,                              ,,     ,2025-02-19,249329322,                    ,Pendiente
 31084,30/01,Hector Reboratti,-,0,  ,TD,                    ,249175996,0,                              ,,     ,2025-02-19,249175996,                    ,Pendiente
 31087,30/01,Taeda Sa,-,0,  ,TD,                    ,EBKG11513926,0,                              ,,     ,2025-02-19,Ebkg11513926,                    ,Pendiente
-31088,30/01,Los Tres Pinos Srl,-,0,  ,TD,                    ,249329322,0,                              ,,     ,2025-02-19,249329322,                    ,Pendiente
-31089,30/01,Los Tres Pinos Srl,-,0,  ,TD,                    ,249329322,0,                              ,,     ,2025-02-19,249329322,                    ,Pendiente
-31090,30/01,Los Tres Pinos Srl,-,0,  ,TD,                    ,249329322,0,                              ,,     ,2025-02-19,249329322,                    ,Pendiente
+31082,30/01,Hector Reboratti,-,0,  ,TD,                    ,249175996,0,                              ,,     ,2025-02-19,249175996,                    ,Pendiente
+31081,30/01,Hector Reboratti,MRSU-418313-8,10080,HC,TD,******************* ,249175996,1,TRANSPORTES LEIRA-NO USAR     ,Sampayo,08:47,2025-02-19,249175996,                    ,08:47 Arribado
+31086,30/01,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,EBKG11496032,0,                              ,,     ,2025-02-19,Ebkg11496032,                    ,Pendiente
+31085,30/01,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,EBKG11496032,0,                              ,,     ,2025-02-19,Ebkg11496032,                    ,Pendiente
+31111,30/01,Isischu Srl,MEDU-435910-0,9,HC,TD,FX26280149          ,EBKG11571997,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:12,2025-02-20,,                    ,10:12 Arribado
+31099,30/01,Isischu Srl,FFAU-352338-0,9,HC,TD,FX26280156          ,EBKG11571997,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,09:23,2025-02-20,,                    ,09:23 Arribado
+31114,30/01,Lift Van Int. Co S.A,-,10080,HC,TD,                    ,249224028,0,                              ,,     ,2025-02-20,Abelardo Gudiño,                    ,Pendiente
+31113,30/01,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,249224028,0,                              ,,     ,2025-02-20,Abelardo Gudiño,                    ,Pendiente
+31080,30/01,Lift Van Int. Co S.A,-,0,  ,TD,                    ,14222673,0,                              ,,     ,2025-02-19,Oren Forward,                    ,Pendiente
+31083,30/01,Hector Reboratti,-,0,  ,TD,                    ,249175996,0,                              ,,     ,2025-02-19,249175996,                    ,Pendiente
+31123,31/01,Libertun Hermanos Srl,EXFU-441639-9,0,is,TD,                    ,25001EC01006056E,1,TRANSPORTE DEL CLIENTE        ,.,13:44,2025-02-20,,                    ,13:44 Arribado
+31120,31/01,Libertun Hermanos Srl,ITTU-505548-0,0,is,TD,                    ,25001EC01006056E,1,TRANSPORTE DEL CLIENTE        ,.,13:44,2025-02-20,,                    ,13:44 Arribado
+31121,31/01,Libertun Hermanos Srl,ITTU-305801-0,0,is,TD,                    ,25001EC01006056E,1,TRANSPORTE DEL CLIENTE        ,.,13:44,2025-02-20,,                    ,13:44 Arribado
+31122,31/01,Libertun Hermanos Srl,RFCU-820839-9,0,is,TD,                    ,25001EC01006056E,1,TRANSPORTE DEL CLIENTE        ,.,13:44,2025-02-20,,                    ,13:44 Arribado
+31124,31/01,Libertun Hermanos Srl,CXTU-115988-0,0,is,TD,                    ,25001EC01006056E,1,TRANSPORTE DEL CLIENTE        ,.,13:45,2025-02-20,,                    ,13:45 Arribado
