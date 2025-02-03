@@ -5,6 +5,8 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+alertas_balanza = pd.read_csv('alertas_balanza.csv')
+
 clientes = pd.read_csv('contactos_clientes.csv')
 clientes['email'] = clientes['email'].str.replace(';', ',')
 clientes['email'] = clientes['email'].str.replace('"', '')
@@ -19,18 +21,39 @@ today = pd.Timestamp.today().strftime('%Y-%m-%d')
 conn = pyodbc.connect('DRIVER={SQL Server};SERVER=101.44.8.58\\SQLEXPRESS_X86,1436;UID=dassa;PWD=Da$$a3065!')
 cursor = conn.cursor()
 
+#BALANZA
 cursor.execute(f"""
 SELECT idpesada, idcliente, cl_nombre, idata, ata_nombre, entrada, salida, peso_bruto, peso_tara, peso_neto, contenedor
 FROM DEPOFIS.DASSA.BALANZA_PESADA
-WHERE fecha > '2024-01-27'
+WHERE fecha > '2025-01-15'
 """)
 
 rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 balanza = pd.DataFrame.from_records(rows, columns=columns)
 
-# Filtrar EXPO y salida
+balanza['cl_nombre'] = balanza['cl_nombre'].str.strip().str.title()
+balanza['ata_nombre'] = balanza['ata_nombre'].str.strip().str.title()
 
+balanza.to_csv('ver_balanza.csv', index=False)
+
+
+#CONTENEDORES IMPO INGRESADOS EN STOCK
+cursor.execute(f"""
+    SELECT orden_ing, suborden, renglon, contenedor, fecha_ing, tipo_oper 
+    FROM DEPOFIS.DASSA.[Ingresadas En Stock]
+    WHERE fecha_ing > '2025-01-15'
+    AND tipo_oper = 'IMPORTACION'
+    AND suborden= 0
+""")  
+rows = cursor.fetchall()
+columns = [column[0] for column in cursor.description]
+cnts_ingresados = pd.DataFrame.from_records(rows, columns=columns)
+
+cnts_ingresados.to_csv('ver_contenedores_ingresados.csv', index=False)
+
+
+# Filtrar EXPO y salida
 def send_email(row, mail):
     # Get the current time
     current_time = datetime.now().strftime('%H:%M')
