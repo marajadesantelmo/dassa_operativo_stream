@@ -10,7 +10,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-01-17,07:00,Terminal 4,MSKU-559804-0,Mercovan Argentina Srl,247358180,TD,2025-01-17,1225,http://dassa.mqbic.com/PublicTally.php?id=1225
 2025-01-17,07:00,Terminal 4,MSKU-559804-0,Mercovan Argentina Srl,247358180,TD,2025-01-17,1225,http://dassa.mqbic.com/PublicTally.php?id=1225
 2025-01-23,10:00,Terminal 4,MRKU-011555-4,Mercovan Argentina Srl,246708662,TD,2025-01-23,1246,http://dassa.mqbic.com/PublicTally.php?id=1246
-2025-01-30,10:00,Terminal 4,MRSU-445477-5,Mercovan Argentina Srl,IFS00252124,TD,2025-01-30,,
+2025-01-30,10:00,Terminal 4,MRSU-445477-5,Mercovan Argentina Srl,IFS00252124,TD,2025-01-30,1272,http://dassa.mqbic.com/PublicTally.php?id=1272
 2024-12-18,10:00,TRP,TRHU-170051-7,Mercovan Argentina Srl,IBC1268388,TD,2024-12-18,1055,http://dassa.mqbic.com/PublicTally.php?id=1055
 2024-12-30,19:00,TRP,CMAU-271236-0,Mercovan Argentina Srl,SSN109858,TD,2024-12-30,1108,http://dassa.mqbic.com/PublicTally.php?id=1108
 2025-01-02,12:00,Terminal 4,FANU-324988-4,Mercovan Argentina Srl,HLCUBSC241207530,T,2025-01-02,,
@@ -613,14 +613,14 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2024-12-20,07:00,Terminal 4,STBU-391746-2,Varteco Quimica Puntana S.A.,HLCUBSC2410BZYS4,T,2024-12-20,,
 2024-12-23,11:00,Exolgan,BMOU-428840-6,Nelo Sa,SSE24004883,T,2024-12-23,,
 2025-01-02,13:00,Terminal 4,MRSU-484812-5,Nelo Sa,BL2418159,T,2025-01-02,1128,http://dassa.mqbic.com/PublicTally.php?id=1128
-2025-01-31,11:00,Exolgan,MSMU-655947-7,Nelo Sa,3021338,TD,2025-01-31,,
+2025-01-31,11:00,Exolgan,MSMU-655947-7,Nelo Sa,3021338,TD,2025-01-31,1275,http://dassa.mqbic.com/PublicTally.php?id=1275
 2024-12-23,17:00,TRP,CSNU-784776-4,Breyer Hnos S A,SAA240902593,TD,2024-12-23,1069,http://dassa.mqbic.com/PublicTally.php?id=1069
 2025-01-07,13:00,Exolgan,TEMU-584538-8,Finest Global Sports,411BMX1507/1,T,2025-01-07,,
 2024-12-30,13:00,Exolgan,MSMU-460776-6,Molinos Tarquini Sa,DOD780201,T,2024-12-30,,
 2025-01-06,11:00,Terminal 4,MAEU-347612-7,Carlos Daniel Pona,ALMR2174BUE,TD,2025-01-06,1161,http://dassa.mqbic.com/PublicTally.php?id=1161
 2025-01-06,11:00,Terminal 4,MNBU-305157-7,Nikin Srl,245505799,TD,2025-01-06,1160,http://dassa.mqbic.com/PublicTally.php?id=1160
 2025-01-10,15:00,TRP,PCIU-612131-3,Trading Sud S.R.L.,OLGM246853,T,2025-01-10,,
-2025-01-31,13:00,TRP,HMMU-713957-5,Mac Donald Hermanos Srl,BATT4700,T,,,
+2025-01-31,13:00,TRP,HMMU-713957-5,Mac Donald Hermanos Srl,BATT4700,T,2025-01-31,,
 2025-01-14,13:00,Terminal 4,SUDU-871599-3,Mac Donald Hermanos Srl,BATT0576,TD,2025-01-14,1214,http://dassa.mqbic.com/PublicTally.php?id=1214
 2025-01-24,13:00,Terminal 4,MBIU-827765-6,Grupo Rsm Srl,ZIMUSHH31556671,TD,2025-01-24,1247,http://dassa.mqbic.com/PublicTally.php?id=1247
 2025-01-24,13:00,Terminal 4,MBIU-827765-6,Grupo Rsm Srl,ZIMUSHH31556671,TD,2025-01-24,1247,http://dassa.mqbic.com/PublicTally.php?id=1247
@@ -630,5 +630,5 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-01-27,14:00,Terminal 4,CAIU-627049-5,Targuet Music Sa,HTNB24110142,T,2025-01-27,,
 2025-01-28,13:00,Exolgan,MEDU-769279-4,Hilansur S.A.,MEDUVW155281,TD,2025-01-28,1260,http://dassa.mqbic.com/PublicTally.php?id=1260
 2025-01-28,13:00,Exolgan,MEDU-769279-4,Hilansur S.A.,MEDUVW155281,TD,2025-01-28,1260,http://dassa.mqbic.com/PublicTally.php?id=1260
-2025-01-30,08:00,Terminal 4,MSKU-628902-5,Infilo S.R.L.,247297415,TD,2025-01-30,,
-2025-01-30,08:00,Terminal 4,MRKU-055130-5,Infilo S.R.L.,247297415,TD,2025-01-30,,
+2025-01-30,08:00,Terminal 4,MSKU-628902-5,Infilo S.R.L.,247297415,TD,2025-01-30,1270,http://dassa.mqbic.com/PublicTally.php?id=1270
+2025-01-30,08:00,Terminal 4,MRKU-055130-5,Infilo S.R.L.,247297415,TD,2025-01-30,1271,http://dassa.mqbic.com/PublicTally.php?id=1271
