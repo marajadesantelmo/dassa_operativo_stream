@@ -72,7 +72,7 @@ else:
     elif page_selection == "EXPO":
         stream_expo.show_page_expo()
     elif page_selection == "Balanza":
-         stream_expo.show_page_balanza()
+         stream_balanza.show_page_balanza()
     elif page_selection == "Tráfico":
         stream_trafico.show_page_trafico()
     elif page_selection == "IMPO - histórico":
