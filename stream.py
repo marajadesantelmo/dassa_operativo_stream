@@ -1,6 +1,7 @@
 import streamlit as st
 import stream_impo
 import stream_expo
+import stream_balanza
 import stream_impo_historico
 import stream_expo_historico
 import stream_trafico
@@ -62,7 +63,7 @@ else:
     page_selection = option_menu(
             None,  # No menu title
             ["IMPO", "EXPO", "Balanza", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico", "Logout"],  
-            icons=["arrow-down-circle", "arrow-up-circle", "balance-scale", "arrow-right-circle", "book", "book", "book", "box-arrow-right"],   
+            icons=["arrow-down-circle", "arrow-up-circle", "book", "arrow-right-circle", "book", "book", "book", "box-arrow-right"],   
             menu_icon="cast",  
             default_index=0, 
             orientation="horizontal")
