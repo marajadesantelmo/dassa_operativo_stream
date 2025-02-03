@@ -61,8 +61,8 @@ if not st.session_state['logged_in']:
 else:
     page_selection = option_menu(
             None,  # No menu title
-            ["IMPO", "EXPO", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico", "Logout"],  
-            icons=["arrow-down-circle", "arrow-up-circle", "arrow-right-circle", "book", "book", "book", "box-arrow-right"],   
+            ["IMPO", "EXPO", "Balanza", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico", "Logout"],  
+            icons=["arrow-down-circle", "arrow-up-circle", "balance-scale", "arrow-right-circle", "book", "book", "book", "box-arrow-right"],   
             menu_icon="cast",  
             default_index=0, 
             orientation="horizontal")
@@ -70,6 +70,8 @@ else:
         stream_impo.show_page_impo()  
     elif page_selection == "EXPO":
         stream_expo.show_page_expo()
+    elif page_selection == "Balanza":
+         stream_expo.show_page_balanza()
     elif page_selection == "Tráfico":
         stream_trafico.show_page_trafico()
     elif page_selection == "IMPO - histórico":

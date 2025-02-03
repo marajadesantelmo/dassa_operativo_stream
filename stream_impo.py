@@ -13,12 +13,11 @@ def fetch_data_impo():
     otros_impo = pd.read_csv('data/otros_impo.csv')
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_alm = pd.read_csv('data/existente_alm.csv')
-    balanza = pd.read_csv('data/balanza.csv')
-    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, balanza
+    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm
 
 def show_page_impo():
     # Load data
-    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, balanza = fetch_data_impo()
+    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm = fetch_data_impo()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -37,9 +36,6 @@ def show_page_impo():
             ctns_pendientes = arribos[(arribos['Estado'] != '-') & (~arribos['Estado'].str.contains('Arribado'))].shape[0]
             st.metric(label="CTNs pendientes", value=ctns_pendientes)
         st.dataframe(arribos.style.apply(highlight, axis=1).set_properties(subset=['Cliente'], **{'width': '20px'}), hide_index=True, use_container_width=True)
-        st.subheader('Balanza')
-        st.dataframe(balanza, hide_index=True, use_container_width=True)
-
 
     with col2:
         col2_sub, col2_metric1, col2_mentric2 = st.columns([6, 1, 1])
