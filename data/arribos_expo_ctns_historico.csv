@@ -195,6 +195,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-06,29442,MRKU-275496-0,Mader Zu S.R.L.,245737435,*************       ,Arribado
 2024-11-12,29586,TCKU-662034-0,Mader Zu S.R.L.,246408318,*****************   ,Arribado
 2024-11-12,29587,MRKU-580744-7,Mader Zu S.R.L.,246408318,*****************   ,Arribado
+2025-02-04,31185,,Mader Zu S.R.L.,96626951,                    ,Pendiente
 2025-01-28,31030,BSIU-952574-3,Mader Zu S.R.L.,COSU6408485040,******************  ,Arribado
 2025-01-28,31031,TGBU-778182-6,Mader Zu S.R.L.,COSU6408485040,***********         ,Arribado
 2025-01-28,31032,,Mader Zu S.R.L.,COSU6408485040,                    ,Pendiente
@@ -286,6 +287,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-25,29137,PONU-178799-8,Manufactura Los Andes S.A.,245839454,***************     ,Arribado
 2024-10-25,29135,APMU-403865-6,Manufactura Los Andes S.A.,245839454,*****************   ,Arribado
 2024-10-23,29055,MRKU-079157-0,Manufactura Los Andes S.A.,245346233,****************    ,Arribado
+2025-02-04,31186,HAMU-321119-3,Servicio Internacional De Fletes S.A.,45347299,*****************   ,Arribado
 2024-10-08,28674,,Industrias Quimicas Independencia Sa,TERRESTRE,                    ,Arribado
 2024-10-24,29104,,Industrias Quimicas Independencia Sa,TERRESTRE,                    ,Arribado
 2024-10-18,28925,HLXU-534490-5,Kluber Lubrication Argentina S A,62641596,********************,Arribado
@@ -391,6 +393,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-05,29411,MRKU-579884-9,Valerio Oliva Forestal Sa,244573548,                    ,Arribado
 2025-01-30,31085,MSMU-702026-3,Valerio Oliva Forestal Sa,EBKG11496032,FX26280095          ,Arribado
 2025-01-30,31086,MSDU-520697-2,Valerio Oliva Forestal Sa,EBKG11496032,FX26280092          ,Arribado
+2025-02-04,31178,,Asecor Srl,EBKG11588139,                    ,Pendiente
+2025-02-04,31179,,Asecor Srl,EBKG11588139,                    ,Pendiente
+2025-02-04,31176,MSMU-835995-0,Asecor Srl,EBKG11588139,FX26264859          ,Arribado
+2025-02-04,31177,,Asecor Srl,EBKG11588139,                    ,Pendiente
 2025-01-17,30818,MSDU-725909-8,Asecor Srl,EBKG11317762,FX26302800          ,Arribado
 2025-01-02,30481,MSDU-855969-6,Asecor Srl,EBKG11142724,FX26267175          ,Arribado
 2025-01-02,30482,FFAU-350447-7,Asecor Srl,EBKG11142724,FX26267183          ,Arribado
@@ -514,9 +520,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-03,29938,TIIU-466460-9,Suabia Maderas Srl,B946025550,                    ,Arribado
 2024-10-23,29051,HLBU-165380-6,Suabia Maderas Srl,65302883,                    ,Arribado
 2024-11-05,29413,HLBU-143349-0,Suabia Maderas Srl,63645644,********************,Arribado
+2025-02-03,31157,EITU-130509-7,Piranga Sa,340500001340,******************* ,Arribado
 2025-01-29,31053,EMCU-178310-3,Piranga Sa,340500001332,********************,Arribado
 2025-01-29,31054,EITU-139086-4,Piranga Sa,340500001332,*************       ,Arribado
 2025-02-03,31153,TIIU-683289-3,Piranga Sa,340500001340,*************       ,Arribado
+2025-02-03,31155,EMCU-163992-4,Piranga Sa,340500001340,    ****************,Arribado
 2024-11-27,29860,MSMU-585112-3,Piranga Sa,EBKG10717095,FX26302066          ,Arribado
 2024-12-03,29955,TEMU-781390-2,Piranga Sa,68653729,**********          ,Arribado
 2024-12-03,29956,SEGU-500008-6,Piranga Sa,68653729,*************       ,Arribado
@@ -566,6 +574,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-15,28797,CAAU-716447-4,Arleather S.R.L.,244571578,*************       ,Arribado
 2024-10-15,28816,TLLU-582460-0,Arleather S.R.L.,244571303,**************      ,Arribado
 2024-10-15,28817,MSKU-925133-7,Arleather S.R.L.,244571303,**********          ,Arribado
+2025-02-04,31184,,Arleather S.R.L.,249067433,                    ,Pendiente
+2025-02-04,31180,TLLU-583730-0,Arleather S.R.L.,249067738,**************      ,Arribado
+2025-02-04,31181,MRSU-663813-3,Arleather S.R.L.,249067738,********************,Arribado
+2025-02-04,31182,MRKU-352785-3,Arleather S.R.L.,249067433,*************       ,Arribado
+2025-02-04,31183,TIIU-588384-9,Arleather S.R.L.,249067433,******************* ,Arribado
 2025-01-29,31056,MRSU-594210-0,Arleather S.R.L.,249176210,****************    ,Arribado
 2025-01-29,31057,MSKU-141415-0,Arleather S.R.L.,249176210,************        ,Arribado
 2025-01-29,31058,MRKU-417286-6,Arleather S.R.L.,249176210,**************      ,Arribado
@@ -651,6 +664,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-22,29008,MSKU-981085-7,Arleather S.R.L.,245416955,*************       ,Arribado
 2024-10-22,29009,MRKU-349932-4,Arleather S.R.L.,245416955,***********         ,Arribado
 2024-10-15,28818,MRKU-578701-6,Arleather S.R.L.,244571303,******************  ,Arribado
+2025-02-04,31187,BSIU-802151-6,Henn Y Cia S.R.L.,BUE500004300,**********          ,Arribado
+2025-02-04,31188,UETU-596879-5,Henn Y Cia S.R.L.,BUE50004300,**************      ,Arribado
 2025-01-30,31088,CIPU-507116-0,Los Tres Pinos Srl,249329322,***********         ,Arribado
 2025-01-30,31089,MRKU-374903-8,Los Tres Pinos Srl,249329322,**********          ,Arribado
 2025-01-30,31090,TLLU-689808-5,Los Tres Pinos Srl,249329322,***********         ,Arribado
@@ -997,6 +1012,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-18,28959,,Adp Trading Srl,EC01068500F,                    ,Arribado
 2024-10-18,28960,,Adp Trading Srl,EC01068500F,                    ,Arribado
 2024-11-01,29325,,Adp Trading Srl,24001EC01072021V,                    ,Arribado
+2025-02-04,31171,,Forestal Bosques Del Plata Sa,EBKG11615689,                    ,Pendiente
+2025-02-04,31172,MSBU-551449-5,Forestal Bosques Del Plata Sa,EBKG11615689,FX26264856          ,Arribado
+2025-02-04,31173,,Forestal Bosques Del Plata Sa,EBKG11615689,                    ,Pendiente
+2025-02-04,31174,,Forestal Bosques Del Plata Sa,EBKG11615689,                    ,Pendiente
+2025-02-04,31175,,Forestal Bosques Del Plata Sa,EBKG11615689,                    ,Pendiente
 2024-12-17,30269,TCLU-556446-5,Forestal Bosques Del Plata Sa,62654748,************        ,Arribado
 2024-12-17,30270,HLBU-190164-6,Forestal Bosques Del Plata Sa,62654748,**************      ,Arribado
 2024-12-17,30271,HLBU-210599-9,Forestal Bosques Del Plata Sa,62654748,************        ,Arribado
