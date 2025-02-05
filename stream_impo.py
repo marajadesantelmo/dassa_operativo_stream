@@ -12,6 +12,7 @@ def fetch_data_impo():
     retiros_impo = pd.read_csv('data/retiros_impo.csv')
     otros_impo = pd.read_csv('data/otros_impo.csv')
     existente_plz = pd.read_csv('data/existente_plz.csv')
+    existente_plz['e-tally'] = existente_plz['e-tally'].fillna("")
     existente_alm = pd.read_csv('data/existente_alm.csv')
     existente_alm['e-tally'] = existente_alm['e-tally'].fillna("")
     return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm
@@ -66,6 +67,8 @@ def show_page_impo():
     with col4:
         st.subheader("Plazoleta")
         st.dataframe(existente_plz, 
+                    column_config={'e-tally': st.column_config.LinkColumn('e-tally', 
+                                                display_text="\U0001F517",)},
                      hide_index=True, use_container_width=True)
     with col5:
         st.subheader("Almacen")
