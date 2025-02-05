@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import time
 from datetime import datetime
-from utils import highlight
+from utils import highlight, generar_comprobante
 
 @st.cache_data(ttl=60) 
 def fetch_data_balanza():
@@ -30,10 +30,19 @@ def show_page_balanza():
     st.subheader("Exportación")
     st.dataframe(balanza_expo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
 
+    st.subheader("Generar Comprobante")
+    id_pesada = st.selectbox("Seleccione el ID de Pesada", balanza_impo['id Pesada'].tolist() + balanza_expo['id Pesada'].tolist())
+    if st.button("Generar Comprobante"):
+        balanza_row = balanza_impo[balanza_impo['id Pesada'] == id_pesada].iloc[0] if id_pesada in balanza_impo['id Pesada'].tolist() else balanza_expo[balanza_expo['id Pesada'] == id_pesada].iloc[0]
+        pdf = generar_comprobante(balanza_row)
+        pdf_output = f"comprobante_{id_pesada}.pdf"
+        pdf.output(pdf_output)
+        st.success(f"Comprobante generado: {pdf_output}")
+
 # Run the show_page function
 if __name__ == "__main__":
     while True:
         show_page_balanza()
         time.sleep(60)  
-        st.experimental_rerun() 
+        st.experimental_rerun()
 
