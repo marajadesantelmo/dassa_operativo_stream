@@ -68,19 +68,25 @@ def generar_comprobante(balanza_row):
     right_fields = ['ATA', 'CUIT ATA',  'Salida', 'Descripción', 'Patente Semi',  'Tipo Doc', 'Num Doc', 'Booking', 'Permiso Emb.']
 
     for left_field, right_field in zip(left_fields, right_fields):
-        pdf.cell(35, 8, txt=str(left_field), border=0.5, align="C")
-        pdf.cell(55, 8, txt=str(balanza_row[left_field]), border=0.5, align="C")
-        pdf.cell(35, 8, txt=str(right_field), border=0.5, align="0.5")
-        pdf.cell(55, 8, txt=str(balanza_row[right_field]), border=1, align="C")
+        pdf.set_font("Arial", style='B', size=10)
+        pdf.cell(35, 8, txt=f"{left_field}:", align="L")
+        pdf.set_font("Arial", size=10)
+        pdf.cell(55, 8, txt=str(balanza_row[left_field]), align="C")
+        pdf.set_font("Arial", style='B', size=10)
+        pdf.cell(35, 8, txt=f"{right_field}:", align="L")
+        pdf.set_font("Arial", size=10)
+        pdf.cell(55, 8, txt=str(balanza_row[right_field]), align="C")
         pdf.ln()
 
     # If there are remaining fields in right_fields
     if len(right_fields) > len(left_fields):
         for right_field in right_fields[len(left_fields):]:
-            pdf.cell(35, 8, txt="", border=1, align="C")
-            pdf.cell(55, 8, txt="", border=1, align="C")
-            pdf.cell(35, 8, txt=str(right_field), border=1, align="C")
-            pdf.cell(55, 8, txt=str(balanza_row[right_field]), border=1, align="C")
+            pdf.set_font("Arial", style='B', size=10)
+            pdf.cell(35, 8, txt="", align="L")
+            pdf.cell(55, 8, txt="", align="C")
+            pdf.cell(35, 8, txt=f"{right_field}:", align="L")
+            pdf.set_font("Arial", size=10)
+            pdf.cell(55, 8, txt=str(balanza_row[right_field]), align="C")
             pdf.ln()
     pdf.ln(2)
 
