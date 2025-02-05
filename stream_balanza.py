@@ -34,7 +34,7 @@ def show_page_balanza():
     st.dataframe(balanza_expo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
 
     st.subheader("Generar Comprobante")
-    id_pesada = st.selectbox("Seleccione el ID de Pesada", balanza['id Pesada'].tolist())
+    id_pesada = st.selectbox("Seleccione el ID de Pesada", balanza['ID Pesada'].tolist())
     if st.button("Generar Comprobante"):
         balanza_row = balanza[balanza['ID Pesada'] == id_pesada].iloc[0] 
         pdf = generar_comprobante(balanza_row)
