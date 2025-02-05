@@ -31,16 +31,15 @@ def generar_comprobante(balanza_row):
     pdf.image("membrete.png", x=10, y=10, w=pdf.w - 20)
 
     # Add invoice title
-    pdf.set_font("Arial", style='B', size=16)
-    pdf.set_text_color(131, 148, 150)  # Solarized base0 color
-    pdf.cell(200, 10, txt="Depósito Avellaneda Sur S.A.", ln=True, align="C")
-    pdf.cell(200, 10, txt="Comprobante de pesaje en balanza", ln=True, align="C")
+    pdf.set_font("Arial", style='B', size=22)
+    pdf.set_text_color(0, 0, 0)  
     pdf.ln(10)
-
+    pdf.cell(200, 10, txt="Comprobante de pesaje en balanza", ln=True, align="R")
+    pdf.ln(2)
     # Add invoice number and date
-    pdf.set_font("Arial", style='B', size=10)
-    pdf.set_text_color(131, 148, 150)  # Solarized base0 color
-    pdf.cell(200, 10, txt=f"ID Pesada: {balanza_row['id Pesada']}                                                                     Date: {current_date}", ln=True, align="L")
+    pdf.set_font("Arial", style='B', size=18)
+    pdf.set_text_color(131, 148, 150)  
+    pdf.cell(200, 10, txt=f"ID Pesada: {balanza_row['id Pesada']}"  , ln=True, align="R")                                                                   Date: {current_date}", ln=True, align="L")
     pdf.ln(5)
 
     # Add table title
