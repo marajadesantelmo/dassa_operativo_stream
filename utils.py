@@ -64,8 +64,8 @@ def generar_comprobante(balanza_row):
     # Add table rows
     pdf.set_text_color(0, 0, 0)  # Reset to black
     pdf.set_font("Arial", size=10)
-    left_fields = ['Cliente', 'CUIT Cliente', 'ATA', 'CUIT ATA']
-    right_fields = ['Contenedor', 'Entrada', 'Salida', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Tipo Doc', 'Num Doc', 'Observaciones', 'Booking', 'Permiso Emb.', 'Precinto']
+    left_fields = ['Cliente', 'CUIT Cliente', 'Entrada', 'Contenedor', 'Patente Chasis', 'Chofer',  'Observaciones' ]
+    right_fields = ['ATA', 'CUIT ATA',  'Salida', 'Descripción', 'Patente Semi',  'Tipo Doc', 'Num Doc', 'Booking', 'Permiso Emb.', 'Precinto']
 
     for left_field, right_field in zip(left_fields, right_fields):
         pdf.cell(40, 10, txt=str(left_field), border=1, align="C")
