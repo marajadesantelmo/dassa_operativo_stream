@@ -9,8 +9,11 @@ def fetch_data_balanza():
     balanza = pd.read_csv('data/balanza.csv')
     balanza_impo = balanza[balanza['tipo_oper'] == 'Importacion']
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
-    balanza_impo = balanza_impo[['id Pesada', 'Cliente', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara', 'Peso Neto', 'Peso Mercadería', 'Descr.', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Obs.', 'tipo_oper']]
-    balanza_expo = balanza_expo[['id Pesada', 'Cliente', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara', 'Peso Neto', 'Peso Mercadería', 'Descr.', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Obs.', 'tipo_oper']]
+    columns = ['ID Pesada', 'Cliente', 'ATA Nombre', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
+       'Peso Neto', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Observaciones',
+       'Booking', 'Permiso Emb.', 'Precinto']
+    balanza_impo = balanza_impo[columns]
+    balanza_expo = balanza_expo[columns]
     return balanza, balanza_impo, balanza_expo
 
 def show_page_balanza():
