@@ -37,22 +37,36 @@ def generar_comprobante(balanza_row):
     # Add id pesada, date and other fix text
     pdf.set_font("Arial", style='B', size=16)
     pdf.set_text_color(0, 0, 0)  
-    pdf.cell(200, 10, txt=f"ID Pesada: {balanza_row['id Pesada']}     Fecha: {current_date}", ln=True, align="L")
+    pdf.cell(100, 10, txt=f"ID Pesada: {balanza_row['id Pesada']}", ln=False, align="L")
+    pdf.cell(100, 10, txt=f"Fecha: {current_date}", ln=True, align="R")
     pdf.ln(5)
     # Add fixed data
     pdf.set_font("Arial", size=12)
     pdf.set_text_color(0, 0, 0)
     pdf.set_draw_color(0, 0, 0)  # Black border
-    pdf.set_fill_color(255, 255, 255)  # White background
+    pdf.set_fill_color(211, 211, 211)  # Light gray background
     pdf.set_line_width(0.5)
     pdf.rect(x=10, y=pdf.get_y(), w=pdf.w - 20, h=18, style='D')  # Draw rectangle
 
     pdf.set_xy(15, pdf.get_y() + 2)  # Adjust position inside the rectangle
-    pdf.cell(200, 6, txt="Certificado Habilitación: 307-45317        Balanza: Balanza de Cambiones", ln=True, align="L")
-    pdf.set_xy(15, pdf.get_y())
-    pdf.cell(200, 6, txt="Vto. Certificación: 05/04/2025             Tipo: Camiones", ln=True, align="L")
-    pdf.set_xy(15, pdf.get_y())
-    pdf.cell(200, 6, txt="Aduana: 001                                Lote Balanza: 11002", ln=True, align="L")
+    pdf.set_font("Arial", style='B', size=12)
+    pdf.cell(100, 6, txt="Certificado Habilitación:", border=1, align="L")
+    pdf.cell(100, 6, txt="307-45317", border=1, align="L")
+    pdf.ln()
+    pdf.cell(100, 6, txt="Balanza:", border=1, align="L")
+    pdf.cell(100, 6, txt="Balanza de Cambiones", border=1, align="L")
+    pdf.ln()
+    pdf.cell(100, 6, txt="Vto. Certificación:", border=1, align="L")
+    pdf.cell(100, 6, txt="05/04/2025", border=1, align="L")
+    pdf.ln()
+    pdf.cell(100, 6, txt="Tipo:", border=1, align="L")
+    pdf.cell(100, 6, txt="Camiones", border=1, align="L")
+    pdf.ln()
+    pdf.cell(100, 6, txt="Aduana:", border=1, align="L")
+    pdf.cell(100, 6, txt="001", border=1, align="L")
+    pdf.ln()
+    pdf.cell(100, 6, txt="Lote Balanza:", border=1, align="L")
+    pdf.cell(100, 6, txt="11002", border=1, align="L")
     pdf.ln(5)
     # Add table title
     pdf.set_font("Arial", style='B', size=12)
