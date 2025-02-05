@@ -170,22 +170,21 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-05,30050,FCIU-567195-3,Refractarios Argentinos Saicm,BUEE15406800,                    ,Arribado
 2024-12-05,30061,TRLU-973195-5,Refractarios Argentinos Saicm,BUEE15166400,                    ,Arribado
 2025-01-13,30738,BEAU-221251-5,Refractarios Argentinos Saicm,93665959,                    ,Arribado
-2024-10-07,28642,MSKU-665916-1,Pelama Chubut S.A.,245049762,*****************   ,Arribado
 2024-10-09,28687,CMAU-611180-8,Pelama Chubut S.A.,BUA0329335,L4363287            ,Arribado
 2024-10-16,28834,CMAU-477470-9,Pelama Chubut S.A.,BUA0329504,L4361719            ,Arribado
+2024-10-23,29052,TCNU-122777-7,Pelama Chubut S.A.,BUA0329864,L4361726            ,Arribado
+2024-12-17,30223,UACU-860378-0,Pelama Chubut S.A.,66323173,**************      ,Arribado
 2024-12-23,30378,EGHU-323483-3,Pelama Chubut S.A.,340400048298,                    ,Arribado
 2025-01-03,30568,TCLU-748363-4,Pelama Chubut S.A.,BUEE16807700,******************  ,Arribado
-2024-12-04,29966,HLXU-540312-4,Pelama Chubut S.A.,62653105,   *********        ,Arribado
-2024-12-17,30223,UACU-860378-0,Pelama Chubut S.A.,66323173,**************      ,Arribado
-2024-11-22,29773,GCXU-510089-6,Pelama Chubut S.A.,69316772,*********           ,Arribado
-2024-11-26,29840,UACU-601379-0,Pelama Chubut S.A.,64319501,*****************   ,Arribado
 2024-11-28,29869,UASU-105049-5,Pelama Chubut S.A.,68985851,                    ,Arribado
 2024-11-28,29870,DFSU-666368-4,Pelama Chubut S.A.,68985853,                    ,Arribado
+2024-12-04,29966,HLXU-540312-4,Pelama Chubut S.A.,62653105,   *********        ,Arribado
+2024-11-21,29738,BMOU-645305-3,Pelama Chubut S.A.,BUA0331553,                    ,Arribado
+2024-11-22,29773,GCXU-510089-6,Pelama Chubut S.A.,69316772,*********           ,Arribado
+2024-11-26,29840,UACU-601379-0,Pelama Chubut S.A.,64319501,*****************   ,Arribado
+2024-10-23,29053,BMOU-585955-7,Pelama Chubut S.A.,BUA0329865,L4361517            ,Arribado
 2024-11-01,29342,OOLU-429716-8,Pelama Chubut S.A.,COSU6400386000,*********           ,Arribado
 2024-11-07,29469,TRHU-106661-3,Pelama Chubut S.A.,BUA0329583,L4361181            ,Arribado
-2024-11-21,29738,BMOU-645305-3,Pelama Chubut S.A.,BUA0331553,                    ,Arribado
-2024-10-23,29052,TCNU-122777-7,Pelama Chubut S.A.,BUA0329864,L4361726            ,Arribado
-2024-10-23,29053,BMOU-585955-7,Pelama Chubut S.A.,BUA0329865,L4361517            ,Arribado
 2024-10-24,29103,MSKU-740717-0,Sky Cargo S.R.L.,245725236,**********          ,Arribado
 2024-12-23,30400,,Advance Shipment International S.A.,24001EC01084093K,                    ,Arribado
 2024-12-23,30401,,Advance Shipment International S.A.,24001EC01084093K,                    ,Arribado
@@ -195,7 +194,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-06,29442,MRKU-275496-0,Mader Zu S.R.L.,245737435,*************       ,Arribado
 2024-11-12,29586,TCKU-662034-0,Mader Zu S.R.L.,246408318,*****************   ,Arribado
 2024-11-12,29587,MRKU-580744-7,Mader Zu S.R.L.,246408318,*****************   ,Arribado
-2025-02-04,31185,,Mader Zu S.R.L.,96626951,                    ,Pendiente
+2025-02-04,31185,HAMU-129929-3,Mader Zu S.R.L.,96626951,**************      ,Arribado
 2025-01-28,31030,BSIU-952574-3,Mader Zu S.R.L.,COSU6408485040,******************  ,Arribado
 2025-01-28,31031,TGBU-778182-6,Mader Zu S.R.L.,COSU6408485040,***********         ,Arribado
 2025-01-28,31032,,Mader Zu S.R.L.,COSU6408485040,                    ,Pendiente
@@ -268,6 +267,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-24,29107,,Overprint S.R.L.,TERRESTRE,                    ,Arribado
 2024-12-05,30046,,Overprint S.R.L.,24001EC01079686W,                    ,Arribado
 2025-01-03,30570,,Overprint S.R.L.,TERRESTRE,                    ,Arribado
+2025-02-05,31208,,Manufactura Los Andes S.A.,EBKG11636973,                    ,Pendiente
 2024-10-28,29209,MRKU-059121-0,Manufactura Los Andes S.A.,245345787,**************      ,Arribado
 2024-10-28,29210,MRKU-042511-7,Manufactura Los Andes S.A.,245345787,********************,Arribado
 2024-10-28,29218,MRKU-077531-0,Manufactura Los Andes S.A.,245345787,*****************   ,Arribado
@@ -294,44 +294,40 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-06,30056,MRSU-383456-0,Kluber Lubrication Argentina S A,247428416,                    ,Arribado
 2024-11-22,29766,HLBU-178260-8,Chemotecnica Sa,64981482,********************,Arribado
 2025-01-20,30859,,Chemotecnica Sa,25001EC01002179G,                    ,Arribado
-2024-10-07,28646,ZIMU-114659-7,Gestion Forward S.R.L.,ZIMUBUE9035599,********************,Arribado
 2025-01-08,30648,HLBU-180579-2,Gestion Forward S.R.L.,35381588,******************  ,Arribado
-2025-01-10,30674,MEDU-727401-1,Tipoiti Satic,LA0401266,***************     ,Arribado
-2025-01-10,30675,DFSU-748921-6,Tipoiti Satic,LA0401266,**************      ,Arribado
+2024-10-14,28774,TCLU-870492-0,Tipoiti Satic,LA0388004,**********          ,Arribado
+2024-10-14,28775,TGHU-603242-4,Tipoiti Satic,LA0388004,******************  ,Arribado
 2025-01-10,30676,MSMU-420880-6,Tipoiti Satic,LA0401266,**************      ,Arribado
-2024-11-25,29820,TCLU-305140-0,Tipoiti Satic,LA0394569,************        ,Arribado
-2024-11-25,29822,TCLU-834914-7,Tipoiti Satic,LA0394570,******************* ,Arribado
 2024-11-26,29839,,Tipoiti Satic,24001EC01077083L,                    ,Arribado
 2025-01-10,30671,TCNU-789897-8,Tipoiti Satic,LA0401266,***********         ,Arribado
 2025-01-10,30672,TCLU-880858-6,Tipoiti Satic,LA0401266,***********         ,Arribado
 2025-01-10,30673,CAIU-494355-5,Tipoiti Satic,LA0401266,*************       ,Arribado
-2024-11-11,29553,MSDU-896122-0,Tipoiti Satic,EBKG10593886,FX26259729          ,Arribado
+2025-01-10,30674,MEDU-727401-1,Tipoiti Satic,LA0401266,***************     ,Arribado
+2025-01-10,30675,DFSU-748921-6,Tipoiti Satic,LA0401266,**************      ,Arribado
 2024-11-22,29802,FCIU-918223-0,Tipoiti Satic,LA0394080,******************  ,Arribado
-2024-10-17,28876,ONEU-125801-7,Tipoiti Satic,BUEE13414500,***************     ,Arribado
+2024-11-25,29820,TCLU-305140-0,Tipoiti Satic,LA0394569,************        ,Arribado
+2024-11-25,29822,TCLU-834914-7,Tipoiti Satic,LA0394570,******************* ,Arribado
 2024-10-17,28877,TCNU-508761-0,Tipoiti Satic,BUEE13414500,*****************   ,Arribado
 2024-10-18,28922,,Tipoiti Satic,24001EC01067764Z,                    ,Arribado
 2024-11-11,29538,CIPU-501951-5,Tipoiti Satic,LA0392406,**************      ,Arribado
-2024-10-14,28774,TCLU-870492-0,Tipoiti Satic,LA0388004,**********          ,Arribado
-2024-10-14,28775,TGHU-603242-4,Tipoiti Satic,LA0388004,******************  ,Arribado
+2024-11-11,29553,MSDU-896122-0,Tipoiti Satic,EBKG10593886,FX26259729          ,Arribado
 2024-10-14,28776,TEMU-850185-3,Tipoiti Satic,LA0388004,*************       ,Arribado
 2024-10-14,28777,TRHU-705045-0,Tipoiti Satic,LA0388004,********************,Arribado
+2024-10-17,28876,ONEU-125801-7,Tipoiti Satic,BUEE13414500,***************     ,Arribado
 2024-11-04,29398,,Essadin Int´L S.A.,24001PE01000488T,                    ,Arribado
-2024-10-07,28643,MSNU-656445-6,Global Rover Logistic Srl,EBKG10426258,FX26230401          ,Arribado
-2024-10-07,28644,MSMU-570000-3,Global Rover Logistic Srl,EBKG10426258,FX26230400          ,Arribado
-2024-10-07,28645,TCLU-952212-8,Global Rover Logistic Srl,EBKG10426258,FX26230337          ,Arribado
-2025-01-20,30853,TGBU-256194-2,Global Rover Logistic Srl,EBKG11357988,FX26285079          ,Arribado
-2025-01-20,30854,MSMU-339823-4,Global Rover Logistic Srl,EBKG11357988,FX26285080          ,Arribado
-2025-01-20,30855,CAXU-320619-6,Global Rover Logistic Srl,EBKG11357988,FX26285019          ,Arribado
+2024-10-28,29180,FFAU-501399-7,Global Rover Logistic Srl,340400037262,***********         ,Arribado
+2024-10-28,29181,EITU-922291-2,Global Rover Logistic Srl,340400037262,******************  ,Arribado
 2025-01-20,30856,HPCU-253926-0,Global Rover Logistic Srl,EBKG11357988,FX26285018          ,Arribado
 2025-01-20,30857,MEDU-545320-8,Global Rover Logistic Srl,EBKG11357988,FX26285747          ,Arribado
 2025-01-20,30858,MSDU-116712-1,Global Rover Logistic Srl,EBKG11357988,FX26285748          ,Arribado
+2025-01-09,30666,TGBU-400643-0,Global Rover Logistic Srl,340500000360,****************    ,Arribado
+2025-01-09,30667,EITU-181402-6,Global Rover Logistic Srl,340500000360,********************,Arribado
+2025-01-20,30853,TGBU-256194-2,Global Rover Logistic Srl,EBKG11357988,FX26285079          ,Arribado
+2025-01-20,30854,MSMU-339823-4,Global Rover Logistic Srl,EBKG11357988,FX26285080          ,Arribado
+2025-01-20,30855,CAXU-320619-6,Global Rover Logistic Srl,EBKG11357988,FX26285019          ,Arribado
 2025-01-09,30663,EMCU-872166-0,Global Rover Logistic Srl,340500000360,******************  ,Arribado
 2025-01-09,30664,EGHU-960091-9,Global Rover Logistic Srl,340500000360,********************,Arribado
 2025-01-09,30665,TRHU-800120-8,Global Rover Logistic Srl,340500000360,****************    ,Arribado
-2025-01-09,30666,TGBU-400643-0,Global Rover Logistic Srl,340500000360,****************    ,Arribado
-2025-01-09,30667,EITU-181402-6,Global Rover Logistic Srl,340500000360,********************,Arribado
-2024-10-28,29180,FFAU-501399-7,Global Rover Logistic Srl,340400037262,***********         ,Arribado
-2024-10-28,29181,EITU-922291-2,Global Rover Logistic Srl,340400037262,******************  ,Arribado
 2024-10-24,29086,CAAU-536037-5,Isischu Srl,340400034912,******************  ,Arribado
 2025-01-30,31125,MSDU-528021-8,Isischu Srl,EBKG11571997,FX26280117          ,Arribado
 2025-01-30,31127,TEMU-818226-8,Isischu Srl,EBKG11571997,FX26280097          ,Arribado
@@ -393,10 +389,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-05,29411,MRKU-579884-9,Valerio Oliva Forestal Sa,244573548,                    ,Arribado
 2025-01-30,31085,MSMU-702026-3,Valerio Oliva Forestal Sa,EBKG11496032,FX26280095          ,Arribado
 2025-01-30,31086,MSDU-520697-2,Valerio Oliva Forestal Sa,EBKG11496032,FX26280092          ,Arribado
-2025-02-04,31178,,Asecor Srl,EBKG11588139,                    ,Pendiente
-2025-02-04,31179,,Asecor Srl,EBKG11588139,                    ,Pendiente
+2025-02-04,31178,MSBU-543361-8,Asecor Srl,EBKG11588139,FX-26264773         ,Arribado
+2025-02-04,31179,MSDU-545654-4,Asecor Srl,EBKG11588139,FX26264772          ,Arribado
 2025-02-04,31176,MSMU-835995-0,Asecor Srl,EBKG11588139,FX26264859          ,Arribado
-2025-02-04,31177,,Asecor Srl,EBKG11588139,                    ,Pendiente
+2025-02-04,31177,TIIU-445154-2,Asecor Srl,EBKG11588139,FX26264774          ,Arribado
 2025-01-17,30818,MSDU-725909-8,Asecor Srl,EBKG11317762,FX26302800          ,Arribado
 2025-01-02,30481,MSDU-855969-6,Asecor Srl,EBKG11142724,FX26267175          ,Arribado
 2025-01-02,30482,FFAU-350447-7,Asecor Srl,EBKG11142724,FX26267183          ,Arribado
@@ -455,31 +451,31 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-28,31043,MSKU-875261-1,Maringa Maderas Sa,248961228,********************,Arribado
 2025-01-28,31044,MSKU-990001-4,Maringa Maderas Sa,248961228,**************      ,Arribado
 2025-01-28,31045,MRKU-350003-0,Maringa Maderas Sa,248961228,********************,Arribado
-2024-12-17,30260,HLBU-223020-2,Maringa Maderas Sa,69322507,                    ,Arribado
 2025-01-16,30789,HLBU-169790-7,Maringa Maderas Sa,90175424,************        ,Arribado
 2025-01-17,30819,UACU-582409-4,Maringa Maderas Sa,62351283,*************       ,Arribado
-2024-12-03,29932,MRKU-560852-7,Maringa Maderas Sa,246821968,                    ,Arribado
 2024-12-03,29933,MRSU-444015-4,Maringa Maderas Sa,246821968,                    ,Arribado
 2024-12-05,30043,FANU-128503-3,Maringa Maderas Sa,65984680,                    ,Arribado
 2024-12-12,30106,BEAU-420016-0,Maringa Maderas Sa,63987257,                    ,Arribado
 2024-12-12,30179,,Maringa Maderas Sa,63987257,                    ,Pendiente
+2024-12-17,30260,HLBU-223020-2,Maringa Maderas Sa,69322507,                    ,Arribado
 2024-11-26,29843,TEMU-719303-6,Maringa Maderas Sa,69983458,*********           ,Arribado
 2024-12-03,29930,MRKU-418619-7,Maringa Maderas Sa,246821968,                    ,Arribado
 2024-12-03,29931,HASU-504439-5,Maringa Maderas Sa,246821968,                    ,Arribado
-2024-11-20,29691,TRHU-625582-0,Maringa Maderas Sa,246321985,***************     ,Arribado
+2024-12-03,29932,MRKU-560852-7,Maringa Maderas Sa,246821968,                    ,Arribado
 2024-11-20,29692,TCNU-156128-0,Maringa Maderas Sa,246321985,**************      ,Arribado
 2024-11-20,29695,MSKU-934265-3,Maringa Maderas Sa,246321985,********************,Arribado
 2024-11-19,29714,MRKU-242775-7,Maringa Maderas Sa,244938171,                    ,Arribado
 2024-11-19,29715,MRSU-607301-6,Maringa Maderas Sa,244938171,                    ,Arribado
 2024-11-22,29779,TCNU-286639-2,Maringa Maderas Sa,246321985,*****************   ,Arribado
 2024-11-05,29412,TCLU-544389-0,Maringa Maderas Sa,64645199,********************,Arribado
-2024-10-29,29244,EISU-852440-5,Maringa Maderas Sa,340400037130,******************  ,Arribado
+2024-11-20,29691,TRHU-625582-0,Maringa Maderas Sa,246321985,***************     ,Arribado
 2024-10-29,29245,TRHU-521190-0,Maringa Maderas Sa,340400037130,***************     ,Arribado
 2024-10-29,29246,EITU-102997-5,Maringa Maderas Sa,340400037130,****************    ,Arribado
 2024-10-24,29100,TCLU-809790-8,Maringa Maderas Sa,67642406,********************,Arribado
 2024-10-24,29101,HLBU-342568-3,Maringa Maderas Sa,66309075,********************,Arribado
 2024-10-29,29242,TGBU-992910-5,Maringa Maderas Sa,340400037130,********************,Arribado
 2024-10-29,29243,EGSU-930272-8,Maringa Maderas Sa,340400037130,******************* ,Arribado
+2024-10-29,29244,EISU-852440-5,Maringa Maderas Sa,340400037130,******************  ,Arribado
 2024-10-09,28693,TLLU-860604-8,Suabia Maderas Srl,EBKG10379281,FX26245597          ,Arribado
 2024-10-09,28694,FFAU-274664-5,Suabia Maderas Srl,EBKG10379281,FX26245585          ,Arribado
 2024-10-09,28695,MSDU-579448-0,Suabia Maderas Srl,EBKG10379281,FX26245516          ,Arribado
@@ -521,6 +517,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-23,29051,HLBU-165380-6,Suabia Maderas Srl,65302883,                    ,Arribado
 2024-11-05,29413,HLBU-143349-0,Suabia Maderas Srl,63645644,********************,Arribado
 2025-02-03,31157,EITU-130509-7,Piranga Sa,340500001340,******************* ,Arribado
+2025-02-05,31200,EGHU-833321-1,Piranga Sa,340500001358,**************      ,Arribado
+2025-02-05,31201,EMCU-183279-0,Piranga Sa,340500001358,****************    ,Arribado
+2025-02-05,31202,EMCU-154551-1,Piranga Sa,340500001358,******************  ,Arribado
 2025-01-29,31053,EMCU-178310-3,Piranga Sa,340500001332,********************,Arribado
 2025-01-29,31054,EITU-139086-4,Piranga Sa,340500001332,*************       ,Arribado
 2025-02-03,31153,TIIU-683289-3,Piranga Sa,340500001340,*************       ,Arribado
@@ -574,7 +573,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-15,28797,CAAU-716447-4,Arleather S.R.L.,244571578,*************       ,Arribado
 2024-10-15,28816,TLLU-582460-0,Arleather S.R.L.,244571303,**************      ,Arribado
 2024-10-15,28817,MSKU-925133-7,Arleather S.R.L.,244571303,**********          ,Arribado
-2025-02-04,31184,,Arleather S.R.L.,249067433,                    ,Pendiente
+2025-02-04,31184,TCKU-684631-6,Arleather S.R.L.,249067433,****************    ,Arribado
+2025-02-05,31203,MRSU-614902-4,Arleather S.R.L.,249068268,**************      ,Arribado
+2025-02-05,31204,TCKU-647380-3,Arleather S.R.L.,249068268,********************,Arribado
+2025-02-05,31205,TCNU-349880-2,Arleather S.R.L.,249068061,********************,Arribado
+2025-02-05,31206,,Arleather S.R.L.,249068061,                    ,Pendiente
+2025-02-05,31207,,Arleather S.R.L.,249068061,                    ,Pendiente
 2025-02-04,31180,TLLU-583730-0,Arleather S.R.L.,249067738,**************      ,Arribado
 2025-02-04,31181,MRSU-663813-3,Arleather S.R.L.,249067738,********************,Arribado
 2025-02-04,31182,MRKU-352785-3,Arleather S.R.L.,249067433,*************       ,Arribado
@@ -863,80 +867,80 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-22,29782,SEGU-805437-9,Libertun Hermanos Srl,24001EC01077239Y,                    ,Arribado
 2024-11-22,29783,STBU-263978-9,Libertun Hermanos Srl,24001EC01077239Y,                    ,Arribado
 2024-11-22,29784,STBU-262843-9,Libertun Hermanos Srl,24001EC01077239Y,                    ,Arribado
-2025-01-28,31024,,Norfor Sa,EBKG11198443,                    ,Pendiente
-2025-01-24,30956,EGHU-943835-1,Norfor Sa,340500001293,*************       ,Arribado
-2025-01-24,30961,EMCU-838174-4,Norfor Sa,340500002133,**********          ,Arribado
+2024-10-22,29024,PCIU-955765-6,Norfor Sa,BUE400151000,*************       ,Arribado
+2024-10-22,29025,PCIU-845224-4,Norfor Sa,BUE400151000,**********          ,Arribado
 2025-01-24,30962,EISU-830509-5,Norfor Sa,340500002133,**********          ,Arribado
 2025-01-24,30978,MSDU-620778-3,Norfor Sa,EBKG11198443,FX-26282929         ,Arribado
-2025-01-14,30766,EGSU-939788-9,Norfor Sa,340400044985,****************    ,Arribado
+2025-01-28,31024,,Norfor Sa,EBKG11198443,                    ,Pendiente
 2025-01-22,30900,MSDU-835297-0,Norfor Sa,EBKG11198471,FX26285616          ,Arribado
 2025-01-22,30901,MSDU-616232-8,Norfor Sa,EBKG11198471,FX26285603          ,Arribado
 2025-01-22,30902,TGCU-502829-4,Norfor Sa,EBKG11198471,FX26285600          ,Arribado
-2025-01-08,30647,TRHU-796403-4,Norfor Sa,EBKG10993215,FX26275445          ,Arribado
+2025-01-24,30956,EGHU-943835-1,Norfor Sa,340500001293,*************       ,Arribado
+2025-01-24,30961,EMCU-838174-4,Norfor Sa,340500002133,**********          ,Arribado
 2025-01-14,30763,TCLU-869294-2,Norfor Sa,340400044985,*************       ,Arribado
 2025-01-14,30764,TLLU-496267-3,Norfor Sa,340400044985,********************,Arribado
 2025-01-14,30765,TCNU-383139-0,Norfor Sa,340400044985,********************,Arribado
-2025-01-03,30561,MSBU-513110-9,Norfor Sa,EBKG10993198,FX26267037          ,Arribado
-2025-01-03,30562,BEAU-587470-5,Norfor Sa,EBKG10993198,FX26267051          ,Arribado
+2025-01-14,30766,EGSU-939788-9,Norfor Sa,340400044985,****************    ,Arribado
 2025-01-03,30563,MEDU-949098-2,Norfor Sa,EBKG10993198,FX26267020          ,Arribado
 2025-01-03,30564,DFSU-622684-8,Norfor Sa,EBKG10993198,FX26267003          ,Arribado
 2025-01-03,30565,MSDU-596173-6,Norfor Sa,EBKG10993198,FX26293663          ,Arribado
 2025-01-08,30646,MSMU-455616-5,Norfor Sa,EBKG10993215,FX26275439          ,Arribado
-2025-01-03,30555,MSMU-478125-3,Norfor Sa,EBKG11080911,FX26267050          ,Arribado
-2025-01-03,30556,MSMU-807600-9,Norfor Sa,EBKG11159503,FX26267054          ,Arribado
+2025-01-08,30647,TRHU-796403-4,Norfor Sa,EBKG10993215,FX26275445          ,Arribado
 2025-01-03,30557,MSMU-783169-8,Norfor Sa,EBKG11159503,FX26267047          ,Arribado
 2025-01-03,30558,TRHU-505055-4,Norfor Sa,EBKG11159503,FX26267008          ,Arribado
 2025-01-03,30559,MSNU-908988-0,Norfor Sa,EBKG10993230,FX26267002          ,Arribado
 2025-01-03,30560,FCIU-846975-6,Norfor Sa,EBKG10993230,FX26293749          ,Arribado
-2025-01-03,30549,MEDU-704636-7,Norfor Sa,EBKG11159572,FX26267089          ,Arribado
-2025-01-03,30550,MSDU-589400-5,Norfor Sa,EBKG11159572,FX26267088          ,Arribado
+2025-01-03,30561,MSBU-513110-9,Norfor Sa,EBKG10993198,FX26267037          ,Arribado
+2025-01-03,30562,BEAU-587470-5,Norfor Sa,EBKG10993198,FX26267051          ,Arribado
 2025-01-03,30551,MSDU-886103-1,Norfor Sa,EBKG11159572,FX26267090          ,Arribado
 2025-01-03,30552,MSMU-529697-2,Norfor Sa,EBKG10993176,FX26267053          ,Arribado
 2025-01-03,30553,MSDU-535464-5,Norfor Sa,EBKG11080911,FX26267066          ,Arribado
 2025-01-03,30554,MSMU-863281-2,Norfor Sa,EBKG11080911,FX26267052          ,Arribado
-2025-01-03,30543,MSDU-594726-0,Norfor Sa,EBKG10993206,FX26267073          ,Arribado
-2025-01-03,30544,MSMU-799241-3,Norfor Sa,EBKG10993206,FX26267096          ,Arribado
+2025-01-03,30555,MSMU-478125-3,Norfor Sa,EBKG11080911,FX26267050          ,Arribado
+2025-01-03,30556,MSMU-807600-9,Norfor Sa,EBKG11159503,FX26267054          ,Arribado
 2025-01-03,30545,MSMU-896457-1,Norfor Sa,EBKG10993206,FX26267101          ,Arribado
 2025-01-03,30546,TCNU-329389-1,Norfor Sa,EBKG10993206,FX26267064          ,Arribado
 2025-01-03,30547,MSNU-568483-7,Norfor Sa,EBKG11159572,FX26267078          ,Arribado
 2025-01-03,30548,FDCU-019997-3,Norfor Sa,EBKG11159572,FX26267079          ,Arribado
-2024-12-23,30381,TRHU-506810-5,Norfor Sa,EBKG10993157,FX26276902          ,Arribado
+2025-01-03,30549,MEDU-704636-7,Norfor Sa,EBKG11159572,FX26267089          ,Arribado
+2025-01-03,30550,MSDU-589400-5,Norfor Sa,EBKG11159572,FX26267088          ,Arribado
 2024-12-23,30382,CAAU-591554-0,Norfor Sa,EBKG10993157, FX26276905         ,Arribado
 2024-12-23,30383,MSMU-566218-2,Norfor Sa,EBKG10993157,FX26276910          ,Arribado
-2024-11-26,29845,FFAU-159814-2,Norfor Sa,340400043512,                    ,Arribado
+2025-01-03,30543,MSDU-594726-0,Norfor Sa,EBKG10993206,FX26267073          ,Arribado
+2025-01-03,30544,MSMU-799241-3,Norfor Sa,EBKG10993206,FX26267096          ,Arribado
+2024-12-23,30381,TRHU-506810-5,Norfor Sa,EBKG10993157,FX26276902          ,Arribado
 2024-11-26,29849,EISU-947064-3,Norfor Sa,340400043512,*******             ,Arribado
 2024-11-26,29850,EGHU-841044-7,Norfor Sa,340400043512,***************     ,Arribado
 2024-11-26,29851,EISU-857096-7,Norfor Sa,340400043512,***********         ,Arribado
 2024-11-26,29872,EGHU-821706-3,Norfor Sa,340400043512,                    ,Arribado
-2024-11-11,29561,BSIU-997496-0,Norfor Sa,340400038616,**************      ,Arribado
-2024-11-11,29562,TRHU-871426-1,Norfor Sa,340400038616,******************  ,Arribado
 2024-11-22,29760,OOCU-711926-6,Norfor Sa,COSU6401898700,***************     ,Arribado
 2024-11-22,29761,OOCU-721157-8,Norfor Sa,COSU6401898700,********************,Arribado
-2024-11-08,29522,TXGU-568441-3,Norfor Sa,340400038608,******************* ,Arribado
+2024-11-26,29845,FFAU-159814-2,Norfor Sa,340400043512,                    ,Arribado
 2024-11-08,29523,EMCU-155479-2,Norfor Sa,340400038608,****************    ,Arribado
 2024-11-08,29524,TCLU-858638-6,Norfor Sa,340400038608,**************      ,Arribado
 2024-11-08,29525,TGBU-692467-1,Norfor Sa,340400038764,                    ,Arribado
 2024-11-08,29526,GCXU-605573-9,Norfor Sa,340400038764,                    ,Arribado
-2024-11-05,29420,EITU-909150-9,Norfor Sa,340400036265,********************,Arribado
-2024-11-05,29421,GCXU-605270-3,Norfor Sa,340400036265,********************,Arribado
+2024-11-11,29561,BSIU-997496-0,Norfor Sa,340400038616,**************      ,Arribado
+2024-11-11,29562,TRHU-871426-1,Norfor Sa,340400038616,******************  ,Arribado
 2024-11-05,29422,TRHU-879170-9,Norfor Sa,340400036265,******************* ,Arribado
-2024-11-01,29350,EITU-927333-4,Norfor Sa,340400033673,************        ,Arribado
-2024-11-01,29351,EISU-853548-3,Norfor Sa,340400033673,******************* ,Arribado
+2024-11-08,29522,TXGU-568441-3,Norfor Sa,340400038608,******************* ,Arribado
 2024-11-01,29352,EGSU-932226-2,Norfor Sa,340400033673,************        ,Arribado
 2024-11-01,29353,EGHU-931337-5,Norfor Sa,340400033673,********************,Arribado
 2024-11-05,29418,EGHU-973110-1,Norfor Sa,340400036265,****************    ,Arribado
 2024-11-05,29419,TEMU-604503-4,Norfor Sa,340400036265,********************,Arribado
-2024-10-31,29318,BEAU-647815-0,Norfor Sa,BUE400152700,***************     ,Arribado
+2024-11-05,29420,EITU-909150-9,Norfor Sa,340400036265,********************,Arribado
+2024-11-05,29421,GCXU-605270-3,Norfor Sa,340400036265,********************,Arribado
 2024-10-31,29319,HPCU-463518-1,Norfor Sa,BUE400152700,****************    ,Arribado
 2024-10-31,29320,PIDU-417185-3,Norfor Sa,BUE400152700,******************* ,Arribado
 2024-10-31,29321,PCIU-939394-8,Norfor Sa,BUE400152700,**************      ,Arribado
 2024-10-31,29322,PCIU-930968-6,Norfor Sa,BUE400152700,*************       ,Arribado
-2024-10-28,29195,HLBU-220913-9,Norfor Sa,61303152,                    ,Arribado
+2024-11-01,29350,EITU-927333-4,Norfor Sa,340400033673,************        ,Arribado
+2024-11-01,29351,EISU-853548-3,Norfor Sa,340400033673,******************* ,Arribado
+2024-10-31,29318,BEAU-647815-0,Norfor Sa,BUE400152700,***************     ,Arribado
 2024-10-23,29056,PCIU-884251-4,Norfor Sa,BUE400151000,*****************   ,Arribado
 2024-10-23,29065,PCIU-855404-0,Norfor Sa,BUE400151000,*************       ,Arribado
 2024-10-23,29066,PCIU-925789-6,Norfor Sa,BUE400151000,******************  ,Arribado
-2024-10-22,29024,PCIU-955765-6,Norfor Sa,BUE400151000,*************       ,Arribado
-2024-10-22,29025,PCIU-845224-4,Norfor Sa,BUE400151000,**********          ,Arribado
+2024-10-28,29195,HLBU-220913-9,Norfor Sa,61303152,                    ,Arribado
 2024-10-22,29012,HLXU-845430-0,Santa Anita Oil Sa,65641857,***********         ,Arribado
 2024-10-22,29013,GESU-631843-6,Santa Anita Oil Sa,65641857,****************    ,Arribado
 2024-10-22,29026,FANU-105903-6,Santa Anita Oil Sa,65641857,**************      ,Arribado
@@ -957,27 +961,29 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-09,30141,MRKU-499242-2,Forestadora Tapebicua S.A.U,247122360,                    ,Arribado
 2024-12-09,30142,CXDU-107646-5,Forestadora Tapebicua S.A.U,247122360,                    ,Arribado
 2024-10-08,28678,MEDU-464808-3,Laharrague Chodorge Sociedad Anonima,EBKG10378432,FX26248710          ,Arribado
-2024-11-28,29867,EITU-138278-7,Laharrague Chodorge Sociedad Anonima,340400043865,*************       ,Arribado
-2024-11-28,29868,TIIU-462774-0,Laharrague Chodorge Sociedad Anonima,340400043865,+**********         ,Arribado
 2024-12-20,30361,TCNU-838166-0,Laharrague Chodorge Sociedad Anonima,69324992,**********          ,Arribado
 2025-01-10,30677,EISU-857444-8,Laharrague Chodorge Sociedad Anonima,340400050233,***************     ,Arribado
-2024-10-10,28732,CAIU-938730-9,Laharrague Chodorge Sociedad Anonima,245099341,********************,Arribado
-2024-10-10,28733,MIEU-306212-3,Laharrague Chodorge Sociedad Anonima,245099341,********************,Arribado
 2024-10-10,28734,MRKU-233601-9,Laharrague Chodorge Sociedad Anonima,245099341,********************,Arribado
 2024-10-10,28735,MRKU-407935-2,Laharrague Chodorge Sociedad Anonima,245099341,********************,Arribado
 2024-10-10,28736,MRSU-312699-8,Laharrague Chodorge Sociedad Anonima,245099341,********************,Arribado
 2024-11-28,29866,EMCU-157708-3,Laharrague Chodorge Sociedad Anonima,340400043865,**************      ,Arribado
-2024-10-10,28727,SUDU-851177-3,Laharrague Chodorge Sociedad Anonima,245099341,************        ,Arribado
+2024-11-28,29867,EITU-138278-7,Laharrague Chodorge Sociedad Anonima,340400043865,*************       ,Arribado
+2024-11-28,29868,TIIU-462774-0,Laharrague Chodorge Sociedad Anonima,340400043865,+**********         ,Arribado
 2024-10-10,28728,SUDU-854868-5,Laharrague Chodorge Sociedad Anonima,245099341,*************       ,Arribado
 2024-10-10,28729,MSKU-053337-1,Laharrague Chodorge Sociedad Anonima,245099341,********************,Arribado
 2024-10-10,28730,HASU-412952-2,Laharrague Chodorge Sociedad Anonima,245099341,****************    ,Arribado
 2024-10-10,28731,MSKU-114604-2,Laharrague Chodorge Sociedad Anonima,245099341,**************      ,Arribado
+2024-10-10,28732,CAIU-938730-9,Laharrague Chodorge Sociedad Anonima,245099341,********************,Arribado
+2024-10-10,28733,MIEU-306212-3,Laharrague Chodorge Sociedad Anonima,245099341,********************,Arribado
+2024-10-10,28727,SUDU-851177-3,Laharrague Chodorge Sociedad Anonima,245099341,************        ,Arribado
 2024-10-08,28670,BEAU-417498-6,Pallets Jauregui Sociedad Anonima,60637638,********************,Arribado
 2024-10-08,28671,TCKU-655178-4,Pallets Jauregui Sociedad Anonima,60637638,***************     ,Arribado
 2024-10-10,28726,CAIU-853356-4,Pallets Jauregui Sociedad Anonima,63975008,***********         ,Arribado
 2024-12-10,30123,,Pallets Jauregui Sociedad Anonima,24001EC01066272J,                    ,Arribado
 2024-12-13,30202,HLBU-176861-5,Pallets Jauregui Sociedad Anonima,60322236,                    ,Arribado
 2024-12-13,30203,FCIU-732303-1,Pallets Jauregui Sociedad Anonima,60322236,                    ,Arribado
+2025-02-05,31198,,Pallets Jauregui Sociedad Anonima,35750603,                    ,Pendiente
+2025-02-05,31199,,Pallets Jauregui Sociedad Anonima,35750603,                    ,Pendiente
 2024-10-22,29010,TEMU-813541-4,Pallets Jauregui Sociedad Anonima,67302901,*****************   ,Arribado
 2024-10-22,29011,HAMU-206467-3,Pallets Jauregui Sociedad Anonima,67302901,******************* ,Arribado
 2024-10-22,29021,TCLU-597305-7,Pallets Jauregui Sociedad Anonima,61302910,**********          ,Arribado
@@ -1012,11 +1018,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-18,28959,,Adp Trading Srl,EC01068500F,                    ,Arribado
 2024-10-18,28960,,Adp Trading Srl,EC01068500F,                    ,Arribado
 2024-11-01,29325,,Adp Trading Srl,24001EC01072021V,                    ,Arribado
-2025-02-04,31171,,Forestal Bosques Del Plata Sa,EBKG11615689,                    ,Pendiente
+2025-02-04,31171,MSDU-538984-7,Forestal Bosques Del Plata Sa,EBKG11615689,FX26264824          ,Arribado
 2025-02-04,31172,MSBU-551449-5,Forestal Bosques Del Plata Sa,EBKG11615689,FX26264856          ,Arribado
-2025-02-04,31173,,Forestal Bosques Del Plata Sa,EBKG11615689,                    ,Pendiente
-2025-02-04,31174,,Forestal Bosques Del Plata Sa,EBKG11615689,                    ,Pendiente
-2025-02-04,31175,,Forestal Bosques Del Plata Sa,EBKG11615689,                    ,Pendiente
+2025-02-04,31173,MSDU-792240-4,Forestal Bosques Del Plata Sa,EBKG11615689,FX26264827          ,Arribado
+2025-02-04,31174,MSMU-820147-7,Forestal Bosques Del Plata Sa,EBKG11615689,FX26264762          ,Arribado
+2025-02-04,31175,MSBU-547184-0,Forestal Bosques Del Plata Sa,EBKG11615689,FX26264761          ,Arribado
 2024-12-17,30269,TCLU-556446-5,Forestal Bosques Del Plata Sa,62654748,************        ,Arribado
 2024-12-17,30270,HLBU-190164-6,Forestal Bosques Del Plata Sa,62654748,**************      ,Arribado
 2024-12-17,30271,HLBU-210599-9,Forestal Bosques Del Plata Sa,62654748,************        ,Arribado

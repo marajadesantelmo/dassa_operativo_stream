@@ -53,7 +53,7 @@ def generar_comprobante(balanza_row):
     pdf.set_xy(15, pdf.get_y())
     pdf.cell(200, 6, txt="Vto. Certificación: 05/04/2025                 Tipo: Camiones", ln=True, align="L")
     pdf.set_xy(15, pdf.get_y())
-    pdf.cell(200, 6, txt="Aduana: 001                                           Lote Balanza: 11002", ln=True, align="L")
+    pdf.cell(200, 6, txt="Aduana: 001                                            Lote Balanza: 11002", ln=True, align="L")
     pdf.ln(5)
     # Add table title
     pdf.set_font("Arial", style='B', size=12)
