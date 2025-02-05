@@ -7,6 +7,9 @@ from utils import highlight
 @st.cache_data(ttl=60) 
 def fetch_data_balanza():
     balanza = pd.read_csv('data/balanza.csv')
+    # Convert specified columns to string
+    columns_to_convert = ['Peso Bruto', 'Peso Tara', 'Peso Neto', 'Peso Mercadería', 'Masa Verificada']
+    balanza[columns_to_convert] = balanza[columns_to_convert].astype(str)
     return balanza
 
 def show_page_balanza():
