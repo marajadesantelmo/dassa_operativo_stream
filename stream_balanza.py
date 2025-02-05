@@ -6,7 +6,7 @@ from utils import highlight, generar_comprobante
 
 @st.cache_data(ttl=60) 
 def fetch_data_balanza():
-    balanza = pd.read_csv('data/balanza.csv')
+    balanza = pd.read_csv('data/balanza.csv') # Me quedo con la info de balanza completa para generar comprobante
     balanza_impo = balanza[balanza['tipo_oper'] == 'Importacion']
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
     columns = ['ID Pesada', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
