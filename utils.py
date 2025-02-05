@@ -1,7 +1,7 @@
-import pandas as pd
 import numpy as np
-from fpdf import FPDF
+import pandas as pd
 from datetime import datetime
+from fpdf import FPDF
 
 
 def highlight(row):
@@ -27,9 +27,7 @@ def generar_comprobante(balanza_row):
     current_date = datetime.now().strftime("%Y-%m-%d")
     pdf = FPDF()
     pdf.add_page()
-
     pdf.image("membrete.png", x=10, y=10, w=pdf.w - 20)
-
     # Add invoice title
     pdf.set_font("Arial", style='B', size=22)
     pdf.set_text_color(0, 0, 0)  
@@ -39,7 +37,8 @@ def generar_comprobante(balanza_row):
     # Add invoice number and date
     pdf.set_font("Arial", style='B', size=18)
     pdf.set_text_color(131, 148, 150)  
-    pdf.cell(200, 10, txt=f"ID Pesada: {balanza_row['id Pesada']}"  , ln=True, align="R")                                                                   Date: {current_date}", ln=True, align="L")
+    pdf.cell(200, 10, txt=f"ID Pesada: {balanza_row['id Pesada']}", ln=True, align="R")
+    pdf.cell(200, 10, txt=f"Fecha: {current_date}", ln=True, align="L")
     pdf.ln(5)
 
     # Add table title
@@ -84,4 +83,6 @@ def generar_comprobante(balanza_row):
     pdf.ln(5)
 
     # Save the PDF and return it
-    return pdf
+    pdf_output = f"comprobante_{balanza_row['id Pesada']}.pdf"
+    pdf.output(pdf_output)
+    return pdf_output
