@@ -49,7 +49,7 @@ def generar_comprobante(balanza_row):
     pdf.rect(x=10, y=pdf.get_y(), w=pdf.w - 20, h=20, style='D')  # Draw rectangle
 
     pdf.set_xy(15, pdf.get_y() + 2)  # Adjust position inside the rectangle
-    pdf.cell(200, 6, txt="Certificado Habilitación: 307-45317        Balanza: Balanza de Cambiones", ln=True, align="L")
+    pdf.cell(200, 6, txt="Certificado Habilitación: 307-45317        Balanza: Balanza de Camiones", ln=True, align="L")
     pdf.set_xy(15, pdf.get_y())
     pdf.cell(200, 6, txt="Vto. Certificación: 05/04/2025                 Tipo: Camiones", ln=True, align="L")
     pdf.set_xy(15, pdf.get_y())
@@ -64,12 +64,24 @@ def generar_comprobante(balanza_row):
     # Add table rows
     pdf.set_text_color(0, 0, 0)  # Reset to black
     pdf.set_font("Arial", size=10)
-    fields = ['Cliente', 'CUIT Cliente', 'ATA', 'CUIT ATA', 'Contenedor', 'Entrada', 'Salida', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Tipo Doc', 'Num Doc', 'Observaciones', 'Booking', 'Permiso Emb.', 'Precinto']
-    
-    for field in fields:
-        pdf.cell(40, 10, txt=str(field), border=1, align="C")
-        pdf.cell(150, 10, txt=str(balanza_row[field]), border=1, align="C")
+    left_fields = ['Cliente', 'CUIT Cliente', 'ATA', 'CUIT ATA']
+    right_fields = ['Contenedor', 'Entrada', 'Salida', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Tipo Doc', 'Num Doc', 'Observaciones', 'Booking', 'Permiso Emb.', 'Precinto']
+
+    for left_field, right_field in zip(left_fields, right_fields):
+        pdf.cell(40, 10, txt=str(left_field), border=1, align="C")
+        pdf.cell(60, 10, txt=str(balanza_row[left_field]), border=1, align="C")
+        pdf.cell(40, 10, txt=str(right_field), border=1, align="C")
+        pdf.cell(60, 10, txt=str(balanza_row[right_field]), border=1, align="C")
         pdf.ln()
+
+    # If there are remaining fields in right_fields
+    if len(right_fields) > len(left_fields):
+        for right_field in right_fields[len(left_fields):]:
+            pdf.cell(40, 10, txt="", border=1, align="C")
+            pdf.cell(60, 10, txt="", border=1, align="C")
+            pdf.cell(40, 10, txt=str(right_field), border=1, align="C")
+            pdf.cell(60, 10, txt=str(balanza_row[right_field]), border=1, align="C")
+            pdf.ln()
     pdf.ln(2)
     pdf.set_font("Arial", style='B', size=12)
     pdf.set_text_color(190, 30, 45)   # Solarized base0 color
