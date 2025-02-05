@@ -9,7 +9,7 @@ def fetch_data_balanza():
     balanza = pd.read_csv('data/balanza.csv')
     balanza_impo = balanza[balanza['tipo_oper'] == 'Importacion']
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
-    columns = ['ID Pesada', 'Cliente', 'ATA Nombre', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
+    columns = ['ID Pesada', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
        'Peso Neto', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Observaciones',
        'Booking', 'Permiso Emb.', 'Precinto']
     balanza_impo = balanza_impo[columns]
@@ -27,7 +27,7 @@ def show_page_balanza():
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Operaciones en balanza del {current_day}")
     st.subheader("Importación")
-    columns_to_format = ['id Pesada', 'Peso Bruto', 'Peso Neto', 'Peso Mercadería']
+    columns_to_format = ['ID Pesada', 'Peso Bruto', 'Peso Neto', 'Peso Mercadería']
 
     st.dataframe(balanza_impo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
     st.subheader("Exportación")
@@ -36,7 +36,7 @@ def show_page_balanza():
     st.subheader("Generar Comprobante")
     id_pesada = st.selectbox("Seleccione el ID de Pesada", balanza['id Pesada'].tolist())
     if st.button("Generar Comprobante"):
-        balanza_row = balanza[balanza['id Pesada'] == id_pesada].iloc[0] 
+        balanza_row = balanza[balanza['ID Pesada'] == id_pesada].iloc[0] 
         pdf = generar_comprobante(balanza_row)
         pdf_output = f"comprobante_pesada_{id_pesada}.pdf"
         pdf.output(pdf_output)
