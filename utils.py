@@ -28,7 +28,7 @@ def generar_comprobante(balanza_row):
     pdf = FPDF()
     pdf.add_page()
 
-    pdf.image("logo.png", x=10, y=10, w=40)
+    pdf.image("membrete.png", x=10, y=10, w=pdf.w - 20)
 
     # Add invoice title
     pdf.set_font("Arial", style='B', size=16)
