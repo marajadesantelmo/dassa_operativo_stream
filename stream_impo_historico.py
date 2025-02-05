@@ -4,8 +4,11 @@ from datetime import datetime
 
 def fetch_data_impo_historico():
     arribos_impo_historico = pd.read_csv('data/arribos_impo_historico.csv')
+    arribos_impo_historico['e-tally'] = arribos_impo_historico['e-tally'].fillna("")
     historico_retiros_impo = pd.read_csv('data/historico_retiros_impo.csv')
+    historico_retiros_impo['e-tally'] = historico_retiros_impo['e-tally'].fillna("")
     historico_verificaciones_impo = pd.read_csv('data/historico_verificaciones_impo.csv')
+    historico_verificaciones_impo['e-tally'] = historico_verificaciones_impo['e-tally'].fillna("")
     historico_otros_impo = pd.read_csv('data/historico_otros_impo.csv')
     return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo
 
@@ -52,7 +55,10 @@ def show_page_impo_historico():
             cliente_arribos = st.selectbox("Cliente", options=client_options, key='cliente_arribos')
             filtered_data_arribos = filter_data(arribos_impo_historico, cliente_arribos, start_date_arribos, end_date_arribos, "Fecha")
         
-        st.dataframe(filtered_data_arribos, hide_index=True, use_container_width=True)
+        st.dataframe(filtered_data_arribos, 
+                    column_config={'e-tally': st.column_config.LinkColumn('e-tally', 
+                                                display_text="\U0001F517",)},
+                     hide_index=True, use_container_width=True)
 
         st.subheader("Verificaciones")
         col1_4, col1_5, col1_6 = st.columns(3)
@@ -66,7 +72,10 @@ def show_page_impo_historico():
             client_options = ["Todos los clientes"] + sorted(list(historico_verificaciones_impo['Cliente'].unique()))
             cliente_verificaciones = st.selectbox("Cliente", options=client_options, key='cliente_verificaciones')
             filtered_data_verificaciones = filter_data(historico_verificaciones_impo, cliente_verificaciones, start_date_verificaciones, end_date_verificaciones, "Dia")        
-        st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
+        st.dataframe(filtered_data_verificaciones,                     
+                     column_config={'e-tally': st.column_config.LinkColumn('e-tally', 
+                                                display_text="\U0001F517",)},
+                     hide_index=True, use_container_width=True)
 
     with col2:
         st.subheader("Retiros")
@@ -81,7 +90,10 @@ def show_page_impo_historico():
             client_options = ["Todos los clientes"] + sorted(list(historico_retiros_impo['Cliente'].unique()))
             cliente_retiros = st.selectbox("Cliente", options=client_options, key='cliente_retiros')
             filtered_data_retiros = filter_data(historico_retiros_impo, cliente_retiros, start_date_retiros, end_date_retiros, "Dia") 
-        st.dataframe(filtered_data_retiros, hide_index=True, use_container_width=True)
+        st.dataframe(filtered_data_retiros,                     
+                     column_config={'e-tally': st.column_config.LinkColumn('e-tally', 
+                                                display_text="\U0001F517",)},
+                     hide_index=True, use_container_width=True)
 
         st.subheader("Otros")
         col2_4, col2_5, col2_6 = st.columns(3)
