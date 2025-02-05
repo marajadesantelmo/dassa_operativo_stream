@@ -68,21 +68,41 @@ def generar_comprobante(balanza_row):
     right_fields = ['ATA', 'CUIT ATA',  'Salida', 'Descripción', 'Patente Semi',  'Tipo Doc', 'Num Doc', 'Booking', 'Permiso Emb.']
 
     for left_field, right_field in zip(left_fields, right_fields):
-        pdf.cell(35, 8, txt=str(left_field), border=1, align="C")
-        pdf.cell(55, 8, txt=str(balanza_row[left_field]), border=1, align="C")
-        pdf.cell(35, 8, txt=str(right_field), border=1, align="C")
+        pdf.cell(35, 8, txt=str(left_field), border=0.5, align="C")
+        pdf.cell(55, 8, txt=str(balanza_row[left_field]), border=0.5, align="C")
+        pdf.cell(35, 8, txt=str(right_field), border=0.5, align="0.5")
         pdf.cell(55, 8, txt=str(balanza_row[right_field]), border=1, align="C")
         pdf.ln()
 
     # If there are remaining fields in right_fields
     if len(right_fields) > len(left_fields):
         for right_field in right_fields[len(left_fields):]:
-            pdf.cell(40, 10, txt="", border=1, align="C")
-            pdf.cell(60, 10, txt="", border=1, align="C")
-            pdf.cell(40, 10, txt=str(right_field), border=1, align="C")
-            pdf.cell(60, 10, txt=str(balanza_row[right_field]), border=1, align="C")
+            pdf.cell(35, 8, txt="", border=1, align="C")
+            pdf.cell(55, 8, txt="", border=1, align="C")
+            pdf.cell(35, 8, txt=str(right_field), border=1, align="C")
+            pdf.cell(55, 8, txt=str(balanza_row[right_field]), border=1, align="C")
             pdf.ln()
     pdf.ln(2)
+
+    # Add table title for weights
+    pdf.set_font("Arial", style='B', size=12)
+    pdf.set_text_color(131, 148, 150)  # Solarized base0 color
+    pdf.cell(200, 10, txt="Pesaje en Balanza:", ln=True, align="L")
+    pdf.ln(3)
+
+    # Add table rows for weights
+    pdf.set_text_color(0, 0, 0)  # Reset to black
+    pdf.set_font("Arial", size=10)
+    weight_fields = ['Peso Bruto', 'Peso Tara', 'Peso Neto', 'Peso Mercadería']
+
+    pdf.set_fill_color(211, 211, 211)  # Light gray background
+    for field in weight_fields:
+        pdf.cell(50, 8, txt=str(field), border=1, align="C", fill=True)
+        pdf.cell(50, 8, txt=str(balanza_row[field]), border=1, align="C", fill=True)
+        pdf.ln()
+    pdf.ln(2)
+
+
     pdf.set_font("Arial", style='B', size=12)
     pdf.set_text_color(190, 30, 45)   # Solarized base0 color
     pdf.cell(200, 3, txt="DASSA - Depósito Avellaneda Sur S.A.", ln=True, align="L")
