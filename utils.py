@@ -34,13 +34,19 @@ def generar_comprobante(balanza_row):
     pdf.ln(25)
     pdf.cell(200, 10, txt="Comprobante de pesaje en balanza", ln=True, align="R")
     pdf.ln(1)
-    # Add invoice number and date
+    # Add id pesada, date and other fix text
     pdf.set_font("Arial", style='B', size=16)
     pdf.set_text_color(0, 0, 0)  
     pdf.cell(200, 10, txt=f"ID Pesada: {balanza_row['id Pesada']}", ln=True, align="R")
     pdf.cell(200, 10, txt=f"Fecha: {current_date}", ln=True, align="L")
     pdf.ln(5)
-
+    # Add fixed data
+    pdf.set_font("Arial", size=12)
+    pdf.set_text_color(0, 0, 0)
+    pdf.cell(200, 10, txt="Certificado Habilitación: 307-45317        Balanza: Balanza de Cambiones", ln=True, align="L")
+    pdf.cell(200, 10, txt="Vto. Certificación: 05/04/2025             Tipo: Camiones", ln=True, align="L")
+    pdf.cell(200, 10, txt="Aduana: 001                                Lote Balanza: 11002", ln=True, align="L")
+    pdf.ln(5)
     # Add table title
     pdf.set_font("Arial", style='B', size=12)
     pdf.set_text_color(131, 148, 150)  # Solarized base0 color
