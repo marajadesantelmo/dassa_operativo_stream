@@ -85,4 +85,4 @@ def generar_comprobante(balanza_row):
     # Save the PDF and return it
     pdf_output = f"comprobante_{balanza_row['id Pesada']}.pdf"
     pdf.output(pdf_output)
-    return pdf_output
+    return pdf
