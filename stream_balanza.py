@@ -3,6 +3,7 @@ import pandas as pd
 import time
 from datetime import datetime
 from utils import highlight, generar_comprobante
+import io
 
 @st.cache_data(ttl=60) 
 def fetch_data_balanza():
@@ -35,16 +36,21 @@ def show_page_balanza():
     if st.button("Generar Comprobante"):
         balanza_row = balanza[balanza['id Pesada'] == id_pesada].iloc[0] 
         pdf = generar_comprobante(balanza_row)
-        pdf_output = f"comprobante_pesada_{id_pesada}.pdf"
-        pdf.output(pdf_output)
-        with open(pdf_output, "rb") as file:
-            st.download_button(
-                label="Descargar Comprobante",
-                data=file,
-                file_name=pdf_output,
-                mime="application/pdf"
-            )
-        st.success(f"Comprobante generado: {pdf_output}")
+
+        # Save the PDF to memory
+        pdf_buffer = io.BytesIO()
+        pdf.output(pdf_buffer)
+        pdf_buffer.seek(0)  # Reset buffer position
+
+        # Provide a download button
+        st.download_button(
+            label="Descargar Comprobante",
+            data=pdf_buffer,
+            file_name=f"comprobante_pesada_{id_pesada}.pdf",
+            mime="application/pdf"
+        )
+        
+        st.success("Comprobante generado y listo para descargar.")
 
 # Run the show_page function
 if __name__ == "__main__":
