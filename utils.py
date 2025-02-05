@@ -58,32 +58,21 @@ def generar_comprobante(balanza_row):
     # Add table title
     pdf.set_font("Arial", style='B', size=12)
     pdf.set_text_color(131, 148, 150)  # Solarized base0 color
-    pdf.cell(200, 10, txt="Detalles de Balanza", ln=True, align="L")
+    pdf.cell(200, 10, txt="Detalles de operación en Balanza", ln=True, align="L")
     pdf.ln(3)
-
-    # Add table header with Solarized base01 background
-    pdf.set_fill_color(88, 110, 117)  # Solarized base01 color
-    pdf.set_text_color(255, 255, 255)  # White
-    pdf.set_font("Arial", style='B', size=10)
-    pdf.cell(40, 10, txt="Field", border=1, fill=True, align="C")
-    pdf.cell(150, 10, txt="Value", border=1, fill=True, align="C")
-    pdf.ln()
 
     # Add table rows
     pdf.set_text_color(0, 0, 0)  # Reset to black
     pdf.set_font("Arial", size=10)
-    fields = [
-        "Cliente", "Contenedor", "Entrada", "Salida", "Peso Bruto", "Peso Tara", 
-        "Peso Neto", "Peso Mercadería", "Descr.", "Patente Ch", "Patente Semi", 
-        "Chofer", "Obs.", "tipo_oper"
-    ]
+    fields = ['Cliente', 'CUIT Cliente', 'ATA', 'CUIT ATA', 'Contenedor', 'Entrada', 'Salida', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Tipo Doc', 'Num Doc', 'Observaciones', 'Booking', 'Permiso Emb.', 'Precinto']
+    
     for field in fields:
         pdf.cell(40, 10, txt=str(field), border=1, align="C")
         pdf.cell(150, 10, txt=str(balanza_row[field]), border=1, align="C")
         pdf.ln()
     pdf.ln(2)
     pdf.set_font("Arial", style='B', size=12)
-    pdf.set_text_color(131, 148, 150)  # Solarized base0 color
+    pdf.set_text_color(190, 30, 45)   # Solarized base0 color
     pdf.cell(200, 3, txt="DASSA - Depósito Avellaneda Sur S.A.", ln=True, align="L")
     pdf.ln(5)
     pdf.set_font("Arial", size=10)
