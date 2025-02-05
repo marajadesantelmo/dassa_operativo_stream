@@ -31,11 +31,11 @@ def generar_comprobante(balanza_row):
     # Add invoice title
     pdf.set_font("Arial", style='B', size=22)
     pdf.set_text_color(190, 30, 45)  # #be1e2d color
-    pdf.ln(20)
+    pdf.ln(25)
     pdf.cell(200, 10, txt="Comprobante de pesaje en balanza", ln=True, align="R")
-    pdf.ln(2)
+    pdf.ln(1)
     # Add invoice number and date
-    pdf.set_font("Arial", style='B', size=18)
+    pdf.set_font("Arial", style='B', size=16)
     pdf.set_text_color(0, 0, 0)  
     pdf.cell(200, 10, txt=f"ID Pesada: {balanza_row['id Pesada']}", ln=True, align="R")
     pdf.cell(200, 10, txt=f"Fecha: {current_date}", ln=True, align="L")
