@@ -115,7 +115,7 @@ def generar_comprobante(balanza_row):
     pdf.set_text_color(0, 0, 0)  # Reset to black
     pdf.set_font("Arial", size=12)
     pdf.cell(200, 3, txt="    ........................                  ..............................                ..............................                  .............................", ln=True, align="C")
-    pdf.cell(200, 3, txt="Administración                          Encargado                          Transporte                             Aduana", ln=True, align="C")
+    pdf.cell(200, 3, txt="Administración                      Encargado                      Transporte                                   Aduana", ln=True, align="C")
     pdf.ln(15)
     pdf.set_font("Arial", style='B', size=12)
     pdf.set_text_color(190, 30, 45)   # Solarized base0 color
