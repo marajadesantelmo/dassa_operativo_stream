@@ -22,7 +22,10 @@ def show_page_balanza():
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Operaciones en balanza del {current_day}")
     st.subheader("Importación")
-    st.dataframe(balanza_impo, hide_index=True, use_container_width=True)
+    st.dataframe(balanza_impo, 
+                 column_config={'Peso Bruto': st.column_config.NumberColumn('Peso Bruto', 
+                                    format=",.0f")},
+                 hide_index=True, use_container_width=True)
     st.subheader("Exportación")
     st.dataframe(balanza_expo, hide_index=True, use_container_width=True)
 
