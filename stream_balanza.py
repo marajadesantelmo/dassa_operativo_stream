@@ -22,16 +22,10 @@ def show_page_balanza():
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Operaciones en balanza del {current_day}")
     st.subheader("Importación")
-    columns_to_format = ['id Pesada', 'Peso Bruto', 'Peso Tara', 'Peso Neto', 'Peso Mercadería']
-    st.dataframe(balanza_impo, 
-            column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format},
-            hide_index=True, 
-            use_container_width=True)
+    st.dataframe(balanza_impo, hide_index=True, use_container_width=True)
     st.subheader("Exportación")
-    st.dataframe(balanza_expo,
-            column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format},
-            hide_index=True, 
-            use_container_width=True)
+    st.dataframe(balanza_expo, hide_index=True, use_container_width=True)
+
 # Run the show_page function
 if __name__ == "__main__":
     while True:
