@@ -32,13 +32,12 @@ def generar_comprobante(balanza_row):
     pdf.set_font("Arial", style='B', size=22)
     pdf.set_text_color(190, 30, 45)  # #be1e2d color
     pdf.ln(25)
-    pdf.cell(200, 10, txt="Comprobante de pesaje en balanza", ln=True, align="R")
+    pdf.cell(200, 10, txt="Comprobante de pesaje en balanza    ", ln=True, align="R")
     pdf.ln(1)
     # Add id pesada, date and other fix text
     pdf.set_font("Arial", style='B', size=16)
     pdf.set_text_color(0, 0, 0)  
-    pdf.cell(200, 10, txt=f"ID Pesada: {balanza_row['id Pesada']}", ln=True, align="R")
-    pdf.cell(200, 10, txt=f"Fecha: {current_date}", ln=True, align="L")
+    pdf.cell(200, 10, txt=f"ID Pesada: {balanza_row['id Pesada']}     Fecha: {current_date}", ln=True, align="L")
     pdf.ln(5)
     # Add fixed data
     pdf.set_font("Arial", size=12)
