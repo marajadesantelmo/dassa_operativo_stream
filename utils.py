@@ -93,7 +93,7 @@ def generar_comprobante(balanza_row):
     # Add table title for weights
     pdf.set_font("Arial", style='B', size=12)
     pdf.set_text_color(131, 148, 150)  # Solarized base0 color
-    pdf.cell(200, 10, txt="Pesaje en Balanza:", ln=True, align="L")
+    pdf.cell(0, 10, txt="Pesaje en Balanza", ln=True, align="C")
     pdf.ln(3)
 
     # Add table rows for weights
@@ -102,7 +102,11 @@ def generar_comprobante(balanza_row):
     weight_fields = ['Peso Bruto', 'Peso Tara', 'Peso Neto', 'Peso Mercadería']
 
     pdf.set_fill_color(211, 211, 211)  # Light gray background
+    table_width = 100  # Total width of the table (50 + 50)
+    start_x = (pdf.w - table_width) / 2  # Calculate starting x position to center the table
+
     for field in weight_fields:
+        pdf.set_x(start_x)  # Set x position to start_x to center the table
         pdf.cell(50, 8, txt=str(field), border=1, align="C", fill=True)
         pdf.cell(50, 8, txt=str(balanza_row[field]), border=1, align="C", fill=True)
         pdf.ln()
