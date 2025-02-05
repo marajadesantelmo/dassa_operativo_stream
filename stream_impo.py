@@ -70,8 +70,8 @@ def show_page_impo():
     with col5:
         st.subheader("Almacen")
         st.dataframe(existente_alm, 
-                column_config={'e-tally': st.column_config.LinkColumn('e-tally link', 
-                                                                    display_text='e-tally',)},
+                column_config={'e-tally': st.column_config.LinkColumn('e-tally', 
+                                                                    display_text="\U0001F517",)},
                 hide_index=True, use_container_width=True)
 
 # Run the show_page function
