@@ -92,7 +92,7 @@ def generar_comprobante(balanza_row):
 
     # Add table title for weights
     pdf.set_font("Arial", style='B', size=12)
-    pdf.set_text_color(131, 148, 150)  # Solarized base0 color
+    pdf.set_text_color(0, 0, 0)  # Solarized base0 color
     pdf.cell(0, 10, txt="Pesaje en Balanza", ln=True, align="C")
     pdf.ln(3)
 
@@ -110,7 +110,7 @@ def generar_comprobante(balanza_row):
         pdf.cell(50, 8, txt=str(field), border=1, align="C", fill=True)
         pdf.cell(50, 8, txt=str(balanza_row[field]), border=1, align="C", fill=True)
         pdf.ln()
-    pdf.ln(2)
+    pdf.ln(15)
 
 
     pdf.set_font("Arial", style='B', size=12)
