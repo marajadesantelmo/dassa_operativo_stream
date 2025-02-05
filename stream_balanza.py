@@ -24,7 +24,7 @@ def show_page_balanza():
     st.subheader("Importación")
     st.dataframe(balanza_impo, 
                  column_config={'Peso Bruto': st.column_config.NumberColumn('Peso Bruto', 
-                                    format=",.0f")},
+                                    format="%.0f")},
                  hide_index=True, use_container_width=True)
     st.subheader("Exportación")
     st.dataframe(balanza_expo, hide_index=True, use_container_width=True)
