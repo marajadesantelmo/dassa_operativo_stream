@@ -32,25 +32,25 @@ def generar_comprobante(balanza_row):
 
     # Add invoice title
     pdf.set_font("Arial", style='B', size=16)
-    pdf.set_text_color(0, 100, 0)  # Dark green color
+    pdf.set_text_color(131, 148, 150)  # Solarized base0 color
     pdf.cell(200, 10, txt="Depósito Avellaneda Sur S.A.", ln=True, align="C")
     pdf.cell(200, 10, txt="Comprobante de pesaje en balanza", ln=True, align="C")
     pdf.ln(10)
 
     # Add invoice number and date
     pdf.set_font("Arial", style='B', size=10)
-    pdf.set_text_color(0, 100, 0)  # Dark green
+    pdf.set_text_color(131, 148, 150)  # Solarized base0 color
     pdf.cell(200, 10, txt=f"ID Pesada: {balanza_row['id Pesada']}                                                                     Date: {current_date}", ln=True, align="L")
     pdf.ln(5)
 
     # Add table title
     pdf.set_font("Arial", style='B', size=12)
-    pdf.set_text_color(0, 100, 0)  # Dark green
+    pdf.set_text_color(131, 148, 150)  # Solarized base0 color
     pdf.cell(200, 10, txt="Detalles de Balanza", ln=True, align="L")
     pdf.ln(3)
 
-    # Add table header with dark green background
-    pdf.set_fill_color(0, 100, 0)  # Dark green
+    # Add table header with Solarized base01 background
+    pdf.set_fill_color(88, 110, 117)  # Solarized base01 color
     pdf.set_text_color(255, 255, 255)  # White
     pdf.set_font("Arial", style='B', size=10)
     pdf.cell(40, 10, txt="Field", border=1, fill=True, align="C")
@@ -71,18 +71,16 @@ def generar_comprobante(balanza_row):
         pdf.ln()
     pdf.ln(2)
     pdf.set_font("Arial", style='B', size=12)
-    pdf.set_text_color(0, 0, 0) 
+    pdf.set_text_color(131, 148, 150)  # Solarized base0 color
     pdf.cell(200, 3, txt="DASSA - Depósito Avellaneda Sur S.A.", ln=True, align="L")
     pdf.ln(5)
     pdf.set_font("Arial", size=10)
-    pdf.set_text_color(0, 0, 0)  # Reset to black
+    pdf.set_text_color(131, 148, 150)  # Solarized base0 color
     pdf.multi_cell(0, 3, txt=(
-        "6705 NW 36th Street\n"
-        "Suite 440\n"
-        "Miami, Florida 33166\n"
-        "Phone Number: +1-786-264-0050\n"
-        "Office Hours: Mon-Fri, 8am - 5pm\n" 
-        "Email: miami@dgmflorida.com"
+        "Av. Crisólogo Larralde 3065, Sarandí,\n"
+        "Avellaneda, Buenos Aires, Argentina\n"
+        "Email: info@dassa.com.ar \n"
+        "Teléfono: + 54 11 2206 9300"
     ), align="L")
     pdf.ln(5)
 
