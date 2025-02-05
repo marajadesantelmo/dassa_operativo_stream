@@ -38,7 +38,7 @@ def generar_comprobante(balanza_row):
     pdf.set_font("Arial", style='B', size=16)
     pdf.set_text_color(0, 0, 0)  
     pdf.cell(100, 10, txt=f"ID Pesada: {balanza_row['id Pesada']}", ln=False, align="L")
-    pdf.cell(100, 10, txt=f"Fecha: {current_date}", ln=True, align="R")
+    pdf.cell(100, 10, txt=f"Fecha: {current_date}    ", ln=True, align="R")
     pdf.ln(5)
     # Add fixed data
     pdf.set_font("Arial", size=12)
@@ -46,7 +46,7 @@ def generar_comprobante(balanza_row):
     pdf.set_draw_color(0, 0, 0)  # Black border
     pdf.set_fill_color(211, 211, 211)  # Light gray background
     pdf.set_line_width(0.5)
-    pdf.rect(x=10, y=pdf.get_y(), w=pdf.w - 20, h=18, style='D')  # Draw rectangle
+    pdf.rect(x=10, y=pdf.get_y(), w=pdf.w - 20, h=20, style='D')  # Draw rectangle
 
     pdf.set_xy(15, pdf.get_y() + 2)  # Adjust position inside the rectangle
     pdf.cell(200, 6, txt="Certificado Habilitación: 307-45317        Balanza: Balanza de Cambiones", ln=True, align="L")
