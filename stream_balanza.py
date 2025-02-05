@@ -11,11 +11,11 @@ def fetch_data_balanza():
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
     balanza_impo.drop(columns=['tipo_oper'], inplace=True)
     balanza_expo.drop(columns=['tipo_oper'], inplace=True)
-    return balanza_impo, balanza_expo
+    return balanza, balanza_impo, balanza_expo
 
 def show_page_balanza():
     # Load data
-    balanza_impo, balanza_expo = fetch_data_balanza()
+    balanza, balanza_impo, balanza_expo = fetch_data_balanza()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -33,7 +33,7 @@ def show_page_balanza():
     st.subheader("Generar Comprobante")
     id_pesada = st.selectbox("Seleccione el ID de Pesada", balanza_impo['id Pesada'].tolist() + balanza_expo['id Pesada'].tolist())
     if st.button("Generar Comprobante"):
-        balanza_row = balanza_impo[balanza_impo['id Pesada'] == id_pesada].iloc[0] if id_pesada in balanza_impo['id Pesada'].tolist() else balanza_expo[balanza_expo['id Pesada'] == id_pesada].iloc[0]
+        balanza_row = balanza[balanza['id Pesada'] == id_pesada].iloc[0] 
         pdf = generar_comprobante(balanza_row)
         pdf_output = f"comprobante_{id_pesada}.pdf"
         pdf.output(pdf_output)
