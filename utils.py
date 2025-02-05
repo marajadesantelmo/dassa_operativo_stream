@@ -42,9 +42,17 @@ def generar_comprobante(balanza_row):
     # Add fixed data
     pdf.set_font("Arial", size=12)
     pdf.set_text_color(0, 0, 0)
-    pdf.cell(200, 10, txt="Certificado Habilitación: 307-45317        Balanza: Balanza de Cambiones", ln=True, align="L")
-    pdf.cell(200, 10, txt="Vto. Certificación: 05/04/2025             Tipo: Camiones", ln=True, align="L")
-    pdf.cell(200, 10, txt="Aduana: 001                                Lote Balanza: 11002", ln=True, align="L")
+    pdf.set_draw_color(0, 0, 0)  # Black border
+    pdf.set_fill_color(255, 255, 255)  # White background
+    pdf.set_line_width(0.5)
+    pdf.rect(x=10, y=pdf.get_y(), w=pdf.w - 20, h=18, style='D')  # Draw rectangle
+
+    pdf.set_xy(15, pdf.get_y() + 2)  # Adjust position inside the rectangle
+    pdf.cell(200, 6, txt="Certificado Habilitación: 307-45317        Balanza: Balanza de Cambiones", ln=True, align="L")
+    pdf.set_xy(15, pdf.get_y())
+    pdf.cell(200, 6, txt="Vto. Certificación: 05/04/2025             Tipo: Camiones", ln=True, align="L")
+    pdf.set_xy(15, pdf.get_y())
+    pdf.cell(200, 6, txt="Aduana: 001                                Lote Balanza: 11002", ln=True, align="L")
     pdf.ln(5)
     # Add table title
     pdf.set_font("Arial", style='B', size=12)
