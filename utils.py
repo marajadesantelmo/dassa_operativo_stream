@@ -37,7 +37,7 @@ def generar_comprobante(balanza_row):
     # Add id pesada, date and other fix text
     pdf.set_font("Arial", style='B', size=16)
     pdf.set_text_color(0, 0, 0)  
-    pdf.cell(100, 10, txt=f"ID Pesada: {balanza_row['id Pesada']}", ln=False, align="L")
+    pdf.cell(100, 10, txt=f"ID Pesada: {balanza_row['ID Pesada']}", ln=False, align="L")
     pdf.cell(100, 10, txt=f"Fecha: {current_date}      ", ln=True, align="R")
     pdf.ln(5)
     # Add fixed data
@@ -86,6 +86,6 @@ def generar_comprobante(balanza_row):
     pdf.ln(5)
 
     # Save the PDF and return it
-    pdf_output = f"comprobante_{balanza_row['id Pesada']}.pdf"
+    pdf_output = f"comprobante_{balanza_row['ID Pesada']}.pdf"
     pdf.output(pdf_output)
     return pdf
