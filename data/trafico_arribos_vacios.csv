@@ -2,8 +2,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 31236,06/02,Minera Santa Rita Srl,HLXU-537107-4,10074,DR,TD,****************    ,29267776,1,TRANSPORTE DEL CLIENTE        ,Favieri,10:18,2025-02-27,14-432,                    ,10:18 Arribado
 31245,06/02,Santa Anita Oil Sa,-,10074,HC,TD,                    ,93299499,0,                              ,,     ,2025-02-27,,                    ,Pendiente
 31244,06/02,Santa Anita Oil Sa,-,10074,HC,TD,                    ,93299499,0,                              ,,     ,2025-02-27,,                    ,Pendiente
-31260,06/02,Borax Argentina S A,-,10080,DR,TD,                    ,249377283,0,                              ,,     ,2025-02-27,,                    ,Pendiente
-31259,06/02,Borax Argentina S A,-,10080,DR,TD,                    ,249432323,0,                              ,,     ,2025-02-27,,                    ,Pendiente
+31260,06/02,Borax Argentina S A,MSKU-426875-9,10080,DR,TD,**************      ,249377283,0,                              ,,     ,2025-02-27,,                    ,Pendiente
+31259,06/02,Borax Argentina S A,MSKU-792750-4,10080,DR,TD,**************      ,249432323,1,TRANSPORTE DEL CLIENTE        ,Ortiz,11:14,2025-02-27,,                    ,11:14 Arribado
 31258,06/02,Arleather S.R.L.,-,10080,HC,TD,                    ,248058718,0,                              ,,     ,2025-02-27,,                    ,Pendiente
 31257,06/02,Arleather S.R.L.,-,10080,HC,TD,                    ,248058718,0,                              ,,     ,2025-02-27,,                    ,Pendiente
 31256,06/02,Arleather S.R.L.,-,10080,HC,TD,                    ,249127594,0,                              ,,     ,2025-02-27,,                    ,Pendiente
