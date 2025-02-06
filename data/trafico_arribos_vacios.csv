@@ -1,5 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-31236,06/02,Minera Santa Rita Srl,-,10074,DR,TD,                    ,29267776,0,                              ,,     ,2025-02-27,14-432,                    ,Pendiente
+31236,06/02,Minera Santa Rita Srl,HLXU-537107-4,10074,DR,TD,****************    ,29267776,1,TRANSPORTE DEL CLIENTE        ,Favieri,10:18,2025-02-27,14-432,                    ,10:18 Arribado
 31245,06/02,Santa Anita Oil Sa,-,10074,HC,TD,                    ,93299499,0,                              ,,     ,2025-02-27,,                    ,Pendiente
 31244,06/02,Santa Anita Oil Sa,-,10074,HC,TD,                    ,93299499,0,                              ,,     ,2025-02-27,,                    ,Pendiente
 31260,06/02,Borax Argentina S A,-,10080,DR,TD,                    ,249377283,0,                              ,,     ,2025-02-27,,                    ,Pendiente
@@ -22,6 +22,6 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 31240,06/02,Minera Santa Rita Srl,-,10074,DR,TD,                    ,45220485,0,                              ,,     ,2025-02-27,14-431,                    ,Pendiente
 31239,06/02,Minera Santa Rita Srl,-,10074,DR,TD,                    ,45220485,0,                              ,,     ,2025-02-27,14-431,                    ,Pendiente
 31238,06/02,Minera Santa Rita Srl,TCLU-413042-2,10074,DR,TD,**************      ,45220485,1,TRANSPORTES LEIRA-NO USAR     ,Parra,09:03,2025-02-27,14-431,                    ,09:03 Arribado
-31237,06/02,Minera Santa Rita Srl,-,10074,DR,TD,                    ,29267776,0,                              ,,     ,2025-02-27,14-432,                    ,Pendiente
+31237,06/02,Minera Santa Rita Srl,TCLU-428008-4,10074,DR,TD,***************     ,29267776,1,TRANSPORTE DEL CLIENTE        ,Porco,10:19,2025-02-27,14-432,                    ,10:19 Arribado
 31246,06/02,Santa Anita Oil Sa,-,10074,HC,TD,                    ,93299499,0,                              ,,     ,2025-02-27,,                    ,Pendiente
 31247,06/02,Santa Anita Oil Sa,-,10074,HC,TD,                    ,93299499,0,                              ,,     ,2025-02-27,,                    ,Pendiente
