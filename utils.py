@@ -123,7 +123,7 @@ def generar_comprobante(balanza_row):
     pdf.set_font("Arial", style='B', size=10)
     pdf.set_text_color(190, 30, 45)   # Solarized base0 color
     pdf.cell(200, 3, txt="DASSA - Depósito Avellaneda Sur S.A.", ln=True, align="L")
-    pdf.ln(5)
+    pdf.ln(2)
     pdf.set_font("Arial", size=8)
     pdf.set_text_color(131, 148, 150)  # Solarized base0 color
     pdf.multi_cell(0, 3, txt=(
