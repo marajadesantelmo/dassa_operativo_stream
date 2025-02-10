@@ -99,7 +99,7 @@ def generar_comprobante(balanza_row):
     # Add table rows for weights
     pdf.set_text_color(0, 0, 0)  # Reset to black
     pdf.set_font("Arial", size=10)
-    weight_fields = ['Peso Bruto', 'Peso Tara', 'Peso Neto', 'Peso Mercadería']
+    weight_fields = ['Peso Bruto', 'Peso Tara', 'Peso Neto', 'Tara CNT', 'Peso Mercadería']
 
     pdf.set_fill_color(211, 211, 211)  # Light gray background
     table_width = 100  # Total width of the table (50 + 50)
