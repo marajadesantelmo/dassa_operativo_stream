@@ -37,8 +37,8 @@ def generar_comprobante(balanza_row):
     # Add id pesada, date and other fix text
     pdf.set_font("Arial", style='B', size=16)
     pdf.set_text_color(0, 0, 0)  
-    pdf.cell(100, 10, txt=f"ID Pesada: {balanza_row['ID Pesada']}", ln=False, align="L")
-    pdf.cell(100, 10, txt=f"Fecha: {current_date}      ", ln=True, align="R")
+    pdf.cell(100, 6, txt=f"ID Pesada: {balanza_row['ID Pesada']}", ln=False, align="L")
+    pdf.cell(100, 6, txt=f"Fecha: {current_date}      ", ln=True, align="R")
     pdf.ln(5)
     # Add fixed data
     pdf.set_font("Arial", size=12)
@@ -69,24 +69,24 @@ def generar_comprobante(balanza_row):
 
     for left_field, right_field in zip(left_fields, right_fields):
         pdf.set_font("Arial", style='B', size=10)
-        pdf.cell(35, 8, txt=f"{left_field}:", align="L")
+        pdf.cell(35, 6, txt=f"{left_field}:", align="L")
         pdf.set_font("Arial", size=10)
-        pdf.cell(55, 8, txt=str(balanza_row[left_field]), align="C")
+        pdf.cell(55, 6, txt=str(balanza_row[left_field]), align="C")
         pdf.set_font("Arial", style='B', size=10)
-        pdf.cell(35, 8, txt=f"{right_field}:", align="L")
+        pdf.cell(35, 6, txt=f"{right_field}:", align="L")
         pdf.set_font("Arial", size=10)
-        pdf.cell(55, 8, txt=str(balanza_row[right_field]), align="C")
+        pdf.cell(55, 6, txt=str(balanza_row[right_field]), align="C")
         pdf.ln()
 
     # If there are remaining fields in right_fields
     if len(right_fields) > len(left_fields):
         for right_field in right_fields[len(left_fields):]:
             pdf.set_font("Arial", style='B', size=10)
-            pdf.cell(35, 8, txt="", align="L")
-            pdf.cell(55, 8, txt="", align="C")
-            pdf.cell(35, 8, txt=f"{right_field}:", align="L")
+            pdf.cell(35, 6, txt="", align="L")
+            pdf.cell(55, 6, txt="", align="C")
+            pdf.cell(35, 6, txt=f"{right_field}:", align="L")
             pdf.set_font("Arial", size=10)
-            pdf.cell(55, 8, txt=str(balanza_row[right_field]), align="C")
+            pdf.cell(55, 6, txt=str(balanza_row[right_field]), align="C")
             pdf.ln()
     pdf.ln(2)
 
@@ -114,17 +114,17 @@ def generar_comprobante(balanza_row):
 
     pdf.set_text_color(0, 0, 0)  # Reset to black
     pdf.set_font("Arial", size=12)
-    pdf.cell(200, 3, txt=" ........................                  ..............................                ..............................               .............................", ln=True, align="C")
+    pdf.cell(200, 6, txt=" ........................                  ..............................                ..............................               .............................", ln=True, align="C")
     pdf.cell(200, 3, txt="Administración                      Encargado                      Transporte                                   Aduana", ln=True, align="C")
-    pdf.cell(200, 3, txt="                                                                                                                                Leg.: .............................", ln=True, align="C")
-    pdf.cell(200, 3, txt=" ........................                  ..............................                ..............................               .............................", ln=True, align="C")
+    pdf.cell(200, 6, txt="                                                                                                                                Leg.: .............................", ln=True, align="C")
+    pdf.cell(200, 6, txt=" ........................                  ..............................                ..............................               .............................", ln=True, align="C")
     pdf.cell(200, 3, txt="Aclaración                          Aclaración                     Aclaración                                   Aclaración", ln=True, align="C")
     pdf.ln(15)
-    pdf.set_font("Arial", style='B', size=12)
+    pdf.set_font("Arial", style='B', size=10)
     pdf.set_text_color(190, 30, 45)   # Solarized base0 color
     pdf.cell(200, 3, txt="DASSA - Depósito Avellaneda Sur S.A.", ln=True, align="L")
     pdf.ln(5)
-    pdf.set_font("Arial", size=10)
+    pdf.set_font("Arial", size=8)
     pdf.set_text_color(131, 148, 150)  # Solarized base0 color
     pdf.multi_cell(0, 3, txt=(
         "Av. Crisólogo Larralde 3065, Sarandí,\n"
