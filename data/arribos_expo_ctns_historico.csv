@@ -19,7 +19,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-14,28773,TLLU-232026-8,Lift Van Int. Co S.A,EBKG10350711,FX26276357          ,Arribado
 2025-01-30,31113,MRKU-070514-4,Lift Van Int. Co S.A,249224028,*************       ,Arribado
 2025-01-30,31114,MRKU-489713-2,Lift Van Int. Co S.A,249224028,********************,Arribado
-2025-02-10,31317,,Lift Van Int. Co S.A,249522080,                    ,Pendiente
+2025-02-10,31317,MSKU-557228-3,Lift Van Int. Co S.A,249522080,**********          ,Arribado
 2025-01-28,31039,MSBU-402973-0,Lift Van Int. Co S.A,EBKGQ0008F46,FX26282935          ,Arribado
 2025-01-29,31070,TEMU-597889-0,Lift Van Int. Co S.A,22630466,************        ,Arribado
 2025-01-29,31071,BMOU-137661-1,Lift Van Int. Co S.A,26126616,*************       ,Arribado
@@ -76,7 +76,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-06,31239,HLBU-125996-3,Minera Santa Rita Srl,45220485,**************      ,Arribado
 2025-02-06,31240,DRYU-421782-5,Minera Santa Rita Srl,45220485,*********           ,Arribado
 2025-02-06,31241,HLBU-147130-8,Minera Santa Rita Srl,45220485,*************       ,Arribado
-2025-02-10,31316,,Minera Santa Rita Srl,249610861,                    ,Pendiente
+2025-02-10,31316,MRKU-060004-0,Minera Santa Rita Srl,249610861,**************      ,Arribado
 2025-01-28,31028,PCIU-465071-9,Minera Santa Rita Srl,BUE500010500,********************,Arribado
 2025-02-06,31236,HLXU-537107-4,Minera Santa Rita Srl,29267776,****************    ,Arribado
 2025-02-06,31237,TCLU-428008-4,Minera Santa Rita Srl,29267776,***************     ,Arribado
@@ -182,7 +182,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-23,29053,BMOU-585955-7,Pelama Chubut S.A.,BUA0329865,L4361517            ,Arribado
 2025-02-06,31235,MRKU-037616-2,Pelama Chubut S.A.,249643022,**************      ,Arribado
 2025-02-07,31282,MRKU-051331-0,Pelama Chubut S.A.,249684465,**************      ,Arribado
-2025-02-10,31315,,Pelama Chubut S.A.,92983743,                    ,Pendiente
+2025-02-10,31315,HLBU-152352-5,Pelama Chubut S.A.,92983743,*****************   ,Arribado
 2024-12-17,30223,UACU-860378-0,Pelama Chubut S.A.,66323173,**************      ,Arribado
 2024-12-23,30378,EGHU-323483-3,Pelama Chubut S.A.,340400048298,                    ,Arribado
 2025-01-03,30568,TCLU-748363-4,Pelama Chubut S.A.,BUEE16807700,******************  ,Arribado
@@ -199,6 +199,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-23,30401,,Advance Shipment International S.A.,24001EC01084093K,                    ,Arribado
 2024-11-01,29359,TCKU-480393-2,J. Llorente Y Cía. S.A.,BUEE13773600,********************,Arribado
 2024-12-09,30108,,J. Llorente Y Cía. S.A.,24001EC01079319P,                    ,Arribado
+2025-02-10,31320,,J. Llorente Y Cía. S.A.,TERRESTRE,                    ,Pendiente
 2024-10-14,28465,,Mader Zu S.R.L.,244567569,                    ,Pendiente
 2024-11-06,29442,MRKU-275496-0,Mader Zu S.R.L.,245737435,*************       ,Arribado
 2024-11-12,29586,TCKU-662034-0,Mader Zu S.R.L.,246408318,*****************   ,Arribado
@@ -265,7 +266,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-07,29470,TCNU-527915-1,Capilatis S.A.,SNG0445327,L4361238            ,Arribado
 2024-11-07,29471,TXGU-527714-6,Capilatis S.A.,SNG0445327,L4361068            ,Arribado
 2024-11-07,29472,TLLU-480931-9,Capilatis S.A.,SNG0445327,L4361070            ,Arribado
-2025-02-10,31314,,Tandem Global Logistics S.A.,20429432,                    ,Pendiente
+2025-02-10,31314,UACU-413477-2,Tandem Global Logistics S.A.,20429432,******************  ,Arribado
 2024-11-15,29736,,Cargo Logistics Exim Srl,24001EC03 012922E,                    ,Arribado
 2025-01-22,30909,HLBU-119118-5,Geo Logistics Argentina S.R.L.,28434848,**************      ,Arribado
 2025-01-24,30951,,Paolini Saic,249424959,                    ,Pendiente
@@ -854,12 +855,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-14,28780,CAAU-526439-2,Virasoro Maderas S R L,244269707,*************       ,Arribado
 2024-11-01,29341,MRSU-322731-3,Virasoro Maderas S R L,246121429,************        ,Arribado
 2025-01-21,30868,MEDU-757108-8,Virasoro Maderas S R L,EBKG11226629,FX26285008          ,Arribado
-2025-02-10,31307,,Virasoro Maderas S R L,EBKG11499126,                    ,Pendiente
-2025-02-10,31308,,Virasoro Maderas S R L,EBKG11499126,                    ,Pendiente
-2025-02-10,31309,,Virasoro Maderas S R L,EBKG11499126,                    ,Pendiente
-2025-02-10,31310,,Virasoro Maderas S R L,EBKG11499126,                    ,Pendiente
-2025-02-10,31311,,Virasoro Maderas S R L,EBKG11499126,                    ,Pendiente
-2025-02-10,31312,,Virasoro Maderas S R L,EBKG11499126,                    ,Pendiente
+2025-02-10,31307,TGBU-799335-8,Virasoro Maderas S R L,EBKG11499126,FX26278857          ,Arribado
+2025-02-10,31308,FFAU-300933-9,Virasoro Maderas S R L,EBKG11499126,FX26278859          ,Arribado
+2025-02-10,31309,MSDU-731599-3,Virasoro Maderas S R L,EBKG11499126,FX26278852          ,Arribado
+2025-02-10,31310,MSNU-565907-4,Virasoro Maderas S R L,EBKG11499126,FX26278864          ,Arribado
+2025-02-10,31311,MEDU-760359-1,Virasoro Maderas S R L,EBKG11499126,FX26278862          ,Arribado
+2025-02-10,31312,MSMU-596297-6,Virasoro Maderas S R L,EBKG11499126,FX26278886          ,Arribado
 2025-01-21,30869,MSDU-706614-4,Virasoro Maderas S R L,EBKG11226629,FX26285009          ,Arribado
 2025-01-21,30877,TRHU-735082-2,Virasoro Maderas S R L,EBKG11226629,FX26285736          ,Arribado
 2025-01-21,30878,TCLU-793240-0,Virasoro Maderas S R L,EBKG11226629,FX26285735          ,Arribado
