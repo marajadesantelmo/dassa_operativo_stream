@@ -10,7 +10,7 @@ def fetch_data_balanza():
     balanza_impo = balanza[balanza['tipo_oper'] == 'Importacion']
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
     columns = ['ID Pesada', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
-       'Peso Neto', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Observaciones',
+       'Peso Neto', 'Tara CNT', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Observaciones',
        'Booking', 'Permiso Emb.', 'Precinto']
     balanza_impo = balanza_impo[columns]
     balanza_expo = balanza_expo[columns]
