@@ -1,5 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-31329,11/02,A La Orden,TRHU-721826-7,9,HC,TD,FX26278789          ,EBKG11708793,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,09:07,2025-03-04,Chodorge,                    ,09:07 Arribado
+31365,11/02,Mercovan Argentina Srl,SEKU-115663-0,Exolgan,DR,TD,***********         ,90028928E,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,18:43,2025-03-04,,                    ,18:43 Arribado
 31353,11/02,Borax Argentina S A,CAIU-687493-6,0,DR,TD,FX26276266          ,EBKG11692650,1,TRANSPORTES LEIRA-NO USAR     ,Diaz Jose,16:31,2025-03-04,,                    ,16:31 Arribado
 31351,11/02,Borax Argentina S A,TCKU-187509-7,9,DR,TD,FX26291560          ,EBKG11692650,1,TRANSPORTES LEIRA-NO USAR     ,Diaz Jose,16:29,2025-03-04,,                    ,16:29 Arribado
 31349,11/02,Borax Argentina S A,SEGU-368019-5,0,DR,TD,FX26310146          ,EBKG11692650,1,TRANSPORTES LEIRA-NO USAR     ,Carrano,16:17,2025-03-04,,                    ,16:17 Arribado
@@ -8,8 +8,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 31346,11/02,Borax Argentina S A,MEDU-634007-9,9,DR,TD,FX26256447          ,EBKG11692650,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez Luis,15:52,2025-03-04,,                    ,15:52 Arribado
 31343,11/02,Borax Argentina S A,MSDU-175377-6,9,DR,TD,FX26227906          ,EBKG11692650,1,TRANSPORTES LEIRA-NO USAR     ,Damian Carrega,15:06,2025-03-04,,                    ,15:06 Arribado
 31337,11/02,Taeda Sa,FSCU-994397-7,9,HC,TD,FX26278782          ,EBKG11709634,1,TRANSPORTES LEIRA-NO USAR     ,Irala  Walter,10:16,2025-03-04,,                    ,10:16 Arribado
+31359,11/02,Borax Argentina S A,MEDU-238389-5,9,DR,TD,FX26230261          ,EBKG11692650,1,TRANSPORTES LEIRA-NO USAR     ,Carrega Damian,16:46,2025-03-04,,                    ,16:46 Arribado
 31364,11/02,Isischu Srl,MSNU-789666-6,9,HC,TD,FX32986422          ,EBKG11663966,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez Jose,18:31,2025-03-04,,                    ,18:31 Arribado
-31363,11/02,Isischu Srl,CAAU-695185-5,9,HC,TD,FX32986425          ,EBKG11663966,1,TRANSPORTES LEIRA-NO USAR     ,Sampayo,18:28,2025-03-04,,                    ,18:28 Arribado
 31361,11/02,Isischu Srl,MSBU-544265-1,9,HC,TD,FX32986424          ,EBKG11663966,1,TRANSPORTES LEIRA-NO USAR     ,Parra,18:22,2025-03-04,,                    ,18:22 Arribado
 31336,11/02,Isischu Srl,MSMU-756296-3,9,HC,TD,FX26278783          ,EBKG11663966,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez,10:12,2025-03-04,,                    ,10:12 Arribado
 31362,11/02,A La Orden,MSMU-479896-0,9,HC,TD,FX32986428          ,EBKG11708793,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,18:26,2025-03-04,Chodorge,                    ,18:26 Arribado
@@ -17,5 +17,6 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 31344,11/02,A La Orden,MSMU-588095-0,9,HC,TD,FX32986460          ,EBKG11708793,1,TRANSPORTE DEL CLIENTE        ,Porco,15:33,2025-03-04,Chodorge,                    ,15:33 Arribado
 31341,11/02,A La Orden,MSDU-667843-8,9,HC,TD,FX32986456          ,EBKG11708793,1,TRANSPORTE DEL CLIENTE        ,Favieri,12:02,2025-03-04,Chodorge,                    ,12:02 Arribado
 31335,11/02,A La Orden,BEAU-585174-1,9,HC,TD,FX26278784          ,EBKG11708793,1,TRANSPORTE DEL CLIENTE        ,Ortiz,10:08,2025-03-04,Chodorge,                    ,10:08 Arribado
-31359,11/02,Borax Argentina S A,MEDU-238389-5,9,DR,TD,FX26230261          ,EBKG11692650,1,TRANSPORTES LEIRA-NO USAR     ,Carrega Damian,16:46,2025-03-04,,                    ,16:46 Arribado
+31329,11/02,A La Orden,TRHU-721826-7,9,HC,TD,FX26278789          ,EBKG11708793,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,09:07,2025-03-04,Chodorge,                    ,09:07 Arribado
+31363,11/02,Isischu Srl,CAAU-695185-5,9,HC,TD,FX32986425          ,EBKG11663966,1,TRANSPORTES LEIRA-NO USAR     ,Sampayo,18:28,2025-03-04,,                    ,18:28 Arribado
 31360,11/02,Borax Argentina S A,FCIU-639634-7,9,DR,TD,FX26218392          ,EBKG11692650,1,TRANSPORTES LEIRA-NO USAR     ,Carrega Damian,16:52,2025-03-04,,                    ,16:52 Arribado
