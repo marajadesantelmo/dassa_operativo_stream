@@ -157,10 +157,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-13,29614,ZCSU-266285-5,A La Orden,ZIMUBUE9036450,***************     ,Arribado
 2024-11-22,29778,TCLU-593273-6,A La Orden,VX18FA24000486,***************     ,Arribado
 2024-11-22,29786,TXGU-677634-5,A La Orden,EBKG10696373,FX26263624          ,Arribado
+2025-02-11,31335,BEAU-585174-1,A La Orden,EBKG11708793,FX26278784          ,Arribado
+2025-02-11,31341,MSDU-667843-8,A La Orden,EBKG11708793,FX32986456          ,Arribado
 2025-01-20,30849,TCKU-462475-2,A La Orden,BUEF00399700,**************      ,Arribado
 2025-01-20,30850,UETU-405667-4,A La Orden,BUEF00399700,********************,Arribado
 2025-02-06,31242,FANU-180533-0,A La Orden,15859785,***********         ,Arribado
 2025-02-06,31243,HAMU-275949-6,A La Orden,15859785,**************      ,Arribado
+2025-02-11,31329,TRHU-721826-7,A La Orden,EBKG11708793,FX26278789          ,Arribado
 2024-10-23,29054,MRKU-206193-0,Unlimited World S.A.,245790712,                    ,Arribado
 2024-12-06,30076,,Fijaciones Py S.A.,24001EC01080691K,                    ,Arribado
 2024-10-22,29004,SIMU-706124-7,Dpmg S.A.,24001EC03011638H,                    ,Arribado
@@ -199,7 +202,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-23,30401,,Advance Shipment International S.A.,24001EC01084093K,                    ,Arribado
 2024-11-01,29359,TCKU-480393-2,J. Llorente Y Cía. S.A.,BUEE13773600,********************,Arribado
 2024-12-09,30108,,J. Llorente Y Cía. S.A.,24001EC01079319P,                    ,Arribado
-2025-02-10,31320,,J. Llorente Y Cía. S.A.,TERRESTRE,                    ,Pendiente
+2025-02-10,31320,,J. Llorente Y Cía. S.A.,TERRESTRE,                    ,Arribado
 2024-10-14,28465,,Mader Zu S.R.L.,244567569,                    ,Pendiente
 2024-11-06,29442,MRKU-275496-0,Mader Zu S.R.L.,245737435,*************       ,Arribado
 2024-11-12,29586,TCKU-662034-0,Mader Zu S.R.L.,246408318,*****************   ,Arribado
@@ -261,7 +264,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-03,29948,TCNU-723379-8,Capilatis S.A.,SCLE29284300,                    ,Arribado
 2025-01-06,30580,CMAU-836147-3,Capilatis S.A.,SNG0452152,R1945320            ,Arribado
 2025-01-06,30581,CMAU-482423-0,Capilatis S.A.,SNG0452152,R1945315            ,Arribado
-2025-02-10,31313,,Capilatis S.A.,SNG0455625,                    ,Pendiente
+2025-02-10,31313,TRHU-671383-6,Capilatis S.A.,SNG0455625,R1943868            ,Arribado
 2024-10-22,28998,SEGU-477000-9,Capilatis S.A.,SNG0443060,L4363211            ,Arribado
 2024-11-07,29470,TCNU-527915-1,Capilatis S.A.,SNG0445327,L4361238            ,Arribado
 2024-11-07,29471,TXGU-527714-6,Capilatis S.A.,SNG0445327,L4361068            ,Arribado
@@ -342,6 +345,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-09,30666,TGBU-400643-0,Global Rover Logistic Srl,340500000360,****************    ,Arribado
 2025-01-09,30667,EITU-181402-6,Global Rover Logistic Srl,340500000360,********************,Arribado
 2024-10-24,29086,CAAU-536037-5,Isischu Srl,340400034912,******************  ,Arribado
+2025-02-11,31336,MSMU-756296-3,Isischu Srl,EBKG11663966,FX26278783          ,Arribado
 2025-01-30,31125,MSDU-528021-8,Isischu Srl,EBKG11571997,FX26280117          ,Arribado
 2025-01-30,31127,TEMU-818226-8,Isischu Srl,EBKG11571997,FX26280097          ,Arribado
 2025-01-29,31063,MSMU-426120-4,Isischu Srl,EBKG11541989,FX26280241          ,Arribado
@@ -569,6 +573,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-28,31025,,Taeda Sa,EBKG11247991,                    ,Pendiente
 2025-01-28,31041,MSNU-747272-9,Taeda Sa,,FX26282860          ,Arribado
 2025-01-30,31087,MSMU-851960-0,Taeda Sa,EBKG11513926,FX26280096          ,Arribado
+2025-02-11,31337,FSCU-994397-7,Taeda Sa,EBKG11709634,FX26278782          ,Arribado
 2025-01-07,30596,MEDU-487060-8,Taeda Sa,EBKG11366605,FX26275361          ,Arribado
 2025-01-07,30597,MSNU-803040-2,Taeda Sa,EBKG11366605,FX26275356          ,Arribado
 2025-01-16,30788,MSMU-607919-0,Taeda Sa,EBKG11247978,FX26302878          ,Arribado
