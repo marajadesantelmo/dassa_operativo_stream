@@ -9,8 +9,9 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 31383,12/02,Forestal Bosques Del Plata Sa,MSNU-732286-3,9,HC,TD,FX32986358          ,EBKG11679557,1,TRANSPORTE DEL CLIENTE        ,Favieri,11:18,2025-03-04,,                    ,11:18 Arribado
 31382,12/02,Forestal Bosques Del Plata Sa,MSDU-808766-6,9,HC,TD,FX32986359          ,EBKG11679557,1,TRANSPORTE DEL CLIENTE        ,Porco,11:14,2025-03-04,,                    ,11:14 Arribado
 31381,12/02,Forestal Bosques Del Plata Sa,CAAU-510898-0,9,HC,TD,FX32986354          ,EBKG11679557,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:37,2025-03-04,,                    ,10:37 Arribado
+31402,12/02,Norfor Sa,MSMU-622676-9,9,HC,TD,FX32986251          ,EBKG11704878,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,18:48,2025-03-05,,                    ,18:48 Arribado
 31380,12/02,Norfor Sa,MEDU-499413-1,9,HC,TD,FX32986385          ,EBKG11694886,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,10:39,2025-03-04,,                    ,10:39 Arribado
-31400,12/02,Arleather S.R.L.,-,10074,HC,TD,                    ,249175851,0,                              ,,     ,2025-03-05,,                    ,Pendiente
+31400,12/02,Arleather S.R.L.,FFAU-565283-2,10074,HC,TD,************        ,249175851,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,18:49,2025-03-05,,                    ,18:49 Arribado
 31399,12/02,Arleather S.R.L.,MRSU-331307-3,10074,HC,TD,**************      ,249175851,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,15:42,2025-03-05,,                    ,15:42 Arribado
 31398,12/02,Arleather S.R.L.,TCNU-582296-8,10074,HC,TD,**************      ,249175198,1,TRANSPORTES LEIRA-NO USAR     ,Diaz,14:38,2025-03-05,,                    ,14:38 Arribado
 31397,12/02,Arleather S.R.L.,SUDU-657004-1,10074,HC,TD,*************       ,249175198,1,TRANSPORTES LEIRA-NO USAR     ,Parra,14:26,2025-03-05,,                    ,14:26 Arribado
@@ -19,5 +20,6 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 31387,12/02,Hilado Sa,TCKU-772860-0,10080,HC,TD,*************       ,249523704,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,14:23,2025-03-04,,                    ,14:23 Arribado
 31386,12/02,Hilado Sa,MRKU-231689-8,10080,HC,TD,************        ,249523704,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,11:49,2025-03-04,,                    ,11:49 Arribado
 31385,12/02,Hilado Sa,TRHU-622981-6,10080,HC,TD,*************       ,249523704,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,11:48,2025-03-04,,                    ,11:48 Arribado
+31403,12/02,A La Orden,CAIU-986892-1,9,HC,TD,FX32986258          ,EBKG11708793,1,TRANSPORTE DEL CLIENTE        ,Porco,18:52,2025-03-05,,                    ,18:52 Arribado
 31378,12/02,Sandrin Paola Karina,MSNU-850122-5,9,HC,TD,FX32986310          ,EBKG11677995,1,TRANSPORTES LEIRA-NO USAR     ,Carrega Damian,11:13,2025-03-04,,                    ,11:13 Arribado
 31379,12/02,Sandrin Paola Karina,MSMU-604220-5,9,HC,TD,FX32986357          ,EBKG11677995,1,TRANSPORTES LEIRA-NO USAR     ,Rao Diego,11:20,2025-03-04,,                    ,11:20 Arribado
