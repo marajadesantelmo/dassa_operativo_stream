@@ -1,21 +1,13 @@
 Operacion,Cliente,Booking,Contenedor,Conocimiento,Tipo CNT,Fecha
-33481-0-1,Minera Santa Rita Sr...,249610861           ,MRKU-060004-0,249610861                     ,DR,2025-02-10
 25532-0-1,A La Orden,NACIONAL            ,CAIU-870213-4,NACIONAL                      ,  ,2023-08-25
 25770-0-1,A La Orden,NACIONAL            ,DFSU-608421-3,NACIONAL                      ,  ,2023-09-11
-33529-0-1,Hilado Sa,249523704           ,MRKU-231689-8,249523704                     ,HC,2025-02-12
-33530-0-1,Hilado Sa,249523704           ,TRHU-622981-6,249523704                     ,HC,2025-02-12
-33531-0-1,Hilado Sa,249523704           ,TCKU-772860-0,249523704                     ,HC,2025-02-12
-33471-0-1,Tandem Global Logist...,20429432            ,UACU-413477-2,20429432                      ,DR,2025-02-10
-33506-0-1,Isischu Srl,EBKG11663966        ,MSMU-756296-3,EBKG11663966                  ,HC,2025-02-11
-33507-0-1,Isischu Srl,EBKG11663966        ,MSBU-544265-1,EBKG11663966                  ,HC,2025-02-11
-33508-0-1,Isischu Srl,EBKG11663966        ,CAAU-695185-5,EBKG11663966                  ,HC,2025-02-11
-33509-0-1,Isischu Srl,EBKG11663966        ,MSNU-789666-6,EBKG11663966                  ,HC,2025-02-11
-33510-0-1,Isischu Srl,EBKG11663966        ,BMOU-588053-3,EBKG11663966                  ,HC,2025-02-11
 33466-0-1,Arleather S.R.L.,249127594           ,MRKU-246112-9,249127594                     ,HC,2025-02-06
 33467-0-1,Arleather S.R.L.,249127594           ,MRKU-617488-9,249127594                     ,HC,2025-02-06
 33468-0-1,Arleather S.R.L.,249127594           ,MRKU-225271-0,249127594                     ,HC,2025-02-06
 33469-0-1,Arleather S.R.L.,248058718           ,MSKU-145685-5,248058718                     ,HC,2025-02-06
 33470-0-1,Arleather S.R.L.,248058718           ,MRKU-559968-3,248058718                     ,HC,2025-02-06
+33471-0-1,Tandem Global Logist...,20429432            ,UACU-413477-2,20429432                      ,DR,2025-02-10
+33481-0-1,Minera Santa Rita Sr...,249610861           ,MRKU-060004-0,249610861                     ,DR,2025-02-10
 33496-0-1,Borax Argentina S A,EBKG11692650        ,MSDU-175377-6,EBKG11692650                  ,DR,2025-02-11
 33497-0-1,Borax Argentina S A,EBKG11692650        ,MSMU-329972-0,EBKG11692650                  ,DR,2025-02-11
 33498-0-1,Borax Argentina S A,EBKG11692650        ,MEDU-504261-3,EBKG11692650                  ,DR,2025-02-11
@@ -26,9 +18,11 @@ Operacion,Cliente,Booking,Contenedor,Conocimiento,Tipo CNT,Fecha
 33503-0-1,Borax Argentina S A,EBKG11692650        ,TCKU-187509-7,EBKG11692650                  ,DR,2025-02-11
 33504-0-1,Borax Argentina S A,EBKG11692650        ,FCIU-639634-7,EBKG11692650                  ,DR,2025-02-11
 33505-0-1,Borax Argentina S A,EBKG11692650        ,MEDU-238389-5,EBKG11692650                  ,DR,2025-02-11
-33525-0-1,Forestal Bosques Del...,EBKG11679557        ,CAAU-510898-0,EBKG11679557                  ,HC,2025-02-12
-33526-0-1,Forestal Bosques Del...,EBKG11679557        ,MSNU-732286-3,EBKG11679557                  ,HC,2025-02-12
-33527-0-1,Forestal Bosques Del...,EBKG11679557        ,MSDU-808766-6,EBKG11679557                  ,HC,2025-02-12
+33506-0-1,Isischu Srl,EBKG11663966        ,MSMU-756296-3,EBKG11663966                  ,HC,2025-02-11
+33507-0-1,Isischu Srl,EBKG11663966        ,MSBU-544265-1,EBKG11663966                  ,HC,2025-02-11
+33508-0-1,Isischu Srl,EBKG11663966        ,CAAU-695185-5,EBKG11663966                  ,HC,2025-02-11
+33509-0-1,Isischu Srl,EBKG11663966        ,MSNU-789666-6,EBKG11663966                  ,HC,2025-02-11
+33510-0-1,Isischu Srl,EBKG11663966        ,BMOU-588053-3,EBKG11663966                  ,HC,2025-02-11
 33517-0-1,Sandrin Paola Karina,EBKG11677995        ,TCLU-500473-2,EBKG11677995                  ,HC,2025-02-12
 33518-0-1,Sandrin Paola Karina,EBKG11677995        ,TIIU-403824-6,EBKG11677995                  ,HC,2025-02-12
 33519-0-1,Sandrin Paola Karina,EBKG11677995        ,MSDU-501669-5,EBKG11677995                  ,HC,2025-02-12
@@ -37,3 +31,9 @@ Operacion,Cliente,Booking,Contenedor,Conocimiento,Tipo CNT,Fecha
 33522-0-1,Sandrin Paola Karina,EBKG11677995        ,MSMU-604220-5,EBKG11677995                  ,HC,2025-02-12
 33523-0-1,Sandrin Paola Karina,EBKG11677995        ,MSNU-850122-5,EBKG11677995                  ,HC,2025-02-12
 33524-0-1,Sandrin Paola Karina,EBKG11677995        ,MSMU-821938-9,EBKG11677995                  ,HC,2025-02-12
+33525-0-1,Forestal Bosques Del...,EBKG11679557        ,CAAU-510898-0,EBKG11679557                  ,HC,2025-02-12
+33526-0-1,Forestal Bosques Del...,EBKG11679557        ,MSNU-732286-3,EBKG11679557                  ,HC,2025-02-12
+33527-0-1,Forestal Bosques Del...,EBKG11679557        ,MSDU-808766-6,EBKG11679557                  ,HC,2025-02-12
+33529-0-1,Hilado Sa,249523704           ,MRKU-231689-8,249523704                     ,HC,2025-02-12
+33530-0-1,Hilado Sa,249523704           ,TRHU-622981-6,249523704                     ,HC,2025-02-12
+33531-0-1,Hilado Sa,249523704           ,TCKU-772860-0,249523704                     ,HC,2025-02-12
