@@ -1,7 +1,7 @@
 import streamlit as st
-import stream_simpa_existente
-import stream_simpa_orden_del_dia
-import stream_simpa_historico
+import stream_mercovan_existente
+import stream_mercovan_orden_del_dia
+import stream_mercovan_historico
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
@@ -28,10 +28,10 @@ page_selection = option_menu(
         default_index=0, 
         orientation="horizontal")
 if page_selection == "Existente":
-    stream_simpa_existente.show_page_existente()
+    stream_mercovan_existente.show_page_existente()
 elif page_selection == "Orden del Día":
-    stream_simpa_orden_del_dia.show_page_orden_del_dia()
+    stream_mercovan_orden_del_dia.show_page_orden_del_dia()
 elif page_selection == "Histórico":
-    stream_simpa_historico.show_page_impo_historico()
+    stream_mercovan_historico.show_page_impo_historico()
 
 
