@@ -8,7 +8,7 @@ from streamlit_cookies_manager import EncryptedCookieManager
 import os
 
 # Page configurations
-st.set_page_config(page_title="Operativa DASSA-Grupo Simpa", 
+st.set_page_config(page_title="Operativa DASSA-Mercovan", 
                    page_icon="📊", 
                    layout="wide")
 

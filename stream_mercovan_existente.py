@@ -7,9 +7,9 @@ from utils import highlight
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
     existente_plz = pd.read_csv('data/existente_plz.csv')
-    existente_plz = existente_plz[existente_plz['Cliente']=='Grupo Simpa Sa'].drop(columns=['Cliente'])
+    existente_plz = existente_plz[existente_plz['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
     existente_alm = pd.read_csv('data/existente_alm.csv')
-    existente_alm = existente_alm[existente_alm['Cliente']=='Grupo Simpa Sa'].drop(columns=['Cliente'])
+    existente_alm = existente_alm[existente_alm['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
     existente_plz = existente_plz.drop_duplicates()
     existente_alm = existente_alm.drop_duplicates()
     return existente_plz, existente_alm
