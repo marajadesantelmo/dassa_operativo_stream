@@ -56,20 +56,28 @@ if not st.session_state['logged_in']:
         else:
             st.error("Usuario o clave invalidos")
 else:
+    if st.session_state.username == "operativo":
+        pages = ["Existente", "Orden del Día", "Histórico"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "clock-history"]
+    else:
+        pages = ["Existente", "Orden del Día", "Histórico", "Facturación"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "clock-history", "file-invoice-dollar"]
+
     page_selection = option_menu(
             None,  # No menu title
-            ["Existente", "Orden del Día", "Histórico", "Facturación"],  
-            icons=["arrow-down-circle", "arrow-up-circle", "clock-history", "file-invoice-dollar"],
+            pages,  
+            icons=icons,
             menu_icon="cast",  
             default_index=0, 
             orientation="horizontal")
+    
     if page_selection == "Existente":
         stream_mercovan_existente.show_page_existente()
     elif page_selection == "Orden del Día":
         stream_mercovan_orden_del_dia.show_page_orden_del_dia()
     elif page_selection == "Histórico":
         stream_mercovan_historico.show_page_impo_historico()
-    elif page_selection == "Facturación":
+    elif page_selection == "Facturación" and st.session_state.username != "operativo":
         stream_mercovan_facturacion.show_page_facturacion()
 
 
