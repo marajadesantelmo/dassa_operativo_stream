@@ -14,7 +14,7 @@ def show_page_facturacion():
     col_title, col_logo, col_simpa = st.columns([5, 1, 1])
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
-        st.header(f"Saldos y facturación al {current_day}")
+        st.header(f"Facturación y saldos al {current_day}")
     with col_logo:
         st.image('logo.png')
     with col_simpa:
@@ -22,10 +22,10 @@ def show_page_facturacion():
 
     col1, col2 = st.columns(2)
     with col1:
-        st.subheader("Facturación")
+        st.subheader("Facturación últimos 90 días")
         st.dataframe(facturacion, hide_index=True, use_container_width=True)
     with col2:
-        st.subheader("Saldos")
+        st.subheader("Saldos adeudados")
         st.dataframe(saldos, hide_index=True, use_container_width=True)
 
 if __name__ == "__main__":
