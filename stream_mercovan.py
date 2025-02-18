@@ -56,21 +56,12 @@ if not st.session_state['logged_in']:
         else:
             st.error("Usuario o clave invalidos")
 else:
-    st.sidebar.title("Menu")
-    if st.sidebar.button("Logout"):
-        st.session_state['logged_in'] = False
-        st.session_state['username'] = ""
-        cookies["logged_in"] = str(False)
-        cookies["username"] = ""
-        cookies.save()
-        st.rerun()
-
     if st.session_state.username == "operativo":
-        pages = ["Existente", "Orden del Día", "Histórico"]
-        icons = ["arrow-down-circle", "arrow-up-circle", "clock-history"]
+        pages = ["Existente", "Orden del Día", "Histórico", "Logout"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "clock-history", "box-arrow-right"]
     else:
-        pages = ["Existente", "Orden del Día", "Histórico", "Facturación"]
-        icons = ["arrow-down-circle", "arrow-up-circle", "clock-history", "file-invoice-dollar"]
+        pages = ["Existente", "Orden del Día", "Histórico", "Facturación", "Logout"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "clock-history", "book", "box-arrow-right"]
 
     page_selection = option_menu(
             None,  # No menu title
@@ -88,5 +79,12 @@ else:
         stream_mercovan_historico.show_page_impo_historico()
     elif page_selection == "Facturación" and st.session_state.username != "operativo":
         stream_mercovan_facturacion.show_page_facturacion()
+    elif page_selection == "Logout":
+        cookies.pop("logged_in", None)
+        cookies.pop("username", None)
+        cookies.save()
+        st.session_state['logged_in'] = False
+        st.session_state['username'] = ""
+        st.rerun()
 
 
