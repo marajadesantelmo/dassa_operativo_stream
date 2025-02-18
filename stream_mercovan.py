@@ -22,8 +22,8 @@ with open("styles.css") as f:
 
 page_selection = option_menu(
         None,  # No menu title
-        ["Existente", "Orden del Día", "Histórico"],  
-        icons=["arrow-down-circle", "arrow-up-circle", "clock-history"],   
+        ["Existente", "Orden del Día", "Histórico", "Facturación"],  
+        icons=["arrow-down-circle", "arrow-up-circle", "clock-history", "file-invoice-dollar"],
         menu_icon="cast",  
         default_index=0, 
         orientation="horizontal")
