@@ -2,6 +2,7 @@ import streamlit as st
 import stream_mercovan_existente
 import stream_mercovan_orden_del_dia
 import stream_mercovan_historico
+import stream_mercovan_facturacion
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
@@ -33,5 +34,7 @@ elif page_selection == "Orden del Día":
     stream_mercovan_orden_del_dia.show_page_orden_del_dia()
 elif page_selection == "Histórico":
     stream_mercovan_historico.show_page_impo_historico()
+elif page_selection == "Facturación":
+    stream_mercovan_facturacion.show_page_facturacion()
 
 
