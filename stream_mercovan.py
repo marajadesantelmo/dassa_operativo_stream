@@ -56,6 +56,15 @@ if not st.session_state['logged_in']:
         else:
             st.error("Usuario o clave invalidos")
 else:
+    st.sidebar.title("Menu")
+    if st.sidebar.button("Logout"):
+        st.session_state['logged_in'] = False
+        st.session_state['username'] = ""
+        cookies["logged_in"] = str(False)
+        cookies["username"] = ""
+        cookies.save()
+        st.rerun()
+
     if st.session_state.username == "operativo":
         pages = ["Existente", "Orden del Día", "Histórico"]
         icons = ["arrow-down-circle", "arrow-up-circle", "clock-history"]
