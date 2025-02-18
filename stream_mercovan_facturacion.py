@@ -22,8 +22,10 @@ def show_page_facturacion():
 
     col1, col2 = st.columns(2)
     with col1:
+        st.subheader("Facturación")
         st.dataframe(facturacion, hide_index=True, use_container_width=True)
     with col2:
+        st.subheader("Saldos")
         st.dataframe(saldos, hide_index=True, use_container_width=True)
 
 if __name__ == "__main__":
