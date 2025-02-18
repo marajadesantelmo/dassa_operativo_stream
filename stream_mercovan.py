@@ -13,13 +13,12 @@ st.set_page_config(page_title="Operativa DASSA-Mercovan",
                    page_icon="📊", 
                    layout="wide")
 
-refresh_interval_ms = 30 * 1000  # 30 seconds in milliseconds
+refresh_interval_ms = 120 * 1000  # 2 minutes
 count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refresh")
 
 # Estilo
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
 
 page_selection = option_menu(
         None,  # No menu title
