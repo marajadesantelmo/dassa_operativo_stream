@@ -40,7 +40,7 @@ def show_page_existente():
                      column_config={'e-tally': st.column_config.LinkColumn('e-tally link', 
                                                                           display_text='e-tally',)},
                      hide_index=True, use_container_width=True)
-        st.markdown("<hr>", unsafe_allow_html=True)
+    st.markdown("<hr>", unsafe_allow_html=True)
 
     st.header("Estado de la carga de EXPO")
     col4, col5 = st.columns(2)

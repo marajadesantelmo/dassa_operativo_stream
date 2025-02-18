@@ -77,12 +77,7 @@ def show_page_orden_del_dia():
 
     st.markdown("<hr>", unsafe_allow_html=True)
 
-    col_logo, col_title = st.columns([2, 5])
-    with col_logo:
-        st.image('logo_mercovan.png')
-    with col_title:
-        current_day = datetime.now().strftime("%d/%m/%Y")
-        st.title(f"Operaciones de EXPO a partir del {current_day}")
+    st.header(f"Operaciones de EXPO")
 
     # Create two columns
     col1, col2 = st.columns(2)
