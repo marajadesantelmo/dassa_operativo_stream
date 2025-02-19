@@ -141,7 +141,7 @@ def show_page_impo_historico():
         with col1_3:
             client_options = ["Todos los clientes"] + sorted(list(arribos_expo_carga_historico['Cliente'].unique()))
             cliente_arribos_carga = st.selectbox("Cliente", options=client_options, key='cliente_arribos_carga')
-            filtered_data_arribos = filter_data(arribos_expo_carga_historico, cliente_arribos_carga, start_date_arribos_carga, end_date_arribos_cargas, "Fecha")
+            filtered_data_arribos = filter_data(arribos_expo_carga_historico, start_date_arribos_carga, end_date_arribos_cargas, "Fecha")
         
         st.dataframe(filtered_data_arribos, hide_index=True, use_container_width=True)
 
@@ -156,7 +156,7 @@ def show_page_impo_historico():
         with col1_6:
             client_options = ["Todos los clientes"] + sorted(list(arribos_expo_carga_historico['Cliente'].unique()))
             cliente_verificaciones = st.selectbox("Cliente", options=client_options, key='cliente_verificaciones')
-            filtered_data_verificaciones = filter_data(historico_verificaciones_expo, cliente_verificaciones, start_date_verificaciones, end_date_verificaciones, "Dia")
+            filtered_data_verificaciones = filter_data(historico_verificaciones_expo, start_date_verificaciones, end_date_verificaciones, "Dia")
         st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
 
     with col2:
@@ -171,7 +171,7 @@ def show_page_impo_historico():
         with col2_3:
             client_options = ["Todos los clientes"] + sorted(list(arribos_expo_carga_historico['Cliente'].unique()))
             cliente_arribos_ctns = st.selectbox("Cliente", options=client_options, key='cliente_arribos_ctns')
-            filtered_data_arribos_ctns = filter_data(arribos_expo_ctns_historico, cliente_arribos_ctns, start_date_arribos_ctns, end_date_arribos_ctns, "Fecha")
+            filtered_data_arribos_ctns = filter_data(arribos_expo_ctns_historico, start_date_arribos_ctns, end_date_arribos_ctns, "Fecha")
         st.dataframe(filtered_data_arribos_ctns, hide_index=True, use_container_width=True)
 
 if __name__ == "__main__":
