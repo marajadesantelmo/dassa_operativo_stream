@@ -32,9 +32,9 @@ def show_page_balanza():
     st.subheader("Importación")
     columns_to_format = ['ID Pesada', 'Peso Bruto', 'Peso Neto', 'Tara CNT', 'Peso Mercadería']
 
-    st.dataframe(balanza_impo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
+    st.dataframe(balanza_impo.style.apply(highlight, axis=1), column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
     st.subheader("Exportación")
-    st.dataframe(balanza_expo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
+    st.dataframe(balanza_expo.style.apply(highlight, axis=1), column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
 
     st.subheader("Generar Comprobante")
     id_pesada = st.selectbox("Seleccione el ID de Pesada", balanza['ID Pesada'].tolist())
