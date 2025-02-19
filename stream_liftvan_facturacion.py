@@ -7,10 +7,14 @@ from utils import highlight
 def fetch_data_facturacion():
     facturacion = pd.read_csv('data/facturacion_liftvan.csv')
     saldos = pd.read_csv('data/saldos_liftvan.csv')
-    return facturacion, saldos
+    kpis = pd.read_csv('data/kpis.csv')
+    return facturacion, saldos, kpis
     
 def show_page_facturacion():
-    facturacion, saldos = fetch_data_facturacion()
+    facturacion, saldos, kpis = fetch_data_facturacion()
+    saldo = kpis['Total Saldo'][kpis['Company']=='Liftvan'].sum()
+    total_neto = kpis['Total Neto'][kpis['Company']=='Liftvan'].sum()
+    total_importe = kpis['Total Importe'][kpis['Company']=='Liftvan'].sum()
     col_title, col_logo, col_simpa = st.columns([5, 1, 1])
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
