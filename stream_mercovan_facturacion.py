@@ -7,10 +7,12 @@ from utils import highlight
 def fetch_data_facturacion():
     facturacion = pd.read_csv('data/facturacion_mercovan.csv')
     saldos = pd.read_csv('data/saldos_mercovan.csv')
-    return facturacion, saldos
+    kpis = pd.read_csv('data/kpis.csv')
+    return facturacion, saldos, kpis
     
 def show_page_facturacion():
-    facturacion, saldos = fetch_data_facturacion()
+    facturacion, saldos, kpis = fetch_data_facturacion()
+    saldo = kpis['Total Saldo'][kpis['Company']=='Mercovan'].sum()
     col_title, col_logo, col_simpa = st.columns([5, 1, 1])
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
@@ -25,8 +27,12 @@ def show_page_facturacion():
         st.subheader("Facturación últimos 90 días")
         st.dataframe(facturacion, hide_index=True, use_container_width=True)
     with col2:
-        st.subheader("Saldos adeudados")
-        st.dataframe(saldos, hide_index=True, use_container_width=True)
+        col2_sub, col2_metric = st.columns([6, 2])
+        with col2_sub:
+            st.subheader("Saldos adeudados")
+        with col2_metric:
+            st.write(f"Saldo total: {saldo}")
+            st.dataframe(saldos, hide_index=True, use_container_width=True)
 
 if __name__ == "__main__":
     while True:
