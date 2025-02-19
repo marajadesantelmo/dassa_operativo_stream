@@ -16,7 +16,7 @@ st.set_page_config(page_title="Operativa DASSA",
                    page_icon="📊", 
                    layout="wide")
 
-refresh_interval_ms = 30 * 1000  # 30 seconds in milliseconds
+refresh_interval_ms = 60 * 1000  # 30 seconds in milliseconds
 count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refresh")
 
 # Estilo
