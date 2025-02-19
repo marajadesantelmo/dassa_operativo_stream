@@ -9,11 +9,14 @@ def fetch_data_balanza():
     balanza = pd.read_csv('data/balanza.csv') # Me quedo con la info de balanza completa para generar comprobante
     balanza_impo = balanza[balanza['tipo_oper'] == 'Importacion']
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
-    columns = ['ID Pesada', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
-       'Peso Neto', 'Tara CNT', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Observaciones',
-       'Booking', 'Permiso Emb.', 'Precinto']
-    balanza_impo = balanza_impo[columns]
-    balanza_expo = balanza_expo[columns]
+    columns_impo = ['ID Pesada', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
+       'Peso Neto', 'Tara CNT', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 
+       'Booking', 'Precinto', 'Estado']
+    columns_expo = ['ID Pesada', 'Cliente', 'ATA',  'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
+       'Peso Neto', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Observaciones',
+       'Booking', 'Permiso Emb.', 'Estado']
+    balanza_impo = balanza_impo[columns_impo]
+    balanza_expo = balanza_expo[columns_expo]
     return balanza, balanza_impo, balanza_expo
 
 def show_page_balanza():
