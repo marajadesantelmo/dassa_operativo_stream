@@ -33,7 +33,7 @@ def filter_data(data, start_date, end_date, date_column):
     return filtered_data
 
 def show_page_impo_historico():
-    arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo, arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo, historico_otros_expo = fetch_data_impo_historico()
+    arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo, arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_retiros_expo, historico_verificaciones_expo, historico_otros_expo = fetch_data_impo_historico()
     
     # Convert date columns to datetime
     date_columns = {
