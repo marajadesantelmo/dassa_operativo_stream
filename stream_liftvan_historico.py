@@ -154,8 +154,6 @@ def show_page_impo_historico():
             end_date_verificaciones = st.date_input("Fecha Fin", value='2025-12-31', key='end_date_verificaciones')
             st.write(f"Fecha Fin: {end_date_verificaciones.strftime('%d/%m/%Y')}")
         with col1_6:
-            client_options = ["Todos los clientes"] + sorted(list(arribos_expo_carga_historico['Cliente'].unique()))
-            cliente_verificaciones = st.selectbox("Cliente", options=client_options, key='cliente_verificaciones')
             filtered_data_verificaciones = filter_data(historico_verificaciones_expo, start_date_verificaciones, end_date_verificaciones, "Dia")
         st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
 
@@ -169,8 +167,6 @@ def show_page_impo_historico():
             end_date_arribos_ctns = st.date_input("Fecha Fin", value=arribos_expo_ctns_historico['Fecha'].max(), key='end_date_arribos_ctns')
             st.write(f"Fecha Fin: {end_date_arribos_ctns.strftime('%d/%m/%Y')}")
         with col2_3:
-            client_options = ["Todos los clientes"] + sorted(list(arribos_expo_carga_historico['Cliente'].unique()))
-            cliente_arribos_ctns = st.selectbox("Cliente", options=client_options, key='cliente_arribos_ctns')
             filtered_data_arribos_ctns = filter_data(arribos_expo_ctns_historico, start_date_arribos_ctns, end_date_arribos_ctns, "Fecha")
         st.dataframe(filtered_data_arribos_ctns, hide_index=True, use_container_width=True)
 
