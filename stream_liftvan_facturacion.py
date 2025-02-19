@@ -31,7 +31,7 @@ def show_page_facturacion():
     with col2:
         col2_sub, col2_metric = st.columns([7, 1])
         with col2_sub:
-            st.subheader("Saldos adeudados")
+            st.subheader("Saldos adeudados2")
         with col2_metric:
             st.metric(label="Saldo", value=saldo)
         st.dataframe(saldos, hide_index=True, use_container_width=True)
