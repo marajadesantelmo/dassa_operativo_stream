@@ -29,7 +29,11 @@ def show_page_facturacion():
         st.subheader("Facturación últimos 90 días")
         st.dataframe(facturacion, hide_index=True, use_container_width=True)
     with col2:
-        st.subheader("Saldos adeudados")
+        col2_sub, col2_metric = st.columns([7, 1])
+        with col2_sub:
+            st.subheader("Saldos adeudados")
+        with col2_metric:
+            st.metric(label="Saldo", value=saldo)
         st.dataframe(saldos, hide_index=True, use_container_width=True)
 
 if __name__ == "__main__":
