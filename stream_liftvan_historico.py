@@ -12,7 +12,19 @@ def fetch_data_impo_historico():
     historico_verificaciones_impo = historico_verificaciones_impo[historico_verificaciones_impo['Cliente'].str.contains('Lift|Edelweiss')]
     historico_otros_impo = pd.read_csv('data/historico_otros_impo.csv')
     historico_otros_impo = historico_otros_impo[historico_otros_impo['Cliente'].str.contains('Lift|Edelweiss')]
-    return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo
+    arribos_expo_carga_historico = pd.read_csv('data/arribos_expo_carga_historico.csv')
+    arribos_expo_carga_historico = arribos_expo_carga_historico[arribos_expo_carga_historico['Cliente'].str.contains('Lift|Edelweiss')]
+    arribos_expo_ctns_historico = pd.read_csv('data/arribos_expo_ctns_historico.csv')
+    arribos_expo_ctns_historico = arribos_expo_ctns_historico[arribos_expo_ctns_historico['Cliente'].str.contains('Lift|Edelweiss')]
+    historico_retiros_expo = pd.read_csv('data/historico_retiros_expo.csv')
+    historico_retiros_expo = historico_retiros_expo[historico_retiros_expo['Cliente'].str.contains('Lift|Edelweiss')]
+    historico_verificaciones_expo = pd.read_csv('data/historico_verificaciones_expo.csv')
+    historico_verificaciones_expo = historico_verificaciones_expo[historico_verificaciones_expo['Cliente'].str.contains('Lift|Edelweiss')]
+    historico_otros_expo = pd.read_csv('data/historico_otros_expo.csv')
+    historico_otros_expo = historico_otros_expo[historico_otros_expo['Cliente'].str.contains('Lift|Edelweiss')]
+
+
+    return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo, arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_retiros_expo, historico_verificaciones_expo, historico_otros_expo
 
 def filter_data(data, start_date, end_date, date_column):
     filtered_data = data[(data[date_column] >= pd.to_datetime(start_date)) & 
@@ -21,7 +33,7 @@ def filter_data(data, start_date, end_date, date_column):
     return filtered_data
 
 def show_page_impo_historico():
-    arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo = fetch_data_impo_historico()
+    arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo, arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo, historico_otros_expo = fetch_data_impo_historico()
     
     # Convert date columns to datetime
     date_columns = {
@@ -105,6 +117,58 @@ def show_page_impo_historico():
             st.dataframe(filtered_data_otros, hide_index=True, use_container_width=True)
         else:
             st.dataframe(historico_otros_impo, hide_index=True, use_container_width=True)
+
+    
+
+
+    st.header("Histórico - Operaciones de Expo")
+
+    col1, col2 = st.columns(2)
+
+    with col1: 
+        st.subheader("Arribos de carga")
+        col1_1, col1_2, col1_3 = st.columns(3)
+        with col1_1:
+            start_date_arribos_carga = st.date_input("Fecha Inicio", value=arribos_expo_carga_historico['Fecha'].min(), key='start_date_arribos_carga')
+            st.write(f"Fecha Inicio: {start_date_arribos_carga.strftime('%d/%m/%Y')}")
+        with col1_2:
+            end_date_arribos_cargas = st.date_input("Fecha Fin", value=arribos_expo_carga_historico['Fecha'].max(), key='end_date_arribos_cargas')
+            st.write(f"Fecha Fin: {end_date_arribos_cargas.strftime('%d/%m/%Y')}")
+        with col1_3:
+            client_options = ["Todos los clientes"] + sorted(list(arribos_expo_carga_historico['Cliente'].unique()))
+            cliente_arribos_carga = st.selectbox("Cliente", options=client_options, key='cliente_arribos_carga')
+            filtered_data_arribos = filter_data(arribos_expo_carga_historico, cliente_arribos_carga, start_date_arribos_carga, end_date_arribos_cargas, "Fecha")
+        
+        st.dataframe(filtered_data_arribos, hide_index=True, use_container_width=True)
+
+        st.subheader("Verificaciones")
+        col1_4, col1_5, col1_6 = st.columns(3)
+        with col1_4:
+            start_date_verificaciones = st.date_input("Fecha Inicio", value=historico_verificaciones_expo['Dia'].min(), key='start_date_verificaciones')
+            st.write(f"Fecha Inicio: {start_date_verificaciones.strftime('%d/%m/%Y')}")
+        with col1_5:
+            end_date_verificaciones = st.date_input("Fecha Fin", value=historico_verificaciones_expo['Dia'].max(), key='end_date_verificaciones')
+            st.write(f"Fecha Fin: {end_date_verificaciones.strftime('%d/%m/%Y')}")
+        with col1_6:
+            client_options = ["Todos los clientes"] + sorted(list(arribos_expo_carga_historico['Cliente'].unique()))
+            cliente_verificaciones = st.selectbox("Cliente", options=client_options, key='cliente_verificaciones')
+            filtered_data_verificaciones = filter_data(historico_verificaciones_expo, cliente_verificaciones, start_date_verificaciones, end_date_verificaciones, "Dia")
+        st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
+
+    with col2:
+        st.subheader("Arribos de Contenedores")
+        col2_1, col2_2, col2_3 = st.columns(3)
+        with col2_1:
+            start_date_arribos_ctns = st.date_input("Fecha Inicio", value=arribos_expo_ctns_historico['Fecha'].min(), key='start_date_arribos_ctns')
+            st.write(f"Fecha Inicio: {start_date_arribos_ctns.strftime('%d/%m/%Y')}")
+        with col2_2:
+            end_date_arribos_ctns = st.date_input("Fecha Fin", value=arribos_expo_ctns_historico['Fecha'].max(), key='end_date_arribos_ctns')
+            st.write(f"Fecha Fin: {end_date_arribos_ctns.strftime('%d/%m/%Y')}")
+        with col2_3:
+            client_options = ["Todos los clientes"] + sorted(list(arribos_expo_carga_historico['Cliente'].unique()))
+            cliente_arribos_ctns = st.selectbox("Cliente", options=client_options, key='cliente_arribos_ctns')
+            filtered_data_arribos_ctns = filter_data(arribos_expo_ctns_historico, cliente_arribos_ctns, start_date_arribos_ctns, end_date_arribos_ctns, "Fecha")
+        st.dataframe(filtered_data_arribos_ctns, hide_index=True, use_container_width=True)
 
 if __name__ == "__main__":
     while True:
