@@ -17,6 +17,8 @@ def fetch_data_balanza():
        'Booking', 'Permiso Emb.', 'Estado']
     balanza_impo = balanza_impo[columns_impo]
     balanza_expo = balanza_expo[columns_expo]
+    balanza_impo = balanza_impo.sort_values(by='Estado', ascending=True)
+    balanza_expo = balanza_expo.sort_values(by='Estado', ascending=True)
     return balanza, balanza_impo, balanza_expo
 
 def show_page_balanza():
