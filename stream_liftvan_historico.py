@@ -5,13 +5,13 @@ import time
 
 def fetch_data_impo_historico():
     arribos_impo_historico = pd.read_csv('data/arribos_impo_historico.csv')
-    arribos_impo_historico = arribos_impo_historico[arribos_impo_historico['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    arribos_impo_historico = arribos_impo_historico[arribos_impo_historico['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     historico_retiros_impo = pd.read_csv('data/historico_retiros_impo.csv')
-    historico_retiros_impo = historico_retiros_impo[historico_retiros_impo['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    historico_retiros_impo = historico_retiros_impo[historico_retiros_impo['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     historico_verificaciones_impo = pd.read_csv('data/historico_verificaciones_impo.csv')
-    historico_verificaciones_impo = historico_verificaciones_impo[historico_verificaciones_impo['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    historico_verificaciones_impo = historico_verificaciones_impo[historico_verificaciones_impo['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     historico_otros_impo = pd.read_csv('data/historico_otros_impo.csv')
-    historico_otros_impo = historico_otros_impo[historico_otros_impo['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    historico_otros_impo = historico_otros_impo[historico_otros_impo['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo
 
 def filter_data(data, start_date, end_date, date_column):
@@ -42,7 +42,7 @@ def show_page_impo_historico():
     with col_logo:
         st.image('logo.png')
     with col_simpa:
-        st.image('logo_mercovan.png')
+        st.image('logo_liftvan.png')
     col1, col2 = st.columns(2)
 
     with col1: 

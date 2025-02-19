@@ -6,27 +6,27 @@ from utils import highlight
 
 def fetch_data_orden_del_dia():
     arribos = pd.read_csv('data/arribos.csv')
-    arribos = arribos[arribos['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    arribos = arribos[arribos['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
-    pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     verificaciones_impo = pd.read_csv('data/verificaciones_impo.csv')
-    verificaciones_impo = verificaciones_impo[verificaciones_impo['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    verificaciones_impo = verificaciones_impo[verificaciones_impo['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     retiros_impo = pd.read_csv('data/retiros_impo.csv')
-    retiros_impo = retiros_impo[retiros_impo['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    retiros_impo = retiros_impo[retiros_impo['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     otros_impo = pd.read_csv('data/otros_impo.csv')
-    otros_impo = otros_impo[otros_impo['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    otros_impo = otros_impo[otros_impo['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     arribos_expo_carga = pd.read_csv('data/arribos_expo_carga.csv')
-    arribos_expo_carga = arribos_expo_carga[arribos_expo_carga['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    arribos_expo_carga = arribos_expo_carga[arribos_expo_carga['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
-    arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     verificaciones_expo = pd.read_csv('data/verificaciones_expo.csv')
-    verificaciones_expo = verificaciones_expo[verificaciones_expo['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    verificaciones_expo = verificaciones_expo[verificaciones_expo['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     otros_expo = pd.read_csv('data/otros_expo.csv')
-    otros_expo = otros_expo[otros_expo['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    otros_expo = otros_expo[otros_expo['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     remisiones = pd.read_csv('data/remisiones.csv')
-    remisiones = remisiones[remisiones['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    remisiones = remisiones[remisiones['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     consolidados = pd.read_csv('data/consolidados.csv')
-    consolidados = consolidados[consolidados['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    consolidados = consolidados[consolidados['Cliente'].str.contains('Lift|Edelweiss')].drop(columns=['Cliente'])
     return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados
     
 def show_page_orden_del_dia():
@@ -40,7 +40,7 @@ def show_page_orden_del_dia():
     with col_logo:
         st.image('logo.png')
     with col_simpa:
-        st.image('logo_mercovan.png')
+        st.image('logo_liftvan.png')
     col1, col2 = st.columns(2)
 
     col1, col2 = st.columns(2)

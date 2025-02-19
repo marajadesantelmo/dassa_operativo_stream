@@ -1,15 +1,15 @@
 import streamlit as st
-import stream_mercovan_existente
-import stream_mercovan_orden_del_dia
-import stream_mercovan_historico
-import stream_mercovan_facturacion
+import stream_liftvan_existente
+import stream_liftvan_orden_del_dia
+import stream_liftvan_historico
+import stream_liftvan_facturacion
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
 import os
 
 # Page configurations
-st.set_page_config(page_title="Operativa DASSA-Mercovan", 
+st.set_page_config(page_title="Operativa DASSA-Liftvan", 
                    page_icon="📊", 
                    layout="wide")
 
@@ -72,13 +72,13 @@ else:
             orientation="horizontal")
     
     if page_selection == "Existente":
-        stream_mercovan_existente.show_page_existente()
+        stream_liftvan_existente.show_page_existente()
     elif page_selection == "Orden del Día":
-        stream_mercovan_orden_del_dia.show_page_orden_del_dia()
+        stream_liftvan_orden_del_dia.show_page_orden_del_dia()
     elif page_selection == "Histórico":
-        stream_mercovan_historico.show_page_impo_historico()
+        stream_liftvan_historico.show_page_impo_historico()
     elif page_selection == "Facturación" and st.session_state.username != "operativo":
-        stream_mercovan_facturacion.show_page_facturacion()
+        stream_liftvan_facturacion.show_page_facturacion()
     elif page_selection == "Logout":
         cookies.pop("logged_in", None)
         cookies.pop("username", None)
