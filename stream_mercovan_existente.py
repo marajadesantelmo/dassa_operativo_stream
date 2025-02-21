@@ -7,15 +7,22 @@ def fetch_data_impo():
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz = existente_plz[existente_plz['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
     existente_plz = existente_plz.rename(columns={'Desc': 'Mudable'})
+    existente_plz['ingreso'] = pd.to_datetime(existente_plz['ingreso']).dt.strftime('%d-%m-%Y')
+    
     existente_alm = pd.read_csv('data/existente_alm.csv')
     existente_alm = existente_alm.rename(columns={'Desc': 'Mudable'})
     existente_alm = existente_alm[existente_alm['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    existente_alm['Ingreso'] = pd.to_datetime(existente_alm['Ingreso']).dt.strftime('%d-%m-%Y')
+    
     existente_plz = existente_plz.drop_duplicates()
     existente_alm = existente_alm.drop_duplicates()
+    
     pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
     pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
     listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    
     return existente_plz, existente_alm, pendiente_consolidar, listos_para_remitir
 
 def show_page_existente():
@@ -53,9 +60,9 @@ def show_page_existente():
 
 
 # Run the show_page function
-if __name__ == "__main__":
+if __name__ == "__main__": 
     while True:
         show_page_existente()
         time.sleep(60)  
-        st.experimental_rerun() 
+        st.experimental_rerun()
 
