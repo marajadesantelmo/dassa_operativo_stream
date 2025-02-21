@@ -8,8 +8,10 @@ from utils import highlight
 def fetch_data_impo():
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz = existente_plz[existente_plz['Cliente'].str.contains('Lift|Edelweiss')]
+    existente_plz = existente_plz.rename(columns={'Desc': 'Mudable'})
     existente_alm = pd.read_csv('data/existente_alm.csv')
     existente_alm = existente_alm[existente_alm['Cliente'].str.contains('Lift|Edelweiss')]
+    existente_plz = existente_plz.rename(columns={'Desc': 'Mudable'})
     existente_plz = existente_plz.drop_duplicates()
     existente_alm = existente_alm.drop_duplicates()
     pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
