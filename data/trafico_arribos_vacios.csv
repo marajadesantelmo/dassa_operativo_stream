@@ -1,10 +1,10 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-31729,24/02,Mercovan Argentina Srl,FANU-175150-6,10080,HC,TD,                    ,92875335,0,                              ,,     ,2025-03-17,Salles Almeida,                    ,Pendiente
+31729,24/02,Mercovan Argentina Srl,FANU-175150-6,10080,HC,TD,                    ,92875335,1,GALDERISI CARLOS ANDRES       ,.,19:17,2025-03-17,Salles Almeida,                    ,19:17 Arribado
 31714,24/02,Henn Y Cia S.R.L.,MSKU-563833-3,10076,DR,TD,                    ,250075548,1,TRANSPORTES LEIRA-NO USAR     ,.,19:02,2025-03-17,,                    ,19:02 Arribado
 31715,24/02,Henn Y Cia S.R.L.,MRKU-937068-0,10076,DR,TD,                    ,250075548,1,TRANSPORTES LEIRA-NO USAR     ,.,19:02,2025-03-17,,                    ,19:02 Arribado
 31692,24/02,Aj Comercio Exterior Srl,-,0,  ,TD,                    ,25001EC01011159E,1,TRANSPORTE DEL CLIENTE        ,.,14:47,2025-03-17,,                    ,14:47 Arribado
 31693,24/02,Aj Comercio Exterior Srl,-,0,  ,TD,                    ,25001EC01011159E,1,TRANSPORTE DEL CLIENTE        ,.,14:47,2025-03-17,,                    ,14:47 Arribado
-31721,24/02,Weiden Sociedad Anonima,FANU-165665-9,10080,HC,TD,                    ,340500007194,0,                              ,,     ,2025-03-17,,                    ,Pendiente
+31721,24/02,Weiden Sociedad Anonima,FANU-165665-9,10080,HC,TD,                    ,340500007194,1,GALDERISI CARLOS ANDRES       ,.,19:17,2025-03-17,,                    ,19:17 Arribado
 31676,24/02,Sandrin Paola Karina,FBLU-004120-8,9,HC,TD,FX32986092          ,EBKG11804935,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:47,2025-03-17,,                    ,10:47 Arribado
 31678,24/02,Sandrin Paola Karina,MSMU-603459-7,9,HC,TD,FX32986088          ,EBKG118049358,1,TRANSPORTE DEL CLIENTE        ,Favieri Daniel,11:28,2025-03-17,,                    ,11:28 Arribado
 31713,24/02,Henn Y Cia S.R.L.,MRSU-011922-8,10076,DR,TD,                    ,250075548,1,TRANSPORTES LEIRA-NO USAR     ,.,19:02,2025-03-17,,                    ,19:02 Arribado
@@ -20,13 +20,13 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 31719,24/02,Richter Miriam Raquel,-,TRP,HC,TD,                    ,340500007194,0,                              ,,     ,2025-03-17,,                    ,Pendiente
 31712,24/02,Isischu Srl,MSNU-787068-2,9,HC,TD,FX-32986104         ,EBKG11704828,1,GALDERISI CARLOS ANDRES       ,.,19:13,2025-03-17,,                    ,19:13 Arribado
 31710,24/02,Isischu Srl,MSDU-564334-0,9,HC,TD,FX-32986108         ,EBKG11704828,1,TRANSPORTES LEIRA-NO USAR     ,.,19:12,2025-03-17,,                    ,19:12 Arribado
-31727,24/02,Lift Van Int. Co S.A,HLXU-126055-5,10080,DR,TD,                    ,17536915,0,                              ,,     ,2025-03-17,Jessica Rodriguez,                    ,Pendiente
-31728,24/02,Lift Van Int. Co S.A,UACU-852999-7,10080,DR,TD,                    ,45406774,0,                              ,,     ,2025-03-17,Daridania Rodriguez,                    ,Pendiente
-31722,24/02,Aniceto Gomez Sa,TXGU-697542-9,9,HC,TD,FX-32986051         ,153IAR0647227,0,                              ,,     ,2025-03-17,,                    ,Pendiente
-31723,24/02,Hilado Sa,MRKU-321952-6,10080,HC,TD,                    ,250426341,0,                              ,,     ,2025-03-17,,                    ,Pendiente
-31724,24/02,Hilado Sa,MRSU-567505-0,10080,HC,TD,                    ,250423333,0,                              ,,     ,2025-03-17,,                    ,Pendiente
-31725,24/02,Hilado Sa,UETU-570205-9,10080,HC,TD,                    ,250423333,0,                              ,,     ,2025-03-17,,                    ,Pendiente
-31726,24/02,Hilado Sa,HASU-418508-5,10080,HC,TD,                    ,250423333,0,                              ,,     ,2025-03-17,,                    ,Pendiente
+31727,24/02,Lift Van Int. Co S.A,HLXU-126055-5,10080,DR,TD,                    ,17536915,1,GALDERISI CARLOS ANDRES       ,.,19:16,2025-03-17,Jessica Rodriguez,                    ,19:16 Arribado
+31728,24/02,Lift Van Int. Co S.A,UACU-852999-7,10080,DR,TD,                    ,45406774,1,TRANSPORTES LEIRA-NO USAR     ,.,19:16,2025-03-17,Daridania Rodriguez,                    ,19:16 Arribado
+31722,24/02,Aniceto Gomez Sa,TXGU-697542-9,9,HC,TD,FX-32986051         ,153IAR0647227,1,GALDERISI CARLOS ANDRES       ,.,19:15,2025-03-17,,                    ,19:15 Arribado
+31723,24/02,Hilado Sa,MRKU-321952-6,10080,HC,TD,                    ,250426341,1,GALDERISI CARLOS ANDRES       ,.,19:15,2025-03-17,,                    ,19:15 Arribado
+31724,24/02,Hilado Sa,MRSU-567505-0,10080,HC,TD,                    ,250423333,1,GALDERISI CARLOS ANDRES       ,.,19:16,2025-03-17,,                    ,19:16 Arribado
+31725,24/02,Hilado Sa,UETU-570205-9,10080,HC,TD,                    ,250423333,1,GALDERISI CARLOS ANDRES       ,.,19:16,2025-03-17,,                    ,19:16 Arribado
+31726,24/02,Hilado Sa,HASU-418508-5,10080,HC,TD,                    ,250423333,1,GALDERISI CARLOS ANDRES       ,.,19:16,2025-03-17,,                    ,19:16 Arribado
 31711,24/02,Isischu Srl,TCNU-711353-4,9,HC,TD,FX-32986110         ,EBKG11704828,1,GALDERISI CARLOS ANDRES       ,.,19:13,2025-03-17,,                    ,19:13 Arribado
 31680,24/02,Helvecia S.A.,MEDU-718099-3,9,HC,TD,FX32986083          ,EBKG11785413,1,TRANSPORTES LEIRA-NO USAR     ,Sampayo,11:34,2025-03-17,,                    ,11:34 Arribado
 31679,24/02,Isischu Srl,MSMU-713659-3,9,HC,TD,FX32986082          ,EBKG11837731,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez Luis,11:32,2025-03-17,,                    ,11:32 Arribado
