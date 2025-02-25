@@ -37,7 +37,7 @@ columns = [column[0] for column in cursor.description]
 saldos_sql= pd.DataFrame.from_records(rows, columns=columns)
 
 cursor.execute(f"""
-SELECT Factura, tipo, fecha_emi, fecha_vto, [Neto Gravado], [Neto No Gravado], [Importe Total], [Razon Social], vendedor
+SELECT Factura, tipo, fecha_emi, fecha_vto, [Neto Gravado], [Neto No Gravado], [Razon Social], vendedor
 FROM DEPOFIS.DASSA.Facturacion
 WHERE fecha_emi > '2024-01-01'
 AND concepto < 60026
@@ -56,12 +56,13 @@ def transformar_facturacion(df):
     df.loc[df['tipo'] == 3, 'Factura'] = 'NdC ' + df['Factura'].astype(str)
     df = df.drop(columns=['tipo'])
     df = df.groupby(
-        ['Razon Social']).agg({
+        ['Factura', 'fecha_emi', 'Razon Social']).agg({
         'Neto': 'sum',
         'vendedor': 'first'}).reset_index()
     df['Razon Social'] = df['Razon Social'].str.strip().str.title()
     df['Razon Social'] = df['Razon Social'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
-    df.rename(columns={'vendedor': 'cod_vendedor', 
+    df.rename(columns={'fecha_emi': 'Emision', 
+                       'vendedor': 'cod_vendedor',
                        'Neto': 'Importe Total'}, inplace=True)
     return df
 
