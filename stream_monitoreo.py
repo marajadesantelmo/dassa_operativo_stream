@@ -4,37 +4,11 @@ import pandas as pd
 # Page configurations
 st.set_page_config(page_title="Monitoreo Deposito", 
                    page_icon="📊", 
-                   layout="wide",
-                   initial_sidebar_state="expanded")
+                   layout="wide")
 
 # Estilo
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
-# Custom CSS for fancy design
-st.markdown("""
-    <style>
-    .main {
-        background-color: #f0f2f6;
-        padding: 20px;
-        border-radius: 10px;
-    }
-    .stMetric {
-        background-color: #ffffff;
-        border: 1px solid #e1e1e1;
-        border-radius: 10px;
-        padding: 10px;
-        margin: 10px;
-    }
-    .stDataFrame {
-        background-color: #ffffff;
-        border: 1px solid #e1e1e1;
-        border-radius: 10px;
-        padding: 10px;
-        margin: 10px;
-    }
-    </style>
-""", unsafe_allow_html=True)
 
 # Load data
 kpi_df = pd.read_csv('data/monitoreo/kpi.csv')
