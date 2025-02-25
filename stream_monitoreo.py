@@ -7,7 +7,7 @@ st.set_page_config(page_title="Monitoreo Deposito",
                    layout="wide")
 
 # Estilo
-with open("styles.css") as f:
+with open("styles_mobile.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Load data
