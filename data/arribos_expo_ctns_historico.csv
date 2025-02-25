@@ -2,6 +2,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-28,29214,MRKU-774532-3,Mercovan Argentina Srl,245675916,*************       ,Arribado
 2024-11-07,29500,HLXU-846225-0,Mercovan Argentina Srl,62647146,                    ,Arribado
 2025-02-19,31601,MRSU-026068-4,Mercovan Argentina Srl,250247354,*************       ,Arribado
+2025-02-24,31729,FANU-175150-6,Mercovan Argentina Srl,92875335,                    ,Arribado
 2025-02-19,31588,CMAU-069458-6,Mercovan Argentina Srl,USG0296304,R1947319            ,Arribado
 2025-02-11,31365,SEKU-115663-0,Mercovan Argentina Srl,90028928E,***********         ,Arribado
 2025-01-31,31138,HLXU-132205-0,Mercovan Argentina Srl,90180664,HLD0432391          ,Arribado
@@ -19,9 +20,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-25,29817,TGHU-520858-7,Mercovan Argentina Srl,63984259,HLD0315580          ,Arribado
 2024-10-28,29213,GLDU-948595-8,Lift Van Int. Co S.A,EBKG10553950,FX26275728          ,Arribado
 2024-11-01,29332,BSIU-325026-9,Lift Van Int. Co S.A,64977388,                    ,Arribado
+2025-02-24,31728,UACU-852999-7,Lift Van Int. Co S.A,45406774,                    ,Arribado
 2025-02-10,31317,MSKU-557228-3,Lift Van Int. Co S.A,249522080,**********          ,Arribado
 2025-02-19,31579,BMOU-145090-9,Lift Van Int. Co S.A,92788946E,************        ,Arribado
 2025-02-19,31587,CMAU-017821-3,Lift Van Int. Co S.A,BUA0336878,R1947319            ,Arribado
+2025-02-24,31727,HLXU-126055-5,Lift Van Int. Co S.A,17536915,                    ,Arribado
 2025-01-30,31079,GESU-108973-8,Lift Van Int. Co S.A,14222673,************        ,Arribado
 2025-01-30,31080,HLBU-230416-2,Lift Van Int. Co S.A,12527362E,*************       ,Arribado
 2025-01-30,31113,MRKU-070514-4,Lift Van Int. Co S.A,249224028,*************       ,Arribado
@@ -147,6 +150,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-05,29417,CAAU-545496-2,Aniceto Gomez Sa,ZIMUBUE9036282,******************  ,Arribado
 2025-01-10,30715,TXGU-701586-5,Aniceto Gomez Sa,153IAR0646477,FX26294677          ,Arribado
 2025-01-10,30719,FFAU-582685-2,Aniceto Gomez Sa,153IAR0646477,FX26294640          ,Arribado
+2025-02-24,31722,TXGU-697542-9,Aniceto Gomez Sa,153IAR0647227,FX-32986051         ,Arribado
 2024-11-13,29614,ZCSU-266285-5,A La Orden,ZIMUBUE9036450,***************     ,Arribado
 2024-11-22,29778,TCLU-593273-6,A La Orden,VX18FA24000486,***************     ,Arribado
 2024-11-22,29786,TXGU-677634-5,A La Orden,EBKG10696373,FX26263624          ,Arribado
@@ -177,7 +181,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-22,29763,TRHU-388317-1,Refractarios Argentinos Saicm,BUEE14981800,***************     ,Arribado
 2024-12-05,30050,FCIU-567195-3,Refractarios Argentinos Saicm,BUEE15406800,                    ,Arribado
 2024-12-05,30061,TRLU-973195-5,Refractarios Argentinos Saicm,BUEE15166400,                    ,Arribado
+2025-02-21,31731,HLBU-145229-4,Refractarios Argentinos Saicm,32286209,                    ,Arribado
 2025-01-13,30738,BEAU-221251-5,Refractarios Argentinos Saicm,93665959,                    ,Arribado
+2025-02-21,31730,HLXU-105409-2,Refractarios Argentinos Saicm,12746385,                    ,Arribado
 2024-11-01,29342,OOLU-429716-8,Pelama Chubut S.A.,COSU6400386000,*********           ,Arribado
 2024-11-07,29469,TRHU-106661-3,Pelama Chubut S.A.,BUA0329583,L4361181            ,Arribado
 2025-02-07,31282,MRKU-051331-0,Pelama Chubut S.A.,249684465,**************      ,Arribado
@@ -201,6 +207,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-12,29586,TCKU-662034-0,Mader Zu S.R.L.,246408318,*****************   ,Arribado
 2024-11-12,29587,MRKU-580744-7,Mader Zu S.R.L.,246408318,*****************   ,Arribado
 2025-02-19,31582,UACU-539399-4,Mader Zu S.R.L.,93067894,*************       ,Arribado
+2025-02-25,31737,MRSU-578036-0,Mader Zu S.R.L.,249872785,*************       ,Arribado
+2025-02-25,31738,MRKU-260785-1,Mader Zu S.R.L.,249872785,***************     ,Arribado
 2025-02-07,31284,CSNU-630759-2,Mader Zu S.R.L.,COSU6409261560,************        ,Arribado
 2025-02-07,31285,CAIU-958045-2,Mader Zu S.R.L.,COSU6409261560,***************     ,Arribado
 2025-02-07,31286,GCXU-563816-1,Mader Zu S.R.L.,COSU6409261560,**************      ,Arribado
@@ -220,6 +228,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-28,29183,FCIU-702652-1,Hilado Sa,COSU6398422240,******************  ,Arribado
 2024-10-28,29184,TGBU-885040-7,Hilado Sa,COSU6398422240,************        ,Arribado
 2024-10-28,29185,SEGU-660078-4,Hilado Sa,COSU6398422240,*************       ,Arribado
+2025-02-24,31723,MRKU-321952-6,Hilado Sa,250426341,                    ,Arribado
+2025-02-24,31724,MRSU-567505-0,Hilado Sa,250423333,                    ,Arribado
+2025-02-24,31725,UETU-570205-9,Hilado Sa,250423333,                    ,Arribado
+2025-02-24,31726,HASU-418508-5,Hilado Sa,250423333,                    ,Arribado
 2025-01-13,30736,MRKU-233713-9,Hilado Sa,247809156,********************,Arribado
 2025-01-13,30737,MSKU-957385-8,Hilado Sa,247809156,********************,Arribado
 2025-02-12,31385,TRHU-622981-6,Hilado Sa,249523704,*************       ,Arribado
@@ -328,9 +340,16 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-09,30666,TGBU-400643-0,Global Rover Logistic Srl,340500000360,****************    ,Arribado
 2025-01-09,30667,EITU-181402-6,Global Rover Logistic Srl,340500000360,********************,Arribado
 2024-11-01,29345,EGHU-923545-7,Isischu Srl,340400037806,******************  ,Arribado
-2025-02-24,31679,MSMU-713659-3,Isischu Srl,EBKG11837731,FX32986082          ,Arribado
+2025-02-24,31710,MSDU-564334-0,Isischu Srl,EBKG11704828,FX-32986108         ,Arribado
+2025-02-24,31711,TCNU-711353-4,Isischu Srl,EBKG11704828,FX-32986110         ,Arribado
+2025-02-24,31712,MSNU-787068-2,Isischu Srl,EBKG11704828,FX-32986104         ,Arribado
 2025-02-24,31689,MSMU-599128-0,Isischu Srl,EBKG11837731,FX32986085          ,Arribado
-2025-02-24,31677,MSMU-412936-9,Isischu Srl,EBKG11837731,FZ32986091          ,Arribado
+2025-02-24,31705,MSDU-867844-2,Isischu Srl,EBKG11837731,FX-32986109         ,Arribado
+2025-02-24,31706,TRHU-622578-6,Isischu Srl,EBKG11837731,FX-32986107         ,Arribado
+2025-02-24,31707,MSMU-599128-0,Isischu Srl,EBKG11837731,FX-32986085         ,Arribado
+2025-02-24,31708,MEDU-486095-5,Isischu Srl,EBKG11704828,FX-32986113         ,Arribado
+2025-02-24,31709,MEDU-937678-0,Isischu Srl,EBKG11704828,FX-32986111         ,Arribado
+2025-02-24,31679,MSMU-713659-3,Isischu Srl,EBKG11837731,FX32986082          ,Arribado
 2025-02-11,31363,CAAU-695185-5,Isischu Srl,EBKG11663966,FX32986425          ,Arribado
 2025-02-11,31364,MSNU-789666-6,Isischu Srl,EBKG11663966,FX32986422          ,Arribado
 2025-02-11,31367,BMOU-588053-3,Isischu Srl,EBKG11663966,FX32986410          ,Arribado
@@ -450,6 +469,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-10-29,29244,EISU-852440-5,Maringa Maderas Sa,340400037130,******************  ,Arribado
 2024-10-29,29245,TRHU-521190-0,Maringa Maderas Sa,340400037130,***************     ,Arribado
 2024-10-29,29246,EITU-102997-5,Maringa Maderas Sa,340400037130,****************    ,Arribado
+2025-02-25,31732,BMOU-600982-0,Maringa Maderas Sa,EBKG11724532,FX32986008          ,Arribado
 2025-02-06,31248,HAMU-173332-6,Maringa Maderas Sa,62665572,*************       ,Arribado
 2025-02-06,31249,FANU-351964-0,Maringa Maderas Sa,90407200,************        ,Arribado
 2025-02-13,31414,FFAU-120409-0,Maringa Maderas Sa,EBKG11786448,FX32989247          ,Arribado
@@ -533,6 +553,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-25,29823,GAOU-645436-2,Taeda Sa,ZIMUBUE9036468,*****************   ,Arribado
 2024-12-26,30441,HLBU-214403-8,Taeda Sa,28435176,                    ,Arribado
 2025-01-02,30484,FFAU-173297-1,Taeda Sa,EBKG11177429,FX26267190          ,Arribado
+2025-02-25,31733,TRHU-502051-8,Taeda Sa,EBKG11885208,FX32986003          ,Arribado
 2025-01-28,31025,,Taeda Sa,EBKG11247991,                    ,Pendiente
 2025-01-28,31041,MSNU-747272-9,Taeda Sa,,FX26282860          ,Arribado
 2025-01-30,31087,MSMU-851960-0,Taeda Sa,EBKG11513926,FX26280096          ,Arribado
@@ -661,6 +682,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-04,31187,BSIU-802151-6,Henn Y Cia S.R.L.,BUE500004300,**********          ,Arribado
 2025-02-04,31188,UETU-596879-5,Henn Y Cia S.R.L.,BUE50004300,**************      ,Arribado
 2025-02-14,31460,MRSU-043405-0,Henn Y Cia S.R.L.,250075140,*************       ,Arribado
+2025-02-24,31714,MSKU-563833-3,Henn Y Cia S.R.L.,250075548,                    ,Arribado
+2025-02-24,31715,MRKU-937068-0,Henn Y Cia S.R.L.,250075548,                    ,Arribado
+2025-02-25,31734,TRHU-377866-4,Henn Y Cia S.R.L.,BUEF02066700,*************       ,Arribado
+2025-02-25,31735,NYKU-369213-3,Henn Y Cia S.R.L.,BUEF02066700,**************      ,Arribado
+2025-02-25,31736,FBIU-034365-1,Henn Y Cia S.R.L.,BUEF02066700,***************     ,Arribado
+2025-02-25,31739,MRKU-821606-8,Henn Y Cia S.R.L.,250373994,***************     ,Arribado
+2025-02-24,31713,MRSU-011922-8,Henn Y Cia S.R.L.,250075548,                    ,Arribado
 2025-02-18,31531,PCIU-179460-4,Henn Y Cia S.R.L.,BUE500010900,***********         ,Arribado
 2025-02-18,31532,PCIU-015151-6,Henn Y Cia S.R.L.,BUE500010900,***************     ,Arribado
 2025-02-18,31545,CAIU-357581-8,Henn Y Cia S.R.L.,BUE500010900,***************     ,Arribado
@@ -757,6 +785,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-27,29887,CAIU-350322-7,Noah Servicess.R.L.,ZIMUBUE9036385,**************      ,Arribado
 2024-11-13,29608,MSDU-639504-2,Borgmann Rodrigo Ezequiel,EBKG10682414,FX-26259538         ,Arribado
 2024-11-06,29443,CAIU-443152-2,Plasticos Dise S A,ZIMUBUE9036371,                    ,Arribado
+2025-02-25,31740,MSDU-159970-0,Plasticos Dise S A,EBKG11789696,FX32989454          ,Arribado
 2024-10-29,29249,MSKU-728815-2,Lawter Argentina S.A.,245350864,                    ,Arribado
 2024-10-29,29250,TCLU-689129-3,Lawter Argentina S.A.,245350864,                    ,Arribado
 2024-10-29,29251,MSKU-714417-6,Lawter Argentina S.A.,245350864,                    ,Arribado
@@ -850,6 +879,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-13,30237,,Aj Comercio Exterior Srl,24001C01082773N,                    ,Arribado
 2024-12-13,30238,,Aj Comercio Exterior Srl,24001C01082773N,                    ,Arribado
 2025-02-19,31603,,Aj Comercio Exterior Srl,25001EC01009884Z,                    ,Arribado
+2025-02-24,31692,,Aj Comercio Exterior Srl,25001EC01011159E,                    ,Arribado
+2025-02-24,31693,,Aj Comercio Exterior Srl,25001EC01011159E,                    ,Arribado
 2025-02-18,31539,,Aj Comercio Exterior Srl,25001EC01009743K,                    ,Arribado
 2025-02-18,31540,,Aj Comercio Exterior Srl,25001EC01009743K,                    ,Arribado
 2025-02-18,31541,,Aj Comercio Exterior Srl,25001EC01009881N,                    ,Arribado
@@ -1047,6 +1078,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-04,31171,MSDU-538984-7,Forestal Bosques Del Plata Sa,EBKG11615689,FX26264824          ,Arribado
 2024-10-29,29247,EISU-824516-5,Weiden Sociedad Anonima,340400036052,                    ,Arribado
 2025-01-02,30480,TGBU-626180-9,Weiden Sociedad Anonima,340400049324,********************,Arribado
+2025-02-24,31721,FANU-165665-9,Weiden Sociedad Anonima,340500007194,                    ,Arribado
 2024-12-20,30357,,Delta Compresion S R L,TERRESTRE,                    ,Pendiente
 2024-12-20,30358,,Delta Compresion S R L,TERRESTRE,                    ,Pendiente
 2024-12-20,30359,,Delta Compresion S R L,TERRESTRE,                    ,Pendiente
@@ -1105,8 +1137,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-28,29884,TGBU-652716-5,Sandrin Paola Karina,34040003831,***********         ,Arribado
 2024-11-28,29885,TGBU-458198-0,Sandrin Paola Karina,34040003831,************        ,Arribado
 2024-11-28,29886,TCNU-208593-3,Sandrin Paola Karina,34040003831,*********           ,Arribado
+2025-02-24,31704,MSMU-518627-6,Sandrin Paola Karina,EBKG11804935,FX-32986033         ,Arribado
 2025-02-24,31678,MSMU-603459-7,Sandrin Paola Karina,EBKG118049358,FX32986088          ,Arribado
 2025-02-24,31688,TGBU-795451-5,Sandrin Paola Karina,EBKG11804935,FX32986078          ,Arribado
+2025-02-24,31700,MSDU-729930-0,Sandrin Paola Karina,EBKG11804935,FX-32986116         ,Arribado
+2025-02-24,31701,MSNU-590558-4,Sandrin Paola Karina,EBKG11804935,FX-32986101         ,Arribado
+2025-02-24,31702,TRHU-715998-7,Sandrin Paola Karina,EBKG11804935,FX-32986096         ,Arribado
+2025-02-24,31703,MSNU-793232-0,Sandrin Paola Karina,EBKG11804935,FX-32986057         ,Arribado
 2025-02-12,31376,MSMU-421560-0,Sandrin Paola Karina,EBKG11677995,FX32986369          ,Arribado
 2025-02-12,31377,MSMU-821938-9,Sandrin Paola Karina,EBKG11677995,FX32986372          ,Arribado
 2025-02-12,31378,MSNU-850122-5,Sandrin Paola Karina,EBKG11677995,FX32986310          ,Arribado
@@ -1143,6 +1180,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-08,30650,,Atrim Argentina S.A.,35381588,                    ,Pendiente
 2025-01-23,30937,TCNU-268381-1,Richter Miriam Raquel,COSU6407730150,************        ,Arribado
 2025-01-23,30939,CSLU-600989-9,Richter Miriam Raquel,COSU6407730150,********************,Arribado
+2025-02-24,31716,,Richter Miriam Raquel,340500007194,                    ,Pendiente
+2025-02-24,31717,,Richter Miriam Raquel,340500007194,                    ,Pendiente
+2025-02-24,31718,,Richter Miriam Raquel,340500007194,                    ,Pendiente
+2025-02-24,31719,,Richter Miriam Raquel,340500007194,                    ,Pendiente
+2025-02-24,31720,,Richter Miriam Raquel,340500007194,                    ,Pendiente
 2025-01-27,31009,FCIU-664805-3,Intervan-Manuel Isla Pérez,92847015,********************,Arribado
 2025-02-18,31497,MRKU-856960-9,Pons Estudio Aduanero,249680475,**************      ,Arribado
 2025-02-18,31498,MRKU-787577-5,Pons Estudio Aduanero,249680475,********            ,Arribado
@@ -1155,6 +1197,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-19,31605,TCNU-479196-5,Newsan Sociedad Anonima,250248515,**************      ,Arribado
 2025-02-20,31607,MSKU-053105-0,Newsan Sociedad Anonima,250249876,**********          ,Arribado
 2025-02-20,31623,MRSU-349666-8,Newsan Sociedad Anonima,250249876,**************      ,Arribado
+2025-02-25,31741,SUDU-662413-2,Newsan Sociedad Anonima,250549286, **********         ,Arribado
 2025-02-19,31562,MRSU-698677-7,Newsan Sociedad Anonima,250248463,***************     ,Arribado
 2025-02-19,31580,MRKU-332381-8,Newsan Sociedad Anonima,250248515,**************      ,Arribado
 2025-02-19,31583,MRKU-381686-1,Newsan Sociedad Anonima,250248463,************        ,Arribado
