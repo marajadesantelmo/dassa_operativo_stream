@@ -80,7 +80,9 @@ def transformar_saldos(df):
                        inplace=True)
     df = df[['Cliente',  'Saldo']]
     df['Saldo'] = df['Saldo'].round(0)
+    df.sort_values(by='Saldo', ascending=False, inplace=True)
     df['Saldo'] = df['Saldo'].apply(lambda x: f"${x:,.0f}".replace(",", "."))
+    df = df.reset_index(drop=True)
     return df
 
 saldos = transformar_saldos(saldos_sql)
@@ -118,6 +120,8 @@ ventas_por_cliente_mes_actual = current_month_sales.groupby('Razon Social').agg(
 ventas_por_cliente_mes_anterior = previous_month_sales.groupby('Razon Social').agg({'Importe Total': 'sum'}).reset_index()
 ventas_por_cliente = ventas_por_cliente_mes_actual.merge(ventas_por_cliente_mes_anterior, on='Razon Social', how='outer', suffixes=('_actual', '_anterior'))
 ventas_por_cliente = ventas_por_cliente.fillna(0)
+ventas_por_cliente['%'] = (ventas_por_cliente['Importe Total_actual'] / ventas_por_cliente['Importe Total_actual'].sum() * 100)
+ventas_por_cliente['%'] = ventas_por_cliente['%'].apply(lambda x: f"{x:,.1f}".replace(".", ","))
 ventas_por_cliente['Importe Total_actual'] = ventas_por_cliente['Importe Total_actual'].round(0)
 ventas_por_cliente['Importe Total_anterior'] = ventas_por_cliente['Importe Total_anterior'].round(0)
 ventas_por_cliente.rename(columns={'Razon Social': 'Cliente', 
@@ -126,25 +130,31 @@ ventas_por_cliente.rename(columns={'Razon Social': 'Cliente',
 ventas_por_cliente = ventas_por_cliente.sort_values(by='Mes actual', ascending=False)
 ventas_por_cliente['Mes actual'] = ventas_por_cliente['Mes actual'].apply(lambda x: f"${x:,.0f}")
 ventas_por_cliente['Mes anterior'] = ventas_por_cliente['Mes anterior'].apply(lambda x: f"${x:,.0f}")
+ventas_por_cliente = ventas_por_cliente[['Cliente', 'Mes anterior', 'Mes actual', '%']]
+ventas_por_cliente.reset_index(drop=True, inplace=True)
 print(ventas_por_cliente)
 
 # Ventas por vendedor
-ventas_por_vendedor_mes_actual = current_month_sales.groupby('Vendedor').agg({'Importe Total': 'sum'}).reset_index()
-ventas_por_vendedor_mes_anterior = previous_month_sales.groupby('Vendedor').agg({'Importe Total': 'sum'}).reset_index()
-ventas_por_vendedor = ventas_por_vendedor_mes_actual.merge(ventas_por_vendedor_mes_anterior, on='Vendedor', how='outer', suffixes=('_actual', '_anterior'))
+ventas_por_vendedor_mes_actual = current_month_sales.groupby('nombre_vendedor').agg({'Importe Total': 'sum'}).reset_index()
+ventas_por_vendedor_mes_anterior = previous_month_sales.groupby('nombre_vendedor').agg({'Importe Total': 'sum'}).reset_index()
+ventas_por_vendedor = ventas_por_vendedor_mes_anterior.merge(ventas_por_vendedor_mes_actual, on='nombre_vendedor', how='outer', suffixes=('_actual', '_anterior'))
 ventas_por_vendedor = ventas_por_vendedor.fillna(0)
+ventas_por_vendedor['%'] = (ventas_por_vendedor['Importe Total_actual'] / ventas_por_vendedor['Importe Total_actual'].sum() * 100)
+ventas_por_vendedor['%'] = ventas_por_vendedor['%'].apply(lambda x: f"{x:,.1f}".replace(".", ","))
 ventas_por_vendedor['Importe Total_actual'] = ventas_por_vendedor['Importe Total_actual'].round(0)
 ventas_por_vendedor['Importe Total_anterior'] = ventas_por_vendedor['Importe Total_anterior'].round(0)
-ventas_por_vendedor.rename(columns={'Vendedor': 'Vendedor', 
-                       'Importe Total_actual': 'Mes actual', 
-                       'Importe Total_anterior': 'Mes anterior'}, inplace=True)
+ventas_por_vendedor.rename(columns={'nombre_vendedor': 'Vendedor', 
+                       'Importe Total_anterior': 'Mes anterior',
+                       'Importe Total_actual': 'Mes actual' }, inplace=True)
 ventas_por_vendedor = ventas_por_vendedor.sort_values(by='Mes actual', ascending=False)
-ventas_por_vendedor['Mes actual'] = ventas_por_vendedor['Mes actual'].apply(lambda x: f"${x:,.0f}")
-ventas_por_vendedor['Mes anterior'] = ventas_por_vendedor['Mes anterior'].apply(lambda x: f"${x:,.0f}")
+ventas_por_vendedor['Mes actual'] = ventas_por_vendedor['Mes actual'].apply(lambda x: f"${x:,.0f}").replace(",", ".")
+ventas_por_vendedor['Mes anterior'] = ventas_por_vendedor['Mes anterior'].apply(lambda x: f"${x:,.0f}").replace(",", ".")
+ventas_por_vendedor = ventas_por_vendedor[['Vendedor', 'Mes anterior', 'Mes actual', '%']]
+ventas_por_vendedor.reset_index(drop=True, inplace=True)
 print(ventas_por_vendedor)
 
-
-
-
 kpis.to_csv('data/monitoreo/kpi.csv', index=False)
+ventas_por_vendedor.to_csv('data/monitoreo/ventas_por_vendedor.csv', index=False)
+ventas_por_cliente.to_csv('data/monitoreo/ventas_por_cliente.csv', index=False)
+saldos.to_csv('data/monitoreo/saldos.csv', index=False)
 
