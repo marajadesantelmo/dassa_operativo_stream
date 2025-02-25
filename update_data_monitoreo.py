@@ -70,13 +70,19 @@ facturacion = facturacion.merge(diccionario_vendedores, on='cod_vendedor', how='
 
 def transformar_saldos(df): 
     df['saldo'] = df['debe'] - df['haber']
-    df = df.groupby(['adicional']).agg({'saldo': 'sum'}).reset_index()
+    df = df.groupby(['aplicacion']).agg({'tp_cpte': 'first', 
+                                         'adicional': 'first', 
+                                         'fecha_vto': 'first', 
+                                         'saldo': 'sum'}).reset_index()
     df = df[df['saldo'] > 1]
     df['adicional'] = df['adicional'].str.strip().str.title()
-    df.rename(columns={'adicional': 'Cliente', 
-                       'saldo': 'Saldo'}, 
+    df.rename(columns={'tp_cpte': 'Tipo cpte', 
+                       'adicional': 'Cliente', 
+                       'fecha_vto': 'Vencimiento', 
+                       'saldo': 'Saldo', 
+                       'aplicacion': 'Comprobante'}, 
                        inplace=True)
-    df = df[['Cliente',  'Saldo']]
+    df = df.groupby(['Cliente']).agg({'Saldo': 'sum'}).reset_index()
     df['Saldo'] = df['Saldo'].round(0)
     df.sort_values(by='Saldo', ascending=False, inplace=True)
     df['Saldo'] = df['Saldo'].apply(lambda x: f"${x:,.0f}".replace(",", "."))
