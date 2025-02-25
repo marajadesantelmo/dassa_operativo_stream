@@ -33,37 +33,11 @@ last_day_prev_month = datetime.now().replace(day=1) - timedelta(days=1)
 cursor.execute(f"""
 SELECT Factura, tipo, fecha_emi, fecha_vto, [Neto Gravado], [Neto No Gravado], [Importe Total], [Razon Social]
 FROM DEPOFIS.DASSA.Facturacion
-WHERE fecha_emi > '2024-01-01'
+WHERE fecha_emi BETWEEN '{first_day_prev_month.strftime('%Y-%m-%d')}' AND '{last_day_prev_month.strftime('%Y-%m-%d')}'
 """)
 rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 facturacion = pd.DataFrame.from_records(rows, columns=columns)
 
-# Calculate sales KPIs
-current_month = datetime.now().replace(day=1)
-previous_month = (current_month - timedelta(days=1)).replace(day=1)
-same_period_last_month = (current_month - timedelta(days=30)).replace(day=1)
-last_12_months = (current_month - timedelta(days=365)).replace(day=1)
-
-# Filter data for KPIs
-current_month_sales = facturacion[(facturacion['fecha_emi'] >= current_month.strftime('%Y-%m-%d'))]
-previous_month_sales = facturacion[(facturacion['fecha_emi'] >= previous_month.strftime('%Y-%m-%d')) & (facturacion['fecha_emi'] < current_month.strftime('%Y-%m-%d'))]
-same_period_last_month_sales = facturacion[(facturacion['fecha_emi'] >= same_period_last_month.strftime('%Y-%m-%d')) & (facturacion['fecha_emi'] < (same_period_last_month + timedelta(days=30)).strftime('%Y-%m-%d'))]
-last_12_months_sales = facturacion[(facturacion['fecha_emi'] >= last_12_months.strftime('%Y-%m-%d'))]
-
-# Calculate totals
-current_month_total = current_month_sales['Importe Total'].sum()
-previous_month_total = previous_month_sales['Importe Total'].sum()
-same_period_last_month_total = same_period_last_month_sales['Importe Total'].sum()
-monthly_average_last_12_months = last_12_months_sales['Importe Total'].sum() / 12
-
-# Create KPIs dataframe
-kpis = pd.DataFrame({
-    'Metric': ['Mes actual', 'Mes anterior', 'Mismo periodo mes anterior', 'Promedio mensual ultimos 12 meses'],
-    'Value': [current_month_total, previous_month_total, same_period_last_month_total, monthly_average_last_12_months]
-})
-
-print(kpis)
-
-kpis.to_csv('data/monitoreo/kpi.csv', index=False)
+facturacion.to_excel('ver_facturacion.xlsx', index=False)
 
