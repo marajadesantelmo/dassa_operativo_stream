@@ -30,6 +30,15 @@ fecha_ant_ult3dias = fecha_ant_ult3dias.strftime('%Y-%m-%d')
 first_day_prev_month = (datetime.now().replace(day=1) - timedelta(days=1)).replace(day=1)
 last_day_prev_month = datetime.now().replace(day=1) - timedelta(days=1)
 
+# Querys
+cursor.execute("""
+SELECT fecha_vto, tp_cpte, aplicacion, adicional, debe, haber
+FROM DEPOFIS.DASSA.CtaCcteD
+""")  
+rows = cursor.fetchall()
+columns = [column[0] for column in cursor.description]
+saldos_sql= pd.DataFrame.from_records(rows, columns=columns)
+
 cursor.execute(f"""
 SELECT Factura, tipo, fecha_emi, fecha_vto, [Neto Gravado], [Neto No Gravado], [Importe Total], [Razon Social], vendedor
 FROM DEPOFIS.DASSA.Facturacion
@@ -38,6 +47,8 @@ WHERE fecha_emi > '2024-01-01'
 rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 facturacion_sql = pd.DataFrame.from_records(rows, columns=columns)
+
+# Procesamientos dataframes
 
 # Formateo de facturacion
 def transformar_facturacion(df): 
@@ -58,6 +69,21 @@ def transformar_facturacion(df):
 facturacion = transformar_facturacion(facturacion_sql)
 diccionario_vendedores = pd.read_excel(path + 'diccionario_vendedores_puros_dassa.xlsx')
 facturacion = facturacion.merge(diccionario_vendedores, on='cod_vendedor', how='left')
+
+def transformar_saldos(df): 
+    df['saldo'] = df['debe'] - df['haber']
+    df = df.groupby(['adicional']).agg({'saldo': 'sum'}).reset_index()
+    df = df[df['saldo'] > 1]
+    df['adicional'] = df['adicional'].str.strip().str.title()
+    df.rename(columns={'adicional': 'Cliente', 
+                       'saldo': 'Saldo'}, 
+                       inplace=True)
+    df = df[['Cliente',  'Saldo']]
+    df['Saldo'] = df['Saldo'].round(0)
+    df['Saldo'] = df['Saldo'].apply(lambda x: f"${x:,.0f}".replace(",", "."))
+    return df
+
+saldos = transformar_saldos(saldos_sql)
 
 # Calculate sales KPIs
 current_month = datetime.now().replace(day=1)
@@ -83,7 +109,7 @@ kpis = pd.DataFrame({
     'Value': [current_month_total, previous_month_total, same_period_last_month_total, monthly_average_last_12_months]
 })
 
-kpis['Value'] = kpis['Value'].apply(lambda x: f"${x:,.0f}")
+kpis['Value'] = kpis['Value'].apply(lambda x: f"${x:,.0f}".replace(",", "."))
 
 print(kpis)
 
