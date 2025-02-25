@@ -56,13 +56,13 @@ def transformar_facturacion(df):
     df.loc[df['tipo'] == 3, 'Factura'] = 'NdC ' + df['Factura'].astype(str)
     df = df.drop(columns=['tipo'])
     df = df.groupby(
-        ['Factura', 'fecha_emi', 'fecha_vto', 'Razon Social']).agg({
+        ['Razon Social']).agg({
         'Neto': 'sum',
-        'Importe Total': 'sum', 
         'vendedor': 'first'}).reset_index()
     df['Razon Social'] = df['Razon Social'].str.strip().str.title()
     df['Razon Social'] = df['Razon Social'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
-    df.rename(columns={'fecha_emi': 'Emision', 'fecha_vto': 'Vencimiento', 'vendedor': 'cod_vendedor'}, inplace=True)
+    df.rename(columns={'vendedor': 'cod_vendedor', 
+                       'Neto': 'Importe Total'}, inplace=True)
     return df
 
 facturacion = transformar_facturacion(facturacion_sql)
@@ -93,6 +93,7 @@ def transformar_saldos(df):
 saldos = transformar_saldos(saldos_sql)
 
 # Calculate sales KPIs
+today = datetime.now()
 current_month = datetime.now().replace(day=1)
 previous_month = (current_month - timedelta(days=1)).replace(day=1)
 same_period_last_month = (current_month - timedelta(days=30)).replace(day=1)
@@ -101,7 +102,7 @@ last_12_months = (current_month - timedelta(days=365)).replace(day=1)
 # Filter data for KPIs
 current_month_sales = facturacion[(facturacion['Emision'] >= current_month.strftime('%Y-%m-%d'))]
 previous_month_sales = facturacion[(facturacion['Emision'] >= previous_month.strftime('%Y-%m-%d')) & (facturacion['Emision'] < current_month.strftime('%Y-%m-%d'))]
-same_period_last_month_sales = facturacion[(facturacion['Emision'] >= same_period_last_month.strftime('%Y-%m-%d')) & (facturacion['Emision'] < (same_period_last_month + timedelta(days=30)).strftime('%Y-%m-%d'))]
+same_period_last_month_sales = facturacion[(facturacion['Emision'] >= same_period_last_month.strftime('%Y-%m-%d')) & (facturacion['Emision'] < (same_period_last_month + timedelta(days=today.day)).strftime('%Y-%m-%d'))]
 last_12_months_sales = facturacion[(facturacion['Emision'] >= last_12_months.strftime('%Y-%m-%d'))]
 
 # Calculate totals
