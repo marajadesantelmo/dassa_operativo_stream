@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Scorecard value styling */
 .scorecard .value {
-    font-size: 1.2em;                           /* Smaller font size */
-    line-height: 1.2em;
+    font-size: 0.6em;                           /* Smaller font size */
+    line-height:0.6em;
     color: #002b36;                             /* Darker color for value to emphasize */
 }
