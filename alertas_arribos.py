@@ -73,15 +73,15 @@ print('Enviando alertas arribos...')
 for index in range(len(alertas)):
     row = alertas.iloc[index]
     client_emails = clientes[clientes['apellido'] == row['cliente']]['email'].values
-    client_emails_list =  ", ".join(email.lower() for email in client_emails[0])
     if len(client_emails) > 0:
-        try:
-            send_email(row, client_emails_list)
-            log(f'Enviado a {client_emails_list} CTN {row["contenedor"]} - Arribo IMPO maritimo')
-            print(f'Correo enviado a {client_emails_list} para el contenedor {row["contenedor"]}')
-        except Exception as e:
-            log(f'Error al enviar correo Arribo IMPO Maritimo a {client_emails_list} para el contenedor {row["contenedor"]}: {e}')
-            print(f'Error al enviar correo a {client_emails_list} para el contenedor {row["contenedor"]}: {e}')
+        for email in client_emails[0]:
+            try:
+                send_email(row, email)
+                log(f'Enviado a {email} CTN {row["contenedor"]} - Arribo IMPO maritimo')
+                print(f'Correo enviado a {email} para el contenedor {row["contenedor"]}')
+            except Exception as e:
+                log(f'Error al enviar correo Arribo IMPO Maritimo a {email} para el contenedor {row["contenedor"]}: {e}')
+                print(f'Error al enviar correo a {email} para el contenedor {row["contenedor"]}: {e}')
         
         row['alerta_enviada'] = 1
         row_df = pd.DataFrame([row])
