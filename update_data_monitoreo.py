@@ -3,9 +3,6 @@ import pandas as pd
 import os
 from datetime import datetime, timedelta
 from tokens import username, password
-from utils import rellenar_df_vacio
-import gspread
-from gspread_dataframe import set_with_dataframe
 
 if os.path.exists('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream'):
     os.chdir('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream')
@@ -63,6 +60,7 @@ def transformar_facturacion(df):
         'Importe Total': 'sum', 
         'vendedor': 'first'}).reset_index()
     df['Razon Social'] = df['Razon Social'].str.strip().str.title()
+    df['Razon Social'] = df['Razon Social'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
     df.rename(columns={'fecha_emi': 'Emision', 'fecha_vto': 'Vencimiento', 'vendedor': 'cod_vendedor'}, inplace=True)
     return df
 
