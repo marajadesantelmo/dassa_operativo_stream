@@ -40,14 +40,15 @@ cursor.execute(f"""
 SELECT Factura, tipo, fecha_emi, fecha_vto, [Neto Gravado], [Neto No Gravado], [Importe Total], [Razon Social], vendedor
 FROM DEPOFIS.DASSA.Facturacion
 WHERE fecha_emi > '2024-01-01'
+AND concepto < 60026
 """)
 rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 facturacion_sql = pd.DataFrame.from_records(rows, columns=columns)
 
 # Procesamientos dataframes
+print('Procesando datos')
 
-# Formateo de facturacion
 def transformar_facturacion(df): 
     df['fecha_emi'] = pd.to_datetime(df['fecha_emi'])
     df = df[df['fecha_emi'] > pd.to_datetime(fecha_ant)].copy()
