@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Page configurations
-st.set_page_config(page_title="Monitoreo DASSA", 
+st.set_page_config(page_title="Monitoreo Deposito", 
                    page_icon="📊", 
                    layout="wide")
 
@@ -17,7 +17,7 @@ ventas_por_cliente_df = pd.read_csv('data/monitoreo/ventas_por_cliente.csv')
 saldos_df = pd.read_csv('data/monitoreo/saldos.csv')
 
 # Display data
-st.title("Monitoreo DASSA")
+st.title("Monitoreo Deposito")
 
 st.header("KPIs")
 st.dataframe(kpi_df, hide_index=True, use_container_width=True)
