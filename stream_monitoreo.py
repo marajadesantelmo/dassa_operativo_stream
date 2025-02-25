@@ -20,11 +20,22 @@ saldos_df = pd.read_csv('data/monitoreo/saldos.csv')
 st.title("Monitoreo Deposito")
 
 st.header("KPIs")
-col1, col2, col3, col4 = st.columns(4)
+col1, col2 = st.columns(2)
 col1.metric(label=kpi_df.iloc[0]['Metric'], value=kpi_df.iloc[0]['Value'])
 col2.metric(label=kpi_df.iloc[1]['Metric'], value=kpi_df.iloc[1]['Value'])
+
+col3, col4 = st.columns(2)
 col3.metric(label=kpi_df.iloc[2]['Metric'], value=kpi_df.iloc[2]['Value'])
 col4.metric(label=kpi_df.iloc[3]['Metric'], value=kpi_df.iloc[3]['Value'])
+
+# Adjust font size for mobile view
+st.markdown("""
+    <style>
+    .stMetric {
+        font-size: calc(1em + 1vw);
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 st.header("Ventas por Vendedor")
 st.dataframe(ventas_por_vendedor_df, hide_index=True, use_container_width=True)
