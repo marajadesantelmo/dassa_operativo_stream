@@ -109,7 +109,7 @@ facturacion['Mes'] = facturacion['Emision'].dt.to_period('M').dt.to_timestamp()
 facturacion = pd.merge(facturacion, ipc, left_on='Mes', right_on='periodo', how='left')
 facturacion['Importe Total'] = facturacion['Importe Total'].astype(float)
 facturacion['Ajustado'] = facturacion['Importe Total'] * 100 / facturacion['ipc']
-
+facturacion['Ajustado'] = facturacion['Ajustado'].round(0)
 # Filter data for KPIs
 current_month_sales = facturacion[(facturacion['Emision'] >= current_month.strftime('%Y-%m-%d'))]
 previous_month_sales = facturacion[(facturacion['Emision'] >= previous_month.strftime('%Y-%m-%d')) & (facturacion['Emision'] < current_month.strftime('%Y-%m-%d'))]
