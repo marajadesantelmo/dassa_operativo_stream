@@ -66,13 +66,33 @@ col2.metric(label=existente_df.iloc[1]['Metricas'], value=existente_df.iloc[1]['
 
 st.header("CTNs IMPO ingresados")
 
-col1, col2 = st.columns(2)
-col1.metric(label="Mes actual", value=kpi_data_impo.iloc[0]['Mes actual'])
-col2.metric(label="Mes anterior", value=kpi_data_impo.iloc[0]['Mes anterior'])
-
-col3, col4 = st.columns(2)
-col3.metric(label="Promedio mensual", value=kpi_data_impo.iloc[0]['Promedio mensual'])
-col4.metric(label="Proyeccion mes actual", value=kpi_data_impo.iloc[0]['Proyeccion mes actual'])
+st.markdown("""
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <h3>Mes actual</h3>
+            <p style="font-size: calc(1em + 1vw);">{}</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <h3>Mes anterior</h3>
+            <p style="font-size: calc(1em + 1vw);">{}</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <h3>Promedio mensual</h3>
+            <p style="font-size: calc(1em + 1vw);">{}</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <h3>Proyeccion mes actual</h3>
+            <p style="font-size: calc(1em + 1vw);">{}</p>
+        </div>
+    </div>
+    """.format(
+        kpi_data_impo.iloc[0]['Mes actual'],
+        kpi_data_impo.iloc[0]['Mes anterior'],
+        kpi_data_impo.iloc[0]['Promedio mensual'],
+        kpi_data_impo.iloc[0]['Proyeccion mes actual']
+    ),
+    unsafe_allow_html=True
+)
 
 st.header("CTNs EXPO egresados")
 
