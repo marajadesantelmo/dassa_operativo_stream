@@ -173,6 +173,7 @@ columns = [column[0] for column in cursor.description]
 existente = pd.DataFrame.from_records(rows, columns=columns)
 vol_existente = existente['volumen'].sum()
 ocupacion = vol_existente / 13460
+ocupacion = f"% {ocupacion:.1%}".replace(".", ",")
 
 existente = pd.DataFrame({
     'Metricas': ['Volumen Existente', 'Ocupación'],
