@@ -67,7 +67,7 @@ col2.metric(label=existente_df.iloc[1]['Metricas'], value=existente_df.iloc[1]['
 st.header("CTNs IMPO ingresados")
 
 st.markdown("""
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; color: darkred;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
         <div style="display: flex; flex-direction: column; align-items: center;">
             <h5>Mes actual</h5>
             <p style="font-size: calc(1em + 1vw);">{}</p>
