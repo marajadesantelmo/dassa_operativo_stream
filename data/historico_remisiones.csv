@@ -15,7 +15,6 @@ Dia,Cliente,Contenedor,Volumen,Precinto,Observaciones,Estado
 2024-11-06,Leterago Sa,MRKU-504719-6,-60,---,TERMINAL 4       13HS,Pendiente
 2024-11-06,Hector Reboratti,TCKU-646202-8,0,---,TERMINAL 4   15HS,Pendiente
 2024-11-06,Maringa Maderas Sa,TCLU-544389-0,0,---,TERMINAL 4   17HS,Pendiente
-2024-10-29,Hector Reboratti,FCIU-739898-2,0,---,exolgan 16hs,Pendiente
 2024-10-31,Carpal Sa,CAIU-939093-5,-60,---,TERMINAL  4  09HS,Pendiente
 2024-10-31,Maringa Maderas Sa,TCLU-809790-8,0,---,TERMINAL  4  09HS,Pendiente
 2024-10-31,Pallets Jauregui Soc...,CAIU-853356-4,-60,---,TERMINAL 4  09HS,Pendiente
@@ -660,8 +659,8 @@ Dia,Cliente,Contenedor,Volumen,Precinto,Observaciones,Estado
 2025-02-20,Tandem Global Logist...,FBLU-012110-8,-60,---,T4 - 11HS,Pendiente
 2025-02-20,Asecor Srl,MSBU-543361-8,-60,---,EXOLGAN - 13 HS,Pendiente
 2025-02-20,Asecor Srl,MSDU-545654-4,-60,---,EXOLGAN - 13HS,Pendiente
-2025-02-20,Asecor Srl,MSMU-835995-0,-60,---,EXOLGAN - 13HS,09:59 Realizado
-2025-02-20,Asecor Srl,TIIU-445154-2,-60,---,EXOLGAN - 13 HS,09:59 Realizado
+2025-02-20,Asecor Srl,MSMU-835995-0,-60,---,EXOLGAN - 13HS,Pendiente
+2025-02-20,Asecor Srl,TIIU-445154-2,-60,---,EXOLGAN - 13 HS,Pendiente
 2025-02-20,Henn Y Cia S.R.L.,PCIU-007735-8,-30,---,TRP - 15HS,Pendiente
 2025-02-20,Henn Y Cia S.R.L.,PCIU-186891-8,-30,---,TRP - 15HS,Pendiente
 2025-02-20,Henn Y Cia S.R.L.,PCIU-135487-9,-30,---,TRP - 15HS,Pendiente
@@ -673,17 +672,31 @@ Dia,Cliente,Contenedor,Volumen,Precinto,Observaciones,Estado
 2025-02-20,Henn Y Cia S.R.L.,PCIU-155468-7,-30,---,TRP - 17HS,Pendiente
 2025-02-20,Henn Y Cia S.R.L.,PCIU-157079-6,-30,---,TRP - 17HS,Pendiente
 2025-02-20,Isischu Srl,             ,0,---,TRP -17HS,Pendiente
-2025-02-20,Bdfm Sa,             ,0,---,EXOLGAN -22HS,10:03 Realizado
-2025-02-20,Lawter Argentina S.A...,MSKU-557090-6,0,---,01HS,10:11 Realizado
-2025-02-20,Lawter Argentina S.A...,MRKU-662493-9,0,---,01HS,10:10 Realizado
-2025-02-20,Lawter Argentina S.A...,MRSU-039505-7,0,---,01HS,10:10 Realizado
-2025-02-20,Lawter Argentina S.A...,SUDU-759317-0,0,---,01HS,10:11 Realizado
-2025-02-20,Lawter Argentina S.A...,FTAU-208894-2,0,---,01HS,10:11 Realizado
-2025-02-20,Lawter Argentina S.A...,MRSU-040103-6,0,---,01HS,10:11 Realizado
-2025-02-25,Lawter Argentina S.A...,MSKU-749086-2,0,---,T4 - 11HS,11:43 Realizado
-2025-02-25,Lawter Argentina S.A...,MRKU-735594-2,0,---,T4 -11HS,11:43 Realizado
-2025-02-25,Lawter Argentina S.A...,MRKU-896973-4,0,---,T4 -11HS,11:44 Realizado
-2025-02-25,Lawter Argentina S.A...,SUDU-796074-3,0,---,T4 -11HS,11:44 Realizado
-2025-02-25,Lawter Argentina S.A...,TRHU-693441-5,-60,---,EXOLGAN - 13HS,En curso
+2025-02-20,Bdfm Sa,             ,0,---,EXOLGAN -22HS,Pendiente
+2025-02-20,Lawter Argentina S.A...,MSKU-557090-6,0,---,01HS,Pendiente
+2025-02-20,Lawter Argentina S.A...,MRKU-662493-9,0,---,01HS,Pendiente
+2025-02-20,Lawter Argentina S.A...,MRSU-039505-7,0,---,01HS,Pendiente
+2025-02-20,Lawter Argentina S.A...,SUDU-759317-0,0,---,01HS,Pendiente
+2025-02-20,Lawter Argentina S.A...,FTAU-208894-2,0,---,01HS,Pendiente
+2025-02-20,Lawter Argentina S.A...,MRSU-040103-6,0,---,01HS,Pendiente
+2025-02-25,Lawter Argentina S.A...,MSKU-749086-2,0,---,T4 - 11HS,Pendiente
+2025-02-25,Lawter Argentina S.A...,MRKU-735594-2,0,---,T4 -11HS,Pendiente
+2025-02-25,Lawter Argentina S.A...,MRKU-896973-4,0,---,T4 -11HS,Pendiente
+2025-02-25,Lawter Argentina S.A...,SUDU-796074-3,0,---,T4 -11HS,Pendiente
+2025-02-25,Lawter Argentina S.A...,TRHU-693441-5,-60,---,EXOLGAN - 13HS,Pendiente
+2025-02-26,Henn Y Cia S.R.L.,MRSU-011922-8,-30,---,T4 - 13HS,En curso
+2025-02-26,Henn Y Cia S.R.L.,MSKU-563833-3,-30,---,T4 -13HS,En curso
+2025-02-26,Henn Y Cia S.R.L.,MRKU-937068-0,-30,---,T4 - 13HS,En curso
+2025-02-26,Henn Y Cia S.R.L.,MRKU-821606-8,-30,---,t4 - 13hs,En curso
+2025-02-26,Minera Santa Rita Sr...,PCIU-926787-3,-60,---,trp - 15hs,En curso
+2025-02-26,Minera Santa Rita Sr...,GCXU-504900-6,-60,---,trp - 16hs,En curso
+2025-02-26,Sandrin Paola Karina,FBLU-004120-8,0,---,EXOLGAN - 16 HS,En curso
+2025-02-26,Sandrin Paola Karina,MSMU-603459-7,0,---,EXOLGAN - 16HS,En curso
+2025-02-26,Sandrin Paola Karina,TGBU-795451-5,0,---,EXOLGAN - 16HS,En curso
+2025-02-26,Sandrin Paola Karina,MSDU-729930-0,0,---,EXOLGAN - 16HS,En curso
+2025-02-26,Sandrin Paola Karina,MSNU-590558-4,0,---,EXOLGAN-16HS,En curso
+2025-02-26,Sandrin Paola Karina,MSNU-793232-0,0,---,EXOLGAN 16HS,En curso
+2025-02-26,Sandrin Paola Karina,TRHU-715998-7,0,---,EXOLGAN 16HS,En curso
+2025-02-26,Sandrin Paola Karina,MSMU-518627-6,0,---,EXOLGAN 16HS,En curso
 2024-10-31,Manufactura Los Ande...,MRKU-059121-0,0,                    ,TERMIANL 4   11HS,Pendiente
 2025-01-28,Giordano Rafael Anto...,HPCU-253926-0,21,                    ,,Pendiente

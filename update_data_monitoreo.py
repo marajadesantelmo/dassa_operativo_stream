@@ -95,12 +95,20 @@ def transformar_saldos(df):
 
 saldos = transformar_saldos(saldos_sql)
 
-# Calculate sales KPIs
+# Fechas para filtros
 today = datetime.now()
 current_month = datetime.now().replace(day=1)
 previous_month = (current_month - timedelta(days=1)).replace(day=1)
 same_period_last_month = (current_month - timedelta(days=30)).replace(day=1)
 last_12_months = (current_month - timedelta(days=365)).replace(day=1)
+
+# Ajuste por inflacion
+ipc = pd.read_excel('ipc_mensual.xlsx')
+ipc['periodo'] = pd.to_datetime(ipc['periodo'], format='%m-%Y')
+facturacion['Mes'] = facturacion['Emision'].dt.to_period('M').dt.to_timestamp()
+facturacion = pd.merge(facturacion, ipc, left_on='Mes', right_on='periodo', how='left')
+facturacion['Importe Total'] = facturacion['Importe Total'].astype(float)
+facturacion['Ajustado'] = facturacion['Importe Total'] * 100 / facturacion['ipc']
 
 # Filter data for KPIs
 current_month_sales = facturacion[(facturacion['Emision'] >= current_month.strftime('%Y-%m-%d'))]
@@ -113,11 +121,11 @@ last_30_days = facturacion[(facturacion['Emision'] >= ultimos_30_dias)]
 current_month_total = round(current_month_sales['Importe Total'].sum(), 0)
 previous_month_total = round(previous_month_sales['Importe Total'].sum(), 0)
 same_period_last_month_total = round(same_period_last_month_sales['Importe Total'].sum(), 0)
-monthly_average_last_12_months = round(last_12_months_sales['Importe Total'].sum() / 12, 0)
+monthly_average_last_12_months = round(last_12_months_sales['Ajustado'].sum() / 12, 0)
 
 # Create KPIs dataframe
 kpis = pd.DataFrame({
-    'Metric': ['Mes actual', 'Mes anterior', 'Mismo periodo mes anterior', 'Promedio mensual ultimos 12 meses'],
+    'Metric': ['Mes actual', 'Mes anterior', 'Mismo periodo mes anterior', 'Prom. mensual ajustado'],
     'Value': [current_month_total, previous_month_total, same_period_last_month_total, monthly_average_last_12_months]
 })
 
