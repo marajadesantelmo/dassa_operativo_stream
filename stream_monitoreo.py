@@ -17,7 +17,11 @@ ventas_por_cliente_df = pd.read_csv('data/monitoreo/ventas_por_cliente.csv')
 saldos_df = pd.read_csv('data/monitoreo/saldos.csv')
 
 # Display data
-st.title("Monitoreo Deposito")
+col_logo, col_title = st.columns([1, 5])
+with col_logo:
+    st.image("logo_mini.png", use_column_width=True)
+with col_title:
+    st.title("Monitoreo")
 
 st.header("KPIs")
 col1, col2 = st.columns(2)
