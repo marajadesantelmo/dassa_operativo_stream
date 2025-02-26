@@ -70,20 +70,20 @@ h1, h2, h3, h4, h5, h6 {
 /* Scorecard styling */
 .scorecard {
     background-color: rgba(211, 211, 211, 0.8); /* Light grey with 80% transparency */
-    padding: 10px;                              /* Reduced space inside the card */
-    border-radius: 8px;                         /* Rounded corners for a smooth look */
+    padding: 6px;                              /* Reduced space inside the card */
+    border-radius: 4px;                         /* Rounded corners for a smooth look */
     text-align: center;                         /* Centered text alignment */
     color: #333333;                             /* Dark text for readability */
     font-weight: bold;                          /* Bold text for emphasis */
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-    margin-bottom: 10px;                        /* Reduced space below the scorecard */
-    max-width: 100px;                           /* Control width of the scorecard */
+    margin-bottom: 6px;                        /* Reduced space below the scorecard */
+    max-width: 50px;                           /* Control width of the scorecard */
 }
 
 /* Scorecard label styling */
 .scorecard .label {
-    font-size: 0.8em;                           /* Smaller font size */
-    line-height: 1.1em;
+    font-size: 0.4em;                           /* Smaller font size */
+    line-height: 0.9em;
 }
 
 /* Scorecard value styling */
