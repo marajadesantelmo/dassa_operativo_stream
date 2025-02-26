@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from streamlit_option_menu import option_menu
 
 # Page configurations
 st.set_page_config(page_title="Monitoreo", 
@@ -26,10 +27,15 @@ resumen_mensual_ctns_impo = pd.read_csv('data/monitoreo/resumen_mensual_ctns_imp
 resumen_mensual_ctns_expo = pd.read_csv('data/monitoreo/resumen_mensual_ctns_expo.csv')
 
 # Sidebar for navigation
-st.sidebar.title("Menun")
-page = st.sidebar.radio("Ventas", ["Ventas", "Operativo"])
+page_selection = option_menu(
+        None,  # No menu title
+        ["Ventas", "Operativo"],  
+        icons=["bar-chart-line", "gear"],   
+        menu_icon="cast",  
+        default_index=0, 
+        orientation="horizontal")
 
-if page == "Ventas":
+if page_selection == "Ventas":
     st.markdown(
         """
         <div style="display: flex; align-items: center;">
@@ -68,7 +74,7 @@ if page == "Ventas":
 
     st.markdown("<hr>", unsafe_allow_html=True)
 
-elif page == "Operativo":
+elif page_selection == "Operativo":
     st.markdown(
         """
         <div style="display: flex; align-items: center;">
