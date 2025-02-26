@@ -133,3 +133,5 @@ st.markdown("""
 st.subheader("Evolución mensual de CTNs")
 st.line_chart(resumen_mensual_ctns_df.set_index('Mes'))
 
+st.subheader("Comparativa mensual contenedores")
+st.write('En construcción')
