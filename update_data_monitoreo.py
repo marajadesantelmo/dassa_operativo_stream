@@ -111,6 +111,15 @@ facturacion['Ajustado'] = facturacion['Ajustado'].round(0).astype(int)
 
 #Ventas totales por mes
 ventas_totales_por_mes = facturacion.groupby('Mes').agg({'Importe Total': 'sum', 'Ajustado': 'sum'}).reset_index()
+ventas_totales_por_mes['Mes'] = pd.to_datetime(ventas_totales_por_mes['Mes'], format='%m-%Y').dt.strftime('%Y-%m')
+
+ventas_totales_por_mes_tabla = ventas_totales_por_mes.copy()
+ventas_totales_por_mes_tabla['Importe Total'] = ventas_totales_por_mes_tabla['Importe Total'].apply(lambda x: f"${x:,.0f}")
+ventas_totales_por_mes_tabla['Ajustado'] = ventas_totales_por_mes_tabla['Ajustado'].apply(lambda x: f"${x:,.0f}")
+ventas_totales_por_mes_tabla = ventas_totales_por_mes_tabla.sort_values(by='Mes', ascending=False)
+ventas_totales_por_mes_tabla.rename(columns={'Mes': 'Mes', 'Importe Total': 'Ventas Total', 'Ajustado': 'Ajustado'}, inplace=True)
+
+ventas_totales_por_mes_grafico = ventas_totales_por_mes[['Mes', 'Ajustado']]
 
 # Filter data for KPIs
 current_month_sales = facturacion[(facturacion['Emision'] >= current_month.strftime('%Y-%m-%d'))]
@@ -389,3 +398,5 @@ resumen_mensual_ctns_expo.to_csv('data/monitoreo/resumen_mensual_ctns_expo.csv',
 resumen_mensual_ctns_impo.to_csv('data/monitoreo/resumen_mensual_ctns_impo.csv', index=False)
 volumen_ingresado_mensual.to_csv('data/monitoreo/volumen_ingresado_mensual.csv', index=False)  
 volumen_egresado_mensual.to_csv('data/monitoreo/volumen_egresado_mensual.csv', index=False)
+ventas_totales_por_mes_tabla.to_csv('data/monitoreo/ventas_totales_por_mes_tabla.csv', index=False)
+ventas_totales_por_mes_grafico.to_csv('data/monitoreo/ventas_totales_por_mes_grafico.csv', index=False)

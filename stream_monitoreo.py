@@ -22,6 +22,8 @@ kpi_data_impo= pd.read_csv('data/monitoreo/kpi_data_impo.csv')
 ventas_clientes_nuevos = pd.read_csv('data/monitoreo/ventas_clientes_nuevos.csv')
 resumen_mensual_ctns_impo = pd.read_csv('data/monitoreo/resumen_mensual_ctns_impo.csv')
 resumen_mensual_ctns_expo = pd.read_csv('data/monitoreo/resumen_mensual_ctns_expo.csv')
+ventas_totales_por_mes_tabla = pd.read_csv('data/monitoreo/ventas_totales_por_mes_tabla.csv')
+ventas_totales_por_mes_grafico = pd.read_csv('data/monitoreo/ventas_totales_por_mes_grafico.csv')
 
 
 # Display data
@@ -43,14 +45,7 @@ col3, col4 = st.columns(2)
 col3.metric(label=kpi_df.iloc[2]['Metric'], value=kpi_df.iloc[2]['Value'])
 col4.metric(label=kpi_df.iloc[3]['Metric'], value=kpi_df.iloc[3]['Value'])
 
-# Adjust font size for mobile view
-st.markdown("""
-    <style>
-    .stMetric {
-        font-size: calc(1em + 1vw);
-    }
-    </style>
-    """, unsafe_allow_html=True)
+st.markdown("<hr>", unsafe_allow_html=True)
 
 st.subheader("Ventas por Vendedor")
 st.dataframe(ventas_por_vendedor_df, hide_index=True, use_container_width=True)
@@ -60,6 +55,10 @@ st.dataframe(ventas_por_cliente_df, hide_index=True, use_container_width=True)
 
 st.subheader("Ventas a Clientes Nuevos")
 st.dataframe(ventas_clientes_nuevos, hide_index=True, use_container_width=True)
+
+st.subheader("Ventas totales por mes")
+st.line_chart(ventas_totales_por_mes_grafico.set_index('Mes'))
+st.dataframe(ventas_totales_por_mes_tabla, hide_index=True, use_container_width=True)
 
 st.subheader("Saldos")
 st.dataframe(saldos_df, hide_index=True, use_container_width=True)
