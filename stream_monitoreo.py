@@ -95,15 +95,34 @@ st.markdown("""
 )
 
 st.header("CTNs EXPO egresados")
+st.markdown("""
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <h5>Mes actual</h5>
+            <p style="font-size: calc(1em + 1vw);">{}</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <h5>Mes anterior</h5>
+            <p style="font-size: calc(1em + 1vw);">{}</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <h5>Prom. mensual</h5>
+            <p style="font-size: calc(1em + 1vw);">{}</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <h5>Proy. mes actual</h5>
+            <p style="font-size: calc(1em + 1vw);">{}</p>
+        </div>
+    </div>
+    """.format(
+        kpi_data_expo.iloc[0]['Mes actual'],
+        kpi_data_expo.iloc[0]['Mes anterior'],
+        kpi_data_expo.iloc[0]['Promedio mensual'],
+        kpi_data_expo.iloc[0]['Proyeccion mes actual']
+    ),
+    unsafe_allow_html=True
+)
 
-col1, col2 = st.columns(2)
-col1.metric(label="Mes actual", value=kpi_data_expo.iloc[0]['Mes actual'])
-col2.metric(label="Mes anterior", value=kpi_data_expo.iloc[0]['Mes anterior'])
 
-col3, col4 = st.columns(2)
-col3.metric(label="Promedio mensual", value=kpi_data_expo.iloc[0]['Promedio mensual'])
-col4.metric(label="Proyeccion mes actual", value=kpi_data_expo.iloc[0]['Proyeccion mes actual'])
-
-
-st.subheader("Resumen mensual de CTNs")
+st.subheader("Evolución mensual de CTNs")
 st.line_chart(resumen_mensual_ctns_df.set_index('Mes'))
