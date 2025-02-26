@@ -115,12 +115,12 @@ elif page_selection == "Operativo":
             </div>
         </div>
         """.format(
-            kpi_data_impo.iloc[0]['Mes actual'],
-            kpi_data_impo.iloc[0]['Mes anterior'],
-            kpi_data_impo.iloc[0]['Promedio mensual'],
-            kpi_data_impo.iloc[0]['Proyeccion mes actual'],
-            kpi_data_impo.iloc[0]['Vol. Ingresado'],
-            kpi_data_impo.iloc[0]['Vol. Egresado']
+            int(kpi_data_impo.iloc[0]['Mes actual']),
+            int(kpi_data_impo.iloc[0]['Mes anterior']),
+            int(kpi_data_impo.iloc[0]['Promedio mensual']),
+            int(kpi_data_impo.iloc[0]['Proyeccion mes actual']),
+            int(kpi_data_impo.iloc[0]['Vol. Ingresado']),
+            int(kpi_data_impo.iloc[0]['Vol. Egresado'])
         ),
         unsafe_allow_html=True
     )
@@ -154,12 +154,12 @@ elif page_selection == "Operativo":
             </div>
         </div>
         """.format(
-            kpi_data_expo.iloc[0]['Mes actual'],
-            kpi_data_expo.iloc[0]['Mes anterior'],
-            kpi_data_expo.iloc[0]['Promedio mensual'],
-            kpi_data_expo.iloc[0]['Proyeccion mes actual'],
-            kpi_data_expo.iloc[0]['Vol. Ingresado'],
-            kpi_data_expo.iloc[0]['Vol. Egresado']
+            int(kpi_data_expo.iloc[0]['Mes actual']),
+            int(kpi_data_expo.iloc[0]['Mes anterior']),
+            int(kpi_data_expo.iloc[0]['Promedio mensual']),
+            int(kpi_data_expo.iloc[0]['Proyeccion mes actual']),
+            int(kpi_data_expo.iloc[0]['Vol. Ingresado']),
+            int(kpi_data_expo.iloc[0]['Vol. Egresado'])
         ),
         unsafe_allow_html=True
     )
