@@ -269,6 +269,31 @@ kpi_data_impo = [
 kpi_impo_df = pd.DataFrame(kpi_data_impo[1:], columns=kpi_data_impo[0])
 
 resumen_mensual_ctns = pd.merge(cnts_expo_egr_mensual, cnts_impo_ing_mensual, on='Mes')
+# Comparativa mensual
+# Compare same month by month for this year and last year
+resumen_mensual_ctns['Year'] = resumen_mensual_ctns['Mes'].dt.year
+resumen_mensual_ctns['Month'] = resumen_mensual_ctns['Mes'].dt.month
+this_year = today.year
+last_year = today.year - 1
+resumen_mensual_ctns = resumen_mensual_ctns[(resumen_mensual_ctns['Year'] == this_year) | (resumen_mensual_ctns['Year'] == last_year)]
+
+resumen_mensual_ctns_expo = resumen_mensual_ctns[['CNTs Expo', 'Year', 'Month']]
+resumen_mensual_ctns_impo = resumen_mensual_ctns[['CNTs Impo', 'Year', 'Month']]
+
+resumen_mensual_ctns_impo = resumen_mensual_ctns_impo.pivot(index='Month', columns='Year', values=['CNTs Impo'])
+resumen_mensual_ctns_impo.columns = [f"{col[0]} {col[1]}" for col in resumen_mensual_ctns_impo.columns]
+resumen_mensual_ctns_impo.reset_index(inplace=True)
+resumen_mensual_ctns_impo['Dif'] = resumen_mensual_ctns_impo['CNTs Impo ' + str(this_year)] - resumen_mensual_ctns_impo['CNTs Impo ' + str(last_year)]
+resumen_mensual_ctns_impo['CNTs Impo ' + str(this_year)] = resumen_mensual_ctns_impo['CNTs Impo ' + str(this_year)].fillna(0).astype(int).astype(str)
+
+
+resumen_mensual_ctns_expo = resumen_mensual_ctns_expo.pivot(index='Month', columns='Year', values=['CNTs Expo'])
+resumen_mensual_ctns_expo.columns = [f"{col[0]} {col[1]}" for col in resumen_mensual_ctns_expo.columns]
+resumen_mensual_ctns_expo.reset_index(inplace=True)
+resumen_mensual_ctns_expo['Dif'] = resumen_mensual_ctns_expo['CNTs Expo ' + str(this_year)] - resumen_mensual_ctns_expo['CNTs Expo ' + str(last_year)]
+resumen_mensual_ctns_expo['CNTs Expo ' + str(this_year)] = resumen_mensual_ctns_expo['CNTs Expo ' + str(this_year)].fillna(0).astype(int).astype(str)
+
+
 
 
 # Clietnes nuevos
@@ -304,3 +329,5 @@ resumen_mensual_ctns.to_csv('data/monitoreo/resumen_mensual_ctns.csv', index=Fal
 kpi_impo_df.to_csv('data/monitoreo/kpi_data_impo.csv', index=False)
 kpi_expo_df.to_csv('data/monitoreo/kpi_data_expo.csv', index=False)
 ventas_clientes_nuevos.to_csv('data/monitoreo/ventas_clientes_nuevos.csv', index=False)
+resumen_mensual_ctns_expo.to_csv('data/monitoreo/resumen_mensual_ctns_expo.csv', index=False)
+resumen_mensual_ctns_impo.to_csv('data/monitoreo/resumen_mensual_ctns_impo.csv', index=False)
