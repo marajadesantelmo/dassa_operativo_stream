@@ -328,6 +328,27 @@ ventas_clientes_nuevos.rename(columns={'fecha_alta': 'Fecha Alta'}, inplace=True
 ventas_clientes_nuevos = ventas_clientes_nuevos[['Cliente', 'Fecha Alta', 'Vendedor', 'Mes actual']]
 ventas_clientes_nuevos = ventas_clientes_nuevos.sort_values(by='Fecha Alta', ascending=False)
 
+
+# Volumen ingresado
+cursor.execute("""
+SELECT  fecha_ing, orden_ing, suborden, renglon, volumen, tipo_oper
+FROM DEPOFIS.DASSA.[Ingresadas En Stock]
+WHERE fecha_ing > '2024-01-01'
+AND suborden != 0
+""") 
+rows = cursor.fetchall()
+columns = [column[0] for column in cursor.description]
+ingresado = pd.DataFrame.from_records(rows, columns=columns)
+ingresado['fecha_ing'] = pd.to_datetime(ingresado['fecha_ing'], errors='coerce')
+ingresado = ingresado.dropna(subset=['fecha_ing'])
+ingresado['Mes'] = ingresado['fecha_ing'].dt.to_period('M')
+volumen_ingresado_mensual = ingresado.groupby(['Mes', 'tipo_oper'])['volumen'].sum().reset_index()
+volumen_ingresado_mensual.columns = ['Mes', 'Tipo Operación', 'Volumen']
+
+# Volumen egresado
+
+
+
 #### GUARDO DATOS
 
 kpis.to_csv('data/monitoreo/kpi.csv', index=False)
