@@ -77,7 +77,7 @@ st.markdown("""
             <p style="font-size: calc(1em + 1vw);">{}</p>
         </div>
         <div style="display: flex; flex-direction: column; align-items: center;">
-            <h5>Promedio mensual</h5>
+            <h5>Prom. mensual</h5>
             <p style="font-size: calc(1em + 1vw);">{}</p>
         </div>
         <div style="display: flex; flex-direction: column; align-items: center;">
