@@ -56,10 +56,10 @@ def transformar_facturacion(df):
     df['Neto'] = df['Neto Gravado'] + df['Neto No Gravado']
     df.loc[df['tipo'] == 3, 'Factura'] = 'NdC ' + df['Factura'].astype(str)
     df = df.drop(columns=['tipo'])
-    df = df.groupby(
-        ['Factura', 'fecha_emi', 'Razon Social']).agg({
-        'Neto': 'sum',
-        'vendedor': 'first'}).reset_index()
+    #df = df.groupby(
+    #    ['Factura', 'fecha_emi', 'Razon Social']).agg({
+    #    'Neto': 'sum',
+    #    'vendedor': 'first'}).reset_index()
     df['Razon Social'] = df['Razon Social'].str.strip().str.title()
     df['Razon Social'] = df['Razon Social'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
     df.rename(columns={'fecha_emi': 'Emision', 
@@ -109,6 +109,8 @@ facturacion['Importe Total'] = facturacion['Importe Total'].astype(int)
 facturacion['Ajustado'] = facturacion['Importe Total'] * 100 / facturacion['ipc']
 facturacion['Ajustado'] = facturacion['Ajustado'].round(0).astype(int)
 
+facturacion[facturacion['Importe Total'] != facturacion['Ajustado']]
+
 #Ventas totales por mes
 ventas_totales_por_mes = facturacion.groupby('Mes').agg({'Importe Total': 'sum', 'Ajustado': 'sum'}).reset_index()
 ventas_totales_por_mes['Mes'] = pd.to_datetime(ventas_totales_por_mes['Mes'], format='%m-%Y').dt.strftime('%Y-%m')
@@ -123,6 +125,9 @@ ventas_totales_por_mes_grafico = ventas_totales_por_mes[['Mes', 'Ajustado']]
 
 # Filter data for KPIs
 current_month_sales = facturacion[(facturacion['Emision'] >= current_month.strftime('%Y-%m-%d'))]
+
+current_month_sales[current_month_sales['Importe Total'] != current_month_sales['Ajustado']]
+
 previous_month_sales = facturacion[(facturacion['Emision'] >= previous_month.strftime('%Y-%m-%d')) & (facturacion['Emision'] < current_month.strftime('%Y-%m-%d'))]
 same_period_last_month_sales = facturacion[(facturacion['Emision'] >= same_period_last_month.strftime('%Y-%m-%d')) & (facturacion['Emision'] < (same_period_last_month + timedelta(days=today.day)).strftime('%Y-%m-%d'))]
 last_12_months_sales = facturacion[(facturacion['Emision'] >= last_12_months.strftime('%Y-%m-%d')) & (facturacion['Emision'] < current_month.strftime('%Y-%m-%d'))]
