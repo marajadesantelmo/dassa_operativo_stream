@@ -83,3 +83,7 @@ col2.metric(label="Mes anterior", value=kpi_data_expo.iloc[0]['Mes anterior'])
 col3, col4 = st.columns(2)
 col3.metric(label="Promedio mensual", value=kpi_data_expo.iloc[0]['Promedio mensual'])
 col4.metric(label="Proyeccion mes actual", value=kpi_data_expo.iloc[0]['Proyeccion mes actual'])
+
+
+st.subheader("Resumen mensual de CTNs")
+st.line_chart(resumen_mensual_ctns_df.set_index('Mes'))
