@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import seaborn as sns
 
 # Page configurations
 st.set_page_config(page_title="Monitoreo", 
@@ -137,7 +138,16 @@ st.line_chart(resumen_mensual_ctns_df.set_index('Mes'))
 
 st.subheader("Comparativa mensual contenedores")
 st.write('CNTS IMPO')
-st.dataframe(resumen_mensual_ctns_impo, hide_index=True, use_container_width=True)
+import matplotlib.pyplot as plt
+
+# Create a heatmap for 'Dif' column
+fig, ax = plt.subplots()
+heatmap_data = resumen_mensual_ctns_impo[['Mes', 'Dif']].set_index('Mes').T
+sns.heatmap(heatmap_data, annot=True, fmt="d", cmap="RdYlGn", center=0, cbar=False, ax=ax)
+ax.set_title('Diferencia Mensual IMPO')
+
+# Display the heatmap in Streamlit
+st.pyplot(fig)
 
 st.write('CNTS EXPO')
 st.dataframe(resumen_mensual_ctns_expo, hide_index=True, use_container_width=True)
