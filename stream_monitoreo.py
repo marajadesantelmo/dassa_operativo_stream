@@ -62,11 +62,15 @@ st.dataframe(ventas_clientes_nuevos, hide_index=True, use_container_width=True)
 st.subheader("Saldos")
 st.dataframe(saldos_df, hide_index=True, use_container_width=True)
 
+st.markdown("<hr>", unsafe_allow_html=True)
+
 st.header("Existente")
 
 col1, col2 = st.columns(2)
 col1.metric(label=existente_df.iloc[0]['Metricas'], value=existente_df.iloc[0]['Valores'])
 col2.metric(label=existente_df.iloc[1]['Metricas'], value=existente_df.iloc[1]['Valores'])
+
+st.markdown("<hr>", unsafe_allow_html=True)
 
 st.header("CTNs IMPO ingresados")
 
@@ -97,7 +101,7 @@ st.markdown("""
     ),
     unsafe_allow_html=True
 )
-
+st.markdown("<hr>", unsafe_allow_html=True)
 st.header("CTNs EXPO egresados")
 st.markdown("""
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
