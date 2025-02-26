@@ -15,6 +15,8 @@ kpi_df = pd.read_csv('data/monitoreo/kpi.csv')
 ventas_por_vendedor_df = pd.read_csv('data/monitoreo/ventas_por_vendedor.csv')
 ventas_por_cliente_df = pd.read_csv('data/monitoreo/ventas_por_cliente.csv')
 saldos_df = pd.read_csv('data/monitoreo/saldos.csv')
+existente_df = pd.read_csv('data/monitoreo/existente.csv')
+resumen_mensual_ctns_df = pd.read_csv('data/monitoreo/resumen_mensual_ctns.csv')
 
 # Display data
 st.markdown(
@@ -27,7 +29,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.header("KPIs")
+st.header("Ventas netas")
 col1, col2 = st.columns(2)
 col1.metric(label=kpi_df.iloc[0]['Metric'], value=kpi_df.iloc[0]['Value'])
 col2.metric(label=kpi_df.iloc[1]['Metric'], value=kpi_df.iloc[1]['Value'])
@@ -45,12 +47,17 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.header("Ventas por Vendedor")
+st.subheader("Ventas por Vendedor")
 st.dataframe(ventas_por_vendedor_df, hide_index=True, use_container_width=True)
 
-st.header("Ventas por Cliente")
+st.subheader("Ventas por Cliente")
 st.dataframe(ventas_por_cliente_df, hide_index=True, use_container_width=True)
 
-st.header("Saldos")
+st.subheader("Saldos")
 st.dataframe(saldos_df, hide_index=True, use_container_width=True)
 
+st.header("Existente")
+
+col1, col2 = st.columns(2)
+col1.metric(label=existente_df.iloc[0]['Metricas'], value=existente_df.iloc[0]['Valores'])
+col2.metric(label=existente_df.iloc[1]['Metricas'], value=existente_df.iloc[1]['Valores'])
