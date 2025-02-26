@@ -285,14 +285,14 @@ resumen_mensual_ctns_impo.columns = [f"{col[0]} {col[1]}" for col in resumen_men
 resumen_mensual_ctns_impo.reset_index(inplace=True)
 resumen_mensual_ctns_impo['Dif'] = resumen_mensual_ctns_impo['CNTs Impo ' + str(this_year)] - resumen_mensual_ctns_impo['CNTs Impo ' + str(last_year)]
 resumen_mensual_ctns_impo['CNTs Impo ' + str(this_year)] = resumen_mensual_ctns_impo['CNTs Impo ' + str(this_year)].fillna(0).astype(int).astype(str)
-
+resumen_mensual_ctns_impo['Dif'] = resumen_mensual_ctns_impo['Dif'].fillna(0)
 
 resumen_mensual_ctns_expo = resumen_mensual_ctns_expo.pivot(index='Month', columns='Year', values=['CNTs Expo'])
 resumen_mensual_ctns_expo.columns = [f"{col[0]} {col[1]}" for col in resumen_mensual_ctns_expo.columns]
 resumen_mensual_ctns_expo.reset_index(inplace=True)
 resumen_mensual_ctns_expo['Dif'] = resumen_mensual_ctns_expo['CNTs Expo ' + str(this_year)] - resumen_mensual_ctns_expo['CNTs Expo ' + str(last_year)]
 resumen_mensual_ctns_expo['CNTs Expo ' + str(this_year)] = resumen_mensual_ctns_expo['CNTs Expo ' + str(this_year)].fillna(0).astype(int).astype(str)
-
+resumen_mensual_ctns_expo['Dif'] = resumen_mensual_ctns_expo['Dif'].fillna(0)
 
 
 
