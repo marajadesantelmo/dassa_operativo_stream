@@ -20,6 +20,8 @@ resumen_mensual_ctns_df = pd.read_csv('data/monitoreo/resumen_mensual_ctns.csv')
 kpi_data_expo= pd.read_csv('data/monitoreo/kpi_data_expo.csv')
 kpi_data_impo= pd.read_csv('data/monitoreo/kpi_data_impo.csv')
 ventas_clientes_nuevos = pd.read_csv('data/monitoreo/ventas_clientes_nuevos.csv')
+resumen_mensual_ctns_impo = pd.read_csv('data/monitoreo/resumen_mensual_ctns_impo.csv')
+resumen_mensual_ctns_expo = pd.read_csv('data/monitoreo/resumen_mensual_ctns_expo.csv')
 
 
 # Display data
@@ -134,4 +136,8 @@ st.subheader("Evolución mensual de CTNs")
 st.line_chart(resumen_mensual_ctns_df.set_index('Mes'))
 
 st.subheader("Comparativa mensual contenedores")
-st.write('En construcción')
+st.write('CNTS IMPO')
+st.dataframe(resumen_mensual_ctns_impo, hide_index=True, use_container_width=True)
+
+st.write('CNTS EXPO')
+st.dataframe(resumen_mensual_ctns_expo, hide_index=True, use_container_width=True)
