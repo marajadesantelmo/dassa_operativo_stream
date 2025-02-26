@@ -26,6 +26,8 @@ fecha_ant_ult3dias = datetime.now() - timedelta(days=3)
 fecha_ant_ult3dias = fecha_ant_ult3dias.strftime('%Y-%m-%d')
 first_day_prev_month = (datetime.now().replace(day=1) - timedelta(days=1)).replace(day=1)
 last_day_prev_month = datetime.now().replace(day=1) - timedelta(days=1)
+ultimos_30_dias = datetime.now() - timedelta(days=30)
+ultimos_30_dias = ultimos_30_dias.strftime('%Y-%m-%d')
 
 # Querys
 cursor.execute("""
@@ -105,6 +107,7 @@ current_month_sales = facturacion[(facturacion['Emision'] >= current_month.strft
 previous_month_sales = facturacion[(facturacion['Emision'] >= previous_month.strftime('%Y-%m-%d')) & (facturacion['Emision'] < current_month.strftime('%Y-%m-%d'))]
 same_period_last_month_sales = facturacion[(facturacion['Emision'] >= same_period_last_month.strftime('%Y-%m-%d')) & (facturacion['Emision'] < (same_period_last_month + timedelta(days=today.day)).strftime('%Y-%m-%d'))]
 last_12_months_sales = facturacion[(facturacion['Emision'] >= last_12_months.strftime('%Y-%m-%d'))]
+last_30_days = facturacion[(facturacion['Emision'] >= ultimos_30_dias)]
 
 # Calculate totals
 current_month_total = round(current_month_sales['Importe Total'].sum(), 0)
@@ -266,6 +269,31 @@ kpi_impo_df = pd.DataFrame(kpi_data_impo[1:], columns=kpi_data_impo[0])
 
 resumen_mensual_ctns = pd.merge(cnts_expo_egr_mensual, cnts_impo_ing_mensual, on='Mes')
 
+
+# Clietnes nuevos
+
+#%% Clientes nuevos
+print('Clientes nuevos')
+cursor.execute(f"""
+SELECT  apellido, fecha_alta, vendedor, clie_nro, consolida, nombre
+FROM DEPOFIS.DASSA.[Clientes]
+WHERE fecha_alta >= '{ultimos_30_dias}'
+""") 
+rows = cursor.fetchall()
+columns = [column[0] for column in cursor.description]
+clientes_nuevos= pd.DataFrame.from_records(rows, columns=columns)
+
+clientes_nuevos['apellido'] = clientes_nuevos['apellido'].str.strip().str.title()
+clientes_nuevos['apellido'] = clientes_nuevos['apellido'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
+cliente_nuevos = clientes_nuevos[['apellido', 'fecha_alta', 'vendedor']]
+ventas_clientes_nuevos = pd.merge(clientes_nuevos, ventas_por_cliente, left_on='apellido', right_on='Cliente', how='inner')
+ventas_clientes_nuevos = pd.merge(ventas_clientes_nuevos, diccionario_vendedores, left_on='vendedor', right_on='cod_vendedor', how='left')
+ventas_clientes_nuevos.rename(columns={'fecha_alta': 'Fecha Alta'}, inplace=True)
+ventas_clientes_nuevos = ventas_clientes_nuevos[['Cliente', 'Fecha Alta', 'Vendedor', 'Mes actual']]
+ventas_clientes_nuevos = ventas_clientes_nuevos.sort_values(by='Fecha Alta', ascending=False)
+
+#### GUARDO DATOS
+
 kpis.to_csv('data/monitoreo/kpi.csv', index=False)
 ventas_por_vendedor.to_csv('data/monitoreo/ventas_por_vendedor.csv', index=False)
 ventas_por_cliente.to_csv('data/monitoreo/ventas_por_cliente.csv', index=False)
@@ -274,3 +302,4 @@ existente.to_csv('data/monitoreo/existente.csv', index=False)
 resumen_mensual_ctns.to_csv('data/monitoreo/resumen_mensual_ctns.csv', index=False)
 kpi_impo_df.to_csv('data/monitoreo/kpi_data_impo.csv', index=False)
 kpi_expo_df.to_csv('data/monitoreo/kpi_data_expo.csv', index=False)
+ventas_clientes_nuevos.to_csv('data/monitoreo/ventas_clientes_nuevos.csv', index=False)

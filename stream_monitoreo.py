@@ -19,6 +19,7 @@ existente_df = pd.read_csv('data/monitoreo/existente.csv')
 resumen_mensual_ctns_df = pd.read_csv('data/monitoreo/resumen_mensual_ctns.csv')
 kpi_data_expo= pd.read_csv('data/monitoreo/kpi_data_expo.csv')
 kpi_data_impo= pd.read_csv('data/monitoreo/kpi_data_impo.csv')
+ventas_clientes_nuevos = pd.read_csv('data/monitoreo/ventas_clientes_nuevos.csv')
 
 
 # Display data
@@ -54,6 +55,9 @@ st.dataframe(ventas_por_vendedor_df, hide_index=True, use_container_width=True)
 
 st.subheader("Ventas por Cliente")
 st.dataframe(ventas_por_cliente_df, hide_index=True, use_container_width=True)
+
+st.subheader("Ventas a Clientes Nuevos")
+st.dataframe(ventas_clientes_nuevos, hide_index=True, use_container_width=True)
 
 st.subheader("Saldos")
 st.dataframe(saldos_df, hide_index=True, use_container_width=True)
@@ -126,3 +130,4 @@ st.markdown("""
 
 st.subheader("Evolución mensual de CTNs")
 st.line_chart(resumen_mensual_ctns_df.set_index('Mes'))
+
