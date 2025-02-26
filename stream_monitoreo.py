@@ -86,32 +86,31 @@ elif page_selection == "Operativo":
     )
 
     st.header("CTNs IMPO ingresados")
-
     st.markdown("""
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
             <div style="display: flex; flex-direction: column; align-items: center;">
-                <h5>Mes actual</h5>
-                <p style="font-size: calc(1em + 1vw);">{}</p>
+                <h6>Mes actual</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center;">
-                <h5>Mes anterior</h5>
-                <p style="font-size: calc(1em + 1vw);">{}</p>
+                <h6>Mes anterior</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center;">
-                <h5>Prom. mensual</h5>
-                <p style="font-size: calc(1em + 1vw);">{}</p>
+                <h6>Prom. mensual</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center;">
-                <h5>Proy. mes actual</h5>
-                <p style="font-size: calc(1em + 1vw);">{}</p>
+                <h6>Proy. mes actual</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center;">
-                <h5>Vol. Ingresado</h5>
-                <p style="font-size: calc(1em + 1vw);">{}</p>
+                <h6>Vol. Ingresado</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center;">
-                <h5>Vol. Egresado</h5>
-                <p style="font-size: calc(1em + 1vw);">{}</p>
+                <h6>Vol. Egresado</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
             </div>
         </div>
         """.format(
@@ -127,30 +126,30 @@ elif page_selection == "Operativo":
     st.markdown("<hr>", unsafe_allow_html=True)
     st.header("CTNs EXPO egresados")
     st.markdown("""
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
             <div style="display: flex; flex-direction: column; align-items: center;">
-                <h5>Mes actual</h5>
-                <p style="font-size: calc(1em + 1vw);">{}</p>
+                <h6>Mes actual</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center;">
-                <h5>Mes anterior</h5>
-                <p style="font-size: calc(1em + 1vw);">{}</p>
+                <h6>Mes anterior</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center;">
-                <h5>Prom. mensual</h5>
-                <p style="font-size: calc(1em + 1vw);">{}</p>
+                <h6>Prom. mensual</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center;">
-                <h5>Proy. mes actual</h5>
-                <p style="font-size: calc(1em + 1vw);">{}</p>
+                <h6>Proy. mes actual</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center;">
-                <h5>Vol. Ingresado</h5>
-                <p style="font-size: calc(1em + 1vw);">{}</p>
+                <h6>Vol. Ingresado</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center;">
-                <h5>Vol. Egresado</h5>
-                <p style="font-size: calc(1em + 1vw);">{}</p>
+                <h6>Vol. Egresado</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
             </div>
         </div>
         """.format(
