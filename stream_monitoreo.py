@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Page configurations
-st.set_page_config(page_title="Monitoreo Deposito", 
+st.set_page_config(page_title="Monitoreo", 
                    page_icon="📊", 
                    layout="wide")
 
