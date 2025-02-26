@@ -67,21 +67,21 @@ col2.metric(label=existente_df.iloc[1]['Metricas'], value=existente_df.iloc[1]['
 st.header("CTNs IMPO ingresados")
 
 st.markdown("""
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
         <div style="display: flex; flex-direction: column; align-items: center;">
-            <h3>Mes actual</h3>
+            <h5>Mes actual</h5>
             <p style="font-size: calc(1em + 1vw);">{}</p>
         </div>
         <div style="display: flex; flex-direction: column; align-items: center;">
-            <h3>Mes anterior</h3>
+            <h5>Mes anterior</h5>
             <p style="font-size: calc(1em + 1vw);">{}</p>
         </div>
         <div style="display: flex; flex-direction: column; align-items: center;">
-            <h3>Promedio mensual</h3>
+            <h5>Promedio mensual</h5>
             <p style="font-size: calc(1em + 1vw);">{}</p>
         </div>
         <div style="display: flex; flex-direction: column; align-items: center;">
-            <h3>Proyeccion mes actual</h3>
+            <h5>Proyeccion mes actual</h5>
             <p style="font-size: calc(1em + 1vw);">{}</p>
         </div>
     </div>
