@@ -52,8 +52,7 @@ facturacion_sql = pd.DataFrame.from_records(rows, columns=columns)
 print('Procesando datos')
 
 def transformar_facturacion(df): 
-    df['fecha_emi'] = pd.to_datetime(df['fecha_emi'])
-    df = df[df['fecha_emi'] > pd.to_datetime(fecha_ant)].copy()
+    df['fecha_emi'] = pd.to_datetime(df['fecha_emi'], format='%Y-%m-%d', errors='coerce')
     df['Neto'] = df['Neto Gravado'] + df['Neto No Gravado']
     df.loc[df['tipo'] == 3, 'Factura'] = 'NdC ' + df['Factura'].astype(str)
     df = df.drop(columns=['tipo'])
@@ -100,21 +99,24 @@ today = datetime.now()
 current_month = datetime.now().replace(day=1)
 previous_month = (current_month - timedelta(days=1)).replace(day=1)
 same_period_last_month = (current_month - timedelta(days=30)).replace(day=1)
-last_12_months = (current_month - timedelta(days=365)).replace(day=1)
+last_12_months = (previous_month- timedelta(days=365)).replace(day=1)
 
 # Ajuste por inflacion
 ipc = pd.read_excel('ipc_mensual.xlsx')
-ipc['periodo'] = pd.to_datetime(ipc['periodo'], format='%m-%Y')
-facturacion['Mes'] = facturacion['Emision'].dt.to_period('M').dt.to_timestamp()
+facturacion['Mes'] = facturacion['Emision'].dt.strftime('%m-%Y')
 facturacion = pd.merge(facturacion, ipc, left_on='Mes', right_on='periodo', how='left')
-facturacion['Importe Total'] = facturacion['Importe Total'].astype(float)
+facturacion['Importe Total'] = facturacion['Importe Total'].astype(int)
 facturacion['Ajustado'] = facturacion['Importe Total'] * 100 / facturacion['ipc']
-facturacion['Ajustado'] = facturacion['Ajustado'].round(0)
+facturacion['Ajustado'] = facturacion['Ajustado'].round(0).astype(int)
+
+#Ventas totales por mes
+ventas_totales_por_mes = facturacion.groupby('Mes').agg({'Importe Total': 'sum', 'Ajustado': 'sum'}).reset_index()
+
 # Filter data for KPIs
 current_month_sales = facturacion[(facturacion['Emision'] >= current_month.strftime('%Y-%m-%d'))]
 previous_month_sales = facturacion[(facturacion['Emision'] >= previous_month.strftime('%Y-%m-%d')) & (facturacion['Emision'] < current_month.strftime('%Y-%m-%d'))]
 same_period_last_month_sales = facturacion[(facturacion['Emision'] >= same_period_last_month.strftime('%Y-%m-%d')) & (facturacion['Emision'] < (same_period_last_month + timedelta(days=today.day)).strftime('%Y-%m-%d'))]
-last_12_months_sales = facturacion[(facturacion['Emision'] >= last_12_months.strftime('%Y-%m-%d'))]
+last_12_months_sales = facturacion[(facturacion['Emision'] >= last_12_months.strftime('%Y-%m-%d')) & (facturacion['Emision'] < current_month.strftime('%Y-%m-%d'))]
 last_30_days = facturacion[(facturacion['Emision'] >= ultimos_30_dias)]
 
 # Calculate totals
