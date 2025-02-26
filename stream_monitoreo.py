@@ -20,7 +20,7 @@ saldos_df = pd.read_csv('data/monitoreo/saldos.csv')
 st.markdown(
     """
     <div style="display: flex; align-items: center;">
-        <img src="https://github.com/marajadesantelmo/dassa_operativo_stream/blob/8f7efea34c6a3283dd27eb386c92c10b932481e5/logo_mini.png" style="width: 50px; margin-right: 10px;">
+        <img src="https://raw.githubusercontent.com/marajadesantelmo/dassa_operativo_stream/main/logo_mini.png" style="width: 50px; margin-right: 10px;">
         <h1 style="margin: 0;">Monitoreo</h1>
     </div>
     """,
