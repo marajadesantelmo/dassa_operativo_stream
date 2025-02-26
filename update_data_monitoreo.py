@@ -199,27 +199,23 @@ egresado['Mes'] = egresado['fecha_egr'].dt.to_period('M')
 cnts_expo_egr_mensual = egresado.groupby('Mes')['contenedor'].count().reset_index()
 cnts_expo_egr_mensual.columns = ['Mes', 'CNTs Expo']
 
-cnts_expo_egr_mes_actual = egresado[(egresado['fecha_egr'] >= first_day_of_current_month) & (egresado['fecha_egr'] <= today)]
+cnts_expo_egr_mes_actual = egresado[(egresado['fecha_egr'] >= current_month) & (egresado['fecha_egr'] <= today)]
 cnts_expo_egr_mes_actual = cnts_expo_egr_mes_actual['contenedor'].count()
 
-cnts_expo_egr_mes_anterior = egresado[(egresado['fecha_egr'] >= first_day_of_last_month) & (egresado['fecha_egr'] <= last_day_of_last_month)]
+cnts_expo_egr_mes_anterior = egresado[(egresado['fecha_egr'] >= first_day_prev_month) & (egresado['fecha_egr'] <= last_day_prev_month)]
 cnts_expo_egr_mes_anterior  = cnts_expo_egr_mes_anterior ['contenedor'].count()
 
 cnts_expo_egr_promedio_mensual = cnts_expo_egr_mensual['CNTs Expo'].mean().round(0).astype(int)
 
+days_passed_current_month = (today - current_month).days + 1
 prom_dia_expo = cnts_expo_egr_mes_actual / days_passed_current_month
 ctn_expo_proyectado = prom_dia_expo * 31
 ctn_expo_proyectado = ctn_expo_proyectado.round(0).astype(int)
 
 
-cnts_expo_egr_ultima_semana = egresado[(egresado['fecha_egr'] >= start_last_week) & (egresado['fecha_egr'] <= end_last_week)]
-cnts_expo_egr_ultima_semana = cnts_expo_egr_ultima_semana ['contenedor'].count()
-
-
 kpi_data_expo = [
-    ['Mes actual', 'Mes anterior', 'Promedio mensual', 'Proyeccion mes actual', 'Ultima semana'],
-    [cnts_expo_egr_mes_actual , cnts_expo_egr_mes_anterior, cnts_expo_egr_promedio_mensual, 
-     ctn_expo_proyectado, cnts_expo_egr_ultima_semana]
+    ['Mes actual', 'Mes anterior', 'Promedio mensual', 'Proyeccion mes actual'],
+    [cnts_expo_egr_mes_actual , cnts_expo_egr_mes_anterior, cnts_expo_egr_promedio_mensual, ctn_expo_proyectado]
 ]
 
 kpi_expo_df = pd.DataFrame(kpi_data_expo[1:], columns=kpi_data_expo[0])
@@ -247,10 +243,10 @@ ingresado['Mes'] = ingresado['fecha_ing'].dt.to_period('M')
 cnts_impo_ing_mensual = ingresado.groupby('Mes')['contenedor'].count().reset_index()
 cnts_impo_ing_mensual.columns = ['Mes', 'CNTs Impo']
 
-cnts_impo_ing_mes_actual = ingresado[(ingresado['fecha_ing'] >= first_day_of_current_month) & (ingresado['fecha_ing'] <= today)]
+cnts_impo_ing_mes_actual = ingresado[(ingresado['fecha_ing'] >= current_month) & (ingresado['fecha_ing'] <= today)]
 cnts_impo_ing_mes_actual = cnts_impo_ing_mes_actual['contenedor'].count()
 
-cnts_impo_ing_mes_anterior = ingresado[(ingresado['fecha_ing'] >= first_day_of_last_month) & (ingresado['fecha_ing'] <= last_day_of_last_month)]
+cnts_impo_ing_mes_anterior = ingresado[(ingresado['fecha_ing'] >= first_day_prev_month) & (ingresado['fecha_ing'] <= last_day_prev_month)]
 cnts_impo_ing_mes_anterior  = cnts_impo_ing_mes_anterior ['contenedor'].count()
 
 cnts_impo_ing_promedio_mensual = cnts_impo_ing_mensual['CNTs Impo'].mean().round(0).astype(int)
@@ -259,13 +255,11 @@ prom_dia_impo = cnts_impo_ing_mes_actual / days_passed_current_month
 ctn_impo_proyectado = prom_dia_impo * 31
 ctn_impo_proyectado = ctn_impo_proyectado.round(0).astype(int)
 
-cnts_impo_ing_ultima_semana = ingresado[(ingresado['fecha_ing'] >= start_last_week) & (ingresado['fecha_ing'] <= end_last_week)]
-cnts_impo_ing_ultima_semana = cnts_impo_ing_ultima_semana['contenedor'].count()
 
 kpi_data_impo = [
-    ['Mes actual', 'Mes anterior', 'Promedio mensual', 'Proyeccion mes actual', 'Ultima semana'],
+    ['Mes actual', 'Mes anterior', 'Promedio mensual', 'Proyeccion mes actual'],
     [cnts_impo_ing_mes_actual , cnts_impo_ing_mes_anterior, cnts_impo_ing_promedio_mensual, 
-     ctn_impo_proyectado,  cnts_impo_ing_ultima_semana]
+     ctn_impo_proyectado]
 ]
 
 kpi_impo_df = pd.DataFrame(kpi_data_impo[1:], columns=kpi_data_impo[0])
@@ -277,4 +271,4 @@ ventas_por_vendedor.to_csv('data/monitoreo/ventas_por_vendedor.csv', index=False
 ventas_por_cliente.to_csv('data/monitoreo/ventas_por_cliente.csv', index=False)
 saldos.to_csv('data/monitoreo/saldos.csv', index=False)
 existente.to_csv('data/monitoreo/existente.csv', index=False)
-
+resumen_mensual_ctns.to_csv('data/monitoreo/resumen_mensual_ctns.csv', index=False)
