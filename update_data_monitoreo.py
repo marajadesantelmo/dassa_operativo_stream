@@ -275,6 +275,8 @@ resumen_mensual_ctns = resumen_mensual_ctns[(resumen_mensual_ctns['Year'] == thi
 resumen_mensual_ctns_expo = resumen_mensual_ctns[['CNTs Expo', 'Year', 'Month']]
 resumen_mensual_ctns_impo = resumen_mensual_ctns[['CNTs Impo', 'Year', 'Month']]
 
+resumen_mensual_ctns = resumen_mensual_ctns[['Mes', 'CNTs Expo', 'CNTs Impo']]
+
 resumen_mensual_ctns_impo = resumen_mensual_ctns_impo.pivot(index='Month', columns='Year', values=['CNTs Impo'])
 resumen_mensual_ctns_impo.columns = [f"{col[0]} {col[1]}" for col in resumen_mensual_ctns_impo.columns]
 resumen_mensual_ctns_impo.reset_index(inplace=True)
