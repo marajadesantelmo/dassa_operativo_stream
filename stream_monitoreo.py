@@ -17,6 +17,9 @@ ventas_por_cliente_df = pd.read_csv('data/monitoreo/ventas_por_cliente.csv')
 saldos_df = pd.read_csv('data/monitoreo/saldos.csv')
 existente_df = pd.read_csv('data/monitoreo/existente.csv')
 resumen_mensual_ctns_df = pd.read_csv('data/monitoreo/resumen_mensual_ctns.csv')
+kpi_data_expo= pd.read_csv('data/monitoreo/kpi_data_expo.csv')
+kpi_data_impo= pd.read_csv('data/monitoreo/kpi_data_impo.csv')
+
 
 # Display data
 st.markdown(
@@ -29,7 +32,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.header("Ventas netas")
 col1, col2 = st.columns(2)
 col1.metric(label=kpi_df.iloc[0]['Metric'], value=kpi_df.iloc[0]['Value'])
 col2.metric(label=kpi_df.iloc[1]['Metric'], value=kpi_df.iloc[1]['Value'])
@@ -61,3 +63,23 @@ st.header("Existente")
 col1, col2 = st.columns(2)
 col1.metric(label=existente_df.iloc[0]['Metricas'], value=existente_df.iloc[0]['Valores'])
 col2.metric(label=existente_df.iloc[1]['Metricas'], value=existente_df.iloc[1]['Valores'])
+
+st.header("CTNs IMPO ingresados")
+
+col1, col2 = st.columns(2)
+col1.metric(label="Mes actual", value=kpi_data_impo.iloc[0]['Mes actual'])
+col2.metric(label="Mes anterior", value=kpi_data_impo.iloc[0]['Mes anterior'])
+
+col3, col4 = st.columns(2)
+col3.metric(label="Promedio mensual", value=kpi_data_impo.iloc[0]['Promedio mensual'])
+col4.metric(label="Proyeccion mes actual", value=kpi_data_impo.iloc[0]['Proyeccion mes actual'])
+
+st.header("CTNs EXPO ingresados")
+
+col1, col2 = st.columns(2)
+col1.metric(label="Mes actual", value=kpi_data_expo.iloc[0]['Mes actual'])
+col2.metric(label="Mes anterior", value=kpi_data_expo.iloc[0]['Mes anterior'])
+
+col3, col4 = st.columns(2)
+col3.metric(label="Promedio mensual", value=kpi_data_expo.iloc[0]['Promedio mensual'])
+col4.metric(label="Proyeccion mes actual", value=kpi_data_expo.iloc[0]['Proyeccion mes actual'])
