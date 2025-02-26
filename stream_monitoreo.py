@@ -19,7 +19,7 @@ saldos_df = pd.read_csv('data/monitoreo/saldos.csv')
 # Display data
 col_logo, col_title = st.columns([1, 5])
 with col_logo:
-    st.image("logo_mini.png", use_column_width=True)
+    st.image("logo_mini.png")
 with col_title:
     st.title("Monitoreo")
 
