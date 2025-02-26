@@ -160,8 +160,121 @@ ventas_por_vendedor = ventas_por_vendedor[['Vendedor', 'Mes anterior', 'Mes actu
 ventas_por_vendedor.reset_index(drop=True, inplace=True)
 print(ventas_por_vendedor)
 
+cursor.execute("""
+    SELECT volumen
+    FROM DEPOFIS.DASSA.[Existente en Stock]
+    WHERE suborden !=0
+""")
+rows = cursor.fetchall()
+columns = [column[0] for column in cursor.description]
+existente = pd.DataFrame.from_records(rows, columns=columns)
+vol_existente = existente['volumen'].sum()
+ocupacion = vol_existente / 13460
+
+existente = pd.DataFrame({
+    'Metricas': ['Volumen Existente', 'Ocupación'],
+    'Valores': [vol_existente, ocupacion]
+})
+
+#%% Operativo - CNTs Expo
+print('Metricas mensuales de operativo')
+#Egresado
+cursor.execute("""
+SELECT  fecha_egr, orden_ing, suborden, renglon, tipo_oper, contenedor
+FROM [DEPOFIS].[DASSA].[Egresadas del stock]
+WHERE fecha_egr > '2021-01-01'
+AND tipo_oper = 'EXPORTACION'
+AND suborden = 0
+""") 
+rows = cursor.fetchall()
+columns = [column[0] for column in cursor.description]
+egresado = pd.DataFrame.from_records(rows, columns=columns)
+egresado['contenedor'] = egresado['contenedor'].str.strip()
+egresado = egresado[egresado['contenedor'].notna() & (egresado['contenedor'] != '') & (egresado['contenedor'] != '-      -')]
+egresado = egresado.drop_duplicates(subset=['contenedor'], keep='first')
+egresado['fecha_egr'] = pd.to_datetime(egresado['fecha_egr'], errors='coerce')
+egresado = egresado.dropna(subset=['fecha_egr'])
+egresado['Mes'] = egresado['fecha_egr'].dt.to_period('M')
+
+cnts_expo_egr_mensual = egresado.groupby('Mes')['contenedor'].count().reset_index()
+cnts_expo_egr_mensual.columns = ['Mes', 'CNTs Expo']
+
+cnts_expo_egr_mes_actual = egresado[(egresado['fecha_egr'] >= first_day_of_current_month) & (egresado['fecha_egr'] <= today)]
+cnts_expo_egr_mes_actual = cnts_expo_egr_mes_actual['contenedor'].count()
+
+cnts_expo_egr_mes_anterior = egresado[(egresado['fecha_egr'] >= first_day_of_last_month) & (egresado['fecha_egr'] <= last_day_of_last_month)]
+cnts_expo_egr_mes_anterior  = cnts_expo_egr_mes_anterior ['contenedor'].count()
+
+cnts_expo_egr_promedio_mensual = cnts_expo_egr_mensual['CNTs Expo'].mean().round(0).astype(int)
+
+prom_dia_expo = cnts_expo_egr_mes_actual / days_passed_current_month
+ctn_expo_proyectado = prom_dia_expo * 31
+ctn_expo_proyectado = ctn_expo_proyectado.round(0).astype(int)
+
+
+cnts_expo_egr_ultima_semana = egresado[(egresado['fecha_egr'] >= start_last_week) & (egresado['fecha_egr'] <= end_last_week)]
+cnts_expo_egr_ultima_semana = cnts_expo_egr_ultima_semana ['contenedor'].count()
+
+
+kpi_data_expo = [
+    ['Mes actual', 'Mes anterior', 'Promedio mensual', 'Proyeccion mes actual', 'Ultima semana'],
+    [cnts_expo_egr_mes_actual , cnts_expo_egr_mes_anterior, cnts_expo_egr_promedio_mensual, 
+     ctn_expo_proyectado, cnts_expo_egr_ultima_semana]
+]
+
+kpi_expo_df = pd.DataFrame(kpi_data_expo[1:], columns=kpi_data_expo[0])
+
+#%% Operativo CNTs IMPO
+
+#Ingresado
+cursor.execute("""
+SELECT  fecha_ing, orden_ing, suborden, renglon, tipo_oper, contenedor
+FROM DEPOFIS.DASSA.[Ingresadas En Stock]
+WHERE fecha_ing > '2021-01-01'
+AND tipo_oper = 'IMPORTACION'
+AND suborden = 0
+""") 
+rows = cursor.fetchall()
+columns = [column[0] for column in cursor.description]
+ingresado = pd.DataFrame.from_records(rows, columns=columns)
+ingresado['contenedor'] = ingresado['contenedor'].str.strip()
+ingresado = ingresado[ingresado['contenedor'].notna() & (ingresado['contenedor'] != '') & (ingresado['contenedor'] != '-      -')]
+ingresado = ingresado.drop_duplicates(subset=['contenedor'], keep='first')
+ingresado['fecha_ing'] = pd.to_datetime(ingresado['fecha_ing'], errors='coerce')
+ingresado = ingresado.dropna(subset=['fecha_ing'])
+ingresado['Mes'] = ingresado['fecha_ing'].dt.to_period('M')
+
+cnts_impo_ing_mensual = ingresado.groupby('Mes')['contenedor'].count().reset_index()
+cnts_impo_ing_mensual.columns = ['Mes', 'CNTs Impo']
+
+cnts_impo_ing_mes_actual = ingresado[(ingresado['fecha_ing'] >= first_day_of_current_month) & (ingresado['fecha_ing'] <= today)]
+cnts_impo_ing_mes_actual = cnts_impo_ing_mes_actual['contenedor'].count()
+
+cnts_impo_ing_mes_anterior = ingresado[(ingresado['fecha_ing'] >= first_day_of_last_month) & (ingresado['fecha_ing'] <= last_day_of_last_month)]
+cnts_impo_ing_mes_anterior  = cnts_impo_ing_mes_anterior ['contenedor'].count()
+
+cnts_impo_ing_promedio_mensual = cnts_impo_ing_mensual['CNTs Impo'].mean().round(0).astype(int)
+
+prom_dia_impo = cnts_impo_ing_mes_actual / days_passed_current_month
+ctn_impo_proyectado = prom_dia_impo * 31
+ctn_impo_proyectado = ctn_impo_proyectado.round(0).astype(int)
+
+cnts_impo_ing_ultima_semana = ingresado[(ingresado['fecha_ing'] >= start_last_week) & (ingresado['fecha_ing'] <= end_last_week)]
+cnts_impo_ing_ultima_semana = cnts_impo_ing_ultima_semana['contenedor'].count()
+
+kpi_data_impo = [
+    ['Mes actual', 'Mes anterior', 'Promedio mensual', 'Proyeccion mes actual', 'Ultima semana'],
+    [cnts_impo_ing_mes_actual , cnts_impo_ing_mes_anterior, cnts_impo_ing_promedio_mensual, 
+     ctn_impo_proyectado,  cnts_impo_ing_ultima_semana]
+]
+
+kpi_impo_df = pd.DataFrame(kpi_data_impo[1:], columns=kpi_data_impo[0])
+
+resumen_mensual_ctns = pd.merge(cnts_expo_egr_mensual, cnts_impo_ing_mensual, on='Mes')
+
 kpis.to_csv('data/monitoreo/kpi.csv', index=False)
 ventas_por_vendedor.to_csv('data/monitoreo/ventas_por_vendedor.csv', index=False)
 ventas_por_cliente.to_csv('data/monitoreo/ventas_por_cliente.csv', index=False)
 saldos.to_csv('data/monitoreo/saldos.csv', index=False)
+existente.to_csv('data/monitoreo/existente.csv', index=False)
 
