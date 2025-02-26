@@ -21,7 +21,7 @@ col_logo, col_title = st.columns([1, 5])
 with col_logo:
     st.image("logo_mini.png")
 with col_title:
-    st.title("Monitoreo")
+    st.header("Monitoreo")
 
 st.header("KPIs")
 col1, col2 = st.columns(2)
