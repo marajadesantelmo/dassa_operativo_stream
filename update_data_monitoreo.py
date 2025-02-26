@@ -225,12 +225,6 @@ ctn_expo_proyectado = prom_dia_expo * 31
 ctn_expo_proyectado = ctn_expo_proyectado.round(0).astype(int)
 
 
-kpi_data_expo = [
-    ['Mes actual', 'Mes anterior', 'Promedio mensual', 'Proyeccion mes actual'],
-    [cnts_expo_egr_mes_actual , cnts_expo_egr_mes_anterior, cnts_expo_egr_promedio_mensual, ctn_expo_proyectado]
-]
-
-kpi_expo_df = pd.DataFrame(kpi_data_expo[1:], columns=kpi_data_expo[0])
 
 #%% Operativo CNTs IMPO
 
@@ -268,13 +262,6 @@ ctn_impo_proyectado = prom_dia_impo * 31
 ctn_impo_proyectado = ctn_impo_proyectado.round(0).astype(int)
 
 
-kpi_data_impo = [
-    ['Mes actual', 'Mes anterior', 'Promedio mensual', 'Proyeccion mes actual'],
-    [cnts_impo_ing_mes_actual , cnts_impo_ing_mes_anterior, cnts_impo_ing_promedio_mensual, 
-     ctn_impo_proyectado]
-]
-
-kpi_impo_df = pd.DataFrame(kpi_data_impo[1:], columns=kpi_data_impo[0])
 
 resumen_mensual_ctns = pd.merge(cnts_expo_egr_mensual, cnts_impo_ing_mensual, on='Mes')
 # Comparativa mensual
@@ -344,10 +331,44 @@ ingresado = ingresado.dropna(subset=['fecha_ing'])
 ingresado['Mes'] = ingresado['fecha_ing'].dt.to_period('M')
 volumen_ingresado_mensual = ingresado.groupby(['Mes', 'tipo_oper'])['volumen'].sum().reset_index()
 volumen_ingresado_mensual.columns = ['Mes', 'Tipo Operación', 'Volumen']
+volumen_ingresado_mensual['Tipo Operación'] = volumen_ingresado_mensual['Tipo Operación'].str.strip().str.title()
+volumen_impo_ingresado_mes_actual = volumen_ingresado_mensual[(volumen_ingresado_mensual['Mes'] == current_month.strftime('%Y-%m')) & (volumen_ingresado_mensual['Tipo Operación'] == 'Importacion')]['Volumen'].sum()
+volumen_expo_ingresado_mes_actual = volumen_ingresado_mensual[(volumen_ingresado_mensual['Mes'] == current_month.strftime('%Y-%m')) & (volumen_ingresado_mensual['Tipo Operación'] == 'Exportacion')]['Volumen'].sum()
 
 # Volumen egresado
+cursor.execute("""
+SELECT  fecha_egr, orden_ing, suborden, renglon, tipo_oper, volumen
+FROM [DEPOFIS].[DASSA].[Egresadas del stock]
+WHERE fecha_egr > '2024-01-01'
+AND suborden != 0
+""") 
+rows = cursor.fetchall()
+columns = [column[0] for column in cursor.description]
+egresado = pd.DataFrame.from_records(rows, columns=columns)
+egresado['fecha_egr'] = pd.to_datetime(egresado['fecha_egr'], errors='coerce')
+egresado = egresado.dropna(subset=['fecha_egr'])
+egresado['Mes'] = egresado['fecha_egr'].dt.to_period('M')
+volumen_egresado_mensual = egresado.groupby(['Mes', 'tipo_oper'])['volumen'].sum().reset_index()
+volumen_egresado_mensual.columns = ['Mes', 'Tipo Operación', 'Volumen']
+volumen_egresado_mensual['Tipo Operación'] = volumen_egresado_mensual['Tipo Operación'].str.strip().str.title()
+volumen_impo_egresado_mes_actual = volumen_egresado_mensual[(volumen_egresado_mensual['Mes'] == current_month.strftime('%Y-%m')) & (volumen_egresado_mensual['Tipo Operación'] == 'Importacion')]['Volumen'].sum()
+volumen_expo_egresado_mes_actual = volumen_egresado_mensual[(volumen_egresado_mensual['Mes'] == current_month.strftime('%Y-%m')) & (volumen_egresado_mensual['Tipo Operación'] == 'Exportacion')]['Volumen'].sum()
+#Dataframes con kpis de importacion y exportacion
+kpi_data_impo = [
+    ['Mes actual', 'Mes anterior', 'Promedio mensual', 'Proyeccion mes actual', 'Vol. Ingresado', 'Vol. Egresado'],
+    [cnts_impo_ing_mes_actual , cnts_impo_ing_mes_anterior, cnts_impo_ing_promedio_mensual, 
+     ctn_impo_proyectado, volumen_impo_ingresado_mes_actual, -volumen_impo_egresado_mes_actual]
+]
+kpi_impo_df = pd.DataFrame(kpi_data_impo[1:], columns=kpi_data_impo[0])
 
 
+kpi_data_expo = [
+    ['Mes actual', 'Mes anterior', 'Promedio mensual', 'Proyeccion mes actual', 'Vol. Ingresado', 'Vol. Egresado'],
+    [cnts_expo_egr_mes_actual , cnts_expo_egr_mes_anterior, cnts_expo_egr_promedio_mensual, 
+    ctn_expo_proyectado, volumen_expo_ingresado_mes_actual, -volumen_expo_egresado_mes_actual]
+]
+
+kpi_expo_df = pd.DataFrame(kpi_data_expo[1:], columns=kpi_data_expo[0])
 
 #### GUARDO DATOS
 
@@ -362,3 +383,5 @@ kpi_expo_df.to_csv('data/monitoreo/kpi_data_expo.csv', index=False)
 ventas_clientes_nuevos.to_csv('data/monitoreo/ventas_clientes_nuevos.csv', index=False)
 resumen_mensual_ctns_expo.to_csv('data/monitoreo/resumen_mensual_ctns_expo.csv', index=False)
 resumen_mensual_ctns_impo.to_csv('data/monitoreo/resumen_mensual_ctns_impo.csv', index=False)
+volumen_ingresado_mensual.to_csv('data/monitoreo/volumen_ingresado_mensual.csv', index=False)  
+volumen_egresado_mensual.to_csv('data/monitoreo/volumen_egresado_mensual.csv', index=False)

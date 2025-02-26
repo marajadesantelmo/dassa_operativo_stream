@@ -92,12 +92,22 @@ st.markdown("""
             <h5>Proy. mes actual</h5>
             <p style="font-size: calc(1em + 1vw);">{}</p>
         </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <h5>Vol. Ingresado</h5>
+            <p style="font-size: calc(1em + 1vw);">{}</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <h5>Vol. Egresado</h5>
+            <p style="font-size: calc(1em + 1vw);">{}</p>
+        </div>
     </div>
     """.format(
         kpi_data_impo.iloc[0]['Mes actual'],
         kpi_data_impo.iloc[0]['Mes anterior'],
         kpi_data_impo.iloc[0]['Promedio mensual'],
-        kpi_data_impo.iloc[0]['Proyeccion mes actual']
+        kpi_data_impo.iloc[0]['Proyeccion mes actual'],
+        kpi_data_impo.iloc[0]['Vol. Ingresado'],
+        kpi_data_impo.iloc[0]['Vol. Egresado']
     ),
     unsafe_allow_html=True
 )
@@ -121,12 +131,22 @@ st.markdown("""
             <h5>Proy. mes actual</h5>
             <p style="font-size: calc(1em + 1vw);">{}</p>
         </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <h5>Vol. Ingresado</h5>
+            <p style="font-size: calc(1em + 1vw);">{}</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <h5>Vol. Egresado</h5>
+            <p style="font-size: calc(1em + 1vw);">{}</p>
+        </div>
     </div>
     """.format(
         kpi_data_expo.iloc[0]['Mes actual'],
         kpi_data_expo.iloc[0]['Mes anterior'],
         kpi_data_expo.iloc[0]['Promedio mensual'],
-        kpi_data_expo.iloc[0]['Proyeccion mes actual']
+        kpi_data_expo.iloc[0]['Proyeccion mes actual'],
+        kpi_data_expo.iloc[0]['Vol. Ingresado'],
+        kpi_data_expo.iloc[0]['Vol. Egresado']
     ),
     unsafe_allow_html=True
 )
