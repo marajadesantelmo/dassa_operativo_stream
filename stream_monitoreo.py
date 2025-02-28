@@ -66,6 +66,7 @@ if page_selection == "Ventas":
     st.dataframe(ventas_clientes_nuevos, hide_index=True, use_container_width=True)
 
     st.subheader("Ventas totales por mes")
+    st.write('Valores ajustados por IPC')
     st.bar_chart(ventas_totales_por_mes_grafico.set_index('Mes'))
     st.dataframe(ventas_totales_por_mes_tabla, hide_index=True, use_container_width=True)
 
