@@ -242,7 +242,7 @@ ctn_expo_proyectado = ctn_expo_proyectado.round(0).astype(int)
 
 #Ingresado
 cursor.execute("""
-SELECT  fecha_ing, orden_ing, suborden, renglon, tipo_oper, contenedor
+SELECT  fecha_ing, orden_ing, suborden, renglon, tipo_oper, contenedor, fecha_desc
 FROM DEPOFIS.DASSA.[Ingresadas En Stock]
 WHERE fecha_ing > '2021-01-01'
 AND tipo_oper = 'IMPORTACION'
@@ -257,25 +257,22 @@ ingresado = ingresado.drop_duplicates(subset=['contenedor'], keep='first')
 ingresado['fecha_ing'] = pd.to_datetime(ingresado['fecha_ing'], errors='coerce')
 ingresado = ingresado.dropna(subset=['fecha_ing'])
 ingresado['Mes'] = ingresado['fecha_ing'].dt.to_period('M')
-
+ingresado['Desconsolida'] = ingresado['fecha_desc'].apply(lambda x: "No" if x == '1899-12-30' else "Si")
 cnts_impo_ing_mensual = ingresado.groupby('Mes')['contenedor'].count().reset_index()
 cnts_impo_ing_mensual.columns = ['Mes', 'CNTs Impo']
-
-cnts_impo_ing_mes_actual = ingresado[(ingresado['fecha_ing'] >= current_month) & (ingresado['fecha_ing'] <= today)]
-cnts_impo_ing_mes_actual = cnts_impo_ing_mes_actual['contenedor'].count()
-
+cnts_impo_ing_mes_actual = ingresado[(ingresado['fecha_ing'] >= current_month) & (ingresado['fecha_ing'] <= today)]['contenedor'].count()
 cnts_impo_ing_mes_anterior = ingresado[(ingresado['fecha_ing'] >= first_day_prev_month) & (ingresado['fecha_ing'] <= last_day_prev_month)]
 cnts_impo_ing_mes_anterior  = cnts_impo_ing_mes_anterior ['contenedor'].count()
-
 cnts_impo_ing_promedio_mensual = cnts_impo_ing_mensual['CNTs Impo'].mean().round(0).astype(int)
-
 prom_dia_impo = cnts_impo_ing_mes_actual / days_passed_current_month
 ctn_impo_proyectado = prom_dia_impo * 31
 ctn_impo_proyectado = ctn_impo_proyectado.round(0).astype(int)
-
-
-
 resumen_mensual_ctns = pd.merge(cnts_expo_egr_mensual, cnts_impo_ing_mensual, on='Mes')
+
+cnts_mes_actual= ingresado[(ingresado['fecha_ing'] >= current_month) & (ingresado['fecha_ing'] <= today)]
+desconsolida_percentage = (cnts_mes_actual['Desconsolida'] == 'Si').mean() * 100
+desconsolida_percentage = f"{desconsolida_percentage:.1f} %".replace(".", ",")
+
 # Comparativa mensual
 # Compare same month by month for this year and last year
 resumen_mensual_ctns['Year'] = resumen_mensual_ctns['Mes'].dt.year
@@ -283,12 +280,9 @@ resumen_mensual_ctns['Month'] = resumen_mensual_ctns['Mes'].dt.month
 this_year = today.year
 last_year = today.year - 1
 resumen_mensual_ctns = resumen_mensual_ctns[(resumen_mensual_ctns['Year'] == this_year) | (resumen_mensual_ctns['Year'] == last_year)]
-
 resumen_mensual_ctns_expo = resumen_mensual_ctns[['CNTs Expo', 'Year', 'Month']]
 resumen_mensual_ctns_impo = resumen_mensual_ctns[['CNTs Impo', 'Year', 'Month']]
-
 resumen_mensual_ctns = resumen_mensual_ctns[['Mes', 'CNTs Expo', 'CNTs Impo']]
-
 resumen_mensual_ctns_impo = resumen_mensual_ctns_impo.pivot(index='Month', columns='Year', values=['CNTs Impo'])
 resumen_mensual_ctns_impo.columns = [f"{col[0]} {col[1]}" for col in resumen_mensual_ctns_impo.columns]
 resumen_mensual_ctns_impo.reset_index(inplace=True)
@@ -296,7 +290,6 @@ resumen_mensual_ctns_impo['Dif'] = resumen_mensual_ctns_impo['CNTs Impo ' + str(
 resumen_mensual_ctns_impo['CNTs Impo ' + str(this_year)] = resumen_mensual_ctns_impo['CNTs Impo ' + str(this_year)].fillna(0).astype(int).astype(str)
 resumen_mensual_ctns_impo['Dif'] = resumen_mensual_ctns_impo['Dif'].fillna(0)
 resumen_mensual_ctns_impo.rename(columns={'Month': 'Mes'}, inplace=True)
-
 resumen_mensual_ctns_expo = resumen_mensual_ctns_expo.pivot(index='Month', columns='Year', values=['CNTs Expo'])
 resumen_mensual_ctns_expo.columns = [f"{col[0]} {col[1]}" for col in resumen_mensual_ctns_expo.columns]
 resumen_mensual_ctns_expo.reset_index(inplace=True)
