@@ -114,6 +114,14 @@ elif page_selection == "Operativo":
                 <h6>Vol. Egresado</h6>
                 <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
             </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <h6>Desco. mes actual</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <h6>Desco. %</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
+            </div>
         </div>
         """.format(
             int(kpi_data_impo.iloc[0]['Mes actual']),
@@ -121,7 +129,9 @@ elif page_selection == "Operativo":
             int(kpi_data_impo.iloc[0]['Promedio mensual']),
             int(kpi_data_impo.iloc[0]['Proyeccion mes actual']),
             int(kpi_data_impo.iloc[0]['Vol. Ingresado']),
-            int(kpi_data_impo.iloc[0]['Vol. Egresado'])
+            int(kpi_data_impo.iloc[0]['Vol. Egresado']),
+            int(kpi_data_impo.iloc[0]['Desco. mes actual']),
+            kpi_data_impo.iloc[0]['Desco. %']
         ),
         unsafe_allow_html=True
     )
@@ -174,3 +184,10 @@ elif page_selection == "Operativo":
 
     st.write('CNTS EXPO')
     st.dataframe(resumen_mensual_ctns_expo, hide_index=True, use_container_width=True)
+
+    st.markdown("<hr>", unsafe_allow_html=True)
+    st.header("Historico desconsolidado IMPO")
+    st.dataframe(cnts_impo_ing_mensual_desconsolida, hide_index=True, use_container_width=True)
+
+    st.subheader('Evolucion porcentaje descosolidado IMPO')
+    st.line_chart(cnts_impo_ing_mensual_desconsolida[['Mes', 'Porc.']].set_index('Mes'))
