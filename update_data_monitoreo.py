@@ -257,7 +257,7 @@ ingresado = ingresado.drop_duplicates(subset=['contenedor'], keep='first')
 ingresado['fecha_ing'] = pd.to_datetime(ingresado['fecha_ing'], errors='coerce')
 ingresado = ingresado.dropna(subset=['fecha_ing'])
 ingresado['Mes'] = ingresado['fecha_ing'].dt.to_period('M')
-ingresado['Desconsolida'] = ingresado['fecha_desc'].apply(lambda x: "No" if x == '1899-12-30' else "Si")
+ingresado['Desconsolida'] = ingresado['fecha_desc'].apply(lambda x: "T" if x == '1899-12-30' else "TD")
 cnts_impo_ing_mensual = ingresado.groupby('Mes')['contenedor'].count().reset_index()
 cnts_impo_ing_mensual.columns = ['Mes', 'CNTs Impo']
 cnts_impo_ing_mes_actual = ingresado[(ingresado['fecha_ing'] >= current_month) & (ingresado['fecha_ing'] <= today)]['contenedor'].count()
@@ -270,17 +270,18 @@ ctn_impo_proyectado = ctn_impo_proyectado.round(0).astype(int)
 resumen_mensual_ctns = pd.merge(cnts_expo_egr_mensual, cnts_impo_ing_mensual, on='Mes')
 
 cnts_mes_actual= ingresado[(ingresado['fecha_ing'] >= current_month) & (ingresado['fecha_ing'] <= today)]
-desconsolida_percentage = (cnts_mes_actual['Desconsolida'] == 'Si').mean() * 100
+desconsolida_percentage = (cnts_mes_actual['Desconsolida'] == 'TD').mean() * 100
 desconsolida_percentage = f"{desconsolida_percentage:.1f} %".replace(".", ",")
-desconsolida_mes_actual = (cnts_mes_actual['Desconsolida'] == 'Si').sum()
+desconsolida_mes_actual = (cnts_mes_actual['Desconsolida'] == 'TD').sum()
 
 # Monthly data on containers inbound disaggregated by Desconsolida
 cnts_impo_ing_mensual_desconsolida = ingresado.groupby(['Mes', 'Desconsolida']).agg({'contenedor': 'count'}).reset_index()
 cnts_impo_ing_mensual_desconsolida = cnts_impo_ing_mensual_desconsolida.pivot(index='Mes', columns='Desconsolida', values='contenedor').fillna(0)
 cnts_impo_ing_mensual_desconsolida['Total'] = cnts_impo_ing_mensual_desconsolida.sum(axis=1)
-cnts_impo_ing_mensual_desconsolida['Porc.'] = (cnts_impo_ing_mensual_desconsolida['Si'] / cnts_impo_ing_mensual_desconsolida['Total'] * 100).round(1)
-cnts_impo_ing_mensual_desconsolida['% Si'] = (cnts_impo_ing_mensual_desconsolida['Si'] / cnts_impo_ing_mensual_desconsolida['Total'] * 100).round(1).astype(str) + '%'
-cnts_impo_ing_mensual_desconsolida['% No'] = (cnts_impo_ing_mensual_desconsolida['No'] / cnts_impo_ing_mensual_desconsolida['Total'] * 100).round(1).astype(str) + '%'
+cnts_impo_ing_mensual_desconsolida['Porc.'] = (cnts_impo_ing_mensual_desconsolida['TD'] / cnts_impo_ing_mensual_desconsolida['Total'] * 100).round(1)
+cnts_impo_ing_mensual_desconsolida['% TD'] = (cnts_impo_ing_mensual_desconsolida['TD'] / cnts_impo_ing_mensual_desconsolida['Total'] * 100).round(1).astype(str) + '%'
+cnts_impo_ing_mensual_desconsolida['% T'] = (cnts_impo_ing_mensual_desconsolida['T'] / cnts_impo_ing_mensual_desconsolida['Total'] * 100).round(1).astype(str) + '%'
+cnts_impo_ing_mensual_desconsolida.drop(columns = ['Total'], inplace=True)
 cnts_impo_ing_mensual_desconsolida.reset_index(inplace=True)
 
 
