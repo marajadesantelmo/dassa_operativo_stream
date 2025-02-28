@@ -56,10 +56,6 @@ def transformar_facturacion(df):
     df['Neto'] = df['Neto Gravado'] + df['Neto No Gravado']
     df.loc[df['tipo'] == 3, 'Factura'] = 'NdC ' + df['Factura'].astype(str)
     df = df.drop(columns=['tipo'])
-    #df = df.groupby(
-    #    ['Factura', 'fecha_emi', 'Razon Social']).agg({
-    #    'Neto': 'sum',
-    #    'vendedor': 'first'}).reset_index()
     df['Razon Social'] = df['Razon Social'].str.strip().str.title()
     df['Razon Social'] = df['Razon Social'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
     df.rename(columns={'fecha_emi': 'Emision', 
