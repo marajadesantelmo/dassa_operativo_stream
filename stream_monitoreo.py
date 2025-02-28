@@ -185,5 +185,5 @@ elif page_selection == "Operativo":
     st.dataframe(resumen_mensual_ctns_expo, hide_index=True, use_container_width=True)
 
     st.markdown("<hr>", unsafe_allow_html=True)
-    st.header("Historico desconsolidado IMPO")
+    st.header("Historico IMPO T/TD")
     st.dataframe(cnts_impo_ing_mensual_desconsolida, hide_index=True, use_container_width=True)
