@@ -272,6 +272,17 @@ resumen_mensual_ctns = pd.merge(cnts_expo_egr_mensual, cnts_impo_ing_mensual, on
 cnts_mes_actual= ingresado[(ingresado['fecha_ing'] >= current_month) & (ingresado['fecha_ing'] <= today)]
 desconsolida_percentage = (cnts_mes_actual['Desconsolida'] == 'Si').mean() * 100
 desconsolida_percentage = f"{desconsolida_percentage:.1f} %".replace(".", ",")
+desconsolida_mes_actual = (cnts_mes_actual['Desconsolida'] == 'Si').sum()
+
+# Monthly data on containers inbound disaggregated by Desconsolida
+cnts_impo_ing_mensual_desconsolida = ingresado.groupby(['Mes', 'Desconsolida']).agg({'contenedor': 'count'}).reset_index()
+cnts_impo_ing_mensual_desconsolida = cnts_impo_ing_mensual_desconsolida.pivot(index='Mes', columns='Desconsolida', values='contenedor').fillna(0)
+cnts_impo_ing_mensual_desconsolida['Total'] = cnts_impo_ing_mensual_desconsolida.sum(axis=1)
+cnts_impo_ing_mensual_desconsolida['Porc.'] = (cnts_impo_ing_mensual_desconsolida['Si'] / cnts_impo_ing_mensual_desconsolida['Total'] * 100).round(1)
+cnts_impo_ing_mensual_desconsolida['% Si'] = (cnts_impo_ing_mensual_desconsolida['Si'] / cnts_impo_ing_mensual_desconsolida['Total'] * 100).round(1).astype(str) + '%'
+cnts_impo_ing_mensual_desconsolida['% No'] = (cnts_impo_ing_mensual_desconsolida['No'] / cnts_impo_ing_mensual_desconsolida['Total'] * 100).round(1).astype(str) + '%'
+cnts_impo_ing_mensual_desconsolida.reset_index(inplace=True)
+
 
 # Comparativa mensual
 # Compare same month by month for this year and last year
@@ -362,9 +373,10 @@ volumen_impo_egresado_mes_actual = volumen_egresado_mensual[(volumen_egresado_me
 volumen_expo_egresado_mes_actual = volumen_egresado_mensual[(volumen_egresado_mensual['Mes'] == current_month.strftime('%Y-%m')) & (volumen_egresado_mensual['Tipo Operación'] == 'Exportacion')]['Volumen'].sum()
 #Dataframes con kpis de importacion y exportacion
 kpi_data_impo = [
-    ['Mes actual', 'Mes anterior', 'Promedio mensual', 'Proyeccion mes actual', 'Vol. Ingresado', 'Vol. Egresado'],
+    ['Mes actual', 'Mes anterior', 'Promedio mensual', 'Proyeccion mes actual', 'Vol. Ingresado', 'Vol. Egresado', 'Desco. mes actual', 'Desco. %'],
     [cnts_impo_ing_mes_actual , cnts_impo_ing_mes_anterior, cnts_impo_ing_promedio_mensual, 
-     ctn_impo_proyectado, volumen_impo_ingresado_mes_actual, -volumen_impo_egresado_mes_actual]
+     ctn_impo_proyectado, volumen_impo_ingresado_mes_actual, -volumen_impo_egresado_mes_actual, 
+     desconsolida_mes_actual, desconsolida_percentage]
 ]
 kpi_impo_df = pd.DataFrame(kpi_data_impo[1:], columns=kpi_data_impo[0])
 
@@ -394,3 +406,4 @@ volumen_ingresado_mensual.to_csv('data/monitoreo/volumen_ingresado_mensual.csv',
 volumen_egresado_mensual.to_csv('data/monitoreo/volumen_egresado_mensual.csv', index=False)
 ventas_totales_por_mes_tabla.to_csv('data/monitoreo/ventas_totales_por_mes_tabla.csv', index=False)
 ventas_totales_por_mes_grafico.to_csv('data/monitoreo/ventas_totales_por_mes_grafico.csv', index=False)
+cnts_impo_ing_mensual_desconsolida.to_csv('data/monitoreo/cnts_impo_ing_mensual_desconsolida.csv', index=False)

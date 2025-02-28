@@ -25,6 +25,7 @@ kpi_data_expo= pd.read_csv('data/monitoreo/kpi_data_expo.csv')
 kpi_data_impo= pd.read_csv('data/monitoreo/kpi_data_impo.csv')
 resumen_mensual_ctns_impo = pd.read_csv('data/monitoreo/resumen_mensual_ctns_impo.csv')
 resumen_mensual_ctns_expo = pd.read_csv('data/monitoreo/resumen_mensual_ctns_expo.csv')
+cnts_impo_ing_mensual_desconsolida = pd.read_csv('data/monitoreo/cnts_impo_ing_mensual_desconsolida.csv')
 
 # Sidebar for navigation
 page_selection = option_menu(
