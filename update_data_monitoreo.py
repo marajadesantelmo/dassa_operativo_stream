@@ -278,7 +278,6 @@ desconsolida_mes_actual = (cnts_mes_actual['Desconsolida'] == 'TD').sum()
 cnts_impo_ing_mensual_desconsolida = ingresado.groupby(['Mes', 'Desconsolida']).agg({'contenedor': 'count'}).reset_index()
 cnts_impo_ing_mensual_desconsolida = cnts_impo_ing_mensual_desconsolida.pivot(index='Mes', columns='Desconsolida', values='contenedor').fillna(0)
 cnts_impo_ing_mensual_desconsolida['Total'] = cnts_impo_ing_mensual_desconsolida.sum(axis=1)
-cnts_impo_ing_mensual_desconsolida['Porc.'] = (cnts_impo_ing_mensual_desconsolida['TD'] / cnts_impo_ing_mensual_desconsolida['Total'] * 100).round(1)
 cnts_impo_ing_mensual_desconsolida['% TD'] = (cnts_impo_ing_mensual_desconsolida['TD'] / cnts_impo_ing_mensual_desconsolida['Total'] * 100).round(1).astype(str) + '%'
 cnts_impo_ing_mensual_desconsolida['% T'] = (cnts_impo_ing_mensual_desconsolida['T'] / cnts_impo_ing_mensual_desconsolida['Total'] * 100).round(1).astype(str) + '%'
 cnts_impo_ing_mensual_desconsolida.drop(columns = ['Total'], inplace=True)

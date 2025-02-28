@@ -187,8 +187,3 @@ elif page_selection == "Operativo":
     st.markdown("<hr>", unsafe_allow_html=True)
     st.header("Historico desconsolidado IMPO")
     st.dataframe(cnts_impo_ing_mensual_desconsolida, hide_index=True, use_container_width=True)
-
-    st.subheader('Evolucion porcentaje descosolidado IMPO')
-    cnts_impo_ing_mensual_desconsolida['Mes'] = pd.to_datetime(cnts_impo_ing_mensual_desconsolida['Mes'], format='%Y-%m')
-    cnts_impo_ing_mensual_desconsolida['Porc.'] = cnts_impo_ing_mensual_desconsolida['Porc.'] / 100
-    st.line_chart(cnts_impo_ing_mensual_desconsolida[['Mes', 'Porc.']].set_index('Mes'))
