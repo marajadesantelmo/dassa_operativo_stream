@@ -135,15 +135,7 @@ previous_month_total = round(previous_month_sales['Importe Total'].sum(), 0)
 same_period_last_month_total = round(same_period_last_month_sales['Importe Total'].sum(), 0)
 monthly_average_last_12_months = round(last_12_months_sales['Ajustado'].sum() / 12, 0)
 
-# Create KPIs dataframe
-kpis = pd.DataFrame({
-    'Metric': ['Mes actual', 'Mes anterior', 'Mismo periodo mes anterior', 'Prom. mensual ajustado'],
-    'Value': [current_month_total, previous_month_total, same_period_last_month_total, monthly_average_last_12_months]
-})
 
-kpis['Value'] = kpis['Value'].apply(lambda x: f"${x:,.0f}".replace(",", "."))
-
-print(kpis)
 
 # Ventas por cliente
 
@@ -334,6 +326,8 @@ cliente_nuevos = clientes_nuevos[['apellido', 'fecha_alta', 'vendedor']]
 ventas_clientes_nuevos = pd.merge(clientes_nuevos, ventas_por_cliente_total, left_on='apellido', right_on='Razon Social', how='inner')
 
 total_ventas_clientes_nuevos = ventas_clientes_nuevos['Importe Total'].sum()
+total_ventas_clientes_nuevos = round(total_ventas_clientes_nuevos, 0)
+
 
 ventas_clientes_nuevos['Importe Total'] = ventas_clientes_nuevos['Importe Total'].apply(lambda x: f"${x:,.0f}")
 ventas_clientes_nuevos = ventas_clientes_nuevos.rename(columns={'Razon Social': 'Cliente', 'Importe Total': 'Venta Total'})
@@ -400,6 +394,18 @@ kpi_data_expo = [
 ]
 
 kpi_expo_df = pd.DataFrame(kpi_data_expo[1:], columns=kpi_data_expo[0])
+
+
+# Create KPIs dataframe
+kpis = pd.DataFrame({
+    'Metric': ['Mes actual', 'Mes anterior', 'Mismo periodo mes anterior', 'Prom. mensual ajustado', 'Venta total clientes nuevos'],
+    'Value': [current_month_total, previous_month_total, same_period_last_month_total, monthly_average_last_12_months, total_ventas_clientes_nuevos]
+})
+
+kpis['Value'] = kpis['Value'].apply(lambda x: f"${x:,.0f}".replace(",", "."))
+
+print(kpis)
+
 
 #### GUARDO DATOS
 
