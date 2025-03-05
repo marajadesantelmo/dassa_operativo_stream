@@ -150,9 +150,7 @@ print(kpis)
 ventas_por_cliente_total = facturacion.groupby('Razon Social').agg({'Importe Total': 'sum'}).reset_index()
 ventas_por_cliente_total = ventas_por_cliente_total.sort_values(by='Importe Total', ascending=False)
 ventas_por_cliente_total['Importe Total'] = ventas_por_cliente_total['Importe Total'].round(0)
-ventas_por_cliente_total['Importe Total'] = ventas_por_cliente_total['Importe Total'].apply(lambda x: f"${x:,.0f}")
-ventas_por_cliente_total = ventas_por_cliente_total.rename(columns={'Razon Social': 'Cliente', 'Importe Total': 'Venta Total'})
-ventas_por_cliente_total.reset_index(drop=True, inplace=True)
+
 
 ventas_por_cliente_mes_actual = current_month_sales.groupby('Razon Social').agg({'Importe Total': 'sum'}).reset_index()
 ventas_por_cliente_mes_anterior = previous_month_sales.groupby('Razon Social').agg({'Importe Total': 'sum'}).reset_index()
@@ -317,8 +315,6 @@ resumen_mensual_ctns_expo['CNTs Expo ' + str(this_year)] = resumen_mensual_ctns_
 resumen_mensual_ctns_expo['Dif'] = resumen_mensual_ctns_expo['Dif'].fillna(0)
 resumen_mensual_ctns_expo.rename(columns={'Month': 'Mes'}, inplace=True)
 
-
-
 # Clietnes nuevos
 
 #%% Clientes nuevos
@@ -335,10 +331,13 @@ clientes_nuevos= pd.DataFrame.from_records(rows, columns=columns)
 clientes_nuevos['apellido'] = clientes_nuevos['apellido'].str.strip().str.title()
 clientes_nuevos['apellido'] = clientes_nuevos['apellido'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
 cliente_nuevos = clientes_nuevos[['apellido', 'fecha_alta', 'vendedor']]
-ventas_clientes_nuevos = pd.merge(clientes_nuevos, ventas_por_cliente_total, left_on='apellido', right_on='Cliente', how='inner')
+ventas_clientes_nuevos = pd.merge(clientes_nuevos, ventas_por_cliente_total, left_on='apellido', right_on='Razon Social', how='inner')
 
-kpi_total_ventas_clientes_nuevos = ventas_clientes_nuevos['Venta Total'].sum()
+total_ventas_clientes_nuevos = ventas_clientes_nuevos['Importe Total'].sum()
 
+ventas_clientes_nuevos['Importe Total'] = ventas_clientes_nuevos['Importe Total'].apply(lambda x: f"${x:,.0f}")
+ventas_clientes_nuevos = ventas_clientes_nuevos.rename(columns={'Razon Social': 'Cliente', 'Importe Total': 'Venta Total'})
+ventas_clientes_nuevos.reset_index(drop=True, inplace=True)
 ventas_clientes_nuevos = pd.merge(ventas_clientes_nuevos, diccionario_vendedores, left_on='vendedor', right_on='cod_vendedor', how='left')
 ventas_clientes_nuevos.rename(columns={'fecha_alta': 'Fecha Alta'}, inplace=True)
 ventas_clientes_nuevos = ventas_clientes_nuevos[['Cliente', 'Fecha Alta', 'Vendedor', 'Venta Total']]
@@ -382,6 +381,8 @@ volumen_egresado_mensual.columns = ['Mes', 'Tipo Operación', 'Volumen']
 volumen_egresado_mensual['Tipo Operación'] = volumen_egresado_mensual['Tipo Operación'].str.strip().str.title()
 volumen_impo_egresado_mes_actual = volumen_egresado_mensual[(volumen_egresado_mensual['Mes'] == current_month.strftime('%Y-%m')) & (volumen_egresado_mensual['Tipo Operación'] == 'Importacion')]['Volumen'].sum()
 volumen_expo_egresado_mes_actual = volumen_egresado_mensual[(volumen_egresado_mensual['Mes'] == current_month.strftime('%Y-%m')) & (volumen_egresado_mensual['Tipo Operación'] == 'Exportacion')]['Volumen'].sum()
+
+
 #Dataframes con kpis de importacion y exportacion
 kpi_data_impo = [
     ['Mes actual', 'Mes anterior', 'Promedio mensual', 'Proyeccion mes actual', 'Vol. Ingresado', 'Vol. Egresado', 'Desco. mes actual', 'Desco. %'],
