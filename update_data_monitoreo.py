@@ -146,6 +146,14 @@ kpis['Value'] = kpis['Value'].apply(lambda x: f"${x:,.0f}".replace(",", "."))
 print(kpis)
 
 # Ventas por cliente
+
+ventas_por_cliente_total = facturacion.groupby('Razon Social').agg({'Importe Total': 'sum'}).reset_index()
+ventas_por_cliente_total = ventas_por_cliente_total.sort_values(by='Importe Total', ascending=False)
+ventas_por_cliente_total['Importe Total'] = ventas_por_cliente_total['Importe Total'].round(0)
+ventas_por_cliente_total['Importe Total'] = ventas_por_cliente_total['Importe Total'].apply(lambda x: f"${x:,.0f}")
+ventas_por_cliente_total = ventas_por_cliente_total.rename(columns={'Razon Social': 'Cliente', 'Importe Total': 'Venta Total'})
+ventas_por_cliente_total.reset_index(drop=True, inplace=True)
+
 ventas_por_cliente_mes_actual = current_month_sales.groupby('Razon Social').agg({'Importe Total': 'sum'}).reset_index()
 ventas_por_cliente_mes_anterior = previous_month_sales.groupby('Razon Social').agg({'Importe Total': 'sum'}).reset_index()
 ventas_por_cliente = ventas_por_cliente_mes_actual.merge(ventas_por_cliente_mes_anterior, on='Razon Social', how='outer', suffixes=('_actual', '_anterior'))
@@ -327,10 +335,13 @@ clientes_nuevos= pd.DataFrame.from_records(rows, columns=columns)
 clientes_nuevos['apellido'] = clientes_nuevos['apellido'].str.strip().str.title()
 clientes_nuevos['apellido'] = clientes_nuevos['apellido'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
 cliente_nuevos = clientes_nuevos[['apellido', 'fecha_alta', 'vendedor']]
-ventas_clientes_nuevos = pd.merge(clientes_nuevos, ventas_por_cliente, left_on='apellido', right_on='Cliente', how='inner')
+ventas_clientes_nuevos = pd.merge(clientes_nuevos, ventas_por_cliente_total, left_on='apellido', right_on='Cliente', how='inner')
+
+kpi_total_ventas_clientes_nuevos = ventas_clientes_nuevos['Venta Total'].sum()
+
 ventas_clientes_nuevos = pd.merge(ventas_clientes_nuevos, diccionario_vendedores, left_on='vendedor', right_on='cod_vendedor', how='left')
 ventas_clientes_nuevos.rename(columns={'fecha_alta': 'Fecha Alta'}, inplace=True)
-ventas_clientes_nuevos = ventas_clientes_nuevos[['Cliente', 'Fecha Alta', 'Vendedor', 'Mes actual']]
+ventas_clientes_nuevos = ventas_clientes_nuevos[['Cliente', 'Fecha Alta', 'Vendedor', 'Venta Total']]
 ventas_clientes_nuevos = ventas_clientes_nuevos.sort_values(by='Fecha Alta', ascending=False)
 
 
