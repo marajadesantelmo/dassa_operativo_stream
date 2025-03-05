@@ -167,7 +167,7 @@ print(ventas_por_cliente)
 # Ventas por vendedor
 ventas_por_vendedor_mes_actual = current_month_sales.groupby('nombre_vendedor').agg({'Importe Total': 'sum'}).reset_index()
 ventas_por_vendedor_mes_anterior = previous_month_sales.groupby('nombre_vendedor').agg({'Importe Total': 'sum'}).reset_index()
-ventas_por_vendedor = ventas_por_vendedor_mes_anterior.merge(ventas_por_vendedor_mes_actual, on='nombre_vendedor', how='outer', suffixes=('_actual', '_anterior'))
+ventas_por_vendedor = ventas_por_vendedor_mes_anterior.merge(ventas_por_vendedor_mes_actual, on='nombre_vendedor', how='outer', suffixes=('_anterior', '_actual'))
 ventas_por_vendedor = ventas_por_vendedor.fillna(0)
 ventas_por_vendedor['%'] = (ventas_por_vendedor['Importe Total_actual'] / ventas_por_vendedor['Importe Total_actual'].sum() * 100)
 ventas_por_vendedor['%'] = ventas_por_vendedor['%'].apply(lambda x: f"{x:,.1f}".replace(".", ","))
