@@ -83,8 +83,9 @@ def transformar_saldos(df):
                        inplace=True)
     df = df.groupby(['Cliente']).agg({'Saldo': 'sum'}).reset_index()
     df['Saldo'] = df['Saldo'].round(0)
+    total_saldos
     df.sort_values(by='Saldo', ascending=False, inplace=True)
-    df['Saldo'] = df['Saldo'].apply(lambda x: f"${x:,.0f}".replace(",", "."))
+    #df['Saldo'] = df['Saldo'].apply(lambda x: f"${x:,.0f}".replace(",", "."))
     df = df.reset_index(drop=True)
     return df
 
