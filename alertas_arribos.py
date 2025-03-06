@@ -38,7 +38,7 @@ def send_email(row, mail):
     </html>
     """
     msg = MIMEMultipart()
-    msg['Subject'] = 'Notificación de Contenedor Arribado'
+    msg['Subject'] = f'Notificación de Contenedor {row["contenedor"]} Arribado'
     msg['From'] = "auto@dassa.com.ar"
     msg['To'] = mail
     msg.attach(MIMEText(email_content, 'html'))
