@@ -3,6 +3,8 @@ import pandas as pd
 import os
 from datetime import datetime, timedelta
 from tokens import username, password
+import gspread
+from gspread_dataframe import set_with_dataframe
 
 if os.path.exists('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream'):
     os.chdir('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream')
@@ -426,3 +428,17 @@ volumen_egresado_mensual.to_csv('data/monitoreo/volumen_egresado_mensual.csv', i
 ventas_totales_por_mes_tabla.to_csv('data/monitoreo/ventas_totales_por_mes_tabla.csv', index=False)
 ventas_totales_por_mes_grafico.to_csv('data/monitoreo/ventas_totales_por_mes_grafico.csv', index=False)
 cnts_impo_ing_mensual_desconsolida.to_csv('data/monitoreo/cnts_impo_ing_mensual_desconsolida.csv', index=False)
+
+
+conn.close()
+gc = gspread.service_account(filename='//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/credenciales_gsheets.json')
+sheet_logs =  gc.open_by_url('https://docs.google.com/spreadsheets/d/1aPUkhige3tq7_HuJezTYA1Ko7BWZ4D4W0sZJtsTyq3A')                                           
+worksheet_logs = sheet_logs.worksheet('Logeos')
+df_logs = worksheet_logs.get_all_values()
+df_logs = pd.DataFrame(df_logs[1:], columns=df_logs[0])
+now = datetime.now().strftime('%Y-%m-%d %H:%M')
+new_log_entry = pd.DataFrame([{'Rutina': 'Streamlit - Update Data Monitoreo', 'Fecha y Hora': now}])
+df_logs = pd.concat([df_logs, new_log_entry], ignore_index=True)
+worksheet_logs.clear()
+set_with_dataframe(worksheet_logs, df_logs)
+print("Se registró el logeo")
