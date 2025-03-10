@@ -63,6 +63,7 @@ if page_selection == "Ventas":
     st.dataframe(ventas_por_cliente_df, hide_index=True, use_container_width=True)
 
     st.subheader("Ventas a Clientes Nuevos")
+    st.write(f'Total clientes con alta en los últimos 30 días: {kpi_df.iloc[4]['Value']}')
     st.dataframe(ventas_clientes_nuevos, hide_index=True, use_container_width=True)
 
     st.subheader("Ventas totales por mes")
