@@ -269,6 +269,7 @@ prom_dia_impo = cnts_impo_ing_mes_actual / days_passed_current_month
 ctn_impo_proyectado = prom_dia_impo * 31
 ctn_impo_proyectado = ctn_impo_proyectado.round(0).astype(int)
 resumen_mensual_ctns = pd.merge(cnts_expo_egr_mensual, cnts_impo_ing_mensual, on='Mes')
+resumen_mensual_ctns = resumen_mensual_ctns[resumen_mensual_ctns['Mes'] != current_month.strftime('%Y-%m')]
 
 cnts_mes_actual= ingresado[(ingresado['fecha_ing'] >= current_month) & (ingresado['fecha_ing'] <= today)]
 desconsolida_percentage = (cnts_mes_actual['Desconsolida'] == 'TD').mean() * 100
