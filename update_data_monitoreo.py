@@ -85,13 +85,13 @@ def transformar_saldos(df):
                        inplace=True)
     df = df.groupby(['Cliente']).agg({'Saldo': 'sum'}).reset_index()
     df['Saldo'] = df['Saldo'].round(0)
-    #total_saldos
+    total_saldo = df['Saldo'].sum()
     df.sort_values(by='Saldo', ascending=False, inplace=True)
     df['Saldo'] = df['Saldo'].apply(lambda x: f"${x:,.0f}".replace(",", "."))
     df = df.reset_index(drop=True)
-    return df
+    return df, total_saldo
 
-saldos = transformar_saldos(saldos_sql)
+saldos, total_saldo = transformar_saldos(saldos_sql)
 
 # Fechas para filtros
 today = datetime.now()
@@ -399,10 +399,10 @@ kpi_data_expo = [
 kpi_expo_df = pd.DataFrame(kpi_data_expo[1:], columns=kpi_data_expo[0])
 
 
-# Create KPIs dataframe
+# KPIs ventas y saldos
 kpis = pd.DataFrame({
-    'Metric': ['Mes actual', 'Mes anterior', 'Mismo periodo mes anterior', 'Prom. mensual ajustado', 'Venta total clientes nuevos'],
-    'Value': [current_month_total, previous_month_total, same_period_last_month_total, monthly_average_last_12_months, total_ventas_clientes_nuevos]
+    'Metric': ['Mes actual', 'Mes anterior', 'Mismo periodo mes anterior', 'Prom. mensual ajustado', 'Venta total clientes nuevos', 'Saldo total'],
+    'Value': [current_month_total, previous_month_total, same_period_last_month_total, monthly_average_last_12_months, total_ventas_clientes_nuevos, total_saldo]
 })
 
 kpis['Value'] = kpis['Value'].apply(lambda x: f"${x:,.0f}".replace(",", "."))

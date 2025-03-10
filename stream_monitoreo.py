@@ -73,6 +73,7 @@ if page_selection == "Ventas":
 
     st.subheader("Saldos")
     st.dataframe(saldos_df, hide_index=True, use_container_width=True)
+    st.write(f'Total saldos: {kpi_df.iloc[5]['Value']}')
 
     st.markdown("<hr>", unsafe_allow_html=True)
 
