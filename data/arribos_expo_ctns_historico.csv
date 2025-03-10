@@ -221,6 +221,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-16,30221,MRSU-301618-3,Hilado Sa,247535328,**********          ,Arribado
 2025-02-24,31725,UETU-570205-9,Hilado Sa,250423333,                    ,Arribado
 2025-02-24,31726,HASU-418508-5,Hilado Sa,250423333,                    ,Arribado
+2025-03-10,31993,MRKU-399102-0,Hilado Sa,251137838,*****************   ,Arribado
 2025-02-12,31385,TRHU-622981-6,Hilado Sa,249523704,*************       ,Arribado
 2025-02-12,31386,MRKU-231689-8,Hilado Sa,249523704,************        ,Arribado
 2025-02-12,31387,TCKU-772860-0,Hilado Sa,249523704,*************       ,Arribado
@@ -384,6 +385,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-13,29604,MSMU-675514-5,Asecor Srl,EBKG10693458,FX26310231          ,Arribado
 2024-11-13,29605,TGBU-564853-7,Asecor Srl,EBKG10567976,FX26259544          ,Arribado
 2024-11-13,29606,MEDU-728272-1,Asecor Srl,EBKG10567963,FX26259533          ,Arribado
+2025-03-10,31997,FFAU-299237-7,Asecor Srl,EBKG11919723,FX32987267          ,Arribado
+2025-03-10,31998,MSMU-401506-8,Asecor Srl,EBKG11919723,FX32987343          ,Arribado
 2025-02-26,31786,MEDU-712070-0,Asecor Srl,EBKG11801074,FX32989393          ,Arribado
 2025-02-26,31787,MSNU-546699-0,Asecor Srl,EBKG11801074,FX32989389          ,Arribado
 2025-02-26,31783,TLLU-857272-9,Asecor Srl,EBKG11801074,FX32989382          ,Arribado
@@ -456,6 +459,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-11,29542,BMOU-667086-6,Suabia Maderas Srl,65311784,********************,Arribado
 2024-11-11,29543,HLXU-850613-1,Suabia Maderas Srl,65311784,******************  ,Arribado
 2024-12-03,29938,TIIU-466460-9,Suabia Maderas Srl,B946025550,                    ,Arribado
+2025-03-10,31995,MSKU-192136-6,Suabia Maderas Srl,250978213,*************       ,Arribado
+2025-03-10,31996,MSKU-937002-2,Suabia Maderas Srl,250978213,*****************   ,Arribado
 2025-01-28,31023,FCIU-945484-8,Suabia Maderas Srl,EBKG11435131,FX26282899          ,Arribado
 2025-03-06,31926,MSDU-597057-4,Suabia Maderas Srl,EBKG11951839,    FX32986832      ,Arribado
 2025-03-06,31927,MSNU-523661-6,Suabia Maderas Srl,EBKG11951839,FX32986834          ,Arribado
@@ -530,6 +535,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-12,29571,TCLU-662146-7,Arleather S.R.L.,245472435,********************,Arribado
 2024-11-12,29572,TCKU-662653-8,Arleather S.R.L.,245472435,****************    ,Arribado
 2025-03-06,31922,MRKU-424757-0,Arleather S.R.L.,250550073,************        ,Arribado
+2025-03-10,31994,MRSU-476663-9,Arleather S.R.L.,250675344,****************    ,Arribado
 2025-02-27,31849,EISU-858414-8,Arleather S.R.L.,340500007232,*************       ,Arribado
 2025-02-28,31855,MIEU-306924-1,Arleather S.R.L.,250298303,***************     ,Arribado
 2025-02-28,31856,MRKU-369888-2,Arleather S.R.L.,250298265,**********          ,Arribado
@@ -633,9 +639,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-04,31187,BSIU-802151-6,Henn Y Cia S.R.L.,BUE500004300,**********          ,Arribado
 2025-02-04,31188,UETU-596879-5,Henn Y Cia S.R.L.,BUE50004300,**************      ,Arribado
 2025-02-14,31460,MRSU-043405-0,Henn Y Cia S.R.L.,250075140,*************       ,Arribado
+2025-03-10,32000,RRSU-000402-8,Henn Y Cia S.R.L.,ZIMUBUE9038568,**************      ,Arribado
+2025-03-10,32001,TGBU-240869-8,Henn Y Cia S.R.L.,ZIMUBUE9038568,******************  ,Arribado
 2025-02-25,31770,TCLU-316471-0,Henn Y Cia S.R.L.,BUEF02065600,************        ,Arribado
 2025-02-25,31771,ONEU-232234-2,Henn Y Cia S.R.L.,BUEF02065600,*************       ,Arribado
 2025-02-25,31777,NYKU-363722-3,Henn Y Cia S.R.L.,BUEF02065600,**************      ,Arribado
+2025-03-10,31999,WFHU-136482-9,Henn Y Cia S.R.L.,ZIMUBUE9038568,********            ,Arribado
 2025-02-24,31714,MSKU-563833-3,Henn Y Cia S.R.L.,250075548,                    ,Arribado
 2025-02-24,31715,MRKU-937068-0,Henn Y Cia S.R.L.,250075548,                    ,Arribado
 2025-02-25,31734,TRHU-377866-4,Henn Y Cia S.R.L.,BUEF02066700,*************       ,Arribado
@@ -734,8 +743,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-14,29649,TLLU-242561-2,Lawter Argentina S.A.,246476041,                    ,Arribado
 2024-11-19,29681,MRKU-834802-2,Lawter Argentina S.A.,246466929,                    ,Arribado
 2024-11-19,29682,MRKU-955623-1,Lawter Argentina S.A.,246466929,                    ,Arribado
+2025-03-10,31991,MSKU-430111-6,Lawter Argentina S.A.,250420888,******              ,Arribado
+2025-03-10,31992,BMOU-222655-5,Lawter Argentina S.A.,250420888,******              ,Arribado
 2025-02-19,31578,TRHU-693441-5,Lawter Argentina S.A.,BUEF01706700,***************     ,Arribado
 2025-02-19,31586,MRKU-896973-4,Lawter Argentina S.A.,249860533,************        ,Arribado
+2025-03-10,31989,MSKU-574146-5,Lawter Argentina S.A.,250420888,**********          ,Arribado
+2025-03-10,31990,MRKU-725239-5,Lawter Argentina S.A.,250420888,************        ,Arribado
 2025-02-17,31480,MRSU-040103-6,Lawter Argentina S.A.,249872003,**************      ,Arribado
 2025-02-19,31557,MRKU-735594-2,Lawter Argentina S.A.,249860533,***************     ,Arribado
 2025-02-19,31558,MSKU-749086-2,Lawter Argentina S.A.,249860533,****************    ,Arribado
@@ -962,6 +975,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-28,29868,TIIU-462774-0,Laharrague Chodorge Sociedad Anonima,340400043865,+**********         ,Arribado
 2024-12-20,30361,TCNU-838166-0,Laharrague Chodorge Sociedad Anonima,69324992,**********          ,Arribado
 2025-01-10,30677,EISU-857444-8,Laharrague Chodorge Sociedad Anonima,340400050233,***************     ,Arribado
+2025-03-10,32002,TGHU-986068-0,Laharrague Chodorge Sociedad Anonima,250793112,************        ,Arribado
 2024-12-10,30123,,Pallets Jauregui Sociedad Anonima,24001EC01066272J,                    ,Arribado
 2024-12-13,30202,HLBU-176861-5,Pallets Jauregui Sociedad Anonima,60322236,                    ,Arribado
 2024-12-13,30203,FCIU-732303-1,Pallets Jauregui Sociedad Anonima,60322236,                    ,Arribado
