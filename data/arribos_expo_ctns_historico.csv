@@ -19,6 +19,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-11,29537,TCNU-148762-4,Lift Van Int. Co S.A,66982363,*****************   ,Arribado
 2024-11-12,29591,APZU-370159-6,Lift Van Int. Co S.A,BUA 0331464,L4363802            ,Arribado
 2024-11-13,29601,MEDU-859222-8,Lift Van Int. Co S.A,EBKGQ000624F,FX26259516          ,Arribado
+2025-03-07,32004,UACU-847017-9,Lift Van Int. Co S.A,28437559,                    ,Arribado
 2025-02-24,31727,HLXU-126055-5,Lift Van Int. Co S.A,17536915,                    ,Arribado
 2025-02-24,31728,UACU-852999-7,Lift Van Int. Co S.A,45406774,                    ,Arribado
 2025-01-30,31113,MRKU-070514-4,Lift Van Int. Co S.A,249224028,*************       ,Arribado
@@ -222,6 +223,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-24,31725,UETU-570205-9,Hilado Sa,250423333,                    ,Arribado
 2025-02-24,31726,HASU-418508-5,Hilado Sa,250423333,                    ,Arribado
 2025-03-10,31993,MRKU-399102-0,Hilado Sa,251137838,*****************   ,Arribado
+2025-03-11,32024,TCKU-641250-0,Hilado Sa,251137838,***************     ,Arribado
+2025-03-11,32025,CIPU-503563-0,Hilado Sa,251137838,********************,Arribado
 2025-02-12,31385,TRHU-622981-6,Hilado Sa,249523704,*************       ,Arribado
 2025-02-12,31386,MRKU-231689-8,Hilado Sa,249523704,************        ,Arribado
 2025-02-12,31387,TCKU-772860-0,Hilado Sa,249523704,*************       ,Arribado
@@ -459,8 +462,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-11,29542,BMOU-667086-6,Suabia Maderas Srl,65311784,********************,Arribado
 2024-11-11,29543,HLXU-850613-1,Suabia Maderas Srl,65311784,******************  ,Arribado
 2024-12-03,29938,TIIU-466460-9,Suabia Maderas Srl,B946025550,                    ,Arribado
+2025-03-11,32032,SEKU-460466-1,Suabia Maderas Srl,250978213,**************      ,Arribado
 2025-03-10,31995,MSKU-192136-6,Suabia Maderas Srl,250978213,*************       ,Arribado
 2025-03-10,31996,MSKU-937002-2,Suabia Maderas Srl,250978213,*****************   ,Arribado
+2025-03-11,32027,TLLU-597229-6,Suabia Maderas Srl,250978213,*********           ,Arribado
+2025-03-11,32029,MRKU-552892-5,Suabia Maderas Srl,250978213,*************       ,Arribado
+2025-03-11,32030,BEAU-501872-0,Suabia Maderas Srl,250978213,*************       ,Arribado
+2025-03-11,32031,GCXU-558238-1,Suabia Maderas Srl,250978213,*****************   ,Arribado
 2025-01-28,31023,FCIU-945484-8,Suabia Maderas Srl,EBKG11435131,FX26282899          ,Arribado
 2025-03-06,31926,MSDU-597057-4,Suabia Maderas Srl,EBKG11951839,    FX32986832      ,Arribado
 2025-03-06,31927,MSNU-523661-6,Suabia Maderas Srl,EBKG11951839,FX32986834          ,Arribado
@@ -532,8 +540,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-05,30039,GESU-642121-2,Carpal Sa,65651738,                    ,Arribado
 2024-12-05,30040,HLBU-185143-7,Carpal Sa,65651738,                    ,Arribado
 2024-12-05,30041,GATU-876938-8,Carpal Sa,65651738,                    ,Arribado
+2025-03-11,32037,HLBU-283472-7,Carpal Sa,18134336,******************  ,Pendiente
 2024-11-12,29571,TCLU-662146-7,Arleather S.R.L.,245472435,********************,Arribado
 2024-11-12,29572,TCKU-662653-8,Arleather S.R.L.,245472435,****************    ,Arribado
+2025-03-10,32003,GAOU-706982-2,Arleather S.R.L.,250550073,***********         ,Arribado
+2025-03-10,32006,MRSU-746568-6,Arleather S.R.L.,250550073,******************* ,Arribado
+2025-03-11,32026,MRSU-512113-0,Arleather S.R.L.,250675344,**************      ,Arribado
 2025-03-06,31922,MRKU-424757-0,Arleather S.R.L.,250550073,************        ,Arribado
 2025-03-10,31994,MRSU-476663-9,Arleather S.R.L.,250675344,****************    ,Arribado
 2025-02-27,31849,EISU-858414-8,Arleather S.R.L.,340500007232,*************       ,Arribado
@@ -639,8 +651,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-04,31187,BSIU-802151-6,Henn Y Cia S.R.L.,BUE500004300,**********          ,Arribado
 2025-02-04,31188,UETU-596879-5,Henn Y Cia S.R.L.,BUE50004300,**************      ,Arribado
 2025-02-14,31460,MRSU-043405-0,Henn Y Cia S.R.L.,250075140,*************       ,Arribado
+2025-03-11,32036,BSIU-285572-2,Henn Y Cia S.R.L.,BUEF02067800,***************     ,Arribado
 2025-03-10,32000,RRSU-000402-8,Henn Y Cia S.R.L.,ZIMUBUE9038568,**************      ,Arribado
 2025-03-10,32001,TGBU-240869-8,Henn Y Cia S.R.L.,ZIMUBUE9038568,******************  ,Arribado
+2025-03-11,32033,TRHU-243000-0,Henn Y Cia S.R.L.,BUEF02068900,***********         ,Arribado
+2025-03-11,32034,ONEU-201641-9,Henn Y Cia S.R.L.,BUEF02068900,*******             ,Arribado
+2025-03-11,32035,KKTU-816603-2,Henn Y Cia S.R.L.,BUEF02067800,****************    ,Arribado
 2025-02-25,31770,TCLU-316471-0,Henn Y Cia S.R.L.,BUEF02065600,************        ,Arribado
 2025-02-25,31771,ONEU-232234-2,Henn Y Cia S.R.L.,BUEF02065600,*************       ,Arribado
 2025-02-25,31777,NYKU-363722-3,Henn Y Cia S.R.L.,BUEF02065600,**************      ,Arribado
