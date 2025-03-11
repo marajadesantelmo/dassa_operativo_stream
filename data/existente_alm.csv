@@ -183,13 +183,55 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 33943-1-1,Telamania Srl,Textil Fabrics,GILNB241200340,MSMU-667989-4,28-02-2025,70.00,16321.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=1448
 33942-1-1,Telamania Srl,Textil,GILNB241200337,MEDU-888184-8,28-02-2025,70.00,16510.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=1449
 34052-0-1,Alstom Argentina S.A...,Railroad Signaling,XXX04485701,,07-03-2025,0.00,135.00,IA3,
-33952-1-1,Grouport Srl,Thermos,TCNB2501427,CSNU-837822-9,01-03-2025,68.00,12846.00,IB9,
-34031-1-1,Dromex Srl,Ibuprofen,MEDUVW861805,MSMU-105664-9,07-03-2025,26.00,6120.00,ANEX-A1,
-34056-1-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,24.00,ANEX-A1,
-34056-2-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.53,107.00,ANEX-A1,
-34056-3-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,2.18,370.00,ANEX-A1,
-34056-4-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.54,198.00,ANEX-A1,
-34056-5-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.25,63.00,ANEX-A1,
-34056-6-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,10.00,ANEX-A1,
-34056-7-1,Prowood S.A.,Cameras,HLCUBSC250273244,TGHU-157213-7,08-03-2025,7.80,1656.00,ANEX-A1,
-34063-1-1,Lift Van Int. Co S.A,Ilarri Sol,OOLU2752244150,OOLU-051068-1,07-03-2025,17.00,1530.00,EP-IM,
+33952-1-1,Grouport Srl,Thermos,TCNB2501427,CSNU-837822-9,01-03-2025,68.00,12846.00,IB9,http://dassa.mqbic.com/PublicTally.php?id=1462
+34031-1-1,Dromex Srl,Ibuprofen,MEDUVW861805,MSMU-105664-9,07-03-2025,26.00,6120.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1508
+34056-1-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,24.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-1-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,24.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-1-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,24.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-1-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,24.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-1-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,24.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-1-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,24.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-1-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,24.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-2-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.53,107.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-2-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.53,107.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-2-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.53,107.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-2-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.53,107.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-2-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.53,107.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-2-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.53,107.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-2-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.53,107.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-3-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,2.18,370.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-3-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,2.18,370.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-3-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,2.18,370.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-3-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,2.18,370.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-3-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,2.18,370.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-3-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,2.18,370.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-3-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,2.18,370.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-4-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.54,198.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-4-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.54,198.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-4-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.54,198.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-4-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.54,198.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-4-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.54,198.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-4-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.54,198.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-4-1,Prowood S.A.,Alarms Parts,HLCUBSC250273244,TGHU-157213-7,08-03-2025,1.54,198.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-5-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.25,63.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-5-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.25,63.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-5-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.25,63.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-5-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.25,63.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-5-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.25,63.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-5-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.25,63.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-5-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.25,63.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-6-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,10.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-6-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,10.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-6-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,10.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-6-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,10.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-6-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,10.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-6-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,10.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-6-1,Prowood S.A.,Lithium Battery,HLCUBSC250273244,TGHU-157213-7,08-03-2025,0.08,10.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-7-1,Prowood S.A.,Cameras,HLCUBSC250273244,TGHU-157213-7,08-03-2025,7.80,1656.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-7-1,Prowood S.A.,Cameras,HLCUBSC250273244,TGHU-157213-7,08-03-2025,7.80,1656.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-7-1,Prowood S.A.,Cameras,HLCUBSC250273244,TGHU-157213-7,08-03-2025,7.80,1656.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-7-1,Prowood S.A.,Cameras,HLCUBSC250273244,TGHU-157213-7,08-03-2025,7.80,1656.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-7-1,Prowood S.A.,Cameras,HLCUBSC250273244,TGHU-157213-7,08-03-2025,7.80,1656.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-7-1,Prowood S.A.,Cameras,HLCUBSC250273244,TGHU-157213-7,08-03-2025,7.80,1656.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34056-7-1,Prowood S.A.,Cameras,HLCUBSC250273244,TGHU-157213-7,08-03-2025,7.80,1656.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1515
+34063-1-1,Lift Van Int. Co S.A,Ilarri Sol,OOLU2752244150,OOLU-051068-1,07-03-2025,17.00,1530.00,EP-IM,http://dassa.mqbic.com/PublicTally.php?id=1522
