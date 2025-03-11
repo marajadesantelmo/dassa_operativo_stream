@@ -1,7 +1,5 @@
 Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado,idcont,e-tally
 2024-11-11,Grouport Srl,HDMUNBOZ63128200,FCIU-499379-1,Bultos,50,-9,IA9,Pendiente,887,http://dassa.mqbic.com/PublicTally.php?id=887
-2024-11-11,Grouport Srl,HDMUNBOZ63128200,FCIU-499379-1,Bultos,56,-10,IA9,Pendiente,887,http://dassa.mqbic.com/PublicTally.php?id=887
-2024-11-11,Lift Van Int. Co S.A,LIFBUE24100014,HLBU-114649-0,Bultos,212,-50,IA9,Pendiente,816,http://dassa.mqbic.com/PublicTally.php?id=816
 2024-11-13,Lift Van Int. Co S.A,LIFBUE24100015,GESU-145378-9,Bultos,79,-16,IA8,Pendiente,817,http://dassa.mqbic.com/PublicTally.php?id=817
 2024-11-13,Lift Van Int. Co S.A,LIFBUE24090010,CMAU-094661-0,Contenedor,1,0,PLZA,Pendiente,,
 2024-11-14,Id Systems Sa,MDE0026593,ZCSU-774360-4,Contenedor,1,0,PLZA,Pendiente,,
@@ -159,7 +157,6 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado,idcont,e-tally
 2024-12-10,Manupackaging Argent...,244315613,HASU-440699-3,Contenedor,1,0,PLZA,Pendiente,,
 2024-12-10,Manupackaging Argent...,244315613,HASU-435478-1,Contenedor,1,0,PLZA,Pendiente,,
 2024-12-10,Grouport Srl,HDMUNBOZ63128200,FCIU-499379-1,Bultos,50,-9,IA9,Pendiente,887,http://dassa.mqbic.com/PublicTally.php?id=887
-2024-12-10,Grouport Srl,HDMUNBOZ63128200,FCIU-499379-1,Bultos,56,-10,IA9,Pendiente,887,http://dassa.mqbic.com/PublicTally.php?id=887
 2024-12-10,Likber Sa,NB240948322,EISU-831305-9,Contenedor,1,0,PLZA,Pendiente,,
 2024-12-10,Likber Sa,NB240948322,TLLU-410225-0,Contenedor,1,0,PLZA,Pendiente,,
 2024-12-10,Likber Sa,NB240948322,EMCU-825583-3,Contenedor,1,0,PLZA,Pendiente,,
@@ -639,7 +636,7 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado,idcont,e-tally
 2025-02-26,Edelweiss Spedition ...,EDWBUE25020001,HLXU-534472-0,Bultos,177,-40,ANEX-A1,Pendiente,1281,http://dassa.mqbic.com/PublicTally.php?id=1281
 2025-02-26,Edelweiss Spedition ...,EDWBUE25020001,HLXU-534472-0,Bultos,177,-40,ANEX-A1,Pendiente,1281,http://dassa.mqbic.com/PublicTally.php?id=1281
 2025-02-26,Universal Cargo Srl,01206/2024CH/AR,             ,Bultos,191,-34,PLZA,Pendiente,,
-2025-02-26,Universal Cargo Srl,01207/2024CH/AR,             ,Bultos,1,0,PLZA,En curso,,
+2025-02-26,Universal Cargo Srl,01207/2024CH/AR,             ,Bultos,1,0,PLZA,Pendiente,,
 2025-02-26,Moniport Cargo Sa,11640121006001,KLOU-282578-1,Bultos,154,-25,IA8,Pendiente,1331,http://dassa.mqbic.com/PublicTally.php?id=1331
 2025-02-26,Grouport Srl,BQDFL24060372,TTNU-829849-8,Bultos,80,-15,IB8,Pendiente,669,http://dassa.mqbic.com/PublicTally.php?id=669
 2025-02-26,Candalar S.A.,NBOE24011844,MEDU-765976-0,Contenedor,1,-60,PLZA,Pendiente,,
@@ -707,11 +704,19 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado,idcont,e-tally
 2025-03-06,Raisvic S.R.L.,HDE25-010006,TIIU-523892-7,Contenedor,1,0,PLZA,Pendiente,,
 2025-03-06,Jupam Sa,NB241254228,EGSU-107667-1,Contenedor,1,0,PLZA,Pendiente,,
 2025-03-06,Jupam Sa,NB241253209,BMOU-551194-1,Contenedor,1,0,PLZA,Pendiente,,
-2025-03-10,Presmar S.A.,EXPLV248084A,SUDU-191050-8,Contenedor,1,0,PLZA,En curso,,
-2025-03-10,Infilo S.R.L.,247297415,MSKU-628902-5,Bultos,24,-12,ANEX-A1,En curso,1270,http://dassa.mqbic.com/PublicTally.php?id=1270
-2025-03-10,Infilo S.R.L.,247297415,MRKU-055130-5,Bultos,24,-12,ANEX-A1,En curso,1271,http://dassa.mqbic.com/PublicTally.php?id=1271
-2025-03-10,Seagull Logistica Sr...,EMSAAR4C0134,TGCU-215821-0,Bultos,127,-20,ANEX-A1,En curso,1318,http://dassa.mqbic.com/PublicTally.php?id=1318
-2025-03-10,Universal Cargo Srl,01207/2024CH/AR,             ,Bultos,1,0,PLZA,En curso,,
+2025-03-10,Presmar S.A.,EXPLV248084A,SUDU-191050-8,Contenedor,1,0,PLZA,Pendiente,,
+2025-03-10,Infilo S.R.L.,247297415,MSKU-628902-5,Bultos,24,-12,ANEX-A1,Pendiente,1270,http://dassa.mqbic.com/PublicTally.php?id=1270
+2025-03-10,Infilo S.R.L.,247297415,MRKU-055130-5,Bultos,24,-12,ANEX-A1,Pendiente,1271,http://dassa.mqbic.com/PublicTally.php?id=1271
+2025-03-10,Seagull Logistica Sr...,EMSAAR4C0134,TGCU-215821-0,Bultos,127,-20,ANEX-A1,Pendiente,1318,http://dassa.mqbic.com/PublicTally.php?id=1318
+2025-03-10,Mercovan Argentina S...,MVANLT20241112,HAMU-122349-3,Bultos,262,-57,N5-A1,Pendiente,1337,http://dassa.mqbic.com/PublicTally.php?id=1337
+2025-03-10,Edelweiss Spedition ...,EDWBUE24120003,TCKU-686594-9,Bultos,189,-50,IB7,Pendiente,1362,http://dassa.mqbic.com/PublicTally.php?id=1362
+2025-03-10,Telamania Srl,GILNB241200520,CAIU-735815-3,Contenedor,1,0,PLZA,Pendiente,,
+2025-03-10,Grapot Sa,XNOE24001241,DFSU-763523-9,Contenedor,1,0,PLZA,Pendiente,,
+2025-03-10,Universal Cargo Srl,01207/2024CH/AR,             ,Bultos,1,0,PLZA,Pendiente,,
+2025-03-10,Unimers Argentina S....,CNSZX0000565952,TGHU-628696-4,Contenedor,1,0,PLZA,Pendiente,,
+2025-03-11,Edelweiss Spedition ...,EDWBUE24120004,UACU-854750-0,Bultos,117,-35,IA8,En curso,1354,http://dassa.mqbic.com/PublicTally.php?id=1354
+2025-03-11,Grapot Sa,NBOE24011814,MSDU-426219-0,Contenedor,1,0,PLZA,En curso,,
+2025-03-11,Poka S.A.,TSSZ2501058,FFAU-666670-1,Contenedor,1,0,PLZA,En curso,,
 2024-11-14,Industrias Saladillo...,TPNGBSG24086038,FAMU-889344-8,Pallets,9,10,NV1,Pendiente,801,http://dassa.mqbic.com/PublicTally.php?id=801
 2024-11-14,Industrias Saladillo...,TPNGBSG24086038,FAMU-889344-8,Pallets,9,10,NV1,Pendiente,801,http://dassa.mqbic.com/PublicTally.php?id=801
 2024-11-14,Industrias Saladillo...,TPNGBSG24086038,FAMU-889344-8,Pallets,9,10,NV1,Pendiente,801,http://dassa.mqbic.com/PublicTally.php?id=801
@@ -758,15 +763,13 @@ Dia,Cliente,Conocim.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado,idcont,e-tally
 2025-03-05,Industrias Saladillo...,TPNGBSG24116024,ZCSU-877997-8,Pallets,28,28,ANEX-A1,Pendiente,1210,http://dassa.mqbic.com/PublicTally.php?id=1210
 2025-03-05,Industrias Saladillo...,TPNGBSG24116024,ZCSU-877997-8,Pallets,28,28,ANEX-A1,Pendiente,1210,http://dassa.mqbic.com/PublicTally.php?id=1210
 2025-03-10,Mercovan Argentina S...,ONEYRICEQC496500,TCNU-492615-0,Bultos,277,58,IA9,Pendiente,1312,http://dassa.mqbic.com/PublicTally.php?id=1312
-2025-03-10,Mercovan Argentina S...,HLCUHAM2411BBCK1,HAMU-122349-3,Bultos,262,57,N5-A1,Pendiente,1337,http://dassa.mqbic.com/PublicTally.php?id=1337
-2025-03-10,Edelweiss Spedition ...,247183248,TCKU-686594-9,Bultos,189,50,IB7,Pendiente,1362,http://dassa.mqbic.com/PublicTally.php?id=1362
-2025-03-10,Telamania Srl,,CAIU-735815-3,Contenedor,1,0,PLZA,Pendiente,,
 2025-03-10,Industrias Saladillo...,TPNGBSG24126014,GCXU-213925-6,Bultos,57,13,ANEX-A1,Pendiente,1323,http://dassa.mqbic.com/PublicTally.php?id=1323
 2025-03-10,Industrias Saladillo...,TPNGBSG24116024,ZCSU-877997-8,Pallets,28,28,ANEX-A1,Pendiente,1210,http://dassa.mqbic.com/PublicTally.php?id=1210
 2025-03-10,Industrias Saladillo...,TPNGBSG24116024,ZCSU-877997-8,Pallets,28,28,ANEX-A1,Pendiente,1210,http://dassa.mqbic.com/PublicTally.php?id=1210
-2025-03-10,Grapot Sa,,DFSU-763523-9,Contenedor,1,0,PLZA,Pendiente,,
-2025-03-10,Unimers Argentina S....,,TGHU-628696-4,Contenedor,1,0,PLZA,Pendiente,,
 2025-03-13,Telamania Srl,SHOE24007358,MSDU-578824-0,Rollos,1803,68,CTNNAC,Pendiente,1299,http://dassa.mqbic.com/PublicTally.php?id=1299
-2025-03-11,Edelweiss Spedition ...,HLCUPTY241240467,UACU-854750-0,Bultos,117,35,IA8,Pendiente,1354,http://dassa.mqbic.com/PublicTally.php?id=1354
-2025-03-11,Grapot Sa,,MSDU-426219-0,Contenedor,1,0,PLZA,Pendiente,,
+2025-03-13,Rs Stones Srl,,MRKU-869281-9,Contenedor,1,0,PLZA,Pendiente,,
+2025-03-13,Rs Stones Srl,,MSKU-523159-0,Contenedor,1,0,PLZA,Pendiente,,
+2025-03-11,La Nueva Textil De L...,,MEDU-462582-7,Contenedor,1,0,PLZA,Pendiente,,
 2025-03-12,Minera Santa Rita Sr...,248203554,GCXU-620037-5,Pallets,48,70,IA5,Pendiente,1496,http://dassa.mqbic.com/PublicTally.php?id=1496
+2025-03-12,Chelatex Sas,,MSDU-866155-8,Contenedor,1,0,PLZA,Pendiente,,
+2025-03-12,Lift Van Int. Co S.A,HLCULIV250125470,FBIU-047326-0,Bultos,101,20,EP-IM,Pendiente,1492,http://dassa.mqbic.com/PublicTally.php?id=1492
