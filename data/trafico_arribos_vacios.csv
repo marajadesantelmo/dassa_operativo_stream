@@ -1,5 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 32024,11/03,Hilado Sa,TCKU-641250-0,10080,HC,TD,***************     ,251137838,1,TRANSPORTES LEIRA-NO USAR     ,Irala  Walter,12:42,2025-04-01,,                    ,12:42 Arribado
+32042,11/03,Norfor Sa,-,0,  ,TD,                    ,340500002133,1,TRANSPORTE DEL CLIENTE        ,.,14:33,2025-04-01,25001Ec01004787N,                    ,14:33 Arribado
 32044,11/03,Lawter Argentina S.A.,TEMU-522792-3,10081,DR,TD,**************      ,COSU6409209920,1,TRANSPORTE DEL CLIENTE        ,Peril,14:41,2025-04-01,,                    ,14:41 Arribado
 32043,11/03,Lawter Argentina S.A.,FTAU-193064-0,10081,DR,TD,***********         ,COSU6409209920,1,TRANSPORTE DEL CLIENTE        ,Peril,14:37,2025-04-01,,                    ,14:37 Arribado
 32036,11/03,Henn Y Cia S.R.L.,BSIU-285572-2,Exolgan,DR,TD,***************     ,BUEF02067800,1,TRANSPORTE DEL CLIENTE        ,Ortiz,13:24,2025-04-01,,                    ,13:24 Arribado
@@ -9,8 +10,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 32046,11/03,Arleather S.R.L.,CAAU-552539-3,10076,HC,TD,*****************   ,250675287,1,TRANSPORTES LEIRA-NO USAR     ,Sampayo,14:48,2025-04-01,,                    ,14:48 Arribado
 32045,11/03,Arleather S.R.L.,TRHU-794094-2,10076,HC,TD,***************     ,250675287,1,TRANSPORTES LEIRA-NO USAR     ,Ramirez,14:46,2025-04-01,,                    ,14:46 Arribado
 32026,11/03,Arleather S.R.L.,MRSU-512113-0,10080,HC,TD,**************      ,250675344,1,TRANSPORTES LEIRA-NO USAR     ,Irala  Walter,12:49,2025-04-01,,                    ,12:49 Arribado
+32066,11/03,El Yerbalito,GCXU-597845-4,10080,HC,C,                    ,50831647,1,GALDERISI CARLOS ANDRES       ,.,18:53,2025-04-01,,                    ,18:53 Arribado
 32041,11/03,Carpal Sa,HAMU-115582-4,Exolgan,HC,TD,**************      ,28475176,1,TRANSPORTES LEIRA-NO USAR     ,Carrega Javier,13:51,2025-04-01,,                    ,13:51 Arribado
-32040,11/03,Carpal Sa,TCNU-737429-2,Exolgan,HC,TD,******************* ,28475176,1,TRANSPORTES LEIRA-NO USAR     ,Diaz,13:46,2025-04-01,,                    ,13:46 Arribado
 32039,11/03,Carpal Sa,CAAU-539646-5,Exolgan,HC,TD,******************* ,26433794,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,13:36,2025-04-01,,                    ,13:36 Arribado
 32038,11/03,Carpal Sa,HLXU-832911-8,Exolgan,HC,TD,************        ,18134336,1,TRANSPORTES LEIRA-NO USAR     ,Carrega Javier,13:34,2025-04-01,,                    ,13:34 Arribado
 32037,11/03,Carpal Sa,HLBU-283472-7,Exolgan,HC,TD,******************  ,18134336,1,TRANSPORTES LEIRA-NO USAR     ,Diaz,13:30,2025-04-01,,                    ,13:30 Arribado
@@ -19,7 +20,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 32030,11/03,Suabia Maderas Srl,BEAU-501872-0,10080,HC,TD,*************       ,250978213,1,TRANSPORTES LEIRA-NO USAR     ,Sampayo,13:03,2025-04-01,,                    ,13:03 Arribado
 32029,11/03,Suabia Maderas Srl,MRKU-552892-5,10080,HC,TD,*************       ,250978213,1,TRANSPORTES LEIRA-NO USAR     ,Rao Diego,12:59,2025-04-01,,                    ,12:59 Arribado
 32027,11/03,Suabia Maderas Srl,TLLU-597229-6,10080,HC,TD,*********           ,250978213,1,TRANSPORTE DEL CLIENTE        ,Porco,12:54,2025-04-01,,                    ,12:54 Arribado
-32048,11/03,Chemotecnica Sa,-,15004,  ,TD,                    ,25001EC01011947J,1,TRANSPORTE DEL CLIENTE        ,.,16:03,2025-04-01,,                    ,16:03 Arribado
+32073,11/03,Asecor Srl,MSMU-401506-8,9,HC,TD,FX-32987343         ,EBKG11919723,0,                              ,,     ,2025-04-01,,                    ,Pendiente
 32025,11/03,Hilado Sa,CIPU-503563-0,10080,HC,TD,********************,251137838,1,TRANSPORTE DEL CLIENTE        ,Ortiz,12:46,2025-04-01,,                    ,12:46 Arribado
-32042,11/03,Norfor Sa,-,0,  ,TD,                    ,340500002133,1,TRANSPORTE DEL CLIENTE        ,.,14:33,2025-04-01,25001Ec01004787N,                    ,14:33 Arribado
-32066,11/03,El Yerbalito,GCXU-597845-4,10080,HC,C,                    ,50831647,1,GALDERISI CARLOS ANDRES       ,.,18:53,2025-04-01,,                    ,18:53 Arribado
+32040,11/03,Carpal Sa,TCNU-737429-2,Exolgan,HC,TD,******************* ,28475176,1,TRANSPORTES LEIRA-NO USAR     ,Diaz,13:46,2025-04-01,,                    ,13:46 Arribado
+32072,11/03,Agrotres S.A,TCNU-673909-8,10082,HC,TD,R 1944532           ,BUA0337478,1,GALDERISI CARLOS ANDRES       ,.,19:12,2025-04-01,,                    ,19:12 Arribado
