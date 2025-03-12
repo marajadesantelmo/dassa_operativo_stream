@@ -14,15 +14,11 @@ def fetch_data_impo():
     existente_alm = existente_alm[existente_alm['Cliente'].isin(clientes_global_comex)]
     existente_plz = existente_plz.drop_duplicates()
     existente_alm = existente_alm.drop_duplicates()
-    pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
-    pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente'].isin(clientes_global_comex)]
-    listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
-    listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente'].isin(clientes_global_comex)]
-    return existente_plz, existente_alm, pendiente_consolidar, listos_para_remitir
+    return existente_plz, existente_alm
 
 def show_page_existente():
     # Load data
-    existente_plz, existente_alm, pendiente_consolidar, listos_para_remitir = fetch_data_impo()
+    existente_plz, existente_alm = fetch_data_impo()
 
     col_title, col_logo, col_simpa = st.columns([5, 1, 1])
     with col_title:
@@ -45,16 +41,6 @@ def show_page_existente():
                                                                           display_text='\U0001F517',)},
                      hide_index=True, use_container_width=True)
     st.markdown("<hr>", unsafe_allow_html=True)
-
-    st.header("Estado de la carga de EXPO")
-    col4, col5 = st.columns(2)
-    with col4:
-        st.subheader("Pendiente de Consolidar")
-        st.dataframe(pendiente_consolidar, hide_index=True, use_container_width=True)
-    with col5:
-        st.subheader("Pendiente de Remitir")
-        st.dataframe(listos_para_remitir, hide_index=True, use_container_width=True)
-
 
 # Run the show_page function
 if __name__ == "__main__":
