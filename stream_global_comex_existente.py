@@ -6,6 +6,7 @@ from utils import highlight
 
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
+    clientes_global_comex = pd.read_csv('data/clientes_global_comex.csv')
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz = existente_plz[existente_plz['Cliente'].str.contains('Lift|Edelweiss')]
     existente_plz = existente_plz.rename(columns={'Desc': 'Mudable'})
