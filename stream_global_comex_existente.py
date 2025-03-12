@@ -30,7 +30,7 @@ def show_page_existente():
     with col_logo:
         st.image('logo.png')
     with col_simpa:
-        st.image('logo_liftvan.png')
+        st.image('logo_global_comex.png')
     col4, col5 = st.columns(2)
     with col4:
         st.subheader("Plazoleta")
