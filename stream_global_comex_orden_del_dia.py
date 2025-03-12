@@ -23,7 +23,7 @@ def fetch_data_orden_del_dia():
     consolidados = consolidados[consolidados['Cliente'].isin(clientes_global_comex)]
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz = existente_plz[existente_plz['Cliente'].isin(clientes_global_comex)]
-    existente_plz.drop(columns=['e-tally link'], inplace=True)
+    existente_plz.drop(columns=['e-tally'], inplace=True)
     existente_alm = pd.read_csv('data/existente_alm.csv')
     existente_alm = existente_alm[existente_alm['Cliente'].isin(clientes_global_comex)]
     existente_plz = existente_plz.drop_duplicates()
@@ -82,10 +82,7 @@ def show_page_orden_del_dia():
     col4, col5 = st.columns(2)
     with col4:
         st.subheader("Plazoleta")
-        st.dataframe(existente_plz, 
-                     column_config={'e-tally': st.column_config.LinkColumn('e-tally link', 
-                                                                          display_text='\U0001F517',)},
-                     hide_index=True, use_container_width=True)
+        st.dataframe(existente_plz, hide_index=True, use_container_width=True)
     with col5:
         st.subheader("Almacen")
         st.dataframe(existente_alm, 
