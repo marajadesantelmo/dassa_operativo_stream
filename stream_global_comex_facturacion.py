@@ -12,9 +12,9 @@ def fetch_data_facturacion():
     
 def show_page_facturacion():
     facturacion, saldos, kpis = fetch_data_facturacion()
-    saldo = kpis['Total Saldo'][kpis['Company']=='Liftvan'].sum()
-    total_neto = kpis['Total Neto'][kpis['Company']=='Liftvan'].sum()
-    total_importe = kpis['Total Importe'][kpis['Company']=='Liftvan'].sum()
+    saldo = kpis['Total Saldo'][kpis['Company']=='Global Comex'].sum()
+    total_neto = kpis['Total Neto'][kpis['Company']=='Global Comex'].sum()
+    total_importe = kpis['Total Importe'][kpis['Company']=='Global Comex'].sum()
     col_title, col_logo, col_simpa = st.columns([5, 1, 1])
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
@@ -28,6 +28,8 @@ def show_page_facturacion():
     with col1:
         st.subheader("Facturación últimos 90 días")
         st.dataframe(facturacion, hide_index=True, use_container_width=True)
+        st.write(f"Total Neto: {total_neto}")
+        st.write(f"Total Importe: {total_importe}")
     with col2:
         st.subheader("Saldos adeudados")
         st.dataframe(saldos, hide_index=True, use_container_width=True)
