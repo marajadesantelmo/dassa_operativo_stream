@@ -40,12 +40,15 @@ def show_page_existente():
     col4, col5 = st.columns(2)
     with col4:
         st.subheader("Plazoleta")
-        st.dataframe(existente_plz, hide_index=True, use_container_width=True)
+        st.dataframe(existente_plz, 
+                     column_config={'e-tally': st.column_config.LinkColumn('e-tally link', 
+                                                                          display_text='\U0001F517')},
+                     hide_index=True, use_container_width=True)
     with col5:
         st.subheader("Almacen")
         st.dataframe(existente_alm, 
                      column_config={'e-tally': st.column_config.LinkColumn('e-tally link', 
-                                                                          display_text='e-tally',)},
+                                                                          display_text='\U0001F517')},
                      hide_index=True, use_container_width=True)
     st.markdown("<hr>", unsafe_allow_html=True)
 
