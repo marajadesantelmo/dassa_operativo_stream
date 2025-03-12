@@ -20,27 +20,6 @@ def show_page_existente():
     # Load data
     existente_plz, existente_alm = fetch_data_impo()
 
-    col_title, col_logo, col_simpa = st.columns([5, 1, 1])
-    with col_title:
-        st.header(f"Estado de la carga de IMPO")
-    with col_logo:
-        st.image('logo.png')
-    with col_simpa:
-        st.image('logo_global_comex.png')
-    col4, col5 = st.columns(2)
-    with col4:
-        st.subheader("Plazoleta")
-        st.dataframe(existente_plz, 
-                     column_config={'e-tally': st.column_config.LinkColumn('e-tally link', 
-                                                                          display_text='\U0001F517',)},
-                     hide_index=True, use_container_width=True)
-    with col5:
-        st.subheader("Almacen")
-        st.dataframe(existente_alm, 
-                     column_config={'e-tally': st.column_config.LinkColumn('e-tally link', 
-                                                                          display_text='\U0001F517',)},
-                     hide_index=True, use_container_width=True)
-    st.markdown("<hr>", unsafe_allow_html=True)
 
 # Run the show_page function
 if __name__ == "__main__":

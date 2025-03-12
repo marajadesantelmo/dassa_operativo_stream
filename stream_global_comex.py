@@ -56,11 +56,11 @@ if not st.session_state['logged_in']:
             st.error("Usuario o clave invalidos")
 else:
     if st.session_state.username == "operativo":
-        pages = ["Existente", "Orden del Día", "Histórico", "Logout"]
-        icons = ["arrow-down-circle", "arrow-up-circle", "clock-history", "box-arrow-right"]
+        pages = [ "Orden del Día", "Histórico", "Logout"]
+        icons = [ "arrow-up-circle", "clock-history", "box-arrow-right"]
     else:
-        pages = ["Existente", "Orden del Día", "Histórico", "Facturación", "Logout"]
-        icons = ["arrow-down-circle", "arrow-up-circle", "clock-history", "book", "box-arrow-right"]
+        pages = ["Orden del Día", "Histórico", "Facturación", "Logout"]
+        icons = ["arrow-up-circle", "clock-history", "book", "box-arrow-right"]
 
     page_selection = option_menu(
             None,  # No menu title
@@ -70,9 +70,7 @@ else:
             default_index=0, 
             orientation="horizontal")
     
-    if page_selection == "Existente":
-        stream_global_comex_existente.show_page_existente()
-    elif page_selection == "Orden del Día":
+    if page_selection == "Orden del Día":
         stream_global_comex_orden_del_dia.show_page_orden_del_dia()
     elif page_selection == "Histórico":
         stream_global_comex_historico.show_page_impo_historico()

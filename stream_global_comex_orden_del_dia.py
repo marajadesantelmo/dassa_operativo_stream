@@ -21,11 +21,17 @@ def fetch_data_orden_del_dia():
     remisiones = remisiones[remisiones['Cliente'].isin(clientes_global_comex)]
     consolidados = pd.read_csv('data/consolidados.csv')
     consolidados = consolidados[consolidados['Cliente'].isin(clientes_global_comex)]
-    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo
+    existente_plz = pd.read_csv('data/existente_plz.csv')
+    existente_plz = existente_plz[existente_plz['Cliente'].isin(clientes_global_comex)]
+    existente_alm = pd.read_csv('data/existente_alm.csv')
+    existente_alm = existente_alm[existente_alm['Cliente'].isin(clientes_global_comex)]
+    existente_plz = existente_plz.drop_duplicates()
+    existente_alm = existente_alm.drop_duplicates()
+    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_alm, existente_plz
     
 def show_page_orden_del_dia():
     # Load data
-    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo = fetch_data_orden_del_dia()
+    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_alm, existente_plz = fetch_data_orden_del_dia()
 
     col_title, col_logo, col_simpa = st.columns([5, 1, 1])
     with col_title:
@@ -71,6 +77,21 @@ def show_page_orden_del_dia():
 
     st.markdown("<hr>", unsafe_allow_html=True)
 
+    st.subheader(f"Estado de la carga de IMPO")
+    col4, col5 = st.columns(2)
+    with col4:
+        st.subheader("Plazoleta")
+        st.dataframe(existente_plz, 
+                     column_config={'e-tally': st.column_config.LinkColumn('e-tally link', 
+                                                                          display_text='\U0001F517',)},
+                     hide_index=True, use_container_width=True)
+    with col5:
+        st.subheader("Almacen")
+        st.dataframe(existente_alm, 
+                     column_config={'e-tally': st.column_config.LinkColumn('e-tally link', 
+                                                                          display_text='\U0001F517',)},
+                     hide_index=True, use_container_width=True)
+    st.markdown("<hr>", unsafe_allow_html=True)
 
 if __name__ == "__main__":
     while True:
