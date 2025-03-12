@@ -1,12 +1,12 @@
 import streamlit as st
-st.set_page_config(page_title="Operativa DASSA-Liftvan", 
+st.set_page_config(page_title="Operativa DASSA-Global Comex", 
                    page_icon="📊", 
                    layout="wide")
 
-import stream_liftvan_existente
-import stream_liftvan_orden_del_dia
-import stream_liftvan_historico
-import stream_liftvan_facturacion
+import stream_global_comex_existente
+import stream_global_comex_orden_del_dia
+import stream_global_comex_historico
+import stream_global_comex_facturacion
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
@@ -20,7 +20,7 @@ refresh_interval_ms = 120 * 1000  # 2 minutes
 count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refresh")
 
 USERNAMES = ["operativo", "administrativo"]
-PASSWORDS = ["op123", "adm123"]
+PASSWORDS = ["op-global-123", "adm-global-123"]
 
 def login(username, password):
     if username in USERNAMES and password in PASSWORDS:
@@ -71,13 +71,13 @@ else:
             orientation="horizontal")
     
     if page_selection == "Existente":
-        stream_liftvan_existente.show_page_existente()
+        stream_global_comex_existente.show_page_existente()
     elif page_selection == "Orden del Día":
-        stream_liftvan_orden_del_dia.show_page_orden_del_dia()
+        stream_global_comex_orden_del_dia.show_page_orden_del_dia()
     elif page_selection == "Histórico":
-        stream_liftvan_historico.show_page_impo_historico()
+        stream_global_comex_historico.show_page_impo_historico()
     elif page_selection == "Facturación" and st.session_state.username != "operativo":
-        stream_liftvan_facturacion.show_page_facturacion()
+        stream_global_comex_facturacion.show_page_facturacion()
     elif page_selection == "Logout":
         cookies.pop("logged_in", None)
         cookies.pop("username", None)
