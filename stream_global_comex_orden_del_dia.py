@@ -17,23 +17,15 @@ def fetch_data_orden_del_dia():
     retiros_impo = retiros_impo[retiros_impo['Cliente'].isin(clientes_global_comex)]
     otros_impo = pd.read_csv('data/otros_impo.csv')
     otros_impo = otros_impo[otros_impo['Cliente'].isin(clientes_global_comex)]
-    arribos_expo_carga = pd.read_csv('data/arribos_expo_carga.csv')
-    arribos_expo_carga = arribos_expo_carga[arribos_expo_carga['Cliente'].isin(clientes_global_comex)]
-    arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
-    arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns['Cliente'].isin(clientes_global_comex)]
-    verificaciones_expo = pd.read_csv('data/verificaciones_expo.csv')
-    verificaciones_expo = verificaciones_expo[verificaciones_expo['Cliente'].isin(clientes_global_comex)]
-    otros_expo = pd.read_csv('data/otros_expo.csv')
-    otros_expo = otros_expo[otros_expo['Cliente'].isin(clientes_global_comex)]
     remisiones = pd.read_csv('data/remisiones.csv')
     remisiones = remisiones[remisiones['Cliente'].isin(clientes_global_comex)]
     consolidados = pd.read_csv('data/consolidados.csv')
     consolidados = consolidados[consolidados['Cliente'].isin(clientes_global_comex)]
-    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados
+    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo
     
 def show_page_orden_del_dia():
     # Load data
-    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados = fetch_data_orden_del_dia()
+    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo = fetch_data_orden_del_dia()
 
     col_title, col_logo, col_simpa = st.columns([5, 1, 1])
     with col_title:
@@ -78,36 +70,6 @@ def show_page_orden_del_dia():
         st.dataframe(retiros_impo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
     st.markdown("<hr>", unsafe_allow_html=True)
-
-    st.header(f"Operaciones de EXPO")
-
-    # Create two columns
-    col1, col2 = st.columns(2)
-
-    # Column 1: Arribos
-    with col1:
-        st.subheader("Arribos de Carga")
-        st.dataframe(arribos_expo_carga.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-
-    # Column 2: Pendiente Desconsolidar
-    with col2:
-        st.subheader("Arribos de Contenedores")
-        st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1).format(precision=0), hide_index=True, use_container_width=True)
-
-    col3, col4 = st.columns(2)
-    with col3:
-        st.subheader("Verificaciones")
-        st.dataframe(verificaciones_expo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-
-        st.subheader("Consolidados")
-        st.dataframe(consolidados, hide_index=True, use_container_width=True)
-
-    with col4:
-        st.subheader("Remisiones")
-        st.dataframe(remisiones.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-        st.subheader("Otros")
-        st.dataframe(otros_expo.style, hide_index=True, use_container_width=True)
-
 
 
 if __name__ == "__main__":
