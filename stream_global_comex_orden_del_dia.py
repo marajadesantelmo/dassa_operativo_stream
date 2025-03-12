@@ -23,6 +23,7 @@ def fetch_data_orden_del_dia():
     consolidados = consolidados[consolidados['Cliente'].isin(clientes_global_comex)]
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz = existente_plz[existente_plz['Cliente'].isin(clientes_global_comex)]
+    existente_plz.drop(columns=['e-tally link'], inplace=True)
     existente_alm = pd.read_csv('data/existente_alm.csv')
     existente_alm = existente_alm[existente_alm['Cliente'].isin(clientes_global_comex)]
     existente_plz = existente_plz.drop_duplicates()
