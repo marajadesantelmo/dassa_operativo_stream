@@ -5,8 +5,8 @@ import time
 from utils import highlight
 
 def fetch_data_facturacion():
-    facturacion = pd.read_csv('data/facturacion_liftvan.csv')
-    saldos = pd.read_csv('data/saldos_liftvan.csv')
+    facturacion = pd.read_csv('data/facturacion_global_comex.csv')
+    saldos = pd.read_csv('data/saldos_global_comex.csv')
     kpis = pd.read_csv('data/kpis.csv')
     return facturacion, saldos, kpis
     
