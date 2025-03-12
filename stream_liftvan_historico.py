@@ -73,7 +73,7 @@ def show_page_impo_historico():
         filtered_data_arribos = filter_data(arribos_impo_historico, start_date_arribos, end_date_arribos, "Fecha")
         
         st.dataframe(filtered_data_arribos, hide_index=True, use_container_width=True, 
-                     column_config={'e-tally': st.column_config.LinkColumn('e-tally link', display_text='e-tally')})
+                     column_config={'e-tally': st.column_config.LinkColumn('e-tally link', display_text='\U0001F517')})
 
         st.subheader("Verificaciones")
         col1_4, col1_5, col1_6 = st.columns(3)
@@ -86,10 +86,10 @@ def show_page_impo_historico():
                 st.write(f"Fecha Fin: {end_date_verificaciones.strftime('%d/%m/%Y')}")
             filtered_data_verificaciones = filter_data(historico_verificaciones_impo, start_date_verificaciones, end_date_verificaciones, "Dia")        
             st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True, 
-                         column_config={'e-tally': st.column_config.LinkColumn('e-tally link', display_text='e-tally')})
+                         column_config={'e-tally': st.column_config.LinkColumn('e-tally link', display_text='\U0001F517')})
         else:
             st.dataframe(historico_verificaciones_impo, hide_index=True, use_container_width=True, 
-                         column_config={'e-tally': st.column_config.LinkColumn('e-tally link', display_text='e-tally')})
+                         column_config={'e-tally': st.column_config.LinkColumn('e-tally link', display_text='\U0001F517')})
 
     with col2:
         st.subheader("Retiros")
@@ -103,10 +103,10 @@ def show_page_impo_historico():
                 st.write(f"Fecha Fin: {end_date_retiros.strftime('%d/%m/%Y')}")
             filtered_data_retiros = filter_data(historico_retiros_impo, start_date_retiros, end_date_retiros, "Dia") 
             st.dataframe(filtered_data_retiros, hide_index=True, use_container_width=True, 
-                         column_config={'e-tally': st.column_config.LinkColumn('e-tally link', display_text='e-tally')})
+                         column_config={'e-tally': st.column_config.LinkColumn('e-tally link', display_text='\U0001F517')})
         else:
             st.dataframe(historico_retiros_impo, hide_index=True, use_container_width=True, 
-                         column_config={'e-tally': st.column_config.LinkColumn('e-tally link', display_text='e-tally')})
+                         column_config={'e-tally': st.column_config.LinkColumn('e-tally link', display_text='\U0001F517')})
 
         st.subheader("Otros")
         col2_4, col2_5, col2_6 = st.columns(3)
