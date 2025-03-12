@@ -30,7 +30,7 @@ def show_page_facturacion():
     with col1:
         st.subheader("Facturación últimos 90 días")
         st.dataframe(facturacion, hide_index=True, use_container_width=True)
-        st.write(f"Total Neto: {total_neto}  |  Total Importe: {total_importe}")
+        st.write(f"Total Neto: {total_neto}            Total Importe: {total_importe}")
 
     with col2:
         st.subheader("Saldos adeudados")
