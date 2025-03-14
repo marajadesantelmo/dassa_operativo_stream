@@ -311,8 +311,6 @@ resumen_mensual_ctns_expo['CNTs Expo ' + str(this_year)] = resumen_mensual_ctns_
 resumen_mensual_ctns_expo['Dif'] = resumen_mensual_ctns_expo['Dif'].fillna(0)
 resumen_mensual_ctns_expo.rename(columns={'Month': 'Mes'}, inplace=True)
 
-# Clietnes nuevos
-
 #%% Clientes nuevos
 print('Clientes nuevos')
 cursor.execute(f"""
