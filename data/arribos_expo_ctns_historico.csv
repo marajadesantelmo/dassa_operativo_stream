@@ -1,4 +1,5 @@
 Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
+2025-03-17,32172,HLBU-178997-9,Mercovan Argentina Srl,33038718,0432331             ,Arribado
 2025-02-19,31601,MRSU-026068-4,Mercovan Argentina Srl,250247354,*************       ,Arribado
 2025-02-24,31729,FANU-175150-6,Mercovan Argentina Srl,92875335,                    ,Arribado
 2025-02-19,31588,CMAU-069458-6,Mercovan Argentina Srl,USG0296304,R1947319            ,Arribado
@@ -21,6 +22,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-20,29704,MEDU-414420-4,Lift Van Int. Co S.A,EBKG10805947,FX26262932          ,Arribado
 2024-11-20,29710,FCIU-630540-8,Lift Van Int. Co S.A,69648499,*********           ,Arribado
 2024-11-20,29712,DRYU-201042-2,Lift Van Int. Co S.A,64315723,******************* ,Arribado
+2025-03-17,32160,UACU-842407-0,Lift Van Int. Co S.A,51582430,*************       ,Arribado
 2025-03-07,32004,UACU-847017-9,Lift Van Int. Co S.A,28437559,                    ,Arribado
 2025-03-12,32079,FCIU-655566-5,Lift Van Int. Co S.A,29472184,***************     ,Arribado
 2025-02-19,31587,CMAU-017821-3,Lift Van Int. Co S.A,BUA0336878,R1947319            ,Arribado
@@ -165,6 +167,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-22,29773,GCXU-510089-6,Pelama Chubut S.A.,69316772,*********           ,Arribado
 2024-11-26,29840,UACU-601379-0,Pelama Chubut S.A.,64319501,*****************   ,Arribado
 2025-03-12,32081,HLBU-152394-7,Pelama Chubut S.A.,93163349,********            ,Arribado
+2025-03-14,32159,HLBU-152394-7,Pelama Chubut S.A.,93163349,                    ,Arribado
 2025-02-28,31857,FSCU-843213-9,Pelama Chubut S.A.,38557361,                    ,Arribado
 2025-02-28,31869,FANU-100955-0,Pelama Chubut S.A.,23294005,**************      ,Arribado
 2025-02-06,31235,MRKU-037616-2,Pelama Chubut S.A.,249643022,**************      ,Arribado
@@ -267,6 +270,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-25,29820,TCLU-305140-0,Tipoiti Satic,LA0394569,************        ,Arribado
 2024-11-25,29822,TCLU-834914-7,Tipoiti Satic,LA0394570,******************* ,Arribado
 2025-01-10,30676,MSMU-420880-6,Tipoiti Satic,LA0401266,**************      ,Arribado
+2025-03-17,32164,MSDU-884179-7,Tipoiti Satic,LA0412121,***************     ,Arribado
 2024-11-26,29839,,Tipoiti Satic,24001EC01077083L,                    ,Arribado
 2025-01-10,30671,TCNU-789897-8,Tipoiti Satic,LA0401266,***********         ,Arribado
 2025-01-10,30672,TCLU-880858-6,Tipoiti Satic,LA0401266,***********         ,Arribado
@@ -287,6 +291,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-19,29677,EITU-941496-2,Isischu Srl,340400039141,                    ,Arribado
 2024-11-19,29678,EMCU-891196-8,Isischu Srl,340400039141,                    ,Arribado
 2024-11-19,29679,EITU-173364-4,Isischu Srl,34040034840,.                   ,Arribado
+2025-03-17,32163,MSMU-587191-6,Isischu Srl,EBKG12119947,FX32985462          ,Arribado
+2025-03-17,32165,MSMU-436022-8,Isischu Srl,EBKG12119947,FX32985453          ,Arribado
+2025-03-17,32166,MSMU-622211-0,Isischu Srl,EBKG12119947,FX32985470          ,Arribado
+2025-03-17,32169,MSBU-522621-0,Isischu Srl,FX32985467,FX32985467          ,Arribado
+2025-03-17,32170,CAAU-730177-2,Isischu Srl,EBKG12119947,FX32985458          ,Arribado
 2025-03-07,31956,MSNU-974863-1,Isischu Srl,EBKG11917609,FX-32987402         ,Arribado
 2025-03-07,31957,MSBU-664086-2,Isischu Srl,EBKG11917609,FX32987494          ,Arribado
 2025-03-07,31958,MSMU-884883-8,Isischu Srl,EBKG11917609,FX32987493          ,Arribado
@@ -723,6 +732,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-26,29858,ZCLU-992286-1,Noah Servicess.R.L.,ZIMUBUE9036674,                    ,Arribado
 2024-11-27,29887,CAIU-350322-7,Noah Servicess.R.L.,ZIMUBUE9036385,**************      ,Arribado
 2025-02-25,31740,MSDU-159970-0,Plasticos Dise S A,EBKG11789696,FX32989454          ,Arribado
+2025-03-17,32167,CAIU-411887-9,Plasticos Dise S A,EBKG12106571E,FX32984839          ,Arribado
 2024-11-19,29681,MRKU-834802-2,Lawter Argentina S.A.,246466929,                    ,Arribado
 2024-11-19,29682,MRKU-955623-1,Lawter Argentina S.A.,246466929,                    ,Arribado
 2024-11-19,29683,TEMU-142316-8,Lawter Argentina S.A.,246466929,                    ,Arribado
@@ -1129,6 +1139,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-18,31503,TTNU-127860-6,Pons Estudio Aduanero,249680475,*************       ,Arribado
 2025-02-18,31506,MRKU-877582-6,Pons Estudio Aduanero,249680475,************        ,Arribado
 2025-02-18,31507,MRKU-990612-9,Pons Estudio Aduanero,249680475,**************      ,Arribado
+2025-03-17,32180,EITU-057390-0,Metalsa Argentina S.A,340500010268,********************,Arribado
 2025-02-19,31560,MSKU-051754-0,Newsan Sociedad Anonima,250248515,***************     ,Arribado
 2025-02-19,31561,MRSU-512131-5,Newsan Sociedad Anonima,250248463,************        ,Arribado
 2025-02-25,31755,CAAU-609006-3,Newsan Sociedad Anonima,250549286,************        ,Arribado
