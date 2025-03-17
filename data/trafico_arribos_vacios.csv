@@ -1,30 +1,37 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 32172,17/03,Mercovan Argentina Srl,HLBU-178997-9,10080,DR,TD,0432331             ,33038718,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,12:02,2025-04-07,,                    ,12:02 Arribado
-32220,17/03,Forestal Y Ganadera Indumarca ...,MSNU-700279-3,0,HC,TD,                    ,EBKG12065709,1,TRANSPORTE DEL CLIENTE        ,.,18:13,2025-04-07,,                    ,18:13 Arribado
-32167,17/03,Plasticos Dise S A,CAIU-411887-9,Exolgan,HC,TD,FX32984839          ,EBKG12106571E,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,10:29,2025-04-07,,                    ,10:29 Arribado
-32214,17/03,Henn Y Cia S.R.L.,PCIU-121473-2,10,DR,TD,**********          ,BUE500035100,1,TRANSPORTES LEIRA-NO USAR     ,Carrano,16:48,2025-04-07,,                    ,16:48 Arribado
-32213,17/03,Henn Y Cia S.R.L.,PCIU-004410-1,10,DR,TD,*********           ,BUE500035100,1,TRANSPORTES LEIRA-NO USAR     ,Carrano,16:46,2025-04-07,,                    ,16:46 Arribado
-32212,17/03,Henn Y Cia S.R.L.,PCIU-117706-9,10,DR,TD,**********          ,BUE500035100,1,TRANSPORTES LEIRA-NO USAR     ,Rao Diego,16:45,2025-04-07,,                    ,16:45 Arribado
-32211,17/03,Henn Y Cia S.R.L.,PCIU-178625-5,10,DR,TD,************        ,BUE500035100,1,TRANSPORTES LEIRA-NO USAR     ,Rao Diego,16:44,2025-04-07,,                    ,16:44 Arribado
 32209,17/03,Henn Y Cia S.R.L.,PCIU-006496-2,10,DR,TD,************        ,BUE500035100,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez,16:28,2025-04-07,,                    ,16:28 Arribado
+32211,17/03,Henn Y Cia S.R.L.,PCIU-178625-5,10,DR,TD,************        ,BUE500035100,1,TRANSPORTES LEIRA-NO USAR     ,Rao Diego,16:44,2025-04-07,,                    ,16:44 Arribado
+32212,17/03,Henn Y Cia S.R.L.,PCIU-117706-9,10,DR,TD,**********          ,BUE500035100,1,TRANSPORTES LEIRA-NO USAR     ,Rao Diego,16:45,2025-04-07,,                    ,16:45 Arribado
+32213,17/03,Henn Y Cia S.R.L.,PCIU-004410-1,10,DR,TD,*********           ,BUE500035100,1,TRANSPORTES LEIRA-NO USAR     ,Carrano,16:46,2025-04-07,,                    ,16:46 Arribado
+32214,17/03,Henn Y Cia S.R.L.,PCIU-121473-2,10,DR,TD,**********          ,BUE500035100,1,TRANSPORTES LEIRA-NO USAR     ,Carrano,16:48,2025-04-07,,                    ,16:48 Arribado
+32223,17/03,Borax Argentina S A,CMAU-049956-9,0,DR,TD,                    ,BUA0337447,1,TRANSPORTE DEL CLIENTE        ,.,18:44,2025-04-07,,                    ,18:44 Arribado
 32208,17/03,Henn Y Cia S.R.L.,PCIU-015377-7,10,DR,TD,***********         ,BUE500035100,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez,16:27,2025-04-07,,                    ,16:27 Arribado
+32224,17/03,Borax Argentina S A,TGHU-129031-8,0,DR,TD,                    ,BUA0337447,1,TRANSPORTE DEL CLIENTE        ,.,18:44,2025-04-07,,                    ,18:44 Arribado
+32226,17/03,Borax Argentina S A,TRHU-393750-8,0,DR,TD,                    ,BUA0337447,1,TRANSPORTE DEL CLIENTE        ,.,18:44,2025-04-07,,                    ,18:44 Arribado
+32227,17/03,Borax Argentina S A,ECMU-193010-1,0,DR,TD,                    ,BUA0337447,1,TRANSPORTE DEL CLIENTE        ,.,18:45,2025-04-07,,                    ,18:45 Arribado
+32228,17/03,Borax Argentina S A,TRHU-175523-2,0,DR,TD,                    ,BUA0337447,1,TRANSPORTE DEL CLIENTE        ,.,18:45,2025-04-07,,                    ,18:45 Arribado
+32229,17/03,Borax Argentina S A,TCLU-347572-8,0,DR,TD,                    ,BUA0337447,1,TRANSPORTE DEL CLIENTE        ,.,18:45,2025-04-07,,                    ,18:45 Arribado
+32167,17/03,Plasticos Dise S A,CAIU-411887-9,Exolgan,HC,TD,FX32984839          ,EBKG12106571E,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,10:29,2025-04-07,,                    ,10:29 Arribado
+32220,17/03,Forestal Y Ganadera Indumarca ...,MSNU-700279-3,0,HC,TD,                    ,EBKG12065709,1,TRANSPORTE DEL CLIENTE        ,.,18:13,2025-04-07,,                    ,18:13 Arribado
+32225,17/03,Borax Argentina S A,GLDU-959221-5,0,DR,TD,                    ,BUA0337447,1,TRANSPORTE DEL CLIENTE        ,.,18:44,2025-04-07,,                    ,18:44 Arribado
 32206,17/03,Henn Y Cia S.R.L.,PCIU-195334-7,10,DR,TD,*************       ,BUE500035100,1,TRANSPORTES LEIRA-NO USAR     ,Parra,15:56,2025-04-07,,                    ,15:56 Arribado
 32205,17/03,Henn Y Cia S.R.L.,PCIU-286713-5,10,DR,TD,*************       ,BUE500035100,1,TRANSPORTES LEIRA-NO USAR     ,Parra,15:55,2025-04-07,,                    ,15:55 Arribado
 32204,17/03,Henn Y Cia S.R.L.,PCIU-183022-9,10,DR,TD,*************       ,BUE500035100,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez,15:48,2025-04-07,,                    ,15:48 Arribado
+32160,17/03,Lift Van Int. Co S.A,UACU-842407-0,10080,DR,TD,*************       ,51582430,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,09:32,2025-04-07,,                    ,09:32 Arribado
+32218,17/03,Refractarios Argentinos Saicm,BMOU-143395-9,0,DR,TD,                    ,25807146,1,TRANSPORTE DEL CLIENTE        ,.,18:04,2025-04-07,,                    ,18:04 Arribado
+32182,17/03,Pelama Chubut S.A.,UACU-560728-9,10080,HC,TD,********************,78721024,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,13:48,2025-04-07,,                    ,13:48 Arribado
+32222,17/03,Manufactura Los Andes S.A.,PCIU-189009-0,0,DR,TD,                    ,BUE500036400,1,TRANSPORTE DEL CLIENTE        ,.,18:21,2025-04-07,,                    ,18:21 Arribado
+32164,17/03,Tipoiti Satic,MSDU-884179-7,10074,HC,TD,***************     ,LA0412121,1,TRANSPORTES LEIRA-NO USAR     ,Ruiz Diaz,10:23,2025-04-07,,                    ,10:23 Arribado
+32163,17/03,Isischu Srl,MSMU-587191-6,9,HC,TD,FX32985462          ,EBKG12119947,1,TRANSPORTES LEIRA-NO USAR     ,Carrega Javier,10:02,2025-04-07,,                    ,10:02 Arribado
+32165,17/03,Isischu Srl,MSMU-436022-8,9,HC,TD,FX32985453          ,EBKG12119947,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez Jose,10:25,2025-04-07,,                    ,10:25 Arribado
+32166,17/03,Isischu Srl,MSMU-622211-0,9,HC,TD,FX32985470          ,EBKG12119947,1,TRANSPORTES LEIRA-NO USAR     ,Rao Diego,10:27,2025-04-07,,                    ,10:27 Arribado
+32169,17/03,Isischu Srl,MSBU-522621-0,9,HC,TD,FX32985467          ,FX32985467,1,TRANSPORTES LEIRA-NO USAR     ,Parra,10:36,2025-04-07,,                    ,10:36 Arribado
+32170,17/03,Isischu Srl,CAAU-730177-2,9,HC,TD,FX32985458          ,EBKG12119947,1,TRANSPORTES LEIRA-NO USAR     ,Carrano,10:39,2025-04-07,,                    ,10:39 Arribado
+32217,17/03,Hector Reboratti,TXGU-546572-9,0,  ,TD,                    ,EBKG11920252,1,TRANSPORTE DEL CLIENTE        ,.,18:01,2025-04-07,,25001EC01015602B    ,18:01 Arribado
+32219,17/03,Maringa Maderas Sa,MSDU-509704-3,0,HC,TD,                    ,EBKG11984014,1,TRANSPORTE DEL CLIENTE        ,.,18:08,2025-04-07,,                    ,18:08 Arribado
+32181,17/03,Arleather S.R.L.,MVIU-001102-1,10080,HC,TD,******************* ,249176115,1,TRANSPORTES LEIRA-NO USAR     ,Ruiz,13:37,2025-04-07,,                    ,13:37 Arribado
+32183,17/03,Arleather S.R.L.,TCKU-663243-8,10080,HC,TD,******************* ,249176115,1,TRANSPORTES LEIRA-NO USAR     ,Ramirez,14:13,2025-04-07,,                    ,14:13 Arribado
 32203,17/03,Henn Y Cia S.R.L.,PCIU-100028-4,10,DR,TD,************        ,BUE500035100,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez,15:46,2025-04-07,,                    ,15:46 Arribado
 32221,17/03,Forestal Y Ganadera Indumarca ...,MEDU-896447-5,0,HC,TD,                    ,EBKG12065862,1,TRANSPORTE DEL CLIENTE        ,.,18:17,2025-04-07,,                    ,18:17 Arribado
-32183,17/03,Arleather S.R.L.,TCKU-663243-8,10080,HC,TD,******************* ,249176115,1,TRANSPORTES LEIRA-NO USAR     ,Ramirez,14:13,2025-04-07,,                    ,14:13 Arribado
-32219,17/03,Maringa Maderas Sa,MSDU-509704-3,0,HC,TD,                    ,EBKG11984014,1,TRANSPORTE DEL CLIENTE        ,.,18:08,2025-04-07,,                    ,18:08 Arribado
-32217,17/03,Hector Reboratti,TXGU-546572-9,0,  ,TD,                    ,EBKG11920252,1,TRANSPORTE DEL CLIENTE        ,.,18:01,2025-04-07,,25001EC01015602B    ,18:01 Arribado
-32170,17/03,Isischu Srl,CAAU-730177-2,9,HC,TD,FX32985458          ,EBKG12119947,1,TRANSPORTES LEIRA-NO USAR     ,Carrano,10:39,2025-04-07,,                    ,10:39 Arribado
-32169,17/03,Isischu Srl,MSBU-522621-0,9,HC,TD,FX32985467          ,FX32985467,1,TRANSPORTES LEIRA-NO USAR     ,Parra,10:36,2025-04-07,,                    ,10:36 Arribado
-32166,17/03,Isischu Srl,MSMU-622211-0,9,HC,TD,FX32985470          ,EBKG12119947,1,TRANSPORTES LEIRA-NO USAR     ,Rao Diego,10:27,2025-04-07,,                    ,10:27 Arribado
-32165,17/03,Isischu Srl,MSMU-436022-8,9,HC,TD,FX32985453          ,EBKG12119947,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez Jose,10:25,2025-04-07,,                    ,10:25 Arribado
-32163,17/03,Isischu Srl,MSMU-587191-6,9,HC,TD,FX32985462          ,EBKG12119947,1,TRANSPORTES LEIRA-NO USAR     ,Carrega Javier,10:02,2025-04-07,,                    ,10:02 Arribado
-32164,17/03,Tipoiti Satic,MSDU-884179-7,10074,HC,TD,***************     ,LA0412121,1,TRANSPORTES LEIRA-NO USAR     ,Ruiz Diaz,10:23,2025-04-07,,                    ,10:23 Arribado
-32222,17/03,Manufactura Los Andes S.A.,PCIU-189009-0,0,DR,TD,                    ,BUE500036400,1,TRANSPORTE DEL CLIENTE        ,.,18:21,2025-04-07,,                    ,18:21 Arribado
-32182,17/03,Pelama Chubut S.A.,UACU-560728-9,10080,HC,TD,********************,78721024,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,13:48,2025-04-07,,                    ,13:48 Arribado
-32218,17/03,Refractarios Argentinos Saicm,BMOU-143395-9,0,DR,TD,                    ,25807146,1,TRANSPORTE DEL CLIENTE        ,.,18:04,2025-04-07,,                    ,18:04 Arribado
-32160,17/03,Lift Van Int. Co S.A,UACU-842407-0,10080,DR,TD,*************       ,51582430,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,09:32,2025-04-07,,                    ,09:32 Arribado
-32181,17/03,Arleather S.R.L.,MVIU-001102-1,10080,HC,TD,******************* ,249176115,1,TRANSPORTES LEIRA-NO USAR     ,Ruiz,13:37,2025-04-07,,                    ,13:37 Arribado
 32180,17/03,Metalsa Argentina S.A,EITU-057390-0,TRP,DR,TD,********************,340500010268,1,TRANSPORTE DEL CLIENTE        ,Peril,13:14,2025-04-07,,                    ,13:14 Arribado
