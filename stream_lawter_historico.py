@@ -28,10 +28,10 @@ def show_page_historico():
     
     # Convert date columns to datetime
     date_columns = {
-        'arribos_impo_historico': 'Fecha',
-        'historico_retiros_impo': 'Dia',
-        'historico_verificaciones_impo': 'Dia',
-        'historico_otros_impo': 'Dia'
+        'arribos_expo_historico': 'Fecha',
+        'historico_retiros_expo': 'Dia',
+        'historico_verificaciones_expo': 'Dia',
+        'historico_otros_expo': 'Dia'
     }
     for df_name, date_col in date_columns.items():
         df = locals()[df_name]
