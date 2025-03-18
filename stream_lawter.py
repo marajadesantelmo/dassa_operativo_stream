@@ -1,5 +1,4 @@
 import streamlit as st
-import stream_lawter_existente
 import stream_lawter_orden_del_dia
 import stream_lawter_historico
 import stream_lawter_facturacion
@@ -57,10 +56,10 @@ if not st.session_state['logged_in']:
             st.error("Usuario o clave invalidos")
 else:
     if st.session_state.username == "operativo":
-        pages = ["Existente", "Orden del Día", "Histórico", "Logout"]
+        pages = ["Orden del Día", "Histórico", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "clock-history", "box-arrow-right"]
     else:
-        pages = ["Existente", "Orden del Día", "Histórico", "Facturación", "Logout"]
+        pages = ["Orden del Día", "Histórico", "Facturación", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "clock-history", "book", "box-arrow-right"]
 
     page_selection = option_menu(
@@ -71,9 +70,7 @@ else:
             default_index=0, 
             orientation="horizontal")
     
-    if page_selection == "Existente":
-        stream_lawter_existente.show_page_existente()
-    elif page_selection == "Orden del Día":
+    if page_selection == "Orden del Día":
         stream_lawter_orden_del_dia.show_page_orden_del_dia()
     elif page_selection == "Histórico":
         stream_lawter_historico.show_page_historico()
