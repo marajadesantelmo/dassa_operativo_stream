@@ -22,7 +22,7 @@ def fetch_data_impo_historico():
     historico_verificaciones_expo = historico_verificaciones_expo[historico_verificaciones_expo['Cliente'].str.contains('Lawter')]
     historico_otros_expo = pd.read_csv('data/historico_otros_expo.csv')
     historico_otros_expo = historico_otros_expo[historico_otros_expo['Cliente'].str.contains('Lawter')]
-    return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo
+    return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo, arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_retiros_expo, historico_verificaciones_expo, historico_otros_expo
 
 def filter_data(data, start_date, end_date, date_column):
     data[date_column] = pd.to_datetime(data[date_column])  # Ensure the date column is datetime
@@ -32,7 +32,7 @@ def filter_data(data, start_date, end_date, date_column):
     return filtered_data
 
 def show_page_impo_historico():
-    arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo = fetch_data_impo_historico()
+    arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo, arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_retiros_expo, historico_verificaciones_expo, historico_otros_expo = fetch_data_impo_historico()
     
     # Convert date columns to datetime
     date_columns = {
