@@ -5,14 +5,14 @@ import time
 from utils import highlight
 
 def fetch_data_facturacion():
-    facturacion = pd.read_csv('data/facturacion_mercovan.csv')
-    saldos = pd.read_csv('data/saldos_mercovan.csv')
+    facturacion = pd.read_csv('data/facturacion_lawter.csv')
+    saldos = pd.read_csv('data/saldos_lawter.csv')
     kpis = pd.read_csv('data/kpis.csv')
     return facturacion, saldos, kpis
     
 def show_page_facturacion():
     facturacion, saldos, kpis = fetch_data_facturacion()
-    saldo = kpis['Total Saldo'][kpis['Company']=='Mercovan'].sum()
+    saldo = kpis['Total Saldo'][kpis['Company']=='Lawter'].sum()
     col_title, col_logo, col_simpa = st.columns([5, 1, 1])
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
@@ -20,7 +20,7 @@ def show_page_facturacion():
     with col_logo:
         st.image('logo.png')
     with col_simpa:
-        st.image('logo_mercovan.png')
+        st.image('logo_lawter.png')
 
     col1, col2 = st.columns(2)
     with col1:

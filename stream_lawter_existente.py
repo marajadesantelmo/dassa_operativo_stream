@@ -5,23 +5,21 @@ import time
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
     existente_plz = pd.read_csv('data/existente_plz.csv')
-    existente_plz = existente_plz[existente_plz['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
-    existente_plz = existente_plz.rename(columns={'Desc': 'Mudable'})
+    existente_plz = existente_plz[existente_plz['Cliente'].str.contains('Lawter')].drop(columns=['Cliente'])
     existente_plz['Ingreso'] = pd.to_datetime(existente_plz['Ingreso']).dt.strftime('%d-%m-%Y')
     
     existente_alm = pd.read_csv('data/existente_alm.csv')
-    existente_alm = existente_alm.rename(columns={'Desc': 'Mudable'})
-    existente_alm = existente_alm[existente_alm['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    existente_alm = existente_alm[existente_alm['Cliente'].str.contains('Lawter')].drop(columns=['Cliente'])
     existente_alm['Ingreso'] = pd.to_datetime(existente_alm['Ingreso']).dt.strftime('%d-%m-%Y')
     
     existente_plz = existente_plz.drop_duplicates()
     existente_alm = existente_alm.drop_duplicates()
     
     pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
-    pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente'].str.contains('Lawter')].drop(columns=['Cliente'])
     
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
-    listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente'].str.contains('Lawter')].drop(columns=['Cliente'])
     
     return existente_plz, existente_alm, pendiente_consolidar, listos_para_remitir
 
@@ -35,7 +33,7 @@ def show_page_existente():
     with col_logo:
         st.image('logo.png')
     with col_simpa:
-        st.image('logo_mercovan.png')
+        st.image('logo_lawter.png')
     col1, col2 = st.columns(2)
     col4, col5 = st.columns(2)
     with col4:
