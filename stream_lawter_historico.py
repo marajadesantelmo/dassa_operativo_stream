@@ -12,6 +12,16 @@ def fetch_data_impo_historico():
     historico_verificaciones_impo = historico_verificaciones_impo[historico_verificaciones_impo['Cliente'].str.contains('Lawter')].drop(columns=['Cliente'])
     historico_otros_impo = pd.read_csv('data/historico_otros_impo.csv')
     historico_otros_impo = historico_otros_impo[historico_otros_impo['Cliente'].str.contains('Lawter')].drop(columns=['Cliente'])
+    arribos_expo_carga_historico = pd.read_csv('data/arribos_expo_carga_historico.csv')
+    arribos_expo_carga_historico = arribos_expo_carga_historico[arribos_expo_carga_historico['Cliente'].str.contains('Lawter')]
+    arribos_expo_ctns_historico = pd.read_csv('data/arribos_expo_ctns_historico.csv')
+    arribos_expo_ctns_historico = arribos_expo_ctns_historico[arribos_expo_ctns_historico['Cliente'].str.contains('Lawter')]
+    historico_retiros_expo = pd.read_csv('data/historico_retiros_expo.csv')
+    historico_retiros_expo = historico_retiros_expo[historico_retiros_expo['Cliente'].str.contains('Lawter')]
+    historico_verificaciones_expo = pd.read_csv('data/historico_verificaciones_expo.csv')
+    historico_verificaciones_expo = historico_verificaciones_expo[historico_verificaciones_expo['Cliente'].str.contains('Lawter')]
+    historico_otros_expo = pd.read_csv('data/historico_otros_expo.csv')
+    historico_otros_expo = historico_otros_expo[historico_otros_expo['Cliente'].str.contains('Lawter')]
     return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo
 
 def filter_data(data, start_date, end_date, date_column):
