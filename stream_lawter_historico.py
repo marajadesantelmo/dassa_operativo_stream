@@ -5,15 +5,15 @@ import time
 
 def fetch_data_historico():
     arribos_expo_carga_historico = pd.read_csv('data/arribos_expo_carga_historico.csv')
-    arribos_expo_carga_historico = arribos_expo_carga_historico[arribos_expo_carga_historico['Cliente'].str.contains('Lawter')]
+    arribos_expo_carga_historico = arribos_expo_carga_historico[arribos_expo_carga_historico['Cliente']== 'Lawter Argentina S.A.']
     arribos_expo_ctns_historico = pd.read_csv('data/arribos_expo_ctns_historico.csv')
-    arribos_expo_ctns_historico = arribos_expo_ctns_historico[arribos_expo_ctns_historico['Cliente'].str.contains('Lawter')]
+    arribos_expo_ctns_historico = arribos_expo_ctns_historico[arribos_expo_ctns_historico['Cliente']== 'Lawter Argentina S.A.']
     historico_retiros_expo = pd.read_csv('data/historico_retiros_expo.csv')
-    historico_retiros_expo = historico_retiros_expo[historico_retiros_expo['Cliente'].str.contains('Lawter')]
+    historico_retiros_expo = historico_retiros_expo[historico_retiros_expo['Cliente']== 'Lawter Argentina S.A.']
     historico_verificaciones_expo = pd.read_csv('data/historico_verificaciones_expo.csv')
-    historico_verificaciones_expo = historico_verificaciones_expo[historico_verificaciones_expo['Cliente'].str.contains('Lawter')]
+    historico_verificaciones_expo = historico_verificaciones_expo[historico_verificaciones_expo['Cliente']== 'Lawter Argentina S.A.']
     historico_otros_expo = pd.read_csv('data/historico_otros_expo.csv')
-    historico_otros_expo = historico_otros_expo[historico_otros_expo['Cliente'].str.contains('Lawter')]
+    historico_otros_expo = historico_otros_expo[historico_otros_expo['Cliente']== 'Lawter Argentina S.A.']
     return arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_retiros_expo, historico_verificaciones_expo, historico_otros_expo
 
 def filter_data(data, start_date, end_date, date_column):
@@ -28,7 +28,8 @@ def show_page_historico():
     
     # Convert date columns to datetime
     date_columns = {
-        'arribos_expo_historico': 'Fecha',
+        'arribos_expo_ctns_historico': 'Fecha',
+        'arribos_expo_carga_historico': 'Fecha',
         'historico_retiros_expo': 'Dia',
         'historico_verificaciones_expo': 'Dia',
         'historico_otros_expo': 'Dia'

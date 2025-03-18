@@ -5,21 +5,21 @@ import time
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
     existente_plz = pd.read_csv('data/existente_plz.csv')
-    existente_plz = existente_plz[existente_plz['Cliente'].str.contains('Lawter')].drop(columns=['Cliente'])
+    existente_plz = existente_plz[existente_plz['Cliente']== 'Lawter Argentina S.A.'].drop(columns=['Cliente'])
     existente_plz['Ingreso'] = pd.to_datetime(existente_plz['Ingreso']).dt.strftime('%d-%m-%Y')
     
     existente_alm = pd.read_csv('data/existente_alm.csv')
-    existente_alm = existente_alm[existente_alm['Cliente'].str.contains('Lawter')].drop(columns=['Cliente'])
+    existente_alm = existente_alm[existente_alm['Cliente']== 'Lawter Argentina S.A.'].drop(columns=['Cliente'])
     existente_alm['Ingreso'] = pd.to_datetime(existente_alm['Ingreso']).dt.strftime('%d-%m-%Y')
     
     existente_plz = existente_plz.drop_duplicates()
     existente_alm = existente_alm.drop_duplicates()
     
     pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
-    pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente'].str.contains('Lawter')].drop(columns=['Cliente'])
+    pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente']== 'Lawter Argentina S.A.'].drop(columns=['Cliente'])
     
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
-    listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente'].str.contains('Lawter')].drop(columns=['Cliente'])
+    listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente']== 'Lawter Argentina S.A.'].drop(columns=['Cliente'])
     
     return existente_plz, existente_alm, pendiente_consolidar, listos_para_remitir
 
