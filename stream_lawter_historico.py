@@ -15,6 +15,7 @@ def fetch_data_impo_historico():
     return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo
 
 def filter_data(data, start_date, end_date, date_column):
+    data[date_column] = pd.to_datetime(data[date_column])  # Ensure the date column is datetime
     filtered_data = data[(data[date_column] >= pd.to_datetime(start_date)) & 
                          (data[date_column] <= pd.to_datetime(end_date))]
     filtered_data[date_column] = filtered_data[date_column].dt.strftime('%d/%m/%Y')
@@ -111,4 +112,3 @@ if __name__ == "__main__":
         show_page_impo_historico
         time.sleep(60)  
         st.experimental_rerun()
-
