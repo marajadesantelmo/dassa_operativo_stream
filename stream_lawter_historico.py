@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 import time
 
-def fetch_data_impo_historico():
+def fetch_data_historico():
     arribos_expo_carga_historico = pd.read_csv('data/arribos_expo_carga_historico.csv')
     arribos_expo_carga_historico = arribos_expo_carga_historico[arribos_expo_carga_historico['Cliente'].str.contains('Lawter')]
     arribos_expo_ctns_historico = pd.read_csv('data/arribos_expo_ctns_historico.csv')
@@ -23,8 +23,8 @@ def filter_data(data, start_date, end_date, date_column):
     filtered_data[date_column] = filtered_data[date_column].dt.strftime('%d/%m/%Y')
     return filtered_data
 
-def show_page_impo_historico():
-    arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_retiros_expo, historico_verificaciones_expo, historico_otros_expo = fetch_data_impo_historico()
+def show_page_historico():
+    arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_retiros_expo, historico_verificaciones_expo, historico_otros_expo = fetch_data_historico()
     
     # Convert date columns to datetime
     date_columns = {
@@ -47,7 +47,6 @@ def show_page_impo_historico():
     with col_simpa:
         st.image('logo_lawter.png')
    
-
     col1, col2 = st.columns(2)
 
     with col1: 
@@ -94,6 +93,6 @@ def show_page_impo_historico():
 
 if __name__ == "__main__":
     while True:
-        show_page_impo_historico
+        show_page_historico
         time.sleep(60)  
         st.experimental_rerun()
