@@ -153,10 +153,10 @@ def show_page_impo_historico():
             start_date_verificaciones2 = st.date_input("Fecha Inicio", value='2024-10-23', key='start_date_verificaciones2')
             st.write(f"Fecha Inicio: {start_date_verificaciones2.strftime('%d/%m/%Y')}")
         with col1_5:
-            end_date_verificaciones = st.date_input("Fecha Fin", value='2025-12-31', key='end_date_verificaciones')
-            st.write(f"Fecha Fin: {end_date_verificaciones.strftime('%d/%m/%Y')}")
+            end_date_verificaciones2 = st.date_input("Fecha Fin", value='2025-12-31', key='end_date_verificaciones2')
+            st.write(f"Fecha Fin: {end_date_verificaciones2.strftime('%d/%m/%Y')}")
         with col1_6:
-            filtered_data_verificaciones = filter_data(historico_verificaciones_expo, start_date_verificaciones2, end_date_verificaciones, "Dia")
+            filtered_data_verificaciones = filter_data(historico_verificaciones_expo, start_date_verificaciones2, end_date_verificaciones2, "Dia")
         st.dataframe(filtered_data_verificaciones, hide_index=True, use_container_width=True)
 
     with col2:
