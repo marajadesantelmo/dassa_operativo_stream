@@ -17,9 +17,10 @@ def fetch_data_historico():
     return arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_retiros_expo, historico_verificaciones_expo, historico_otros_expo
 
 def filter_data(data, start_date, end_date, date_column):
-    data[date_column] = pd.to_datetime(data[date_column])  # Ensure the date column is datetime
+    data[date_column] = pd.to_datetime(data[date_column], errors='coerce')  # Ensure the date column is datetime
     filtered_data = data[(data[date_column] >= pd.to_datetime(start_date)) & 
                          (data[date_column] <= pd.to_datetime(end_date))]
+    filtered_data = filtered_data.dropna(subset=[date_column])  # Drop rows where date conversion failed
     filtered_data[date_column] = filtered_data[date_column].dt.strftime('%d/%m/%Y')
     return filtered_data
 
