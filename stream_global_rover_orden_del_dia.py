@@ -5,28 +5,30 @@ import time
 from utils import highlight
 
 def fetch_data_orden_del_dia():
+    clientes_global_rover = pd.read_csv('data/clientes_global_rover.csv')
+    clientes_global_rover = clientes_global_rover['apellido'].tolist()
     arribos = pd.read_csv('data/arribos.csv')
-    arribos = arribos[arribos['Cliente'].str.contains('Lift|Edelweiss')]
+    arribos = arribos[arribos['Cliente'].isin(clientes_global_rover)]
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
-    pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar['Cliente'].str.contains('Lift|Edelweiss')]
+    pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar['Cliente'].isin(clientes_global_rover)]
     verificaciones_impo = pd.read_csv('data/verificaciones_impo.csv')
-    verificaciones_impo = verificaciones_impo[verificaciones_impo['Cliente'].str.contains('Lift|Edelweiss')]
+    verificaciones_impo = verificaciones_impo[verificaciones_impo['Cliente'].isin(clientes_global_rover)]
     retiros_impo = pd.read_csv('data/retiros_impo.csv')
-    retiros_impo = retiros_impo[retiros_impo['Cliente'].str.contains('Lift|Edelweiss')]
+    retiros_impo = retiros_impo[retiros_impo['Cliente'].isin(clientes_global_rover)]
     otros_impo = pd.read_csv('data/otros_impo.csv')
-    otros_impo = otros_impo[otros_impo['Cliente'].str.contains('Lift|Edelweiss')]
+    otros_impo = otros_impo[otros_impo['Cliente'].isin(clientes_global_rover)]
     arribos_expo_carga = pd.read_csv('data/arribos_expo_carga.csv')
-    arribos_expo_carga = arribos_expo_carga[arribos_expo_carga['Cliente'].str.contains('Lift|Edelweiss')]
+    arribos_expo_carga = arribos_expo_carga[arribos_expo_carga['Cliente'].isin(clientes_global_rover)]
     arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
-    arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns['Cliente'].str.contains('Lift|Edelweiss')]
+    arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns['Cliente'].isin(clientes_global_rover)]
     verificaciones_expo = pd.read_csv('data/verificaciones_expo.csv')
-    verificaciones_expo = verificaciones_expo[verificaciones_expo['Cliente'].str.contains('Lift|Edelweiss')]
+    verificaciones_expo = verificaciones_expo[verificaciones_expo['Cliente'].isin(clientes_global_rover)]
     otros_expo = pd.read_csv('data/otros_expo.csv')
-    otros_expo = otros_expo[otros_expo['Cliente'].str.contains('Lift|Edelweiss')]
+    otros_expo = otros_expo[otros_expo['Cliente'].isin(clientes_global_rover)]
     remisiones = pd.read_csv('data/remisiones.csv')
-    remisiones = remisiones[remisiones['Cliente'].str.contains('Lift|Edelweiss')]
+    remisiones = remisiones[remisiones['Cliente'].isin(clientes_global_rover)]
     consolidados = pd.read_csv('data/consolidados.csv')
-    consolidados = consolidados[consolidados['Cliente'].str.contains('Lift|Edelweiss')]
+    consolidados = consolidados[consolidados['Cliente'].isin(clientes_global_rover)]
     return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados
     
 def show_page_orden_del_dia():
@@ -40,7 +42,7 @@ def show_page_orden_del_dia():
     with col_logo:
         st.image('logo.png')
     with col_simpa:
-        st.image('logo_liftvan.png')
+        st.image('logo_global_rover.png')
     col1, col2 = st.columns(2)
 
     col1, col2 = st.columns(2)
