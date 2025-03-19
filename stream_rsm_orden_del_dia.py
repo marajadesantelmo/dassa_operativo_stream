@@ -5,30 +5,29 @@ import time
 from utils import highlight
 
 def fetch_data_orden_del_dia():
-    clientes_global_rover = pd.read_csv('data/clientes_global_rover.csv')
-    clientes_global_rover = clientes_global_rover['apellido'].tolist()
+    clientes_rsm = ['Grupo Rsm Srl', 'Noah Servicess.R.L.']
     arribos = pd.read_csv('data/arribos.csv')
-    arribos = arribos[arribos['Cliente'].isin(clientes_global_rover)]
+    arribos = arribos[arribos['Cliente'].isin(clientes_rsm)]
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
-    pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar['Cliente'].isin(clientes_global_rover)]
+    pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar['Cliente'].isin(clientes_rsm)]
     verificaciones_impo = pd.read_csv('data/verificaciones_impo.csv')
-    verificaciones_impo = verificaciones_impo[verificaciones_impo['Cliente'].isin(clientes_global_rover)]
+    verificaciones_impo = verificaciones_impo[verificaciones_impo['Cliente'].isin(clientes_rsm)]
     retiros_impo = pd.read_csv('data/retiros_impo.csv')
-    retiros_impo = retiros_impo[retiros_impo['Cliente'].isin(clientes_global_rover)]
+    retiros_impo = retiros_impo[retiros_impo['Cliente'].isin(clientes_rsm)]
     otros_impo = pd.read_csv('data/otros_impo.csv')
-    otros_impo = otros_impo[otros_impo['Cliente'].isin(clientes_global_rover)]
+    otros_impo = otros_impo[otros_impo['Cliente'].isin(clientes_rsm)]
     arribos_expo_carga = pd.read_csv('data/arribos_expo_carga.csv')
-    arribos_expo_carga = arribos_expo_carga[arribos_expo_carga['Cliente'].isin(clientes_global_rover)]
+    arribos_expo_carga = arribos_expo_carga[arribos_expo_carga['Cliente'].isin(clientes_rsm)]
     arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
-    arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns['Cliente'].isin(clientes_global_rover)]
+    arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns['Cliente'].isin(clientes_rsm)]
     verificaciones_expo = pd.read_csv('data/verificaciones_expo.csv')
-    verificaciones_expo = verificaciones_expo[verificaciones_expo['Cliente'].isin(clientes_global_rover)]
+    verificaciones_expo = verificaciones_expo[verificaciones_expo['Cliente'].isin(clientes_rsm)]
     otros_expo = pd.read_csv('data/otros_expo.csv')
-    otros_expo = otros_expo[otros_expo['Cliente'].isin(clientes_global_rover)]
+    otros_expo = otros_expo[otros_expo['Cliente'].isin(clientes_rsm)]
     remisiones = pd.read_csv('data/remisiones.csv')
-    remisiones = remisiones[remisiones['Cliente'].isin(clientes_global_rover)]
+    remisiones = remisiones[remisiones['Cliente'].isin(clientes_rsm)]
     consolidados = pd.read_csv('data/consolidados.csv')
-    consolidados = consolidados[consolidados['Cliente'].isin(clientes_global_rover)]
+    consolidados = consolidados[consolidados['Cliente'].isin(clientes_rsm)]
     return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados
     
 def show_page_orden_del_dia():
@@ -42,7 +41,7 @@ def show_page_orden_del_dia():
     with col_logo:
         st.image('logo.png')
     with col_simpa:
-        st.image('logo_global_rover.png')
+        st.image('logo_rsm.png')
     col1, col2 = st.columns(2)
 
     col1, col2 = st.columns(2)

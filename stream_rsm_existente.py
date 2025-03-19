@@ -6,18 +6,17 @@ from utils import highlight
 
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
-    clientes_global_rover = pd.read_csv('data/clientes_global_rover.csv')
-    clientes_global_rover = clientes_global_rover['apellido'].tolist()
+    clientes_rsm = ['Grupo Rsm Srl', 'Noah Servicess.R.L.']
     existente_plz = pd.read_csv('data/existente_plz.csv')
-    existente_plz = existente_plz[existente_plz['Cliente'].isin(clientes_global_rover)]
+    existente_plz = existente_plz[existente_plz['Cliente'].isin(clientes_rsm)]
     existente_alm = pd.read_csv('data/existente_alm.csv')
-    existente_alm = existente_alm[existente_alm['Cliente'].isin(clientes_global_rover)]
+    existente_alm = existente_alm[existente_alm['Cliente'].isin(clientes_rsm)]
     existente_plz = existente_plz.drop_duplicates()
     existente_alm = existente_alm.drop_duplicates()
     pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
-    pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente'].isin(clientes_global_rover)]
+    pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente'].isin(clientes_rsm)]
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
-    listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente'].isin(clientes_global_rover)]
+    listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente'].isin(clientes_rsm)]
     return existente_plz, existente_alm, pendiente_consolidar, listos_para_remitir
 
 def show_page_existente():
@@ -30,7 +29,7 @@ def show_page_existente():
     with col_logo:
         st.image('logo.png')
     with col_simpa:
-        st.image('logo_global_rover.png')
+        st.image('logo_rsm.png')
     col1, col2 = st.columns(2)
     col4, col5 = st.columns(2)
     with col4:

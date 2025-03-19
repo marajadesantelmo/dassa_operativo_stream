@@ -4,26 +4,25 @@ from datetime import datetime
 import time
 
 def fetch_data_impo_historico():
-    clientes_global_rover = pd.read_csv('data/clientes_global_rover.csv')
-    clientes_global_rover = clientes_global_rover['apellido'].tolist()
+    clientes_rsm = ['Grupo Rsm Srl', 'Noah Servicess.R.L.']
     arribos_impo_historico = pd.read_csv('data/arribos_impo_historico.csv')
-    arribos_impo_historico = arribos_impo_historico[arribos_impo_historico['Cliente'].isin(clientes_global_rover)]
+    arribos_impo_historico = arribos_impo_historico[arribos_impo_historico['Cliente'].isin(clientes_rsm)]
     historico_retiros_impo = pd.read_csv('data/historico_retiros_impo.csv')
-    historico_retiros_impo = historico_retiros_impo[historico_retiros_impo['Cliente'].isin(clientes_global_rover)]
+    historico_retiros_impo = historico_retiros_impo[historico_retiros_impo['Cliente'].isin(clientes_rsm)]
     historico_verificaciones_impo = pd.read_csv('data/historico_verificaciones_impo.csv')
-    historico_verificaciones_impo = historico_verificaciones_impo[historico_verificaciones_impo['Cliente'].isin(clientes_global_rover)]
+    historico_verificaciones_impo = historico_verificaciones_impo[historico_verificaciones_impo['Cliente'].isin(clientes_rsm)]
     historico_otros_impo = pd.read_csv('data/historico_otros_impo.csv')
-    historico_otros_impo = historico_otros_impo[historico_otros_impo['Cliente'].isin(clientes_global_rover)]
+    historico_otros_impo = historico_otros_impo[historico_otros_impo['Cliente'].isin(clientes_rsm)]
     arribos_expo_carga_historico = pd.read_csv('data/arribos_expo_carga_historico.csv')
-    arribos_expo_carga_historico = arribos_expo_carga_historico[arribos_expo_carga_historico['Cliente'].isin(clientes_global_rover)]
+    arribos_expo_carga_historico = arribos_expo_carga_historico[arribos_expo_carga_historico['Cliente'].isin(clientes_rsm)]
     arribos_expo_ctns_historico = pd.read_csv('data/arribos_expo_ctns_historico.csv')
-    arribos_expo_ctns_historico = arribos_expo_ctns_historico[arribos_expo_ctns_historico['Cliente'].isin(clientes_global_rover)]
+    arribos_expo_ctns_historico = arribos_expo_ctns_historico[arribos_expo_ctns_historico['Cliente'].isin(clientes_rsm)]
     historico_retiros_expo = pd.read_csv('data/historico_retiros_expo.csv')
-    historico_retiros_expo = historico_retiros_expo[historico_retiros_expo['Cliente'].isin(clientes_global_rover)]
+    historico_retiros_expo = historico_retiros_expo[historico_retiros_expo['Cliente'].isin(clientes_rsm)]
     historico_verificaciones_expo = pd.read_csv('data/historico_verificaciones_expo.csv')
-    historico_verificaciones_expo = historico_verificaciones_expo[historico_verificaciones_expo['Cliente'].isin(clientes_global_rover)]
+    historico_verificaciones_expo = historico_verificaciones_expo[historico_verificaciones_expo['Cliente'].isin(clientes_rsm)]
     historico_otros_expo = pd.read_csv('data/historico_otros_expo.csv')
-    historico_otros_expo = historico_otros_expo[historico_otros_expo['Cliente'].isin(clientes_global_rover)]
+    historico_otros_expo = historico_otros_expo[historico_otros_expo['Cliente'].isin(clientes_rsm)]
 
 
     return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo, arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_retiros_expo, historico_verificaciones_expo, historico_otros_expo
@@ -60,7 +59,7 @@ def show_page_impo_historico():
     with col_logo:
         st.image('logo.png')
     with col_simpa:
-        st.image('logo_global_rover.png')
+        st.image('logo_rsm.png')
     col1, col2 = st.columns(2)
 
     with col1: 
