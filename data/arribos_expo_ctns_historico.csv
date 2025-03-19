@@ -1,5 +1,8 @@
 Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-17,32172,HLBU-178997-9,Mercovan Argentina Srl,33038718,0432331             ,Arribado
+2025-03-19,32264,MSNU-215560-8,Mercovan Argentina Srl,25001PER1000119W,                    ,Arribado
+2025-03-18,32265,HLXU-350834-2,Mercovan Argentina Srl,25001PE01000079Z,                    ,Arribado
+2025-03-18,32266,TCLU-870109-4,Mercovan Argentina Srl,LM0411486,********            ,Arribado
 2025-02-19,31601,MRSU-026068-4,Mercovan Argentina Srl,250247354,*************       ,Arribado
 2025-02-24,31729,FANU-175150-6,Mercovan Argentina Srl,92875335,                    ,Arribado
 2025-02-19,31588,CMAU-069458-6,Mercovan Argentina Srl,USG0296304,R1947319            ,Arribado
@@ -23,6 +26,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-20,29710,FCIU-630540-8,Lift Van Int. Co S.A,69648499,*********           ,Arribado
 2024-11-20,29712,DRYU-201042-2,Lift Van Int. Co S.A,64315723,******************* ,Arribado
 2025-03-17,32160,UACU-842407-0,Lift Van Int. Co S.A,51582430,*************       ,Arribado
+2025-03-19,32277,HLBU-275516-6,Lift Van Int. Co S.A,46643933,************        ,Arribado
+2025-03-19,32278,HLXU-111801-0,Lift Van Int. Co S.A,90181330,*****************   ,Arribado
 2025-03-07,32004,UACU-847017-9,Lift Van Int. Co S.A,28437559,                    ,Arribado
 2025-03-12,32079,FCIU-655566-5,Lift Van Int. Co S.A,29472184,***************     ,Arribado
 2025-02-19,31587,CMAU-017821-3,Lift Van Int. Co S.A,BUA0336878,R1947319            ,Arribado
@@ -136,6 +141,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-17,32230,MSNU-787848-8,A La Orden,EBKG11849086,FX32985399          ,Arribado
 2025-03-17,32231,MSNU-972358-8,A La Orden,EBKG11849086,FX32985366          ,Arribado
 2025-03-17,32232,TRHU-726359-0,A La Orden,EBKG11849086,FX32985365          ,Arribado
+2025-03-19,32276,UACU-857844-0,A La Orden,16101230,HLD0432333          ,Arribado
 2025-02-13,31423,MEDU-860068-4,A La Orden,EBKG11704878,FX32989230          ,Arribado
 2025-02-19,31581,UACU-852153-2,A La Orden,13408274,******************  ,Arribado
 2025-02-25,31766,TRHU-817491-8,A La Orden,250434316,***************     ,Arribado
@@ -160,6 +166,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-10,30119,SIMU-706124-7,Dpmg S.A.,24001EC03013820C,                    ,Arribado
 2024-12-10,30120,SIMU-703784-7,Dpmg S.A.,24001EC03013824G,                    ,Arribado
 2024-12-10,30121,SIMU-706403-5,Dpmg S.A.,24001EC03013823F,                    ,Arribado
+2025-03-19,32272,,Dpmg S.A.,EC03002811B,                    ,Arribado
 2024-11-22,29763,TRHU-388317-1,Refractarios Argentinos Saicm,BUEE14981800,***************     ,Arribado
 2024-12-05,30050,FCIU-567195-3,Refractarios Argentinos Saicm,BUEE15406800,                    ,Arribado
 2024-12-05,30061,TRLU-973195-5,Refractarios Argentinos Saicm,BUEE15166400,                    ,Arribado
@@ -690,10 +697,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-25,29838,MSNU-195357-9,Borax Argentina S A,EBKG10928591,FX26274179          ,Arribado
 2024-12-02,29925,MSNU-123766-1,Borax Argentina S A,EBKG10992994,FX26275720          ,Arribado
 2024-12-09,30097,TGBU-259038-6,Borax Argentina S A,EBKG11017196,FX26264010          ,Arribado
+2025-03-19,32280,MRKU-781761-3,Borax Argentina S A,251189103,***                 ,Arribado
+2025-03-19,32281,BMOU-265547-8,Borax Argentina S A,251189103,*********           ,Arribado
 2025-03-17,32227,ECMU-193010-1,Borax Argentina S A,BUA0337447,                    ,Arribado
 2025-03-17,32228,TRHU-175523-2,Borax Argentina S A,BUA0337447,                    ,Arribado
 2025-03-17,32229,TCLU-347572-8,Borax Argentina S A,BUA0337447,                    ,Arribado
 2025-03-18,32249,MRKU-445545-0,Borax Argentina S A,251188909,*********           ,Arribado
+2025-03-18,32254,TRHU-114876-9,Borax Argentina S A,251189103,******************  ,Arribado
 2025-03-17,32223,CMAU-049956-9,Borax Argentina S A,BUA0337447,                    ,Arribado
 2025-03-17,32224,TGHU-129031-8,Borax Argentina S A,BUA0337447,                    ,Arribado
 2025-03-17,32225,GLDU-959221-5,Borax Argentina S A,BUA0337447,                    ,Arribado
@@ -925,6 +935,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-26,29845,FFAU-159814-2,Norfor Sa,340400043512,                    ,Arribado
 2024-11-26,29849,EISU-947064-3,Norfor Sa,340400043512,*******             ,Arribado
 2024-11-26,29850,EGHU-841044-7,Norfor Sa,340400043512,***************     ,Arribado
+2025-03-19,32282,MSBU-507045-1,Norfor Sa,EBKG12139370,FX32987224          ,Arribado
+2025-03-19,32283,MSBU-683237-7,Norfor Sa,EBKG12139370,FX32987220          ,Arribado
+2025-03-19,32284,CAAU-740280-2,Norfor Sa,EBKG12139370,FX32987231          ,Arribado
+2025-03-19,32285,MSBU-506595-9,Norfor Sa,EBKG12139370,FX32987227          ,Arribado
+2025-03-19,32286,TRHU-756059-9,Norfor Sa,EBKG12139370,FX32987226          ,Arribado
 2025-02-27,31840,EITU-191117-6,Norfor Sa,340500007232,************        ,Arribado
 2025-02-27,31844,CAAU-587940-0,Norfor Sa,340500007232,*************       ,Arribado
 2025-02-27,31943,CAAU-866621-9,Norfor Sa,340500007232,                    ,Arribado
@@ -1048,6 +1063,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-17,30291,UACU-384616-0,Adp Trading Srl,24001EC01083497R,                    ,Arribado
 2024-12-17,30292,SEGU-358124-8,Adp Trading Srl,24001EC01083497R,                    ,Arribado
 2025-03-12,32112,,Dsi Underground Sa,25001EC01014687N,                    ,Arribado
+2025-03-18,32263,,Dsi Underground Sa,25001EC01015871J,                    ,Arribado
 2024-12-17,30267,DFSU-741898-0,Forestal Bosques Del Plata Sa,62654748,********************,Arribado
 2024-12-17,30268,FSCU-723917-2,Forestal Bosques Del Plata Sa,62654748,******************* ,Arribado
 2024-12-17,30269,TCLU-556446-5,Forestal Bosques Del Plata Sa,62654748,************        ,Arribado
@@ -1117,6 +1133,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-11-28,29885,TGBU-458198-0,Sandrin Paola Karina,34040003831,************        ,Arribado
 2024-11-28,29886,TCNU-208593-3,Sandrin Paola Karina,34040003831,*********           ,Arribado
 2025-02-24,31704,MSMU-518627-6,Sandrin Paola Karina,EBKG11804935,FX-32986033         ,Arribado
+2025-03-18,32256,MEDU-786221-0,Sandrin Paola Karina,EBKG12050289,                    ,Arribado
 2025-02-24,31678,MSMU-603459-7,Sandrin Paola Karina,EBKG118049358,FX32986088          ,Arribado
 2025-02-24,31688,TGBU-795451-5,Sandrin Paola Karina,EBKG11804935,FX32986078          ,Arribado
 2025-02-24,31700,MSDU-729930-0,Sandrin Paola Karina,EBKG11804935,FX-32986116         ,Arribado
