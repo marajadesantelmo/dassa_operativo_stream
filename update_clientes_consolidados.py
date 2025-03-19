@@ -19,7 +19,6 @@ server = '101.44.8.58\\SQLEXPRESS_X86,1436'
 conn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';UID='+username+';PWD='+ password)
 cursor = conn.cursor()
 
-#%% Clientes nuevos
 print('Clientes Global comex')
 cursor.execute(f"""
 SELECT  apellido
@@ -32,7 +31,8 @@ clientes_global_comex = pd.DataFrame.from_records(rows, columns=columns)
 
 clientes_global_comex['apellido'] = clientes_global_comex['apellido'].str.title().str.strip()
 clientes_global_comex['apellido'] = clientes_global_comex['apellido'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
-
+global_comex = pd.DataFrame({'apellido': ['Global Comex Srl']})
+clientes_global_comex = pd.concat([clientes_global_comex, global_comex])
 clientes_global_comex.to_csv('data/clientes_global_comex.csv', index=False)
 
 print('Clientes Global Rover')
@@ -47,5 +47,6 @@ clientes_global_rover = pd.DataFrame.from_records(rows, columns=columns)
 
 clientes_global_rover['apellido'] = clientes_global_rover['apellido'].str.title().str.strip()
 clientes_global_rover['apellido'] = clientes_global_rover['apellido'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
-
+global_rover = pd.DataFrame({'apellido': ['Global Rover Srl']})
+clientes_global_rover = pd.concat([clientes_global_rover, global_rover])
 clientes_global_rover.to_csv('data/clientes_global_rover.csv', index=False)
