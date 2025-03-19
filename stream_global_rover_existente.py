@@ -6,18 +6,18 @@ from utils import highlight
 
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
+    clientes_global_rover = pd.read_csv('data/clientes_global_rover.csv')
+    clientes_global_rover = clientes_global_rover['apellido'].tolist()
     existente_plz = pd.read_csv('data/existente_plz.csv')
-    existente_plz = existente_plz[existente_plz['Cliente'].str.contains('Lift|Edelweiss')]
-    existente_plz = existente_plz.rename(columns={'Desc': 'Mudable'})
+    existente_plz = existente_plz[existente_plz['Cliente'].isin(clientes_global_rover)]
     existente_alm = pd.read_csv('data/existente_alm.csv')
-    existente_alm = existente_alm[existente_alm['Cliente'].str.contains('Lift|Edelweiss')]
-    existente_plz = existente_plz.rename(columns={'Desc': 'Mudable'})
+    existente_alm = existente_alm[existente_alm['Cliente'].isin(clientes_global_rover)]
     existente_plz = existente_plz.drop_duplicates()
     existente_alm = existente_alm.drop_duplicates()
     pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
-    pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente'].str.contains('Lift|Edelweiss')]
+    pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente'].isin(clientes_global_rover)]
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
-    listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente'].str.contains('Lift|Edelweiss')]
+    listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente'].isin(clientes_global_rover)]
     return existente_plz, existente_alm, pendiente_consolidar, listos_para_remitir
 
 def show_page_existente():
