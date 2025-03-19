@@ -38,7 +38,7 @@ def show_page_historico():
     for df_name, date_col in date_columns.items():
         df = locals()[df_name]
         if not df.empty:
-            df[date_col] = pd.to_datetime(df[date_col])
+            df[date_col] = pd.to_datetime(df[date_col], errors='coerce')  # Ensure the date column is datetime
     
     
         col_title, col_logo, col_simpa = st.columns([5, 1, 1])
