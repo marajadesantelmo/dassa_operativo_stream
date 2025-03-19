@@ -30,7 +30,7 @@ def show_page_existente():
     with col_logo:
         st.image('logo.png')
     with col_simpa:
-        st.image('logo_liftvan.png')
+        st.image('logo_global_rover.png')
     col1, col2 = st.columns(2)
     col4, col5 = st.columns(2)
     with col4:
