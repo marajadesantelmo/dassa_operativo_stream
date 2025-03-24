@@ -1,7 +1,7 @@
 Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e-tally
 2024-11-29,07:00,Terminal 4,MSKU-717784-2,Mercovan Argentina Srl,245395964,TD,2024-11-29,976,http://dassa.mqbic.com/PublicTally.php?id=976
 2024-12-09,11:00,Exolgan,GCXU-244366-0,Mercovan Argentina Srl,HLUSPIL240905003,TD,2024-12-09,1026,http://dassa.mqbic.com/PublicTally.php?id=1026
-2025-03-19,15:00,Exolgan,HLBU-137125-3,Mercovan Argentina Srl,HLCUME3241258426,TD,2025-03-19,,
+2025-03-19,15:00,Exolgan,HLBU-137125-3,Mercovan Argentina Srl,HLCUME3241258426,TD,2025-03-19,1602,http://dassa.mqbic.com/PublicTally.php?id=1602
 2025-03-19,,10074,MSNU-218174-1,Mercovan Argentina Srl,EBKG11967055,TD,,,
 2025-03-12,15:00,TRP,KOCU-218546-6,Mercovan Argentina Srl,HDMUSELM51209300,TD,2025-03-12,1547,http://dassa.mqbic.com/PublicTally.php?id=1547
 2025-03-13,15:00,TRP,CSNU-402528-6,Mercovan Argentina Srl,OOLU2755584730,TD,2025-03-13,1565,http://dassa.mqbic.com/PublicTally.php?id=1565
@@ -42,8 +42,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2024-12-17,12:00,Terminal 4,MRKU-900086-0,Lift Van Int. Co S.A,243923523,TD,2024-12-17,1048,http://dassa.mqbic.com/PublicTally.php?id=1048
 2025-03-14,08:00,Terminal 4,BMOU-582487-0,Lift Van Int. Co S.A,HLCUBSC2502BEAB0,T,2025-03-14,,
 2025-03-14,15:00,TRP,TCKU-432363-5,Lift Van Int. Co S.A,ONEYLIVF01071900,TD,2025-03-14,1564,http://dassa.mqbic.com/PublicTally.php?id=1564
-2025-03-19,15:00,Exolgan,HAMU-268974-2,Lift Van Int. Co S.A,HLCUTOR241201225,TD,2025-03-19,,
-2025-03-20,11:00,Exolgan,HLXU-538178-7,Lift Van Int. Co S.A,HLCUGOA2501ATTL3,TD,2025-03-20,,
+2025-03-19,15:00,Exolgan,HAMU-268974-2,Lift Van Int. Co S.A,HLCUTOR241201225,TD,2025-03-19,1600,http://dassa.mqbic.com/PublicTally.php?id=1600
+2025-03-20,11:00,Exolgan,HLXU-538178-7,Lift Van Int. Co S.A,HLCUGOA2501ATTL3,TD,2025-03-20,1604,http://dassa.mqbic.com/PublicTally.php?id=1604
 2025-03-14,08:00,Terminal 4,GESU-641730-0,Lift Van Int. Co S.A,HLCUBSC2502BEAB0,T,2025-03-14,,
 2025-03-14,08:00,Terminal 4,HLBU-201907-8,Lift Van Int. Co S.A,HLCUBSC2502BEAB0,T,2025-03-14,,
 2025-03-14,08:00,Terminal 4,HLXU-800199-9,Lift Van Int. Co S.A,HLCUBSC2502BEAB0,T,2025-03-14,,
@@ -104,8 +104,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2024-12-11,07:00,Exolgan,KKTU-801367-1,Lift Van Int. Co S.A,ONEYRICEJT565800,TD,2024-12-11,1029,http://dassa.mqbic.com/PublicTally.php?id=1029
 2024-11-27,07:00,Terminal 4,TCLU-171951-1,Edelweiss Spedition Srl,244576558,TD,2024-11-27,968,http://dassa.mqbic.com/PublicTally.php?id=968
 2024-12-09,13:00,Exolgan,GLDU-406499-8,Edelweiss Spedition Srl,MEDUM2670922,TD,2024-12-09,1027,http://dassa.mqbic.com/PublicTally.php?id=1027
-2025-03-19,15:00,Exolgan,UACU-838789-2,Edelweiss Spedition Srl,HLCUME3250126334,TD,2025-03-19,,
-2025-03-19,15:00,Exolgan,FBLU-001262-1,Edelweiss Spedition Srl,HLCUME32050126334,TD,2025-03-19,,
+2025-03-19,15:00,Exolgan,UACU-838789-2,Edelweiss Spedition Srl,HLCUME3250126334,TD,2025-03-19,1601,http://dassa.mqbic.com/PublicTally.php?id=1601
+2025-03-19,15:00,Exolgan,FBLU-001262-1,Edelweiss Spedition Srl,HLCUME32050126334,TD,2025-03-19,1603,http://dassa.mqbic.com/PublicTally.php?id=1603
 2025-03-17,11:00,Exolgan,TGHU-520251-0,Edelweiss Spedition Srl,HLCULI3250112695,TD,2025-03-17,1578,http://dassa.mqbic.com/PublicTally.php?id=1578
 2025-03-17,11:00,Exolgan,HLBU-274895-3,Edelweiss Spedition Srl,HLCUGY3250110620,TD,2025-03-17,1579,http://dassa.mqbic.com/PublicTally.php?id=1579
 2025-03-17,11:00,Exolgan,HLBU-184564-5,Edelweiss Spedition Srl,HLCUGY3250121853,TD,2025-03-17,1577,http://dassa.mqbic.com/PublicTally.php?id=1577
@@ -423,7 +423,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-01-08,13:00,TRP,KOCU-434678-6,Novelty Trend Srl,TWLE24100081,TD,2025-01-08,1167,http://dassa.mqbic.com/PublicTally.php?id=1167
 2025-02-14,11:00,Exolgan,FFAU-653213-2,Novelty Trend Srl,TWLE24120246,TD,2025-02-14,1341,http://dassa.mqbic.com/PublicTally.php?id=1341
 2025-02-28,18:00,TRP,TCLU-889374-1,Novelty Trend Srl,TWLE25010033,TD,2025-02-28,1487,http://dassa.mqbic.com/PublicTally.php?id=1487
-2025-03-18,18:00,TRP,TGBU-691805-1,Novelty Trend Srl,TWLE25010127,TD,2025-03-18,,
+2025-03-18,18:00,TRP,TGBU-691805-1,Novelty Trend Srl,TWLE25010127,TD,2025-03-18,1589,http://dassa.mqbic.com/PublicTally.php?id=1589
 2024-12-12,10:00,Terminal 4,MRKU-036072-0,Transcargo Argentina Sa,245172558,TD,2024-12-12,1040,http://dassa.mqbic.com/PublicTally.php?id=1040
 2024-12-12,10:00,Terminal 4,MRKU-036072-0,Transcargo Argentina Sa,245172558,TD,2024-12-12,1040,http://dassa.mqbic.com/PublicTally.php?id=1040
 2024-12-12,10:00,Terminal 4,MRKU-036072-0,Transcargo Argentina Sa,245172558,TD,2024-12-12,1040,http://dassa.mqbic.com/PublicTally.php?id=1040
@@ -468,7 +468,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-02-14,16:00,TRP,EGSU-971473-0,Ba Comex S.A,TWLE24120170,T,2025-02-14,,
 2025-02-14,13:00,Exolgan,FFAU-651668-2,Ba Comex S.A,TWLE24120239,TD,2025-02-14,1350,http://dassa.mqbic.com/PublicTally.php?id=1350
 2024-12-27,16:00,TRP,OOCU-762371-8,Sematryn Sa,OLGM246301,TD,2024-12-27,1088,http://dassa.mqbic.com/PublicTally.php?id=1088
-2025-03-18,19:00,TRP,EGSU-158551-3,Bulldog Solutions S.A.,NB250155390,TD,2025-03-18,,
+2025-03-18,19:00,TRP,EGSU-158551-3,Bulldog Solutions S.A.,NB250155390,TD,2025-03-18,1598,http://dassa.mqbic.com/PublicTally.php?id=1598
 2025-03-13,15:00,TRP,HDMU-277979-8,Transcar Srl,NGXSE25014724,T,2025-03-13,,
 2025-02-03,12:00,Terminal 4,TGHU-508048-0,Gematec Srl,H01EMKK24010000,TD,2025-02-03,1285,http://dassa.mqbic.com/PublicTally.php?id=1285
 2025-02-03,11:00,Terminal 4,TCLU-424762-0,Gematec Srl,H02EMKK24010000,TD,2025-02-03,1286,http://dassa.mqbic.com/PublicTally.php?id=1286
@@ -722,7 +722,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-02-28,05:00,Exolgan,TCNU-141547-6,Chelatex Sas,GILNB241201124,T,2025-02-28,1450,http://dassa.mqbic.com/PublicTally.php?id=1450
 2025-02-28,05:00,Exolgan,TGBU-801711-3,Chelatex Sas,GILNB241200526,T,2025-02-28,,
 2025-02-28,05:00,Exolgan,MSDU-866155-8,Chelatex Sas,GILNB241200745,T,2025-02-28,,
-2025-03-11,11:00,Exolgan,MSNU-735736-6,Chelatex Sas,GILNB241200851,T,2025-03-11,,
+2025-03-11,11:00,Exolgan,MSNU-735736-6,Chelatex Sas,GILNB241200851,T,2025-03-11,1539,http://dassa.mqbic.com/PublicTally.php?id=1539
 2025-03-11,11:00,Exolgan,UETU-755072-0,Chelatex Sas,GILNB241200838,TD,2025-03-11,1540,http://dassa.mqbic.com/PublicTally.php?id=1540
 2025-03-06,15:00,Exolgan,UETU-626850-1,Parnacar S.A,NBOE24011922,T,2025-03-06,,
 2025-03-11,13:00,Exolgan,MSNU-659961-6,Parnacar S.A,NBOE25012319,T,2025-03-11,,
