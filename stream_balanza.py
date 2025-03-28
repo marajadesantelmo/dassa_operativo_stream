@@ -68,7 +68,7 @@ def show_page_balanza():
             )
         st.success(f"Comprobante generado: {pdf_output}")
     
-    st.header("Histórico de Pesadas")
+    st.title("Histórico de Pesadas")
     st.write("Importación")
     st.dataframe(balanza_historico_impo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
     st.write("Exportación")
