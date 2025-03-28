@@ -27,11 +27,11 @@ def fetch_data_balanza():
     balanza_historico_impo = balanza_historico_impo.sort_values(by='Estado', ascending=True)
     balanza_historico_expo = balanza_historico_expo.sort_values(by='Estado', ascending=True)
     
-    return balanza, balanza_impo, balanza_expo, balanza_historico_impo, balanza_historico_expo
+    return balanza, balanza_impo, balanza_expo, balanza_historico_impo, balanza_historico_expo, balanza_historico
 
 def show_page_balanza():
     # Load data
-    balanza, balanza_impo, balanza_expo, balanza_historico_impo, balanza_historico_expo = fetch_data_balanza()
+    balanza, balanza_impo, balanza_expo, balanza_historico_impo, balanza_historico_expo, balanza_historico = fetch_data_balanza()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -64,14 +64,14 @@ def show_page_balanza():
     
     st.subheader("Histórico de Pesadas")
     st.write("Importación")
-    st.dataframe(balanza_historico_impo.style.apply(highlight, axis=1), column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
+    st.dataframe(balanza_historico_impo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
     st.write("Exportación")
-    st.dataframe(balanza_historico_expo.style.apply(highlight, axis=1), column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
+    st.dataframe(balanza_historico_expo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
     
     st.subheader("Generar Comprobante")
     id_pesada_historico = st.selectbox("Seleccione el ID de Pesada Histórico", balanza_historico_impo['ID Pesada'].tolist())
     if st.button("Generar Comprobante Histórico"):
-        balanza_row_historico = balanza_historico_impo[balanza_historico_impo['ID Pesada'] == id_pesada_historico].iloc[0] 
+        balanza_row_historico = balanza_historico[balanza_historico['ID Pesada'] == id_pesada_historico].iloc[0] 
         pdf_historico = generar_comprobante(balanza_row_historico)
         pdf_output_historico = f"comprobante_pesada_historico_{id_pesada_historico}.pdf"
         pdf_historico.output(pdf_output_historico)
