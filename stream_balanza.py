@@ -22,8 +22,14 @@ def fetch_data_balanza():
     balanza_historico = pd.read_csv('data/historico_balanza.csv')
     balanza_historico_impo = balanza_historico[balanza_historico['tipo_oper'] == 'Importacion']
     balanza_historico_expo = balanza_historico[balanza_historico['tipo_oper'] == 'Exportacion']
-    balanza_historico_impo = balanza_historico_impo[columns_impo]
-    balanza_historico_expo = balanza_historico_expo[columns_expo]
+    columns_impo_historico = ['ID Pesada', 'Fecha', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
+       'Peso Neto', 'Tara CNT', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 
+       'Booking', 'Precinto', 'Estado']
+    columns_expo_historico = ['ID Pesada', 'Fecha', 'Cliente', 'ATA',  'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
+       'Peso Neto', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Observaciones',
+       'Booking', 'Permiso Emb.', 'Estado']
+    balanza_historico_impo = balanza_historico_impo[columns_impo_historico]
+    balanza_historico_expo = balanza_historico_expo[columns_expo_historico]
     balanza_historico_impo = balanza_historico_impo.sort_values(by='Estado', ascending=True)
     balanza_historico_expo = balanza_historico_expo.sort_values(by='Estado', ascending=True)
     
