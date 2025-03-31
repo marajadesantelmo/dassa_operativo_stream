@@ -60,8 +60,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-04,29967,MRKU-066067-2,Minera Santa Rita Srl,247187407,***************     ,Arribado
 2024-12-04,29968,MRKU-056414-9,Minera Santa Rita Srl,247187407,************        ,Arribado
 2024-12-04,29969,MRKU-070531-3,Minera Santa Rita Srl,247187407,*************       ,Arribado
-2025-03-31,32505,,Minera Santa Rita Srl,93894297,                    ,Pendiente
-2025-03-31,32506,,Minera Santa Rita Srl,93894297,                    ,Pendiente
+2025-03-31,32545,CAIU-898335-0,Minera Santa Rita Srl,93894297,*************       ,Arribado
+2025-03-31,32505,HLXU-855087-5,Minera Santa Rita Srl,93894297,*********           ,Arribado
+2025-03-31,32506,HLBU-279755-7,Minera Santa Rita Srl,93894297,*****************   ,Arribado
 2025-03-31,32507,,Minera Santa Rita Srl,93894297,                    ,Pendiente
 2025-03-28,32512,HASU-478982-4,Minera Santa Rita Srl,251889522,***********         ,Arribado
 2025-03-28,32513,SUDU-654491-0,Minera Santa Rita Srl,251889522,*************       ,Arribado
@@ -267,7 +268,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-21,32363,,Industrias Quimicas Independencia Sa,25001EC01 017079L,                    ,Pendiente
 2025-03-21,32384,,Industrias Quimicas Independencia Sa,EC01017079L,                    ,Arribado
 2024-12-06,30056,MRSU-383456-0,Kluber Lubrication Argentina S A,247428416,                    ,Arribado
-2025-03-31,32534,,Kluber Lubrication Argentina S A,37362433,                    ,Pendiente
+2025-03-31,32534,HAMU-151696-9,Kluber Lubrication Argentina S A,37362433,***************     ,Arribado
 2025-03-20,32336,TEMU-272720-5,Bdfm Sa,MCORIV027489,R1944691            ,Arribado
 2025-03-05,31884,UACU-414617-7,Bdfm Sa,30037888,************        ,Arribado
 2025-02-14,31456,MRKU-407948-1,Bdfm Sa,249860796,************        ,Arribado
@@ -304,8 +305,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-09,30081,EGHU-934578-9,Isischu Srl,340400044713,                    ,Arribado
 2024-12-09,30082,TGBU-802653-7,Isischu Srl,340400044713,                    ,Arribado
 2025-03-17,32170,CAAU-730177-2,Isischu Srl,EBKG12119947,FX32985458          ,Arribado
-2025-03-31,32535,,Isischu Srl,340500010748,                    ,Pendiente
-2025-03-31,32536,,Isischu Srl,340500010748,                    ,Pendiente
+2025-03-31,32535,TXGU-738353-2,Isischu Srl,340500010748,************        ,Arribado
+2025-03-31,32536,FCIU-998088-4,Isischu Srl,340500010748,****************    ,Arribado
 2025-03-07,31961,MSNU-559098-0,Isischu Srl,EBKG11951839,FX-32987467         ,Arribado
 2025-03-17,32163,MSMU-587191-6,Isischu Srl,EBKG12119947,FX32985462          ,Arribado
 2025-03-17,32165,MSMU-436022-8,Isischu Srl,EBKG12119947,FX32985453          ,Arribado
@@ -687,6 +688,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-09,30099,MSMU-134511-1,Borax Argentina S A,EBKG11017196,FX26312178          ,Arribado
 2025-03-28,32502,,Borax Argentina S A,251188322,                    ,Pendiente
 2025-03-28,32544,MSKU-585349-1,Borax Argentina S A,251188322,***********         ,Arribado
+2025-03-31,32546,TGBU-355646-8,Borax Argentina S A,EBKG12242037,************        ,Arribado
 2025-03-25,32437,CXDU-140248-0,Borax Argentina S A,EBKG12207260,FX32989678          ,Arribado
 2025-03-25,32438,MEDU-694658-0,Borax Argentina S A,EBKG12207260,FX32989733          ,Arribado
 2025-03-25,32439,BMOU-222133-7,Borax Argentina S A,EBKG12207260,FX32989723          ,Arribado
@@ -1103,8 +1105,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-13,30188,TRHU-119868-8,Laboratorio Elea Phoenix Sa,BUEE15573600,                    ,Arribado
 2025-03-12,32132,TLLU-827425-7,Laboratorio Elea Phoenix Sa,251133133,                    ,Arribado
 2025-03-07,31954,MSKU-070689-9,Curtiembre Infante Sa,250671805,****************    ,Arribado
-2025-03-31,32508,,Curtiembre Infante Sa,251643429,                    ,Pendiente
-2025-03-31,32509,,Curtiembre Infante Sa,251643429,                    ,Pendiente
+2025-03-31,32508,MRKU-467230-5,Curtiembre Infante Sa,251643429,*********           ,Arribado
+2025-03-31,32509,MSKU-664540-3,Curtiembre Infante Sa,251643429,****************    ,Arribado
 2024-12-18,30301,MSCU-510410-7,Sandrin Paola Karina,153IAR0646025,FX26266073          ,Arribado
 2024-12-18,30302,MSMU-509566-4,Sandrin Paola Karina,153IAR0646025,FX26266075          ,Arribado
 2024-12-18,30303,MSMU-844430-6,Sandrin Paola Karina,153IAR0646025,FX26266086          ,Arribado
