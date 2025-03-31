@@ -43,7 +43,8 @@ def show_page_expo():
     col3, col4 = st.columns(2)
     with col3:
         st.subheader("Verificaciones")
-        st.dataframe(verificaciones_expo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+        #st.dataframe(verificaciones_expo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+        st.dataframe(verificaciones_expo, hide_index=True, use_container_width=True)
 
         st.subheader("Consolidados")
         st.dataframe(consolidados, hide_index=True, use_container_width=True)
