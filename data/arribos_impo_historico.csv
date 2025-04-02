@@ -4,8 +4,9 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2024-12-18,10:00,TRP,TRHU-170051-7,Mercovan Argentina Srl,IBC1268388,TD,2024-12-18,1055,http://dassa.mqbic.com/PublicTally.php?id=1055
 2024-12-30,19:00,TRP,CMAU-271236-0,Mercovan Argentina Srl,SSN109858,TD,2024-12-30,1108,http://dassa.mqbic.com/PublicTally.php?id=1108
 2025-01-02,12:00,Terminal 4,FANU-324988-4,Mercovan Argentina Srl,HLCUBSC241207530,T,2025-01-02,,
+2025-04-04,07:00,Exolgan,FCIU-474809-5,Mercovan Argentina Srl,HLCUME3250162708,TD,,,
 2025-03-28,15:00,TRP,CMAU-264786-0,Mercovan Argentina Srl,SSZ110981RCS,TD,2025-03-28,1646,http://dassa.mqbic.com/PublicTally.php?id=1646
-2025-04-03,13:00,TRP,TEMU-175517-8,Mercovan Argentina Srl,HDMUSELM25153500,TD,,,
+2025-04-03,16:00,TRP,TEMU-175517-8,Mercovan Argentina Srl,HDMUSELM25153500,TD,,,
 2025-03-19,15:00,Exolgan,HLBU-137125-3,Mercovan Argentina Srl,HLCUME3241258426,TD,2025-03-19,1602,http://dassa.mqbic.com/PublicTally.php?id=1602
 2025-03-19,,10074,MSNU-218174-1,Mercovan Argentina Srl,EBKG11967055,TD,,,
 2025-03-07,15:00,TRP,APZU-460315-1,Mercovan Argentina Srl,MXO0719782,TD,2025-03-07,1517,http://dassa.mqbic.com/PublicTally.php?id=1517
@@ -40,7 +41,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2024-12-11,15:00,Exolgan,HLXU-100994-0,Lift Van Int. Co S.A,HLCUSYD240846938,T,2024-12-11,,
 2024-12-11,15:00,Exolgan,CXDU-167649-6,Lift Van Int. Co S.A,ONEYRICEJW123800,TD,2024-12-11,1036,http://dassa.mqbic.com/PublicTally.php?id=1036
 2025-03-20,11:00,Exolgan,HLXU-538178-7,Lift Van Int. Co S.A,HLCUGOA2501ATTL3,TD,2025-03-20,1604,http://dassa.mqbic.com/PublicTally.php?id=1604
-2025-04-03,12:00,TRP,HMMU-213579-3,Lift Van Int. Co S.A,HDMUSELM09111600,TD,,,
+2025-04-03,16:00,TRP,HMMU-213579-3,Lift Van Int. Co S.A,HDMUSELM09111600,TD,,,
 2025-03-14,08:00,Terminal 4,HLBU-198352-0,Lift Van Int. Co S.A,HLCUBSC2502BEAB0,T,2025-03-14,,
 2025-03-14,08:00,Terminal 4,FANU-341166-0,Lift Van Int. Co S.A,HLCUBSC2502BEAB0,T,2025-03-14,,
 2025-03-14,08:00,Terminal 4,BMOU-582487-0,Lift Van Int. Co S.A,HLCUBSC2502BEAB0,T,2025-03-14,,
@@ -100,7 +101,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2024-12-20,11:00,TRP,CMAU-025449-0,Lift Van Int. Co S.A,IBC1268565,T,2024-12-20,,
 2024-12-28,05:00,Exolgan,BEAU-217906-3,Lift Van Int. Co S.A,HLCUME3241046440,TD,2024-12-28,1090,http://dassa.mqbic.com/PublicTally.php?id=1090
 2024-12-09,13:00,Exolgan,GLDU-406499-8,Edelweiss Spedition Srl,MEDUM2670922,TD,2024-12-09,1027,http://dassa.mqbic.com/PublicTally.php?id=1027
-2025-03-28,17:00,TRP,TRHU-605311-5,Edelweiss Spedition Srl,IBC1302612,TD,2025-03-28,,
+2025-03-28,17:00,TRP,TRHU-605311-5,Edelweiss Spedition Srl,IBC1302612,TD,2025-03-28,1645,http://dassa.mqbic.com/PublicTally.php?id=1645
+2025-04-04,07:00,Exolgan,HLBU-306960-1,Edelweiss Spedition Srl,HLCUGY3250136294,TD,,,
 2025-03-17,11:00,Exolgan,HLBU-184564-5,Edelweiss Spedition Srl,HLCUGY3250121853,TD,2025-03-17,1577,http://dassa.mqbic.com/PublicTally.php?id=1577
 2025-03-19,15:00,Exolgan,UACU-838789-2,Edelweiss Spedition Srl,HLCUME3250126334,TD,2025-03-19,1601,http://dassa.mqbic.com/PublicTally.php?id=1601
 2025-03-19,15:00,Exolgan,FBLU-001262-1,Edelweiss Spedition Srl,HLCUME32050126334,TD,2025-03-19,1603,http://dassa.mqbic.com/PublicTally.php?id=1603
@@ -131,7 +133,6 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-02-19,13:00,Terminal 4,TCNU-172835-7,Minera Santa Rita Srl,247688406,TD,2025-02-19,1375,http://dassa.mqbic.com/PublicTally.php?id=1375
 2025-03-06,14:00,Terminal 4,GCXU-620037-5,Minera Santa Rita Srl,248203554,TD,2025-03-06,1496,http://dassa.mqbic.com/PublicTally.php?id=1496
 2025-01-02,16:00,TRP,TCNU-414607-2,Printel S.A,EID0827485,TD,2025-01-03,1136,http://dassa.mqbic.com/PublicTally.php?id=1136
-2024-12-03,10:00,Terminal 4,TLLU-459475-6,Juguetech Sa,SZXS059051,T,2024-12-03,,
 2024-12-18,13:00,Terminal 4,JZPU-801204-8,Juguetech Sa,SZXS059732,T,2024-12-18,,
 2025-01-13,13:00,Terminal 4,ZCSU-767247-6,Juguetech Sa,SZXS060279/277,T,2025-01-13,,
 2025-01-13,13:00,Terminal 4,ZCSU-767247-6,Juguetech Sa,SZXS060279/277,T,2025-01-13,,
@@ -209,6 +210,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-01-27,15:00,TRP,EMCU-990108-0,Poka S.A.,TS2411204,T,2025-01-27,,
 2025-01-27,15:00,TRP,FCIU-750770-1,Poka S.A.,TS2411204,T,2025-01-27,,
 2025-01-28,15:00,TRP,TRHU-811434-9,Poka S.A.,NB241152325,T,2025-01-28,,
+2025-04-04,01:00,TRP,SEKU-564533-0,Poka S.A.,QD20240150,T,,,
 2025-03-28,18:00,Terminal 4,TGBU-432366-6,Poka S.A.,NB241254623,T,2025-03-28,,
 2025-03-28,18:00,Terminal 4,TCNU-282670-1,Poka S.A.,NB241253882,T,2025-03-28,,
 2025-03-28,18:00,Terminal 4,TCNU-362880-3,Poka S.A.,NB241253882,T,2025-03-28,,
@@ -257,11 +259,6 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-02-06,18:00,TRP,HMMU-604929-2,Poka S.A.,TS2412053,T,2025-02-06,,
 2025-02-21,17:00,TRP,TXGU-657761-5,Poka S.A.,TSSZ2501003,T,2025-02-21,,
 2025-02-21,15:00,TRP,EMCU-851514-4,Poka S.A.,TSSZ2501003,T,2025-02-21,,
-2024-12-03,17:00,Exolgan,MSMU-632460-0,Maransi S.A.,MEDUE8609202,T,2024-12-03,,
-2024-12-03,17:00,Exolgan,MEDU-464440-5,Maransi S.A.,MEDUE8609202,T,2024-12-03,,
-2024-12-03,17:00,Exolgan,MEDU-727552-7,Maransi S.A.,MEDUE8519625,T,2024-12-03,,
-2024-12-03,17:00,Exolgan,MSDU-716975-7,Maransi S.A.,MEDUE8519625,T,,,
-2024-12-03,,0,MSDU-771697-5,Maransi S.A.,24001TLAT031090G,T,2024-12-03,,
 2024-12-16,15:00,Exolgan,MSMU-809267-4,Daniel Berant,GSZBUE24100624,TD,2024-12-16,1046,http://dassa.mqbic.com/PublicTally.php?id=1046
 2025-02-24,16:00,Terminal 4,MRSU-760589-6,Mavi Textil S.A.,ACENGBF22412036,T,2025-02-24,,
 2025-01-31,15:00,TRP,KOCU-513324-0,Malu Ma Tex S.A.,TPSHKSG24126018,T,2025-01-31,,
@@ -299,7 +296,6 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-01-31,13:00,Terminal 4,SUDU-886107-2,Net Quality S.R.L.,NESHTR2411123,T,2025-01-31,,
 2025-03-18,18:00,TRP,KOCU-465021-1,Net Quality S.R.L.,NESHTR2412159/A,T,2025-03-18,,
 2025-03-18,18:00,TRP,KOCU-465021-1,Net Quality S.R.L.,NESHTR2412159/A,T,2025-03-18,,
-2024-12-03,10:00,Terminal 4,MRKU-058334-4,Ajec Autoadhesivos Sa,NESHTR2410072,T,2024-12-03,,
 2025-02-24,13:00,Terminal 4,MRKU-096262-5,Ajec Autoadhesivos Sa,NESHTR2412034,T,2025-02-24,,
 2024-12-04,15:00,TRP,EGSU-108815-8,Jupam Sa,NB240949315,T,2024-12-04,,
 2024-12-11,15:00,TRP,GAOU-630445-0,Jupam Sa,TWLE24100127,T,2024-12-11,,
@@ -534,7 +530,6 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-01-10,11:00,Terminal 4,SUDU-683920-7,Noah Servicess.R.L.,247812874,TD,2025-01-10,1195,http://dassa.mqbic.com/PublicTally.php?id=1195
 2025-01-13,13:00,Terminal 4,MRSU-622371-2,Noah Servicess.R.L.,245947862,TD,2025-01-13,1206,http://dassa.mqbic.com/PublicTally.php?id=1206
 2025-01-13,13:00,Terminal 4,MRSU-622371-2,Noah Servicess.R.L.,245947862,TD,2025-01-13,1206,http://dassa.mqbic.com/PublicTally.php?id=1206
-2024-12-03,10:00,Terminal 4,CAAU-786492-4,Bazar Y Cia Sa,SYNNGB24SE101551,T,2024-12-03,,
 2024-12-27,13:00,Exolgan,MSMU-896457-1,Bymar Transforwarding,MEDUDO445891,TD,2024-12-27,1070,http://dassa.mqbic.com/PublicTally.php?id=1070
 2024-12-27,13:00,Exolgan,MSMU-896457-1,Bymar Transforwarding,MEDUDO445891,TD,2024-12-27,1070,http://dassa.mqbic.com/PublicTally.php?id=1070
 2024-12-27,13:00,Exolgan,MSMU-896457-1,Bymar Transforwarding,MEDUDO445891,TD,2024-12-27,1070,http://dassa.mqbic.com/PublicTally.php?id=1070
@@ -628,14 +623,14 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2024-12-05,10:00,Terminal 4,TEMU-817862-7,Grupo Simpa Sa,TCNB2410224,TD,2024-12-05,1011,http://dassa.mqbic.com/PublicTally.php?id=1011
 2024-12-05,10:00,Terminal 4,ZCSU-704912-6,Grupo Simpa Sa,TCSH2410045,TD,2024-12-05,1012,http://dassa.mqbic.com/PublicTally.php?id=1012
 2024-12-05,10:00,Terminal 4,CAAU-685383-8,Grupo Simpa Sa,TCSH2410045,TD,2024-12-05,1013,http://dassa.mqbic.com/PublicTally.php?id=1013
-2025-04-03,13:00,TRP,KOCU-511120-9,Grupo Simpa Sa,S01352145,T,,,
-2025-04-03,11:00,TRP,KOCU-502959-6,Grupo Simpa Sa,S01352205,T,,,
-2025-04-03,11:00,TRP,HMMU-622400-8,Grupo Simpa Sa,S01356386,T,,,
+2025-04-03,18:00,TRP,KOCU-511120-9,Grupo Simpa Sa,S01352145,T,,,
+2025-04-03,19:00,TRP,KOCU-502959-6,Grupo Simpa Sa,S01352205,T,,,
+2025-04-03,20:00,TRP,HMMU-622400-8,Grupo Simpa Sa,S01356386,T,,,
 2025-03-26,18:00,TRP,TGBU-648114-6,Grupo Simpa Sa,NBOBUE25011823,T,2025-03-26,,
 2025-03-26,20:00,TRP,TIIU-593946-5,Grupo Simpa Sa,NBOBUE25011823,T,2025-03-26,,
 2025-03-26,20:00,TRP,HMMU-656463-0,Grupo Simpa Sa,NBOBUE25011823,T,2025-03-26,,
 2025-03-26,19:00,TRP,HMMU-607687-3,Grupo Simpa Sa,NBOBUE25011823,T,2025-03-26,,
-2025-04-03,07:00,Exolgan,TXGU-505377-9,Grupo Simpa Sa,202500623001,T,,,
+2025-04-03,23:00,Exolgan,TXGU-505377-9,Grupo Simpa Sa,202500623001,T,,,
 2025-04-03,16:00,TRP,TCLU-540952-0,Grupo Simpa Sa,S01352118,T,,,
 2025-03-26,18:00,TRP,KOCU-522329-8,Grupo Simpa Sa,NBOBUE25010226,T,2025-03-26,,
 2025-03-26,20:00,TRP,KOCU-419716-8,Grupo Simpa Sa,NBOBUE25010226,T,2025-03-26,,
@@ -724,8 +719,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-02-24,16:00,Terminal 4,MSKU-091728-0,Jakytextil S.A.,NBOE24012072,T,2025-02-24,,
 2025-03-11,13:00,Exolgan,MSDU-892727-3,Jakytextil S.A.,NBOE25012225,TD,2025-03-11,1534,http://dassa.mqbic.com/PublicTally.php?id=1534
 2025-03-25,19:00,Exolgan,MSBU-653244-6,Jakytextil S.A.,NBOE25012758,TD,2025-03-25,,
-2025-03-25,19:00,Exolgan,TGBU-405393-5,Jakytextil S.A.,NBOE250127669,TD,2025-03-26,,
-2025-03-25,16:00,Terminal 4,TEMU-749857-0,Jakytextil S.A.,NBOE25012869,TD,2025-03-25,,
+2025-03-25,19:00,Exolgan,TGBU-405393-5,Jakytextil S.A.,NBOE250127669,TD,2025-03-26,1610,http://dassa.mqbic.com/PublicTally.php?id=1610
+2025-03-25,16:00,Terminal 4,TEMU-749857-0,Jakytextil S.A.,NBOE25012869,TD,2025-03-25,1615,http://dassa.mqbic.com/PublicTally.php?id=1615
 2025-02-24,07:00,Exolgan,MSBU-817288-4,Jakytextil S.A.,NBOE24011486,T,2025-02-24,,
 2025-03-06,13:00,Exolgan,MSNU-775408-6,Jakytextil S.A.,NBOE24011375,T,2025-03-06,,
 2025-03-06,13:00,Exolgan,MSDU-853117-4,Jakytextil S.A.,NBOE24011879,T,2025-03-06,,
@@ -761,5 +756,6 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-03-25,19:00,Exolgan,CAIU-475256-4,E A Balbi E Hijos S A,GILSH241200241,T,2025-03-25,,
 2025-03-28,13:00,TRP,EGSU-179756-0,E A Balbi E Hijos S A,BK2530101,T,2025-03-28,,
 2025-03-30,16:00,TRP,KOCU-413295-3,Comunicaciones Valles Calchaquies Srl,HDMUSZPM76811000,TD,,,
-2025-03-27,21:00,TRP,KOCU-449984-6,Domingo A. Capria S.A.,KDCW24120115,TD,2025-03-27,,
-2025-03-27,21:00,TRP,KOCU-484533-7,Domingo A. Capria S.A.,KDCW24120115,TD,2025-03-27,,
+2025-03-27,21:00,TRP,KOCU-449984-6,Domingo A. Capria S.A.,KDCW24120115,TD,2025-03-27,1637,http://dassa.mqbic.com/PublicTally.php?id=1637
+2025-03-27,21:00,TRP,KOCU-484533-7,Domingo A. Capria S.A.,KDCW24120115,TD,2025-03-27,1638,http://dassa.mqbic.com/PublicTally.php?id=1638
+2025-04-04,05:00,Exolgan,TCNU-130623-8,Crosby Argentina S.A.,S00014066,TD,,,
