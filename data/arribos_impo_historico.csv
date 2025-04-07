@@ -4,8 +4,9 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2024-12-18,10:00,TRP,TRHU-170051-7,Mercovan Argentina Srl,IBC1268388,TD,2024-12-18,1055,http://dassa.mqbic.com/PublicTally.php?id=1055
 2024-12-30,19:00,TRP,CMAU-271236-0,Mercovan Argentina Srl,SSN109858,TD,2024-12-30,1108,http://dassa.mqbic.com/PublicTally.php?id=1108
 2025-01-02,12:00,Terminal 4,FANU-324988-4,Mercovan Argentina Srl,HLCUBSC241207530,T,2025-01-02,,
-2025-04-04,05:00,Exolgan,FCIU-474809-5,Mercovan Argentina Srl,HLCUME3250162708,TD,,,
+2025-04-04,05:00,Exolgan,FCIU-474809-5,Mercovan Argentina Srl,HLCUME3250162708,TD,2025-04-05,,
 2025-04-07,15:00,TRP,TLLU-832938-6,Mercovan Argentina Srl,SSZ111561RCS,TD,,,
+2025-04-08,16:00,TRP,OOCU-494297-0,Mercovan Argentina Srl,COSU6405390870,TD,,,
 2025-03-28,15:00,TRP,CMAU-264786-0,Mercovan Argentina Srl,SSZ110981RCS,TD,2025-03-28,1646,http://dassa.mqbic.com/PublicTally.php?id=1646
 2025-04-03,16:00,TRP,TEMU-175517-8,Mercovan Argentina Srl,HDMUSELM25153500,TD,2025-04-03,,
 2025-03-19,15:00,Exolgan,HLBU-137125-3,Mercovan Argentina Srl,HLCUME3241258426,TD,2025-03-19,1602,http://dassa.mqbic.com/PublicTally.php?id=1602
@@ -41,7 +42,9 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2024-12-11,15:00,Exolgan,HLXU-100994-0,Lift Van Int. Co S.A,HLCUSYD240846938,T,2024-12-11,,
 2024-12-11,15:00,Exolgan,CXDU-167649-6,Lift Van Int. Co S.A,ONEYRICEJW123800,TD,2024-12-11,1036,http://dassa.mqbic.com/PublicTally.php?id=1036
 2024-12-11,15:00,Exolgan,TCNU-245567-9,Lift Van Int. Co S.A,ONEYRICEKA348700,TD,2024-12-11,1037,http://dassa.mqbic.com/PublicTally.php?id=1037
-2025-04-03,16:00,TRP,HMMU-213579-3,Lift Van Int. Co S.A,HDMUSELM09111600,TD,2025-04-03,,
+2025-04-03,16:00,TRP,HMMU-213579-3,Lift Van Int. Co S.A,HDMUSELM09111600,T,2025-04-03,,
+2025-04-08,07:00,Terminal 4,BHCU-316221-0,Lift Van Int. Co S.A,ZIMULVN01021402,T,,,
+2025-04-08,07:00,Terminal 4,TEMU-105143-5,Lift Van Int. Co S.A,ZIMUCRT908282,TD,,,
 2025-03-14,08:00,Terminal 4,FANU-341166-0,Lift Van Int. Co S.A,HLCUBSC2502BEAB0,T,2025-03-14,,
 2025-03-14,08:00,Terminal 4,BMOU-582487-0,Lift Van Int. Co S.A,HLCUBSC2502BEAB0,T,2025-03-14,,
 2025-03-14,15:00,TRP,TCKU-432363-5,Lift Van Int. Co S.A,ONEYLIVF01071900,TD,2025-03-14,1564,http://dassa.mqbic.com/PublicTally.php?id=1564
@@ -103,7 +106,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2024-12-09,13:00,Exolgan,GLDU-406499-8,Edelweiss Spedition Srl,MEDUM2670922,TD,2024-12-09,1027,http://dassa.mqbic.com/PublicTally.php?id=1027
 2025-04-07,15:00,TRP,TRHU-585102-3,Edelweiss Spedition Srl,SSZ111531RCS,TD,,,
 2025-03-28,17:00,TRP,TRHU-605311-5,Edelweiss Spedition Srl,IBC1302612,TD,2025-03-28,1645,http://dassa.mqbic.com/PublicTally.php?id=1645
-2025-04-04,05:00,Exolgan,HLBU-306960-1,Edelweiss Spedition Srl,HLCUGY3250136294,TD,,,
+2025-04-04,05:00,Exolgan,HLBU-306960-1,Edelweiss Spedition Srl,HLCUGY3250136294,TD,2025-04-05,,
 2025-03-17,11:00,Exolgan,HLBU-184564-5,Edelweiss Spedition Srl,HLCUGY3250121853,TD,2025-03-17,1577,http://dassa.mqbic.com/PublicTally.php?id=1577
 2025-03-19,15:00,Exolgan,UACU-838789-2,Edelweiss Spedition Srl,HLCUME3250126334,TD,2025-03-19,1601,http://dassa.mqbic.com/PublicTally.php?id=1601
 2025-03-19,15:00,Exolgan,FBLU-001262-1,Edelweiss Spedition Srl,HLCUME32050126334,TD,2025-03-19,1603,http://dassa.mqbic.com/PublicTally.php?id=1603
@@ -461,6 +464,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2024-12-12,10:00,TRP,BSIU-838537-5,Luial Sa,NB241050754,T,2024-12-12,,
 2024-12-27,16:00,TRP,MAGU-537722-3,Luial Sa,SY241051290,T,2024-12-27,,
 2024-12-27,16:00,TRP,EITU-108544-9,Luial Sa,SY241051415,T,2024-12-27,,
+2025-04-08,11:00,Exolgan,UETU-584676-0,Luial Sa,NB250155725,T,,,
+2025-04-08,11:00,Exolgan,TLLU-557826-1,Luial Sa,NB250155724,T,,,
 2025-01-28,07:00,Exolgan,TRHU-416263-1,Luial Sa,SY241253325,T,2025-01-28,,
 2025-02-20,18:00,TRP,TIIU-523892-7,Raisvic S.R.L.,HDE25-010006,T,2025-02-20,,
 2025-02-28,22:00,Terminal 4,JXLU-459347-6,Raisvic S.R.L.,HDE24-120044A/B/C,T,2025-03-01,,

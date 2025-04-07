@@ -1,7 +1,7 @@
 Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-07,32608,,Mercovan Argentina Srl,COSU6413736000,                    ,Pendiente
 2025-04-07,32609,,Mercovan Argentina Srl,COSU6413164570,                    ,Pendiente
-2025-04-07,32610,,Mercovan Argentina Srl,21431758,                    ,Pendiente
+2025-04-07,32610,UACU-857525-1,Mercovan Argentina Srl,21431758,******************  ,Arribado
 2025-03-27,32496,TEMU-200437-7,Mercovan Argentina Srl,251309894,**********          ,Arribado
 2025-03-17,32172,HLBU-178997-9,Mercovan Argentina Srl,33038718,0432331             ,Arribado
 2025-03-19,32264,MSNU-215560-8,Mercovan Argentina Srl,25001PER1000119W,                    ,Arribado
@@ -169,9 +169,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-06,31953,HLBU-122536-7,J. Llorente Y Cía. S.A.,30225566,                    ,Arribado
 2024-12-17,30259,TCNU-636262-0,Mader Zu S.R.L.,246722567,***************     ,Arribado
 2024-12-17,30272,CAXU-814349-1,Mader Zu S.R.L.,66991467,*************       ,Arribado
-2025-04-07,32615,,Mader Zu S.R.L.,68401481,                    ,Pendiente
-2025-04-07,32616,,Mader Zu S.R.L.,68401481,                    ,Pendiente
-2025-04-07,32617,,Mader Zu S.R.L.,68401481,                    ,Pendiente
+2025-04-07,32615,FANU-154729-9,Mader Zu S.R.L.,68401481,***********         ,Arribado
+2025-04-07,32616,FANU-180642-4,Mader Zu S.R.L.,68401481,**********          ,Arribado
+2025-04-07,32617,CAIU-426719-4,Mader Zu S.R.L.,68401481,************        ,Arribado
 2025-04-01,32560,MAGU-579388-0,Mader Zu S.R.L.,13070642,*************       ,Arribado
 2025-04-03,32596,HLBU-194215-7,Mader Zu S.R.L.,29613891,*************       ,Arribado
 2025-04-03,32597,HLBU-227605-5,Mader Zu S.R.L.,29613891,**********          ,Arribado
@@ -586,10 +586,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-04,31188,UETU-596879-5,Henn Y Cia S.R.L.,BUE50004300,**************      ,Arribado
 2025-02-14,31460,MRSU-043405-0,Henn Y Cia S.R.L.,250075140,*************       ,Arribado
 2025-03-25,32418,MSMU-324540-4,Henn Y Cia S.R.L.,EBKG12211318,FX32989947          ,Arribado
-2025-04-07,32611,,Henn Y Cia S.R.L.,EBKG12295115,                    ,Pendiente
-2025-04-07,32612,,Henn Y Cia S.R.L.,EBKG12295115,                    ,Pendiente
-2025-04-07,32613,,Henn Y Cia S.R.L.,EBKG12295115,                    ,Pendiente
-2025-04-07,32614,,Henn Y Cia S.R.L.,EBKG12295115,                    ,Pendiente
+2025-04-07,32611,MEDU-595331-1,Henn Y Cia S.R.L.,EBKG12295115,FX32981197          ,Arribado
+2025-04-07,32612,MSDU-249385-8,Henn Y Cia S.R.L.,EBKG12295115,FX32981196          ,Arribado
+2025-04-07,32613,BMOU-264894-6,Henn Y Cia S.R.L.,EBKG12295115,FX32982279          ,Arribado
+2025-04-07,32614,MSNU-365991-7,Henn Y Cia S.R.L.,EBKG12295115,FX32982280          ,Arribado
 2025-03-21,32412,DFSU-245839-9,Henn Y Cia S.R.L.,ZIMUBUE9038570,                    ,Arribado
 2025-03-21,32413,TRHU-310036-3,Henn Y Cia S.R.L.,ZIMUBUE9038570,                    ,Arribado
 2025-03-21,32414,DRYU-236158-2,Henn Y Cia S.R.L.,ZIMUBUE9038570,                    ,Arribado
@@ -863,6 +863,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-31,31122,RFCU-820839-9,Libertun Hermanos Srl,25001EC01006056E,                    ,Arribado
 2025-01-31,31123,EXFU-441639-9,Libertun Hermanos Srl,25001EC01006056E,                    ,Arribado
 2025-01-31,31124,CXTU-115988-0,Libertun Hermanos Srl,25001EC01006056E,                    ,Arribado
+2025-04-07,32632,,Norfor Sa,32046549,                    ,Pendiente
 2025-03-20,32354,TIIU-430569-8,Norfor Sa,EBKG12139370,FX32987190          ,Arribado
 2025-03-20,32355,TGBU-460254-7,Norfor Sa,EBKG12139370, FX 32987179        ,Arribado
 2025-03-20,32358,TLLU-791390-2,Norfor Sa,EBKG12139370,FX32987169          ,Arribado
@@ -979,6 +980,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-11,30147,BVIU-226038-3,Adp Trading Srl,24001EC01081551G,                    ,Arribado
 2025-04-01,32580,,Adp Trading Srl,25001EC01019436K,                    ,Arribado
 2025-04-01,32581,,Adp Trading Srl,25001EC01019436K,                    ,Arribado
+2025-04-07,32621,,Adp Trading Srl,25001EC01019336J,                    ,Arribado
 2025-01-23,30935,GOAU-257568-5,Adp Trading Srl,25001EC01004033U,                    ,Arribado
 2025-01-23,30936,JPZU-409622-5,Adp Trading Srl,25001EC01004033U,                    ,Arribado
 2025-03-21,32365,,Adp Trading Srl,25001EC01017158J,                    ,Arribado
