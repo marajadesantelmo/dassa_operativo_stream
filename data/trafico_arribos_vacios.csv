@@ -1,6 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-32608,07/04,Mercovan Argentina Srl,-,TRP,DR,TD,                    ,COSU6413736000,0,                              ,,     ,2025-04-25,Lee; Jeong Sang,                    ,Pendiente
-32609,07/04,Mercovan Argentina Srl,-,TRP,DR,TD,                    ,COSU6413164570,0,                              ,,     ,2025-04-25,,                    ,Pendiente
+32608,07/04,Mercovan Argentina Srl,OOLU-044451-1,TRP,DR,TD,**************      ,COSU6413736000,1,TRANSPORTE DEL CLIENTE        ,Aversa,14:22,2025-04-25,Lee; Jeong Sang,                    ,14:22 Arribado
+32609,07/04,Mercovan Argentina Srl,CSLU-133312-2,TRP,DR,TD,***************     ,COSU6413164570,1,TRANSPORTE DEL CLIENTE        ,Aversa,14:23,2025-04-25,,                    ,14:23 Arribado
 32610,07/04,Mercovan Argentina Srl,UACU-857525-1,10080,DR,TD,******************  ,21431758,1,TRANSPORTE DEL CLIENTE        ,Porco,10:44,2025-04-25,Milandy Rodriguez,                    ,10:44 Arribado
 32615,07/04,Mader Zu S.R.L.,FANU-154729-9,10080,HC,TD,***********         ,68401481,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,11:28,2025-04-25,,                    ,11:28 Arribado
 32616,07/04,Mader Zu S.R.L.,FANU-180642-4,10080,HC,TD,**********          ,68401481,1,TRANSPORTE DEL CLIENTE        ,Porco,11:37,2025-04-25,,                    ,11:37 Arribado
