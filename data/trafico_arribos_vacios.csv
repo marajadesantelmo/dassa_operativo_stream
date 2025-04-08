@@ -1,5 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-32643,08/04,Isischu Srl,FFAU-169340-6,9,HC,TD,FX32981059          ,EBKG12327680,1,TRANSPORTE DEL CLIENTE        ,De Rosa Luis,10:49,2025-04-28,,                    ,10:49 Arribado
+32655,08/04,Arleather S.R.L.,MRKU-632854-1,10080,HC,TD,*****************   ,251417032,1,TRANSPORTE DEL CLIENTE        ,Porco,09:28,2025-04-28,,                    ,09:28 Arribado
 32676,08/04,Adp Trading Srl,-,15007,  ,TD,                    ,25001EC01021141T,1,TRANSPORTE DEL CLIENTE        ,.,15:04,2025-04-29,,                    ,15:04 Arribado
 32675,08/04,Adp Trading Srl,-,15007,  ,TD,                    ,25001EC01021141T,1,TRANSPORTE DEL CLIENTE        ,.,15:04,2025-04-29,,                    ,15:04 Arribado
 32647,08/04,Norfor Sa,MSNU-674508-0,9,HC,TD,FX32981503          ,EBKG12280306,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,17:17,2025-04-28,,                    ,17:17 Arribado
@@ -9,17 +9,33 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 32658,08/04,Arleather S.R.L.,MRSU-595449-8,10080,HC,TD,******************  ,251417131,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez Jose,15:26,2025-04-28,,                    ,15:26 Arribado
 32657,08/04,Arleather S.R.L.,MSKU-968104-5,10080,HC,TD,******              ,251417032,1,TRANSPORTE DEL CLIENTE        ,Porco,11:05,2025-04-28,,                    ,11:05 Arribado
 32656,08/04,Arleather S.R.L.,CAAU-674577-2,10080,HC,TD,**********          ,251417032,1,TRANSPORTE DEL CLIENTE        ,Porco,09:29,2025-04-28,,                    ,09:29 Arribado
-32655,08/04,Arleather S.R.L.,MRKU-632854-1,10080,HC,TD,*****************   ,251417032,1,TRANSPORTE DEL CLIENTE        ,Porco,09:28,2025-04-28,,                    ,09:28 Arribado
+32673,08/04,Curtiembre Infante Sa,-,10077,DR,TD,                    ,COSU6414495950,0,                              ,,     ,2025-04-29,,                    ,Pendiente
 32654,08/04,Arleather S.R.L.,HASU-433827-1,10080,HC,TD,************        ,251252901,1,TRANSPORTES LEIRA-NO USAR     ,Diaz,15:28,2025-04-28,,                    ,15:28 Arribado
 32653,08/04,Arleather S.R.L.,MRKU-427125-7,10080,HC,TD,*******             ,251252901,1,TRANSPORTES LEIRA-NO USAR     ,Alvarez Jose,12:06,2025-04-28,,                    ,12:06 Arribado
 32652,08/04,Arleather S.R.L.,TLLU-690297-1,10080,HC,TD,************        ,251417093,1,TRANSPORTE DEL CLIENTE        ,Porco,11:03,2025-04-28,,                    ,11:03 Arribado
 32651,08/04,Arleather S.R.L.,MRSU-503803-1,10080,HC,TD,******              ,251417093,1,TRANSPORTE DEL CLIENTE        ,Aversa,11:00,2025-04-28,,                    ,11:00 Arribado
-32650,08/04,Arleather S.R.L.,MRSU-523663-3,10080,HC,TD,**********          ,251417045,1,TRANSPORTE DEL CLIENTE        ,Porco,16:22,2025-04-28,,                    ,16:22 Arribado
+32665,08/04,Pro Forestal S.R.L,-,Exolgan,HC,TD,                    ,25768874,0,                              ,,     ,2025-04-29,,                    ,Pendiente
 32649,08/04,Arleather S.R.L.,SUDU-690990-0,10080,HC,TD,**************      ,251417045,1,TRANSPORTE DEL CLIENTE        ,Aversa,15:54,2025-04-28,,                    ,15:54 Arribado
 32648,08/04,Arleather S.R.L.,MRKU-641682-7,10080,HC,TD,**********          ,251417045,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,11:24,2025-04-28,,                    ,11:24 Arribado
 32642,08/04,Taeda Sa,MSNU-704364-2,9,HC,TD,FX32981067          ,EBKG11916027,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Alexander,10:20,2025-04-28,,                    ,10:20 Arribado
 32646,08/04,Maringa Maderas Sa,MSNU-508270-0,9,HC,TD,FX32981520          ,EBKG12309973,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,17:29,2025-04-28,,                    ,17:29 Arribado
 32645,08/04,Isischu Srl,FFAU-568475-8,9,HC,TD,FX32981525          ,EBKG12327680,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,16:43,2025-04-28,,                    ,16:43 Arribado
 32644,08/04,Isischu Srl,MSNU-712541-6,9,HC,TD,FX32981008          ,EBKG12327680,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,14:05,2025-04-28,,                    ,14:05 Arribado
-32673,08/04,Curtiembre Infante Sa,-,10077,DR,TD,                    ,COSU6414495950,0,                              ,,     ,2025-04-29,,                    ,Pendiente
-32665,08/04,Pro Forestal S.R.L,-,Exolgan,HC,TD,                    ,25768874,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32643,08/04,Isischu Srl,FFAU-169340-6,9,HC,TD,FX32981059          ,EBKG12327680,1,TRANSPORTE DEL CLIENTE        ,De Rosa Luis,10:49,2025-04-28,,                    ,10:49 Arribado
+32650,08/04,Arleather S.R.L.,MRSU-523663-3,10080,HC,TD,**********          ,251417045,1,TRANSPORTE DEL CLIENTE        ,Porco,16:22,2025-04-28,,                    ,16:22 Arribado
+32689,09/04,Hilado Sa,-,10080,HC,TD,                    ,252321715,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32690,09/04,Hilado Sa,-,10080,HC,TD,                    ,252321715,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32703,09/04,Norfor Sa,-,9,HC,TD,                    ,EBKG12227372,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32702,09/04,Norfor Sa,-,9,HC,TD,                    ,EBKG12227372,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32701,09/04,Norfor Sa,-,9,HC,TD,                    ,EBKG12227372,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32700,09/04,Norfor Sa,-,9,HC,TD,                    ,EBKG12227372,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32699,09/04,Norfor Sa,-,9,HC,TD,                    ,EBKG12227372,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32695,09/04,Norfor Sa,-,9,HC,TD,                    ,EBKG12227414,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32697,09/04,Norfor Sa,-,9,HC,TD,                    ,EBKG12227414,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32696,09/04,Norfor Sa,-,9,HC,TD,                    ,EBKG12227414,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32691,09/04,Hilado Sa,-,10080,HC,TD,                    ,252321715,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32692,09/04,Mercopallet Srl,-,10080,HC,TD,                    ,22630410,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32693,09/04,Mercopallet Srl,-,10080,HC,TD,                    ,22630410,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32694,09/04,Maringa Maderas Sa,-,9,HC,TD,                    ,EBKG12309962,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32698,09/04,Norfor Sa,-,9,HC,TD,                    ,EBKG12227414,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32688,09/04,Hilado Sa,-,10080,HC,TD,                    ,252321715,0,                              ,,     ,2025-04-29,,                    ,Pendiente
