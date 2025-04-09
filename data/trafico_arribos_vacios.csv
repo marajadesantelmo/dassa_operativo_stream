@@ -1,10 +1,10 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-32736,09/04,Mercovan Argentina Srl,HLBU-346089-5,2,DR,TD,*********           ,26932360,0,                              ,,     ,2025-04-30,,                    ,Pendiente
+32736,09/04,Mercovan Argentina Srl,HLBU-346089-5,2,DR,TD,*********           ,26932360,1,TRANSPORTE DEL CLIENTE        ,Aversa,17:15,2025-04-30,,                    ,17:15 Arribado
 32721,09/04,Norfor Sa,-,Exolgan,HC,TD,                    ,65326465,0,                              ,,     ,2025-04-30,,                    ,Pendiente
 32720,09/04,Norfor Sa,HLBU-191253-2,Exolgan,HC,TD,***************     ,65326465,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,15:33,2025-04-30,,                    ,15:33 Arribado
 32703,09/04,Norfor Sa,-,9,HC,TD,                    ,EBKG12227372,0,                              ,,     ,2025-04-29,,                    ,Pendiente
 32702,09/04,Norfor Sa,-,9,HC,TD,                    ,EBKG12227372,0,                              ,,     ,2025-04-29,,                    ,Pendiente
-32701,09/04,Norfor Sa,-,9,HC,TD,                    ,EBKG12227372,0,                              ,,     ,2025-04-29,,                    ,Pendiente
+32701,09/04,Norfor Sa,TRHU-763684-2,9,HC,TD,FX32981730          ,EBKG12227372,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,17:20,2025-04-29,,                    ,17:20 Arribado
 32700,09/04,Norfor Sa,TRHU-717970-4,9,HC,TD,FX32981750          ,EBKG12227372,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Alexander,16:28,2025-04-29,,                    ,16:28 Arribado
 32699,09/04,Norfor Sa,UETU-775705-0,9,HC,TD,FX32981748          ,EBKG12227372,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,16:24,2025-04-29,,                    ,16:24 Arribado
 32698,09/04,Norfor Sa,CAAU-553878-6,9,HC,TD,FX32981613          ,EBKG12227414,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,12:09,2025-04-29,,                    ,12:09 Arribado
