@@ -1,5 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 32745,11/04,Mercovan Argentina Srl,-,10080,DR,TD,                    ,93304105,0,                              ,,     ,2025-05-02,Ben Kelmanson,                    ,Pendiente
+32749,11/04,Mercovan Argentina Srl,FBIU-008116-6,10080,DR,TD,************        ,93304105,1,TRANSPORTE DEL CLIENTE        ,Porco,18:14,2025-05-02,,                    ,18:14 Arribado
 32719,11/04,Lift Van Int. Co S.A,-,10076,DR,C,                    ,EBKG12241949,0,                              ,,     ,2025-04-30,Carolina Rey Botti,                    ,Pendiente
 32747,11/04,Lift Van Int. Co S.A,GAOU-246664-2,10076,DR,TD,FX26312929          ,EBKG12241949,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Alexander,17:23,2025-05-02,,                    ,17:23 Arribado
 32746,11/04,Minera Santa Rita Srl,SUDU-170503-6,10076,DR,TD,*************       ,252062561,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Alexander,17:20,2025-05-02,,                    ,17:20 Arribado
