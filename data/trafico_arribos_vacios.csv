@@ -1,16 +1,22 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 32745,11/04,Mercovan Argentina Srl,-,10080,DR,TD,                    ,93304105,0,                              ,,     ,2025-05-02,Ben Kelmanson,                    ,Pendiente
-32749,11/04,Mercovan Argentina Srl,FBIU-008116-6,10080,DR,TD,************        ,93304105,1,TRANSPORTE DEL CLIENTE        ,Porco,18:14,2025-05-02,,                    ,18:14 Arribado
-32719,11/04,Lift Van Int. Co S.A,-,10076,DR,C,                    ,EBKG12241949,0,                              ,,     ,2025-04-30,Carolina Rey Botti,                    ,Pendiente
-32747,11/04,Lift Van Int. Co S.A,GAOU-246664-2,10076,DR,TD,FX26312929          ,EBKG12241949,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Alexander,17:23,2025-05-02,,                    ,17:23 Arribado
-32746,11/04,Minera Santa Rita Srl,SUDU-170503-6,10076,DR,TD,*************       ,252062561,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Alexander,17:20,2025-05-02,,                    ,17:20 Arribado
-32737,11/04,Overprint S.R.L.,-,0,  ,TD,                    ,TERRESTRE,0,                              ,,     ,2025-05-02,,EC01 020711V//20737G,Pendiente
-32741,11/04,Geo-Trade Comercio Exterior Sr...,-,15007,  ,TD,                    ,25AR152251C,1,TRANSPORTE DEL CLIENTE        ,Luis Serione,11:18,2025-05-02,,                    ,11:18 Arribado
-32742,11/04,Bdfm Sa,-,10074,  ,TD,                    ,MCORIV027955,0,                              ,,     ,2025-05-02,,                    ,Pendiente
-32748,11/04,Bdfm Sa,FFAU-505866-7,10074,HC,TD,R1951558            ,RIV027955,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,17:25,2025-05-02,,                    ,17:25 Arribado
-32727,11/04,Norfor Sa,HAMU-132817-5,Exolgan,HC,TD,************        ,35392411,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Alexander,18:44,2025-04-30,,                    ,18:44 Arribado
-32728,11/04,Norfor Sa,GESU-630775-0,Exolgan,HC,TD,*******             ,35392411,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,12:53,2025-04-30,,                    ,12:53 Arribado
-32729,11/04,Norfor Sa,BSIU-821250-7,Exolgan,HC,TD,*********           ,35392411,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,12:54,2025-04-30,,                    ,12:54 Arribado
 32730,11/04,Norfor Sa,HAMU-344487-3,Exolgan,HC,TD,**********          ,35392411,1,TRANSPORTE DEL CLIENTE        ,Porco,12:55,2025-04-30,,                    ,12:55 Arribado
+32729,11/04,Norfor Sa,BSIU-821250-7,Exolgan,HC,TD,*********           ,35392411,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,12:54,2025-04-30,,                    ,12:54 Arribado
+32728,11/04,Norfor Sa,GESU-630775-0,Exolgan,HC,TD,*******             ,35392411,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,12:53,2025-04-30,,                    ,12:53 Arribado
+32727,11/04,Norfor Sa,HAMU-132817-5,Exolgan,HC,TD,************        ,35392411,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Alexander,18:44,2025-04-30,,                    ,18:44 Arribado
 32731,11/04,Norfor Sa,UACU-550385-4,Exolgan,HC,TD,*****************   ,35392411,1,TRANSPORTE DEL CLIENTE        ,Prestes,14:45,2025-04-30,,                    ,14:45 Arribado
+32748,11/04,Bdfm Sa,FFAU-505866-7,10074,HC,TD,R1951558            ,RIV027955,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,17:25,2025-05-02,,                    ,17:25 Arribado
 32744,11/04,Hellmann Worldwide Logistics,MRKU-107048-0,0,  ,TD,**********          ,251462321,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,16:00,2025-05-02,,                    ,16:00 Arribado
+32741,11/04,Geo-Trade Comercio Exterior Sr...,-,15007,  ,TD,                    ,25AR152251C,1,TRANSPORTE DEL CLIENTE        ,Luis Serione,11:18,2025-05-02,,                    ,11:18 Arribado
+32737,11/04,Overprint S.R.L.,-,0,  ,TD,                    ,TERRESTRE,0,                              ,,     ,2025-05-02,,EC01 020711V//20737G,Pendiente
+32746,11/04,Minera Santa Rita Srl,SUDU-170503-6,10076,DR,TD,*************       ,252062561,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Alexander,17:20,2025-05-02,,                    ,17:20 Arribado
+32747,11/04,Lift Van Int. Co S.A,GAOU-246664-2,10076,DR,TD,FX26312929          ,EBKG12241949,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Alexander,17:23,2025-05-02,,                    ,17:23 Arribado
+32719,11/04,Lift Van Int. Co S.A,-,10076,DR,C,                    ,EBKG12241949,0,                              ,,     ,2025-04-30,Carolina Rey Botti,                    ,Pendiente
+32749,11/04,Mercovan Argentina Srl,FBIU-008116-6,10080,DR,TD,************        ,93304105,1,TRANSPORTE DEL CLIENTE        ,Porco,18:14,2025-05-02,,                    ,18:14 Arribado
+32742,11/04,Bdfm Sa,-,10074,  ,TD,                    ,MCORIV027955,0,                              ,,     ,2025-05-02,,                    ,Pendiente
+32766,14/04,Asecor Srl,-,10080,HC,TD,                    ,30036413,0,                              ,,     ,2025-05-02,,                    ,Pendiente
+32768,14/04,Asecor Srl,-,10080,HC,TD,                    ,30036413,0,                              ,,     ,2025-05-02,,                    ,Pendiente
+32769,14/04,Asecor Srl,-,10080,HC,TD,                    ,30036413,0,                              ,,     ,2025-05-02,,                    ,Pendiente
+32770,14/04,Asecor Srl,-,10080,HC,TD,                    ,30036413,0,                              ,,     ,2025-05-02,,                    ,Pendiente
+32765,14/04,Maringa Maderas Sa,-,Exolgan,HC,TD,                    ,19861520,0,                              ,,     ,2025-05-02,,                    ,Pendiente
+32767,14/04,Asecor Srl,-,10080,HC,TD,                    ,30036413,0,                              ,,     ,2025-05-02,,                    ,Pendiente
