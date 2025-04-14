@@ -2,6 +2,7 @@ import streamlit as st
 import stream_impo
 import stream_expo
 import stream_balanza
+import stream_plazoleta
 import stream_impo_historico
 import stream_expo_historico
 import stream_trafico
@@ -62,7 +63,7 @@ if not st.session_state['logged_in']:
 else:
     page_selection = option_menu(
             None,  # No menu title
-            ["IMPO", "EXPO", "Balanza", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico", "Logout"],  
+            ["IMPO", "EXPO", "Balanza", "Plazoleta", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico", "Logout"],  
             icons=["arrow-down-circle", "arrow-up-circle", "book", "arrow-right-circle", "book", "book", "book", "box-arrow-right"],   
             menu_icon="cast",  
             default_index=0, 
@@ -73,6 +74,8 @@ else:
         stream_expo.show_page_expo()
     elif page_selection == "Balanza":
          stream_balanza.show_page_balanza()
+    elif page_selection == "Plazoleta":
+         stream_plazoleta.show_page_plazoleta()
     elif page_selection == "Tráfico":
         stream_trafico.show_page_trafico()
     elif page_selection == "IMPO - histórico":
