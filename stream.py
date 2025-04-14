@@ -64,7 +64,7 @@ else:
     page_selection = option_menu(
             None,  # No menu title
             ["IMPO", "EXPO", "Balanza", "Plazoleta", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico", "Logout"],  
-            icons=["arrow-down-circle", "arrow-up-circle", "book", "arrow-right-circle", "book", "book", "book", "box-arrow-right"],   
+            icons=["arrow-down-circle", "arrow-up-circle", "book", "book", "arrow-right-circle", "book", "book", "book", "box-arrow-right"],   
             menu_icon="cast",  
             default_index=0, 
             orientation="horizontal")
