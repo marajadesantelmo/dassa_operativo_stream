@@ -26,29 +26,26 @@ def show_page_plazoleta():
 
     st.subheader("Contenedores Nacional")
 
-    col1, col2, col3 = st.columns(3)
-
-    with col1:
-        col1_metric, col2_submetrics, col3_submetrics, col4_clientes = st.columns([1, 1, 1])
-        with col1_metric:
-            ctns_pendientes = cont_nac['Contenedor'].nunique()
-            st.metric(label="Existente", value=ctns_pendientes)
-        with col2_submetrics:
-            cargados = cont_nac[cont_nac['CARGADO'].str.contains(r'\b(SI|si|Si)\b', regex=True, na=False)].shape[0]
-            st.metric(label="Cargados", value=cargados)
-            vacios = cont_nac[cont_nac['CARGADO'].str.contains(r'\b(NO|no|No)\b', regex=True, na=False)].shape[0]
-            st.metric(label="Vacios", value=vacios)
-        with col3_submetrics:
-            rollos = cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(ROLLOS|Rollo)\b', regex=True, na=False)].shape[0]
-            st.metric(label="Rollos", value=rollos)
-            cueros = cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(CUERO|Cuero)\b', regex=True, na=False)].shape[0]
-            st.metric(label="Cueros", value=cueros)
-            otros = cont_nac[(~cont_nac['OBSERVACION'].str.contains(r'\b(ROLLOS|Rollo|CUERO|Cuero)\b', regex=True, na=False)) &
-                             (cont_nac['CARGADO'].str.contains(r'\b(SI|si|Si)\b', regex=True, na=False))].shape[0]
-            st.metric(label="Otros", value=otros)
-        with col4_clientes:
-            clientes = cont_nac['CLIENTE'].value_counts()
-            st.dataframe(clientes, use_container_width=True)
+    col1_metric, col2_submetrics, col3_submetrics, col4_clientes = st.columns(4)
+    with col1_metric:
+        ctns_pendientes = cont_nac['Contenedor'].nunique()
+        st.metric(label="Existente", value=ctns_pendientes)
+    with col2_submetrics:
+        cargados = cont_nac[cont_nac['CARGADO'].str.contains(r'\b(SI|si|Si)\b', regex=True, na=False)].shape[0]
+        st.metric(label="Cargados", value=cargados)
+        vacios = cont_nac[cont_nac['CARGADO'].str.contains(r'\b(NO|no|No)\b', regex=True, na=False)].shape[0]
+        st.metric(label="Vacios", value=vacios)
+    with col3_submetrics:
+        rollos = cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(ROLLOS|Rollo)\b', regex=True, na=False)].shape[0]
+        st.metric(label="Rollos", value=rollos)
+        cueros = cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(CUERO|Cuero)\b', regex=True, na=False)].shape[0]
+        st.metric(label="Cueros", value=cueros)
+        otros = cont_nac[(~cont_nac['OBSERVACION'].str.contains(r'\b(ROLLOS|Rollo|CUERO|Cuero)\b', regex=True, na=False)) &
+                            (cont_nac['CARGADO'].str.contains(r'\b(SI|si|Si)\b', regex=True, na=False))].shape[0]
+        st.metric(label="Otros", value=otros)
+    with col4_clientes:
+        clientes = cont_nac['CLIENTE'].value_counts()
+        st.dataframe(clientes, use_container_width=True)
 
     st.markdown("<hr>", unsafe_allow_html=True)
 
