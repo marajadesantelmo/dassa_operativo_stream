@@ -1,22 +1,23 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 32784,14/04,Lift Van Int. Co S.A,-,10077,DR,TD,                    ,252254994,0,                              ,,     ,2025-05-02,Patricio Peart,                    ,Pendiente
+32780,14/04,Lawter Argentina S.A.,-,10077,DR,TD,                    ,251744442,0,                              ,,     ,2025-05-02,,                    ,Pendiente
 32779,14/04,Lawter Argentina S.A.,-,10074,DR,TD,                    ,ZIMUBUE9039285,0,                              ,,     ,2025-05-02,,                    ,Pendiente
 32778,14/04,Lawter Argentina S.A.,-,10074,DR,TD,                    ,ZIMUBUE9039285,0,                              ,,     ,2025-05-02,,                    ,Pendiente
 32777,14/04,Lawter Argentina S.A.,-,10074,DR,TD,                    ,ZIMUBUE9039285,0,                              ,,     ,2025-05-02,,                    ,Pendiente
 32776,14/04,Lawter Argentina S.A.,-,10074,DR,TD,                    ,ZIMUBUE9039285,0,                              ,,     ,2025-05-02,,                    ,Pendiente
 32775,14/04,Lawter Argentina S.A.,-,10074,DR,TD,                    ,ZIMUBUE9039285,0,                              ,,     ,2025-05-02,,                    ,Pendiente
 32774,14/04,Lawter Argentina S.A.,-,10074,DR,TD,                    ,ZIMUBUE9039285,0,                              ,,     ,2025-05-02,,                    ,Pendiente
-32771,14/04,Plasticos Dise S A,-,9,DR,TD,                    ,EBKG12460425,0,                              ,,     ,2025-05-02,,                    ,Pendiente
-32765,14/04,Maringa Maderas Sa,-,Exolgan,HC,TD,                    ,19861520,0,                              ,,     ,2025-05-02,,                    ,Pendiente
-32780,14/04,Lawter Argentina S.A.,-,10077,DR,TD,                    ,251744442,0,                              ,,     ,2025-05-02,,                    ,Pendiente
+32771,14/04,Plasticos Dise S A,BMOU-280776-0,9,DR,TD,FX32978938          ,EBKG12460425,1,TRANSPORTE DEL CLIENTE        ,Lambare Franco,13:22,2025-05-02,,                    ,13:22 Arribado
+32765,14/04,Maringa Maderas Sa,TGCU-534363-4,Exolgan,HC,TD,*********           ,19861520,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,13:21,2025-05-02,,                    ,13:21 Arribado
 32770,14/04,Asecor Srl,-,10080,HC,TD,                    ,30036413,0,                              ,,     ,2025-05-02,,                    ,Pendiente
-32768,14/04,Asecor Srl,-,10080,HC,TD,                    ,30036413,0,                              ,,     ,2025-05-02,,                    ,Pendiente
-32767,14/04,Asecor Srl,-,10080,HC,TD,                    ,30036413,0,                              ,,     ,2025-05-02,,                    ,Pendiente
-32766,14/04,Asecor Srl,-,10080,HC,TD,                    ,30036413,0,                              ,,     ,2025-05-02,,                    ,Pendiente
-32773,14/04,Geo-Trade Comercio Exterior Sr...,-,10080,HC,TD,                    ,33728804,0,                              ,,     ,2025-05-02,,                    ,Pendiente
-32783,14/04,Pelama Chubut S.A.,-,10080,DR,TD,                    ,252410592,0,                              ,,     ,2025-05-02,,                    ,Pendiente
-32782,14/04,Pelama Chubut S.A.,-,10080,DR,TD,                    ,252410669,0,                              ,,     ,2025-05-02,,                    ,Pendiente
-32772,14/04,A La Orden,-,2,DR,TD,                    ,18722142,0,                              ,,     ,2025-05-02,,                    ,Pendiente
-32787,14/04,Dassa - Client A La Orden,TCLU-833719-3,0,  ,TD,                    ,NACIONAL,1,TRANSPORTE DEL CLIENTE        ,Walter Perez,10:05,2025-05-05,,                    ,10:05 Arribado
 32769,14/04,Asecor Srl,-,10080,HC,TD,                    ,30036413,0,                              ,,     ,2025-05-02,,                    ,Pendiente
+32768,14/04,Asecor Srl,-,10080,HC,TD,                    ,30036413,0,                              ,,     ,2025-05-02,,                    ,Pendiente
+32767,14/04,Asecor Srl,BSIU-820965-3,10080,HC,TD,****************    ,30036413,1,TRANSPORTE DEL CLIENTE        ,Aversa,13:17,2025-05-02,,                    ,13:17 Arribado
+32766,14/04,Asecor Srl,HLXU-838158-5,10080,HC,TD,*************       ,30036413,1,TRANSPORTE DEL CLIENTE        ,Comojo,13:16,2025-05-02,,                    ,13:16 Arribado
+32773,14/04,Geo-Trade Comercio Exterior Sr...,HLBU-270525-2,10080,HC,TD,**********          ,33728804,1,TRANSPORTE DEL CLIENTE        ,Riveros,13:15,2025-05-02,,                    ,13:15 Arribado
+32783,14/04,Pelama Chubut S.A.,-,10080,DR,TD,                    ,252410592,0,                              ,,     ,2025-05-02,,                    ,Pendiente
+32782,14/04,Pelama Chubut S.A.,MRKU-079919-0,10080,DR,TD,*********           ,252410669,1,TRANSPORTE DEL CLIENTE        ,Porco,13:19,2025-05-02,,                    ,13:19 Arribado
+32772,14/04,A La Orden,TGHU-171446-3,2,DR,TD,************        ,18722142,1,TRANSPORTE DEL CLIENTE        ,Peril,13:20,2025-05-02,,                    ,13:20 Arribado
+32787,14/04,Dassa - Client A La Orden,TCLU-833719-3,0,  ,TD,                    ,NACIONAL,1,TRANSPORTE DEL CLIENTE        ,Walter Perez,10:05,2025-05-05,,                    ,10:05 Arribado
 32781,14/04,Lawter Argentina S.A.,-,10077,DR,TD,                    ,251744442,0,                              ,,     ,2025-05-02,,                    ,Pendiente
+32791,14/04,Pro Forestal S.R.L,FFAU-114335-4,Exolgan,HC,TD,************        ,25768874,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:25,2025-05-05,,                    ,13:25 Arribado
