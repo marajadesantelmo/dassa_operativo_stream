@@ -10,11 +10,12 @@ def fetch_data_plazoleta():
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz['e-tally'] = existente_plz['e-tally'].fillna("")
-    return arribos, pendiente_desconsolidar, existente_plz
+    cont_nac = pd.read_csv('data/contenedores_nacionales.csv')
+    return arribos, pendiente_desconsolidar, existente_plz, cont_nac
 
 def show_page_plazoleta():
     # Load data
-    arribos, pendiente_desconsolidar,  existente_plz = fetch_data_plazoleta()
+    arribos, pendiente_desconsolidar,  existente_plz, cont_nac = fetch_data_plazoleta()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -28,25 +29,26 @@ def show_page_plazoleta():
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        col1_sub, col1_metric = st.columns([7, 1])
-        with col1_sub:
-            st.subheader("Arribos Contenedores")
+        col1_metric, col2_submetrics, col3_submetrics, col4_clientes = st.columns([1, 1, 1])
         with col1_metric:
-            ctns_pendientes = arribos[(arribos['Estado'] != '-') & (~arribos['Estado'].str.contains('Arribado'))].shape[0]
-            st.metric(label="CTNs pendientes", value=ctns_pendientes)
-        st.dataframe()
-
-    with col2:
-        col2_sub, col2_metric1, col2_mentric2 = st.columns([6, 1, 1])
-        with col2_sub:
-            st.subheader("Pendiente Desconsolidar y Vacios")
-        with col2_metric1:
-            st.metric(label="Ptes. Desco.", value=pendiente_desconsolidar[pendiente_desconsolidar['Estado'] == 'Pte. Desc.'].shape[0])
-        with col2_mentric2:
-            st.metric(label="Vacios", value=pendiente_desconsolidar[pendiente_desconsolidar['Estado'] == 'Vacio'].shape[0])
-
-    with col3: 
-        st.subheader("AGREGAR INFO")
+            ctns_pendientes = cont_nac['Contenedor'].nunique()
+            st.metric(label="Existente", value=ctns_pendientes)
+        with col2_submetrics:
+            cargados = cont_nac[cont_nac['CARGADO'].str.contains(r'\b(SI|si|Si)\b', regex=True, na=False)].shape[0]
+            st.metric(label="Cargados", value=cargados)
+            vacios = cont_nac[cont_nac['CARGADO'].str.contains(r'\b(NO|no|No)\b', regex=True, na=False)].shape[0]
+            st.metric(label="Vacios", value=vacios)
+        with col3_submetrics:
+            rollos = cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(ROLLOS|Rollo)\b', regex=True, na=False)].shape[0]
+            st.metric(label="Rollos", value=rollos)
+            cueros = cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(CUERO|Cuero)\b', regex=True, na=False)].shape[0]
+            st.metric(label="Cueros", value=cueros)
+            otros = cont_nac[(~cont_nac['OBSERVACION'].str.contains(r'\b(ROLLOS|Rollo|CUERO|Cuero)\b', regex=True, na=False)) &
+                             (cont_nac['CARGADO'].str.contains(r'\b(SI|si|Si)\b', regex=True, na=False))].shape[0]
+            st.metric(label="Otros", value=otros)
+        with col4_clientes:
+            clientes = cont_nac['CLIENTE'].value_counts()
+            st.dataframe(clientes, use_container_width=True)
 
     st.markdown("<hr>", unsafe_allow_html=True)
 
