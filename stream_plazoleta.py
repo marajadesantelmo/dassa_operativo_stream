@@ -58,8 +58,14 @@ def show_page_plazoleta():
         fig = Figure(figsize=(5, 5))
         ax = fig.add_subplot(111)
         tabla_resumen.set_index('Contenedor')['Cantidad'].plot.pie(
-            autopct='%1.1f%%', ylabel='', title='Distribución de Contenedores', ax=ax
+            autopct=lambda p: f'{p:.0f}%' if p > 0 else '',
+            ylabel='',
+            textprops={'fontsize': 14},
+            colors=plt.cm.Paired.colors,
+            ax=ax
         )
+        fig.patch.set_alpha(0)  # Set transparent background
+        ax.set_title('')  # Remove title
         pie_chart.pyplot(fig)
     with col_tabla:
         st.dataframe(tabla_resumen, hide_index=True, use_container_width=True)
