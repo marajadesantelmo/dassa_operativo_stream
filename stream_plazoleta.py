@@ -9,6 +9,8 @@ def fetch_data_plazoleta():
     arribos = pd.read_csv('data/arribos.csv')
     arribos_semana = pd.read_csv('data/arribos_semana.csv')
     arribos_semana_pendientes = arribos_semana[arribos_semana['arribado'] == 0]
+    tabla_arribos_pendientes = arribos_semana_pendientes
+    arribos_por_fecha = tabla_arribos_pendientes['fecha'].value_counts()
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz = existente_plz[existente_plz['Operacion'].str.contains("-0-")] #Saco la mercaderia que esta en PLZ (solo quiero tachos)
