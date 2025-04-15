@@ -47,8 +47,8 @@ def show_page_plazoleta():
         col1, col2, col3, col4 = st.columns([1, 2, 1, 2])
         with col1:
             st.write("Pendientes de arribo")
-            col1_1_, col1_2 = st.columns([1, 1])
-            with col1_1_:
+            col1_1, col1_2 = st.columns([1, 1])
+            with col1_1:
                 st.metric(label="Vacios", value=arribos.shape[0])
             with col1_2:
                 st.metric(label="TD", value = arribos[arribos['Oper.'] == 'TD'].shape[0])
