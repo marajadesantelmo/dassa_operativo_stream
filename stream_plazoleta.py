@@ -50,8 +50,7 @@ def show_page_plazoleta():
     with col_logo:
         st.image('logo.png')
     with col_title:
-        current_day = datetime.now().strftime("%d/%m/%Y")
-        st.title(f"Estado actual de la Plazoleta")
+        st.markdown("<h1 style='text-align: center;'>Estado actual de la Plazoleta</h1>", unsafe_allow_html=True)
     with col_tabla:
         st.dataframe(tabla_resumen, hide_index=True, use_container_width=True)
 
