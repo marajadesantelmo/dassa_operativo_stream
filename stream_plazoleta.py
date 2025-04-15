@@ -28,18 +28,30 @@ def fetch_data_plazoleta():
     existente_plz_expo = pd.concat([listos_para_remitir[['Cliente', 'Contenedor']], vacios_disponibles[['Cliente', 'Contenedor']]])
     existente_plz_expo_clientes = existente_plz_expo['Cliente'].value_counts().reset_index()
     existente_plz_expo_clientes.columns = ['Cliente', 'CTNs']
-    return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes
+
+    ctns_impo_plz = existente_plz.shape[0]
+    ctns_expo_plz = listos_para_remitir.shape[0] + vacios_disponibles.shape[0]
+    ctns_nac = cont_nac.shape[0]
+    disponibles = 220 - ctns_impo_plz - ctns_expo_plz - ctns_nac
+    tabla_resumen = pd.DataFrame({
+        'Contenedor': ['Contenedores IMPO', 'Contenedores EXPO', 'Contenedores NACIONAL', 'Disponibles'],
+        'Cantidad': [ctns_impo_plz, ctns_expo_plz, ctns_nac, disponibles]
+    })
+
+    return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen
 
 def show_page_plazoleta():
     # Load data
-    arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes = fetch_data_plazoleta()
+    arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen = fetch_data_plazoleta()
 
-    col_logo, col_title = st.columns([2, 5])
+    col_logo, col_title, col_tabla = st.columns([1, 5, 1])
     with col_logo:
         st.image('logo.png')
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Estado actual de la Plazoleta")
+    with col_tabla:
+        st.dataframe(tabla_resumen, hide_index=True, use_container_width=True)
 
     col_impo, col_expo = st.columns(2)
     with col_impo:
