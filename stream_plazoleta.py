@@ -20,11 +20,14 @@ def fetch_data_plazoleta():
     cont_nac = pd.read_csv('data/contenedores_nacionales.csv')
     cont_nac_clientes = cont_nac['CLIENTE'].value_counts()
     cont_nac_clientes.columns = ['Cliente', 'CTNs']
-    return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha
+    arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
+    arribos_expo_ctns_por_fecha = arribos_expo_ctns['Fecha'].value_counts()
+    arribos_expo_ctns_por_fecha.columns = ['Fecha', 'NTs']
+    return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns
 
 def show_page_plazoleta():
     # Load data
-    arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha = fetch_data_plazoleta()
+    arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns = fetch_data_plazoleta()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -62,13 +65,13 @@ def show_page_plazoleta():
         st.write("Pendientes de arribo")
         col1_1_, col1_2 = st.columns([1, 1])
         with col1_1_:
-            st.metric(label="Total", value=arribos.shape[0])
+            st.metric(label="Vacios", value=arribos.shape[0])
         with col1_2:
             st.metric(label="TD", value = arribos[arribos['Oper.'] == 'TD'].shape[0])
             st.metric(label="T", value = arribos[arribos['Oper.'] == 'T'].shape[0])
     with col2:
         st.write("Arribos pendientes por día")
-        st.dataframe(arribos_por_fecha, use_container_width=True)
+        st.dataframe(arribos_expo_ctns_por_fecha, use_container_width=True)
     with col3:
         st.write("Existente en Plazoleta")
         col3_1_, col3_2 = st.columns([1, 1])
@@ -87,12 +90,8 @@ def show_page_plazoleta():
     col1, col2, col3, col4, col5 = st.columns([1, 2, 2, 2, 2])
     with col1:
         st.write("Pendientes de arribo")
-        col1_1_, col1_2 = st.columns([1, 1])
-        with col1_1_:
-            st.metric(label="Total", value=arribos.shape[0])
-        with col1_2:
-            st.metric(label="TD", value = arribos[arribos['Oper.'] == 'TD'].shape[0])
-            st.metric(label="T", value = arribos[arribos['Oper.'] == 'T'].shape[0])
+        st.metric(label="Total", value=arribos_expo_ctns.shape[0])
+
     with col2:
         st.write("Arribos pendientes por día")
         st.dataframe(arribos_por_fecha, use_container_width=True)
