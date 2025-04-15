@@ -41,53 +41,56 @@ def show_page_plazoleta():
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Estado actual de la Plazoleta")
 
-    st.header("Contenedores IMPO")
-    col1, col2, col3, col4 = st.columns([1, 2, 1, 2])
-    with col1:
-        st.write("Pendientes de arribo")
-        col1_1_, col1_2 = st.columns([1, 1])
-        with col1_1_:
-            st.metric(label="Vacios", value=arribos.shape[0])
-        with col1_2:
-            st.metric(label="TD", value = arribos[arribos['Oper.'] == 'TD'].shape[0])
-            st.metric(label="T", value = arribos[arribos['Oper.'] == 'T'].shape[0])
-    with col2:
-        st.write("Arribos pendientes por día")
-        st.dataframe(arribos_expo_ctns_por_fecha, hide_index=True, use_container_width=True)
-    with col3:
-        st.write("Existente en Plazoleta")
-        col3_1_, col3_2 = st.columns([1, 1])
-        with col3_1_:
-            st.metric(label="Total", value=existente_plz.shape[0])
-        with col3_2:
-            st.metric(label="TD", value = existente_plz[existente_plz['T-TD'] == 'TD'].shape[0])
-            st.metric(label="House", value = existente_plz[existente_plz['T-TD'] != 'TD'].shape[0])
-    with col4:
-        st.write("Resumen por cliente")
-        st.dataframe(existente_plz_clientes, hide_index=True, use_container_width=True)
+    col_impo, col_expo = st.columns(2)
+    with col_impo:
+        st.header("Contenedores IMPO")
+        col1, col2, col3, col4 = st.columns([1, 2, 1, 2])
+        with col1:
+            st.write("Pendientes de arribo")
+            col1_1_, col1_2 = st.columns([1, 1])
+            with col1_1_:
+                st.metric(label="Vacios", value=arribos.shape[0])
+            with col1_2:
+                st.metric(label="TD", value = arribos[arribos['Oper.'] == 'TD'].shape[0])
+                st.metric(label="T", value = arribos[arribos['Oper.'] == 'T'].shape[0])
+        with col2:
+            st.write("Arribos pendientes por día")
+            st.dataframe(arribos_expo_ctns_por_fecha, hide_index=True, use_container_width=True)
+        with col3:
+            st.write("Existente en Plazoleta")
+            col3_1_, col3_2 = st.columns([1, 1])
+            with col3_1_:
+                st.metric(label="Total", value=existente_plz.shape[0])
+            with col3_2:
+                st.metric(label="TD", value = existente_plz[existente_plz['T-TD'] == 'TD'].shape[0])
+                st.metric(label="House", value = existente_plz[existente_plz['T-TD'] != 'TD'].shape[0])
+        with col4:
+            st.write("Resumen por cliente")
+            st.dataframe(existente_plz_clientes, hide_index=True, use_container_width=True)
+    with col_expo:
+        st.subheader("Contenedores EXPO")
+        col1, col2, col3, col4, col5 = st.columns([1, 2, 2, 2, 2])
+        with col1:
+            st.write("Pendientes de arribo")
+            st.metric(label="Total", value=arribos_expo_ctns.shape[0])
 
+        with col2:
+            st.write("Arribos pendientes por día")
+            st.dataframe(arribos_por_fecha, hide_index=True, use_container_width=True)
+        with col3:
+            st.write("Existente en Plazoleta")
+            col3_1_, col3_2 = st.columns([1, 1])
+            with col3_1_:
+                st.metric(label="Total", value=listos_para_remitir.shape[0] + vacios_disponibles.shape[0])
+            with col3_2:
+                st.metric(label="Consolidado", value = listos_para_remitir.shape[0])
+                st.metric(label="Vacios", value = vacios_disponibles.shape[0])
+        with col4:
+            st.write("Resumen por cliente")
+            st.dataframe(existente_plz_expo_clientes, hide_index=True, use_container_width=True)
     st.markdown("<hr>", unsafe_allow_html=True)
 
-    st.subheader("Contenedores EXPO")
-    col1, col2, col3, col4, col5 = st.columns([1, 2, 2, 2, 2])
-    with col1:
-        st.write("Pendientes de arribo")
-        st.metric(label="Total", value=arribos_expo_ctns.shape[0])
 
-    with col2:
-        st.write("Arribos pendientes por día")
-        st.dataframe(arribos_por_fecha, hide_index=True, use_container_width=True)
-    with col3:
-        st.write("Existente en Plazoleta")
-        col3_1_, col3_2 = st.columns([1, 1])
-        with col3_1_:
-            st.metric(label="Total", value=listos_para_remitir.shape[0] + vacios_disponibles.shape[0])
-        with col3_2:
-            st.metric(label="Consolidado", value = listos_para_remitir.shape[0])
-            st.metric(label="Vacios", value = vacios_disponibles.shape[0])
-    with col4:
-        st.write("Resumen por cliente")
-        st.dataframe(existente_plz_expo_clientes, hide_index=True, use_container_width=True)
 
 
     st.subheader("Contenedores Nacional")
