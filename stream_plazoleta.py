@@ -60,10 +60,15 @@ def show_page_plazoleta():
         tabla_resumen.set_index('Contenedor')['Cantidad'].plot.pie(
             autopct=lambda p: f'{p:.0f}%' if p > 0 else '',
             ylabel='',
-            textprops={'fontsize': 22},
+            textprops={'fontsize': 44, 'color': 'black'},  # Double font size and set percentage labels to black
             colors=plt.cm.Paired.colors,
             ax=ax
         )
+        for text in ax.texts:
+            if text.get_text().endswith('%'):  # Check if it's a percentage label
+                text.set_color('black')  # Keep percentage labels black
+            else:
+                text.set_color('white')  # Set category labels to white
         fig.patch.set_alpha(0)  # Set transparent background
         ax.set_title('')  # Remove title
         pie_chart.pyplot(fig)
