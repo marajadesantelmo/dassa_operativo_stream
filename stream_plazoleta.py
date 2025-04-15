@@ -4,6 +4,7 @@ import time
 from datetime import datetime
 from utils import highlight
 import matplotlib.pyplot as plt 
+from matplotlib.figure import Figure
 
 @st.cache_data(ttl=60) 
 def fetch_data_plazoleta():
@@ -54,8 +55,12 @@ def show_page_plazoleta():
         st.markdown("<h1 style='text-align: center;'>Estado actual de la Plazoleta</h1>", unsafe_allow_html=True)
     with col_pie_chart:
         pie_chart = st.empty()
-        pie_chart.pyplot(tabla_resumen.set_index('Contenedor')['Cantidad'].plot.pie(
-            autopct='%1.1f%%', figsize=(5, 5), ylabel='', title='Distribución de Contenedores'))
+        fig = Figure(figsize=(5, 5))
+        ax = fig.add_subplot(111)
+        tabla_resumen.set_index('Contenedor')['Cantidad'].plot.pie(
+            autopct='%1.1f%%', ylabel='', title='Distribución de Contenedores', ax=ax
+        )
+        pie_chart.pyplot(fig)
     with col_tabla:
         st.dataframe(tabla_resumen, hide_index=True, use_container_width=True)
 
