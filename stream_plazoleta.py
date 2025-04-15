@@ -52,10 +52,9 @@ def show_page_plazoleta():
     with col_title:
         st.markdown("<h1 style='text-align: center;'>Estado actual de la Plazoleta</h1>", unsafe_allow_html=True)
     with col_pie_chart:
-        st.markdown("<h1 style='text-align: center;'>Contenedores</h1>", unsafe_allow_html=True)
-        st.markdown("<hr>", unsafe_allow_html=True)
         pie_chart = st.empty()
-        pie_chart.line_chart(tabla_resumen.set_index('Contenedor').T, use_container_width=True)
+        pie_chart.pyplot(tabla_resumen.set_index('Contenedor')['Cantidad'].plot.pie(
+            autopct='%1.1f%%', figsize=(5, 5), ylabel='', title='Distribución de Contenedores'))
     with col_tabla:
         st.dataframe(tabla_resumen, hide_index=True, use_container_width=True)
 
