@@ -46,11 +46,16 @@ def show_page_plazoleta():
     # Load data
     arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen = fetch_data_plazoleta()
 
-    col_logo, col_title, col_tabla = st.columns([1, 5, 1])
+    col_logo, col_title, col_pie_chart, col_tabla = st.columns([1, 3, 1, 2])
     with col_logo:
         st.image('logo.png')
     with col_title:
         st.markdown("<h1 style='text-align: center;'>Estado actual de la Plazoleta</h1>", unsafe_allow_html=True)
+    with col_pie_chart:
+        st.markdown("<h1 style='text-align: center;'>Contenedores</h1>", unsafe_allow_html=True)
+        st.markdown("<hr>", unsafe_allow_html=True)
+        pie_chart = st.empty()
+        pie_chart.line_chart(tabla_resumen.set_index('Contenedor').T, use_container_width=True)
     with col_tabla:
         st.dataframe(tabla_resumen, hide_index=True, use_container_width=True)
 
