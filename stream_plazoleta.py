@@ -23,11 +23,13 @@ def fetch_data_plazoleta():
     arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
     arribos_expo_ctns_por_fecha = arribos_expo_ctns['Fecha'].value_counts()
     arribos_expo_ctns_por_fecha.columns = ['Fecha', 'NTs']
-    return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns
+    listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
+    vacios_disponibles = pd.read_csv('data/vacios_disponibles.csv')
+    return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles
 
 def show_page_plazoleta():
     # Load data
-    arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns = fetch_data_plazoleta()
+    arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles = fetch_data_plazoleta()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -101,8 +103,8 @@ def show_page_plazoleta():
         with col3_1_:
             st.metric(label="Total", value=existente_plz.shape[0])
         with col3_2:
-            st.metric(label="TD", value = existente_plz[existente_plz['T-TD'] == 'TD'].shape[0])
-            st.metric(label="House", value = existente_plz[existente_plz['T-TD'] != 'TD'].shape[0])
+            st.metric(label="Consolidado", value = listos_para_remitir.shape[0])
+            st.metric(label="Vacios", value = vacios_disponibles.shape[0])
     with col4:
         st.write("Resumen por cliente")
         st.dataframe(existente_plz_clientes, use_container_width=True)
