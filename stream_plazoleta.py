@@ -8,15 +8,16 @@ from utils import highlight
 def fetch_data_plazoleta():
     arribos = pd.read_csv('data/arribos.csv')
     arribos_semana = pd.read_csv('data/arribos_semana.csv')
+    arribos_semana_pendientes = arribos_semana[arribos_semana['arribado'] == 0]
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
     existente_plz = pd.read_csv('data/existente_plz.csv')
-    existente_plz = existente_plz[~existente_plz['Operacion'].str.contains("-0-")] #Saco la mercaderia que esta en PLZ (solo quiero tachos)
+    existente_plz = existente_plz[existente_plz['Operacion'].str.contains("-0-")] #Saco la mercaderia que esta en PLZ (solo quiero tachos)
     cont_nac = pd.read_csv('data/contenedores_nacionales.csv')
-    return arribos, pendiente_desconsolidar, existente_plz, cont_nac
+    return arribos, pendiente_desconsolidar, existente_plz, cont_nac, arribos_semana
 
 def show_page_plazoleta():
     # Load data
-    arribos, pendiente_desconsolidar,  existente_plz, cont_nac = fetch_data_plazoleta()
+    arribos, pendiente_desconsolidar,  existente_plz, cont_nac, arribos_semana = fetch_data_plazoleta()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -72,6 +73,10 @@ def show_page_plazoleta():
         with col3_2:
             st.metric(label="TD", value = existente_plz[existente_plz['T-TD'] == 'TD'].shape[0])
             st.metric(label="House", value = existente_plz[existente_plz['T-TD'] != 'TD'].shape[0])
+    
+    with col4:
+        st.write("Arribos")
+
 
 # Run the show_page function
 if __name__ == "__main__":
