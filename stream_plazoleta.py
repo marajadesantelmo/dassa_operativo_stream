@@ -53,7 +53,7 @@ def show_page_plazoleta():
             st.metric(label="T", value=arribos[arribos['Oper.'] == 'T'].shape[0])
         with col2:
             st.write("Arribos pendientes por día")
-            st.dataframe(arribos_expo_ctns_por_fecha, hide_index=True, use_container_width=True)
+            st.dataframe(arribos_por_fecha, hide_index=True, use_container_width=True)
         with col3:
             st.write("Existente en Plazoleta")
             st.metric(label="Total", value=existente_plz.shape[0])
