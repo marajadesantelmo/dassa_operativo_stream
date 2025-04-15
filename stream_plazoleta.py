@@ -10,26 +10,29 @@ def fetch_data_plazoleta():
     arribos_semana = pd.read_csv('data/arribos_semana.csv')
     arribos_semana_pendientes = arribos_semana[arribos_semana['arribado'] == 0]
     tabla_arribos_pendientes = arribos_semana_pendientes
-    arribos_por_fecha = tabla_arribos_pendientes['fecha'].value_counts()
+    arribos_por_fecha = tabla_arribos_pendientes['fecha'].value_counts().reset_index()
     arribos_por_fecha.columns = ['Fecha', 'NTs']
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz = existente_plz[existente_plz['Operacion'].str.contains("-0-")] #Saco la mercaderia que esta en PLZ (solo quiero tachos)
-    existente_plz_clientes = existente_plz['Cliente'].value_counts()
+    existente_plz_clientes = existente_plz['Cliente'].value_counts().reset_index()
     existente_plz_clientes.columns = ['Cliente', 'CTNs']
     cont_nac = pd.read_csv('data/contenedores_nacionales.csv')
-    cont_nac_clientes = cont_nac['CLIENTE'].value_counts()
+    cont_nac_clientes = cont_nac['CLIENTE'].value_counts().reset_index()
     cont_nac_clientes.columns = ['Cliente', 'CTNs']
     arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
-    arribos_expo_ctns_por_fecha = arribos_expo_ctns['Fecha'].value_counts()
+    arribos_expo_ctns_por_fecha = arribos_expo_ctns['Fecha'].value_counts().reset_index()
     arribos_expo_ctns_por_fecha.columns = ['Fecha', 'NTs']
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
     vacios_disponibles = pd.read_csv('data/vacios_disponibles.csv')
-    return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles
+    existente_plz_expo = pd.concat([listos_para_remitir[['Cliente', 'Contenedor']], vacios_disponibles[['Cliente', 'Contenedor']]])
+    existente_plz_expo_clientes = existente_plz_expo['Cliente'].value_counts().reset_index()
+    existente_plz_expo_clientes.columns = ['Cliente', 'CTNs']
+    return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes
 
 def show_page_plazoleta():
     # Load data
-    arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles = fetch_data_plazoleta()
+    arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes = fetch_data_plazoleta()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -101,18 +104,18 @@ def show_page_plazoleta():
         st.write("Existente en Plazoleta")
         col3_1_, col3_2 = st.columns([1, 1])
         with col3_1_:
-            st.metric(label="Total", value=existente_plz.shape[0])
+            st.metric(label="Total", value=listos_para_remitir.shape[0] + vacios_disponibles.shape[0])
         with col3_2:
             st.metric(label="Consolidado", value = listos_para_remitir.shape[0])
             st.metric(label="Vacios", value = vacios_disponibles.shape[0])
     with col4:
         st.write("Resumen por cliente")
-        st.dataframe(existente_plz_clientes, use_container_width=True)
+        st.dataframe(existente_plz_expo_clientes, use_container_width=True)
 
 # Run the show_page function
 if __name__ == "__main__":
     while True:
         show_page_plazoleta()
         time.sleep(60)  
-        st.experimental_rerun() 
+        st.experimental_rerun()
 
