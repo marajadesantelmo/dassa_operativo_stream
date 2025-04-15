@@ -11,17 +11,20 @@ def fetch_data_plazoleta():
     arribos_semana_pendientes = arribos_semana[arribos_semana['arribado'] == 0]
     tabla_arribos_pendientes = arribos_semana_pendientes
     arribos_por_fecha = tabla_arribos_pendientes['fecha'].value_counts()
+    arribos_por_fecha.columns = ['Fecha', 'NTs']
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz = existente_plz[existente_plz['Operacion'].str.contains("-0-")] #Saco la mercaderia que esta en PLZ (solo quiero tachos)
+    existente_plz_clientes = existente_plz['Cliente'].value_counts()
+    existente_plz_clientes.columns = ['Cliente', 'CTNs']
     cont_nac = pd.read_csv('data/contenedores_nacionales.csv')
     cont_nac_clientes = cont_nac['CLIENTE'].value_counts()
     cont_nac_clientes.columns = ['Cliente', 'CTNs']
-    return arribos, pendiente_desconsolidar, existente_plz, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha
+    return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha
 
 def show_page_plazoleta():
     # Load data
-    arribos, pendiente_desconsolidar, existente_plz, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha = fetch_data_plazoleta()
+    arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha = fetch_data_plazoleta()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -31,7 +34,6 @@ def show_page_plazoleta():
         st.title(f"Estado actual de la Plazoleta")
 
     st.subheader("Contenedores Nacional")
-
     col1_metric, col2_submetrics, col3_submetrics, col4_clientes = st.columns(4)
     with col1_metric:
         ctns_pendientes = cont_nac['Contenedor'].nunique()
@@ -64,9 +66,8 @@ def show_page_plazoleta():
         with col1_2:
             st.metric(label="TD", value = arribos[arribos['Oper.'] == 'TD'].shape[0])
             st.metric(label="T", value = arribos[arribos['Oper.'] == 'T'].shape[0])
-        
     with col2:
-        st.write("Arribos por día")
+        st.write("Arribos pendientes por día")
         st.dataframe(arribos_por_fecha, use_container_width=True)
     with col3:
         st.write("Existente en Plazoleta")
@@ -76,10 +77,36 @@ def show_page_plazoleta():
         with col3_2:
             st.metric(label="TD", value = existente_plz[existente_plz['T-TD'] == 'TD'].shape[0])
             st.metric(label="House", value = existente_plz[existente_plz['T-TD'] != 'TD'].shape[0])
-    
     with col4:
-        st.write("Arribos")
+        st.write("Resumen por cliente")
+        st.dataframe(existente_plz_clientes, use_container_width=True)
 
+    st.markdown("<hr>", unsafe_allow_html=True)
+
+    st.subheader("Contenedores EXPO")
+    col1, col2, col3, col4, col5 = st.columns([1, 2, 2, 2, 2])
+    with col1:
+        st.write("Pendientes de arribo")
+        col1_1_, col1_2 = st.columns([1, 1])
+        with col1_1_:
+            st.metric(label="Total", value=arribos.shape[0])
+        with col1_2:
+            st.metric(label="TD", value = arribos[arribos['Oper.'] == 'TD'].shape[0])
+            st.metric(label="T", value = arribos[arribos['Oper.'] == 'T'].shape[0])
+    with col2:
+        st.write("Arribos pendientes por día")
+        st.dataframe(arribos_por_fecha, use_container_width=True)
+    with col3:
+        st.write("Existente en Plazoleta")
+        col3_1_, col3_2 = st.columns([1, 1])
+        with col3_1_:
+            st.metric(label="Total", value=existente_plz.shape[0])
+        with col3_2:
+            st.metric(label="TD", value = existente_plz[existente_plz['T-TD'] == 'TD'].shape[0])
+            st.metric(label="House", value = existente_plz[existente_plz['T-TD'] != 'TD'].shape[0])
+    with col4:
+        st.write("Resumen por cliente")
+        st.dataframe(existente_plz_clientes, use_container_width=True)
 
 # Run the show_page function
 if __name__ == "__main__":
