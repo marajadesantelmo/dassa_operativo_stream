@@ -37,6 +37,8 @@ def fetch_data_plazoleta():
         'Contenedor': ['Contenedores IMPO', 'Contenedores EXPO', 'Contenedores NACIONAL', 'Disponibles'],
         'Cantidad': [ctns_impo_plz, ctns_expo_plz, ctns_nac, disponibles]
     })
+    tabla_resumen['%'] = (tabla_resumen['Cantidad'] / 220) * 100
+    tabla_resumen['%'] = tabla_resumen['%'].round(0).astype(str) + '%'
 
     return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen
 
