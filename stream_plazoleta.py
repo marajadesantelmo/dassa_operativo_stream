@@ -47,23 +47,17 @@ def show_page_plazoleta():
         col1, col2, col3, col4 = st.columns([1, 2, 1, 2])
         with col1:
             st.write("Pendientes de arribo")
-            col1_1, col1_2 = st.columns([1, 1])
-            with col1_1:
-                st.metric(label="Vacios", value=arribos.shape[0])
-            with col1_2:
-                st.metric(label="TD", value = arribos[arribos['Oper.'] == 'TD'].shape[0])
-                st.metric(label="T", value = arribos[arribos['Oper.'] == 'T'].shape[0])
+            st.metric(label="Vacios", value=arribos.shape[0])
+            st.metric(label="TD", value=arribos[arribos['Oper.'] == 'TD'].shape[0])
+            st.metric(label="T", value=arribos[arribos['Oper.'] == 'T'].shape[0])
         with col2:
             st.write("Arribos pendientes por día")
             st.dataframe(arribos_expo_ctns_por_fecha, hide_index=True, use_container_width=True)
         with col3:
             st.write("Existente en Plazoleta")
-            col3_1_, col3_2 = st.columns([1, 1])
-            with col3_1_:
-                st.metric(label="Total", value=existente_plz.shape[0])
-            with col3_2:
-                st.metric(label="TD", value = existente_plz[existente_plz['T-TD'] == 'TD'].shape[0])
-                st.metric(label="House", value = existente_plz[existente_plz['T-TD'] != 'TD'].shape[0])
+            st.metric(label="Total", value=existente_plz.shape[0])
+            st.metric(label="TD", value=existente_plz[existente_plz['T-TD'] == 'TD'].shape[0])
+            st.metric(label="House", value=existente_plz[existente_plz['T-TD'] != 'TD'].shape[0])
         with col4:
             st.write("Resumen por cliente")
             st.dataframe(existente_plz_clientes, hide_index=True, use_container_width=True)
@@ -73,25 +67,18 @@ def show_page_plazoleta():
         with col1:
             st.write("Pendientes de arribo")
             st.metric(label="Total", value=arribos_expo_ctns.shape[0])
-
         with col2:
             st.write("Arribos pendientes por día")
             st.dataframe(arribos_por_fecha, hide_index=True, use_container_width=True)
         with col3:
             st.write("Existente en Plazoleta")
-            col3_1_, col3_2 = st.columns([1, 1])
-            with col3_1_:
-                st.metric(label="Total", value=listos_para_remitir.shape[0] + vacios_disponibles.shape[0])
-            with col3_2:
-                st.metric(label="Consolidado", value = listos_para_remitir.shape[0])
-                st.metric(label="Vacios", value = vacios_disponibles.shape[0])
+            st.metric(label="Total", value=listos_para_remitir.shape[0] + vacios_disponibles.shape[0])
+            st.metric(label="Consolidado", value=listos_para_remitir.shape[0])
+            st.metric(label="Vacios", value=vacios_disponibles.shape[0])
         with col4:
             st.write("Resumen por cliente")
             st.dataframe(existente_plz_expo_clientes, hide_index=True, use_container_width=True)
     st.markdown("<hr>", unsafe_allow_html=True)
-
-
-
 
     st.subheader("Contenedores Nacional")
     col1_metric, col2_submetrics, col3_submetrics, col4_clientes = st.columns(4)
@@ -109,14 +96,12 @@ def show_page_plazoleta():
         cueros = cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(?:CUERO|Cuero)\b', regex=True, na=False)].shape[0]
         st.metric(label="Cueros", value=cueros)
         otros = cont_nac[(~cont_nac['OBSERVACION'].str.contains(r'\b(?:ROLLOS|Rollo|CUERO|Cuero)\b', regex=True, na=False)) &
-                            (cont_nac['CARGADO'].str.contains(r'\b(?:SI|si|Si)\b', regex=True, na=False))].shape[0]
+                         (cont_nac['CARGADO'].str.contains(r'\b(?:SI|si|Si)\b', regex=True, na=False))].shape[0]
         st.metric(label="Otros", value=otros)
     with col4_clientes:
         st.dataframe(cont_nac_clientes, hide_index=True, use_container_width=True)
 
     st.markdown("<hr>", unsafe_allow_html=True)
-
-
 
 # Run the show_page function
 if __name__ == "__main__":
