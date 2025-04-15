@@ -22,7 +22,7 @@ def fetch_data_plazoleta():
     cont_nac_clientes.columns = ['Cliente', 'CTNs']
     arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
     arribos_expo_ctns_por_fecha = arribos_expo_ctns['Fecha'].value_counts().reset_index()
-    arribos_expo_ctns_por_fecha.columns = ['Fecha', 'NTs']
+    arribos_expo_ctns_por_fecha.columns = ['Fecha', 'CNTs']
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
     vacios_disponibles = pd.read_csv('data/vacios_disponibles.csv')
     existente_plz_expo = pd.concat([listos_para_remitir[['Cliente', 'Contenedor']], vacios_disponibles[['Cliente', 'Contenedor']]])
@@ -44,6 +44,7 @@ def show_page_plazoleta():
     col_impo, col_expo = st.columns(2)
     with col_impo:
         st.header("Contenedores IMPO")
+        st.markdown("<hr>", unsafe_allow_html=True)
         col1, col2, col3, col4 = st.columns([1, 2, 1, 2])
         with col1:
             st.write("Pendientes de arribo")
@@ -63,7 +64,8 @@ def show_page_plazoleta():
             st.dataframe(existente_plz_clientes, hide_index=True, use_container_width=True)
     with col_expo:
         st.subheader("Contenedores EXPO")
-        col1, col2, col3, col4, col5 = st.columns([1, 2, 2, 2, 2])
+        st.markdown("<hr>", unsafe_allow_html=True)
+        col1, col2, col3, col4 = st.columns([1, 2, 1, 2])
         with col1:
             st.write("Pendientes de arribo")
             st.metric(label="Total", value=arribos_expo_ctns.shape[0])
