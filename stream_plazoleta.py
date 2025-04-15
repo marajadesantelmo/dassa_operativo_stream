@@ -63,7 +63,7 @@ def show_page_plazoleta():
             st.write("Resumen por cliente")
             st.dataframe(existente_plz_clientes, hide_index=True, use_container_width=True)
     with col_expo:
-        st.subheader("Contenedores EXPO")
+        st.header("Contenedores EXPO")
         st.markdown("<hr>", unsafe_allow_html=True)
         col1, col2, col3, col4 = st.columns([1, 2, 1, 2])
         with col1:
