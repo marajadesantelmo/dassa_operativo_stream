@@ -7,8 +7,10 @@ from utils import highlight
 @st.cache_data(ttl=60) 
 def fetch_data_plazoleta():
     arribos = pd.read_csv('data/arribos.csv')
+    arribos_semana = pd.read_csv('data/arribos_semana.csv')
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
     existente_plz = pd.read_csv('data/existente_plz.csv')
+    existente_plz = existente_plz[~existente_plz['Operacion'].str.contains("-0-")] #Saco la mercaderia que esta en PLZ (solo quiero tachos)
     cont_nac = pd.read_csv('data/contenedores_nacionales.csv')
     return arribos, pendiente_desconsolidar, existente_plz, cont_nac
 
@@ -66,8 +68,10 @@ def show_page_plazoleta():
         st.write("Existente en Plazoleta")
         col3_1_, col3_2 = st.columns([1, 1])
         with col3_1_:
-            st.metric(label="Total", value=existente_plz[existente_plz['Operacion'].str.contains("-0-")].shape[0])
-
+            st.metric(label="Total", value=existente_plz.shape[0])
+        with col3_2:
+            st.metric(label="TD", value = existente_plz[existente_plz['T-TD'] == 'TD'].shape[0])
+            st.metric(label="House", value = existente_plz[existente_plz['T-TD'] != 'TD'].shape[0])
 
 # Run the show_page function
 if __name__ == "__main__":
