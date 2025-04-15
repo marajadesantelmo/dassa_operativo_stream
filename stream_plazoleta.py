@@ -15,11 +15,13 @@ def fetch_data_plazoleta():
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz = existente_plz[existente_plz['Operacion'].str.contains("-0-")] #Saco la mercaderia que esta en PLZ (solo quiero tachos)
     cont_nac = pd.read_csv('data/contenedores_nacionales.csv')
-    return arribos, pendiente_desconsolidar, existente_plz, cont_nac, arribos_semana
+    cont_nac_clientes = cont_nac['CLIENTE'].value_counts()
+    cont_nac_clientes.columns = ['Cliente', 'CTNs']
+    return arribos, pendiente_desconsolidar, existente_plz, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha
 
 def show_page_plazoleta():
     # Load data
-    arribos, pendiente_desconsolidar,  existente_plz, cont_nac, arribos_semana = fetch_data_plazoleta()
+    arribos, pendiente_desconsolidar, existente_plz, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha = fetch_data_plazoleta()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -48,8 +50,7 @@ def show_page_plazoleta():
                             (cont_nac['CARGADO'].str.contains(r'\b(SI|si|Si)\b', regex=True, na=False))].shape[0]
         st.metric(label="Otros", value=otros)
     with col4_clientes:
-        clientes = cont_nac['CLIENTE'].value_counts()
-        st.dataframe(clientes, use_container_width=True)
+        st.dataframe(cont_nac_clientes, use_container_width=True)
 
     st.markdown("<hr>", unsafe_allow_html=True)
 
@@ -66,7 +67,7 @@ def show_page_plazoleta():
         
     with col2:
         st.write("Arribos por día")
-
+        st.dataframe(arribos_por_fecha, use_container_width=True)
     with col3:
         st.write("Existente en Plazoleta")
         col3_1_, col3_2 = st.columns([1, 1])
