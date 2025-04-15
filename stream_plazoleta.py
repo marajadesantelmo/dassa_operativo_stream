@@ -41,31 +41,8 @@ def show_page_plazoleta():
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Estado actual de la Plazoleta")
 
-    st.subheader("Contenedores Nacional")
-    col1_metric, col2_submetrics, col3_submetrics, col4_clientes = st.columns(4)
-    with col1_metric:
-        ctns_pendientes = cont_nac['Contenedor'].nunique()
-        st.metric(label="Existente", value=ctns_pendientes)
-    with col2_submetrics:
-        cargados = cont_nac[cont_nac['CARGADO'].str.contains(r'\b(?:SI|si|Si)\b', regex=True, na=False)].shape[0]
-        st.metric(label="Cargados", value=cargados)
-        vacios = cont_nac[cont_nac['CARGADO'].str.contains(r'\b(?:NO|no|No)\b', regex=True, na=False)].shape[0]
-        st.metric(label="Vacios", value=vacios)
-    with col3_submetrics:
-        rollos = cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(?:ROLLOS|Rollo)\b', regex=True, na=False)].shape[0]
-        st.metric(label="Rollos", value=rollos)
-        cueros = cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(?:CUERO|Cuero)\b', regex=True, na=False)].shape[0]
-        st.metric(label="Cueros", value=cueros)
-        otros = cont_nac[(~cont_nac['OBSERVACION'].str.contains(r'\b(?:ROLLOS|Rollo|CUERO|Cuero)\b', regex=True, na=False)) &
-                            (cont_nac['CARGADO'].str.contains(r'\b(?:SI|si|Si)\b', regex=True, na=False))].shape[0]
-        st.metric(label="Otros", value=otros)
-    with col4_clientes:
-        st.dataframe(cont_nac_clientes, hide_index=True, use_container_width=True)
-
-    st.markdown("<hr>", unsafe_allow_html=True)
-
-    st.subheader("Contenedores IMPO")
-    col1, col2, col3, col4, col5 = st.columns([1, 2, 2, 2, 2])
+    st.header("Contenedores IMPO")
+    col1, col2, col3, col4 = st.columns([1, 2, 1, 2])
     with col1:
         st.write("Pendientes de arribo")
         col1_1_, col1_2 = st.columns([1, 1])
@@ -111,6 +88,32 @@ def show_page_plazoleta():
     with col4:
         st.write("Resumen por cliente")
         st.dataframe(existente_plz_expo_clientes, hide_index=True, use_container_width=True)
+
+
+    st.subheader("Contenedores Nacional")
+    col1_metric, col2_submetrics, col3_submetrics, col4_clientes = st.columns(4)
+    with col1_metric:
+        ctns_pendientes = cont_nac['Contenedor'].nunique()
+        st.metric(label="Existente", value=ctns_pendientes)
+    with col2_submetrics:
+        cargados = cont_nac[cont_nac['CARGADO'].str.contains(r'\b(?:SI|si|Si)\b', regex=True, na=False)].shape[0]
+        st.metric(label="Cargados", value=cargados)
+        vacios = cont_nac[cont_nac['CARGADO'].str.contains(r'\b(?:NO|no|No)\b', regex=True, na=False)].shape[0]
+        st.metric(label="Vacios", value=vacios)
+    with col3_submetrics:
+        rollos = cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(?:ROLLOS|Rollo)\b', regex=True, na=False)].shape[0]
+        st.metric(label="Rollos", value=rollos)
+        cueros = cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(?:CUERO|Cuero)\b', regex=True, na=False)].shape[0]
+        st.metric(label="Cueros", value=cueros)
+        otros = cont_nac[(~cont_nac['OBSERVACION'].str.contains(r'\b(?:ROLLOS|Rollo|CUERO|Cuero)\b', regex=True, na=False)) &
+                            (cont_nac['CARGADO'].str.contains(r'\b(?:SI|si|Si)\b', regex=True, na=False))].shape[0]
+        st.metric(label="Otros", value=otros)
+    with col4_clientes:
+        st.dataframe(cont_nac_clientes, hide_index=True, use_container_width=True)
+
+    st.markdown("<hr>", unsafe_allow_html=True)
+
+
 
 # Run the show_page function
 if __name__ == "__main__":
