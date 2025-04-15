@@ -3,6 +3,7 @@ import pandas as pd
 import time
 from datetime import datetime
 from utils import highlight
+import matplotlib.pyplot as plt 
 
 @st.cache_data(ttl=60) 
 def fetch_data_plazoleta():
