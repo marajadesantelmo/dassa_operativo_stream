@@ -9,7 +9,6 @@ def fetch_data_plazoleta():
     arribos = pd.read_csv('data/arribos.csv')
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
     existente_plz = pd.read_csv('data/existente_plz.csv')
-    existente_plz['e-tally'] = existente_plz['e-tally'].fillna("")
     cont_nac = pd.read_csv('data/contenedores_nacionales.csv')
     return arribos, pendiente_desconsolidar, existente_plz, cont_nac
 
@@ -53,7 +52,21 @@ def show_page_plazoleta():
     col1, col2, col3, col4, col5 = st.columns([1, 2, 2, 2, 2])
     with col1:
         st.write("Pendientes de arribo")
-        st.metric(label="Total", value=arribos.shape[0])
+        col1_1_, col1_2 = st.columns([1, 1])
+        with col1_1_:
+            st.metric(label="Total", value=arribos.shape[0])
+        with col1_2:
+            st.metric(label="TD", value = arribos[arribos['Oper.'] == 'TD'].shape[0])
+            st.metric(label="T", value = arribos[arribos['Oper.'] == 'T'].shape[0])
+        
+    with col2:
+        st.write("Arribos por día")
+
+    with col3:
+        st.write("Existente en Plazoleta")
+        col3_1_, col3_2 = st.columns([1, 1])
+        with col3_1_:
+            st.metric(label="Total", value=existente_plz[existente_plz['Operacion'].str.contains("-0-")].shape[0])
 
 
 # Run the show_page function
