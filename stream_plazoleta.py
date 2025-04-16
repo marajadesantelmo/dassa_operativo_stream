@@ -80,27 +80,27 @@ def show_page_plazoleta():
     with col_arribos:
         st.header('Arribos')
         st.markdown("""
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
-            <div style="display: flex; flex-direction: column; align-items: center;">
-                <h6>Arribos IMPO</h6>
-                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
+        <div style="display: flex; justify-content: space-between; width: 100%;">
+            <div style="text-align: center; flex: 1;">
+            <h6>Arribos IMPO</h6>
+            <p style="font-size: calc(0.7em + 0.7vw); margin: 0;">{}</p>
             </div>
-            <div style="display: flex; flex-direction: column; align-items: center;">
-                <h6>T</h6>
-                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
+            <div style="text-align: center; flex: 1;">
+            <h6>T</h6>
+            <p style="font-size: calc(0.7em + 0.7vw); margin: 0;">{}</p>
             </div>
-            <div style="display: flex; flex-direction: column; align-items: center;">
-                <h6>TD</h6>
-                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
+            <div style="text-align: center; flex: 1;">
+            <h6>TD</h6>
+            <p style="font-size: calc(0.7em + 0.7vw); margin: 0;">{}</p>
             </div>
         </div>
         """.format(
             int(arribos_semana_pendientes.shape[0]),
-            int(arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'TD'].shape[0]),
             int(arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'T'].shape[0]),
+            int(arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'TD'].shape[0]),
         ),
         unsafe_allow_html=True
-    )
+        )
 
 
 
