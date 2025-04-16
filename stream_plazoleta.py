@@ -84,15 +84,15 @@ def show_page_plazoleta():
         st.markdown("""
         <div style="display: flex; justify-content: space-between; width: 100%;">
             <div style="text-align: center; flex: 1;">
-            <h5>Arribos IMPO</h5>
+            <h6>Arribos IMPO</h6>
             <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
             </div>
             <div style="text-align: center; flex: 1;">
-            <h5>T</h5>
+            <h6>T</h6>
             <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
             </div>
             <div style="text-align: center; flex: 1;">
-            <h5>TD</h5>
+            <h6>TD</h6>
             <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
             </div>
         </div>
