@@ -243,12 +243,22 @@ ctn_expo_proyectado = ctn_expo_proyectado.round(0).astype(int)
 
 #Ingresado
 cursor.execute("""
-SELECT  fecha_ing, orden_ing, suborden, renglon, tipo_oper, contenedor, fecha_desc
-FROM DEPOFIS.DASSA.[Ingresadas En Stock]
+SELECT  i.fecha_ing, i.orden_ing, i.suborden, i.renglon, i.tipo_oper, i.contenedor, i.fecha_desc
+FROM DEPOFIS.DASSA.[Ingresadas En Stock] i
+JOIN DEPOFIS.DASSA.[Tip_env] env ON i.tipo_env = env.codigo
 WHERE fecha_ing > '2021-01-01'
 AND tipo_oper = 'IMPORTACION'
 AND suborden = 0
-""") 
+AND env.detalle = 'CONTENEDOR'
+""")
+
+
+"""SELECT  i.orden_ing, i.suborden, i.renglon, i.cliente, i.tipo_oper, i.fecha_ing, 
+    i.contenedor, i.desc_merc, i.dimension, i.tipo_cnt, i.volumen, env.detalle AS Envase
+    FROM [DEPOFIS].[DASSA].[Ingresadas En Stock] i
+    JOIN DEPOFIS.DASSA.[Tip_env] env ON i.tipo_env = env.codigo
+    WHERE i.fecha_ing >= '2024-01-01'"""
+
 rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 ingresado = pd.DataFrame.from_records(rows, columns=columns)
