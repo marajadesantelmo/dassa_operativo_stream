@@ -60,7 +60,7 @@ def show_page_plazoleta():
         tabla_resumen.set_index('Contenedor')['Cantidad'].plot.pie(
             autopct=lambda p: f'{p:.0f}%' if p > 0 else '',
             ylabel='',
-            textprops={'fontsize': 22, 'color': 'black'},  # Double font size and set percentage labels to black
+            textprops={'fontsize': 12, 'color': 'black'},  # Double font size and set percentage labels to black
             colors=plt.cm.Paired.colors,
             ax=ax
         )
