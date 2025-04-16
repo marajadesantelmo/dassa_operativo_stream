@@ -36,7 +36,7 @@ def fetch_data_plazoleta():
     ctns_nac = cont_nac.shape[0]
     disponibles = 220 - ctns_impo_plz - ctns_expo_plz - ctns_nac
     tabla_resumen = pd.DataFrame({
-        'Contenedor': ['IMPO', 'EXPO', 'NACIONAL', 'Disponibles'],
+        'Contenedor': ['Importación', 'Exportación', 'Nacional', 'Disponibles'],
         'Cantidad': [ctns_impo_plz, ctns_expo_plz, ctns_nac, disponibles]
     })
     tabla_resumen['%'] = (tabla_resumen['Cantidad'] / 220) * 100
