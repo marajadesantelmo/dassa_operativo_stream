@@ -55,7 +55,7 @@ def show_page_plazoleta():
         st.markdown("<h1 style='text-align: center;'>Estado actual de la Plazoleta</h1>", unsafe_allow_html=True)
     with col_pie_chart:
         pie_chart = st.empty()
-        fig = Figure(figsize=(10, 10))
+        fig = Figure(figsize=(6, 6))
         ax = fig.add_subplot(111)
         tabla_resumen.set_index('Contenedor')['Cantidad'].plot.pie(
             autopct=lambda p: f'{p:.0f}%' if p > 0 else '',
