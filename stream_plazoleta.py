@@ -84,7 +84,7 @@ def show_page_plazoleta():
         st.markdown("""
         <div style="display: flex; justify-content: space-between; width: 100%;">
             <div style="text-align: center; flex: 1;">
-            <h6>Arribos IMPO</h6>
+            <h6>Ptes. IMPO</h6>
             <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
             </div>
             <div style="text-align: center; flex: 1;">
@@ -103,52 +103,28 @@ def show_page_plazoleta():
         ),
         unsafe_allow_html=True
         )
-        st.write("Arribos pendientes por día")
+        st.write("Arribos pendientes IMPO")
         st.dataframe(tabla_arribos_pendientes, hide_index=True, use_container_width=True)
-
-
-
-
-
-    col_impo, col_expo = st.columns(2)
-    with col_impo:
-        st.header("Contenedores IMPO")
+        st.write("Ptes. IMPO")
+        st.metric(label="Total", value=arribos_expo_ctns.shape[0])
+        st.write("Arribos pendientes EXPO")
+        st.dataframe(arribos_expo_ctns_por_fecha, hide_index=True, use_container_width=True)
         st.markdown("<hr>", unsafe_allow_html=True)
-        col1, col2, col3, col4 = st.columns([1, 2, 1, 2])
-        with col1:
-            st.write("Pendientes de arribo")
-            st.metric(label="Arribos IMPO", value=arribos_semana_pendientes.shape[0])
-            st.metric(label="TD", value=arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'TD'].shape[0])
-            st.metric(label="T", value=arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'T'].shape[0])
-        with col2:
-            st.write("Arribos pendientes por día")
-            st.dataframe(arribos_por_fecha, hide_index=True, use_container_width=True)
-        with col3:
-            st.write("Existente en Plazoleta")
-            st.metric(label="Total", value=existente_plz.shape[0])
-            st.metric(label="TD", value=existente_plz[existente_plz['T-TD'] == 'TD'].shape[0])
-            st.metric(label="House", value=existente_plz[existente_plz['T-TD'] != 'TD'].shape[0])
-        with col4:
-            st.write("Resumen por cliente")
-            st.dataframe(existente_plz_clientes, hide_index=True, use_container_width=True)
-    with col_expo:
-        st.header("Contenedores EXPO")
-        st.markdown("<hr>", unsafe_allow_html=True)
-        col1, col2, col3, col4 = st.columns([1, 2, 1, 2])
-        with col1:
-            st.write("Pendientes de arribo")
-            st.metric(label="Total", value=arribos_expo_ctns.shape[0])
-        with col2:
-            st.write("Arribos pendientes por día")
-            st.dataframe(arribos_expo_ctns_por_fecha, hide_index=True, use_container_width=True)
-        with col3:
-            st.write("Existente en Plazoleta")
-            st.metric(label="Total", value=listos_para_remitir.shape[0] + vacios_disponibles.shape[0])
-            st.metric(label="Consolidado", value=listos_para_remitir.shape[0])
-            st.metric(label="Vacios", value=vacios_disponibles.shape[0])
-        with col4:
-            st.write("Resumen por cliente")
-            st.dataframe(existente_plz_expo_clientes, hide_index=True, use_container_width=True)
+
+    with col_existente:
+        st.subheader("Existente en Plazoleta")
+        st.write("IMPO")
+        st.metric(label="Total", value=existente_plz.shape[0])
+        st.metric(label="TD", value=existente_plz[existente_plz['T-TD'] == 'TD'].shape[0])
+        st.metric(label="House", value=existente_plz[existente_plz['T-TD'] != 'TD'].shape[0])
+        st.write("Resumen por cliente")
+        st.dataframe(existente_plz_clientes, hide_index=True, use_container_width=True)
+        st.write("EXPO")
+        st.metric(label="Total", value=listos_para_remitir.shape[0] + vacios_disponibles.shape[0])
+        st.metric(label="Consolidado", value=listos_para_remitir.shape[0])
+        st.metric(label="Vacios", value=vacios_disponibles.shape[0])
+        st.write("Resumen por cliente")
+        st.dataframe(existente_plz_expo_clientes, hide_index=True, use_container_width=True)
     st.markdown("<hr>", unsafe_allow_html=True)
 
     st.subheader("Contenedores Nacional")
