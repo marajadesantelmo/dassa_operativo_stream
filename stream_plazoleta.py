@@ -14,6 +14,8 @@ def fetch_data_plazoleta():
     tabla_arribos_pendientes = arribos_semana_pendientes
     arribos_por_fecha = tabla_arribos_pendientes['fecha'].value_counts().reset_index()
     arribos_por_fecha.columns = ['Fecha', 'CNTs']
+    tabla_arribos_pendientes = tabla_arribos_pendientes[['fecha', 'contenedor', 'cliente', 'T-TD']]
+    tabla_arribos_pendientes.columns = ['Fecha', 'Contenedor', 'Cliente', 'T-TD']
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz = existente_plz[existente_plz['Operacion'].str.contains("-0-")] #Saco la mercaderia que esta en PLZ (solo quiero tachos)
@@ -42,11 +44,11 @@ def fetch_data_plazoleta():
     tabla_resumen['%'] = (tabla_resumen['Cantidad'] / 220) * 100
     tabla_resumen['%'] = tabla_resumen['%'].round(0).astype(str) + '%'
 
-    return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_semana_pendientes, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen
+    return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_semana_pendientes, tabla_arribos_pendientes, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen
 
 def show_page_plazoleta():
     # Load data
-    arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana,  arribos_semana_pendientes, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen = fetch_data_plazoleta()
+    arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana,  arribos_semana_pendientes, tabla_arribos_pendientes, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen = fetch_data_plazoleta()
 
     col_logo, col_title, col_pie_chart, col_tabla = st.columns([1, 2, 1, 2])
     with col_logo:
@@ -82,15 +84,15 @@ def show_page_plazoleta():
         st.markdown("""
         <div style="display: flex; justify-content: space-between; width: 100%;">
             <div style="text-align: center; flex: 1;">
-            <h6>Arribos IMPO</h6>
+            <h5>Arribos IMPO</h5>
             <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
             </div>
             <div style="text-align: center; flex: 1;">
-            <h6>T</h6>
+            <h5>T</h5>
             <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
             </div>
             <div style="text-align: center; flex: 1;">
-            <h6>TD</h6>
+            <h5>TD</h5>
             <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
             </div>
         </div>
@@ -101,6 +103,10 @@ def show_page_plazoleta():
         ),
         unsafe_allow_html=True
         )
+        st.write("Arribos pendientes por día")
+        st.dataframe(tabla_arribos_pendientes, hide_index=True, use_container_width=True)
+
+
 
 
 
