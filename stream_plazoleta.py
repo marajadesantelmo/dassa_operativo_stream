@@ -111,7 +111,7 @@ def show_page_plazoleta():
         st.markdown("<hr>", unsafe_allow_html=True)
 
     with col_existente:
-        st.subheader("Existente en Plazoleta")
+        st.header("Existente en Plazoleta")
         st.markdown("""
         <div style="display: flex; justify-content: space-between; width: 100%;">
             <div style="text-align: center; flex: 1;">
@@ -136,7 +136,6 @@ def show_page_plazoleta():
         )
         st.write("Resumen por cliente")
         st.dataframe(existente_plz_clientes, hide_index=True, use_container_width=True)
-        st.write("EXPO")
         st.markdown("""
         <div style="display: flex; justify-content: space-between; width: 100%;">
             <div style="text-align: center; flex: 1;">
@@ -161,7 +160,7 @@ def show_page_plazoleta():
         )
         st.write("Resumen por cliente")
         st.dataframe(existente_plz_expo_clientes, hide_index=True, use_container_width=True)
-    st.markdown("<hr>", unsafe_allow_html=True)
+        st.markdown("<hr>", unsafe_allow_html=True)
 
     st.subheader("Contenedores Nacional")
     col1_metric, col2_submetrics, col3_submetrics, col4_clientes = st.columns(4)
