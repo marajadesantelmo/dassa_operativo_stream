@@ -105,19 +105,17 @@ def show_page_plazoleta():
         )
         st.write("Arribos pendientes IMPO")
         st.dataframe(tabla_arribos_pendientes, hide_index=True, use_container_width=True)
-        st.write("Ptes. IMPO")
-        st.metric(label="Total", value=arribos_expo_ctns.shape[0])
+        st.metric(label="Ptes. EXPO", value=arribos_expo_ctns.shape[0])
         st.write("Arribos pendientes EXPO")
         st.dataframe(arribos_expo_ctns_por_fecha, hide_index=True, use_container_width=True)
         st.markdown("<hr>", unsafe_allow_html=True)
 
     with col_existente:
         st.subheader("Existente en Plazoleta")
-        st.write("IMPO")
         st.markdown("""
         <div style="display: flex; justify-content: space-between; width: 100%;">
             <div style="text-align: center; flex: 1;">
-            <h6>Total</h6>
+            <h6>Total IMPO</h6>
             <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
             </div>
             <div style="text-align: center; flex: 1;">
@@ -139,9 +137,28 @@ def show_page_plazoleta():
         st.write("Resumen por cliente")
         st.dataframe(existente_plz_clientes, hide_index=True, use_container_width=True)
         st.write("EXPO")
-        st.metric(label="Total", value=listos_para_remitir.shape[0] + vacios_disponibles.shape[0])
-        st.metric(label="Consolidado", value=listos_para_remitir.shape[0])
-        st.metric(label="Vacios", value=vacios_disponibles.shape[0])
+        st.markdown("""
+        <div style="display: flex; justify-content: space-between; width: 100%;">
+            <div style="text-align: center; flex: 1;">
+            <h6>Total EXPO</h6>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
+            </div>
+            <div style="text-align: center; flex: 1;">
+            <h6>Consolidado</h6>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
+            </div>
+            <div style="text-align: center; flex: 1;">
+            <h6>Vacios</h6>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
+            </div>
+        </div>
+        """.format(
+            int(listos_para_remitir.shape[0] + vacios_disponibles.shape[0]),
+            int(listos_para_remitir.shape[0]),
+            int(vacios_disponibles.shape[0]),
+        ),
+        unsafe_allow_html=True
+        )
         st.write("Resumen por cliente")
         st.dataframe(existente_plz_expo_clientes, hide_index=True, use_container_width=True)
     st.markdown("<hr>", unsafe_allow_html=True)
