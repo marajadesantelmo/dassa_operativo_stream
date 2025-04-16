@@ -205,12 +205,15 @@ existente = pd.DataFrame({
 print('Metricas mensuales de operativo')
 #Egresado
 cursor.execute("""
-SELECT  fecha_egr, orden_ing, suborden, renglon, tipo_oper, contenedor
-FROM [DEPOFIS].[DASSA].[Egresadas del stock]
-WHERE fecha_egr > '2021-01-01'
-AND tipo_oper = 'EXPORTACION'
-AND suborden = 0
+SELECT  e.fecha_egr, e.orden_ing, e.suborden, e.renglon, e.tipo_oper, e.contenedor
+FROM [DEPOFIS].[DASSA].[Egresadas del stock] e
+JOIN [DEPOFIS].[DASSA].[Tip_env] env ON e.tipo_env = env.codigo
+WHERE e.fecha_egr > '2021-01-01'
+AND e.tipo_oper = 'EXPORTACION'
+AND e.suborden = 0
+AND env.detalle = 'CONTENEDOR'
 """) 
+
 rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 egresado = pd.DataFrame.from_records(rows, columns=columns)
@@ -251,14 +254,6 @@ AND tipo_oper = 'IMPORTACION'
 AND suborden = 0
 AND env.detalle = 'CONTENEDOR'
 """)
-
-
-"""SELECT  i.orden_ing, i.suborden, i.renglon, i.cliente, i.tipo_oper, i.fecha_ing, 
-    i.contenedor, i.desc_merc, i.dimension, i.tipo_cnt, i.volumen, env.detalle AS Envase
-    FROM [DEPOFIS].[DASSA].[Ingresadas En Stock] i
-    JOIN DEPOFIS.DASSA.[Tip_env] env ON i.tipo_env = env.codigo
-    WHERE i.fecha_ing >= '2024-01-01'"""
-
 rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 ingresado = pd.DataFrame.from_records(rows, columns=columns)
