@@ -88,7 +88,7 @@ def show_page_plazoleta():
             <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
             </div>
             <div style="text-align: center; flex: 1;">
-            <h6>T</h6>
+            <h6>House</h6>
             <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
             </div>
             <div style="text-align: center; flex: 1;">
@@ -114,9 +114,28 @@ def show_page_plazoleta():
     with col_existente:
         st.subheader("Existente en Plazoleta")
         st.write("IMPO")
-        st.metric(label="Total", value=existente_plz.shape[0])
-        st.metric(label="TD", value=existente_plz[existente_plz['T-TD'] == 'TD'].shape[0])
-        st.metric(label="House", value=existente_plz[existente_plz['T-TD'] != 'TD'].shape[0])
+        st.markdown("""
+        <div style="display: flex; justify-content: space-between; width: 100%;">
+            <div style="text-align: center; flex: 1;">
+            <h6>Total</h6>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
+            </div>
+            <div style="text-align: center; flex: 1;">
+            <h6>House</h6>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
+            </div>
+            <div style="text-align: center; flex: 1;">
+            <h6>TD</h6>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
+            </div>
+        </div>
+        """.format(
+            int(existente_plz.shape[0]),
+            int(existente_plz[existente_plz['T-TD'] != 'TD'].shape[0]),
+            int(existente_plz[existente_plz['T-TD'] == 'TD'].shape[0]),
+        ),
+        unsafe_allow_html=True
+        )
         st.write("Resumen por cliente")
         st.dataframe(existente_plz_clientes, hide_index=True, use_container_width=True)
         st.write("EXPO")
