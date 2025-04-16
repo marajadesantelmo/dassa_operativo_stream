@@ -75,6 +75,35 @@ def show_page_plazoleta():
     with col_tabla:
         st.dataframe(tabla_resumen, hide_index=True, use_container_width=True)
 
+    col_arribos, col_existente = st.columns(2)
+
+    with col_arribos:
+        st.header('Arribos')
+        st.markdown("""
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <h6>Arribos IMPO</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <h6>T</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <h6>TD</h6>
+                <p style="font-size: calc(0.8em + 0.8vw);">{}</p>
+            </div>
+        </div>
+        """.format(
+            int(arribos_semana_pendientes.shape[0]),
+            int(arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'TD'].shape[0]),
+            int(arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'T'].shape[0]),
+        ),
+        unsafe_allow_html=True
+    )
+
+
+
     col_impo, col_expo = st.columns(2)
     with col_impo:
         st.header("Contenedores IMPO")
@@ -82,7 +111,7 @@ def show_page_plazoleta():
         col1, col2, col3, col4 = st.columns([1, 2, 1, 2])
         with col1:
             st.write("Pendientes de arribo")
-            st.metric(label="Vacios", value=arribos_semana_pendientes.shape[0])
+            st.metric(label="Arribos IMPO", value=arribos_semana_pendientes.shape[0])
             st.metric(label="TD", value=arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'TD'].shape[0])
             st.metric(label="T", value=arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'T'].shape[0])
         with col2:
