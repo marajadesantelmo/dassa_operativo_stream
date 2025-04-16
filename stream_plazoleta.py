@@ -163,24 +163,59 @@ def show_page_plazoleta():
         st.markdown("<hr>", unsafe_allow_html=True)
 
     st.subheader("Contenedores Nacional")
-    col1_metric, col2_submetrics, col3_submetrics, col4_clientes = st.columns(4)
-    with col1_metric:
-        ctns_pendientes = cont_nac['Contenedor'].nunique()
-        st.metric(label="Existente", value=ctns_pendientes)
-    with col2_submetrics:
-        cargados = cont_nac[cont_nac['CARGADO'].str.contains(r'\b(?:SI|si|Si)\b', regex=True, na=False)].shape[0]
-        st.metric(label="Cargados", value=cargados)
-        vacios = cont_nac[cont_nac['CARGADO'].str.contains(r'\b(?:NO|no|No)\b', regex=True, na=False)].shape[0]
-        st.metric(label="Vacios", value=vacios)
-    with col3_submetrics:
-        rollos = cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(?:ROLLOS|Rollo)\b', regex=True, na=False)].shape[0]
-        st.metric(label="Rollos", value=rollos)
-        cueros = cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(?:CUERO|Cuero)\b', regex=True, na=False)].shape[0]
-        st.metric(label="Cueros", value=cueros)
-        otros = cont_nac[(~cont_nac['OBSERVACION'].str.contains(r'\b(?:ROLLOS|Rollo|CUERO|Cuero)\b', regex=True, na=False)) &
-                         (cont_nac['CARGADO'].str.contains(r'\b(?:SI|si|Si)\b', regex=True, na=False))].shape[0]
-        st.metric(label="Otros", value=otros)
-    with col4_clientes:
+    col_metrics, col_clientes = st.columns([3, 1])
+    
+    with col_metrics:
+        # First row of metrics
+        st.markdown("""
+        <div style="display: flex; justify-content: space-between; width: 100%;">
+            <div style="text-align: center; flex: 1;">
+            <h6>Existente</h6>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
+            </div>
+            <div style="text-align: center; flex: 1;">
+            <h6>Cargados</h6>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
+            </div>
+            <div style="text-align: center; flex: 1;">
+            <h6>Vacios</h6>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
+            </div>
+        </div>
+        """.format(
+            int(cont_nac['Contenedor'].nunique()),
+            int(cont_nac[cont_nac['CARGADO'].str.contains(r'\b(?:SI|si|Si)\b', regex=True, na=False)].shape[0]),
+            int(cont_nac[cont_nac['CARGADO'].str.contains(r'\b(?:NO|no|No)\b', regex=True, na=False)].shape[0])
+        ),
+        unsafe_allow_html=True
+        )
+        
+        # Second row of metrics
+        st.markdown("""
+        <div style="display: flex; justify-content: space-between; width: 100%;">
+            <div style="text-align: center; flex: 1;">
+            <h6>Rollos</h6>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
+            </div>
+            <div style="text-align: center; flex: 1;">
+            <h6>Cueros</h6>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
+            </div>
+            <div style="text-align: center; flex: 1;">
+            <h6>Otros</h6>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
+            </div>
+        </div>
+        """.format(
+            int(cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(?:ROLLOS|Rollo)\b', regex=True, na=False)].shape[0]),
+            int(cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(?:CUERO|Cuero)\b', regex=True, na=False)].shape[0]),
+            int(cont_nac[(~cont_nac['OBSERVACION'].str.contains(r'\b(?:ROLLOS|Rollo|CUERO|Cuero)\b', regex=True, na=False)) &
+                         (cont_nac['CARGADO'].str.contains(r'\b(?:SI|si|Si)\b', regex=True, na=False))].shape[0])
+        ),
+        unsafe_allow_html=True
+        )
+    
+    with col_clientes:
         st.dataframe(cont_nac_clientes, hide_index=True, use_container_width=True)
 
     st.markdown("<hr>", unsafe_allow_html=True)
