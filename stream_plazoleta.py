@@ -42,11 +42,11 @@ def fetch_data_plazoleta():
     tabla_resumen['%'] = (tabla_resumen['Cantidad'] / 220) * 100
     tabla_resumen['%'] = tabla_resumen['%'].round(0).astype(str) + '%'
 
-    return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen
+    return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_semana_pendientes, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen
 
 def show_page_plazoleta():
     # Load data
-    arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen = fetch_data_plazoleta()
+    arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana,  arribos_semana_pendientes, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen = fetch_data_plazoleta()
 
     col_title, col_pie_chart, col_tabla = st.columns([2, 2, 2])
        
@@ -82,9 +82,9 @@ def show_page_plazoleta():
         col1, col2, col3, col4 = st.columns([1, 2, 1, 2])
         with col1:
             st.write("Pendientes de arribo")
-            st.metric(label="Vacios", value=arribos.shape[0])
-            st.metric(label="TD", value=arribos[arribos['Oper.'] == 'TD'].shape[0])
-            st.metric(label="T", value=arribos[arribos['Oper.'] == 'T'].shape[0])
+            st.metric(label="Vacios", value=arribos_semana_pendientes.shape[0])
+            st.metric(label="TD", value=arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'TD'].shape[0])
+            st.metric(label="T", value=arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'T'].shape[0])
         with col2:
             st.write("Arribos pendientes por día")
             st.dataframe(arribos_por_fecha, hide_index=True, use_container_width=True)
