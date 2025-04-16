@@ -83,15 +83,15 @@ def show_page_plazoleta():
         <div style="display: flex; justify-content: space-between; width: 100%;">
             <div style="text-align: center; flex: 1;">
             <h6>Arribos IMPO</h6>
-            <p style="font-size: calc(0.7em + 0.7vw); margin: 0;">{}</p>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
             </div>
             <div style="text-align: center; flex: 1;">
             <h6>T</h6>
-            <p style="font-size: calc(0.7em + 0.7vw); margin: 0;">{}</p>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
             </div>
             <div style="text-align: center; flex: 1;">
             <h6>TD</h6>
-            <p style="font-size: calc(0.7em + 0.7vw); margin: 0;">{}</p>
+            <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
             </div>
         </div>
         """.format(
