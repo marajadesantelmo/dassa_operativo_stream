@@ -1,9 +1,9 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 32877,21/04,Helvecia S.A.,-,TRP,HC,TD,                    ,340500013984,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32886,21/04,Curtiembre Infante Sa,-,10080,HC,TD,                    ,252629812,0,                              ,,     ,2025-05-08,,                    ,Pendiente
-32880,21/04,Forestal Y Ganadera Indumarca ...,-,Exolgan,HC,TD,                    ,547654080,0,                              ,,     ,2025-05-08,,                    ,Pendiente
+32880,21/04,Forestal Y Ganadera Indumarca ...,HAMU-406298-3,Exolgan,HC,TD,******              ,547654080,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,11:06,2025-05-08,,                    ,11:06 Arribado
 32879,21/04,Forestal Y Ganadera Indumarca ...,-,15016,HC,TD,                    ,547654080,0,                              ,,     ,2025-05-08,,                    ,Pendiente
-32881,21/04,Lawter Argentina S.A.,-,10080,HC,TD,                    ,36039671,0,                              ,,     ,2025-05-08,,                    ,Pendiente
+32881,21/04,Lawter Argentina S.A.,GESU-616311-8,10080,HC,TD,********            ,36039671,1,TRANSPORTES LEIRA-NO USAR     ,Muller,11:11,2025-05-08,,                    ,11:11 Arribado
 32894,21/04,Borax Argentina S A,PCIU-021004-9,10,DR,TD,*********           ,BUE500067600,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:55,2025-05-08,Fc 12127,                    ,10:55 Arribado
 32893,21/04,Borax Argentina S A,PCIU-012154-8,10,DR,TD,******              ,BUE500062800,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:52,2025-05-08,Fac 12108,                    ,10:52 Arribado
 32892,21/04,Borax Argentina S A,PCIU-136379-9,10,DR,TD,****                ,BUE500062800,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:50,2025-05-08,Fac 12108,                    ,10:50 Arribado
@@ -21,9 +21,9 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 32871,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251416640,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32870,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251416737,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32869,21/04,Arleather S.R.L.,HASU-446962-5,10080,HC,TD,***************     ,251416737,1,TRANSPORTE DEL CLIENTE        ,Porco,10:48,2025-05-08,,                    ,10:48 Arribado
-32868,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251529791,0,                              ,,     ,2025-05-08,,                    ,Pendiente
-32867,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251529791,0,                              ,,     ,2025-05-08,,                    ,Pendiente
-32866,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251529791,0,                              ,,     ,2025-05-08,,                    ,Pendiente
+32868,21/04,Arleather S.R.L.,MRKU-274674-9,10080,HC,TD,**************      ,251529791,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,11:09,2025-05-08,,                    ,11:09 Arribado
+32867,21/04,Arleather S.R.L.,MRKU-489575-7,10080,HC,TD,*********           ,251529791,1,TRANSPORTE DEL CLIENTE        ,Porco,11:08,2025-05-08,,                    ,11:08 Arribado
+32866,21/04,Arleather S.R.L.,MSKU-160698-1,10080,HC,TD,***************     ,251529791,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,11:08,2025-05-08,,                    ,11:08 Arribado
 32876,21/04,Asecor Srl,-,10080,HC,TD,                    ,251696231,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32875,21/04,Asecor Srl,-,10080,HC,TD,                    ,251696231,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32874,21/04,Asecor Srl,-,10080,HC,TD,                    ,251696231,0,                              ,,     ,2025-05-08,,                    ,Pendiente
