@@ -1,6 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 32877,21/04,Helvecia S.A.,-,TRP,HC,TD,                    ,340500013984,0,                              ,,     ,2025-05-08,,                    ,Pendiente
-32886,21/04,Curtiembre Infante Sa,-,10080,HC,TD,                    ,252629812,0,                              ,,     ,2025-05-08,,                    ,Pendiente
+32886,21/04,Curtiembre Infante Sa,MSKU-675506-2,10080,HC,TD,***********         ,252629812,1,TRANSPORTE DEL CLIENTE        ,Perez,11:38,2025-05-08,,                    ,11:38 Arribado
 32880,21/04,Forestal Y Ganadera Indumarca ...,HAMU-406298-3,Exolgan,HC,TD,******              ,547654080,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,11:06,2025-05-08,,                    ,11:06 Arribado
 32879,21/04,Forestal Y Ganadera Indumarca ...,-,15016,HC,TD,                    ,547654080,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32881,21/04,Lawter Argentina S.A.,GESU-616311-8,10080,HC,TD,********            ,36039671,1,TRANSPORTES LEIRA-NO USAR     ,Muller,11:11,2025-05-08,,                    ,11:11 Arribado
@@ -14,12 +14,12 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 32887,21/04,Borax Argentina S A,PCIU-155722-2,10,DR,TD,***********         ,BUE500062900,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,11:21,2025-05-08,Fac 12107,                    ,11:21 Arribado
 32885,21/04,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,252573532,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32864,21/04,Anta Expo Sau,FCIU-436535-2,9,DR,TD,FX32974532          ,EBKG12397032,1,TRANSPORTE DEL CLIENTE        ,De Rosa Luis,11:03,2025-05-08,,                    ,11:03 Arribado
-32884,21/04,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,252573532,0,                              ,,     ,2025-05-08,,                    ,Pendiente
+32884,21/04,Henn Y Cia S.R.L.,MRSU-410507-4,10080,HC,TD,****************    ,252573532,1,TRANSPORTES LEIRA-NO USAR     ,Muller,11:36,2025-05-08,,                    ,11:36 Arribado
 32882,21/04,Henn Y Cia S.R.L.,MRKU-487920-5,10080,HC,TD,*******             ,252573532,1,TRANSPORTE DEL CLIENTE        ,Peril,11:32,2025-05-08,,                    ,11:32 Arribado
 32873,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251416640,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32872,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251416640,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32871,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251416640,0,                              ,,     ,2025-05-08,,                    ,Pendiente
-32870,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251416737,0,                              ,,     ,2025-05-08,,                    ,Pendiente
+32870,21/04,Arleather S.R.L.,MRKU-455057-3,10080,HC,TD,****************    ,251416737,1,TRANSPORTE DEL CLIENTE        ,Porco,11:40,2025-05-08,,                    ,11:40 Arribado
 32869,21/04,Arleather S.R.L.,HASU-446962-5,10080,HC,TD,***************     ,251416737,1,TRANSPORTE DEL CLIENTE        ,Porco,10:48,2025-05-08,,                    ,10:48 Arribado
 32868,21/04,Arleather S.R.L.,MRKU-274674-9,10080,HC,TD,**************      ,251529791,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,11:09,2025-05-08,,                    ,11:09 Arribado
 32867,21/04,Arleather S.R.L.,MRKU-489575-7,10080,HC,TD,*********           ,251529791,1,TRANSPORTE DEL CLIENTE        ,Porco,11:08,2025-05-08,,                    ,11:08 Arribado
