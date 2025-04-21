@@ -4,10 +4,10 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 32880,21/04,Forestal Y Ganadera Indumarca ...,-,Exolgan,HC,TD,                    ,547654080,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32879,21/04,Forestal Y Ganadera Indumarca ...,-,15016,HC,TD,                    ,547654080,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32881,21/04,Lawter Argentina S.A.,-,10080,HC,TD,                    ,36039671,0,                              ,,     ,2025-05-08,,                    ,Pendiente
-32894,21/04,Borax Argentina S A,-,10,DR,TD,                    ,BUE500067600,0,                              ,,     ,2025-05-08,Fc 12127,                    ,Pendiente
-32893,21/04,Borax Argentina S A,-,10,DR,TD,                    ,BUE500062800,0,                              ,,     ,2025-05-08,Fac 12108,                    ,Pendiente
-32892,21/04,Borax Argentina S A,-,10,DR,TD,                    ,BUE500062800,0,                              ,,     ,2025-05-08,Fac 12108,                    ,Pendiente
-32891,21/04,Borax Argentina S A,-,10,DR,TD,                    ,BUE500062800,0,                              ,,     ,2025-05-08,Fac 12108,                    ,Pendiente
+32894,21/04,Borax Argentina S A,PCIU-021004-9,10,DR,TD,*********           ,BUE500067600,0,                              ,,     ,2025-05-08,Fc 12127,                    ,Pendiente
+32893,21/04,Borax Argentina S A,PCIU-012154-8,10,DR,TD,******              ,BUE500062800,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:52,2025-05-08,Fac 12108,                    ,10:52 Arribado
+32892,21/04,Borax Argentina S A,PCIU-136379-9,10,DR,TD,****                ,BUE500062800,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:50,2025-05-08,Fac 12108,                    ,10:50 Arribado
+32891,21/04,Borax Argentina S A,PCIU-125473-5,10,DR,TD,**********          ,BUE500062800,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:49,2025-05-08,Fac 12108,                    ,10:49 Arribado
 32890,21/04,Borax Argentina S A,-,10,DR,TD,                    ,BUE500064900,0,                              ,,     ,2025-05-08,Fc 12119,                    ,Pendiente
 32889,21/04,Borax Argentina S A,-,10,DR,TD,                    ,BUE500062900,0,                              ,,     ,2025-05-08,Fac 12107,                    ,Pendiente
 32888,21/04,Borax Argentina S A,-,10,DR,TD,                    ,BUE500062900,0,                              ,,     ,2025-05-08,Fac 12107,                    ,Pendiente
@@ -20,7 +20,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 32872,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251416640,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32871,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251416640,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32870,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251416737,0,                              ,,     ,2025-05-08,,                    ,Pendiente
-32869,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251416737,0,                              ,,     ,2025-05-08,,                    ,Pendiente
+32869,21/04,Arleather S.R.L.,HASU-446962-5,10080,HC,TD,***************     ,251416737,1,TRANSPORTE DEL CLIENTE        ,Porco,10:48,2025-05-08,,                    ,10:48 Arribado
 32868,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251529791,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32867,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251529791,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32866,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251529791,0,                              ,,     ,2025-05-08,,                    ,Pendiente
