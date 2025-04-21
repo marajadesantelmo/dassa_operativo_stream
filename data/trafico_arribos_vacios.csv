@@ -4,16 +4,16 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 32880,21/04,Forestal Y Ganadera Indumarca ...,-,Exolgan,HC,TD,                    ,547654080,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32879,21/04,Forestal Y Ganadera Indumarca ...,-,15016,HC,TD,                    ,547654080,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32881,21/04,Lawter Argentina S.A.,-,10080,HC,TD,                    ,36039671,0,                              ,,     ,2025-05-08,,                    ,Pendiente
-32894,21/04,Borax Argentina S A,PCIU-021004-9,10,DR,TD,*********           ,BUE500067600,0,                              ,,     ,2025-05-08,Fc 12127,                    ,Pendiente
+32894,21/04,Borax Argentina S A,PCIU-021004-9,10,DR,TD,*********           ,BUE500067600,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:55,2025-05-08,Fc 12127,                    ,10:55 Arribado
 32893,21/04,Borax Argentina S A,PCIU-012154-8,10,DR,TD,******              ,BUE500062800,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:52,2025-05-08,Fac 12108,                    ,10:52 Arribado
 32892,21/04,Borax Argentina S A,PCIU-136379-9,10,DR,TD,****                ,BUE500062800,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:50,2025-05-08,Fac 12108,                    ,10:50 Arribado
 32891,21/04,Borax Argentina S A,PCIU-125473-5,10,DR,TD,**********          ,BUE500062800,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:49,2025-05-08,Fac 12108,                    ,10:49 Arribado
-32890,21/04,Borax Argentina S A,-,10,DR,TD,                    ,BUE500064900,0,                              ,,     ,2025-05-08,Fc 12119,                    ,Pendiente
-32889,21/04,Borax Argentina S A,-,10,DR,TD,                    ,BUE500062900,0,                              ,,     ,2025-05-08,Fac 12107,                    ,Pendiente
+32890,21/04,Borax Argentina S A,PCIU-110540-7,10,DR,TD,******              ,BUE500064900,1,TRANSPORTE DEL CLIENTE        ,Porco,11:00,2025-05-08,Fc 12119,                    ,11:00 Arribado
+32889,21/04,Borax Argentina S A,PCIU-103510-4,10,DR,TD,*****               ,BUE500062900,1,TRANSPORTE DEL CLIENTE        ,Porco,11:02,2025-05-08,Fac 12107,                    ,11:02 Arribado
 32888,21/04,Borax Argentina S A,-,10,DR,TD,                    ,BUE500062900,0,                              ,,     ,2025-05-08,Fac 12107,                    ,Pendiente
 32887,21/04,Borax Argentina S A,-,10,DR,TD,                    ,BUE500062900,0,                              ,,     ,2025-05-08,Fac 12107,                    ,Pendiente
 32885,21/04,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,252573532,0,                              ,,     ,2025-05-08,,                    ,Pendiente
-32864,21/04,Anta Expo Sau,-,9,DR,TD,                    ,EBKG12397032,0,                              ,,     ,2025-05-08,,                    ,Pendiente
+32864,21/04,Anta Expo Sau,FCIU-436535-2,9,DR,TD,FX32974532          ,EBKG12397032,1,TRANSPORTE DEL CLIENTE        ,De Rosa Luis,11:03,2025-05-08,,                    ,11:03 Arribado
 32884,21/04,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,252573532,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32882,21/04,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,252573532,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32873,21/04,Arleather S.R.L.,-,10080,HC,TD,                    ,251416640,0,                              ,,     ,2025-05-08,,                    ,Pendiente
@@ -29,4 +29,4 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 32874,21/04,Asecor Srl,-,10080,HC,TD,                    ,251696231,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32878,21/04,Helvecia S.A.,-,TRP,HC,TD,                    ,340500013984,0,                              ,,     ,2025-05-08,,                    ,Pendiente
 32883,21/04,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,252573532,0,                              ,,     ,2025-05-08,,                    ,Pendiente
-32865,21/04,Anta Expo Sau,-,9,DR,TD,                    ,EBKG12397032,0,                              ,,     ,2025-05-08,,                    ,Pendiente
+32865,21/04,Anta Expo Sau,CAIU-614438-9,9,DR,TD,FX32974533          ,EBKG12397032,1,TRANSPORTE DEL CLIENTE        ,De Rosa Luis,11:05,2025-05-08,,                    ,11:05 Arribado
