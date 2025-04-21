@@ -8,8 +8,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-01-17,07:00,Terminal 4,MSKU-559804-0,Mercovan Argentina Srl,247358180,TD,2025-01-17,1225,http://dassa.mqbic.com/PublicTally.php?id=1225
 2025-01-17,07:00,Terminal 4,MSKU-559804-0,Mercovan Argentina Srl,247358180,TD,2025-01-17,1225,http://dassa.mqbic.com/PublicTally.php?id=1225
 2025-04-11,13:00,Terminal 4,MRKU-093612-2,Mercovan Argentina Srl,250074906,TD,2025-04-11,1695,http://dassa.mqbic.com/PublicTally.php?id=1695
-2025-04-17,03:00,Exolgan,HLXU-540840-3,Mercovan Argentina Srl,HLCUME3250160081,TD,,,
-2025-04-21,07:00,Terminal 4,MRKU-012166-5,Mercovan Argentina Srl,250105676,TD,,,
+2025-04-17,03:00,Exolgan,HLXU-540840-3,Mercovan Argentina Srl,HLCUME3250160081,TD,2025-04-17,,
+2025-04-21,07:00,Terminal 4,MRKU-012166-5,Mercovan Argentina Srl,250105676,TD,2025-04-21,,
 2025-04-21,11:00,Exolgan,CAIU-426028-7,Mercovan Argentina Srl,HLCUGOA250228878,TD,,,
 2025-04-09,05:00,Exolgan,HLBU-123189-0,Mercovan Argentina Srl,HLCULIV250226693,TD,2025-04-09,1686,http://dassa.mqbic.com/PublicTally.php?id=1686
 2025-04-09,19:00,TRP,NYKU-852726-0,Mercovan Argentina Srl,ONEYLIVF04296700,TD,2025-04-09,1693,http://dassa.mqbic.com/PublicTally.php?id=1693
@@ -51,8 +51,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2024-12-30,11:00,Exolgan,SEGU-223708-0,Lift Van Int. Co S.A,HLCUTOR241048289,T,2024-12-30,,
 2025-04-09,05:00,Exolgan,HLBU-153836-1,Lift Van Int. Co S.A,HLCURTM250218817,TD,2025-04-09,1687,http://dassa.mqbic.com/PublicTally.php?id=1687
 2025-04-09,11:00,TRP,WBPU-202240-4,Lift Van Int. Co S.A,OOLU2754540650,TD,2025-04-09,1688,http://dassa.mqbic.com/PublicTally.php?id=1688
-2025-04-17,01:00,Exolgan,HAMU-201897-6,Lift Van Int. Co S.A,HLCUME3250228298,TD,,,
-2025-04-17,01:00,Exolgan,FANU-384358-2,Lift Van Int. Co S.A,HLCUME3250228298,TD,,,
+2025-04-17,01:00,Exolgan,HAMU-201897-6,Lift Van Int. Co S.A,HLCUME3250228298,TD,2025-04-17,,
+2025-04-17,01:00,Exolgan,FANU-384358-2,Lift Van Int. Co S.A,HLCUME3250228298,TD,2025-04-17,,
 2025-03-19,15:00,Exolgan,HAMU-268974-2,Lift Van Int. Co S.A,HLCUTOR241201225,TD,2025-03-19,1600,http://dassa.mqbic.com/PublicTally.php?id=1600
 2025-03-20,11:00,Exolgan,HLXU-538178-7,Lift Van Int. Co S.A,HLCUGOA2501ATTL3,TD,2025-03-20,1604,http://dassa.mqbic.com/PublicTally.php?id=1604
 2025-04-03,16:00,TRP,HMMU-213579-3,Lift Van Int. Co S.A,HDMUSELM09111600,T,2025-04-03,,
@@ -104,7 +104,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-01-02,07:00,Terminal 4,DFSU-767821-0,Lift Van Int. Co S.A,HLCUBSC2411BJWN8,T,2025-01-02,,
 2025-01-03,20:00,TRP,ONEU-026055-5,Lift Van Int. Co S.A,ONEYRICEKB741500,TD,2025-01-03,1154,http://dassa.mqbic.com/PublicTally.php?id=1154
 2025-01-03,21:00,TRP,ONEU-585688-7,Lift Van Int. Co S.A,ONEYRICEKB741500,TD,2025-01-03,1155,http://dassa.mqbic.com/PublicTally.php?id=1155
-2025-04-17,03:00,Exolgan,UACU-847236-1,Edelweiss Spedition Srl,HLCULI3250152456,TD,,,
+2025-04-17,03:00,Exolgan,UACU-847236-1,Edelweiss Spedition Srl,HLCULI3250152456,TD,2025-04-17,,
 2025-04-09,07:00,TRP,OOLU-950847-4,Edelweiss Spedition Srl,OOLU2306295960,TD,2025-04-09,1691,http://dassa.mqbic.com/PublicTally.php?id=1691
 2025-04-04,05:00,Exolgan,HLBU-306960-1,Edelweiss Spedition Srl,HLCUGY3250136294,TD,2025-04-05,1674,http://dassa.mqbic.com/PublicTally.php?id=1674
 2025-04-07,15:00,TRP,TRHU-585102-3,Edelweiss Spedition Srl,SSZ111531RCS,TD,2025-04-07,1682,http://dassa.mqbic.com/PublicTally.php?id=1682
@@ -160,10 +160,10 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-04-11,19:00,Exolgan,MSMU-557355-2,Jutel S.A.,TMSE3345630,T,2025-04-11,,
 2025-03-20,20:00,TRP,TXGU-714369-7,Zorrilla  Daniel,SZ25010246,T,2025-03-20,,
 2025-01-27,13:00,Terminal 4,MRKU-048569-3,Dpmg S.A.,267927681,T,2025-01-27,,
-2025-04-17,07:00,TRP,ZHLU-201406-0,Dpmg S.A.,250055989,T,,,
-2025-04-17,07:00,TRP,ZHLU-201505-0,Dpmg S.A.,250056094,T,,,
-2025-04-17,07:00,TRP,ZHLU-201401-2,Dpmg S.A.,268484221,T,,,
-2025-04-17,07:00,TRP,ZHLU-201408-0,Dpmg S.A.,249953600,T,,,
+2025-04-17,07:00,TRP,ZHLU-201406-0,Dpmg S.A.,250055989,T,2025-04-17,,
+2025-04-17,07:00,TRP,ZHLU-201505-0,Dpmg S.A.,250056094,T,2025-04-17,,
+2025-04-17,07:00,TRP,ZHLU-201401-2,Dpmg S.A.,268484221,T,2025-04-17,,
+2025-04-17,07:00,TRP,ZHLU-201408-0,Dpmg S.A.,249953600,T,2025-04-17,,
 2025-02-07,19:00,TRP,TRHU-423736-6,Bratton Srl,GZ24120070,T,2025-02-07,,
 2025-01-02,15:00,Exolgan,FSCU-582086-6,Grouport Srl,ONEYNBOE25891900,TD,2025-01-03,1133,http://dassa.mqbic.com/PublicTally.php?id=1133
 2025-01-02,15:00,Exolgan,FSCU-582086-6,Grouport Srl,ONEYNBOE25891900,TD,2025-01-03,1133,http://dassa.mqbic.com/PublicTally.php?id=1133
