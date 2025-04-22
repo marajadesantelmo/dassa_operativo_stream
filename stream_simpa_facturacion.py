@@ -5,16 +5,16 @@ import time
 from utils import highlight
 
 def fetch_data_facturacion():
-    facturacion = pd.read_csv('data/facturacion_rsm.csv')
-    saldos = pd.read_csv('data/saldos_rsm.csv')
+    facturacion = pd.read_csv('data/facturacion_simpa.csv')
+    saldos = pd.read_csv('data/saldos_simpa.csv')
     kpis = pd.read_csv('data/kpis.csv')
     return facturacion, saldos, kpis
     
 def show_page_facturacion():
     facturacion, saldos, kpis = fetch_data_facturacion()
-    saldo = kpis['Total Saldo'][kpis['Company']=='RSM'].sum()
-    total_neto = kpis['Total Neto'][kpis['Company']=='RSM'].sum()
-    total_importe = kpis['Total Importe'][kpis['Company']=='RSM'].sum()
+    saldo = kpis['Total Saldo'][kpis['Company']=='Simpa'].sum()
+    total_neto = kpis['Total Neto'][kpis['Company']=='Simpa'].sum()
+    total_importe = kpis['Total Importe'][kpis['Company']=='Simpa'].sum()
     col_title, col_logo, col_simpa = st.columns([5, 1, 1])
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
@@ -22,7 +22,7 @@ def show_page_facturacion():
     with col_logo:
         st.image('logo.png')
     with col_simpa:
-        st.image('logo_rsm.png')
+        st.image('logo_simpa.png')
 
     col1, col2 = st.columns(2)
     with col1:
