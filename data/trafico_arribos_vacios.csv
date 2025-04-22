@@ -1,13 +1,14 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 32958,22/04,Mercovan Argentina Srl,-,0,  ,TD,                    ,16418287,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32943,22/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUE500065100,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32944,22/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUE500065100,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32959,22/04,Lawter Argentina S.A.,BMOU-258476-0,10,DR,TD,***********         ,BUE500065100,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,08:32,2025-05-13,,                    ,08:32 Arribado
 32960,22/04,Lawter Argentina S.A.,BMOU-256473-7,0,DR,TD,*************       ,BUE500065100,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,08:34,2025-05-13,,                    ,08:34 Arribado
 32940,22/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUE500065100,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32941,22/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUE500065100,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32942,22/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUE500065100,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32984,22/04,Forestal Guarani Sa,BMOU-657458-5,10080,HC,TD,*************       ,33044230,1,TRANSPORTE DEL CLIENTE        ,Alvarez,13:12,2025-05-13,,                    ,13:12 Arribado
 32951,22/04,Tony Maderas Sa,-,0,  ,TD,                    ,74640421,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-32952,22/04,Tony Maderas Sa,-,0,  ,TD,                    ,74640421,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32955,22/04,Laboratorio Elea Phoenix Sa,-,0,  ,TD,                    ,340500014182,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32946,22/04,Forestal Guarani Sa,-,0,  ,TD,                    ,33044230,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32947,22/04,Forestal Guarani Sa,-,0,  ,TD,                    ,33044230,0,                              ,,     ,2025-05-12,,                    ,Pendiente
@@ -15,32 +16,34 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 32950,22/04,Forestal Guarani Sa,-,0,  ,TD,                    ,33044230,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32982,22/04,Forestal Guarani Sa,FCIU-746656-2,10080,HC,TD,******************  ,33044230,1,TRANSPORTE DEL CLIENTE        ,Riveros,13:08,2025-05-13,,                    ,13:08 Arribado
 32983,22/04,Forestal Guarani Sa,HLXU-806175-0,10080,HC,TD,************        ,33044230,1,TRANSPORTE DEL CLIENTE        ,Porco,13:09,2025-05-13,,                    ,13:09 Arribado
-32943,22/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUE500065100,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-32984,22/04,Forestal Guarani Sa,BMOU-657458-5,10080,HC,TD,*************       ,33044230,1,TRANSPORTE DEL CLIENTE        ,Alvarez,13:12,2025-05-13,,                    ,13:12 Arribado
+32952,22/04,Tony Maderas Sa,-,0,  ,TD,                    ,74640421,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32937,22/04,Taeda Sa,-,0,  ,TD,                    ,EBKG12490610,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32985,22/04,Forestal Guarani Sa,HLBU-156589-7,10080,HC,TD,******************  ,33044230,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,13:14,2025-05-13,,                    ,13:14 Arribado
-32945,22/04,Global Rover Logistic Srl,-,0,  ,TD,                    ,26634974,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32987,22/04,Hector Reboratti,MSMU-420977-8,9,HC,TD,FX32974431          ,EBKG12381488,1,TRANSPORTE DEL CLIENTE        ,Perez Eduardo,13:21,2025-05-13,,                    ,13:21 Arribado
 32953,22/04,Capilatis S.A.,-,0,  ,TD,                    ,SNG0463416,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32954,22/04,Capilatis S.A.,-,0,  ,TD,                    ,SNG0463416,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32945,22/04,Global Rover Logistic Srl,-,0,  ,TD,                    ,26634974,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32988,22/04,Hector Reboratti,TCLU-776500-5,9,HC,TD,FX32974430          ,EBKG12381488,1,TRANSPORTE DEL CLIENTE        ,De Rosa Luis,13:24,2025-05-13,,                    ,13:24 Arribado
 32957,22/04,Helvecia S.A.,-,0,  ,TD,                    ,251749673,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32956,22/04,Helvecia S.A.,-,0,  ,TD,                    ,251749673,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32934,22/04,Isischu Srl,-,0,HC,TD,                    ,EBKG12458307,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32981,22/04,Helvecia S.A.,HASU-418896-8,10080,HC,TD,**************      ,251749673,1,TRANSPORTE DEL CLIENTE        ,Porco,13:03,2025-05-13,,                    ,13:03 Arribado
+32931,22/04,Hector Reboratti,-,0,HC,TD,                    ,EBKG12381488,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32933,22/04,Hector Reboratti,-,0,HC,TD,                    ,EBKG12381488,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32978,22/04,Refractarios Argentinos Saicm,HAMU-100594-8,10080,DR,TD,*************       ,38192674,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,12:55,2025-05-13,,                    ,12:55 Arribado
 32949,22/04,Refractarios Argentinos Saicm,-,0,  ,TD,                    ,38192674,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-32981,22/04,Helvecia S.A.,HASU-418896-8,10080,HC,TD,**************      ,251749673,1,TRANSPORTE DEL CLIENTE        ,Porco,13:03,2025-05-13,,                    ,13:03 Arribado
-32934,22/04,Isischu Srl,-,0,HC,TD,                    ,EBKG12458307,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-32932,22/04,Hector Reboratti,-,0,HC,TD,                    ,EBKG12381488,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-32933,22/04,Hector Reboratti,-,0,HC,TD,                    ,EBKG12381488,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32906,22/04,Refractarios Argentinos Saicm,-,0,DC,TD,                    ,38192674,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-32937,22/04,Taeda Sa,-,0,  ,TD,                    ,EBKG12490610,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32986,22/04,Hector Reboratti,MSNU-851006-3,9,HC,TD,FX32974438          ,EBKG12381488,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:17,2025-05-13,,                    ,13:17 Arribado
 32977,22/04,A La Orden,TXGU-674980-1,10080,HC,TD,******************  ,26634974,1,TRANSPORTE DEL CLIENTE        ,Porco,11:18,2025-05-13,Asaguay,                    ,11:18 Arribado
 32979,22/04,Mercovan Argentina Srl,CAIU-267253-6,10080,DR,TD,************        ,16418287,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,12:58,2025-05-13,,                    ,12:58 Arribado
-32931,22/04,Hector Reboratti,-,0,HC,TD,                    ,EBKG12381488,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32932,22/04,Hector Reboratti,-,0,HC,TD,                    ,EBKG12381488,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32980,22/04,Helvecia S.A.,TCNU-668089-4,10080,HC,TD,******              ,251749673,1,TRANSPORTE DEL CLIENTE        ,Porco,13:01,2025-05-13,,                    ,13:01 Arribado
-32909,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-32913,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-32911,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32910,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-32908,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32913,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32912,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-32918,24/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252759712,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-32917,24/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252759712,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32911,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32909,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32908,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32916,24/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252759712,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32917,24/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252759712,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32918,24/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252759712,0,                              ,,     ,2025-05-12,,                    ,Pendiente
