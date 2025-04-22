@@ -19,8 +19,8 @@ with open("styles.css") as f:
 refresh_interval_ms = 30 * 1000  # 30 seconds in milliseconds
 count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refresh")
 
-USERNAMES = ["operativo", "administrativo"]
-PASSWORDS = ["op123", "adm123"]
+USERNAMES = ["operativo", "administrativo", "Pablo Gutiérrez"]
+PASSWORDS = ["op123", "adm123", "Adm123"]
 
 def login(username, password):
     if username in USERNAMES and password in PASSWORDS:
