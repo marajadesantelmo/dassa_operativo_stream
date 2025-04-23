@@ -5,8 +5,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33051,23/04,Libertun Hermanos Srl,PCVU-264551-2,0,is,TD,..                  ,25001EC01024657L,1,TRANSPORTE DEL CLIENTE        ,.,14:09,2025-05-14,,                    ,14:09 Arribado
 33052,23/04,Libertun Hermanos Srl,SEGU-809038-1,0,is,TD,..                  ,25001EC01024657L,1,TRANSPORTE DEL CLIENTE        ,.,14:09,2025-05-14,,                    ,14:09 Arribado
 33053,23/04,Libertun Hermanos Srl,SLZU-282790-8,0,is,TD,..                  ,25001EC01024657L,1,TRANSPORTE DEL CLIENTE        ,.,14:09,2025-05-14,,                    ,14:09 Arribado
+33054,23/04,Libertun Hermanos Srl,SLZU-251022-0,0,is,TD,..                  ,25001EC01024657L,1,TRANSPORTE DEL CLIENTE        ,.,14:09,2025-05-14,,                    ,14:09 Arribado
 33026,23/04,El Yerbalito,-,0,  ,TD,                    ,252130101,0,                              ,,     ,2025-05-13,,                    ,Pendiente
-33055,23/04,Libertun Hermanos Srl,RFCU-821282-4,0,is,TD,..                  ,25001EC01024657L,1,TRANSPORTE DEL CLIENTE        ,.,14:10,2025-05-14,,                    ,14:10 Arribado
 33048,23/04,Libertun Hermanos Srl,EXFU-562128-0,0,is,TD,..                  ,25001EC01024657L,1,TRANSPORTE DEL CLIENTE        ,.,14:08,2025-05-14,,                    ,14:08 Arribado
 33056,23/04,Libertun Hermanos Srl,BTLU-260118-0,0,is,TD,..                  ,25001EC01024657L,1,TRANSPORTE DEL CLIENTE        ,.,14:10,2025-05-14,,                    ,14:10 Arribado
 33031,23/04,Laharrague Chodorge Sociedad A...,-,0,  ,TD,                    ,EBKG12353554,0,                              ,,     ,2025-05-13,,                    ,Pendiente
@@ -18,50 +18,48 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33025,23/04,El Yerbalito,-,0,  ,TD,                    ,252130101,0,                              ,,     ,2025-05-13,,                    ,Pendiente
 33030,23/04,Laharrague Chodorge Sociedad A...,-,0,  ,TD,                    ,EBKG12353554,0,                              ,,     ,2025-05-13,,                    ,Pendiente
 33047,23/04,Libertun Hermanos Srl,FLNU-601544-0,0,is,TD,..                  ,25001EC01024657L,1,TRANSPORTE DEL CLIENTE        ,.,14:08,2025-05-14,,                    ,14:08 Arribado
-33054,23/04,Libertun Hermanos Srl,SLZU-251022-0,0,is,TD,..                  ,25001EC01024657L,1,TRANSPORTE DEL CLIENTE        ,.,14:09,2025-05-14,,                    ,14:09 Arribado
+33055,23/04,Libertun Hermanos Srl,RFCU-821282-4,0,is,TD,..                  ,25001EC01024657L,1,TRANSPORTE DEL CLIENTE        ,.,14:10,2025-05-14,,                    ,14:10 Arribado
 33027,23/04,El Yerbalito,-,0,  ,TD,                    ,252130101,0,                              ,,     ,2025-05-13,,                    ,Pendiente
 33036,23/04,Arleather S.R.L.,-,0,  ,TD,                    ,252809104,0,                              ,,     ,2025-05-13,,                    ,Pendiente
 33035,23/04,Arleather S.R.L.,-,0,  ,TD,                    ,252809104,0,                              ,,     ,2025-05-13,,                    ,Pendiente
+33022,23/04,Asecor Srl,-,0,  ,TD,                    ,EBKG12462375,0,                              ,,     ,2025-05-13,,                    ,Pendiente
 32908,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32909,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 32910,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-32911,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-33022,23/04,Asecor Srl,-,0,  ,TD,                    ,EBKG12462375,0,                              ,,     ,2025-05-13,,                    ,Pendiente
-32913,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 33021,23/04,Asecor Srl,-,0,  ,TD,                    ,EBKG12462375,0,                              ,,     ,2025-05-13,,                    ,Pendiente
+32912,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+32913,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 33029,23/04,Fineport S.A.,-,0,  ,TD,                    ,92898716,0,                              ,,     ,2025-05-13,,                    ,Pendiente
 33028,23/04,Fineport S.A.,-,0,  ,TD,                    ,92898716,0,                              ,,     ,2025-05-13,,                    ,Pendiente
-32912,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-33093,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33082,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33083,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33084,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33085,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33087,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33072,24/04,Arleather S.R.L.,-,0,  ,TD,                    ,252816450,0,                              ,,     ,2025-05-14,252816450,252816450           ,Pendiente
-33071,24/04,Lift Van Int. Co S.A,-,0,  ,TD,                    ,25430369,0,                              ,,     ,2025-05-14,25430369,25430369            ,Pendiente
-33092,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+32911,23/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252632346,0,                              ,,     ,2025-05-12,,                    ,Pendiente
 33067,24/04,Laharrague Chodorge Sociedad A...,-,0,  ,TD,                    ,252815035,0,                              ,,     ,2025-05-14,252815035,252815035           ,Pendiente
+33093,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33071,24/04,Lift Van Int. Co S.A,-,0,  ,TD,                    ,25430369,0,                              ,,     ,2025-05-14,25430369,25430369            ,Pendiente
+33072,24/04,Arleather S.R.L.,-,0,  ,TD,                    ,252816450,0,                              ,,     ,2025-05-14,252816450,252816450           ,Pendiente
+33087,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33086,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33091,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-32916,24/04,Lawter Argentina S.A.,-      -,0,  ,TD,*                   ,252759712,1,                              ,,14:33,2025-05-12,,                    ,14:33 Arribado
-33089,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-32917,24/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252759712,0,                              ,,     ,2025-05-12,,                    ,Pendiente
-32918,24/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252759712,0,                              ,,     ,2025-05-12,,                    ,Pendiente
+33085,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33084,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33083,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33082,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33092,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33068,24/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252759712,0,                              ,,     ,2025-05-14,252759712,252815035           ,Pendiente
+33090,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33069,24/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252759712,0,                              ,,     ,2025-05-14,252759712,252815035           ,Pendiente
 33070,24/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252759712,0,                              ,,     ,2025-05-14,252759712,252815035           ,Pendiente
+32914,24/04,Lawter Argentina S.A.,-      -,0,DR,TD,*                   ,252632346,1,                              ,,14:30,2025-05-12,,                    ,14:30 Arribado
 33075,24/04,Arleather S.R.L.,-,0,  ,TD,                    ,252816450,0,                              ,,     ,2025-05-14,252816450,252816450           ,Pendiente
 33074,24/04,Arleather S.R.L.,-,0,  ,TD,                    ,252816450,0,                              ,,     ,2025-05-14,252816450,252816450           ,Pendiente
 33073,24/04,Arleather S.R.L.,-,0,  ,TD,                    ,252816450,0,                              ,,     ,2025-05-14,252816450,252816450           ,Pendiente
 33076,24/04,Norfor Sa,-,0,  ,TD,                    ,26653261,0,                              ,,     ,2025-05-14,26653261,26653261            ,Pendiente
+33091,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33077,24/04,Norfor Sa,-,0,  ,TD,                    ,26653261,0,                              ,,     ,2025-05-14,26653261,26653261            ,Pendiente
-33078,24/04,Norfor Sa,-,0,  ,TD,                    ,26653261,0,                              ,,     ,2025-05-14,26653261,26653261            ,Pendiente
 33079,24/04,Norfor Sa,-,0,  ,TD,                    ,26653261,0,                              ,,     ,2025-05-14,26653261,26653261            ,Pendiente
 33080,24/04,Norfor Sa,-,0,  ,TD,                    ,26653261,0,                              ,,     ,2025-05-14,26653261,26653261            ,Pendiente
 33081,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33094,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-32914,24/04,Lawter Argentina S.A.,-      -,0,DR,TD,*                   ,252632346,1,                              ,,14:30,2025-05-12,,                    ,14:30 Arribado
-33088,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33090,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33095,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+32916,24/04,Lawter Argentina S.A.,-      -,0,  ,TD,*                   ,252759712,1,                              ,,14:33,2025-05-12,,                    ,14:33 Arribado
+33089,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33078,24/04,Norfor Sa,-,0,  ,TD,                    ,26653261,0,                              ,,     ,2025-05-14,26653261,26653261            ,Pendiente
+33088,24/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
