@@ -1,8 +1,8 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-33106,24/04,Mercovan Argentina Srl,-,0,  ,TD,                    ,16555848,0,                              ,,     ,2025-05-14,16555848,16555848            ,Pendiente
+33106,24/04,Mercovan Argentina Srl,BMOU-664581-6,10080,HC,TD,HLD0432367          ,16555848,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,12:52,2025-05-14,16555848,16555848            ,12:52 Arribado
 33067,24/04,Laharrague Chodorge Sociedad A...,-,0,  ,TD,                    ,252815035,0,                              ,,     ,2025-05-14,252815035,252815035           ,Pendiente
-33099,24/04,Santa Anita Oil Sa,-,0,  ,TD,                    ,28096856,0,                              ,,     ,2025-05-14,,28096856            ,Pendiente
-33098,24/04,Santa Anita Oil Sa,-,0,  ,TD,                    ,28096856,0,                              ,,     ,2025-05-14,,28096856            ,Pendiente
+33099,24/04,Santa Anita Oil Sa,TGBU-613514-3,10080,HC,TD,*********           ,28096856,1,TRANSPORTE DEL CLIENTE        ,Riveros,12:48,2025-05-14,,28096856            ,12:48 Arribado
+33098,24/04,Santa Anita Oil Sa,TCLU-177146-4,10080,HC,TD,*******             ,28096856,1,TRANSPORTE DEL CLIENTE        ,Perez,12:46,2025-05-14,,28096856            ,12:46 Arribado
 33097,24/04,Santa Anita Oil Sa,DFSU-723339-5,10080,HC,TD,************        ,28096856,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,12:42,2025-05-14,,28096856            ,12:42 Arribado
 33096,24/04,Santa Anita Oil Sa,TGBU-616877-0,10080,HC,TD,**************      ,28096856,1,TRANSPORTE DEL CLIENTE        ,Porco,12:41,2025-05-14,,28096856            ,12:41 Arribado
 33109,24/04,Weiden Sociedad Anonima,TLLU-537349-3,10080,HC,TD,**************      ,90484908,1,TRANSPORTE DEL CLIENTE        ,Alvarez Adrian,09:56,2025-05-15,,                    ,09:56 Arribado
@@ -14,7 +14,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33108,24/04,Arleather S.R.L.,HASU-439251-8,10080,HC,TD,************        ,252809104,1,TRANSPORTE DEL CLIENTE        ,Ayala,09:53,2025-05-15,,                    ,09:53 Arribado
 33075,24/04,Arleather S.R.L.,-,0,  ,TD,                    ,252816450,0,                              ,,     ,2025-05-14,252816450,252816450           ,Pendiente
 33105,24/04,Entretelas Americanas Sa,-,0,  ,TD,                    ,18108092,0,                              ,,     ,2025-05-14,18108092,18108092            ,Pendiente
-33073,24/04,Arleather S.R.L.,-,0,  ,TD,                    ,252816450,0,                              ,,     ,2025-05-14,252816450,252816450           ,Pendiente
+33073,24/04,Arleather S.R.L.,TCKU-695361-2,10080,HC,TD,************        ,252816450,1,TRANSPORTE DEL CLIENTE        ,Alvarez,12:51,2025-05-14,252816450,252816450           ,12:51 Arribado
 33074,24/04,Arleather S.R.L.,-,0,  ,TD,                    ,252816450,0,                              ,,     ,2025-05-14,252816450,252816450           ,Pendiente
 33112,24/04,Dpmg S.A.,SIMU-706897-7,0,is,TD,                    ,24001EC03004056E,1,TRANSPORTE DEL CLIENTE        ,.,10:25,2025-05-15,,                    ,10:25 Arribado
 33111,24/04,Dpmg S.A.,ZHLU-202504-8,0,is,TD,                    ,24001EC03004054C,1,TRANSPORTE DEL CLIENTE        ,.,10:24,2025-05-15,,                    ,10:24 Arribado
@@ -25,7 +25,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33102,24/04,Isischu Srl,-,0,  ,TD,                    ,EBKG12473011,0,                              ,,     ,2025-05-14,Ebkg12473011,EBKG12473011        ,Pendiente
 33103,24/04,Isischu Srl,-,0,  ,TD,                    ,EBKG12473011,0,                              ,,     ,2025-05-14,Ebkg12473011,EBKG12473011        ,Pendiente
 33104,24/04,Isischu Srl,-,0,  ,TD,                    ,EBKG12473011,0,                              ,,     ,2025-05-14,Ebkg12473011,EBKG12473011        ,Pendiente
-33072,24/04,Arleather S.R.L.,-,0,  ,TD,                    ,252816450,0,                              ,,     ,2025-05-14,252816450,252816450           ,Pendiente
+33072,24/04,Arleather S.R.L.,MSKU-180923-2,10080,HC,TD,***********         ,252816450,1,TRANSPORTE DEL CLIENTE        ,Alvarez,12:50,2025-05-14,252816450,252816450           ,12:50 Arribado
 33119,24/04,Mercovan Argentina Srl,-,15004,  ,TD,                    ,PE01000143X,0,                              ,,     ,2025-05-15,Chieffelie Jose,TERRESTRE           ,Pendiente
 33083,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33087,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
