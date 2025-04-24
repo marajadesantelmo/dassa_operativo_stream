@@ -7,8 +7,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33096,24/04,Santa Anita Oil Sa,TGBU-616877-0,10080,HC,TD,**************      ,28096856,1,TRANSPORTE DEL CLIENTE        ,Porco,12:41,2025-05-14,,28096856            ,12:41 Arribado
 33109,24/04,Weiden Sociedad Anonima,TLLU-537349-3,10080,HC,TD,**************      ,90484908,1,TRANSPORTE DEL CLIENTE        ,Alvarez Adrian,09:56,2025-05-15,,                    ,09:56 Arribado
 33070,24/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252759712,0,                              ,,     ,2025-05-14,252759712,252815035           ,Pendiente
-33069,24/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252759712,0,                              ,,     ,2025-05-14,252759712,252815035           ,Pendiente
-33068,24/04,Lawter Argentina S.A.,-,0,  ,TD,                    ,252759712,0,                              ,,     ,2025-05-14,252759712,252815035           ,Pendiente
+33069,24/04,Lawter Argentina S.A.,MRKU-758020-2,0,  ,TD,******************* ,252759712,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,13:01,2025-05-14,252759712,252815035           ,13:01 Arribado
+33068,24/04,Lawter Argentina S.A.,MRKU-840320-1,0,  ,TD,                    ,252759712,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,13:00,2025-05-14,252759712,252815035           ,13:00 Arribado
 32916,24/04,Lawter Argentina S.A.,-      -,0,  ,TD,*                   ,252759712,1,                              ,,14:33,2025-05-12,,                    ,14:33 Arribado
 32914,24/04,Lawter Argentina S.A.,-      -,0,DR,TD,*                   ,252632346,1,                              ,,14:30,2025-05-12,,                    ,14:30 Arribado
 33108,24/04,Arleather S.R.L.,HASU-439251-8,10080,HC,TD,************        ,252809104,1,TRANSPORTE DEL CLIENTE        ,Ayala,09:53,2025-05-15,,                    ,09:53 Arribado
@@ -19,7 +19,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33112,24/04,Dpmg S.A.,SIMU-706897-7,0,is,TD,                    ,24001EC03004056E,1,TRANSPORTE DEL CLIENTE        ,.,10:25,2025-05-15,,                    ,10:25 Arribado
 33111,24/04,Dpmg S.A.,ZHLU-202504-8,0,is,TD,                    ,24001EC03004054C,1,TRANSPORTE DEL CLIENTE        ,.,10:24,2025-05-15,,                    ,10:24 Arribado
 33100,24/04,Isischu Srl,-,0,  ,TD,                    ,EBKG12473011,0,                              ,,     ,2025-05-14,Ebkg12473011,EBKG12473011        ,Pendiente
-33071,24/04,Lift Van Int. Co S.A,-,0,  ,TD,                    ,25430369,0,                              ,,     ,2025-05-14,25430369,25430369            ,Pendiente
+33071,24/04,Lift Van Int. Co S.A,TCLU-407274-8,0,  ,TD,************        ,25430369,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,13:02,2025-05-14,25430369,25430369            ,13:02 Arribado
 33110,24/04,Dpmg S.A.,ZHLU-200918-7,0,is,TD,                    ,24001EC03004055D,1,TRANSPORTE DEL CLIENTE        ,.,10:24,2025-05-15,,                    ,10:24 Arribado
 33101,24/04,Isischu Srl,-,0,  ,TD,                    ,EBKG12473011,0,                              ,,     ,2025-05-14,Ebkg12473011,EBKG12473011        ,Pendiente
 33102,24/04,Isischu Srl,-,0,  ,TD,                    ,EBKG12473011,0,                              ,,     ,2025-05-14,Ebkg12473011,EBKG12473011        ,Pendiente
@@ -43,7 +43,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33081,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33080,25/04,Norfor Sa,-,0,  ,TD,                    ,26653261,0,                              ,,     ,2025-05-14,26653261,26653261            ,Pendiente
 33079,25/04,Norfor Sa,-,0,  ,TD,                    ,26653261,0,                              ,,     ,2025-05-14,26653261,26653261            ,Pendiente
-33077,25/04,Norfor Sa,-,0,  ,TD,                    ,26653261,0,                              ,,     ,2025-05-14,26653261,26653261            ,Pendiente
-33076,25/04,Norfor Sa,-,0,  ,TD,                    ,26653261,0,                              ,,     ,2025-05-14,26653261,26653261            ,Pendiente
+33077,25/04,Norfor Sa,HLBU-147846-8,0,  ,TD,**************      ,26653261,1,TRANSPORTES LEIRA-NO USAR     ,Muller,13:04,2025-05-14,26653261,26653261            ,13:04 Arribado
+33076,25/04,Norfor Sa,HLBU-128264-4,0,  ,TD,************        ,26653261,1,TRANSPORTE DEL CLIENTE        ,Porco,13:04,2025-05-14,26653261,26653261            ,13:04 Arribado
 33093,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33078,25/04,Norfor Sa,-,0,  ,TD,                    ,26653261,0,                              ,,     ,2025-05-14,26653261,26653261            ,Pendiente
