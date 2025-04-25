@@ -1,5 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 33127,25/04,Mercovan Argentina Srl,TCNU-116325-0,10082,HC,TD,R1944821            ,BUA0338850,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:12,2025-05-16,Lams,                    ,13:12 Arribado
+33087,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33086,25/04,Norfor Sa,BEAU-421590-9,0,  ,TD,FX32973885          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Galban,16:14,2025-05-14,Ebkg12139411,EBKG12139411        ,16:14 Arribado
 33085,25/04,Norfor Sa,MSBU-543397-9,0,  ,TD,FX32973886          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Galban,16:12,2025-05-14,Ebkg12139411,EBKG12139411        ,16:12 Arribado
 33084,25/04,Norfor Sa,MSBU-828345-0,0,  ,TD,FX32973948          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Galban,13:28,2025-05-14,Ebkg12139411,EBKG12139411        ,13:28 Arribado
@@ -8,8 +9,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33093,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33092,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33091,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33129,25/04,Anta Expo S.A.,SEGU-580816-1,10074,HC,TD,*********           ,BUEF04759400,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,16:19,2025-05-16,,                    ,16:19 Arribado
 33090,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33089,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33088,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33095,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33094,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
@@ -19,5 +20,5 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33078,25/04,Norfor Sa,TGBU-586834-1,0,  ,TD,**************      ,26653261,1,TRANSPORTE DEL CLIENTE        ,Porco,13:06,2025-05-14,26653261,26653261            ,13:06 Arribado
 33077,25/04,Norfor Sa,HLBU-147846-8,0,  ,TD,**************      ,26653261,1,TRANSPORTES LEIRA-NO USAR     ,Muller,13:04,2025-05-14,26653261,26653261            ,13:04 Arribado
 33076,25/04,Norfor Sa,HLBU-128264-4,0,  ,TD,************        ,26653261,1,TRANSPORTE DEL CLIENTE        ,Porco,13:04,2025-05-14,26653261,26653261            ,13:04 Arribado
-33087,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33129,25/04,Anta Expo S.A.,SEGU-580816-1,10074,HC,TD,*********           ,BUEF04759400,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,16:19,2025-05-16,,                    ,16:19 Arribado
+33089,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33130,25/04,Anta Expo S.A.,MOTU-077015-6,10074,HC,TD,***************     ,BUEF04759400,0,                              ,,     ,2025-05-16,,                    ,Pendiente
