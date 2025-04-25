@@ -1,27 +1,51 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 33127,25/04,Mercovan Argentina Srl,TCNU-116325-0,10082,HC,TD,R1944821            ,BUA0338850,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:12,2025-05-16,Lams,                    ,13:12 Arribado
-33087,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33086,25/04,Norfor Sa,BEAU-421590-9,0,  ,TD,FX32973885          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Galban,16:14,2025-05-14,Ebkg12139411,EBKG12139411        ,16:14 Arribado
-33085,25/04,Norfor Sa,MSBU-543397-9,0,  ,TD,FX32973886          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Galban,16:12,2025-05-14,Ebkg12139411,EBKG12139411        ,16:12 Arribado
-33084,25/04,Norfor Sa,MSBU-828345-0,0,  ,TD,FX32973948          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Galban,13:28,2025-05-14,Ebkg12139411,EBKG12139411        ,13:28 Arribado
-33083,25/04,Norfor Sa,MSDU-894220-0,0,  ,TD,FX32973916          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Sena,13:27,2025-05-14,Ebkg12139411,EBKG12139411        ,13:27 Arribado
-33082,25/04,Norfor Sa,CAIU-874818-2,0,  ,TD,FX32973946          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Galban,13:25,2025-05-14,Ebkg12139411,EBKG12139411        ,13:25 Arribado
-33093,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33092,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33091,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33090,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33089,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33088,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33095,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33094,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
-33081,25/04,Norfor Sa,MSMU-771359-2,0,  ,TD,FX32973915          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Ayala,13:24,2025-05-14,Ebkg12139411,EBKG12139411        ,13:24 Arribado
-33080,25/04,Norfor Sa,TEMU-670352-0,10080,HC,TD,******              ,26653261,1,TRANSPORTE DEL CLIENTE        ,Alvarez Adrian,13:18,2025-05-14,26653261,26653261            ,13:18 Arribado
-33079,25/04,Norfor Sa,BMOU-548412-6,0,  ,TD,***********         ,26653261,1,TRANSPORTE DEL CLIENTE        ,Porco,13:07,2025-05-14,26653261,26653261            ,13:07 Arribado
-33078,25/04,Norfor Sa,TGBU-586834-1,0,  ,TD,**************      ,26653261,1,TRANSPORTE DEL CLIENTE        ,Porco,13:06,2025-05-14,26653261,26653261            ,13:06 Arribado
-33077,25/04,Norfor Sa,HLBU-147846-8,0,  ,TD,**************      ,26653261,1,TRANSPORTES LEIRA-NO USAR     ,Muller,13:04,2025-05-14,26653261,26653261            ,13:04 Arribado
 33076,25/04,Norfor Sa,HLBU-128264-4,0,  ,TD,************        ,26653261,1,TRANSPORTE DEL CLIENTE        ,Porco,13:04,2025-05-14,26653261,26653261            ,13:04 Arribado
+33077,25/04,Norfor Sa,HLBU-147846-8,0,  ,TD,**************      ,26653261,1,TRANSPORTES LEIRA-NO USAR     ,Muller,13:04,2025-05-14,26653261,26653261            ,13:04 Arribado
+33078,25/04,Norfor Sa,TGBU-586834-1,0,  ,TD,**************      ,26653261,1,TRANSPORTE DEL CLIENTE        ,Porco,13:06,2025-05-14,26653261,26653261            ,13:06 Arribado
+33079,25/04,Norfor Sa,BMOU-548412-6,0,  ,TD,***********         ,26653261,1,TRANSPORTE DEL CLIENTE        ,Porco,13:07,2025-05-14,26653261,26653261            ,13:07 Arribado
+33080,25/04,Norfor Sa,TEMU-670352-0,10080,HC,TD,******              ,26653261,1,TRANSPORTE DEL CLIENTE        ,Alvarez Adrian,13:18,2025-05-14,26653261,26653261            ,13:18 Arribado
+33081,25/04,Norfor Sa,MSMU-771359-2,0,  ,TD,FX32973915          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Ayala,13:24,2025-05-14,Ebkg12139411,EBKG12139411        ,13:24 Arribado
+33094,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33095,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33088,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33133,25/04,2M Comex,-,0,  ,TD,                    ,25001EC01025080C,1,TRANSPORTE DEL CLIENTE        ,.,16:46,2025-05-16,,                    ,16:46 Arribado
-33132,25/04,2M Comex,-,0,  ,TD,                    ,25001EC01025080C,1,TRANSPORTE DEL CLIENTE        ,.,16:46,2025-05-16,,                    ,16:46 Arribado
-33131,25/04,2M Comex,-,0,  ,TD,                    ,25001EC01025080C,1,TRANSPORTE DEL CLIENTE        ,.,16:46,2025-05-16,,                    ,16:46 Arribado
+33089,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33091,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33092,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33093,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33082,25/04,Norfor Sa,CAIU-874818-2,0,  ,TD,FX32973946          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Galban,13:25,2025-05-14,Ebkg12139411,EBKG12139411        ,13:25 Arribado
+33083,25/04,Norfor Sa,MSDU-894220-0,0,  ,TD,FX32973916          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Sena,13:27,2025-05-14,Ebkg12139411,EBKG12139411        ,13:27 Arribado
+33084,25/04,Norfor Sa,MSBU-828345-0,0,  ,TD,FX32973948          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Galban,13:28,2025-05-14,Ebkg12139411,EBKG12139411        ,13:28 Arribado
+33085,25/04,Norfor Sa,MSBU-543397-9,0,  ,TD,FX32973886          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Galban,16:12,2025-05-14,Ebkg12139411,EBKG12139411        ,16:12 Arribado
+33086,25/04,Norfor Sa,BEAU-421590-9,0,  ,TD,FX32973885          ,EBKG12139411,1,TRANSPORTE DEL CLIENTE        ,Galban,16:14,2025-05-14,Ebkg12139411,EBKG12139411        ,16:14 Arribado
+33087,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
+33090,25/04,Norfor Sa,-,0,  ,TD,                    ,EBKG12139411,0,                              ,,     ,2025-05-14,Ebkg12139411,EBKG12139411        ,Pendiente
 33129,25/04,Anta Expo S.A.,SEGU-580816-1,10074,HC,TD,*********           ,BUEF04759400,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,16:19,2025-05-16,,                    ,16:19 Arribado
-33130,25/04,Anta Expo S.A.,MOTU-077015-6,10074,HC,TD,***************     ,BUEF04759400,0,                              ,,     ,2025-05-16,,                    ,Pendiente
+33132,25/04,2M Comex,-,0,  ,TD,                    ,25001EC01025080C,1,TRANSPORTE DEL CLIENTE        ,.,16:46,2025-05-16,,                    ,16:46 Arribado
+33130,25/04,Anta Expo S.A.,MOTU-077015-6,10074,HC,TD,***************     ,BUEF04759400,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,16:56,2025-05-16,,                    ,16:56 Arribado
+33131,25/04,2M Comex,-,0,  ,TD,                    ,25001EC01025080C,1,TRANSPORTE DEL CLIENTE        ,.,16:46,2025-05-16,,                    ,16:46 Arribado
+33145,28/04,Anta Expo Sau,-,0,  ,TD,                    ,BUEF04759400,0,                              ,,     ,2025-05-16,Buef04759400,                    ,Pendiente
+33144,28/04,Anta Expo Sau,-,0,  ,TD,                    ,BUEF04759400,0,                              ,,     ,2025-05-16,Buef04759400,                    ,Pendiente
+33146,28/04,Minera Santa Rita Srl,-,0,  ,TD,                    ,253017272,0,                              ,,     ,2025-05-16,253017272,                    ,Pendiente
+33147,28/04,Isischu Srl,-,0,  ,TD,                    ,EBKG12473011,0,                              ,,     ,2025-05-16,Ebkg12473011,                    ,Pendiente
+33148,28/04,Isischu Srl,-,0,  ,TD,                    ,EBKG12473011,0,                              ,,     ,2025-05-16,Ebkg12473011,                    ,Pendiente
+33149,28/04,Isischu Srl,-,0,  ,TD,                    ,EBKG12473011,0,                              ,,     ,2025-05-16,Ebkg12473011,                    ,Pendiente
+33150,28/04,Isischu Srl,-,0,  ,TD,                    ,EBKG12473011,0,                              ,,     ,2025-05-16,Ebkg12473011,                    ,Pendiente
+33151,28/04,Isischu Srl,-,0,  ,TD,                    ,EBKG12473011,0,                              ,,     ,2025-05-16,Ebkg12473011,                    ,Pendiente
+33152,28/04,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG12563718,0,                              ,,     ,2025-05-16,Ebkg12563718,                    ,Pendiente
+33153,28/04,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG12563718,0,                              ,,     ,2025-05-16,Ebkg12563718,                    ,Pendiente
+33154,28/04,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG12563718,0,                              ,,     ,2025-05-16,Ebkg12563718,                    ,Pendiente
+33167,28/04,Borax Argentina S A,-,0,  ,TD,                    ,253072741,0,                              ,,     ,2025-05-16,253072741,                    ,Pendiente
+33157,28/04,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG12612597,0,                              ,,     ,2025-05-16,Ebkg12612597,                    ,Pendiente
+33158,28/04,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG12612597,0,                              ,,     ,2025-05-16,Ebkg12612597,                    ,Pendiente
+33159,28/04,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG12612597,0,                              ,,     ,2025-05-16,Ebkg12612597,                    ,Pendiente
+33160,28/04,Borax Argentina S A,-,0,  ,TD,                    ,253072779,0,                              ,,     ,2025-05-16,253072779,                    ,Pendiente
+33161,28/04,Borax Argentina S A,-,0,  ,TD,                    ,253072779,0,                              ,,     ,2025-05-16,253072779,                    ,Pendiente
+33162,28/04,Borax Argentina S A,-,0,  ,TD,                    ,253072779,0,                              ,,     ,2025-05-16,253072779,                    ,Pendiente
+33163,28/04,Borax Argentina S A,-,0,  ,TD,                    ,253072779,0,                              ,,     ,2025-05-16,253072779,                    ,Pendiente
+33164,28/04,Borax Argentina S A,-,0,  ,TD,                    ,253072741,0,                              ,,     ,2025-05-16,253072741,                    ,Pendiente
+33165,28/04,Borax Argentina S A,-,0,  ,TD,                    ,253072741,0,                              ,,     ,2025-05-16,253072741,                    ,Pendiente
+33166,28/04,Borax Argentina S A,-,0,  ,TD,                    ,253072741,0,                              ,,     ,2025-05-16,253072741,                    ,Pendiente
+33156,28/04,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG12612597,0,                              ,,     ,2025-05-16,Ebkg12612597,                    ,Pendiente
+33155,28/04,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG12563718,0,                              ,,     ,2025-05-16,Ebkg12563718,                    ,Pendiente
