@@ -1,6 +1,7 @@
 Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2024-12-27,30440,UETU-274435-9,Mercovan Argentina Srl,66657399,********************,Arribado
 2025-01-07,30598,UASU-105352-9,Mercovan Argentina Srl,21086563,HLD0315467          ,Arribado
+2025-04-25,33127,TCNU-116325-0,Mercovan Argentina Srl,BUA0338850,R1944821            ,Arribado
 2025-04-23,33023,TEMU-142178-2,Mercovan Argentina Srl,252407354,*************       ,Arribado
 2025-04-24,33106,BMOU-664581-6,Mercovan Argentina Srl,16555848,HLD0432367          ,Arribado
 2025-04-24,33119,,Mercovan Argentina Srl,PE01000143X,                    ,Pendiente
@@ -503,8 +504,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-07,30606,MSKU-192855-0,Arleather S.R.L.,248789379,********            ,Arribado
 2025-04-24,33072,MSKU-180923-2,Arleather S.R.L.,252816450,***********         ,Arribado
 2025-04-24,33073,TCKU-695361-2,Arleather S.R.L.,252816450,************        ,Arribado
-2025-04-24,33074,,Arleather S.R.L.,252816450,                    ,Pendiente
-2025-04-24,33075,,Arleather S.R.L.,252816450,                    ,Pendiente
+2025-04-24,33074,CAAU-563949-9,Arleather S.R.L.,252816450,***********         ,Arribado
+2025-04-24,33075,SUDU-659385-4,Arleather S.R.L.,252816450,*************       ,Arribado
 2025-04-24,33108,HASU-439251-8,Arleather S.R.L.,252809104,************        ,Arribado
 2025-04-23,33035,GCXU-557435-0,Arleather S.R.L.,252809104,**********          ,Arribado
 2025-04-23,33036,,Arleather S.R.L.,252809104,                    ,Pendiente
@@ -800,7 +801,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-09,30662,TEMU-353768-4,Lawter Argentina S.A.,BUA0334443,R1943384            ,Arribado
 2025-04-24,33068,MRKU-840320-1,Lawter Argentina S.A.,252759712,                    ,Arribado
 2025-04-24,33069,MRKU-758020-2,Lawter Argentina S.A.,252759712,******************* ,Arribado
-2025-04-24,33070,,Lawter Argentina S.A.,252759712,                    ,Pendiente
+2025-04-24,33070,TIIU-207161-0,Lawter Argentina S.A.,252759712,***************     ,Arribado
 2025-04-22,32960,BMOU-256473-7,Lawter Argentina S.A.,BUE500065100,*************       ,Arribado
 2025-04-22,32998,PCIU-139581-5,Lawter Argentina S.A.,BUE500065100,**************      ,Arribado
 2025-04-22,33000,PCIU-133622-1,Lawter Argentina S.A.,BUE500065100,*****************   ,Arribado
@@ -959,9 +960,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-25,33091,,Norfor Sa,EBKG12139411,                    ,Pendiente
 2025-04-25,33092,,Norfor Sa,EBKG12139411,                    ,Pendiente
 2025-04-25,33093,,Norfor Sa,EBKG12139411,                    ,Pendiente
-2025-04-25,33082,,Norfor Sa,EBKG12139411,                    ,Pendiente
-2025-04-25,33083,,Norfor Sa,EBKG12139411,                    ,Pendiente
-2025-04-25,33084,,Norfor Sa,EBKG12139411,                    ,Pendiente
+2025-04-25,33082,CAIU-874818-2,Norfor Sa,EBKG12139411,FX32973946          ,Arribado
+2025-04-25,33083,MSDU-894220-0,Norfor Sa,EBKG12139411,FX32973916          ,Arribado
+2025-04-25,33084,MSBU-828345-0,Norfor Sa,EBKG12139411,FX32973948          ,Arribado
 2025-04-25,33085,,Norfor Sa,EBKG12139411,                    ,Pendiente
 2025-04-25,33086,,Norfor Sa,EBKG12139411,                    ,Pendiente
 2025-04-25,33087,,Norfor Sa,EBKG12139411,                    ,Pendiente
@@ -969,8 +970,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-25,33077,HLBU-147846-8,Norfor Sa,26653261,**************      ,Arribado
 2025-04-25,33078,TGBU-586834-1,Norfor Sa,26653261,**************      ,Arribado
 2025-04-25,33079,BMOU-548412-6,Norfor Sa,26653261,***********         ,Arribado
-2025-04-25,33080,,Norfor Sa,26653261,                    ,Pendiente
-2025-04-25,33081,,Norfor Sa,EBKG12139411,                    ,Pendiente
+2025-04-25,33080,TEMU-670352-0,Norfor Sa,26653261,******              ,Arribado
+2025-04-25,33081,MSMU-771359-2,Norfor Sa,EBKG12139411,FX32973915          ,Arribado
 2025-04-09,32721,CAAU-844232-7,Norfor Sa,65326465,***********         ,Arribado
 2025-04-11,32727,HAMU-132817-5,Norfor Sa,35392411,************        ,Arribado
 2025-04-11,32728,GESU-630775-0,Norfor Sa,35392411,*******             ,Arribado
@@ -1084,7 +1085,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-23,33032,,Laharrague Chodorge Sociedad Anonima,EBKG12353554,                    ,Pendiente
 2025-04-23,33033,,Laharrague Chodorge Sociedad Anonima,EBKG12353554,                    ,Pendiente
 2025-04-23,33034,,Laharrague Chodorge Sociedad Anonima,EBKG12353554,                    ,Pendiente
-2025-04-24,33067,,Laharrague Chodorge Sociedad Anonima,252815035,                    ,Pendiente
+2025-04-24,33067,CAAU-594171-8,Laharrague Chodorge Sociedad Anonima,252815035,************        ,Arribado
 2025-03-06,32067,TLLU-488727-1,Laharrague Chodorge Sociedad Anonima,250793112,                    ,Arribado
 2025-03-06,32068,CAAU-662276-2,Laharrague Chodorge Sociedad Anonima,250793112,                    ,Arribado
 2025-04-23,33030,MSDU-515587-5,Laharrague Chodorge Sociedad Anonima,EBKG12353554,FX32974280          ,Arribado
