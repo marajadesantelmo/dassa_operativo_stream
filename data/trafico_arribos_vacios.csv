@@ -1,7 +1,7 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 33146,28/04,Minera Santa Rita Srl,TCLU-991577-9,0,  ,TD,*****************   ,253017272,1,TRANSPORTE DEL CLIENTE        ,Torres,15:51,2025-05-16,253017272,                    ,15:51 Arribado
-33167,28/04,Borax Argentina S A,-,0,  ,TD,                    ,253072741,0,                              ,,     ,2025-05-16,253072741,                    ,Pendiente
-33166,28/04,Borax Argentina S A,-,0,  ,TD,                    ,253072741,0,                              ,,     ,2025-05-16,253072741,                    ,Pendiente
+33167,28/04,Borax Argentina S A,TCLU-244711-0,0,  ,TD,**********          ,253072741,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,16:11,2025-05-16,253072741,                    ,16:11 Arribado
+33166,28/04,Borax Argentina S A,CAIU-613410-1,0,  ,TD,   *****************,253072741,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,16:11,2025-05-16,253072741,                    ,16:11 Arribado
 33165,28/04,Borax Argentina S A,CAIU-320361-5,0,  ,TD,*************       ,253072741,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,14:45,2025-05-16,253072741,                    ,14:45 Arribado
 33164,28/04,Borax Argentina S A,TEMU-538955-0,0,  ,TD,********            ,253072741,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,14:45,2025-05-16,253072741,                    ,14:45 Arribado
 33163,28/04,Borax Argentina S A,-,0,  ,TD,                    ,253072779,0,                              ,,     ,2025-05-16,253072779,                    ,Pendiente
