@@ -25,8 +25,7 @@ def fetch_data_plazoleta():
     cont_nac_clientes = cont_nac['CLIENTE'].value_counts().reset_index()
     cont_nac_clientes.columns = ['Cliente', 'CTNs']
     arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
-    arribos_expo_ctns_por_fecha = arribos_expo_ctns['Fecha'].value_counts().reset_index()
-    arribos_expo_ctns_por_fecha.columns = ['Fecha', 'CNTs']
+    arribos_expo_ctns = arribos_expo_ctns[~arribos_expo_ctns['Estado'].str.contains('Arribado', na=False)]
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
     vacios_disponibles = pd.read_csv('data/vacios_disponibles.csv')
     existente_plz_expo = pd.concat([listos_para_remitir[['Cliente', 'Contenedor']], vacios_disponibles[['Cliente', 'Contenedor']]])
@@ -44,11 +43,15 @@ def fetch_data_plazoleta():
     tabla_resumen['%'] = (tabla_resumen['Cantidad'] / 220) * 100
     tabla_resumen['%'] = tabla_resumen['%'].round(0).astype(str) + '%'
 
-    return arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, arribos_semana_pendientes, tabla_arribos_pendientes, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen
+    return (arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, 
+            arribos_semana_pendientes, tabla_arribos_pendientes, arribos_por_fecha, arribos_expo_ctns, 
+            listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen)
 
 def show_page_plazoleta():
     # Load data
-    arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana,  arribos_semana_pendientes, tabla_arribos_pendientes, arribos_por_fecha, arribos_expo_ctns, arribos_expo_ctns_por_fecha, listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen = fetch_data_plazoleta()
+    (arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana,  
+    arribos_semana_pendientes, tabla_arribos_pendientes, arribos_por_fecha, arribos_expo_ctns, 
+    listos_para_remitir, vacios_disponibles, existente_plz_expo_clientes, tabla_resumen) = fetch_data_plazoleta()
 
     col_logo, col_title, col_pie_chart, col_tabla = st.columns([1, 2, 1, 2])
     with col_logo:
@@ -107,7 +110,7 @@ def show_page_plazoleta():
         st.dataframe(tabla_arribos_pendientes, hide_index=True, use_container_width=True)
         st.metric(label="Ptes. EXPO", value=arribos_expo_ctns.shape[0])
         st.write("Arribos pendientes EXPO")
-        st.dataframe(arribos_expo_ctns_por_fecha, hide_index=True, use_container_width=True)
+        st.dataframe(arribos_expo_ctns, hide_index=True, use_container_width=True)
         st.markdown("<hr>", unsafe_allow_html=True)
 
     with col_existente:
