@@ -31,12 +31,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-21,30871,UETU-214676-3,Mercovan Argentina Srl,33196222,HLD0315445          ,Arribado
 2025-01-21,30872,TEMU-146918-0,Mercovan Argentina Srl,37049253,HLD0315444          ,Arribado
 2025-01-21,30880,UACU-849592-1,Mercovan Argentina Srl,39693917,0315447             ,Arribado
-2024-12-30,30478,MRKU-041923-8,Lift Van Int. Co S.A,247810338,                    ,Arribado
 2025-01-06,30574,CLHU-453213-2,Lift Van Int. Co S.A,LA0400808,***********         ,Arribado
 2025-01-06,30582,,Lift Van Int. Co S.A,LA0399679,                    ,Pendiente
 2025-01-07,30593,GAOU-733470-0,Lift Van Int. Co S.A,248449898,***********         ,Arribado
 2025-01-07,30603,MRSU-631244-5,Lift Van Int. Co S.A,248449394,***********         ,Arribado
-2025-04-16,32838,MEDU-655758-9,Lift Van Int. Co S.A,EBKG12413855,FX32974235          ,Arribado
+2025-04-29,33201,,Lift Van Int. Co S.A,252955774,                    ,Pendiente
+2025-04-29,33218,PONU-190901-5,Lift Van Int. Co S.A,252955774,**********          ,Arribado
 2025-04-17,32848,UETU-272667-4,Lift Van Int. Co S.A,12074753,********************,Arribado
 2025-04-24,33071,TCLU-407274-8,Lift Van Int. Co S.A,25430369,************        ,Arribado
 2025-04-10,32715,CAIU-646722-6,Lift Van Int. Co S.A,24805945,**************      ,Arribado
@@ -44,30 +44,31 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-10,32717,GLDU-392410-1,Lift Van Int. Co S.A,LA0416090,*****************   ,Arribado
 2025-04-11,32719,,Lift Van Int. Co S.A,EBKG12241949,                    ,Pendiente
 2025-04-11,32747,GAOU-246664-2,Lift Van Int. Co S.A,EBKG12241949,FX26312929          ,Arribado
-2025-03-19,32278,HLXU-111801-0,Lift Van Int. Co S.A,90181330,*****************   ,Arribado
+2025-04-16,32838,MEDU-655758-9,Lift Van Int. Co S.A,EBKG12413855,FX32974235          ,Arribado
 2025-03-21,32369,MRKU-032093-9,Lift Van Int. Co S.A,25164078,***************     ,Arribado
 2025-03-21,32380,UACU-842286-4,Lift Van Int. Co S.A,32550672,                    ,Arribado
 2025-03-17,32160,UACU-842407-0,Lift Van Int. Co S.A,51582430,*************       ,Arribado
 2025-03-19,32277,HLBU-275516-6,Lift Van Int. Co S.A,46643933,************        ,Arribado
-2025-02-24,31728,UACU-852999-7,Lift Van Int. Co S.A,45406774,                    ,Arribado
+2025-03-19,32278,HLXU-111801-0,Lift Van Int. Co S.A,90181330,*****************   ,Arribado
 2025-03-07,32004,UACU-847017-9,Lift Van Int. Co S.A,28437559,                    ,Arribado
 2025-03-12,32079,FCIU-655566-5,Lift Van Int. Co S.A,29472184,***************     ,Arribado
-2025-02-10,31317,MSKU-557228-3,Lift Van Int. Co S.A,249522080,**********          ,Arribado
 2025-02-19,31579,BMOU-145090-9,Lift Van Int. Co S.A,92788946E,************        ,Arribado
 2025-02-19,31587,CMAU-017821-3,Lift Van Int. Co S.A,BUA0336878,R1947319            ,Arribado
 2025-02-24,31727,HLXU-126055-5,Lift Van Int. Co S.A,17536915,                    ,Arribado
-2025-01-30,31079,GESU-108973-8,Lift Van Int. Co S.A,14222673,************        ,Arribado
+2025-02-24,31728,UACU-852999-7,Lift Van Int. Co S.A,45406774,                    ,Arribado
 2025-01-30,31080,HLBU-230416-2,Lift Van Int. Co S.A,12527362E,*************       ,Arribado
 2025-01-30,31113,MRKU-070514-4,Lift Van Int. Co S.A,249224028,*************       ,Arribado
 2025-01-30,31114,MRKU-489713-2,Lift Van Int. Co S.A,249224028,********************,Arribado
+2025-02-10,31317,MSKU-557228-3,Lift Van Int. Co S.A,249522080,**********          ,Arribado
 2025-01-28,31022,,Lift Van Int. Co S.A,EBKGQ0008F46,                    ,Pendiente
 2025-01-28,31039,MSBU-402973-0,Lift Van Int. Co S.A,EBKGQ0008F46,FX26282935          ,Arribado
 2025-01-29,31070,TEMU-597889-0,Lift Van Int. Co S.A,22630466,************        ,Arribado
 2025-01-29,31071,BMOU-137661-1,Lift Van Int. Co S.A,26126616,*************       ,Arribado
-2025-01-17,30817,HLBU-127505-4,Lift Van Int. Co S.A,69986413,*************       ,Arribado
+2025-01-30,31079,GESU-108973-8,Lift Van Int. Co S.A,14222673,************        ,Arribado
 2025-01-20,30840,MSDU-259283-0,Lift Van Int. Co S.A,EBKGQ0008A6A,FX26285133          ,Arribado
 2025-01-21,30883,HLXU-112451-7,Lift Van Int. Co S.A,24286067E,**************      ,Arribado
 2025-01-09,30669,SEGU-111854-8,Lift Van Int. Co S.A,LA0400808,************        ,Arribado
+2025-01-17,30817,HLBU-127505-4,Lift Van Int. Co S.A,69986413,*************       ,Arribado
 2025-01-03,30535,MRKU-066251-0,Minera Santa Rita Srl,248453305,******************* ,Arribado
 2025-01-03,30536,MRKU-086722-7,Minera Santa Rita Srl,248453305,****************    ,Arribado
 2025-01-03,30537,MRKU-036026-9,Minera Santa Rita Srl,248453305,**************      ,Arribado
@@ -125,6 +126,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-06,31242,FANU-180533-0,A La Orden,15859785,***********         ,Arribado
 2025-02-06,31243,HAMU-275949-6,A La Orden,15859785,**************      ,Arribado
 2025-02-11,31329,TRHU-721826-7,A La Orden,EBKG11708793,FX26278789          ,Arribado
+2025-04-30,33225,MSDU-156455-6,A La Orden,153IAR0648445,FX32985939          ,Arribado
 2025-04-14,32772,TGHU-171446-3,A La Orden,18722142,************        ,Arribado
 2025-04-22,32977,TXGU-674980-1,A La Orden,26634974,******************  ,Arribado
 2025-03-17,32232,TRHU-726359-0,A La Orden,EBKG11849086,FX32985365          ,Arribado
@@ -387,6 +389,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-06,31930,MSBU-512385-0,Valerio Oliva Forestal Sa,EBKG11883808,FX32986854          ,Arribado
 2025-04-16,32840,TGBU-924892-4,Valerio Oliva Forestal Sa,251130577,******              ,Arribado
 2025-04-16,32842,HASU-400794-6,Valerio Oliva Forestal Sa,251130577,*************       ,Arribado
+2025-04-29,33203,CAAU-562478-1,Valerio Oliva Forestal Sa,EBKG12458399,FX32979518          ,Arribado
 2025-03-25,32419,MRSU-550449-0,Valerio Oliva Forestal Sa,250297402,                    ,Arribado
 2025-03-25,32420,GCXU-575062-8,Valerio Oliva Forestal Sa,250297402,                    ,Arribado
 2025-01-02,30481,MSDU-855969-6,Asecor Srl,EBKG11142724,FX26267175          ,Arribado
@@ -507,13 +510,16 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-07,30606,MSKU-192855-0,Arleather S.R.L.,248789379,********            ,Arribado
 2025-01-07,30607,MRKU-391112-8,Arleather S.R.L.,248789379,***********         ,Arribado
 2025-01-07,30608,TRLU-804940-5,Arleather S.R.L.,248789571,*********           ,Arribado
-2025-04-24,33075,SUDU-659385-4,Arleather S.R.L.,252816450,*************       ,Arribado
+2025-04-29,33210,MRKU-360039-0,Arleather S.R.L.,253269514,****************    ,Arribado
+2025-04-29,33216,MSKU-987122-0,Arleather S.R.L.,253269514,**************      ,Arribado
+2025-04-29,33217,MRKU-502696-9,Arleather S.R.L.,253269514,********************,Arribado
 2025-04-24,33108,HASU-439251-8,Arleather S.R.L.,252809104,************        ,Arribado
 2025-04-28,33185,MRKU-549825-0,Arleather S.R.L.,253129873,********************,Arribado
 2025-04-28,33186,MSKU-909130-5,Arleather S.R.L.,253129873,**********          ,Arribado
 2025-04-24,33072,MSKU-180923-2,Arleather S.R.L.,252816450,***********         ,Arribado
 2025-04-24,33073,TCKU-695361-2,Arleather S.R.L.,252816450,************        ,Arribado
 2025-04-24,33074,CAAU-563949-9,Arleather S.R.L.,252816450,***********         ,Arribado
+2025-04-24,33075,SUDU-659385-4,Arleather S.R.L.,252816450,*************       ,Arribado
 2025-04-21,32873,MRSU-418953-7,Arleather S.R.L.,251416640,******************  ,Arribado
 2025-04-23,33035,GCXU-557435-0,Arleather S.R.L.,252809104,**********          ,Arribado
 2025-04-23,33036,,Arleather S.R.L.,252809104,                    ,Pendiente
@@ -938,6 +944,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-21,30869,MSDU-706614-4,Virasoro Maderas S R L,EBKG11226629,FX26285009          ,Arribado
 2025-01-21,30877,TRHU-735082-2,Virasoro Maderas S R L,EBKG11226629,FX26285736          ,Arribado
 2025-01-21,30878,TCLU-793240-0,Virasoro Maderas S R L,EBKG11226629,FX26285735          ,Arribado
+2025-04-30,33222,MSNU-854172-1,Virasoro Maderas S R L,EBKG12476356,FX32978698          ,Arribado
+2025-04-30,33223,MSNU-506721-8,Virasoro Maderas S R L,EBKG12476356,FX32978692          ,Arribado
+2025-04-30,33224,MSMU-739664-6,Virasoro Maderas S R L,EBKG12476356,FX32978691          ,Arribado
 2025-02-10,31311,MEDU-760359-1,Virasoro Maderas S R L,EBKG11499126,FX26278862          ,Arribado
 2025-02-10,31312,MSMU-596297-6,Virasoro Maderas S R L,EBKG11499126,FX26278886          ,Arribado
 2025-02-10,31307,TGBU-799335-8,Virasoro Maderas S R L,EBKG11499126,FX26278857          ,Arribado
@@ -981,7 +990,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-25,33092,TGHU-695512-3,Norfor Sa,EBKG12139411,FX32979574          ,Arribado
 2025-04-25,33093,TRHU-757932-0,Norfor Sa,EBKG12139411,FX32979572          ,Arribado
 2025-04-25,33094,MSCU-513931-4,Norfor Sa,EBKG12139411,FX 32979578         ,Arribado
-2025-04-25,33095,,Norfor Sa,EBKG12139411,                    ,Pendiente
+2025-04-25,33095,TIIU-420057-3,Norfor Sa,EBKG12139411,FX-32979527         ,Arribado
 2025-04-25,33084,MSBU-828345-0,Norfor Sa,EBKG12139411,FX32973948          ,Arribado
 2025-04-25,33085,MSBU-543397-9,Norfor Sa,EBKG12139411,FX32973886          ,Arribado
 2025-04-25,33086,BEAU-421590-9,Norfor Sa,EBKG12139411,FX32973885          ,Arribado
@@ -1104,10 +1113,16 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-06,31247,CAAU-555704-5,Santa Anita Oil Sa,93299499,***************     ,Arribado
 2025-01-10,30677,EISU-857444-8,Laharrague Chodorge Sociedad Anonima,340400050233,***************     ,Arribado
 2025-03-10,32002,TGHU-986068-0,Laharrague Chodorge Sociedad Anonima,250793112,************        ,Arribado
-2025-04-23,33032,,Laharrague Chodorge Sociedad Anonima,EBKG12353554,                    ,Pendiente
-2025-04-23,33033,,Laharrague Chodorge Sociedad Anonima,EBKG12353554,                    ,Pendiente
+2025-04-30,33226,,Laharrague Chodorge Sociedad Anonima,21608145,                    ,Pendiente
+2025-04-30,33227,,Laharrague Chodorge Sociedad Anonima,21608145,                    ,Pendiente
+2025-04-30,33228,,Laharrague Chodorge Sociedad Anonima,21608145,                    ,Pendiente
+2025-04-30,33229,,Laharrague Chodorge Sociedad Anonima,21608145,                    ,Pendiente
+2025-04-30,33230,,Laharrague Chodorge Sociedad Anonima,21608145,                    ,Pendiente
+2025-04-23,33032,MSBU-653360-6,Laharrague Chodorge Sociedad Anonima,EBKG12353554,FX32978728          ,Arribado
+2025-04-23,33033,TXGU-435402-1,Laharrague Chodorge Sociedad Anonima,EBKG12353554,FX32978727          ,Arribado
 2025-04-23,33034,,Laharrague Chodorge Sociedad Anonima,EBKG12353554,                    ,Pendiente
 2025-04-24,33067,CAAU-594171-8,Laharrague Chodorge Sociedad Anonima,252815035,************        ,Arribado
+2025-04-29,33221,MSMU-439228-8,Laharrague Chodorge Sociedad Anonima,EBKG12353554,FX32978736          ,Arribado
 2025-03-06,32067,TLLU-488727-1,Laharrague Chodorge Sociedad Anonima,250793112,                    ,Arribado
 2025-03-06,32068,CAAU-662276-2,Laharrague Chodorge Sociedad Anonima,250793112,                    ,Arribado
 2025-04-23,33030,MSDU-515587-5,Laharrague Chodorge Sociedad Anonima,EBKG12353554,FX32974280          ,Arribado
@@ -1268,3 +1283,6 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-25,33129,SEGU-580816-1,Anta Expo S.A.,BUEF04759400,*********           ,Arribado
 2025-04-25,33130,MOTU-077015-6,Anta Expo S.A.,BUEF04759400,***************     ,Arribado
 2025-04-24,33105,HLBU-135433-8,Entretelas Americanas Sa,18108092,**************      ,Arribado
+2025-04-29,33198,,Hdv Leather Srl,253269514,                    ,Pendiente
+2025-04-29,33199,,Hdv Leather Srl,253269514,                    ,Pendiente
+2025-04-29,33200,,Hdv Leather Srl,253269514,                    ,Pendiente
