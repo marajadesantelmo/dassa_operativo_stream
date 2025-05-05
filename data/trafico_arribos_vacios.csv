@@ -1,32 +1,35 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 33277,05/05,Lift Van Int. Co S.A,-,15004,  ,TD,                    ,TERRESTRE,0,                              ,,     ,2025-05-26,Mateo Moral Figueroa,PER1 000211P        ,Pendiente
-33316,05/05,Hdv Leather Srl,CAAU-530140-7,10080,HC,TD,*****************   ,253430248,1,TRANSPORTE DEL CLIENTE        ,Alvarez Adrian,18:44,2025-05-26,,                    ,18:44 Arribado
-33265,05/05,Laharrague Chodorge Sociedad A...,MRSU-398151-3,10080,HC,TD,**********          ,253061571,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,18:35,2025-05-23,,                    ,18:35 Arribado
-33264,05/05,Laharrague Chodorge Sociedad A...,MRKU-641272-9,10080,HC,TD,************        ,253061571,1,TRANSPORTE DEL CLIENTE        ,Porco,18:34,2025-05-23,,                    ,18:34 Arribado
-33263,05/05,Norfor Sa,MSNU-964050-2,9,HC,TD,FX32977488          ,EBKG12630439,1,TRANSPORTE DEL CLIENTE        ,Galban,18:39,2025-05-23,,                    ,18:39 Arribado
-33262,05/05,Norfor Sa,TRHU-507735-0,9,HC,TD,FX32977485          ,EBKG12630439,1,TRANSPORTE DEL CLIENTE        ,Ayala,18:38,2025-05-23,,                    ,18:38 Arribado
-33261,05/05,Norfor Sa,MSMU-806273-0,9,HC,TD,FX32977486          ,EBKG12630439,1,TRANSPORTE DEL CLIENTE        ,Sena,18:37,2025-05-23,,                    ,18:37 Arribado
-33266,05/05,Virasoro Maderas S R L,-,10080,HC,TD,                    ,252862514,0,                              ,,     ,2025-05-23,,                    ,Pendiente
-33275,05/05,Borax Argentina S A,TRHU-229245-1,10080,DR,TD,*************       ,253072741,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,18:26,2025-05-23,Fact 12154,                    ,18:26 Arribado
-33274,05/05,Borax Argentina S A,MRKU-915000-5,10080,DR,TD,*********           ,253072741,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,18:25,2025-05-23,Fact 12154,                    ,18:25 Arribado
-33273,05/05,Borax Argentina S A,MSKU-550143-8,10080,DR,TD,****************    ,253072741,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,18:23,2025-05-23,Fact 12154,                    ,18:23 Arribado
-33272,05/05,Borax Argentina S A,MRKU-702408-1,10080,DR,TD,***************     ,253072741,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,18:22,2025-05-23,Fact 12154,                    ,18:22 Arribado
-33271,05/05,Borax Argentina S A,MRKU-743209-9,10080,DR,TD,**********          ,253131040,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,18:32,2025-05-23,Fact 12157,                    ,18:32 Arribado
 33270,05/05,Borax Argentina S A,TCKU-317158-5,10080,DR,TD,*********           ,253131040,1,TRANSPORTES LEIRA-NO USAR     ,Muller,18:31,2025-05-23,Fact 12157,                    ,18:31 Arribado
-33269,05/05,Borax Argentina S A,MSKU-435771-1,10080,DR,TD,*******             ,253131040,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,18:30,2025-05-23,Fact 12157,                    ,18:30 Arribado
+33271,05/05,Borax Argentina S A,MRKU-743209-9,10080,DR,TD,**********          ,253131040,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,18:32,2025-05-23,Fact 12157,                    ,18:32 Arribado
+33272,05/05,Borax Argentina S A,MRKU-702408-1,10080,DR,TD,***************     ,253072741,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,18:22,2025-05-23,Fact 12154,                    ,18:22 Arribado
+33273,05/05,Borax Argentina S A,MSKU-550143-8,10080,DR,TD,****************    ,253072741,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,18:23,2025-05-23,Fact 12154,                    ,18:23 Arribado
+33274,05/05,Borax Argentina S A,MRKU-915000-5,10080,DR,TD,*********           ,253072741,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,18:25,2025-05-23,Fact 12154,                    ,18:25 Arribado
+33275,05/05,Borax Argentina S A,TRHU-229245-1,10080,DR,TD,*************       ,253072741,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,18:26,2025-05-23,Fact 12154,                    ,18:26 Arribado
+33266,05/05,Virasoro Maderas S R L,-,10080,HC,TD,                    ,252862514,0,                              ,,     ,2025-05-23,,                    ,Pendiente
 33268,05/05,Borax Argentina S A,MRKU-701443-7,10080,DR,TD,******************  ,253131040,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,18:29,2025-05-23,Fact 12157,                    ,18:29 Arribado
+33261,05/05,Norfor Sa,MSMU-806273-0,9,HC,TD,FX32977486          ,EBKG12630439,1,TRANSPORTE DEL CLIENTE        ,Sena,18:37,2025-05-23,,                    ,18:37 Arribado
+33263,05/05,Norfor Sa,MSNU-964050-2,9,HC,TD,FX32977488          ,EBKG12630439,1,TRANSPORTE DEL CLIENTE        ,Galban,18:39,2025-05-23,,                    ,18:39 Arribado
+33264,05/05,Laharrague Chodorge Sociedad A...,MRKU-641272-9,10080,HC,TD,************        ,253061571,1,TRANSPORTE DEL CLIENTE        ,Porco,18:34,2025-05-23,,                    ,18:34 Arribado
+33265,05/05,Laharrague Chodorge Sociedad A...,MRSU-398151-3,10080,HC,TD,**********          ,253061571,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,18:35,2025-05-23,,                    ,18:35 Arribado
+33319,05/05,Sandrin Paola Karina,FSCU-717714-7,10080,HC,TD,********            ,11400710,1,TRANSPORTES LEIRA-NO USAR     ,Muller,18:51,2025-05-26,,                    ,18:51 Arribado
+33316,05/05,Hdv Leather Srl,CAAU-530140-7,10080,HC,TD,*****************   ,253430248,1,TRANSPORTE DEL CLIENTE        ,Alvarez Adrian,18:44,2025-05-26,,                    ,18:44 Arribado
+33317,05/05,Hdv Leather Srl,HASU-438741-9,10080,HC,TD,*************       ,253430248,1,TRANSPORTE DEL CLIENTE        ,Cuello,18:46,2025-05-26,,                    ,18:46 Arribado
+33318,05/05,Hdv Leather Srl,MRKU-350936-1,10080,HC,TD,***********         ,253430248,1,TRANSPORTE DEL CLIENTE        ,Porco,18:49,2025-05-26,,                    ,18:49 Arribado
+33262,05/05,Norfor Sa,TRHU-507735-0,9,HC,TD,FX32977485          ,EBKG12630439,1,TRANSPORTE DEL CLIENTE        ,Ayala,18:38,2025-05-23,,                    ,18:38 Arribado
 33267,05/05,Borax Argentina S A,MRKU-657329-8,10080,DR,TD,************        ,253131040,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,18:27,2025-05-23,Fact 12157,                    ,18:27 Arribado
+33269,05/05,Borax Argentina S A,MSKU-435771-1,10080,DR,TD,*******             ,253131040,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,18:30,2025-05-23,Fact 12157,                    ,18:30 Arribado
 33313,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253379263,0,                              ,,     ,2025-05-26,,253379263           ,Pendiente
 33307,06/05,Isischu Srl,-,0,  ,TD,                    ,17197832,0,                              ,,     ,2025-05-26,,17197832            ,Pendiente
-33306,06/05,Sandrin Paola Karina,-,0,  ,TD,                    ,11400710,0,                              ,,     ,2025-05-26,,11400710            ,Pendiente
 33305,06/05,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,252699699,0,                              ,,     ,2025-05-26,,252699699           ,Pendiente
 33294,06/05,Hector Reboratti,-,0,  ,TD,                    ,EBKG12662957,0,                              ,,     ,2025-05-26,,EBKG12662957        ,Pendiente
-33304,06/05,Santa Anita Oil Sa,-,0,  ,TD,                    ,62443730,0,                              ,,     ,2025-05-26,,62443730            ,Pendiente
-33303,06/05,Santa Anita Oil Sa,-,0,  ,TD,                    ,62443730,0,                              ,,     ,2025-05-26,,62443730            ,Pendiente
 33295,06/05,Hector Reboratti,-,0,  ,TD,                    ,EBKG12662957,0,                              ,,     ,2025-05-26,,EBKG12662957        ,Pendiente
+33306,06/05,Sandrin Paola Karina,-,0,  ,TD,                    ,11400710,0,                              ,,     ,2025-05-26,,11400710            ,Pendiente
 33296,06/05,Arleather S.R.L.,-,0,  ,TD,                    ,253269707,0,                              ,,     ,2025-05-26,,253269707           ,Pendiente
 33297,06/05,Arleather S.R.L.,-,0,  ,TD,                    ,253269707,0,                              ,,     ,2025-05-26,,253269707           ,Pendiente
-33312,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253379263,0,                              ,,     ,2025-05-26,,253379263           ,Pendiente
+33304,06/05,Santa Anita Oil Sa,-,0,  ,TD,                    ,62443730,0,                              ,,     ,2025-05-26,,62443730            ,Pendiente
+33303,06/05,Santa Anita Oil Sa,-,0,  ,TD,                    ,62443730,0,                              ,,     ,2025-05-26,,62443730            ,Pendiente
+33314,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,COSU6415960010,0,                              ,,     ,2025-05-26,,COSU6415960010      ,Pendiente
 33298,06/05,Arleather S.R.L.,-,0,  ,TD,                    ,253326683,0,                              ,,     ,2025-05-26,,253326683           ,Pendiente
 33300,06/05,Arleather S.R.L.,-,0,  ,TD,                    ,253269607,0,                              ,,     ,2025-05-26,,253269607           ,Pendiente
 33301,06/05,Arleather S.R.L.,-,0,  ,TD,                    ,253269607,0,                              ,,     ,2025-05-26,,253269607           ,Pendiente
@@ -35,7 +38,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33309,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253384357,0,                              ,,     ,2025-05-26,,253384357           ,Pendiente
 33310,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253384357,0,                              ,,     ,2025-05-26,,253384357           ,Pendiente
 33311,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253384357,0,                              ,,     ,2025-05-26,,253384357           ,Pendiente
+33312,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253379263,0,                              ,,     ,2025-05-26,,253379263           ,Pendiente
 33292,06/05,Ninci - Aguero S.A.,-,0,  ,TD,                    ,EBKG12524654,0,                              ,,     ,2025-05-26,,EBKG12524654        ,Pendiente
-33314,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,COSU6415960010,0,                              ,,     ,2025-05-26,,COSU6415960010      ,Pendiente
 33299,06/05,Arleather S.R.L.,-,0,  ,TD,                    ,253326683,0,                              ,,     ,2025-05-26,,253326683           ,Pendiente
 33293,06/05,Ninci - Aguero S.A.,-,0,  ,TD,                    ,EBKG12524654,0,                              ,,     ,2025-05-26,,EBKG12524654        ,Pendiente
