@@ -13,8 +13,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 35017-1-1,Mercovan Argentina S...,Mudanza  -Pereira Jo...,NVT013471RCS,TLLU-209190-0,28-04-2025,9.00,318.40,EP-IM,http://dassa.mqbic.com/PublicTally.php?id=1750
 35016-1-1,Industrias Pugliese ...,Cilindrico Cristal,SHIP001526,TCNU-885013-5,28-04-2025,59.00,2768.33,IB7,http://dassa.mqbic.com/PublicTally.php?id=1751
 35015-0-1,Lift Van Int. Co S.A,Maria Soledad Alonso,CL-1848.3003,,28-04-2025,48.00,3050.00,EP-IM,
-35014-0-2,Edelweiss Spedition ...,Moto Vespa 2019 - Ma...,143STO25,,28-04-2025,3.00,160.00,NV2,
 35014-0-1,Edelweiss Spedition ...,Mudanza - Martin Cot...,137STO25,,28-04-2025,60.00,4390.00,NV2,
+35014-0-2,Edelweiss Spedition ...,Moto Vespa 2019 - Ma...,143STO25,,28-04-2025,3.00,160.00,NV2,
 35013-1-1,Kreme Logistica Y Di...,Chevrolet Corvette,HLCUBSC2503AYGW4,HLXU-536008-5,25-04-2025,5.00,1579.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=1748
 35013-1-1,Kreme Logistica Y Di...,Chevrolet Corvette,HLCUBSC2503AYGW4,HLXU-536008-5,25-04-2025,5.00,1579.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=1748
 35013-2-1,Kreme Logistica Y Di...,Triumph Model Tr3,HLCUBSC2503AYGW4,HLXU-536008-5,25-04-2025,5.00,997.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=1748
@@ -40,10 +40,9 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 34716-1-1,Awam Tex Srl,Compressed,TMSE3345664,MSBU-653360-6,11-04-2025,68.00,14022.04,NV4,http://dassa.mqbic.com/PublicTally.php?id=1699
 34670-1-1,Edelweiss Spedition ...,Mudanza - Walker Chr...,OOLU2306295960,OOLU-950847-4,09-04-2025,54.00,3780.00,NAVE 3,http://dassa.mqbic.com/PublicTally.php?id=1691
 34657-1-1,Lift Van Int. Co S.A,Mudanza - Conde Patr...,HLCURTM250218817,HLBU-153836-1,09-04-2025,56.00,3450.00,IB5,http://dassa.mqbic.com/PublicTally.php?id=1687
-34674-1-1,Mercovan Argentina S...,Mudanza - Ugarte Agu...,ONEYLIVF04296700,NYKU-852726-0,09-04-2025,46.00,2340.00,IA7,http://dassa.mqbic.com/PublicTally.php?id=1693
 34668-1-1,Mercovan Argentina S...,Mudanza - Ramirez Ed...,OOLU2306156030,CSNU-628936-0,09-04-2025,47.00,4430.00,EP-IM,http://dassa.mqbic.com/PublicTally.php?id=1690
-34654-1-1,Mercovan Argentina S...,Mudanza - Kim Kibum,COSU6405390870,OOCU-494297-0,08-04-2025,54.00,5820.00,IB8,http://dassa.mqbic.com/PublicTally.php?id=1685
 34619-0-1,Mercovan Argentina S...,Mudanza - Diego Rubi...,CL-1848.2999,,08-04-2025,21.00,2100.00,IA8,
+34654-1-1,Mercovan Argentina S...,Mudanza - Kim Kibum,COSU6405390870,OOCU-494297-0,08-04-2025,54.00,5820.00,IB8,http://dassa.mqbic.com/PublicTally.php?id=1685
 34616-1-1,Mercovan Argentina S...,Mudanza - Cohen De F...,SSZ111561RCS,TLLU-832938-6,07-04-2025,18.00,1160.00,EP-IM,http://dassa.mqbic.com/PublicTally.php?id=1678
 34616-1-1,Mercovan Argentina S...,Mudanza - Cohen De F...,SSZ111561RCS,TLLU-832938-6,07-04-2025,18.00,1160.00,EP-IM,http://dassa.mqbic.com/PublicTally.php?id=1678
 34615-1-1,Edelweiss Spedition ...,Mudanza - Zaninotto ...,SSZ111531RCS,TRHU-585102-3,07-04-2025,37.00,3050.00,NV3,http://dassa.mqbic.com/PublicTally.php?id=1682
@@ -70,7 +69,7 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 33581-1-1,Novelty Trend Srl,Telas,TWLE24120246,FFAU-653213-2,14-02-2025,52.98,18628.39,N23-1,http://dassa.mqbic.com/PublicTally.php?id=1341
 33592-1-1,Grouport Srl,Artifical Grass,PAMFC2412016,BSIU-299741-3,14-02-2025,30.00,6910.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1352
 33487-2-1,Industrias Saladillo...,Valves,TPNGBSG24126014,TEMU-133886-8,07-02-2025,30.00,21600.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1322
-33487-1-1,Industrias Saladillo...,Valves,TPNGBSG24126014,GCXU-213925-6,07-02-2025,8.86,6093.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1323
+33487-1-1,Industrias Saladillo...,Valves,TPNGBSG24126014,GCXU-213925-6,07-02-2025,4.09,1286.50,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1323
 33454-1-1,Telamania Srl,Textil,GILNB241001332,MSMU-791946-0,07-02-2025,70.00,15262.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=1321
 33333-1-1,Telamania Srl,Textil Fabric,GILNB241100264,MEDU-893298-7,04-02-2025,68.00,15871.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=1288
 33018-1-1,Industrias Saladillo...,Accesorios De Tuberi...,ONEYNB4IVF532600,TEMU-750540-6,20-01-2025,56.00,19040.00,NV1,http://dassa.mqbic.com/PublicTally.php?id=1231
