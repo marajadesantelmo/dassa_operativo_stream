@@ -137,8 +137,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-03-07,17:00,TRP,CSNU-111154-4,A La Orden,OOLU2037340730,TD,2025-03-07,1511,http://dassa.mqbic.com/PublicTally.php?id=1511
 2025-03-07,17:00,TRP,CSNU-111154-4,A La Orden,OOLU2037340730,TD,2025-03-07,1511,http://dassa.mqbic.com/PublicTally.php?id=1511
 2025-05-02,07:00,Exolgan,MSMU-735571-3,La Tela Srl,GILNB250300145,T,2025-05-02,,
-2025-05-02,11:00,Terminal 4,MTSU-962341-8,La Tela Srl,NBOE25013514,T,,,
-2025-05-02,10:00,Terminal 4,BEAU-510664-6,La Tela Srl,NBOE25013511,T,,,
+2025-05-02,11:00,Terminal 4,MTSU-962341-8,La Tela Srl,NBOE25013514,T,2025-05-02,,
+2025-05-02,10:00,Terminal 4,BEAU-510664-6,La Tela Srl,NBOE25013511,T,2025-05-02,,
 2025-03-18,16:00,TRP,EITU-906368-3,Plano Y Punto S.A.,HDE25-020029,T,2025-03-18,,
 2025-02-20,15:00,TRP,TEMU-627128-4,Textil Praga Srl,HDE25-010015,T,2025-02-20,,
 2025-02-28,22:00,Terminal 4,JXLU-459149-4,Textil Praga Srl,HDE25-010016A/B,T,2025-03-01,,
@@ -703,7 +703,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-03-27,21:00,TRP,KOCU-449984-6,Domingo A. Capria S.A.,KDCW24120115,TD,2025-03-27,1637,http://dassa.mqbic.com/PublicTally.php?id=1637
 2025-03-27,21:00,TRP,KOCU-484533-7,Domingo A. Capria S.A.,KDCW24120115,TD,2025-03-27,1638,http://dassa.mqbic.com/PublicTally.php?id=1638
 2025-04-04,05:00,Exolgan,TCNU-130623-8,Crosby Argentina S.A.,S00014066,T,2025-04-04,,
-2025-05-02,11:00,Terminal 4,TCNU-615251-5,Vc Textil Srl,NBOE25013223,T,,,
+2025-05-02,11:00,Terminal 4,TCNU-615251-5,Vc Textil Srl,NBOE25013223,T,2025-05-02,,
 2025-04-23,13:00,TRP,PCIU-464945-1,Atp Solutions S.R.L,TPTXGVV25016033,T,2025-04-23,,
 2025-04-23,08:00,Terminal 4,MRSU-741501-0,Ayb Srl,250468966,TD,2025-04-23,1727,http://dassa.mqbic.com/PublicTally.php?id=1727
 2025-04-25,05:00,Exolgan,GESU-134633-2,Cotton Work Srl,MEDUVO723997,T,2025-04-25,,
