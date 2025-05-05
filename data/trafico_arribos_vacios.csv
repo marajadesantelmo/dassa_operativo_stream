@@ -1,17 +1,40 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 33277,05/05,Lift Van Int. Co S.A,-,15004,  ,TD,                    ,TERRESTRE,0,                              ,,     ,2025-05-26,Mateo Moral Figueroa,PER1 000211P        ,Pendiente
-33267,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
-33268,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
-33269,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
-33270,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
-33271,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
-33272,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253072741,0,                              ,,     ,2025-05-23,Fact 12154,                    ,Pendiente
-33273,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253072741,0,                              ,,     ,2025-05-23,Fact 12154,                    ,Pendiente
-33274,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253072741,0,                              ,,     ,2025-05-23,Fact 12154,                    ,Pendiente
-33275,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253072741,0,                              ,,     ,2025-05-23,Fact 12154,                    ,Pendiente
-33266,05/05,Virasoro Maderas S R L,-,10080,HC,TD,                    ,252862514,0,                              ,,     ,2025-05-23,,                    ,Pendiente
-33261,05/05,Norfor Sa,-,9,HC,TD,                    ,EBKG12630439,0,                              ,,     ,2025-05-23,,                    ,Pendiente
-33262,05/05,Norfor Sa,-,9,HC,TD,                    ,EBKG12630439,0,                              ,,     ,2025-05-23,,                    ,Pendiente
-33263,05/05,Norfor Sa,-,9,HC,TD,                    ,EBKG12630439,0,                              ,,     ,2025-05-23,,                    ,Pendiente
-33264,05/05,Laharrague Chodorge Sociedad A...,-,10080,HC,TD,                    ,253061571,0,                              ,,     ,2025-05-23,,                    ,Pendiente
 33265,05/05,Laharrague Chodorge Sociedad A...,-,10080,HC,TD,                    ,253061571,0,                              ,,     ,2025-05-23,,                    ,Pendiente
+33264,05/05,Laharrague Chodorge Sociedad A...,-,10080,HC,TD,                    ,253061571,0,                              ,,     ,2025-05-23,,                    ,Pendiente
+33263,05/05,Norfor Sa,-,9,HC,TD,                    ,EBKG12630439,0,                              ,,     ,2025-05-23,,                    ,Pendiente
+33262,05/05,Norfor Sa,-,9,HC,TD,                    ,EBKG12630439,0,                              ,,     ,2025-05-23,,                    ,Pendiente
+33261,05/05,Norfor Sa,-,9,HC,TD,                    ,EBKG12630439,0,                              ,,     ,2025-05-23,,                    ,Pendiente
+33266,05/05,Virasoro Maderas S R L,-,10080,HC,TD,                    ,252862514,0,                              ,,     ,2025-05-23,,                    ,Pendiente
+33275,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253072741,0,                              ,,     ,2025-05-23,Fact 12154,                    ,Pendiente
+33274,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253072741,0,                              ,,     ,2025-05-23,Fact 12154,                    ,Pendiente
+33273,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253072741,0,                              ,,     ,2025-05-23,Fact 12154,                    ,Pendiente
+33272,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253072741,0,                              ,,     ,2025-05-23,Fact 12154,                    ,Pendiente
+33271,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
+33270,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
+33269,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
+33268,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
+33267,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
+33312,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253379263,0,                              ,,     ,2025-05-26,,253379263           ,Pendiente
+33306,06/05,Sandrin Paola Karina,-,0,  ,TD,                    ,11400710,0,                              ,,     ,2025-05-26,,11400710            ,Pendiente
+33307,06/05,Isischu Srl,-,0,  ,TD,                    ,17197832,0,                              ,,     ,2025-05-26,,17197832            ,Pendiente
+33305,06/05,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,252699699,0,                              ,,     ,2025-05-26,,252699699           ,Pendiente
+33304,06/05,Santa Anita Oil Sa,-,0,  ,TD,                    ,62443730,0,                              ,,     ,2025-05-26,,62443730            ,Pendiente
+33303,06/05,Santa Anita Oil Sa,-,0,  ,TD,                    ,62443730,0,                              ,,     ,2025-05-26,,62443730            ,Pendiente
+33294,06/05,Hector Reboratti,-,0,  ,TD,                    ,EBKG12662957,0,                              ,,     ,2025-05-26,,EBKG12662957        ,Pendiente
+33295,06/05,Hector Reboratti,-,0,  ,TD,                    ,EBKG12662957,0,                              ,,     ,2025-05-26,,EBKG12662957        ,Pendiente
+33296,06/05,Arleather S.R.L.,-,0,  ,TD,                    ,253269707,0,                              ,,     ,2025-05-26,,253269707           ,Pendiente
+33297,06/05,Arleather S.R.L.,-,0,  ,TD,                    ,253269707,0,                              ,,     ,2025-05-26,,253269707           ,Pendiente
+33311,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253384357,0,                              ,,     ,2025-05-26,,253384357           ,Pendiente
+33298,06/05,Arleather S.R.L.,-,0,  ,TD,                    ,253326683,0,                              ,,     ,2025-05-26,,253326683           ,Pendiente
+33300,06/05,Arleather S.R.L.,-,0,  ,TD,                    ,253269607,0,                              ,,     ,2025-05-26,,253269607           ,Pendiente
+33301,06/05,Arleather S.R.L.,-,0,  ,TD,                    ,253269607,0,                              ,,     ,2025-05-26,,253269607           ,Pendiente
+33302,06/05,Arleather S.R.L.,-,0,  ,TD,                    ,253269607,0,                              ,,     ,2025-05-26,,253269607           ,Pendiente
+33308,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253384357,0,                              ,,     ,2025-05-26,,253384357           ,Pendiente
+33309,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253384357,0,                              ,,     ,2025-05-26,,253384357           ,Pendiente
+33310,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253384357,0,                              ,,     ,2025-05-26,,253384357           ,Pendiente
+33292,06/05,Ninci - Aguero S.A.,-,0,  ,TD,                    ,EBKG12524654,0,                              ,,     ,2025-05-26,,EBKG12524654        ,Pendiente
+33314,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,COSU6415960010,0,                              ,,     ,2025-05-26,,COSU6415960010      ,Pendiente
+33313,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253379263,0,                              ,,     ,2025-05-26,,253379263           ,Pendiente
+33299,06/05,Arleather S.R.L.,-,0,  ,TD,                    ,253326683,0,                              ,,     ,2025-05-26,,253326683           ,Pendiente
+33293,06/05,Ninci - Aguero S.A.,-,0,  ,TD,                    ,EBKG12524654,0,                              ,,     ,2025-05-26,,EBKG12524654        ,Pendiente
