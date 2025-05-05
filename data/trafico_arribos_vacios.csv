@@ -1,20 +1,20 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 33277,05/05,Lift Van Int. Co S.A,-,15004,  ,TD,                    ,TERRESTRE,0,                              ,,     ,2025-05-26,Mateo Moral Figueroa,PER1 000211P        ,Pendiente
 33265,05/05,Laharrague Chodorge Sociedad A...,-,10080,HC,TD,                    ,253061571,0,                              ,,     ,2025-05-23,,                    ,Pendiente
-33264,05/05,Laharrague Chodorge Sociedad A...,-,10080,HC,TD,                    ,253061571,0,                              ,,     ,2025-05-23,,                    ,Pendiente
+33264,05/05,Laharrague Chodorge Sociedad A...,MRKU-641272-9,10080,HC,TD,************        ,253061571,1,TRANSPORTE DEL CLIENTE        ,Porco,18:34,2025-05-23,,                    ,18:34 Arribado
 33263,05/05,Norfor Sa,-,9,HC,TD,                    ,EBKG12630439,0,                              ,,     ,2025-05-23,,                    ,Pendiente
 33262,05/05,Norfor Sa,-,9,HC,TD,                    ,EBKG12630439,0,                              ,,     ,2025-05-23,,                    ,Pendiente
 33261,05/05,Norfor Sa,-,9,HC,TD,                    ,EBKG12630439,0,                              ,,     ,2025-05-23,,                    ,Pendiente
 33266,05/05,Virasoro Maderas S R L,-,10080,HC,TD,                    ,252862514,0,                              ,,     ,2025-05-23,,                    ,Pendiente
-33275,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253072741,0,                              ,,     ,2025-05-23,Fact 12154,                    ,Pendiente
-33274,05/05,Borax Argentina S A,MRKU-915000-5,10080,DR,TD,*********           ,253072741,0,                              ,,     ,2025-05-23,Fact 12154,                    ,Pendiente
+33275,05/05,Borax Argentina S A,TRHU-229245-1,10080,DR,TD,*************       ,253072741,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,18:26,2025-05-23,Fact 12154,                    ,18:26 Arribado
+33274,05/05,Borax Argentina S A,MRKU-915000-5,10080,DR,TD,*********           ,253072741,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,18:25,2025-05-23,Fact 12154,                    ,18:25 Arribado
 33273,05/05,Borax Argentina S A,MSKU-550143-8,10080,DR,TD,****************    ,253072741,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,18:23,2025-05-23,Fact 12154,                    ,18:23 Arribado
 33272,05/05,Borax Argentina S A,MRKU-702408-1,10080,DR,TD,***************     ,253072741,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,18:22,2025-05-23,Fact 12154,                    ,18:22 Arribado
-33271,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
-33270,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
-33269,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
-33268,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
-33267,05/05,Borax Argentina S A,-,10080,DR,TD,                    ,253131040,0,                              ,,     ,2025-05-23,Fact 12157,                    ,Pendiente
+33271,05/05,Borax Argentina S A,MRKU-743209-9,10080,DR,TD,**********          ,253131040,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,18:32,2025-05-23,Fact 12157,                    ,18:32 Arribado
+33270,05/05,Borax Argentina S A,TCKU-317158-5,10080,DR,TD,*********           ,253131040,1,TRANSPORTES LEIRA-NO USAR     ,Muller,18:31,2025-05-23,Fact 12157,                    ,18:31 Arribado
+33269,05/05,Borax Argentina S A,MSKU-435771-1,10080,DR,TD,*******             ,253131040,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,18:30,2025-05-23,Fact 12157,                    ,18:30 Arribado
+33268,05/05,Borax Argentina S A,MRKU-701443-7,10080,DR,TD,******************  ,253131040,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,18:29,2025-05-23,Fact 12157,                    ,18:29 Arribado
+33267,05/05,Borax Argentina S A,MRKU-657329-8,10080,DR,TD,************        ,253131040,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,18:27,2025-05-23,Fact 12157,                    ,18:27 Arribado
 33312,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253379263,0,                              ,,     ,2025-05-26,,253379263           ,Pendiente
 33306,06/05,Sandrin Paola Karina,-,0,  ,TD,                    ,11400710,0,                              ,,     ,2025-05-26,,11400710            ,Pendiente
 33307,06/05,Isischu Srl,-,0,  ,TD,                    ,17197832,0,                              ,,     ,2025-05-26,,17197832            ,Pendiente
