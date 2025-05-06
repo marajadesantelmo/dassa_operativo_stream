@@ -1,5 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-33307,06/05,Isischu Srl,-,0,  ,TD,                    ,17197832,0,                              ,,     ,2025-05-26,,17197832            ,Pendiente
+33307,06/05,Isischu Srl,HLXU-850540-7,0,  ,TD,*************       ,17197832,1,TRANSPORTES LEIRA-NO USAR     ,Muller,15:51,2025-05-26,,17197832            ,15:51 Arribado
 33306,06/05,Sandrin Paola Karina,-,0,  ,TD,                    ,11400710,0,                              ,,     ,2025-05-26,,11400710            ,Pendiente
 33304,06/05,Santa Anita Oil Sa,FCIU-732590-2,0,  ,TD,************        ,62443730,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:01,2025-05-26,,62443730            ,13:01 Arribado
 33303,06/05,Santa Anita Oil Sa,BMOU-583489-9,0,  ,TD,*******             ,62443730,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:00,2025-05-26,,62443730            ,13:00 Arribado
@@ -9,8 +9,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33313,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253379263,0,                              ,,     ,2025-05-26,,253379263           ,Pendiente
 33312,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253379263,0,                              ,,     ,2025-05-26,,253379263           ,Pendiente
 33311,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253384357,0,                              ,,     ,2025-05-26,,253384357           ,Pendiente
-33310,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253384357,0,                              ,,     ,2025-05-26,,253384357           ,Pendiente
-33309,06/05,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,253384357,0,                              ,,     ,2025-05-26,,253384357           ,Pendiente
+33310,06/05,Henn Y Cia S.R.L.,SUDU-671032-8,10080,  ,TD,********************,253384357,0,                              ,,     ,2025-05-26,,253384357           ,Pendiente
+33309,06/05,Henn Y Cia S.R.L.,SUDU-864412-2,0,  ,TD,*********           ,253384357,1,TRANSPORTE DEL CLIENTE        ,Ruiz,15:53,2025-05-26,,253384357           ,15:53 Arribado
 33308,06/05,Henn Y Cia S.R.L.,MRSU-655223-5,0,  ,TD,*********           ,253384357,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,13:06,2025-05-26,,253384357           ,13:06 Arribado
 33322,06/05,Arleather S.R.L.,-,0,HC,TD,                    ,253433457,0,                              ,,     ,2025-05-26,,                    ,Pendiente
 33302,06/05,Arleather S.R.L.,MRKU-577117-5,0,  ,TD,***************     ,253269607,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,12:59,2025-05-26,,253269607           ,12:59 Arribado
