@@ -106,10 +106,10 @@ facturacion['Mes'] = facturacion['Emision'].dt.strftime('%m-%Y')
 facturacion = pd.merge(facturacion, ipc, left_on='Mes', right_on='periodo', how='left')
 facturacion['Importe Total'] = facturacion['Importe Total'].astype(int)
 facturacion['Ajustado'] = facturacion['Importe Total'] * 100 / facturacion['ipc']
-current_month_str = datetime.now().strftime('%m-%Y')
-facturacion.loc[facturacion['Mes'] == current_month_str, 'Ajustado'] = facturacion.loc[facturacion['Mes'] == current_month_str, 'Importe Total']
 facturacion['Ajustado'] = facturacion['Ajustado'].round(0).astype(int)
 
+### BUscando el error de ajuste
+facturacion = facturacion[[ 'Emision', 'Factura', 'Razon Social', 'Importe Total']]
 facturacion[facturacion['Importe Total'] != facturacion['Ajustado']]
 
 #Ventas totales por mes
