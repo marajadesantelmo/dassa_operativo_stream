@@ -105,12 +105,8 @@ ipc = pd.read_excel('ipc_mensual.xlsx')
 facturacion['Mes'] = facturacion['Emision'].dt.strftime('%m-%Y')
 facturacion = pd.merge(facturacion, ipc, left_on='Mes', right_on='periodo', how='left')
 facturacion['Importe Total'] = facturacion['Importe Total'].astype(int)
-facturacion['Ajustado'] = facturacion['Importe Total'] * 100 / facturacion['ipc']
+facturacion['Ajustado'] = facturacion['Importe Total'] * (100 / facturacion['ipc'])
 facturacion['Ajustado'] = facturacion['Ajustado'].round(0).astype(int)
-
-### BUscando el error de ajuste
-facturacion = facturacion[[ 'Emision', 'Factura', 'Razon Social', 'Importe Total']]
-facturacion[facturacion['Importe Total'] != facturacion['Ajustado']]
 
 #Ventas totales por mes
 ventas_totales_por_mes = facturacion.groupby('Mes').agg({'Importe Total': 'sum', 'Ajustado': 'sum'}).reset_index()
