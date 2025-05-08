@@ -1,5 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-33420,08/05,Arleather S.R.L.,MRSU-330512-3,0,HC,TD, **********         ,253433457,1,TRANSPORTE DEL CLIENTE        ,Moscardini,17:44,2025-05-29,,                    ,17:44 Arribado
+33420,08/05,Arleather S.R.L.,MRSU-330512-3,10076,HC,TD, **********         ,253433457,1,TRANSPORTE DEL CLIENTE        ,Moscardini,17:44,2025-05-29,,                    ,17:44 Arribado
 33401,08/05,Henn Y Cia S.R.L.,-,0,HC,TD,                    ,252573696,0,                              ,,     ,2025-05-29,,                    ,Pendiente
 33402,08/05,Henn Y Cia S.R.L.,-,0,HC,TD,                    ,252573696,0,                              ,,     ,2025-05-29,,                    ,Pendiente
 33403,08/05,Henn Y Cia S.R.L.,-,0,HC,TD,                    ,252573696,0,                              ,,     ,2025-05-29,,                    ,Pendiente
@@ -10,3 +10,5 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33412,08/05,Lawter Argentina S.A.,TCKU-602379-2,0,HC,TD,                    ,ZIMUBUE9039804,1,GALDERISI CARLOS ANDRES       ,.,17:18,2025-05-29,,                    ,17:18 Arribado
 33413,08/05,Lawter Argentina S.A.,TGHU-979193-3,0,HC,TD,                    ,ZIMUBUE9039804,1,GALDERISI CARLOS ANDRES       ,.,17:18,2025-05-29,,                    ,17:18 Arribado
 33414,08/05,Lawter Argentina S.A.,TCNU-462548-1,0,HC,TD,                    ,ZIMUBUE9039804,1,GALDERISI CARLOS ANDRES       ,.,17:18,2025-05-29,,                    ,17:18 Arribado
+33422,08/05,Hdv Leather Srl,MRKU-500698-3,10080,HC,TD,***********         ,253330229,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,17:46,2025-05-29,,                    ,17:46 Arribado
+33423,08/05,Hdv Leather Srl,MRSU-350358-2,10080,HC,TD,*********           ,253330229,1,TRANSPORTE DEL CLIENTE        ,Bertoli,17:49,2025-05-29,,                    ,17:49 Arribado
