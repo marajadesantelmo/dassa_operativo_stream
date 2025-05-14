@@ -1,16 +1,7 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-33478,13/05,Mercovan Argentina Srl,HLBU-124727-9,10080,DR,TD,****************    ,92929178,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,11:54,2025-06-03,,                    ,11:54 Arribado
-33490,13/05,Henn Y Cia S.R.L.,MSMU-751515-4,9,HC,TD,FX32970531          ,EBKG12563741,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,12:31,2025-06-03,,                    ,12:31 Arribado
-33489,13/05,Henn Y Cia S.R.L.,MSNU-684937-7,9,HC,TD,FX32977740          ,EBKG12563741,1,TRANSPORTES LEIRA-NO USAR     ,Muller,12:18,2025-06-03,,                    ,12:18 Arribado
-33488,13/05,Henn Y Cia S.R.L.,MSNU-797769-1,9,HC,TD,FX32970550          ,EBKG12563741,1,TRANSPORTE DEL CLIENTE        ,Alvarez,12:15,2025-06-03,,                    ,12:15 Arribado
-33482,13/05,Sandrin Paola Karina,MSBU-661402-0,9,HC,TD,FX32970543          ,EBKG12745765,1,TRANSPORTE DEL CLIENTE        ,Di Pietro,12:01,2025-06-03,,                    ,12:01 Arribado
-33491,13/05,Henn Y Cia S.R.L.,MSDU-579768-5,9,HC,TD,FX32977736          ,EBKG12563741,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,12:33,2025-06-03,,                    ,12:33 Arribado
-33481,13/05,Mercovan Argentina Srl,HLBU-140965-7,10080,DR,TD,*****************   ,15294587,1,TRANSPORTE DEL CLIENTE        ,Bertoli,11:58,2025-06-03,,                    ,11:58 Arribado
-33480,13/05,Mercovan Argentina Srl,HLXU-141887-2,10080,DR,TD,***************     ,93596944,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,11:57,2025-06-03,,                    ,11:57 Arribado
-33479,13/05,Mercovan Argentina Srl,HLBU-112489-1,10080,DR,TD,*****************   ,26298477,1,TRANSPORTE DEL CLIENTE        ,Porco,11:56,2025-06-03,,                    ,11:56 Arribado
-33477,13/05,Virasoro Maderas S R L,MRKU-382311-4,10080,HC,TD,*************       ,252862514,1,TRANSPORTES LEIRA-NO USAR     ,Muller,11:52,2025-06-03,,                    ,11:52 Arribado
+33507,14/05,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,22155069,0,                              ,,     ,2025-06-03,Victoriano Miller,                    ,Pendiente
 33511,14/05,Hdv Leather Srl,-,10080,HC,TD,                    ,251417374,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33518,14/05,Norfor Sa,-,TRP,HC,TD,                    ,340500016461,0,                              ,,     ,2025-06-03,,                    ,Pendiente
+33510,14/05,Entretelas Americanas Sa,-,10080,DR,TD,                    ,38060645,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33527,14/05,Laharrague Chodorge Sociedad A...,-,TRP,HC,TD,                    ,340500016959,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33526,14/05,Laharrague Chodorge Sociedad A...,-,TRP,HC,TD,                    ,340500016959,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33525,14/05,Laharrague Chodorge Sociedad A...,-,TRP,HC,TD,                    ,340500016959,0,                              ,,     ,2025-06-03,,                    ,Pendiente
@@ -20,10 +11,10 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33521,14/05,Norfor Sa,-,TRP,HC,TD,                    ,340500016461,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33520,14/05,Norfor Sa,-,TRP,HC,TD,                    ,340500016461,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33519,14/05,Norfor Sa,-,TRP,HC,TD,                    ,340500016461,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33510,14/05,Entretelas Americanas Sa,-,10080,DR,TD,                    ,38060645,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33515,14/05,Lawter Argentina S.A.,-,10,DR,TD,                    ,BUE500069800,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33516,14/05,Lawter Argentina S.A.,-,10,DR,TD,                    ,BUE500069800,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33512,14/05,Hdv Leather Srl,-,10080,HC,TD,                    ,251417374,0,                              ,,     ,2025-06-03,,                    ,Pendiente
+33518,14/05,Norfor Sa,-,TRP,HC,TD,                    ,340500016461,0,                              ,,     ,2025-06-03,,                    ,Pendiente
+33516,14/05,Lawter Argentina S.A.,-,10,DR,TD,                    ,BUE500069800,0,                              ,,     ,2025-06-03,,                    ,Pendiente
+33515,14/05,Lawter Argentina S.A.,-,10,DR,TD,                    ,BUE500069800,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33514,14/05,Lawter Argentina S.A.,-,10,DR,TD,                    ,BUE500069800,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33533,14/05,Borax Argentina S A,-,10077,DR,TD,                    ,253132017,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33532,14/05,Borax Argentina S A,-,10077,DR,TD,                    ,253132017,0,                              ,,     ,2025-06-03,,                    ,Pendiente
@@ -33,6 +24,5 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33528,14/05,Borax Argentina S A,-,10077,DR,TD,                    ,253132017,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33508,14/05,Asecor Srl,-,9,DR,TD,                    ,EBKG12729795,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33509,14/05,Mader Zu S.R.L.,-,10080,DR,TD,                    ,93256265,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33507,14/05,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,22155069,0,                              ,,     ,2025-06-03,Victoriano Miller,                    ,Pendiente
 33517,14/05,Lawter Argentina S.A.,-,10,DR,TD,                    ,BUE500069800,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33513,14/05,Hdv Leather Srl,-,10080,HC,TD,                    ,251417374,0,                              ,,     ,2025-06-03,,                    ,Pendiente
