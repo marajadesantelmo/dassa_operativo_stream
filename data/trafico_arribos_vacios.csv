@@ -2,11 +2,11 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33507,14/05,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,22155069,0,                              ,,     ,2025-06-03,Victoriano Miller,                    ,Pendiente
 33511,14/05,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,251417374,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33510,14/05,Entretelas Americanas Sa,-,10080,DR,TD,                    ,38060645,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33527,14/05,Laharrague Chodorge Sociedad A...,-,TRP,HC,TD,                    ,340500016959,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33526,14/05,Laharrague Chodorge Sociedad A...,-,TRP,HC,TD,                    ,340500016959,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33525,14/05,Laharrague Chodorge Sociedad A...,-,TRP,HC,TD,                    ,340500016959,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33524,14/05,Laharrague Chodorge Sociedad A...,-,TRP,HC,TD,                    ,340500016959,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33523,14/05,Laharrague Chodorge Sociedad A...,-,TRP,HC,TD,                    ,340500016959,0,                              ,,     ,2025-06-03,,                    ,Pendiente
+33527,14/05,Laharrague Chodorge Sociedad A...,TXGU-579093-0,TRP,HC,TD,***************     ,340500016959,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,12:52,2025-06-03,,                    ,12:52 Arribado
+33526,14/05,Laharrague Chodorge Sociedad A...,TCNU-776768-5,TRP,HC,TD,**********          ,340500016959,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,12:50,2025-06-03,,                    ,12:50 Arribado
+33525,14/05,Laharrague Chodorge Sociedad A...,CAAU-573452-0,TRP,HC,TD,********            ,340500016959,1,TRANSPORTE DEL CLIENTE        ,Alvarez Adrian,12:50,2025-06-03,,                    ,12:50 Arribado
+33524,14/05,Laharrague Chodorge Sociedad A...,GCXU-648522-0,TRP,HC,TD,*************       ,340500016959,1,TRANSPORTES LEIRA-NO USAR     ,Muller,12:49,2025-06-03,,                    ,12:49 Arribado
+33523,14/05,Laharrague Chodorge Sociedad A...,EGHU-843658-6,TRP,HC,TD,************        ,340500016959,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,12:48,2025-06-03,,                    ,12:48 Arribado
 33522,14/05,Norfor Sa,-,TRP,HC,TD,                    ,340500016461,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33521,14/05,Norfor Sa,-,TRP,HC,TD,                    ,340500016461,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33520,14/05,Norfor Sa,-,TRP,HC,TD,                    ,340500016461,0,                              ,,     ,2025-06-03,,                    ,Pendiente
@@ -19,9 +19,9 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33533,14/05,Borax Argentina S A,-,10077,DR,TD,                    ,253132017,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33532,14/05,Borax Argentina S A,-,10077,DR,TD,                    ,253132017,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33531,14/05,Borax Argentina S A,-,10077,DR,TD,                    ,253132017,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33530,14/05,Borax Argentina S A,-,10077,DR,TD,                    ,253132017,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33529,14/05,Borax Argentina S A,-,10077,DR,TD,                    ,253132017,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33528,14/05,Borax Argentina S A,-,10077,DR,TD,                    ,253132017,0,                              ,,     ,2025-06-03,,                    ,Pendiente
+33530,14/05,Borax Argentina S A,MRKU-871895-5,10077,DR,TD,******              ,253132017,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,12:54,2025-06-03,,                    ,12:54 Arribado
+33529,14/05,Borax Argentina S A,MRKU-859030-8,10077,DR,TD,**********          ,253132017,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,12:53,2025-06-03,,                    ,12:53 Arribado
+33528,14/05,Borax Argentina S A,MRKU-808151-1,10077,DR,TD,***********         ,253132017,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,12:52,2025-06-03,,                    ,12:52 Arribado
 33508,14/05,Asecor Srl,MSNU-653604-8,9,DR,TD,FX32977715          ,EBKG12729795,1,GALDERISI CARLOS ANDRES       ,.,11:33,2025-06-03,,                    ,11:33 Arribado
 33509,14/05,Mader Zu S.R.L.,-,10080,DR,TD,                    ,93256265,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33538,14/05,Lift Van Int. Co S.A,-,15004,  ,TD,                    ,TERRESTRE,0,                              ,,     ,2025-06-04,Mateo Moral Figueroa,PER1000211P         ,Pendiente
