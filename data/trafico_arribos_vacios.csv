@@ -2,6 +2,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33507,14/05,Lift Van Int. Co S.A,HLBU-106279-0,10080,DR,TD,*****               ,22155069,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,12:59,2025-06-03,Victoriano Miller,                    ,12:59 Arribado
 33511,14/05,Hdv Leather S.R.L.,MSKU-179856-5,10080,HC,TD,***********         ,251417374,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,13:01,2025-06-03,,                    ,13:01 Arribado
 33510,14/05,Entretelas Americanas Sa,-,10080,DR,TD,                    ,38060645,0,                              ,,     ,2025-06-03,,                    ,Pendiente
+33541,14/05,Laharrague Chodorge Sociedad A...,CAAU-807663-4,10074,  ,TD,******              ,ZIMUBUE90400032,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,13:21,2025-06-04,,                    ,13:21 Arribado
 33527,14/05,Laharrague Chodorge Sociedad A...,TXGU-579093-0,TRP,HC,TD,***************     ,340500016959,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,12:52,2025-06-03,,                    ,12:52 Arribado
 33526,14/05,Laharrague Chodorge Sociedad A...,TCNU-776768-5,TRP,HC,TD,**********          ,340500016959,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,12:50,2025-06-03,,                    ,12:50 Arribado
 33525,14/05,Laharrague Chodorge Sociedad A...,CAAU-573452-0,TRP,HC,TD,********            ,340500016959,1,TRANSPORTE DEL CLIENTE        ,Alvarez Adrian,12:50,2025-06-03,,                    ,12:50 Arribado
@@ -10,10 +11,10 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33522,14/05,Norfor Sa,-,TRP,HC,TD,                    ,340500016461,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33521,14/05,Norfor Sa,-,TRP,HC,TD,                    ,340500016461,0,                              ,,     ,2025-06-03,,                    ,Pendiente
 33520,14/05,Norfor Sa,-,TRP,HC,TD,                    ,340500016461,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33519,14/05,Norfor Sa,-,TRP,HC,TD,                    ,340500016461,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33518,14/05,Norfor Sa,-,TRP,HC,TD,                    ,340500016461,0,                              ,,     ,2025-06-03,,                    ,Pendiente
-33512,14/05,Hdv Leather S.R.L.,MRSU-428614-1,10080,HC,TD,************        ,251417374,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,13:02,2025-06-03,,                    ,13:02 Arribado
+33519,14/05,Norfor Sa,EMCU-842262-7,TRP,HC,TD,*****               ,340500016461,1,TRANSPORTE DEL CLIENTE        ,Nuñez,13:19,2025-06-03,,                    ,13:19 Arribado
+33518,14/05,Norfor Sa,EGSU-960709-6,TRP,HC,TD,****                ,340500016461,1,TRANSPORTE DEL CLIENTE        ,Cugat,13:18,2025-06-03,,                    ,13:18 Arribado
 33540,14/05,Virasoro Maderas S R L,CAAU-716531-5,0,HC,TD,***********         ,252817161,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:10,2025-06-04,,                    ,13:10 Arribado
+33517,14/05,Lawter Argentina S.A.,PCIU-100209-7,10,DR,TD,***********         ,BUE500069800,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,13:14,2025-06-03,,                    ,13:14 Arribado
 33516,14/05,Lawter Argentina S.A.,FCIU-384812-4,10,DR,TD,**************      ,BUE500069800,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,13:13,2025-06-03,,                    ,13:13 Arribado
 33515,14/05,Lawter Argentina S.A.,PCIU-283773-7,10,DR,TD,**********          ,BUE500069800,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:12,2025-06-03,,                    ,13:12 Arribado
 33514,14/05,Lawter Argentina S.A.,PCIU-283815-8,10,DR,TD,*******             ,BUE500069800,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:10,2025-06-03,,                    ,13:10 Arribado
@@ -26,5 +27,5 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33508,14/05,Asecor Srl,MSNU-653604-8,9,DR,TD,FX32977715          ,EBKG12729795,1,TRANSPORTE DEL CLIENTE        ,De Rosa Luis,11:33,2025-06-03,,                    ,11:33 Arribado
 33509,14/05,Mader Zu S.R.L.,HLXU-844024-5,10080,DR,TD,**************      ,93256265,1,TRANSPORTE DEL CLIENTE        ,Bertoli,13:06,2025-06-03,,                    ,13:06 Arribado
 33538,14/05,Lift Van Int. Co S.A,-,15004,  ,TD,                    ,TERRESTRE,0,                              ,,     ,2025-06-04,Mateo Moral Figueroa,PER1000211P         ,Pendiente
-33517,14/05,Lawter Argentina S.A.,PCIU-100209-7,10,DR,TD,***********         ,BUE500069800,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,13:14,2025-06-03,,                    ,13:14 Arribado
+33512,14/05,Hdv Leather S.R.L.,MRSU-428614-1,10080,HC,TD,************        ,251417374,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,13:02,2025-06-03,,                    ,13:02 Arribado
 33513,14/05,Hdv Leather S.R.L.,TLLU-489494-3,10080,HC,TD,*********           ,251417374,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,13:03,2025-06-03,,                    ,13:03 Arribado
