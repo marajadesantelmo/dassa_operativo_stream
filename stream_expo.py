@@ -13,6 +13,7 @@ def fetch_data_expo():
     consolidados = pd.read_csv('data/consolidados.csv')
     pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
+    listos_para_remitir['e-tally'] = listos_para_remitir['e-tally'].fillna("")
     vacios_disponibles = pd.read_csv('data/vacios_disponibles.csv')
     return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados, pendiente_consolidar, listos_para_remitir, vacios_disponibles
     
