@@ -63,7 +63,9 @@ def show_page_expo():
         st.dataframe(pendiente_consolidar, hide_index=True, use_container_width=True)
     with col5:
         st.subheader("Pendiente de Remitir")
-        st.dataframe(listos_para_remitir, hide_index=True, use_container_width=True)
+        st.dataframe(listos_para_remitir, 
+                    column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
+                    hide_index=True, use_container_width=True)
     with col6:
         st.subheader("Vacios Disponibles")
         st.dataframe(vacios_disponibles, hide_index=True, use_container_width=True)

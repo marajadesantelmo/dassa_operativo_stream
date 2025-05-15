@@ -1,14 +1,14 @@
-Operacion,Cliente,Booking,Contenedor,Conocimiento,Tipo CNT,Fecha
-25532-0-1,A La Orden,NACIONAL            ,CAIU-870213-4,NACIONAL                      ,  ,2023-08-25
-25770-0-1,A La Orden,NACIONAL            ,DFSU-608421-3,NACIONAL                      ,  ,2023-09-11
-35007-0-1,Arleather S.R.L.,252816450           ,TCKU-695361-2,252816450                     ,HC,2025-04-24
-35008-0-1,Arleather S.R.L.,252816450           ,MSKU-180923-2,252816450                     ,HC,2025-04-24
-35009-0-1,Arleather S.R.L.,252816450           ,SUDU-659385-4,252816450                     ,HC,2025-04-25
-35010-0-1,Arleather S.R.L.,253433457           ,CAAU-563949-9,252816450                     ,HC,2025-04-25
-35215-0-1,A La Orden,NACIONAL            ,TRLU-709399-6,NACIONAL                      ,HC,2025-04-16
-35369-0-1,Dassa - Client A La ...,NACIONAL            ,TCNU-743804-1,NACIONAL                      ,HC,2025-05-15
-35384-0-1,Luminagro Sa,39873876            ,CAIU-260765-4,39873876                      ,DR,2025-05-15
-35385-0-1,Henn Y Cia S.R.L.,EBKG12743841        ,MSDU-147389-9,EBKG12743841                  ,DR,2025-05-15
-35386-0-1,Henn Y Cia S.R.L.,EBKG12743841        ,DFSU-154166-2,EBKG12743841                  ,DR,2025-05-15
-35387-0-1,Henn Y Cia S.R.L.,EBKG12743841E       ,MEDU-582151-0,EBKG12743841E                 ,DR,2025-05-15
-35388-0-1,Henn Y Cia S.R.L.,EBKG12743841E       ,MEDU-543521-0,EBKG12743841E                 ,DR,2025-05-15
+Operacion,Cliente,Booking,Contenedor,Tipo CNT,Fecha
+25532-0-1,A La Orden,NACIONAL            ,CAIU-870213-4,  ,2023-08-25
+25770-0-1,A La Orden,NACIONAL            ,DFSU-608421-3,  ,2023-09-11
+35007-0-1,Arleather S.R.L.,252816450           ,TCKU-695361-2,HC,2025-04-24
+35008-0-1,Arleather S.R.L.,252816450           ,MSKU-180923-2,HC,2025-04-24
+35009-0-1,Arleather S.R.L.,252816450           ,SUDU-659385-4,HC,2025-04-25
+35010-0-1,Arleather S.R.L.,253433457           ,CAAU-563949-9,HC,2025-04-25
+35215-0-1,A La Orden,NACIONAL            ,TRLU-709399-6,HC,2025-04-16
+35369-0-1,Dassa - Client A La ...,NACIONAL            ,TCNU-743804-1,HC,2025-05-15
+35384-0-1,Luminagro Sa,39873876            ,CAIU-260765-4,DR,2025-05-15
+35385-0-1,Henn Y Cia S.R.L.,EBKG12743841        ,MSDU-147389-9,DR,2025-05-15
+35386-0-1,Henn Y Cia S.R.L.,EBKG12743841        ,DFSU-154166-2,DR,2025-05-15
+35387-0-1,Henn Y Cia S.R.L.,EBKG12743841E       ,MEDU-582151-0,DR,2025-05-15
+35388-0-1,Henn Y Cia S.R.L.,EBKG12743841E       ,MEDU-543521-0,DR,2025-05-15
