@@ -15,6 +15,7 @@ def fetch_data_orden_del_dia():
     verificaciones_impo = verificaciones_impo[verificaciones_impo['Cliente'].isin(clientes_global_rover)]
     retiros_impo = pd.read_csv('data/retiros_impo.csv')
     retiros_impo = retiros_impo[retiros_impo['Cliente'].isin(clientes_global_rover)]
+    retiros_impo['e-tally'] = retiros_impo['e-tally'].fillna("")
     otros_impo = pd.read_csv('data/otros_impo.csv')
     otros_impo = otros_impo[otros_impo['Cliente'].isin(clientes_global_rover)]
     arribos_expo_carga = pd.read_csv('data/arribos_expo_carga.csv')
@@ -75,7 +76,9 @@ def show_page_orden_del_dia():
 
     with col4:
         st.subheader("Retiros")
-        st.dataframe(retiros_impo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+        st.dataframe(retiros_impo.style.apply(highlight, axis=1), 
+                    column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
+                    hide_index=True, use_container_width=True)
 
     st.markdown("<hr>", unsafe_allow_html=True)
 
