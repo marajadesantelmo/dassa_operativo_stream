@@ -22,6 +22,7 @@ def fetch_data_impo():
     
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
     listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
+    listos_para_remitir['e-tally'] = listos_para_remitir['e-tally'].fillna("")
     
     return existente_plz, existente_alm, pendiente_consolidar, listos_para_remitir
 
@@ -59,7 +60,9 @@ def show_page_existente():
         st.dataframe(pendiente_consolidar, hide_index=True, use_container_width=True)
     with col5:
         st.subheader("Pendiente de Remitir")
-        st.dataframe(listos_para_remitir, hide_index=True, use_container_width=True)
+        st.dataframe(listos_para_remitir, 
+                    column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
+                    hide_index=True, use_container_width=True)
 
 
 # Run the show_page function
