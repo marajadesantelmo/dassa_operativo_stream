@@ -62,8 +62,8 @@ def show_page_impo():
     with col4:
         st.subheader("Retiros")
         st.dataframe(retiros_impo.style.apply(highlight, axis=1), 
-                                         column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
-                                         hide_index=True, use_container_width=True)
+                    column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
+                    hide_index=True, use_container_width=True)
     
     st.markdown("<hr>", unsafe_allow_html=True)
 
