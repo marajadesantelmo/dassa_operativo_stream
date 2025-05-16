@@ -10,6 +10,7 @@ def fetch_data_impo():
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
     verificaciones_impo = pd.read_csv('data/verificaciones_impo.csv')
     retiros_impo = pd.read_csv('data/retiros_impo.csv')
+    retiros_impo['e-tally'] = retiros_impo['e-tally'].fillna("")
     otros_impo = pd.read_csv('data/otros_impo.csv')
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz['e-tally'] = existente_plz['e-tally'].fillna("")
@@ -54,7 +55,10 @@ def show_page_impo():
         st.subheader("Verificaciones")
         st.dataframe(verificaciones_impo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
         st.subheader("Otros")
-        st.dataframe(otros_impo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+        st.dataframe(otros_impo.style.apply(highlight, axis=1), 
+                column_config={'e-tally': st.column_config.LinkColumn('e-tally', 
+                                                                    display_text="\U0001F517",)},
+                hide_index=True, use_container_width=True)
 
     with col4:
         st.subheader("Retiros")
