@@ -72,7 +72,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-29,31070,TEMU-597889-0,Lift Van Int. Co S.A,22630466,************        ,Arribado
 2025-01-29,31071,BMOU-137661-1,Lift Van Int. Co S.A,26126616,*************       ,Arribado
 2025-01-30,31079,GESU-108973-8,Lift Van Int. Co S.A,14222673,************        ,Arribado
-2025-05-19,33677,,Edelweiss Spedition Srl,253618252,                    ,Pendiente
+2025-05-19,33677,MRKU-988903-7,Edelweiss Spedition Srl,253618252,************        ,Arribado
 2025-01-28,31028,PCIU-465071-9,Minera Santa Rita Srl,BUE500010500,********************,Arribado
 2025-02-06,31236,HLXU-537107-4,Minera Santa Rita Srl,29267776,****************    ,Arribado
 2025-02-06,31237,TCLU-428008-4,Minera Santa Rita Srl,29267776,***************     ,Arribado
@@ -80,7 +80,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-10,32718,,Minera Santa Rita Srl,252062561,                    ,Pendiente
 2025-04-11,32746,SUDU-170503-6,Minera Santa Rita Srl,252062561,*************       ,Arribado
 2025-04-28,33146,TCLU-991577-9,Minera Santa Rita Srl,253017272,*****************   ,Arribado
-2025-05-19,33679,,Minera Santa Rita Srl,253993179,                    ,Pendiente
+2025-05-19,33679,PONU-191622-5,Minera Santa Rita Srl,253993179,***************     ,Arribado
 2025-03-31,32506,HLBU-279755-7,Minera Santa Rita Srl,93894297,*****************   ,Arribado
 2025-03-31,32507,,Minera Santa Rita Srl,93894297,                    ,Pendiente
 2025-03-28,32512,HASU-478982-4,Minera Santa Rita Srl,251889522,***********         ,Arribado
@@ -301,8 +301,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-21,30879,TGBU-987916-0,Isischu Srl,EBKG11248136,FX26285719          ,Arribado
 2025-01-21,30882,MSMU-780966-8,Isischu Srl,EBKG11248136,FX26285695          ,Arribado
 2025-01-21,30884,MSDU-805323-9,Isischu Srl,EBKG11435113,FX26285705          ,Arribado
+2025-05-19,33691,TRHU-838970-5,Isischu Srl,EBKG12798388,FX32979114          ,Arribado
+2025-05-19,33692,MSNU-504223-0,Isischu Srl,EBKG12798388,FX32979122          ,Arribado
 2025-05-06,33307,HLXU-850540-7,Isischu Srl,17197832,*************       ,Arribado
-2025-05-19,33687,,Isischu Srl,EBKG12798388,                    ,Pendiente
+2025-05-19,33687,MEDU-734577-4,Isischu Srl,EBKG12798388,FX32979119          ,Arribado
 2025-05-19,33688,,Isischu Srl,EBKG12798388,                    ,Pendiente
 2025-05-19,33689,,Isischu Srl,EBKG12798388,                    ,Pendiente
 2025-04-24,33104,,Isischu Srl,EBKG12473011,                    ,Pendiente
@@ -720,11 +722,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-30,31090,TLLU-689808-5,Los Tres Pinos Srl,249329322,***********         ,Arribado
 2025-01-23,30944,HASU-115728-5,Borax Argentina S A,249381600,************        ,Arribado
 2025-01-24,30952,HPCU-231214-8,Borax Argentina S A,EBKG11556312,FX26241222          ,Arribado
-2025-05-19,33682,,Borax Argentina S A,253132017,                    ,Pendiente
-2025-05-19,33683,,Borax Argentina S A,253132017,                    ,Pendiente
-2025-05-19,33684,,Borax Argentina S A,253132017,                    ,Pendiente
-2025-05-19,33685,,Borax Argentina S A,253132017,                    ,Pendiente
-2025-05-19,33686,,Borax Argentina S A,253132017,                    ,Pendiente
+2025-05-19,33682,TLLU-221495-0,Borax Argentina S A,253132017,*********           ,Arribado
+2025-05-19,33683,SUDU-733809-3,Borax Argentina S A,253132017,******************  ,Arribado
+2025-05-19,33684,TCLU-328471-6,Borax Argentina S A,253132017,********            ,Arribado
+2025-05-19,33685,TGHU-163968-9,Borax Argentina S A,253132017,*********           ,Arribado
+2025-05-19,33686,MSKU-762643-4,Borax Argentina S A,253132017,**********          ,Arribado
 2025-05-16,33643,,Borax Argentina S A,253132017,                    ,Pendiente
 2025-05-16,33644,,Borax Argentina S A,253132017,                    ,Pendiente
 2025-05-16,33645,,Borax Argentina S A,253132017,                    ,Pendiente
