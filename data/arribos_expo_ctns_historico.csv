@@ -38,6 +38,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-20,30840,MSDU-259283-0,Lift Van Int. Co S.A,EBKGQ0008A6A,FX26285133          ,Arribado
 2025-01-21,30883,HLXU-112451-7,Lift Van Int. Co S.A,24286067E,**************      ,Arribado
 2025-05-19,33681,,Lift Van Int. Co S.A,93099613,                    ,Pendiente
+2025-05-19,33700,UACU-400612-8,Lift Van Int. Co S.A,93099613,0432222             ,Arribado
 2025-05-14,33507,HLBU-106279-0,Lift Van Int. Co S.A,22155069,*****               ,Arribado
 2025-05-14,33538,,Lift Van Int. Co S.A,TERRESTRE,                    ,Pendiente
 2025-04-29,33201,,Lift Van Int. Co S.A,252955774,                    ,Pendiente
@@ -76,7 +77,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-28,31028,PCIU-465071-9,Minera Santa Rita Srl,BUE500010500,********************,Arribado
 2025-02-06,31236,HLXU-537107-4,Minera Santa Rita Srl,29267776,****************    ,Arribado
 2025-02-06,31237,TCLU-428008-4,Minera Santa Rita Srl,29267776,***************     ,Arribado
-2025-05-19,33680,,Minera Santa Rita Srl,253993179,                    ,Pendiente
+2025-05-19,33680,MRKU-071004-8,Minera Santa Rita Srl,253993179,                    ,Arribado
 2025-04-10,32718,,Minera Santa Rita Srl,252062561,                    ,Pendiente
 2025-04-11,32746,SUDU-170503-6,Minera Santa Rita Srl,252062561,*************       ,Arribado
 2025-04-28,33146,TCLU-991577-9,Minera Santa Rita Srl,253017272,*****************   ,Arribado
@@ -240,10 +241,14 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-01,32541,CMAU-845447-3,Capilatis S.A.,SNG0460773,R1950445            ,Arribado
 2025-04-01,32542,CMAU-625342-2,Capilatis S.A.,SNG0460773,R1950449            ,Arribado
 2025-04-01,32543,GESU-624823-6,Capilatis S.A.,SNG0460773,R1950497            ,Arribado
+2025-05-19,33699,TCNU-254569-0,Capilatis S.A.,SNG0465606,R1953923            ,Arribado
+2025-05-20,33701,,Capilatis S.A.,SNG0465606,                    ,Pendiente
+2025-05-20,33703,,Capilatis S.A.,SNG0465606,                    ,Pendiente
 2025-04-22,32953,,Capilatis S.A.,SNG0463416,                    ,Pendiente
 2025-04-22,32954,,Capilatis S.A.,SNG0463416,                    ,Pendiente
 2025-04-22,32989,CMAU-975975-4,Capilatis S.A.,SNG0463416,R1951803            ,Arribado
 2025-04-22,32990,UETU-692656-2,Capilatis S.A.,SNG0463416,R1951659            ,Arribado
+2025-05-19,33698,ECMU-478477-8,Capilatis S.A.,SNG0465606,                    ,Arribado
 2025-02-10,31314,UACU-413477-2,Tandem Global Logistics S.A.,20429432,******************  ,Arribado
 2025-02-13,31417,FBLU-012110-8,Tandem Global Logistics S.A.,47147955,***********         ,Arribado
 2025-01-22,30909,HLBU-119118-5,Geo Logistics Argentina S.R.L.,28434848,**************      ,Arribado
@@ -280,7 +285,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-27,31835,,Chemotecnica Sa,25001EC01011947J,                    ,Pendiente
 2025-03-21,32368,HAMU-100502-2,Chemotecnica Sa,36523629,                    ,Arribado
 2025-02-12,31384,TCLU-352838-7,Gestion Forward S.R.L.,BUEF01409700,*************       ,Arribado
-2025-05-19,33678,,Gestion Forward S.R.L.,253605922,                    ,Pendiente
+2025-05-19,33678,TRHU-113826-7,Gestion Forward S.R.L.,253605922,***********         ,Arribado
 2025-03-17,32164,MSDU-884179-7,Tipoiti Satic,LA0412121,***************     ,Arribado
 2025-03-20,32306,MEDU-776135-0,Tipoiti Satic,EC01015856M,                    ,Arribado
 2025-03-20,32307,MSNU-854174-2,Tipoiti Satic,EC01015856M,                    ,Arribado
@@ -289,6 +294,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-20,32310,CAIU-467000-2,Tipoiti Satic,EC01015856M,                    ,Arribado
 2025-04-16,32844,PIDU-409694-0,Tipoiti Satic,BUE500042800,**************      ,Arribado
 2025-05-16,33659,,Tipoiti Satic,25001EC01029661L,                    ,Arribado
+2025-05-20,33709,TCKU-608057-6,Mgp Logistics S.R.L,21442454,**********          ,Arribado
+2025-05-20,33710,,Mgp Logistics S.R.L,21442454,                    ,Pendiente
 2025-01-20,30853,TGBU-256194-2,Global Rover Logistic Srl,EBKG11357988,FX26285079          ,Arribado
 2025-01-20,30854,MSMU-339823-4,Global Rover Logistic Srl,EBKG11357988,FX26285080          ,Arribado
 2025-01-20,30855,CAXU-320619-6,Global Rover Logistic Srl,EBKG11357988,FX26285019          ,Arribado
@@ -375,6 +382,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-01-30,31086,MSDU-520697-2,Valerio Oliva Forestal Sa,EBKG11496032,FX26280092          ,Arribado
 2025-03-06,31929,MEDU-721472-7,Valerio Oliva Forestal Sa,EBKG11883808,FX32986851          ,Arribado
 2025-03-06,31930,MSBU-512385-0,Valerio Oliva Forestal Sa,EBKG11883808,FX32986854          ,Arribado
+2025-05-20,33705,TCNU-369689-7,Valerio Oliva Forestal Sa,253076747,**********          ,Arribado
+2025-05-20,33707,,Valerio Oliva Forestal Sa,253076747,                    ,Pendiente
 2025-05-06,33305,SEKU-459135-3,Valerio Oliva Forestal Sa,252699699,*************       ,Arribado
 2025-05-16,33635,MSNU-585549-9,Valerio Oliva Forestal Sa,EBKG12564960,FX32979248          ,Arribado
 2025-05-16,33636,MSNU-700657-2,Valerio Oliva Forestal Sa,EBKG12564960,FX-32979230         ,Arribado
