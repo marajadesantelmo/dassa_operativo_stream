@@ -8,13 +8,13 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 
-def send_email_vendedor(row, mail, url=None):
+def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
     manana = (datetime.now() + timedelta(days=1)).strftime('%d/%m/%Y')
     email_content = f"""
     <html>
     <body>
         <h2>Operaciones para el día {manana}</h2>
-        <p>Buenas tardes {vendedor},</p>
+        <p>Buenas tardes {row},</p>
         <p>A continuación te compartimos las operaciones coordinadas con tus clientes para el día de mañana:</p>
     """
     # Dynamically add operation tables
@@ -24,6 +24,14 @@ def send_email_vendedor(row, mail, url=None):
             <h3>{title}</h3>
             {df.to_html(index=False, border=0, justify='left')}
             """
+    
+    # Add saldos_clientes_vendedor table
+    if not saldos_clientes_vendedor.empty:
+        email_content += f"""
+        <h3>Saldos de Clientes</h3>
+        {saldos_clientes_vendedor.to_html(index=False, border=0, justify='left')}
+        """
+
     email_content += """
         <p>Saludos cordiales,</p>
         <p><strong>Alertas automáticas - Dassa Operativo</strong></p>
@@ -32,10 +40,10 @@ def send_email_vendedor(row, mail, url=None):
     </html>
     """
     msg = MIMEMultipart()
-    msg['Subject'] = f'Operaciones de tus clientes para el día de mañana {manana}'
+    msg['Subject'] = f'(Versión de prueba) Operaciones de tus clientes para el día de mañana {manana}'
     msg['From'] = "auto@dassa.com.ar"
-    msg['To'] = mail
-    #msg['To'] = 'marajadesantelmo@gmail.com'
+    #msg['To'] = mail
+    msg['To'] = "marajadesantelmo@gmail.com"
     msg.attach(MIMEText(email_content, 'html'))
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
@@ -58,7 +66,7 @@ def transformar_saldos(df):
                        'aplicacion': 'Comprobante'}, 
                        inplace=True)
     df['Vencimiento'] = pd.to_datetime(df['Vencimiento'])
-    df['Dias'] = (pd.to_datetime(fecha) - df['Vencimiento']).dt.days
+    df['Dias'] = (pd.to_datetime(datetime.now().strftime('%Y-%m-%d')) - df['Vencimiento']).dt.days
     df['Dias'] = df['Dias'].apply(lambda x: x if x > 0 else 0)
     df['Comprobante'] = df['Tipo cpte'] + " " + df['Comprobante']
     df = df[['Comprobante', 'Cliente', 'Vencimiento', 'Saldo', 'Dias']]
@@ -125,13 +133,17 @@ for vendedor in vendedores:
     """)  
     rows = cursor.fetchall()
     columns = [column[0] for column in cursor.description]
-    saldos_clientes_vendedor= pd.DataFrame.from_records(rows, columns=columns)
+    saldos_clientes_vendedor = pd.DataFrame.from_records(rows, columns=columns)
+
+    saldos_clientes_vendedor = transformar_saldos(saldos_clientes_vendedor)
+    saldos_clientes_vendedor.sort_values(by=['Dias'], ascending=True, inplace=True)
+    saldos_clientes_vendedor = formato_saldos(saldos_clientes_vendedor)
 
     # Check if there are operations
     if any(not df.empty for df in operations.values()):
         print(f"Hay operaciones para el vendedor {vendedor}.")
         vendedor_email = tabla_vendedor['email'].iloc[0]  # Assuming email column exists
-        send_email_vendedor(vendedor, vendedor_email, operations)
+        send_email_vendedor(vendedor, vendedor_email, operations, saldos_clientes_vendedor)
     else:
         print(f"No hay operaciones para el vendedor {vendedor}.")
 
