@@ -98,14 +98,20 @@ clientes['Cliente'] = clientes['Cliente'].apply(lambda x: x[:20] + "..." if len(
 dic_vendedores = pd.read_excel(path + 'diccionario_vendedores_puros_dassa.xlsx')
 dic_vendedores = dic_vendedores[dic_vendedores['nombre_vendedor'] != 'Otros']
 
+# Load all dataframes
 verificaciones_impo = pd.read_csv(path + 'data/verificaciones_impo.csv')
 retiros_impo = pd.read_csv(path + 'data/retiros_impo.csv')
 otros_impo = pd.read_csv(path + 'data/otros_impo.csv')
-
 verificaciones_expo = pd.read_csv(path + 'data/verificaciones_expo.csv')
 remisiones_expo = pd.read_csv(path + 'data/remisiones.csv')
 consolidados_expo = pd.read_csv(path + 'data/consolidados.csv')
 otros_expo = pd.read_csv(path + 'data/otros_expo.csv')
+
+# Fill NaN values in 'e-tally' column for each dataframe if it exists
+for df in [verificaciones_impo, retiros_impo, otros_impo, verificaciones_expo, 
+           remisiones_expo, consolidados_expo, otros_expo]:
+    if 'e-tally' in df.columns:
+        df['e-tally'].fillna('-', inplace=True)
 
 vendedores = dic_vendedores['nombre_vendedor'].unique()
 
@@ -114,11 +120,11 @@ for vendedor in vendedores:
     vendedor_ids = tabla_vendedor['cod_vendedor'].unique()
     clientes_vendedor = clientes[clientes['vendedor'].isin(vendedor_ids)]['Cliente'].unique()
     id_clientes_vendedor = [str(int(id_cliente)) for id_cliente in clientes[clientes['vendedor'].isin(vendedor_ids)]['clie_nro'].unique()]
-    dia = (datetime.now() + timedelta(days=1)).strftime('%d/%m')
+    dia = (datetime.now()).strftime('%d/%m')
 
     # Filter operations for the vendedor
     operations = {
-        "Verificaciones Importación": verificaciones_impo[verificaciones_impo['Cliente'].isin(clientes_vendedor)],
+        "Verificaciones Importación": verificaciones_impo[(verificaciones_impo['Cliente'].isin(clientes_vendedor)) & (verificaciones_impo['Dia'] == dia)],
         "Retiros Importación": retiros_impo[(retiros_impo['Cliente'].isin(clientes_vendedor)) & (retiros_impo['Dia'] == dia)],
         "Otros Importación": otros_impo[(otros_impo['Cliente'].isin(clientes_vendedor)) & (otros_impo['Dia'] == dia)],
         "Verificaciones Exportación": verificaciones_expo[(verificaciones_expo['Cliente'].isin(clientes_vendedor)) & (verificaciones_expo['Dia'] == dia)],
