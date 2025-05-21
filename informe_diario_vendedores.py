@@ -140,7 +140,7 @@ for vendedor in vendedores:
 
     saldos_clientes_vendedor = transformar_saldos(saldos_clientes_vendedor)
     saldos_clientes_vendedor.sort_values(by=['Dias'], ascending=False, inplace=True)
-    saldos_clientes_vendedor = saldos_clientes_vendedor[saldos_clientes_vendedor['Venncimiento'].str.contains('2025-')]
+    saldos_clientes_vendedor = saldos_clientes_vendedor[saldos_clientes_vendedor['Vencimiento'].str.contains('2025-')]
     saldos_clientes_vendedor = formato_saldos(saldos_clientes_vendedor)
 
     # Check if there are operations
