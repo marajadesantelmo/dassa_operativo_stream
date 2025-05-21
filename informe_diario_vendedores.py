@@ -1,22 +1,22 @@
 import pandas as pd
 import pyodbc
 from datetime import datetime
-from tokens import username, password
+from tokens import username, password, password_gmail 
 import os
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from datetime import datetime, timedelta
 
 def send_email_vendedor(row, mail, url=None):
-    current_time = datetime.now().strftime('%H:%M')
+    manana = (datetime.now() + timedelta(days=1)).strftime('%d/%m/%Y')
     if url is not None:
         email_content = f"""
         <html>
         <body>
-            <h2>Notificación de Remisión de Contenedor de Exportación</h2>
-            <p>Estimado cliente,</p>
-            <p>Le informamos que el contenedor <strong>{row['Contenedor']}</strong> con Booking <strong>{row['Booking']}</strong> del cliente <strong>{row['Cliente']}</strong> egresó de las instalaciones de DASSA.</p>
-            <p>Para más información, por favor visite nuestro <a href="{url.iloc[0]}">eTally</a></p>
+            <h2>Operaciones para el día {manana}/h2>
+            <p>Buenas tardes,</p>
+            <p>A continación te compartimos las operacio</p>
             <p>Saludos cordiales,</p>
             <p><strong>Alertas automáticas - Dassa Operativo</strong></p>
             <img src="https://dassa.com.ar/wp-content/uploads/elementor/thumbs/DASSA-LOGO-3.0-2024-PNG-TRANSPARENTE-qrm2px9hpjbdymy2y0xddhecbpvpa9htf30ikzgxds.png" alt="Dassa Logo" width="200">
@@ -24,14 +24,14 @@ def send_email_vendedor(row, mail, url=None):
         </html>
         """
     msg = MIMEMultipart()
-    msg['Subject'] = f'Operaciones de tus clientes para el día de mañana'
+    msg['Subject'] = f'Operaciones de tus clientes para el día de mañana {manana}'
     msg['From'] = "auto@dassa.com.ar"
     msg['To'] = mail
     #msg['To'] = 'marajadesantelmo@gmail.com'
     msg.attach(MIMEText(email_content, 'html'))
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
-        server.login("auto@dassa.com.ar", "gyctvgzuwfgvmlfu")
+        server.login("auto@dassa.com.ar", password_gmail)
         server.sendmail(msg['From'], msg['To'], msg.as_string())
 
 
@@ -69,8 +69,9 @@ for vendedor in vendedores:
     tabla_vendedor = dic_vendedores[dic_vendedores['nombre_vendedor'] == vendedor]
     vendedor_ids = tabla_vendedor['cod_vendedor'].unique()
     clientes_vendedor = clientes[clientes['vendedor'].isin(vendedor_ids)]['Cliente'].unique()
+    dia = (datetime.now() + timedelta(days=1)).strftime('%d/%m')
     verificaciones_impo_vendedor = verificaciones_impo[verificaciones_impo['Cliente'].isin(clientes_vendedor)]
-    retiros_impo_vendedor = retiros_impo[retiros_impo['Cliente'].isin(clientes_vendedor)]
+    retiros_impo_vendedor = retiros_impo[(retiros_impo['Cliente'].isin(clientes_vendedor)) & (retiros_impo['Dia'] == dia)]
     otros_impo_vendedor = otros_impo[otros_impo['Cliente'].isin(clientes_vendedor)]
     verificaciones_expo_vendedor = verificaciones_expo[verificaciones_expo['Cliente'].isin(clientes_vendedor)]
     remisiones_expo_vendedor = remisiones_expo[remisiones_expo['Cliente'].isin(clientes_vendedor)]
