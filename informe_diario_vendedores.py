@@ -104,12 +104,12 @@ retiros_impo = pd.read_csv(path + 'data/retiros_impo.csv')
 otros_impo = pd.read_csv(path + 'data/otros_impo.csv')
 verificaciones_expo = pd.read_csv(path + 'data/verificaciones_expo.csv')
 remisiones_expo = pd.read_csv(path + 'data/remisiones.csv')
-consolidados_expo = pd.read_csv(path + 'data/consolidados.csv')
+#consolidados_expo = pd.read_csv(path + 'data/consolidados.csv')
 otros_expo = pd.read_csv(path + 'data/otros_expo.csv')
 
 # Fill NaN values in 'e-tally' column for each dataframe if it exists
 for df in [verificaciones_impo, retiros_impo, otros_impo, verificaciones_expo, 
-           remisiones_expo, consolidados_expo, otros_expo]:
+           remisiones_expo, otros_expo]:
     if 'e-tally' in df.columns:
         df['e-tally'].fillna('-', inplace=True)
 
@@ -129,7 +129,7 @@ for vendedor in vendedores:
         "Otros Importación": otros_impo[(otros_impo['Cliente'].isin(clientes_vendedor)) & (otros_impo['Dia'] == dia)],
         "Verificaciones Exportación": verificaciones_expo[(verificaciones_expo['Cliente'].isin(clientes_vendedor)) & (verificaciones_expo['Dia'] == dia)],
         "Remisiones Exportación": remisiones_expo[(remisiones_expo['Cliente'].isin(clientes_vendedor)) & (remisiones_expo['Dia'] == dia)],
-        "Consolidados Exportación": consolidados_expo[(consolidados_expo['Cliente'].isin(clientes_vendedor)) & (consolidados_expo['Dia'] == dia)],
+        #"Consolidados Exportación": consolidados_expo[(consolidados_expo['Cliente'].isin(clientes_vendedor)) & (consolidados_expo['Dia'] == dia)],
         "Otros Exportación": otros_expo[(otros_expo['Cliente'].isin(clientes_vendedor)) & (otros_expo['Dia'] == dia)],
     }
 
