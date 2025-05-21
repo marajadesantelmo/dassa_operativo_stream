@@ -8,32 +8,40 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 
+
 def send_email_vendedor(row, mail, url=None):
     manana = (datetime.now() + timedelta(days=1)).strftime('%d/%m/%Y')
-    if url is not None:
-        email_content = f"""
-        <html>
-        <body>
-            <h2>Operaciones para el día {manana}/h2>
-            <p>Buenas tardes,</p>
-            <p>A continación te compartimos las operacio</p>
-            <p>Saludos cordiales,</p>
-            <p><strong>Alertas automáticas - Dassa Operativo</strong></p>
-            <img src="https://dassa.com.ar/wp-content/uploads/elementor/thumbs/DASSA-LOGO-3.0-2024-PNG-TRANSPARENTE-qrm2px9hpjbdymy2y0xddhecbpvpa9htf30ikzgxds.png" alt="Dassa Logo" width="200">
-        </body>
-        </html>
-        """
+    email_content = f"""
+    <html>
+    <body>
+        <h2>Operaciones para el día {manana}</h2>
+        <p>Buenas tardes {vendedor},</p>
+        <p>A continuación te compartimos las operaciones programadas para tus clientes:</p>
+    """
+    # Dynamically add operation tables
+    for title, df in operations.items():
+        if not df.empty:
+            email_content += f"""
+            <h3>{title}</h3>
+            {df.to_html(index=False, border=0, justify='left')}
+            """
+    email_content += """
+        <p>Saludos cordiales,</p>
+        <p><strong>Alertas automáticas - Dassa Operativo</strong></p>
+        <img src="https://dassa.com.ar/wp-content/uploads/elementor/thumbs/DASSA-LOGO-3.0-2024-PNG-TRANSPARENTE-qrm2px9hpjbdymy2y0xddhecbpvpa9htf30ikzgxds.png" alt="Dassa Logo" width="200">
+    </body>
+    </html>
+    """
     msg = MIMEMultipart()
     msg['Subject'] = f'Operaciones de tus clientes para el día de mañana {manana}'
     msg['From'] = "auto@dassa.com.ar"
-    msg['To'] = mail
-    #msg['To'] = 'marajadesantelmo@gmail.com'
+    #msg['To'] = mail
+    msg['To'] = 'marajadesantelmo@gmail.com'
     msg.attach(MIMEText(email_content, 'html'))
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
         server.login("auto@dassa.com.ar", password_gmail)
         server.sendmail(msg['From'], msg['To'], msg.as_string())
-
 
 
 server = '101.44.8.58\\SQLEXPRESS_X86,1436'
@@ -70,12 +78,21 @@ for vendedor in vendedores:
     vendedor_ids = tabla_vendedor['cod_vendedor'].unique()
     clientes_vendedor = clientes[clientes['vendedor'].isin(vendedor_ids)]['Cliente'].unique()
     dia = (datetime.now() + timedelta(days=1)).strftime('%d/%m')
-    verificaciones_impo_vendedor = verificaciones_impo[verificaciones_impo['Cliente'].isin(clientes_vendedor)]
-    retiros_impo_vendedor = retiros_impo[(retiros_impo['Cliente'].isin(clientes_vendedor)) & (retiros_impo['Dia'] == dia)]
-    otros_impo_vendedor = otros_impo[otros_impo['Cliente'].isin(clientes_vendedor)]
-    verificaciones_expo_vendedor = verificaciones_expo[verificaciones_expo['Cliente'].isin(clientes_vendedor)]
-    remisiones_expo_vendedor = remisiones_expo[remisiones_expo['Cliente'].isin(clientes_vendedor)]
-    consolidados_expo_vendedor = consolidados_expo[consolidados_expo['Cliente'].isin(clientes_vendedor)]
-    otros_expo_vendedor = otros_expo[otros_expo['Cliente'].isin(clientes_vendedor)]
+
+    # Filter operations for the vendedor
+    operations = {
+        "Verificaciones Importación": verificaciones_impo[verificaciones_impo['Cliente'].isin(clientes_vendedor)],
+        "Retiros Importación": retiros_impo[(retiros_impo['Cliente'].isin(clientes_vendedor)) & (retiros_impo['Dia'] == dia)],
+        "Otros Importación": otros_impo[(otros_impo['Cliente'].isin(clientes_vendedor)) & (otros_impo['Dia'] == dia)],
+        "Verificaciones Exportación": verificaciones_expo[(verificaciones_expo['Cliente'].isin(clientes_vendedor)) & (verificaciones_expo['Dia'] == dia)],
+        "Remisiones Exportación": remisiones_expo[(remisiones_expo['Cliente'].isin(clientes_vendedor)) & (remisiones_expo['Dia'] == dia)],
+        "Consolidados Exportación": consolidados_expo[(consolidados_expo['Cliente'].isin(clientes_vendedor)) & (consolidados_expo['Dia'] == dia)],
+        "Otros Exportación": otros_expo[(otros_expo['Cliente'].isin(clientes_vendedor)) & (otros_expo['Dia'] == dia)],
+    }
+
+    # Send email only if there are operations
+    if any(not df.empty for df in operations.values()):
+        vendedor_email = tabla_vendedor['email'].iloc[0]  # Assuming email column exists
+        send_email_vendedor(vendedor, vendedor_email, operations)
 
 
