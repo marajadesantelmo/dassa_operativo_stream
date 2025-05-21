@@ -61,6 +61,7 @@ clientes['Cliente'] = clientes['Cliente'].str.strip().str.title()
 clientes['Cliente'] = clientes['Cliente'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
 
 dic_vendedores = pd.read_excel('diccionario_vendedores_puros_dassa.xlsx')
+dic_vendedores = dic_vendedores[dic_vendedores['nombre_vendedor'] != 'Otros']
 
 verificaciones_impo = pd.read_csv('data/verificaciones_impo.csv')
 retiros_impo = pd.read_csv('data/retiros_impo.csv')
@@ -90,9 +91,12 @@ for vendedor in vendedores:
         "Otros Exportación": otros_expo[(otros_expo['Cliente'].isin(clientes_vendedor)) & (otros_expo['Dia'] == dia)],
     }
 
-    # Send email only if there are operations
+    # Check if there are operations
     if any(not df.empty for df in operations.values()):
+        print(f"Hay operaciones para el vendedor {vendedor}.")
         vendedor_email = tabla_vendedor['email'].iloc[0]  # Assuming email column exists
         send_email_vendedor(vendedor, vendedor_email, operations)
+    else:
+        print(f"No hay operaciones para el vendedor {vendedor}.")
 
 
