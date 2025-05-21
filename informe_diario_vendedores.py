@@ -26,12 +26,12 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
             <h3>{title}</h3>
             {df.to_html(index=False, border=0, justify='left')}
             """
-    email_content += """<p>A continuación te compartimos las operaciones coordinadas con tus clientes para el día de hoy:</p>"""
+    email_content += """<p>Información sobre saldos vencidos en el último año:</p>"""
     
     # Add saldos_clientes_vendedor table
     if not saldos_clientes_vendedor.empty:
         email_content += f"""
-        <h3>Saldos de Clientes</h3>
+        <h3>Saldos vencidos</h3>
         {saldos_clientes_vendedor.to_html(index=False, border=0, justify='left')}
         """
 
@@ -45,8 +45,8 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
     msg = MIMEMultipart()
     msg['Subject'] = f'(Versión de Prueba) Operaciones de tus clientes para el día de hoy {hoy}'
     msg['From'] = "auto@dassa.com.ar"
-    #msg['To'] = mail
-    msg['To'] = "marajadesantelmo@gmail.com"
+    msg['To'] = mail
+    #msg['To'] = "marajadesantelmo@gmail.com"
     msg.attach(MIMEText(email_content, 'html'))
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
@@ -140,7 +140,7 @@ for vendedor in vendedores:
 
     saldos_clientes_vendedor = transformar_saldos(saldos_clientes_vendedor)
     saldos_clientes_vendedor.sort_values(by=['Dias'], ascending=False, inplace=True)
-    saldos_clientes_vendedor = saldos_clientes_vendedor[saldos_clientes_vendedor['Vencimiento'].str.contains('2025-')]
+    saldos_clientes_vendedor = saldos_clientes_vendedor[(saldos_clientes_vendedor['Dias'] > 0) & (saldos_clientes_vendedor['Dias'] < 365)]
     saldos_clientes_vendedor = formato_saldos(saldos_clientes_vendedor)
 
     # Check if there are operations
