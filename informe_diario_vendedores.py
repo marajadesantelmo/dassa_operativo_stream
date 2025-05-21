@@ -11,13 +11,13 @@ from datetime import datetime, timedelta
 path = "//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/"
 
 def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
-    manana = (datetime.now() + timedelta(days=1)).strftime('%d/%m/%Y')
+    hoy = datetime.now().strftime('%d/%m/%Y')
     email_content = f"""
     <html>
     <body>
-        <h2>Operaciones para el día {manana}</h2>
+        <h2>Operaciones para el día {hoy}</h2>
         <p>Buenas tardes {row},</p>
-        <p>A continuación te compartimos las operaciones coordinadas con tus clientes para el día de mañana:</p>
+        <p>A continuación te compartimos las operaciones coordinadas con tus clientes para el día de hoy:</p>
     """
     # Dynamically add operation tables
     for title, df in operations.items():
@@ -26,7 +26,7 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
             <h3>{title}</h3>
             {df.to_html(index=False, border=0, justify='left')}
             """
-    email_content += """<p>A continuación te compartimos las operaciones coordinadas con tus clientes para el día de mañana:</p>"""
+    email_content += """<p>A continuación te compartimos las operaciones coordinadas con tus clientes para el día de hoy:</p>"""
     
     # Add saldos_clientes_vendedor table
     if not saldos_clientes_vendedor.empty:
@@ -43,7 +43,7 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
     </html>
     """
     msg = MIMEMultipart()
-    msg['Subject'] = f'(Versión de Prueba) Operaciones de tus clientes para el día de mañana {manana}'
+    msg['Subject'] = f'(Versión de Prueba) Operaciones de tus clientes para el día de hoy {hoy}'
     msg['From'] = "auto@dassa.com.ar"
     #msg['To'] = mail
     msg['To'] = "marajadesantelmo@gmail.com"
@@ -95,17 +95,17 @@ clientes= pd.DataFrame.from_records(rows, columns=columns)
 clientes['Cliente'] = clientes['Cliente'].str.strip().str.title()
 clientes['Cliente'] = clientes['Cliente'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
 
-dic_vendedores = pd.read_excel('diccionario_vendedores_puros_dassa.xlsx')
+dic_vendedores = pd.read_excel(path + 'diccionario_vendedores_puros_dassa.xlsx')
 dic_vendedores = dic_vendedores[dic_vendedores['nombre_vendedor'] != 'Otros']
 
-verificaciones_impo = pd.read_csv('data/verificaciones_impo.csv')
-retiros_impo = pd.read_csv('data/retiros_impo.csv')
-otros_impo = pd.read_csv('data/otros_impo.csv')
+verificaciones_impo = pd.read_csv(path + 'data/verificaciones_impo.csv')
+retiros_impo = pd.read_csv(path + 'data/retiros_impo.csv')
+otros_impo = pd.read_csv(path + 'data/otros_impo.csv')
 
-verificaciones_expo = pd.read_csv('data/verificaciones_expo.csv')
-remisiones_expo = pd.read_csv('data/remisiones.csv')
-consolidados_expo = pd.read_csv('data/consolidados.csv')
-otros_expo = pd.read_csv('data/otros_expo.csv')
+verificaciones_expo = pd.read_csv(path + 'data/verificaciones_expo.csv')
+remisiones_expo = pd.read_csv(path + 'data/remisiones.csv')
+consolidados_expo = pd.read_csv(path + 'data/consolidados.csv')
+otros_expo = pd.read_csv(path + 'data/otros_expo.csv')
 
 vendedores = dic_vendedores['nombre_vendedor'].unique()
 
@@ -139,7 +139,8 @@ for vendedor in vendedores:
     saldos_clientes_vendedor = pd.DataFrame.from_records(rows, columns=columns)
 
     saldos_clientes_vendedor = transformar_saldos(saldos_clientes_vendedor)
-    saldos_clientes_vendedor.sort_values(by=['Dias'], ascending=True, inplace=True)
+    saldos_clientes_vendedor.sort_values(by=['Dias'], ascending=False, inplace=True)
+    saldos_clientes_vendedor = saldos_clientes_vendedor[saldos_clientes_vendedor['Venncimiento'].str.contains('2025-')]
     saldos_clientes_vendedor = formato_saldos(saldos_clientes_vendedor)
 
     # Check if there are operations
