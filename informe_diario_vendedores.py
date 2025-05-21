@@ -8,6 +8,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 
+path = "//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/"
+
 def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
     manana = (datetime.now() + timedelta(days=1)).strftime('%d/%m/%Y')
     email_content = f"""
@@ -24,6 +26,7 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
             <h3>{title}</h3>
             {df.to_html(index=False, border=0, justify='left')}
             """
+    email_content += """<p>A continuación te compartimos las operaciones coordinadas con tus clientes para el día de mañana:</p>"""
     
     # Add saldos_clientes_vendedor table
     if not saldos_clientes_vendedor.empty:
@@ -40,7 +43,7 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
     </html>
     """
     msg = MIMEMultipart()
-    msg['Subject'] = f'(Versión de prueba) Operaciones de tus clientes para el día de mañana {manana}'
+    msg['Subject'] = f'(Versión de Prueba) Operaciones de tus clientes para el día de mañana {manana}'
     msg['From'] = "auto@dassa.com.ar"
     #msg['To'] = mail
     msg['To'] = "marajadesantelmo@gmail.com"
