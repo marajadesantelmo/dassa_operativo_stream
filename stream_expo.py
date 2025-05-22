@@ -10,16 +10,16 @@ def fetch_data_expo():
     verificaciones_expo = pd.read_csv('data/verificaciones_expo.csv')
     otros_expo = pd.read_csv('data/otros_expo.csv')
     remisiones = pd.read_csv('data/remisiones.csv')
-    consolidados = pd.read_csv('data/consolidados.csv')
     pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
     listos_para_remitir['e-tally'] = listos_para_remitir['e-tally'].fillna("")
     vacios_disponibles = pd.read_csv('data/vacios_disponibles.csv')
-    return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados, pendiente_consolidar, listos_para_remitir, vacios_disponibles
+    a_consolidar = pd.read_csv('data/a_consolidar.csv')
+    return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, pendiente_consolidar, listos_para_remitir, vacios_disponibles, a_consolidar
     
 def show_page_expo():
     # Load data
-    arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados, pendiente_consolidar, listos_para_remitir, vacios_disponibles = fetch_data_expo()
+    arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, pendiente_consolidar, listos_para_remitir, vacios_disponibles, a_consolidar = fetch_data_expo()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -47,7 +47,7 @@ def show_page_expo():
         st.dataframe(verificaciones_expo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
         st.subheader("Pendientes de consolidar")
-        st.dataframe(consolidados, hide_index=True, use_container_width=True)
+        st.dataframe(a_consolidar, hide_index=True, use_container_width=True)
 
     with col4:
         st.subheader("Remisiones")
