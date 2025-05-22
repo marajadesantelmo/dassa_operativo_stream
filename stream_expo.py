@@ -47,7 +47,9 @@ def show_page_expo():
         st.dataframe(verificaciones_expo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
         st.subheader("Pendientes de consolidar")
-        st.dataframe(a_consolidar, hide_index=True, use_container_width=True)
+        st.dataframe(a_consolidar, 
+                    column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
+                    hide_index=True, use_container_width=True)
 
     with col4:
         st.subheader("Remisiones")
