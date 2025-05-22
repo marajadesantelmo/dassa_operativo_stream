@@ -70,10 +70,38 @@ def show_page_balanza():
     
     st.title("Histórico de Pesadas")
     st.write("Importación")
-    st.dataframe(balanza_historico_impo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
-    st.write("Exportación")
-    st.dataframe(balanza_historico_expo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
     
+    # Add date and ID Pesada filters
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        start_date_historico = st.date_input("Fecha Inicio", value=pd.to_datetime(balanza_historico_impo['Fecha'], format='%d/%m/%Y').min(), key='start_date_historico')
+    with col2:
+        end_date_historico = st.date_input("Fecha Fin", value=pd.to_datetime(balanza_historico_impo['Fecha'], format='%d/%m/%Y').max(), key='end_date_historico')
+    with col3:
+        id_pesada_filter = st.selectbox("ID Pesada", options=["Todos"] + sorted(balanza_historico_impo['ID Pesada'].unique().tolist()), key='id_pesada_filter')
+
+    # Filter data based on the selected criteria
+    filtered_historico_impo = balanza_historico_impo[
+        (pd.to_datetime(balanza_historico_impo['Fecha'], format='%d/%m/%Y') >= start_date_historico) &
+        (pd.to_datetime(balanza_historico_impo['Fecha'], format='%d/%m/%Y') <= end_date_historico)
+    ]
+    if id_pesada_filter != "Todos":
+        filtered_historico_impo = filtered_historico_impo[filtered_historico_impo['ID Pesada'] == id_pesada_filter]
+
+    st.dataframe(filtered_historico_impo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
+
+    st.write("Exportación")
+    
+    # Repeat the same filtering logic for export data
+    filtered_historico_expo = balanza_historico_expo[
+        (pd.to_datetime(balanza_historico_expo['Fecha'], format='%d/%m/%Y') >= start_date_historico) &
+        (pd.to_datetime(balanza_historico_expo['Fecha'], format='%d/%m/%Y') <= end_date_historico)
+    ]
+    if id_pesada_filter != "Todos":
+        filtered_historico_expo = filtered_historico_expo[filtered_historico_expo['ID Pesada'] == id_pesada_filter]
+
+    st.dataframe(filtered_historico_expo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
+
     st.subheader("Generar Comprobante")
     id_pesada_historico = st.selectbox("Seleccione el ID de Pesada Histórico", balanza_historico_impo['ID Pesada'].tolist())
     if st.button("Generar Comprobante Histórico"):
