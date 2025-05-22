@@ -46,7 +46,7 @@ def show_page_expo():
         st.subheader("Verificaciones")
         st.dataframe(verificaciones_expo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
-        st.subheader("Consolidados")
+        st.subheader("Pendientes de consolidar")
         st.dataframe(consolidados, hide_index=True, use_container_width=True)
 
     with col4:
@@ -60,7 +60,7 @@ def show_page_expo():
     st.header("Estado de la carga de EXPO")
     col4, col5, col6 = st.columns(3)
     with col4:
-        st.subheader("Pendiente de Consolidar")
+        st.subheader("Carga en Stock")
         st.dataframe(pendiente_consolidar, hide_index=True, use_container_width=True)
     with col5:
         st.subheader("Pendiente de Remitir")
