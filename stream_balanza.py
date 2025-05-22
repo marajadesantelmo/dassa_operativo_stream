@@ -4,6 +4,9 @@ import time
 from datetime import datetime
 from utils import highlight, generar_comprobante
 
+# Add this line at the very beginning
+st.set_page_config(page_title="Balanza Operativa", layout="wide")
+
 @st.cache_data(ttl=60) 
 def fetch_data_balanza():
     balanza = pd.read_csv('data/balanza.csv') # Me quedo con la info de balanza completa para generar comprobante
@@ -74,9 +77,9 @@ def show_page_balanza():
     # Add date and ID Pesada filters
     col1, col2, col3 = st.columns(3)
     with col1:
-        start_date_historico = st.date_input("Fecha Inicio", value=pd.to_datetime(balanza_historico_impo['Fecha'], format='%d/%m/%Y').min(), key='start_date_historico')
+        start_date_historico = pd.to_datetime(st.date_input("Fecha Inicio", value=pd.to_datetime(balanza_historico_impo['Fecha'], format='%d/%m/%Y').min(), key='start_date_historico'))
     with col2:
-        end_date_historico = st.date_input("Fecha Fin", value=pd.to_datetime(balanza_historico_impo['Fecha'], format='%d/%m/%Y').max(), key='end_date_historico')
+        end_date_historico = pd.to_datetime(st.date_input("Fecha Fin", value=pd.to_datetime(balanza_historico_impo['Fecha'], format='%d/%m/%Y').max(), key='end_date_historico'))
     with col3:
         id_pesada_filter = st.selectbox("ID Pesada", options=["Todos"] + sorted(balanza_historico_impo['ID Pesada'].unique().tolist()), key='id_pesada_filter')
 
