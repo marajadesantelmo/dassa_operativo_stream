@@ -43,7 +43,7 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
     </html>
     """
     msg = MIMEMultipart()
-    msg['Subject'] = f'(Versión de Prueba) Operaciones de tus clientes para el día de hoy {hoy}'
+    msg['Subject'] = f'Operaciones de tus clientes para el día de hoy {hoy}'
     msg['From'] = "auto@dassa.com.ar"
     msg['To'] = mail
     #msg['To'] = "marajadesantelmo@gmail.com"
