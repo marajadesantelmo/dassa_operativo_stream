@@ -83,7 +83,9 @@ def show_page_balanza():
     with col3:
         id_pesada_filter = st.selectbox("ID Pesada", options=["Todos"] + sorted(balanza_historico_impo['ID Pesada'].unique().tolist()), key='id_pesada_filter')
     with col4:
-        cliente_filter = st.selectbox("Cliente", options=["Todos"] + sorted(balanza_historico_impo['Cliente'].unique().tolist()), key='cliente_filter')
+        # Ensure Cliente column is treated as strings
+        cliente_options = ["Todos"] + sorted(balanza_historico_impo['Cliente'].astype(str).unique().tolist())
+        cliente_filter = st.selectbox("Cliente", options=cliente_options, key='cliente_filter')
 
     # Filter data based on the selected criteria
     filtered_historico_impo = balanza_historico_impo[
@@ -93,7 +95,7 @@ def show_page_balanza():
     if id_pesada_filter != "Todos":
         filtered_historico_impo = filtered_historico_impo[filtered_historico_impo['ID Pesada'] == id_pesada_filter]
     if cliente_filter != "Todos":
-        filtered_historico_impo = filtered_historico_impo[filtered_historico_impo['Cliente'] == cliente_filter]
+        filtered_historico_impo = filtered_historico_impo[filtered_historico_impo['Cliente'].astype(str) == cliente_filter]
 
     st.dataframe(filtered_historico_impo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
 
@@ -107,7 +109,7 @@ def show_page_balanza():
     if id_pesada_filter != "Todos":
         filtered_historico_expo = filtered_historico_expo[filtered_historico_expo['ID Pesada'] == id_pesada_filter]
     if cliente_filter != "Todos":
-        filtered_historico_expo = filtered_historico_expo[filtered_historico_expo['Cliente'] == cliente_filter]
+        filtered_historico_expo = filtered_historico_expo[filtered_historico_expo['Cliente'].astype(str) == cliente_filter]
 
     st.dataframe(filtered_historico_expo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
 
