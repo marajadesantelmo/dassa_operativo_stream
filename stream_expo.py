@@ -33,11 +33,7 @@ def show_page_expo():
 
     # Column 1: Arribos
     with col1:
-        st.subheader("Arribos de Carga")
-        st.dataframe(arribos_expo_carga.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-
-
-        col1_sub, col1_metric = st.columns([7, 1])
+        col1_sub, col1_metric, col1_metric2 = st.columns([6, 1, 1])
         with col1_sub:
             st.subheader("Arribos de Carga")
         with col1_metric:
@@ -46,6 +42,7 @@ def show_page_expo():
             carga_pendientes = arribos_expo_carga[(arribos_expo_carga['Estado'] == 'Pendiente') & 
                                                  (arribos_expo_carga['Fecha'] == today)].shape[0]
             st.metric(label="Pendientes hoy", value=carga_pendientes)
+        with col1_metric2:
             carga_arribada = arribos_expo_carga[(arribos_expo_carga['Estado'].str.contains('Arribado'))].shape[0]
             st.metric(label="Arribados", value=carga_arribada)
         st.dataframe(arribos_expo_carga.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
@@ -54,8 +51,16 @@ def show_page_expo():
 
     # Column 2: Pendiente Desconsolidar
     with col2:
-        st.subheader("Arribos de Contenedores")
-        st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1).format(precision=0), hide_index=True, use_container_width=True)
+        co2_sub, col2_metric1, col2_metric2 = st.columns([6, 1, 1])
+        with co2_sub:
+            st.subheader("Arribos de Contenedores")
+        with col2_metric1:
+            st.metric(label="Pendientes hoy", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'] == 'Pendiente') & 
+                                                 (arribos_expo_ctns['Fecha'] == today)].shape[0])
+        with col2_metric2:
+            st.metric(label="Arribados", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'].str.contains('Arribado'))].shape[0])
+        st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+        
 
     col3, col4 = st.columns(2)
     with col3:
