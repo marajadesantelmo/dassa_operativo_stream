@@ -36,6 +36,22 @@ def show_page_expo():
         st.subheader("Arribos de Carga")
         st.dataframe(arribos_expo_carga.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
+
+        col1_sub, col1_metric = st.columns([7, 1])
+        with col1_sub:
+            st.subheader("Arribos de Carga")
+        with col1_metric:
+            # Get today's date in DD/MM format
+            today = datetime.now().strftime("%d/%m")
+            carga_pendientes = arribos_expo_carga[(arribos_expo_carga['Estado'] == 'Pendiente') & 
+                                                 (arribos_expo_carga['Fecha'] == today)].shape[0]
+            st.metric(label="Pendientes hoy", value=carga_pendientes)
+            carga_arribada = arribos_expo_carga[(arribos_expo_carga['Estado'].str.contains('Arribado'))].shape[0]
+            st.metric(label="Arribados", value=carga_arribada)
+        st.dataframe(arribos_expo_carga.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+
+
+
     # Column 2: Pendiente Desconsolidar
     with col2:
         st.subheader("Arribos de Contenedores")
