@@ -8,7 +8,9 @@ def fetch_data_expo():
     arribos_expo_carga = pd.read_csv('data/arribos_expo_carga.csv')
     arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
     verificaciones_expo = pd.read_csv('data/verificaciones_expo.csv')
+    verificaciones_expo = verificaciones_expo[verificaciones_expo['Dia'] != '-']
     otros_expo = pd.read_csv('data/otros_expo.csv')
+    otros_expo = otros_expo[otros_expo['Dia'] != '-']
     remisiones = pd.read_csv('data/remisiones.csv')
     pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
