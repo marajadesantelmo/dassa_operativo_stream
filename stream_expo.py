@@ -84,12 +84,12 @@ def show_page_expo():
             st.subheader("Remisiones")
         with col4_metric:
             remisiones_pendientes = remisiones[(remisiones['Estado'] == 'Pendiente') & 
-                                                 (remisiones['Fecha'] == today)].shape[0]
+                                                 (remisiones['Dia'] == today)].shape[0]
             st.metric(label="Pendientes hoy", value=remisiones_pendientes)
         with col4_metric2:
             remisiones_realizadas= remisiones[(remisiones['Estado'].str.contains('Realizado'))].shape[0]
             st.metric(label="Realizadas", value=remisiones_realizadas)
-            
+
     st.markdown("<hr>", unsafe_allow_html=True)
 
     st.header("Estado de la carga de EXPO")
