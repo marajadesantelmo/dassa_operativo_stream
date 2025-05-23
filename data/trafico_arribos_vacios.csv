@@ -1,14 +1,14 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-33860,23/05,Minera Santa Rita Srl,-,0,  ,TD,                    ,BUE500083400,0,                              ,,     ,2025-06-12,,BUE500083400        ,Pendiente
+33842,23/05,Lawter Argentina S.A.,-,10080,DR,TD,                    ,253920980,0,                              ,,     ,2025-06-12,,                    ,Pendiente
+33865,23/05,Norfor Sa,EGSU-931560-1,10076,HC,TD,***************     ,340500018162,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,07:52,2025-06-13,,                    ,07:52 Arribado
+33849,23/05,Norfor Sa,-,0,  ,TD,                    ,340500018162,0,                              ,,     ,2025-06-12,340500018162,340500018162        ,Pendiente
 33848,23/05,Norfor Sa,-,0,  ,TD,                    ,340500018162,0,                              ,,     ,2025-06-12,340500018162,340500018162        ,Pendiente
 33838,23/05,Norfor Sa,TIIU-690514-0,10076,HC,TD,**************      ,340500018162,1,TRANSPORTE DEL CLIENTE        ,Moscardini,07:55,2025-06-12,,                    ,07:55 Arribado
 33852,23/05,Lawter Argentina S.A.,-,0,  ,TD,                    ,253920980,0,                              ,,     ,2025-06-12,253920980,253920980           ,Pendiente
 33851,23/05,Lawter Argentina S.A.,-,0,  ,TD,                    ,253920980,0,                              ,,     ,2025-06-12,253920980,253920980           ,Pendiente
 33850,23/05,Lawter Argentina S.A.,-,0,  ,TD,                    ,253920980,0,                              ,,     ,2025-06-12,253920980,253920980           ,Pendiente
-33842,23/05,Lawter Argentina S.A.,-,10080,DR,TD,                    ,253920980,0,                              ,,     ,2025-06-12,,                    ,Pendiente
 33841,23/05,Lawter Argentina S.A.,-,10080,DR,TD,                    ,253920980,0,                              ,,     ,2025-06-12,,                    ,Pendiente
 33840,23/05,Lawter Argentina S.A.,-,10080,DR,TD,                    ,253920980,0,                              ,,     ,2025-06-12,,                    ,Pendiente
-33849,23/05,Norfor Sa,-,0,  ,TD,                    ,340500018162,0,                              ,,     ,2025-06-12,340500018162,340500018162        ,Pendiente
 33856,23/05,Carpal Sa,-,0,  ,TD,                    ,253983421,0,                              ,,     ,2025-06-12,253983421,253983421           ,Pendiente
 33854,23/05,Carpal Sa,-,0,  ,TD,                    ,253983421,0,                              ,,     ,2025-06-12,253983421,253983421           ,Pendiente
 33847,23/05,Carpal Sa,-,10080,HC,TD,                    ,253983421,0,                              ,,     ,2025-06-12,,                    ,Pendiente
@@ -18,5 +18,14 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33843,23/05,Bdfm Sa,HLBU-283652-4,10080,HC,TD,***********         ,59092645,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,10:26,2025-06-12,,                    ,10:26 Arribado
 33862,23/05,Minera Santa Rita Srl,-,0,  ,TD,                    ,BUE500083400,0,                              ,,     ,2025-06-12,,BUE500083400        ,Pendiente
 33861,23/05,Minera Santa Rita Srl,-,0,  ,TD,                    ,BUE500083400,0,                              ,,     ,2025-06-12,,BUE500083400        ,Pendiente
+33860,23/05,Minera Santa Rita Srl,-,0,  ,TD,                    ,BUE500083400,0,                              ,,     ,2025-06-12,,BUE500083400        ,Pendiente
 33855,23/05,Carpal Sa,-,0,  ,TD,                    ,253983421,0,                              ,,     ,2025-06-12,253983421,253983421           ,Pendiente
-33865,23/05,Norfor Sa,EGSU-931560-1,10076,HC,TD,***************     ,340500018162,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,07:52,2025-06-13,,                    ,07:52 Arribado
+33878,26/05,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG12917443,0,                              ,,     ,2025-06-13,Ebkg12917443,EBKG12917443        ,Pendiente
+33879,26/05,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG12917252,0,                              ,,     ,2025-06-13,Ebkg12917252,EBKG12917252        ,Pendiente
+33877,26/05,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG12917443,0,                              ,,     ,2025-06-13,Ebkg12917443,EBKG12917443        ,Pendiente
+33876,26/05,Mercovan Argentina Srl,-,0,  ,TD,                    ,253811924,0,                              ,,     ,2025-06-13,Amalia Martinez Sanchez,253811924           ,Pendiente
+33874,26/05,El Yerbalito,-,0,  ,TD,                    ,33045975,0,                              ,,     ,2025-06-13,33045975,33045975            ,Pendiente
+33873,26/05,El Yerbalito,-,0,  ,TD,                    ,33045975,0,                              ,,     ,2025-06-13,33045975,33045975            ,Pendiente
+33880,26/05,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG12917252,0,                              ,,     ,2025-06-13,Ebkg12917252,EBKG12917252        ,Pendiente
+33875,26/05,El Yerbalito,-,0,  ,TD,                    ,33045975,0,                              ,,     ,2025-06-13,33045975,33045975            ,Pendiente
+33881,26/05,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG12917252,0,                              ,,     ,2025-06-13,Ebkg12917252,EBKG12917252        ,Pendiente
