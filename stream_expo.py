@@ -60,23 +60,24 @@ def show_page_expo():
         with col2_metric2:
             st.metric(label="Arribados", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'].str.contains('Arribado'))].shape[0])
         st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-        
+
 
     col3, col4 = st.columns(2)
     with col3:
-        st.subheader("Verificaciones")
-        st.dataframe(verificaciones_expo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-
         st.subheader("Pendientes de consolidar")
         st.dataframe(a_consolidar, 
                     column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
                     hide_index=True, use_container_width=True)
+        if not verificaciones_expo.empty:
+            st.subheader("Verificaciones")
+            st.dataframe(verificaciones_expo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
     with col4:
         st.subheader("Remisiones")
         st.dataframe(remisiones.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-        st.subheader("Otros")
-        st.dataframe(otros_expo.style, hide_index=True, use_container_width=True)
+        if not otros_expo.empty:
+            st.subheader("Otros")
+            st.dataframe(otros_expo.style, hide_index=True, use_container_width=True)
 
     st.markdown("<hr>", unsafe_allow_html=True)
 
