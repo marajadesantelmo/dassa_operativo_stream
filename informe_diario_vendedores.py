@@ -16,7 +16,7 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
     <html>
     <body>
         <h2>Operaciones para el día {hoy}</h2>
-        <p>Buenas tardes {row},</p>
+        <p>Buenos días {row},</p>
         <p>A continuación te compartimos las operaciones coordinadas con tus clientes para el día de hoy:</p>
     """
     # Dynamically add operation tables
