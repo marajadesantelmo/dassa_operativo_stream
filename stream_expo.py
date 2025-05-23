@@ -66,7 +66,11 @@ def show_page_expo():
 
     col3, col4 = st.columns(2)
     with col3:
-        st.subheader("Pendientes de consolidar")
+        col3_sub, col3_metric = st.columns([7, 1])
+        with col3_sub:
+            st.subheader("Pendiente de Consolidar")
+        with col3_metric:
+            st.metric(label="Pendientes", value=pendiente_consolidar.shape[0])
         st.dataframe(a_consolidar, 
                     column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
                     hide_index=True, use_container_width=True)
@@ -75,12 +79,17 @@ def show_page_expo():
             st.dataframe(verificaciones_expo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
     with col4:
-        st.subheader("Remisiones")
-        st.dataframe(remisiones.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-        if not otros_expo.empty:
-            st.subheader("Otros")
-            st.dataframe(otros_expo.style, hide_index=True, use_container_width=True)
-
+        col4_sub, col4_metric, col4_metric2 = st.columns([7, 1, 1])
+        with col4_sub:
+            st.subheader("Remisiones")
+        with col4_metric:
+            remisiones_pendientes = remisiones[(remisiones['Estado'] == 'Pendiente') & 
+                                                 (remisiones['Fecha'] == today)].shape[0]
+            st.metric(label="Pendientes hoy", value=remisiones_pendientes)
+        with col4_metric2:
+            remisiones_realizadas= remisiones[(remisiones['Estado'].str.contains('Realizado'))].shape[0]
+            st.metric(label="Realizadas", value=remisiones_realizadas)
+            
     st.markdown("<hr>", unsafe_allow_html=True)
 
     st.header("Estado de la carga de EXPO")
