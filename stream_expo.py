@@ -70,7 +70,7 @@ def show_page_expo():
         with col3_sub:
             st.subheader("Pendiente de Consolidar")
         with col3_metric:
-            st.metric(label="Pendientes", value=pendiente_consolidar.shape[0])
+            st.metric(label="Pendientes", value=a_consolidar.shape[0])
         st.dataframe(a_consolidar, 
                     column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
                     hide_index=True, use_container_width=True)
