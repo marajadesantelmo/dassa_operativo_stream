@@ -89,9 +89,10 @@ def show_page_expo():
         with col4_metric2:
             remisiones_realizadas= remisiones[(remisiones['Estado'].str.contains('Realizado'))].shape[0]
             st.metric(label="Realizadas", value=remisiones_realizadas)
-        st.dataframe(remisiones.style.apply(highlight, axis=1), 
-                    column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
-                    hide_index=True, use_container_width=True)
+        st.dataframe(remisiones.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+        if not otros_expo.empty:
+            st.subheader("Otros")
+            st.dataframe(otros_expo.style, hide_index=True, use_container_width=True)
 
     st.markdown("<hr>", unsafe_allow_html=True)
 
