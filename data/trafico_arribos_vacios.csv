@@ -1,6 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 33876,26/05,Mercovan Argentina Srl,-,0,  ,TD,                    ,253811924,0,                              ,,     ,2025-06-13,Amalia Martinez Sanchez,253811924           ,Pendiente
-33879,26/05,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG12917252,0,                              ,,     ,2025-06-13,Ebkg12917252,EBKG12917252        ,Pendiente
+33879,26/05,Hdv Leather S.R.L.,MSMU-436943-6,9,HC,TD,FX32985908          ,EBKG12917252,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,15:48,2025-06-13,Ebkg12917252,EBKG12917252        ,15:48 Arribado
 33878,26/05,Hdv Leather S.R.L.,BMOU-423967-5,9,HC,TD,FX32974910          ,EBKG12917443,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,11:04,2025-06-13,Ebkg12917443,EBKG12917443        ,11:04 Arribado
 33877,26/05,Hdv Leather S.R.L.,TGBU-451048-2,9,HC,TD,FX32974907          ,EBKG12917443,1,TRANSPORTE DEL CLIENTE        ,Porco,10:59,2025-06-13,Ebkg12917443,                    ,10:59 Arribado
 33875,26/05,El Yerbalito,-,0,  ,TD,                    ,33045975,0,                              ,,     ,2025-06-13,33045975,33045975            ,Pendiente
@@ -10,8 +10,6 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33935,26/05,Aj Comercio Exterior Srl,-,0,  ,TD,                    ,25001EC01032317D,1,TRANSPORTE DEL CLIENTE        ,.,14:16,2025-06-16,,                    ,14:16 Arribado
 33898,26/05,Hilado Sa,-,10076,HC,TD,                    ,COSU6419343070,0,                              ,,     ,2025-06-13,,                    ,Pendiente
 33897,26/05,Hilado Sa,-,10076,HC,TD,                    ,COSU6419343070,0,                              ,,     ,2025-06-13,,                    ,Pendiente
-33896,26/05,Hilado Sa,-,10076,HC,TD,                    ,COSU6419343070,0,                              ,,     ,2025-06-13,,                    ,Pendiente
-33895,26/05,Hilado Sa,-,10076,HC,TD,                    ,COSU6419343070,0,                              ,,     ,2025-06-13,,                    ,Pendiente
 33913,26/05,Lift Van Int. Co S.A,MSKU-583404-3,10077,DR,TD,**************      ,253550275,1,TRANSPORTES LEIRA-NO USAR     ,Muller,14:40,2025-06-16,Ruzanna Binti Mohd,                    ,14:40 Arribado
 33912,26/05,Lift Van Int. Co S.A,MSKU-394859-8,10077,DR,TD,************        ,253551644,1,TRANSPORTES LEIRA-NO USAR     ,Muller,14:39,2025-06-16,Nurhafiza Rosly,                    ,14:39 Arribado
 33911,26/05,Lift Van Int. Co S.A,BMOU-104042-1,10077,DR,TD,************        ,253550660,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,14:38,2025-06-16,Fattah Nasir Bin,                    ,14:38 Arribado
