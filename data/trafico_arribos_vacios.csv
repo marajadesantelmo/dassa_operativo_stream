@@ -1,6 +1,9 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
+34031,02/06,Isischu Srl,-,0,  ,TD,                    ,340500019427,0,                              ,,     ,2025-06-17,Grlem25620/Isichu,340500019427        ,Pendiente
 33967,27/05,Mercovan Argentina Srl,HLBU-133858-0,0,DR,TD,***********         ,93674190,1,TRANSPORTE DEL CLIENTE        ,Golpe,12:19,2025-06-16,Crippen,93674190            ,12:19 Arribado
+34012,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
 34013,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
+34014,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
 34015,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
 34016,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
 34017,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
@@ -21,36 +24,38 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33994,27/05,Hdv Leather S.R.L.,MRSU-485325-0,10080,HC,TD,************        ,253484984,1,TRANSPORTES LEIRA-NO USAR     ,Muller,14:16,2025-06-17,,                    ,14:16 Arribado
 33995,27/05,Hdv Leather S.R.L.,MSKU-973985-1,10080,HC,TD,***********         ,253484984,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,14:18,2025-06-17,,                    ,14:18 Arribado
 33996,27/05,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,253484984,0,                              ,,     ,2025-06-17,,                    ,Pendiente
-34012,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
-34020,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
-34014,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
-34018,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
-33888,27/05,Hilado Sa,CSNU-826385-2,10076,HC,TD,**************      ,COSU6419343070,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,15:13,2025-06-13,Cosu6419343070,25001EC01           ,15:13 Arribado
 34019,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
+34018,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
+34020,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
+34004,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
+34005,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
+33888,27/05,Hilado Sa,CSNU-826385-2,10076,HC,TD,**************      ,COSU6419343070,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,15:13,2025-06-13,Cosu6419343070,25001EC01           ,15:13 Arribado
 33887,27/05,Hilado Sa,TIIU-573443-9,10076,HC,TD,**********          ,COSU6419343070,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,15:00,2025-06-13,Cosu6419343070,25001EC01032215A    ,15:00 Arribado
 33886,27/05,Hilado Sa,CSLU-606757-6,10076,HC,TD,***************     ,COSU6419343070,1,TRANSPORTE DEL CLIENTE        ,Bertoli,14:58,2025-06-13,Cosu6419343070,25001EC01032215A    ,14:58 Arribado
-33885,27/05,Hilado Sa,CCLU-785652-0,10076,HC,TD,************        ,COSU6419343070,1,TRANSPORTE DEL CLIENTE        ,Moscardini,14:57,2025-06-13,Cosu6419343070,25001EC01032215A    ,14:57 Arribado
-33958,27/05,Henn Y Cia S.R.L.,MSBU-684771-5,9,HC,TD,FX32974840          ,EBKG12934944,1,TRANSPORTE DEL CLIENTE        ,Peril,08:27,2025-06-16,Ebkg12934944,EBKG12934944        ,08:27 Arribado
 33957,27/05,Henn Y Cia S.R.L.,FFAU-224614-6,9,HC,TD,FX32985907          ,EBKG12934944,1,TRANSPORTES LEIRA-NO USAR     ,Muller,16:52,2025-06-16,Ebkg12934944,EBKG12934944        ,16:52 Arribado
+33885,27/05,Hilado Sa,CCLU-785652-0,10076,HC,TD,************        ,COSU6419343070,1,TRANSPORTE DEL CLIENTE        ,Moscardini,14:57,2025-06-13,Cosu6419343070,25001EC01032215A    ,14:57 Arribado
+34000,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
 34001,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
 34002,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
 34003,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
-34004,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
-34005,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
-34000,27/05,Borax Argentina S A,-,10077,DR,TD,                    ,253131960,0,                              ,,     ,2025-06-17,,                    ,Pendiente
-33973,28/05,Isischu Srl,-,0,  ,TD,                    ,EBKG12937679,0,                              ,,     ,2025-06-17,,EBKG12937679        ,Pendiente
+33958,27/05,Henn Y Cia S.R.L.,MSBU-684771-5,9,HC,TD,FX32974840          ,EBKG12934944,1,TRANSPORTE DEL CLIENTE        ,Peril,08:27,2025-06-16,Ebkg12934944,EBKG12934944        ,08:27 Arribado
 33980,28/05,Placas Rivadavia S.R.L.,-,0,  ,TD,                    ,26779023,0,                              ,,     ,2025-06-17,,26779023            ,Pendiente
-33981,28/05,Placas Rivadavia S.R.L.,-,0,  ,TD,                    ,26779023,0,                              ,,     ,2025-06-17,,26779023            ,Pendiente
+33976,28/05,Laharrague Chodorge Sociedad A...,TGBU-584735-4,9,HC,TD,FX32980248          ,153IAR0648785,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,14:41,2025-06-17,,153IAR0648785       ,14:41 Arribado
 33972,28/05,Isischu Srl,-,0,  ,TD,                    ,EBKG12937679,0,                              ,,     ,2025-06-17,,EBKG12937679        ,Pendiente
-33977,28/05,Laharrague Chodorge Sociedad A...,-,0,  ,TD,                    ,153IAR0648785,0,                              ,,     ,2025-06-17,,153IAR0648785       ,Pendiente
-33978,28/05,Asecor Srl,DAYU-611257-8,10080,HC,TD,************        ,22136841,1,TRANSPORTE DEL CLIENTE        ,Bertoli,11:43,2025-06-17,,22136841            ,11:43 Arribado
+33973,28/05,Isischu Srl,-,0,  ,TD,                    ,EBKG12937679,0,                              ,,     ,2025-06-17,,EBKG12937679        ,Pendiente
+33981,28/05,Placas Rivadavia S.R.L.,-,0,  ,TD,                    ,26779023,0,                              ,,     ,2025-06-17,,26779023            ,Pendiente
+33977,28/05,Laharrague Chodorge Sociedad A...,MSNU-658740-4,9,HC,TD,FX-32985881         ,153IAR0648785,1,TRANSPORTE DEL CLIENTE        ,Porco,15:00,2025-06-17,,153IAR0648785       ,15:00 Arribado
 33974,28/05,Isischu Srl,-,0,  ,TD,                    ,EBKG12937679,0,                              ,,     ,2025-06-17,,EBKG12937679        ,Pendiente
-33975,28/05,Isischu Srl,-,0,  ,TD,                    ,EBKG12937679,0,                              ,,     ,2025-06-17,,EBKG12937679        ,Pendiente
+33983,28/05,Placas Rivadavia S.R.L.,-,0,  ,TD,                    ,26779023,0,                              ,,     ,2025-06-17,,26779023            ,Pendiente
+33978,28/05,Asecor Srl,DAYU-611257-8,10080,HC,TD,************        ,22136841,1,TRANSPORTE DEL CLIENTE        ,Bertoli,11:43,2025-06-17,,22136841            ,11:43 Arribado
 33979,28/05,Asecor Srl,HLBU-218969-1,10080,HC,TD,**********          ,22136841,1,TRANSPORTES LEIRA-NO USAR     ,Muller,12:25,2025-06-17,,22136841            ,12:25 Arribado
 34022,28/05,Pallets Nef De Raul E. Fernand...,-,9,HC,TD,                    ,EBKG12970968,0,                              ,,     ,2025-06-17,,                    ,Pendiente
 34023,28/05,Pallets Nef De Raul E. Fernand...,-,9,HC,TD,                    ,EBKG12970968,0,                              ,,     ,2025-06-17,,                    ,Pendiente
 33982,28/05,Placas Rivadavia S.R.L.,-,0,  ,TD,                    ,26779023,0,                              ,,     ,2025-06-17,,26779023            ,Pendiente
-33976,28/05,Laharrague Chodorge Sociedad A...,TGBU-584735-4,9,HC,TD,FX32980248          ,153IAR0648785,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,14:41,2025-06-17,,153IAR0648785       ,14:41 Arribado
-33983,28/05,Placas Rivadavia S.R.L.,-,0,  ,TD,                    ,26779023,0,                              ,,     ,2025-06-17,,26779023            ,Pendiente
-34031,29/05,Isischu Srl,-,0,  ,TD,                    ,340500019427,0,                              ,,     ,2025-06-17,Grlem25620/Isichu,340500019427        ,Pendiente
+33975,28/05,Isischu Srl,-,0,  ,TD,                    ,EBKG12937679,0,                              ,,     ,2025-06-17,,EBKG12937679        ,Pendiente
+34037,29/05,Isischu Srl,-,0,  ,TD,                    ,340500019257,0,                              ,,     ,2025-06-17,Grlem25615/Isischu,340500019257        ,Pendiente
+34038,29/05,Isischu Srl,-,0,  ,TD,                    ,340500019257,0,                              ,,     ,2025-06-17,Grlem25615/Isischu,340500019257        ,Pendiente
 33998,29/05,Lawter Argentina S.A.,-,0,  ,TD,                    ,EBKG12996784,0,                              ,,     ,2025-06-17,4700167487,EBKG12996784        ,Pendiente
+34040,29/05,Isischu Srl,-,0,  ,TD,                    ,340500019257,0,                              ,,     ,2025-06-17,Grlem25615/Isischu,340500019257        ,Pendiente
+34041,29/05,Isischu Srl,-,0,  ,TD,                    ,340500019257,0,                              ,,     ,2025-06-17,Grlem25615/Isischu,340500019257        ,Pendiente
+34039,29/05,Isischu Srl,-,0,  ,TD,                    ,340500019257,0,                              ,,     ,2025-06-17,Grlem25615/Isischu,340500019257        ,Pendiente
