@@ -1,15 +1,15 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 34031,02/06,Isischu Srl,-,0,  ,TD,                    ,340500019427,0,                              ,,     ,2025-06-17,Grlem25620/Isichu,340500019427        ,Pendiente
 34057,28/05,Lift Van Int. Co S.A,-,0,  ,TD,                    ,25001PER1000211P,1,TRANSPORTE DEL CLIENTE        ,Pablo Ferrara,18:19,2025-06-17,Mateo Moral Figueroa,                    ,18:19 Arribado
-33981,28/05,Placas Rivadavia S.R.L.,-,0,  ,TD,                    ,26779023,0,                              ,,     ,2025-06-17,,26779023            ,Pendiente
-33980,28/05,Placas Rivadavia S.R.L.,BSIU-820743-4,10080,HC,TD,************        ,26779023,0,                              ,,     ,2025-06-17,,26779023            ,Pendiente
+33981,28/05,Placas Rivadavia S.R.L.,HAMU-290770-0,10080,HC,TD,***********         ,26779023,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:08,2025-06-17,,26779023            ,10:08 Arribado
+33980,28/05,Placas Rivadavia S.R.L.,BSIU-820743-4,10080,HC,TD,************        ,26779023,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,10:05,2025-06-17,,26779023            ,10:05 Arribado
 33977,28/05,Laharrague Chodorge Sociedad A...,MSNU-742716-5,9,HC,TD,FX-32985890         ,153IAR0648785,1,TRANSPORTE DEL CLIENTE        ,Alvarez Adrian,15:00,2025-06-17,,153IAR0648785       ,15:00 Arribado
 33976,28/05,Laharrague Chodorge Sociedad A...,TGBU-584735-4,9,HC,TD,FX32980248          ,153IAR0648785,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,14:41,2025-06-17,,153IAR0648785       ,14:41 Arribado
 34059,28/05,Henn Y Cia S.R.L.,CAAU-521501-6,10076,HC,TD,***************     ,340500018952,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,08:19,2025-06-18,,                    ,08:19 Arribado
 34023,28/05,Pallets Nef De Raul E. Fernand...,-,9,HC,TD,                    ,EBKG12970968,0,                              ,,     ,2025-06-17,,                    ,Pendiente
 34022,28/05,Pallets Nef De Raul E. Fernand...,-,9,HC,TD,                    ,EBKG12970968,0,                              ,,     ,2025-06-17,,                    ,Pendiente
 33979,28/05,Asecor Srl,HLBU-218969-1,10080,HC,TD,**********          ,22136841,1,TRANSPORTES LEIRA-NO USAR     ,Muller,12:25,2025-06-17,,22136841            ,12:25 Arribado
-33982,28/05,Placas Rivadavia S.R.L.,-,0,  ,TD,                    ,26779023,0,                              ,,     ,2025-06-17,,26779023            ,Pendiente
+33982,28/05,Placas Rivadavia S.R.L.,FANU-103173-8,10080,HC,TD,***********         ,26779023,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,10:10,2025-06-17,,26779023            ,10:10 Arribado
 33978,28/05,Asecor Srl,DAYU-611257-8,10080,HC,TD,************        ,22136841,1,TRANSPORTE DEL CLIENTE        ,Bertoli,11:43,2025-06-17,,22136841            ,11:43 Arribado
 33975,28/05,Isischu Srl,-,0,  ,TD,                    ,EBKG12937679,0,                              ,,     ,2025-06-17,,EBKG12937679        ,Pendiente
 33974,28/05,Isischu Srl,-,0,  ,TD,                    ,EBKG12937679,0,                              ,,     ,2025-06-17,,EBKG12937679        ,Pendiente
