@@ -9,6 +9,8 @@ def highlight(row):
         return ['background-color: darkgreen; color: black' for _ in row]
     elif "En curso" in row['Estado']:
         return ['background-color: darkgoldenrod; color: black' for _ in row]
+    elif 'Balanza' in row and 'Entrada' in str(row['Balanza']):
+        return ['background-color: darkgoldenrod; color: black' for _ in row]
     elif row['Estado'] == "Vacio":
         return ['background-color: #be1e2d; color: black' for _ in row]
     elif "Arribado" in row['Estado']:
