@@ -32,6 +32,7 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
     if not saldos_clientes_vendedor.empty:
         email_content += f"""
         <h3>Saldos vencidos</h3>
+        <h3>Facturas vencidas emitidas en los últimos 365 días</h4>
         {saldos_clientes_vendedor.to_html(index=False, border=0, justify='left')}
         """
 
@@ -147,7 +148,18 @@ for vendedor in vendedores:
     saldos_clientes_vendedor = transformar_saldos(saldos_clientes_vendedor)
     saldos_clientes_vendedor.sort_values(by=['Dias'], ascending=False, inplace=True)
     saldos_clientes_vendedor = saldos_clientes_vendedor[(saldos_clientes_vendedor['Dias'] > 0) & (saldos_clientes_vendedor['Dias'] < 365)]
-    saldos_clientes_vendedor = formato_saldos(saldos_clientes_vendedor)
+    # Aggregate saldos by Cliente: sum Saldo, get max Dias, min Vencimiento
+    saldos_clientes_vendedor_agregado = (
+        saldos_clientes_vendedor
+        .groupby('Cliente', as_index=False)
+        .agg({
+            'Saldo': 'sum',
+            'Dias': 'max',
+            'Vencimiento': 'min'
+        })
+    )
+    # Format Saldo column again for display
+    saldos_clientes_vendedor_agregado = formato_saldos(saldos_clientes_vendedor_agregado)
 
     # Check if there are operations
     if any(not df.empty for df in operations.values()):
