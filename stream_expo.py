@@ -12,6 +12,7 @@ def fetch_data_expo():
     otros_expo = pd.read_csv('data/otros_expo.csv')
     otros_expo = otros_expo[otros_expo['Dia'] != '-']
     remisiones = pd.read_csv('data/remisiones.csv')
+    remisiones['e-tally'] = remisiones['e-tally'].fillna("")
     pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
     listos_para_remitir['e-tally'] = listos_para_remitir['e-tally'].fillna("")
@@ -89,7 +90,9 @@ def show_page_expo():
         with col4_metric2:
             remisiones_realizadas= remisiones[(remisiones['Estado'].str.contains('Realizado'))].shape[0]
             st.metric(label="Realizadas", value=remisiones_realizadas)
-        st.dataframe(remisiones.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+        st.dataframe(remisiones.style.apply(highlight, axis=1), 
+                     column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
+                     hide_index=True, use_container_width=True)
         if not otros_expo.empty:
             st.subheader("Otros")
             st.dataframe(otros_expo.style, hide_index=True, use_container_width=True)
