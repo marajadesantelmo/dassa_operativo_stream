@@ -11,6 +11,7 @@ def fetch_data_impo():
     verificaciones_impo = pd.read_csv('data/verificaciones_impo.csv')
     retiros_impo = pd.read_csv('data/retiros_impo.csv')
     retiros_impo['e-tally'] = retiros_impo['e-tally'].fillna("")
+    retiros_impo['Salida'] = retiros_impo['Salida'].fillna("")
     otros_impo = pd.read_csv('data/otros_impo.csv')
     otros_impo = otros_impo[otros_impo['Dia'] != '-']
     existente_plz = pd.read_csv('data/existente_plz.csv')
@@ -64,8 +65,8 @@ def show_page_impo():
     with col4:
         st.subheader("Retiros")
         st.dataframe(retiros_impo.style.apply(highlight, axis=1), 
-                    column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
-                 #   column_config={'Salida': st.column_config.LinkColumn('Salida', display_text="\U0001F517",)},
+                    column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",), 
+                                    'Salida': st.column_config.LinkColumn('Salida', display_text="\U0001F517",)},
                     hide_index=True, use_container_width=True)
     
     st.markdown("<hr>", unsafe_allow_html=True)
