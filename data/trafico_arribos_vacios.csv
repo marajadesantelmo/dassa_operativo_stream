@@ -6,8 +6,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 34168,02/06,Virasoro Maderas S R L,-,0,  ,TD,                    ,254129409,0,                              ,,     ,2025-06-20,254129409,254129409           ,Pendiente
 34101,02/06,Lawter Argentina S.A.,-,10080,DR,TD,                    ,253934352,0,                              ,,     ,2025-06-18,,                    ,Pendiente
 34100,02/06,Lawter Argentina S.A.,-,10080,DR,TD,                    ,253934352,0,                              ,,     ,2025-06-18,,                    ,Pendiente
-34099,02/06,Lawter Argentina S.A.,-,10080,DR,TD,                    ,253934352,0,                              ,,     ,2025-06-18,,                    ,Pendiente
-34098,02/06,Lawter Argentina S.A.,-,10080,DR,TD,                    ,253934352,0,                              ,,     ,2025-06-18,,                    ,Pendiente
+34099,02/06,Lawter Argentina S.A.,MRKU-077087-5,10080,DR,TD,***********         ,253934352,1,TRANSPORTE DEL CLIENTE        ,Fernandez,10:45,2025-06-18,,                    ,10:45 Arribado
+34098,02/06,Lawter Argentina S.A.,MRKU-106651-5,10080,DR,TD,***********         ,253934352,1,TRANSPORTES LEIRA-NO USAR     ,Muller,10:38,2025-06-18,,                    ,10:38 Arribado
 34182,02/06,Hdv Leather S.R.L.,TRHU-850170-7,10080,HC,TD,*********           ,254494321,1,TRANSPORTE DEL CLIENTE        ,Alvarez,09:06,2025-06-20,,                    ,09:06 Arribado
 34097,02/06,Lawter Argentina S.A.,MRKU-078832-3,10080,DR,TD,***********         ,253934352,1,TRANSPORTE DEL CLIENTE        ,Lamberto,10:34,2025-06-18,,                    ,10:34 Arribado
 34095,02/06,Lawter Argentina S.A.,MRKU-046375-5,10080,DR,TD,************        ,253934352,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,09:51,2025-06-18,,                    ,09:51 Arribado
@@ -17,7 +17,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 33816,02/06,Mader Zu S.R.L.,MSMU-681586-1,Exolgan,HC,TD,FX32973508          ,EBKG12899876,1,TRANSPORTE DEL CLIENTE        ,Bertoli,10:00,2025-06-12,Grlem25586/Maderzu,EBKG12899876        ,10:00 Arribado
 34204,02/06,Pelama Chubut S.A.,DFSU-741706-8,10080,HC,TD,************        ,10054948,1,TRANSPORTE DEL CLIENTE        ,Peril,09:47,2025-06-17,,                    ,09:47 Arribado
 34180,02/06,Minera Santa Rita Srl,-,10080,DR,TD,                    ,254254288,0,                              ,,     ,2025-06-20,,                    ,Pendiente
-34179,02/06,Minera Santa Rita Srl,-,10080,DR,TD,                    ,254254288,0,                              ,,     ,2025-06-20,,                    ,Pendiente
+34179,02/06,Minera Santa Rita Srl,MRKU-067311-3,10080,DR,TD,**************      ,254254288,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,10:35,2025-06-20,,                    ,10:35 Arribado
 34096,02/06,Lawter Argentina S.A.,SUDU-530092-5,10080,DR,TD,**************      ,253934352,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,10:10,2025-06-18,,                    ,10:10 Arribado
 34183,02/06,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,253932326,0,                              ,,     ,2025-06-20,,                    ,Pendiente
 34217,04/06,Forestal Y Ganadera Indumarca ...,-,0,  ,TD,                    ,BUEF06582700,0,                              ,,     ,2025-06-20,Grlae2582 /Buef06582700,25001EC01           ,Pendiente
