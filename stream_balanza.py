@@ -13,11 +13,11 @@ def fetch_data_balanza():
     balanza_impo = balanza[balanza['tipo_oper'] == 'Importacion']
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
     columns_impo = ['ID Pesada', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
-       'Peso Neto', 'Tara CNT', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 
-       'Booking', 'Precinto', 'Estado']
+       'Peso Neto', 'Tara CNT', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI',
+       'Booking', 'Precinto', 'Tipo Doc', 'Estado']
     columns_expo = ['ID Pesada', 'Cliente', 'ATA',  'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
-       'Peso Neto', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Observaciones',
-       'Booking', 'Permiso Emb.', 'Estado']
+       'Peso Neto', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI', 'Observaciones',
+       'Booking', 'Permiso Emb.', 'Tipo Doc', 'Estado']
     balanza_impo = balanza_impo[columns_impo]
     balanza_expo = balanza_expo[columns_expo]
     balanza_impo = balanza_impo.sort_values(by='Estado', ascending=True)
@@ -26,11 +26,11 @@ def fetch_data_balanza():
     balanza_historico_impo = balanza_historico[balanza_historico['tipo_oper'] == 'Importacion']
     balanza_historico_expo = balanza_historico[balanza_historico['tipo_oper'] == 'Exportacion']
     columns_impo_historico = ['ID Pesada', 'Fecha', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
-       'Peso Neto', 'Tara CNT', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 
-       'Booking', 'Precinto', 'Estado']
+       'Peso Neto', 'Tara CNT', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI',
+       'Booking', 'Precinto', 'Tipo Doc', 'Estado']
     columns_expo_historico = ['ID Pesada', 'Fecha', 'Cliente', 'ATA',  'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
-       'Peso Neto', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'Observaciones',
-       'Booking', 'Permiso Emb.', 'Estado']
+       'Peso Neto', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI', 'Observaciones',
+       'Booking', 'Permiso Emb.', 'Tipo Doc', 'Estado']
     balanza_historico_impo = balanza_historico_impo[columns_impo_historico]
     balanza_historico_expo = balanza_historico_expo[columns_expo_historico]
     balanza_historico_impo = balanza_historico_impo.sort_values(by='Estado', ascending=True)
