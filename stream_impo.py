@@ -65,7 +65,7 @@ def show_page_impo():
 
     with col4:
         st.subheader("Retiros")
-        retiros_impo_ctn = retiros_impo[retiros_impo['Envase'] == "Contenedor"].dropna(columns=['Envase'])
+        retiros_impo_ctn = retiros_impo[retiros_impo['Envase'] == "Contenedor"].drop(columns=['Envase'])
         retiros_impo_carga = retiros_impo[retiros_impo['Envase'] != "Contenedor"]
         st.write("Contenedores")
         st.dataframe(retiros_impo_ctn.style.apply(highlight, axis=1), 
