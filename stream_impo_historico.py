@@ -9,7 +9,7 @@ def fetch_data_impo_historico():
     historico_retiros_impo['e-tally'] = historico_retiros_impo['e-tally'].fillna("")
     historico_verificaciones_impo = pd.read_csv('data/historico_verificaciones_impo.csv')
     historico_verificaciones_impo['e-tally'] = historico_verificaciones_impo['e-tally'].fillna("")
-    return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo
+    return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo
 
 def filter_data(data, cliente, start_date, end_date, date_column):
     if cliente == "Todos los clientes":
@@ -25,7 +25,7 @@ def filter_data(data, cliente, start_date, end_date, date_column):
     return filtered_data
 
 def show_page_impo_historico():
-    arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo = fetch_data_impo_historico()
+    arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo = fetch_data_impo_historico()
     arribos_impo_historico['Fecha'] = pd.to_datetime(arribos_impo_historico['Fecha'])
     historico_retiros_impo['Dia'] = pd.to_datetime(historico_retiros_impo['Dia'])
     historico_verificaciones_impo['Dia'] = pd.to_datetime(historico_verificaciones_impo['Dia'])
