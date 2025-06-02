@@ -18,11 +18,12 @@ def fetch_data_impo():
     existente_plz['e-tally'] = existente_plz['e-tally'].fillna("")
     existente_alm = pd.read_csv('data/existente_alm.csv')
     existente_alm['e-tally'] = existente_alm['e-tally'].fillna("")
-    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm
+    ultima_actualizacion = pd.read_csv('data/ultima_actualizacion.csv')
+    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, ultima_actualizacion
 
 def show_page_impo():
     # Load data
-    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm = fetch_data_impo()
+    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, ultima_actualizacion = fetch_data_impo()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -30,6 +31,9 @@ def show_page_impo():
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Operaciones de IMPO a partir del {current_day}")
+
+    # Show last update info
+    st.info(f"🕒 Última actualización: **{ultima_actualizacion}**", icon="ℹ️")
 
     col1, col2 = st.columns(2)
 
