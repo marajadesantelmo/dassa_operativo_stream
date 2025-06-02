@@ -29,8 +29,7 @@ def show_page_impo_historico():
     arribos_impo_historico['Fecha'] = pd.to_datetime(arribos_impo_historico['Fecha'])
     historico_retiros_impo['Dia'] = pd.to_datetime(historico_retiros_impo['Dia'])
     historico_verificaciones_impo['Dia'] = pd.to_datetime(historico_verificaciones_impo['Dia'])
-    historico_otros_impo['Dia'] = pd.to_datetime(historico_otros_impo['Dia'])
-    
+
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
         st.image('logo.png')
