@@ -87,7 +87,10 @@ def show_page_impo():
                                                                     display_text="\U0001F517",)},
                 hide_index=True, use_container_width=True)
     st.markdown("<hr>", unsafe_allow_html=True)
-    st.info(f"🕒 Última actualización: **{ultima_actualizacion}**", icon="ℹ️")
+    # Mostrar la última actualización en formato español
+
+    st.info(f"🕒 Última actualización: {ultima_actualizacion['hora'][0]}", icon="ℹ️")
+
     st.markdown("<hr>", unsafe_allow_html=True)
 
 # Run the show_page function
