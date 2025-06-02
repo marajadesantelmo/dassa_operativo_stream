@@ -11,6 +11,7 @@ st.set_page_config(page_title="Balanza Operativa", layout="wide")
 def fetch_data_balanza():
     balanza = pd.read_csv('data/balanza.csv') # Me quedo con la info de balanza completa para generar comprobante
     balanza['DNI'] = balanza['DNI'].fillna('-').astype(str).str.replace('.0', '', regex=False)
+    balanza = balanza.fillna("-")
     balanza_impo = balanza[balanza['tipo_oper'] == 'Importacion']
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
     columns_impo = ['ID Pesada', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
@@ -24,6 +25,8 @@ def fetch_data_balanza():
     balanza_impo = balanza_impo.sort_values(by='Estado', ascending=True)
     balanza_expo = balanza_expo.sort_values(by='Estado', ascending=True)
     balanza_historico = pd.read_csv('data/historico_balanza.csv')
+    balanza_historico['DNI'] = balanza_historico['DNI'].fillna('-').astype(str).str.replace('.0', '', regex=False)
+    balanza_historico = balanza_historico.fillna("-")
     balanza_historico_impo = balanza_historico[balanza_historico['tipo_oper'] == 'Importacion']
     balanza_historico_expo = balanza_historico[balanza_historico['tipo_oper'] == 'Exportacion']
     columns_impo_historico = ['ID Pesada', 'Fecha', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
