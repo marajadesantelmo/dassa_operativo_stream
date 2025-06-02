@@ -18,11 +18,12 @@ def fetch_data_expo():
     listos_para_remitir['e-tally'] = listos_para_remitir['e-tally'].fillna("")
     vacios_disponibles = pd.read_csv('data/vacios_disponibles.csv')
     a_consolidar = pd.read_csv('data/a_consolidar.csv')
-    return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, pendiente_consolidar, listos_para_remitir, vacios_disponibles, a_consolidar
+    ultima_actualizacion = pd.read_csv('data/ultima_actualizacion.csv')
+    return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, pendiente_consolidar, listos_para_remitir, vacios_disponibles, a_consolidar, ultima_actualizacion
     
 def show_page_expo():
     # Load data
-    arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, pendiente_consolidar, listos_para_remitir, vacios_disponibles, a_consolidar = fetch_data_expo()
+    arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, pendiente_consolidar, listos_para_remitir, vacios_disponibles, a_consolidar, ultima_actualizacion = fetch_data_expo()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
@@ -31,10 +32,8 @@ def show_page_expo():
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Operaciones de EXPO a partir del {current_day}")
 
-    # Create two columns
+    
     col1, col2 = st.columns(2)
-
-    # Column 1: Arribos
     with col1:
         col1_sub, col1_metric, col1_metric2 = st.columns([6, 1, 1])
         with col1_sub:
@@ -50,9 +49,6 @@ def show_page_expo():
             st.metric(label="Arribados", value=carga_arribada)
         st.dataframe(arribos_expo_carga.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
-
-
-    # Column 2: Pendiente Desconsolidar
     with col2:
         co2_sub, col2_metric1, col2_metric2 = st.columns([6, 1, 1])
         with co2_sub:
@@ -112,6 +108,10 @@ def show_page_expo():
     with col6:
         st.subheader("Vacios Disponibles")
         st.dataframe(vacios_disponibles, hide_index=True, use_container_width=True)
+
+    st.markdown("<hr>", unsafe_allow_html=True)
+    st.info(f"🕒 Última actualización: {ultima_actualizacion['hora'][0]}", icon="ℹ️")
+    st.markdown("<hr>", unsafe_allow_html=True)
 
 if __name__ == "__main__":
     while True:
