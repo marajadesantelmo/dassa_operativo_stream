@@ -1,39 +1,51 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 33903,02/06,Mercovan Argentina Srl,TCLU-246894-0,10076,DR,TD,*************       ,253811924,1,TRANSPORTE DEL CLIENTE        ,Alvarez,17:15,2025-06-13,,                    ,17:15 Arribado
+34240,02/06,Borax Argentina S A,-,10077,DR,TD,                    ,254651581,0,                              ,,     ,2025-06-23,,                    ,Pendiente
+34241,02/06,Borax Argentina S A,-,10077,DR,TD,                    ,254651581,0,                              ,,     ,2025-06-23,,                    ,Pendiente
+34095,02/06,Lawter Argentina S.A.,MRKU-046375-5,10080,DR,TD,************        ,253934352,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,09:51,2025-06-18,,                    ,09:51 Arribado
+34096,02/06,Lawter Argentina S.A.,SUDU-530092-5,10080,DR,TD,**************      ,253934352,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,10:10,2025-06-18,,                    ,10:10 Arribado
+34097,02/06,Lawter Argentina S.A.,MRKU-078832-3,10080,DR,TD,***********         ,253934352,1,TRANSPORTE DEL CLIENTE        ,Lamberto,10:34,2025-06-18,,                    ,10:34 Arribado
 34098,02/06,Lawter Argentina S.A.,MRKU-106651-5,10080,DR,TD,***********         ,253934352,1,TRANSPORTES LEIRA-NO USAR     ,Muller,10:38,2025-06-18,,                    ,10:38 Arribado
 34099,02/06,Lawter Argentina S.A.,MRKU-077087-5,10080,DR,TD,***********         ,253934352,1,TRANSPORTE DEL CLIENTE        ,Fernandez,10:45,2025-06-18,,                    ,10:45 Arribado
 34100,02/06,Lawter Argentina S.A.,MSKU-669360-7,10080,DR,TD, *************      ,253934352,1,TRANSPORTE DEL CLIENTE        ,Fernandez,12:20,2025-06-18,,                    ,12:20 Arribado
 34101,02/06,Lawter Argentina S.A.,MRKU-050855-1,10080,DR,TD,************        ,253934352,1,TRANSPORTE DEL CLIENTE        ,Lamberto,12:34,2025-06-18,,                    ,12:34 Arribado
 34249,02/06,Aj Comercio Exterior Srl,-,0,  ,TD,                    ,25001EC01034007B,1,TRANSPORTE DEL CLIENTE        ,.,14:53,2025-06-23,,                    ,14:53 Arribado
 34250,02/06,Aj Comercio Exterior Srl,-,0,  ,TD,                    ,25001EC01034007B,1,TRANSPORTE DEL CLIENTE        ,.,14:53,2025-06-23,,                    ,14:53 Arribado
-34097,02/06,Lawter Argentina S.A.,MRKU-078832-3,10080,DR,TD,***********         ,253934352,1,TRANSPORTE DEL CLIENTE        ,Lamberto,10:34,2025-06-18,,                    ,10:34 Arribado
 34168,02/06,Virasoro Maderas S R L,-,0,  ,TD,                    ,254129409,0,                              ,,     ,2025-06-20,254129409,254129409           ,Pendiente
+34247,02/06,Adp Trading Srl,-,0,  ,TD,                    ,25001EC01034370E,1,TRANSPORTE DEL CLIENTE        ,.,14:52,2025-06-23,,                    ,14:52 Arribado
 34248,02/06,Adp Trading Srl,-,0,  ,TD,                    ,25001EC01034370E,1,TRANSPORTE DEL CLIENTE        ,.,14:52,2025-06-23,,                    ,14:52 Arribado
 34149,02/06,Conextube Sa,CMAU-785951-7,10074,HC,TD,R1955823            ,BUA0342770,1,TRANSPORTE DEL CLIENTE        ,Bertoli,12:16,2025-06-19,Bua0342770,BUA0342770          ,12:16 Arribado
 34150,02/06,Conextube Sa,-,0,  ,TD,                    ,BUA0342770,0,                              ,,     ,2025-06-19,Bua0342770,BUA0342770          ,Pendiente
 34181,02/06,Hdv Leather S.R.L.,SUDU-588623-0,10080,HC,TD,************        ,254494321,1,TRANSPORTES LEIRA-NO USAR     ,Muller,08:52,2025-06-20,,                    ,08:52 Arribado
 34182,02/06,Hdv Leather S.R.L.,TRHU-850170-7,10080,HC,TD,*********           ,254494321,1,TRANSPORTE DEL CLIENTE        ,Alvarez,09:06,2025-06-20,,                    ,09:06 Arribado
 34183,02/06,Hdv Leather S.R.L.,PONU-824401-4,10080,HC,TD,***********         ,253932326,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,12:02,2025-06-20,,                    ,12:02 Arribado
-34247,02/06,Adp Trading Srl,-,0,  ,TD,                    ,25001EC01034370E,1,TRANSPORTE DEL CLIENTE        ,.,14:52,2025-06-23,,                    ,14:52 Arribado
-34095,02/06,Lawter Argentina S.A.,MRKU-046375-5,10080,DR,TD,************        ,253934352,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,09:51,2025-06-18,,                    ,09:51 Arribado
-34096,02/06,Lawter Argentina S.A.,SUDU-530092-5,10080,DR,TD,**************      ,253934352,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,10:10,2025-06-18,,                    ,10:10 Arribado
+34238,02/06,Borax Argentina S A,GESU-108201-3,10077,DR,TD,***********         ,254651581,1,TRANSPORTE DEL CLIENTE        ,Ayala,16:39,2025-06-23,,                    ,16:39 Arribado
+34237,02/06,Borax Argentina S A,TEMU-141694-0,10077,DR,TD,**********          ,254651581,1,TRANSPORTE DEL CLIENTE        ,Sena,16:32,2025-06-23,,                    ,16:32 Arribado
+34239,02/06,Borax Argentina S A,MRKU-865556-4,10077,DR,TD,***********         ,254651581,1,TRANSPORTE DEL CLIENTE        ,Ayala,16:45,2025-06-23,,                    ,16:45 Arribado
+34235,02/06,Borax Argentina S A,MRKU-911801-9,10077,DR,TD,************        ,254651581,1,TRANSPORTE DEL CLIENTE        ,Galvan,16:31,2025-06-23,,                    ,16:31 Arribado
+34178,02/06,Minera Santa Rita Srl,MRKU-061212-3,10080,DR,TD,************        ,254254288,1,TRANSPORTE DEL CLIENTE        ,Fernandez,10:05,2025-06-20,,                    ,10:05 Arribado
+34234,02/06,Borax Argentina S A,MRKU-901766-7,10077,DR,TD,***********         ,254651581,1,TRANSPORTE DEL CLIENTE        ,Galvan,16:29,2025-06-23,,                    ,16:29 Arribado
 34228,02/06,Borax Argentina S A,MRKU-831496-9,10076,DR,TD,***********         ,254436571,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,08:59,2025-06-23,,                    ,08:59 Arribado
+34227,02/06,Borax Argentina S A,TEMU-132774-0,10076,DR,TD,**********          ,254436571,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,08:56,2025-06-23,,                    ,08:56 Arribado
+34179,02/06,Minera Santa Rita Srl,MRKU-067311-3,10080,DR,TD,**************      ,254254288,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,10:35,2025-06-20,,                    ,10:35 Arribado
+34180,02/06,Minera Santa Rita Srl,MRKU-041887-0,10080,DR,TD,**********          ,254254288,1,TRANSPORTE DEL CLIENTE        ,Cugat,11:59,2025-06-20,,                    ,11:59 Arribado
 34204,02/06,Pelama Chubut S.A.,DFSU-741706-8,10080,HC,TD,************        ,10054948,1,TRANSPORTE DEL CLIENTE        ,Peril,09:47,2025-06-17,,                    ,09:47 Arribado
 33816,02/06,Mader Zu S.R.L.,MSMU-681586-1,Exolgan,HC,TD,FX32973508          ,EBKG12899876,1,TRANSPORTE DEL CLIENTE        ,Bertoli,10:00,2025-06-12,Grlem25586/Maderzu,EBKG12899876        ,10:00 Arribado
-34178,02/06,Minera Santa Rita Srl,MRKU-061212-3,10080,DR,TD,************        ,254254288,1,TRANSPORTE DEL CLIENTE        ,Fernandez,10:05,2025-06-20,,                    ,10:05 Arribado
 34112,02/06,Gestion Forward S.R.L.,-,0,  ,TD,                    ,26766325,0,                              ,,     ,2025-06-18,,26766325            ,Pendiente
-34227,02/06,Borax Argentina S A,TEMU-132774-0,10076,DR,TD,**********          ,254436571,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,08:56,2025-06-23,,                    ,08:56 Arribado
-34241,02/06,Borax Argentina S A,-,10077,DR,TD,                    ,254651581,0,                              ,,     ,2025-06-23,,                    ,Pendiente
-34180,02/06,Minera Santa Rita Srl,MRKU-041887-0,10080,DR,TD,**********          ,254254288,1,TRANSPORTE DEL CLIENTE        ,Cugat,11:59,2025-06-20,,                    ,11:59 Arribado
-34179,02/06,Minera Santa Rita Srl,MRKU-067311-3,10080,DR,TD,**************      ,254254288,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,10:35,2025-06-20,,                    ,10:35 Arribado
-34235,02/06,Borax Argentina S A,MRKU-911801-9,10077,DR,TD,************        ,254651581,1,TRANSPORTE DEL CLIENTE        ,Galvan,16:31,2025-06-23,,                    ,16:31 Arribado
 34236,02/06,Borax Argentina S A,SUDU-746681-2,10077,DR,TD,***********         ,254651581,1,TRANSPORTE DEL CLIENTE        ,Sena,16:31,2025-06-23,,                    ,16:31 Arribado
-34237,02/06,Borax Argentina S A,TEMU-141694-0,10077,DR,TD,**********          ,254651581,1,TRANSPORTE DEL CLIENTE        ,Sena,16:32,2025-06-23,,                    ,16:32 Arribado
-34238,02/06,Borax Argentina S A,GESU-108201-3,10077,DR,TD,***********         ,254651581,1,TRANSPORTE DEL CLIENTE        ,Ayala,16:39,2025-06-23,,                    ,16:39 Arribado
-34239,02/06,Borax Argentina S A,MRKU-865556-4,10077,DR,TD,***********         ,254651581,1,TRANSPORTE DEL CLIENTE        ,Ayala,16:45,2025-06-23,,                    ,16:45 Arribado
-34240,02/06,Borax Argentina S A,-,10077,DR,TD,                    ,254651581,0,                              ,,     ,2025-06-23,,                    ,Pendiente
-34234,02/06,Borax Argentina S A,MRKU-901766-7,10077,DR,TD,***********         ,254651581,1,TRANSPORTE DEL CLIENTE        ,Galvan,16:29,2025-06-23,,                    ,16:29 Arribado
+34200,03/06,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,254362164,0,                              ,,     ,2025-06-20,254362164,25001EC03005656L    ,Pendiente
+34261,03/06,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,254362164,0,                              ,,     ,2025-06-20,254362164,25001EC03005656L    ,Pendiente
+34263,03/06,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,254362164,0,                              ,,     ,2025-06-20,254362164,25001EC03005656L    ,Pendiente
+34264,03/06,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,254362164,0,                              ,,     ,2025-06-20,254362164,25001EC03005656L    ,Pendiente
+34265,03/06,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,254362164,0,                              ,,     ,2025-06-20,254362164,25001EC03005656L    ,Pendiente
+34266,03/06,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,254362164,0,                              ,,     ,2025-06-20,254362164,25001EC03005656L    ,Pendiente
+34267,03/06,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,254362164,0,                              ,,     ,2025-06-20,254362164,25001EC03005656L    ,Pendiente
+34268,03/06,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,254362164,0,                              ,,     ,2025-06-20,254362164,25001EC03005656L    ,Pendiente
+34269,03/06,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,254362164,0,                              ,,     ,2025-06-20,254362164,25001EC03005656L    ,Pendiente
+34270,03/06,Hdv Leather S.R.L.,-,0,  ,TD,                    ,253436147,0,                              ,,     ,2025-06-23,253436147,253436147           ,Pendiente
+34262,03/06,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,254362164,0,                              ,,     ,2025-06-20,254362164,25001EC03005656L    ,Pendiente
+34271,03/06,Hdv Leather S.R.L.,-,0,  ,TD,                    ,253436147,0,                              ,,     ,2025-06-23,253436147,253436147           ,Pendiente
+34217,04/06,Forestal Y Ganadera Indumarca ...,-,0,  ,TD,                    ,BUEF06582700,0,                              ,,     ,2025-06-20,Grlae2582 /Buef06582700,25001EC01           ,Pendiente
 34245,04/06,Hdv Leather S.R.L.,-,10076,HC,TD,                    ,254651199,0,                              ,,     ,2025-06-23,,                    ,Pendiente
 34246,04/06,Hdv Leather S.R.L.,-,10076,HC,TD,                    ,254651199,0,                              ,,     ,2025-06-23,,                    ,Pendiente
-34217,04/06,Forestal Y Ganadera Indumarca ...,-,0,  ,TD,                    ,BUEF06582700,0,                              ,,     ,2025-06-20,Grlae2582 /Buef06582700,25001EC01           ,Pendiente
 34244,05/06,Virasoro Maderas S R L,-,0,  ,TD,                    ,BUEF06206700,0,                              ,,     ,2025-06-23,Buef06206700,BUEF06206700        ,Pendiente
