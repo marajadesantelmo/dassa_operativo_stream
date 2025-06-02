@@ -1,5 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-34178,02/06,Minera Santa Rita Srl,MRKU-061212-3,10080,DR,TD,************        ,254254288,0,                              ,,     ,2025-06-20,,                    ,Pendiente
+34178,02/06,Minera Santa Rita Srl,MRKU-061212-3,10080,DR,TD,************        ,254254288,1,TRANSPORTE DEL CLIENTE        ,Fernandez,10:05,2025-06-20,,                    ,10:05 Arribado
 34181,02/06,Hdv Leather S.R.L.,SUDU-588623-0,10080,HC,TD,************        ,254494321,1,TRANSPORTES LEIRA-NO USAR     ,Muller,08:52,2025-06-20,,                    ,08:52 Arribado
 34150,02/06,Conextube Sa,-,0,  ,TD,                    ,BUA0342770,0,                              ,,     ,2025-06-19,Bua0342770,BUA0342770          ,Pendiente
 34149,02/06,Conextube Sa,-,0,  ,TD,                    ,BUA0342770,0,                              ,,     ,2025-06-19,Bua0342770,BUA0342770          ,Pendiente
@@ -18,6 +18,6 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 34204,02/06,Pelama Chubut S.A.,DFSU-741706-8,10080,HC,TD,************        ,10054948,1,TRANSPORTE DEL CLIENTE        ,Peril,09:47,2025-06-17,,                    ,09:47 Arribado
 34180,02/06,Minera Santa Rita Srl,-,10080,DR,TD,                    ,254254288,0,                              ,,     ,2025-06-20,,                    ,Pendiente
 34179,02/06,Minera Santa Rita Srl,-,10080,DR,TD,                    ,254254288,0,                              ,,     ,2025-06-20,,                    ,Pendiente
-34096,02/06,Lawter Argentina S.A.,-,10080,DR,TD,                    ,253934352,0,                              ,,     ,2025-06-18,,                    ,Pendiente
+34096,02/06,Lawter Argentina S.A.,SUDU-530092-5,10080,DR,TD,**************      ,253934352,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,10:10,2025-06-18,,                    ,10:10 Arribado
 34183,02/06,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,253932326,0,                              ,,     ,2025-06-20,,                    ,Pendiente
 34217,04/06,Forestal Y Ganadera Indumarca ...,-,0,  ,TD,                    ,BUEF06582700,0,                              ,,     ,2025-06-20,Grlae2582 /Buef06582700,25001EC01           ,Pendiente
