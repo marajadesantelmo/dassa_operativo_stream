@@ -32,9 +32,6 @@ def show_page_impo():
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Operaciones de IMPO a partir del {current_day}")
 
-    # Show last update info
-    st.info(f"🕒 Última actualización: **{ultima_actualizacion}**", icon="ℹ️")
-
     col1, col2 = st.columns(2)
 
     with col1:
@@ -89,6 +86,9 @@ def show_page_impo():
                 column_config={'e-tally': st.column_config.LinkColumn('e-tally', 
                                                                     display_text="\U0001F517",)},
                 hide_index=True, use_container_width=True)
+    st.markdown("<hr>", unsafe_allow_html=True)
+    st.info(f"🕒 Última actualización: **{ultima_actualizacion}**", icon="ℹ️")
+    st.markdown("<hr>", unsafe_allow_html=True)
 
 # Run the show_page function
 if __name__ == "__main__":
