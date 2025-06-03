@@ -1,6 +1,7 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-34294,03/06,Lift Van Int. Co S.A,-,10077,DR,TD,                    ,254310061,0,                              ,,     ,2025-06-24,Daniel Viola,                    ,Pendiente
+34327,03/06,Henn Y Cia S.R.L.,-,TRP,DR,TD,                    ,340500020093,0,                              ,,     ,2025-06-24,,                    ,Pendiente
 34296,03/06,Borax Argentina S A,MRKU-721224-2,10077,DR,TD,***********         ,254658832,1,TRANSPORTE DEL CLIENTE        ,Meza,17:16,2025-06-24,Fc 12248,                    ,17:16 Arribado
+34326,03/06,Henn Y Cia S.R.L.,-,TRP,DR,TD,                    ,340500020093,0,                              ,,     ,2025-06-24,,                    ,Pendiente
 34269,03/06,Henn Y Cia S.R.L.,MRKU-208957-8,10080,HC,TD,***********         ,254362164,1,TRANSPORTE DEL CLIENTE        ,Avalos,15:45,2025-06-20,254362164,25001EC03005656L    ,15:45 Arribado
 34268,03/06,Henn Y Cia S.R.L.,SUDU-887090-0,10080,HC,TD,***********         ,254362164,1,TRANSPORTE DEL CLIENTE        ,Peril,15:44,2025-06-20,254362164,25001EC03005656L    ,15:44 Arribado
 34267,03/06,Henn Y Cia S.R.L.,MRKU-444714-0,10080,HC,TD,**********          ,254362164,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,13:47,2025-06-20,254362164,25001EC03005656L    ,13:47 Arribado
@@ -11,7 +12,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 34262,03/06,Henn Y Cia S.R.L.,MRKU-615429-1,10080,HC,TD,***********         ,254362164,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,09:35,2025-06-20,254362164,25001EC03005656L    ,09:35 Arribado
 34261,03/06,Henn Y Cia S.R.L.,MSKU-908701-2,10080,HC,TD,***********         ,254362164,1,TRANSPORTE DEL CLIENTE        ,Alvarez,09:12,2025-06-20,254362164,25001EC03005656L    ,09:12 Arribado
 34200,03/06,Henn Y Cia S.R.L.,PONU-730073-0,10080,HC,TD,**********          ,254362164,1,TRANSPORTE DEL CLIENTE        ,Peril,08:49,2025-06-20,254362164,25001EC03005656L    ,08:49 Arribado
-34295,03/06,Lift Van Int. Co S.A,-,10077,DR,TD,                    ,254184165,0,                              ,,     ,2025-06-24,Marisol Viña,                    ,Pendiente
+34295,03/06,Lift Van Int. Co S.A,MSKU-760704-9,10077,DR,TD,****************    ,254184165,1,TRANSPORTE DEL CLIENTE        ,Lamberto,17:49,2025-06-24,Marisol Viña,                    ,17:49 Arribado
+34294,03/06,Lift Van Int. Co S.A,MRKU-973013-2,10077,DR,TD,***********         ,254310061,1,TRANSPORTE DEL CLIENTE        ,Lamberto,17:47,2025-06-24,Daniel Viola,                    ,17:47 Arribado
 34264,03/06,Henn Y Cia S.R.L.,HASU-404625-9,10080,HC,TD,***********         ,254362164,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,10:45,2025-06-20,254362164,25001EC03005656L    ,10:45 Arribado
 34270,03/06,Hdv Leather S.R.L.,MRKU-508683-9,0,HC,TD,**********          ,253436147,1,TRANSPORTES LEIRA-NO USAR     ,Muller,09:25,2025-06-23,253436147,253436147           ,09:25 Arribado
 34305,04/06,Hdv Leather S.R.L.,-,10076,HC,TD,                    ,EBKG12954059,0,                              ,,     ,2025-06-23,,                    ,Pendiente
@@ -19,10 +21,11 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 34303,04/06,Hdv Leather S.R.L.,-,10076,HC,TD,                    ,EBKG12954059,0,                              ,,     ,2025-06-23,,                    ,Pendiente
 34302,04/06,Hdv Leather S.R.L.,-,10076,HC,TD,                    ,EBKG12954134,0,                              ,,     ,2025-06-23,,                    ,Pendiente
 34301,04/06,Hdv Leather S.R.L.,-,10076,HC,TD,                    ,EBKG12954134,0,                              ,,     ,2025-06-23,,                    ,Pendiente
-34287,04/06,Lawter Argentina S.A.,-,0,  ,TD,                    ,22103759,0,                              ,,     ,2025-06-24,22103759,22103759            ,Pendiente
+34328,04/06,Mercovan Argentina Srl,-,10080,DR,TD,                    ,92724024,0,                              ,,     ,2025-06-24,Caletrio,                    ,Pendiente
 34245,04/06,Hdv Leather S.R.L.,-,10076,HC,TD,                    ,254651199,0,                              ,,     ,2025-06-23,,                    ,Pendiente
 34322,04/06,Forestal Y Ganadera Indumarca ...,-,0,  ,TD,                    ,BUEF06582700,0,                              ,,     ,2025-06-24,Buef06582700,BUEF06582700        ,Pendiente
 34217,04/06,Forestal Y Ganadera Indumarca ...,-,0,  ,TD,                    ,BUEF06582700,0,                              ,,     ,2025-06-20,Grlae2582 /Buef06582700,25001EC01           ,Pendiente
+34287,04/06,Lawter Argentina S.A.,-,0,  ,TD,                    ,22103759,0,                              ,,     ,2025-06-24,22103759,22103759            ,Pendiente
 34292,04/06,Cristacol S. A.,-,10080,DR,TD,                    ,SNG0466592,0,                              ,,     ,2025-06-24,,                    ,Pendiente
 34291,04/06,Pelama Chubut S.A.,-,10080,DR,TD,                    ,38367075,0,                              ,,     ,2025-06-24,,                    ,Pendiente
 34246,04/06,Hdv Leather S.R.L.,-,10076,HC,TD,                    ,254651199,0,                              ,,     ,2025-06-23,,                    ,Pendiente
