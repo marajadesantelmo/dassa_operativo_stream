@@ -24,8 +24,8 @@ count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refre
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-USERNAMES = ["DASSA", "Facu", "deposito"]
-PASSWORDS = ["DASSA3", "123", "depodassa"]
+USERNAMES = ["DASSA", "Facu", "deposito", "plazoleta"]
+PASSWORDS = ["DASSA3", "123", "depodassa", "plazoletadassa"]
 
 def login(username, password):
     if username in USERNAMES and password in PASSWORDS:
@@ -62,6 +62,7 @@ if not st.session_state['logged_in']:
             st.error("Usuario o clave invalidos")
 else:
     allowed_pages = ["IMPO", "EXPO", "Logout"] if st.session_state['username'] == "deposito" else \
+                    ["IMPO", "EXPO", "Balanza", "Plazoleta", "Logout"] if st.session_state['username'] == "plazoleta" else \
                     ["IMPO", "EXPO", "Balanza", "Plazoleta", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico", "Logout"]
     page_selection = option_menu(
             None,  # No menu title
