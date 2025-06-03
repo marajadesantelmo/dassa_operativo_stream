@@ -55,28 +55,30 @@ def show_page_impo():
 
     col3, col4 = st.columns(2)
     with col3:
-        st.subheader("Verificaciones")
-        st.dataframe(verificaciones_impo.style.apply(highlight, axis=1), 
-                    hide_index=True, use_container_width=True)
-        if not otros_impo.empty:
-            st.subheader("Otros")
-            st.dataframe(otros_impo.style.apply(highlight, axis=1), 
-                    hide_index=True, use_container_width=True)
-
+        if st.session_state['username'] != "plazoleta":
+            st.subheader("Verificaciones")
+            st.dataframe(verificaciones_impo.style.apply(highlight, axis=1), 
+                        hide_index=True, use_container_width=True)
+            if not otros_impo.empty:
+                st.subheader("Otros")
+                st.dataframe(otros_impo.style.apply(highlight, axis=1), 
+                        hide_index=True, use_container_width=True)
     with col4:
         st.subheader("Retiros")
         retiros_impo_ctn = retiros_impo[retiros_impo['Envase'] == "Contenedor"].drop(columns=['Envase'])
-        retiros_impo_carga = retiros_impo[retiros_impo['Envase'] != "Contenedor"]
+        if st.session_state['username'] != "plazoleta":
+            retiros_impo_carga = retiros_impo[retiros_impo['Envase'] != "Contenedor"]
         st.write("Contenedores")
         st.dataframe(retiros_impo_ctn.style.apply(highlight, axis=1), 
                     column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",), 
                                     'Salida': st.column_config.LinkColumn('Salida', display_text="\U0001F517",)},
                     hide_index=True, use_container_width=True)
-        st.write("Carga suelta")
-        st.dataframe(retiros_impo_carga.style.apply(highlight, axis=1), 
-                    column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",), 
-                                    'Salida': st.column_config.LinkColumn('Salida', display_text="\U0001F517",)},
-                    hide_index=True, use_container_width=True)
+        if st.session_state['username'] != "plazoleta":
+            st.write("Carga suelta")
+            st.dataframe(retiros_impo_carga.style.apply(highlight, axis=1), 
+                        column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",), 
+                                        'Salida': st.column_config.LinkColumn('Salida', display_text="\U0001F517",)},
+                        hide_index=True, use_container_width=True)
     
     st.markdown("<hr>", unsafe_allow_html=True)
 
@@ -104,5 +106,5 @@ if __name__ == "__main__":
     while True:
         show_page_impo()
         time.sleep(60)  
-        st.experimental_rerun() 
+        st.experimental_rerun()
 

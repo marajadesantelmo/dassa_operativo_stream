@@ -69,9 +69,9 @@ def show_page_expo():
         with col3_metric:
             st.metric(label="Pendientes", value=a_consolidar.shape[0])
         st.dataframe(a_consolidar, 
-                    column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
+                    column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)} ,
                     hide_index=True, use_container_width=True)
-        if not verificaciones_expo.empty:
+        if st.session_state['username'] != "plazoleta" and not verificaciones_expo.empty:
             st.subheader("Verificaciones")
             st.dataframe(verificaciones_expo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
@@ -87,9 +87,9 @@ def show_page_expo():
             remisiones_realizadas= remisiones[(remisiones['Estado'].str.contains('Realizado'))].shape[0]
             st.metric(label="Realizadas", value=remisiones_realizadas)
         st.dataframe(remisiones.style.apply(highlight, axis=1), 
-                     column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
+                     column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)} ,
                      hide_index=True, use_container_width=True)
-        if not otros_expo.empty:
+        if st.session_state['username'] != "plazoleta" and not otros_expo.empty:
             st.subheader("Otros")
             st.dataframe(otros_expo.style, hide_index=True, use_container_width=True)
 
@@ -117,5 +117,5 @@ if __name__ == "__main__":
     while True:
         show_page_expo()
         time.sleep(60)  
-        st.experimental_rerun() 
+        st.experimental_rerun()
 
