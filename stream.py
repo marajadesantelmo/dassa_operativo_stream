@@ -24,8 +24,8 @@ count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refre
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-USERNAMES = ["DASSA", "Facu"]
-PASSWORDS = ["DASSA3", "123"]
+USERNAMES = ["DASSA", "Facu", "deposito"]
+PASSWORDS = ["DASSA3", "123", "depodassa"]
 
 def login(username, password):
     if username in USERNAMES and password in PASSWORDS:
@@ -61,10 +61,13 @@ if not st.session_state['logged_in']:
         else:
             st.error("Usuario o clave invalidos")
 else:
+    allowed_pages = ["IMPO", "EXPO", "Logout"] if st.session_state['username'] == "deposito" else \
+                    ["IMPO", "EXPO", "Balanza", "Plazoleta", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico", "Logout"]
     page_selection = option_menu(
             None,  # No menu title
-            ["IMPO", "EXPO", "Balanza", "Plazoleta", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico", "Logout"],  
-            icons=["arrow-down-circle", "arrow-up-circle", "book", "book", "arrow-right-circle", "book", "book", "book", "box-arrow-right"],   
+            allowed_pages,  
+            icons=["arrow-down-circle", "arrow-up-circle", "box-arrow-right"] if st.session_state['username'] == "deposito" else 
+                  ["arrow-down-circle", "arrow-up-circle", "book", "book", "arrow-right-circle", "book", "book", "book", "box-arrow-right"],   
             menu_icon="cast",  
             default_index=0, 
             orientation="horizontal")
