@@ -25,6 +25,19 @@ def show_page_expo():
     # Load data
     arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, pendiente_consolidar, listos_para_remitir, vacios_disponibles, a_consolidar, ultima_actualizacion = fetch_data_expo()
 
+    mudanceras_filter = ['Mercovan', 'Lift Van', 'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
+    if st.session_state['username'] == "mudancera":
+        arribos_expo_carga = arribos_expo_carga[arribos_expo_carga['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        verificaciones_expo = verificaciones_expo[verificaciones_expo['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        otros_expo = otros_expo[otros_expo['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        remisiones = remisiones[remisiones['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        vacios_disponibles = vacios_disponibles[vacios_disponibles['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        a_consolidar = a_consolidar[a_consolidar['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        
+
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
         st.image('logo.png')

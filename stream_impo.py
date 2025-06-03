@@ -25,6 +25,17 @@ def show_page_impo():
     # Load data
     arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, ultima_actualizacion = fetch_data_impo()
 
+    mudanceras_filter = ['Mercovan', 'Lift Van', 'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
+    if st.session_state['username'] == "mudancera":
+        arribos = arribos[arribos['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        verificaciones_impo = verificaciones_impo[verificaciones_impo['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        retiros_impo = retiros_impo[retiros_impo['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        otros_impo = otros_impo[otros_impo['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        existente_plz = existente_plz[existente_plz['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        existente_alm = existente_alm[existente_alm['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+
+
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
         st.image('logo.png')
