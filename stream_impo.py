@@ -76,7 +76,7 @@ def show_page_impo():
                         hide_index=True, use_container_width=True)
     with col4:
         st.subheader("Retiros")
-        retiros_impo_ctn = retiros_impo[retiros_impo['Envase'] == "Contenedor"].drop(columns=['Envase'])
+        retiros_impo_ctn = retiros_impo[retiros_impo['Envase'] == "Contenedor"].drop(columns=[['Envase', 'Cant.', 'Volumen', 'e-tally', 'Salida']])
         if st.session_state['username'] != "plazoleta":
             retiros_impo_carga = retiros_impo[retiros_impo['Envase'] != "Contenedor"]
         st.write("Contenedores")
