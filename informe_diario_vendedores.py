@@ -165,7 +165,7 @@ for vendedor in vendedores:
     if any(not df.empty for df in operations.values()):
         print(f"Hay operaciones para el vendedor {vendedor}.")
         vendedor_email = tabla_vendedor['email'].iloc[0]  # Assuming email column exists
-        send_email_vendedor(vendedor, vendedor_email, operations, saldos_clientes_vendedor)
+        send_email_vendedor(vendedor, vendedor_email, operations, saldos_clientes_vendedor_agregado)
     else:
         print(f"No hay operaciones para el vendedor {vendedor}.")
 
