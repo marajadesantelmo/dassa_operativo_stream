@@ -7,12 +7,12 @@ def fetch_data_impo():
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz = existente_plz[existente_plz['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
     existente_plz = existente_plz.rename(columns={'Desc': 'Mudable'})
-    existente_plz['Ingreso'] = pd.to_datetime(existente_plz['Ingreso']).dt.strftime('%d-%m-%Y')
+    existente_plz['Ingreso'] = pd.to_datetime(existente_plz['Ingreso'], dayfirst=True).dt.strftime('%d-%m-%Y')
     
     existente_alm = pd.read_csv('data/existente_alm.csv')
     existente_alm = existente_alm.rename(columns={'Desc': 'Mudable'})
     existente_alm = existente_alm[existente_alm['Cliente'].str.contains('Mercovan')].drop(columns=['Cliente'])
-    existente_alm['Ingreso'] = pd.to_datetime(existente_alm['Ingreso']).dt.strftime('%d-%m-%Y')
+    existente_alm['Ingreso'] = pd.to_datetime(existente_alm['Ingreso'], dayfirst=True).dt.strftime('%d-%m-%Y')
     
     existente_plz = existente_plz.drop_duplicates()
     existente_alm = existente_alm.drop_duplicates()
