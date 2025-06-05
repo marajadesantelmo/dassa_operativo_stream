@@ -1,7 +1,7 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 34364,05/06,Edelweiss Spedition Srl,-,15007,  ,TD,                    ,J25001PE01000186P,1,TRANSPORTE DEL CLIENTE        ,Alejandro Artola,10:07,2025-06-26,Joaquin Ignacio Esandi,                    ,10:07 Arribado
-34372,05/06,Uld Global Trade Srl,-,0,DR,TD,                    ,BUE500096400,0,                              ,,     ,2025-06-26,,                    ,Pendiente
-34371,05/06,Uld Global Trade Srl,-,0,DR,TD,                    ,BUE500096400,0,                              ,,     ,2025-06-26,,                    ,Pendiente
+34372,05/06,Uld Global Trade Srl,PCIU-018875-2,10,DR,TD,**********          ,BUE500096400,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,14:18,2025-06-26,,                    ,14:18 Arribado
+34371,05/06,Uld Global Trade Srl,PCIU-198214-0,10,DR,TD,************        ,BUE500096400,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,14:17,2025-06-26,,                    ,14:17 Arribado
 34351,05/06,Placas Rivadavia S.R.L.,NIDU-520954-5,10080,HC,TD,************        ,25105820,1,TRANSPORTE DEL CLIENTE        ,Perez,13:45,2025-06-24,Grlem25658/Placas Rivadavia,25105820            ,13:45 Arribado
 34350,05/06,Placas Rivadavia S.R.L.,HLBU-327287-7,10080,HC,TD,**********          ,25105820,1,TRANSPORTE DEL CLIENTE        ,Peril,13:49,2025-06-24,Grlem25658/Placas Rivadavia,25105820            ,13:49 Arribado
 34349,05/06,Placas Rivadavia S.R.L.,HAMU-141813-4,10080,HC,TD,                    ,25105820,1,TRANSPORTE DEL CLIENTE        ,Gonzales,13:47,2025-06-24,Grlem25658/Placas Rivadavia,25105820            ,13:47 Arribado
@@ -15,7 +15,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 34376,05/06,Helvecia S.A.,-,0,HC,TD,                    ,254605636,0,                              ,,     ,2025-06-26,,                    ,Pendiente
 34375,05/06,Helvecia S.A.,-,0,HC,TD,                    ,254605636,0,                              ,,     ,2025-06-26,,                    ,Pendiente
 34340,05/06,Helvecia S.A.,-,0,  ,TD,                    ,254605636,0,                              ,,     ,2025-06-25,254605636,254605636           ,Pendiente
-34339,05/06,Helvecia S.A.,-,0,  ,TD,                    ,254605636,0,                              ,,     ,2025-06-25,254605636,254605636           ,Pendiente
+34339,05/06,Helvecia S.A.,HASU-470147-4,10080,HC,TD,***********         ,254605636,1,TRANSPORTE DEL CLIENTE        ,Porco,14:19,2025-06-25,254605636,254605636           ,14:19 Arribado
 34361,06/06,Borax Argentina S A,-,0,  ,TD,                    ,BUEF07036900,0,                              ,,     ,2025-06-26,Buef07036900,BUEF07036900        ,Pendiente
 34362,06/06,Borax Argentina S A,-,0,  ,TD,                    ,BUEF07036900,0,                              ,,     ,2025-06-26,Buef07036900,BUEF07036900        ,Pendiente
 34370,06/06,Isischu Srl,-,0,  ,TD,                    ,EBKG13032743,0,                              ,,     ,2025-06-26,Ebkg13032743,EBKG13032743        ,Pendiente
