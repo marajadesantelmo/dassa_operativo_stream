@@ -20,8 +20,6 @@ def fetch_data_orden_del_dia():
     otros_impo = otros_impo[otros_impo['Cliente'].isin(clientes_global_comex)]
     remisiones = pd.read_csv('data/remisiones.csv')
     remisiones = remisiones[remisiones['Cliente'].isin(clientes_global_comex)]
-    consolidados = pd.read_csv('data/consolidados.csv')
-    consolidados = consolidados[consolidados['Cliente'].isin(clientes_global_comex)]
     existente_plz = pd.read_csv('data/existente_plz.csv')
     existente_plz = existente_plz[existente_plz['Cliente'].isin(clientes_global_comex)]
     existente_plz.drop(columns=['e-tally'], inplace=True)

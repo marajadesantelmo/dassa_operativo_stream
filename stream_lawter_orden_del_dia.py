@@ -15,17 +15,15 @@ def fetch_data_orden_del_dia():
     otros_expo = otros_expo[otros_expo['Cliente']== 'Lawter Argentina S.A.'].drop(columns=['Cliente'])
     remisiones = pd.read_csv('data/remisiones.csv')
     remisiones = remisiones[remisiones['Cliente']== 'Lawter Argentina S.A.'].drop(columns=['Cliente'])
-    consolidados = pd.read_csv('data/consolidados.csv')
-    consolidados = consolidados[consolidados['Cliente']== 'Lawter Argentina S.A.'].drop(columns=['Cliente'])
     pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
     pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente']== 'Lawter Argentina S.A.'].drop(columns=['Cliente'])
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
     listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente']== 'Lawter Argentina S.A.'].drop(columns=['Cliente'])
-    return  arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados, pendiente_consolidar, listos_para_remitir
+    return  arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, pendiente_consolidar, listos_para_remitir
     
 def show_page_orden_del_dia():
     # Load data
-    arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados, pendiente_consolidar, listos_para_remitir = fetch_data_orden_del_dia()
+    arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, pendiente_consolidar, listos_para_remitir = fetch_data_orden_del_dia()
 
     col_title, col_logo, col_simpa = st.columns([5, 1, 1])
     with col_title:
@@ -55,9 +53,6 @@ def show_page_orden_del_dia():
     with col3:
         st.subheader("Verificaciones")
         st.dataframe(verificaciones_expo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-
-        st.subheader("Consolidados")
-        st.dataframe(consolidados, hide_index=True, use_container_width=True)
 
     with col4:
         st.subheader("Remisiones")

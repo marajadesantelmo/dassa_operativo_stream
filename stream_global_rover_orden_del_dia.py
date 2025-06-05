@@ -28,13 +28,11 @@ def fetch_data_orden_del_dia():
     otros_expo = otros_expo[otros_expo['Cliente'].isin(clientes_global_rover)]
     remisiones = pd.read_csv('data/remisiones.csv')
     remisiones = remisiones[remisiones['Cliente'].isin(clientes_global_rover)]
-    consolidados = pd.read_csv('data/consolidados.csv')
-    consolidados = consolidados[consolidados['Cliente'].isin(clientes_global_rover)]
-    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados
+    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones
     
 def show_page_orden_del_dia():
     # Load data
-    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, consolidados = fetch_data_orden_del_dia()
+    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones = fetch_data_orden_del_dia()
 
     col_title, col_logo, col_simpa = st.columns([5, 1, 1])
     with col_title:
@@ -101,9 +99,6 @@ def show_page_orden_del_dia():
     with col3:
         st.subheader("Verificaciones")
         st.dataframe(verificaciones_expo.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-
-        st.subheader("Consolidados")
-        st.dataframe(consolidados, hide_index=True, use_container_width=True)
 
     with col4:
         st.subheader("Remisiones")
