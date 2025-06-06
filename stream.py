@@ -1,4 +1,7 @@
 import streamlit as st
+st.set_page_config(page_title="Operativa DASSA", 
+                   page_icon="📊", 
+                   layout="wide")
 import stream_impo
 import stream_expo
 import stream_balanza
@@ -11,11 +14,6 @@ from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
 import os
-
-# Page configurations
-st.set_page_config(page_title="Operativa DASSA", 
-                   page_icon="📊", 
-                   layout="wide")
 
 refresh_interval_ms = 60 * 1000  # 30 seconds in milliseconds
 count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refresh")
