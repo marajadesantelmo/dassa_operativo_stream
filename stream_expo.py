@@ -68,7 +68,7 @@ def show_page_expo():
             st.subheader("Arribos de Contenedores")
         with col2_metric1:
             st.metric(label="Pendientes hoy", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'] == 'Pendiente') & 
-                                                 (arribos_expo_ctns['Fecha'] == today)].shape[0])
+                                                 (arribos_expo_ctns['Fecha'] == today)]['Cantidad'].sum())
         with col2_metric2:
             st.metric(label="Arribados", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'].str.contains('Arribado'))].shape[0])
         st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
