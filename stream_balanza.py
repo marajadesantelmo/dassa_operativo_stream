@@ -4,9 +4,6 @@ import time
 from datetime import datetime
 from utils import highlight, generar_comprobante
 
-# Add this line at the very beginning
-st.set_page_config(page_title="Balanza Operativa", layout="wide")
-
 @st.cache_data(ttl=60) 
 def fetch_data_balanza():
     balanza = pd.read_csv('data/balanza.csv') # Me quedo con la info de balanza completa para generar comprobante
