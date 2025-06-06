@@ -26,7 +26,7 @@ def fetch_data_plazoleta():
     cont_nac_clientes.columns = ['Cliente', 'CTNs']
     arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
     arribos_expo_ctns = arribos_expo_ctns[~arribos_expo_ctns['Estado'].str.contains('Arribado', na=False)]
-    arribos_expo_ctns = arribos_expo_ctns[['Fecha', 'Contenedor', 'Cliente', 'Dimension']]
+    arribos_expo_ctns = arribos_expo_ctns[['Fecha', 'Contenedor', 'Cliente']]
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
     vacios_disponibles = pd.read_csv('data/vacios_disponibles.csv')
     existente_plz_expo = pd.concat([listos_para_remitir[['Cliente', 'Contenedor']], vacios_disponibles[['Cliente', 'Contenedor']]])
