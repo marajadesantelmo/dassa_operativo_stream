@@ -80,6 +80,15 @@ def formato_saldos(df):
     df['Saldo'] = df['Saldo'].apply(lambda x: f"${x:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".") if x >= 0 else f"(${abs(x):,.2f})".replace(",", "X").replace(".", ",").replace("X", "."))
     return df
 
+def apply_styling(df):
+    # Apply styling to 'e-tally' column if it exists
+    if 'e-tally' in df.columns:
+        df['e-tally'] = df['e-tally'].fillna('-')
+    # Apply styling to 'Salida' column if it exists
+    if 'Salida' in df.columns:
+        df['Salida'] = df['Salida'].fillna('-')
+    return df
+
 
 server = '101.44.8.58\\SQLEXPRESS_X86,1436'
 conn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';UID='+username+';PWD='+ password)
