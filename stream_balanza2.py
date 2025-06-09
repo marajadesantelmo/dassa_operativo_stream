@@ -7,6 +7,14 @@ from utils import highlight, generar_comprobante
 @st.cache_data(ttl=60)
 def fetch_data_balanza():
     balanza = fetch_table_data("balanza_data")
+    if balanza.empty:
+        column_names = [
+            "ID Pesada", "Cliente", "CUIT Cliente", "ATA", "CUIT ATA", "Contenedor", "Entrada", "Salida", 
+            "Peso Bruto", "Peso Tara", "Peso Neto", "Peso Mercadería", "Tara CNT", "Descripción", 
+            "Patente Chasis", "Patente Semi", "Chofer", "Tipo Doc", "DNI", "Observaciones", "tipo_oper", 
+            "Booking", "Permiso Emb.", "Precinto", "Estado"
+        ]
+        balanza = pd.DataFrame(columns=column_names)
     balanza_impo = balanza[balanza['tipo_oper'] == 'Importacion']
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
     return balanza, balanza_impo, balanza_expo
