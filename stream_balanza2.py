@@ -7,20 +7,8 @@ from utils import highlight, generar_comprobante
 @st.cache_data(ttl=60)
 def fetch_data_balanza():
     balanza = fetch_table_data("balanza_data")
-    balanza['DNI'] = balanza['DNI'].fillna('-').astype(str).str.replace('.0', '', regex=False)
-    balanza = balanza.fillna("-")
     balanza_impo = balanza[balanza['tipo_oper'] == 'Importacion']
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
-    columns_impo = ['ID Pesada', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
-       'Peso Neto', 'Tara CNT', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI',
-       'Booking', 'Precinto', 'Tipo Doc', 'Estado']
-    columns_expo = ['ID Pesada', 'Cliente', 'ATA',  'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
-       'Peso Neto', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI', 'Observaciones',
-       'Booking', 'Permiso Emb.', 'Tipo Doc', 'Estado']
-    balanza_impo = balanza_impo[columns_impo]
-    balanza_expo = balanza_expo[columns_expo]
-    balanza_impo = balanza_impo.sort_values(by='Estado', ascending=True)
-    balanza_expo = balanza_expo.sort_values(by='Estado', ascending=True)
     return balanza, balanza_impo, balanza_expo
 
 def show_page_balanza2():
