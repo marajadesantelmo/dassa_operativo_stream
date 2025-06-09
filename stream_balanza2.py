@@ -19,13 +19,23 @@ def fetch_data_balanza():
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
     return balanza, balanza_impo, balanza_expo
 
+@st.cache_data(ttl=60)
+def fetch_last_update():
+    update_log = fetch_table_data("update_log")
+    if not update_log.empty:
+        last_update = update_log[update_log['table_name'] == 'Balanza']['last_update'].max()
+        return pd.to_datetime(last_update).strftime("%d/%m/%Y %H:%M")
+    return "No disponible"
+
 def show_page_balanza2():
     # Load data
     balanza, balanza_impo, balanza_expo = fetch_data_balanza()
+    last_update = fetch_last_update()
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
         st.image('logo.png')
+        st.info(f'Última actualización: {last_update}')
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Operaciones en balanza del {current_day}")
