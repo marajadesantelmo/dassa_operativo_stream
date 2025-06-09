@@ -10,6 +10,48 @@ from datetime import datetime, timedelta
 
 path = "//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/"
 
+def format_table(tabla):
+    # Handle links in 'e-tally' column
+    if 'e-tally' in tabla.columns:
+        tabla['e-tally'] = tabla['e-tally'].apply(lambda x: f'<a href="{x}" target="_blank">🔗</a>' if pd.notnull(x) else '-')
+    # Handle links in 'Salida' column
+    if 'Salida' in tabla.columns:
+        tabla['Salida'] = tabla['Salida'].apply(lambda x: f'<a href="{x}" target="_blank">🔗</a>' if pd.notnull(x) else '-')
+    
+    styled_table = tabla.to_html(index=False, escape=False, classes="styled-table")
+    styled_table = f"""
+    <style>
+        .styled-table {{
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            width: 100%;
+            text-align: left;
+        }}
+        .styled-table th {{
+            background-color: #009879;
+            color: #ffffff;
+            padding: 10px;
+        }}
+        .styled-table td {{
+            padding: 8px;
+            border: 1px solid #dddddd;
+        }}
+        .styled-table tr:nth-child(even) {{
+            background-color: #f3f3f3;
+        }}
+        .styled-table tr:nth-child(odd) {{
+            background-color: #ffffff;
+        }}
+        .styled-table tr:hover {{
+            background-color: #f1f1f1;
+        }}
+    </style>
+    {styled_table}
+    """
+    return styled_table
+
 def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
     hoy = datetime.now().strftime('%d/%m/%Y')
     email_content = f"""
@@ -22,18 +64,20 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
     # Dynamically add operation tables
     for title, df in operations.items():
         if not df.empty:
+            styled_table = format_table(df)
             email_content += f"""
             <h3>{title}</h3>
-            {df.to_html(index=False, border=0, justify='left')}
+            {styled_table}
             """
     email_content += """<p>Información sobre saldos vencidos en el último año:</p>"""
     
     # Add saldos_clientes_vendedor table
     if not saldos_clientes_vendedor.empty:
+        styled_table = format_table(saldos_clientes_vendedor)
         email_content += f"""
         <h3>Saldos vencidos</h3>
         <h3>Facturas vencidas emitidas en los últimos 365 días</h4>
-        {saldos_clientes_vendedor.to_html(index=False, border=0, justify='left')}
+        {styled_table}
         """
 
     email_content += """
