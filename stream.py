@@ -5,6 +5,7 @@ st.set_page_config(page_title="Operativa DASSA",
 import stream_impo
 import stream_expo
 import stream_balanza
+import stream_balanza2
 import stream_plazoleta
 import stream_impo_historico
 import stream_expo_historico
@@ -61,8 +62,8 @@ if not st.session_state['logged_in']:
 else:
     allowed_pages = (
         ["IMPO", "EXPO", "Logout"] if st.session_state['username'] == "deposito" else
-        ["IMPO", "EXPO", "Balanza", "Plazoleta", "Logout"] if st.session_state['username'] in ["plazoleta", "mudancera"] else
-        ["IMPO", "EXPO", "Balanza", "Plazoleta", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico", "Logout"]
+        ["IMPO", "EXPO", "Balanza", "Balanza2", "Plazoleta", "Logout"] if st.session_state['username'] in ["plazoleta", "mudancera"] else
+        ["IMPO", "EXPO", "Balanza", "Balanza2", "Plazoleta", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico", "Logout"]
     )
     page_selection = option_menu(
             None,  # No menu title
@@ -78,6 +79,8 @@ else:
         stream_expo.show_page_expo()
     elif page_selection == "Balanza":
          stream_balanza.show_page_balanza()
+    elif page_selection == "Balanza2":
+         stream_balanza2.show_page_balanza2()
     elif page_selection == "Plazoleta":
          stream_plazoleta.show_page_plazoleta()
     elif page_selection == "Tráfico":
