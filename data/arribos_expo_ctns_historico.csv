@@ -37,9 +37,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-19,31579,BMOU-145090-9,Lift Van Int. Co S.A,92788946E,************        ,Arribado
 2025-02-19,31587,CMAU-017821-3,Lift Van Int. Co S.A,BUA0336878,R1947319            ,Arribado
 2025-02-24,31727,HLXU-126055-5,Lift Van Int. Co S.A,17536915,                    ,Arribado
-2025-06-09,34433,,Lift Van Int. Co S.A,254311809,                    ,Pendiente
+2025-06-09,34433,MRKU-816944-9,Lift Van Int. Co S.A,254311809,***********         ,Arribado
 2025-06-03,34295,MSKU-760704-9,Lift Van Int. Co S.A,254184165,****************    ,Arribado
-2025-06-09,34432,,Lift Van Int. Co S.A,254130292,                    ,Pendiente
+2025-06-09,34432,TCKU-214624-8,Lift Van Int. Co S.A,254130292,************        ,Arribado
 2025-05-28,34057,,Lift Van Int. Co S.A,25001PER1000211P,                    ,Arribado
 2025-05-28,34058,,Lift Van Int. Co S.A,25001PE01000188R,                    ,Arribado
 2025-05-28,34065,,Lift Van Int. Co S.A,TERRESTRE,                    ,Pendiente
@@ -119,7 +119,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-14,33550,OOLU-093313-2,A La Orden,COSU6417657460,**************      ,Arribado
 2025-05-14,33553,CMAU-268628-1,A La Orden,RIV 028401,R1952832            ,Arribado
 2025-05-15,33572,,A La Orden,39873876,                    ,Pendiente
-2025-06-09,34447,,A La Orden,93870694,                    ,Pendiente
+2025-06-09,34447,TEMU-523592-9,A La Orden,93870694,************        ,Arribado
 2025-04-30,33225,MSDU-156455-6,A La Orden,153IAR0648445,FX32985939          ,Arribado
 2025-04-22,32977,TXGU-674980-1,A La Orden,26634974,******************  ,Arribado
 2025-04-14,32772,TGHU-171446-3,A La Orden,18722142,************        ,Arribado
@@ -171,6 +171,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-25,31737,MRSU-578036-0,Mader Zu S.R.L.,249872785,*************       ,Arribado
 2025-02-25,31738,MRKU-260785-1,Mader Zu S.R.L.,249872785,***************     ,Arribado
 2025-06-06,34343,MSMU-785927-3,Mader Zu S.R.L.,EBKG12899862,FX32972892          ,Arribado
+2025-06-17,34477,,Mader Zu S.R.L.,254605919,                    ,Pendiente
 2025-06-06,34341,MSNU-561256-5,Mader Zu S.R.L.,EBKG12899862,FX32972882          ,Arribado
 2025-06-06,34342,TGBU-937621-0,Mader Zu S.R.L.,EBKG12899862,FX32972941          ,Arribado
 2025-05-16,33639,,Mader Zu S.R.L.,18387347,                    ,Pendiente
@@ -309,10 +310,14 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-11,31363,CAAU-695185-5,Isischu Srl,EBKG11663966,FX32986425          ,Arribado
 2025-02-11,31364,MSNU-789666-6,Isischu Srl,EBKG11663966,FX32986422          ,Arribado
 2025-02-11,31367,BMOU-588053-3,Isischu Srl,EBKG11663966,FX32986410          ,Arribado
+2025-06-10,34481,,Isischu Srl,EBKG13126124,                    ,Pendiente
+2025-06-10,34478,,Isischu Srl,EBKG13126124,                    ,Pendiente
+2025-06-10,34479,,Isischu Srl,EBKG13126124,                    ,Pendiente
+2025-06-10,34480,,Isischu Srl,EBKG13126124,                    ,Pendiente
 2025-05-28,34123,TGBU-728314-5,Isischu Srl,340500019257,************        ,Arribado
 2025-05-28,34124,EISU-857156-2,Isischu Srl,340500019257,***********         ,Arribado
 2025-05-29,34160,FCIU-995875-1,Isischu Srl,340500019427,***********         ,Arribado
-2025-06-06,34370,,Isischu Srl,EBKG13032743,                    ,Pendiente
+2025-06-06,34370,FFAU-169283-7,Isischu Srl,EBKG13032743,FX32972753          ,Arribado
 2025-05-29,34037,GAOU-667464-4,Isischu Srl,340500019257,************        ,Arribado
 2025-05-29,34038,EMCU-891992-7,Isischu Srl,340500019257,***********         ,Arribado
 2025-05-29,34039,,Isischu Srl,340500019257,                    ,Pendiente
@@ -385,7 +390,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-16,32840,TGBU-924892-4,Valerio Oliva Forestal Sa,251130577,******              ,Arribado
 2025-04-16,32842,HASU-400794-6,Valerio Oliva Forestal Sa,251130577,*************       ,Arribado
 2025-02-18,31501,FANU-181488-3,Asecor Srl,93818228,***************     ,Arribado
-2025-06-09,34344,,Asecor Srl,EBKG13031481,                    ,Pendiente
+2025-06-09,34344,TXGU-677991-4,Asecor Srl,EBKG13031481,FX32972793          ,Arribado
 2025-05-28,33978,DAYU-611257-8,Asecor Srl,22136841,************        ,Arribado
 2025-05-28,33979,HLBU-218969-1,Asecor Srl,22136841,**********          ,Arribado
 2025-05-14,33508,MSNU-653604-8,Asecor Srl,EBKG12729795,FX32977715          ,Arribado
@@ -426,7 +431,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-22,32933,,Hector Reboratti,EBKG12381488,                    ,Pendiente
 2025-04-22,32986,MSNU-851006-3,Hector Reboratti,EBKG12381488,FX32974438          ,Arribado
 2025-02-13,31414,FFAU-120409-0,Maringa Maderas Sa,EBKG11786448,FX32989247          ,Arribado
-2025-06-09,34367,,Maringa Maderas Sa,EBKG13032675,                    ,Pendiente
+2025-06-09,34367,TGBU-786318-5,Maringa Maderas Sa,EBKG13032675,FX32972903          ,Arribado
 2025-04-09,32694,FFAU-660433-5,Maringa Maderas Sa,EBKG12309962,FX32981737          ,Arribado
 2025-04-14,32765,TGCU-534363-4,Maringa Maderas Sa,19861520,*********           ,Arribado
 2025-04-29,33195,CAAU-695410-8,Maringa Maderas Sa,EBKG12462351,FX32979567          ,Arribado
@@ -584,8 +589,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-09,34391,TEMU-365448-5,Henn Y Cia S.R.L.,340500020107,**********          ,Arribado
 2025-06-03,34268,SUDU-887090-0,Henn Y Cia S.R.L.,254362164,***********         ,Arribado
 2025-06-03,34269,MRKU-208957-8,Henn Y Cia S.R.L.,254362164,***********         ,Arribado
-2025-06-03,34326,,Henn Y Cia S.R.L.,340500020093,                    ,Pendiente
-2025-06-03,34327,,Henn Y Cia S.R.L.,340500020093,                    ,Pendiente
+2025-06-03,34326,EMCU-626738-9,Henn Y Cia S.R.L.,340500020093,***************     ,Arribado
+2025-06-03,34327,TEMU-368699-1,Henn Y Cia S.R.L.,340500020093,*********           ,Arribado
 2025-06-03,34262,MRKU-615429-1,Henn Y Cia S.R.L.,254362164,***********         ,Arribado
 2025-06-03,34263,MRKU-519455-6,Henn Y Cia S.R.L.,254362164,***********         ,Arribado
 2025-06-03,34264,HASU-404625-9,Henn Y Cia S.R.L.,254362164,***********         ,Arribado
@@ -701,8 +706,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-11,31343,MSDU-175377-6,Borax Argentina S A,EBKG11692650,FX26227906          ,Arribado
 2025-02-11,31346,MEDU-634007-9,Borax Argentina S A,EBKG11692650,FX26256447          ,Arribado
 2025-02-11,31347,MEDU-504261-3,Borax Argentina S A,EBKG11692650,FX26245697          ,Arribado
-2025-06-06,34361,,Borax Argentina S A,BUEF07036900,                    ,Pendiente
-2025-06-06,34362,,Borax Argentina S A,BUEF07036900,                    ,Pendiente
+2025-06-10,34482,,Borax Argentina S A,254927289,                    ,Pendiente
+2025-06-10,34483,,Borax Argentina S A,254927289,                    ,Pendiente
+2025-06-10,34463,,Borax Argentina S A,BUE500100300,                    ,Pendiente
+2025-06-10,34464,,Borax Argentina S A,BUE500100300,                    ,Pendiente
+2025-06-09,34465,ONEU-231534-3,Borax Argentina S A,BUEF07036900,**************      ,Arribado
+2025-06-06,34361,CXDU-150344-3,Borax Argentina S A,BUEF07036900,***********         ,Arribado
+2025-06-06,34362,CXDU-175348-4,Borax Argentina S A,BUEF07036900,************        ,Arribado
 2025-06-06,34431,,Borax Argentina S A,BUEF07036900,                    ,Pendiente
 2025-06-02,34237,TEMU-141694-0,Borax Argentina S A,254651581,**********          ,Arribado
 2025-06-02,34238,GESU-108201-3,Borax Argentina S A,254651581,***********         ,Arribado
@@ -975,7 +985,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-10,31309,MSDU-731599-3,Virasoro Maderas S R L,EBKG11499126,FX26278852          ,Arribado
 2025-02-10,31310,MSNU-565907-4,Virasoro Maderas S R L,EBKG11499126,FX26278864          ,Arribado
 2025-02-10,31311,MEDU-760359-1,Virasoro Maderas S R L,EBKG11499126,FX26278862          ,Arribado
-2025-06-09,34429,,Virasoro Maderas S R L,31391492,                    ,Pendiente
+2025-06-09,34429,HLXU-825633-0,Virasoro Maderas S R L,31391492,**********          ,Arribado
 2025-06-09,34430,,Virasoro Maderas S R L,31391492,                    ,Pendiente
 2025-05-27,33962,MRKU-578030-4,Virasoro Maderas S R L,254129409,**************      ,Arribado
 2025-05-27,33963,HASU-468519-9,Virasoro Maderas S R L,254129409,************        ,Arribado
@@ -1232,7 +1242,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-06,31934,HAMU-276878-0,El Yerbalito,50831647,*************       ,Arribado
 2025-03-11,32066,GCXU-597845-4,El Yerbalito,50831647,                    ,Arribado
 2025-06-05,34379,FCIU-722464-0,El Yerbalito,33049430,***********         ,Arribado
-2025-06-06,34386,,El Yerbalito,33049430,                    ,Pendiente
+2025-06-06,34386,HAMU-411789-6,El Yerbalito,33049430,************        ,Arribado
 2025-05-26,33873,,El Yerbalito,33045975,                    ,Pendiente
 2025-05-26,33874,,El Yerbalito,33045975,                    ,Pendiente
 2025-05-26,33875,,El Yerbalito,33045975,                    ,Pendiente
@@ -1404,7 +1414,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-05,34372,PCIU-018875-2,Uld Global Trade Srl,BUE500096400,**********          ,Arribado
 2025-06-05,34373,PCIU-167528-8,Uld Global Trade Srl,BUE500096400,**********          ,Arribado
 2025-06-05,34374,PCIU-126720-2,Uld Global Trade Srl,BUE500096400,************        ,Arribado
-2025-06-09,34444,,Omar Martin S.A,EBKG13048921,                    ,Pendiente
+2025-06-09,34444,MSDU-468586-5,Omar Martin S.A,EBKG13048921,FX32932086          ,Arribado
 2025-06-09,34445,,Omar Martin S.A,EBKG13048921,                    ,Pendiente
 2025-06-09,34442,,Smart Trading S.A.S,BUEF06657300,                    ,Pendiente
 2025-06-09,34443,,Smart Trading S.A.S,BUEF06657300,                    ,Pendiente
