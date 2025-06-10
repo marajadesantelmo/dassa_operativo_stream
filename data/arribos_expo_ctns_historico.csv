@@ -258,9 +258,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-20,32339,TEMU-729480-7,Mercopallet Srl,29420817,*9******************,Arribado
 2025-04-09,32692,TCNU-674518-8,Mercopallet Srl,22630410,**************      ,Arribado
 2025-04-09,32693,FCIU-761729-4,Mercopallet Srl,22630410,**********          ,Arribado
-2025-06-09,34416,,Mercopallet Srl,153IAR0649278,                    ,Pendiente
-2025-06-09,34417,,Mercopallet Srl,153IAR0649278,                    ,Pendiente
-2025-06-09,34418,,Mercopallet Srl,153IAR0649278,                    ,Pendiente
+2025-06-09,34416,MSBU-502180-0,Mercopallet Srl,153IAR0649278,FX32932045          ,Arribado
+2025-06-09,34417,MSNU-660404-0,Mercopallet Srl,153IAR0649278,FX32932073          ,Arribado
+2025-06-09,34418,FFAU-382479-0,Mercopallet Srl,153IAR0649278,FX32932098          ,Arribado
 2025-05-07,33415,MSNU-870278-6,Mercopallet Srl,EBKG12664282,FX-32970715         ,Arribado
 2025-05-07,33416,MSNU-591175-6,Mercopallet Srl,EBKG12664282,FX-32977265         ,Arribado
 2025-04-23,33028,UACU-844344-5,Fineport S.A.,92898716,*************       ,Arribado
@@ -277,6 +277,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-21,32384,,Industrias Quimicas Independencia Sa,EC01017079L,                    ,Arribado
 2025-04-01,32574,,Industrias Quimicas Independencia Sa,25001EC01 018930X,                    ,Arribado
 2025-03-31,32534,HAMU-151696-9,Kluber Lubrication Argentina S A,37362433,***************     ,Arribado
+2025-06-12,34510,,Denso Manufacturing  Argentina Sa,254784178,                    ,Pendiente
 2025-04-28,33191,TXGU-652484-7,Brest Luis Angel,26161407,*************       ,Arribado
 2025-02-14,31456,MRKU-407948-1,Bdfm Sa,249860796,************        ,Arribado
 2025-06-06,34385,MAGU-533559-4,Bdfm Sa,BUA0342567,R1955890            ,Arribado
@@ -311,8 +312,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-11,31364,MSNU-789666-6,Isischu Srl,EBKG11663966,FX32986422          ,Arribado
 2025-02-11,31367,BMOU-588053-3,Isischu Srl,EBKG11663966,FX32986410          ,Arribado
 2025-06-10,34481,,Isischu Srl,EBKG13126124,                    ,Pendiente
-2025-06-10,34478,,Isischu Srl,EBKG13126124,                    ,Pendiente
-2025-06-10,34479,,Isischu Srl,EBKG13126124,                    ,Pendiente
+2025-06-10,34478,MSCU-549001-5,Isischu Srl,EBKG13126124,FX32971968          ,Arribado
+2025-06-10,34479,TRHU-838933-0,Isischu Srl,EBKG13126124,FX32971937          ,Arribado
 2025-06-10,34480,,Isischu Srl,EBKG13126124,                    ,Pendiente
 2025-05-28,34123,TGBU-728314-5,Isischu Srl,340500019257,************        ,Arribado
 2025-05-28,34124,EISU-857156-2,Isischu Srl,340500019257,***********         ,Arribado
@@ -706,10 +707,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-11,31343,MSDU-175377-6,Borax Argentina S A,EBKG11692650,FX26227906          ,Arribado
 2025-02-11,31346,MEDU-634007-9,Borax Argentina S A,EBKG11692650,FX26256447          ,Arribado
 2025-02-11,31347,MEDU-504261-3,Borax Argentina S A,EBKG11692650,FX26245697          ,Arribado
-2025-06-10,34482,,Borax Argentina S A,254927289,                    ,Pendiente
+2025-06-10,34482,MSKU-629871-0,Borax Argentina S A,254927289,*********           ,Arribado
 2025-06-10,34483,,Borax Argentina S A,254927289,                    ,Pendiente
-2025-06-10,34463,,Borax Argentina S A,BUE500100300,                    ,Pendiente
-2025-06-10,34464,,Borax Argentina S A,BUE500100300,                    ,Pendiente
+2025-06-09,34491,TCLU-265943-8,Borax Argentina S A,EBKG13115236,FX32971927          ,Arribado
+2025-06-09,34492,MSDU-265675-0,Borax Argentina S A,EBKG13115236,FX32971999          ,Arribado
+2025-06-10,34463,PCIU-461892-8,Borax Argentina S A,BUE500100300,************        ,Arribado
+2025-06-10,34464,PCIU-461402-8,Borax Argentina S A,BUE500100300,*************       ,Arribado
 2025-06-09,34465,ONEU-231534-3,Borax Argentina S A,BUEF07036900,**************      ,Arribado
 2025-06-06,34361,CXDU-150344-3,Borax Argentina S A,BUEF07036900,***********         ,Arribado
 2025-06-06,34362,CXDU-175348-4,Borax Argentina S A,BUEF07036900,************        ,Arribado
@@ -961,6 +964,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-17,31486,,Aj Comercio Exterior Srl,25001EC01009742J,                    ,Arribado
 2025-02-17,31487,,Aj Comercio Exterior Srl,25001EC01009742J,                    ,Arribado
 2025-02-18,31539,,Aj Comercio Exterior Srl,25001EC01009743K,                    ,Arribado
+2025-06-09,34485,,Aj Comercio Exterior Srl,25001EC01036139J,                    ,Arribado
+2025-06-09,34486,,Aj Comercio Exterior Srl,25001EC01036139J,                    ,Arribado
 2025-05-26,33935,,Aj Comercio Exterior Srl,25001EC01032317D,                    ,Arribado
 2025-05-26,33936,,Aj Comercio Exterior Srl,25001EC01032317D,                    ,Arribado
 2025-06-02,34249,,Aj Comercio Exterior Srl,25001EC01034007B,                    ,Arribado
@@ -986,7 +991,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-10,31310,MSNU-565907-4,Virasoro Maderas S R L,EBKG11499126,FX26278864          ,Arribado
 2025-02-10,31311,MEDU-760359-1,Virasoro Maderas S R L,EBKG11499126,FX26278862          ,Arribado
 2025-06-09,34429,HLXU-825633-0,Virasoro Maderas S R L,31391492,**********          ,Arribado
-2025-06-09,34430,,Virasoro Maderas S R L,31391492,                    ,Pendiente
+2025-06-09,34430,HLBU-196808-5,Virasoro Maderas S R L,31391492,***********         ,Arribado
 2025-05-27,33962,MRKU-578030-4,Virasoro Maderas S R L,254129409,**************      ,Arribado
 2025-05-27,33963,HASU-468519-9,Virasoro Maderas S R L,254129409,************        ,Arribado
 2025-06-02,34168,,Virasoro Maderas S R L,254129409,                    ,Pendiente
@@ -1186,6 +1191,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-18,32263,,Dsi Underground Sa,25001EC01015871J,                    ,Arribado
 2025-04-22,32993,,Dsi Underground Sa,25001EC01023843H,                    ,Arribado
 2025-05-14,33542,,Dsi Underground Sa,25001EC01029105E,                    ,Arribado
+2025-06-10,34521,,Dsi Underground Sa,25001EC01036520D,                    ,Arribado
 2025-02-12,31381,CAAU-510898-0,Forestal Bosques Del Plata Sa,EBKG11679557,FX32986354          ,Arribado
 2025-02-12,31382,MSDU-808766-6,Forestal Bosques Del Plata Sa,EBKG11679557,FX32986359          ,Arribado
 2025-02-12,31383,MSNU-732286-3,Forestal Bosques Del Plata Sa,EBKG11679557,FX32986358          ,Arribado
@@ -1332,7 +1338,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-11,34451,,Hdv Leather S.R.L.,EBKG13098090,                    ,Pendiente
 2025-06-11,34453,,Hdv Leather S.R.L.,EBKG13098173,                    ,Pendiente
 2025-06-11,34454,,Hdv Leather S.R.L.,EBKG13098173,                    ,Pendiente
-2025-06-09,34439,,Hdv Leather S.R.L.,253436205,                    ,Pendiente
+2025-06-09,34439,UESU-466193-8,Hdv Leather S.R.L.,253436205,***********         ,Arribado
 2025-06-09,34440,,Hdv Leather S.R.L.,253436205,                    ,Pendiente
 2025-06-09,34441,,Hdv Leather S.R.L.,253436205,                    ,Pendiente
 2025-06-11,34448,,Hdv Leather S.R.L.,EBKG13098090,                    ,Pendiente
@@ -1414,7 +1420,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-05,34372,PCIU-018875-2,Uld Global Trade Srl,BUE500096400,**********          ,Arribado
 2025-06-05,34373,PCIU-167528-8,Uld Global Trade Srl,BUE500096400,**********          ,Arribado
 2025-06-05,34374,PCIU-126720-2,Uld Global Trade Srl,BUE500096400,************        ,Arribado
+2025-06-10,34487,PCIU-010660-4,Uld Global Trade Srl,BUE500096400,************        ,Arribado
+2025-06-10,34488,PCIU-016626-5,Uld Global Trade Srl,BUE500096400,**********          ,Arribado
 2025-06-09,34444,MSDU-468586-5,Omar Martin S.A,EBKG13048921,FX32932086          ,Arribado
-2025-06-09,34445,,Omar Martin S.A,EBKG13048921,                    ,Pendiente
-2025-06-09,34442,,Smart Trading S.A.S,BUEF06657300,                    ,Pendiente
-2025-06-09,34443,,Smart Trading S.A.S,BUEF06657300,                    ,Pendiente
+2025-06-09,34445,CAXU-681568-4,Omar Martin S.A,EBKG13048921,FX32932082          ,Arribado
+2025-06-09,34442,ONEU-213538-3,Smart Trading S.A.S,BUEF06657300,***********         ,Arribado
+2025-06-09,34443,TGCU-234359-0,Smart Trading S.A.S,BUEF06657300,*********           ,Arribado
