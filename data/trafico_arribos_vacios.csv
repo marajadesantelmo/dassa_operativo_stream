@@ -5,8 +5,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 34449,11/06,Hdv Leather S.R.L.,MSDU-831558-1,9,HC,TD,FX32931402          ,EBKG13098090,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,15:13,2025-06-27,,EBKG13098090        ,15:13 Arribado
 34448,11/06,Hdv Leather S.R.L.,MSMU-755943-0,9,HC,TD,FX32931405          ,EBKG13098090,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,14:26,2025-06-27,,EBKG13098090        ,14:26 Arribado
 34549,11/06,Borax Argentina S A,-,0,  ,TD,                    ,EC03 005896R,1,TRANSPORTE DEL CLIENTE        ,Julian Cruz,08:34,2025-07-02,,                    ,08:34 Arribado
-34546,11/06,Borax Argentina S A,-,10077,  ,TD,                    ,254926682,0,                              ,,     ,2025-07-01,Fc 12315,                    ,Pendiente
-34545,11/06,Borax Argentina S A,-,10077,  ,TD,                    ,254926682,0,                              ,,     ,2025-07-01,Fc 12315,                    ,Pendiente
+34546,11/06,Borax Argentina S A,PONU-002371-6,10077,DR,TD,************        ,254926682,1,TRANSPORTE DEL CLIENTE        ,Lirosi,16:33,2025-07-01,Fc 12315,                    ,16:33 Arribado
+34545,11/06,Borax Argentina S A,SUDU-795234-7,10077,  ,TD,************        ,254926682,1,TRANSPORTE DEL CLIENTE        ,Lirosi,16:32,2025-07-01,Fc 12315,                    ,16:32 Arribado
 34544,11/06,Borax Argentina S A,HASU-100309-0,10077,  ,TD,**********          ,254926682,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,15:43,2025-07-01,Fc 12315,                    ,15:43 Arribado
 34543,11/06,Borax Argentina S A,MSKU-428955-6,10077,  ,TD,**********          ,254926682,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,15:42,2025-07-01,Fc 12315,                    ,15:42 Arribado
 34542,11/06,Borax Argentina S A,GCXU-252979-0,10080,DR,TD,************        ,254926649,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,13:56,2025-07-01,,                    ,13:56 Arribado
