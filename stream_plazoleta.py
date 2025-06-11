@@ -199,7 +199,11 @@ def show_page_plazoleta():
         <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
         </div>
         <div style="text-align: center; flex: 1;">
-        <h6>Cueros</h6>
+        <h6>Cueros cargados</h6>
+        <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
+        </div>
+        <div style="text-align: center; flex: 1;">
+        <h6>Cueros disponibles</h6>
         <p style="font-size: calc(1.2em + 1vw); font-weight: bold; margin: 0;">{}</p>
         </div>
         <div style="text-align: center; flex: 1;">
@@ -209,9 +213,18 @@ def show_page_plazoleta():
     </div>
     """.format(
         int(cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(?:ROLLOS|Rollo)\b', regex=True, na=False)].shape[0]),
-        int(cont_nac[cont_nac['OBSERVACION'].str.contains(r'\b(?:CUERO|Cuero)\b', regex=True, na=False)].shape[0]),
-        int(cont_nac[(~cont_nac['OBSERVACION'].str.contains(r'\b(?:ROLLOS|Rollo|CUERO|Cuero)\b', regex=True, na=False)) &
-                        (cont_nac['CARGADO'].str.contains(r'\b(?:SI|si|Si)\b', regex=True, na=False))].shape[0])
+        int(cont_nac[
+            cont_nac['OBSERVACION'].str.contains(r'\b(?:CUERO|Cuero)\b', regex=True, na=False) &
+            cont_nac['CARGADO'].str.contains(r'\b(?:SI|si|Si)\b', regex=True, na=False)
+        ].shape[0]),
+        int(cont_nac[
+            cont_nac['OBSERVACION'].str.contains(r'\b(?:CUERO|Cuero)\b', regex=True, na=False) &
+            cont_nac['CARGADO'].str.contains(r'\b(?:NO|no|No)\b', regex=True, na=False)
+        ].shape[0]),
+        int(cont_nac[
+            (~cont_nac['OBSERVACION'].str.contains(r'\b(?:ROLLOS|Rollo|CUERO|Cuero)\b', regex=True, na=False)) &
+            (cont_nac['CARGADO'].str.contains(r'\b(?:SI|si|Si)\b', regex=True, na=False))
+        ].shape[0])
     ),
     unsafe_allow_html=True
     )
