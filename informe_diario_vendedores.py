@@ -59,25 +59,33 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
     <body>
         <h2>Operaciones para el día {hoy}</h2>
         <p>Buenos días {row},</p>
-        <p>A continuación te compartimos las operaciones coordinadas con tus clientes para el día de hoy:</p>
     """
-    # Dynamically add operation tables
-    for title, df in operations.items():
-        if not df.empty:
-            styled_table = format_table(df)
+    
+    # Check if there are operations
+    if any(not df.empty for df in operations.values()):
+        email_content += "<p>A continuación te compartimos las operaciones coordinadas con tus clientes para el día de hoy:</p>"
+        # Dynamically add operation tables
+        for title, df in operations.items():
+            if not df.empty:
+                styled_table = format_table(df)
+                email_content += f"""
+                <h3>{title}</h3>
+                {styled_table}
+                """
+        email_content += """<p>Información sobre saldos vencidos en el último año:</p>"""
+        
+        # Add saldos_clientes_vendedor table
+        if not saldos_clientes_vendedor.empty:
+            styled_table = format_table(saldos_clientes_vendedor)
             email_content += f"""
-            <h3>{title}</h3>
+            <h3>Saldos vencidos</h3>
+            <h4>Facturas vencidas emitidas en los últimos 365 días</h4>
             {styled_table}
             """
-    email_content += """<p>Información sobre saldos vencidos en el último año:</p>"""
-    
-    # Add saldos_clientes_vendedor table
-    if not saldos_clientes_vendedor.empty:
-        styled_table = format_table(saldos_clientes_vendedor)
-        email_content += f"""
-        <h3>Saldos vencidos</h3>
-        <h3>Facturas vencidas emitidas en los últimos 365 días</h4>
-        {styled_table}
+    else:
+        # If no operations, send a message indicating no operations
+        email_content += """
+        <p>No hay operaciones registradas para el día de hoy. Te compartimos información sobre saldos y estado de la carga de tus clientes</p>
         """
 
     email_content += """
@@ -91,7 +99,6 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
     msg['Subject'] = f'Operaciones de tus clientes para el día de hoy {hoy}'
     msg['From'] = "auto@dassa.com.ar"
     msg['To'] = mail
-    #msg['To'] = "marajadesantelmo@gmail.com"
     msg.attach(MIMEText(email_content, 'html'))
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
@@ -214,12 +221,8 @@ for vendedor in vendedores:
     # Format Saldo column again for display
     saldos_clientes_vendedor_agregado = formato_saldos(saldos_clientes_vendedor_agregado)
 
-    # Check if there are operations
-    if any(not df.empty for df in operations.values()):
-        print(f"Hay operaciones para el vendedor {vendedor}.")
-        vendedor_email = tabla_vendedor['email'].iloc[0]  # Assuming email column exists
-        send_email_vendedor(vendedor, vendedor_email, operations, saldos_clientes_vendedor_agregado)
-    else:
-        print(f"No hay operaciones para el vendedor {vendedor}.")
+    vendedor_email = tabla_vendedor['email'].iloc[0] 
+    send_email_vendedor(vendedor, vendedor_email, operations, saldos_clientes_vendedor_agregado)
+
 
 
