@@ -5,16 +5,16 @@ st.set_page_config(page_title="Operativa DASSA",
 import stream_impo
 import stream_expo
 import stream_balanza
-import stream_balanza2
 import stream_plazoleta
 import stream_impo_historico
 import stream_expo_historico
-import stream_trafico
-import stream_trafico_historico
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
 import os
+
+url_supabase = os.getenv("url_supabase")
+key_supabase= os.getenv("key_supabase")
 
 refresh_interval_ms = 60 * 1000  # 30 seconds in milliseconds
 count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refresh")
@@ -62,14 +62,14 @@ if not st.session_state['logged_in']:
 else:
     allowed_pages = (
         ["IMPO", "EXPO", "Logout"] if st.session_state['username'] == "deposito" else
-        ["IMPO", "EXPO", "Balanza", "Balanza2", "Plazoleta", "Logout"] if st.session_state['username'] in ["plazoleta", "mudancera"] else
-        ["IMPO", "EXPO", "Balanza", "Balanza2", "Plazoleta", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Tráfico - histórico", "Logout"]
+        ["IMPO", "EXPO", "Balanza",  "Plazoleta", "Logout"] if st.session_state['username'] in ["plazoleta", "mudancera"] else
+        ["IMPO", "EXPO", "Balanza",  "Plazoleta", "Tráfico", "IMPO - histórico", "EXPO - histórico",  "Logout"]
     )
     page_selection = option_menu(
             None,  # No menu title
             allowed_pages,  
             icons=["arrow-down-circle", "arrow-up-circle", "box-arrow-right"] if st.session_state['username'] == "deposito" else 
-                  ["arrow-down-circle", "arrow-up-circle", "book", "book", "arrow-right-circle", "book", "book", "book", "box-arrow-right"],   
+                  ["arrow-down-circle", "arrow-up-circle", "book", "book", "arrow-right-circle", "book", "book", "box-arrow-right"],   
             menu_icon="cast",  
             default_index=0, 
             orientation="horizontal")
@@ -79,18 +79,12 @@ else:
         stream_expo.show_page_expo()
     elif page_selection == "Balanza":
          stream_balanza.show_page_balanza()
-    elif page_selection == "Balanza2":
-         stream_balanza2.show_page_balanza2()
     elif page_selection == "Plazoleta":
          stream_plazoleta.show_page_plazoleta()
-    elif page_selection == "Tráfico":
-        stream_trafico.show_page_trafico()
     elif page_selection == "IMPO - histórico":
         stream_impo_historico.show_page_impo_historico()
     elif page_selection == "EXPO - histórico":
         stream_expo_historico.show_page_expo_historico()
-    elif page_selection == "Tráfico - histórico":
-        stream_trafico_historico.show_page_trafico_historico()
     elif page_selection == "Logout":
         cookies.pop("logged_in", None)
         cookies.pop("username", None)
