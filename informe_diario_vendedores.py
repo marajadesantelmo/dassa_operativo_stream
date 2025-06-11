@@ -11,49 +11,15 @@ from datetime import datetime, timedelta
 path = "//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/"
 
 def format_table(tabla):
-    # Handle links in 'e-tally' column
     if 'e-tally' in tabla.columns:
         tabla['e-tally'] = tabla['e-tally'].apply(
             lambda x: '<a href="{0}" target="_blank">&#128279;</a>'.format(x) if pd.notnull(x) and x != '' else '-'
         )
-    # Handle links in 'Salida' column
     if 'Salida' in tabla.columns:
         tabla['Salida'] = tabla['Salida'].apply(
             lambda x: '<a href="{0}" target="_blank">&#128279;</a>'.format(x) if pd.notnull(x) and x != '' else '-'
         )
-    
-    styled_table = tabla.to_html(index=False, escape=False, classes="styled-table")
-    styled_table = f"""
-    <style>
-        .styled-table {{
-            border-collapse: collapse;
-            margin: 25px 0;
-            font-size: 14px;
-            font-family: Arial, sans-serif;
-            width: 100%;
-            text-align: left;
-        }}
-        .styled-table th {{
-            background-color: #009879;
-            color: #ffffff;
-            padding: 10px;
-        }}
-        .styled-table td {{
-            padding: 8px;
-            border: 1px solid #dddddd;
-        }}
-        .styled-table tr:nth-child(even) {{
-            background-color: #f3f3f3;
-        }}
-        .styled-table tr:nth-child(odd) {{
-            background-color: #ffffff;
-        }}
-        .styled-table tr:hover {{
-            background-color: #f1f1f1;
-        }}
-    </style>
-    {styled_table}
-    """
+    styled_table = tabla.to_html(index=False, escape=False)
     return styled_table
 
 def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor, existente):
@@ -79,11 +45,11 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor, existen
                 
         # Add saldos_clientes_vendedor table
         if not saldos_clientes_vendedor.empty:
-            styled_table = format_table(saldos_clientes_vendedor)
+            saldos_clientes_vendedor = format_table(saldos_clientes_vendedor)
             email_content += f"""
             <h3>Saldos vencidos</h3>
             <h4>Facturas vencidas emitidas en los últimos 365 días</h4>
-            {styled_table}
+            {saldos_clientes_vendedor}
             """
     else:
         # If no operations, send a message indicating no operations
@@ -93,7 +59,7 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor, existen
 
     # Add existente information
     if any(not df.empty for df in existente.values()):
-        email_content += "<p>A continuación te compartimos información sobre el estado de la carga de tus clientes:</p>"
+        email_content += "<p>Estado de la carga de tus clientes:</p>"
         for title, df in existente.items():
             if not df.empty:
                 styled_table = format_table(df)
@@ -145,15 +111,6 @@ def formato_saldos(df):
     df['Saldo'] = df['Saldo'].apply(lambda x: f"${x:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".") if x >= 0 else f"(${abs(x):,.2f})".replace(",", "X").replace(".", ",").replace("X", "."))
     return df
 
-def apply_styling(df):
-    # Apply styling to 'e-tally' column if it exists
-    if 'e-tally' in df.columns:
-        df['e-tally'] = df['e-tally'].fillna('-')
-    # Apply styling to 'Salida' column if it exists
-    if 'Salida' in df.columns:
-        df['Salida'] = df['Salida'].fillna('-')
-    return df
-
 
 server = '101.44.8.58\\SQLEXPRESS_X86,1436'
 conn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';UID='+username+';PWD='+ password)
@@ -193,10 +150,6 @@ for vendedor in vendedores:
     listos_para_remitir = pd.read_csv(path + 'data/listos_para_remitir.csv')
     vacios_disponibles = pd.read_csv(path + 'data/vacios_disponibles.csv')
 
-    for df in [verificaciones_impo, retiros_impo, otros_impo, verificaciones_expo, 
-            remisiones_expo, otros_expo]:
-        if 'e-tally' in df.columns:
-            df['e-tally'].fillna('-', inplace=True)
 
     tabla_vendedor = dic_vendedores[dic_vendedores['nombre_vendedor'] == vendedor]
     vendedor_ids = tabla_vendedor['cod_vendedor'].unique()
@@ -211,7 +164,7 @@ for vendedor in vendedores:
         "Otros Importación": otros_impo[(otros_impo['Cliente'].isin(clientes_vendedor)) & (otros_impo['Dia'] == dia)],
         "Verificaciones Exportación": verificaciones_expo[(verificaciones_expo['Cliente'].isin(clientes_vendedor)) & (verificaciones_expo['Dia'] == dia)],
         "Remisiones Exportación": remisiones_expo[(remisiones_expo['Cliente'].isin(clientes_vendedor)) & (remisiones_expo['Dia'] == dia)],
-        "A Consolidar": a_consolidar[(a_consolidar['Cliente'].isin(clientes_vendedor)) & (a_consolidar['Dia'] == dia)],
+        "A Consolidar": a_consolidar[(a_consolidar['Cliente'].isin(clientes_vendedor))],
         "Otros Exportación": otros_expo[(otros_expo['Cliente'].isin(clientes_vendedor)) & (otros_expo['Dia'] == dia)],
     }
 
@@ -249,9 +202,10 @@ for vendedor in vendedores:
     )
     # Format Saldo column again for display
     saldos_clientes_vendedor_agregado = formato_saldos(saldos_clientes_vendedor_agregado)
-
+    #vendedor_email = 'marajadesantelmo@gmail.com'
+    #vendedor_email = 'facundol@hotmail.com'
     vendedor_email = tabla_vendedor['email'].iloc[0] 
-    send_email_vendedor(vendedor, vendedor_email, operations.copy(), saldos_clientes_vendedor_agregado, existente.copy())
+    send_email_vendedor(vendedor, vendedor_email, operations, saldos_clientes_vendedor_agregado, existente)
 
 
 
