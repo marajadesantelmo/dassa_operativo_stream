@@ -13,14 +13,10 @@ path = "//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/"
 def format_table(tabla):
     # Handle links in 'e-tally' column
     if 'e-tally' in tabla.columns:
-        tabla['e-tally'] = tabla['e-tally'].apply(
-            lambda x: '<a href="{0}" target="_blank">&#128279;</a>'.format(x) if pd.notnull(x) and x != '' else '-'
-        )
+        tabla['e-tally'] = tabla['e-tally'].apply(lambda x: f'<a href="{x}" target="_blank">🔗</a>' if pd.notnull(x) else '-')
     # Handle links in 'Salida' column
     if 'Salida' in tabla.columns:
-        tabla['Salida'] = tabla['Salida'].apply(
-            lambda x: '<a href="{0}" target="_blank">&#128279;</a>'.format(x) if pd.notnull(x) and x != '' else '-'
-        )
+        tabla['Salida'] = tabla['Salida'].apply(lambda x: f'<a href="{x}" target="_blank">🔗</a>' if pd.notnull(x) else '-')
     
     styled_table = tabla.to_html(index=False, escape=False, classes="styled-table")
     styled_table = f"""
@@ -193,10 +189,6 @@ for vendedor in vendedores:
     listos_para_remitir = pd.read_csv(path + 'data/listos_para_remitir.csv')
     vacios_disponibles = pd.read_csv(path + 'data/vacios_disponibles.csv')
 
-    for df in [verificaciones_impo, retiros_impo, otros_impo, verificaciones_expo, 
-            remisiones_expo, otros_expo]:
-        if 'e-tally' in df.columns:
-            df['e-tally'].fillna('-', inplace=True)
 
     tabla_vendedor = dic_vendedores[dic_vendedores['nombre_vendedor'] == vendedor]
     vendedor_ids = tabla_vendedor['cod_vendedor'].unique()
@@ -251,7 +243,7 @@ for vendedor in vendedores:
     saldos_clientes_vendedor_agregado = formato_saldos(saldos_clientes_vendedor_agregado)
 
     vendedor_email = tabla_vendedor['email'].iloc[0] 
-    send_email_vendedor(vendedor, vendedor_email, operations.copy(), saldos_clientes_vendedor_agregado, existente.copy())
+    send_email_vendedor(vendedor, vendedor_email, operations, saldos_clientes_vendedor_agregado, existente)
 
 
 
