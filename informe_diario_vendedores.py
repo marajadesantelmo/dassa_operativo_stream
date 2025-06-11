@@ -169,31 +169,31 @@ clientes['Cliente'] = clientes['Cliente'].apply(lambda x: x[:20] + "..." if len(
 dic_vendedores = pd.read_excel(path + 'diccionario_vendedores_puros_dassa.xlsx')
 dic_vendedores = dic_vendedores[dic_vendedores['nombre_vendedor'] != 'Otros']
 
-# Load all dataframes
-verificaciones_impo = pd.read_csv(path + 'data/verificaciones_impo.csv')
-retiros_impo = pd.read_csv(path + 'data/retiros_impo.csv')
-otros_impo = pd.read_csv(path + 'data/otros_impo.csv')
-verificaciones_expo = pd.read_csv(path + 'data/verificaciones_expo.csv')
-remisiones_expo = pd.read_csv(path + 'data/remisiones.csv')
-a_consolidar = pd.read_csv(path + 'data/a_consolidar.csv')
-otros_expo = pd.read_csv(path + 'data/otros_expo.csv')
-existente_plz = pd.read_csv(path + 'data/existente_plz.csv')
-existente_alm = pd.read_csv(path + 'data/existente_alm.csv')
-pendiente_consolidar = pd.read_csv(path + 'data/pendiente_consolidar.csv')
-listos_para_remitir = pd.read_csv(path + 'data/listos_para_remitir.csv')
-vacios_disponibles = pd.read_csv(path + 'data/vacios_disponibles.csv')
 
-
-
-# Fill NaN values in 'e-tally' column for each dataframe if it exists
-for df in [verificaciones_impo, retiros_impo, otros_impo, verificaciones_expo, 
-           remisiones_expo, otros_expo]:
-    if 'e-tally' in df.columns:
-        df['e-tally'].fillna('-', inplace=True)
 
 vendedores = dic_vendedores['nombre_vendedor'].unique()
 
 for vendedor in vendedores:
+
+    # Load all dataframes
+    verificaciones_impo = pd.read_csv(path + 'data/verificaciones_impo.csv')
+    retiros_impo = pd.read_csv(path + 'data/retiros_impo.csv')
+    otros_impo = pd.read_csv(path + 'data/otros_impo.csv')
+    verificaciones_expo = pd.read_csv(path + 'data/verificaciones_expo.csv')
+    remisiones_expo = pd.read_csv(path + 'data/remisiones.csv')
+    a_consolidar = pd.read_csv(path + 'data/a_consolidar.csv')
+    otros_expo = pd.read_csv(path + 'data/otros_expo.csv')
+    existente_plz = pd.read_csv(path + 'data/existente_plz.csv')
+    existente_alm = pd.read_csv(path + 'data/existente_alm.csv')
+    pendiente_consolidar = pd.read_csv(path + 'data/pendiente_consolidar.csv')
+    listos_para_remitir = pd.read_csv(path + 'data/listos_para_remitir.csv')
+    vacios_disponibles = pd.read_csv(path + 'data/vacios_disponibles.csv')
+
+    for df in [verificaciones_impo, retiros_impo, otros_impo, verificaciones_expo, 
+            remisiones_expo, otros_expo]:
+        if 'e-tally' in df.columns:
+            df['e-tally'].fillna('-', inplace=True)
+
     tabla_vendedor = dic_vendedores[dic_vendedores['nombre_vendedor'] == vendedor]
     vendedor_ids = tabla_vendedor['cod_vendedor'].unique()
     clientes_vendedor = clientes[clientes['vendedor'].isin(vendedor_ids)]['Cliente'].unique()
@@ -247,7 +247,7 @@ for vendedor in vendedores:
     saldos_clientes_vendedor_agregado = formato_saldos(saldos_clientes_vendedor_agregado)
 
     vendedor_email = tabla_vendedor['email'].iloc[0] 
-    send_email_vendedor(vendedor, vendedor_email, operations, saldos_clientes_vendedor_agregado, existente)
+    send_email_vendedor(vendedor, vendedor_email, operations.copy(), saldos_clientes_vendedor_agregado, existente.copy())
 
 
 
