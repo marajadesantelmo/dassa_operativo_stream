@@ -11,10 +11,10 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 34543,11/06,Borax Argentina S A,MSKU-428955-6,10077,  ,TD,**********          ,254926682,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,15:42,2025-07-01,Fc 12315,                    ,15:42 Arribado
 34542,11/06,Borax Argentina S A,GCXU-252979-0,10080,DR,TD,************        ,254926649,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,13:56,2025-07-01,,                    ,13:56 Arribado
 34541,11/06,Borax Argentina S A,MRKU-753579-6,10080,DR,TD,***********         ,254926649,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,13:55,2025-07-01,,                    ,13:55 Arribado
-34453,11/06,Hdv Leather S.R.L.,MEDU-484612-9,0,  ,TD,FX32931365          ,EBKG13098173,1,TRANSPORTE DEL CLIENTE        ,De Rosa Luis,07:58,2025-06-27,,EBKG13098173        ,07:58 Arribado
-34539,11/06,Borax Argentina S A,TCLU-277781-0,10080,DR,TD,************        ,254926649,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,10:12,2025-07-01,,                    ,10:12 Arribado
-34548,11/06,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13028567,0,                              ,,     ,2025-07-01,,EBKG13028567        ,Pendiente
 34540,11/06,Borax Argentina S A,SUDU-762819-5,10080,DR,TD,**********          ,254926649,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,10:13,2025-07-01,,                    ,10:13 Arribado
+34453,11/06,Hdv Leather S.R.L.,MEDU-484612-9,0,  ,TD,FX32931365          ,EBKG13098173,1,TRANSPORTE DEL CLIENTE        ,De Rosa Luis,07:58,2025-06-27,,EBKG13098173        ,07:58 Arribado
+34548,11/06,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13028567,0,                              ,,     ,2025-07-01,,EBKG13028567        ,Pendiente
+34539,11/06,Borax Argentina S A,TCLU-277781-0,10080,DR,TD,************        ,254926649,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,10:12,2025-07-01,,                    ,10:12 Arribado
 34536,11/06,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13157382,0,                              ,,     ,2025-07-01,Ebkg13157382,EBKG13157382        ,Pendiente
 34547,11/06,Henn Y Cia S.R.L.,MSDU-731490-8,Exolgan,HC,TD,FX32971831          ,EBKG13028310,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,13:59,2025-07-01,,EBKG13028310        ,13:59 Arribado
 34533,11/06,Henn Y Cia S.R.L.,TCLU-211776-1,Exolgan,DR,TD,FX32971875          ,EBKG13157382,1,TRANSPORTES LEIRA-NO USAR     ,Muller,11:50,2025-07-01,Ebkg13157382,EBKG13157382        ,11:50 Arribado
@@ -24,11 +24,12 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 34569,12/06,Pallets Nef De Raul E. Fernand...,-,0,  ,TD,                    ,32871554,0,                              ,,     ,2025-07-02,Grlem25648/Nef Pallets,32871554            ,Pendiente
 34568,12/06,Pallets Nef De Raul E. Fernand...,-,0,  ,TD,                    ,32871554,0,                              ,,     ,2025-07-02,Grlem25648/Nef Pallets,32871554            ,Pendiente
 34510,12/06,Denso Manufacturing  Argentina...,-,10077,DR,TD,                    ,254784178,0,                              ,,     ,2025-07-01,,                    ,Pendiente
+34571,12/06,Seaside Logistic Sa,-,9,HC,TD,                    ,LA0428297,0,                              ,,     ,2025-07-01,,                    ,Pendiente
 34572,12/06,Seaside Logistic Sa,-,9,HC,TD,                    ,LA0428297,0,                              ,,     ,2025-07-01,,                    ,Pendiente
 34573,12/06,Seaside Logistic Sa,-,9,HC,TD,                    ,LA0428297,0,                              ,,     ,2025-07-01,,                    ,Pendiente
 34574,12/06,Seaside Logistic Sa,-,9,HC,TD,                    ,LA0428297,0,                              ,,     ,2025-07-01,,                    ,Pendiente
+34578,12/06,Lift Van Int. Co S.A,-,10077,DR,TD,                    ,254302060,0,                              ,,     ,2025-07-02,Nis Ilyani Binti Mohmad,                    ,Pendiente
 34570,12/06,Kluber Lubrication Argentina S...,-,10080,DR,TD,                    ,254822936,0,                              ,,     ,2025-07-01,,                    ,Pendiente
-34571,12/06,Seaside Logistic Sa,-,9,HC,TD,                    ,LA0428297,0,                              ,,     ,2025-07-01,,                    ,Pendiente
 34565,13/06,Minera Santa Rita Srl,-,0,  ,TD,                    ,254753841,0,                              ,,     ,2025-07-02,254753841,254753841           ,Pendiente
 34564,13/06,Minera Santa Rita Srl,-,0,  ,TD,                    ,254753841,0,                              ,,     ,2025-07-02,254753841,254753841           ,Pendiente
 34538,17/06,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,254365842,0,                              ,,     ,2025-07-01,Grlem25612/Valerio Oliva,254365842           ,Pendiente
