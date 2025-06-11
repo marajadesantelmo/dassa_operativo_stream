@@ -11,45 +11,15 @@ from datetime import datetime, timedelta
 path = "//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/"
 
 def format_table(tabla):
-    # Handle links in 'e-tally' column
     if 'e-tally' in tabla.columns:
-        tabla['e-tally'] = tabla['e-tally'].apply(lambda x: f'<a href="{x}" target="_blank">🔗</a>' if pd.notnull(x) else '-')
-    # Handle links in 'Salida' column
+        tabla['e-tally'] = tabla['e-tally'].apply(
+            lambda x: '<a href="{0}" target="_blank">&#128279;</a>'.format(x) if pd.notnull(x) and x != '' else '-'
+        )
     if 'Salida' in tabla.columns:
-        tabla['Salida'] = tabla['Salida'].apply(lambda x: f'<a href="{x}" target="_blank">🔗</a>' if pd.notnull(x) else '-')
-    
-    styled_table = tabla.to_html(index=False, escape=False, classes="styled-table")
-    styled_table = f"""
-    <style>
-        .styled-table {{
-            border-collapse: collapse;
-            margin: 25px 0;
-            font-size: 14px;
-            font-family: Arial, sans-serif;
-            width: 100%;
-            text-align: left;
-        }}
-        .styled-table th {{
-            background-color: #009879;
-            color: #ffffff;
-            padding: 10px;
-        }}
-        .styled-table td {{
-            padding: 8px;
-            border: 1px solid #dddddd;
-        }}
-        .styled-table tr:nth-child(even) {{
-            background-color: #f3f3f3;
-        }}
-        .styled-table tr:nth-child(odd) {{
-            background-color: #ffffff;
-        }}
-        .styled-table tr:hover {{
-            background-color: #f1f1f1;
-        }}
-    </style>
-    {styled_table}
-    """
+        tabla['Salida'] = tabla['Salida'].apply(
+            lambda x: '<a href="{0}" target="_blank">&#128279;</a>'.format(x) if pd.notnull(x) and x != '' else '-'
+        )
+    styled_table = tabla.to_html(index=False, escape=False)
     return styled_table
 
 def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor, existente):
@@ -75,11 +45,10 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor, existen
                 
         # Add saldos_clientes_vendedor table
         if not saldos_clientes_vendedor.empty:
-            styled_table = format_table(saldos_clientes_vendedor)
             email_content += f"""
             <h3>Saldos vencidos</h3>
             <h4>Facturas vencidas emitidas en los últimos 365 días</h4>
-            {styled_table}
+            {saldos_clientes_vendedor}
             """
     else:
         # If no operations, send a message indicating no operations
@@ -89,7 +58,7 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor, existen
 
     # Add existente information
     if any(not df.empty for df in existente.values()):
-        email_content += "<p>A continuación te compartimos información sobre el estado de la carga de tus clientes:</p>"
+        email_content += "<p>Estado de la carga de tus clientes:</p>"
         for title, df in existente.items():
             if not df.empty:
                 styled_table = format_table(df)
@@ -139,15 +108,6 @@ def transformar_saldos(df):
 
 def formato_saldos(df): 
     df['Saldo'] = df['Saldo'].apply(lambda x: f"${x:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".") if x >= 0 else f"(${abs(x):,.2f})".replace(",", "X").replace(".", ",").replace("X", "."))
-    return df
-
-def apply_styling(df):
-    # Apply styling to 'e-tally' column if it exists
-    if 'e-tally' in df.columns:
-        df['e-tally'] = df['e-tally'].fillna('-')
-    # Apply styling to 'Salida' column if it exists
-    if 'Salida' in df.columns:
-        df['Salida'] = df['Salida'].fillna('-')
     return df
 
 
@@ -241,8 +201,9 @@ for vendedor in vendedores:
     )
     # Format Saldo column again for display
     saldos_clientes_vendedor_agregado = formato_saldos(saldos_clientes_vendedor_agregado)
-
-    vendedor_email = tabla_vendedor['email'].iloc[0] 
+    vendedor_email = 'marajadesantelmo@gmail.com'
+    vendedor_email = 'facundol@hotmail.com'
+    #vendedor_email = tabla_vendedor['email'].iloc[0] 
     send_email_vendedor(vendedor, vendedor_email, operations, saldos_clientes_vendedor_agregado, existente)
 
 
