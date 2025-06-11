@@ -3,6 +3,7 @@ import pandas as pd
 import os
 from datetime import datetime
 from supabase import create_client, Client
+import time
 
 url_supabase = os.getenv("url_supabase")
 key_supabase= os.getenv("key_supabase")
