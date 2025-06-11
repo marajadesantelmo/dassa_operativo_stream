@@ -52,7 +52,7 @@ def format_table(tabla):
     """
     return styled_table
 
-def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
+def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor, existente):
     hoy = datetime.now().strftime('%d/%m/%Y')
     email_content = f"""
     <html>
@@ -72,8 +72,7 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
                 <h3>{title}</h3>
                 {styled_table}
                 """
-        email_content += """<p>Información sobre saldos vencidos en el último año:</p>"""
-        
+                
         # Add saldos_clientes_vendedor table
         if not saldos_clientes_vendedor.empty:
             styled_table = format_table(saldos_clientes_vendedor)
@@ -87,6 +86,17 @@ def send_email_vendedor(row, mail, operations, saldos_clientes_vendedor):
         email_content += """
         <p>No hay operaciones registradas para el día de hoy. Te compartimos información sobre saldos y estado de la carga de tus clientes</p>
         """
+
+    # Add existente information
+    if any(not df.empty for df in existente.values()):
+        email_content += "<p>A continuación te compartimos información sobre el estado de la carga de tus clientes:</p>"
+        for title, df in existente.items():
+            if not df.empty:
+                styled_table = format_table(df)
+                email_content += f"""
+                <h3>{title}</h3>
+                {styled_table}
+                """
 
     email_content += """
         <p>Saludos cordiales,</p>
@@ -165,8 +175,15 @@ retiros_impo = pd.read_csv(path + 'data/retiros_impo.csv')
 otros_impo = pd.read_csv(path + 'data/otros_impo.csv')
 verificaciones_expo = pd.read_csv(path + 'data/verificaciones_expo.csv')
 remisiones_expo = pd.read_csv(path + 'data/remisiones.csv')
-#consolidados_expo = pd.read_csv(path + 'data/consolidados.csv')
+a_consolidar = pd.read_csv(path + 'data/a_consolidar.csv')
 otros_expo = pd.read_csv(path + 'data/otros_expo.csv')
+existente_plz = pd.read_csv(path + 'data/existente_plz.csv')
+existente_alm = pd.read_csv(path + 'data/existente_alm.csv')
+pendiente_consolidar = pd.read_csv(path + 'data/pendiente_consolidar.csv')
+listos_para_remitir = pd.read_csv(path + 'data/listos_para_remitir.csv')
+vacios_disponibles = pd.read_csv(path + 'data/vacios_disponibles.csv')
+
+
 
 # Fill NaN values in 'e-tally' column for each dataframe if it exists
 for df in [verificaciones_impo, retiros_impo, otros_impo, verificaciones_expo, 
@@ -190,8 +207,16 @@ for vendedor in vendedores:
         "Otros Importación": otros_impo[(otros_impo['Cliente'].isin(clientes_vendedor)) & (otros_impo['Dia'] == dia)],
         "Verificaciones Exportación": verificaciones_expo[(verificaciones_expo['Cliente'].isin(clientes_vendedor)) & (verificaciones_expo['Dia'] == dia)],
         "Remisiones Exportación": remisiones_expo[(remisiones_expo['Cliente'].isin(clientes_vendedor)) & (remisiones_expo['Dia'] == dia)],
-        #"Consolidados Exportación": consolidados_expo[(consolidados_expo['Cliente'].isin(clientes_vendedor)) & (consolidados_expo['Dia'] == dia)],
+        "A Consolidar": a_consolidar[(a_consolidar['Cliente'].isin(clientes_vendedor)) & (a_consolidar['Dia'] == dia)],
         "Otros Exportación": otros_expo[(otros_expo['Cliente'].isin(clientes_vendedor)) & (otros_expo['Dia'] == dia)],
+    }
+
+    existente = {
+        "Existente IMPO en Plazoleta": existente_plz[existente_plz['Cliente'].isin(clientes_vendedor)],
+        "Existente IMPO en Almacén": existente_alm[existente_alm['Cliente'].isin(clientes_vendedor)],
+        "Pendiente Consolidar": pendiente_consolidar[pendiente_consolidar['Cliente'].isin(clientes_vendedor)],
+        "Listos para Remitir": listos_para_remitir[listos_para_remitir['Cliente'].isin(clientes_vendedor)],
+        "Vacios Disponibles": vacios_disponibles[vacios_disponibles['Cliente'].isin(clientes_vendedor)],
     }
 
     ### Descargo Saldos
@@ -222,7 +247,7 @@ for vendedor in vendedores:
     saldos_clientes_vendedor_agregado = formato_saldos(saldos_clientes_vendedor_agregado)
 
     vendedor_email = tabla_vendedor['email'].iloc[0] 
-    send_email_vendedor(vendedor, vendedor_email, operations, saldos_clientes_vendedor_agregado)
+    send_email_vendedor(vendedor, vendedor_email, operations, saldos_clientes_vendedor_agregado, existente)
 
 
 
