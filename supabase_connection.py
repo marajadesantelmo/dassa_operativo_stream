@@ -9,14 +9,22 @@ key_supabase= os.getenv("key_supabase")
 
 supabase_client = create_client(url_supabase, key_supabase)
 
-def fetch_table_data(table_name):
-    query = (
-        supabase_client
-        .from_(table_name)
-        .select('*')
-        .execute()
-    )
-    return pd.DataFrame(query.data)
+def fetch_table_data(table_name, retries=3, delay=5):
+    for attempt in range(retries):
+        try:
+            query = (
+                supabase_client
+                .from_(table_name)
+                .select('*')
+                .execute()
+            )
+            return pd.DataFrame(query.data)
+        except Exception as e:
+            print(f"Attempt {attempt + 1} failed: {e}")
+            if attempt < retries - 1:
+                time.sleep(delay)
+            else:
+                raise
 
 def delete_table_data(table_name):
     # WARNING: This will delete all rows in the table
