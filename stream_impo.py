@@ -4,20 +4,57 @@ import time
 from datetime import datetime
 from utils import highlight
 from supabase_connection import fetch_table_data
+import os
 
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
-    arribos = fetch_table_data("arribos")
-    pendiente_desconsolidar = fetch_table_data("pendiente_desconsolidar")
-    verificaciones_impo = fetch_table_data("verificaciones_impo")
-    retiros_impo = fetch_table_data("retiros_impo")
-    retiros_impo['Dia'] = pd.to_datetime(retiros_impo['Dia'], format='%d/%m')
-    retiros_impo = retiros_impo.sort_values(by="Dia")
-    retiros_impo['Dia'] = retiros_impo['Dia'].dt.strftime('%d/%m')
-    otros_impo = fetch_table_data("otros_impo")
-    otros_impo = otros_impo[otros_impo['Dia'] != '-']
-    existente_plz = fetch_table_data("existente_plz")
-    existente_alm = fetch_table_data("existente_alm")
+    def load_csv_fallback(table_name):
+        csv_path = os.path.join("data", f"{table_name}.csv")
+        return pd.read_csv(csv_path)
+
+    try:
+        arribos = fetch_table_data("arribos")
+    except Exception:
+        arribos = load_csv_fallback("arribos")
+
+    try:
+        pendiente_desconsolidar = fetch_table_data("pendiente_desconsolidar")
+    except Exception:
+        pendiente_desconsolidar = load_csv_fallback("pendiente_desconsolidar")
+
+    try:
+        verificaciones_impo = fetch_table_data("verificaciones_impo")
+    except Exception:
+        verificaciones_impo = load_csv_fallback("verificaciones_impo")
+
+    try:
+        retiros_impo = fetch_table_data("retiros_impo")
+        retiros_impo['Dia'] = pd.to_datetime(retiros_impo['Dia'], format='%d/%m')
+        retiros_impo = retiros_impo.sort_values(by="Dia")
+        retiros_impo['Dia'] = retiros_impo['Dia'].dt.strftime('%d/%m')
+    except Exception:
+        retiros_impo = load_csv_fallback("retiros_impo")
+        retiros_impo['Dia'] = pd.to_datetime(retiros_impo['Dia'], format='%d/%m', errors='coerce')
+        retiros_impo = retiros_impo.sort_values(by="Dia")
+        retiros_impo['Dia'] = retiros_impo['Dia'].dt.strftime('%d/%m')
+
+    try:
+        otros_impo = fetch_table_data("otros_impo")
+        otros_impo = otros_impo[otros_impo['Dia'] != '-']
+    except Exception:
+        otros_impo = load_csv_fallback("otros_impo")
+        otros_impo = otros_impo[otros_impo['Dia'] != '-']
+
+    try:
+        existente_plz = fetch_table_data("existente_plz")
+    except Exception:
+        existente_plz = load_csv_fallback("existente_plz")
+
+    try:
+        existente_alm = fetch_table_data("existente_alm")
+    except Exception:
+        existente_alm = load_csv_fallback("existente_alm")
+
     return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm
 
 @st.cache_data(ttl=60)
