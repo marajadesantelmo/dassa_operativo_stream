@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-from supabase_connection import fetch_table_data
 from utils import highlight, generar_comprobante
 
 def fetch_data_balanza():
