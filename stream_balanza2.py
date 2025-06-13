@@ -4,21 +4,22 @@ from datetime import datetime
 from supabase_connection import fetch_table_data
 from utils import highlight, generar_comprobante
 
-
-
-@st.cache_data(ttl=60)
 def fetch_data_balanza():
-    balanza = fetch_table_data("balanza_data")
-    if balanza.empty:
-        column_names = [
-            "ID Pesada", "Cliente", "CUIT Cliente", "ATA", "CUIT ATA", "Contenedor", "Entrada", "Salida", 
-            "Peso Bruto", "Peso Tara", "Peso Neto", "Peso Mercadería", "Tara CNT", "Descripción", 
-            "Patente Chasis", "Patente Semi", "Chofer", "Tipo Doc", "DNI", "Observaciones", "tipo_oper", 
-            "Booking", "Permiso Emb.", "Precinto", "Estado"
-        ]
-        balanza = pd.DataFrame(columns=column_names)
+    balanza = pd.read_csv('data/balanza.csv') # Me quedo con la info de balanza completa para generar comprobante
+    balanza['DNI'] = balanza['DNI'].fillna('-').astype(str).str.replace('.0', '', regex=False)
+    balanza = balanza.fillna("-")
     balanza_impo = balanza[balanza['tipo_oper'] == 'Importacion']
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
+    columns_impo = ['ID Pesada', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
+       'Peso Neto', 'Tara CNT', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI',
+       'Booking', 'Precinto', 'Tipo Doc', 'Estado']
+    columns_expo = ['ID Pesada', 'Cliente', 'ATA',  'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
+       'Peso Neto', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI', 'Observaciones',
+       'Booking', 'Permiso Emb.', 'Tipo Doc', 'Estado']
+    balanza_impo = balanza_impo[columns_impo]
+    balanza_expo = balanza_expo[columns_expo]
+    balanza_impo = balanza_impo.sort_values(by='Estado', ascending=True)
+    balanza_expo = balanza_expo.sort_values(by='Estado', ascending=True)
     balanza_historico = pd.read_csv('data/historico_balanza.csv')
     balanza_historico['DNI'] = balanza_historico['DNI'].fillna('-').astype(str).str.replace('.0', '', regex=False)
     balanza_historico = balanza_historico.fillna("-")
@@ -34,7 +35,14 @@ def fetch_data_balanza():
     balanza_historico_expo = balanza_historico_expo[columns_expo_historico]
     balanza_historico_impo = balanza_historico_impo.sort_values(by='Estado', ascending=True)
     balanza_historico_expo = balanza_historico_expo.sort_values(by='Estado', ascending=True)
+    
     return balanza, balanza_impo, balanza_expo, balanza_historico_impo, balanza_historico_expo, balanza_historico
+
+
+def fetch_last_update():
+    with open('data/ultima_actualizacion.csv', 'r', encoding='utf-8') as f:
+        last_update = f.read().strip()
+    return last_update
 
 @st.cache_data(ttl=60)
 def fetch_last_update():
