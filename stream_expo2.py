@@ -30,13 +30,9 @@ def fetch_data_expo():
 
 @st.cache_data(ttl=60)
 def fetch_last_update():
-    update_log = fetch_table_data("update_log")
-    if not update_log.empty:
-        last_update = update_log[update_log['table_name'] == 'Arribos y existente']['last_update'].max()
-        return pd.to_datetime(last_update).strftime("%d/%m/%Y %H:%M")
-    return "No disponible"
-
-    
+    with open('data/ultima_actualizacion.csv', 'r', encoding='utf-8') as f:
+        last_update = f.read().strip()
+    return last_update
 
 def show_page_expo():
     # Load data
