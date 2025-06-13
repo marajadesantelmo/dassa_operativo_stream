@@ -40,10 +40,13 @@ def fetch_data_balanza():
 def fetch_last_update():
     update_log = fetch_table_data("update_log")
     if not update_log.empty:
-        last_update = update_log[update_log['table_name'] == 'Balanza']['last_update'].max()
-        return pd.to_datetime(last_update).strftime("%d/%m/%Y %H:%M")
+        try:
+            last_update = update_log[update_log['table_name'] == 'Balanza']['last_update'].max()
+            return pd.to_datetime(last_update).strftime("%d/%m/%Y %H:%M")
+        except Exception as e:
+            st.error(f"Error al obtener la última actualización: {e}")
+            return "No disponible"
     return "No disponible"
-
 
 def show_page_balanza():
     # Load data
