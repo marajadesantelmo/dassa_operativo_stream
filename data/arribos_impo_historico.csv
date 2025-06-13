@@ -50,7 +50,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-02-26,10:00,Terminal 4,TCLU-284357-4,Lift Van Int. Co S.A,HLCUBSC2412BSPU6,TD,2025-02-26,1433,http://dassa.mqbic.com/PublicTally.php?id=1433
 2025-06-04,05:00,Exolgan,UETU-413079-2,Lift Van Int. Co S.A,ONEYSAOF22619700,TD,2025-06-04,1963,http://dassa.mqbic.com/PublicTally.php?id=1963
 2025-06-10,07:00,Terminal 4,CAIU-430386-1,Lift Van Int. Co S.A,ZIMUNYC9097075,TD,2025-06-10,1985,http://dassa.mqbic.com/PublicTally.php?id=1985
-2025-06-12,03:00,TRP,CSNU-215199-0,Lift Van Int. Co S.A,OOLU2306917920,TD,2025-06-12,,
+2025-06-12,03:00,TRP,CSNU-215199-0,Lift Van Int. Co S.A,OOLU2306917920,TD,2025-06-12,1996,http://dassa.mqbic.com/PublicTally.php?id=1996
 2025-05-30,15:00,TRP,TLLU-831139-2,Lift Van Int. Co S.A,SSZ115051RCS,TD,2025-05-30,1918,http://dassa.mqbic.com/PublicTally.php?id=1918
 2025-06-02,12:00,Terminal 4,FCIU-411532-7,Lift Van Int. Co S.A,ZIMUNYC9097300,T,2025-06-02,,
 2025-06-02,12:00,Terminal 4,TGHU-524470-6,Lift Van Int. Co S.A,ZIMUNYC9096546,TD,2025-06-02,1949,http://dassa.mqbic.com/PublicTally.php?id=1949
@@ -124,7 +124,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-06-05,14:00,Terminal 4,MRKU-099555-2,Hra Consultora,253077117,TD,2025-06-05,1976,http://dassa.mqbic.com/PublicTally.php?id=1976
 2025-06-05,14:00,Terminal 4,MRKU-099555-2,Hra Consultora,253077117,TD,2025-06-05,1976,http://dassa.mqbic.com/PublicTally.php?id=1976
 2025-06-05,07:00,Terminal 4,HASU-144322-6,Hra Consultora,253077068,TD,2025-06-05,1973,http://dassa.mqbic.com/PublicTally.php?id=1973
-2025-06-13,07:00,Terminal 4,MRSU-672886-0,Sanyo Color Sa,252254646,TD,,,
+2025-06-13,07:00,Terminal 4,MRSU-672886-0,Sanyo Color Sa,252254646,TD,2025-06-13,,
 2025-02-19,13:00,Terminal 4,TCNU-172835-7,Minera Santa Rita Srl,247688406,TD,2025-02-19,1375,http://dassa.mqbic.com/PublicTally.php?id=1375
 2025-03-06,14:00,Terminal 4,GCXU-620037-5,Minera Santa Rita Srl,248203554,TD,2025-03-06,1496,http://dassa.mqbic.com/PublicTally.php?id=1496
 2025-05-12,11:00,Terminal 4,ZCSU-765959-8,Juguetech Sa,SZXS063928,T,2025-05-12,,
@@ -191,7 +191,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-03-01,07:00,TRP,CSNU-837822-9,Grouport Srl,TCNB2501427,TD,2025-03-01,1462,http://dassa.mqbic.com/PublicTally.php?id=1462
 2025-05-09,11:00,TRP,DFSU-436305-5,Grouport Srl,TCQD2502142,TD,2025-05-09,1806,http://dassa.mqbic.com/PublicTally.php?id=1806
 2025-05-16,05:00,Exolgan,MSDU-435235-5,Grouport Srl,S04592391,TD,2025-05-16,1866,http://dassa.mqbic.com/PublicTally.php?id=1866
-2025-06-12,12:00,Terminal 4,MRKU-890029-7,Refractarios Argentinos Saicm,263965321,TD,,,
+2025-06-12,12:00,Terminal 4,MRKU-890029-7,Refractarios Argentinos Saicm,263965321,TD,2025-06-12,1997,http://dassa.mqbic.com/PublicTally.php?id=1997
 2025-02-25,08:00,Terminal 4,HLBU-119252-0,Fenisan S.A.,HLCUBSC2501BFQS9,TD,2025-02-25,1428,http://dassa.mqbic.com/PublicTally.php?id=1428
 2025-02-25,08:00,Terminal 4,HLBU-119252-0,Fenisan S.A.,HLCUBSC2501BFQS9,TD,2025-02-25,1428,http://dassa.mqbic.com/PublicTally.php?id=1428
 2025-04-29,05:00,Exolgan,CAIU-497354-4,Fenisan S.A.,MEDUOJ362401,T,2025-04-29,,
@@ -488,11 +488,10 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-05-28,12:00,TRP,EMCU-182703-2,Raisvic S.R.L.,HDE25-040041A/B,TD,2025-05-28,1905,http://dassa.mqbic.com/PublicTally.php?id=1905
 2025-05-28,11:00,TRP,TGBU-457918-0,Raisvic S.R.L.,HDE25-040132,T,2025-05-28,,
 2025-05-30,14:00,Terminal 4,BMOU-537725-7,Raisvic S.R.L.,HDE25-050001,T,2025-05-30,,
-2025-06-12,03:00,TRP,EMCU-877130-0,Raisvic S.R.L.,HDE25-050004A/B,TD,2025-06-12,,
+2025-06-12,03:00,TRP,EMCU-877130-0,Raisvic S.R.L.,HDE25-050004A/B,TD,2025-06-12,1991,http://dassa.mqbic.com/PublicTally.php?id=1991
+2025-06-12,03:00,TRP,EMCU-877130-0,Raisvic S.R.L.,HDE25-050004A/B,TD,2025-06-12,1991,http://dassa.mqbic.com/PublicTally.php?id=1991
 2025-06-12,03:00,TRP,EGHU-843201-9,Raisvic S.R.L.,HDE25-050002,T,2025-06-12,,
 2025-06-12,03:00,TRP,EGHU-940502-3,Raisvic S.R.L.,HDE25-040032A/B,TD,2025-06-12,,
-2025-02-13,00:00,TRP,EGSU-124400-8,Ba Comex S.A,TWLE24120168,T,2025-02-13,,
-2025-02-13,00:00,TRP,TCLU-867855-9,Ba Comex S.A,TWLE24120169,T,2025-02-13,,
 2025-02-14,16:00,TRP,EGSU-971473-0,Ba Comex S.A,TWLE24120170,T,2025-02-14,,
 2025-02-14,13:00,Exolgan,FFAU-651668-2,Ba Comex S.A,TWLE24120239,TD,2025-02-14,1350,http://dassa.mqbic.com/PublicTally.php?id=1350
 2025-02-14,13:00,Exolgan,FFAU-651668-2,Ba Comex S.A,TWLE24120239,TD,2025-02-14,1350,http://dassa.mqbic.com/PublicTally.php?id=1350
