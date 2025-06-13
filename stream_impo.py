@@ -4,27 +4,33 @@ import time
 from datetime import datetime
 from utils import highlight
 from supabase_connection import fetch_table_data
-
+@st.cache_data(ttl=60) 
 def fetch_data_impo():
-    arribos = pd.read_csv('data/arribos.csv')
-    pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
-    verificaciones_impo = pd.read_csv('data/verificaciones_impo.csv')
-    retiros_impo = pd.read_csv('data/retiros_impo.csv')
-    retiros_impo['e-tally'] = retiros_impo['e-tally'].fillna("")
-    retiros_impo['Salida'] = retiros_impo['Salida'].fillna("")
-    otros_impo = pd.read_csv('data/otros_impo.csv')
+    arribos = fetch_table_data("arribos")
+    pendiente_desconsolidar = fetch_table_data("pendiente_desconsolidar")
+    verificaciones_impo = fetch_table_data("verificaciones_impo")
+    retiros_impo = fetch_table_data("retiros_impo")
+    retiros_impo['Dia'] = pd.to_datetime(retiros_impo['Dia'], format='%d/%m')
+    retiros_impo = retiros_impo.sort_values(by="Dia")
+    retiros_impo['Dia'] = retiros_impo['Dia'].dt.strftime('%d/%m')
+    otros_impo = fetch_table_data("otros_impo")
     otros_impo = otros_impo[otros_impo['Dia'] != '-']
-    existente_plz = pd.read_csv('data/existente_plz.csv')
-    existente_plz['e-tally'] = existente_plz['e-tally'].fillna("")
-    existente_alm = pd.read_csv('data/existente_alm.csv')
-    existente_alm['e-tally'] = existente_alm['e-tally'].fillna("")
-    ultima_actualizacion = pd.read_csv('data/ultima_actualizacion.csv')
-    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, ultima_actualizacion
+    existente_plz = fetch_table_data("existente_plz")
+    existente_alm = fetch_table_data("existente_alm")
+    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm
+
+@st.cache_data(ttl=60)
+def fetch_last_update():
+    update_log = fetch_table_data("update_log")
+    if not update_log.empty:
+        last_update = update_log[update_log['table_name'] == 'Arribos y existente']['last_update'].max()
+        return pd.to_datetime(last_update).strftime("%d/%m/%Y %H:%M")
+    return "No disponible"
 
 def show_page_impo():
     # Load data
-    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, ultima_actualizacion= fetch_data_impo()
-    #last_update = fetch_last_update()
+    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm = fetch_data_impo()
+    last_update = fetch_last_update()
     mudanceras_filter = ['Mercovan', 'Lift Van', 'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
     if st.session_state['username'] == "mudancera":
         arribos = arribos[arribos['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
@@ -39,7 +45,7 @@ def show_page_impo():
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
         st.image('logo.png')
-        #st.info(f'Última actualización: {last_update}')
+        st.info(f'Última actualización: {last_update}')
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Operaciones de IMPO a partir del {current_day}")
