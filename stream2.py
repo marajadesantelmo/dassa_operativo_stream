@@ -2,9 +2,9 @@ import streamlit as st
 st.set_page_config(page_title="Operativa DASSA", 
                    page_icon="📊", 
                    layout="wide")
-import stream_impo
-import stream_expo
-import stream_balanza
+import stream_impo2
+import stream_expo2
+import stream_balanza2
 import stream_plazoleta
 import stream_impo_historico
 import stream_expo_historico
@@ -74,11 +74,11 @@ else:
             default_index=0, 
             orientation="horizontal")
     if page_selection == "IMPO":
-        stream_impo.show_page_impo()  
+        stream_impo2.show_page_impo()  
     elif page_selection == "EXPO":
-        stream_expo.show_page_expo()
+        stream_expo2.show_page_expo()
     elif page_selection == "Balanza":
-         stream_balanza.show_page_balanza()
+         stream_balanza2.show_page_balanza()
     elif page_selection == "Plazoleta":
          stream_plazoleta.show_page_plazoleta()
     elif page_selection == "IMPO - histórico":
