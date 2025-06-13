@@ -3,36 +3,29 @@ import pandas as pd
 from datetime import datetime
 import time
 from utils import highlight
-from supabase_connection import fetch_table_data
 
 def fetch_data_expo():
-    arribos_expo_carga = fetch_table_data("arribos_expo_carga")
-    arribos_expo_carga['Fecha'] = pd.to_datetime(arribos_expo_carga['Fecha'], format='%d/%m')
-    arribos_expo_carga = arribos_expo_carga.sort_values(by="Fecha")
-    arribos_expo_carga['Fecha'] = arribos_expo_carga['Fecha'].dt.strftime('%d/%m')
-    arribos_expo_ctns = fetch_table_data("arribos_expo_ctns")
-    arribos_expo_ctns['Fecha'] = pd.to_datetime(arribos_expo_ctns['Fecha'], format='%d/%m')
-    arribos_expo_ctns = arribos_expo_ctns.sort_values(by="Fecha")
-    arribos_expo_ctns['Fecha'] = arribos_expo_ctns['Fecha'].dt.strftime('%d/%m')
-    verificaciones_expo = fetch_table_data("verificaciones_expo")
+    arribos_expo_carga = pd.read_csv('data/arribos_expo_carga.csv')
+    arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
+    verificaciones_expo = pd.read_csv('data/verificaciones_expo.csv')
     verificaciones_expo = verificaciones_expo[verificaciones_expo['Dia'] != '-']
-    otros_expo = fetch_table_data("otros_expo")
+    otros_expo = pd.read_csv('data/otros_expo.csv')
     otros_expo = otros_expo[otros_expo['Dia'] != '-']
-    remisiones = fetch_table_data("remisiones")
-    remisiones['Dia'] = pd.to_datetime(remisiones['Dia'], format='%d/%m')
-    remisiones = remisiones.sort_values(by="Dia")
-    remisiones['Dia'] = remisiones['Dia'].dt.strftime('%d/%m')
-    pendiente_consolidar = fetch_table_data("pendiente_consolidar")
-    listos_para_remitir = fetch_table_data("listos_para_remitir")
-    vacios_disponibles = fetch_table_data("vacios_disponibles")
-    a_consolidar = fetch_table_data("a_consolidar")
+    remisiones = pd.read_csv('data/remisiones.csv')
+    remisiones['e-tally'] = remisiones['e-tally'].fillna("")
+    pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
+    listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
+    listos_para_remitir['e-tally'] = listos_para_remitir['e-tally'].fillna("")
+    vacios_disponibles = pd.read_csv('data/vacios_disponibles.csv')
+    a_consolidar = pd.read_csv('data/a_consolidar.csv')
     return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, pendiente_consolidar, listos_para_remitir, vacios_disponibles, a_consolidar
+    
 
-@st.cache_data(ttl=60)
 def fetch_last_update():
     with open('data/ultima_actualizacion.csv', 'r', encoding='utf-8') as f:
         last_update = f.read().strip()
     return last_update
+
 
 def show_page_expo():
     # Load data

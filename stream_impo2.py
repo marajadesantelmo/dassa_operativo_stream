@@ -3,7 +3,6 @@ import pandas as pd
 import time
 from datetime import datetime
 from utils import highlight
-from supabase_connection import fetch_table_data
 
 def fetch_data_impo():
     arribos = pd.read_csv('data/arribos.csv')

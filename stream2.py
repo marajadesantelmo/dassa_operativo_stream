@@ -13,9 +13,6 @@ from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
 import os
 
-url_supabase = os.getenv("url_supabase")
-key_supabase= os.getenv("key_supabase")
-
 refresh_interval_ms = 60 * 1000  # 30 seconds in milliseconds
 count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refresh")
 
