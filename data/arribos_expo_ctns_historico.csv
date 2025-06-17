@@ -36,11 +36,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-19,31587,CMAU-017821-3,Lift Van Int. Co S.A,BUA0336878,R1947319            ,Arribado
 2025-02-24,31727,HLXU-126055-5,Lift Van Int. Co S.A,17536915,                    ,Arribado
 2025-02-24,31728,UACU-852999-7,Lift Van Int. Co S.A,45406774,                    ,Arribado
+2025-06-17,34656,CAIU-615506-4,Lift Van Int. Co S.A,254555242,************        ,Arribado
 2025-06-11,34562,,Lift Van Int. Co S.A,TERRESTRE,                    ,Arribado
 2025-06-12,34578,SUDU-148917-4,Lift Van Int. Co S.A,254302060,************        ,Arribado
 2025-06-13,34612,UACU-849110-3,Lift Van Int. Co S.A,39663430,**********          ,Arribado
 2025-06-13,34615,,Lift Van Int. Co S.A,254555242,                    ,Pendiente
 2025-06-13,34617,,Lift Van Int. Co S.A,36400659,                    ,Pendiente
+2025-06-17,34655,HLBU-104472-8,Lift Van Int. Co S.A,36400659,***********         ,Arribado
 2025-06-09,34432,TCKU-214624-8,Lift Van Int. Co S.A,254130292,************        ,Arribado
 2025-06-09,34433,MRKU-816944-9,Lift Van Int. Co S.A,254311809,***********         ,Arribado
 2025-05-28,34057,,Lift Van Int. Co S.A,25001PER1000211P,                    ,Arribado
@@ -86,9 +88,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-21,31674,GCXU-504900-6,Minera Santa Rita Srl,BUE500030500,*************       ,Arribado
 2025-03-06,31924,MSKU-642882-0,Minera Santa Rita Srl,250677017,*****************   ,Arribado
 2025-03-27,32455,,Minera Santa Rita Srl,251894227,                    ,Pendiente
+2025-06-17,34660,,Minera Santa Rita Srl,93173263,                    ,Pendiente
 2025-06-13,34564,MRKU-077532-6,Minera Santa Rita Srl,254753841,**********          ,Arribado
 2025-06-13,34565,,Minera Santa Rita Srl,254753841,                    ,Pendiente
 2025-06-13,34621,MRKU-077532-6,Minera Santa Rita Srl,254753841,************        ,Arribado
+2025-06-17,34659,,Minera Santa Rita Srl,93173263,                    ,Pendiente
 2025-06-02,34178,MRKU-061212-3,Minera Santa Rita Srl,254254288,************        ,Arribado
 2025-06-02,34179,MRKU-067311-3,Minera Santa Rita Srl,254254288,**************      ,Arribado
 2025-06-02,34180,MRKU-041887-0,Minera Santa Rita Srl,254254288,**********          ,Arribado
@@ -195,8 +199,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-24,31724,MRSU-567505-0,Hilado Sa,250423333,                    ,Arribado
 2025-02-24,31725,UETU-570205-9,Hilado Sa,250423333,                    ,Arribado
 2025-02-24,31726,HASU-418508-5,Hilado Sa,250423333,                    ,Arribado
-2025-06-17,34645,,Hilado Sa,COSU6420889760,                    ,Pendiente
-2025-06-17,34646,,Hilado Sa,COSU6420889760,                    ,Pendiente
+2025-06-17,34645,TGBU-921275-2,Hilado Sa,COSU6420889760,************        ,Arribado
+2025-06-17,34646,FFAU-337285-3,Hilado Sa,COSU6420889760,***********         ,Arribado
 2025-06-17,34647,,Hilado Sa,COSU6420889760,                    ,Pendiente
 2025-05-27,33885,CCLU-785652-0,Hilado Sa,COSU6419343070,************        ,Arribado
 2025-05-27,33886,CSLU-606757-6,Hilado Sa,COSU6419343070,***************     ,Arribado
@@ -269,6 +273,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-12,34570,MRKU-062924-0,Kluber Lubrication Argentina S A,254822936,*************       ,Arribado
 2025-06-12,34510,MRKU-830564-8,Denso Manufacturing  Argentina Sa,254784178,***********         ,Arribado
 2025-04-28,33191,TXGU-652484-7,Brest Luis Angel,26161407,*************       ,Arribado
+2025-06-18,34674,,Bdfm Sa,MCORIV029086,                    ,Pendiente
 2025-06-06,34385,MAGU-533559-4,Bdfm Sa,BUA0342567,R1955890            ,Arribado
 2025-05-23,33843,HLBU-283652-4,Bdfm Sa,59092645,***********         ,Arribado
 2025-05-23,33853,,Bdfm Sa,59092645,                    ,Pendiente
@@ -400,6 +405,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-26,31783,TLLU-857272-9,Asecor Srl,EBKG11801074,FX32989382          ,Arribado
 2025-05-28,34022,TLLU-471381-3,Pallets Nef De Raul E. Fernandez Sa,EBKG12970968,FX32971563          ,Arribado
 2025-05-28,34023,MEDU-767295-1,Pallets Nef De Raul E. Fernandez Sa,EBKG12970968,FX32973720          ,Arribado
+2025-06-06,34386,HAMU-411789-6,Pallets Nef De Raul E. Fernandez Sa,32871554,************        ,Arribado
+2025-06-13,34580,FCIU-722464-0,Pallets Nef De Raul E. Fernandez Sa,32871554,***********         ,Arribado
 2025-03-17,32217,TXGU-546572-9,Hector Reboratti,EBKG11920252,                    ,Arribado
 2025-04-15,32830,MSDU-649062-5,Hector Reboratti,EBKG12427290,FX32978831          ,Arribado
 2025-05-29,34062,HAMU-409749-1,Hector Reboratti,93954793,**********          ,Arribado
@@ -843,7 +850,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-19,31557,MRKU-735594-2,Lawter Argentina S.A.,249860533,***************     ,Arribado
 2025-02-19,31558,MSKU-749086-2,Lawter Argentina S.A.,249860533,****************    ,Arribado
 2025-02-19,31563,SUDU-796074-3,Lawter Argentina S.A.,249860533,**************      ,Arribado
-2025-06-17,34625,,Lawter Argentina S.A.,32049685,                    ,Pendiente
+2025-06-17,34625,CAIU-769683-9,Lawter Argentina S.A.,32049685,0433859             ,Arribado
 2025-06-04,34287,FANU-378193-7,Lawter Argentina S.A.,22103759,************        ,Arribado
 2025-06-02,34096,SUDU-530092-5,Lawter Argentina S.A.,253934352,**************      ,Arribado
 2025-06-02,34097,MRKU-078832-3,Lawter Argentina S.A.,253934352,***********         ,Arribado
@@ -993,9 +1000,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-27,31830,EGSU-125838-3,Norfor Sa,340500007232,**************      ,Arribado
 2025-02-27,31840,EITU-191117-6,Norfor Sa,340500007232,************        ,Arribado
 2025-02-27,31844,CAAU-587940-0,Norfor Sa,340500007232,*************       ,Arribado
-2025-06-17,34637,,Norfor Sa,340500016819,                    ,Pendiente
-2025-06-17,34638,,Norfor Sa,340500016819,                    ,Pendiente
-2025-06-17,34639,,Norfor Sa,340500016819,                    ,Pendiente
+2025-06-17,34637,TXGU-560767-5,Norfor Sa,340500016819,**********          ,Arribado
+2025-06-17,34638,EITU-904496-0,Norfor Sa,340500016819,*********           ,Arribado
+2025-06-17,34639,EGSU-956773-2,Norfor Sa,340500016819,**********          ,Arribado
 2025-05-23,33848,,Norfor Sa,340500018162,                    ,Pendiente
 2025-05-23,33849,,Norfor Sa,340500018162,                    ,Pendiente
 2025-05-23,33865,EGSU-931560-1,Norfor Sa,340500018162,***************     ,Arribado
@@ -1159,7 +1166,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-26,31790,MRKU-540235-1,Forestal Y Ganadera Indumarca Sa,250196485,****************    ,Arribado
 2025-03-17,32220,MSNU-700279-3,Forestal Y Ganadera Indumarca Sa,EBKG12065709,                    ,Arribado
 2025-06-04,34322,ONEU-061814-5,Forestal Y Ganadera Indumarca Sa,BUEF06582700,***********         ,Arribado
-2025-06-17,34640,,Forestal Y Ganadera Indumarca Sa,39368329,                    ,Pendiente
+2025-06-17,34640,HLBU-210519-7,Forestal Y Ganadera Indumarca Sa,39368329,*********           ,Arribado
 2025-04-22,32991,FANU-364295-2,Forestal Y Ganadera Indumarca Sa,54765480,*************       ,Arribado
 2025-05-21,33769,HLXU-842509-2,Forestal Y Ganadera Indumarca Sa,35724365,**********          ,Arribado
 2025-05-22,33799,FANU-153438-9,Forestal Y Ganadera Indumarca Sa,35724365,***********         ,Arribado
@@ -1194,12 +1201,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-06,31925,HAMU-118309-2,El Yerbalito,50831647,**********          ,Arribado
 2025-03-06,31934,HAMU-276878-0,El Yerbalito,50831647,*************       ,Arribado
 2025-03-11,32066,GCXU-597845-4,El Yerbalito,50831647,                    ,Arribado
-2025-06-13,34630,DFSU-771724-0,El Yerbalito,33049430,************        ,Arribado
 2025-06-13,34379,FCIU-722464-0,El Yerbalito,33049430,***********         ,Arribado
-2025-06-06,34386,HAMU-411789-6,El Yerbalito,33049430,************        ,Arribado
-2025-06-13,34580,FCIU-722464-0,El Yerbalito,33049430,***********         ,Arribado
 2025-06-13,34619,UACU-568251-2,El Yerbalito,33049430,*********           ,Arribado
 2025-06-13,34620,FANU-301763-6,El Yerbalito,33049430,************        ,Arribado
+2025-06-13,34630,DFSU-771724-0,El Yerbalito,33049430,************        ,Arribado
 2025-05-26,33873,,El Yerbalito,33045975,                    ,Pendiente
 2025-05-26,33874,,El Yerbalito,33045975,                    ,Pendiente
 2025-05-26,33875,,El Yerbalito,33045975,                    ,Pendiente
@@ -1379,8 +1384,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-12,34601,MSDU-582339-9,Omar Martin S.A,EBKG13048921,FX32932082          ,Arribado
 2025-06-09,34442,ONEU-213538-3,Smart Trading S.A.S,BUEF06657300,***********         ,Arribado
 2025-06-09,34443,TGCU-234359-0,Smart Trading S.A.S,BUEF06657300,*********           ,Arribado
+2025-06-18,34675,,Ads Agropecuaria Sa,EBKG13143598,                    ,Pendiente
+2025-06-17,34672,ZIMU-106825-7,Funcke Maritime Sa,ZIMUBUE9041145,********            ,Arribado
 2025-06-12,34582,,Italar S.R.L.,LA0428297,                    ,Arribado
 2025-06-12,34583,,Italar S.R.L.,LA0428297,                    ,Arribado
 2025-06-12,34584,,Italar S.R.L.,LA0428297,                    ,Arribado
 2025-06-12,34585,,Italar S.R.L.,LA0428297,                    ,Arribado
 2025-06-13,34616,,Mager S R L,254555242,                    ,Pendiente
+2025-06-17,34662,MRKU-890029-7,Mager S R L,255073398,***********         ,Arribado
