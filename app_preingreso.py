@@ -14,7 +14,7 @@ def submit_form(data):
     insert_table_data("preingreso", [data])
     return queue_number
 
-st.title("Formulario de Preingreso - Playón DASSA")
+st.title("Formulario de Preingreso")
 st.image('logo.png')
 st.markdown("Complete los siguientes campos para registrar su arribo al playón.")
 
