@@ -8,6 +8,7 @@ import stream_balanza
 import stream_plazoleta
 import stream_impo_historico
 import stream_expo_historico
+import stream_camiones
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
@@ -61,15 +62,15 @@ if not st.session_state['logged_in']:
             st.error("Usuario o clave invalidos")
 else:
     allowed_pages = (
-        ["IMPO", "EXPO", "Logout"] if st.session_state['username'] == "deposito" else
-        ["IMPO", "EXPO", "Balanza",  "Plazoleta", "Logout"] if st.session_state['username'] in ["plazoleta", "mudancera"] else
-        ["IMPO", "EXPO", "Balanza",  "Plazoleta", "Tráfico", "IMPO - histórico", "EXPO - histórico",  "Logout"]
+        ["IMPO", "EXPO", "Camiones", "Logout"] if st.session_state['username'] == "deposito" else
+        ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "Logout"] if st.session_state['username'] in ["plazoleta", "mudancera"] else
+        ["IMPO", "EXPO", "Balanza",  "Plazoleta", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Camiones", "Logout"]
     )
     page_selection = option_menu(
             None,  # No menu title
             allowed_pages,  
-            icons=["arrow-down-circle", "arrow-up-circle", "box-arrow-right"] if st.session_state['username'] == "deposito" else 
-                  ["arrow-down-circle", "arrow-up-circle", "book", "book", "arrow-right-circle", "book", "book", "box-arrow-right"],   
+            icons=["arrow-down-circle", "arrow-up-circle", "truck", "box-arrow-right"] if st.session_state['username'] == "deposito" else 
+                  ["arrow-down-circle", "arrow-up-circle", "book", "book", "truck", "arrow-right-circle", "book", "book", "box-arrow-right"],   
             menu_icon="cast",  
             default_index=0, 
             orientation="horizontal")
@@ -85,6 +86,8 @@ else:
         stream_impo_historico.show_page_impo_historico()
     elif page_selection == "EXPO - histórico":
         stream_expo_historico.show_page_expo_historico()
+    elif page_selection == "Camiones":
+        stream_camiones.show_page_camiones()
     elif page_selection == "Logout":
         cookies.pop("logged_in", None)
         cookies.pop("username", None)
