@@ -10,7 +10,7 @@ def show_page_camiones():
     preingreso_data = fetch_table_data("preingreso")
 
     if preingreso_data.empty:
-        st.warning("No hay datos disponibles en la tabla de preingreso.")
+        st.warning("No hay datos disponibles en la tabla de preingreso")
     else:
         # Display the data in a table
         st.dataframe(preingreso_data, hide_index=True, use_container_width=True)
