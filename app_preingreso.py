@@ -26,7 +26,7 @@ with st.form("preingreso_form"):
     patente_acoplado = st.text_input("Patente del acoplado", max_chars=20)
     celular_whatsapp = st.text_input("Número de celular o WhatsApp", max_chars=20)
     remito_permiso_embarque = st.text_input("Número de Remito o Permiso de Embarque", max_chars=50)
-    tipo_carga = st.selectbox("Tipo de carga", ["Lote", "Partida", "Otro"])
+    tipo_carga = st.text_input("Observaciones / Tipo de carga / Lote / Partida", max_chars=50)
     
     submitted = st.form_submit_button("Registrar")
     if submitted:
@@ -43,6 +43,8 @@ with st.form("preingreso_form"):
             }
             queue_number = submit_form(data)
             st.success(f"✅ Registro exitoso. Usted es el camión N° #{queue_number} en la fila del día.")
+            st.info("Lo contactaremos al número de Whatsapp ingresado.")
             st.info("Una vez autorizado el ingreso tiene 15 minutos de tolerancia para ingresar.")
+            st.image("indicaciones.png")
         else:
             st.error("Por favor, complete todos los campos obligatorios.")
