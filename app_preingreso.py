@@ -15,6 +15,7 @@ def submit_form(data):
     return queue_number
 
 st.title("Formulario de Preingreso - Playón DASSA")
+st.image('logo.png')
 st.markdown("Complete los siguientes campos para registrar su arribo al playón.")
 
 with st.form("preingreso_form"):
@@ -42,7 +43,6 @@ with st.form("preingreso_form"):
             }
             queue_number = submit_form(data)
             st.success(f"✅ Registro exitoso. Usted es el camión N° #{queue_number} en la fila del día.")
-            st.image('logo.png')
             st.info("Una vez autorizado el ingreso tiene 15 minutos de tolerancia para ingresar.")
         else:
             st.error("Por favor, complete todos los campos obligatorios.")
