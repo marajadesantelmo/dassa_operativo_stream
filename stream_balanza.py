@@ -23,7 +23,9 @@ def fetch_data_balanza():
     balanza_historico['DNI'] = balanza_historico['DNI'].fillna('-').astype(str).str.replace('.0', '', regex=False)
     balanza_historico = balanza_historico.fillna("-")
     balanza_historico_impo = balanza_historico[balanza_historico['tipo_oper'] == 'Importacion']
+    balanza_historico_impo = balanza_historico_impo.drop(columns=['tipo_oper'], errors='ignore')
     balanza_historico_expo = balanza_historico[balanza_historico['tipo_oper'] == 'Exportacion']
+    balanza_historico_expo = balanza_historico_expo.drop(columns=['tipo_oper'], errors='ignore')
     columns_impo_historico = ['ID Pesada', 'Fecha', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
        'Peso Neto', 'Tara CNT', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI',
        'Booking', 'Precinto', 'Tipo Doc', 'Estado']
