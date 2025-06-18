@@ -13,6 +13,7 @@ def fetch_data_impo():
     retiros_impo['Dia'] = pd.to_datetime(retiros_impo['Dia'], format='%d/%m')
     retiros_impo = retiros_impo.sort_values(by="Dia")
     retiros_impo['Dia'] = retiros_impo['Dia'].dt.strftime('%d/%m')
+    retiros_impo['Volumen'] = retiros_impo['Volumen'].round(0).astype(int)  # Round Volumen to integer
     otros_impo = fetch_table_data("otros_impo")
     otros_impo = otros_impo[otros_impo['Dia'] != '-']
     existente_plz = fetch_table_data("existente_plz")
