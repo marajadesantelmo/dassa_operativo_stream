@@ -66,10 +66,10 @@ else:
         icons = ["arrow-down-circle", "arrow-up-circle", "truck", "box-arrow-right"]
     elif st.session_state['username'] in ["plazoleta", "mudancera"]:
         allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "Logout"]
-        icons = ["arrow-down-circle", "arrow-up-circle", "scales", "building", "truck", "box-arrow-right"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "box-arrow-right"]
     else:
         allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "IMPO - histórico", "EXPO - histórico", "Logout"]
-        icons = ["arrow-down-circle", "arrow-up-circle", "scales", "building", "truck", "book", "book", "box-arrow-right"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "book", "book", "box-arrow-right"]
 
     page_selection = option_menu(
         None,  # No menu title
