@@ -22,6 +22,7 @@ def fetch_data_expo():
     remisiones['Dia'] = pd.to_datetime(remisiones['Dia'], format='%d/%m')
     remisiones = remisiones.sort_values(by="Dia")
     remisiones['Dia'] = remisiones['Dia'].dt.strftime('%d/%m')
+    remisiones['Volumen'] = remisiones['Volumen'].round(0).astype(int)
     pendiente_consolidar = fetch_table_data("pendiente_consolidar")
     listos_para_remitir = fetch_table_data("listos_para_remitir")
     vacios_disponibles = fetch_table_data("vacios_disponibles")
