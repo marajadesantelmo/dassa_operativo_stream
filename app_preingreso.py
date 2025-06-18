@@ -45,6 +45,6 @@ with st.form("preingreso_form"):
             st.success(f"✅ Registro exitoso. Usted es el camión N° #{queue_number} en la fila del día.")
             st.info("Lo contactaremos al número de Whatsapp ingresado.")
             st.info("Una vez autorizado el ingreso tiene 15 minutos de tolerancia para ingresar.")
-            st.image("indicaciones.png")
+            st.image("indicaciones.jpg")
         else:
             st.error("Por favor, complete todos los campos obligatorios.")
