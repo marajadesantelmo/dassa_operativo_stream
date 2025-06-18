@@ -7,7 +7,7 @@ from supabase_connection import fetch_table_data
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
     arribos = fetch_table_data("arribos")
-    arribos = arribos.sort_values(by="Turno")  # Sort by Turno
+    #arribos = arribos.sort_values(by="Turno")  # Sort by Turno
     pendiente_desconsolidar = fetch_table_data("pendiente_desconsolidar")
     verificaciones_impo = fetch_table_data("verificaciones_impo")
     retiros_impo = fetch_table_data("retiros_impo")
