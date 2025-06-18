@@ -35,6 +35,10 @@ def delete_table_data_estado(table_name):
     # WARNING: This will delete all rows in the table
     supabase_client.from_(table_name).delete().neq('Estado', None).execute()
 
+def delete_table_data_id(table_name):
+    # WARNING: This will delete all rows in the table
+    supabase_client.from_(table_name).delete().neq('id', None).execute()
+
 def insert_table_data(table_name, data):
     for record in data:
         try:
