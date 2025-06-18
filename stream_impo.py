@@ -18,9 +18,7 @@ def fetch_data_impo():
     otros_impo = fetch_table_data("otros_impo")
     otros_impo = otros_impo[otros_impo['Dia'] != '-']
     existente_plz = fetch_table_data("existente_plz")
-    existente_plz = existente_plz.fillna("-")
     existente_alm = fetch_table_data("existente_alm")
-    existente_alm = existente_alm.fillna("-")
     return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm
 
 @st.cache_data(ttl=60)
