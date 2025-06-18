@@ -21,6 +21,8 @@ def highlight(row):
         return ['background-color: darkgoldenrod; color: black' for _ in row]
     elif row['Estado'] == "En Espera":
         return ['background-color: #444444; color: black' for _ in row]
+    elif "anterior" in row['Estado']:
+        return ['background-color: #be1e2d; color: black' for _ in row]
     else:
         return ['' for _ in row]
 
