@@ -18,7 +18,9 @@ def fetch_data_balanza():
         ]
         balanza = pd.DataFrame(columns=column_names)
     balanza_impo = balanza[balanza['tipo_oper'] == 'Importacion']
+    balanza_impo = balanza_impo.drop(columns=['tipo_oper'], errors='ignore')
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
+    balanza_expo = balanza_expo.drop(columns=['tipo_oper'], errors='ignore')
     balanza_historico = pd.read_csv('data/historico_balanza.csv')
     balanza_historico['DNI'] = balanza_historico['DNI'].fillna('-').astype(str).str.replace('.0', '', regex=False)
     balanza_historico = balanza_historico.fillna("-")
