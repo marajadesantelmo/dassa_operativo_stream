@@ -61,19 +61,24 @@ if not st.session_state['logged_in']:
         else:
             st.error("Usuario o clave invalidos")
 else:
-    allowed_pages = (
-        ["IMPO", "EXPO", "Camiones", "Logout"] if st.session_state['username'] == "deposito" else
-        ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "Logout"] if st.session_state['username'] in ["plazoleta", "mudancera"] else
-        ["IMPO", "EXPO", "Balanza",  "Plazoleta", "Tráfico", "IMPO - histórico", "EXPO - histórico", "Camiones", "Logout"]
-    )
+    if st.session_state['username'] == "deposito":
+        allowed_pages = ["IMPO", "EXPO", "Camiones", "Logout"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "truck", "box-arrow-right"]
+    elif st.session_state['username'] in ["plazoleta", "mudancera"]:
+        allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "Logout"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "scales", "building", "truck", "box-arrow-right"]
+    else:
+        allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "IMPO - histórico", "EXPO - histórico", "Logout"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "scales", "building", "truck", "book", "book", "box-arrow-right"]
+
     page_selection = option_menu(
-            None,  # No menu title
-            allowed_pages,  
-            icons=["arrow-down-circle", "arrow-up-circle", "truck", "box-arrow-right"] if st.session_state['username'] == "deposito" else 
-                  ["arrow-down-circle", "arrow-up-circle", "book", "book", "truck", "arrow-right-circle", "book", "book", "box-arrow-right"],   
-            menu_icon="cast",  
-            default_index=0, 
-            orientation="horizontal")
+        None,  # No menu title
+        allowed_pages,  
+        icons=icons,
+        menu_icon="cast",  
+        default_index=0, 
+        orientation="horizontal"
+    )
     if page_selection == "IMPO":
         stream_impo.show_page_impo()  
     elif page_selection == "EXPO":
