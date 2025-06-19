@@ -6,9 +6,12 @@ def show_page_camiones():
     st.title("Camiones - Preingreso")
     st.markdown("Datos registrados por los conductores en el formulario de preingreso en el día de hoy.")
 
-    # Fetch data from the "preingreso" table
-    preingreso_data = fetch_table_data("preingreso")
-    # Rename columns for better visualization
+    try: 
+        preingreso_data = fetch_table_data("preingreso")
+    except Exception as e:
+        st.error("No hay preingresos para mostrar")
+        return
+    
     preingreso_data.columns = [
         "ID",
         "Cliente/Mercadería",
