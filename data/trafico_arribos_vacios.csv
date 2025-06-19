@@ -1,15 +1,16 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 34764,19/06,Hilado Sa,-,10081,HC,TD,                    ,COSU6420745130,0,                              ,,     ,2025-07-10,,                    ,Pendiente
 34709,19/06,Placas Rivadavia S.R.L.,-,0,  ,TD,                    ,254130833,0,                              ,,     ,2025-07-09,254130833,254130833           ,Pendiente
-34708,19/06,Placas Rivadavia S.R.L.,-,0,  ,TD,                    ,254130833,0,                              ,,     ,2025-07-09,254130833,254130833           ,Pendiente
+34708,19/06,Placas Rivadavia S.R.L.,MRKU-365690-6,10076,HC,TD,************        ,254130833,0,                              ,,     ,2025-07-09,254130833,254130833           ,Pendiente
+34775,19/06,Hdv Leather S.R.L.,HASU-419889-0,10080,HC,TD,*******             ,254973157,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,14:07,2025-07-10,,                    ,14:07 Arribado
 34716,19/06,Hdv Leather S.R.L.,-,0,  ,TD,                    ,254970635,0,                              ,,     ,2025-07-09,254970635,254970635           ,Pendiente
 34715,19/06,Hdv Leather S.R.L.,CAAU-850644-2,10080,HC,TD,************        ,254970635,1,TRANSPORTE DEL CLIENTE        ,Bertoli,14:04,2025-07-09,254970635,254970635           ,14:04 Arribado
 34714,19/06,Hdv Leather S.R.L.,MSKU-887228-4,10080,HC,TD,************        ,254970635,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,11:14,2025-07-09,254970635,254970635           ,11:14 Arribado
 34713,19/06,Hdv Leather S.R.L.,-,0,  ,TD,                    ,254971666,0,                              ,,     ,2025-07-09,254971666,254971666           ,Pendiente
 34712,19/06,Hdv Leather S.R.L.,-,0,  ,TD,                    ,254971666,0,                              ,,     ,2025-07-09,254971666,254971666           ,Pendiente
 34711,19/06,Hdv Leather S.R.L.,-,0,  ,TD,                    ,254971666,0,                              ,,     ,2025-07-09,254971666,254971666           ,Pendiente
+34710,19/06,Placas Rivadavia S.R.L.,-,0,  ,TD,                    ,254130833,0,                              ,,     ,2025-07-09,254130833,254130833           ,Pendiente
 34772,19/06,Sandrin Paola Karina,FBLU-007483-4,Exolgan,HC,TD,FX32930838          ,EBKG13221474,1,TRANSPORTE DEL CLIENTE        ,Bonasegale Pablo,13:59,2025-07-10,,                    ,13:59 Arribado
-34770,19/06,Sandrin Paola Karina,MEDU-895957-1,Exolgan,HC,TD,FX32930883          ,EBKG13221474,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,13:57,2025-07-10,,                    ,13:57 Arribado
 34753,19/06,Sandrin Paola Karina,MSNU-546041-5,9,HC,TD,FX32930923          ,EBKG13221474,1,TRANSPORTES LEIRA-NO USAR     ,Muller,11:36,2025-07-10,,                    ,11:36 Arribado
 34707,19/06,Sandrin Paola Karina,-,0,  ,TD,                    ,EBKG13221559,0,                              ,,     ,2025-07-09,Ebkg13221559,EBKG13221559        ,Pendiente
 34706,19/06,Sandrin Paola Karina,-,0,  ,TD,                    ,EBKG13221559,0,                              ,,     ,2025-07-09,Ebkg13221559,EBKG13221559        ,Pendiente
@@ -17,7 +18,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 34767,19/06,Hilado Sa,-,10081,HC,TD,                    ,COSU6420745130,0,                              ,,     ,2025-07-10,,                    ,Pendiente
 34766,19/06,Hilado Sa,-,10081,HC,TD,                    ,COSU6420745130,0,                              ,,     ,2025-07-10,,                    ,Pendiente
 34765,19/06,Hilado Sa,-,10081,HC,TD,                    ,COSU6420745130,0,                              ,,     ,2025-07-10,,                    ,Pendiente
-34710,19/06,Placas Rivadavia S.R.L.,-,0,  ,TD,                    ,254130833,0,                              ,,     ,2025-07-09,254130833,254130833           ,Pendiente
+34770,19/06,Sandrin Paola Karina,MEDU-895957-1,Exolgan,HC,TD,FX32930883          ,EBKG13221474,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,13:57,2025-07-10,,                    ,13:57 Arribado
 34738,23/06,La Aurora Sociedad Anonima Ind...,-,10086,DR,TD,                    ,255182768,0,                              ,,     ,2025-07-09,,                    ,Pendiente
 34760,24/06,Sandrin Paola Karina,-,0,  ,TD,                    ,EBKG13221559,1,TRANSPORTE DEL CLIENTE        ,Bar Fredy Richard,09:21,2025-07-08,Grlem25713/Sandrin,EBKG13221559        ,09:21 Arribado
 34759,24/06,Sandrin Paola Karina,-,0,  ,TD,                    ,EBKG13221559,1,TRANSPORTE DEL CLIENTE        ,Bar Fredy Richard,09:21,2025-07-08,Grlem25713/Sandrin,EBKG13221559        ,09:21 Arribado
