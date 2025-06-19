@@ -8,11 +8,7 @@ def show_page_camiones():
 
     try: 
         preingreso_data = fetch_table_data("preingreso")
-    except Exception as e:
-        st.error("No hay preingresos para mostrar")
-        return
-    
-    preingreso_data.columns = [
+        preingreso_data.columns = [
         "ID",
         "Cliente/Mercadería",
         "Nombre Chofer",
@@ -26,8 +22,11 @@ def show_page_camiones():
         "Fecha",
         "Hora"
     ]
-    preingreso_data = preingreso_data[["Número Fila", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "DNI Chofer",
+        preingreso_data = preingreso_data[["Número Fila", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "DNI Chofer",
         "Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida"]]
+    except Exception as e:
+        st.info("No hay preingresos para mostrar")
+    
 
     if preingreso_data.empty:
         st.warning("No hay datos disponibles en la tabla de preingreso")
