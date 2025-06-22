@@ -24,10 +24,10 @@ def fetch_data_expo():
     remisiones['Dia'] = remisiones['Dia'].dt.strftime('%d/%m')
     remisiones['Volumen'] = remisiones['Volumen'].round(0).astype(int)
     pendiente_consolidar = fetch_table_data("pendiente_consolidar")
-    pendiente_consolidar.sort_values(by="Dias", inplace=True)
     listos_para_remitir = fetch_table_data("listos_para_remitir")
     vacios_disponibles = fetch_table_data("vacios_disponibles")
     a_consolidar = fetch_table_data("a_consolidar")
+    a_consolidar.sort_values(by="Dias", inplace=True)
     return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, pendiente_consolidar, listos_para_remitir, vacios_disponibles, a_consolidar
 
 @st.cache_data(ttl=60)
