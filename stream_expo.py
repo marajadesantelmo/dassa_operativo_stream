@@ -27,7 +27,7 @@ def fetch_data_expo():
     listos_para_remitir = fetch_table_data("listos_para_remitir")
     vacios_disponibles = fetch_table_data("vacios_disponibles")
     a_consolidar = fetch_table_data("a_consolidar")
-    a_consolidar.sort_values(by="Dias", inplace=True)
+    a_consolidar.sort_values(by="Dias", ascending=False, inplace=True)
     return arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, pendiente_consolidar, listos_para_remitir, vacios_disponibles, a_consolidar
 
 @st.cache_data(ttl=60)
