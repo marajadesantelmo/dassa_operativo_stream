@@ -32,10 +32,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-19,32264,MSNU-215560-8,Mercovan Argentina Srl,25001PER1000119W,                    ,Arribado
 2025-02-24,31727,HLXU-126055-5,Lift Van Int. Co S.A,17536915,                    ,Arribado
 2025-02-24,31728,UACU-852999-7,Lift Van Int. Co S.A,45406774,                    ,Arribado
+2025-06-24,34836,,Lift Van Int. Co S.A,93496815,                    ,Pendiente
 2025-06-13,34615,,Lift Van Int. Co S.A,254555242,                    ,Pendiente
 2025-06-13,34617,,Lift Van Int. Co S.A,36400659,                    ,Pendiente
 2025-06-17,34655,HLBU-104472-8,Lift Van Int. Co S.A,36400659,***********         ,Arribado
 2025-06-17,34656,CAIU-615506-4,Lift Van Int. Co S.A,254555242,************        ,Arribado
+2025-06-24,34834,,Lift Van Int. Co S.A,93496815,                    ,Pendiente
 2025-06-09,34432,TCKU-214624-8,Lift Van Int. Co S.A,254130292,************        ,Arribado
 2025-06-09,34433,MRKU-816944-9,Lift Van Int. Co S.A,254311809,***********         ,Arribado
 2025-06-11,34562,,Lift Van Int. Co S.A,TERRESTRE,                    ,Arribado
@@ -87,6 +89,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-13,34621,MRKU-077532-6,Minera Santa Rita Srl,254753841,************        ,Arribado
 2025-06-17,34659,HLBU-139556-9,Minera Santa Rita Srl,93173263,***********         ,Arribado
 2025-06-17,34660,UACU-858088-0,Minera Santa Rita Srl,93173263,***********         ,Arribado
+2025-06-24,34841,,Minera Santa Rita Srl,255138295,                    ,Pendiente
 2025-06-02,34180,MRKU-041887-0,Minera Santa Rita Srl,254254288,**********          ,Arribado
 2025-06-13,34564,MRKU-077532-6,Minera Santa Rita Srl,254753841,**********          ,Arribado
 2025-05-23,33862,PCIU-126899-7,Minera Santa Rita Srl,BUE500083400,*********           ,Arribado
@@ -237,6 +240,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-01,32543,GESU-624823-6,Capilatis S.A.,SNG0460773,R1950497            ,Arribado
 2025-04-22,32953,,Capilatis S.A.,SNG0463416,                    ,Pendiente
 2025-05-20,33703,,Capilatis S.A.,SNG0465606,                    ,Pendiente
+2025-06-24,34825,,Capilatis S.A.,SNG0469131,                    ,Pendiente
+2025-06-24,34826,,Capilatis S.A.,SNG0469131,                    ,Pendiente
 2025-04-22,32954,,Capilatis S.A.,SNG0463416,                    ,Pendiente
 2025-04-22,32989,CMAU-975975-4,Capilatis S.A.,SNG0463416,R1951803            ,Arribado
 2025-04-22,32990,UETU-692656-2,Capilatis S.A.,SNG0463416,R1951659            ,Arribado
@@ -247,6 +252,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-20,32339,TEMU-729480-7,Mercopallet Srl,29420817,*9******************,Arribado
 2025-04-09,32692,TCNU-674518-8,Mercopallet Srl,22630410,**************      ,Arribado
 2025-04-09,32693,FCIU-761729-4,Mercopallet Srl,22630410,**********          ,Arribado
+2025-06-24,34822,,Mercopallet Srl,93465695,                    ,Pendiente
+2025-06-24,34823,,Mercopallet Srl,93465695,                    ,Pendiente
+2025-06-24,34824,,Mercopallet Srl,93465695,                    ,Pendiente
 2025-06-09,34416,MSBU-502180-0,Mercopallet Srl,153IAR0649278,FX32932045          ,Arribado
 2025-06-09,34417,MSNU-660404-0,Mercopallet Srl,153IAR0649278,FX32932073          ,Arribado
 2025-06-09,34418,FFAU-382479-0,Mercopallet Srl,153IAR0649278,FX32932098          ,Arribado
@@ -259,11 +267,16 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-11,32741,,Geo-Trade Comercio Exterior Srl,25AR152251C,                    ,Arribado
 2025-04-14,32773,HLBU-270525-2,Geo-Trade Comercio Exterior Srl,33728804,**********          ,Arribado
 2025-03-17,32222,PCIU-189009-0,Manufactura Los Andes S.A.,BUE500036400,                    ,Arribado
+2025-06-24,34839,,Servicio Internacional De Fletes S.A.,255431206,                    ,Pendiente
+2025-06-23,34809,,Neocargo Sa,25001PE01000213G,                    ,Arribado
+2025-06-23,34810,,Neocargo Sa,25001PE01000213G,                    ,Arribado
+2025-06-23,34811,,Neocargo Sa,25001PE01000213G,                    ,Arribado
 2025-03-19,32292,,Sunstar Americas Inc,25001EC01 016162D,                    ,Pendiente
 2025-03-19,32301,,Sunstar Americas Inc,EC01016162D,                    ,Arribado
 2025-03-21,32363,,Industrias Quimicas Independencia Sa,25001EC01 017079L,                    ,Pendiente
 2025-03-21,32384,,Industrias Quimicas Independencia Sa,EC01017079L,                    ,Arribado
 2025-04-01,32574,,Industrias Quimicas Independencia Sa,25001EC01 018930X,                    ,Arribado
+2025-06-23,34818,,Industrias Quimicas Independencia Sa,25001EC01037451H,                    ,Arribado
 2025-03-31,32534,HAMU-151696-9,Kluber Lubrication Argentina S A,37362433,***************     ,Arribado
 2025-06-12,34570,MRKU-062924-0,Kluber Lubrication Argentina S A,254822936,*************       ,Arribado
 2025-06-12,34510,MRKU-830564-8,Denso Manufacturing  Argentina Sa,254784178,***********         ,Arribado
@@ -673,6 +686,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-02-25,31771,ONEU-232234-2,Henn Y Cia S.R.L.,BUEF02065600,*************       ,Arribado
 2025-02-26,31782,CSLU-194258-2,Borax Argentina S A,COSU6410857260,************        ,Arribado
 2025-03-05,31885,MSDU-280369-7,Borax Argentina S A,EBKG11965707,FX32986952          ,Arribado
+2025-06-24,34827,,Borax Argentina S A,255033881,                    ,Pendiente
+2025-06-24,34828,,Borax Argentina S A,255033881,                    ,Pendiente
+2025-06-24,34829,,Borax Argentina S A,255312124,                    ,Pendiente
+2025-06-24,34830,,Borax Argentina S A,255312124,                    ,Pendiente
 2025-06-11,34543,MSKU-428955-6,Borax Argentina S A,254926682,**********          ,Arribado
 2025-06-11,34544,HASU-100309-0,Borax Argentina S A,254926682,**********          ,Arribado
 2025-06-11,34545,SUDU-795234-7,Borax Argentina S A,254926682,************        ,Arribado
@@ -927,6 +944,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-30,33224,MSMU-739664-6,Virasoro Maderas S R L,EBKG12476356,FX32978691          ,Arribado
 2025-06-09,34429,HLXU-825633-0,Virasoro Maderas S R L,31391492,**********          ,Arribado
 2025-06-09,34430,HLBU-196808-5,Virasoro Maderas S R L,31391492,***********         ,Arribado
+2025-06-24,34835,,Virasoro Maderas S R L,14420019,                    ,Pendiente
 2025-05-27,33960,TIIU-590696-5,Virasoro Maderas S R L,254129409,************        ,Arribado
 2025-05-27,33961,MRKU-232374-7,Virasoro Maderas S R L,254129409,**********          ,Arribado
 2025-05-27,33962,MRKU-578030-4,Virasoro Maderas S R L,254129409,**************      ,Arribado
@@ -1060,6 +1078,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-10,32002,TGHU-986068-0,Laharrague Chodorge Sociedad Anonima,250793112,************        ,Arribado
 2025-03-06,32067,TLLU-488727-1,Laharrague Chodorge Sociedad Anonima,250793112,                    ,Arribado
 2025-03-06,32068,CAAU-662276-2,Laharrague Chodorge Sociedad Anonima,250793112,                    ,Arribado
+2025-06-24,34837,,Laharrague Chodorge Sociedad Anonima,9327925471,                    ,Pendiente
+2025-06-24,34838,,Laharrague Chodorge Sociedad Anonima,9327925471,                    ,Pendiente
 2025-05-28,33976,TGBU-584735-4,Laharrague Chodorge Sociedad Anonima,153IAR0648785,FX32980248          ,Arribado
 2025-05-28,33977,MSNU-742716-5,Laharrague Chodorge Sociedad Anonima,153IAR0648785,FX-32985890         ,Arribado
 2025-05-29,34079,CMAU-744319-7,Laharrague Chodorge Sociedad Anonima,BUA0341744,R1954866            ,Arribado
@@ -1241,6 +1261,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-25,33130,MOTU-077015-6,Anta Expo S.A.,BUEF04759400,***************     ,Arribado
 2025-04-24,33105,HLBU-135433-8,Entretelas Americanas Sa,18108092,**************      ,Arribado
 2025-05-14,33510,FTAU-155385-0,Entretelas Americanas Sa,38060645,                    ,Arribado
+2025-06-24,34850,,Entretelas Americanas Sa,LA0430038,                    ,Pendiente
 2025-05-15,33582,,Litoral Citrus S A,EBKG12664544,                    ,Pendiente
 2025-05-15,33651,MSBU-328198-5,Litoral Citrus S A,EBKG12664544E,FX32970788          ,Arribado
 2025-04-29,33198,,Hdv Leather S.R.L.,253269514,                    ,Pendiente
