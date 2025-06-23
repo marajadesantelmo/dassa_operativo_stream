@@ -17,6 +17,7 @@ def fetch_data_balanza():
             "Booking", "Permiso Emb.", "Precinto", "Estado"
         ]
         balanza = pd.DataFrame(columns=column_names)
+    balanza['ID Pesada'] = balanza['ID Pesada'].fillna('-').astype(str).str.replace('.0', '', regex=False)
     balanza_impo = balanza[balanza['tipo_oper'] == 'Importacion']
     balanza_impo = balanza_impo.drop(columns=['tipo_oper'], errors='ignore')
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
