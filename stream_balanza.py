@@ -72,7 +72,7 @@ def show_page_balanza():
     st.dataframe(balanza_expo.style.apply(highlight, axis=1), column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
 
     st.subheader("Generar Comprobante")
-    id_pesada = st.selectbox("Seleccione el ID de Pesada", balanza['ID Pesada'].tolist())
+    id_pesada = st.selectbox("Seleccione el ID de Pesada", balanza['ID Pesada'].astype(str).tolist())
     if st.button("Generar Comprobante"):
         balanza_row = balanza[balanza['ID Pesada'] == id_pesada].iloc[0]
         pdf = generar_comprobante(balanza_row)
@@ -90,9 +90,7 @@ def show_page_balanza():
 
     
     st.title("Histórico de Pesadas")
-    st.write("Importación")
     
-    # Add date, ID Pesada, and Cliente filters
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         start_date_historico = pd.to_datetime(st.date_input("Fecha Inicio", value=pd.to_datetime(balanza_historico_impo['Fecha'], format='%d/%m/%Y').min(), key='start_date_historico'))
@@ -105,6 +103,7 @@ def show_page_balanza():
         cliente_options = ["Todos"] + sorted(balanza_historico_impo['Cliente'].astype(str).unique().tolist())
         cliente_filter = st.selectbox("Cliente", options=cliente_options, key='cliente_filter')
 
+    st.write("Importación")
     # Filter data based on the selected criteria
     filtered_historico_impo = balanza_historico_impo[
         (pd.to_datetime(balanza_historico_impo['Fecha'], format='%d/%m/%Y') >= start_date_historico) &
