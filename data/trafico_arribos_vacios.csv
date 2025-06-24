@@ -1,5 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 34859,24/06,Henn Y Cia S.R.L.,-,9,  ,TD,                    ,EBKG13204042,0,                              ,,     ,2025-07-14,,                    ,Pendiente
+34857,24/06,Henn Y Cia S.R.L.,MSDU-272021-0,9,DR,TD,FX32934214          ,EBKG13204042,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,17:16,2025-07-14,,                    ,17:16 Arribado
 34858,24/06,Henn Y Cia S.R.L.,-,9,  ,TD,                    ,EBKG13204042,0,                              ,,     ,2025-07-14,,                    ,Pendiente
 34760,24/06,Sandrin Paola Karina,-,0,  ,TD,                    ,EBKG13221559,1,TRANSPORTE DEL CLIENTE        ,Bar Fredy Richard,09:21,2025-07-08,Grlem25713/Sandrin,EBKG13221559        ,09:21 Arribado
 34891,24/06,Henn Y Cia S.R.L.,MSDU-740180-7,Exolgan,HC,TD,FX32934159          ,EBKG13080070,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,11:53,2025-07-15,,                    ,11:53 Arribado
@@ -7,8 +8,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 34861,24/06,Henn Y Cia S.R.L.,-,9,  ,TD,                    ,EBKG13204042,0,                              ,,     ,2025-07-14,,                    ,Pendiente
 34827,24/06,Borax Argentina S A,-,0,  ,TD,                    ,255033881,0,                              ,,     ,2025-07-14,Fact 12091,255033881           ,Pendiente
 34828,24/06,Borax Argentina S A,-,0,  ,TD,                    ,255033881,0,                              ,,     ,2025-07-14,Fact 12091,255033881           ,Pendiente
+34856,24/06,Henn Y Cia S.R.L.,GLDU-546416-0,9,DR,TD,FX32934002          ,EBKG13204042,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,16:51,2025-07-14,,                    ,16:51 Arribado
 34829,24/06,Borax Argentina S A,TEMU-452471-6,10077,DR,TD,************        ,255312124,1,TRANSPORTES LEIRA-NO USAR     ,Muller,16:56,2025-07-14,Fac 12355,                    ,16:56 Arribado
-34830,24/06,Borax Argentina S A,MSKU-520973-0,10077,DR,TD,***********         ,255312124,1,TRANSPORTES LEIRA-NO USAR     ,Muller,16:58,2025-07-14,Fac 12355,                    ,16:58 Arribado
 34893,24/06,Borax Argentina S A,SUDU-782399-3,10077,DR,TD,********            ,255033881,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,12:05,2025-07-15,,                    ,12:05 Arribado
 34897,24/06,Borax Argentina S A,MRKU-845028-7,10077,DR,TD,************        ,255033881,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,13:58,2025-07-15,,                    ,13:58 Arribado
 34902,24/06,Aj Comercio Exterior Srl,-,0,  ,TD,                    ,25001EC01039733M,1,TRANSPORTE DEL CLIENTE        ,.,15:54,2025-07-15,,                    ,15:54 Arribado
@@ -17,35 +18,35 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 34837,24/06,Laharrague Chodorge Sociedad A...,HLBU-331680-4,10080,HC,TD,************        ,9327925471,1,TRANSPORTE DEL CLIENTE        ,Alvarez,10:52,2025-07-14,,                    ,10:52 Arribado
 34838,24/06,Laharrague Chodorge Sociedad A...,-,10080,HC,TD,                    ,9327925471,0,                              ,,     ,2025-07-14,,                    ,Pendiente
 34759,24/06,Sandrin Paola Karina,-,0,  ,TD,                    ,EBKG13221559,1,TRANSPORTE DEL CLIENTE        ,Bar Fredy Richard,09:21,2025-07-08,Grlem25713/Sandrin,EBKG13221559        ,09:21 Arribado
-34857,24/06,Henn Y Cia S.R.L.,-,9,  ,TD,                    ,EBKG13204042,0,                              ,,     ,2025-07-14,,                    ,Pendiente
-34856,24/06,Henn Y Cia S.R.L.,GLDU-546416-0,9,DR,TD,FX32934002          ,EBKG13204042,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,16:51,2025-07-14,,                    ,16:51 Arribado
+34830,24/06,Borax Argentina S A,MSKU-520973-0,10077,DR,TD,***********         ,255312124,1,TRANSPORTES LEIRA-NO USAR     ,Muller,16:58,2025-07-14,Fac 12355,                    ,16:58 Arribado
+34855,24/06,Henn Y Cia S.R.L.,MSMU-133372-2,9,DR,TD,FX32934004          ,EBKG13204042,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,14:27,2025-07-14,,                    ,14:27 Arribado
 34850,24/06,Entretelas Americanas Sa,MEDU-262910-3,10074,DR,TD,**********          ,LA0430038,1,TRANSPORTE DEL CLIENTE        ,Porco,11:54,2025-07-14,,                    ,11:54 Arribado
-34854,24/06,Henn Y Cia S.R.L.,FCIU-646795-0,9,DR,TD,FX32934169          ,EBKG13204042,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,14:25,2025-07-14,,                    ,14:25 Arribado
-34834,24/06,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,93496815,0,                              ,,     ,2025-07-14,Francisco Paz,                    ,Pendiente
-34836,24/06,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,93496815,0,                              ,,     ,2025-07-14,Francisco Paz,                    ,Pendiente
-34898,24/06,Lift Van Int. Co S.A,UACU-372034-1,10080,DR,TD,***********         ,93496815,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,14:30,2025-07-15,,                    ,14:30 Arribado
-34841,24/06,Minera Santa Rita Srl,-,10077,DR,TD,                    ,255138295,0,                              ,,     ,2025-07-14,Fc 14-452,                    ,Pendiente
-34892,24/06,Minera Santa Rita Srl,MSKU-562726-2,10077,DR,TD,*********           ,255138295,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,12:01,2025-07-15,,                    ,12:01 Arribado
-34825,24/06,Capilatis S.A.,CMAU-578721-2,10082,HC,TD,R1944624            ,SNG0469131,1,TRANSPORTE DEL CLIENTE        ,Galvan,13:53,2025-07-14,Sng0469131,SNG0469131          ,13:53 Arribado
-34826,24/06,Capilatis S.A.,GESU-611932-6,10082,HC,TD,R1950918            ,SNG0469131,1,TRANSPORTE DEL CLIENTE        ,Sena,13:55,2025-07-14,Sng0469131,SNG0469131          ,13:55 Arribado
-34822,24/06,Mercopallet Srl,-,0,  ,TD,                    ,93465695,0,                              ,,     ,2025-07-14,93465695,93465695            ,Pendiente
+34904,24/06,Mercopallet Srl,HAMU-431222-8,10080,HC,TD,***********         ,93465695,1,TRANSPORTE DEL CLIENTE        ,Vallejos,15:55,2025-07-15,,                    ,15:55 Arribado
 34823,24/06,Mercopallet Srl,-,0,  ,TD,                    ,93465695,0,                              ,,     ,2025-07-14,93465695,93465695            ,Pendiente
 34824,24/06,Mercopallet Srl,-,0,  ,TD,                    ,93465695,0,                              ,,     ,2025-07-14,93465695,93465695            ,Pendiente
-34904,24/06,Mercopallet Srl,HAMU-431222-8,10080,HC,TD,***********         ,93465695,1,TRANSPORTE DEL CLIENTE        ,Vallejos,15:55,2025-07-15,,                    ,15:55 Arribado
-34855,24/06,Henn Y Cia S.R.L.,MSMU-133372-2,9,DR,TD,FX32934004          ,EBKG13204042,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,14:27,2025-07-14,,                    ,14:27 Arribado
+34854,24/06,Henn Y Cia S.R.L.,FCIU-646795-0,9,DR,TD,FX32934169          ,EBKG13204042,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,14:25,2025-07-14,,                    ,14:25 Arribado
+34825,24/06,Capilatis S.A.,CMAU-578721-2,10082,HC,TD,R1944624            ,SNG0469131,1,TRANSPORTE DEL CLIENTE        ,Galvan,13:53,2025-07-14,Sng0469131,SNG0469131          ,13:53 Arribado
+34913,24/06,Pelama Chubut S.A.,OOCU-487428-4,10076,DR,TD,**********          ,COSU6421827870,1,TRANSPORTE DEL CLIENTE        ,Sena,17:21,2025-07-15,,                    ,17:21 Arribado
+34892,24/06,Minera Santa Rita Srl,MSKU-562726-2,10077,DR,TD,*********           ,255138295,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,12:01,2025-07-15,,                    ,12:01 Arribado
+34822,24/06,Mercopallet Srl,-,0,  ,TD,                    ,93465695,0,                              ,,     ,2025-07-14,93465695,93465695            ,Pendiente
 34910,24/06,Mercopallet Srl,HAMU-241245-0,10080,HC,TD,*********           ,93465695,1,TRANSPORTE DEL CLIENTE        ,Perez,16:53,2025-07-15,,                    ,16:53 Arribado
-34911,24/06,Mercopallet Srl,FANU-192416-0,10080,HC,TD,**********          ,93465695,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,16:55,2025-07-15,,                    ,16:55 Arribado
 34839,24/06,Servicio Internacional De Flet...,-,0,  ,TD,                    ,255431206,0,                              ,,     ,2025-07-14,,255431206           ,Pendiente
+34841,24/06,Minera Santa Rita Srl,-,10077,DR,TD,                    ,255138295,0,                              ,,     ,2025-07-14,Fc 14-452,                    ,Pendiente
+34898,24/06,Lift Van Int. Co S.A,UACU-372034-1,10080,DR,TD,***********         ,93496815,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,14:30,2025-07-15,,                    ,14:30 Arribado
+34836,24/06,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,93496815,0,                              ,,     ,2025-07-14,Francisco Paz,                    ,Pendiente
 34908,24/06,Servicio Internacional De Flet...,MRKU-101103-0,10080,DR,TD,***********         ,255431206,1,TRANSPORTE DEL CLIENTE        ,Alvarez,16:48,2025-07-15,,                    ,16:48 Arribado
 34782,24/06,Maringa Maderas Sa,-,0,  ,TD,                    ,EBKG13159092,0,                              ,,     ,2025-07-10,Grlem25679/Maringa,EBKG13159092        ,Pendiente
+34834,24/06,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,93496815,0,                              ,,     ,2025-07-14,Francisco Paz,                    ,Pendiente
+34911,24/06,Mercopallet Srl,FANU-192416-0,10080,HC,TD,**********          ,93465695,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,16:55,2025-07-15,,                    ,16:55 Arribado
+34826,24/06,Capilatis S.A.,GESU-611932-6,10082,HC,TD,R1950918            ,SNG0469131,1,TRANSPORTE DEL CLIENTE        ,Sena,13:55,2025-07-14,Sng0469131,SNG0469131          ,13:55 Arribado
+34875,25/06,Plasticos Dise S A,-,10077,DR,TD,                    ,255564238,0,                              ,,     ,2025-07-15,,                    ,Pendiente
+34907,25/06,Piranga Sa,-,0,  ,TD,                    ,255319646,0,                              ,,     ,2025-07-15,255319646,255319646           ,Pendiente
 34884,25/06,Henn Y Cia S.R.L.,-,9,DR,TD,                    ,EBKG13190366,0,                              ,,     ,2025-07-15,,                    ,Pendiente
 34878,25/06,Henn Y Cia S.R.L.,-,10077,DR,TD,                    ,340500020140,0,                              ,,     ,2025-07-15,,                    ,Pendiente
 34877,25/06,Henn Y Cia S.R.L.,-,10077,DR,TD,                    ,340500020140,0,                              ,,     ,2025-07-15,,                    ,Pendiente
-34875,25/06,Plasticos Dise S A,-,10077,DR,TD,                    ,255564238,0,                              ,,     ,2025-07-15,,                    ,Pendiente
 34888,25/06,Henn Y Cia S.R.L.,-,9,DR,TD,                    ,EBKG13190366,0,                              ,,     ,2025-07-15,,                    ,Pendiente
 34887,25/06,Henn Y Cia S.R.L.,-,9,DR,TD,                    ,EBKG13190366,0,                              ,,     ,2025-07-15,,                    ,Pendiente
 34886,25/06,Henn Y Cia S.R.L.,-,9,DR,TD,                    ,EBKG13190366,0,                              ,,     ,2025-07-15,,                    ,Pendiente
 34906,25/06,Piranga Sa,-,0,  ,TD,                    ,255319646,0,                              ,,     ,2025-07-15,255319646,255319646           ,Pendiente
-34907,25/06,Piranga Sa,-,0,  ,TD,                    ,255319646,0,                              ,,     ,2025-07-15,255319646,255319646           ,Pendiente
 34885,25/06,Henn Y Cia S.R.L.,-,9,DR,TD,                    ,EBKG13190366,0,                              ,,     ,2025-07-15,,                    ,Pendiente
 34876,25/06,Mercovan Argentina Srl,-,10080,DR,TD,                    ,255568532,0,                              ,,     ,2025-07-15,Torga,                    ,Pendiente
