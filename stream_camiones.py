@@ -21,13 +21,12 @@ def show_page_camiones():
         "Número Fila",
         "Fecha",
         "Hora"]
-        preingreso_data = preingreso_data[["Número Fila", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "DNI Chofer",
-        "Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida"]]
 
-        # Generate WhatsApp links
         preingreso_data['link'] = preingreso_data['Celular WhatsApp'].str.replace(" ", "").apply(
-            lambda x: f"http://wa.me/549{x}" if x.isdigit() else None
-        )
+            lambda x: f"http://wa.me/549{x}" if x.isdigit() else None)
+        
+        preingreso_data = preingreso_data[["Número Fila", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "link", 
+                                           "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida"]]
         
     except Exception as e:
         st.info("No hay preingresos para mostrar")
