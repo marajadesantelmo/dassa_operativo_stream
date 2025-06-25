@@ -1,17 +1,18 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 34876,25/06,Mercovan Argentina Srl,MRKU-012719-6,10080,DR,TD,************        ,255568532,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:26,2025-07-15,Torga,                    ,10:26 Arribado
-34917,25/06,Dpmg S.A.,SIMU-706403-5,0,is,TD,                    ,25001EC03006392J,1,TRANSPORTE DEL CLIENTE        ,,08:58,2025-07-14,Isotanque / #282,                    ,08:58 Arribado
-34918,25/06,Pelama Chubut S.A.,CSNU-184088-6,10076,DR,TD,*************       ,COSU6421214450,1,TRANSPORTES LEIRA-NO USAR     ,Muller,09:45,2025-07-16,,                    ,09:45 Arribado
-34919,25/06,Pelama Chubut S.A.,OOLU-791091-0,10076,DR,TD,**********          ,COSU6421827850,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,11:00,2025-07-16,,                    ,11:00 Arribado
-34906,25/06,Piranga Sa,TCLU-852067-1,10080,HC,TD,**********          ,255319646,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,12:05,2025-07-15,255319646,255319646           ,12:05 Arribado
-34907,25/06,Piranga Sa,MSKU-069522-2,10080,HC,TD,************        ,255319646,1,TRANSPORTE DEL CLIENTE        ,Alvarez,12:20,2025-07-15,255319646,255319646           ,12:20 Arribado
-34877,25/06,Henn Y Cia S.R.L.,TEMU-429645-2,10077,DR,TD,************        ,340500020140,0,                              ,,     ,2025-07-15,,                    ,Pendiente
-34878,25/06,Henn Y Cia S.R.L.,-,10077,DR,TD,                    ,340500020140,0,                              ,,     ,2025-07-15,,                    ,Pendiente
-34884,25/06,Henn Y Cia S.R.L.,FSCU-387994-7,9,DR,TD,FX32933978          ,EBKG13190366,1,TRANSPORTE DEL CLIENTE        ,Porco,13:45,2025-07-15,,                    ,13:45 Arribado
-34885,25/06,Henn Y Cia S.R.L.,CAIU-310059-8,9,DR,TD,FX32933977          ,EBKG13190366,1,TRANSPORTE DEL CLIENTE        ,Porco,13:46,2025-07-15,,                    ,13:46 Arribado
-34886,25/06,Henn Y Cia S.R.L.,-,9,DR,TD,                    ,EBKG13190366,0,                              ,,     ,2025-07-15,,                    ,Pendiente
 34887,25/06,Henn Y Cia S.R.L.,-,9,DR,TD,                    ,EBKG13190366,0,                              ,,     ,2025-07-15,,                    ,Pendiente
+34886,25/06,Henn Y Cia S.R.L.,-,9,DR,TD,                    ,EBKG13190366,0,                              ,,     ,2025-07-15,,                    ,Pendiente
+34885,25/06,Henn Y Cia S.R.L.,CAIU-310059-8,9,DR,TD,FX32933977          ,EBKG13190366,1,TRANSPORTE DEL CLIENTE        ,Porco,13:46,2025-07-15,,                    ,13:46 Arribado
+34884,25/06,Henn Y Cia S.R.L.,FSCU-387994-7,9,DR,TD,FX32933978          ,EBKG13190366,1,TRANSPORTE DEL CLIENTE        ,Porco,13:45,2025-07-15,,                    ,13:45 Arribado
+34878,25/06,Henn Y Cia S.R.L.,MAGU-218695-9,10077,DR,TD,***********         ,340500020140,1,TRANSPORTE DEL CLIENTE        ,Ortiz,13:56,2025-07-15,,                    ,13:56 Arribado
+34877,25/06,Henn Y Cia S.R.L.,TEMU-429645-2,10077,DR,TD,************        ,340500020140,1,TRANSPORTE DEL CLIENTE        ,Ortiz,13:55,2025-07-15,,                    ,13:55 Arribado
 34888,25/06,Henn Y Cia S.R.L.,-,9,DR,TD,                    ,EBKG13190366,0,                              ,,     ,2025-07-15,,                    ,Pendiente
+34907,25/06,Piranga Sa,MSKU-069522-2,10080,HC,TD,************        ,255319646,1,TRANSPORTE DEL CLIENTE        ,Alvarez,12:20,2025-07-15,255319646,255319646           ,12:20 Arribado
+34919,25/06,Pelama Chubut S.A.,OOLU-791091-0,10076,DR,TD,**********          ,COSU6421827850,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,11:00,2025-07-16,,                    ,11:00 Arribado
+34918,25/06,Pelama Chubut S.A.,CSNU-184088-6,10076,DR,TD,*************       ,COSU6421214450,1,TRANSPORTES LEIRA-NO USAR     ,Muller,09:45,2025-07-16,,                    ,09:45 Arribado
+34917,25/06,Dpmg S.A.,SIMU-706403-5,0,is,TD,                    ,25001EC03006392J,1,TRANSPORTE DEL CLIENTE        ,,08:58,2025-07-14,Isotanque / #282,                    ,08:58 Arribado
+34906,25/06,Piranga Sa,TCLU-852067-1,10080,HC,TD,**********          ,255319646,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,12:05,2025-07-15,255319646,255319646           ,12:05 Arribado
 34875,25/06,Plasticos Dise S A,-,10077,DR,TD,                    ,255564238,0,                              ,,     ,2025-07-15,,                    ,Pendiente
-34935,26/06,Refractarios Argentinos Saicm,-,10080,DR,TD,                    ,16096009,0,                              ,,     ,2025-07-16,Ec 2692-25,                    ,Pendiente
 34936,26/06,Refractarios Argentinos Saicm,-,10080,DR,TD,                    ,16096009,0,                              ,,     ,2025-07-16,Ec 2692-25,                    ,Pendiente
+34935,26/06,Refractarios Argentinos Saicm,-,10080,DR,TD,                    ,16096009,0,                              ,,     ,2025-07-16,Ec 2692-25,                    ,Pendiente
+34939,30/06,Maringa Maderas Sa,-,0,  ,TD,                    ,EBKG13192555,0,                              ,,     ,2025-07-16,Grlem25700/Maringa,EBKG13192555        ,Pendiente
