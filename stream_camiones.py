@@ -25,7 +25,11 @@ def show_page_camiones():
         preingreso_data['link'] = preingreso_data['Celular WhatsApp'].str.replace(" ", "").apply(
             lambda x: f"http://wa.me/549{x}" if x.isdigit() else None)
         
-        preingreso_data = preingreso_data[["Número Fila", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "link", 
+        # Convert Hora to datetime, subtract 3 hours, and format as hh:mm
+        preingreso_data['Hora'] = pd.to_datetime(preingreso_data['Hora']) - pd.Timedelta(hours=3)
+        preingreso_data['Hora'] = preingreso_data['Hora'].dt.strftime('%H:%M')
+
+        preingreso_data = preingreso_data[["Número Fila", "Hora", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "link", 
                                            "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida"]]
         
     except Exception as e:
