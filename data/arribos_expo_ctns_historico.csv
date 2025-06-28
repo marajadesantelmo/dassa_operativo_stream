@@ -84,11 +84,16 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-06,31924,MSKU-642882-0,Minera Santa Rita Srl,250677017,*****************   ,Arribado
 2025-03-27,32455,,Minera Santa Rita Srl,251894227,                    ,Pendiente
 2025-03-27,32464,SEKU-470179-0,Minera Santa Rita Srl,251894227,***********         ,Arribado
+2025-07-15,35029,,Minera Santa Rita Srl,20488774,                    ,Pendiente
+2025-07-15,35030,,Minera Santa Rita Srl,20488774,                    ,Pendiente
+2025-07-15,35031,,Minera Santa Rita Srl,20488774,                    ,Pendiente
+2025-07-15,35032,,Minera Santa Rita Srl,20488774,                    ,Pendiente
+2025-07-15,35028,,Minera Santa Rita Srl,20488774,                    ,Pendiente
 2025-06-17,34659,HLBU-139556-9,Minera Santa Rita Srl,93173263,***********         ,Arribado
 2025-06-17,34660,UACU-858088-0,Minera Santa Rita Srl,93173263,***********         ,Arribado
 2025-06-24,34841,,Minera Santa Rita Srl,255138295,                    ,Pendiente
 2025-06-24,34892,MSKU-562726-2,Minera Santa Rita Srl,255138295,*********           ,Arribado
-2025-06-27,34970,,Minera Santa Rita Srl,28286431,                    ,Pendiente
+2025-06-27,34970,HLBU-297263-9,Minera Santa Rita Srl,28286431,***********         ,Arribado
 2025-06-13,34564,MRKU-077532-6,Minera Santa Rita Srl,254753841,**********          ,Arribado
 2025-06-13,34565,MRKU-059637-8,Minera Santa Rita Srl,254753841,************        ,Arribado
 2025-06-13,34621,MRKU-077532-6,Minera Santa Rita Srl,254753841,************        ,Arribado
@@ -116,6 +121,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-07,33376,TRLU-709399-6,Dassa - Client A La Orden,NACIONAL,                    ,Arribado
 2025-04-01,32540,ZCSU-741247-9,Aniceto Gomez Sa,ZIMUBUE9039098,******************* ,Arribado
 2025-05-07,33405,HLBU-210483-7,Aniceto Gomez Sa,92694101,                    ,Arribado
+2025-06-30,35050,,Aniceto Gomez Sa,30741536,                    ,Pendiente
 2025-03-17,32230,MSNU-787848-8,A La Orden,EBKG11849086,FX32985399          ,Arribado
 2025-03-17,32231,MSNU-972358-8,A La Orden,EBKG11849086,FX32985366          ,Arribado
 2025-03-17,32232,TRHU-726359-0,A La Orden,EBKG11849086,FX32985365          ,Arribado
@@ -283,7 +289,6 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-11,32742,,Bdfm Sa,MCORIV027955,                    ,Pendiente
 2025-04-11,32748,FFAU-505866-7,Bdfm Sa,RIV027955,R1951558            ,Arribado
 2025-03-20,32336,TEMU-272720-5,Bdfm Sa,MCORIV027489,R1944691            ,Arribado
-2025-02-27,31835,,Chemotecnica Sa,25001EC01011947J,                    ,Pendiente
 2025-03-21,32368,HAMU-100502-2,Chemotecnica Sa,36523629,                    ,Arribado
 2025-05-21,33768,,Chemotecnica Sa,36762071,                    ,Pendiente
 2025-05-21,33800,CAAU-207714-5,Chemotecnica Sa,36762071,************        ,Arribado
@@ -398,6 +403,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-29,34062,HAMU-409749-1,Hector Reboratti,93954793,**********          ,Arribado
 2025-05-29,34063,FANU-360304-6,Hector Reboratti,93954793,***********         ,Arribado
 2025-06-19,34717,FFAU-371126-3,Hector Reboratti,EBKG13191019,FX32930917          ,Arribado
+2025-07-01,35056,,Hector Reboratti,255083138,                    ,Pendiente
+2025-07-01,35057,,Hector Reboratti,255083138,                    ,Pendiente
 2025-05-07,33397,FFAU-709895-1,Hector Reboratti,EBKG12630452,                    ,Arribado
 2025-05-06,33398,MEDU-765176-9,Hector Reboratti,EBKG12662957,FX-32970376         ,Arribado
 2025-05-06,33399,MSDU-548538-9,Hector Reboratti,EBKG12662957,FX-32970351         ,Arribado
@@ -411,9 +418,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-22,32988,TCLU-776500-5,Hector Reboratti,EBKG12381488,FX32974430          ,Arribado
 2025-03-06,31931,HAMU-115149-6,Maringa Maderas Sa,26952288,*************       ,Arribado
 2025-03-07,31960,MSBU-817715-0,Maringa Maderas Sa,EBKG11724454,FX32987472          ,Arribado
-2025-06-30,34939,CAIU-459786-9,Maringa Maderas Sa,EBKG13192555,FX32932271          ,Arribado
 2025-06-23,34778,,Maringa Maderas Sa,EBKG13192544,                    ,Pendiente
 2025-06-24,34782,MEDU-443152-3,Maringa Maderas Sa,EBKG13159092,FX32934153          ,Arribado
+2025-06-30,34939,CAIU-459786-9,Maringa Maderas Sa,EBKG13192555,FX32932271          ,Arribado
 2025-04-09,32694,FFAU-660433-5,Maringa Maderas Sa,EBKG12309962,FX32981737          ,Arribado
 2025-04-14,32765,TGCU-534363-4,Maringa Maderas Sa,19861520,*********           ,Arribado
 2025-04-29,33195,CAAU-695410-8,Maringa Maderas Sa,EBKG12462351,FX32979567          ,Arribado
@@ -453,96 +460,89 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-11,32041,HAMU-115582-4,Carpal Sa,28475176,**************      ,Arribado
 2025-03-11,32077,HLBU-135567-4,Carpal Sa,26433794,                    ,Arribado
 2025-05-23,33845,TCNU-128000-4,Carpal Sa,253983421,************        ,Arribado
-2025-02-27,31802,MRSU-535041-4,Arleather S.R.L.,250294064,*************       ,Arribado
-2025-02-27,31837,SUDU-679995-3,Arleather S.R.L.,250298469,***************     ,Arribado
-2025-02-27,31838,CAAU-661706-7,Arleather S.R.L.,250298469,*************       ,Arribado
-2025-02-27,31839,TCKU-738818-3,Arleather S.R.L.,250294064,**********          ,Arribado
-2025-02-27,31845,MRSU-616200-5,Arleather S.R.L.,250294064,************        ,Arribado
-2025-05-06,33302,MRKU-577117-5,Arleather S.R.L.,253269607,***************     ,Arribado
-2025-05-06,33322,,Arleather S.R.L.,253433457,                    ,Pendiente
-2025-05-08,33420,MRSU-330512-3,Arleather S.R.L.,253433457, **********         ,Arribado
-2025-05-06,33296,HASU-436127-1,Arleather S.R.L.,253269707,  ******************,Arribado
-2025-05-06,33297,MRKU-635792-0,Arleather S.R.L.,253269707,******************  ,Arribado
-2025-05-06,33298,TEMU-615547-4,Arleather S.R.L.,253326683,************        ,Arribado
-2025-05-06,33299,MRSU-372728-4,Arleather S.R.L.,253326683,***************     ,Arribado
-2025-05-06,33300,MRKU-537680-1,Arleather S.R.L.,253269607,*******             ,Arribado
-2025-05-06,33301,MRKU-352643-5,Arleather S.R.L.,253269607,*************       ,Arribado
-2025-04-28,33186,MSKU-909130-5,Arleather S.R.L.,253129873,**********          ,Arribado
-2025-04-29,33210,MRKU-360039-0,Arleather S.R.L.,253269514,****************    ,Arribado
-2025-04-29,33216,MSKU-987122-0,Arleather S.R.L.,253269514,**************      ,Arribado
-2025-04-29,33217,MRKU-502696-9,Arleather S.R.L.,253269514,********************,Arribado
-2025-04-24,33073,TCKU-695361-2,Arleather S.R.L.,252816450,************        ,Arribado
-2025-04-24,33074,CAAU-563949-9,Arleather S.R.L.,252816450,***********         ,Arribado
-2025-04-24,33075,SUDU-659385-4,Arleather S.R.L.,252816450,*************       ,Arribado
-2025-04-24,33108,HASU-439251-8,Arleather S.R.L.,252809104,************        ,Arribado
-2025-04-28,33185,MRKU-549825-0,Arleather S.R.L.,253129873,********************,Arribado
-2025-04-23,33035,GCXU-557435-0,Arleather S.R.L.,252809104,**********          ,Arribado
-2025-04-23,33036,,Arleather S.R.L.,252809104,                    ,Pendiente
-2025-04-24,33072,MSKU-180923-2,Arleather S.R.L.,252816450,***********         ,Arribado
-2025-04-21,32869,HASU-446962-5,Arleather S.R.L.,251416737,***************     ,Arribado
-2025-04-21,32870,MRSU-455057-3,Arleather S.R.L.,251416737,****************    ,Arribado
-2025-04-21,32871,MRKU-289489-6,Arleather S.R.L.,251416640,     ************** ,Arribado
-2025-04-21,32872,MSKU-035756-5,Arleather S.R.L.,251416640,**************      ,Arribado
-2025-04-21,32873,MRSU-418953-7,Arleather S.R.L.,251416640,******************  ,Arribado
-2025-04-16,32841,TCNU-580153-8,Arleather S.R.L.,251416813,*****************   ,Arribado
-2025-04-16,32843,MRKU-472465-1,Arleather S.R.L.,251416813,******************  ,Arribado
-2025-04-21,32866,MSKU-160698-1,Arleather S.R.L.,251529791,***************     ,Arribado
-2025-04-21,32867,MRKU-489575-7,Arleather S.R.L.,251529791,*********           ,Arribado
-2025-04-21,32868,MRKU-274674-9,Arleather S.R.L.,251529791,**************      ,Arribado
-2025-04-08,32657,MSKU-968104-5,Arleather S.R.L.,251417032,******              ,Arribado
-2025-04-08,32658,MRSU-595449-8,Arleather S.R.L.,251417131,******************  ,Arribado
-2025-04-08,32659,MRSU-415807-4,Arleather S.R.L.,251417131,******************  ,Arribado
-2025-04-15,32829,SUDU-599665-0,Arleather S.R.L.,25146813,*****************   ,Arribado
-2025-04-08,32651,MRSU-503803-1,Arleather S.R.L.,251417093,******              ,Arribado
-2025-04-08,32652,TLLU-690297-1,Arleather S.R.L.,251417093,************        ,Arribado
-2025-04-08,32653,MRKU-427125-7,Arleather S.R.L.,251252901,*******             ,Arribado
-2025-04-08,32654,HASU-433827-1,Arleather S.R.L.,251252901,************        ,Arribado
-2025-04-08,32655,MRKU-632854-1,Arleather S.R.L.,251417032,*****************   ,Arribado
-2025-04-08,32656,CAAU-674577-2,Arleather S.R.L.,251417032,**********          ,Arribado
-2025-04-08,32648,MRKU-641682-7,Arleather S.R.L.,251417045,**********          ,Arribado
-2025-04-08,32649,SUDU-690990-0,Arleather S.R.L.,251417045,**************      ,Arribado
-2025-04-08,32650,MRSU-523663-3,Arleather S.R.L.,251417045,**********          ,Arribado
-2025-03-28,32519,,Arleather S.R.L.,251754331,                    ,Pendiente
-2025-03-28,32527,MRKU-351761-8,Arleather S.R.L.,251754331,***********         ,Arribado
-2025-03-28,32528,TRHU-498602-4,Arleather S.R.L.,251754331,*************       ,Arribado
-2025-03-28,32529,CRSU-919406-9,Arleather S.R.L.,251754331,**********          ,Arribado
-2025-04-01,32561,SUDU-851351-8,Arleather S.R.L.,252124574,**************      ,Arribado
-2025-03-28,32514,CAAU-655736-9,Arleather S.R.L.,251251658,***********         ,Arribado
-2025-03-28,32515,GCXU-577311-4,Arleather S.R.L.,251251658,***********         ,Arribado
-2025-03-28,32516,TCNU-662257-9,Arleather S.R.L.,251251658,*******             ,Arribado
-2025-03-28,32517,,Arleather S.R.L.,251754331,                    ,Pendiente
-2025-03-28,32518,,Arleather S.R.L.,251754331,                    ,Pendiente
-2025-03-21,32453,MRKU-308626-0,Arleather S.R.L.,250299105,                    ,Arribado
-2025-03-28,32499,,Arleather S.R.L.,251251658,                    ,Pendiente
-2025-03-28,32500,,Arleather S.R.L.,251251658,                    ,Pendiente
-2025-03-28,32501,,Arleather S.R.L.,251251658,                    ,Pendiente
-2025-03-21,32370,MRSU-595141-5,Arleather S.R.L.,250299105,****************    ,Arribado
-2025-03-21,32383,MRKU-619069-0,Arleather S.R.L.,250299105,****************    ,Arribado
-2025-03-20,32318,MRKU-214374-5,Arleather S.R.L.,250902863,                    ,Arribado
-2025-03-12,32324,MRKU-444189-9,Arleather S.R.L.,249176115,                    ,Arribado
-2025-03-20,32344,SUDU-678581-5,Arleather S.R.L.,250299290,**************      ,Arribado
-2025-03-20,32347,MRSU-383994-1,Arleather S.R.L.,250299290,**************      ,Arribado
-2025-03-20,32316,MRSU-646213-1,Arleather S.R.L.,250902863,                    ,Arribado
-2025-03-20,32317,MRKU-459531-7,Arleather S.R.L.,250902863,                    ,Arribado
-2025-03-12,32089,MRSU-680632-4,Arleather S.R.L.,250675287,**************      ,Arribado
-2025-03-12,32092,TCLU-945399-0,Arleather S.R.L.,250902842,******************* ,Arribado
-2025-03-17,32181,MVIU-001102-1,Arleather S.R.L.,249176115,******************* ,Arribado
-2025-03-17,32183,TCKU-663243-8,Arleather S.R.L.,249176115,******************* ,Arribado
-2025-03-11,32045,TRHU-794094-2,Arleather S.R.L.,250675287,***************     ,Arribado
-2025-03-11,32046,CAAU-552539-3,Arleather S.R.L.,250675287,*****************   ,Arribado
-2025-03-12,32082,TCKU-680317-1,Arleather S.R.L.,250902842,******************  ,Arribado
-2025-03-12,32083,MRSU-391544-5,Arleather S.R.L.,250902842,******************* ,Arribado
-2025-03-10,31994,MRSU-476663-9,Arleather S.R.L.,250675344,****************    ,Arribado
-2025-03-10,32003,GAOU-706982-2,Arleather S.R.L.,250550073,***********         ,Arribado
-2025-03-10,32006,MRSU-746568-6,Arleather S.R.L.,250550073,******************* ,Arribado
-2025-03-11,32026,MRSU-512113-0,Arleather S.R.L.,250675344,**************      ,Arribado
-2025-03-06,31922,MRKU-424757-0,Arleather S.R.L.,250550073,************        ,Arribado
-2025-02-27,31846,HASU-459908-5,Arleather S.R.L.,250298469,************        ,Arribado
-2025-02-27,31849,EISU-858414-8,Arleather S.R.L.,340500007232,*************       ,Arribado
 2025-02-28,31855,MIEU-306924-1,Arleather S.R.L.,250298303,***************     ,Arribado
 2025-02-28,31856,MRKU-369888-2,Arleather S.R.L.,250298265,**********          ,Arribado
 2025-02-28,31870,TCKU-774094-6,Arleather S.R.L.,250298265,***************     ,Arribado
 2025-02-28,31874,MRKU-477595-7,Arleather S.R.L.,250298303,***************     ,Arribado
+2025-05-08,33420,MRSU-330512-3,Arleather S.R.L.,253433457, **********         ,Arribado
+2025-05-06,33298,TEMU-615547-4,Arleather S.R.L.,253326683,************        ,Arribado
+2025-05-06,33299,MRSU-372728-4,Arleather S.R.L.,253326683,***************     ,Arribado
+2025-05-06,33300,MRKU-537680-1,Arleather S.R.L.,253269607,*******             ,Arribado
+2025-05-06,33301,MRKU-352643-5,Arleather S.R.L.,253269607,*************       ,Arribado
+2025-05-06,33302,MRKU-577117-5,Arleather S.R.L.,253269607,***************     ,Arribado
+2025-05-06,33322,,Arleather S.R.L.,253433457,                    ,Pendiente
+2025-04-29,33210,MRKU-360039-0,Arleather S.R.L.,253269514,****************    ,Arribado
+2025-04-29,33216,MSKU-987122-0,Arleather S.R.L.,253269514,**************      ,Arribado
+2025-04-29,33217,MRKU-502696-9,Arleather S.R.L.,253269514,********************,Arribado
+2025-05-06,33296,HASU-436127-1,Arleather S.R.L.,253269707,  ******************,Arribado
+2025-05-06,33297,MRKU-635792-0,Arleather S.R.L.,253269707,******************  ,Arribado
+2025-04-24,33075,SUDU-659385-4,Arleather S.R.L.,252816450,*************       ,Arribado
+2025-04-24,33108,HASU-439251-8,Arleather S.R.L.,252809104,************        ,Arribado
+2025-04-28,33185,MRKU-549825-0,Arleather S.R.L.,253129873,********************,Arribado
+2025-04-28,33186,MSKU-909130-5,Arleather S.R.L.,253129873,**********          ,Arribado
+2025-04-23,33035,GCXU-557435-0,Arleather S.R.L.,252809104,**********          ,Arribado
+2025-04-23,33036,,Arleather S.R.L.,252809104,                    ,Pendiente
+2025-04-24,33072,MSKU-180923-2,Arleather S.R.L.,252816450,***********         ,Arribado
+2025-04-24,33073,TCKU-695361-2,Arleather S.R.L.,252816450,************        ,Arribado
+2025-04-24,33074,CAAU-563949-9,Arleather S.R.L.,252816450,***********         ,Arribado
+2025-04-21,32871,MRKU-289489-6,Arleather S.R.L.,251416640,     ************** ,Arribado
+2025-04-21,32872,MSKU-035756-5,Arleather S.R.L.,251416640,**************      ,Arribado
+2025-04-21,32873,MRSU-418953-7,Arleather S.R.L.,251416640,******************  ,Arribado
+2025-04-21,32866,MSKU-160698-1,Arleather S.R.L.,251529791,***************     ,Arribado
+2025-04-21,32867,MRKU-489575-7,Arleather S.R.L.,251529791,*********           ,Arribado
+2025-04-21,32868,MRKU-274674-9,Arleather S.R.L.,251529791,**************      ,Arribado
+2025-04-21,32869,HASU-446962-5,Arleather S.R.L.,251416737,***************     ,Arribado
+2025-04-21,32870,MRSU-455057-3,Arleather S.R.L.,251416737,****************    ,Arribado
+2025-04-08,32659,MRSU-415807-4,Arleather S.R.L.,251417131,******************  ,Arribado
+2025-04-15,32829,SUDU-599665-0,Arleather S.R.L.,25146813,*****************   ,Arribado
+2025-04-16,32841,TCNU-580153-8,Arleather S.R.L.,251416813,*****************   ,Arribado
+2025-04-16,32843,MRKU-472465-1,Arleather S.R.L.,251416813,******************  ,Arribado
+2025-04-08,32653,MRKU-427125-7,Arleather S.R.L.,251252901,*******             ,Arribado
+2025-04-08,32654,HASU-433827-1,Arleather S.R.L.,251252901,************        ,Arribado
+2025-04-08,32655,MRKU-632854-1,Arleather S.R.L.,251417032,*****************   ,Arribado
+2025-04-08,32656,CAAU-674577-2,Arleather S.R.L.,251417032,**********          ,Arribado
+2025-04-08,32657,MSKU-968104-5,Arleather S.R.L.,251417032,******              ,Arribado
+2025-04-08,32658,MRSU-595449-8,Arleather S.R.L.,251417131,******************  ,Arribado
+2025-04-08,32648,MRKU-641682-7,Arleather S.R.L.,251417045,**********          ,Arribado
+2025-04-08,32649,SUDU-690990-0,Arleather S.R.L.,251417045,**************      ,Arribado
+2025-04-08,32650,MRSU-523663-3,Arleather S.R.L.,251417045,**********          ,Arribado
+2025-04-08,32651,MRSU-503803-1,Arleather S.R.L.,251417093,******              ,Arribado
+2025-04-08,32652,TLLU-690297-1,Arleather S.R.L.,251417093,************        ,Arribado
+2025-03-28,32528,TRHU-498602-4,Arleather S.R.L.,251754331,*************       ,Arribado
+2025-03-28,32529,CRSU-919406-9,Arleather S.R.L.,251754331,**********          ,Arribado
+2025-04-01,32561,SUDU-851351-8,Arleather S.R.L.,252124574,**************      ,Arribado
+2025-03-28,32515,GCXU-577311-4,Arleather S.R.L.,251251658,***********         ,Arribado
+2025-03-28,32516,TCNU-662257-9,Arleather S.R.L.,251251658,*******             ,Arribado
+2025-03-28,32517,,Arleather S.R.L.,251754331,                    ,Pendiente
+2025-03-28,32518,,Arleather S.R.L.,251754331,                    ,Pendiente
+2025-03-28,32519,,Arleather S.R.L.,251754331,                    ,Pendiente
+2025-03-28,32527,MRKU-351761-8,Arleather S.R.L.,251754331,***********         ,Arribado
+2025-03-28,32499,,Arleather S.R.L.,251251658,                    ,Pendiente
+2025-03-28,32500,,Arleather S.R.L.,251251658,                    ,Pendiente
+2025-03-28,32501,,Arleather S.R.L.,251251658,                    ,Pendiente
+2025-03-28,32514,CAAU-655736-9,Arleather S.R.L.,251251658,***********         ,Arribado
+2025-03-21,32383,MRKU-619069-0,Arleather S.R.L.,250299105,****************    ,Arribado
+2025-03-21,32453,MRKU-308626-0,Arleather S.R.L.,250299105,                    ,Arribado
+2025-03-12,32324,MRKU-444189-9,Arleather S.R.L.,249176115,                    ,Arribado
+2025-03-20,32344,SUDU-678581-5,Arleather S.R.L.,250299290,**************      ,Arribado
+2025-03-20,32347,MRSU-383994-1,Arleather S.R.L.,250299290,**************      ,Arribado
+2025-03-21,32370,MRSU-595141-5,Arleather S.R.L.,250299105,****************    ,Arribado
+2025-03-20,32316,MRSU-646213-1,Arleather S.R.L.,250902863,                    ,Arribado
+2025-03-20,32317,MRKU-459531-7,Arleather S.R.L.,250902863,                    ,Arribado
+2025-03-20,32318,MRKU-214374-5,Arleather S.R.L.,250902863,                    ,Arribado
+2025-03-17,32181,MVIU-001102-1,Arleather S.R.L.,249176115,******************* ,Arribado
+2025-03-17,32183,TCKU-663243-8,Arleather S.R.L.,249176115,******************* ,Arribado
+2025-03-12,32082,TCKU-680317-1,Arleather S.R.L.,250902842,******************  ,Arribado
+2025-03-12,32083,MRSU-391544-5,Arleather S.R.L.,250902842,******************* ,Arribado
+2025-03-12,32089,MRSU-680632-4,Arleather S.R.L.,250675287,**************      ,Arribado
+2025-03-12,32092,TCLU-945399-0,Arleather S.R.L.,250902842,******************* ,Arribado
+2025-03-10,32006,MRSU-746568-6,Arleather S.R.L.,250550073,******************* ,Arribado
+2025-03-11,32026,MRSU-512113-0,Arleather S.R.L.,250675344,**************      ,Arribado
+2025-03-11,32045,TRHU-794094-2,Arleather S.R.L.,250675287,***************     ,Arribado
+2025-03-11,32046,CAAU-552539-3,Arleather S.R.L.,250675287,*****************   ,Arribado
+2025-03-06,31922,MRKU-424757-0,Arleather S.R.L.,250550073,************        ,Arribado
+2025-03-10,31994,MRSU-476663-9,Arleather S.R.L.,250675344,****************    ,Arribado
+2025-03-10,32003,GAOU-706982-2,Arleather S.R.L.,250550073,***********         ,Arribado
 2025-03-10,31999,WFHU-136482-9,Henn Y Cia S.R.L.,ZIMUBUE9038568,********            ,Arribado
 2025-03-10,32000,RRSU-000402-8,Henn Y Cia S.R.L.,ZIMUBUE9038568,**************      ,Arribado
 2025-03-10,32001,TGBU-240869-8,Henn Y Cia S.R.L.,ZIMUBUE9038568,******************  ,Arribado
@@ -968,82 +968,78 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-23,33054,SLZU-251022-0,Libertun Hermanos Srl,25001EC01024657L,..                  ,Arribado
 2025-04-23,33055,RFCU-821282-4,Libertun Hermanos Srl,25001EC01024657L,..                  ,Arribado
 2025-04-23,33056,BTLU-260118-0,Libertun Hermanos Srl,25001EC01024657L,..                  ,Arribado
-2025-02-27,31830,EGSU-125838-3,Norfor Sa,340500007232,**************      ,Arribado
-2025-02-27,31840,EITU-191117-6,Norfor Sa,340500007232,************        ,Arribado
-2025-02-27,31844,CAAU-587940-0,Norfor Sa,340500007232,*************       ,Arribado
-2025-02-27,31943,CAAU-866621-9,Norfor Sa,340500007232,                    ,Arribado
 2025-03-11,32042,,Norfor Sa,340500002133,                    ,Arribado
-2025-06-26,34962,TEMU-622869-4,Norfor Sa,340500023009,**********          ,Arribado
-2025-06-17,34639,EGSU-956773-2,Norfor Sa,340500016819,**********          ,Arribado
+2025-03-19,32282,MSBU-507045-1,Norfor Sa,EBKG12139370,FX32987224          ,Arribado
+2025-03-19,32283,MSBU-683237-7,Norfor Sa,EBKG12139370,FX32987220          ,Arribado
+2025-03-19,32284,CAAU-740280-2,Norfor Sa,EBKG12139370,FX32987231          ,Arribado
 2025-06-26,34960,EITU-926888-9,Norfor Sa,340500023009,********            ,Arribado
 2025-06-26,34961,TXGU-595860-1,Norfor Sa,340500023009,***********         ,Arribado
-2025-05-23,33865,EGSU-931560-1,Norfor Sa,340500018162,***************     ,Arribado
+2025-06-26,34962,TEMU-622869-4,Norfor Sa,340500023009,**********          ,Arribado
 2025-06-17,34637,TXGU-560767-5,Norfor Sa,340500016819,**********          ,Arribado
 2025-06-17,34638,EITU-904496-0,Norfor Sa,340500016819,*********           ,Arribado
-2025-05-23,33838,TIIU-690514-0,Norfor Sa,340500018162,**************      ,Arribado
+2025-06-17,34639,EGSU-956773-2,Norfor Sa,340500016819,**********          ,Arribado
 2025-05-23,33848,,Norfor Sa,340500018162,                    ,Pendiente
 2025-05-23,33849,,Norfor Sa,340500018162,                    ,Pendiente
+2025-05-23,33865,EGSU-931560-1,Norfor Sa,340500018162,***************     ,Arribado
+2025-05-14,33521,EGHU-846297-0,Norfor Sa,340500016461,********            ,Arribado
+2025-05-14,33522,EGSU-960709-6,Norfor Sa,340500016461,**********          ,Arribado
+2025-05-23,33838,TIIU-690514-0,Norfor Sa,340500018162,**************      ,Arribado
+2025-05-05,33262,TRHU-507735-0,Norfor Sa,EBKG12630439,FX32977485          ,Arribado
+2025-05-05,33263,MSNU-964050-2,Norfor Sa,EBKG12630439,FX32977488          ,Arribado
 2025-05-14,33518,FCIU-998285-0,Norfor Sa,340500016461,************        ,Arribado
 2025-05-14,33519,EMCU-842262-7,Norfor Sa,340500016461,*****               ,Arribado
 2025-05-14,33520,EGHU-957705-9,Norfor Sa,340500016461,*************       ,Arribado
-2025-05-14,33521,EGHU-846297-0,Norfor Sa,340500016461,********            ,Arribado
-2025-05-14,33522,EGSU-960709-6,Norfor Sa,340500016461,**********          ,Arribado
+2025-04-25,33091,MEDU-475562-5,Norfor Sa,EBKG12139411,***********         ,Arribado
+2025-04-25,33092,TGHU-695512-3,Norfor Sa,EBKG12139411,FX32979574          ,Arribado
 2025-04-25,33093,TRHU-757932-0,Norfor Sa,EBKG12139411,FX32979572          ,Arribado
 2025-04-25,33094,MSCU-513931-4,Norfor Sa,EBKG12139411,FX 32979578         ,Arribado
 2025-04-25,33095,TIIU-420057-3,Norfor Sa,EBKG12139411,FX-32979527         ,Arribado
 2025-05-05,33261,MSMU-806273-0,Norfor Sa,EBKG12630439,FX32977486          ,Arribado
-2025-05-05,33262,TRHU-507735-0,Norfor Sa,EBKG12630439,FX32977485          ,Arribado
-2025-05-05,33263,MSNU-964050-2,Norfor Sa,EBKG12630439,FX32977488          ,Arribado
+2025-04-25,33085,MSBU-543397-9,Norfor Sa,EBKG12139411,FX32973886          ,Arribado
+2025-04-25,33086,BEAU-421590-9,Norfor Sa,EBKG12139411,FX32973885          ,Arribado
 2025-04-25,33087,CAAU-865853-2,Norfor Sa,EBKG12139411,FX32973854          ,Arribado
 2025-04-25,33088,MEDU-868311-7,Norfor Sa,EBKG12139411,FX32973849          ,Arribado
 2025-04-25,33089,MSNU-741794-8,Norfor Sa,EBKG12139411,FX32973848          ,Arribado
 2025-04-25,33090,FFAU-271514-0,Norfor Sa,EBKG12139411,FX32973824          ,Arribado
-2025-04-25,33091,MEDU-475562-5,Norfor Sa,EBKG12139411,***********         ,Arribado
-2025-04-25,33092,TGHU-695512-3,Norfor Sa,EBKG12139411,FX32979574          ,Arribado
+2025-04-25,33079,BMOU-548412-6,Norfor Sa,26653261,***********         ,Arribado
+2025-04-25,33080,TEMU-670352-0,Norfor Sa,26653261,******              ,Arribado
 2025-04-25,33081,MSMU-771359-2,Norfor Sa,EBKG12139411,FX32973915          ,Arribado
 2025-04-25,33082,CAIU-874818-2,Norfor Sa,EBKG12139411,FX32973946          ,Arribado
 2025-04-25,33083,MSDU-894220-0,Norfor Sa,EBKG12139411,FX32973916          ,Arribado
 2025-04-25,33084,MSBU-828345-0,Norfor Sa,EBKG12139411,FX32973948          ,Arribado
-2025-04-25,33085,MSBU-543397-9,Norfor Sa,EBKG12139411,FX32973886          ,Arribado
-2025-04-25,33086,BEAU-421590-9,Norfor Sa,EBKG12139411,FX32973885          ,Arribado
+2025-04-11,32729,BSIU-821250-7,Norfor Sa,35392411,*********           ,Arribado
+2025-04-11,32730,HAMU-344487-3,Norfor Sa,35392411,**********          ,Arribado
 2025-04-11,32731,UACU-550385-4,Norfor Sa,35392411,*****************   ,Arribado
 2025-04-25,33076,HLBU-128264-4,Norfor Sa,26653261,************        ,Arribado
 2025-04-25,33077,HLBU-147846-8,Norfor Sa,26653261,**************      ,Arribado
 2025-04-25,33078,TGBU-586834-1,Norfor Sa,26653261,**************      ,Arribado
-2025-04-25,33079,BMOU-548412-6,Norfor Sa,26653261,***********         ,Arribado
-2025-04-25,33080,TEMU-670352-0,Norfor Sa,26653261,******              ,Arribado
+2025-04-09,32702,CAAU-690737-0,Norfor Sa,EBKG12227372,FX32981707          ,Arribado
+2025-04-09,32703,MSNU-700702-8,Norfor Sa,EBKG12227372,FX32981706          ,Arribado
 2025-04-09,32720,HLBU-191253-2,Norfor Sa,65326465,***************     ,Arribado
 2025-04-09,32721,CAAU-844232-7,Norfor Sa,65326465,***********         ,Arribado
 2025-04-11,32727,HAMU-132817-5,Norfor Sa,35392411,************        ,Arribado
 2025-04-11,32728,GESU-630775-0,Norfor Sa,35392411,*******             ,Arribado
-2025-04-11,32729,BSIU-821250-7,Norfor Sa,35392411,*********           ,Arribado
-2025-04-11,32730,HAMU-344487-3,Norfor Sa,35392411,**********          ,Arribado
+2025-04-09,32696,MSBU-825722-0,Norfor Sa,EBKG12227414,FX32981561          ,Arribado
+2025-04-09,32697,MSDU-514080-7,Norfor Sa,EBKG12227414,FX32981574          ,Arribado
 2025-04-09,32698,CAAU-553878-6,Norfor Sa,EBKG12227414,FX32981613          ,Arribado
 2025-04-09,32699,UETU-775705-0,Norfor Sa,EBKG12227372,FX32981748          ,Arribado
 2025-04-09,32700,TRHU-717970-4,Norfor Sa,EBKG12227372,FX32981750          ,Arribado
 2025-04-09,32701,TRHU-763684-2,Norfor Sa,EBKG12227372,FX32981730          ,Arribado
-2025-04-09,32702,CAAU-690737-0,Norfor Sa,EBKG12227372,FX32981707          ,Arribado
-2025-04-09,32703,MSNU-700702-8,Norfor Sa,EBKG12227372,FX32981706          ,Arribado
-2025-04-09,32695,FFAU-197640-6,Norfor Sa,EBKG12227414,FX32981596          ,Arribado
-2025-04-09,32696,MSBU-825722-0,Norfor Sa,EBKG12227414,FX32981561          ,Arribado
-2025-04-09,32697,MSDU-514080-7,Norfor Sa,EBKG12227414,FX32981574          ,Arribado
-2025-04-07,32632,FANU-373134-5,Norfor Sa,32046549,*************       ,Arribado
 2025-04-08,32647,MSNU-674508-0,Norfor Sa,EBKG12280306,FX32981503          ,Arribado
+2025-04-09,32695,FFAU-197640-6,Norfor Sa,EBKG12227414,FX32981596          ,Arribado
+2025-04-07,32632,FANU-373134-5,Norfor Sa,32046549,*************       ,Arribado
+2025-03-20,32354,TIIU-430569-8,Norfor Sa,EBKG12139370,FX32987190          ,Arribado
+2025-03-20,32355,TGBU-460254-7,Norfor Sa,EBKG12139370, FX 32987179        ,Arribado
 2025-03-20,32358,TLLU-791390-2,Norfor Sa,EBKG12139370,FX32987169          ,Arribado
 2025-03-20,32359,MSMU-537640-3,Norfor Sa,EBKG12139370,FX32987184          ,Arribado
 2025-03-20,32360,MSMU-838159-5,Norfor Sa,EBKG12139370,FX32987174          ,Arribado
 2025-03-21,32385,MSMU-751275-1,Norfor Sa,,                    ,Arribado
+2025-03-19,32285,MSBU-506595-9,Norfor Sa,EBKG12139370,FX32987227          ,Arribado
+2025-03-19,32286,TRHU-756059-9,Norfor Sa,EBKG12139370,FX32987226          ,Arribado
 2025-03-19,32289,MSMU-692032-1,Norfor Sa,EBKG12139370,FX32987228          ,Arribado
 2025-03-19,32290,FFAU-190886-5,Norfor Sa,EBKG12139370,FX-32987230         ,Arribado
 2025-03-19,32302,TGHU-931432-9,Norfor Sa,EBKG12139370,FX32987162          ,Arribado
 2025-03-20,32353,TRHU-623639-5,Norfor Sa,EBKG12139370,FX32987178          ,Arribado
-2025-03-20,32354,TIIU-430569-8,Norfor Sa,EBKG12139370,FX32987190          ,Arribado
-2025-03-20,32355,TGBU-460254-7,Norfor Sa,EBKG12139370, FX 32987179        ,Arribado
-2025-03-19,32282,MSBU-507045-1,Norfor Sa,EBKG12139370,FX32987224          ,Arribado
-2025-03-19,32283,MSBU-683237-7,Norfor Sa,EBKG12139370,FX32987220          ,Arribado
-2025-03-19,32284,CAAU-740280-2,Norfor Sa,EBKG12139370,FX32987231          ,Arribado
-2025-03-19,32285,MSBU-506595-9,Norfor Sa,EBKG12139370,FX32987227          ,Arribado
-2025-03-19,32286,TRHU-756059-9,Norfor Sa,EBKG12139370,FX32987226          ,Arribado
 2025-03-05,31878,GCXU-615042-2,Santa Anita Oil Sa,32689464,********************,Arribado
 2025-03-05,31879,CXDU-165642-1,Santa Anita Oil Sa,32689464,***********         ,Arribado
 2025-03-05,31880,HAMU-145433-7,Santa Anita Oil Sa,32689464,***********         ,Arribado
@@ -1219,6 +1215,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-22,32950,,Forestal Guarani Sa,33044230,                    ,Pendiente
 2025-04-22,32982,FCIU-746656-2,Forestal Guarani Sa,33044230,******************  ,Arribado
 2025-04-22,32983,HLXU-806175-0,Forestal Guarani Sa,33044230,************        ,Arribado
+2025-06-30,35049,,Forestal Guarani Sa,30741536,                    ,Pendiente
+2025-06-30,35046,,Forestal Guarani Sa,30741536,                    ,Pendiente
+2025-06-30,35047,,Forestal Guarani Sa,30741536,                    ,Pendiente
+2025-06-30,35048,,Forestal Guarani Sa,30741536,                    ,Pendiente
 2025-05-30,34128,MSMU-647223-2,Forestal Guarani Sa,EBKG12731397,FX32973625          ,Arribado
 2025-05-30,34129,FSCU-834373-0,Forestal Guarani Sa,EBKG12731397,FX32973520          ,Arribado
 2025-05-30,34130,MSDU-894649-0,Forestal Guarani Sa,EBKG12731397,FX32973512          ,Arribado
@@ -1236,6 +1236,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-24,34850,MEDU-262910-3,Entretelas Americanas Sa,LA0430038,**********          ,Arribado
 2025-05-15,33582,,Litoral Citrus S A,EBKG12664544,                    ,Pendiente
 2025-05-15,33651,MSBU-328198-5,Litoral Citrus S A,EBKG12664544E,FX32970788          ,Arribado
+2025-06-30,35044,,Litoral Citrus S A,153IAR0649741,                    ,Pendiente
 2025-04-29,33198,,Hdv Leather S.R.L.,253269514,                    ,Pendiente
 2025-06-27,34986,TCNU-104393-3,Hdv Leather S.R.L.,254973255,***********         ,Arribado
 2025-06-27,34987,GCXU-581020-2,Hdv Leather S.R.L.,254973255,***********         ,Arribado
