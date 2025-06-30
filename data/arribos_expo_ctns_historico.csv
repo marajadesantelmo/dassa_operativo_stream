@@ -259,6 +259,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-07,33416,MSNU-591175-6,Mercopallet Srl,EBKG12664282,FX-32977265         ,Arribado
 2025-04-23,33028,UACU-844344-5,Fineport S.A.,92898716,*************       ,Arribado
 2025-04-23,33029,HLBU-105776-7,Fineport S.A.,92898716,************        ,Arribado
+2025-06-30,35059,,Famacon S.A.,65330412,                    ,Pendiente
+2025-06-30,35080,UACU-577925-1,Famacon S.A.,65330412,****************    ,Arribado
 2025-04-11,32737,,Overprint S.R.L.,TERRESTRE,                    ,Pendiente
 2025-06-05,34363,,Overprint S.R.L.,25001EC01034042A,                    ,Arribado
 2025-04-11,32741,,Geo-Trade Comercio Exterior Srl,25AR152251C,                    ,Arribado
@@ -667,6 +669,14 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-11,32035,KKTU-816603-2,Henn Y Cia S.R.L.,BUEF02067800,****************    ,Arribado
 2025-03-11,32036,BSIU-285572-2,Henn Y Cia S.R.L.,BUEF02067800,***************     ,Arribado
 2025-03-05,31885,MSDU-280369-7,Borax Argentina S A,EBKG11965707,FX32986952          ,Arribado
+2025-07-01,35066,,Borax Argentina S A,255630746,                    ,Pendiente
+2025-07-01,35067,,Borax Argentina S A,255630746,                    ,Pendiente
+2025-07-01,35068,,Borax Argentina S A,255630746,                    ,Pendiente
+2025-07-01,35069,,Borax Argentina S A,255630746,                    ,Pendiente
+2025-07-01,35062,,Borax Argentina S A,255630746,                    ,Pendiente
+2025-07-01,35063,,Borax Argentina S A,255630746,                    ,Pendiente
+2025-07-01,35064,,Borax Argentina S A,255630746,                    ,Pendiente
+2025-07-01,35065,,Borax Argentina S A,255630746,                    ,Pendiente
 2025-06-24,34827,,Borax Argentina S A,255033881,                    ,Pendiente
 2025-06-24,34828,,Borax Argentina S A,255033881,                    ,Pendiente
 2025-06-24,34829,TEMU-452471-6,Borax Argentina S A,255312124,************        ,Arribado
@@ -1208,10 +1218,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-22,32950,,Forestal Guarani Sa,33044230,                    ,Pendiente
 2025-04-22,32982,FCIU-746656-2,Forestal Guarani Sa,33044230,******************  ,Arribado
 2025-04-22,32983,HLXU-806175-0,Forestal Guarani Sa,33044230,************        ,Arribado
-2025-06-30,35049,,Forestal Guarani Sa,30741536,                    ,Pendiente
-2025-06-30,35046,,Forestal Guarani Sa,30741536,                    ,Pendiente
-2025-06-30,35047,,Forestal Guarani Sa,30741536,                    ,Pendiente
-2025-06-30,35048,,Forestal Guarani Sa,30741536,                    ,Pendiente
+2025-06-30,35049,HLXU-857174-9,Forestal Guarani Sa,30741536,************        ,Arribado
+2025-06-30,35046,HLBU-315316-3,Forestal Guarani Sa,30741536,*********           ,Arribado
+2025-06-30,35047,HLXU-838700-6,Forestal Guarani Sa,30741536,***********         ,Arribado
+2025-06-30,35048,DFSU-709597-4,Forestal Guarani Sa,30741536,************        ,Arribado
 2025-05-30,34128,MSMU-647223-2,Forestal Guarani Sa,EBKG12731397,FX32973625          ,Arribado
 2025-05-30,34129,FSCU-834373-0,Forestal Guarani Sa,EBKG12731397,FX32973520          ,Arribado
 2025-05-30,34130,MSDU-894649-0,Forestal Guarani Sa,EBKG12731397,FX32973512          ,Arribado
@@ -1229,7 +1239,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-24,34850,MEDU-262910-3,Entretelas Americanas Sa,LA0430038,**********          ,Arribado
 2025-05-15,33582,,Litoral Citrus S A,EBKG12664544,                    ,Pendiente
 2025-05-15,33651,MSBU-328198-5,Litoral Citrus S A,EBKG12664544E,FX32970788          ,Arribado
-2025-06-30,35044,,Litoral Citrus S A,153IAR0649741,                    ,Pendiente
+2025-06-30,35044,MSMU-147543-4,Litoral Citrus S A,153IAR0649741,FX32932319          ,Arribado
 2025-04-29,33198,,Hdv Leather S.R.L.,253269514,                    ,Pendiente
 2025-06-27,34986,TCNU-104393-3,Hdv Leather S.R.L.,254973255,***********         ,Arribado
 2025-06-27,34987,GCXU-581020-2,Hdv Leather S.R.L.,254973255,***********         ,Arribado
