@@ -1,10 +1,10 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 35111,01/07,Mercovan Argentina Srl,-,0,  ,TD,                    ,24161635,0,                              ,,     ,2025-07-21,Gustavo De La Calle,24161635            ,Pendiente
-35105,01/07,Hellmann Worldwide Logistics,-,0,  ,TD,                    ,ZIMUBUE9041533,0,                              ,,     ,2025-07-21,,                    ,Pendiente
+35105,01/07,Hellmann Worldwide Logistics,JXJU-118188-0,10074,DR,TD,************        ,ZIMUBUE9041533,1,TRANSPORTE DEL CLIENTE        ,Alvarez,10:53,2025-07-21,,                    ,10:53 Arribado
 35099,01/07,Virasoro Maderas S R L,-,15016,HC,TD,                    ,EBKG13325394,0,                              ,,     ,2025-07-21,,                    ,Pendiente
 35098,01/07,Virasoro Maderas S R L,-,15016,HC,TD,                    ,EBKG13325394,0,                              ,,     ,2025-07-21,,                    ,Pendiente
-35097,01/07,Virasoro Maderas S R L,-,15016,HC,TD,                    ,EBKG13325394,0,                              ,,     ,2025-07-21,,                    ,Pendiente
-35096,01/07,Virasoro Maderas S R L,-,15016,HC,TD,                    ,EBKG13325394,0,                              ,,     ,2025-07-21,,                    ,Pendiente
+35097,01/07,Virasoro Maderas S R L,FFAU-562389-7,15016,HC,TD,FX32935146          ,EBKG13325394,1,TRANSPORTE DEL CLIENTE        ,Florido,10:54,2025-07-21,,                    ,10:54 Arribado
+35096,01/07,Virasoro Maderas S R L,MSMU-733995-0,15016,HC,TD,FX32935248          ,EBKG13325394,1,TRANSPORTE DEL CLIENTE        ,Barreto,10:53,2025-07-21,,                    ,10:53 Arribado
 35068,01/07,Borax Argentina S A,-,10077,DR,TD,                    ,255630746,0,                              ,,     ,2025-07-21,,                    ,Pendiente
 35067,01/07,Borax Argentina S A,-,10077,DR,TD,                    ,255630746,0,                              ,,     ,2025-07-21,,                    ,Pendiente
 35066,01/07,Borax Argentina S A,-,10077,DR,TD,                    ,255630746,0,                              ,,     ,2025-07-21,,                    ,Pendiente
