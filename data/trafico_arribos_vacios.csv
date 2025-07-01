@@ -1,7 +1,7 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-35111,01/07,Mercovan Argentina Srl,-,0,  ,TD,                    ,24161635,0,                              ,,     ,2025-07-21,Gustavo De La Calle,24161635            ,Pendiente
+35111,01/07,Mercovan Argentina Srl,TEMU-148771-1,10080,DR,TD,**********          ,24161635,1,TRANSPORTE DEL CLIENTE        ,Alvarez,18:21,2025-07-21,Gustavo De La Calle,24161635            ,18:21 Arribado
 35105,01/07,Hellmann Worldwide Logistics,JXJU-118188-0,10074,DR,TD,************        ,ZIMUBUE9041533,1,TRANSPORTE DEL CLIENTE        ,Alvarez,10:53,2025-07-21,,                    ,10:53 Arribado
-35099,01/07,Virasoro Maderas S R L,-,15016,HC,TD,                    ,EBKG13325394,0,                              ,,     ,2025-07-21,,                    ,Pendiente
+35099,01/07,Virasoro Maderas S R L,UETU-805804-2,15016,HC,TD,FX32935149          ,EBKG13325394,1,TRANSPORTE DEL CLIENTE        ,Lombardo,18:18,2025-07-21,,                    ,18:18 Arribado
 35098,01/07,Virasoro Maderas S R L,MSCU-526829-2,15016,HC,TD,FX32935236          ,EBKG13325394,1,TRANSPORTE DEL CLIENTE        ,Elisiri,13:16,2025-07-21,,                    ,13:16 Arribado
 35097,01/07,Virasoro Maderas S R L,FFAU-562389-7,15016,HC,TD,FX32935146          ,EBKG13325394,1,TRANSPORTE DEL CLIENTE        ,Florido,10:54,2025-07-21,,                    ,10:54 Arribado
 35096,01/07,Virasoro Maderas S R L,MSMU-733995-0,15016,HC,TD,FX32935248          ,EBKG13325394,1,TRANSPORTE DEL CLIENTE        ,Barreto,10:53,2025-07-21,,                    ,10:53 Arribado
@@ -12,7 +12,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35064,01/07,Borax Argentina S A,MRKU-811646-0,10077,DR,TD,*************       ,255630746,1,TRANSPORTE DEL CLIENTE        ,Moscardini,12:10,2025-07-21,,                    ,12:10 Arribado
 35063,01/07,Borax Argentina S A,MRKU-728661-0,10077,DR,TD,***********         ,255630746,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,11:20,2025-07-21,,                    ,11:20 Arribado
 35062,01/07,Borax Argentina S A,MSKU-549163-8,10077,DR,TD,*********           ,255630746,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,11:18,2025-07-21,,                    ,11:18 Arribado
-35069,01/07,Borax Argentina S A,-,10077,DR,TD,                    ,255630746,0,                              ,,     ,2025-07-21,,                    ,Pendiente
+35069,01/07,Borax Argentina S A,TLLU-226741-4,10077,DR,TD,************        ,255630746,1,TRANSPORTES LEIRA-NO USAR     ,Muller,18:16,2025-07-21,,                    ,18:16 Arribado
 35110,01/07,Sm-Cyclo De Argentina S.A,PCIU-957769-4,10,HC,TD,*************       ,BUE500109300,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:21,2025-07-21,,BUE500109300        ,13:21 Arribado
 35113,01/07,Mader Zu S.R.L.,-,0,  ,TD,                    ,65443977,0,                              ,,     ,2025-07-21,65443977,65443977            ,Pendiente
 35114,01/07,Mader Zu S.R.L.,-,0,  ,TD,                    ,65443977,0,                              ,,     ,2025-07-21,65443977,65443977            ,Pendiente
