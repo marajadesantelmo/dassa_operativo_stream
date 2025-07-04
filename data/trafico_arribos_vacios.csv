@@ -1,14 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-35219,03/07,Lift Van Int. Co S.A,CAIU-264508-4,10080,DR,TD,************        ,29963404,1,TRANSPORTE DEL CLIENTE        ,Peril,15:17,2025-07-23,Thomas Kirk,29963404            ,15:17 Arribado
-35218,03/07,Virasoro Maderas S R L,TXGU-557160-7,Exolgan,HC,TD,FX32934396          ,EBKG13408378,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,15:39,2025-07-23,,EBKG13408378        ,15:39 Arribado
-35230,03/07,Henn Y Cia S.R.L.,MRKU-391323-9,10080,HC,TD,***********         ,255082153,1,TRANSPORTE DEL CLIENTE        ,Golpe,13:57,2025-07-23,255082153,255082153           ,13:57 Arribado
-35276,03/07,Minera Santa Rita Srl,UACU-842831-1,10080,DR,TD,**********          ,20304596,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,16:58,2025-07-24,,                    ,16:58 Arribado
-35261,03/07,Minera Santa Rita Srl,UACU-856876-1,10080,DR,TD,**********          ,20304596,1,TRANSPORTE DEL CLIENTE        ,Golpe,10:28,2025-07-24,,                    ,10:28 Arribado
-35217,03/07,Virasoro Maderas S R L,CAAU-563178-0,Exolgan,HC,TD,FX32934467          ,EBKG13408378,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,12:02,2025-07-23,,EBKG13408378        ,12:02 Arribado
-35269,03/07,Lift Van Int. Co S.A,HLXU-535909-0,10080,HC,TD,**********          ,21259607,1,TRANSPORTE DEL CLIENTE        ,Alvarez,17:13,2025-07-24,Rodriguez Capel,                    ,17:13 Arribado
-35260,03/07,Lift Van Int. Co S.A,MRKU-080496-0,10080,DR,TD,************        ,255310523,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,14:03,2025-07-24,Allshouse/ Efectos,                    ,14:03 Arribado
-35220,03/07,Lift Van Int. Co S.A,DFSU-279519-4,10080,DR,TD,*********           ,27799953,1,TRANSPORTE DEL CLIENTE        ,Peril,15:25,2025-07-23,Thomas Kirk,27799953            ,15:25 Arribado
-35124,04/07,Hdv Leather S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13330347,0,                              ,,     ,2025-07-22,,                    ,Pendiente
+35274,04/07,Lift Van Int. Co S.A,-,10080,HC,TD,                    ,35530751,0,                              ,,     ,2025-07-24,Marcos Lobo,                    ,Pendiente
 35255,04/07,Smart Trading S.A.S,-,10077,DR,TD,                    ,254762551,0,                              ,,     ,2025-07-24,,                    ,Pendiente
 35254,04/07,Smart Trading S.A.S,-,10077,DR,TD,                    ,254762551,0,                              ,,     ,2025-07-24,,                    ,Pendiente
 35253,04/07,Smart Trading S.A.S,-,10077,DR,TD,                    ,254762551,0,                              ,,     ,2025-07-24,,                    ,Pendiente
@@ -17,25 +8,25 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35129,04/07,Hdv Leather S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13363857,0,                              ,,     ,2025-07-22,,                    ,Pendiente
 35128,04/07,Hdv Leather S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13363857,0,                              ,,     ,2025-07-22,,                    ,Pendiente
 35127,04/07,Hdv Leather S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13363857,0,                              ,,     ,2025-07-22,,                    ,Pendiente
-35126,04/07,Hdv Leather S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13330347,0,                              ,,     ,2025-07-22,,                    ,Pendiente
+35256,04/07,Smart Trading S.A.S,-,10077,DR,TD,                    ,254762551,0,                              ,,     ,2025-07-24,,                    ,Pendiente
 35125,04/07,Hdv Leather S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13330347,0,                              ,,     ,2025-07-22,,                    ,Pendiente
-35123,04/07,Hdv Leather S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13330347,0,                              ,,     ,2025-07-22,,                    ,Pendiente
+35124,04/07,Hdv Leather S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13330347,0,                              ,,     ,2025-07-22,,                    ,Pendiente
+35126,04/07,Hdv Leather S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13330347,0,                              ,,     ,2025-07-22,,                    ,Pendiente
 35257,04/07,Smart Trading S.A.S,-,10077,DR,TD,                    ,254762551,0,                              ,,     ,2025-07-24,,                    ,Pendiente
 35248,04/07,Borax Argentina S A,-,10077,DR,TD,                    ,255312036,0,                              ,,     ,2025-07-24,,                    ,Pendiente
 35247,04/07,Borax Argentina S A,-,10077,DR,TD,                    ,255312036,0,                              ,,     ,2025-07-24,,                    ,Pendiente
 35246,04/07,Borax Argentina S A,-,10077,DR,TD,                    ,255312036,0,                              ,,     ,2025-07-24,,                    ,Pendiente
 35189,04/07,Refractarios Argentinos Saicm,-,0,  ,TD,                    ,13871295,0,                              ,,     ,2025-07-23,13871295,13871295            ,Pendiente
-35256,04/07,Smart Trading S.A.S,-,10077,DR,TD,                    ,254762551,0,                              ,,     ,2025-07-24,,                    ,Pendiente
-35274,04/07,Lift Van Int. Co S.A,-,10080,HC,TD,                    ,35530751,0,                              ,,     ,2025-07-24,Marcos Lobo,                    ,Pendiente
-35264,07/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,255317569,0,                              ,,     ,2025-07-24,,                    ,Pendiente
+35123,04/07,Hdv Leather S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13330347,0,                              ,,     ,2025-07-22,,                    ,Pendiente
+35267,07/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,255365721,0,                              ,,     ,2025-07-24,,                    ,Pendiente
+35266,07/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,255365721,0,                              ,,     ,2025-07-24,,                    ,Pendiente
+35265,07/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,255317569,0,                              ,,     ,2025-07-24,,                    ,Pendiente
 35214,07/07,Virasoro Maderas S R L,-,0,  ,TD,                    ,EBKG13408378,0,                              ,,     ,2025-07-23,,EBKG13408378        ,Pendiente
 35268,07/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,255365721,0,                              ,,     ,2025-07-24,,                    ,Pendiente
 35213,07/07,Maringa Maderas Sa,-,Exolgan,HC,TD,                    ,EBKG13411142,0,                              ,,     ,2025-07-23,,                    ,Pendiente
-35265,07/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,255317569,0,                              ,,     ,2025-07-24,,                    ,Pendiente
-35266,07/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,255365721,0,                              ,,     ,2025-07-24,,                    ,Pendiente
-35267,07/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,255365721,0,                              ,,     ,2025-07-24,,                    ,Pendiente
+35264,07/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,255317569,0,                              ,,     ,2025-07-24,,                    ,Pendiente
+35031,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
 35030,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
+35029,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
 35028,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
 35032,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
-35031,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
-35029,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
