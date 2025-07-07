@@ -182,6 +182,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-05-09,11:00,TRP,DFSU-436305-5,Grouport Srl,TCQD2502142,TD,2025-05-09,1806,http://dassa.mqbic.com/PublicTally.php?id=1806
 2025-05-16,05:00,Exolgan,MSDU-435235-5,Grouport Srl,S04592391,TD,2025-05-16,1866,http://dassa.mqbic.com/PublicTally.php?id=1866
 2025-06-21,12:00,TRP,FSCU-504825-9,Grouport Srl,TCNB2504814,T,2025-06-21,,
+2025-07-08,15:00,Exolgan,MSNU-137719-6,Refractarios Argentinos Saicm,ATL58653083,TD,,,
+2025-07-08,15:00,Exolgan,MSMU-299368-0,Refractarios Argentinos Saicm,ATL58653083,TD,,,
 2025-06-12,12:00,Terminal 4,MRKU-890029-7,Refractarios Argentinos Saicm,263965321,TD,2025-06-12,1997,http://dassa.mqbic.com/PublicTally.php?id=1997
 2025-06-24,13:00,Terminal 4,JXLU-628260-0,Planet Seguridad S.R.L.,WLLSH2504129,T,2025-06-24,,
 2025-04-29,05:00,Exolgan,CAIU-497354-4,Fenisan S.A.,MEDUOJ362401,T,2025-04-29,,
@@ -274,6 +276,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-05-16,13:00,TRP,CCLU-529361-8,Sk Distributors S.R.L.,DLNB2503176,T,2025-05-16,,
 2025-05-16,12:00,TRP,OOCU-504096-4,Sk Distributors S.R.L.,DLNB2503162,T,2025-05-16,,
 2025-06-25,05:00,Exolgan,MSDU-445944-6,Sk Distributors S.R.L.,DLNB2504115,T,2025-06-25,,
+2025-07-08,05:00,Exolgan,CRXU-428216-9,Sk Distributors S.R.L.,DLNB2504167,T,,,
 2025-03-25,19:00,TRP,BSIU-269787-0,Presmar S.A.,EXPLV25010006A,T,2025-03-25,,
 2025-05-15,11:00,Terminal 4,MRKU-774866-2,Presmar S.A.,GDM25030060,T,2025-05-15,,
 2025-07-04,15:00,Terminal 4,MSKU-440230-1,Presmar S.A.,SZXSE25054406,T,2025-07-04,,
@@ -430,6 +433,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-04-30,17:00,TRP,GESU-689690-1,Chemotecnica Sa,CHN2072784,T,2025-04-30,,
 2025-05-30,12:00,TRP,TCLU-655337-8,Chemotecnica Sa,VER250479-1,TD,2025-05-30,1947,http://dassa.mqbic.com/PublicTally.php?id=1947
 2025-06-04,13:00,Exolgan,ONEU-043118-0,Chemotecnica Sa,ONEYMUF28075400,T,2025-06-04,,
+2025-07-08,10:00,TRP,HDMU-271974-1,Industrias Saladillo S.A.,TPNGBSG25056020,TD,,,
 2025-07-02,07:00,Terminal 4,BMOU-255036-9,Industrias Saladillo S.A.,TPNGBSG255046030,TD,2025-07-02,2099,http://dassa.mqbic.com/PublicTally.php?id=2099
 2025-04-24,10:00,Terminal 4,CAIU-326125-2,Industrias Saladillo S.A.,TPNGBSG25036008,TD,2025-04-24,1743,http://dassa.mqbic.com/PublicTally.php?id=1743
 2025-04-08,11:00,Exolgan,UETU-584676-0,Luial Sa,NB250155725,T,2025-04-08,,
@@ -448,7 +452,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-07-03,05:00,TRP,TGHU-697224-4,Raisvic S.R.L.,HDE25-060015,T,2025-07-03,,
 2025-07-03,13:00,TRP,GAOU-730084-4,Raisvic S.R.L.,HDE25-050057A,TD,2025-07-03,,
 2025-07-03,05:00,TRP,TRHU-656297-7,Raisvic S.R.L.,HDE25-060016,T,2025-07-03,,
-2025-07-04,15:00,TRP,EGHU-827246-1,Raisvic S.R.L.,HDE25-060020A/B,TD,2025-07-04,,
+2025-07-04,15:00,TRP,EGHU-827246-1,Raisvic S.R.L.,HDE25-060020A/B,TD,2025-07-04,2132,http://dassa.mqbic.com/PublicTally.php?id=2132
+2025-07-04,15:00,TRP,EGHU-827246-1,Raisvic S.R.L.,HDE25-060020A/B,TD,2025-07-04,2132,http://dassa.mqbic.com/PublicTally.php?id=2132
 2025-06-12,03:00,TRP,EMCU-877130-0,Raisvic S.R.L.,HDE25-050004A/B,TD,2025-06-12,1991,http://dassa.mqbic.com/PublicTally.php?id=1991
 2025-06-12,03:00,TRP,EMCU-877130-0,Raisvic S.R.L.,HDE25-050004A/B,TD,2025-06-12,1991,http://dassa.mqbic.com/PublicTally.php?id=1991
 2025-06-12,03:00,TRP,EGHU-843201-9,Raisvic S.R.L.,HDE25-050002,T,2025-06-12,,
@@ -521,6 +526,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-06-20,14:00,Terminal 4,GAOU-721500-1,Telamania Srl,GILNB250400109,T,2025-06-20,,
 2025-04-21,11:00,Exolgan,UACU-850865-4,Verde Fuerte Srl,SEA30/2503-0443A,TD,2025-04-21,1723,http://dassa.mqbic.com/PublicTally.php?id=1723
 2025-05-28,08:00,Terminal 4,MRKU-109464-6,Verde Fuerte Srl,SEA30/2504-0086A,TD,2025-05-28,1899,http://dassa.mqbic.com/PublicTally.php?id=1899
+2025-07-08,10:00,Terminal 4,MRKU-056983-4,Verde Fuerte Srl,,TD,,,
 2025-03-13,13:00,Terminal 4,MRKU-881096-9,Curtiembre Infante Sa,249002118,TD,2025-03-13,1553,http://dassa.mqbic.com/PublicTally.php?id=1553
 2025-03-13,13:00,Terminal 4,MRKU-822639-0,Curtiembre Infante Sa,249002118,TD,2025-03-13,1554,http://dassa.mqbic.com/PublicTally.php?id=1554
 2025-03-12,21:00,TRP,OOCU-821613-1,Levy Jonathan Netanel,TCNB2501647,T,2025-03-12,,

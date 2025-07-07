@@ -2,6 +2,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-17,32172,HLBU-178997-9,Mercovan Argentina Srl,33038718,0432331             ,Arribado
 2025-07-01,35111,TEMU-148771-1,Mercovan Argentina Srl,24161635,**********          ,Arribado
 2025-07-01,35112,UACU-413896-8,Mercovan Argentina Srl,68325738,************        ,Arribado
+2025-07-07,35312,MRKU-752998-3,Mercovan Argentina Srl,255814500,**********          ,Arribado
 2025-06-25,34876,MRKU-012719-6,Mercovan Argentina Srl,255568532,************        ,Arribado
 2025-05-30,34219,,Mercovan Argentina Srl,21956525,                    ,Pendiente
 2025-06-04,34328,,Mercovan Argentina Srl,92724024,                    ,Pendiente
@@ -92,10 +93,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-27,32464,SEKU-470179-0,Minera Santa Rita Srl,251894227,***********         ,Arribado
 2025-03-28,32497,,Minera Santa Rita Srl,251889522,                    ,Pendiente
 2025-03-28,32498,,Minera Santa Rita Srl,251889522,                    ,Pendiente
+2025-07-07,35321,UACU-844336-3,Minera Santa Rita Srl,20304596,*********           ,Arribado
+2025-07-07,35324,UACU-847747-1,Minera Santa Rita Srl,20304596,*********           ,Arribado
 2025-07-15,35031,,Minera Santa Rita Srl,20488774,                    ,Pendiente
 2025-07-15,35032,,Minera Santa Rita Srl,20488774,                    ,Pendiente
 2025-07-03,35261,UACU-856876-1,Minera Santa Rita Srl,20304596,**********          ,Arribado
 2025-07-03,35276,UACU-842831-1,Minera Santa Rita Srl,20304596,**********          ,Arribado
+2025-07-07,35317,UACU-853937-8,Minera Santa Rita Srl,20304596,***********         ,Arribado
 2025-07-15,35028,,Minera Santa Rita Srl,20488774,                    ,Pendiente
 2025-07-15,35029,,Minera Santa Rita Srl,20488774,                    ,Pendiente
 2025-07-15,35030,,Minera Santa Rita Srl,20488774,                    ,Pendiente
@@ -160,7 +164,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-22,32978,HAMU-100594-8,Refractarios Argentinos Saicm,38192674,*************       ,Arribado
 2025-03-14,32159,HLBU-152394-7,Pelama Chubut S.A.,93163349,                    ,Arribado
 2025-03-17,32182,UACU-560728-9,Pelama Chubut S.A.,78721024,********************,Arribado
-2025-07-07,35295,,Pelama Chubut S.A.,COSU6423149250,                    ,Pendiente
+2025-07-07,35295,OOCU-476323-3,Pelama Chubut S.A.,COSU6423149250,**********          ,Arribado
 2025-07-07,35296,,Pelama Chubut S.A.,COSU6423149260,                    ,Pendiente
 2025-06-24,34913,OOCU-487428-4,Pelama Chubut S.A.,COSU6421827870,**********          ,Arribado
 2025-06-25,34918,CSNU-184088-6,Pelama Chubut S.A.,COSU6421214450,*************       ,Arribado
@@ -275,6 +279,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-23,33029,HLBU-105776-7,Fineport S.A.,92898716,************        ,Arribado
 2025-06-30,35059,,Famacon S.A.,65330412,                    ,Pendiente
 2025-06-30,35080,UACU-577925-1,Famacon S.A.,65330412,****************    ,Arribado
+2025-07-07,35319,,Alimentaria Sa,B946026075,                    ,Pendiente
+2025-07-07,35320,,Alimentaria Sa,B946026075,                    ,Pendiente
 2025-04-11,32737,,Overprint S.R.L.,TERRESTRE,                    ,Pendiente
 2025-06-05,34363,,Overprint S.R.L.,25001EC01034042A,                    ,Arribado
 2025-04-11,32741,,Geo-Trade Comercio Exterior Srl,25AR152251C,                    ,Arribado
@@ -426,7 +432,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-17,32242,TXGU-433436-5,Maringa Maderas Sa,EBKG11984008,.                   ,Arribado
 2025-06-24,34782,MEDU-443152-3,Maringa Maderas Sa,EBKG13159092,FX32934153          ,Arribado
 2025-06-30,34939,CAIU-459786-9,Maringa Maderas Sa,EBKG13192555,FX32932271          ,Arribado
-2025-07-07,35213,,Maringa Maderas Sa,EBKG13411142,                    ,Pendiente
+2025-07-07,35213,MSNU-761662-0,Maringa Maderas Sa,EBKG13411142,FX32934791          ,Arribado
 2025-04-29,33195,CAAU-695410-8,Maringa Maderas Sa,EBKG12462351,FX32979567          ,Arribado
 2025-06-09,34367,TGBU-786318-5,Maringa Maderas Sa,EBKG13032675,FX32972903          ,Arribado
 2025-06-23,34778,,Maringa Maderas Sa,EBKG13192544,                    ,Pendiente
@@ -999,13 +1005,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-19,32285,MSBU-506595-9,Norfor Sa,EBKG12139370,FX32987227          ,Arribado
 2025-07-07,35291,,Norfor Sa,340500024455,                    ,Pendiente
 2025-07-07,35292,,Norfor Sa,340500024455,                    ,Pendiente
-2025-07-07,35288,,Norfor Sa,340500024455,                    ,Pendiente
+2025-07-07,35288,FFAU-511349-2,Norfor Sa,340500024455,***********         ,Arribado
 2025-07-07,35289,,Norfor Sa,340500024455,                    ,Pendiente
 2025-07-07,35290,,Norfor Sa,340500024455,                    ,Pendiente
 2025-07-02,35173,TGBU-924834-9,Norfor Sa,340500023262,***********         ,Arribado
 2025-07-02,35174,TXGU-777508-7,Norfor Sa,340500023262,**********          ,Arribado
-2025-07-02,35175,,Norfor Sa,340500023262,                    ,Pendiente
-2025-07-02,35176,,Norfor Sa,340500023262,                    ,Pendiente
+2025-07-02,35175,CAAU-571103-7,Norfor Sa,340500023262,*********           ,Arribado
+2025-07-02,35176,EGHU-842639-8,Norfor Sa,340500023262,**************      ,Arribado
 2025-07-02,35167,DRYU-979480-9,Norfor Sa,340500023262,*********           ,Arribado
 2025-07-02,35168,EGSU-126087-9,Norfor Sa,340500023262,***********         ,Arribado
 2025-07-02,35169,EMCU-852279-7,Norfor Sa,340500023262,***********         ,Arribado
@@ -1098,6 +1104,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-10,32002,TGHU-986068-0,Laharrague Chodorge Sociedad Anonima,250793112,************        ,Arribado
 2025-04-23,33030,MSDU-515587-5,Laharrague Chodorge Sociedad Anonima,EBKG12353554,FX32974280          ,Arribado
 2025-04-23,33031,MSNU-581336-4,Laharrague Chodorge Sociedad Anonima,EBKG12353554,FX32972665          ,Arribado
+2025-07-08,35311,,Laharrague Chodorge Sociedad Anonima,48619187,                    ,Pendiente
 2025-06-24,34838,HAMU-122814-0,Laharrague Chodorge Sociedad Anonima,9327925471,*********           ,Arribado
 2025-05-29,34080,CMAU-738483-3,Laharrague Chodorge Sociedad Anonima,BUA0341744,R1954910            ,Arribado
 2025-05-29,34081,CMAU-651346-9,Laharrague Chodorge Sociedad Anonima,BUA0341744,R1954870            ,Arribado
@@ -1274,12 +1281,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-15,33651,MSBU-328198-5,Litoral Citrus S A,EBKG12664544E,FX32970788          ,Arribado
 2025-06-30,35044,MSMU-147543-4,Litoral Citrus S A,153IAR0649741,FX32932319          ,Arribado
 2025-04-29,33198,,Hdv Leather S.R.L.,253269514,                    ,Pendiente
-2025-07-07,35268,,Hdv Leather S.R.L.,255365721,                    ,Pendiente
+2025-07-07,35268,MSKU-978948-8,Hdv Leather S.R.L.,255365721,***********         ,Arribado
 2025-06-30,35187,MSKU-010656-0,Hdv Leather S.R.L.,255810575,                    ,Arribado
-2025-07-07,35264,,Hdv Leather S.R.L.,255317569,                    ,Pendiente
-2025-07-07,35265,,Hdv Leather S.R.L.,255317569,                    ,Pendiente
-2025-07-07,35266,,Hdv Leather S.R.L.,255365721,                    ,Pendiente
-2025-07-07,35267,,Hdv Leather S.R.L.,255365721,                    ,Pendiente
+2025-07-07,35264,MRKU-204192-8,Hdv Leather S.R.L.,255317569,***********         ,Arribado
+2025-07-07,35265,MIEU-000482-2,Hdv Leather S.R.L.,255317569,***********         ,Arribado
+2025-07-07,35266,HASU-497641-9,Hdv Leather S.R.L.,255365721,************        ,Arribado
+2025-07-07,35267,SUDU-683629-7,Hdv Leather S.R.L.,255365721,**********          ,Arribado
 2025-07-02,35133,SUDU-871674-7,Hdv Leather S.R.L.,255822877,*************       ,Arribado
 2025-07-02,35134,MRKU-576832-0,Hdv Leather S.R.L.,255316738,**************      ,Arribado
 2025-07-02,35135,MSKU-190903-6,Hdv Leather S.R.L.,255316738,************        ,Arribado
@@ -1292,7 +1299,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-04,35123,BMOU-695822-0,Hdv Leather S.R.L.,EBKG13330347,FX32934926          ,Arribado
 2025-07-04,35124,MEDU-446234-0,Hdv Leather S.R.L.,EBKG13330347,FX32934760          ,Arribado
 2025-07-04,35125,TEMU-833030-2,Hdv Leather S.R.L.,EBKG13330347,FX32934851          ,Arribado
-2025-07-04,35126,,Hdv Leather S.R.L.,EBKG13330347,                    ,Pendiente
+2025-07-04,35126,MSDU-674855-6,Hdv Leather S.R.L.,EBKG13330347,FX32934790          ,Arribado
 2025-06-27,34986,TCNU-104393-3,Hdv Leather S.R.L.,254973255,***********         ,Arribado
 2025-06-27,34987,GCXU-581020-2,Hdv Leather S.R.L.,254973255,***********         ,Arribado
 2025-06-26,34966,UETU-569792-3,Hdv Leather S.R.L.,254973413,***********         ,Arribado
@@ -1406,8 +1413,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-09,34442,ONEU-213538-3,Smart Trading S.A.S,BUEF06657300,***********         ,Arribado
 2025-06-09,34443,TGCU-234359-0,Smart Trading S.A.S,BUEF06657300,*********           ,Arribado
 2025-07-04,35252,MRKU-658732-6,Smart Trading S.A.S,254762551,*********           ,Arribado
-2025-07-04,35253,,Smart Trading S.A.S,254762551,                    ,Pendiente
-2025-07-04,35254,,Smart Trading S.A.S,254762551,                    ,Pendiente
+2025-07-04,35253,SUDU-769855-1,Smart Trading S.A.S,254762551,*********           ,Arribado
+2025-07-04,35254,MRSU-001017-6,Smart Trading S.A.S,254762551,**********          ,Arribado
 2025-07-04,35255,,Smart Trading S.A.S,254762551,                    ,Pendiente
 2025-07-04,35256,,Smart Trading S.A.S,254762551,                    ,Pendiente
 2025-07-04,35257,,Smart Trading S.A.S,254762551,                    ,Pendiente
