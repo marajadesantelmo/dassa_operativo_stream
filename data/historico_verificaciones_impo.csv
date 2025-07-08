@@ -1,11 +1,7 @@
 Dia,Cliente,Desc. Merc.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado,idcont,e-tally
 2025-05-12,Nikin Srl,Caps,MNBU-305157-7,Bultos,90,18,N1-11,Realizado,1160,http://dassa.mqbic.com/PublicTally.php?id=1160
 2025-05-19,Catalina Sur Sa,Stc: Yarn,MRKU-805712-0,Bultos,293,30,RZ-1A,Realizado,,
-2025-07-03,Lift Van Int. Co S.A,Pugliese Jose,CSNU-215199-0,Bultos,177,25,EP-IM,Realizado,1996,http://dassa.mqbic.com/PublicTally.php?id=1996
 2025-07-03,Mercovan Argentina S...,Lopez Maria Del Carm...,HLBU-338145-6,Bultos,193,34,EP-IM,Realizado,1981,http://dassa.mqbic.com/PublicTally.php?id=1981
-2025-07-07,Gm Cargo Srl,Mudanza - Juan Cruz ...,CLHU-468714-0,Bultos,9,20,IA8,Realizado,2038,http://dassa.mqbic.com/PublicTally.php?id=2038
-2025-07-07,Gm Cargo Srl,Mudanza - Juan Cruz ...,CLHU-468714-0,Bultos,9,20,IA8,Realizado,2038,http://dassa.mqbic.com/PublicTally.php?id=2038
-2025-07-07,Gm Cargo Srl,Mudanza - Juan Cruz ...,CLHU-468714-0,Bultos,9,20,IA8,Realizado,2038,http://dassa.mqbic.com/PublicTally.php?id=2038
 2025-07-07,Gm Cargo Srl,Harley Davidson Vin:...,CLHU-468714-0,Bultos,1,10,PA-A,Realizado,2038,http://dassa.mqbic.com/PublicTally.php?id=2038
 2025-07-07,Gm Cargo Srl,Harley Davidson Vin:...,CLHU-468714-0,Bultos,1,10,PA-A,Realizado,2038,http://dassa.mqbic.com/PublicTally.php?id=2038
 2025-07-07,Gm Cargo Srl,Harley Davidson Vin:...,CLHU-468714-0,Bultos,1,10,PA-A,Realizado,2038,http://dassa.mqbic.com/PublicTally.php?id=2038
@@ -14,8 +10,8 @@ Dia,Cliente,Desc. Merc.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado,idcont,e-ta
 2025-07-07,Gm Cargo Srl,Martin Carnevale,CLHU-468714-0,Bultos,10,30,IA7,Pendiente,2038,http://dassa.mqbic.com/PublicTally.php?id=2038
 2025-07-04,Grupo Rsm Srl,Motorcycle Bmw 1200 ...,MRKU-041758-0,Bultos,1,10,PA-A,Realizado,2001,http://dassa.mqbic.com/PublicTally.php?id=2001
 2025-07-04,Grupo Rsm Srl,Motorcycle Bmw 1200 ...,MRKU-041758-0,Bultos,1,10,PA-A,Realizado,2001,http://dassa.mqbic.com/PublicTally.php?id=2001
-2025-07-08,Glamtex S.A.,Telas,HAMU-416171-2,Contenedor,1,0,PLZA,Pendiente,,
-2025-07-08,Grupo Simpa Sa,Brand Tyres,FCIU-408994-8,Contenedor,1,0,PLZA,Pendiente,,
+2025-07-08,Grupo Simpa Sa,Brand Tyres,FCIU-408994-8,Contenedor,1,0,PLZA,Realizado,,
+2025-07-10,Jupam Sa,Textil,KOCU-511660-1,Contenedor,1,60,PLZA,Pendiente,,
 2025-03-10,Grapot Sa,Telas,MSDU-426219-0,Contenedor,1,0,PLZA,Realizado,,
 2025-03-13,Mercovan Argentina S...,Ochandio Sol,CAIU-496173-3,Bultos,196,-50,NV2,Realizado,1465,http://dassa.mqbic.com/PublicTally.php?id=1465
 2025-03-13,Mercovan Argentina S...,Ochandio Sol,CAIU-496173-3,Bultos,196,-50,NV2,Realizado,1465,http://dassa.mqbic.com/PublicTally.php?id=1465
@@ -308,6 +304,7 @@ Dia,Cliente,Desc. Merc.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado,idcont,e-ta
 2025-06-26,Centenario Supply Sa...,Interactives Smart,TCLU-150792-9,Bultos,340,-69,IB7,Realizado,2048,http://dassa.mqbic.com/PublicTally.php?id=2048
 2025-07-03,Lift Van Int. Co S.A,Rivas Morales / Efec...,UACU-851534-0,Bultos,143,-40,NV2,Realizado,1906,http://dassa.mqbic.com/PublicTally.php?id=1906
 2025-07-03,Aceros Fb S.R.L.,Autos Corvette/ 1Up,TIIU-230215-4,Bultos,2,-11,EA9,Realizado,1827,http://dassa.mqbic.com/PublicTally.php?id=1827
+2025-07-03,Lift Van Int. Co S.A,Pugliese Jose,CSNU-215199-0,Bultos,177,-25,EP-IM,Realizado,1996,http://dassa.mqbic.com/PublicTally.php?id=1996
 2025-07-03,Bisora Group Sa,Telas,MRKU-473334-0,Rollos,909,-68,CTNNAC,Pendiente,2047,http://dassa.mqbic.com/PublicTally.php?id=2047
 2025-07-03,Edelweiss Spedition ...,Muse Daniel,FBIU-032207-3,Bultos,130,-19,EP-IM,Realizado,1987,http://dassa.mqbic.com/PublicTally.php?id=1987
 2025-06-30,Hra Consultora,Mudanza - Juan Zilbe...,MRKU-099555-2,Bultos,97,-31,NV2,Realizado,1976,http://dassa.mqbic.com/PublicTally.php?id=1976
@@ -321,6 +318,9 @@ Dia,Cliente,Desc. Merc.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado,idcont,e-ta
 2025-06-30,Grupo Rsm Srl,Spare Parts,GCXU-509055-0,Bultos,18,-14,IB3,Pendiente,2000,http://dassa.mqbic.com/PublicTally.php?id=2000
 2025-06-30,Ecology Hair Srl,Preparaciones Capila...,HLBU-274893-2,Pallets,10,-30,ANEX-A1,Pendiente,,
 2025-07-01,Juguetech Sa,Doll,FCIU-841561-5,Contenedor,1,-60,PLZA,Realizado,,
+2025-07-07,Gm Cargo Srl,Mudanza - Juan Cruz ...,CLHU-468714-0,Bultos,9,-20,IA8,Realizado,2038,http://dassa.mqbic.com/PublicTally.php?id=2038
+2025-07-07,Gm Cargo Srl,Mudanza - Juan Cruz ...,CLHU-468714-0,Bultos,9,-20,IA8,Realizado,2038,http://dassa.mqbic.com/PublicTally.php?id=2038
+2025-07-07,Gm Cargo Srl,Mudanza - Juan Cruz ...,CLHU-468714-0,Bultos,9,-20,IA8,Realizado,2038,http://dassa.mqbic.com/PublicTally.php?id=2038
 2025-07-04,Jupam Sa,Telas,FFAU-647091-4,Contenedor,1,0,PLZA,Realizado,,
 2025-07-04,Jupam Sa,Telas,CAAU-925107-4,Contenedor,1,0,PLZA,Realizado,,
 2025-07-04,Grupo Rsm Srl,Spare Parts,GCXU-509055-0,Bultos,18,-14,IB3,Pendiente,2000,http://dassa.mqbic.com/PublicTally.php?id=2000
@@ -329,3 +329,4 @@ Dia,Cliente,Desc. Merc.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado,idcont,e-ta
 2025-07-04,Grupo Rsm Srl,Abbate Edward / Efec...,MRKU-041758-0,Bultos,185,-40,NV2,Realizado,2001,http://dassa.mqbic.com/PublicTally.php?id=2001
 2025-07-04,Grupo Rsm Srl,Abbate Edward / Efec...,MRKU-041758-0,Bultos,185,-40,NV2,Realizado,2001,http://dassa.mqbic.com/PublicTally.php?id=2001
 2025-07-04,Grupo Leal-Tex S.R.L...,Telas,TGBU-657985-2,Contenedor,1,0,PLZA,Realizado,,
+2025-07-08,Glamtex S.A.,Telas,HAMU-416171-2,Contenedor,1,0,PLZA,Realizado,,
