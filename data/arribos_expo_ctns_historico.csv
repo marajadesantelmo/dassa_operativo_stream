@@ -37,7 +37,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-17,32160,UACU-842407-0,Lift Van Int. Co S.A,51582430,*************       ,Arribado
 2025-07-03,35260,MRKU-080496-0,Lift Van Int. Co S.A,255310523,************        ,Arribado
 2025-07-03,35269,HLXU-535909-0,Lift Van Int. Co S.A,21259607,**********          ,Arribado
-2025-07-04,35274,,Lift Van Int. Co S.A,35530751,                    ,Pendiente
+2025-07-04,35274,UACU-600159-4,Lift Van Int. Co S.A,35530751,0433933             ,Arribado
 2025-06-30,35107,MRKU-750921-0,Lift Van Int. Co S.A,255372708,**********          ,Arribado
 2025-07-03,35219,CAIU-264508-4,Lift Van Int. Co S.A,29963404,************        ,Arribado
 2025-07-03,35220,DFSU-279519-4,Lift Van Int. Co S.A,27799953,*********           ,Arribado
@@ -146,6 +146,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-30,33225,MSDU-156455-6,A La Orden,153IAR0648445,FX32985939          ,Arribado
 2025-04-22,32977,TXGU-674980-1,A La Orden,26634974,******************  ,Arribado
 2025-04-14,32772,TGHU-171446-3,A La Orden,18722142,************        ,Arribado
+2025-07-07,35328,,Fijaciones Py S.A.,25001EC01041044A,                    ,Arribado
 2025-03-19,32272,,Dpmg S.A.,EC03002811B,                    ,Arribado
 2025-04-09,32705,ZHLU-201721-7,Dpmg S.A.,25001EC03003520W,                    ,Arribado
 2025-04-09,32706,ZHLU-201724-3,Dpmg S.A.,25001EC03003374G,                    ,Arribado
@@ -165,7 +166,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-14,32159,HLBU-152394-7,Pelama Chubut S.A.,93163349,                    ,Arribado
 2025-03-17,32182,UACU-560728-9,Pelama Chubut S.A.,78721024,********************,Arribado
 2025-07-07,35295,OOCU-476323-3,Pelama Chubut S.A.,COSU6423149250,**********          ,Arribado
-2025-07-07,35296,,Pelama Chubut S.A.,COSU6423149260,                    ,Pendiente
+2025-07-07,35296,OOCU-478814-4,Pelama Chubut S.A.,COSU6423149260,***********         ,Arribado
 2025-06-24,34913,OOCU-487428-4,Pelama Chubut S.A.,COSU6421827870,**********          ,Arribado
 2025-06-25,34918,CSNU-184088-6,Pelama Chubut S.A.,COSU6421214450,*************       ,Arribado
 2025-06-25,34919,OOLU-791091-0,Pelama Chubut S.A.,COSU6421827850,**********          ,Arribado
@@ -279,8 +280,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-23,33029,HLBU-105776-7,Fineport S.A.,92898716,************        ,Arribado
 2025-06-30,35059,,Famacon S.A.,65330412,                    ,Pendiente
 2025-06-30,35080,UACU-577925-1,Famacon S.A.,65330412,****************    ,Arribado
-2025-07-07,35319,,Alimentaria Sa,B946026075,                    ,Pendiente
-2025-07-07,35320,,Alimentaria Sa,B946026075,                    ,Pendiente
+2025-07-07,35319,YMMU-108832-8,Alimentaria Sa,B946026075,**********          ,Arribado
+2025-07-07,35320,YMMU-124920-6,Alimentaria Sa,B946026075,********            ,Arribado
 2025-04-11,32737,,Overprint S.R.L.,TERRESTRE,                    ,Pendiente
 2025-06-05,34363,,Overprint S.R.L.,25001EC01034042A,                    ,Arribado
 2025-04-11,32741,,Geo-Trade Comercio Exterior Srl,25AR152251C,                    ,Arribado
@@ -380,6 +381,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-25,32419,MRSU-550449-0,Valerio Oliva Forestal Sa,250297402,                    ,Arribado
 2025-03-25,32420,GCXU-575062-8,Valerio Oliva Forestal Sa,250297402,                    ,Arribado
 2025-06-17,34538,MRKU-627527-2,Valerio Oliva Forestal Sa,254365842,**********          ,Arribado
+2025-07-08,35356,,Valerio Oliva Forestal Sa,255303020,                    ,Pendiente
 2025-05-20,33705,TCNU-369689-7,Valerio Oliva Forestal Sa,253076747,**********          ,Arribado
 2025-05-20,33707,MSKU-973960-9,Valerio Oliva Forestal Sa,253076747,**********          ,Arribado
 2025-06-17,34537,MSKU-192211-0,Valerio Oliva Forestal Sa,254365842,***********         ,Arribado
@@ -550,34 +552,33 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-10,32000,RRSU-000402-8,Henn Y Cia S.R.L.,ZIMUBUE9038568,**************      ,Arribado
 2025-03-10,32001,TGBU-240869-8,Henn Y Cia S.R.L.,ZIMUBUE9038568,******************  ,Arribado
 2025-03-11,32033,TRHU-243000-0,Henn Y Cia S.R.L.,BUEF02068900,***********         ,Arribado
-2025-07-02,35163,MEDU-389129-4,Henn Y Cia S.R.L.,EBKG13159398,FX32934277          ,Arribado
 2025-07-02,35164,MEDU-577648-0,Henn Y Cia S.R.L.,EBKG13159398,FX32934283          ,Arribado
 2025-07-02,35165,SCSU-200027-6,Henn Y Cia S.R.L.,EBKG13159398,FX32934260          ,Arribado
 2025-07-03,35230,MRKU-391323-9,Henn Y Cia S.R.L.,255082153,***********         ,Arribado
-2025-07-02,35157,MEDU-680406-1,Henn Y Cia S.R.L.,EBKG13190405,FX32934319          ,Arribado
 2025-07-02,35158,CRSU-149510-6,Henn Y Cia S.R.L.,EBKG13190405,*********           ,Arribado
 2025-07-02,35159,BMOU-213304-6,Henn Y Cia S.R.L.,EBKG13190405,FX32934395          ,Arribado
 2025-07-02,35160,MSMU-258453-2,Henn Y Cia S.R.L.,EBKG13190405,FX32934391          ,Arribado
 2025-07-02,35161,MSCU-686984-7,Henn Y Cia S.R.L.,EBKG13190405,FX32934387          ,Arribado
 2025-07-02,35162,DFSU-214234-8,Henn Y Cia S.R.L.,EBKG13159398,FX32934267          ,Arribado
-2025-06-25,34886,DRYU-202265-5,Henn Y Cia S.R.L.,EBKG13190366,FX32934122          ,Arribado
+2025-07-02,35163,MEDU-389129-4,Henn Y Cia S.R.L.,EBKG13159398,FX32934277          ,Arribado
+2025-07-02,35157,MEDU-680406-1,Henn Y Cia S.R.L.,EBKG13190405,FX32934319          ,Arribado
 2025-06-25,34887,MEDU-337193-9,Henn Y Cia S.R.L.,EBKG13190366,FX32934121          ,Arribado
 2025-06-25,34888,MEDU-328179-5,Henn Y Cia S.R.L.,EBKG13190366,FX32934123          ,Arribado
 2025-06-24,34891,MSDU-740180-7,Henn Y Cia S.R.L.,EBKG13080070,FX32934159          ,Arribado
 2025-06-25,34884,FSCU-387994-7,Henn Y Cia S.R.L.,EBKG13190366,FX32933978          ,Arribado
 2025-06-25,34885,CAIU-310059-8,Henn Y Cia S.R.L.,EBKG13190366,FX32933977          ,Arribado
-2025-06-24,34861,MEDU-253047-1,Henn Y Cia S.R.L.,EBKG13204042,FX32934180          ,Arribado
+2025-06-25,34886,DRYU-202265-5,Henn Y Cia S.R.L.,EBKG13190366,FX32934122          ,Arribado
 2025-06-23,34864,TCNU-677043-1,Henn Y Cia S.R.L.,254873959,****************    ,Arribado
 2025-06-25,34877,TEMU-429645-2,Henn Y Cia S.R.L.,340500020140,************        ,Arribado
 2025-06-25,34878,MAGU-218695-9,Henn Y Cia S.R.L.,340500020140,***********         ,Arribado
-2025-06-24,34855,MSMU-133372-2,Henn Y Cia S.R.L.,EBKG13204042,FX32934004          ,Arribado
 2025-06-24,34856,GLDU-546416-0,Henn Y Cia S.R.L.,EBKG13204042,FX32934002          ,Arribado
 2025-06-24,34857,MSDU-272021-0,Henn Y Cia S.R.L.,EBKG13204042,FX32934214          ,Arribado
 2025-06-24,34858,MSNU-104749-2,Henn Y Cia S.R.L.,EBKG13204042,FX32934167          ,Arribado
 2025-06-24,34859,MSNU-246359-7,Henn Y Cia S.R.L.,EBKG13204042,FX32934158          ,Arribado
 2025-06-24,34860,MEDU-614377-9,Henn Y Cia S.R.L.,EBKG13204042,FX32934222          ,Arribado
+2025-06-24,34861,MEDU-253047-1,Henn Y Cia S.R.L.,EBKG13204042,FX32934180          ,Arribado
 2025-06-24,34854,FCIU-646795-0,Henn Y Cia S.R.L.,EBKG13204042,FX32934169          ,Arribado
-2025-06-18,34745,TCLU-769190-0,Henn Y Cia S.R.L.,EBKG13204005,FX32932778          ,Arribado
+2025-06-24,34855,MSMU-133372-2,Henn Y Cia S.R.L.,EBKG13204042,FX32934004          ,Arribado
 2025-06-18,34746,FCIU-645244-0,Henn Y Cia S.R.L.,EBKG13204005,FX32932774          ,Arribado
 2025-06-18,34747,CXDU-142058-6,Henn Y Cia S.R.L.,EBKG13204005,FX32932775          ,Arribado
 2025-06-23,34808,,Henn Y Cia S.R.L.,EBKG13080070,                    ,Pendiente
@@ -585,12 +586,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-18,34720,MEDU-677652-4,Henn Y Cia S.R.L.,EBKG13204005,FX32932828          ,Arribado
 2025-06-18,34721,MEDU-586176-6,Henn Y Cia S.R.L.,EBKG13204005,FX32932793          ,Arribado
 2025-06-18,34722,XINU-162147-2,Henn Y Cia S.R.L.,EBKG13204005,FX32932792          ,Arribado
-2025-06-11,34536,HPCU-253668-3,Henn Y Cia S.R.L.,EBKG13157382,FX32930843          ,Arribado
+2025-06-18,34745,TCLU-769190-0,Henn Y Cia S.R.L.,EBKG13204005,FX32932778          ,Arribado
 2025-06-11,34547,MSDU-731490-8,Henn Y Cia S.R.L.,EBKG13028310,FX32971831          ,Arribado
 2025-06-11,34548,MEDU-762519-0,Henn Y Cia S.R.L.,EBKG13028567,FX32971885          ,Arribado
 2025-06-11,34533,TCLU-211776-1,Henn Y Cia S.R.L.,EBKG13157382,FX32971875          ,Arribado
 2025-06-11,34534,TGBU-320851-8,Henn Y Cia S.R.L.,EBKG13157382,FX32975177          ,Arribado
 2025-06-11,34535,MSNU-190062-4,Henn Y Cia S.R.L.,EBKG13157382,FX32930781          ,Arribado
+2025-06-11,34536,HPCU-253668-3,Henn Y Cia S.R.L.,EBKG13157382,FX32930843          ,Arribado
 2025-06-09,34390,EGSU-342996-8,Henn Y Cia S.R.L.,340500020107,************        ,Arribado
 2025-06-09,34391,TEMU-365448-5,Henn Y Cia S.R.L.,340500020107,**********          ,Arribado
 2025-06-03,34269,MRKU-208957-8,Henn Y Cia S.R.L.,254362164,***********         ,Arribado
@@ -689,6 +691,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-17,32223,CMAU-049956-9,Borax Argentina S A,BUA0337447,                    ,Arribado
 2025-03-17,32224,TGHU-129031-8,Borax Argentina S A,BUA0337447,                    ,Arribado
 2025-03-17,32225,GLDU-959221-5,Borax Argentina S A,BUA0337447,                    ,Arribado
+2025-07-08,35367,MRKU-955611-8,Borax Argentina S A,256515650,**********          ,Arribado
+2025-07-08,35368,MRKU-963435-5,Borax Argentina S A,256515650,************        ,Arribado
+2025-07-08,35369,MRKU-986042-9,Borax Argentina S A,256515650,**********          ,Arribado
+2025-07-08,35370,UETU-206396-7,Borax Argentina S A,256515650,***********         ,Arribado
 2025-07-01,35069,TLLU-226741-4,Borax Argentina S A,255630746,************        ,Arribado
 2025-07-04,35246,TCKU-351675-3,Borax Argentina S A,255312036,**********          ,Arribado
 2025-07-04,35247,MRKU-679394-4,Borax Argentina S A,255312036,**********          ,Arribado
@@ -1003,11 +1009,15 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-19,32283,MSBU-683237-7,Norfor Sa,EBKG12139370,FX32987220          ,Arribado
 2025-03-19,32284,CAAU-740280-2,Norfor Sa,EBKG12139370,FX32987231          ,Arribado
 2025-03-19,32285,MSBU-506595-9,Norfor Sa,EBKG12139370,FX32987227          ,Arribado
-2025-07-07,35291,,Norfor Sa,340500024455,                    ,Pendiente
-2025-07-07,35292,,Norfor Sa,340500024455,                    ,Pendiente
+2025-07-10,35363,,Norfor Sa,340500023432,                    ,Pendiente
+2025-07-10,35364,,Norfor Sa,340500023432,                    ,Pendiente
+2025-07-10,35365,,Norfor Sa,340500023432,                    ,Pendiente
+2025-07-10,35366,,Norfor Sa,340500023432,                    ,Pendiente
+2025-07-07,35291,EMCU-881222-4,Norfor Sa,340500024455,************        ,Arribado
+2025-07-07,35292,TRHU-679121-1,Norfor Sa,340500024455,**********          ,Arribado
 2025-07-07,35288,FFAU-511349-2,Norfor Sa,340500024455,***********         ,Arribado
-2025-07-07,35289,,Norfor Sa,340500024455,                    ,Pendiente
-2025-07-07,35290,,Norfor Sa,340500024455,                    ,Pendiente
+2025-07-07,35289,TIIU-425162-6,Norfor Sa,340500024455,**********          ,Arribado
+2025-07-07,35290,MAGU-529574-2,Norfor Sa,340500024455,***********         ,Arribado
 2025-07-02,35173,TGBU-924834-9,Norfor Sa,340500023262,***********         ,Arribado
 2025-07-02,35174,TXGU-777508-7,Norfor Sa,340500023262,**********          ,Arribado
 2025-07-02,35175,CAAU-571103-7,Norfor Sa,340500023262,*********           ,Arribado
@@ -1094,6 +1104,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-22,33792,TCNU-757255-4,Santa Anita Oil Sa,BUEF04934600,**********          ,Arribado
 2025-05-22,33793,ONEU-102585-9,Santa Anita Oil Sa,BUEF04934600,**********          ,Arribado
 2025-05-22,33794,TCLU-849174-2,Santa Anita Oil Sa,BUEF04934600,*********           ,Arribado
+2025-07-08,35329,,Santa Anita Oil Sa,EBKG13443760,                    ,Pendiente
 2025-04-24,33099,TGBU-613514-3,Santa Anita Oil Sa,28096856,*********           ,Arribado
 2025-05-06,33303,BMOU-583489-9,Santa Anita Oil Sa,62443730,*******             ,Arribado
 2025-05-06,33304,FCIU-732590-2,Santa Anita Oil Sa,62443730,************        ,Arribado
@@ -1104,6 +1115,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-10,32002,TGHU-986068-0,Laharrague Chodorge Sociedad Anonima,250793112,************        ,Arribado
 2025-04-23,33030,MSDU-515587-5,Laharrague Chodorge Sociedad Anonima,EBKG12353554,FX32974280          ,Arribado
 2025-04-23,33031,MSNU-581336-4,Laharrague Chodorge Sociedad Anonima,EBKG12353554,FX32972665          ,Arribado
+2025-07-08,35345,HLBU-286095-8,Laharrague Chodorge Sociedad Anonima,48619187,**********          ,Arribado
+2025-07-08,35346,HLBU-191950-0,Laharrague Chodorge Sociedad Anonima,48619187,**********          ,Arribado
+2025-07-08,35347,HLXU-846092-0,Laharrague Chodorge Sociedad Anonima,48619187,***********         ,Arribado
+2025-07-08,35348,FANU-349954-3,Laharrague Chodorge Sociedad Anonima,48619187,***********         ,Arribado
+2025-07-08,35349,HAMU-451400-2,Laharrague Chodorge Sociedad Anonima,48619187,***********         ,Arribado
 2025-07-08,35311,,Laharrague Chodorge Sociedad Anonima,48619187,                    ,Pendiente
 2025-06-24,34838,HAMU-122814-0,Laharrague Chodorge Sociedad Anonima,9327925471,*********           ,Arribado
 2025-05-29,34080,CMAU-738483-3,Laharrague Chodorge Sociedad Anonima,BUA0341744,R1954910            ,Arribado
@@ -1415,9 +1431,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-04,35252,MRKU-658732-6,Smart Trading S.A.S,254762551,*********           ,Arribado
 2025-07-04,35253,SUDU-769855-1,Smart Trading S.A.S,254762551,*********           ,Arribado
 2025-07-04,35254,MRSU-001017-6,Smart Trading S.A.S,254762551,**********          ,Arribado
-2025-07-04,35255,,Smart Trading S.A.S,254762551,                    ,Pendiente
-2025-07-04,35256,,Smart Trading S.A.S,254762551,                    ,Pendiente
-2025-07-04,35257,,Smart Trading S.A.S,254762551,                    ,Pendiente
+2025-07-04,35255,MRKU-965795-7,Smart Trading S.A.S,254762551,**********          ,Arribado
+2025-07-04,35256,TCKU-295323-4,Smart Trading S.A.S,254762551,*************       ,Arribado
+2025-07-04,35257,MSKU-779993-3,Smart Trading S.A.S,254762551,************        ,Arribado
 2025-07-07,35302,,Smart Trading S.A.S,B946026045,                    ,Pendiente
 2025-07-07,35303,,Smart Trading S.A.S,B946026045,                    ,Pendiente
 2025-06-18,34675,TGHU-044051-6,Ads Agropecuaria Sa,EBKG13143598,FX32932777          ,Arribado
