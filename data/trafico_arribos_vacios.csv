@@ -5,6 +5,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35521,11/07,Adp Trading Srl,-,0,  ,TD,                    ,25001EC01044645K,1,TRANSPORTE DEL CLIENTE        ,.,15:48,2025-08-01,,                    ,15:48 Arribado
 35520,11/07,Adp Trading Srl,-,0,  ,TD,                    ,25001EC01044645K,1,TRANSPORTE DEL CLIENTE        ,.,15:48,2025-08-01,,                    ,15:48 Arribado
 35512,11/07,Aj Comercio Exterior Srl,-,0,  ,TD,                    ,25001EC01044409X,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35511,11/07,Aj Comercio Exterior Srl,-,0,  ,TD,                    ,25001EC01044409X,1,TRANSPORTE DEL CLIENTE        ,.,15:12,2025-08-01,,                    ,15:12 Arribado
 35445,11/07,Pachamama Products S.R.L.,TCNU-813852-1,10074,HC,TD,R1957106            ,BUA0345932,1,TRANSPORTE DEL CLIENTE        ,Alvarez,11:47,2025-07-31,,                    ,11:47 Arribado
 35429,11/07,Maringa Maderas Sa,TEMU-856890-2,Exolgan,HC,TD,FX32938800          ,EBKG13411161,1,TRANSPORTES LEIRA-NO USAR     ,Muller,12:09,2025-07-31,,                    ,12:09 Arribado
 35451,11/07,Alimentaria Sa,SUDU-759540-3,10076,DR,TD,**********          ,255691935,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,15:24,2025-07-31,,255691935           ,15:24 Arribado
@@ -12,53 +13,53 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35449,11/07,Alimentaria Sa,TCKU-115296-6,10076,DR,TD,*********           ,255691935,1,TRANSPORTE DEL CLIENTE        ,Porco,12:26,2025-07-31,,255691935           ,12:26 Arribado
 35448,11/07,Alimentaria Sa,TRHU-325725-0,10076,DR,TD,************        ,255691935,1,TRANSPORTE DEL CLIENTE        ,Moscardini,12:13,2025-07-31,,255691935           ,12:13 Arribado
 35422,11/07,Mercopallet Srl,JXLU-448788-0,10074,HC,TD,***********         ,ZIMUBUE9041763,1,TRANSPORTE DEL CLIENTE        ,Peril,10:48,2025-07-31,,                    ,10:48 Arribado
-35511,11/07,Aj Comercio Exterior Srl,-,0,  ,TD,                    ,25001EC01044409X,1,TRANSPORTE DEL CLIENTE        ,.,15:12,2025-08-01,,                    ,15:12 Arribado
 35446,11/07,Pachamama Products S.R.L.,-,10074,HC,TD,                    ,BUA0345932,0,                              ,,     ,2025-07-31,,                    ,Pendiente
 35373,11/07,Lift Van Int. Co S.A,SUDU-734833-7,10076,DR,TD,***********         ,256588632,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,15:33,2025-07-29,Wan Nur Iylia,256588632           ,15:33 Arribado
 35507,11/07,Refractarios Argentinos Saicm,HLXU-137723-8,10080,DR,TD,**********          ,31857457,1,TRANSPORTE DEL CLIENTE        ,Moscardini,14:26,2025-08-01,,                    ,14:26 Arribado
 35379,11/07,Refractarios Argentinos Saicm,NIDU-237073-0,10080,DR,TD,************        ,31857457,1,TRANSPORTE DEL CLIENTE        ,Moscardini,14:22,2025-07-29,Refractario/Ec 2693-25,31857457            ,14:22 Arribado
+35500,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35483,14/07,Lift Van Int. Co S.A,-,10077,DR,TD,                    ,256447645,0,                              ,,     ,2025-08-01,Alina Maria Ramos Cabrera,                    ,Pendiente
+35491,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,31368689,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35492,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35499,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35494,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35495,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35496,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35503,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35504,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35505,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35506,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35214,14/07,Virasoro Maderas S R L,-,0,  ,TD,                    ,EBKG13408378,0,                              ,,     ,2025-07-23,,EBKG13408378        ,Pendiente
+35501,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35493,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35497,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35498,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35499,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35500,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35502,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35495,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35483,14/07,Lift Van Int. Co S.A,-,10077,DR,TD,                    ,256447645,0,                              ,,     ,2025-08-01,Alina Maria Ramos Cabrera,                    ,Pendiente
 35487,14/07,Conextube Sa,-,10080,HC,TD,                    ,256653277,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35484,14/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,255626058,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35482,14/07,Borax Argentina S A,-,10077,DR,TD,                    ,256515583,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35481,14/07,Borax Argentina S A,-,10077,DR,TD,                    ,256515583,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35480,14/07,Borax Argentina S A,-,10077,DR,TD,                    ,256515583,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35479,14/07,Borax Argentina S A,-,10077,DR,TD,                    ,256515583,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35430,14/07,Maringa Maderas Sa,-,Exolgan,HC,TD,                    ,EBKG13411179,0,                              ,,     ,2025-07-31,,                    ,Pendiente
 35485,14/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,255626058,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35516,14/07,Ads Agropecuaria Sa,-,10081,HC,TD,                    ,255626058,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35517,14/07,Ads Agropecuaria Sa,-,10081,HC,TD,                    ,255626058,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35518,14/07,Ads Agropecuaria Sa,-,10081,HC,TD,                    ,255626058,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35519,14/07,Ads Agropecuaria Sa,-,10081,HC,TD,                    ,255626058,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35501,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35494,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35493,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35492,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35430,14/07,Maringa Maderas Sa,-,Exolgan,HC,TD,                    ,EBKG13411179,0,                              ,,     ,2025-07-31,,                    ,Pendiente
-35479,14/07,Borax Argentina S A,-,10077,DR,TD,                    ,256515583,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35480,14/07,Borax Argentina S A,-,10077,DR,TD,                    ,256515583,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35482,14/07,Borax Argentina S A,-,10077,DR,TD,                    ,256515583,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35481,14/07,Borax Argentina S A,-,10077,DR,TD,                    ,256515583,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35491,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,31368689,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35214,14/07,Virasoro Maderas S R L,-,0,  ,TD,                    ,EBKG13408378,0,                              ,,     ,2025-07-23,,EBKG13408378        ,Pendiente
-35524,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35523,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35513,15/07,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,340500025117,0,                              ,,     ,2025-08-01,Grlem25790/V.Oliva,340500025117        ,Pendiente
-35514,15/07,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,340500025117,0,                              ,,     ,2025-08-01,Grlem25790/V.Oliva,340500025117        ,Pendiente
-35032,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
+35502,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35498,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35527,15/07,Mercovan Argentina Srl,-,9,DR,TD,                    ,EBKGQ000F0F7,0,                              ,,     ,2025-08-01,"Rivera, Lea",                    ,Pendiente
+35525,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35028,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
+35029,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
 35030,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
 35031,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
-35029,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
-35526,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35470,15/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,ZIMUBUE9041577,0,                              ,,     ,2025-08-01,4700169074,ZIMUBUE9041577      ,Pendiente
 35471,15/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,ZIMUBUE9041577,0,                              ,,     ,2025-08-01,4700169074,ZIMUBUE9041577      ,Pendiente
+35470,15/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,ZIMUBUE9041577,0,                              ,,     ,2025-08-01,4700169074,ZIMUBUE9041577      ,Pendiente
+35032,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
+35514,15/07,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,340500025117,0,                              ,,     ,2025-08-01,Grlem25790/V.Oliva,340500025117        ,Pendiente
+35513,15/07,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,340500025117,0,                              ,,     ,2025-08-01,Grlem25790/V.Oliva,340500025117        ,Pendiente
+35523,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35524,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35526,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35472,15/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,ZIMUBUE9041577,0,                              ,,     ,2025-08-01,4700169074,ZIMUBUE9041577      ,Pendiente
-35028,15/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,20488774,0,                              ,,     ,2025-07-18,20488774,20488774            ,Pendiente
-35525,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35434,17/07,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,255303186,0,                              ,,     ,2025-07-31,Grlem25715/Valerio Oliva,255303186           ,Pendiente
