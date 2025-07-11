@@ -403,8 +403,8 @@ Dia,Cliente,Contenedor,Volumen,Precinto,Observaciones,Estado
 2025-06-27,Maringa Maderas Sa,FBLU-007483-4,-60,---,T4 11HS,Pendiente
 2025-06-27,Minera Santa Rita Sr...,HLBU-139556-9,-60,---,EXOLGAN 13HS,Pendiente
 2025-06-27,Minera Santa Rita Sr...,UACU-858088-0,-60,---,EXOLGAN 13HS,Pendiente
-2025-06-27,Borax Argentina S A,SUDU-782399-3,0,---,T4 13HS,11:37 Realizado
-2025-06-27,Borax Argentina S A,MRKU-845028-7,0,---,T4 13HS,11:37 Realizado
+2025-06-27,Borax Argentina S A,SUDU-782399-3,0,---,T4 13HS,Pendiente
+2025-06-27,Borax Argentina S A,MRKU-845028-7,0,---,T4 13HS,Pendiente
 2025-06-26,Hector Reboratti,FFAU-371126-3,0,---,EXOLGAN 10HS,Pendiente
 2025-06-26,Mader Zu S.R.L.,SUDU-672516-4,-60,---,T4 11HS,Pendiente
 2025-06-26,Maringa Maderas Sa,MEDU-895957-1,0,---,EXOLGAN 13HS,Pendiente
@@ -519,35 +519,49 @@ Dia,Cliente,Contenedor,Volumen,Precinto,Observaciones,Estado
 2025-07-08,Lift Van Int. Co S.A,MRKU-080496-0,-60,---,T4 19HS,Pendiente
 2025-07-08,Lift Van Int. Co S.A,MRKU-750921-0,-15,---,T4 19HS,Pendiente
 2025-07-08,Mercovan Argentina S...,MRKU-752998-3,0,---,T4 23HS,Pendiente
-2025-07-10,Forestal Y Ganadera ...,UACU-576893-5,0,---,T4 13HS,En curso
-2025-07-10,Sandrin Paola Karina,MRKU-245502-3,-60,---,T4 13HS,En curso
-2025-07-10,Sandrin Paola Karina,MRKU-590633-1,-60,---,T4 13HS,En curso
-2025-07-10,Sandrin Paola Karina,HASU-465422-2,-60,---,T4 13HS,En curso
-2025-07-10,Sandrin Paola Karina,HASU-461755-3,-60,---,T4 13HS,En curso
-2025-07-10,Sandrin Paola Karina,HASU-430410-0,-60,---,T4 13HS,En curso
-2025-07-10,Sandrin Paola Karina,MRKU-624325-4,-60,---,T4 15HS,En curso
-2025-07-10,Sandrin Paola Karina,MSKU-197852-5,-60,---,T4 15HS,En curso
-2025-07-10,Sandrin Paola Karina,MRKU-595157-8,-60,---,T4 15HS,En curso
-2025-07-10,Borax Argentina S A,SUDU-782399-3,0,---,t4 09HS,11:37 Realizado
-2025-07-10,Borax Argentina S A,MRKU-845028-7,0,---,t4 09hs,11:37 Realizado
-2025-07-10,Hdv Leather S.R.L.,MRKU-576832-0,-60,---,t4 15hs,En curso
-2025-07-10,Hdv Leather S.R.L.,MSKU-190903-6,-60,---,T4 15HS,En curso
+2025-07-10,Forestal Y Ganadera ...,UACU-576893-5,0,---,T4 13HS,Pendiente
+2025-07-10,Sandrin Paola Karina,MRKU-245502-3,-60,---,T4 13HS,Pendiente
+2025-07-10,Sandrin Paola Karina,MRKU-590633-1,-60,---,T4 13HS,Pendiente
+2025-07-10,Sandrin Paola Karina,HASU-465422-2,-60,---,T4 13HS,Pendiente
+2025-07-10,Sandrin Paola Karina,HASU-461755-3,-60,---,T4 13HS,Pendiente
+2025-07-10,Sandrin Paola Karina,HASU-430410-0,-60,---,T4 13HS,Pendiente
+2025-07-10,Sandrin Paola Karina,MRKU-624325-4,-60,---,T4 15HS,Pendiente
+2025-07-10,Sandrin Paola Karina,MSKU-197852-5,-60,---,T4 15HS,Pendiente
+2025-07-10,Sandrin Paola Karina,MRKU-595157-8,-60,---,T4 15HS,Pendiente
+2025-07-10,Borax Argentina S A,SUDU-782399-3,0,---,t4 09HS,Pendiente
+2025-07-10,Borax Argentina S A,MRKU-845028-7,0,---,t4 09hs,Pendiente
+2025-07-10,Hdv Leather S.R.L.,MRKU-576832-0,-60,---,t4 15hs,Pendiente
+2025-07-10,Hdv Leather S.R.L.,MSKU-190903-6,-60,---,T4 15HS,Pendiente
+2025-07-11,Norfor Sa,FFAU-511349-2,0,---,TRP 15HS,En curso
+2025-07-11,Norfor Sa,TIIU-425162-6,0,---,TRP 15HS,En curso
+2025-07-11,Norfor Sa,MAGU-529574-2,0,---,TRP 15HS,En curso
+2025-07-11,Norfor Sa,TRHU-679121-1,0,---,TRP 15HS,En curso
+2025-07-11,Norfor Sa,EMCU-881222-4,0,---,TRP 15HS,En curso
+2025-07-11,Smart Trading S.A.S,MRSU-001017-6,0,---,T4 13HS,En curso
+2025-07-11,Smart Trading S.A.S,MRKU-658732-6,0,---,T4 13HS,En curso
+2025-07-11,Smart Trading S.A.S,SUDU-769855-1,0,---,T4 13HS,En curso
+2025-07-11,Smart Trading S.A.S,MRKU-965795-7,0,---,T4 13HS,En curso
+2025-07-11,Smart Trading S.A.S,TCKU-295323-4,0,---,T4 13HS,En curso
+2025-07-11,Smart Trading S.A.S,MSKU-779993-3,0,---,T4 13HS,En curso
+2025-07-11,Alimentaria Sa,YMMU-124920-6,-30,---,TRP 19HS,En curso
+2025-07-11,Alimentaria Sa,YMMU-108832-8,-30,---,TRP 19HS,En curso
+2025-07-11,Borax Argentina S A,MRKU-955611-8,-30,---,T4 11HS,En curso
+2025-07-11,Borax Argentina S A,MRKU-963435-5,-30,---,T4 13HS,En curso
+2025-07-11,Borax Argentina S A,UETU-206396-7,-30,---,T4 13HS,En curso
+2025-07-11,Borax Argentina S A,MRKU-986042-9,-30,---,T4 13HS,En curso
+2025-07-11,Minera Santa Rita Sr...,UACU-847747-1,-60,---,T4 09HS,11:12 Realizado
+2025-07-11,Minera Santa Rita Sr...,UACU-856876-1,-60,---,T4 11HS,11:13 Realizado
+2025-07-11,Minera Santa Rita Sr...,UACU-842831-1,-60,---,T4 11HS,11:13 Realizado
+2025-07-11,Minera Santa Rita Sr...,UACU-853937-8,-60,---,T4 11HS,11:13 Realizado
+2025-07-11,Minera Santa Rita Sr...,UACU-844336-3,-60,---,T4 11HS,En curso
 2025-06-05,Hdv Leather S.R.L.,HASU-503206-0,0,************        ,T4 19HS,Pendiente
 2025-07-08,Henn Y Cia S.R.L.,BMOU-213304-6,30,                    ,EXOLGAN 16HS,Pendiente
 2025-07-11,Maringa Maderas Sa,MSNU-761662-0,0,FX32934791          ,exolgan 16HS,Pendiente
-2025-07-11,Norfor Sa,FFAU-511349-2,0,***********         ,TRP 15HS,Pendiente
-2025-07-11,Norfor Sa,TIIU-425162-6,0,**********          ,TRP 15HS,Pendiente
-2025-07-11,Norfor Sa,MAGU-529574-2,0,***********         ,TRP 15HS,Pendiente
-2025-07-11,Norfor Sa,TRHU-679121-1,0,**********          ,TRP 15HS,Pendiente
-2025-07-11,Norfor Sa,EMCU-881222-4,0,************        ,TRP 15HS,Pendiente
-2025-07-11,Smart Trading S.A.S,MRSU-001017-6,0,**********          ,T4 13HS,Pendiente
-2025-07-11,Smart Trading S.A.S,MRKU-658732-6,0,*********           ,T4 13HS,Pendiente
-2025-07-11,Smart Trading S.A.S,SUDU-769855-1,0,*********           ,T4 13HS,Pendiente
-2025-07-11,Smart Trading S.A.S,MRKU-965795-7,0,**********          ,T4 13HS,Pendiente
-2025-07-11,Smart Trading S.A.S,TCKU-295323-4,0,*************       ,T4 13HS,Pendiente
-2025-07-11,Smart Trading S.A.S,MSKU-779993-3,0,************        ,T4 13HS,Pendiente
+2025-07-11,Pelama Chubut S.A.,OOCU-478814-4,0,                    ,trp 15hs,Pendiente
+2025-07-11,Pelama Chubut S.A.,OOCU-476323-3,0,                    ,TRP 15HS,Pendiente
 2025-07-14,Laharrague Chodorge ...,HLBU-286095-8,0,**********          ,EXOLGAN 10HS,Pendiente
 2025-07-14,Laharrague Chodorge ...,HLBU-191950-0,0,**********          ,EXOLGAN 10HS,Pendiente
 2025-07-14,Laharrague Chodorge ...,FANU-349954-3,0,***********         ,EXOLGAN 10HS,Pendiente
 2025-07-14,Laharrague Chodorge ...,HLXU-846092-0,0,***********         ,EXOLGAN 10HS,Pendiente
 2025-07-14,Laharrague Chodorge ...,HAMU-451400-2,0,***********         ,EXOLGAN 10HS,Pendiente
+2025-07-15,Santa Anita Oil Sa,MSNU-703349-6,60,                    ,EXOLGAN 10HS,Pendiente
