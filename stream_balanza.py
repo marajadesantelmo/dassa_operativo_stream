@@ -132,7 +132,7 @@ def show_page_balanza():
     st.dataframe(filtered_historico_expo, column_config={col: st.column_config.NumberColumn(col, format="%s") for col in columns_to_format}, hide_index=True, use_container_width=True)
 
     st.subheader("Generar Comprobante")
-    id_pesada_historico = st.selectbox("Seleccione el ID de Pesada Histórico", balanza_historico_impo['ID Pesada'].tolist())
+    id_pesada_historico = st.selectbox("Seleccione el ID de Pesada Histórico", balanza_historico['ID Pesada'].tolist())
     if st.button("Generar Comprobante Histórico"):
         balanza_row_historico = balanza_historico[balanza_historico['ID Pesada'] == id_pesada_historico].iloc[0] 
         pdf_historico = generar_comprobante(balanza_row_historico)
