@@ -1,12 +1,12 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 35519,14/07,Ads Agropecuaria Sa,-,10081,HC,TD,                    ,255626058,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35495,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35494,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35493,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35492,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35491,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,31368689,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35504,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35503,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35518,14/07,Ads Agropecuaria Sa,-,10081,HC,TD,                    ,255626058,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35504,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35505,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35482,14/07,Borax Argentina S A,-,10077,DR,TD,                    ,256515583,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35481,14/07,Borax Argentina S A,-,10077,DR,TD,                    ,256515583,0,                              ,,     ,2025-08-01,,                    ,Pendiente
@@ -29,12 +29,13 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35532,14/07,Lift Van Int. Co S.A,-,0,  ,TD,                    ,58233181,0,                              ,,     ,2025-08-01,Andreatta,58233181            ,Pendiente
 35483,14/07,Lift Van Int. Co S.A,-,10077,DR,TD,                    ,256447645,0,                              ,,     ,2025-08-01,Alina Maria Ramos Cabrera,                    ,Pendiente
 35530,14/07,Mercovan Argentina Srl,-,0,  ,TD,                    ,256092887,0,                              ,,     ,2025-08-01,Emb Belgica Dhaene,256092887           ,Pendiente
+35495,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35496,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35503,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35527,15/07,Mercovan Argentina Srl,-,9,DR,TD,                    ,EBKGQ000F0F7,0,                              ,,     ,2025-08-01,"Rivera, Lea",                    ,Pendiente
 35470,15/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,ZIMUBUE9041577,0,                              ,,     ,2025-08-01,4700169074,ZIMUBUE9041577      ,Pendiente
+35557,15/07,Borax Argentina S A,-,0,  ,TD,                    ,10082084,0,                              ,,     ,2025-08-04,Fact 12425-,10082084            ,Pendiente
 35514,15/07,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,340500025117,0,                              ,,     ,2025-08-01,Grlem25790/V.Oliva,340500025117        ,Pendiente
-35513,15/07,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,340500025117,0,                              ,,     ,2025-08-01,Grlem25790/V.Oliva,340500025117        ,Pendiente
+35513,15/07,Valerio Oliva Forestal Sa,EGHU-950134-6,10076,HC,TD,************        ,340500025117,1,TRANSPORTE DEL CLIENTE        ,Cerrudo,10:55,2025-08-01,Grlem25790/V.Oliva,340500025117        ,10:55 Arribado
 35526,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35525,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35524,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
