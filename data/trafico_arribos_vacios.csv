@@ -1,6 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 35519,14/07,Ads Agropecuaria Sa,-,10081,HC,TD,                    ,255626058,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35494,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35494,14/07,Dautec Argentina Sas,UACU-861363-9,10080,HC,TD,***********         ,34202462,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,11:37,2025-08-01,,                    ,11:37 Arribado
 35493,14/07,Dautec Argentina Sas,HLBU-179614-0,10080,DR,TD,        **********  ,34202462,1,TRANSPORTE DEL CLIENTE        ,Perez,11:30,2025-08-01,,                    ,11:30 Arribado
 35492,14/07,Dautec Argentina Sas,UACU-845947-8,10080,DR,TD,**************      ,34202462,1,TRANSPORTE DEL CLIENTE        ,Peril,11:29,2025-08-01,,                    ,11:29 Arribado
 35491,14/07,Dautec Argentina Sas,HLXU-538058-5,10080,DR,TD,***********         ,31368689,1,TRANSPORTE DEL CLIENTE        ,Rodriguez,11:34,2025-08-01,,                    ,11:34 Arribado
@@ -13,7 +13,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35480,14/07,Borax Argentina S A,-,10077,DR,TD,                    ,256515583,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35479,14/07,Borax Argentina S A,-,10077,DR,TD,                    ,256515583,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35430,14/07,Maringa Maderas Sa,-,Exolgan,HC,TD,                    ,EBKG13411179,0,                              ,,     ,2025-07-31,,                    ,Pendiente
-35558,14/07,Valerio Oliva Forestal Sa,TXGU-833584-2,10077,HC,TD,*************       ,240500025117,0,                              ,,     ,2025-08-04,Grlem25790/V.O,                    ,Pendiente
+35558,14/07,Valerio Oliva Forestal Sa,TXGU-833584-2,10077,HC,TD,*************       ,240500025117,1,TRANSPORTE DEL CLIENTE        ,Catalano,11:35,2025-08-04,Grlem25790/V.O,                    ,11:35 Arribado
 35495,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35506,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35498,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
