@@ -4,9 +4,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-18,32265,HLXU-350834-2,Mercovan Argentina Srl,25001PE01000079Z,                    ,Arribado
 2025-03-18,32266,TCLU-870109-4,Mercovan Argentina Srl,LM0411486,********            ,Arribado
 2025-03-27,32496,TEMU-200437-7,Mercovan Argentina Srl,251309894,**********          ,Arribado
-2025-07-11,35452,,Mercovan Argentina Srl,256103876,                    ,Pendiente
+2025-07-11,35452,TEMU-440449-6,Mercovan Argentina Srl,256103876,************        ,Arribado
 2025-07-15,35527,,Mercovan Argentina Srl,EBKGQ000F0F7,                    ,Pendiente
-2025-07-14,35530,,Mercovan Argentina Srl,256092887,                    ,Pendiente
+2025-07-14,35530,HASU-149538-5,Mercovan Argentina Srl,256092887,********            ,Arribado
 2025-07-10,35416,MRKU-069733-1,Mercovan Argentina Srl,256095159,**********          ,Arribado
 2025-07-01,35111,TEMU-148771-1,Mercovan Argentina Srl,24161635,**********          ,Arribado
 2025-07-01,35112,UACU-413896-8,Mercovan Argentina Srl,68325738,************        ,Arribado
@@ -103,14 +103,14 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-07,35324,UACU-847747-1,Minera Santa Rita Srl,20304596,*********           ,Arribado
 2025-07-10,35372,MEDU-671146-2,Minera Santa Rita Srl,EBKG13459247,FX32939388          ,Arribado
 2025-07-14,35531,,Minera Santa Rita Srl,256516151,                    ,Pendiente
-2025-07-15,35031,,Minera Santa Rita Srl,20488774,                    ,Pendiente
-2025-07-15,35032,,Minera Santa Rita Srl,20488774,                    ,Pendiente
+2025-07-15,35031,HLXU-535255-7,Minera Santa Rita Srl,20488774,**********          ,Arribado
+2025-07-15,35032,TCLU-446365-5,Minera Santa Rita Srl,20488774,*************       ,Arribado
 2025-07-03,35261,UACU-856876-1,Minera Santa Rita Srl,20304596,**********          ,Arribado
 2025-07-03,35276,UACU-842831-1,Minera Santa Rita Srl,20304596,**********          ,Arribado
 2025-07-07,35317,UACU-853937-8,Minera Santa Rita Srl,20304596,***********         ,Arribado
-2025-07-15,35028,,Minera Santa Rita Srl,20488774,                    ,Pendiente
-2025-07-15,35029,,Minera Santa Rita Srl,20488774,                    ,Pendiente
-2025-07-15,35030,,Minera Santa Rita Srl,20488774,                    ,Pendiente
+2025-07-15,35028,HLBU-151792-3,Minera Santa Rita Srl,20488774,***********         ,Arribado
+2025-07-15,35029,UACU-837001-4,Minera Santa Rita Srl,20488774,********            ,Arribado
+2025-07-15,35030,UACU-846858-8,Minera Santa Rita Srl,20488774,*********           ,Arribado
 2025-06-17,34660,UACU-858088-0,Minera Santa Rita Srl,93173263,***********         ,Arribado
 2025-06-24,34841,,Minera Santa Rita Srl,255138295,                    ,Pendiente
 2025-06-24,34892,MSKU-562726-2,Minera Santa Rita Srl,255138295,*********           ,Arribado
@@ -393,8 +393,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-08,32644,MSNU-712541-6,Isischu Srl,EBKG12327680,FX32981008          ,Arribado
 2025-03-25,32419,MRSU-550449-0,Valerio Oliva Forestal Sa,250297402,                    ,Arribado
 2025-03-25,32420,GCXU-575062-8,Valerio Oliva Forestal Sa,250297402,                    ,Arribado
-2025-07-15,35513,,Valerio Oliva Forestal Sa,340500025117,                    ,Pendiente
+2025-07-15,35513,EGHU-950134-6,Valerio Oliva Forestal Sa,340500025117,************        ,Arribado
 2025-07-15,35514,,Valerio Oliva Forestal Sa,340500025117,                    ,Pendiente
+2025-07-14,35558,TXGU-833584-2,Valerio Oliva Forestal Sa,240500025117,*************       ,Arribado
 2025-06-17,34538,MRKU-627527-2,Valerio Oliva Forestal Sa,254365842,**********          ,Arribado
 2025-07-08,35356,MSKU-195090-8,Valerio Oliva Forestal Sa,255303020,**********          ,Arribado
 2025-07-17,35434,,Valerio Oliva Forestal Sa,255303186,                    ,Pendiente
@@ -460,13 +461,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-05,34244,TRHU-530969-2,Suabia Maderas Srl,BUEF06206700,                    ,Arribado
 2025-06-25,34906,TCLU-852067-1,Piranga Sa,255319646,**********          ,Arribado
 2025-06-25,34907,MSKU-069522-2,Piranga Sa,255319646,************        ,Arribado
-2025-03-15,32155,MSDU-514096-2,Taeda Sa,EBKG12035181,                    ,Arribado
 2025-03-19,32288,MSMU-666177-1,Taeda Sa,EBKG12103349,FX32987233          ,Arribado
 2025-04-08,32642,MSNU-704364-2,Taeda Sa,EBKG11916027,FX32981067          ,Arribado
-2025-06-27,34948,MEDU-452830-2,Taeda Sa,EBKG13359360,FX32932341          ,Arribado
 2025-04-22,32937,,Taeda Sa,EBKG12490610,                    ,Pendiente
 2025-04-22,33037,GAOU-741545-8,Taeda Sa,EBKG12490610,FX32974316          ,Arribado
 2025-05-07,33406,TIIU-443085-3,Taeda Sa,153IAR0648596,FX32970711          ,Arribado
+2025-06-27,34948,MEDU-452830-2,Taeda Sa,EBKG13359360,FX32932341          ,Arribado
 2025-05-23,33845,TCNU-128000-4,Carpal Sa,253983421,************        ,Arribado
 2025-05-23,33846,CHSU-405005-3,Carpal Sa,253983421,***************     ,Arribado
 2025-05-23,33847,TGBU-684886-4,Carpal Sa,253983421,************        ,Arribado
@@ -677,6 +677,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-17,32224,TGHU-129031-8,Borax Argentina S A,BUA0337447,                    ,Arribado
 2025-03-17,32225,GLDU-959221-5,Borax Argentina S A,BUA0337447,                    ,Arribado
 2025-03-17,32226,TRHU-393750-8,Borax Argentina S A,BUA0337447,                    ,Arribado
+2025-07-15,35557,,Borax Argentina S A,10082084,                    ,Pendiente
 2025-07-14,35479,,Borax Argentina S A,256515583,                    ,Pendiente
 2025-07-14,35480,,Borax Argentina S A,256515583,                    ,Pendiente
 2025-07-14,35481,,Borax Argentina S A,256515583,                    ,Pendiente
@@ -849,76 +850,73 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-12,33452,HAMU-148103-4,Plasticos Dise S A,20462888,***************     ,Arribado
 2025-05-15,33587,MEDU-266342-7,Plasticos Dise S A,EBKG12761996,FX329774178         ,Arribado
 2025-06-25,34875,SUDU-749590-8,Plasticos Dise S A,255564238,***********         ,Arribado
-2025-03-15,32152,TEMU-522792-3,Lawter Argentina S.A.,COSU6409209920,                    ,Arribado
-2025-03-15,32153,FTAU-193064-0,Lawter Argentina S.A.,COSU6409209920,                    ,Arribado
-2025-03-15,32154,CSNU-149822-2,Lawter Argentina S.A.,COSU6409209920,                    ,Arribado
 2025-03-26,32458,,Lawter Argentina S.A.,37733100,                    ,Pendiente
 2025-03-26,32459,FANU-148036-4,Lawter Argentina S.A.,37733100,***********         ,Arribado
-2025-07-02,35192,PCIU-464717-1,Lawter Argentina S.A.,BUE500115400,**********          ,Arribado
-2025-07-02,35200,PCIU-463911-3,Lawter Argentina S.A.,BUE500115400,*************       ,Arribado
 2025-07-15,35470,,Lawter Argentina S.A.,ZIMUBUE9041577,                    ,Pendiente
 2025-07-15,35471,,Lawter Argentina S.A.,ZIMUBUE9041577,                    ,Pendiente
 2025-07-15,35472,,Lawter Argentina S.A.,ZIMUBUE9041577,                    ,Pendiente
 2025-06-04,34287,FANU-378193-7,Lawter Argentina S.A.,22103759,************        ,Arribado
 2025-06-17,34625,CAIU-769683-9,Lawter Argentina S.A.,32049685,0433859             ,Arribado
-2025-06-02,34098,MRKU-106651-5,Lawter Argentina S.A.,253934352,***********         ,Arribado
-2025-06-02,34099,MRKU-077087-5,Lawter Argentina S.A.,253934352,***********         ,Arribado
-2025-06-02,34100,MSKU-669360-7,Lawter Argentina S.A.,253934352, *************      ,Arribado
+2025-07-02,35192,PCIU-464717-1,Lawter Argentina S.A.,BUE500115400,**********          ,Arribado
+2025-07-02,35200,PCIU-463911-3,Lawter Argentina S.A.,BUE500115400,*************       ,Arribado
 2025-06-02,34101,MRKU-050855-1,Lawter Argentina S.A.,253934352,************        ,Arribado
 2025-06-02,34095,MRKU-046375-5,Lawter Argentina S.A.,253934352,************        ,Arribado
 2025-06-02,34096,SUDU-530092-5,Lawter Argentina S.A.,253934352,**************      ,Arribado
 2025-06-02,34097,MRKU-078832-3,Lawter Argentina S.A.,253934352,***********         ,Arribado
-2025-05-23,33850,,Lawter Argentina S.A.,253920980,                    ,Pendiente
-2025-05-23,33851,,Lawter Argentina S.A.,253920980,                    ,Pendiente
-2025-05-23,33852,,Lawter Argentina S.A.,253920980,                    ,Pendiente
+2025-06-02,34098,MRKU-106651-5,Lawter Argentina S.A.,253934352,***********         ,Arribado
+2025-06-02,34099,MRKU-077087-5,Lawter Argentina S.A.,253934352,***********         ,Arribado
+2025-06-02,34100,MSKU-669360-7,Lawter Argentina S.A.,253934352, *************      ,Arribado
 2025-05-23,33907,MRKU-014117-3,Lawter Argentina S.A.,253920980,**********          ,Arribado
 2025-05-29,33998,FCIU-578983-8,Lawter Argentina S.A.,EBKG12996784,FX32971580          ,Arribado
 2025-05-23,33840,MRKU-068601-8,Lawter Argentina S.A.,253920980,*************       ,Arribado
 2025-05-23,33841,MSKU-686327-8,Lawter Argentina S.A.,253920980,***********         ,Arribado
+2025-05-23,33850,,Lawter Argentina S.A.,253920980,                    ,Pendiente
+2025-05-23,33851,,Lawter Argentina S.A.,253920980,                    ,Pendiente
+2025-05-23,33852,,Lawter Argentina S.A.,253920980,                    ,Pendiente
+2025-05-15,33593,BHCU-319614-3,Lawter Argentina S.A.,BUA034165,R1952835            ,Arribado
+2025-05-15,33594,SEGU-177886-0,Lawter Argentina S.A.,BUA034165,R1952837            ,Arribado
+2025-05-14,33517,PCIU-100209-7,Lawter Argentina S.A.,BUE500069800,***********         ,Arribado
+2025-05-15,33588,TCLU-767748-1,Lawter Argentina S.A.,BUA0340166,R1951217            ,Arribado
 2025-05-15,33589,CAIU-381159-6,Lawter Argentina S.A.,BUA0340166,R1951216            ,Arribado
 2025-05-15,33590,TEMU-542244-7,Lawter Argentina S.A.,BUA0340166,R1951215            ,Arribado
 2025-05-15,33592,TCKU-318810-3,Lawter Argentina S.A.,BUA034165,R1952840            ,Arribado
-2025-05-15,33593,BHCU-319614-3,Lawter Argentina S.A.,BUA034165,R1952835            ,Arribado
-2025-05-15,33594,SEGU-177886-0,Lawter Argentina S.A.,BUA034165,R1952837            ,Arribado
 2025-05-14,33514,PCIU-283815-8,Lawter Argentina S.A.,BUE500069800,*******             ,Arribado
 2025-05-14,33515,PCIU-283773-7,Lawter Argentina S.A.,BUE500069800,**********          ,Arribado
 2025-05-14,33516,FCIU-384812-4,Lawter Argentina S.A.,BUE500069800,**************      ,Arribado
-2025-05-14,33517,PCIU-100209-7,Lawter Argentina S.A.,BUE500069800,***********         ,Arribado
-2025-05-15,33588,TCLU-767748-1,Lawter Argentina S.A.,BUA0340166,R1951217            ,Arribado
-2025-05-08,33412,TCKU-602379-2,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
-2025-05-08,33413,TGHU-979193-3,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
-2025-05-08,33414,TCNU-462548-1,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
-2025-04-24,33070,TIIU-207161-0,Lawter Argentina S.A.,252759712,***************     ,Arribado
 2025-05-08,33409,ZCSU-707063-2,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
 2025-05-08,33410,BSIU-954460-9,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
 2025-05-08,33411,CAAU-947528-5,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
-2025-04-22,33001,PCIU-021540-0,Lawter Argentina S.A.,BUE500065100,**************      ,Arribado
+2025-05-08,33412,TCKU-602379-2,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
+2025-05-08,33413,TGHU-979193-3,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
+2025-05-08,33414,TCNU-462548-1,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
 2025-04-24,33068,MRKU-840320-1,Lawter Argentina S.A.,252759712,                    ,Arribado
 2025-04-24,33069,MRKU-758020-2,Lawter Argentina S.A.,252759712,******************* ,Arribado
-2025-04-22,32943,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
-2025-04-22,32944,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
-2025-04-22,32959,BMOU-258476-0,Lawter Argentina S.A.,BUE500065100,***********         ,Arribado
+2025-04-24,33070,TIIU-207161-0,Lawter Argentina S.A.,252759712,***************     ,Arribado
 2025-04-22,32960,BMOU-256473-7,Lawter Argentina S.A.,BUE500065100,*************       ,Arribado
 2025-04-22,32998,PCIU-139581-5,Lawter Argentina S.A.,BUE500065100,**************      ,Arribado
 2025-04-22,33000,PCIU-133622-1,Lawter Argentina S.A.,BUE500065100,*****************   ,Arribado
-2025-04-23,32912,HASU-155150-8,Lawter Argentina S.A.,252632346,***************     ,Arribado
-2025-04-23,32913,GESU-386652-3,Lawter Argentina S.A.,252632346,**********          ,Arribado
+2025-04-22,33001,PCIU-021540-0,Lawter Argentina S.A.,BUE500065100,**************      ,Arribado
 2025-04-22,32940,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
 2025-04-22,32941,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
 2025-04-22,32942,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
-2025-04-21,32881,GESU-616311-8,Lawter Argentina S.A.,36039671,********            ,Arribado
-2025-04-23,32908,MRSU-037570-2,Lawter Argentina S.A.,252632346,***********         ,Arribado
+2025-04-22,32943,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
+2025-04-22,32944,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
+2025-04-22,32959,BMOU-258476-0,Lawter Argentina S.A.,BUE500065100,***********         ,Arribado
 2025-04-23,32909,MRKU-898966-4,Lawter Argentina S.A.,252632346,*********           ,Arribado
 2025-04-23,32910,TEMU-136628-4,Lawter Argentina S.A.,252632346,**************      ,Arribado
 2025-04-23,32911,MSKU-729327-2,Lawter Argentina S.A.,252632346,+*******************,Arribado
-2025-04-14,32777,SEGU-230060-2,Lawter Argentina S.A.,ZIMUBUE9039285,*************       ,Arribado
-2025-04-14,32778,MAGU-235294-1,Lawter Argentina S.A.,ZIMUBUE9039285,******************  ,Arribado
-2025-04-14,32779,TRHU-291089-0,Lawter Argentina S.A.,ZIMUBUE9039285,**************      ,Arribado
+2025-04-23,32912,HASU-155150-8,Lawter Argentina S.A.,252632346,***************     ,Arribado
+2025-04-23,32913,GESU-386652-3,Lawter Argentina S.A.,252632346,**********          ,Arribado
 2025-04-14,32780,MSKU-406678-4,Lawter Argentina S.A.,251744442,*****               ,Arribado
 2025-04-14,32781,MRSU-001383-2,Lawter Argentina S.A.,251744442,************        ,Arribado
+2025-04-21,32881,GESU-616311-8,Lawter Argentina S.A.,36039671,********            ,Arribado
+2025-04-23,32908,MRSU-037570-2,Lawter Argentina S.A.,252632346,***********         ,Arribado
 2025-04-14,32774,ZIMU-289120-7,Lawter Argentina S.A.,ZIMUBUE9039285,**********          ,Arribado
 2025-04-14,32775,TCKU-165723-8,Lawter Argentina S.A.,ZIMUBUE9039285,**************      ,Arribado
 2025-04-14,32776,TEMU-527433-4,Lawter Argentina S.A.,ZIMUBUE9039285,********            ,Arribado
+2025-04-14,32777,SEGU-230060-2,Lawter Argentina S.A.,ZIMUBUE9039285,*************       ,Arribado
+2025-04-14,32778,MAGU-235294-1,Lawter Argentina S.A.,ZIMUBUE9039285,******************  ,Arribado
+2025-04-14,32779,TRHU-291089-0,Lawter Argentina S.A.,ZIMUBUE9039285,**************      ,Arribado
 2025-04-25,33131,,2M Comex,25001EC01025080C,                    ,Arribado
 2025-04-25,33132,,2M Comex,25001EC01025080C,                    ,Arribado
 2025-04-25,33133,,2M Comex,25001EC01025080C,                    ,Arribado
@@ -947,7 +945,6 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-03,35218,TXGU-557160-7,Virasoro Maderas S R L,EBKG13408378,FX32934396          ,Arribado
 2025-07-01,35098,MSCU-526829-2,Virasoro Maderas S R L,EBKG13325394,FX32935236          ,Arribado
 2025-07-01,35099,UETU-805804-2,Virasoro Maderas S R L,EBKG13325394,FX32935149          ,Arribado
-2025-07-14,35214,,Virasoro Maderas S R L,EBKG13408378,                    ,Pendiente
 2025-07-01,35096,MSMU-733995-0,Virasoro Maderas S R L,EBKG13325394,FX32935248          ,Arribado
 2025-07-01,35097,FFAU-562389-7,Virasoro Maderas S R L,EBKG13325394,FX32935146          ,Arribado
 2025-06-09,34429,HLXU-825633-0,Virasoro Maderas S R L,31391492,**********          ,Arribado
@@ -1169,8 +1166,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-26,34969,MSMU-754747-0,Forestal Bosques Del Plata Sa,EBKG13130443,FX32934234          ,Arribado
 2025-06-26,34977,MSNU-686436-6,Forestal Bosques Del Plata Sa,EBKG13130443,FX32934239          ,Arribado
 2025-06-26,34979,MSMU-781741-0,Forestal Bosques Del Plata Sa,EBKG13130443,FX32934240          ,Arribado
-2025-07-14,35491,,Dautec Argentina Sas,31368689,                    ,Pendiente
-2025-07-14,35492,,Dautec Argentina Sas,34202462,                    ,Pendiente
+2025-07-14,35491,HLXU-538058-5,Dautec Argentina Sas,31368689,***********         ,Arribado
+2025-07-14,35492,UACU-845947-8,Dautec Argentina Sas,34202462,**************      ,Arribado
 2025-07-14,35505,,Dautec Argentina Sas,34202462,                    ,Pendiente
 2025-07-14,35506,,Dautec Argentina Sas,34202462,                    ,Pendiente
 2025-07-14,35499,,Dautec Argentina Sas,34202462,                    ,Pendiente
@@ -1179,12 +1176,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-14,35502,,Dautec Argentina Sas,34202462,                    ,Pendiente
 2025-07-14,35503,,Dautec Argentina Sas,34202462,                    ,Pendiente
 2025-07-14,35504,,Dautec Argentina Sas,34202462,                    ,Pendiente
-2025-07-14,35493,,Dautec Argentina Sas,34202462,                    ,Pendiente
-2025-07-14,35494,,Dautec Argentina Sas,34202462,                    ,Pendiente
-2025-07-14,35495,,Dautec Argentina Sas,34202462,                    ,Pendiente
-2025-07-14,35496,,Dautec Argentina Sas,34202462,                    ,Pendiente
-2025-07-14,35497,,Dautec Argentina Sas,34202462,                    ,Pendiente
-2025-07-14,35498,,Dautec Argentina Sas,34202462,                    ,Pendiente
+2025-07-14,35493,HLBU-179614-0,Dautec Argentina Sas,34202462,        **********  ,Arribado
+2025-07-14,35494,UACU-861363-9,Dautec Argentina Sas,34202462,***********         ,Arribado
+2025-07-14,35495,TCLU-419484-9,Dautec Argentina Sas,34202462,***********         ,Arribado
+2025-07-14,35496,UACU-831169-1,Dautec Argentina Sas,34202462,************        ,Arribado
+2025-07-14,35497,UACU-837294-8,Dautec Argentina Sas,34202462,************        ,Arribado
+2025-07-14,35498,UACU-836182-0,Dautec Argentina Sas,34202462,**********          ,Arribado
 2025-03-27,32454,,Weiden Sociedad Anonima,36715985,                    ,Pendiente
 2025-03-27,32504,SEKU-573654-9,Weiden Sociedad Anonima,36715985,**********          ,Arribado
 2025-04-24,33109,TLLU-537349-3,Weiden Sociedad Anonima,90484908,**************      ,Arribado
@@ -1296,11 +1293,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-30,35044,MSMU-147543-4,Litoral Citrus S A,153IAR0649741,FX32932319          ,Arribado
 2025-04-29,33198,,Hdv Leather S.R.L.,253269514,                    ,Pendiente
 2025-04-29,33199,,Hdv Leather S.R.L.,253269514,                    ,Pendiente
-2025-07-14,35485,,Hdv Leather S.R.L.,255626058,                    ,Pendiente
+2025-07-14,35485,MSKU-131958-0,Hdv Leather S.R.L.,255626058,**********          ,Arribado
 2025-07-10,35441,CIPU-509543-3,Hdv Leather S.R.L.,255316838,***********         ,Arribado
 2025-07-10,35442,MRKU-295741-7,Hdv Leather S.R.L.,255316838,********            ,Arribado
 2025-07-10,35454,MRKU-371542-3,Hdv Leather S.R.L.,255316838,**********          ,Arribado
-2025-07-14,35484,,Hdv Leather S.R.L.,255626058,                    ,Pendiente
+2025-07-14,35484,PONU-819721-0,Hdv Leather S.R.L.,255626058,***********         ,Arribado
 2025-07-07,35264,MRKU-204192-8,Hdv Leather S.R.L.,255317569,***********         ,Arribado
 2025-07-07,35265,MIEU-000482-2,Hdv Leather S.R.L.,255317569,***********         ,Arribado
 2025-07-07,35266,HASU-497641-9,Hdv Leather S.R.L.,255365721,************        ,Arribado
