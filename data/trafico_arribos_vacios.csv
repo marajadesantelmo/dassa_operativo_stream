@@ -10,7 +10,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35480,14/07,Borax Argentina S A,-,10077,DR,TD,                    ,256515583,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35479,14/07,Borax Argentina S A,-,10077,DR,TD,                    ,256515583,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35430,14/07,Maringa Maderas Sa,-,Exolgan,HC,TD,                    ,EBKG13411179,0,                              ,,     ,2025-07-31,,                    ,Pendiente
-35503,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35503,14/07,Dautec Argentina Sas,UACU-838118-0,10080,DR,TD,************        ,34202462,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,13:55,2025-08-01,,                    ,13:55 Arribado
 35504,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35505,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35558,14/07,Valerio Oliva Forestal Sa,TXGU-833584-2,10077,HC,TD,*************       ,240500025117,1,TRANSPORTE DEL CLIENTE        ,Catalano,11:35,2025-08-04,Grlem25790/V.O,                    ,11:35 Arribado
@@ -19,8 +19,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35498,14/07,Dautec Argentina Sas,UACU-836182-0,10080,DR,TD,**********          ,34202462,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,12:54,2025-08-01,,                    ,12:54 Arribado
 35499,14/07,Dautec Argentina Sas,TCLU-442228-1,10080,HC,TD,**********          ,34202462,1,TRANSPORTE DEL CLIENTE        ,Peril,13:37,2025-08-01,,                    ,13:37 Arribado
 35500,14/07,Dautec Argentina Sas,HLBU-113425-1,10080,HC,TD,**********          ,34202462,1,TRANSPORTE DEL CLIENTE        ,Perez,13:39,2025-08-01,,                    ,13:39 Arribado
-35501,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35502,14/07,Dautec Argentina Sas,-,10080,HC,TD,                    ,34202462,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35501,14/07,Dautec Argentina Sas,HLBU-180397-4,10080,HC,TD,**********          ,34202462,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,13:46,2025-08-01,,                    ,13:46 Arribado
+35502,14/07,Dautec Argentina Sas,UACU-831511-0,10080,DR,TD,**********          ,34202462,1,TRANSPORTE DEL CLIENTE        ,Moscardini,13:49,2025-08-01,,                    ,13:49 Arribado
 35531,14/07,Minera Santa Rita Srl,-,0,  ,TD,                    ,256516151,0,                              ,,     ,2025-08-01,256516151,256516151           ,Pendiente
 35487,14/07,Conextube Sa,-,10080,HC,TD,                    ,256653277,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35484,14/07,Hdv Leather S.R.L.,PONU-819721-0,10080,HC,TD,***********         ,255626058,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,09:45,2025-08-01,,                    ,09:45 Arribado
