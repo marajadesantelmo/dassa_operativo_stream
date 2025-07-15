@@ -1,14 +1,13 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 35527,15/07,Mercovan Argentina Srl,TCLU-271702-5,9,DR,TD,FX32940644          ,EBKGQ000F0F7,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,18:14,2025-08-01,"Rivera, Lea",                    ,18:14 Arribado
-35612,15/07,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13257927,0,                              ,,     ,2025-08-04,Ebkg13257927,25001EC03007275K    ,Pendiente
 35613,15/07,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13257927,0,                              ,,     ,2025-08-04,Ebkg13257927,25001EC03007275K    ,Pendiente
 35614,15/07,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13257927,0,                              ,,     ,2025-08-04,Ebkg13257927,25001EC03007275K    ,Pendiente
 35615,15/07,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13257927,0,                              ,,     ,2025-08-04,Ebkg13257927,25001EC03007275K    ,Pendiente
-35557,15/07,Borax Argentina S A,-,0,  ,TD,                    ,10082084,0,                              ,,     ,2025-08-04,Fact 12425-,10082084            ,Pendiente
+35578,15/07,Sermat Sa,-,10074,  ,TD,                    ,LA0434166,0,                              ,,     ,2025-08-04,,                    ,Pendiente
 35470,15/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,ZIMUBUE9041577,0,                              ,,     ,2025-08-01,4700169074,ZIMUBUE9041577      ,Pendiente
 35471,15/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,ZIMUBUE9041577,0,                              ,,     ,2025-08-01,4700169074,ZIMUBUE9041577      ,Pendiente
-35578,15/07,Sermat Sa,-,10074,  ,TD,                    ,LA0434166,0,                              ,,     ,2025-08-04,,                    ,Pendiente
 35472,15/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,ZIMUBUE9041577,0,                              ,,     ,2025-08-01,4700169074,ZIMUBUE9041577      ,Pendiente
+35616,15/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,ZIMUBUE9041577,0,                              ,,     ,2025-08-01,4700169074,ZIMUBUE9041577      ,Pendiente
 35571,15/07,Sermat Sa,MSMU-253440-2,10074,  ,TD,**********          ,LA0434166,1,TRANSPORTES LEIRA-NO USAR     ,Muller,09:30,2025-08-04,,                    ,09:30 Arribado
 35572,15/07,Sermat Sa,MEDU-550260-0,10074,  ,TD,************        ,LA0434166,1,TRANSPORTES LEIRA-NO USAR     ,Muller,09:31,2025-08-04,,                    ,09:31 Arribado
 35573,15/07,Sermat Sa,-,10074,  ,TD,                    ,LA0434166,0,                              ,,     ,2025-08-04,,                    ,Pendiente
@@ -16,30 +15,41 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35575,15/07,Sermat Sa,-,10074,  ,TD,                    ,LA0434166,0,                              ,,     ,2025-08-04,,                    ,Pendiente
 35576,15/07,Sermat Sa,-,10074,  ,TD,                    ,LA0434166,0,                              ,,     ,2025-08-04,,                    ,Pendiente
 35577,15/07,Sermat Sa,-,10074,  ,TD,                    ,LA0434166,0,                              ,,     ,2025-08-04,,                    ,Pendiente
-35616,15/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,ZIMUBUE9041577,0,                              ,,     ,2025-08-01,4700169074,ZIMUBUE9041577      ,Pendiente
+35612,15/07,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13257927,0,                              ,,     ,2025-08-04,Ebkg13257927,25001EC03007275K    ,Pendiente
 35562,15/07,Pallets Nef De Raul E. Fernand...,-,0,  ,TD,                    ,12215329,0,                              ,,     ,2025-08-04,12215329,12215329            ,Pendiente
-35579,15/07,Sermat Sa,-,10074,  ,TD,                    ,LA0434166,0,                              ,,     ,2025-08-04,,                    ,Pendiente
+35557,15/07,Borax Argentina S A,-,0,  ,TD,                    ,10082084,0,                              ,,     ,2025-08-04,Fact 12425-,10082084            ,Pendiente
 35560,15/07,Pallets Nef De Raul E. Fernand...,HAMU-231644-0,10080,HC,TD,************        ,12215329,1,TRANSPORTE DEL CLIENTE        ,Moscardini,09:30,2025-08-04,12215329,12215329            ,09:30 Arribado
-35514,15/07,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,340500025117,0,                              ,,     ,2025-08-01,Grlem25790/V.Oliva,340500025117        ,Pendiente
-35513,15/07,Valerio Oliva Forestal Sa,EGHU-950134-6,10076,HC,TD,************        ,340500025117,1,TRANSPORTE DEL CLIENTE        ,Cerrudo,10:55,2025-08-01,Grlem25790/V.Oliva,340500025117        ,10:55 Arribado
-35526,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35525,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35617,15/07,Lift Van Int. Co S.A,-,0,  ,TD,                    ,34208160,0,                              ,,     ,2025-08-04,Guillermo Rivas,34208160            ,Pendiente
-35524,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
-35523,15/07,Hilado Sa,MRKU-640223-2,10081,HC,TD,***********         ,255808171,1,TRANSPORTE DEL CLIENTE        ,Peril,09:21,2025-08-01,,                    ,09:21 Arribado
 35028,15/07,Minera Santa Rita Srl,HLBU-151792-3,10080,DR,TD,***********         ,20488774,1,TRANSPORTE DEL CLIENTE        ,Alvarez,09:27,2025-07-18,20488774,20488774            ,09:27 Arribado
-35561,15/07,Pallets Nef De Raul E. Fernand...,HAMU-326023-8,10080,HC,TD,**************      ,12215329,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,09:33,2025-08-04,12215329,12215329            ,09:33 Arribado
 35029,15/07,Minera Santa Rita Srl,UACU-837001-4,10080,DR,TD,********            ,20488774,1,TRANSPORTE DEL CLIENTE        ,Peril,10:06,2025-07-18,20488774,20488774            ,10:06 Arribado
 35030,15/07,Minera Santa Rita Srl,UACU-846858-8,10080,DR,TD,*********           ,20488774,1,TRANSPORTE DEL CLIENTE        ,Perez,10:08,2025-07-18,20488774,20488774            ,10:08 Arribado
 35031,15/07,Minera Santa Rita Srl,HLXU-535255-7,10080,DR,TD,**********          ,20488774,1,TRANSPORTE DEL CLIENTE        ,Porco,10:34,2025-07-18,20488774,20488774            ,10:34 Arribado
 35032,15/07,Minera Santa Rita Srl,TCLU-446365-5,10080,DR,TD,*************       ,20488774,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,11:28,2025-07-18,20488774,20488774            ,11:28 Arribado
-35581,16/07,Maringa Maderas Sa,-,0,  ,TD,                    ,34095700,0,                              ,,     ,2025-08-04,34095700,34095700            ,Pendiente
-35611,16/07,Mercovan Argentina Srl,-,0,  ,TD,                    ,37094305,0,                              ,,     ,2025-08-04,Andreasen (Kyle Y Jessica),37094305            ,Pendiente
-35582,16/07,Maringa Maderas Sa,-,0,  ,TD,                    ,34095700,0,                              ,,     ,2025-08-04,34095700,34095700            ,Pendiente
-35628,16/07,Mader Zu S.R.L.,-,0,  ,TD,                    ,34885166,0,                              ,,     ,2025-08-05,34885166,34885166            ,Pendiente
+35561,15/07,Pallets Nef De Raul E. Fernand...,HAMU-326023-8,10080,HC,TD,**************      ,12215329,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,09:33,2025-08-04,12215329,12215329            ,09:33 Arribado
+35523,15/07,Hilado Sa,MRKU-640223-2,10081,HC,TD,***********         ,255808171,1,TRANSPORTE DEL CLIENTE        ,Peril,09:21,2025-08-01,,                    ,09:21 Arribado
+35579,15/07,Sermat Sa,-,10074,  ,TD,                    ,LA0434166,0,                              ,,     ,2025-08-04,,                    ,Pendiente
+35514,15/07,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,340500025117,0,                              ,,     ,2025-08-01,Grlem25790/V.Oliva,340500025117        ,Pendiente
+35513,15/07,Valerio Oliva Forestal Sa,EGHU-950134-6,10076,HC,TD,************        ,340500025117,1,TRANSPORTE DEL CLIENTE        ,Cerrudo,10:55,2025-08-01,Grlem25790/V.Oliva,340500025117        ,10:55 Arribado
+35526,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35525,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35524,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
 35619,16/07,Borax Argentina S A,-,0,  ,TD,                    ,256602627,0,                              ,,     ,2025-08-05,Fac 12429,256602627           ,Pendiente
+35611,16/07,Mercovan Argentina Srl,-,0,  ,TD,                    ,37094305,0,                              ,,     ,2025-08-04,Andreasen (Kyle Y Jessica),37094305            ,Pendiente
+35581,16/07,Maringa Maderas Sa,-,0,  ,TD,                    ,34095700,0,                              ,,     ,2025-08-04,34095700,34095700            ,Pendiente
+35582,16/07,Maringa Maderas Sa,-,0,  ,TD,                    ,34095700,0,                              ,,     ,2025-08-04,34095700,34095700            ,Pendiente
+35638,16/07,Naturaleza Group Srl,-,0,  ,TD,                    ,BUA0345849,0,                              ,,     ,2025-08-05,,BUA0345849          ,Pendiente
+35637,16/07,Naturaleza Group Srl,-,0,  ,TD,                    ,BUA0345849,0,                              ,,     ,2025-08-05,,BUA0345849          ,Pendiente
+35636,16/07,Naturaleza Group Srl,-,0,  ,TD,                    ,BUA0345849,0,                              ,,     ,2025-08-05,,BUA0345849          ,Pendiente
+35635,16/07,Naturaleza Group Srl,-,0,  ,TD,                    ,BUA0345849,0,                              ,,     ,2025-08-05,,BUA0345849          ,Pendiente
+35633,16/07,Naturaleza Group Srl,-,0,  ,TD,                    ,BUA0345849,0,                              ,,     ,2025-08-05,,BUA0345849          ,Pendiente
+35632,16/07,Naturaleza Group Srl,-,0,  ,TD,                    ,BUA0345849,0,                              ,,     ,2025-08-05,,BUA0345849          ,Pendiente
+35631,16/07,Naturaleza Group Srl,-,0,  ,TD,                    ,BUA0345849,0,                              ,,     ,2025-08-05,,BUA0345849          ,Pendiente
+35629,16/07,Naturaleza Group Srl,-,0,  ,TD,                    ,BUA0345849,0,                              ,,     ,2025-08-05,,BUA0345849          ,Pendiente
 35627,16/07,Mader Zu S.R.L.,-,0,  ,TD,                    ,34885166,0,                              ,,     ,2025-08-05,34885166,34885166            ,Pendiente
+35628,16/07,Mader Zu S.R.L.,-,0,  ,TD,                    ,34885166,0,                              ,,     ,2025-08-05,34885166,34885166            ,Pendiente
+35634,16/07,Naturaleza Group Srl,-,0,  ,TD,                    ,BUA0345849,0,                              ,,     ,2025-08-05,,BUA0345849          ,Pendiente
+35630,16/07,Naturaleza Group Srl,-,0,  ,TD,                    ,BUA0345849,0,                              ,,     ,2025-08-05,,BUA0345849          ,Pendiente
+35434,17/07,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,255303186,0,                              ,,     ,2025-07-31,Grlem25715/Valerio Oliva,255303186           ,Pendiente
 35570,17/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUA0344543,0,                              ,,     ,2025-08-04,4700168795/6/7,BUA0344543          ,Pendiente
 35569,17/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUA0344543,0,                              ,,     ,2025-08-04,4700168795/6/7,BUA0344543          ,Pendiente
-35434,17/07,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,255303186,0,                              ,,     ,2025-07-31,Grlem25715/Valerio Oliva,255303186           ,Pendiente
 35568,17/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUA0344543,0,                              ,,     ,2025-08-04,4700168795/6/7,BUA0344543          ,Pendiente
