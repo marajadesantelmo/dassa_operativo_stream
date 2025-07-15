@@ -3,7 +3,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35612,15/07,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13257927,0,                              ,,     ,2025-08-04,Ebkg13257927,25001EC03007275K    ,Pendiente
 35613,15/07,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13257927,0,                              ,,     ,2025-08-04,Ebkg13257927,25001EC03007275K    ,Pendiente
 35614,15/07,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13257927,0,                              ,,     ,2025-08-04,Ebkg13257927,25001EC03007275K    ,Pendiente
-35578,15/07,Sermat Sa,-,10074,  ,TD,                    ,LA0434166,0,                              ,,     ,2025-08-04,,                    ,Pendiente
+35578,15/07,Sermat Sa,MSMU-172265-8,10074,  ,TD,**********          ,LA0434166,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,12:32,2025-08-04,,                    ,12:32 Arribado
 35557,15/07,Borax Argentina S A,-,0,  ,TD,                    ,10082084,0,                              ,,     ,2025-08-04,Fact 12425-,10082084            ,Pendiente
 35470,15/07,Lawter Argentina S.A.,ZCSU-691481-0,10074,HC,TD,**********          ,ZIMUBUE9041577,1,TRANSPORTE DEL CLIENTE        ,Basualdo,11:26,2025-08-01,4700169074,ZIMUBUE9041577      ,11:26 Arribado
 35471,15/07,Lawter Argentina S.A.,JXLU-644123-5,10074,HC,TD,*************       ,ZIMUBUE9041577,1,TRANSPORTE DEL CLIENTE        ,Bertoli,11:28,2025-08-01,4700169074,ZIMUBUE9041577      ,11:28 Arribado
@@ -17,7 +17,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35574,15/07,Sermat Sa,MSMU-249408-5,10074,  ,TD,**************      ,LA0434166,1,TRANSPORTES LEIRA-NO USAR     ,Muller,11:17,2025-08-04,,                    ,11:17 Arribado
 35575,15/07,Sermat Sa,MSNU-228300-2,10074,  ,TD,**********          ,LA0434166,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,12:17,2025-08-04,,                    ,12:17 Arribado
 35576,15/07,Sermat Sa,CAIU-328807-9,10074,DR,TD,***********         ,LA0434166,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,12:19,2025-08-04,,                    ,12:19 Arribado
-35577,15/07,Sermat Sa,-,10074,  ,TD,                    ,LA0434166,0,                              ,,     ,2025-08-04,,                    ,Pendiente
+35577,15/07,Sermat Sa,MEDU-203413-1,10074,  ,TD,************        ,LA0434166,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,12:31,2025-08-04,,                    ,12:31 Arribado
 35647,15/07,Lawter Argentina S.A.,TCKU-675316-8,10074,HC,TD,*********           ,ZIMUBUE9041577,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,11:35,2025-08-05,,                    ,11:35 Arribado
 35562,15/07,Pallets Nef De Raul E. Fernand...,-,0,  ,TD,                    ,12215329,0,                              ,,     ,2025-08-04,12215329,12215329            ,Pendiente
 35615,15/07,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13257927,0,                              ,,     ,2025-08-04,Ebkg13257927,25001EC03007275K    ,Pendiente
