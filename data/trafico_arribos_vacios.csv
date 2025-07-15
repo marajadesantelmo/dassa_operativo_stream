@@ -2,10 +2,9 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35527,15/07,Mercovan Argentina Srl,TCLU-271702-5,9,DR,TD,FX32940644          ,EBKGQ000F0F7,1,TRANSPORTE DEL CLIENTE        ,Peril Norberto,18:14,2025-08-01,"Rivera, Lea",                    ,18:14 Arribado
 35614,15/07,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13257927,0,                              ,,     ,2025-08-04,Ebkg13257927,25001EC03007275K    ,Pendiente
 35615,15/07,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13257927,0,                              ,,     ,2025-08-04,Ebkg13257927,25001EC03007275K    ,Pendiente
-35657,15/07,Henn Y Cia S.R.L.,-,9,HC,TD,                    ,EBKG13344861,0,                              ,,     ,2025-08-05,,                    ,Pendiente
 35658,15/07,Henn Y Cia S.R.L.,-,9,HC,TD,                    ,EBKG13344861,0,                              ,,     ,2025-08-05,,                    ,Pendiente
+35659,15/07,Henn Y Cia S.R.L.,-,9,HC,TD,                    ,EBKG13344861,0,                              ,,     ,2025-08-05,,                    ,Pendiente
 35578,15/07,Sermat Sa,MSMU-172265-8,10074,  ,TD,**********          ,LA0434166,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,12:32,2025-08-04,,                    ,12:32 Arribado
-35660,15/07,Henn Y Cia S.R.L.,-,9,HC,TD,                    ,EBKG13344861,0,                              ,,     ,2025-08-05,,                    ,Pendiente
 35557,15/07,Borax Argentina S A,-,0,  ,TD,                    ,10082084,0,                              ,,     ,2025-08-04,Fact 12425-,10082084            ,Pendiente
 35470,15/07,Lawter Argentina S.A.,ZCSU-691481-0,10074,HC,TD,**********          ,ZIMUBUE9041577,1,TRANSPORTE DEL CLIENTE        ,Basualdo,11:26,2025-08-01,4700169074,ZIMUBUE9041577      ,11:26 Arribado
 35471,15/07,Lawter Argentina S.A.,JXLU-644123-5,10074,HC,TD,*************       ,ZIMUBUE9041577,1,TRANSPORTE DEL CLIENTE        ,Bertoli,11:28,2025-08-01,4700169074,ZIMUBUE9041577      ,11:28 Arribado
@@ -13,6 +12,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35616,15/07,Lawter Argentina S.A.,TCKU-616123-5,10074,HC,TD,******************* ,ZIMUBUE9041577,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,11:29,2025-08-01,4700169074,ZIMUBUE9041577      ,11:29 Arribado
 35647,15/07,Lawter Argentina S.A.,TCKU-675316-8,10074,HC,TD,*********           ,ZIMUBUE9041577,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,11:35,2025-08-05,,                    ,11:35 Arribado
 35649,15/07,Conextube Sa,MSKU-119413-8,10080,HC,TD,************        ,256653277,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,11:47,2025-08-05,,                    ,11:47 Arribado
+35657,15/07,Forestal San Francisco S.R.L.,CAIU-839717-5,9,HC,TD,FX32939328          ,EBKG13344861,1,TRANSPORTE DEL CLIENTE        ,Peril,17:51,2025-08-05,,                    ,17:51 Arribado
 35661,15/07,Forestal San Francisco S.R.L.,TGHU-698278-8,9,HC,TD,FX32940720          ,EBKG13344861,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,17:04,2025-08-05,,                    ,17:04 Arribado
 35662,15/07,Forestal San Francisco S.R.L.,MSMU-865229-6,9,HC,TD,FX32940744          ,EBKG13344861,1,TRANSPORTE DEL CLIENTE        ,Alvarez Adrian,17:08,2025-08-05,,                    ,17:08 Arribado
 35665,15/07,Forestal San Francisco S.R.L.,MSNU-605398-6,9,HC,TD,FX32940743          ,EBKG13344861,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,17:13,2025-08-05,,                    ,17:13 Arribado
@@ -25,7 +25,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35577,15/07,Sermat Sa,MEDU-203413-1,10074,  ,TD,************        ,LA0434166,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,12:31,2025-08-04,,                    ,12:31 Arribado
 35613,15/07,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13257927,0,                              ,,     ,2025-08-04,Ebkg13257927,25001EC03007275K    ,Pendiente
 35612,15/07,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13257927,0,                              ,,     ,2025-08-04,Ebkg13257927,25001EC03007275K    ,Pendiente
-35659,15/07,Henn Y Cia S.R.L.,-,9,HC,TD,                    ,EBKG13344861,0,                              ,,     ,2025-08-05,,                    ,Pendiente
+35660,15/07,Henn Y Cia S.R.L.,-,9,HC,TD,                    ,EBKG13344861,0,                              ,,     ,2025-08-05,,                    ,Pendiente
 35579,15/07,Sermat Sa,-,10074,  ,TD,                    ,LA0434166,0,                              ,,     ,2025-08-04,,                    ,Pendiente
 35032,15/07,Minera Santa Rita Srl,TCLU-446365-5,10080,DR,TD,*************       ,20488774,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,11:28,2025-07-18,20488774,20488774            ,11:28 Arribado
 35031,15/07,Minera Santa Rita Srl,HLXU-535255-7,10080,DR,TD,**********          ,20488774,1,TRANSPORTE DEL CLIENTE        ,Porco,10:34,2025-07-18,20488774,20488774            ,10:34 Arribado
@@ -33,11 +33,11 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35523,15/07,Hilado Sa,MRKU-640223-2,10081,HC,TD,***********         ,255808171,1,TRANSPORTE DEL CLIENTE        ,Peril,09:21,2025-08-01,,                    ,09:21 Arribado
 35524,15/07,Hilado Sa,PONU-754037-2,10081,HC,TD,************        ,255808171,1,TRANSPORTE DEL CLIENTE        ,Cerrudo,10:35,2025-08-01,,                    ,10:35 Arribado
 35525,15/07,Hilado Sa,TCNU-430188-3,10081,HC,TD,************        ,255808171,1,TRANSPORTE DEL CLIENTE        ,Toledo,10:37,2025-08-01,,                    ,10:37 Arribado
-35029,15/07,Minera Santa Rita Srl,UACU-837001-4,10080,DR,TD,********            ,20488774,1,TRANSPORTE DEL CLIENTE        ,Peril,10:06,2025-07-18,20488774,20488774            ,10:06 Arribado
-35028,15/07,Minera Santa Rita Srl,HLBU-151792-3,10080,DR,TD,***********         ,20488774,1,TRANSPORTE DEL CLIENTE        ,Alvarez,09:27,2025-07-18,20488774,20488774            ,09:27 Arribado
 35526,15/07,Hilado Sa,TCKU-767651-2,10081,HC,TD,************        ,255808171,1,TRANSPORTE DEL CLIENTE        ,Rodriguez Gabriel,13:40,2025-08-01,,                    ,13:40 Arribado
-35640,15/07,Alimentaria Sa,MSKU-739579-9,10077,DR,TD,*****************   ,255766293,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:31,2025-08-05,,                    ,10:31 Arribado
+35029,15/07,Minera Santa Rita Srl,UACU-837001-4,10080,DR,TD,********            ,20488774,1,TRANSPORTE DEL CLIENTE        ,Peril,10:06,2025-07-18,20488774,20488774            ,10:06 Arribado
 35617,15/07,Lift Van Int. Co S.A,-,0,  ,TD,                    ,34208160,0,                              ,,     ,2025-08-04,Guillermo Rivas,34208160            ,Pendiente
+35640,15/07,Alimentaria Sa,MSKU-739579-9,10077,DR,TD,*****************   ,255766293,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:31,2025-08-05,,                    ,10:31 Arribado
+35028,15/07,Minera Santa Rita Srl,HLBU-151792-3,10080,DR,TD,***********         ,20488774,1,TRANSPORTE DEL CLIENTE        ,Alvarez,09:27,2025-07-18,20488774,20488774            ,09:27 Arribado
 35653,15/07,Alimentaria Sa,MRKU-923006-0,10076,DR,TD,**********          ,255766293,1,TRANSPORTE DEL CLIENTE        ,Ortiz,14:05,2025-08-05,,                    ,14:05 Arribado
 35513,15/07,Valerio Oliva Forestal Sa,EGHU-950134-6,10076,HC,TD,************        ,340500025117,1,TRANSPORTE DEL CLIENTE        ,Cerrudo,10:55,2025-08-01,Grlem25790/V.Oliva,340500025117        ,10:55 Arribado
 35514,15/07,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,340500025117,0,                              ,,     ,2025-08-01,Grlem25790/V.Oliva,340500025117        ,Pendiente
@@ -46,8 +46,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35562,15/07,Pallets Nef De Raul E. Fernand...,-,0,  ,TD,                    ,12215329,0,                              ,,     ,2025-08-04,12215329,12215329            ,Pendiente
 35648,15/07,Pallets Nef De Raul E. Fernand...,HLXU-825495-5,10080,HC,TD,*************       ,12215329,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,11:44,2025-08-05,,                    ,11:44 Arribado
 35641,15/07,Alimentaria Sa,SUDU-737056-2,10077,DR,TD,************        ,255766293,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:34,2025-08-05,,                    ,10:34 Arribado
-35639,16/07,Mercovan Argentina Srl,-,10086,DR,TD,                    ,256516909,0,                              ,,     ,2025-08-05,"Boccardi, Megan",                    ,Pendiente
 35635,16/07,Naturaleza Group Srl,-,0,  ,TD,                    ,BUA0345849,0,                              ,,     ,2025-08-05,,BUA0345849          ,Pendiente
+35639,16/07,Mercovan Argentina Srl,-,10086,DR,TD,                    ,256516909,0,                              ,,     ,2025-08-05,"Boccardi, Megan",                    ,Pendiente
 35611,16/07,Mercovan Argentina Srl,-,0,  ,TD,                    ,37094305,0,                              ,,     ,2025-08-04,Andreasen (Kyle Y Jessica),37094305            ,Pendiente
 35638,16/07,Naturaleza Group Srl,-,0,  ,TD,                    ,BUA0345849,0,                              ,,     ,2025-08-05,,BUA0345849          ,Pendiente
 35637,16/07,Naturaleza Group Srl,-,0,  ,TD,                    ,BUA0345849,0,                              ,,     ,2025-08-05,,BUA0345849          ,Pendiente
