@@ -4,8 +4,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 36709-1-1,Mercovan Argentina S...,Cazares David,HLCUME3250474558,HLBU-346960-8,10-07-2025,23.00,1785.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=2140
 36710-1-1,Chemotecnica Sa,Cipermetrina Tecnica...,MEDUJB542754,TCLU-271702-5,10-07-2025,30.00,21660.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=2139
 36694-1-1,Mercovan Argentina S...,Dekker Johanes,253862854,MRKU-109476-0,10-07-2025,54.00,3820.00,IA9,http://dassa.mqbic.com/PublicTally.php?id=2138
-36690-0-3,Danisco Argentina Sa,Carragena,-,,10-07-2025,1.00,576.80,ANEX-A1,
 36690-0-2,Danisco Argentina Sa,Carragena,-,,10-07-2025,0.60,358.10,ANEX-A1,
+36690-0-3,Danisco Argentina Sa,Carragena,-,,10-07-2025,1.00,576.80,ANEX-A1,
 36670-1-1,Verde Fuerte Srl,Fertilizantes,SEA30/2505-0044A,MRKU-056983-4,08-07-2025,46.00,21308.44,IA5,http://dassa.mqbic.com/PublicTally.php?id=2133
 36672-2-1,Industrias Saladillo...,Accecosrios De Tuber...,TPNGBSG25056020,HDMU-271974-1,08-07-2025,27.00,15266.00,ANEX,http://dassa.mqbic.com/PublicTally.php?id=2134
 36672-1-1,Industrias Saladillo...,Accecosrios De Tuber...,TPNGBSG25056020,HDMU-271974-1,08-07-2025,27.00,15266.00,ANEX,http://dassa.mqbic.com/PublicTally.php?id=2134
@@ -62,8 +62,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 34975-1-1,Industrias Saladillo...,Valves,TPNGBSG25036008,CAIU-326125-2,24-04-2025,26.00,21532.00,NV1,http://dassa.mqbic.com/PublicTally.php?id=1743
 34823-1-1,Verde Fuerte Srl,Fertilizantes,SEA30/2503-0443A,UACU-850865-4,21-04-2025,46.00,20891.00,NV1,http://dassa.mqbic.com/PublicTally.php?id=1723
 34772-1-1,Bulldog Solutions S....,Textil Fabrics,NB250155715,TIIU-470327-0,15-04-2025,70.00,22400.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=1712
-34771-1-1,Grupo In 360 S.A.,Textile Fabrics,NB250155733,EMCU-171160-7,15-04-2025,60.00,22700.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=1711
 34773-1-1,Bulldog Solutions S....,Telas,NB250155950,TXGU-550686-0,15-04-2025,60.00,23630.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=1710
+34771-1-1,Grupo In 360 S.A.,Textile Fabrics,NB250155733,EMCU-171160-7,15-04-2025,60.00,22700.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=1711
 34369-1-1,Bulldog Solutions S....,Textil,NB250155390,EGSU-158551-3,18-03-2025,70.00,22580.00,IA9,http://dassa.mqbic.com/PublicTally.php?id=1598
 34190-2-1,Curtiembre Infante S...,Cuero,249002118,MRKU-822639-0,13-03-2025,30.00,20520.00,IB8,http://dassa.mqbic.com/PublicTally.php?id=1554
 34052-0-1,Alstom Argentina S.A...,Railroad Signaling,-,,07-03-2025,1.00,135.00,IA1,
@@ -72,27 +72,26 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 33854-2-1,Industrias Saladillo...,Acc Tuberias,TPNGBSG24126031,ZIMU-306705-4,24-02-2025,6.79,20551.00,IB8,http://dassa.mqbic.com/PublicTally.php?id=1427
 33854-1-1,Industrias Saladillo...,Acc De Tuberias,TPNGBSG24126031,BMOU-274034-8,24-02-2025,9.09,5990.50,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1426
 33707-1-1,Telamania Srl,Textil,NBOE24011092,UETU-649600-8,19-02-2025,68.00,15774.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=1373
-33581-1-1,Novelty Trend Srl,Telas,TWLE24120246,FFAU-653213-2,14-02-2025,52.98,18628.39,N23-1,http://dassa.mqbic.com/PublicTally.php?id=1341
 33487-2-1,Industrias Saladillo...,Valves,TPNGBSG24126014,TEMU-133886-8,07-02-2025,28.36,12235.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1322
 33487-1-1,Industrias Saladillo...,Valves,TPNGBSG24126014,GCXU-213925-6,07-02-2025,4.09,1286.50,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1323
-33019-1-1,Telamania Srl,Textil Fabric,GILN241000501,MSBU-650966-2,20-01-2025,68.00,15882.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=1232
 33018-1-1,Industrias Saladillo...,Accesorios De Tuberi...,ONEYNB4IVF532600,TEMU-750540-6,20-01-2025,47.66,16204.26,NV1,http://dassa.mqbic.com/PublicTally.php?id=1231
+33019-1-1,Telamania Srl,Textil Fabric,GILN241000501,MSBU-650966-2,20-01-2025,68.00,15882.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=1232
 32977-1-1,Industrias Saladillo...,Valves,TPNGBSG24116007,TIIU-640414-9,15-01-2025,7.96,2279.28,ANEX-B2,http://dassa.mqbic.com/PublicTally.php?id=1222
 32948-1-1,Industrias Saladillo...,Valve,TPNGBSG24116024,ZCSU-877997-8,14-01-2025,8.00,3630.89,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1210
 32938-1-1,Corona Insumos Srl,Iron Jeans Button,GSZBUE24101914,KOCU-428583-9,13-01-2025,5.37,4279.00,NV1,http://dassa.mqbic.com/PublicTally.php?id=1208
-32892-2-1,Lift Van Int. Co S.A,Efectos Personales,HLCUBC1241043227,CAIU-333600-6,10-01-2025,11.00,1275.00,EP-IM,http://dassa.mqbic.com/PublicTally.php?id=1196
 32877-1-1,Espert S.A.,Tracetina,DEBER208725-1,TRLU-906570-9,10-01-2025,20.00,16384.00,NV5,http://dassa.mqbic.com/PublicTally.php?id=1194
+32892-2-1,Lift Van Int. Co S.A,Efectos Personales,HLCUBC1241043227,CAIU-333600-6,10-01-2025,11.00,1275.00,EP-IM,http://dassa.mqbic.com/PublicTally.php?id=1196
 32864-1-1,Leanval S.A.,100Q7800G As Per,SZXS060075,TGBU-930019-6,09-01-2025,33.00,2481.74,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1193
 32838-1-1,Novelty Trend Srl,Telas,TWLE24100081,KOCU-434678-6,08-01-2025,30.25,10557.59,NV5,http://dassa.mqbic.com/PublicTally.php?id=1167
 32807-1-1,Nikin Srl,Caps,245505799,MNBU-305157-7,06-01-2025,18.33,2697.90,N1-11,http://dassa.mqbic.com/PublicTally.php?id=1160
 32745-1-1,Novelty Trend Srl,Textile Fabrics,TWLE24100054,KOCU-434561-9,03-01-2025,28.32,9764.10,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=1137
 32744-1-1,Grouport Srl,Umbrella,ONEYNBOE25891900,FSCU-582086-6,03-01-2025,7.98,2576.50,NV1,http://dassa.mqbic.com/PublicTally.php?id=1133
 32501-1-1,Daniel Berant,Botones Y Cierres,GSZBUE24100624,MSMU-809267-4,16-12-2024,6.91,2914.65,NV1,http://dassa.mqbic.com/PublicTally.php?id=1046
-32031-3-1,Espert S.A.,Maquina Industria Ta...,DEBER206843-1,BEAU-510320-4,20-11-2024,50.00,10700.00,NAVEEXTERI,http://dassa.mqbic.com/PublicTally.php?id=952
 32031-2-1,Espert S.A.,Maquina Industria Ta...,DEBER206843-1,MRSU-541647-1,20-11-2024,50.00,6900.00,IB1,http://dassa.mqbic.com/PublicTally.php?id=951
+32031-3-1,Espert S.A.,Maquina Industria Ta...,DEBER206843-1,BEAU-510320-4,20-11-2024,50.00,10700.00,NAVEEXTERI,http://dassa.mqbic.com/PublicTally.php?id=952
 31356-1-1,Bulldog Solutions S....,Telas,NB240746312,BMOU-544939-9,16-10-2024,68.00,24316.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=759
-31289-1-1,Grupo In 360 S.A.,Telas,NB240746310,TGBU-743656-3,15-10-2024,68.00,24188.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=746
 31311-1-1,Malu Ma Tex S.A.,Telas,NB240745153,BSIU-966307-0,15-10-2024,68.00,24060.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=749
+31289-1-1,Grupo In 360 S.A.,Telas,NB240746310,TGBU-743656-3,15-10-2024,68.00,24188.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=746
 31283-1-1,Mercovan Argentina S...,Mudanza - Moncho Jav...,HLCUBSC2408AROF0,TEMU-140086-1,14-10-2024,29.00,3175.00,NV2,http://dassa.mqbic.com/PublicTally.php?id=744
 30826-2-1,Thl International Sr...,Can-Am Maverick Xrs ...,243136094,SUDU-692672-3,17-09-2024,20.00,3120.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=668
 30687-1-1,Grouport Srl,Gorros,SZX24041664,MSMU-557586-9,09-09-2024,17.97,2536.00,NV1,
