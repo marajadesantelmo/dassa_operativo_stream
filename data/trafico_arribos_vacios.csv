@@ -18,7 +18,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35578,15/07,Sermat Sa,-,10074,  ,TD,                    ,LA0434166,0,                              ,,     ,2025-08-04,,                    ,Pendiente
 35612,15/07,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13257927,0,                              ,,     ,2025-08-04,Ebkg13257927,25001EC03007275K    ,Pendiente
 35579,15/07,Sermat Sa,-,10074,  ,TD,                    ,LA0434166,0,                              ,,     ,2025-08-04,,                    ,Pendiente
-35523,15/07,Hilado Sa,-,10081,HC,TD,                    ,255808171,0,                              ,,     ,2025-08-01,,                    ,Pendiente
+35523,15/07,Hilado Sa,MRKU-640223-2,10081,HC,TD,***********         ,255808171,1,TRANSPORTE DEL CLIENTE        ,Peril,09:21,2025-08-01,,                    ,09:21 Arribado
 35030,15/07,Minera Santa Rita Srl,UACU-846858-8,10080,DR,TD,*********           ,20488774,1,TRANSPORTE DEL CLIENTE        ,Perez,10:08,2025-07-18,20488774,20488774            ,10:08 Arribado
 35029,15/07,Minera Santa Rita Srl,UACU-837001-4,10080,DR,TD,********            ,20488774,1,TRANSPORTE DEL CLIENTE        ,Peril,10:06,2025-07-18,20488774,20488774            ,10:06 Arribado
 35562,15/07,Pallets Nef De Raul E. Fernand...,-,0,  ,TD,                    ,12215329,0,                              ,,     ,2025-08-04,12215329,12215329            ,Pendiente
