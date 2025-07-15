@@ -1,10 +1,12 @@
 Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-03-27,32421,,Mercovan Argentina Srl,251309894,"WALLACE, JOHN DAVID / EMB DE USA",Arribado
+2025-07-15,35642,,Mercovan Argentina Srl,256516909,BOCCARI MEGAN,Pendiente
 2025-07-14,35552,,Mercovan Argentina Srl,25001ES41000026P,KYLE DE ANDREASEN,Arribado
+2025-07-14,35586,,Mercovan Argentina Srl,90243386,PATRICIA CIONI,Pendiente
 2025-07-08,35371,,Mercovan Argentina Srl,256095159,"KUHN, JESSICA (POV)",Arribado
 2025-07-10,35403,,Mercovan Argentina Srl,256103876,"MAYO, TIFFANY",Arribado
 2025-07-10,35421,,Mercovan Argentina Srl,25001PE01 000240G,,Pendiente
-2025-07-14,35439,,Mercovan Argentina Srl,36701530,GABILLET GERALD DAMIEN,Pendiente
+2025-07-14,35439,,Mercovan Argentina Srl,36701530,GABILLET GERALD DAMIEN,Arribado
 2025-07-10,35440,,Mercovan Argentina Srl,256095159,"KUHN, JESSICA (HHE)",Arribado
 2025-07-03,35228,,Mercovan Argentina Srl,25001PE01,DHAENE KARL,Arribado
 2025-07-03,35263,,Mercovan Argentina Srl,25001PE01000228M,"MANNICK, JAMES // 3 CAJONES",Arribado
@@ -90,12 +92,14 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-05-19,33674,,Santana Textil Chaco Sa,25001EC01030960F,MA001/25,Arribado
 2025-03-28,32467,,Minera Santa Rita Srl,251889522,14-438 //251889522,Arribado
 2025-03-28,32468,,Minera Santa Rita Srl,93894297,14-437 //93894297,Arribado
+2025-07-14,35583,,Minera Santa Rita Srl,20488774,14/454,Arribado
+2025-07-14,35585,,Minera Santa Rita Srl,20488774,,Arribado
 2025-07-07,35332,,Minera Santa Rita Srl,49405206,,Arribado
 2025-07-11,35457,,Minera Santa Rita Srl,EBKG13459247,FACT 14-456,Arribado
 2025-07-15,35294,,Minera Santa Rita Srl,256516151,FACT 14-457,Pendiente
 2025-07-11,35025,,Minera Santa Rita Srl,20488774,20488774,Pendiente
 2025-07-14,35026,,Minera Santa Rita Srl,20488774,20488774,Arribado
-2025-07-14,35027,,Minera Santa Rita Srl,20488774,20488774,Pendiente
+2025-07-14,35027,,Minera Santa Rita Srl,20488774,20488774,Arribado
 2025-07-07,35014,,Minera Santa Rita Srl,49405206,FACT 14-453,Arribado
 2025-07-07,35015,,Minera Santa Rita Srl,49405206,FACT 14-453,Arribado
 2025-07-07,35016,,Minera Santa Rita Srl,49405206,FACT 14-453,Arribado
@@ -153,7 +157,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-07-15,35539,,A La Orden,LA0434166,SERMAT S.A // LA0434166,Pendiente
 2025-07-15,35540,,A La Orden,LA0434166,SERMAT S.A // LA0434166,Pendiente
 2025-07-14,35533,,A La Orden,LA0434166,SERMAT S.A // LA0434166,Pendiente
-2025-07-14,35534,,A La Orden,LA0434166,SERMAT S.A // LA0434166,Pendiente
+2025-07-14,35534,,A La Orden,LA0434166,SERMAT S.A // LA0434166,Arribado
 2025-07-14,35535,,A La Orden,LA0434166,SERMAT S.A // LA0434166,Pendiente
 2025-07-15,35536,,A La Orden,LA0434166,SERMAT S.A // LA0434166,Pendiente
 2025-07-15,35537,,A La Orden,LA0434166,SERMAT S.A // LA0434166,Pendiente
@@ -179,8 +183,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-03-19,32269,SIMU-706895-6,Dpmg S.A.,25001EC03 002811B,,Arribado
 2025-04-09,32707,,Dpmg S.A.,25001EC03003374G,EXPO TERRESTRE,Arribado
 2025-04-09,32708,,Dpmg S.A.,25001EC03003520W,EXPO TERRESTRE,Arribado
+2025-07-16,35584,,Dpmg S.A.,25001EC03EC03007269N,ISOTANQUE/#285,Pendiente
 2025-05-21,33742,,Dpmg S.A.,25001EC03005101T,,Arribado
 2025-06-25,34863,,Dpmg S.A.,25001EC03006392J,ISOTANQUE / #282,Arribado
+2025-07-16,35563,,Dpmg S.A.,25001EC03007249L,ISOTANQUE/#283,Pendiente
+2025-07-16,35564,,Dpmg S.A.,25001EC03007244G,ISOTANQUE/#284,Pendiente
 2025-04-24,33058,,Dpmg S.A.,EBKG12473011,"#273,",Arribado
 2025-04-24,33059,,Dpmg S.A.,EBKG12473011,#274,Arribado
 2025-04-24,33060,,Dpmg S.A.,EBKG12473011,#275,Arribado
@@ -365,7 +372,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-03-25,32393,,Valerio Oliva Forestal Sa,250297402,GRLEM25175/ 250297402,Arribado
 2025-04-14,32753,,Valerio Oliva Forestal Sa,251130577,GRLEM25242/ 251130577,Arribado
 2025-04-14,32754,,Valerio Oliva Forestal Sa,251744442,5150012 / 13 -251744442,Arribado
-2025-07-14,35509,,Valerio Oliva Forestal Sa,340500025117,GRLEM25790/V.OLIVA,Pendiente
+2025-07-14,35509,,Valerio Oliva Forestal Sa,340500025117,GRLEM25790/V.OLIVA,Arribado
 2025-07-17,35510,,Valerio Oliva Forestal Sa,340500025117,GRLEM25790/V.OLIVA,Pendiente
 2025-07-11,35344,,Valerio Oliva Forestal Sa,255303020,GRLEM25714 /255303020,Arribado
 2025-07-18,35433,,Valerio Oliva Forestal Sa,255303186,GRLEM25715/VALERIO OLIVA,Pendiente
@@ -418,7 +425,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-07-07,35325,,Maringa Maderas Sa,EBKG13411142,GRLEM25755 / EBKG13411142,Arribado
 2025-07-15,35425,,Maringa Maderas Sa,EBKG13411179,GRLEM25757 / EBKG13411179,Pendiente
 2025-07-14,35426,,Maringa Maderas Sa,EBKG13411161,GRLEM25756/ EBKG13411161,Arribado
-2025-07-14,35427,,Maringa Maderas Sa,EBKG13411179,GRLEM25757 / EBKG13411179,Pendiente
+2025-07-15,35427,,Maringa Maderas Sa,EBKG13411179,GRLEM25757 / EBKG13411179,Pendiente
 2025-06-24,34777,,Maringa Maderas Sa,EBKG13192544,GRLEM25699/MARINGA,Arribado
 2025-06-25,34781,,Maringa Maderas Sa,EBKG13159092,GRLEM25679/MARINGA,Arribado
 2025-07-01,34937,,Maringa Maderas Sa,EBKG13192555,GRLEM25700/MARINGA,Arribado
@@ -463,10 +470,14 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-03-26,32422,,Arleather S.R.L.,250299190,LOTE 2844 / 2835 / 2863 -250299190,Arribado
 2025-03-19,32303,,Arleather S.R.L.,25001,LOTE 2818-2821-2825,Pendiente
 2025-03-20,32319,,Arleather S.R.L.,EC01 016934K,,Arribado
+2025-07-15,35595,,Henn Y Cia S.R.L.,EBKG13257927,EBKG13257927,Arribado
+2025-07-15,35596,,Henn Y Cia S.R.L.,EBKG13257927,EBKG13257927,Pendiente
 2025-07-08,35336,,Henn Y Cia S.R.L.,EBKG13028616,EBKG13028616 // 3X40HC,Pendiente
 2025-07-08,35337,,Henn Y Cia S.R.L.,EBKG13028616,EBKG13028616 // 3X40HC,Arribado
 2025-07-08,35338,,Henn Y Cia S.R.L.,EBKG13028145,EBKG13028145 // 1X40HC,Arribado
 2025-07-08,35339,,Henn Y Cia S.R.L.,EBKG13028145,EBKG13028145 // 1X40HC,Pendiente
+2025-07-15,35593,,Henn Y Cia S.R.L.,EBKG13257927,EBKG13257927,Arribado
+2025-07-15,35594,,Henn Y Cia S.R.L.,EBKG13257927,EBKG13257927,Arribado
 2025-07-03,35226,,Henn Y Cia S.R.L.,25001EC03,1X20,Arribado
 2025-07-08,35335,,Henn Y Cia S.R.L.,EBKG13028616,EBKG13028616 // 3X40HC,Pendiente
 2025-07-01,35084,,Henn Y Cia S.R.L.,EBKG13159398,,Arribado
@@ -540,20 +551,18 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-03-21,32362,,Henn Y Cia S.R.L.,EBKG12211318,,Arribado
 2025-03-17,32161,,Borax Argentina S A,251189103,,Arribado
 2025-03-17,32175,,Borax Argentina S A,251189103,,Arribado
-2025-07-14,35478,,Borax Argentina S A,10082084,FACT 12425,Pendiente
 2025-07-14,35545,,Borax Argentina S A,FAC 12421/FACT 12245,REMITO 26699,Pendiente
-2025-07-10,35398,,Borax Argentina S A,256515583,,Arribado
 2025-07-10,35399,,Borax Argentina S A,256515583,,Arribado
 2025-07-10,35400,,Borax Argentina S A,256515583,,Arribado
 2025-07-10,35401,,Borax Argentina S A,256515583,,Pendiente
 2025-07-11,35465,,Borax Argentina S A,,FC 12421/1R,Arribado
-2025-07-07,35259,,Borax Argentina S A,255630746,FACT 12380,Arribado
-2025-07-07,35304,,Borax Argentina S A,256515650,FC 12384,Arribado
+2025-07-14,35478,,Borax Argentina S A,10082084,FACT 12425,Pendiente
 2025-07-07,35343,,Borax Argentina S A,256515650,,Arribado
+2025-07-10,35398,,Borax Argentina S A,256515583,,Arribado
 2025-07-07,35249,,Borax Argentina S A,255312036,FACT 12356  // 3X20,Arribado
 2025-07-07,35250,,Borax Argentina S A,255312036,FACT 12356  // 3X20,Arribado
 2025-07-07,35251,,Borax Argentina S A,255312036,FACT 12356  // 3X20,Pendiente
-2025-07-07,35258,,Borax Argentina S A,255630746,FACT 12380,Arribado
+2025-07-07,35304,,Borax Argentina S A,256515650,FC 12384,Arribado
 2025-06-25,34909,,Borax Argentina S A,255630746,FAC 12380 // 255630746,Arribado
 2025-06-23,34796,,Borax Argentina S A,255312124,FAC 12355 //255312124,Arribado
 2025-06-23,34797,,Borax Argentina S A,255312124,FAC 12355 //255312124,Arribado
@@ -617,6 +626,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-03-28,32466,,Lawter Argentina S.A.,37733100,LOTE 5151348 //37733100,Arribado
 2025-04-14,32757,,Lawter Argentina S.A.,ZIMUBUE9039285,166308/09/10 -ZIMUBUE9039285,Arribado
 2025-04-14,32758,,Lawter Argentina S.A.,ZIMUBUE9039285,166311/12/13 -ZIMUBUE9039285,Arribado
+2025-07-18,35565,,Lawter Argentina S.A.,BUA0344543,4700168795/6/7,Pendiente
+2025-07-18,35566,,Lawter Argentina S.A.,BUA0344543,4700168795/6/7,Pendiente
+2025-07-18,35567,,Lawter Argentina S.A.,BUA0344543,4700168795/6/7,Pendiente
+2025-07-16,35466,,Lawter Argentina S.A.,ZIMUBUE9041577,4700169074,Pendiente
+2025-07-16,35467,,Lawter Argentina S.A.,ZIMUBUE9041577,4700169074,Pendiente
+2025-07-16,35468,,Lawter Argentina S.A.,ZIMUBUE9041577,4700169074,Pendiente
+2025-07-16,35469,,Lawter Argentina S.A.,ZIMUBUE9041577,4700169074,Pendiente
 2025-06-13,34511,,Lawter Argentina S.A.,32049685,32049685,Arribado
 2025-07-02,35137,,Lawter Argentina S.A.,BUE500115400,REF: 5149792 - 5149793,Arribado
 2025-06-03,34257,,Lawter Argentina S.A.,253934352,REF:5149130+31+32+33 // 253934352,Arribado
@@ -741,7 +757,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-04-23,33010,,Laharrague Chodorge Sociedad Anonima,252815035,GRLAE2559/CHODORGE,Arribado
 2025-07-23,35299,,Laharrague Chodorge Sociedad Anonima,3172449,GRLEM25784/CHODORGE,Pendiente
 2025-07-23,35300,,Laharrague Chodorge Sociedad Anonima,3172449,GRLEM25784/CHODORGE,Pendiente
-2025-07-23,35301,,Laharrague Chodorge Sociedad Anonima,3172449,GRLEM25784/CHODORGE,Pendiente
+2025-07-23,35301,,Laharrague Chodorge Sociedad Anonima,3172449,GRLEM25784/CHODORGE,Arribado
 2025-07-10,35101,,Laharrague Chodorge Sociedad Anonima,48619187,GRLEM25743/CHODORGE,Arribado
 2025-07-10,35102,,Laharrague Chodorge Sociedad Anonima,48619187,GRLEM25743/CHODORGE,Arribado
 2025-07-10,35103,,Laharrague Chodorge Sociedad Anonima,48619187,GRLEM25743/CHODORGE,Arribado
@@ -769,6 +785,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-03-21,32361,,Adp Trading Srl,EC01 017158J,,Arribado
 2025-04-07,32556,,Adp Trading Srl,25001EC01019336J,EXPO TERRESTRE,Arribado
 2025-04-01,32559,,Adp Trading Srl,25001EC01019436K,EXPO TERRESTRE,Arribado
+2025-07-15,35650,,Adp Trading Srl,25001EC010446448N,,Pendiente
 2025-07-11,35541,,Adp Trading Srl,25001EC01 044648N,,Arribado
 2025-07-11,35542,,Adp Trading Srl,25001EC01 044840H,,Pendiente
 2025-07-11,35543,,Adp Trading Srl,25001EC01044840H,,Arribado
@@ -811,7 +828,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-07-08,35382,,Dautec Argentina Sas,31368689,,Arribado
 2025-07-08,35383,,Dautec Argentina Sas,34202462,34202462 // 15X40HC,Arribado
 2025-07-10,35409,,Dautec Argentina Sas,34202462,,Arribado
-2025-07-10,35410,,Dautec Argentina Sas,34202462,,Arribado
+2025-07-14,35587,,Dautec Argentina Sas,34202462,,Pendiente
+2025-07-14,35588,,Dautec Argentina Sas,34202492,,Pendiente
+2025-07-14,35589,,Dautec Argentina Sas,34202492,,Pendiente
 2025-03-28,32463,,Weiden Sociedad Anonima,36715985,GRLAE2543 / 36715985,Arribado
 2025-04-22,32923,,Weiden Sociedad Anonima,90484908,GRLAE2554 / WEIDEN,Arribado
 2025-04-11,32687,,Hellmann Worldwide Logistics,251462321,251462321 // MARAL SUR,Arribado
@@ -867,7 +886,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-06-03,34147,,Conextube Sa,BUA0342770,BUA0342770,Arribado
 2025-06-03,34148,,Conextube Sa,BUA0342770,BUA0342770,Arribado
 2025-07-14,35389,,Conextube Sa,256653277,,Pendiente
-2025-07-14,35528,,Conextube Sa,256653277,256653277,Pendiente
+2025-07-14,35528,,Conextube Sa,256653277,256653277,Arribado
 2025-05-13,33483,,American Transport S.R.L,25001EC01028977U,ALAMI FLEJES DE PRECISION,Arribado
 2025-05-20,33714,,Pons Estudio Aduanero,EBKG12816099,EBKG12816099 // REMITO 5656-5657,Arribado
 2025-05-20,33715,,Pons Estudio Aduanero,EBKG12816070,EBKG12816070 / REMITO 5658-5659,Arribado
@@ -903,9 +922,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-04-28,32817,,Hdv Leather S.R.L.,253129873,LOTE  2938 /  2959 - 253129873,Arribado
 2025-04-24,33063,,Hdv Leather S.R.L.,ARLEATHER,LOTE 2935+ 2960+ 2868 // 253269514,Arribado
 2025-04-24,33064,,Hdv Leather S.R.L.,253430248,LOTE 2942 + 2946+2953 // 253430248,Arribado
+2025-07-15,35592,,Hdv Leather S.R.L.,LOTE 3238,LOTE 3238,Pendiente
 2025-07-11,35515,,Hdv Leather S.R.L.,LOTE 3220,LOTE 3220,Arribado
 2025-07-14,35529,,Hdv Leather S.R.L.,LOTE 3234,LOTE 3234,Arribado
 2025-07-15,35555,,Hdv Leather S.R.L.,LOTE 3220,LOTE 3220,Pendiente
+2025-07-15,35590,,Hdv Leather S.R.L.,LOTE 3229,LOTE 3229,Pendiente
+2025-07-15,35591,,Hdv Leather S.R.L.,LOTE 3236,LOTE 3236,Pendiente
 2025-07-11,35428,,Hdv Leather S.R.L.,LOTE  3225,LOTE  3225,Arribado
 2025-07-11,35431,,Hdv Leather S.R.L.,LOTE 3231,LOTE 3231,Arribado
 2025-07-08,35341,,Hdv Leather S.R.L.,LOTE 3209,LOTE 3209,Arribado
@@ -1037,6 +1059,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-07-11,35458,,Smart Trading S.A.S,B946026044,,Arribado
 2025-07-07,35305,,Smart Trading S.A.S,254762551,POROTOS,Arribado
 2025-06-17,34644,,Ads Agropecuaria Sa,ADS AGROPECUARIA,ADS AGROPECUARIA,Arribado
+2025-07-15,35607,,Ads Agropecuaria Sa,256093292,256093292 ///,Pendiente
+2025-07-15,35608,,Ads Agropecuaria Sa,256093292,256093292 ///,Pendiente
+2025-07-15,35609,,Ads Agropecuaria Sa,256093292,256093292 ///,Pendiente
+2025-07-15,35610,,Ads Agropecuaria Sa,256093292,256093292 ///,Pendiente
 2025-06-17,34643,,Funcke Maritime Sa,ZIMUBUE9041145,OP: 3711,Arribado
 2025-06-12,34600,,Mager S R L,255073398,255073398 // MAGER,Arribado
 2025-06-19,34686,,La Aurora Sociedad Anonima Industrial Comercial Y Ganadera,255182768,OP: 3722,Arribado
@@ -1052,3 +1078,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-07-10,35418,,Pachamama Products S.R.L.,25001EC01044271F,,Pendiente
 2025-07-10,35419,,Pachamama Products S.R.L.,25001EC01044271F,,Arribado
 2025-07-10,35420,,Pachamama Products S.R.L.,25001EC01044271F,,Arribado
+2025-07-15,35597,,Naturaleza Group Srl,BUA0345849,BUA0345849,Pendiente
+2025-07-15,35598,,Naturaleza Group Srl,BUA0345849,BUA0345849,Pendiente
+2025-07-15,35599,,Naturaleza Group Srl,BUA0345849,BUA0345849,Pendiente
+2025-07-15,35600,,Naturaleza Group Srl,BUA0345849,BUA0345849,Pendiente
+2025-07-16,35601,,Naturaleza Group Srl,BUA0345849,BUA0345849,Pendiente
+2025-07-16,35602,,Naturaleza Group Srl,BUA0345849,BUA0345849,Pendiente
+2025-07-16,35603,,Naturaleza Group Srl,BUA0345849,BUA0345849,Pendiente
+2025-07-16,35604,,Naturaleza Group Srl,BUA0345849,BUA0345849,Pendiente
+2025-07-16,35605,,Naturaleza Group Srl,BUA0345849,BUA0345849,Pendiente
+2025-07-16,35606,,Naturaleza Group Srl,BUA0345849,BUA0345849,Pendiente
