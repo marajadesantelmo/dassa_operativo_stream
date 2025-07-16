@@ -15,6 +15,9 @@ def fetch_data_impo():
     retiros_impo = retiros_impo.sort_values(by="Dia")
     retiros_impo['Dia'] = retiros_impo['Dia'].dt.strftime('%d/%m')
     retiros_impo['Volumen'] = retiros_impo['Volumen'].round(0).astype(int)  # Round Volumen to integer
+    cols = retiros_impo.columns.tolist()
+    cols.insert(1, cols.pop(cols.index('Hora')))
+    retiros_impo = retiros_impo[cols]
     otros_impo = fetch_table_data("otros_impo")
     otros_impo = otros_impo[otros_impo['Dia'] != '-']
     existente_plz = fetch_table_data("existente_plz")
