@@ -10,6 +10,7 @@ def fetch_data_impo():
     arribos = arribos.sort_values(by="Turno") 
     pendiente_desconsolidar = fetch_table_data("pendiente_desconsolidar")
     verificaciones_impo = fetch_table_data("verificaciones_impo")
+    verificaciones_impo = verificaciones_impo.drop(columns=['Hora'])
     retiros_impo = fetch_table_data("retiros_impo")
     retiros_impo['Dia'] = pd.to_datetime(retiros_impo['Dia'], format='%d/%m')
     retiros_impo = retiros_impo.sort_values(by="Dia")

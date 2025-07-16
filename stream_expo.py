@@ -23,6 +23,9 @@ def fetch_data_expo():
     remisiones = remisiones.sort_values(by="Dia")
     remisiones['Dia'] = remisiones['Dia'].dt.strftime('%d/%m')
     remisiones['Volumen'] = remisiones['Volumen'].round(0).astype(int)
+    cols = remisiones.columns.tolist()
+    cols.insert(1, cols.pop(cols.index('Hora')))
+    remisiones = remisiones[cols]
     pendiente_consolidar = fetch_table_data("pendiente_consolidar")
     listos_para_remitir = fetch_table_data("listos_para_remitir")
     vacios_disponibles = fetch_table_data("vacios_disponibles")
