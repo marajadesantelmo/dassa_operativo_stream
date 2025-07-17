@@ -1,34 +1,10 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-35611,16/07,Mercovan Argentina Srl,HLBU-324345-7,10080,HC,TD,**********          ,37094305,1,TRANSPORTE DEL CLIENTE        ,Tolero,11:57,2025-08-04,Andreasen (Kyle Y Jessica),37094305            ,11:57 Arribado
-35636,16/07,Naturaleza Group Srl,CMAU-091077-2,10082,DR,TD,R1949718            ,BUA0345849,1,TRANSPORTE DEL CLIENTE        ,Porco,14:38,2025-08-05,,BUA0345849          ,14:38 Arribado
-35635,16/07,Naturaleza Group Srl,CMAU-027492-1,10082,DR,TD,R1949706            ,BUA0345849,1,TRANSPORTE DEL CLIENTE        ,Rios Ivan,14:37,2025-08-05,,BUA0345849          ,14:37 Arribado
-35634,16/07,Naturaleza Group Srl,TLLU-276617-8,10082,DR,TD,R1949711            ,BUA0345849,1,TRANSPORTE DEL CLIENTE        ,Carbone,14:09,2025-08-05,,BUA0345849          ,14:09 Arribado
-35633,16/07,Naturaleza Group Srl,CMAU-145847-7,10082,DR,TD,R1949705            ,BUA0345849,1,TRANSPORTE DEL CLIENTE        ,Carbone,14:08,2025-08-05,,BUA0345849          ,14:08 Arribado
-35632,16/07,Naturaleza Group Srl,TRHU-105238-0,10082,DR,TD,R1949720            ,BUA0345849,1,TRANSPORTE DEL CLIENTE        ,Rodriguez,14:00,2025-08-05,,BUA0345849          ,14:00 Arribado
-35631,16/07,Naturaleza Group Srl,UETU-256613-3,10082,DR,TD,R1949712            ,BUA0345849,1,TRANSPORTE DEL CLIENTE        ,Rodriguez,13:59,2025-08-05,,BUA0345849          ,13:59 Arribado
-35630,16/07,Naturaleza Group Srl,TCLU-374244-4,10082,DR,TD,R1949715            ,BUA0345849,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,13:45,2025-08-05,,BUA0345849          ,13:45 Arribado
-35629,16/07,Naturaleza Group Srl,CMAU-190115-8,10082,DR,TD,R1949717            ,BUA0345849,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,13:44,2025-08-05,,BUA0345849          ,13:44 Arribado
-35637,16/07,Naturaleza Group Srl,TGHU-004732-4,10082,DR,TD,R1949714            ,BUA0345849,1,TRANSPORTE DEL CLIENTE        ,Porco,14:40,2025-08-05,,BUA0345849          ,14:40 Arribado
-35619,16/07,Borax Argentina S A,MRKU-035718-3,0,DR,TD,***********         ,256602627,1,TRANSPORTE DEL CLIENTE        ,Peril,11:13,2025-08-05,Fac 12429,256602627           ,11:13 Arribado
-35680,16/07,Piranga Sa,BMOU-562066-5,10080,HC,TD,***********         ,34095700,1,TRANSPORTE DEL CLIENTE        ,Azcurrain,11:02,2025-08-06,,                    ,11:02 Arribado
-35677,16/07,Piranga Sa,HAMU-115276-4,10080,HC,TD,***********         ,34095700,1,TRANSPORTE DEL CLIENTE        ,Perez,10:18,2025-08-06,,                    ,10:18 Arribado
-35638,16/07,Naturaleza Group Srl,UETU-240171-9,10082,DR,TD,R1949666            ,BUA0345849,1,TRANSPORTE DEL CLIENTE        ,Rios Ivan,14:39,2025-08-05,,BUA0345849          ,14:39 Arribado
-35582,16/07,Maringa Maderas Sa,-,0,  ,TD,                    ,34095700,0,                              ,,     ,2025-08-04,34095700,34095700            ,Pendiente
-35639,16/07,Mercovan Argentina Srl,-,10086,DR,TD,                    ,256516909,0,                              ,,     ,2025-08-05,"Boccardi, Megan",                    ,Pendiente
-35668,16/07,Mercovan Argentina Srl,UACU-544003-6,10080,HC,TD,************        ,48738223,1,TRANSPORTE DEL CLIENTE        ,Rios,10:07,2025-08-05,Lea Rivera,                    ,10:07 Arribado
-35674,16/07,Dpmg S.A.,ZHLU-201715-6,0,is,TD,                    ,25001EC03007249L,1,TRANSPORTE DEL CLIENTE        ,.,09:24,2025-08-06,,                    ,09:24 Arribado
-35675,16/07,Dpmg S.A.,ZHLU-201717-7,0,is,TD,                    ,25001EC03007269N,1,TRANSPORTE DEL CLIENTE        ,.,09:24,2025-08-06,,                    ,09:24 Arribado
-35676,16/07,Dpmg S.A.,SIMU-706409-8,0,is,TD,                    ,25001EC03007244G,1,TRANSPORTE DEL CLIENTE        ,.,09:24,2025-08-06,,                    ,09:24 Arribado
-35627,16/07,Mader Zu S.R.L.,TCLU-672748-5,10080,HC,TD,************        ,34885166,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,10:23,2025-08-05,34885166,34885166            ,10:23 Arribado
-35628,16/07,Mader Zu S.R.L.,-,0,  ,TD,                    ,34885166,0,                              ,,     ,2025-08-05,34885166,34885166            ,Pendiente
-35679,16/07,Mader Zu S.R.L.,HLXU-846139-8,10080,HC,TD,***********         ,34885166,1,TRANSPORTE DEL CLIENTE        ,Catalano,10:54,2025-08-06,,                    ,10:54 Arribado
-35581,16/07,Maringa Maderas Sa,-,0,  ,TD,                    ,34095700,0,                              ,,     ,2025-08-04,34095700,34095700            ,Pendiente
-35694,17/07,Maringa Maderas Sa,-,Exolgan,HC,TD,                    ,EBKG13533627,0,                              ,,     ,2025-08-05,,                    ,Pendiente
-35570,17/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUA0344543,0,                              ,,     ,2025-08-04,4700168795/6/7,BUA0344543          ,Pendiente
-35569,17/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUA0344543,0,                              ,,     ,2025-08-04,4700168795/6/7,BUA0344543          ,Pendiente
 35434,17/07,Valerio Oliva Forestal Sa,-,0,  ,TD,                    ,255303186,0,                              ,,     ,2025-07-31,Grlem25715/Valerio Oliva,255303186           ,Pendiente
+35694,17/07,Maringa Maderas Sa,-,Exolgan,HC,TD,                    ,EBKG13533627,0,                              ,,     ,2025-08-05,,                    ,Pendiente
 35568,17/07,Lawter Argentina S.A.,TCKU-635315-6,10074,DR,TD,R1955207            ,BUA0344543,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,17:19,2025-08-04,4700168795/6/7,BUA0344543          ,17:19 Arribado
-35686,21/07,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG13440708,0,                              ,,     ,2025-08-06,Ebkg13440708,EBKG13440708        ,Pendiente
-35685,21/07,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG13458801,0,                              ,,     ,2025-08-06,Ebkg13458801,EBKG13458801        ,Pendiente
+35569,17/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUA0344543,0,                              ,,     ,2025-08-04,4700168795/6/7,BUA0344543          ,Pendiente
+35570,17/07,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUA0344543,0,                              ,,     ,2025-08-04,4700168795/6/7,BUA0344543          ,Pendiente
 35684,21/07,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG13458801,0,                              ,,     ,2025-08-06,Ebkg13458801,EBKG13458801        ,Pendiente
+35685,21/07,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG13458801,0,                              ,,     ,2025-08-06,Ebkg13458801,EBKG13458801        ,Pendiente
+35686,21/07,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG13440708,0,                              ,,     ,2025-08-06,Ebkg13440708,EBKG13440708        ,Pendiente
 35687,21/07,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG13440708,0,                              ,,     ,2025-08-06,Ebkg13440708,EBKG13440708        ,Pendiente
