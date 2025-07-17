@@ -20,7 +20,10 @@ def fetch_data_expo():
     otros_expo = otros_expo[otros_expo['Dia'] != '-']
     remisiones = fetch_table_data("remisiones")
     remisiones['Dia'] = pd.to_datetime(remisiones['Dia'], format='%d/%m')
-    remisiones = remisiones.sort_values(by="Dia")
+    remisiones['Hora'] = pd.to_datetime(remisiones['Hora'], errors='coerce').dt.strftime('%H:%M')
+    remisiones.sort_values(by=['Dia', 'Hora'], inplace=True)
+    remisiones['Hora'] = remisiones['Hora'].astype(str).str[:5]
+    remisiones['Hora'] = remisiones['Hora'].apply(lambda x: x[1:] if isinstance(x, str) and x.startswith('0') else x)
     remisiones['Dia'] = remisiones['Dia'].dt.strftime('%d/%m')
     remisiones['Volumen'] = remisiones['Volumen'].round(0).astype(int)
     cols = remisiones.columns.tolist()
