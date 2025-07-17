@@ -13,7 +13,10 @@ def fetch_data_impo():
     verificaciones_impo = verificaciones_impo.drop(columns=['Hora'])
     retiros_impo = fetch_table_data("retiros_impo")
     retiros_impo['Dia'] = pd.to_datetime(retiros_impo['Dia'], format='%d/%m')
-    retiros_impo = retiros_impo.sort_values(by="Dia")
+    retiros_impo['Hora'] = pd.to_datetime(retiros_impo['Hora'], errors='coerce').dt.strftime('%H:%M')
+    retiros_impo.sort_values(by=['Dia', 'Hora'], inplace=True)
+    retiros_impo['Hora'] = retiros_impo['Hora'].astype(str).str[:5]
+    retiros_impo['Hora'] = retiros_impo['Hora'].apply(lambda x: x[1:] if isinstance(x, str) and x.startswith('0') else x)
     retiros_impo['Dia'] = retiros_impo['Dia'].dt.strftime('%d/%m')
     retiros_impo['Volumen'] = retiros_impo['Volumen'].round(0).astype(int)  # Round Volumen to integer
     cols = retiros_impo.columns.tolist()
