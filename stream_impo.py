@@ -23,7 +23,7 @@ def fetch_data_impo():
     otros_impo = otros_impo[otros_impo['Dia'] != '-']
     existente_plz = fetch_table_data("existente_plz")
     existente_alm = fetch_table_data("existente_alm")
-    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, retiros_impo_ctnnac
+    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm
 
 @st.cache_data(ttl=60)
 def fetch_last_update():
@@ -35,7 +35,7 @@ def fetch_last_update():
 
 def show_page_impo():
     # Load data
-    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, retiros_impo_ctnnac = fetch_data_impo()
+    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm= fetch_data_impo()
     last_update = fetch_last_update()
     mudanceras_filter = ['Mercovan', 'Lift Van', 'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
     if st.session_state['username'] == "mudancera":
