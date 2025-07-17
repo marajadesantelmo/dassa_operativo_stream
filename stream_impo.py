@@ -95,7 +95,7 @@ def show_page_impo():
         retiros_impo_ctn = retiros_impo[retiros_impo['Envase'] == "Contenedor"].drop(columns=['Envase', 'Cant.', 'Volumen', 'e-tally', 'Salida'])
         retiros_impo_carga = retiros_impo[retiros_impo['Envase'] != "Contenedor"]
         retiros_impo_ctnnac = retiros_impo_carga[retiros_impo['Ubic.'] == 'CTNNAC']
-        retiros_impo = retiros_impo_carga[retiros_impo['Ubic.'] != 'CTNNAC']
+        retiros_impo_carga = retiros_impo_carga[retiros_impo['Ubic.'] != 'CTNNAC']
         st.write("Contenedores")
         st.dataframe(retiros_impo_ctn.style.apply(highlight, axis=1), 
                     hide_index=True, use_container_width=True)
