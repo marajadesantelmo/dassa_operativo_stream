@@ -95,11 +95,12 @@ def show_page_impo():
         retiros_impo = retiros_impo_carga[retiros_impo['Ubic.'] != 'CTNNAC']
         st.write("Contenedores")
         st.dataframe(retiros_impo_ctn.style.apply(highlight, axis=1), 
+                    hide_index=True, use_container_width=True)
+        st.write("CTNs Nacionales")
+        st.dataframe(retiros_impo_ctnnac.style.apply(highlight, axis=1), 
                     column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",), 
                                     'Salida': st.column_config.LinkColumn('Salida', display_text="\U0001F517",)},
                     hide_index=True, use_container_width=True)
-        st.write("CTNs Nacionales")
-        st.dataframe(retiros_impo_ctnnac.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
         if st.session_state['username'] != "plazoleta":
             st.write("Carga suelta")
             st.dataframe(retiros_impo_carga.style.apply(highlight, axis=1), 
