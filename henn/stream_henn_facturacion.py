@@ -5,8 +5,8 @@ import time
 from utils import highlight
 
 def fetch_data_facturacion():
-    facturacion = pd.read_csv('data/facturacion_liftvan.csv')
-    saldos = pd.read_csv('data/saldos_liftvan.csv')
+    facturacion = pd.read_csv('data/facturacion_henn.csv')
+    saldos = pd.read_csv('data/saldos_henn.csv')
     kpis = pd.read_csv('data/kpis.csv')
     return facturacion, saldos, kpis
     
@@ -22,7 +22,7 @@ def show_page_facturacion():
     with col_logo:
         st.image('logo.png')
     with col_simpa:
-        st.image('logo_liftvan.png')
+        st.image('logo_henn.png')
 
     col1, col2 = st.columns(2)
     with col1:
