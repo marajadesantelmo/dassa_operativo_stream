@@ -5,23 +5,23 @@ import time
 
 def fetch_data_impo_historico():
     arribos_impo_historico = pd.read_csv('data/arribos_impo_historico.csv')
-    arribos_impo_historico = arribos_impo_historico[arribos_impo_historico['Cliente'].str.contains('Lift|Edelweiss')]
+    arribos_impo_historico = arribos_impo_historico[arribos_impo_historico['Cliente'].str.contains('Henn|Fulling|Forestal San')]
     historico_retiros_impo = pd.read_csv('data/historico_retiros_impo.csv')
-    historico_retiros_impo = historico_retiros_impo[historico_retiros_impo['Cliente'].str.contains('Lift|Edelweiss')]
+    historico_retiros_impo = historico_retiros_impo[historico_retiros_impo['Cliente'].str.contains('Henn|Fulling|Forestal San')]
     historico_verificaciones_impo = pd.read_csv('data/historico_verificaciones_impo.csv')
-    historico_verificaciones_impo = historico_verificaciones_impo[historico_verificaciones_impo['Cliente'].str.contains('Lift|Edelweiss')]
+    historico_verificaciones_impo = historico_verificaciones_impo[historico_verificaciones_impo['Cliente'].str.contains('Henn|Fulling|Forestal San')]
     historico_otros_impo = pd.read_csv('data/historico_otros_impo.csv')
-    historico_otros_impo = historico_otros_impo[historico_otros_impo['Cliente'].str.contains('Lift|Edelweiss')]
+    historico_otros_impo = historico_otros_impo[historico_otros_impo['Cliente'].str.contains('Henn|Fulling|Forestal San')]
     arribos_expo_carga_historico = pd.read_csv('data/arribos_expo_carga_historico.csv')
-    arribos_expo_carga_historico = arribos_expo_carga_historico[arribos_expo_carga_historico['Cliente'].str.contains('Lift|Edelweiss')]
+    arribos_expo_carga_historico = arribos_expo_carga_historico[arribos_expo_carga_historico['Cliente'].str.contains('Henn|Fulling|Forestal San')]
     arribos_expo_ctns_historico = pd.read_csv('data/arribos_expo_ctns_historico.csv')
-    arribos_expo_ctns_historico = arribos_expo_ctns_historico[arribos_expo_ctns_historico['Cliente'].str.contains('Lift|Edelweiss')]
+    arribos_expo_ctns_historico = arribos_expo_ctns_historico[arribos_expo_ctns_historico['Cliente'].str.contains('Henn|Fulling|Forestal San')]
     historico_retiros_expo = pd.read_csv('data/historico_retiros_expo.csv')
-    historico_retiros_expo = historico_retiros_expo[historico_retiros_expo['Cliente'].str.contains('Lift|Edelweiss')]
+    historico_retiros_expo = historico_retiros_expo[historico_retiros_expo['Cliente'].str.contains('Henn|Fulling|Forestal San')]
     historico_verificaciones_expo = pd.read_csv('data/historico_verificaciones_expo.csv')
-    historico_verificaciones_expo = historico_verificaciones_expo[historico_verificaciones_expo['Cliente'].str.contains('Lift|Edelweiss')]
+    historico_verificaciones_expo = historico_verificaciones_expo[historico_verificaciones_expo['Cliente'].str.contains('Henn|Fulling|Forestal San')]
     historico_otros_expo = pd.read_csv('data/historico_otros_expo.csv')
-    historico_otros_expo = historico_otros_expo[historico_otros_expo['Cliente'].str.contains('Lift|Edelweiss')]
+    historico_otros_expo = historico_otros_expo[historico_otros_expo['Cliente'].str.contains('Henn|Fulling|Forestal San')]
 
 
     return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo, historico_otros_impo, arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_retiros_expo, historico_verificaciones_expo, historico_otros_expo

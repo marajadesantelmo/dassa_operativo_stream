@@ -7,17 +7,17 @@ from utils import highlight
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
     existente_plz = pd.read_csv('data/existente_plz.csv')
-    existente_plz = existente_plz[existente_plz['Cliente'].str.contains('Lift|Edelweiss')]
+    existente_plz = existente_plz[existente_plz['Cliente'].str.contains('Henn|Fulling|Forestal San')]
     existente_plz = existente_plz.rename(columns={'Desc': 'Mudable'})
     existente_alm = pd.read_csv('data/existente_alm.csv')
-    existente_alm = existente_alm[existente_alm['Cliente'].str.contains('Lift|Edelweiss')]
+    existente_alm = existente_alm[existente_alm['Cliente'].str.contains('Henn|Fulling|Forestal San')]
     existente_plz = existente_plz.rename(columns={'Desc': 'Mudable'})
     existente_plz = existente_plz.drop_duplicates()
     existente_alm = existente_alm.drop_duplicates()
     pendiente_consolidar = pd.read_csv('data/pendiente_consolidar.csv')
-    pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente'].str.contains('Lift|Edelweiss')]
+    pendiente_consolidar = pendiente_consolidar[pendiente_consolidar['Cliente'].str.contains('Henn|Fulling|Forestal San')]
     listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
-    listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente'].str.contains('Lift|Edelweiss')]
+    listos_para_remitir = listos_para_remitir[listos_para_remitir['Cliente'].str.contains('Henn|Fulling|Forestal San')]
     listos_para_remitir['e-tally'] = listos_para_remitir['e-tally'].fillna("")
     return existente_plz, existente_alm, pendiente_consolidar, listos_para_remitir
 

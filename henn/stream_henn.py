@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(page_title="Operativa DASSA-Liftvan", 
+st.set_page_config(page_title="Operativa DASSA-Henn & Cía", 
                    page_icon="📊", 
                    layout="wide")
 
