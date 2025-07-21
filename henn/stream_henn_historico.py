@@ -27,9 +27,7 @@ def show_page_historico():
     date_columns = {
         'arribos_expo_carga_historico': 'Fecha',
         'arribos_expo_ctns_historico': 'Fecha',
-        'historico_retiros_expo': 'Dia',
-        'historico_verificaciones_expo': 'Dia',
-        'historico_otros_expo': 'Dia' }
+        'historico_verificaciones_expo': 'Dia' }
     for df_name, date_col in date_columns.items():
         df = locals()[df_name]
         if not df.empty:
