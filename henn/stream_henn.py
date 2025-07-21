@@ -78,7 +78,7 @@ else:
     elif page_selection == "Orden del Día":
         stream_henn_orden_del_dia.show_page_orden_del_dia()
     elif page_selection == "Histórico":
-        stream_henn_historico.show_page_impo_historico()
+        stream_henn_historico.show_page_historico()
     elif page_selection == "Facturación" and st.session_state.username != "operativo":
         stream_henn_facturacion.show_page_facturacion()
     elif page_selection == "Logout":
