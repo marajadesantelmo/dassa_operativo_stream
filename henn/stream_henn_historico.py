@@ -12,7 +12,7 @@ def fetch_data_impo_historico():
     historico_verificaciones_expo = historico_verificaciones_expo[historico_verificaciones_expo['Cliente'].str.contains('Henn|Fulling|Forestal San')]
     historico_otros_expo = pd.read_csv('data/historico_otros_expo.csv')
     historico_otros_expo = historico_otros_expo[historico_otros_expo['Cliente'].str.contains('Henn|Fulling|Forestal San')]
-    return arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo, historico_otros_expo
+    return arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo
 
 def filter_data(data, start_date, end_date, date_column):
     filtered_data = data[(data[date_column] >= pd.to_datetime(start_date)) & 
