@@ -39,7 +39,7 @@ def show_page_orden_del_dia():
     with col_logo:
         st.image('logo.png')
     with col_simpa:
-        st.image('logo_liftvan.png')
+        st.image('logo_henn.png')
     col1, col2 = st.columns(2)
 
     col1, col2 = st.columns(2)
