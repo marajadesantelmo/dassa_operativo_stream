@@ -1,35 +1,44 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 35861,22/07,Edelweiss Spedition Srl,HLBU-396305-6,2,DR,TD,*************       ,35330092,1,TRANSPORTE DEL CLIENTE        ,Galvan,13:41,2025-08-12,Mariano Dandrich,                    ,13:41 Arribado
-35865,22/07,Hdv Leather S.R.L.,MRSU-348962-7,10080,HC,TD,***********         ,256662089,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,13:48,2025-08-12,,                    ,13:48 Arribado
-35859,22/07,Hdv Leather S.R.L.,MRSU-763978-8,10080,HC,TD,***********         ,256662089,1,TRANSPORTE DEL CLIENTE        ,Ruiz,11:40,2025-08-12,,                    ,11:40 Arribado
-35858,22/07,Hdv Leather S.R.L.,MRSU-655694-5,10080,HC,TD,**********          ,256662122,1,TRANSPORTES LEIRA-NO USAR     ,Muller,11:32,2025-08-12,,                    ,11:32 Arribado
-35857,22/07,Hdv Leather S.R.L.,MSKU-168389-0,10080,HC,TD,**********          ,256662122,1,TRANSPORTE DEL CLIENTE        ,Porco,11:27,2025-08-12,,                    ,11:27 Arribado
-35848,22/07,Hdv Leather S.R.L.,SELU-402153-2,10076,HC,TD,**********          ,256661789,1,TRANSPORTE DEL CLIENTE        ,Perez,09:26,2025-08-12,,                    ,09:26 Arribado
-35829,22/07,Laharrague Chodorge Sociedad A...,FANU-101629-2,10080,HC,TD,**********          ,31722449,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,12:04,2025-08-11,,                    ,12:04 Arribado
-35828,22/07,Laharrague Chodorge Sociedad A...,BEAU-497199-5,10080,HC,TD,*********           ,31722449,1,TRANSPORTE DEL CLIENTE        ,Ayala,12:01,2025-08-11,,                    ,12:01 Arribado
-35827,22/07,Laharrague Chodorge Sociedad A...,FANU-503532-5,10080,HC,TD,**********          ,31722449,1,TRANSPORTE DEL CLIENTE        ,Basualdo,10:17,2025-08-11,,                    ,10:17 Arribado
-35826,22/07,Laharrague Chodorge Sociedad A...,HLBU-254193-0,10080,HC,TD,******              ,31722449,1,TRANSPORTE DEL CLIENTE        ,Galvan,09:13,2025-08-11,,                    ,09:13 Arribado
-35825,22/07,Laharrague Chodorge Sociedad A...,FANU-321407-0,10080,HC,TD,*********           ,31722449,1,TRANSPORTE DEL CLIENTE        ,Ayala,09:10,2025-08-11,,                    ,09:10 Arribado
-35843,22/07,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13028616,0,                              ,,     ,2025-08-11,,                    ,Pendiente
-35842,22/07,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13028616,0,                              ,,     ,2025-08-11,,                    ,Pendiente
-35841,22/07,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13028616,0,                              ,,     ,2025-08-11,,                    ,Pendiente
-35840,22/07,Henn Y Cia S.R.L.,MSDU-531566-0,Exolgan,HC,TD,FX32939792          ,EBKG13028145,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,14:41,2025-08-11,,                    ,14:41 Arribado
-35807,22/07,Henn Y Cia S.R.L.,EGSU-940821-6,10076,HC,TD,**********          ,340500025592,1,TRANSPORTE DEL CLIENTE        ,Carbone,14:36,2025-08-08,340500025592,340500025592        ,14:36 Arribado
-35806,22/07,Henn Y Cia S.R.L.,EGHU-944058-0,10076,HC,TD,***********         ,340500025592,1,TRANSPORTE DEL CLIENTE        ,Rodriguez,14:33,2025-08-08,340500025592,340500025592        ,14:33 Arribado
 35805,22/07,Henn Y Cia S.R.L.,EITU-189370-3,10076,HC,TD,**********          ,340500025592,1,TRANSPORTE DEL CLIENTE        ,Azcurrain,14:10,2025-08-08,340500025592,340500025592        ,14:10 Arribado
-35850,22/07,Alimentaria Sa,-,10077,DR,TD,                    ,255815904,0,                              ,,     ,2025-08-12,,                    ,Pendiente
+35806,22/07,Henn Y Cia S.R.L.,EGHU-944058-0,10076,HC,TD,***********         ,340500025592,1,TRANSPORTE DEL CLIENTE        ,Rodriguez,14:33,2025-08-08,340500025592,340500025592        ,14:33 Arribado
+35807,22/07,Henn Y Cia S.R.L.,EGSU-940821-6,10076,HC,TD,**********          ,340500025592,1,TRANSPORTE DEL CLIENTE        ,Carbone,14:36,2025-08-08,340500025592,340500025592        ,14:36 Arribado
+35840,22/07,Henn Y Cia S.R.L.,MSDU-531566-0,Exolgan,HC,TD,FX32939792          ,EBKG13028145,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,14:41,2025-08-11,,                    ,14:41 Arribado
+35841,22/07,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13028616,0,                              ,,     ,2025-08-11,,                    ,Pendiente
+35842,22/07,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13028616,0,                              ,,     ,2025-08-11,,                    ,Pendiente
+35843,22/07,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,EBKG13028616,0,                              ,,     ,2025-08-11,,                    ,Pendiente
+35825,22/07,Laharrague Chodorge Sociedad A...,FANU-321407-0,10080,HC,TD,*********           ,31722449,1,TRANSPORTE DEL CLIENTE        ,Ayala,09:10,2025-08-11,,                    ,09:10 Arribado
+35826,22/07,Laharrague Chodorge Sociedad A...,HLBU-254193-0,10080,HC,TD,******              ,31722449,1,TRANSPORTE DEL CLIENTE        ,Galvan,09:13,2025-08-11,,                    ,09:13 Arribado
+35827,22/07,Laharrague Chodorge Sociedad A...,FANU-503532-5,10080,HC,TD,**********          ,31722449,1,TRANSPORTE DEL CLIENTE        ,Basualdo,10:17,2025-08-11,,                    ,10:17 Arribado
+35828,22/07,Laharrague Chodorge Sociedad A...,BEAU-497199-5,10080,HC,TD,*********           ,31722449,1,TRANSPORTE DEL CLIENTE        ,Ayala,12:01,2025-08-11,,                    ,12:01 Arribado
+35829,22/07,Laharrague Chodorge Sociedad A...,FANU-101629-2,10080,HC,TD,**********          ,31722449,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,12:04,2025-08-11,,                    ,12:04 Arribado
+35848,22/07,Hdv Leather S.R.L.,SELU-402153-2,10076,HC,TD,**********          ,256661789,1,TRANSPORTE DEL CLIENTE        ,Perez,09:26,2025-08-12,,                    ,09:26 Arribado
+35857,22/07,Hdv Leather S.R.L.,MSKU-168389-0,10080,HC,TD,**********          ,256662122,1,TRANSPORTE DEL CLIENTE        ,Porco,11:27,2025-08-12,,                    ,11:27 Arribado
+35858,22/07,Hdv Leather S.R.L.,MRSU-655694-5,10080,HC,TD,**********          ,256662122,1,TRANSPORTES LEIRA-NO USAR     ,Muller,11:32,2025-08-12,,                    ,11:32 Arribado
+35859,22/07,Hdv Leather S.R.L.,MRSU-763978-8,10080,HC,TD,***********         ,256662089,1,TRANSPORTE DEL CLIENTE        ,Ruiz,11:40,2025-08-12,,                    ,11:40 Arribado
+35865,22/07,Hdv Leather S.R.L.,MRSU-348962-7,10080,HC,TD,***********         ,256662089,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,13:48,2025-08-12,,                    ,13:48 Arribado
+35804,22/07,Henn Y Cia S.R.L.,EMCU-162204-8,10076,HC,TD,**********          ,340500025592,1,TRANSPORTE DEL CLIENTE        ,Carbone,11:21,2025-08-08,340500025592,340500025592        ,11:21 Arribado
+35819,22/07,Peri S.A,SEGU-595337-0,TRP,HC,TD,**********          ,BUEF08879400,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,14:22,2025-08-11,,                    ,14:22 Arribado
+35803,22/07,Henn Y Cia S.R.L.,CAAU-521677-4,10076,HC,TD,*********           ,340500025592,1,TRANSPORTE DEL CLIENTE        ,Rodriguez,11:18,2025-08-08,340500025592,340500025592        ,11:18 Arribado
+35824,22/07,Pallets Nef De Raul E. Fernand...,FANU-317913-3,10080,HC,TD,************        ,93347198,1,TRANSPORTE DEL CLIENTE        ,Ruiz,15:59,2025-08-11,,                    ,15:59 Arribado
+35802,22/07,Henn Y Cia S.R.L.,EGSU-991690-0,10076,HC,TD,***********         ,340500025592,1,TRANSPORTE DEL CLIENTE        ,Azcurrain,10:53,2025-08-08,340500025592,340500025592        ,10:53 Arribado
 35851,22/07,Alimentaria Sa,-,10077,DR,TD,                    ,255815904,0,                              ,,     ,2025-08-12,,                    ,Pendiente
 35852,22/07,Alimentaria Sa,-,10077,DR,TD,                    ,255815904,0,                              ,,     ,2025-08-12,,                    ,Pendiente
 35853,22/07,Alimentaria Sa,APZU-371864-4,10077,DR,TD,*********           ,255691525,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,15:33,2025-08-12,,                    ,15:33 Arribado
 35854,22/07,Alimentaria Sa,MSKU-559130-2,10077,DR,TD,************        ,255691525,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,15:37,2025-08-12,,                    ,15:37 Arribado
-35855,22/07,Alimentaria Sa,-,10077,DR,TD,                    ,255691525,0,                              ,,     ,2025-08-12,,                    ,Pendiente
-35819,22/07,Peri S.A,SEGU-595337-0,TRP,HC,TD,**********          ,BUEF08879400,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,14:22,2025-08-11,,                    ,14:22 Arribado
+35850,22/07,Alimentaria Sa,-,10077,DR,TD,                    ,255815904,0,                              ,,     ,2025-08-12,,                    ,Pendiente
 35856,22/07,Alimentaria Sa,-,10077,DR,TD,                    ,255691525,0,                              ,,     ,2025-08-12,,                    ,Pendiente
+35821,22/07,Pallets Nef De Raul E. Fernand...,HLBU-208355-0,10080,HC,TD,*********           ,93347198,1,TRANSPORTE DEL CLIENTE        ,Perez,11:02,2025-08-11,,                    ,11:02 Arribado
 35822,22/07,Pallets Nef De Raul E. Fernand...,HAMU-255877-9,10080,HC,TD,**********          ,93347198,1,TRANSPORTE DEL CLIENTE        ,Ruiz,14:02,2025-08-11,,                    ,14:02 Arribado
 35823,22/07,Pallets Nef De Raul E. Fernand...,FANU-150181-0,10080,HC,TD,***********         ,93347198,1,TRANSPORTE DEL CLIENTE        ,Alvarez,14:16,2025-08-11,,                    ,14:16 Arribado
-35824,22/07,Pallets Nef De Raul E. Fernand...,FANU-317913-3,10080,HC,TD,************        ,93347198,1,TRANSPORTE DEL CLIENTE        ,Ruiz,15:59,2025-08-11,,                    ,15:59 Arribado
-35802,22/07,Henn Y Cia S.R.L.,EGSU-991690-0,10076,HC,TD,***********         ,340500025592,1,TRANSPORTE DEL CLIENTE        ,Azcurrain,10:53,2025-08-08,340500025592,340500025592        ,10:53 Arribado
-35803,22/07,Henn Y Cia S.R.L.,CAAU-521677-4,10076,HC,TD,*********           ,340500025592,1,TRANSPORTE DEL CLIENTE        ,Rodriguez,11:18,2025-08-08,340500025592,340500025592        ,11:18 Arribado
-35804,22/07,Henn Y Cia S.R.L.,EMCU-162204-8,10076,HC,TD,**********          ,340500025592,1,TRANSPORTE DEL CLIENTE        ,Carbone,11:21,2025-08-08,340500025592,340500025592        ,11:21 Arribado
-35821,22/07,Pallets Nef De Raul E. Fernand...,HLBU-208355-0,10080,HC,TD,*********           ,93347198,1,TRANSPORTE DEL CLIENTE        ,Perez,11:02,2025-08-11,,                    ,11:02 Arribado
+35855,22/07,Alimentaria Sa,-,10077,DR,TD,                    ,255691525,0,                              ,,     ,2025-08-12,,                    ,Pendiente
 35820,22/07,Peri S.A,-,TRP,DR,TD,                    ,BUEF08879400,0,                              ,,     ,2025-08-11,,                    ,Pendiente
+35886,23/07,Refractarios Argentinos Saicm,-,10080,DC,TD,                    ,92902045,0,                              ,,     ,2025-08-12,,                    ,Pendiente
+35885,23/07,Refractarios Argentinos Saicm,-,10080,DC,TD,                    ,92902045,0,                              ,,     ,2025-08-12,,                    ,Pendiente
+35884,23/07,A La Orden,-,9,DC,TD,                    ,EBKG13615785,0,                              ,,     ,2025-08-12,Termoplasticos,                    ,Pendiente
+35878,23/07,Hellmann Worldwide Logistics,-,10080,RF,TD,                    ,30711984,0,                              ,,     ,2025-08-12,,                    ,Pendiente
+35883,23/07,A La Orden,-,10080,DC,TD,                    ,256457109,0,                              ,,     ,2025-08-12,Chaguar,                    ,Pendiente
+35882,23/07,A La Orden,-,10080,DC,TD,                    ,256457109,0,                              ,,     ,2025-08-12,Chaguar,                    ,Pendiente
+35881,23/07,A La Orden,-,10080,DC,TD,                    ,256457109,0,                              ,,     ,2025-08-12,Chaguar,                    ,Pendiente
+35880,23/07,A La Orden,-,10080,DC,TD,                    ,256457109,0,                              ,,     ,2025-08-12,Chaguar,                    ,Pendiente
+35879,23/07,A La Orden,-,10080,DC,TD,                    ,256457109,0,                              ,,     ,2025-08-12,Chaguar,                    ,Pendiente
