@@ -48,6 +48,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-04-07,32589,,Lift Van Int. Co S.A,32089014,CEDRIC PASCO // EFECTOS PERS.,Arribado
 2025-04-07,32590,,Lift Van Int. Co S.A,EBKG12413855,GUSTAVO KOWIENSKI // EFECTOS PERS.,Arribado
 2025-04-07,32591,,Lift Van Int. Co S.A,LA0416090,MARIO BATISTA // EFECTOS PERS.,Arribado
+2025-07-23,35903,,Lift Van Int. Co S.A,256654796,ULRIKA GRUFFMAN,Pendiente
 2025-07-15,35556,,Lift Van Int. Co S.A,35330092,MARIANO DANDRICH,Arribado
 2025-07-17,35669,,Lift Van Int. Co S.A,25001ES41,RORY KENNEDY // AUTO,Arribado
 2025-07-22,35849,,Lift Van Int. Co S.A,23265518,RORY KENNEDY,Arribado
@@ -90,6 +91,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-04-22,32926,,Lift Van Int. Co S.A,25001PER1000211P,MATEO MORAL FIGUEROA,Arribado
 2025-04-23,33020,,Lift Van Int. Co S.A,252955774,DAVID ADEJUMO // EFECTOS PERS.,Arribado
 2025-04-08,32623,,Lift Van Int. Co S.A,252254994,PATRICIA PEART // EFECTOS PERS.,Arribado
+2025-07-23,35904,,Edelweiss Spedition Srl,256833670,THOMAS RAINER ZIENER,Arribado
 2025-07-03,35183,,Edelweiss Spedition Srl,255755492,ALINA MARIA RAMOS,Arribado
 2025-05-13,33475,,Edelweiss Spedition Srl,253618252,RACHELLE GONZALEZ,Arribado
 2025-05-19,33674,,Santana Textil Chaco Sa,25001EC01030960F,MA001/25,Arribado
@@ -186,6 +188,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-04-24,33113,TCNU-731668-1,A La Orden,NACIONAL,,Arribado
 2025-04-24,33117,GESU-568784-6,A La Orden,NACIONAL,,Arribado
 2025-04-28,33169,TCNU-765329-7,A La Orden,NACIONAL,,Arribado
+2025-07-23,35900,,Termoplasticos Del Sur Sa,EBKG13615785,EBKG13615785 //,Arribado
+2025-07-23,35901,,Termoplasticos Del Sur Sa,23782252,CME013849 | 4963 EM //23782252,Pendiente
 2025-07-02,35182,,Fijaciones Py S.A.,EC01 041044A,,Arribado
 2025-04-09,32707,,Dpmg S.A.,25001EC03003374G,EXPO TERRESTRE,Arribado
 2025-04-09,32708,,Dpmg S.A.,25001EC03003520W,EXPO TERRESTRE,Arribado
@@ -200,6 +204,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-04-22,32907,,Refractarios Argentinos Saicm,38192674,,Pendiente
 2025-04-22,32936,,Refractarios Argentinos Saicm,25001EC01023907X,EC 2685-25,Arribado
 2025-06-26,34932,,Refractarios Argentinos Saicm,16096009,EC 2692-25,Arribado
+2025-07-23,35891,,Refractarios Argentinos Saicm,92902045,92902045,Arribado
+2025-07-23,35902,,Refractarios Argentinos Saicm,92902045,EP 2696 //92902045,Pendiente
+2025-07-23,35887,,Refractarios Argentinos Saicm,92902045,,Arribado
+2025-07-23,35888,,Refractarios Argentinos Saicm,92902045,,Arribado
 2025-06-26,34933,,Refractarios Argentinos Saicm,16096009,EC 2692-25,Pendiente
 2025-07-03,35188,,Refractarios Argentinos Saicm,13871295,,Arribado
 2025-07-11,35378,,Refractarios Argentinos Saicm,31857457,REFRACTARIO/EC 2693-25,Arribado
@@ -312,6 +320,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-07-07,35224,,Interalmar S.A.,BOOKING : 254762551/SM-026-25,,Pendiente
 2025-07-07,35225,,Interalmar S.A.,BOOKING : 254762551/SM-026-25,,Pendiente
 2025-06-06,34366,,Dry Sea Srl,25001EC01,001 - EXP - MOMASA,Arribado
+2025-07-23,35905,,Dry Sea Srl,256093292,256093292 //,Arribado
+2025-07-23,35906,,Dry Sea Srl,256093292,256093292 //,Pendiente
+2025-07-23,35907,,Dry Sea Srl,256093292,256093292 //,Pendiente
+2025-07-23,35908,,Dry Sea Srl,256093292,256093292 //,Pendiente
 2025-03-31,32531,,Industrias Quimicas Independencia Sa,25001EC01018930X,IQUISA - EXPO CHILE FC 408,Arribado
 2025-06-17,34685,,Industrias Quimicas Independencia Sa,25001EC01037451H,EXPO TERRESTRE,Arribado
 2025-03-31,32524,,Kluber Lubrication Argentina S A,37362433,37362433 //,Arribado
@@ -418,7 +430,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-04-08,32624,,Maringa Maderas Sa,EBKG12309973,GRLEM25360/EBKG12309973,Arribado
 2025-04-11,32681,,Maringa Maderas Sa,EBKG12309962,GRLEM25359/EBKG12309962,Arribado
 2025-04-15,32682,,Maringa Maderas Sa,19861520,GRLEM25367/19861520,Arribado
-2025-07-22,35654,,Maringa Maderas Sa,EBKG13533627,GRLEM25804/MARINGA,Pendiente
+2025-07-22,35654,,Maringa Maderas Sa,EBKG13533627,GRLEM25804/MARINGA,Arribado
 2025-07-07,35325,,Maringa Maderas Sa,EBKG13411142,GRLEM25755 / EBKG13411142,Arribado
 2025-07-15,35425,,Maringa Maderas Sa,EBKG13411179,GRLEM25757 / EBKG13411179,Pendiente
 2025-07-14,35426,,Maringa Maderas Sa,EBKG13411161,GRLEM25756/ EBKG13411161,Arribado
@@ -446,10 +458,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-05-22,33782,,Carpal Sa,253983421,GRLAE2579/ CARPAL,Arribado
 2025-05-22,33783,,Carpal Sa,253983421,GRLAE2579/ CARPAL,Arribado
 2025-07-22,35714,,Carpal Sa,ZIMUBUE9041801,ZIMUBUE9041801,Arribado
-2025-07-23,35715,,Carpal Sa,ZIMUBUE9041800,ZIMUBUE9041800,Pendiente
-2025-07-23,35716,,Carpal Sa,ZIMUBUE9041800,ZIMUBUE9041800,Pendiente
-2025-07-23,35711,,Carpal Sa,ZIMUBUE9041802,ZIMUBUE9041802,Pendiente
-2025-07-23,35712,,Carpal Sa,ZIMUBUE9041802,ZIMUBUE9041802,Pendiente
+2025-07-23,35715,,Carpal Sa,ZIMUBUE9041800,ZIMUBUE9041800,Arribado
+2025-07-23,35716,,Carpal Sa,ZIMUBUE9041800,ZIMUBUE9041800,Arribado
+2025-07-23,35711,,Carpal Sa,ZIMUBUE9041802,ZIMUBUE9041802,Arribado
+2025-07-23,35712,,Carpal Sa,ZIMUBUE9041802,ZIMUBUE9041802,Arribado
 2025-07-22,35713,,Carpal Sa,ZIMUBUE9041801,ZIMUBUE9041801,Arribado
 2025-03-26,32422,,Arleather S.R.L.,250299190,LOTE 2844 / 2835 / 2863 -250299190,Arribado
 2025-03-27,32456,,Arleather S.R.L.,25001EC01017967R,LOTE 2850 //,Arribado
@@ -762,15 +774,15 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-06-03,34107,,Praxair Argentina S.R.L.,26766325,BALCHEM OC 20096744 L4,Arribado
 2025-04-14,32750,,Laharrague Chodorge Sociedad Anonima,EBKG12353554,GRLEM25393/EBKG12353554,Arribado
 2025-04-23,33010,,Laharrague Chodorge Sociedad Anonima,252815035,GRLAE2559/CHODORGE,Arribado
-2025-07-23,35299,,Laharrague Chodorge Sociedad Anonima,3172449,GRLEM25784/CHODORGE,Pendiente
-2025-07-23,35300,,Laharrague Chodorge Sociedad Anonima,3172449,GRLEM25784/CHODORGE,Pendiente
+2025-07-23,35299,,Laharrague Chodorge Sociedad Anonima,3172449,GRLEM25784/CHODORGE,Arribado
+2025-07-23,35300,,Laharrague Chodorge Sociedad Anonima,3172449,GRLEM25784/CHODORGE,Arribado
 2025-07-23,35301,,Laharrague Chodorge Sociedad Anonima,3172449,GRLEM25784/CHODORGE,Arribado
 2025-07-10,35101,,Laharrague Chodorge Sociedad Anonima,48619187,GRLEM25743/CHODORGE,Arribado
 2025-07-10,35102,,Laharrague Chodorge Sociedad Anonima,48619187,GRLEM25743/CHODORGE,Arribado
 2025-07-10,35103,,Laharrague Chodorge Sociedad Anonima,48619187,GRLEM25743/CHODORGE,Arribado
 2025-07-10,35104,,Laharrague Chodorge Sociedad Anonima,48619187,GRLEM25743/CHODORGE,Arribado
-2025-07-23,35297,,Laharrague Chodorge Sociedad Anonima,3172449,GRLEM25784/CHODORGE,Pendiente
-2025-07-23,35298,,Laharrague Chodorge Sociedad Anonima,3172449,GRLEM25784/CHODORGE,Pendiente
+2025-07-23,35297,,Laharrague Chodorge Sociedad Anonima,3172449,GRLEM25784/CHODORGE,Arribado
+2025-07-23,35298,,Laharrague Chodorge Sociedad Anonima,3172449,GRLEM25784/CHODORGE,Arribado
 2025-06-30,34528,,Laharrague Chodorge Sociedad Anonima,ZIMUBUE9041034,GRLEM25/CHODORGE,Pendiente
 2025-06-26,34806,,Laharrague Chodorge Sociedad Anonima,27925471,GRLAE2595 / 27925471,Arribado
 2025-06-26,34807,,Laharrague Chodorge Sociedad Anonima,27925471,GRLAE2595 / 27925471,Arribado
@@ -794,6 +806,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-04-01,32559,,Adp Trading Srl,25001EC01019436K,EXPO TERRESTRE,Arribado
 2025-04-08,32638,,Adp Trading Srl,25001EC01021141T,EXPO TERRESTRE,Arribado
 2025-07-15,35650,,Adp Trading Srl,25001EC010446448N,,Pendiente
+2025-07-23,35909,,Adp Trading Srl,25001EC01047690N,EXPO TERRESTRE,Pendiente
 2025-07-11,35541,,Adp Trading Srl,25001EC01 044648N,,Arribado
 2025-07-11,35542,,Adp Trading Srl,25001EC01 044840H,,Pendiente
 2025-07-11,35543,,Adp Trading Srl,25001EC01044840H,,Arribado
@@ -845,7 +858,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-04-14,32762,,Hellmann Worldwide Logistics,251462321,251462321 // KRAUS,Arribado
 2025-06-30,35106,,Hellmann Worldwide Logistics,ZIMUBUE9041533,,Pendiente
 2025-07-10,35443,,Hellmann Worldwide Logistics,25517203,,Arribado
-2025-07-23,35799,,Hellmann Worldwide Logistics,30711984,EPIC AEROSPACE // 30711984,Pendiente
+2025-07-23,35799,,Hellmann Worldwide Logistics,30711984,EPIC AEROSPACE // 30711984,Arribado
 2025-04-08,32639,,Forestal Y Ganadera Indumarca Sa,30873828,GRLAE2553/30873828 - REMITO N° 16754.,Arribado
 2025-04-21,32857,,Forestal Y Ganadera Indumarca Sa,547654080,GRLAE2552/547654080,Arribado
 2025-07-28,35830,,Forestal Y Ganadera Indumarca Sa,36729582,GRLAE25105/ 36729582,Pendiente
@@ -907,7 +920,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-07-10,35380,,Pons Estudio Aduanero,25517203,25517203,Arribado
 2025-05-29,34042,,Metalsa Argentina S.A,340500019613,METALSA SA //,Arribado
 2025-07-21,35752,,Inter American Cargo Group Sa,257038073,257038073,Arribado
-2025-07-22,35753,,Inter American Cargo Group Sa,257038073,257038073,Pendiente
+2025-07-22,35753,,Inter American Cargo Group Sa,257038073,257038073,Arribado
+2025-07-23,35911,,Agrotres S.A,255698015,255698015        //,Pendiente
 2025-03-25,32399,,Integracion Minera S.R.L,251463992,OR #251463992 // BOOKING:251463992,Arribado
 2025-03-26,32424,,Integracion Minera S.R.L,251463992,,Pendiente
 2025-03-26,32425,,Integracion Minera S.R.L,251463992,,Pendiente
@@ -1124,3 +1138,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-07-16,35672,,Sermat Sa,LA0434166,LA0434166,Pendiente
 2025-07-18,35709,,Smart Logistics S.A.,BUEF08879400,BUEF08879400,Arribado
 2025-07-18,35710,,Smart Logistics S.A.,BUEF08879400,BUEF08879400,Arribado
+2025-07-23,35894,,Chaguar Sociedad Anonima,256522179,256522179 // 1X40HC,Pendiente
+2025-07-23,35895,,Chaguar Sociedad Anonima,256457109,256457109 // 5X20,Pendiente
+2025-07-23,35896,,Chaguar Sociedad Anonima,256457109,256457109 // 5X20,Pendiente
+2025-07-23,35897,,Chaguar Sociedad Anonima,256457109,256457109 // 5X20,Pendiente
+2025-07-23,35898,,Chaguar Sociedad Anonima,256457109,256457109 // 5X20,Pendiente
+2025-07-23,35899,,Chaguar Sociedad Anonima,256457109,256457109 // 5X20,Pendiente
