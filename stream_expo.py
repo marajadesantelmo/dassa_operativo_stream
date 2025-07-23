@@ -19,7 +19,7 @@ def fetch_data_expo():
     otros_expo = fetch_table_data("otros_expo")
     otros_expo = otros_expo[otros_expo['Dia'] != '-']
     remisiones = fetch_table_data("remisiones")
-    # Filter out rows with invalid dates before conversion
+    # Filtro para eliminar filas con 'Dia' igual a '-'
     remisiones = remisiones[remisiones['Dia'] != '-']
     if not remisiones.empty:
         remisiones['Dia'] = pd.to_datetime(remisiones['Dia'], format='%d/%m', errors='coerce')
