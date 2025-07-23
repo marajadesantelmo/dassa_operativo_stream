@@ -19,16 +19,21 @@ def fetch_data_expo():
     otros_expo = fetch_table_data("otros_expo")
     otros_expo = otros_expo[otros_expo['Dia'] != '-']
     remisiones = fetch_table_data("remisiones")
-    remisiones['Dia'] = pd.to_datetime(remisiones['Dia'], format='%d/%m')
-    remisiones['Hora'] = pd.to_datetime(remisiones['Hora'], errors='coerce').dt.strftime('%H:%M')
-    remisiones.sort_values(by=['Dia', 'Hora'], inplace=True)
-    remisiones['Hora'] = remisiones['Hora'].astype(str).str[:5]
-    remisiones['Hora'] = remisiones['Hora'].apply(lambda x: x[1:] if isinstance(x, str) and x.startswith('0') else x)
-    remisiones['Dia'] = remisiones['Dia'].dt.strftime('%d/%m')
-    remisiones['Volumen'] = remisiones['Volumen'].round(0).astype(int)
-    cols = remisiones.columns.tolist()
-    cols.insert(1, cols.pop(cols.index('Hora')))
-    remisiones = remisiones[cols]
+    # Filter out rows with invalid dates before conversion
+    remisiones = remisiones[remisiones['Dia'] != '-']
+    if not remisiones.empty:
+        remisiones['Dia'] = pd.to_datetime(remisiones['Dia'], format='%d/%m', errors='coerce')
+        remisiones['Hora'] = pd.to_datetime(remisiones['Hora'], errors='coerce').dt.strftime('%H:%M')
+        # Remove rows where date conversion failed
+        remisiones = remisiones.dropna(subset=['Dia'])
+        remisiones.sort_values(by=['Dia', 'Hora'], inplace=True)
+        remisiones['Hora'] = remisiones['Hora'].astype(str).str[:5]
+        remisiones['Hora'] = remisiones['Hora'].apply(lambda x: x[1:] if isinstance(x, str) and x.startswith('0') else x)
+        remisiones['Dia'] = remisiones['Dia'].dt.strftime('%d/%m')
+        remisiones['Volumen'] = remisiones['Volumen'].round(0).astype(int)
+        cols = remisiones.columns.tolist()
+        cols.insert(1, cols.pop(cols.index('Hora')))
+        remisiones = remisiones[cols]
     pendiente_consolidar = fetch_table_data("pendiente_consolidar")
     listos_para_remitir = fetch_table_data("listos_para_remitir")
     vacios_disponibles = fetch_table_data("vacios_disponibles")
