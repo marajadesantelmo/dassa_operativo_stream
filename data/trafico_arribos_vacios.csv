@@ -1,8 +1,8 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 35893,23/07,Minera Santa Rita Srl,BMOU-307956-7,10,HC,TD,******************  ,BUE500126200,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:08,2025-08-13,Fact 14/459,                    ,10:08 Arribado
 35881,23/07,Chaguar Sociedad Anonima,-,10080,DC,TD,                    ,256457109,0,                              ,,     ,2025-08-12,Chaguar,                    ,Pendiente
-35880,23/07,Chaguar Sociedad Anonima,-,10080,DC,TD,                    ,256457109,0,                              ,,     ,2025-08-12,Chaguar,                    ,Pendiente
-35879,23/07,Chaguar Sociedad Anonima,-,10080,DC,TD,                    ,256457109,0,                              ,,     ,2025-08-12,Chaguar,                    ,Pendiente
+35880,23/07,Chaguar Sociedad Anonima,MSKU-546211-5,10080,DC,TD,***********         ,256457109,1,TRANSPORTE DEL CLIENTE        ,Ortiz,13:43,2025-08-12,Chaguar,                    ,13:43 Arribado
+35879,23/07,Chaguar Sociedad Anonima,TRHU-383895-3,10080,DC,TD,************        ,256457109,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,13:40,2025-08-12,Chaguar,                    ,13:40 Arribado
 35878,23/07,Hellmann Worldwide Logistics,HLBU-909625-0,10080,RF,TD,************        ,30711984,1,TRANSPORTE DEL CLIENTE        ,Carbone,10:43,2025-08-12,,                    ,10:43 Arribado
 35914,23/07,Borax Argentina S A,MRKU-842195-1,10076,DR,TD,**********          ,256913112,1,TRANSPORTE DEL CLIENTE        ,Moscardini,12:05,2025-08-13,,                    ,12:05 Arribado
 35913,23/07,Borax Argentina S A,TEMU-151667-7,10076,DR,TD,***********         ,256913112,1,TRANSPORTE DEL CLIENTE        ,Moscardini,12:01,2025-08-13,,                    ,12:01 Arribado
