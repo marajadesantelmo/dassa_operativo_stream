@@ -1,5 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-35923,24/07,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,256654796,0,                              ,,     ,2025-08-13,Ulrika Gruffman,                    ,Pendiente
+35923,24/07,Lift Van Int. Co S.A,MRKU-022250-5,10080,DR,TD,  ***************   ,256654796,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,10:05,2025-08-13,Ulrika Gruffman,                    ,10:05 Arribado
 35926,24/07,Refractarios Argentinos Saicm,-,10080,DR,TD,                    ,15759393,0,                              ,,     ,2025-08-13,,                    ,Pendiente
 35936,24/07,Taeda Sa,HAMU-144154-0,10080,HC,TD,**********          ,15433336,1,TRANSPORTE DEL CLIENTE        ,Peril,09:41,2025-08-13,,                    ,09:41 Arribado
 35933,24/07,Henn Y Cia S.R.L.,-,Exolgan,DR,TD,                    ,EBKG13568772,0,                              ,,     ,2025-08-13,,                    ,Pendiente
@@ -7,10 +7,10 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 35935,24/07,Henn Y Cia S.R.L.,-,Exolgan,DR,TD,                    ,EBKG13568772,0,                              ,,     ,2025-08-13,,                    ,Pendiente
 35929,24/07,Borax Argentina S A,HLBU-364877-4,10080,DR,TD,**********          ,24092988,1,TRANSPORTES LEIRA-NO USAR     ,Muller,09:53,2025-08-13,,                    ,09:53 Arribado
 35930,24/07,Borax Argentina S A,FANU-501641-2,10080,DR,TD,**********          ,24092988,1,TRANSPORTES LEIRA-NO USAR     ,Muller,09:56,2025-08-13,,                    ,09:56 Arribado
-35931,24/07,Borax Argentina S A,-,10080,DR,TD,                    ,24092988,0,                              ,,     ,2025-08-13,,                    ,Pendiente
-35932,24/07,Borax Argentina S A,-,10080,DR,TD,                    ,24092988,0,                              ,,     ,2025-08-13,,                    ,Pendiente
+35931,24/07,Borax Argentina S A,HLXU-116561-9,10080,DR,TD,********************,24092988,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:14,2025-08-13,,                    ,10:14 Arribado
+35932,24/07,Borax Argentina S A,HLBU-307150-6,10080,DR,TD,*************       ,24092988,0,                              ,,     ,2025-08-13,,                    ,Pendiente
 35924,24/07,Forestal Y Ganadera Indumarca ...,-,10080,HC,TD,                    ,256654796,0,                              ,,     ,2025-08-13,,                    ,Pendiente
 35925,24/07,Forestal Y Ganadera Indumarca ...,-,10080,HC,TD,                    ,256654796,0,                              ,,     ,2025-08-13,,                    ,Pendiente
-35922,24/07,Inter American Cargo Group Sa,-,10080,HC,TD,                    ,257038073,0,                              ,,     ,2025-08-13,,                    ,Pendiente
+35922,24/07,Inter American Cargo Group Sa,MRSU-770392-7,10080,HC,TD,*********           ,257038073,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,10:06,2025-08-13,,                    ,10:06 Arribado
 35937,24/07,Smart Trading S.A.S,-,9,DR,TD,                    ,EBKG13537771,0,                              ,,     ,2025-08-13,,                    ,Pendiente
 35938,24/07,Smart Trading S.A.S,-,9,DR,TD,                    ,EBKG13537771,0,                              ,,     ,2025-08-13,,                    ,Pendiente
