@@ -1,7 +1,7 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 35923,24/07,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,256654796,0,                              ,,     ,2025-08-13,Ulrika Gruffman,                    ,Pendiente
 35926,24/07,Refractarios Argentinos Saicm,-,10080,DR,TD,                    ,15759393,0,                              ,,     ,2025-08-13,,                    ,Pendiente
-35936,24/07,Taeda Sa,-,10080,HC,TD,                    ,15433336,0,                              ,,     ,2025-08-13,,                    ,Pendiente
+35936,24/07,Taeda Sa,HAMU-144154-0,10080,HC,TD,**********          ,15433336,1,TRANSPORTE DEL CLIENTE        ,Peril,09:41,2025-08-13,,                    ,09:41 Arribado
 35933,24/07,Henn Y Cia S.R.L.,-,Exolgan,DR,TD,                    ,EBKG13568772,0,                              ,,     ,2025-08-13,,                    ,Pendiente
 35934,24/07,Henn Y Cia S.R.L.,-,Exolgan,DR,TD,                    ,EBKG13568772,0,                              ,,     ,2025-08-13,,                    ,Pendiente
 35935,24/07,Henn Y Cia S.R.L.,-,Exolgan,DR,TD,                    ,EBKG13568772,0,                              ,,     ,2025-08-13,,                    ,Pendiente
