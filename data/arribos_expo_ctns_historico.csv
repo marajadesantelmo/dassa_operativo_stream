@@ -39,6 +39,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-07,32609,CSLU-133312-2,Mercovan Argentina Srl,COSU6413164570,***************     ,Arribado
 2025-04-07,32610,UACU-857525-1,Mercovan Argentina Srl,21431758,******************  ,Arribado
 2025-07-24,35923,MRKU-022250-5,Lift Van Int. Co S.A,256654796,  ***************   ,Arribado
+2025-07-25,35979,,Lift Van Int. Co S.A,23265518,                    ,Pendiente
+2025-07-25,35988,HLBU-273571-9,Lift Van Int. Co S.A,23265518,*************       ,Arribado
 2025-07-15,35617,DFSU-249229-0,Lift Van Int. Co S.A,34208160,**********          ,Arribado
 2025-07-04,35274,UACU-600159-4,Lift Van Int. Co S.A,35530751,0433933             ,Arribado
 2025-07-11,35373,SUDU-734833-7,Lift Van Int. Co S.A,256588632,***********         ,Arribado
@@ -150,6 +152,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-18,35773,UETU-668568-1,A La Orden,256522179,**********          ,Arribado
 2025-07-23,35884,,A La Orden,EBKG13615785,                    ,Pendiente
 2025-07-23,35892,TLLU-809374-7,A La Orden,23782252,**********          ,Arribado
+2025-07-25,35983,,A La Orden,CNTR NAC,                    ,Arribado
 2025-05-14,33550,OOLU-093313-2,A La Orden,COSU6417657460,**************      ,Arribado
 2025-05-14,33553,CMAU-268628-1,A La Orden,RIV 028401,R1952832            ,Arribado
 2025-05-15,33572,,A La Orden,39873876,                    ,Pendiente
@@ -489,51 +492,50 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-28,32499,,Arleather S.R.L.,251251658,                    ,Pendiente
 2025-03-28,32500,,Arleather S.R.L.,251251658,                    ,Pendiente
 2025-03-28,32501,,Arleather S.R.L.,251251658,                    ,Pendiente
-2025-05-06,33302,MRKU-577117-5,Arleather S.R.L.,253269607,***************     ,Arribado
 2025-05-06,33322,,Arleather S.R.L.,253433457,                    ,Pendiente
 2025-05-08,33420,MRSU-330512-3,Arleather S.R.L.,253433457, **********         ,Arribado
-2025-05-06,33296,HASU-436127-1,Arleather S.R.L.,253269707,  ******************,Arribado
 2025-05-06,33297,MRKU-635792-0,Arleather S.R.L.,253269707,******************  ,Arribado
 2025-05-06,33298,TEMU-615547-4,Arleather S.R.L.,253326683,************        ,Arribado
 2025-05-06,33299,MRSU-372728-4,Arleather S.R.L.,253326683,***************     ,Arribado
 2025-05-06,33300,MRKU-537680-1,Arleather S.R.L.,253269607,*******             ,Arribado
 2025-05-06,33301,MRKU-352643-5,Arleather S.R.L.,253269607,*************       ,Arribado
-2025-04-28,33186,MSKU-909130-5,Arleather S.R.L.,253129873,**********          ,Arribado
+2025-05-06,33302,MRKU-577117-5,Arleather S.R.L.,253269607,***************     ,Arribado
 2025-04-29,33210,MRKU-360039-0,Arleather S.R.L.,253269514,****************    ,Arribado
 2025-04-29,33216,MSKU-987122-0,Arleather S.R.L.,253269514,**************      ,Arribado
 2025-04-29,33217,MRKU-502696-9,Arleather S.R.L.,253269514,********************,Arribado
-2025-04-24,33073,TCKU-695361-2,Arleather S.R.L.,252816450,************        ,Arribado
+2025-05-06,33296,HASU-436127-1,Arleather S.R.L.,253269707,  ******************,Arribado
 2025-04-24,33074,CAAU-563949-9,Arleather S.R.L.,252816450,***********         ,Arribado
 2025-04-24,33075,SUDU-659385-4,Arleather S.R.L.,252816450,*************       ,Arribado
 2025-04-24,33108,HASU-439251-8,Arleather S.R.L.,252809104,************        ,Arribado
 2025-04-28,33185,MRKU-549825-0,Arleather S.R.L.,253129873,********************,Arribado
+2025-04-28,33186,MSKU-909130-5,Arleather S.R.L.,253129873,**********          ,Arribado
 2025-04-23,33035,GCXU-557435-0,Arleather S.R.L.,252809104,**********          ,Arribado
 2025-04-23,33036,,Arleather S.R.L.,252809104,                    ,Pendiente
 2025-04-24,33072,MSKU-180923-2,Arleather S.R.L.,252816450,***********         ,Arribado
-2025-04-21,32869,HASU-446962-5,Arleather S.R.L.,251416737,***************     ,Arribado
+2025-04-24,33073,TCKU-695361-2,Arleather S.R.L.,252816450,************        ,Arribado
 2025-04-21,32870,MRSU-455057-3,Arleather S.R.L.,251416737,****************    ,Arribado
 2025-04-21,32871,MRKU-289489-6,Arleather S.R.L.,251416640,     ************** ,Arribado
 2025-04-21,32872,MSKU-035756-5,Arleather S.R.L.,251416640,**************      ,Arribado
 2025-04-21,32873,MRSU-418953-7,Arleather S.R.L.,251416640,******************  ,Arribado
-2025-04-16,32841,TCNU-580153-8,Arleather S.R.L.,251416813,*****************   ,Arribado
 2025-04-16,32843,MRKU-472465-1,Arleather S.R.L.,251416813,******************  ,Arribado
 2025-04-21,32866,MSKU-160698-1,Arleather S.R.L.,251529791,***************     ,Arribado
 2025-04-21,32867,MRKU-489575-7,Arleather S.R.L.,251529791,*********           ,Arribado
 2025-04-21,32868,MRKU-274674-9,Arleather S.R.L.,251529791,**************      ,Arribado
-2025-04-08,32657,MSKU-968104-5,Arleather S.R.L.,251417032,******              ,Arribado
+2025-04-21,32869,HASU-446962-5,Arleather S.R.L.,251416737,***************     ,Arribado
 2025-04-08,32658,MRSU-595449-8,Arleather S.R.L.,251417131,******************  ,Arribado
 2025-04-08,32659,MRSU-415807-4,Arleather S.R.L.,251417131,******************  ,Arribado
 2025-04-15,32829,SUDU-599665-0,Arleather S.R.L.,25146813,*****************   ,Arribado
-2025-04-08,32651,MRSU-503803-1,Arleather S.R.L.,251417093,******              ,Arribado
+2025-04-16,32841,TCNU-580153-8,Arleather S.R.L.,251416813,*****************   ,Arribado
 2025-04-08,32652,TLLU-690297-1,Arleather S.R.L.,251417093,************        ,Arribado
 2025-04-08,32653,MRKU-427125-7,Arleather S.R.L.,251252901,*******             ,Arribado
 2025-04-08,32654,HASU-433827-1,Arleather S.R.L.,251252901,************        ,Arribado
 2025-04-08,32655,MRKU-632854-1,Arleather S.R.L.,251417032,*****************   ,Arribado
 2025-04-08,32656,CAAU-674577-2,Arleather S.R.L.,251417032,**********          ,Arribado
+2025-04-08,32657,MSKU-968104-5,Arleather S.R.L.,251417032,******              ,Arribado
 2025-04-08,32648,MRKU-641682-7,Arleather S.R.L.,251417045,**********          ,Arribado
 2025-04-08,32649,SUDU-690990-0,Arleather S.R.L.,251417045,**************      ,Arribado
 2025-04-08,32650,MRSU-523663-3,Arleather S.R.L.,251417045,**********          ,Arribado
-2025-03-28,32519,,Arleather S.R.L.,251754331,                    ,Pendiente
+2025-04-08,32651,MRSU-503803-1,Arleather S.R.L.,251417093,******              ,Arribado
 2025-03-28,32527,MRKU-351761-8,Arleather S.R.L.,251754331,***********         ,Arribado
 2025-03-28,32528,TRHU-498602-4,Arleather S.R.L.,251754331,*************       ,Arribado
 2025-03-28,32529,CRSU-919406-9,Arleather S.R.L.,251754331,**********          ,Arribado
@@ -543,18 +545,19 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-28,32516,TCNU-662257-9,Arleather S.R.L.,251251658,*******             ,Arribado
 2025-03-28,32517,,Arleather S.R.L.,251754331,                    ,Pendiente
 2025-03-28,32518,,Arleather S.R.L.,251754331,                    ,Pendiente
+2025-03-28,32519,,Arleather S.R.L.,251754331,                    ,Pendiente
 2025-04-07,32611,MEDU-595331-1,Henn Y Cia S.R.L.,EBKG12295115,FX32981197          ,Arribado
 2025-04-07,32612,MSDU-249385-8,Henn Y Cia S.R.L.,EBKG12295115,FX32981196          ,Arribado
 2025-04-07,32613,BMOU-264894-6,Henn Y Cia S.R.L.,EBKG12295115,FX32982279          ,Arribado
 2025-04-07,32614,MSNU-365991-7,Henn Y Cia S.R.L.,EBKG12295115,FX32982280          ,Arribado
-2025-07-24,35934,,Henn Y Cia S.R.L.,EBKG13568772,                    ,Pendiente
-2025-07-24,35935,,Henn Y Cia S.R.L.,EBKG13568772,                    ,Pendiente
+2025-07-24,35934,FTAU-146095-2,Henn Y Cia S.R.L.,EBKG13568772,FX32939115          ,Arribado
+2025-07-24,35935,GESU-103742-0,Henn Y Cia S.R.L.,EBKG13568772,FX32939048          ,Arribado
 2025-07-22,35843,CAIU-728059-0,Henn Y Cia S.R.L.,EBKG13028616,FX32939936          ,Arribado
 2025-07-23,35910,DFSU-153486-9,Henn Y Cia S.R.L.,EBKG13486945,FX32942913          ,Arribado
 2025-07-23,35912,UETU-261400-0,Henn Y Cia S.R.L.,EBKG13486945,FX32942914          ,Arribado
 2025-07-23,35927,MSDU-296419-8,Henn Y Cia S.R.L.,EBKG13486945,*************       ,Arribado
 2025-07-23,35928,TCKU-179976-2,Henn Y Cia S.R.L.,EBKG13486945,************        ,Arribado
-2025-07-24,35933,,Henn Y Cia S.R.L.,EBKG13568772,                    ,Pendiente
+2025-07-24,35933,FSCU-784572-9,Henn Y Cia S.R.L.,EBKG13568772,FX32939025          ,Arribado
 2025-07-22,35805,EITU-189370-3,Henn Y Cia S.R.L.,340500025592,**********          ,Arribado
 2025-07-22,35806,EGHU-944058-0,Henn Y Cia S.R.L.,340500025592,***********         ,Arribado
 2025-07-22,35807,EGSU-940821-6,Henn Y Cia S.R.L.,340500025592,**********          ,Arribado
@@ -840,78 +843,76 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-12,33452,HAMU-148103-4,Plasticos Dise S A,20462888,***************     ,Arribado
 2025-05-15,33587,MEDU-266342-7,Plasticos Dise S A,EBKG12761996,FX329774178         ,Arribado
 2025-06-25,34875,SUDU-749590-8,Plasticos Dise S A,255564238,***********         ,Arribado
-2025-03-26,32458,,Lawter Argentina S.A.,37733100,                    ,Pendiente
-2025-03-26,32459,FANU-148036-4,Lawter Argentina S.A.,37733100,***********         ,Arribado
+2025-04-14,32774,ZIMU-289120-7,Lawter Argentina S.A.,ZIMUBUE9039285,**********          ,Arribado
+2025-04-14,32775,TCKU-165723-8,Lawter Argentina S.A.,ZIMUBUE9039285,**************      ,Arribado
+2025-04-14,32776,TEMU-527433-4,Lawter Argentina S.A.,ZIMUBUE9039285,********            ,Arribado
+2025-07-17,35568,TCKU-635315-6,Lawter Argentina S.A.,BUA0344543,R1955207            ,Arribado
+2025-07-17,35569,ECMU-487172-2,Lawter Argentina S.A.,BUA0344543,R1955110            ,Arribado
 2025-07-17,35570,CMAU-472903-7,Lawter Argentina S.A.,BUA0344543,R1955106            ,Arribado
 2025-07-15,35616,TCKU-616123-5,Lawter Argentina S.A.,ZIMUBUE9041577,******************* ,Arribado
 2025-07-15,35647,TCKU-675316-8,Lawter Argentina S.A.,ZIMUBUE9041577,*********           ,Arribado
-2025-07-15,35472,,Lawter Argentina S.A.,ZIMUBUE9041577,                    ,Pendiente
-2025-07-17,35568,TCKU-635315-6,Lawter Argentina S.A.,BUA0344543,R1955207            ,Arribado
-2025-07-17,35569,ECMU-487172-2,Lawter Argentina S.A.,BUA0344543,R1955110            ,Arribado
 2025-07-15,35470,ZCSU-691481-0,Lawter Argentina S.A.,ZIMUBUE9041577,**********          ,Arribado
 2025-07-15,35471,JXLU-644123-5,Lawter Argentina S.A.,ZIMUBUE9041577,*************       ,Arribado
-2025-06-04,34287,FANU-378193-7,Lawter Argentina S.A.,22103759,************        ,Arribado
-2025-06-17,34625,CAIU-769683-9,Lawter Argentina S.A.,32049685,0433859             ,Arribado
+2025-07-15,35472,,Lawter Argentina S.A.,ZIMUBUE9041577,                    ,Pendiente
 2025-07-02,35192,PCIU-464717-1,Lawter Argentina S.A.,BUE500115400,**********          ,Arribado
 2025-07-02,35200,PCIU-463911-3,Lawter Argentina S.A.,BUE500115400,*************       ,Arribado
+2025-06-04,34287,FANU-378193-7,Lawter Argentina S.A.,22103759,************        ,Arribado
+2025-06-17,34625,CAIU-769683-9,Lawter Argentina S.A.,32049685,0433859             ,Arribado
+2025-06-02,34098,MRKU-106651-5,Lawter Argentina S.A.,253934352,***********         ,Arribado
+2025-06-02,34099,MRKU-077087-5,Lawter Argentina S.A.,253934352,***********         ,Arribado
+2025-06-02,34100,MSKU-669360-7,Lawter Argentina S.A.,253934352, *************      ,Arribado
 2025-06-02,34101,MRKU-050855-1,Lawter Argentina S.A.,253934352,************        ,Arribado
 2025-06-02,34095,MRKU-046375-5,Lawter Argentina S.A.,253934352,************        ,Arribado
 2025-06-02,34096,SUDU-530092-5,Lawter Argentina S.A.,253934352,**************      ,Arribado
 2025-06-02,34097,MRKU-078832-3,Lawter Argentina S.A.,253934352,***********         ,Arribado
-2025-06-02,34098,MRKU-106651-5,Lawter Argentina S.A.,253934352,***********         ,Arribado
-2025-06-02,34099,MRKU-077087-5,Lawter Argentina S.A.,253934352,***********         ,Arribado
-2025-06-02,34100,MSKU-669360-7,Lawter Argentina S.A.,253934352, *************      ,Arribado
+2025-05-23,33850,,Lawter Argentina S.A.,253920980,                    ,Pendiente
+2025-05-23,33851,,Lawter Argentina S.A.,253920980,                    ,Pendiente
+2025-05-23,33852,,Lawter Argentina S.A.,253920980,                    ,Pendiente
 2025-05-23,33907,MRKU-014117-3,Lawter Argentina S.A.,253920980,**********          ,Arribado
 2025-05-29,33998,FCIU-578983-8,Lawter Argentina S.A.,EBKG12996784,FX32971580          ,Arribado
 2025-05-23,33840,MRKU-068601-8,Lawter Argentina S.A.,253920980,*************       ,Arribado
 2025-05-23,33841,MSKU-686327-8,Lawter Argentina S.A.,253920980,***********         ,Arribado
-2025-05-23,33850,,Lawter Argentina S.A.,253920980,                    ,Pendiente
-2025-05-23,33851,,Lawter Argentina S.A.,253920980,                    ,Pendiente
-2025-05-23,33852,,Lawter Argentina S.A.,253920980,                    ,Pendiente
-2025-05-15,33593,BHCU-319614-3,Lawter Argentina S.A.,BUA034165,R1952835            ,Arribado
-2025-05-15,33594,SEGU-177886-0,Lawter Argentina S.A.,BUA034165,R1952837            ,Arribado
-2025-05-14,33517,PCIU-100209-7,Lawter Argentina S.A.,BUE500069800,***********         ,Arribado
-2025-05-15,33588,TCLU-767748-1,Lawter Argentina S.A.,BUA0340166,R1951217            ,Arribado
 2025-05-15,33589,CAIU-381159-6,Lawter Argentina S.A.,BUA0340166,R1951216            ,Arribado
 2025-05-15,33590,TEMU-542244-7,Lawter Argentina S.A.,BUA0340166,R1951215            ,Arribado
 2025-05-15,33592,TCKU-318810-3,Lawter Argentina S.A.,BUA034165,R1952840            ,Arribado
+2025-05-15,33593,BHCU-319614-3,Lawter Argentina S.A.,BUA034165,R1952835            ,Arribado
+2025-05-15,33594,SEGU-177886-0,Lawter Argentina S.A.,BUA034165,R1952837            ,Arribado
 2025-05-14,33514,PCIU-283815-8,Lawter Argentina S.A.,BUE500069800,*******             ,Arribado
 2025-05-14,33515,PCIU-283773-7,Lawter Argentina S.A.,BUE500069800,**********          ,Arribado
 2025-05-14,33516,FCIU-384812-4,Lawter Argentina S.A.,BUE500069800,**************      ,Arribado
-2025-05-08,33409,ZCSU-707063-2,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
-2025-05-08,33410,BSIU-954460-9,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
-2025-05-08,33411,CAAU-947528-5,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
+2025-05-14,33517,PCIU-100209-7,Lawter Argentina S.A.,BUE500069800,***********         ,Arribado
+2025-05-15,33588,TCLU-767748-1,Lawter Argentina S.A.,BUA0340166,R1951217            ,Arribado
 2025-05-08,33412,TCKU-602379-2,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
 2025-05-08,33413,TGHU-979193-3,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
 2025-05-08,33414,TCNU-462548-1,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
+2025-04-24,33070,TIIU-207161-0,Lawter Argentina S.A.,252759712,***************     ,Arribado
+2025-05-08,33409,ZCSU-707063-2,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
+2025-05-08,33410,BSIU-954460-9,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
+2025-05-08,33411,CAAU-947528-5,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
+2025-04-22,33001,PCIU-021540-0,Lawter Argentina S.A.,BUE500065100,**************      ,Arribado
 2025-04-24,33068,MRKU-840320-1,Lawter Argentina S.A.,252759712,                    ,Arribado
 2025-04-24,33069,MRKU-758020-2,Lawter Argentina S.A.,252759712,******************* ,Arribado
-2025-04-24,33070,TIIU-207161-0,Lawter Argentina S.A.,252759712,***************     ,Arribado
-2025-04-22,32960,BMOU-256473-7,Lawter Argentina S.A.,BUE500065100,*************       ,Arribado
-2025-04-22,32998,PCIU-139581-5,Lawter Argentina S.A.,BUE500065100,**************      ,Arribado
-2025-04-22,33000,PCIU-133622-1,Lawter Argentina S.A.,BUE500065100,*****************   ,Arribado
-2025-04-22,33001,PCIU-021540-0,Lawter Argentina S.A.,BUE500065100,**************      ,Arribado
-2025-04-22,32940,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
-2025-04-22,32941,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
-2025-04-22,32942,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
 2025-04-22,32943,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
 2025-04-22,32944,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
 2025-04-22,32959,BMOU-258476-0,Lawter Argentina S.A.,BUE500065100,***********         ,Arribado
+2025-04-22,32960,BMOU-256473-7,Lawter Argentina S.A.,BUE500065100,*************       ,Arribado
+2025-04-22,32998,PCIU-139581-5,Lawter Argentina S.A.,BUE500065100,**************      ,Arribado
+2025-04-22,33000,PCIU-133622-1,Lawter Argentina S.A.,BUE500065100,*****************   ,Arribado
+2025-04-23,32912,HASU-155150-8,Lawter Argentina S.A.,252632346,***************     ,Arribado
+2025-04-23,32913,GESU-386652-3,Lawter Argentina S.A.,252632346,**********          ,Arribado
+2025-04-22,32940,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
+2025-04-22,32941,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
+2025-04-22,32942,,Lawter Argentina S.A.,BUE500065100,                    ,Pendiente
+2025-04-21,32881,GESU-616311-8,Lawter Argentina S.A.,36039671,********            ,Arribado
+2025-04-23,32908,MRSU-037570-2,Lawter Argentina S.A.,252632346,***********         ,Arribado
 2025-04-23,32909,MRKU-898966-4,Lawter Argentina S.A.,252632346,*********           ,Arribado
 2025-04-23,32910,TEMU-136628-4,Lawter Argentina S.A.,252632346,**************      ,Arribado
 2025-04-23,32911,MSKU-729327-2,Lawter Argentina S.A.,252632346,+*******************,Arribado
-2025-04-23,32912,HASU-155150-8,Lawter Argentina S.A.,252632346,***************     ,Arribado
-2025-04-23,32913,GESU-386652-3,Lawter Argentina S.A.,252632346,**********          ,Arribado
-2025-04-14,32780,MSKU-406678-4,Lawter Argentina S.A.,251744442,*****               ,Arribado
-2025-04-14,32781,MRSU-001383-2,Lawter Argentina S.A.,251744442,************        ,Arribado
-2025-04-21,32881,GESU-616311-8,Lawter Argentina S.A.,36039671,********            ,Arribado
-2025-04-23,32908,MRSU-037570-2,Lawter Argentina S.A.,252632346,***********         ,Arribado
-2025-04-14,32774,ZIMU-289120-7,Lawter Argentina S.A.,ZIMUBUE9039285,**********          ,Arribado
-2025-04-14,32775,TCKU-165723-8,Lawter Argentina S.A.,ZIMUBUE9039285,**************      ,Arribado
-2025-04-14,32776,TEMU-527433-4,Lawter Argentina S.A.,ZIMUBUE9039285,********            ,Arribado
 2025-04-14,32777,SEGU-230060-2,Lawter Argentina S.A.,ZIMUBUE9039285,*************       ,Arribado
 2025-04-14,32778,MAGU-235294-1,Lawter Argentina S.A.,ZIMUBUE9039285,******************  ,Arribado
 2025-04-14,32779,TRHU-291089-0,Lawter Argentina S.A.,ZIMUBUE9039285,**************      ,Arribado
+2025-04-14,32780,MSKU-406678-4,Lawter Argentina S.A.,251744442,*****               ,Arribado
+2025-04-14,32781,MRSU-001383-2,Lawter Argentina S.A.,251744442,************        ,Arribado
 2025-04-25,33131,,2M Comex,25001EC01025080C,                    ,Arribado
 2025-04-25,33132,,2M Comex,25001EC01025080C,                    ,Arribado
 2025-04-25,33133,,2M Comex,25001EC01025080C,                    ,Arribado
@@ -1167,7 +1168,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-27,32454,,Weiden Sociedad Anonima,36715985,                    ,Pendiente
 2025-03-27,32504,SEKU-573654-9,Weiden Sociedad Anonima,36715985,**********          ,Arribado
 2025-04-24,33109,TLLU-537349-3,Weiden Sociedad Anonima,90484908,**************      ,Arribado
-2025-07-25,35953,,Weiden Sociedad Anonima,BUA0345917,                    ,Pendiente
+2025-07-25,35953,TCKU-770329-0,Weiden Sociedad Anonima,BUA0345917,R1956659            ,Arribado
 2025-04-11,32744,MRKU-107048-0,Hellmann Worldwide Logistics,251462321,**********          ,Arribado
 2025-07-01,35105,JXJU-118188-0,Hellmann Worldwide Logistics,ZIMUBUE9041533,************        ,Arribado
 2025-07-11,35447,CAIU-613952-5,Hellmann Worldwide Logistics,255317203,**********          ,Arribado
@@ -1245,12 +1246,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-14,35487,,Conextube Sa,256653277,                    ,Pendiente
 2025-05-28,34122,EGHU-383570-5,Metalsa Argentina S.A,340500019613,**********          ,Arribado
 2025-07-24,35922,MRSU-770392-7,Inter American Cargo Group Sa,257038073,*********           ,Arribado
-2025-07-25,35967,,Agrotres S.A,BUA0346754,                    ,Pendiente
-2025-03-26,32445,SUDU-532863-0,Integracion Minera S.R.L,251463992,************        ,Arribado
-2025-03-26,32451,SUDU-532839-4,Integracion Minera S.R.L,251463992,********            ,Arribado
-2025-03-26,32452,MRKU-101795-3,Integracion Minera S.R.L,251463992,**************      ,Arribado
-2025-03-26,32457,,Integracion Minera S.R.L,251463992,                    ,Pendiente
-2025-03-26,32460,MRKU-058777-7,Integracion Minera S.R.L,251463992,***********         ,Arribado
+2025-07-25,35967,GLDU-994869-3,Agrotres S.A,BUA0346754,R1956657            ,Arribado
 2025-04-22,32946,,Forestal Guarani Sa,33044230,                    ,Pendiente
 2025-04-22,32947,,Forestal Guarani Sa,33044230,                    ,Pendiente
 2025-04-22,32948,,Forestal Guarani Sa,33044230,                    ,Pendiente
@@ -1437,8 +1433,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-04,35253,SUDU-769855-1,Smart Trading S.A.S,254762551,*********           ,Arribado
 2025-07-04,35254,MRSU-001017-6,Smart Trading S.A.S,254762551,**********          ,Arribado
 2025-07-10,35413,YMMU-121273-7,Smart Trading S.A.S,B946026044,***********         ,Arribado
-2025-07-24,35937,,Smart Trading S.A.S,EBKG13537771,                    ,Pendiente
-2025-07-24,35938,,Smart Trading S.A.S,EBKG13537771,                    ,Pendiente
+2025-07-24,35937,MEDU-614092-8,Smart Trading S.A.S,EBKG13537771,FX32943745          ,Arribado
+2025-07-24,35938,HPCU-253999-6,Smart Trading S.A.S,EBKG13537771,FX32943744          ,Arribado
 2025-07-04,35255,MRKU-965795-7,Smart Trading S.A.S,254762551,**********          ,Arribado
 2025-07-04,35256,TCKU-295323-4,Smart Trading S.A.S,254762551,*************       ,Arribado
 2025-07-04,35257,MSKU-779993-3,Smart Trading S.A.S,254762551,************        ,Arribado
