@@ -85,20 +85,12 @@ def show_page_trafico():
         with co2_sub:
             st.subheader("Arribos de Contenedores")
         with col2_metric1:
-            pendientes_hoy = 0
-            if not arribos_expo_ctns.empty:
-                pendientes_hoy = arribos_expo_ctns[(arribos_expo_ctns['Estado'] == 'Pendiente') & 
-                                                    (arribos_expo_ctns['Fecha'] == today)]['Cantidad'].sum()
-            st.metric(label="Pendientes hoy", value=pendientes_hoy)
+            st.metric(label="Pendientes hoy", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'] == 'Pendiente') & 
+                                                 (arribos_expo_ctns['Fecha'] == today)]['Cantidad'].sum())
         with col2_metric2:
-            arribados = 0
-            if not arribos_expo_ctns.empty:
-                arribados = arribos_expo_ctns[(arribos_expo_ctns['Estado'].str.contains('Arribado'))].shape[0]
-            st.metric(label="Arribados", value=arribados)
-        if not arribos_expo_ctns.empty:
-            st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-        else:
-            st.info("No hay datos de arribos de contenedores disponibles")
+            st.metric(label="Arribados", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'].str.contains('Arribado'))].shape[0])
+        st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+
 
     with col4:
         col4_sub, col4_metric, col4_metric2 = st.columns([7, 1, 1])
