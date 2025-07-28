@@ -12,11 +12,10 @@ def fetch_data_trafico():
     pendiente_desconsolidar = fetch_table_data("pendiente_desconsolidar")
     remisiones = fetch_table_data("remisiones")
     arribos_expo_ctns = fetch_table_data("arribos_expo_ctns")
-    # Filtro para eliminar filas con 'Dia' igual a '-'
     remisiones = remisiones[remisiones['Dia'] != '-']
     if not remisiones.empty:
         remisiones['Dia'] = pd.to_datetime(remisiones['Dia'], format='%d/%m', errors='coerce')
-        remisiones['Hora'] = pd.to_datetime(remisiones['Hora'], errors='coerce').dt.strftime('%H:%M')
+        remisiones['Hora'] = pd.to_datetime(remisiones['Hora'], format='%H:%M', errors='coerce').dt.strftime('%H:%M')
         # Remove rows where date conversion failed
         remisiones = remisiones.dropna(subset=['Dia'])
         remisiones.sort_values(by=['Dia', 'Hora'], inplace=True)
@@ -27,7 +26,9 @@ def fetch_data_trafico():
         cols = remisiones.columns.tolist()
         cols.insert(1, cols.pop(cols.index('Hora')))
         remisiones = remisiones[cols]
-    if not arribos_expo_ctns.empty: 
+    if not arribos_expo_ctns.empty:
+        # Convert Fecha to datetime if it's not already
+        arribos_expo_ctns['Fecha'] = pd.to_datetime(arribos_expo_ctns['Fecha'], errors='coerce')
         arribos_expo_ctns = arribos_expo_ctns.sort_values(by="Fecha")
         arribos_expo_ctns['Fecha'] = arribos_expo_ctns['Fecha'].dt.strftime('%d/%m')
     return arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns
