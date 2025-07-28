@@ -56,6 +56,7 @@ def show_page_trafico():
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
         st.title(f"Operaciones de Tráfico a partir del {current_day}")
+    st.subheader("IMPO")
     col1, col2 = st.columns(2)
     with col1:
         col1_sub, col1_metric = st.columns([7, 1])
@@ -76,7 +77,7 @@ def show_page_trafico():
             st.metric(label="Vacios", value=pendiente_desconsolidar[pendiente_desconsolidar['Estado'] == 'Vacio'].shape[0])
         st.dataframe(pendiente_desconsolidar.style.apply(highlight, axis=1).format(precision=0), hide_index=True, use_container_width=True)
 
-
+    st.subheader("EXPO")
     col3, col4 = st.columns(2)
     with col3:
         co2_sub, col2_metric1, col2_metric2 = st.columns([6, 1, 1])
