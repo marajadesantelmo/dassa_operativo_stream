@@ -100,3 +100,11 @@ else:
         st.session_state['logged_in'] = False
         st.session_state['username'] = ""
         st.rerun()
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
