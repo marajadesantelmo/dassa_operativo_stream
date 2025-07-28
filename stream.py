@@ -13,6 +13,7 @@ from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
 import os
+from supabase_connection import fetch_table_data
 
 url_supabase = os.getenv("url_supabase")
 key_supabase= os.getenv("key_supabase")
@@ -24,12 +25,12 @@ count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refre
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-USERNAMES = ["DASSA", "Facu", "deposito", "plazoleta", "mudancera"]
-PASSWORDS = ["DASSA3", "123", "depodassa", "plazoletadassa", "mudanceradassa"]
+users = fetch_table_data("users")
 
 def login(username, password):
-    if username in USERNAMES and password in PASSWORDS:
-        return True
+    for user_row in users.itertuples():
+        if user_row.user == username and user_row.clave == password:
+            return True
     return False
 
 # Initialize cookies manager
@@ -107,4 +108,4 @@ hide_streamlit_style = """
             footer {visibility: hidden;}
             </style>
             """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
