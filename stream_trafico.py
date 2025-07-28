@@ -11,6 +11,7 @@ def fetch_data_trafico():
     arribos = arribos.sort_values(by="Turno")
     pendiente_desconsolidar = fetch_table_data("pendiente_desconsolidar")
     remisiones = fetch_table_data("remisiones")
+    arribos_expo_ctns = fetch_table_data("arribos_expo_ctns")
     # Filtro para eliminar filas con 'Dia' igual a '-'
     remisiones = remisiones[remisiones['Dia'] != '-']
     if not remisiones.empty:
@@ -26,8 +27,9 @@ def fetch_data_trafico():
         cols = remisiones.columns.tolist()
         cols.insert(1, cols.pop(cols.index('Hora')))
         remisiones = remisiones[cols]
-    arribos_expo_ctns = arribos_expo_ctns.sort_values(by="Fecha")
-    arribos_expo_ctns['Fecha'] = arribos_expo_ctns['Fecha'].dt.strftime('%d/%m')
+    if not arribos_expo_ctns.empty: 
+        arribos_expo_ctns = arribos_expo_ctns.sort_values(by="Fecha")
+        arribos_expo_ctns['Fecha'] = arribos_expo_ctns['Fecha'].dt.strftime('%d/%m')
     return arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns
 
 def fetch_last_update():
@@ -41,6 +43,7 @@ def show_page_trafico():
     # Load data
     arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns = fetch_data_trafico()
     last_update = fetch_last_update()
+    today = datetime.now().strftime('%d/%m') 
 
 
     col_logo, col_title = st.columns([2, 5])
@@ -77,27 +80,40 @@ def show_page_trafico():
         with co2_sub:
             st.subheader("Arribos de Contenedores")
         with col2_metric1:
-            st.metric(label="Pendientes hoy", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'] == 'Pendiente') & 
-                                                (arribos_expo_ctns['Fecha'] == today)]['Cantidad'].sum())
+            pendientes_hoy = 0
+            if not arribos_expo_ctns.empty:
+                pendientes_hoy = arribos_expo_ctns[(arribos_expo_ctns['Estado'] == 'Pendiente') & 
+                                                    (arribos_expo_ctns['Fecha'] == today)]['Cantidad'].sum()
+            st.metric(label="Pendientes hoy", value=pendientes_hoy)
         with col2_metric2:
-            st.metric(label="Arribados", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'].str.contains('Arribado'))].shape[0])
-        st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-
+            arribados = 0
+            if not arribos_expo_ctns.empty:
+                arribados = arribos_expo_ctns[(arribos_expo_ctns['Estado'].str.contains('Arribado'))].shape[0]
+            st.metric(label="Arribados", value=arribados)
+        if not arribos_expo_ctns.empty:
+            st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+        else:
+            st.info("No hay datos de arribos de contenedores disponibles")
 
     with col4:
         col4_sub, col4_metric, col4_metric2 = st.columns([7, 1, 1])
         with col4_sub:
             st.subheader("Remisiones")
         with col4_metric:
-            remisiones_pendientes = remisiones[(remisiones['Estado'] == 'Pendiente') & 
-                                                 (remisiones['Dia'] == today)].shape[0]
+            remisiones_pendientes = 0
+            if not remisiones.empty:
+                remisiones_pendientes = remisiones[(remisiones['Estado'] == 'Pendiente') & 
+                                                     (remisiones['Dia'] == today)].shape[0]
             st.metric(label="Pendientes hoy", value=remisiones_pendientes)
         with col4_metric2:
-            remisiones_realizadas= remisiones[(remisiones['Estado'].str.contains('Realizado'))].shape[0]
+            remisiones_realizadas = 0
+            if not remisiones.empty:
+                remisiones_realizadas = remisiones[(remisiones['Estado'].str.contains('Realizado'))].shape[0]
             st.metric(label="Realizadas", value=remisiones_realizadas)
-        st.dataframe(remisiones.style.apply(highlight, axis=1), 
-                     column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)} ,
-                     hide_index=True, use_container_width=True)
-        if st.session_state['username'] != "plazoleta" and not otros_expo.empty:
-            st.subheader("Otros")
-            st.dataframe(otros_expo.style, hide_index=True, use_container_width=True)
+        if not remisiones.empty:
+            st.dataframe(remisiones.style.apply(highlight, axis=1), 
+                         column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)} ,
+                         hide_index=True, use_container_width=True)
+        else:
+            st.info("No hay datos de remisiones disponibles")
+
