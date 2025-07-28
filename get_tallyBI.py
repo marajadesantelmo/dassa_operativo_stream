@@ -1,6 +1,6 @@
 """
 Descarga TallyBI.csv y TallyBIEXPO.csv desde servidor remoto de MCUBIC
-y procesa los datos para su posterior uso en Streamlit."""
+y procesa los datos para su posterior uso en Streamlit. A MODIFICAR """
 
 import os
 import paramiko
