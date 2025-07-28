@@ -37,10 +37,12 @@ def show_page_usuarios():
                             'clientes': int(new_clientes)
                         }
                         try:
+                            print(f"Attempting to insert user: {new_user_data}")  # Debug line
                             insert_data("users", new_user_data)
                             st.success(f"Usuario '{new_user}' agregado exitosamente")
                             st.rerun()
                         except Exception as e:
+                            print(f"Full error details: {e}")  # Debug line
                             st.error(f"Error al agregar usuario: {str(e)}")
                 else:
                     st.error("Por favor complete todos los campos obligatorios")
