@@ -9,6 +9,7 @@ import stream_plazoleta
 import stream_impo_historico
 import stream_expo_historico
 import stream_camiones
+import stream_usuarios
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
@@ -69,8 +70,8 @@ else:
         allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "box-arrow-right"]
     else:
-        allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "IMPO - histórico", "EXPO - histórico", "Logout"]
-        icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "book", "book", "box-arrow-right"]
+        allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "IMPO - histórico", "EXPO - histórico", "Gestión de usuarios", "Logout"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "book", "book", "people", "box-arrow-right"]
 
     page_selection = option_menu(
         None,  # No menu title
@@ -94,6 +95,8 @@ else:
         stream_expo_historico.show_page_expo_historico()
     elif page_selection == "Camiones":
         stream_camiones.show_page_camiones()
+    elif page_selection == "Gestión de usuarios":
+        stream_usuarios.show_page_usuarios()
     elif page_selection == "Logout":
         cookies.pop("logged_in", None)
         cookies.pop("username", None)
