@@ -92,6 +92,7 @@ def show_page_trafico():
         st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
 
+
     with col4:
         col4_sub, col4_metric, col4_metric2 = st.columns([7, 1, 1])
         with col4_sub:
