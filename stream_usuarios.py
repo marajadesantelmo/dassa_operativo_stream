@@ -30,11 +30,11 @@ def show_page_usuarios():
                     if new_user in users_df['user'].values:
                         st.error("El usuario ya existe")
                     else:
-                        # Insert new user
+                        # Insert new user - explicitly create clean data without any id
                         new_user_data = {
-                            'user': new_user,
-                            'clave': new_password,
-                            'clientes': new_clientes
+                            'user': str(new_user).strip(),
+                            'clave': str(new_password).strip(),
+                            'clientes': int(new_clientes)
                         }
                         try:
                             insert_data("users", new_user_data)
