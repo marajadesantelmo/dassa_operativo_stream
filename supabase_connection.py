@@ -55,3 +55,19 @@ def update_log(table_name):
         "last_update": datetime.now().isoformat()
     }
     supabase_client.from_("update_log").insert(log_entry).execute()
+
+def insert_data(table_name, data):
+    """Insert a single record into the specified table"""
+    try:
+        result = supabase_client.from_(table_name).insert(data).execute()
+        return result
+    except Exception as e:
+        raise e
+
+def delete_data(table_name, record_id):
+    """Delete a record by ID from the specified table"""
+    try:
+        result = supabase_client.from_(table_name).delete().eq('id', record_id).execute()
+        return result
+    except Exception as e:
+        raise e

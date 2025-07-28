@@ -59,18 +59,11 @@ def show_page_usuarios():
                     # Get user ID for deletion
                     user_id = users_df[users_df['user'] == user_to_delete]['id'].iloc[0]
                     
-                    # Confirm deletion
-                    if st.session_state.get('confirm_delete') != user_to_delete:
-                        st.session_state.confirm_delete = user_to_delete
-                        st.warning(f"¿Está seguro que desea eliminar al usuario '{user_to_delete}'?")
-                        if st.button("Confirmar Eliminación", type="primary"):
-                            try:
-                                delete_data("users", user_id)
-                                st.success(f"Usuario '{user_to_delete}' eliminado exitosamente")
-                                if 'confirm_delete' in st.session_state:
-                                    del st.session_state.confirm_delete
-                                st.rerun()
-                            except Exception as e:
-                                st.error(f"Error al eliminar usuario: {str(e)}")
+                    try:
+                        delete_data("users", user_id)
+                        st.success(f"Usuario '{user_to_delete}' eliminado exitosamente")
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Error al eliminar usuario: {str(e)}")
         else:
             st.info("No hay usuarios para eliminar")
