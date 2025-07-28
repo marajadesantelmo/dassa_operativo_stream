@@ -10,12 +10,12 @@ def fetch_data_trafico():
     arribos = fetch_table_data("arribos")
     arribos = arribos.sort_values(by="Turno")
     pendiente_desconsolidar = fetch_table_data("pendiente_desconsolidar")
-    remisiones = fetch_table_data("remisiones")
     arribos_expo_ctns = fetch_table_data("arribos_expo_ctns")
+    remisiones = fetch_table_data("remisiones")
     remisiones = remisiones[remisiones['Dia'] != '-']
     if not remisiones.empty:
         remisiones['Dia'] = pd.to_datetime(remisiones['Dia'], format='%d/%m', errors='coerce')
-        remisiones['Hora'] = pd.to_datetime(remisiones['Hora'], format='%H:%M', errors='coerce').dt.strftime('%H:%M')
+        remisiones['Hora'] = pd.to_datetime(remisiones['Hora'], errors='coerce').dt.strftime('%H:%M')
         # Remove rows where date conversion failed
         remisiones = remisiones.dropna(subset=['Dia'])
         remisiones.sort_values(by=['Dia', 'Hora'], inplace=True)
