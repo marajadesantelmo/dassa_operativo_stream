@@ -13,7 +13,6 @@ def fetch_data_trafico():
     arribos_expo_ctns = fetch_table_data("arribos_expo_ctns")  
     arribos_expo_ctns['Fecha'] = pd.to_datetime(arribos_expo_ctns['Fecha'], format='%d/%m')
     arribos_expo_ctns = arribos_expo_ctns.sort_values(by="Fecha")
-    arribos_expo_ctns['Fecha'] = arribos_expo_ctns['Fecha'].dt.strftime('%d/%m')
     remisiones = fetch_table_data("remisiones")
     remisiones = remisiones[remisiones['Dia'] != '-']
     if not remisiones.empty:
