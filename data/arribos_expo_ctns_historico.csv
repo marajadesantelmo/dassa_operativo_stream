@@ -101,8 +101,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-03-31,32545,CAIU-898335-0,Minera Santa Rita Srl,93894297,*************       ,Arribado
 2025-04-10,32718,,Minera Santa Rita Srl,252062561,                    ,Pendiente
 2025-07-23,35893,BMOU-307956-7,Minera Santa Rita Srl,BUE500126200,******************  ,Arribado
-2025-07-28,35997,,Minera Santa Rita Srl,BUE500126300,                    ,Pendiente
-2025-07-28,35998,,Minera Santa Rita Srl,BUE500126300,                    ,Pendiente
+2025-07-28,35997,BMOU-308047-0,Minera Santa Rita Srl,BUE500126300,***********         ,Arribado
+2025-07-28,35998,PCIU-463884-2,Minera Santa Rita Srl,BUE500126300,*********           ,Arribado
 2025-07-14,35531,MRKU-905553-8,Minera Santa Rita Srl,256516151,**********          ,Arribado
 2025-07-18,35770,PCIU-007585-9,Minera Santa Rita Srl,BUE500123300,***********         ,Arribado
 2025-07-18,35771,PCIU-154513-4,Minera Santa Rita Srl,BUE00123300,***********         ,Arribado
@@ -155,6 +155,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-30,33225,MSDU-156455-6,A La Orden,153IAR0648445,FX32985939          ,Arribado
 2025-04-22,32977,TXGU-674980-1,A La Orden,26634974,******************  ,Arribado
 2025-07-23,35939,MEDU-537173-2,Termoplasticos Del Sur Sa,EBKG13615785,FX32942935          ,Arribado
+2025-07-28,36022,,Termoplasticos Del Sur Sa,EBKG13615822,                    ,Pendiente
 2025-07-07,35328,,Fijaciones Py S.A.,25001EC01041044A,                    ,Arribado
 2025-04-09,32705,ZHLU-201721-7,Dpmg S.A.,25001EC03003520W,                    ,Arribado
 2025-04-09,32706,ZHLU-201724-3,Dpmg S.A.,25001EC03003374G,                    ,Arribado
@@ -227,7 +228,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-09,32689,MRKU-384381-0,Hilado Sa,252321715,***********         ,Arribado
 2025-04-09,32690,TRHU-405968-6,Hilado Sa,252321715,****************    ,Arribado
 2025-04-09,32691,MRSU-487737-6,Hilado Sa,252321715,******************  ,Arribado
-2025-07-28,35990,,Hilado Sa,256505802,                    ,Pendiente
+2025-07-28,35990,TGHU-656382-1,Hilado Sa,256505802,***********         ,Arribado
 2025-07-28,35991,,Hilado Sa,256505802,                    ,Pendiente
 2025-07-28,35992,,Hilado Sa,256505802,                    ,Pendiente
 2025-07-15,35523,MRKU-640223-2,Hilado Sa,255808171,***********         ,Arribado
@@ -260,6 +261,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-05,34340,SUDU-875989-9,Helvecia S.A.,254605636,**************      ,Arribado
 2025-06-05,34375,,Helvecia S.A.,254605636,                    ,Pendiente
 2025-06-05,34376,,Helvecia S.A.,254605636,                    ,Pendiente
+2025-07-29,36017,,Helvecia S.A.,45137792,                    ,Pendiente
+2025-07-29,36018,,Helvecia S.A.,45137792,                    ,Pendiente
 2025-04-22,32980,TCNU-668089-4,Helvecia S.A.,251749673,******              ,Arribado
 2025-04-22,32981,HASU-418896-8,Helvecia S.A.,251749673,**************      ,Arribado
 2025-05-22,33795,HLXU-800239-9,Helvecia S.A.,75399876,**********          ,Arribado
@@ -541,7 +544,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-28,35996,,Henn Y Cia S.R.L.,28492228,                    ,Pendiente
 2025-07-24,35934,FTAU-146095-2,Henn Y Cia S.R.L.,EBKG13568772,FX32939115          ,Arribado
 2025-07-24,35935,GESU-103742-0,Henn Y Cia S.R.L.,EBKG13568772,FX32939048          ,Arribado
-2025-07-28,35993,,Henn Y Cia S.R.L.,28492228,                    ,Pendiente
+2025-07-28,35993,FANU-300725-8,Henn Y Cia S.R.L.,28492228,********            ,Arribado
 2025-07-22,35843,CAIU-728059-0,Henn Y Cia S.R.L.,EBKG13028616,FX32939936          ,Arribado
 2025-07-23,35910,DFSU-153486-9,Henn Y Cia S.R.L.,EBKG13486945,FX32942913          ,Arribado
 2025-07-23,35912,UETU-261400-0,Henn Y Cia S.R.L.,EBKG13486945,FX32942914          ,Arribado
@@ -1045,6 +1048,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-24,33097,DFSU-723339-5,Santa Anita Oil Sa,28096856,************        ,Arribado
 2025-04-24,33098,TCLU-177146-4,Santa Anita Oil Sa,28096856,*******             ,Arribado
 2025-04-24,33099,TGBU-613514-3,Santa Anita Oil Sa,28096856,*********           ,Arribado
+2025-07-29,36019,,Santa Anita Oil Sa,24812960,                    ,Pendiente
+2025-07-29,36020,,Santa Anita Oil Sa,24812960,                    ,Pendiente
 2025-07-21,35764,HLBU-342123-0,Santa Anita Oil Sa,34430602,**********          ,Arribado
 2025-07-21,35765,HAMU-386286-8,Santa Anita Oil Sa,34430602,************        ,Arribado
 2025-07-21,35766,HAMU-215146-4,Santa Anita Oil Sa,34430602,*********           ,Arribado
@@ -1478,7 +1483,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-15,35579,MSMU-127248-4,Sermat Sa,LA0434166,************        ,Arribado
 2025-07-22,35819,SEGU-595337-0,Peri S.A,BUEF08879400,**********          ,Arribado
 2025-07-22,35820,GCXU-519511-9,Peri S.A,BUEF08879400,************        ,Arribado
-2025-07-28,35999,,Biosophy S. A. S,EBKG13626654,                    ,Pendiente
+2025-07-28,35999,GATU-131170-5,Biosophy S. A. S,EBKG13626654,FX32943197          ,Arribado
 2025-07-23,35879,TRHU-383895-3,Chaguar Sociedad Anonima,256457109,************        ,Arribado
 2025-07-23,35880,MSKU-546211-5,Chaguar Sociedad Anonima,256457109,***********         ,Arribado
 2025-07-23,35881,TEMU-223300-7,Chaguar Sociedad Anonima,256457109,********            ,Arribado
@@ -1486,6 +1491,6 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-23,35883,,Chaguar Sociedad Anonima,256457109,                    ,Pendiente
 2025-07-25,35969,PCIU-022214-2,Chaguar Sociedad Anonima,BUE500129800,***********         ,Arribado
 2025-07-25,35970,PCIU-018522-3,Chaguar Sociedad Anonima,BUE500129800,****************    ,Arribado
-2025-07-25,35971,,Chaguar Sociedad Anonima,BUE500129800,                    ,Pendiente
-2025-07-25,35972,,Chaguar Sociedad Anonima,BUE500129800,                    ,Pendiente
+2025-07-25,35971,PCIU-022594-3,Chaguar Sociedad Anonima,BUE500129800,************        ,Arribado
+2025-07-25,35972,PCIU-121399-4,Chaguar Sociedad Anonima,BUE500129800,**************      ,Arribado
 2025-07-25,35968,PCIU-289256-5,Chaguar Sociedad Anonima,BUE500129800,**********          ,Arribado
