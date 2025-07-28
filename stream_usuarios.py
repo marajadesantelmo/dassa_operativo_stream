@@ -15,7 +15,7 @@ def show_page_usuarios():
     display_df = users_df[['user', 'clave', 'clientes']].copy()
     st.dataframe(display_df, use_container_width=True)
     
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
     
     with col1:
         st.subheader("Agregar Usuario")
@@ -67,3 +67,7 @@ def show_page_usuarios():
                         st.error(f"Error al eliminar usuario: {str(e)}")
         else:
             st.info("No hay usuarios para eliminar")
+    
+    with col3:
+        # Third column - can be used for additional functionality
+        st.write("")  # Empty space for now
