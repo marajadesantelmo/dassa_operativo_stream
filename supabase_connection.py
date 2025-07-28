@@ -59,7 +59,9 @@ def update_log(table_name):
 def insert_data(table_name, data):
     """Insert a single record into the specified table"""
     try:
-        result = supabase_client.from_(table_name).insert(data).execute()
+        # Remove 'id' field if it exists to let Supabase auto-generate it
+        clean_data = {k: v for k, v in data.items() if k != 'id'}
+        result = supabase_client.from_(table_name).insert(clean_data).execute()
         return result
     except Exception as e:
         raise e
