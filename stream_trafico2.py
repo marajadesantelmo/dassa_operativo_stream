@@ -57,7 +57,7 @@ def assign_to_andresito(table_name, row_data):
     
     insert_data(andresito_table, row_data)
 
-def show_page_trafico():
+def show_page_trafico2():
     # Load data
     arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns = fetch_data_trafico()
     last_update = fetch_last_update()
