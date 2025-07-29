@@ -22,7 +22,7 @@ from supabase_connection import fetch_table_data
 url_supabase = os.getenv("url_supabase")
 key_supabase= os.getenv("key_supabase")
 
-refresh_interval_ms = 60 * 1000  # 30 seconds in milliseconds
+refresh_interval_ms = 300 * 1000  
 count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refresh")
 
 # Estilo
