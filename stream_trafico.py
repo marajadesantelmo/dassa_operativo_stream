@@ -3,7 +3,8 @@ import pandas as pd
 import time
 from datetime import datetime
 from utils import highlight
-from supabase_connection import fetch_table_data
+from supabase_connection import fetch_table_data, insert_data
+
 @st.cache_data(ttl=60) 
 
 def fetch_data_trafico():
@@ -41,6 +42,20 @@ def fetch_last_update():
         last_update = update_log[update_log['table_name'] == 'Arribos y existente']['last_update'].max()
         return pd.to_datetime(last_update).strftime("%d/%m/%Y %H:%M")
     return "No disponible"
+
+def assign_to_andresito(table_name, row_data):
+    """Assign a travel to Andresito by copying to the andresito table"""
+    andresito_table = f"{table_name}_andresito"
+    # Add empty columns for Andresito-specific data
+    row_data['Chofer'] = ''
+    row_data['Patente 1'] = ''
+    row_data['Patente 2'] = ''
+    if table_name == 'remisiones':
+        row_data['Observaciones_Andresito'] = ''
+    else:
+        row_data['Observaciones'] = ''
+    
+    insert_data(andresito_table, row_data)
 
 def show_page_trafico():
     # Load data
@@ -114,4 +129,68 @@ def show_page_trafico():
                          hide_index=True, use_container_width=True)
         else:
             st.info("No hay datos de remisiones disponibles")
+    st.markdown("---")
+    st.header("Asignación a Andresito")
+    
+    tab1, tab2, tab3, tab4 = st.tabs(["Arribos", "Pendiente Desconsolidar", "Remisiones", "Arribos EXPO CTNs"])
+    
+    with tab1:
+        st.subheader("Asignar Arribos a Andresito")
+        if not arribos.empty:
+            selected_arribos = st.multiselect(
+                "Seleccionar arribos para asignar:",
+                options=arribos.index.tolist(),
+                format_func=lambda x: f"{arribos.loc[x, 'Contenedor']} - {arribos.loc[x, 'Cliente']}"
+            )
+            if st.button("Asignar Arribos Seleccionados") and selected_arribos:
+                for idx in selected_arribos:
+                    row_data = arribos.loc[idx].to_dict()
+                    assign_to_andresito('arribos', row_data)
+                st.success(f"Se asignaron {len(selected_arribos)} arribos a Andresito")
+                st.rerun()
+    
+    with tab2:
+        st.subheader("Asignar Pendiente Desconsolidar a Andresito")
+        if not pendiente_desconsolidar.empty:
+            selected_pendiente = st.multiselect(
+                "Seleccionar pendientes para asignar:",
+                options=pendiente_desconsolidar.index.tolist(),
+                format_func=lambda x: f"{pendiente_desconsolidar.loc[x, 'Contenedor']} - {pendiente_desconsolidar.loc[x, 'Cliente']}"
+            )
+            if st.button("Asignar Pendientes Seleccionados") and selected_pendiente:
+                for idx in selected_pendiente:
+                    row_data = pendiente_desconsolidar.loc[idx].to_dict()
+                    assign_to_andresito('pendiente_desconsolidar', row_data)
+                st.success(f"Se asignaron {len(selected_pendiente)} pendientes a Andresito")
+                st.rerun()
+    
+    with tab3:
+        st.subheader("Asignar Remisiones a Andresito")
+        if not remisiones.empty:
+            selected_remisiones = st.multiselect(
+                "Seleccionar remisiones para asignar:",
+                options=remisiones.index.tolist(),
+                format_func=lambda x: f"{remisiones.loc[x, 'Contenedor']} - {remisiones.loc[x, 'Cliente']}"
+            )
+            if st.button("Asignar Remisiones Seleccionadas") and selected_remisiones:
+                for idx in selected_remisiones:
+                    row_data = remisiones.loc[idx].to_dict()
+                    assign_to_andresito('remisiones', row_data)
+                st.success(f"Se asignaron {len(selected_remisiones)} remisiones a Andresito")
+                st.rerun()
+    
+    with tab4:
+        st.subheader("Asignar Arribos EXPO CTNs a Andresito")
+        if not arribos_expo_ctns.empty:
+            selected_expo = st.multiselect(
+                "Seleccionar arribos EXPO para asignar:",
+                options=arribos_expo_ctns.index.tolist(),
+                format_func=lambda x: f"{arribos_expo_ctns.loc[x, 'Contenedor']} - {arribos_expo_ctns.loc[x, 'Cliente']}"
+            )
+            if st.button("Asignar Arribos EXPO Seleccionados") and selected_expo:
+                for idx in selected_expo:
+                    row_data = arribos_expo_ctns.loc[idx].to_dict()
+                    assign_to_andresito('arribos_expo_ctns', row_data)
+                st.success(f"Se asignaron {len(selected_expo)} arribos EXPO a Andresito")
+                st.rerun()
 
