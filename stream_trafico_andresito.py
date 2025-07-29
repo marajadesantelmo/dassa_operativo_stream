@@ -3,7 +3,7 @@ import pandas as pd
 import time
 from datetime import datetime
 from utils import highlight
-from supabase_connection import fetch_table_data, update_data
+from supabase_connection import fetch_table_data, update_data, update_data_by_index
 
 @st.cache_data(ttl=60) 
 def fetch_data_trafico_andresito():
@@ -15,7 +15,7 @@ def fetch_data_trafico_andresito():
 
 def update_andresito_data(table_name, row_index, chofer, patente1, patente2, observaciones):
     """Update Andresito-specific data for a travel"""
-    update_data(f"{table_name}_andresito", row_index, {
+    update_data_by_index(f"{table_name}_andresito", row_index, {
         'Chofer': chofer,
         'Patente 1': patente1,
         'Patente 2': patente2,

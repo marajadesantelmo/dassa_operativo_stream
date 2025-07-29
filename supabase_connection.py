@@ -83,3 +83,18 @@ def update_data(table_name, record_id, data):
         return result
     except Exception as e:
         raise e
+
+def update_data_by_index(table_name, row_index, data, identifier_column='Contenedor'):
+    """Update a record by using a specific column as identifier for tables without id"""
+    try:
+        # Get the current data to find the identifier value
+        current_data = fetch_table_data(table_name)
+        if row_index < len(current_data):
+            identifier_value = current_data.iloc[row_index][identifier_column]
+            clean_data = {k: v for k, v in data.items() if k != 'id'}
+            result = supabase_client.from_(table_name).update(clean_data).eq(identifier_column, identifier_value).execute()
+            return result
+        else:
+            raise Exception(f"Row index {row_index} out of range for table {table_name}")
+    except Exception as e:
+        raise e
