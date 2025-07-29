@@ -3,7 +3,7 @@ import pandas as pd
 import time
 from datetime import datetime
 from utils import highlight
-from supabase_connection import fetch_table_data, update_data
+from supabase_connection import fetch_table_data
 
 @st.cache_data(ttl=60) 
 def fetch_data_trafico_andresito():
