@@ -1,17 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-35994,28/07,Henn Y Cia S.R.L.,FANU-144581-0,10080,HC,TD,********            ,28492228,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,14:19,2025-08-15,,                    ,14:19 Arribado
-35996,28/07,Henn Y Cia S.R.L.,HLXU-842720-1,10080,HC,TD,***********         ,28492228,1,TRANSPORTE DEL CLIENTE        ,Bertoli,17:15,2025-08-15,,                    ,17:15 Arribado
-35995,28/07,Henn Y Cia S.R.L.,TGBU-568016-4,10080,HC,TD,***********         ,28492228,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,17:10,2025-08-15,,                    ,17:10 Arribado
-35993,28/07,Henn Y Cia S.R.L.,FANU-300725-8,10080,HC,TD,********            ,28492228,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,12:08,2025-08-15,,                    ,12:08 Arribado
-35992,28/07,Hilado Sa,MRSU-740680-5,10080,HC,TD,*************       ,256505802,1,TRANSPORTE DEL CLIENTE        ,Porco,15:12,2025-08-15,,                    ,15:12 Arribado
-35991,28/07,Hilado Sa,MRKU-551494-2,10080,HC,TD,************        ,256505802,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,14:27,2025-08-15,,                    ,14:27 Arribado
-35990,28/07,Hilado Sa,TGHU-656382-1,10080,HC,TD,***********         ,256505802,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,09:08,2025-08-15,,                    ,09:08 Arribado
-35999,28/07,Biosophy S. A. S,GATU-131170-5,Exolgan,DR,TD,FX32943197          ,EBKG13626654,1,TRANSPORTE DEL CLIENTE        ,Peril,09:36,2025-08-15,,                    ,09:36 Arribado
-36022,28/07,Termoplasticos Del Sur Sa,MSBU-152903-3,9,DR,TD,FX32941988          ,EBKG13615822,1,TRANSPORTE DEL CLIENTE        ,Ezquerra Maximiliano,17:40,2025-08-18,,                    ,17:40 Arribado
-35998,28/07,Minera Santa Rita Srl,PCIU-463884-2,10,DR,TD,*********           ,BUE500126300,1,TRANSPORTE DEL CLIENTE        ,Moscardini,10:08,2025-08-15,Fact 14-460,                    ,10:08 Arribado
-35997,28/07,Minera Santa Rita Srl,BMOU-308047-0,10,DR,TD,***********         ,BUE500126300,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,10:03,2025-08-15,Fact 14-460,                    ,10:03 Arribado
-36031,28/07,Refractarios Argentinos Saicm,HLXU-100237-6,10080,DR,TD,***********         ,15759393,1,TRANSPORTE DEL CLIENTE        ,Peril,13:42,2025-08-18,,                    ,13:42 Arribado
-36054,29/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257276770,0,                              ,,     ,2025-08-18,,                    ,Pendiente
+36061,29/07,Mercovan Argentina S.A.,-,10080,DR,TD,                    ,21766678,0,                              ,,     ,2025-08-18,Lesnowicz,21766678            ,Pendiente
 36053,29/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257276770,0,                              ,,     ,2025-08-18,,                    ,Pendiente
 36052,29/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257276807,0,                              ,,     ,2025-08-18,,                    ,Pendiente
 36051,29/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257276807,0,                              ,,     ,2025-08-18,,                    ,Pendiente
@@ -19,13 +7,13 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 36019,29/07,Santa Anita Oil Sa,-,0,  ,TD,                    ,24812960,0,                              ,,     ,2025-08-18,Grlem25849,24812960            ,Pendiente
 36070,29/07,Virasoro Maderas S R L,-,10080,DR,TD,                    ,13767750,0,                              ,,     ,2025-08-18,,                    ,Pendiente
 36069,29/07,Virasoro Maderas S R L,-,10080,DR,TD,                    ,13767750,0,                              ,,     ,2025-08-18,,                    ,Pendiente
+36068,29/07,Virasoro Maderas S R L,-,10080,DR,TD,                    ,13767750,0,                              ,,     ,2025-08-18,,                    ,Pendiente
 36067,29/07,Virasoro Maderas S R L,-,10080,DR,TD,                    ,13767750,0,                              ,,     ,2025-08-18,,                    ,Pendiente
 36066,29/07,Virasoro Maderas S R L,-,10080,DR,TD,                    ,13767750,0,                              ,,     ,2025-08-18,,                    ,Pendiente
-36071,29/07,Mercovan Argentina S.A.,-,Exolgan,DR,TD,                    ,90243386,0,                              ,,     ,2025-08-18,Patricia Cioni,                    ,Pendiente
-36055,29/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257276770,0,                              ,,     ,2025-08-18,,                    ,Pendiente
 36018,29/07,Helvecia S.A.,-,0,  ,TD,                    ,45137792,0,                              ,,     ,2025-08-18,Grlem25868,45137792            ,Pendiente
 36017,29/07,Helvecia S.A.,-,0,  ,TD,                    ,45137792,0,                              ,,     ,2025-08-18,Grlem25868,45137792            ,Pendiente
-36064,29/07,Minera Santa Rita Srl,-,10074,DR,TD,                    ,BUEF09165700,0,                              ,,     ,2025-08-18,Fact 14-461,                    ,Pendiente
 36065,29/07,Minera Santa Rita Srl,-,10074,DR,TD,                    ,BUEF09165700,0,                              ,,     ,2025-08-18,Fact 14-461,                    ,Pendiente
-36068,29/07,Virasoro Maderas S R L,-,10080,DR,TD,                    ,13767750,0,                              ,,     ,2025-08-18,,                    ,Pendiente
-36061,29/07,Mercovan Argentina S.A.,-,10080,DR,TD,                    ,21766678,0,                              ,,     ,2025-08-18,Lesnowicz,21766678            ,Pendiente
+36064,29/07,Minera Santa Rita Srl,-,10074,DR,TD,                    ,BUEF09165700,0,                              ,,     ,2025-08-18,Fact 14-461,                    ,Pendiente
+36071,29/07,Mercovan Argentina S.A.,-,Exolgan,DR,TD,                    ,90243386,0,                              ,,     ,2025-08-18,Patricia Cioni,                    ,Pendiente
+36054,29/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257276770,0,                              ,,     ,2025-08-18,,                    ,Pendiente
+36055,29/07,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257276770,0,                              ,,     ,2025-08-18,,                    ,Pendiente
