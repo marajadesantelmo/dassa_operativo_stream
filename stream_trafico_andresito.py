@@ -67,6 +67,7 @@ def show_page_trafico_andresito():
                     
                     if st.button(f"Actualizar", key=f"update_arribos_{idx}"):
                         update_andresito_data('arribos', idx, chofer, patente1, patente2, observaciones)
+                        st.cache_data.clear()
                         st.success("Información actualizada")
                         st.rerun()
         else:
@@ -88,6 +89,7 @@ def show_page_trafico_andresito():
                     
                     if st.button(f"Actualizar", key=f"update_pend_{idx}"):
                         update_andresito_data('pendiente_desconsolidar', idx, chofer, patente1, patente2, observaciones)
+                        st.cache_data.clear()
                         st.success("Información actualizada")
                         st.rerun()
         else:
@@ -109,6 +111,7 @@ def show_page_trafico_andresito():
                     
                     if st.button(f"Actualizar", key=f"update_rem_{idx}"):
                         update_andresito_data('remisiones', idx, chofer, patente1, patente2, observaciones)
+                        st.cache_data.clear()
                         st.success("Información actualizada")
                         st.rerun()
         else:
@@ -130,6 +133,7 @@ def show_page_trafico_andresito():
                     
                     if st.button(f"Actualizar", key=f"update_expo_{idx}"):
                         update_andresito_data('arribos_expo_ctns', idx, chofer, patente1, patente2, observaciones)
+                        st.cache_data.clear()
                         st.success("Información actualizada")
                         st.rerun()
         else:
