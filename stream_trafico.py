@@ -5,7 +5,7 @@ from datetime import datetime
 from utils import highlight
 from supabase_connection import fetch_table_data
 @st.cache_data(ttl=60) 
-
+#
 def fetch_data_trafico():
     arribos = fetch_table_data("arribos")
     arribos = arribos.sort_values(by="Turno")
