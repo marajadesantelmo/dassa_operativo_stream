@@ -3,32 +3,14 @@ import pandas as pd
 import time
 from datetime import datetime
 from utils import highlight
-from supabase_connection import fetch_table_data
+from supabase_connection import fetch_table_data, update_data
 
 @st.cache_data(ttl=60) 
 def fetch_data_trafico_andresito():
-    arribos = fetch_table_data("arribos_andresito")
-    if not arribos.empty:
-        arribos = arribos.sort_values(by="Turno")
-    
+    arribos = fetch_table_data("arribos_andresito")  
     pendiente_desconsolidar = fetch_table_data("pendiente_desconsolidar_andresito")
-    
-    arribos_expo_ctns = fetch_table_data("arribos_expo_ctns_andresito")  
-    if not arribos_expo_ctns.empty:
-        arribos_expo_ctns['Fecha'] = pd.to_datetime(arribos_expo_ctns['Fecha'], format='%d/%m', errors='coerce')
-        arribos_expo_ctns = arribos_expo_ctns.sort_values(by="Fecha")
-        arribos_expo_ctns['Fecha'] = arribos_expo_ctns['Fecha'].dt.strftime('%d/%m')
-    
+    arribos_expo_ctns = fetch_table_data("arribos_expo_ctns_andresito")   
     remisiones = fetch_table_data("remisiones_andresito")
-    if not remisiones.empty:
-        remisiones = remisiones[remisiones['Dia'] != '-']
-        if not remisiones.empty:
-            remisiones['Dia'] = pd.to_datetime(remisiones['Dia'], format='%d/%m', errors='coerce')
-            remisiones = remisiones.dropna(subset=['Dia'])
-            remisiones.sort_values(by=['Dia'], inplace=True)
-            remisiones['Dia'] = remisiones['Dia'].dt.strftime('%d/%m')
-            remisiones['Volumen'] = remisiones['Volumen'].round(0).astype(int)
-    
     return arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns
 
 def update_andresito_data(table_name, row_index, chofer, patente1, patente2, observaciones):

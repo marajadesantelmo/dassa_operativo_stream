@@ -73,3 +73,13 @@ def delete_data(table_name, record_id):
         return result
     except Exception as e:
         raise e
+
+def update_data(table_name, record_id, data):
+    """Update a record by ID in the specified table"""
+    try:
+        # Remove 'id' field if it exists to avoid conflicts
+        clean_data = {k: v for k, v in data.items() if k != 'id'}
+        result = supabase_client.from_(table_name).update(clean_data).eq('id', record_id).execute()
+        return result
+    except Exception as e:
+        raise e
