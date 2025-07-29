@@ -11,6 +11,7 @@ import stream_expo_historico
 import stream_camiones
 import stream_usuarios
 import stream_trafico
+import stream_trafico_andresito
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
@@ -70,6 +71,9 @@ else:
     elif st.session_state['username'] == "trafico":
         allowed_pages = ["Tráfico", "Logout"]
         icons = ["car", "box-arrow-right"]
+    elif st.session_state['username'] == "andresito":
+        allowed_pages = ["Andresito", "Logout"]
+        icons = ["car", "box-arrow-right"]
     elif st.session_state['username'] in ["plazoleta", "mudancera"]:
         allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "box-arrow-right"]
@@ -91,6 +95,8 @@ else:
         stream_expo.show_page_expo()
     elif page_selection == "Tráfico":
         stream_trafico.show_page_trafico()
+    elif page_selection == "Andresito":
+        stream_trafico_andresito.show_page_trafico_andresito()
     elif page_selection == "Balanza":
          stream_balanza.show_page_balanza()
     elif page_selection == "Plazoleta":
