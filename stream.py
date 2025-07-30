@@ -116,7 +116,7 @@ else:
         stream_impo.show_page_impo(allowed_clients)  
     elif page_selection == "EXPO":
         allowed_clients = get_allowed_clients(st.session_state['username'])
-        stream_expo.show_page_expo(allowed_clients)
+        stream_expo.show_page_expo()
     elif page_selection == "Tráfico":
         stream_trafico.show_page_trafico()
     elif page_selection == "Tráfico2":
