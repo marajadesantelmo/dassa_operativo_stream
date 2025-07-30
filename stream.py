@@ -71,7 +71,7 @@ if not st.session_state['logged_in']:
         else:
             st.error("Usuario o clave invalidos")
 else:
-    es_cliente = users[users['user'] == 'liftvan']['clientes'].values[0] if not users[users['user'] == 'liftvan'].empty else None
+    es_cliente = users[users['user'] == st.session_state['username']]['clientes'].values[0] if not users[users['user'] == 'liftvan'].empty else None
     if es_cliente == "1":
         allowed_pages = ["IMPO", "EXPO", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "box-arrow-right"]
