@@ -51,7 +51,6 @@ cookies = EncryptedCookieManager(prefix="dassa_", password="your_secret_password
 if not cookies.ready():
     st.stop()
 
-
 # Check if user is already logged in
 if 'logged_in' not in st.session_state:
     st.session_state.logged_in = cookies.get("logged_in", False)
