@@ -1,6 +1,7 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 36158,01/08,S/D,-,0,  ,TD,                    ,1025030007,0,                              ,,     ,2025-08-20,Cristoffer Skarle,1025030007          ,Pendiente
 36093,30/07,Mercopallet Srl,-,0,  ,TD,                    ,10102201,0,                              ,,     ,2025-08-19,Grlae25106/Mercopallet,10102201            ,Pendiente
+36085,30/07,Chaguar Sociedad Anonima,MEDU-551277-0,9,DR,TD,FX32941637          ,EBKG13616278,1,TRANSPORTE DEL CLIENTE        ,Rodrigo Victor,13:53,2025-08-19,,                    ,13:53 Arribado
 36084,30/07,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG13616278,0,                              ,,     ,2025-08-19,,                    ,Pendiente
 36083,30/07,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG13616278,0,                              ,,     ,2025-08-19,,                    ,Pendiente
 36082,30/07,Chaguar Sociedad Anonima,FTAU-135044-6,9,DR,TD,FX32941657          ,EBKG13616278,1,TRANSPORTE DEL CLIENTE        ,Moscardini,12:29,2025-08-19,,                    ,12:29 Arribado
@@ -9,19 +10,19 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 36137,30/07,Alimentaria Sa,TEMU-140336-7,10080,DR,TD,**********          ,40165993,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,09:45,2025-08-20,,                    ,09:45 Arribado
 36095,30/07,Mercopallet Srl,-,0,  ,TD,                    ,10102201,0,                              ,,     ,2025-08-19,Grlae25106/Mercopallet,10102201            ,Pendiente
 36094,30/07,Mercopallet Srl,-,0,  ,TD,                    ,10102201,0,                              ,,     ,2025-08-19,Grlae25106/Mercopallet,10102201            ,Pendiente
-36085,30/07,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG13616278,0,                              ,,     ,2025-08-19,,                    ,Pendiente
-36092,30/07,Mercopallet Srl,GESU-611096-7,10080,HC,TD,************        ,10102201,1,TRANSPORTE DEL CLIENTE        ,Porco,11:45,2025-08-19,Grlae25106/Mercopallet,10102201            ,11:45 Arribado
-36161,30/07,Chaguar Sociedad Anonima,TEMU-376450-1,9,DR,TD,FX32941635          ,EBKG13616278,0,                              ,,     ,2025-08-20,,                    ,Pendiente
+36161,30/07,Chaguar Sociedad Anonima,TEMU-376450-1,9,DR,TD,FX32941635          ,EBKG13616278,1,TRANSPORTE DEL CLIENTE        ,Catalano,13:44,2025-08-20,,                    ,13:44 Arribado
+36162,30/07,Chaguar Sociedad Anonima,MSDU-240917-4,9,DR,TD,FX32941634          ,EBKG13616278,1,TRANSPORTE DEL CLIENTE        ,Catalano,13:47,2025-08-20,,                    ,13:47 Arribado
+36127,30/07,Capilatis S.A.,CMAU-949232-8,10074,HC,TD,R1957588            ,SNG0472824,1,TRANSPORTE DEL CLIENTE        ,Rodriguez,08:45,2025-08-20,,                    ,08:45 Arribado
 36114,30/07,Capilatis S.A.,-,0,  ,TD,                    ,SNG0472824,1,TRANSPORTE DEL CLIENTE        ,Ezequiel,08:18,2025-08-19,E 30119 Fc 1045,25001EC01049382N    ,08:18 Arribado
 36113,30/07,Capilatis S.A.,CMAU-743799-6,10074,HC,TD,R1957581            ,SNG0472824,1,TRANSPORTE DEL CLIENTE        ,Perez,17:10,2025-08-19,E 30119 Fc 1045,25001EC01049382N    ,17:10 Arribado
 36112,30/07,Capilatis S.A.,TGHU-979954-9,10074,HC,TD,R1957502            ,SNG0472824,1,TRANSPORTE DEL CLIENTE        ,Catalano,16:54,2025-08-19,E 30119 Fc 1045,25001EC01049382N    ,16:54 Arribado
 36110,30/07,Lift Van Int. Co S.A,-,0,  ,TD,                    ,93774162,0,                              ,,     ,2025-08-19,93774162,  93774162          ,Pendiente
-36127,30/07,Capilatis S.A.,CMAU-949232-8,10074,HC,TD,R1957588            ,SNG0472824,1,TRANSPORTE DEL CLIENTE        ,Rodriguez,08:45,2025-08-20,,                    ,08:45 Arribado
+36092,30/07,Mercopallet Srl,GESU-611096-7,10080,HC,TD,************        ,10102201,1,TRANSPORTE DEL CLIENTE        ,Porco,11:45,2025-08-19,Grlae25106/Mercopallet,10102201            ,11:45 Arribado
 36155,31/07,Hilado Sa,-,10080,HC,TD,                    ,257283118,0,                              ,,     ,2025-08-20,,                    ,Pendiente
-36154,31/07,Hilado Sa,-,10080,HC,TD,                    ,257283118,0,                              ,,     ,2025-08-20,,                    ,Pendiente
 36144,31/07,Hector Reboratti,-,0,  ,TD,                    ,340500027063,0,                              ,,     ,2025-08-20,Grlem25878/Reboratti,340500027063        ,Pendiente
 36145,31/07,Hector Reboratti,-,0,  ,TD,                    ,340500027063,0,                              ,,     ,2025-08-20,Grlem25878/Reboratti,340500027063        ,Pendiente
 36150,31/07,Litoral Citrus S A,-,9,DR,TD,                    ,153IAR0650906,0,                              ,,     ,2025-08-20,,                    ,Pendiente
+36154,31/07,Hilado Sa,-,10080,HC,TD,                    ,257283118,0,                              ,,     ,2025-08-20,,                    ,Pendiente
 36153,31/07,Hilado Sa,-,10080,HC,TD,                    ,257283118,0,                              ,,     ,2025-08-20,,                    ,Pendiente
 36152,31/07,Hilado Sa,-,10080,HC,TD,                    ,257283118,0,                              ,,     ,2025-08-20,,                    ,Pendiente
 36151,31/07,Hilado Sa,-,10080,HC,TD,                    ,257283118,0,                              ,,     ,2025-08-20,,                    ,Pendiente
