@@ -42,9 +42,9 @@ with st.form("preingreso_form"):
                 "tipo_carga": tipo_carga
             }
             queue_number = submit_form(data)
-            st.success(f"✅ Registro exitoso. Usted es el camión N° {queue_number} en la fila del día.")
-            st.info("Lo contactaremos al número de Whatsapp ingresado.")
+            primer_nombre = nombre_chofer.split()[0] if nombre_chofer.strip() else nombre_chofer
+            st.success(f"✅ Registro exitoso Sr. {primer_nombre}. Usted es el camión N° {queue_number} en la fila del día.")
+            st.info(f"Lo contactaremos al número de Whatsapp ingresado {celular_whatsapp}")
             st.info("Una vez autorizado el ingreso tiene 15 minutos de tolerancia para ingresar.")
-            st.image("indicaciones.jpg")
         else:
             st.error("Por favor, complete todos los campos obligatorios.")
