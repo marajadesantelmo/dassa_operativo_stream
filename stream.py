@@ -30,12 +30,20 @@ with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 users = fetch_table_data("users")
+users_clientes = fetch_table_data("users_clientes")
 
 def login(username, password):
     for user_row in users.itertuples():
         if user_row.user == username and user_row.clave == password:
             return True
     return False
+
+def get_allowed_clients(username):
+    """Get list of clients that a user is allowed to see"""
+    user_clients = users_clientes[users_clientes['user'] == username]
+    if user_clients.empty:
+        return None  # No restrictions, can see all clients
+    return user_clients['cliente'].tolist()
 
 # Initialize cookies manager
 cookies = EncryptedCookieManager(prefix="dassa_", password="your_secret_password")
@@ -104,9 +112,11 @@ else:
         orientation="horizontal"
     )
     if page_selection == "IMPO":
-        stream_impo.show_page_impo()  
+        allowed_clients = get_allowed_clients(st.session_state['username'])
+        stream_impo.show_page_impo(allowed_clients)  
     elif page_selection == "EXPO":
-        stream_expo.show_page_expo()
+        allowed_clients = get_allowed_clients(st.session_state['username'])
+        stream_expo.show_page_expo(allowed_clients)
     elif page_selection == "Tráfico":
         stream_trafico.show_page_trafico()
     elif page_selection == "Tráfico2":
@@ -114,15 +124,20 @@ else:
     elif page_selection == "Andresito":
         stream_trafico_andresito.show_page_trafico_andresito()
     elif page_selection == "Balanza":
-         stream_balanza.show_page_balanza()
+        allowed_clients = get_allowed_clients(st.session_state['username'])
+        stream_balanza.show_page_balanza(allowed_clients)
     elif page_selection == "Plazoleta":
-         stream_plazoleta.show_page_plazoleta()
+        allowed_clients = get_allowed_clients(st.session_state['username'])
+        stream_plazoleta.show_page_plazoleta(allowed_clients)
     elif page_selection == "IMPO - histórico":
-        stream_impo_historico.show_page_impo_historico()
+        allowed_clients = get_allowed_clients(st.session_state['username'])
+        stream_impo_historico.show_page_impo_historico(allowed_clients)
     elif page_selection == "EXPO - histórico":
-        stream_expo_historico.show_page_expo_historico()
+        allowed_clients = get_allowed_clients(st.session_state['username'])
+        stream_expo_historico.show_page_expo_historico(allowed_clients)
     elif page_selection == "Camiones":
-        stream_camiones.show_page_camiones()
+        allowed_clients = get_allowed_clients(st.session_state['username'])
+        stream_camiones.show_page_camiones(allowed_clients)
     elif page_selection == "Gestión de usuarios":
         stream_usuarios.show_page_usuarios()
     elif page_selection == "Logout":

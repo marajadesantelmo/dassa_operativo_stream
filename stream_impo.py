@@ -36,10 +36,29 @@ def fetch_last_update():
         return pd.to_datetime(last_update).strftime("%d/%m/%Y %H:%M")
     return "No disponible"
 
-def show_page_impo():
+def filter_dataframe_by_clients(df, allowed_clients):
+    """Filter dataframe by allowed clients"""
+    if allowed_clients is None:
+        return df  # No filtering needed
+    if 'Cliente' not in df.columns:
+        return df  # No Cliente column to filter by
+    return df[df['Cliente'].isin(allowed_clients)]
+
+def show_page_impo(allowed_clients=None):
     # Load data
     arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm= fetch_data_impo()
     last_update = fetch_last_update()
+    
+    # Apply client filtering first
+    if allowed_clients is not None:
+        arribos = filter_dataframe_by_clients(arribos, allowed_clients)
+        pendiente_desconsolidar = filter_dataframe_by_clients(pendiente_desconsolidar, allowed_clients)
+        verificaciones_impo = filter_dataframe_by_clients(verificaciones_impo, allowed_clients)
+        retiros_impo = filter_dataframe_by_clients(retiros_impo, allowed_clients)
+        otros_impo = filter_dataframe_by_clients(otros_impo, allowed_clients)
+        existente_plz = filter_dataframe_by_clients(existente_plz, allowed_clients)
+        existente_alm = filter_dataframe_by_clients(existente_alm, allowed_clients)
+    
     mudanceras_filter = ['Mercovan', 'Lift Van', 'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
     if st.session_state['username'] == "mudancera":
         arribos = arribos[arribos['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
