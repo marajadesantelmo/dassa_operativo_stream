@@ -45,3 +45,28 @@ $$ LANGUAGE plpgsql;
 -- Schedule the reset function to run daily at midnight
 CREATE EXTENSION IF NOT EXISTS pg_cron;
 SELECT cron.schedule('daily_reset_preingreso', '0 0 * * *', 'SELECT reset_preingreso();');
+
+-- Table to store facturacion (invoice) records
+CREATE TABLE facturacion (
+    id SERIAL PRIMARY KEY,
+    factura TEXT NOT NULL,
+    emision TEXT NOT NULL,
+    vencimiento TEXT NOT NULL,
+    razon_social TEXT NOT NULL,
+    neto TEXT NOT NULL,
+    importe_total TEXT NOT NULL,
+    fecha_carga DATE NOT NULL DEFAULT CURRENT_DATE,
+    hora_carga TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Table to store saldos (account balance) records
+CREATE TABLE saldos (
+    id SERIAL PRIMARY KEY,
+    comprobante TEXT NOT NULL,
+    cliente TEXT NOT NULL,
+    vencimiento TEXT NOT NULL,
+    saldo TEXT NOT NULL,
+    dias TEXT NOT NULL,
+    fecha_carga DATE NOT NULL DEFAULT CURRENT_DATE,
+    hora_carga TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
