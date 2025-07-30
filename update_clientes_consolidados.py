@@ -1,17 +1,10 @@
 import pyodbc
 import pandas as pd
 import os
-from tokens import username, password
-
-
-if os.path.exists('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream'):
-    os.chdir('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream')
-elif os.path.exists('C:/Users/facun/OneDrive/Documentos/GitHub/dassa_operativo_stream'):
-    os.chdir('C:/Users/facun/OneDrive/Documentos/GitHub/dassa_operativo_stream')
-else:
-    print("Se usa working directory por defecto")
-
-path = '//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/'
+from datetime import datetime, timedelta
+from tokens import username, password, url_supabase, key_supabase
+from supabase import create_client, Client
+supabase_client = create_client(url_supabase, key_supabase)
 
 print('Actualizando información operativa Orden del Día DASSA')
 print('Descargando datos de SQL')
@@ -32,8 +25,9 @@ clientes_global_comex = pd.DataFrame.from_records(rows, columns=columns)
 clientes_global_comex['apellido'] = clientes_global_comex['apellido'].str.title().str.strip()
 clientes_global_comex['apellido'] = clientes_global_comex['apellido'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
 global_comex = pd.DataFrame({'apellido': ['Global Comex Srl']})
+global_comex['apellido'] = global_comex['apellido'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
 clientes_global_comex = pd.concat([clientes_global_comex, global_comex])
-clientes_global_comex.to_csv('data/clientes_global_comex.csv', index=False)
+clientes_global_comex['user'] = 'globalcomex'
 
 print('Clientes Global Rover')
 cursor.execute(f"""
@@ -48,5 +42,10 @@ clientes_global_rover = pd.DataFrame.from_records(rows, columns=columns)
 clientes_global_rover['apellido'] = clientes_global_rover['apellido'].str.title().str.strip()
 clientes_global_rover['apellido'] = clientes_global_rover['apellido'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
 global_rover = pd.DataFrame({'apellido': ['Global Rover Srl']})
+global_rover['apellido'] = global_rover['apellido'].apply(lambda x: x[:20] + "..." if len(x) > 20 else x)
 clientes_global_rover = pd.concat([clientes_global_rover, global_rover])
-clientes_global_rover.to_csv('data/clientes_global_rover.csv', index=False)
+clientes_global_rover['user'] = 'globalrover'
+
+def delete_table_data_user(table_name):
+    supabase_client.from_(table_name).delete().neq('user', None).execute()
+
