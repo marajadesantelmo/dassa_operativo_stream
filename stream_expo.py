@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import time
-from utils import highlight
+from utils import highlight, filter_dataframe_by_clients
 from supabase_connection import fetch_table_data
 
 def fetch_data_expo():
@@ -51,10 +51,23 @@ def fetch_last_update():
 
     
 
-def show_page_expo():
+def show_page_expo(allowed_clients=None):
     # Load data
     arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, pendiente_consolidar, listos_para_remitir, vacios_disponibles, a_consolidar = fetch_data_expo()
     last_update = fetch_last_update()
+    
+    # Apply client filtering first
+    if allowed_clients is not None:
+        arribos_expo_carga = filter_dataframe_by_clients(arribos_expo_carga, allowed_clients)
+        arribos_expo_ctns = filter_dataframe_by_clients(arribos_expo_ctns, allowed_clients)
+        verificaciones_expo = filter_dataframe_by_clients(verificaciones_expo, allowed_clients)
+        otros_expo = filter_dataframe_by_clients(otros_expo, allowed_clients)
+        remisiones = filter_dataframe_by_clients(remisiones, allowed_clients)
+        pendiente_consolidar = filter_dataframe_by_clients(pendiente_consolidar, allowed_clients)
+        listos_para_remitir = filter_dataframe_by_clients(listos_para_remitir, allowed_clients)
+        vacios_disponibles = filter_dataframe_by_clients(vacios_disponibles, allowed_clients)
+        a_consolidar = filter_dataframe_by_clients(a_consolidar, allowed_clients)
+    
     mudanceras_filter = ['Mercovan', 'Lift Van', 'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
     if st.session_state['username'] == "mudancera":
         arribos_expo_carga = arribos_expo_carga[arribos_expo_carga['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
