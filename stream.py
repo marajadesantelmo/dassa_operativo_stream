@@ -66,7 +66,17 @@ if not st.session_state['logged_in']:
         else:
             st.error("Usuario o clave invalidos")
 else:
-    if st.session_state['username'] == "deposito":
+    # Get user data to check clientes field
+    user_data = None
+    for user_row in users.itertuples():
+        if user_row.user == st.session_state['username']:
+            user_data = user_row
+            break
+    
+    if user_data and user_data.clientes == 1:
+        allowed_pages = ["IMPO", "EXPO", "Logout"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "box-arrow-right"]
+    elif st.session_state['username'] == "deposito":
         allowed_pages = ["IMPO", "EXPO", "Camiones", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "truck", "box-arrow-right"]
     elif st.session_state['username'] == "trafico":
