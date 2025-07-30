@@ -25,7 +25,6 @@ key_supabase= os.getenv("key_supabase")
 refresh_interval_ms = 300 * 1000  
 count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refresh")
 
-# Estilo
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
@@ -39,7 +38,6 @@ def login(username, password):
     return False
 
 def get_allowed_clients(username):
-    """Get list of clients that a user is allowed to see"""
     user_clients = users_clientes[users_clientes['user'] == username]
     if user_clients.empty:
         return None  # No restrictions, can see all clients
@@ -65,22 +63,18 @@ if not st.session_state['logged_in']:
         if login(username, password):
             st.session_state['logged_in'] = True
             st.session_state.username = username
-            cookies["logged_in"] = str(True)  # Convert to string
-            cookies["username"] = username  # Username is already a string
-            cookies.save()  # Persist the changes
+            cookies["logged_in"] = str(True)
+            cookies["username"] = username 
+            cookies.save()
             st.success("Usuario logeado")
             st.rerun()
         else:
             st.error("Usuario o clave invalidos")
 else:
     # Get user data to check clientes field
-    user_data = None
-    for user_row in users.itertuples():
-        if user_row.user == st.session_state['username']:
-            user_data = user_row
-            break
+    es_cliente = users[users['user']==cookies["username"]]['cliente'][0]
     
-    if user_data and user_data.clientes == 1:
+    if es_cliente== 1:
         allowed_pages = ["IMPO", "EXPO", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "box-arrow-right"]
     elif st.session_state['username'] == "deposito":
