@@ -31,6 +31,14 @@ def rellenar_df_vacio(df):
         df = pd.DataFrame([['-'] * len(df.columns)], columns=df.columns)
     return df
 
+
+def filter_dataframe_by_clients(df, allowed_clients):
+    if allowed_clients is None:
+        return df  # No filtering needed
+    if 'Cliente' not in df.columns:
+        return df  # No Cliente column to filter by
+    return df[df['Cliente'].isin(allowed_clients)]
+
 def generar_comprobante(balanza_row):
     current_date = datetime.now().strftime("%Y-%m-%d")
     pdf = FPDF()

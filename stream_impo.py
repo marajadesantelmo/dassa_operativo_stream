@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import time
 from datetime import datetime
-from utils import highlight
+from utils import highlight, filter_dataframe_by_clients    
 from supabase_connection import fetch_table_data
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
@@ -35,14 +35,6 @@ def fetch_last_update():
         last_update = update_log[update_log['table_name'] == 'Arribos y existente']['last_update'].max()
         return pd.to_datetime(last_update).strftime("%d/%m/%Y %H:%M")
     return "No disponible"
-
-def filter_dataframe_by_clients(df, allowed_clients):
-    """Filter dataframe by allowed clients"""
-    if allowed_clients is None:
-        return df  # No filtering needed
-    if 'Cliente' not in df.columns:
-        return df  # No Cliente column to filter by
-    return df[df['Cliente'].isin(allowed_clients)]
 
 def show_page_impo(allowed_clients=None):
     # Load data
