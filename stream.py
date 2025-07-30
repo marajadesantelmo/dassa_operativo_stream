@@ -124,20 +124,15 @@ else:
     elif page_selection == "Andresito":
         stream_trafico_andresito.show_page_trafico_andresito()
     elif page_selection == "Balanza":
-        allowed_clients = get_allowed_clients(st.session_state['username'])
-        stream_balanza.show_page_balanza(allowed_clients)
+        stream_balanza.show_page_balanza()
     elif page_selection == "Plazoleta":
-        allowed_clients = get_allowed_clients(st.session_state['username'])
-        stream_plazoleta.show_page_plazoleta(allowed_clients)
+        stream_plazoleta.show_page_plazoleta()
     elif page_selection == "IMPO - histórico":
-        allowed_clients = get_allowed_clients(st.session_state['username'])
-        stream_impo_historico.show_page_impo_historico(allowed_clients)
+        stream_impo_historico.show_page_impo_historico()
     elif page_selection == "EXPO - histórico":
-        allowed_clients = get_allowed_clients(st.session_state['username'])
-        stream_expo_historico.show_page_expo_historico(allowed_clients)
+        stream_expo_historico.show_page_expo_historico()
     elif page_selection == "Camiones":
-        allowed_clients = get_allowed_clients(st.session_state['username'])
-        stream_camiones.show_page_camiones(allowed_clients)
+        stream_camiones.show_page_camiones()
     elif page_selection == "Gestión de usuarios":
         stream_usuarios.show_page_usuarios()
     elif page_selection == "Logout":
