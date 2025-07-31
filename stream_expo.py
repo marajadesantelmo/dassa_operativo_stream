@@ -26,6 +26,9 @@ def fetch_data_expo():
         otros_expo = otros_expo[otros_expo['Dia'] != '-']
         remisiones = remisiones[remisiones['Dia'] != '-']
         if not remisiones.empty:
+            cols = remisiones.columns.tolist()
+            cols.insert(2, cols.pop(cols.index('Operacion')))
+            remisiones = remisiones[cols]
             remisiones['Dia'] = pd.to_datetime(remisiones['Dia'], format='%d/%m', errors='coerce')
             remisiones['Hora'] = pd.to_datetime(remisiones['Hora'], errors='coerce').dt.strftime('%H:%M')
             # Remove rows where date conversion failed
