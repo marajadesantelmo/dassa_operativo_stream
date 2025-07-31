@@ -16,6 +16,12 @@ def fetch_data_impo():
     try:
         arribos = arribos.sort_values(by="Turno")
         verificaciones_impo = verificaciones_impo.drop(columns=['Hora'])
+        cols = verificaciones_impo.columns.tolist()
+        cols.insert(2, cols.pop(cols.index('Operacion')))
+        verificaciones_impo = verificaciones_impo[cols]
+        cols = retiros_impo.columns.tolist()
+        cols.insert(2, cols.pop(cols.index('Operacion')))
+        retiros_impo = retiros_impo[cols]
         retiros_impo['Dia'] = pd.to_datetime(retiros_impo['Dia'], format='%d/%m')
         retiros_impo['Hora'] = pd.to_datetime(retiros_impo['Hora'], errors='coerce').dt.strftime('%H:%M')
         retiros_impo.sort_values(by=['Dia', 'Hora'], inplace=True)
