@@ -1,18 +1,18 @@
-Fecha,Booking,Cliente,Cantidad,Contenedor,Precinto,Origen,Estado
-01/08,1025030007,S/D,1,-,                    ,-,Pendiente
-01/08,EBKG13646600,Isischu Srl,1,-,                    ,-,Pendiente
-01/08,EBKG13649051,Mader Zu S.R.L.,3,-,                    ,-,Pendiente
-01/08,EBKG13739044,Taeda Sa,2,-,                    ,-,Pendiente
-04/08,ZIMUBUE9042238,Lawter Argentina S.A.,1,-,                    ,-,Pendiente
-31/07,10416430,Lift Van Int. Co S.A,1,HLBU-174685-3,***********         ,Huxley Sa,11:47 Arribado
-31/07,10416430,S/D,1,-,                    ,-,Pendiente
-31/07,153IAR0650906,Litoral Citrus S A,1,-,                    ,Medlog Sarandi,Pendiente
-31/07,257283118,Hilado Sa,3,-,                    ,Huxley Sa,Pendiente
-31/07,257283118,Hilado Sa,1,MRSU-506518-7,*********           ,Huxley Sa,09:06 Arribado
-31/07,257283118,Hilado Sa,1,TCKU-694302-3,************        ,Huxley Sa,09:01 Arribado
-31/07,340500026199,Uld Global Trade Srl,1,EGSU-351602-3,**********          ,Trp - Terminales 1-2-3,17:00 Arribado
-31/07,340500026199,Uld Global Trade Srl,1,EGSU-368739-2,***********         ,Trp - Terminales 1-2-3,16:58 Arribado
-31/07,340500026199,Uld Global Trade Srl,1,EGSU-377648-4,**********          ,Trp - Terminales 1-2-3,16:30 Arribado
-31/07,340500027063,Hector Reboratti,2,-,                    ,-,Pendiente
-31/07,93319271,Norfor Sa,1,HLBU-227667-2,************        ,Huxley Sa,15:06 Arribado
-31/07,93319271,Norfor Sa,1,TEMU-762966-5,************        ,Huxley Sa,14:40 Arribado
+Fecha,Booking,Cliente,Cantidad,Contenedor,Precinto,Origen,Obs.,Estado
+01/08,1025030007,S/D,1,-,                    ,-,,Pendiente
+01/08,EBKG13646600,Isischu Srl,1,-,                    ,-,26600,Pendiente
+01/08,EBKG13649051,Mader Zu S.R.L.,3,-,                    ,-,26600,Pendiente
+01/08,EBKG13739044,Taeda Sa,2,-,                    ,-,26600,Pendiente
+04/08,ZIMUBUE9042238,Lawter Argentina S.A.,1,-,                    ,-,,Pendiente
+31/07,10416430,Lift Van Int. Co S.A,1,HLBU-174685-3,***********         ,Huxley Sa,,11:47 Arribado
+31/07,10416430,S/D,1,-,                    ,-,,Pendiente
+31/07,153IAR0650906,Litoral Citrus S A,1,-,                    ,Medlog Sarandi,,Pendiente
+31/07,257283118,Hilado Sa,3,-,                    ,Huxley Sa,,Pendiente
+31/07,257283118,Hilado Sa,1,MRSU-506518-7,*********           ,Huxley Sa,,09:06 Arribado
+31/07,257283118,Hilado Sa,1,TCKU-694302-3,************        ,Huxley Sa,,09:01 Arribado
+31/07,340500026199,Uld Global Trade Srl,1,EGSU-351602-3,**********          ,Trp - Terminales 1-2-3,,17:00 Arribado
+31/07,340500026199,Uld Global Trade Srl,1,EGSU-368739-2,***********         ,Trp - Terminales 1-2-3,,16:58 Arribado
+31/07,340500026199,Uld Global Trade Srl,1,EGSU-377648-4,**********          ,Trp - Terminales 1-2-3,,16:30 Arribado
+31/07,340500027063,Hector Reboratti,2,-,                    ,-,,Pendiente
+31/07,93319271,Norfor Sa,1,HLBU-227667-2,************        ,Huxley Sa,,15:06 Arribado
+31/07,93319271,Norfor Sa,1,TEMU-762966-5,************        ,Huxley Sa,,14:40 Arribado
