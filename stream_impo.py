@@ -7,25 +7,29 @@ from supabase_connection import fetch_table_data
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
     arribos = fetch_table_data("arribos")
-    arribos = arribos.sort_values(by="Turno") 
     pendiente_desconsolidar = fetch_table_data("pendiente_desconsolidar")
     verificaciones_impo = fetch_table_data("verificaciones_impo")
-    verificaciones_impo = verificaciones_impo.drop(columns=['Hora'])
     retiros_impo = fetch_table_data("retiros_impo")
-    retiros_impo['Dia'] = pd.to_datetime(retiros_impo['Dia'], format='%d/%m')
-    retiros_impo['Hora'] = pd.to_datetime(retiros_impo['Hora'], errors='coerce').dt.strftime('%H:%M')
-    retiros_impo.sort_values(by=['Dia', 'Hora'], inplace=True)
-    retiros_impo['Hora'] = retiros_impo['Hora'].astype(str).str[:5]
-    retiros_impo['Hora'] = retiros_impo['Hora'].apply(lambda x: x[1:] if isinstance(x, str) and x.startswith('0') else x)
-    retiros_impo['Dia'] = retiros_impo['Dia'].dt.strftime('%d/%m')
-    retiros_impo['Volumen'] = retiros_impo['Volumen'].round(0).astype(int)  # Round Volumen to integer
-    cols = retiros_impo.columns.tolist()
-    cols.insert(1, cols.pop(cols.index('Hora')))
-    retiros_impo = retiros_impo[cols]
     otros_impo = fetch_table_data("otros_impo")
-    otros_impo = otros_impo[otros_impo['Dia'] != '-']
     existente_plz = fetch_table_data("existente_plz")
     existente_alm = fetch_table_data("existente_alm")
+    try:
+        arribos = arribos.sort_values(by="Turno")
+        verificaciones_impo = verificaciones_impo.drop(columns=['Hora'])
+        retiros_impo['Dia'] = pd.to_datetime(retiros_impo['Dia'], format='%d/%m')
+        retiros_impo['Hora'] = pd.to_datetime(retiros_impo['Hora'], errors='coerce').dt.strftime('%H:%M')
+        retiros_impo.sort_values(by=['Dia', 'Hora'], inplace=True)
+        retiros_impo['Hora'] = retiros_impo['Hora'].astype(str).str[:5]
+        retiros_impo['Hora'] = retiros_impo['Hora'].apply(lambda x: x[1:] if isinstance(x, str) and x.startswith('0') else x)
+        retiros_impo['Dia'] = retiros_impo['Dia'].dt.strftime('%d/%m')
+        retiros_impo['Volumen'] = retiros_impo['Volumen'].round(0).astype(int)
+        cols = retiros_impo.columns.tolist()
+        cols.insert(1, cols.pop(cols.index('Hora')))
+        retiros_impo = retiros_impo[cols]
+        otros_impo = otros_impo[otros_impo['Dia'] != '-']
+    except Exception:
+        pass
+
     return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm
 
 @st.cache_data(ttl=60)
