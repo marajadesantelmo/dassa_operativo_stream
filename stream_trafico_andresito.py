@@ -7,139 +7,17 @@ from supabase_connection import fetch_table_data, update_data, update_data_by_in
 
 @st.cache_data(ttl=60) 
 def fetch_data_trafico_andresito():
-    arribos = fetch_table_data("arribos_andresito")  
-    pendiente_desconsolidar = fetch_table_data("pendiente_desconsolidar_andresito")
-    arribos_expo_ctns = fetch_table_data("arribos_expo_ctns_andresito")   
-    remisiones = fetch_table_data("remisiones_andresito")
+    arribos = fetch_table_data("trafico_arribos")  
+    pendiente_desconsolidar = fetch_table_data("trafico_pendiente_desconsolidar")
+    arribos_expo_ctns = fetch_table_data("trafico_arribos_expo_ctns")   
+    remisiones = fetch_table_data("trafico_remisiones")
     return arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns
 
-def update_andresito_data(table_name, row_index, chofer, patente1, patente2, observaciones):
-    """Update Andresito-specific data for a travel"""
-    update_data_by_index(f"{table_name}_andresito", row_index, {
-        'Chofer': chofer,
-        'Patente 1': patente1,
-        'Patente 2': patente2,
-        'Observaciones_Andresito' if table_name == 'remisiones' else 'Observaciones': observaciones
-    })
-
-def fetch_last_update():
-    update_log = fetch_table_data("update_log")
-    if not update_log.empty:
-        last_update = update_log[update_log['table_name'] == 'Arribos y existente']['last_update'].max()
-        return pd.to_datetime(last_update).strftime("%d/%m/%Y %H:%M")
-    return "No disponible"
 
 def show_page_trafico_andresito():
     # Load data
     arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns = fetch_data_trafico_andresito()
-    last_update = fetch_last_update()
-    today = datetime.now().strftime('%d/%m') 
 
-
-    col_logo, col_title = st.columns([2, 5])
-    with col_logo:
-        st.image('logo.png')
-        st.info(f'Última actualización: {last_update}')
-    with col_title:
-        current_day = datetime.now().strftime("%d/%m/%Y")
-        st.title(f"Viajes Asignados a Andresito - {current_day}")
-    
-    st.markdown("---")
-    
-    # Edit section
-    st.header("📝 Completar Información de Viajes")
-    
-    tab1, tab2, tab3, tab4 = st.tabs(["Arribos", "Pendiente Desconsolidar", "Remisiones", "Arribos EXPO CTNs"])
-    
-    with tab1:
-        st.subheader("Arribos Asignados")
-        if not arribos.empty:
-            for idx, row in arribos.iterrows():
-                with st.expander(f"📦 {row['Contenedor']} - {row['Cliente']}"):
-                    st.write(f"**Booking:** {row['Booking']} | **Estado:** {row['Estado']}")
-                    col1, col2 = st.columns(2)
-                    with col1:
-                        chofer = st.text_input(f"Chofer", value=row.get('Chofer', ''), key=f"chofer_arribos_{idx}")
-                        patente1 = st.text_input(f"Patente 1", value=row.get('Patente 1', ''), key=f"patente1_arribos_{idx}")
-                    with col2:
-                        patente2 = st.text_input(f"Patente 2", value=row.get('Patente 2', ''), key=f"patente2_arribos_{idx}")
-                        observaciones = st.text_area(f"Observaciones", value=row.get('Observaciones', ''), key=f"obs_arribos_{idx}")
-                    
-                    if st.button(f"Actualizar", key=f"update_arribos_{idx}"):
-                        update_andresito_data('arribos', idx, chofer, patente1, patente2, observaciones)
-                        st.cache_data.clear()
-                        st.success("Información actualizada")
-                        st.rerun()
-        else:
-            st.info("No hay arribos asignados")
-    
-    with tab2:
-        st.subheader("Pendientes Desconsolidar Asignados")
-        if not pendiente_desconsolidar.empty:
-            for idx, row in pendiente_desconsolidar.iterrows():
-                with st.expander(f"📦 {row['Contenedor']} - {row['Cliente']}"):
-                    st.write(f"**Tipo:** {row['Tipo']} | **Estado:** {row['Estado']}")
-                    col1, col2 = st.columns(2)
-                    with col1:
-                        chofer = st.text_input(f"Chofer", value=row.get('Chofer', ''), key=f"chofer_pend_{idx}")
-                        patente1 = st.text_input(f"Patente 1", value=row.get('Patente 1', ''), key=f"patente1_pend_{idx}")
-                    with col2:
-                        patente2 = st.text_input(f"Patente 2", value=row.get('Patente 2', ''), key=f"patente2_pend_{idx}")
-                        observaciones = st.text_area(f"Observaciones", value=row.get('Observaciones', ''), key=f"obs_pend_{idx}")
-                    
-                    if st.button(f"Actualizar", key=f"update_pend_{idx}"):
-                        update_andresito_data('pendiente_desconsolidar', idx, chofer, patente1, patente2, observaciones)
-                        st.cache_data.clear()
-                        st.success("Información actualizada")
-                        st.rerun()
-        else:
-            st.info("No hay pendientes asignados")
-    
-    with tab3:
-        st.subheader("Remisiones Asignadas")
-        if not remisiones.empty:
-            for idx, row in remisiones.iterrows():
-                with st.expander(f"📦 {row['Contenedor']} - {row['Cliente']}"):
-                    st.write(f"**Booking:** {row['Booking']} | **Estado:** {row['Estado']}")
-                    col1, col2 = st.columns(2)
-                    with col1:
-                        chofer = st.text_input(f"Chofer", value=row.get('Chofer', ''), key=f"chofer_rem_{idx}")
-                        patente1 = st.text_input(f"Patente 1", value=row.get('Patente 1', ''), key=f"patente1_rem_{idx}")
-                    with col2:
-                        patente2 = st.text_input(f"Patente 2", value=row.get('Patente 2', ''), key=f"patente2_rem_{idx}")
-                        observaciones = st.text_area(f"Observaciones Andresito", value=row.get('Observaciones_Andresito', ''), key=f"obs_rem_{idx}")
-                    
-                    if st.button(f"Actualizar", key=f"update_rem_{idx}"):
-                        update_andresito_data('remisiones', idx, chofer, patente1, patente2, observaciones)
-                        st.cache_data.clear()
-                        st.success("Información actualizada")
-                        st.rerun()
-        else:
-            st.info("No hay remisiones asignadas")
-    
-    with tab4:
-        st.subheader("Arribos EXPO CTNs Asignados")
-        if not arribos_expo_ctns.empty:
-            for idx, row in arribos_expo_ctns.iterrows():
-                with st.expander(f"📦 {row['Contenedor']} - {row['Cliente']}"):
-                    st.write(f"**Booking:** {row['Booking']} | **Estado:** {row['Estado']}")
-                    col1, col2 = st.columns(2)
-                    with col1:
-                        chofer = st.text_input(f"Chofer", value=row.get('Chofer', ''), key=f"chofer_expo_{idx}")
-                        patente1 = st.text_input(f"Patente 1", value=row.get('Patente 1', ''), key=f"patente1_expo_{idx}")
-                    with col2:
-                        patente2 = st.text_input(f"Patente 2", value=row.get('Patente 2', ''), key=f"patente2_expo_{idx}")
-                        observaciones = st.text_area(f"Observaciones", value=row.get('Observaciones', ''), key=f"obs_expo_{idx}")
-                    
-                    if st.button(f"Actualizar", key=f"update_expo_{idx}"):
-                        update_andresito_data('arribos_expo_ctns', idx, chofer, patente1, patente2, observaciones)
-                        st.cache_data.clear()
-                        st.success("Información actualizada")
-                        st.rerun()
-        else:
-            st.info("No hay arribos EXPO asignados")
-
-    st.markdown("---")
     st.header("IMPO")
     col1, col2 = st.columns(2)
     with col1:
