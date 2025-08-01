@@ -13,6 +13,7 @@ import stream_usuarios
 import stream_trafico
 import stream_trafico_andresito
 import stream_trafico2
+import stream_facturacion
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
@@ -73,8 +74,8 @@ if not st.session_state['logged_in']:
 else:
     es_cliente = users[users['user'] == st.session_state['username']]['clientes'].values[0] if not users[users['user'] == 'liftvan'].empty else None
     if es_cliente == "1":
-        allowed_pages = ["IMPO", "EXPO", "Logout"]
-        icons = ["arrow-down-circle", "arrow-up-circle", "box-arrow-right"]
+        allowed_pages = ["IMPO", "EXPO", "Facturación", "Logout"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "receipt", "box-arrow-right"]
     elif st.session_state['username'] == "deposito":
         allowed_pages = ["IMPO", "EXPO", "Camiones", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "truck", "box-arrow-right"]
@@ -126,6 +127,9 @@ else:
         stream_camiones.show_page_camiones()
     elif page_selection == "Gestión de usuarios":
         stream_usuarios.show_page_usuarios()
+    elif page_selection == "Facturación":
+        allowed_clients = get_allowed_clients(st.session_state['username'])
+        stream_facturacion.show_page_facturacion()
     elif page_selection == "Logout":
         cookies.pop("logged_in", None)
         cookies.pop("username", None)
