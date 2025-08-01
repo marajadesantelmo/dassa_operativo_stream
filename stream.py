@@ -109,6 +109,9 @@ else:
     elif page_selection == "EXPO":
         allowed_clients = get_allowed_clients(st.session_state['username'])
         stream_expo.show_page_expo(allowed_clients)
+    elif page_selection == "Facturación":
+        allowed_clients = get_allowed_clients(st.session_state['username'])
+        stream_facturacion.show_page_facturacion(allowed_clients)
     elif page_selection == "Tráfico":
         stream_trafico.show_page_trafico()
     elif page_selection == "Tráfico2":
@@ -127,9 +130,7 @@ else:
         stream_camiones.show_page_camiones()
     elif page_selection == "Gestión de usuarios":
         stream_usuarios.show_page_usuarios()
-    elif page_selection == "Facturación":
-        allowed_clients = get_allowed_clients(st.session_state['username'])
-        stream_facturacion.show_page_facturacion()
+
     elif page_selection == "Logout":
         cookies.pop("logged_in", None)
         cookies.pop("username", None)
