@@ -2,6 +2,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-07,32608,OOLU-044451-1,Mercovan Argentina S.A.,COSU6413736000,**************      ,Arribado
 2025-04-07,32609,CSLU-133312-2,Mercovan Argentina S.A.,COSU6413164570,***************     ,Arribado
 2025-04-07,32610,UACU-857525-1,Mercovan Argentina S.A.,21431758,******************  ,Arribado
+2025-08-04,36250,,Mercovan Argentina S.A.,257145363,                    ,Pendiente
 2025-07-29,36061,UACU-855660-5,Mercovan Argentina S.A.,21766678,**********          ,Arribado
 2025-07-29,36071,BMOU-143283-9,Mercovan Argentina S.A.,90243386,***************     ,Arribado
 2025-07-16,35668,UACU-544003-6,Mercovan Argentina S.A.,48738223,************        ,Arribado
@@ -42,7 +43,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-10,32715,CAIU-646722-6,Lift Van Int. Co S.A,24805945,**************      ,Arribado
 2025-04-10,32716,HLBU-102615-4,Lift Van Int. Co S.A,32089014,*********           ,Arribado
 2025-07-31,36200,HLBU-174685-3,Lift Van Int. Co S.A,10416430,***********         ,Arribado
-2025-07-30,36110,,Lift Van Int. Co S.A,93774162,                    ,Pendiente
+2025-07-30,36110,FCIU-628594-0,Lift Van Int. Co S.A,93774162,***********         ,Arribado
 2025-07-25,35979,,Lift Van Int. Co S.A,23265518,                    ,Pendiente
 2025-07-25,35988,HLBU-273571-9,Lift Van Int. Co S.A,23265518,*************       ,Arribado
 2025-07-24,35923,MRKU-022250-5,Lift Van Int. Co S.A,256654796,  ***************   ,Arribado
@@ -370,7 +371,14 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-08,32644,MSNU-712541-6,Isischu Srl,EBKG12327680,FX32981008          ,Arribado
 2025-04-08,32645,FFAU-568475-8,Isischu Srl,EBKG12327680,FX32981525          ,Arribado
 2025-04-16,32839,MSMU-682082-6,Isischu Srl,EBKG12458812,FX32978799          ,Arribado
+2025-08-04,36243,,Isischu Srl,BUA0347053,                    ,Pendiente
+2025-08-04,36244,,Isischu Srl,BUA0347053,                    ,Pendiente
+2025-08-04,36245,,Isischu Srl,BUA0347053,                    ,Pendiente
+2025-08-04,36246,,Isischu Srl,BUA0347053,                    ,Pendiente
+2025-08-04,36247,,Isischu Srl,BUA0347053,                    ,Pendiente
 2025-08-01,36169,,Isischu Srl,EBKG13646600,                    ,Pendiente
+2025-08-04,36241,,Isischu Srl,BUA0347053,                    ,Pendiente
+2025-08-04,36242,,Isischu Srl,BUA0347053,                    ,Pendiente
 2025-07-02,35201,TCKU-655562-4,Isischu Srl,33719070,*************       ,Arribado
 2025-06-10,34479,TRHU-838933-0,Isischu Srl,EBKG13126124,FX32971937          ,Arribado
 2025-06-10,34480,TEMU-663385-0,Isischu Srl,EBKG13126124,FX32971802          ,Arribado
@@ -493,8 +501,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-22,32937,,Taeda Sa,EBKG12490610,                    ,Pendiente
 2025-04-22,33037,GAOU-741545-8,Taeda Sa,EBKG12490610,FX32974316          ,Arribado
 2025-05-07,33406,TIIU-443085-3,Taeda Sa,153IAR0648596,FX32970711          ,Arribado
-2025-08-01,36164,,Taeda Sa,EBKG13739044,                    ,Pendiente
-2025-08-01,36165,,Taeda Sa,EBKG13739044,                    ,Pendiente
+2025-08-01,36164,TGHU-986208-7,Taeda Sa,EBKG13739044,FX32940858          ,Arribado
+2025-08-01,36165,MSCU-499879-0,Taeda Sa,EBKG13739044,FX32940776          ,Arribado
 2025-06-27,34948,MEDU-452830-2,Taeda Sa,EBKG13359360,FX32932341          ,Arribado
 2025-07-24,35936,HAMU-144154-0,Taeda Sa,15433336,**********          ,Arribado
 2025-05-23,33845,TCNU-128000-4,Carpal Sa,253983421,************        ,Arribado
@@ -994,6 +1002,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-23,33055,RFCU-821282-4,Libertun Hermanos Srl,25001EC01024657L,..                  ,Arribado
 2025-04-23,33056,BTLU-260118-0,Libertun Hermanos Srl,25001EC01024657L,..                  ,Arribado
 2025-04-07,32632,FANU-373134-5,Norfor Sa,32046549,*************       ,Arribado
+2025-07-31,36213,TEMU-762966-5,Norfor Sa,93319271,************        ,Arribado
+2025-07-31,36214,HLBU-227667-2,Norfor Sa,93319271,************        ,Arribado
 2025-07-10,35363,EGHU-937297-4,Norfor Sa,340500023432,**********          ,Arribado
 2025-07-10,35364,EMCU-836652-3,Norfor Sa,340500023432,**********          ,Arribado
 2025-07-10,35365,TXGU-579117-6,Norfor Sa,340500023432,************        ,Arribado
@@ -1440,6 +1450,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-05,34372,PCIU-018875-2,Uld Global Trade Srl,BUE500096400,**********          ,Arribado
 2025-06-05,34373,PCIU-167528-8,Uld Global Trade Srl,BUE500096400,**********          ,Arribado
 2025-06-05,34374,PCIU-126720-2,Uld Global Trade Srl,BUE500096400,************        ,Arribado
+2025-07-31,36216,EGSU-377648-4,Uld Global Trade Srl,340500026199,**********          ,Arribado
+2025-07-31,36219,EGSU-368739-2,Uld Global Trade Srl,340500026199,***********         ,Arribado
+2025-07-31,36220,EGSU-351602-3,Uld Global Trade Srl,340500026199,**********          ,Arribado
 2025-06-10,34487,PCIU-010660-4,Uld Global Trade Srl,BUE500096400,************        ,Arribado
 2025-06-10,34488,PCIU-016626-5,Uld Global Trade Srl,BUE500096400,**********          ,Arribado
 2025-06-09,34444,MSDU-468586-5,Omar Martin S.A,EBKG13048921,FX32932086          ,Arribado
