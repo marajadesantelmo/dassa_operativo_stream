@@ -42,33 +42,11 @@ def show_page_trafico_andresito():
     st.header("EXPO")
     col3, col4 = st.columns(2)
     with col3:
-        co2_sub, col2_metric1, col2_metric2 = st.columns([6, 1, 1])
-        with co2_sub:
-            st.subheader("Arribos de Contenedores")
-        with col2_metric1:
-            st.metric(label="Pendientes hoy", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'] == 'Pendiente') & 
-                                                 (arribos_expo_ctns['Fecha'] == today)]['Cantidad'].sum())
-        with col2_metric2:
-            st.metric(label="Arribados", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'].str.contains('Arribado'))].shape[0])
         st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
 
 
     with col4:
-        col4_sub, col4_metric, col4_metric2 = st.columns([7, 1, 1])
-        with col4_sub:
-            st.subheader("Remisiones")
-        with col4_metric:
-            remisiones_pendientes = 0
-            if not remisiones.empty:
-                remisiones_pendientes = remisiones[(remisiones['Estado'] == 'Pendiente') & 
-                                                     (remisiones['Dia'] == today)].shape[0]
-            st.metric(label="Pendientes hoy", value=remisiones_pendientes)
-        with col4_metric2:
-            remisiones_realizadas = 0
-            if not remisiones.empty:
-                remisiones_realizadas = remisiones[(remisiones['Estado'].str.contains('Realizado'))].shape[0]
-            st.metric(label="Realizadas", value=remisiones_realizadas)
         if not remisiones.empty:
             st.dataframe(remisiones.style.apply(highlight, axis=1), 
                          column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)} ,
