@@ -7,7 +7,9 @@ from supabase_connection import fetch_table_data
 
 def fetch_data_facturacion():
     facturacion = fetch_table_data("facturacion")
+    facturacion.drop(columns=['id'], inplace=True, errors='ignore')
     saldos = fetch_table_data("saldos")
+    saldos.drop(columns=['id'], inplace=True, errors='ignore')
     return facturacion, saldos
     
 def show_page_facturacion(allowed_clients=None):
