@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import time
-from utils import highlight
+from utils import filter_dataframe_by_clients
 from supabase_connection import fetch_table_data
 
 def fetch_data_facturacion():
@@ -10,8 +10,11 @@ def fetch_data_facturacion():
     saldos = fetch_table_data("saldos")
     return facturacion, saldos
     
-def show_page_facturacion():
+def show_page_facturacion(allowed_clients=None):
     facturacion, saldos, = fetch_data_facturacion()
+    if allowed_clients:
+        facturacion = filter_dataframe_by_clients(facturacion, allowed_clients)
+        saldos = filter_dataframe_by_clients(saldos, allowed_clients)
 
     col_title, col_logo = st.columns([5, 1])
     with col_title:
