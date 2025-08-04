@@ -21,37 +21,40 @@ def show_page_trafico_andresito():
     st.header("IMPO")
     col1, col2 = st.columns(2)
     with col1:
-        st.subheader("Arribos")
-        st.dataframe(arribos, hide_index=True, use_container_width=True)
+        col1a, col1b = st.columns([5, 1])
+        with col1a: 
+            st.subheader("Arribos")
+            st.dataframe(arribos, hide_index=True, use_container_width=True)
+        with col1b:
+            if not arribos.empty:
+                st.markdown("**Asignar Chofer - Arribos**")
+                col_select1, col_input1, col_button1 = st.columns([2, 2, 1])
+                
+                with col_select1:
+                    selected_arribo_id = st.selectbox(
+                        "Seleccionar registro:",
+                        options=arribos["id"].unique(),
+                        format_func=lambda x: f"ID {x} - {arribos[arribos['id']==x]['Contenedor'].iloc[0] if not arribos[arribos['id']==x].empty else 'N/A'}",
+                        key="arribo_select"
+                    )
+                
+                with col_input1:
+                    chofer_name_arribos = st.text_input("Chofer:", key="chofer_arribos")
+                
+                with col_button1:
+                    if st.button("Asignar", key="assign_arribos"):
+                        if chofer_name_arribos.strip():
+                            try:
+                                update_data("trafico_arribos", selected_arribo_id, {"chofer": chofer_name_arribos.strip()})
+                                st.success(f"Chofer asignado al registro ID {selected_arribo_id}")
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Error al asignar chofer: {e}")
+                        else:
+                            st.warning("Por favor ingrese el nombre del chofer")
         
-        # Add chofer assignment for arribos
-        if not arribos.empty:
-            st.markdown("**Asignar Chofer - Arribos**")
-            col_select1, col_input1, col_button1 = st.columns([2, 2, 1])
-            
-            with col_select1:
-                selected_arribo_id = st.selectbox(
-                    "Seleccionar registro:",
-                    options=arribos["id"].unique(),
-                    format_func=lambda x: f"ID {x} - {arribos[arribos['id']==x]['Contenedor'].iloc[0] if not arribos[arribos['id']==x].empty else 'N/A'}",
-                    key="arribo_select"
-                )
-            
-            with col_input1:
-                chofer_name_arribos = st.text_input("Chofer:", key="chofer_arribos")
-            
-            with col_button1:
-                if st.button("Asignar", key="assign_arribos"):
-                    if chofer_name_arribos.strip():
-                        try:
-                            update_data("trafico_arribos", selected_arribo_id, {"chofer": chofer_name_arribos.strip()})
-                            st.success(f"Chofer asignado al registro ID {selected_arribo_id}")
-                            st.cache_data.clear()
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al asignar chofer: {e}")
-                    else:
-                        st.warning("Por favor ingrese el nombre del chofer")
+
 
     with col2:
         st.subheader("Pendiente Desconsolidar y Vacios")
