@@ -8,11 +8,23 @@ from supabase_connection import fetch_table_data, update_data, update_data_by_in
 @st.cache_data(ttl=60) 
 def fetch_data_trafico_andresito():
     arribos = fetch_table_data("trafico_arribos")
-    arribos = arribos.drop(columns=['Tiempo', 'Estado', 'key'], errors='ignore')
+    arribos['Registro'] = pd.to_datetime(arribos['fecha_registro']) - pd.Timedelta(hours=3)
+    arribos['Registro'] = arribos['Registro'].dt.strftime('%d/%m/%Y %H:%M')
+    arribos = arribos.drop(columns=['fecha_registro'], errors='ignore')
     pendiente_desconsolidar = fetch_table_data("trafico_pendiente_desconsolidar")
     pendiente_desconsolidar = pendiente_desconsolidar.drop(columns=['Peso', 'Cantidad', 'Envase', 'Estado', 'key'], errors='ignore')
+    pendiente_desconsolidar['Registro'] = pd.to_datetime(pendiente_desconsolidar['fecha_registro']) - pd.Timedelta(hours=3)
+    pendiente_desconsolidar['Registro'] = pendiente_desconsolidar['Registro'].dt.strftime('%d/%m/%Y %H:%M')
+    pendiente_desconsolidar = pendiente_desconsolidar.drop(columns=['fecha_registro'], errors='ignore')
     arribos_expo_ctns = fetch_table_data("trafico_arribos_expo_ctns")   
+    arribos_expo_ctns['Registro'] = pd.to_datetime(arribos_expo_ctns['fecha_registro']) - pd.Timedelta(hours=3)
+    arribos_expo_ctns['Registro'] = arribos_expo_ctns['Registro'].dt.strftime('%d/%m/%Y %H:%M')
+    arribos_expo_ctns = arribos_expo_ctns.drop(columns=['fecha_registro'], errors='ignore')
     remisiones = fetch_table_data("trafico_remisiones")
+    remisiones['Registro'] = pd.to_datetime(remisiones['fecha_registro']) - pd.Timedelta(hours=3)
+    remisiones['Registro'] = remisiones['Registro'].dt.strftime('%d/%m/%Y %H:%M')
+    remisiones = remisiones.drop(columns=['fecha_registro'], errors='ignore')
+
     return arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns
 
 
