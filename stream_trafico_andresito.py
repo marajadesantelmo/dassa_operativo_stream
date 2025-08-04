@@ -19,7 +19,7 @@ def fetch_data_trafico_andresito():
     arribos_expo_ctns = fetch_table_data("trafico_arribos_expo_ctns")   
     arribos_expo_ctns['Registro'] = pd.to_datetime(arribos_expo_ctns['fecha_registro']) - pd.Timedelta(hours=3)
     arribos_expo_ctns['Registro'] = arribos_expo_ctns['Registro'].dt.strftime('%d/%m/%Y %H:%M')
-    arribos_expo_ctns = arribos_expo_ctns.drop(columns=['fecha_registro', 'key']], errors='ignore')
+    arribos_expo_ctns = arribos_expo_ctns.drop(columns=['fecha_registro', 'key'], errors='ignore')
     remisiones = fetch_table_data("trafico_remisiones")
     remisiones['Registro'] = pd.to_datetime(remisiones['fecha_registro']) - pd.Timedelta(hours=3)
     remisiones['Registro'] = remisiones['Registro'].dt.strftime('%d/%m/%Y %H:%M')
