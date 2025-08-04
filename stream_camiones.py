@@ -53,12 +53,12 @@ def show_page_camiones():
         st.markdown("---")
         st.subheader("Eliminar registro")
         
-        # Create selectbox with available row numbers
-        available_rows = preingreso_data["Número Fila"].unique()
-        selected_row = st.selectbox(
-            "Seleccionar número de fila a eliminar:",
-            options=available_rows,
-            format_func=lambda x: f"Fila {x}"
+        # Create selectbox with available IDs
+        available_ids = preingreso_data["ID"].unique()
+        selected_id = st.selectbox(
+            "Seleccionar ID a eliminar:",
+            options=available_ids,
+            format_func=lambda x: f"ID {x}"
         )
         
         if st.button("🗑️ Eliminar registro", type="secondary"):
@@ -68,41 +68,19 @@ def show_page_camiones():
             
             if not st.session_state.confirm_delete:
                 st.session_state.confirm_delete = True
-                st.warning(f"¿Está seguro que desea eliminar la fila {selected_row}?")
+                st.warning(f"¿Está seguro que desea eliminar el registro con ID {selected_id}?")
                 
                 col1, col2 = st.columns(2)
                 with col1:
                     if st.button("✅ Confirmar eliminación", type="primary"):
                         try:
-                            # Find the record ID for the selected row number
-                            record_to_delete = preingreso_data[preingreso_data["Número Fila"] == selected_row]
-                            if not record_to_delete.empty:
-                                record_id = record_to_delete.iloc[0]["ID"]
-                                
-                                # Add debugging information
-                                st.info(f"Intentando eliminar registro con ID: {record_id}")
-                                
-                                # Call delete function with explicit error handling
-                                delete_result = delete_data("preingreso", record_id)
-                                
-                                # Check if delete_result indicates success/failure
-                                if delete_result is not False:  # Adjust based on your delete_data return value
-                                    st.success(f"Registro de la fila {selected_row} eliminado correctamente")
-                                    st.session_state.confirm_delete = False
-                                    # Add a small delay before rerun on cloud
-                                    import time
-                                    time.sleep(1)
-                                    st.rerun()
-                                else:
-                                    st.error("La operación de eliminación falló")
-                            else:
-                                st.error("No se encontró el registro a eliminar")
-                        except Exception as e:
-                            st.error(f"Error al eliminar el registro: {str(e)}")
-                            # Add more detailed error information
-                            st.error(f"Tipo de error: {type(e).__name__}")
-                        finally:
+                            delete_data("preingreso", selected_id)
+                            st.success(f"Registro con ID {selected_id} eliminado correctamente")
                             st.session_state.confirm_delete = False
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Error al eliminar el registro: {e}")
+                        st.session_state.confirm_delete = False
                 
                 with col2:
                     if st.button("❌ Cancelar"):
