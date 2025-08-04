@@ -1,9 +1,9 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-36250,04/08,Mercovan Argentina S.A.,-,0,  ,TD,                    ,257145363,0,                              ,,     ,2025-08-22,Manzanillo Pa - Mikus Paul,257145363           ,Pendiente
+36310,04/08,S/D,-,0,  ,TD,                    ,256917972,1,TRANSPORTE DEL CLIENTE        ,Martinez Franco,14:32,2025-08-25,"Particular , Sr Mansilla",                    ,14:32 Arribado
 36194,04/08,Lawter Argentina S.A.,MAGU-245244-7,10074,DR,TD,**********          ,ZIMUBUE9042238,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,11:14,2025-08-21,Ref 5153984,ZIMUBUE9042238      ,11:14 Arribado
 36290,04/08,Henn Y Cia S.R.L.,TXGU-776749-8,10076,HC,TD,****************    ,340500025516,1,TRANSPORTE DEL CLIENTE        ,Miguez,11:07,2025-08-25,,                    ,11:07 Arribado
 36285,04/08,Henn Y Cia S.R.L.,TGBU-658064-2,10076,HC,TD,*************       ,340500025516,1,TRANSPORTE DEL CLIENTE        ,Alvarez Adrian,10:45,2025-08-25,,                    ,10:45 Arribado
-36260,04/08,Maringa Maderas Sa,-,9,HC,TD,                    ,EBKG13753917,0,                              ,,     ,2025-08-22,,                    ,Pendiente
+36260,04/08,Maringa Maderas Sa,MEDU-443227-9,9,HC,TD,FX32943992          ,EBKG13753917,1,TRANSPORTE DEL CLIENTE        ,Alvarez,14:32,2025-08-22,,                    ,14:32 Arribado
 36279,04/08,Hector Reboratti,EGSU-174001-3,10076,HC,TD,***********         ,340500027063,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,09:15,2025-08-25,,                    ,09:15 Arribado
 36278,04/08,Hector Reboratti,CAIU-499740-1,10076,HC,TD,**********          ,340500027063,1,TRANSPORTE DEL CLIENTE        ,Alvarez,09:10,2025-08-25,,                    ,09:10 Arribado
 36247,04/08,Isischu Srl,CMAU-885439-8,10074,HC,TD,R8682275            ,BUA0347053,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,12:56,2025-08-22,Bua0347053,BUA0347053          ,12:56 Arribado
@@ -13,25 +13,26 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 36243,04/08,Isischu Srl,TCLU-654257-9,10074,HC,TD,R8682211            ,BUA0347053,1,TRANSPORTE DEL CLIENTE        ,Peril,10:39,2025-08-22,Bua0347053,BUA0347053          ,10:39 Arribado
 36263,04/08,Adp Trading Srl,-,0,  ,TD,                    ,25001EC01050170A,1,TRANSPORTE DEL CLIENTE        ,.,15:12,2025-08-21,Terrestre,                    ,15:12 Arribado
 36241,04/08,Isischu Srl,FFAU-417578-2,10074,HC,TD,R8682274            ,BUA0347053,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,08:39,2025-08-22,Bua0347053,BUA0347053          ,08:39 Arribado
+36250,04/08,Mercovan Argentina S.A.,-,0,  ,TD,                    ,257145363,0,                              ,,     ,2025-08-22,Manzanillo Pa - Mikus Paul,257145363           ,Pendiente
 36284,04/08,Mercovan Argentina S.A.,MRKU-064704-8,10080,DR,TD,**********          ,257145251,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:10,2025-08-25,Manzanillo Pa - Mikus Paul,                    ,10:10 Arribado
 36242,04/08,Isischu Srl,TRHU-867940-6,10074,HC,TD,R8682213            ,BUA0347053,1,TRANSPORTE DEL CLIENTE        ,Porco,09:56,2025-08-22,Bua0347053,BUA0347053          ,09:56 Arribado
 36302,04/08,Lift Van Int. Co S.A,SEGU-160820-5,10082,DR,TD,R8682573            ,USG0310149,1,TRANSPORTE DEL CLIENTE        ,Bertoli,12:37,2025-08-25,,                    ,12:37 Arribado
-36303,04/08,Mader Zu S.R.L.,TCNU-462386-9,9,HC,TD,FX32943905          ,EBKG13649051,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,12:47,2025-08-25,,                    ,12:47 Arribado
 36280,04/08,Lift Van Int. Co S.A,TEMU-126854-4,10082,DR,TD,R8682585            ,MCORIV030104,1,TRANSPORTE DEL CLIENTE        ,Peril,09:28,2025-08-25,,                    ,09:28 Arribado
+36303,04/08,Mader Zu S.R.L.,TCNU-462386-9,9,HC,TD,FX32943905          ,EBKG13649051,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,12:47,2025-08-25,,                    ,12:47 Arribado
 36306,04/08,Mader Zu S.R.L.,BEAU-422416-1,9,HC,TD,FX32943902          ,EBKG13649051,1,TRANSPORTE DEL CLIENTE        ,Da Rosa Luis,14:12,2025-08-25,,                    ,14:12 Arribado
 36307,04/08,Alimentaria Sa,-,10080,DR,TD,                    ,42851642,0,                              ,,     ,2025-08-22,,                    ,Pendiente
 36308,04/08,Alimentaria Sa,-,10080,DR,TD,                    ,42851642,0,                              ,,     ,2025-08-22,,                    ,Pendiente
-36286,05/08,Norfor Sa,-,10080,HC,TD,                    ,38361985,0,                              ,,     ,2025-08-25,,                    ,Pendiente
+36283,05/08,Lawter Argentina S.A.,-,0,  ,TD,                    ,92718501,0,                              ,,     ,2025-08-25,Ref: 5153981,92718501            ,Pendiente
 36292,05/08,Norfor Sa,-,10080,HC,TD,                    ,12087612,0,                              ,,     ,2025-08-25,,                    ,Pendiente
 36291,05/08,Norfor Sa,-,10080,HC,TD,                    ,12087612,0,                              ,,     ,2025-08-25,,                    ,Pendiente
 36288,05/08,Norfor Sa,-,10080,HC,TD,                    ,38361985,0,                              ,,     ,2025-08-25,,                    ,Pendiente
 36287,05/08,Norfor Sa,-,10080,HC,TD,                    ,38361985,0,                              ,,     ,2025-08-25,,                    ,Pendiente
 36289,05/08,Valerio Oliva Forestal Sa,-,10080,HC,TD,                    ,255767853,0,                              ,,     ,2025-08-25,,                    ,Pendiente
-36283,05/08,Lawter Argentina S.A.,-,0,  ,TD,                    ,92718501,0,                              ,,     ,2025-08-25,Ref: 5153981,92718501            ,Pendiente
 36299,05/08,Mader Zu S.R.L.,-,0,  ,TD,                    ,35860152,0,                              ,,     ,2025-08-25,35860152,35860152            ,Pendiente
 36300,05/08,Mader Zu S.R.L.,-,0,  ,TD,                    ,35860152,0,                              ,,     ,2025-08-25,35860152,35860152            ,Pendiente
+36286,05/08,Norfor Sa,-,10080,HC,TD,                    ,38361985,0,                              ,,     ,2025-08-25,,                    ,Pendiente
 36295,06/08,Santa Anita Oil Sa,-,0,  ,TD,                    ,93627701,0,                              ,,     ,2025-08-25,93627701,93627701            ,Pendiente
+36297,06/08,Pallets Nef De Raul E. Fernand...,-,10080,HC,TD,                    ,73880728,0,                              ,,     ,2025-08-25,,                    ,Pendiente
 36293,06/08,Santa Anita Oil Sa,-,0,  ,TD,                    ,93627701,0,                              ,,     ,2025-08-25,93627701,93627701            ,Pendiente
 36294,06/08,Santa Anita Oil Sa,-,0,  ,TD,                    ,93627701,0,                              ,,     ,2025-08-25,93627701,93627701            ,Pendiente
 36296,06/08,Pallets Nef De Raul E. Fernand...,-,10080,HC,TD,                    ,73880728,0,                              ,,     ,2025-08-25,,                    ,Pendiente
-36297,06/08,Pallets Nef De Raul E. Fernand...,-,10080,HC,TD,                    ,73880728,0,                              ,,     ,2025-08-25,,                    ,Pendiente

@@ -7,8 +7,10 @@ from supabase_connection import fetch_table_data, update_data, update_data_by_in
 
 @st.cache_data(ttl=60) 
 def fetch_data_trafico_andresito():
-    arribos = fetch_table_data("trafico_arribos")  
+    arribos = fetch_table_data("trafico_arribos")
+    arribos = arribos.drop(columns=['Tiempo', 'Estado', 'key'], errors='ignore')
     pendiente_desconsolidar = fetch_table_data("trafico_pendiente_desconsolidar")
+    pendiente_desconsolidar = pendiente_desconsolidar.drop(columns=['Peso', 'Cantidad', 'Envase', 'Estado', 'key'], errors='ignore')
     arribos_expo_ctns = fetch_table_data("trafico_arribos_expo_ctns")   
     remisiones = fetch_table_data("trafico_remisiones")
     return arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns
