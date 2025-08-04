@@ -21,7 +21,7 @@ def show_page_trafico_andresito():
     st.header("IMPO")
     col1, col2 = st.columns(2)
     with col1:
-        col1a, col1b = st.columns([2, 1])
+        col1a, col1b = st.columns([1, 2])
         with col1a: 
             st.subheader("Arribos")
         with col1b:
