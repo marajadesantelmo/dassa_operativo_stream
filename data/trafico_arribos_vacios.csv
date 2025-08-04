@@ -1,5 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 36250,04/08,Mercovan Argentina S.A.,-,0,  ,TD,                    ,257145363,0,                              ,,     ,2025-08-22,Manzanillo Pa - Mikus Paul,257145363           ,Pendiente
+36280,04/08,Lift Van Int. Co S.A,TEMU-126854-4,10082,DR,TD,R8682585            ,MCORIV030104,1,TRANSPORTE DEL CLIENTE        ,Peril,09:28,2025-08-25,,                    ,09:28 Arribado
 36241,04/08,Isischu Srl,FFAU-417578-2,10074,HC,TD,R8682274            ,BUA0347053,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,08:39,2025-08-22,Bua0347053,BUA0347053          ,08:39 Arribado
 36242,04/08,Isischu Srl,-,0,  ,TD,                    ,BUA0347053,0,                              ,,     ,2025-08-22,Bua0347053,BUA0347053          ,Pendiente
 36243,04/08,Isischu Srl,-,0,  ,TD,                    ,BUA0347053,0,                              ,,     ,2025-08-22,Bua0347053,BUA0347053          ,Pendiente
@@ -8,7 +9,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 36246,04/08,Isischu Srl,-,0,  ,TD,                    ,BUA0347053,0,                              ,,     ,2025-08-22,Bua0347053,BUA0347053          ,Pendiente
 36247,04/08,Isischu Srl,-,0,  ,TD,                    ,BUA0347053,0,                              ,,     ,2025-08-22,Bua0347053,BUA0347053          ,Pendiente
 36278,04/08,Hector Reboratti,CAIU-499740-1,10076,HC,TD,**********          ,340500027063,1,TRANSPORTE DEL CLIENTE        ,Alvarez,09:10,2025-08-25,,                    ,09:10 Arribado
-36279,04/08,Hector Reboratti,-,10076,HC,TD,                    ,340500027063,0,                              ,,     ,2025-08-25,,                    ,Pendiente
+36279,04/08,Hector Reboratti,EGSU-174001-3,10076,HC,TD,***********         ,340500027063,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,09:15,2025-08-25,,                    ,09:15 Arribado
 36260,04/08,Maringa Maderas Sa,-,9,HC,TD,                    ,EBKG13753917,0,                              ,,     ,2025-08-22,,                    ,Pendiente
 36194,04/08,Lawter Argentina S.A.,-,0,  ,TD,                    ,ZIMUBUE9042238,0,                              ,,     ,2025-08-21,Ref 5153984,ZIMUBUE9042238      ,Pendiente
 36263,04/08,Adp Trading Srl,-,0,  ,TD,                    ,25001EC01050170A,1,TRANSPORTE DEL CLIENTE        ,.,15:12,2025-08-21,Terrestre,                    ,15:12 Arribado
