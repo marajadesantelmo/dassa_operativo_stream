@@ -21,10 +21,9 @@ def show_page_trafico_andresito():
     st.header("IMPO")
     col1, col2 = st.columns(2)
     with col1:
-        col1a, col1b = st.columns([5, 1])
+        col1a, col1b = st.columns([2, 1])
         with col1a: 
             st.subheader("Arribos")
-            st.dataframe(arribos, hide_index=True, use_container_width=True)
         with col1b:
             if not arribos.empty:
                 st.markdown("**Asignar Chofer - Arribos**")
@@ -53,7 +52,7 @@ def show_page_trafico_andresito():
                                 st.error(f"Error al asignar chofer: {e}")
                         else:
                             st.warning("Por favor ingrese el nombre del chofer")
-        
+        st.dataframe(arribos, hide_index=True, use_container_width=True)
 
 
     with col2:
