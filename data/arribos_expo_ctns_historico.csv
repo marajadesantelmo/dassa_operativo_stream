@@ -3,6 +3,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-07,32609,CSLU-133312-2,Mercovan Argentina S.A.,COSU6413164570,***************     ,Arribado
 2025-04-07,32610,UACU-857525-1,Mercovan Argentina S.A.,21431758,******************  ,Arribado
 2025-08-04,36250,,Mercovan Argentina S.A.,257145363,                    ,Pendiente
+2025-08-04,36284,MRKU-064704-8,Mercovan Argentina S.A.,257145251,**********          ,Arribado
 2025-07-29,36061,UACU-855660-5,Mercovan Argentina S.A.,21766678,**********          ,Arribado
 2025-07-29,36071,BMOU-143283-9,Mercovan Argentina S.A.,90243386,***************     ,Arribado
 2025-07-16,35668,UACU-544003-6,Mercovan Argentina S.A.,48738223,************        ,Arribado
@@ -42,9 +43,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-11,32749,FBIU-008116-6,Mercovan Argentina S.A.,93304105,************        ,Arribado
 2025-04-10,32715,CAIU-646722-6,Lift Van Int. Co S.A,24805945,**************      ,Arribado
 2025-04-10,32716,HLBU-102615-4,Lift Van Int. Co S.A,32089014,*********           ,Arribado
+2025-08-04,36280,TEMU-126854-4,Lift Van Int. Co S.A,MCORIV030104,R8682585            ,Arribado
+2025-08-04,36302,SEGU-160820-5,Lift Van Int. Co S.A,USG0310149,R8682573            ,Arribado
 2025-07-31,36200,HLBU-174685-3,Lift Van Int. Co S.A,10416430,***********         ,Arribado
 2025-08-01,36254,UETU-244360-6,Lift Van Int. Co S.A,257273973,                    ,Arribado
 2025-07-30,36110,FCIU-628594-0,Lift Van Int. Co S.A,93774162,***********         ,Arribado
+2025-08-01,36158,TEMU-177797-9,Lift Van Int. Co S.A,38042211,                    ,Arribado
 2025-07-25,35979,,Lift Van Int. Co S.A,23265518,                    ,Pendiente
 2025-07-25,35988,HLBU-273571-9,Lift Van Int. Co S.A,23265518,*************       ,Arribado
 2025-07-24,35923,MRKU-022250-5,Lift Van Int. Co S.A,256654796,  ***************   ,Arribado
@@ -206,7 +210,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-10,32710,MRKU-504312-2,Mader Zu S.R.L.,252289430,*********           ,Arribado
 2025-04-10,32711,MRSU-350029-0,Mader Zu S.R.L.,252289430,***************     ,Arribado
 2025-08-01,36275,MSDU-633564-0,Mader Zu S.R.L.,EBKG13649038,FX32942063          ,Arribado
-2025-08-01,36166,,Mader Zu S.R.L.,EBKG13649051,                    ,Pendiente
+2025-08-05,36299,,Mader Zu S.R.L.,35860152,                    ,Pendiente
+2025-08-05,36300,,Mader Zu S.R.L.,35860152,                    ,Pendiente
+2025-08-04,36303,TCNU-462386-9,Mader Zu S.R.L.,EBKG13649051,FX32943905          ,Arribado
+2025-08-01,36166,MSMU-647281-8,Mader Zu S.R.L.,EBKG13649051,FX32943987          ,Arribado
 2025-08-01,36167,,Mader Zu S.R.L.,EBKG13649051,                    ,Pendiente
 2025-08-01,36168,,Mader Zu S.R.L.,EBKG13649051,                    ,Pendiente
 2025-07-16,35627,TCLU-672748-5,Mader Zu S.R.L.,34885166,************        ,Arribado
@@ -371,15 +378,15 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-08,32644,MSNU-712541-6,Isischu Srl,EBKG12327680,FX32981008          ,Arribado
 2025-04-08,32645,FFAU-568475-8,Isischu Srl,EBKG12327680,FX32981525          ,Arribado
 2025-04-16,32839,MSMU-682082-6,Isischu Srl,EBKG12458812,FX32978799          ,Arribado
-2025-08-04,36243,,Isischu Srl,BUA0347053,                    ,Pendiente
-2025-08-04,36244,,Isischu Srl,BUA0347053,                    ,Pendiente
-2025-08-04,36245,,Isischu Srl,BUA0347053,                    ,Pendiente
-2025-08-04,36246,,Isischu Srl,BUA0347053,                    ,Pendiente
-2025-08-04,36247,,Isischu Srl,BUA0347053,                    ,Pendiente
+2025-08-04,36243,TCLU-654257-9,Isischu Srl,BUA0347053,R8682211            ,Arribado
+2025-08-04,36244,SEGU-498768-0,Isischu Srl,BUA0347053,R8682215            ,Arribado
+2025-08-04,36245,CMAU-665345-5,Isischu Srl,BUA0347053,R8682150            ,Arribado
+2025-08-04,36246,SEGU-637015-1,Isischu Srl,BUA0347053,R8682141            ,Arribado
+2025-08-04,36247,CMAU-885439-8,Isischu Srl,BUA0347053,R8682275            ,Arribado
 2025-08-01,36255,MSMU-475426-3,Isischu Srl,EBKG13646600,FX32942133          ,Arribado
 2025-08-01,36169,,Isischu Srl,EBKG13646600,                    ,Pendiente
-2025-08-04,36241,,Isischu Srl,BUA0347053,                    ,Pendiente
-2025-08-04,36242,,Isischu Srl,BUA0347053,                    ,Pendiente
+2025-08-04,36241,FFAU-417578-2,Isischu Srl,BUA0347053,R8682274            ,Arribado
+2025-08-04,36242,TRHU-867940-6,Isischu Srl,BUA0347053,R8682213            ,Arribado
 2025-07-02,35201,TCKU-655562-4,Isischu Srl,33719070,*************       ,Arribado
 2025-06-10,34479,TRHU-838933-0,Isischu Srl,EBKG13126124,FX32971937          ,Arribado
 2025-06-10,34480,TEMU-663385-0,Isischu Srl,EBKG13126124,FX32971802          ,Arribado
@@ -420,6 +427,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-22,32997,TLLU-516138-6,Isischu Srl,EBKG12458307,FX32974388          ,Arribado
 2025-04-16,32840,TGBU-924892-4,Valerio Oliva Forestal Sa,251130577,******              ,Arribado
 2025-04-16,32842,HASU-400794-6,Valerio Oliva Forestal Sa,251130577,*************       ,Arribado
+2025-08-05,36289,,Valerio Oliva Forestal Sa,255767853,                    ,Pendiente
 2025-07-15,35513,EGHU-950134-6,Valerio Oliva Forestal Sa,340500025117,************        ,Arribado
 2025-07-15,35514,,Valerio Oliva Forestal Sa,340500025117,                    ,Pendiente
 2025-07-14,35558,TXGU-833584-2,Valerio Oliva Forestal Sa,240500025117,*************       ,Arribado
@@ -451,6 +459,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-28,34022,TLLU-471381-3,Pallets Nef De Raul E. Fernandez Sa,EBKG12970968,FX32971563          ,Arribado
 2025-05-28,34023,MEDU-767295-1,Pallets Nef De Raul E. Fernandez Sa,EBKG12970968,FX32973720          ,Arribado
 2025-07-22,35824,FANU-317913-3,Pallets Nef De Raul E. Fernandez Sa,93347198,************        ,Arribado
+2025-08-06,36296,,Pallets Nef De Raul E. Fernandez Sa,73880728,                    ,Pendiente
+2025-08-06,36297,,Pallets Nef De Raul E. Fernandez Sa,73880728,                    ,Pendiente
 2025-07-22,35821,HLBU-208355-0,Pallets Nef De Raul E. Fernandez Sa,93347198,*********           ,Arribado
 2025-07-22,35822,HAMU-255877-9,Pallets Nef De Raul E. Fernandez Sa,93347198,**********          ,Arribado
 2025-07-22,35823,FANU-150181-0,Pallets Nef De Raul E. Fernandez Sa,93347198,***********         ,Arribado
@@ -465,6 +475,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-22,32932,,Hector Reboratti,EBKG12381488,                    ,Pendiente
 2025-07-31,36144,,Hector Reboratti,340500027063,                    ,Pendiente
 2025-07-31,36145,,Hector Reboratti,340500027063,                    ,Pendiente
+2025-08-04,36278,CAIU-499740-1,Hector Reboratti,340500027063,**********          ,Arribado
+2025-08-04,36279,EGSU-174001-3,Hector Reboratti,340500027063,***********         ,Arribado
 2025-06-19,34717,FFAU-371126-3,Hector Reboratti,EBKG13191019,FX32930917          ,Arribado
 2025-07-01,35056,MSKU-161645-0,Hector Reboratti,255083138,*******             ,Arribado
 2025-07-01,35057,HASU-501055-9,Hector Reboratti,255083138,**********          ,Arribado
@@ -568,6 +580,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-07,32613,BMOU-264894-6,Henn Y Cia S.R.L.,EBKG12295115,FX32982279          ,Arribado
 2025-04-07,32614,MSNU-365991-7,Henn Y Cia S.R.L.,EBKG12295115,FX32982280          ,Arribado
 2025-04-08,32660,MSKU-543824-8,Henn Y Cia S.R.L.,252188591,*************       ,Arribado
+2025-08-04,36285,TGBU-658064-2,Henn Y Cia S.R.L.,340500025516,*************       ,Arribado
+2025-08-04,36290,TXGU-776749-8,Henn Y Cia S.R.L.,340500025516,****************    ,Arribado
 2025-07-28,35995,TGBU-568016-4,Henn Y Cia S.R.L.,28492228,***********         ,Arribado
 2025-07-28,35996,HLXU-842720-1,Henn Y Cia S.R.L.,28492228,***********         ,Arribado
 2025-07-24,35935,GESU-103742-0,Henn Y Cia S.R.L.,EBKG13568772,FX32939048          ,Arribado
@@ -864,7 +878,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-14,32775,TCKU-165723-8,Lawter Argentina S.A.,ZIMUBUE9039285,**************      ,Arribado
 2025-04-14,32776,TEMU-527433-4,Lawter Argentina S.A.,ZIMUBUE9039285,********            ,Arribado
 2025-04-14,32777,SEGU-230060-2,Lawter Argentina S.A.,ZIMUBUE9039285,*************       ,Arribado
-2025-08-04,36194,,Lawter Argentina S.A.,ZIMUBUE9042238,                    ,Pendiente
+2025-08-04,36194,MAGU-245244-7,Lawter Argentina S.A.,ZIMUBUE9042238,**********          ,Arribado
+2025-08-05,36283,,Lawter Argentina S.A.,92718501,                    ,Pendiente
 2025-07-17,35568,TCKU-635315-6,Lawter Argentina S.A.,BUA0344543,R1955207            ,Arribado
 2025-07-17,35569,ECMU-487172-2,Lawter Argentina S.A.,BUA0344543,R1955110            ,Arribado
 2025-07-17,35570,CMAU-472903-7,Lawter Argentina S.A.,BUA0344543,R1955106            ,Arribado
@@ -1003,7 +1018,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-23,33056,BTLU-260118-0,Libertun Hermanos Srl,25001EC01024657L,..                  ,Arribado
 2025-04-07,32632,FANU-373134-5,Norfor Sa,32046549,*************       ,Arribado
 2025-04-08,32647,MSNU-674508-0,Norfor Sa,EBKG12280306,FX32981503          ,Arribado
+2025-08-05,36288,,Norfor Sa,38361985,                    ,Pendiente
+2025-08-05,36291,,Norfor Sa,12087612,                    ,Pendiente
+2025-08-05,36292,,Norfor Sa,12087612,                    ,Pendiente
 2025-07-31,36214,HLBU-227667-2,Norfor Sa,93319271,************        ,Arribado
+2025-08-05,36286,,Norfor Sa,38361985,                    ,Pendiente
+2025-08-05,36287,,Norfor Sa,38361985,                    ,Pendiente
 2025-07-31,36213,TEMU-762966-5,Norfor Sa,93319271,************        ,Arribado
 2025-07-10,35364,EMCU-836652-3,Norfor Sa,340500023432,**********          ,Arribado
 2025-07-10,35365,TXGU-579117-6,Norfor Sa,340500023432,************        ,Arribado
@@ -1082,6 +1102,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-24,33097,DFSU-723339-5,Santa Anita Oil Sa,28096856,************        ,Arribado
 2025-04-24,33098,TCLU-177146-4,Santa Anita Oil Sa,28096856,*******             ,Arribado
 2025-04-24,33099,TGBU-613514-3,Santa Anita Oil Sa,28096856,*********           ,Arribado
+2025-08-06,36293,,Santa Anita Oil Sa,93627701,                    ,Pendiente
+2025-08-06,36294,,Santa Anita Oil Sa,93627701,                    ,Pendiente
+2025-08-06,36295,,Santa Anita Oil Sa,93627701,                    ,Pendiente
 2025-07-29,36019,HLBU-272529-0,Santa Anita Oil Sa,24812960,*************       ,Arribado
 2025-07-29,36020,HAMU-186895-4,Santa Anita Oil Sa,24812960,***********         ,Arribado
 2025-07-21,35764,HLBU-342123-0,Santa Anita Oil Sa,34430602,**********          ,Arribado
