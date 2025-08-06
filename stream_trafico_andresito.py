@@ -153,6 +153,7 @@ def show_page_trafico_andresito():
         cols = ['ID'] + [col for col in arribos_expo_ctns_display.columns if col != 'ID']
         arribos_expo_ctns_display = arribos_expo_ctns_display[cols]
         arribos_expo_ctns_display = arribos_expo_ctns_display.drop(columns=['id'], errors='ignore')
+        arribos_expo_ctns_display['Estado'] = arribos_expo_ctns_display['Estado'].fillna('Pendiente')
         st.dataframe(arribos_expo_ctns_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
     with col4:
