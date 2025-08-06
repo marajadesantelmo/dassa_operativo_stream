@@ -65,27 +65,14 @@ def show_page_camiones():
                 with col1:
                     if st.button("✅ Confirmar eliminación", type="primary"):
                         try:
-                            # Additional debugging
-                            st.write(f"About to delete - Table: 'preingreso', ID: {selected_id}, Type: {type(selected_id)}")
-                            
-                            # Try to print what's actually in the database for this ID
-                            matching_records = preingreso_data[preingreso_data['id'] == selected_id]
-                            st.write(f"Matching records found: {len(matching_records)}")
-                            if len(matching_records) > 0:
-                                st.write(f"Record to delete: {matching_records.iloc[0].to_dict()}")
-                            
                             result = delete_data("preingreso", selected_id)
-                            st.write(f"Delete result: {result}")
                             st.success(f"Registro con id {selected_id} eliminado correctamente")
-                            st.session_state.confirm_delete = False
+                            st.success(f"Resultado de la eliminación: {result}")
+                            st.session_state.show_confirm = False
                             st.rerun()
                         except Exception as e:
                             st.error(f"Error al eliminar el registro: {e}")
-                            st.write(f"Full error details: {str(e)}")
-                            st.write(f"Error type: {type(e)}")
-                            import traceback
-                            st.code(traceback.format_exc())
-                        st.session_state.confirm_delete = False
+                            st.session_state.show_confirm = False
                 
                 with col2:
                     if st.button("❌ Cancelar"):
