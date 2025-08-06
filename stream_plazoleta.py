@@ -85,6 +85,7 @@ def show_page_plazoleta():
 
     with col_arribos:
         st.header('Arribos')
+        st.info('ATENCION: En arreglo por sincronización con orden tráfico')
         st.markdown("""
         <div style="display: flex; justify-content: space-between; width: 100%;">
             <div style="text-align: center; flex: 1;">
