@@ -72,7 +72,6 @@ def show_page_trafico_andresito():
         arribos_display = arribos_display.drop(columns=['id'], errors='ignore')
         st.dataframe(arribos_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
-
     with col2:
         col2a, col2b = st.columns([1, 2])
         with col2a:
@@ -105,7 +104,12 @@ def show_page_trafico_andresito():
                                 st.error(f"Error al asignar chofer: {e}")
                         else:
                             st.warning("Por favor ingrese el nombre del chofer")
-        st.dataframe(pendiente_desconsolidar, hide_index=True, use_container_width=True)
+        pendiente_desconsolidar_display = pendiente_desconsolidar.copy()
+        pendiente_desconsolidar_display['ID'] = pendiente_desconsolidar_display['id'].apply(lambda x: f"I{x:03d}")
+        cols = ['ID'] + [col for col in pendiente_desconsolidar_display.columns if col != 'ID']
+        pendiente_desconsolidar_display = pendiente_desconsolidar_display[cols]
+        pendiente_desconsolidar_display = pendiente_desconsolidar_display.drop(columns=['id'], errors='ignore')
+        st.dataframe(pendiente_desconsolidar_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
         
     st.markdown("---")
     st.header("EXPO")
@@ -144,7 +148,12 @@ def show_page_trafico_andresito():
                                 st.error(f"Error al asignar chofer: {e}")
                         else:
                             st.warning("Por favor ingrese el nombre del chofer")
-        st.dataframe(arribos_expo_ctns, hide_index=True, use_container_width=True)
+        arribos_expo_ctns_display = arribos_expo_ctns.copy()
+        arribos_expo_ctns_display['ID'] = arribos_expo_ctns_display['id'].apply(lambda x: f"I{x:03d}")
+        cols = ['ID'] + [col for col in arribos_expo_ctns_display.columns if col != 'ID']
+        arribos_expo_ctns_display = arribos_expo_ctns_display[cols]
+        arribos_expo_ctns_display = arribos_expo_ctns_display.drop(columns=['id'], errors='ignore')
+        st.dataframe(arribos_expo_ctns_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
     with col4:
         col4a, col4b = st.columns([1, 2])
@@ -179,7 +188,13 @@ def show_page_trafico_andresito():
                                 st.error(f"Error al asignar chofer: {e}")
                         else:
                             st.warning("Por favor ingrese el nombre del chofer")
-        st.dataframe(remisiones, column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)} ,
-                    hide_index=True, use_container_width=True)
+        remisiones_display = remisiones.copy()
+        remisiones_display['ID'] = remisiones_display['id'].apply(lambda x: f"I{x:03d}")
+        cols = ['ID'] + [col for col in remisiones_display.columns if col != 'ID']
+        remisiones_display = remisiones_display[cols]
+        remisiones_display = remisiones_display.drop(columns=['id'], errors='ignore')
+        st.dataframe(remisiones_display.style.apply(highlight, axis=1), column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)}, 
+                     hide_index=True, use_container_width=True)
+
 
 
