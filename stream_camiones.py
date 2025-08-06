@@ -24,12 +24,9 @@ def show_page_camiones():
 
         preingreso_data['link'] = preingreso_data['Celular WhatsApp'].str.replace(" ", "").apply(
             lambda x: f"http://wa.me/549{x}" if x.isdigit() else None)
-        
-        # Convert Hora to datetime, subtract 3 hours, and format as hh:mm
         preingreso_data['Hora'] = pd.to_datetime(preingreso_data['Hora']) - pd.Timedelta(hours=3)
         preingreso_data['Hora'] = preingreso_data['Hora'].dt.strftime('%H:%M')
 
-        # Reorder columns for display
         display_data = preingreso_data[["ID", "Número Fila", "Hora", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "link", 
                                        "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida"]]
         
@@ -38,7 +35,6 @@ def show_page_camiones():
         preingreso_data = pd.DataFrame()
         display_data = pd.DataFrame()
     
-
     if preingreso_data.empty:
         st.warning("No hay datos disponibles en la tabla de preingreso")
     else:
