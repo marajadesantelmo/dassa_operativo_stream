@@ -31,7 +31,7 @@ def show_page_trafico_andresito():
     # Load data
     arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns = fetch_data_trafico_andresito()
 
-    st.header("IMPO")
+    st.header("Traslado IMPO")
     col1, col2 = st.columns(2)
     with col1:
         col1a, col1b = st.columns([1, 2])
@@ -112,7 +112,7 @@ def show_page_trafico_andresito():
         st.dataframe(pendiente_desconsolidar_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
         
     st.markdown("---")
-    st.header("EXPO")
+    st.header("Traslado EXPO")
 
     col3, col4 = st.columns(2)
     with col3:
