@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from supabase_connection import fetch_table_data, delete_data
-#Hacindo cambios
+#Hacindo cambiosssdsd
 def show_page_camiones():
     st.title("Camiones - Preingreso")
     st.markdown("Datos registrados por los conductores en el formulario de preingreso en el día de hoy")
@@ -9,7 +9,7 @@ def show_page_camiones():
     try: 
         preingreso_data = fetch_table_data("preingreso")
         preingreso_data.columns = [
-        "id", # "ID",
+        "id", # "id",
         "Cliente/Mercadería",
         "Nombre Chofer",
         "DNI Chofer",
@@ -27,7 +27,7 @@ def show_page_camiones():
         preingreso_data['Hora'] = pd.to_datetime(preingreso_data['Hora']) - pd.Timedelta(hours=3)
         preingreso_data['Hora'] = preingreso_data['Hora'].dt.strftime('%H:%M')
 
-        display_data = preingreso_data[["ID", "Número Fila", "Hora", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "link", 
+        display_data = preingreso_data[["id", "Número Fila", "Hora", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "link", 
                                        "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida"]]
         
     except Exception as e:
@@ -45,33 +45,28 @@ def show_page_camiones():
             hide_index=True, use_container_width=True
         )
         
-        # Add deletion functionality
         st.markdown("---")
         st.subheader("Eliminar registro")
-        
-        # Create selectbox with available IDs
-        available_ids = preingreso_data["ID"].unique()
+        available_ids = preingreso_data["id"].unique()
         selected_id = st.selectbox(
-            "Seleccionar ID a eliminar:",
+            "Seleccionar id a eliminar:",
             options=available_ids,
-            format_func=lambda x: f"ID {x}"
+            format_func=lambda x: f"id {x}"
         )
-        
+    
         if st.button("🗑️ Eliminar registro", type="secondary"):
-            # Show confirmation dialog
             if 'confirm_delete' not in st.session_state:
                 st.session_state.confirm_delete = False
-            
             if not st.session_state.confirm_delete:
                 st.session_state.confirm_delete = True
-                st.warning(f"¿Está seguro que desea eliminar el registro con ID {selected_id}?")
+                st.warning(f"¿Está seguro que desea eliminar el registro con id {selected_id}?")
                 
                 col1, col2 = st.columns(2)
                 with col1:
                     if st.button("✅ Confirmar eliminación", type="primary"):
                         try:
                             delete_data("preingreso", selected_id)
-                            st.success(f"Registro con ID {selected_id} eliminado correctamente")
+                            st.success(f"Registro con id {selected_id} eliminado correctamente")
                             st.session_state.confirm_delete = False
                             st.rerun()
                         except Exception as e:
