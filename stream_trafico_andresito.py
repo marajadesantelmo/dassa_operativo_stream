@@ -30,6 +30,11 @@ def fetch_data_trafico_andresito():
     remisiones['Registro'] = remisiones['Registro'].dt.strftime('%d/%m/%Y %H:%M')
     remisiones = remisiones.drop(columns=['fecha_registro', 'key'], errors='ignore')
 
+    # Normalize Estado column for remisiones - treat all "Realizado" statuses as one case
+    remisiones['Estado_Normalizado'] = remisiones['Estado'].apply(
+        lambda x: 'Realizado' if pd.notna(x) and 'Realizado' in str(x) else x
+    )
+
     return arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns
 
 
@@ -177,6 +182,17 @@ def show_page_trafico_andresito():
         col4a, col4b = st.columns([1, 2])
         with col4a:
             st.subheader("Remisiones de DASSA a puerto")
+            # Add filter by Estado for remisiones table using normalized Estado
+            estado_options_remisiones = ["Todos"] + sorted(remisiones["Estado_Normalizado"].dropna().unique().tolist())
+            selected_estado_remisiones = st.selectbox("Filtrar por Estado:", estado_options_remisiones, key="estado_filter_remisiones")
+
+            # Apply filter if not "Todos"
+            filtered_remisiones = remisiones
+            if selected_estado_remisiones != "Todos":
+                filtered_remisiones = remisiones[remisiones["Estado_Normalizado"] == selected_estado_remisiones]
+                
+            # Update the remisiones variable for the rest of the function
+            remisiones = filtered_remisiones
         with col4b:
             # Add chofer assignment for remisiones
             if not remisiones.empty:
@@ -210,7 +226,7 @@ def show_page_trafico_andresito():
         remisiones_display['ID'] = remisiones_display['id'].apply(lambda x: f"B{x:03d}")
         cols = ['ID'] + [col for col in remisiones_display.columns if col != 'ID']
         remisiones_display = remisiones_display[cols]
-        remisiones_display = remisiones_display.drop(columns=['id'], errors='ignore')
+        remisiones_display = remisiones_display.drop(columns=['id', 'Estado_Normalizado'], errors='ignore')
         st.dataframe(remisiones_display.style.apply(highlight, axis=1), column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)}, 
                      hide_index=True, use_container_width=True)
 
