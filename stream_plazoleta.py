@@ -10,7 +10,7 @@ from supabase_connection import fetch_table_data
 def fetch_data_plazoleta():
     arribos = fetch_table_data("arribos")
     arribos_semana = fetch_table_data("arribos_semana")
-    arribos_semana_pendientes = arribos_semana[arribos_semana['arribado'] == 0]
+    arribos_semana_pendientes = arribos_semana[arribos_semana['arribado'] == "0.0"]
     tabla_arribos_pendientes = arribos_semana_pendientes
     arribos_por_fecha = tabla_arribos_pendientes['fecha'].value_counts().reset_index()
     arribos_por_fecha.columns = ['Fecha', 'CNTs']
