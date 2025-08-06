@@ -11,6 +11,12 @@ def fetch_data_trafico_andresito():
     arribos['Registro'] = pd.to_datetime(arribos['fecha_registro']) - pd.Timedelta(hours=3)
     arribos['Registro'] = arribos['Registro'].dt.strftime('%d/%m/%Y %H:%M')
     arribos = arribos.drop(columns=['fecha_registro','key', 'Tiempo'], errors='ignore')
+    
+    # Normalize Estado column - treat all "Arribado" statuses as one case
+    arribos['Estado_Normalizado'] = arribos['Estado'].apply(
+        lambda x: 'Arribado' if pd.notna(x) and 'Arribado' in str(x) else x
+    )
+    
     pendiente_desconsolidar = fetch_table_data("trafico_pendiente_desconsolidar")
     pendiente_desconsolidar['Registro'] = pd.to_datetime(pendiente_desconsolidar['fecha_registro']) - pd.Timedelta(hours=3)
     pendiente_desconsolidar['Registro'] = pendiente_desconsolidar['Registro'].dt.strftime('%d/%m/%Y %H:%M')
@@ -37,14 +43,14 @@ def show_page_trafico_andresito():
         col1a, col1b = st.columns([1, 2])
         with col1a: 
             st.subheader("Traslados desde Puerto a DASSA")
-            # Add filter by Estado for arribos table
-            estado_options = ["Todos"] + sorted(arribos["Estado"].dropna().unique().tolist())
+            # Add filter by Estado for arribos table using normalized Estado
+            estado_options = ["Todos"] + sorted(arribos["Estado_Normalizado"].dropna().unique().tolist())
             selected_estado = st.selectbox("Filtrar por Estado:", estado_options, key="estado_filter_arribos")
 
             # Apply filter if not "Todos"
             filtered_arribos = arribos
             if selected_estado != "Todos":
-                filtered_arribos = arribos[arribos["Estado"] == selected_estado]
+                filtered_arribos = arribos[arribos["Estado_Normalizado"] == selected_estado]
                 
             # Update the arribos variable for the rest of the function
             arribos = filtered_arribos
@@ -80,7 +86,7 @@ def show_page_trafico_andresito():
         arribos_display['ID'] = arribos_display['id'].apply(lambda x: f"I{x:03d}")
         cols = ['ID'] + [col for col in arribos_display.columns if col != 'ID']
         arribos_display = arribos_display[cols]
-        arribos_display = arribos_display.drop(columns=['id'], errors='ignore')
+        arribos_display = arribos_display.drop(columns=['id', 'Estado_Normalizado'], errors='ignore')
         st.dataframe(arribos_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
     with col2:
