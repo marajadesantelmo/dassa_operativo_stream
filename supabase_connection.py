@@ -84,6 +84,15 @@ def update_data(table_name, record_id, data):
     except Exception as e:
         raise e
 
+def update_data_by_key(table_name, key_column, key_value, data):
+    """Update a record by using a specific column as identifier"""
+    try:
+        clean_data = {k: v for k, v in data.items() if k != 'id'}
+        result = supabase_client.from_(table_name).update(clean_data).eq(key_column, key_value).execute()
+        return result
+    except Exception as e:
+        raise e
+
 def update_data_by_index(table_name, row_index, data, identifier_column='Contenedor'):
     """Update a record by using a specific column as identifier for tables without id"""
     try:
