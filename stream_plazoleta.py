@@ -5,11 +5,11 @@ from datetime import datetime
 from utils import highlight
 import matplotlib.pyplot as plt 
 from matplotlib.figure import Figure
-
+from supabase_connection import fetch_table_data
 @st.cache_data(ttl=60) 
 def fetch_data_plazoleta():
-    arribos = pd.read_csv('data/arribos.csv')
-    arribos_semana = pd.read_csv('data/arribos_semana.csv')
+    arribos = fetch_table_data("arribos")
+    arribos_semana = fetch_table_data("arribos_semana")
     arribos_semana_pendientes = arribos_semana[arribos_semana['arribado'] == 0]
     tabla_arribos_pendientes = arribos_semana_pendientes
     arribos_por_fecha = tabla_arribos_pendientes['fecha'].value_counts().reset_index()
@@ -17,18 +17,18 @@ def fetch_data_plazoleta():
     tabla_arribos_pendientes = tabla_arribos_pendientes[['fecha', 'contenedor', 'cliente', 'T-TD']]
     tabla_arribos_pendientes.columns = ['Fecha', 'Contenedor', 'Cliente', 'T-TD']
     pendiente_desconsolidar = pd.read_csv('data/pendiente_desconsolidar.csv')
-    existente_plz = pd.read_csv('data/existente_plz.csv')
+    existente_plz = fetch_table_data("existente_plz")
     existente_plz = existente_plz[existente_plz['Operacion'].str.contains("-0-")] #Saco la mercaderia que esta en PLZ (solo quiero tachos)
     existente_plz_clientes = existente_plz['Cliente'].value_counts().reset_index()
     existente_plz_clientes.columns = ['Cliente', 'CTNs']
-    cont_nac = pd.read_csv('data/contenedores_nacionales.csv')
+    cont_nac = fetch_table_data('contenedores_nacionales')
     cont_nac_clientes = cont_nac['CLIENTE'].value_counts().reset_index()
     cont_nac_clientes.columns = ['Cliente', 'CTNs']
-    arribos_expo_ctns = pd.read_csv('data/arribos_expo_ctns.csv')
+    arribos_expo_ctns = fetch_table_data("arribos_expo_ctns")
     arribos_expo_ctns = arribos_expo_ctns[~arribos_expo_ctns['Estado'].str.contains('Arribado', na=False)]
     arribos_expo_ctns = arribos_expo_ctns[['Fecha', 'Contenedor', 'Cliente']]
-    listos_para_remitir = pd.read_csv('data/listos_para_remitir.csv')
-    vacios_disponibles = pd.read_csv('data/vacios_disponibles.csv')
+    listos_para_remitir = fetch_table_data("listos_para_remitir")
+    vacios_disponibles = fetch_table_data("vacios_disponibles")
     existente_plz_expo = pd.concat([listos_para_remitir[['Cliente', 'Contenedor']], vacios_disponibles[['Cliente', 'Contenedor']]])
     existente_plz_expo_clientes = existente_plz_expo['Cliente'].value_counts().reset_index()
     existente_plz_expo_clientes.columns = ['Cliente', 'CTNs']
