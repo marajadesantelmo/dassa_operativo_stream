@@ -65,9 +65,8 @@ def show_page_camiones():
                 with col1:
                     if st.button("✅ Confirmar eliminación", type="primary"):
                         try:
-                            result = delete_data("preingreso", str(selected_id))
+                            delete_data("preingreso", selected_id)
                             st.success(f"Registro con id {selected_id} eliminado correctamente")
-                            st.success(f"Resultado de la eliminación: {result}")
                             st.session_state.show_confirm = False
                             st.rerun()
                         except Exception as e:
