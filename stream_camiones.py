@@ -45,35 +45,3 @@ def show_page_camiones():
             hide_index=True, use_container_width=True
         )
         
-        st.markdown("---")
-        st.subheader("Eliminar registro")
-        available_ids = preingreso_data["id"].unique()
-        selected_id = st.selectbox(
-            "Seleccionar id a eliminar:",
-            options=available_ids,
-            format_func=lambda x: f"id {x}"
-        )
-    
-        if st.button("🗑️ Eliminar registro", type="secondary"):
-            if 'confirm_delete' not in st.session_state:
-                st.session_state.confirm_delete = False
-            if not st.session_state.confirm_delete:
-                st.session_state.confirm_delete = True
-                st.warning(f"¿Está seguro que desea eliminar el registro con id {selected_id}?")
-                
-                col1, col2 = st.columns(2)
-                with col1:
-                    if st.button("✅ Confirmar eliminación", type="primary"):
-                        try:
-                            delete_data("preingreso", selected_id)
-                            st.success(f"Registro con id {selected_id} eliminado correctamente")
-                            st.session_state.show_confirm = False
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al eliminar el registro: {e}")
-                            st.session_state.show_confirm = False
-                
-                with col2:
-                    if st.button("❌ Cancelar"):
-                        st.session_state.confirm_delete = False
-                        st.rerun()
