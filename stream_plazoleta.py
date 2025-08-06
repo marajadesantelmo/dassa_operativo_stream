@@ -102,8 +102,8 @@ def show_page_plazoleta():
         </div>
         """.format(
             int(arribos_semana_pendientes.shape[0]),
-            int(arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'T'].shape[0]),
-            int(arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'TD'].shape[0]),
+            #int(arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'T'].shape[0]),
+            #int(arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'TD'].shape[0]),
         ),
         unsafe_allow_html=True
         )
