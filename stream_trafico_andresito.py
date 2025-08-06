@@ -69,6 +69,7 @@ def show_page_trafico_andresito():
         arribos_display['ID'] = arribos_display['id'].apply(lambda x: f"I{x:03d}")
         cols = ['ID'] + [col for col in arribos_display.columns if col != 'ID']
         arribos_display = arribos_display[cols]
+        arribos_display = arribos_display.drop(columns=['id'], errors='ignore')
         st.dataframe(arribos_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
 
