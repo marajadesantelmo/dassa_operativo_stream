@@ -48,17 +48,18 @@ def show_page_trafico_andresito():
         col1a, col1b = st.columns([1, 2])
         with col1a: 
             st.subheader("Traslados desde Puerto a DASSA")
-            # Add filter by Estado for arribos table using normalized Estado
-            estado_options = ["Todos"] + sorted(arribos["Estado_Normalizado"].dropna().unique().tolist())
-            selected_estado = st.selectbox("Filtrar por Estado:", estado_options, key="estado_filter_arribos")
+            col1a1, col1b1 = st.columns([2, 1])
+            with col1a1:
+                estado_options = ["Todos"] + sorted(arribos["Estado_Normalizado"].dropna().unique().tolist())
+                selected_estado = st.selectbox("Filtrar por Estado:", estado_options, key="estado_filter_arribos")
 
-            # Apply filter if not "Todos"
-            filtered_arribos = arribos
-            if selected_estado != "Todos":
-                filtered_arribos = arribos[arribos["Estado_Normalizado"] == selected_estado]
-                
-            # Update the arribos variable for the rest of the function
-            arribos = filtered_arribos
+                # Apply filter if not "Todos"
+                filtered_arribos = arribos
+                if selected_estado != "Todos":
+                    filtered_arribos = arribos[arribos["Estado_Normalizado"] == selected_estado]
+                    
+                # Update the arribos variable for the rest of the function
+                arribos = filtered_arribos
         with col1b:
             if not arribos.empty:
                 st.markdown("**Asignar Chofer - Arribos**")
