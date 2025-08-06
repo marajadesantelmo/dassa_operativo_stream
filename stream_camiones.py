@@ -1,15 +1,15 @@
 import streamlit as st
 import pandas as pd
 from supabase_connection import fetch_table_data, delete_data
-
+#Hacindo cambios
 def show_page_camiones():
     st.title("Camiones - Preingreso")
-    st.markdown("Datos registrados por los conductores en el formulario de preingreso en el día de hoy.")
+    st.markdown("Datos registrados por los conductores en el formulario de preingreso en el día de hoy")
 
     try: 
         preingreso_data = fetch_table_data("preingreso")
         preingreso_data.columns = [
-        "ID",
+        "id", # "ID",
         "Cliente/Mercadería",
         "Nombre Chofer",
         "DNI Chofer",
