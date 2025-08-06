@@ -35,6 +35,10 @@ def delete_table_data_estado(table_name):
     # WARNING: This will delete all rows in the table
     supabase_client.from_(table_name).delete().neq('Estado', None).execute()
 
+def delete_table_data_contenedor(table_name):
+    # WARNING: This will delete all rows in the table
+    supabase_client.from_(table_name).delete().neq('contenedor', None).execute()
+
 def delete_table_data_cliente(table_name):
     # WARNING: This will delete all rows in the table
     supabase_client.from_(table_name).delete().neq('cliente_mercaderia', None).execute()
