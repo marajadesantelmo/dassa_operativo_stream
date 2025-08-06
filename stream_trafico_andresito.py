@@ -99,17 +99,19 @@ def show_page_trafico_andresito():
         col2a, col2b = st.columns([1, 2])
         with col2a:
             st.subheader("Vacios IMPO a devolver")
-            # Add filter by Estado for pendiente_desconsolidar table
-            estado_options_pendiente = ["Todos"] + sorted(pendiente_desconsolidar["Estado"].dropna().unique().tolist())
-            selected_estado_pendiente = st.selectbox("Filtrar por Estado:", estado_options_pendiente, key="estado_filter_pendiente")
+            col2a1, col2b1 = st.columns([2, 1])
+            with col2a1:
+                # Add filter by Estado for pendiente_desconsolidar table
+                estado_options_pendiente = ["Todos"] + sorted(pendiente_desconsolidar["Estado"].dropna().unique().tolist())
+                selected_estado_pendiente = st.selectbox("Filtrar por Estado:", estado_options_pendiente, key="estado_filter_pendiente")
 
-            # Apply filter if not "Todos"
-            filtered_pendiente_desconsolidar = pendiente_desconsolidar
-            if selected_estado_pendiente != "Todos":
-                filtered_pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar["Estado"] == selected_estado_pendiente]
-                
-            # Update the pendiente_desconsolidar variable for the rest of the function
-            pendiente_desconsolidar = filtered_pendiente_desconsolidar
+                # Apply filter if not "Todos"
+                filtered_pendiente_desconsolidar = pendiente_desconsolidar
+                if selected_estado_pendiente != "Todos":
+                    filtered_pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar["Estado"] == selected_estado_pendiente]
+                    
+                # Update the pendiente_desconsolidar variable for the rest of the function
+                pendiente_desconsolidar = filtered_pendiente_desconsolidar
         with col2b:
             if not pendiente_desconsolidar.empty:
                 st.markdown("**Asignar Chofer - Pendiente Desconsolidar**")
@@ -153,17 +155,19 @@ def show_page_trafico_andresito():
         col3a, col3b = st.columns([1, 2])
         with col3a:
             st.subheader("Retiros de Vacíos EXPO")
-            # Add filter by Estado for arribos_expo_ctns table
-            estado_options_expo = ["Todos"] + sorted(arribos_expo_ctns["Estado"].dropna().unique().tolist())
-            selected_estado_expo = st.selectbox("Filtrar por Estado:", estado_options_expo, key="estado_filter_expo")
+            col3a1, col3b1 = st.columns([2, 1])
+            with col3a1:
+                # Add filter by Estado for arribos_expo_ctns table
+                estado_options_expo = ["Todos"] + sorted(arribos_expo_ctns["Estado"].dropna().unique().tolist())
+                selected_estado_expo = st.selectbox("Filtrar por Estado:", estado_options_expo, key="estado_filter_expo")
 
-            # Apply filter if not "Todos"
-            filtered_arribos_expo_ctns = arribos_expo_ctns
-            if selected_estado_expo != "Todos":
-                filtered_arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns["Estado"] == selected_estado_expo]
-                
-            # Update the arribos_expo_ctns variable for the rest of the function
-            arribos_expo_ctns = filtered_arribos_expo_ctns
+                # Apply filter if not "Todos"
+                filtered_arribos_expo_ctns = arribos_expo_ctns
+                if selected_estado_expo != "Todos":
+                    filtered_arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns["Estado"] == selected_estado_expo]
+                    
+                # Update the arribos_expo_ctns variable for the rest of the function
+                arribos_expo_ctns = filtered_arribos_expo_ctns
         with col3b:
             # Add chofer assignment for arribos_expo_ctns
             if not arribos_expo_ctns.empty:
@@ -205,17 +209,19 @@ def show_page_trafico_andresito():
         col4a, col4b = st.columns([1, 2])
         with col4a:
             st.subheader("Remisiones de DASSA a puerto")
-            # Add filter by Estado for remisiones table using normalized Estado
-            estado_options_remisiones = ["Todos"] + sorted(remisiones["Estado_Normalizado"].dropna().unique().tolist())
-            selected_estado_remisiones = st.selectbox("Filtrar por Estado:", estado_options_remisiones, key="estado_filter_remisiones")
+            col4a1, col4b1 = st.columns([2, 1])
+            with col4a1:
+                # Add filter by Estado for remisiones table using normalized Estado
+                estado_options_remisiones = ["Todos"] + sorted(remisiones["Estado_Normalizado"].dropna().unique().tolist())
+                selected_estado_remisiones = st.selectbox("Filtrar por Estado:", estado_options_remisiones, key="estado_filter_remisiones")
 
-            # Apply filter if not "Todos"
-            filtered_remisiones = remisiones
-            if selected_estado_remisiones != "Todos":
-                filtered_remisiones = remisiones[remisiones["Estado_Normalizado"] == selected_estado_remisiones]
-                
-            # Update the remisiones variable for the rest of the function
-            remisiones = filtered_remisiones
+                # Apply filter if not "Todos"
+                filtered_remisiones = remisiones
+                if selected_estado_remisiones != "Todos":
+                    filtered_remisiones = remisiones[remisiones["Estado_Normalizado"] == selected_estado_remisiones]
+                    
+                # Update the remisiones variable for the rest of the function
+                remisiones = filtered_remisiones
         with col4b:
             # Add chofer assignment for remisiones
             if not remisiones.empty:
