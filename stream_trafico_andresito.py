@@ -37,7 +37,7 @@ def show_page_trafico_andresito():
     with col1:
         col1a, col1b = st.columns([1, 2])
         with col1a: 
-            st.subheader("Arribos")
+            st.subheader("Traslados desde Puerto a DASSA")
         with col1b:
             if not arribos.empty:
                 st.markdown("**Asignar Chofer - Arribos**")
@@ -72,7 +72,7 @@ def show_page_trafico_andresito():
     with col2:
         col2a, col2b = st.columns([1, 2])
         with col2a:
-            st.subheader("Pendiente Desconsolidar y Vacios")
+            st.subheader("Vacios IMPO a devolver")
         with col2b:
             # Add chofer assignment for pendiente_desconsolidar
             if not pendiente_desconsolidar.empty:
@@ -111,7 +111,7 @@ def show_page_trafico_andresito():
     with col3:
         col3a, col3b = st.columns([1, 2])
         with col3a:
-            st.subheader("Arribos Expo Ctns")
+            st.subheader("Retiros de Vacíos EXPO")
         with col3b:
             # Add chofer assignment for arribos_expo_ctns
             if not arribos_expo_ctns.empty:
@@ -146,7 +146,7 @@ def show_page_trafico_andresito():
     with col4:
         col4a, col4b = st.columns([1, 2])
         with col4a:
-            st.subheader("Remisiones")
+            st.subheader("Remisiones de DASSA a puerto")
         with col4b:
             # Add chofer assignment for remisiones
             if not remisiones.empty:
