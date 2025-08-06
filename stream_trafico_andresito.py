@@ -73,7 +73,6 @@ def show_page_trafico_andresito():
         with col2a:
             st.subheader("Vacios IMPO a devolver")
         with col2b:
-            # Add chofer assignment for pendiente_desconsolidar
             if not pendiente_desconsolidar.empty:
                 st.markdown("**Asignar Chofer - Pendiente Desconsolidar**")
                 col_select2, col_input2, col_button2 = st.columns([2, 2, 1])
