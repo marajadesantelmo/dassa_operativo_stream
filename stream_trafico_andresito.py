@@ -65,7 +65,11 @@ def show_page_trafico_andresito():
                                 st.error(f"Error al asignar chofer: {e}")
                         else:
                             st.warning("Por favor ingrese el nombre del chofer")
-        st.dataframe(arribos.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+        arribos_display = arribos.copy()
+        arribos_display['ID'] = arribos_display['id'].apply(lambda x: f"I{x:03d}")
+        cols = ['ID'] + [col for col in arribos_display.columns if col != 'ID']
+        arribos_display = arribos_display[cols]
+        st.dataframe(arribos_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
 
     with col2:
