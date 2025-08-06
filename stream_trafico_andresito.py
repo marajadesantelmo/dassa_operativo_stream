@@ -98,6 +98,17 @@ def show_page_trafico_andresito():
         col2a, col2b = st.columns([1, 2])
         with col2a:
             st.subheader("Vacios IMPO a devolver")
+            # Add filter by Estado for pendiente_desconsolidar table
+            estado_options_pendiente = ["Todos"] + sorted(pendiente_desconsolidar["Estado"].dropna().unique().tolist())
+            selected_estado_pendiente = st.selectbox("Filtrar por Estado:", estado_options_pendiente, key="estado_filter_pendiente")
+
+            # Apply filter if not "Todos"
+            filtered_pendiente_desconsolidar = pendiente_desconsolidar
+            if selected_estado_pendiente != "Todos":
+                filtered_pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar["Estado"] == selected_estado_pendiente]
+                
+            # Update the pendiente_desconsolidar variable for the rest of the function
+            pendiente_desconsolidar = filtered_pendiente_desconsolidar
         with col2b:
             if not pendiente_desconsolidar.empty:
                 st.markdown("**Asignar Chofer - Pendiente Desconsolidar**")
@@ -141,6 +152,17 @@ def show_page_trafico_andresito():
         col3a, col3b = st.columns([1, 2])
         with col3a:
             st.subheader("Retiros de Vacíos EXPO")
+            # Add filter by Estado for arribos_expo_ctns table
+            estado_options_expo = ["Todos"] + sorted(arribos_expo_ctns["Estado"].dropna().unique().tolist())
+            selected_estado_expo = st.selectbox("Filtrar por Estado:", estado_options_expo, key="estado_filter_expo")
+
+            # Apply filter if not "Todos"
+            filtered_arribos_expo_ctns = arribos_expo_ctns
+            if selected_estado_expo != "Todos":
+                filtered_arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns["Estado"] == selected_estado_expo]
+                
+            # Update the arribos_expo_ctns variable for the rest of the function
+            arribos_expo_ctns = filtered_arribos_expo_ctns
         with col3b:
             # Add chofer assignment for arribos_expo_ctns
             if not arribos_expo_ctns.empty:
