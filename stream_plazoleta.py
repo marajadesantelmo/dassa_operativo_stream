@@ -14,8 +14,7 @@ def fetch_data_plazoleta():
     tabla_arribos_pendientes = arribos_semana_pendientes
     arribos_por_fecha = tabla_arribos_pendientes['Fecha'].value_counts().reset_index()
     arribos_por_fecha.columns = ['Fecha', 'CNTs']
-    #tabla_arribos_pendientes = tabla_arribos_pendientes[['Fecha', 'Contenedor', 'cliente']]  #Falta agregar T/TD en el flujo de datos
-    #tabla_arribos_pendientes.columns = ['Fecha', 'Contenedor', 'Cliente']
+    tabla_arribos_pendientes = tabla_arribos_pendientes[['Fecha', 'Contenedor', 'Cliente', 'Oper.']]
     pendiente_desconsolidar = fetch_table_data("pendiente_desconsolidar")
     existente_plz = fetch_table_data("existente_plz")
     existente_plz = existente_plz[existente_plz['Operacion'].str.contains("-0-")] #Saco la mercaderia que esta en PLZ (solo quiero tachos)
