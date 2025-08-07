@@ -103,8 +103,8 @@ def show_page_plazoleta():
         </div>
         """.format(
             int(arribos_semana_pendientes.shape[0]),
-            int(arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'T'].shape[0]),
-            int(arribos_semana_pendientes[arribos_semana_pendientes['T-TD'] == 'TD'].shape[0]),
+            int(arribos_semana_pendientes[arribos_semana_pendientes['Oper.'] == 'T'].shape[0]),
+            int(arribos_semana_pendientes[arribos_semana_pendientes['Oper.'] == 'TD'].shape[0]),
         ),
         unsafe_allow_html=True
         )
@@ -134,8 +134,8 @@ def show_page_plazoleta():
         </div>
         """.format(
             int(existente_plz.shape[0]),
-            int(existente_plz[existente_plz['T-TD'] != 'TD'].shape[0]),
-            int(existente_plz[existente_plz['T-TD'] == 'TD'].shape[0]),
+            int(existente_plz[existente_plz['Oper.'] != 'TD'].shape[0]),
+            int(existente_plz[existente_plz['Oper.'] == 'TD'].shape[0]),
         ),
         unsafe_allow_html=True
         )
