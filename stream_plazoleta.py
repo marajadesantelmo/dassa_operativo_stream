@@ -10,7 +10,7 @@ from supabase_connection import fetch_table_data
 def fetch_data_plazoleta():
     arribos = fetch_table_data("arribos")
     arribos_semana = fetch_table_data("arribos_semana")
-    arribos_semana_pendientes = arribos_semana[arribos_semana['arribado'] == "1"]
+    arribos_semana_pendientes = arribos_semana[arribos_semana['arribado'] == "0"]
     tabla_arribos_pendientes = arribos_semana_pendientes
     arribos_por_fecha = tabla_arribos_pendientes['Fecha'].value_counts().reset_index()
     arribos_por_fecha.columns = ['Fecha', 'CNTs']
@@ -85,7 +85,6 @@ def show_page_plazoleta():
 
     with col_arribos:
         st.header('Arribos')
-        st.info('ATENCION: En arreglo por sincronización con orden tráfico')
         st.markdown("""
         <div style="display: flex; justify-content: space-between; width: 100%;">
             <div style="text-align: center; flex: 1;">
