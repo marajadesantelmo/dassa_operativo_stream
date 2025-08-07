@@ -41,7 +41,9 @@ def fetch_data_trafico_andresito():
 def show_page_trafico_andresito():
     # Load data
     arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns = fetch_data_trafico_andresito()
-
+    st.warning(
+        "ATENCION: Esta página está en desarrollo. Algunas funcionalidades pueden no estar disponibles o no funcionar como se espera."
+    )
     st.header("Traslado IMPO")
     col1, col2 = st.columns(2)
     with col1:
