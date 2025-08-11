@@ -3,33 +3,14 @@ import pandas as pd
 from supabase_connection import fetch_table_data, delete_data, soft_delete_data
 from utils import highlight
 
-def show_page_camiones():
-    col1, col2 = st.columns([7, 1])
-    with col1:
-        st.title("Camiones - Preingreso")
-        st.markdown("Datos registrados por los conductores en el formulario de preingreso en el día de hoy")
-    with col2:
-        # Calculate metrics
-        st.markdown("### Métricas")
-        if 'preingreso_data' in locals() and not preingreso_data.empty:
-            total_trucks = len(preingreso_data)
-            ingresados = sum(preingreso_data['Estado'] == 'Ingresado')
-            pendientes = total_trucks - ingresados
-            
-            # Display metric with pending/total ratio
-            st.metric(
-                label="Camiones pendientes",
-                value=f"{pendientes}/{total_trucks}",
-                delta=f"{round((pendientes/total_trucks)*100)}%" if total_trucks > 0 else "0%"
-            )
-
+def fetch_preingreso_data():
     try: 
         preingreso_data = fetch_table_data("preingreso")
         if not preingreso_data.empty:
             preingreso_data = preingreso_data[preingreso_data['del'].isna()]
             preingreso_data = preingreso_data.drop(columns=['del'])
             column_names = ["id", "Cliente/Mercadería", "Nombre Chofer", "DNI Chofer", "Patente Camión", "Patente Acoplado", 
-                         "Celular WhatsApp", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida", "Número Fila", "Fecha", "Hora", "Estado"]
+                            "Celular WhatsApp", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida", "Número Fila", "Fecha", "Hora", "Estado"]
             preingreso_data.columns = column_names
             preingreso_data['link'] = preingreso_data['Celular WhatsApp'].str.replace(" ", "").apply(
                 lambda x: f"http://wa.me/549{x}" if x.isdigit() else None)
@@ -37,7 +18,7 @@ def show_page_camiones():
             preingreso_data['Hora'] = preingreso_data['Hora'].dt.strftime('%H:%M')
 
             display_data = preingreso_data[["id", "Número Fila", "Hora", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "link", 
-                                       "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida", "Estado"]]
+                                        "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida", "Estado"]]
             display_data['Estado'] = display_data['Estado'].fillna('Pendiente')
             display_data.sort_values(by='Número Fila', inplace=True)
         
@@ -45,6 +26,26 @@ def show_page_camiones():
         st.error(f"Error al cargar datos: {e}")
         preingreso_data = pd.DataFrame()
         display_data = pd.DataFrame()
+    return preingreso_data, display_data
+
+def show_page_camiones():
+    st.set_page_config(page_title="Camiones - Preingreso", layout="wide")
+    
+    preingreso_data, display_data = fetch_preingreso_data()
+
+    col1, col2 = st.columns([7, 1])
+    with col1:
+        st.title("Camiones - Preingreso")
+        st.markdown("Datos registrados por los conductores en el formulario de preingreso en el día de hoy")
+    with col2:
+        if not preingreso_data.empty:
+            total_trucks = len(preingreso_data)
+            ingresados = sum(preingreso_data['Estado'] == 'Ingresado')
+            pendientes = total_trucks - ingresados
+            st.metric(
+                label="Camiones pendientes",
+                value=f"{pendientes} / {total_trucks}",
+            )
     
     if preingreso_data.empty:
         st.warning("No hay datos disponibles en la tabla de preingreso")
