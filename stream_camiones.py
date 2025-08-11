@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from supabase_connection import fetch_table_data, delete_data, soft_delete_data
+from utils import highlight
 
 def show_page_camiones():
     st.title("Camiones - Preingreso")
@@ -32,7 +33,7 @@ def show_page_camiones():
     else:
        
         st.dataframe(
-            display_data.style.set_properties(subset=['link'], **{'width': '20px'}),
+            display_data.style.style.apply(highlight, axis=1).set_properties(subset=['link'], **{'width': '20px'}),
             column_config={'link': st.column_config.LinkColumn('link', display_text="\U0001F517")},
             hide_index=True, use_container_width=True
         )
