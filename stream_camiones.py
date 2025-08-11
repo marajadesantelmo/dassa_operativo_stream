@@ -23,6 +23,7 @@ def show_page_camiones():
             display_data = preingreso_data[["id", "Número Fila", "Hora", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "link", 
                                        "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida", "Estado"]]
             display_data['Estado'] = display_data['Estado'].fillna('Pendiente')
+            display_data.sort_values(by='Número Fila', inplace=True)
         
     except Exception as e:
         st.error(f"Error al cargar datos: {e}")
