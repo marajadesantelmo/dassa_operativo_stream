@@ -40,7 +40,7 @@ def show_page_camiones():
         st.markdown("---")
         st.subheader("Eliminar Registro")
         
-        col_delete1, col_delete2 = st.columns([3, 1])
+        col_delete1, col_delete2, col_delete3 = st.columns([1, 1, 2])
         
         with col_delete1:
             selected_id = st.selectbox(
