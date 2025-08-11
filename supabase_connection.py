@@ -111,3 +111,11 @@ def update_data_by_index(table_name, row_index, data, identifier_column='Contene
             raise Exception(f"Row index {row_index} out of range for table {table_name}")
     except Exception as e:
         raise e
+
+def soft_delete_data(table_name, record_id):
+    """Soft delete a record by setting 'del' column to 1"""
+    try:
+        result = supabase_client.from_(table_name).update({'del': 1}).eq('id', record_id).execute()
+        return result
+    except Exception as e:
+        raise e
