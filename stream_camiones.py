@@ -40,7 +40,7 @@ def show_page_camiones():
         st.markdown("---")
         st.subheader("Eliminar Registro")
         
-        col_delete1, col_delete2, col_delete3 = st.columns([2, 2, 1])
+        col_delete1, col_delete2 = st.columns([3, 1])
         
         with col_delete1:
             selected_id = st.selectbox(
@@ -51,19 +51,13 @@ def show_page_camiones():
             )
         
         with col_delete2:
-            confirm_delete = st.checkbox("Confirmar eliminación", key="confirm_delete")
-        
-        with col_delete3:
             if st.button("Eliminar", key="delete_button", type="secondary"):
-                if confirm_delete:
-                    try:
-                        soft_delete_data("preingreso", selected_id)
-                        st.success(f"Registro ID {selected_id} eliminado correctamente")
-                        st.rerun()
-                    except Exception as e:
-                        st.error(f"Error al eliminar registro: {e}")
-                else:
-                    st.warning("Debe confirmar la eliminación marcando la casilla")
+                try:
+                    soft_delete_data("preingreso", selected_id)
+                    st.success(f"Registro ID {selected_id} eliminado correctamente")
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"Error al eliminar registro: {e}")
         
         st.markdown("---")
 
