@@ -30,7 +30,13 @@ def show_page_camiones():
     if preingreso_data.empty:
         st.warning("No hay datos disponibles en la tabla de preingreso")
     else:
-        # Add delete functionality
+       
+        st.dataframe(
+            display_data.style.set_properties(subset=['link'], **{'width': '20px'}),
+            column_config={'link': st.column_config.LinkColumn('link', display_text="\U0001F517")},
+            hide_index=True, use_container_width=True
+        )
+
         st.markdown("---")
         st.subheader("Eliminar Registro")
         
@@ -60,11 +66,4 @@ def show_page_camiones():
                     st.warning("Debe confirmar la eliminación marcando la casilla")
         
         st.markdown("---")
-        
-        # Display the data in a table with WhatsApp links
-        st.dataframe(
-            display_data.style.set_properties(subset=['link'], **{'width': '20px'}),
-            column_config={'link': st.column_config.LinkColumn('link', display_text="\U0001F517")},
-            hide_index=True, use_container_width=True
-        )
 
