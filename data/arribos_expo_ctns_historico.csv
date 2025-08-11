@@ -1,4 +1,5 @@
 Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
+2025-08-12,36526,,Mercovan Argentina S.A.,29292925,                    ,Pendiente
 2025-08-11,36477,,Mercovan Argentina S.A.,28115997,                    ,Pendiente
 2025-08-08,36494,HLBU-243587-7,Mercovan Argentina S.A.,28115997,*************       ,Arribado
 2025-08-04,36284,MRKU-064704-8,Mercovan Argentina S.A.,257145251,**********          ,Arribado
@@ -43,7 +44,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-17,32848,UETU-272667-4,Lift Van Int. Co S.A,12074753,********************,Arribado
 2025-04-24,33071,TCLU-407274-8,Lift Van Int. Co S.A,25430369,************        ,Arribado
 2025-08-12,36503,,Lift Van Int. Co S.A,44540284,                    ,Pendiente
-2025-08-11,36504,,Lift Van Int. Co S.A,93745598,                    ,Pendiente
+2025-08-11,36504,BSIU-291374-7,Lift Van Int. Co S.A,93745598,***********         ,Arribado
+2025-08-13,36523,,Lift Van Int. Co S.A,257691498,                    ,Pendiente
 2025-08-05,36351,MRKU-023506-1,Lift Van Int. Co S.A,257038583,****************    ,Arribado
 2025-07-31,36200,HLBU-174685-3,Lift Van Int. Co S.A,10416430,***********         ,Arribado
 2025-08-01,36254,UETU-244360-6,Lift Van Int. Co S.A,257273973,                    ,Arribado
@@ -95,7 +97,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-05,33277,,Lift Van Int. Co S.A,TERRESTRE,                    ,Pendiente
 2025-05-07,33400,MRKU-946137-3,Lift Van Int. Co S.A,253188679,                    ,Arribado
 2025-08-11,36484,,Edelweiss Spedition Srl,EBKGQ0010C9F,                    ,Pendiente
-2025-08-11,36514,,Edelweiss Spedition Srl,256833670,                    ,Pendiente
+2025-08-11,36514,MRKU-009191-4,Edelweiss Spedition Srl,256833670,********            ,Arribado
 2025-07-22,35861,HLBU-396305-6,Edelweiss Spedition Srl,35330092,*************       ,Arribado
 2025-06-05,34364,,Edelweiss Spedition Srl,J25001PE01000186P,                    ,Arribado
 2025-05-19,33677,MRKU-988903-7,Edelweiss Spedition Srl,253618252,************        ,Arribado
@@ -360,7 +362,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-21,33800,CAAU-207714-5,Chemotecnica Sa,36762071,************        ,Arribado
 2025-05-19,33678,TRHU-113826-7,Gestion Forward S.R.L.,253605922,***********         ,Arribado
 2025-06-02,34112,HLXU-125580-0,Gestion Forward S.R.L.,26766325,*********           ,Arribado
-2025-08-11,36502,,Mafralac Alimenticia Srl,23155833,                    ,Pendiente
+2025-08-11,36502,UACU-557285-5,Mafralac Alimenticia Srl,23155833,*********           ,Arribado
 2025-07-17,35747,CAIU-480411-7,Mafralac Alimenticia Srl,92937581,***********         ,Arribado
 2025-04-16,32844,PIDU-409694-0,Tipoiti Satic,BUE500042800,**************      ,Arribado
 2025-05-16,33659,,Tipoiti Satic,25001EC01029661L,                    ,Arribado
@@ -424,6 +426,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-16,32842,HASU-400794-6,Valerio Oliva Forestal Sa,251130577,*************       ,Arribado
 2025-08-05,36289,CAAU-593476-6,Valerio Oliva Forestal Sa,255767853,************        ,Arribado
 2025-08-07,36436,MSDU-859411-0,Valerio Oliva Forestal Sa,EBKG13696134,FX32944226          ,Arribado
+2025-08-12,36521,,Valerio Oliva Forestal Sa,93528334,                    ,Pendiente
 2025-07-15,35513,EGHU-950134-6,Valerio Oliva Forestal Sa,340500025117,************        ,Arribado
 2025-07-15,35514,,Valerio Oliva Forestal Sa,340500025117,                    ,Pendiente
 2025-07-14,35558,TXGU-833584-2,Valerio Oliva Forestal Sa,240500025117,*************       ,Arribado
@@ -1533,8 +1536,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-15,35577,MEDU-203413-1,Sermat Sa,LA0434166,************        ,Arribado
 2025-07-15,35578,MSMU-172265-8,Sermat Sa,LA0434166,**********          ,Arribado
 2025-07-15,35579,MSMU-127248-4,Sermat Sa,LA0434166,************        ,Arribado
-2025-08-11,36512,,Smart Logistics S.A.,EBKG13857101,                    ,Pendiente
-2025-08-11,36513,,Smart Logistics S.A.,EBKG13756305,                    ,Pendiente
+2025-08-11,36512,MSCU-452599-2,Smart Logistics S.A.,EBKG13857101,FX32944605          ,Arribado
+2025-08-11,36513,MSBU-456842-9,Smart Logistics S.A.,EBKG13756305,FX32988120          ,Arribado
 2025-07-22,35819,SEGU-595337-0,Peri S.A,BUEF08879400,**********          ,Arribado
 2025-07-22,35820,GCXU-519511-9,Peri S.A,BUEF08879400,************        ,Arribado
 2025-07-28,35999,GATU-131170-5,Biosophy S. A. S,EBKG13626654,FX32943197          ,Arribado
