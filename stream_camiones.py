@@ -21,7 +21,8 @@ def show_page_camiones():
             preingreso_data['Hora'] = preingreso_data['Hora'].dt.strftime('%H:%M')
 
             display_data = preingreso_data[["id", "Número Fila", "Hora", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "link", 
-                                       "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida", 'Estado']]
+                                       "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida", "Estado"]]
+            display_data['Estado'] = display_data['Estado'].fillna('Pendiente')
         
     except Exception as e:
         st.error(f"Error al cargar datos: {e}")
