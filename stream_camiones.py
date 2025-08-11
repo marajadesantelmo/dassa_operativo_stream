@@ -4,8 +4,24 @@ from supabase_connection import fetch_table_data, delete_data, soft_delete_data
 from utils import highlight
 
 def show_page_camiones():
-    st.title("Camiones - Preingreso")
-    st.markdown("Datos registrados por los conductores en el formulario de preingreso en el día de hoy")
+    col1, col2 = st.columns([7, 1])
+    with col1:
+        st.title("Camiones - Preingreso")
+        st.markdown("Datos registrados por los conductores en el formulario de preingreso en el día de hoy")
+    with col2:
+        # Calculate metrics
+        st.markdown("### Métricas")
+        if 'preingreso_data' in locals() and not preingreso_data.empty:
+            total_trucks = len(preingreso_data)
+            ingresados = sum(preingreso_data['Estado'] == 'Ingresado')
+            pendientes = total_trucks - ingresados
+            
+            # Display metric with pending/total ratio
+            st.metric(
+                label="Camiones pendientes",
+                value=f"{pendientes}/{total_trucks}",
+                delta=f"{round((pendientes/total_trucks)*100)}%" if total_trucks > 0 else "0%"
+            )
 
     try: 
         preingreso_data = fetch_table_data("preingreso")
