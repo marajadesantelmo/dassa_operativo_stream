@@ -7,27 +7,27 @@ def show_page_camiones():
     st.markdown("Datos registrados por los conductores en el formulario de preingreso en el día de hoy")
 
     try: 
-        preingreso_data = fetch_table_data("preingreso")
-        preingreso_data.columns = [
-        "id",
-        "Cliente/Mercadería",
-        "Nombre Chofer",
-        "DNI Chofer",
-        "Patente Camión",
-        "Patente Acoplado",
-        "Celular WhatsApp",
-        "Remito/Permiso Embarque",
-        "Obs/Carga/Lote/Partida",
-        "Número Fila",
-        "Fecha",
-        "Hora"]
+        if not preingreso_data.empty:
+            preingreso_data = fetch_table_data("preingreso")
+            preingreso_data.columns = [
+            "id",
+            "Cliente/Mercadería",
+            "Nombre Chofer",
+            "DNI Chofer",
+            "Patente Camión",
+            "Patente Acoplado",
+            "Celular WhatsApp",
+            "Remito/Permiso Embarque",
+            "Obs/Carga/Lote/Partida",
+            "Número Fila",
+            "Fecha",
+            "Hora"]
+            preingreso_data['link'] = preingreso_data['Celular WhatsApp'].str.replace(" ", "").apply(
+                lambda x: f"http://wa.me/549{x}" if x.isdigit() else None)
+            preingreso_data['Hora'] = pd.to_datetime(preingreso_data['Hora']) - pd.Timedelta(hours=3)
+            preingreso_data['Hora'] = preingreso_data['Hora'].dt.strftime('%H:%M')
 
-        preingreso_data['link'] = preingreso_data['Celular WhatsApp'].str.replace(" ", "").apply(
-            lambda x: f"http://wa.me/549{x}" if x.isdigit() else None)
-        preingreso_data['Hora'] = pd.to_datetime(preingreso_data['Hora']) - pd.Timedelta(hours=3)
-        preingreso_data['Hora'] = preingreso_data['Hora'].dt.strftime('%H:%M')
-
-        display_data = preingreso_data[["id", "Número Fila", "Hora", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "link", 
+            display_data = preingreso_data[["id", "Número Fila", "Hora", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "link", 
                                        "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida"]]
         
     except Exception as e:
