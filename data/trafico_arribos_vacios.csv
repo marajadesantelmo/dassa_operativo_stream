@@ -1,11 +1,11 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 36477,11/08,Mercovan Argentina S.A.,-,0,  ,TD,                    ,28115997,0,                              ,,     ,2025-08-29,,                    ,Pendiente
 36511,11/08,Borax Argentina S A,-,9,DR,TD,                    ,EBKG13830123,0,                              ,,     ,2025-08-29,Fc 12495,                    ,Pendiente
-36480,11/08,Championx Argentina Srl,DRYU-205734-8,15014,DR,TD,R8687251            ,BUA0347369,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,12:11,2025-08-29,,                    ,12:11 Arribado
 36512,11/08,Smart Logistics S.A.,MSCU-452599-2,Exolgan,OT,TD,FX32944605          ,EBKG13857101,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,13:25,2025-08-29,,                    ,13:25 Arribado
+36502,11/08,Mafralac Alimenticia Srl,UACU-557285-5,10080,HC,TD,*********           ,23155833,1,TRANSPORTE DEL CLIENTE        ,Moscardini,13:19,2025-08-29,23155833,23155833            ,13:19 Arribado
 36514,11/08,Edelweiss Spedition Srl,MRKU-009191-4,10080,DR,TD,********            ,256833670,1,TRANSPORTES LEIRA-NO USAR     ,Muller,13:28,2025-08-29,,                    ,13:28 Arribado
 36484,11/08,Edelweiss Spedition Srl,-,0,  ,TD,                    ,EBKGQ0010C9F,0,                              ,,     ,2025-08-29,Pakistan (Andreasen Kyle),EBKGQ0010C9F        ,Pendiente
-36502,11/08,Mafralac Alimenticia Srl,UACU-557285-5,10080,HC,TD,*********           ,23155833,1,TRANSPORTE DEL CLIENTE        ,Moscardini,13:19,2025-08-29,23155833,23155833            ,13:19 Arribado
+36480,11/08,Championx Argentina Srl,DRYU-205734-8,15014,DR,TD,R8687251            ,BUA0347369,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,12:11,2025-08-29,,                    ,12:11 Arribado
 36504,11/08,Lift Van Int. Co S.A,BSIU-291374-7,Exolgan,DR,TD,***********         ,93745598,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,13:16,2025-08-29,Javier La Rosa,93745598            ,13:16 Arribado
 36527,11/08,Lift Van Int. Co S.A,UACU-842675-1,10080,DR,TD,****************    ,32375613,1,TRANSPORTE DEL CLIENTE        ,Moscardini,13:34,2025-09-01,Fernando Sanz Nicuesa,                    ,13:34 Arribado
 36513,11/08,Smart Logistics S.A.,MSBU-456842-9,10081,DR,TD,FX32988120          ,EBKG13756305,1,TRANSPORTE DEL CLIENTE        ,Alvarez,13:13,2025-08-29,,                    ,13:13 Arribado
@@ -15,4 +15,6 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 36466,12/08,Lawter Argentina S.A.,-,10080,HC,TD,                    ,19098761,0,                              ,,     ,2025-08-28,,                    ,Pendiente
 36467,12/08,Lawter Argentina S.A.,-,10080,HC,TD,                    ,19098761,0,                              ,,     ,2025-08-28,,                    ,Pendiente
 36468,12/08,Lawter Argentina S.A.,-,10080,HC,TD,                    ,56768889,0,                              ,,     ,2025-08-28,,                    ,Pendiente
+36529,12/08,Curtiembre Infante Sa,-,10080,HC,TD,                    ,257214831,0,                              ,,     ,2025-09-01,,                    ,Pendiente
+36530,12/08,Curtiembre Infante Sa,-,10080,HC,TD,                    ,257214831,0,                              ,,     ,2025-09-01,,                    ,Pendiente
 36523,13/08,Lift Van Int. Co S.A,-,0,  ,TD,                    ,257691498,0,                              ,,     ,2025-09-01,257691498,257691498           ,Pendiente
