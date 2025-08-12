@@ -59,7 +59,7 @@ def show_page_trafico_andresito():
     with col1:
         col1a, col1b = st.columns([1, 2])
         with col1a: 
-            st.subheader("Traslados desde Puerto a DASSA")
+            st.subheader("Desde Puerto a DASSA")
             col1a1, col1b1 = st.columns([2, 1])
             with col1a1:
                 estado_options = ["Pendientes", "Todos"]
@@ -68,7 +68,7 @@ def show_page_trafico_andresito():
                 # Apply filter
                 filtered_arribos = arribos
                 if selected_estado == "Pendientes":
-                    filtered_arribos = arribos[~arribos["Estado_Normalizado"].str.contains("Realizado", na=False)]
+                    filtered_arribos = arribos[~arribos["Estado_Normalizado"].str.contains("Arribado", na=False)]
                     
                 # Update the arribos variable for the rest of the function
                 arribos = filtered_arribos
