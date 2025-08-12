@@ -12,10 +12,20 @@ def fetch_data_trafico_andresito():
     arribos['Registro'] = arribos['Registro'].dt.strftime('%d/%m/%Y %H:%M')
     arribos = arribos.drop(columns=['fecha_registro','key', 'Tiempo'], errors='ignore')
     
-    # Normalize Estado column - treat all "Arribado" statuses as one case
-    arribos['Estado_Normalizado'] = arribos['Estado'].apply(
-        lambda x: 'Arribado' if pd.notna(x) and 'Arribado' in str(x) else x
-    )
+
+    arribos['Fecha'] = pd.to_datetime(arribos['Fecha'], errors='coerce')
+    arribos = arribos.sort_values('Fecha')
+    arribos['Fecha'] = arribos['Fecha'].dt.strftime('%d/%m/%Y')
+    arribos['Estado_Normalizado'] = arribos['Estado'].apply(lambda x: 'Arribado' if pd.notna(x) and 'Arribado' in str(x) else x )
+    cols = ['id']
+    cols.append('Fecha')
+    cols.extend([col for col in arribos.columns if col not in cols and col != 'Fecha'])
+    arribos = arribos[cols]
+    if 'Turno' in arribos.columns:
+        arribos['Turno'] = arribos['Turno'].astype(str).apply(
+            lambda x: x[:2] + ":" + x[2:] if len(x) >= 4 and x.isdigit() else 
+                     ('0' + x[0] + ':' + x[1:] if len(x) == 3 and x.isdigit() else x)
+        )
     
     pendiente_desconsolidar = fetch_table_data("trafico_pendiente_desconsolidar")
     pendiente_desconsolidar['Registro'] = pd.to_datetime(pendiente_desconsolidar['fecha_registro']) - pd.Timedelta(hours=3)
