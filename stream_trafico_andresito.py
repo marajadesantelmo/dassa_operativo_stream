@@ -62,13 +62,13 @@ def show_page_trafico_andresito():
             st.subheader("Traslados desde Puerto a DASSA")
             col1a1, col1b1 = st.columns([2, 1])
             with col1a1:
-                estado_options = ["Todos"] + sorted(arribos["Estado_Normalizado"].dropna().unique().tolist())
+                estado_options = ["Pendientes", "Todos"]
                 selected_estado = st.selectbox("Filtrar por Estado:", estado_options, key="estado_filter_arribos")
 
-                # Apply filter if not "Todos"
+                # Apply filter
                 filtered_arribos = arribos
-                if selected_estado != "Todos":
-                    filtered_arribos = arribos[arribos["Estado_Normalizado"] == selected_estado]
+                if selected_estado == "Pendientes":
+                    filtered_arribos = arribos[~arribos["Estado_Normalizado"].str.contains("Realizado", na=False)]
                     
                 # Update the arribos variable for the rest of the function
                 arribos = filtered_arribos
@@ -114,13 +114,13 @@ def show_page_trafico_andresito():
             col2a1, col2b1 = st.columns([2, 1])
             with col2a1:
                 # Add filter by Estado for pendiente_desconsolidar table
-                estado_options_pendiente = ["Todos"] + sorted(pendiente_desconsolidar["Estado"].dropna().unique().tolist())
+                estado_options_pendiente = ["Pendientes", "Todos"]
                 selected_estado_pendiente = st.selectbox("Filtrar por Estado:", estado_options_pendiente, key="estado_filter_pendiente")
 
-                # Apply filter if not "Todos"
+                # Apply filter
                 filtered_pendiente_desconsolidar = pendiente_desconsolidar
-                if selected_estado_pendiente != "Todos":
-                    filtered_pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar["Estado"] == selected_estado_pendiente]
+                if selected_estado_pendiente == "Pendientes":
+                    filtered_pendiente_desconsolidar = pendiente_desconsolidar[~pendiente_desconsolidar["Estado"].str.contains("Realizado", na=False)]
                     
                 # Update the pendiente_desconsolidar variable for the rest of the function
                 pendiente_desconsolidar = filtered_pendiente_desconsolidar
@@ -170,13 +170,13 @@ def show_page_trafico_andresito():
             col3a1, col3b1 = st.columns([2, 1])
             with col3a1:
                 # Add filter by Estado for arribos_expo_ctns table
-                estado_options_expo = ["Todos"] + sorted(arribos_expo_ctns["Estado"].dropna().unique().tolist())
+                estado_options_expo = ["Pendientes", "Todos"]
                 selected_estado_expo = st.selectbox("Filtrar por Estado:", estado_options_expo, key="estado_filter_expo")
 
-                # Apply filter if not "Todos"
+                # Apply filter
                 filtered_arribos_expo_ctns = arribos_expo_ctns
-                if selected_estado_expo != "Todos":
-                    filtered_arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns["Estado"] == selected_estado_expo]
+                if selected_estado_expo == "Pendientes":
+                    filtered_arribos_expo_ctns = arribos_expo_ctns[~arribos_expo_ctns["Estado"].str.contains("Realizado", na=False)]
                     
                 # Update the arribos_expo_ctns variable for the rest of the function
                 arribos_expo_ctns = filtered_arribos_expo_ctns
@@ -224,13 +224,13 @@ def show_page_trafico_andresito():
             col4a1, col4b1 = st.columns([2, 1])
             with col4a1:
                 # Add filter by Estado for remisiones table using normalized Estado
-                estado_options_remisiones = ["Todos"] + sorted(remisiones["Estado_Normalizado"].dropna().unique().tolist())
+                estado_options_remisiones = ["Pendientes", "Todos"]
                 selected_estado_remisiones = st.selectbox("Filtrar por Estado:", estado_options_remisiones, key="estado_filter_remisiones")
 
-                # Apply filter if not "Todos"
+                # Apply filter
                 filtered_remisiones = remisiones
-                if selected_estado_remisiones != "Todos":
-                    filtered_remisiones = remisiones[remisiones["Estado_Normalizado"] == selected_estado_remisiones]
+                if selected_estado_remisiones == "Pendientes":
+                    filtered_remisiones = remisiones[~remisiones["Estado_Normalizado"].str.contains("Realizado", na=False)]
                     
                 # Update the remisiones variable for the rest of the function
                 remisiones = filtered_remisiones
