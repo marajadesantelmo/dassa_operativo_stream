@@ -15,6 +15,7 @@ def fetch_data_trafico_andresito():
 
     arribos['Fecha'] = pd.to_datetime(arribos['Fecha'], errors='coerce')
     arribos = arribos.sort_values('Fecha')
+    arribos = arribos[arribos['Fecha'] > pd.to_datetime('2025-08-10')]
     arribos['Fecha'] = arribos['Fecha'].dt.strftime('%d/%m/%Y')
     arribos['Estado_Normalizado'] = arribos['Estado'].apply(lambda x: 'Arribado' if pd.notna(x) and 'Arribado' in str(x) else x )
     cols = ['id']
