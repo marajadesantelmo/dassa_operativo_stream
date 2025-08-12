@@ -6,6 +6,7 @@ from utils import highlight
 def fetch_preingreso_data():
     try: 
         preingreso_data = fetch_table_data("preingreso")
+        display_data = pd.DataFrame()  # Initialize here
         if not preingreso_data.empty:
             preingreso_data = preingreso_data[preingreso_data['del'].isna()]
             preingreso_data = preingreso_data.drop(columns=['del'])
@@ -21,6 +22,8 @@ def fetch_preingreso_data():
                                         "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida", "Estado"]]
             display_data['Estado'] = display_data['Estado'].fillna('Pendiente')
             display_data.sort_values(by='Número Fila', inplace=True)
+        else:
+            preingreso_data = pd.DataFrame()
         
     except Exception as e:
         st.error(f"Error al cargar datos: {e}")
