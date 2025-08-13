@@ -36,8 +36,8 @@ def show_page_facturacion(allowed_clients=None):
         with col1_sub:
             st.subheader("Facturación últimos 90 días")
         with col1_metric:
-            st.metric(label="Total Neto",value=f"${total_neto}")
-            st.metric(label="Importe Total", value=f"${importe_total}")
+            st.metric(label="Total Neto", value=f"${total_neto:,.0f}".replace(",", "."))
+            st.metric(label="Importe Total", value=f"${importe_total:,.0f}".replace(",", "."))
         st.dataframe(facturacion, hide_index=True, use_container_width=True)
     with col2:
         col2_sub, col2_metric = st.columns([6, 2])
