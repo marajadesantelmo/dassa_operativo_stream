@@ -23,6 +23,16 @@ def show_page_facturacion(allowed_clients=None):
     saldos['saldo_numerico'] = saldos['saldo_numerico'].astype(float)
     total_saldo = saldos['saldo_numerico'].sum()
 
+    facturacion['fecha_emi'] = pd.to_datetime(facturacion['fecha_emi'], errors='coerce')
+    facturacion.sort_values(by='fecha_emi', inplace=True)
+    facturacion['fecha_vto'] = pd.to_datetime(facturacion['fecha_vto'], errors='coerce')
+    facturacion['fecha_emi'] = facturacion['fecha_emi'].dt.strftime('%d/%m/%Y')
+    facturacion['fecha_vto'] = facturacion['fecha_vto'].dt.strftime('%d/%m/%Y')
+
+    saldos['Vencimiento'] = pd.to_datetime(saldos['Vencimiento'], errors='coerce')
+    saldos.sort_values(by='Vencimiento', inplace=True)
+    saldos['Vencimiento'] = saldos['Vencimiento'].dt.strftime('%d/%m/%Y')
+
     col_title, col_logo = st.columns([5, 1])
     with col_title:
         current_day = datetime.now().strftime("%d/%m/%Y")
