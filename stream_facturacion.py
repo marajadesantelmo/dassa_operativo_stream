@@ -36,15 +36,14 @@ def show_page_facturacion(allowed_clients=None):
         with col1_sub:
             st.subheader("Facturación últimos 90 días")
         with col1_metric:
-            st.metric(label="Total Neto", value=f"${total_neto:,.0f}".replace(",", "."))
-            st.metric(label="Importe Total", value=f"${importe_total:,.0f}".replace(",", "."))
+            st.write(f"Neto: ${total_neto:,.0f} | Total: ${importe_total:,.0f}".replace(",", "."))
         st.dataframe(facturacion, hide_index=True, use_container_width=True)
     with col2:
         col2_sub, col2_metric = st.columns([6, 2])
         with col2_sub:
             st.subheader("Saldos adeudados")
         with col2_metric:
-            st.write(f"Saldo total:", value = f"${total_saldo}")
+            st.write(f"Saldo total: ${total_saldo:,.0f}".replace(",", "."))
         st.dataframe(saldos, hide_index=True, use_container_width=True)
 
 if __name__ == "__main__":
