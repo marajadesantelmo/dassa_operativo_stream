@@ -211,7 +211,7 @@ def show_page_trafico_andresito():
                         else:
                             st.warning("Por favor ingrese el nombre del chofer")
         arribos_expo_ctns_display = arribos_expo_ctns.copy()
-        arribos_expo_ctns_display['ID'] = arribos_expo_ctns_display['id'].apply(lambda x: f"E{x:03d}")
+        arribos_expo_ctns_display['ID'] = arribos_expo_ctns_display['id'].apply(lambda x: f"B{x:03d}")
         cols = ['ID'] + [col for col in arribos_expo_ctns_display.columns if col != 'ID']
         arribos_expo_ctns_display = arribos_expo_ctns_display[cols]
         arribos_expo_ctns_display = arribos_expo_ctns_display.drop(columns=['id'], errors='ignore')
@@ -245,7 +245,7 @@ def show_page_trafico_andresito():
                     selected_remision_id = st.selectbox(
                         "Seleccionar registro:",
                         options=remisiones["id"].unique(),
-                        format_func=lambda x: f"ID {x} - {remisiones[remisiones['id']==x]['Booking'].iloc[0] if not remisiones[remisiones['id']==x].empty else 'N/A'}",
+                        format_func=lambda x: f"ID {x} - {remisiones[remisiones['id']==x]['Contenedor'].iloc[0] if not remisiones[remisiones['id']==x].empty else 'N/A'}",
                         key="remision_select"
                     )
                 
@@ -265,7 +265,7 @@ def show_page_trafico_andresito():
                         else:
                             st.warning("Por favor ingrese el nombre del chofer")
         remisiones_display = remisiones.copy()
-        remisiones_display['ID'] = remisiones_display['id'].apply(lambda x: f"B{x:03d}")
+        remisiones_display['ID'] = remisiones_display['id'].apply(lambda x: f"E{x:03d}")
         cols = ['ID'] + [col for col in remisiones_display.columns if col != 'ID']
         remisiones_display = remisiones_display[cols]
         remisiones_display = remisiones_display.drop(columns=['id', 'Estado_Normalizado'], errors='ignore')
