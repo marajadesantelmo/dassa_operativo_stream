@@ -20,6 +20,7 @@ def show_page_facturacion(allowed_clients=None):
     
     total_neto = facturacion['neto_numerico'].sum()
     importe_total = facturacion['total_numerico'].sum()
+    saldos['saldo_numerico'] = saldos['saldo_numerico'].astype(float)
     total_saldo = saldos['saldo_numerico'].sum()
 
     col_title, col_logo = st.columns([5, 1])
@@ -36,7 +37,7 @@ def show_page_facturacion(allowed_clients=None):
         with col1_sub:
             st.subheader("Facturación últimos 90 días")
         with col1_metric:
-            st.write(f"Neto: ${total_neto:,.0f} | Total: ${importe_total:,.0f}".replace(",", "."))
+            st.write(f"Neto: ${total_neto:,.0f}    Total:  ${importe_total:,.0f}".replace(",", "."))
         st.dataframe(facturacion, hide_index=True, use_container_width=True)
     with col2:
         col2_sub, col2_metric = st.columns([6, 2])
