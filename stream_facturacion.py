@@ -17,6 +17,10 @@ def show_page_facturacion(allowed_clients=None):
     if allowed_clients:
         facturacion = filter_dataframe_by_clients(facturacion, allowed_clients)
         saldos = filter_dataframe_by_clients(saldos, allowed_clients)
+    
+    total_neto = facturacion['neto_nuemrico'].sum()
+    importe_total = facturacion['total_numerico'].sum()
+    total_saldo = saldos['saldo_numerico'].sum()
 
     col_title, col_logo = st.columns([5, 1])
     with col_title:
@@ -28,14 +32,19 @@ def show_page_facturacion(allowed_clients=None):
 
     col1, col2 = st.columns(2)
     with col1:
-        st.subheader("Facturación últimos 90 días")
+        col1_sub, col1_metric = st.columns([6, 2])
+        with col1_sub:
+            st.subheader("Facturación últimos 90 días")
+        with col1_metric:
+            st.metric(label="Total Neto",value=f"${total_neto}")
+            st.metric(label="Importe Total", value=f"${importe_total}")
         st.dataframe(facturacion, hide_index=True, use_container_width=True)
     with col2:
         col2_sub, col2_metric = st.columns([6, 2])
         with col2_sub:
             st.subheader("Saldos adeudados")
         with col2_metric:
-            st.write(f"Saldo total:")
+            st.write(f"Saldo total:", value = f"${total_saldo}")
         st.dataframe(saldos, hide_index=True, use_container_width=True)
 
 if __name__ == "__main__":
