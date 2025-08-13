@@ -39,14 +39,14 @@ def show_page_facturacion(allowed_clients=None):
         with col1_metric:
             st.write(f"Neto: ${total_neto:,.0f}".replace(",", "."))
             st.write(f"Total: ${importe_total:,.0f}".replace(",", "."))
-        st.dataframe(facturacion, hide_index=True, use_container_width=True)
+        st.dataframe(facturacion.drop(columns=['total_numerico', 'neto_numerico'], errors='ignore'), hide_index=True, use_container_width=True)
     with col2:
         col2_sub, col2_metric = st.columns([6, 2])
         with col2_sub:
             st.subheader("Saldos adeudados")
         with col2_metric:
             st.write(f"Saldo total: ${total_saldo:,.0f}".replace(",", "."))
-        st.dataframe(saldos, hide_index=True, use_container_width=True)
+        st.dataframe(saldos.drop(columns=['saldo_numerico'], errors='ignore'), hide_index=True, use_container_width=True)
 
 if __name__ == "__main__":
     while True:
