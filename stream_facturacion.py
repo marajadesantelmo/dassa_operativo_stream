@@ -18,9 +18,9 @@ def show_page_facturacion(allowed_clients=None):
         facturacion = filter_dataframe_by_clients(facturacion, allowed_clients)
         saldos = filter_dataframe_by_clients(saldos, allowed_clients)
     
-    total_neto = facturacion['neto_numerico'].sum().astype(float).round(0).astype(int)
-    importe_total = facturacion['total_numerico'].sum().astype(float).round(0).astype(int)
-    total_saldo = saldos['saldo_numerico'].sum().astype(float).round(0).astype(int)
+    total_neto = facturacion['neto_numerico'].sum()
+    importe_total = facturacion['total_numerico'].sum()
+    total_saldo = saldos['saldo_numerico'].sum()
 
     col_title, col_logo = st.columns([5, 1])
     with col_title:
