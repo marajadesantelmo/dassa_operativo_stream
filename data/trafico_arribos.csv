@@ -12,6 +12,7 @@ id,Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,key,fe
 157.0,Exolgan,500,GLDU-760442-5,Telamania Srl,GILNB25050518,HC,T,,,,2025-08-12T18:50:33.348571,,2025-08-06
 160.0,Terminal 4 - Maersk,1000,JXLU-783525-4,Grupo Simpa Sa,NBOBUE25060146,HC,T,,,,2025-08-12T18:50:33.600061,,2025-08-07
 163.0,Terminal 4 - Maersk,1000,MRKU-078739-5,Grupo Rsm Srl,256789870,DC,TD,,,,2025-08-12T18:50:33.850123,,2025-08-08
+166.0,Exolgan,500,MSMU-557703-3,Planet Seguridad S.R.L.,GINSH250500165,HC,TD,,08:23 Arribado,,2025-08-12T19:35:31.152933,,2025-08-13
 129.0,Exolgan,500,TRHU-823341-4,Lift Van Int. Co S.A,MEDUJ802346,HC,TD,,Pendiente de arribo,,2025-08-12T13:50:31.413521,,2025-08-13
 132.0,Trp - Terminales 1-2-3,1300,PCIU-002379-4,Alsina Motos Srl,TWLE25143055,DC,TD,,Pendiente de arribo,,2025-08-12T14:20:31.511504,,2025-08-13
 135.0,Trp - Terminales 1-2-3,1200,BEAU-403427-0,Patagonia Maquinas S.A.,QINS00242043,HC,TD,,Pendiente de arribo,,2025-08-12T14:20:31.79645,,2025-08-13
@@ -25,6 +26,7 @@ id,Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,key,fe
 158.0,Exolgan,500,BMOU-678718-0,Telamania Srl,NGB31155168,HC,T,,,,2025-08-12T18:50:33.443243,,2025-08-06
 161.0,Terminal 4 - Maersk,1000,TCNU-375208-0,Grupo Simpa Sa,NBOBUE25060146,HC,T,,,,2025-08-12T18:50:33.683169,,2025-08-07
 164.0,Terminal 4 - Maersk,1000,MRKU-066222-7,Grupo Rsm Srl,256716514,DC,TD,,,,2025-08-12T18:50:33.929784,,2025-08-08
+167.0,Exolgan,500,MSDU-403455-0,Sk Distributors S.R.L.,DLNB2506647,DC,TD,,09:04 Arribado,,2025-08-12T19:35:31.233997,,2025-08-13
 100.0,Exolgan,700,CAIU-568248-2,Grouport Srl,TCNB2505096,DC,TD,,10:47 Arribado,,2025-08-08T13:50:31.254294,,2025-08-11
 101.0,Exolgan,700,CAAU-732921-3,Anaya San Martín Y Asoc. S.R.L...,NBOBUE25060209,HC,T,,10:53 Arribado,,2025-08-08T13:50:31.379775,,2025-08-11
 102.0,Exolgan,700,GLDU-983800-0,Anaya San Martín Y Asoc. S.R.L...,NBOBUE25060209,HC,T,,10:43 Arribado,,2025-08-08T13:50:31.487339,,2025-08-11
@@ -44,7 +46,8 @@ id,Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,key,fe
 159.0,Terminal 4 - Maersk,1000,ZCSU-684359-5,Grupo Simpa Sa,NBOBUE25060146,HC,T,,,,2025-08-12T18:50:33.522755,,2025-08-07
 162.0,Terminal 4 - Maersk,1000,ZCSU-658293-2,Grupo Simpa Sa,NBOBUE25060146,HC,T,,,,2025-08-12T18:50:33.765364,,2025-08-07
 165.0,Exolgan,700,MEDU-780962-2,Cordova Camila Valeria,SUSA001819E25F,HC,TD,,,,2025-08-12T18:50:34.013255,,2025-08-06
+168.0,Exolgan,500,MSDU-814347-7,Telamania Srl,GILNB250501131,HC,T,,09:02 Arribado,,2025-08-12T19:35:31.320861,,2025-08-13
 97.0,Trp - Terminales 1-2-3,1100,EMCU-991770-2,Luial Sa,SY250561348,HC,T,,Pendiente de arribo,,2025-08-07T12:50:31.427911,,2025-08-08
-,Exolgan,500,MSMU-557703-3,Planet Seguridad S.R.L.,GINSH250500165,HC,TD,,Pendiente de arribo,,,,2025-08-13
-,Exolgan,500,MSDU-403455-0,Sk Distributors S.R.L.,DLNB2506647,DC,TD,,Pendiente de arribo,,,,2025-08-13
-,Exolgan,500,MSDU-814347-7,Telamania Srl,GILNB250501131,HC,T,,Pendiente de arribo,,,,2025-08-13
+,Terminal 4 - Maersk,1000,UACU-845402-8,Tb Cargo Sa,HLCUBSC2507AXCK0,DC,TD,,Pendiente de arribo,,,,2025-08-14
+,Terminal 4 - Maersk,1000,HLBU-152461-9,Tb Cargo Sa,HLCUBSC2507AXCK0,DC,TD,,Pendiente de arribo,,,,2025-08-14
+,Terminal 4 - Maersk,1000,MRSU-654185-8,Edificios Comahue Sociedad De ...,TPTAOABD25046024,HC,TD,,Pendiente de arribo,,,,2025-08-14
