@@ -129,11 +129,9 @@ def show_page_trafico_andresito():
                 # Apply filter
                 filtered_pendiente_desconsolidar = pendiente_desconsolidar
                 if selected_estado_pendiente == "Orden del día":
-                    # Include pendientes (not realizado) OR today's date
+                    # Include pendientes (not realizado) 
                     filtered_pendiente_desconsolidar = pendiente_desconsolidar[
-                        (~pendiente_desconsolidar["Estado"].str.contains("Realizado", na=False)) |
-                        (pendiente_desconsolidar["Fecha"] == today_str)
-                    ]
+                        (~pendiente_desconsolidar["Estado"].str.contains("Realizado", na=False)) ]
                     
                 # Update the pendiente_desconsolidar variable for the rest of the function
                 pendiente_desconsolidar = filtered_pendiente_desconsolidar
