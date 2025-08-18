@@ -1,16 +1,16 @@
 id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Cantidad
 937.0,12/08,56768889,Lawter Argentina S.A.,Huxley Sa,2025-08-08T03:05:34.158156+00:00,,,Realizado,
-975.0,19/08,ZIMUBUE9042572,S/D,-,2025-08-14T13:20:33.186372+00:00,,,,
 972.0,14/08,EBKG13486678,Henn Y Cia S.R.L.,-,2025-08-13T17:18:07.983643+00:00,,pedro muller,,
 988.0,15/08,BUA0347678,Chaguar Sociedad Anonima,Hiperbaires - Icb T.Sur,2025-08-15T12:20:32.875753+00:00,,,,
+975.0,19/08,ZIMUBUE9042572,S/D,-,2025-08-14T13:20:33.186372+00:00,,,Realizado,
 935.0,12/08,19098761,Lawter Argentina S.A.,Huxley Sa,2025-08-08T03:05:33.995187+00:00,,,Realizado,
-976.0,18/08,50659386,Mader Zu S.R.L.,-,2025-08-14T13:35:32.291568+00:00,,,,
 973.0,14/08,EBKG13486678,Henn Y Cia S.R.L.,-,2025-08-13T17:18:08.091377+00:00,,pedro muller,,
 989.0,15/08,BUA0347678,Chaguar Sociedad Anonima,Hiperbaires - Icb T.Sur,2025-08-15T12:20:32.966031+00:00,,,,
+976.0,18/08,50659386,Mader Zu S.R.L.,-,2025-08-14T13:35:32.291568+00:00,,,Realizado,
 936.0,12/08,19098761,Lawter Argentina S.A.,Huxley Sa,2025-08-08T03:05:34.078805+00:00,,,Realizado,
 974.0,14/08,EBKG13486678,Henn Y Cia S.R.L.,-,2025-08-13T17:18:08.18511+00:00,,,,
 938.0,11/08,28115997,Mercovan Argentina S.A.,-,2025-08-08T12:50:31.521767+00:00,,,,
-990.0,18/08,EBKG13857270,Alimentaria Sa,Medlog Sarandi,2025-08-15T12:20:33.07331+00:00,,,,
+990.0,18/08,EBKG13857270,Alimentaria Sa,Medlog Sarandi,2025-08-15T12:20:33.07331+00:00,,jonatan barrientos,,
 977.0,18/08,257290426,Lift Van Int. Co S.A,-,2025-08-14T17:20:32.469804+00:00,,,Realizado,
 978.0,19/08,COSU6427505430,Borax Argentina S A,-,2025-08-14T17:50:32.461532+00:00,,,,
 991.0,18/08,EBKG13857270,Alimentaria Sa,Medlog Sarandi,2025-08-15T12:20:33.164825+00:00,,,,
@@ -33,6 +33,7 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Cantidad
 943.0,11/08,93745598,Lift Van Int. Co S.A,-,2025-08-09T03:05:35.571268+00:00,,,Realizado,
 945.0,11/08,EBKG13830123,Borax Argentina S A,Medlog Sarandi,2025-08-09T03:05:35.759997+00:00,,,Realizado,
 981.0,19/08,COSU6427505430,Borax Argentina S A,-,2025-08-14T17:50:32.724752+00:00,,,,
+1002.0,18/08,258267536,Pelama Chubut S.A.,Gamma Mujica,2025-08-18T14:20:33.162053+00:00,,dario benitez,,
 942.0,11/08,256833670,Edelweiss Spedition Srl,Huxley Sa,2025-08-09T03:05:35.459526+00:00,,,Realizado,
 944.0,11/08,EBKG13756305,Smart Logistics S.A.,Defibe,2025-08-09T03:05:35.671218+00:00,,,Realizado,
 946.0,11/08,EBKG13857101,Smart Logistics S.A.,Exolgan,2025-08-09T03:05:35.848657+00:00,,,Realizado,
@@ -66,4 +67,5 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Cantidad
 969.0,14/08,EBKG13860179,Hdv Leather S.R.L.,-,2025-08-12T14:20:35.163133+00:00,,,Realizado,
 967.0,13/08,EBKG13814971,Hdv Leather S.R.L.,-,2025-08-12T14:20:34.9713+00:00,,,Realizado,
 970.0,14/08,EBKG13860179,Hdv Leather S.R.L.,-,2025-08-12T14:20:35.249882+00:00,,,Realizado,
-,18/08,258267536,Pelama Chubut S.A.,Gamma Mujica,,,,,1.0
+,19/08,29771473,Servicio Internacional De Flet...,Capitan Cortes,,,,,1.0
+,19/08,39033870,Norfor Sa,Huxley Sa,,,,,3.0
