@@ -5,7 +5,7 @@ from datetime import datetime
 from utils import highlight
 from supabase_connection import fetch_table_data, update_data, update_data_by_index
 
-@st.cache_data(ttl=60) 
+@st.cache_data(ttl=300) 
 def fetch_data_trafico_andresito():
     arribos = fetch_table_data("trafico_arribos")
     arribos['Registro'] = pd.to_datetime(arribos['fecha_registro']) - pd.Timedelta(hours=3)
