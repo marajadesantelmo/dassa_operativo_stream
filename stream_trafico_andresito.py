@@ -55,6 +55,8 @@ def show_page_trafico_andresito():
     
     # Get today's date in the same format as Fecha column
     today_str = datetime.now().strftime('%d/%m/%Y')
+    # Get today's date in dd/MM format for Dia column in remisiones
+    today_dia_str = datetime.now().strftime('%d/%m')
     
     st.warning(
         "ATENCION: Esta página está en desarrollo. Algunas funcionalidades pueden no estar disponibles o no funcionar como se espera."
@@ -245,10 +247,10 @@ def show_page_trafico_andresito():
                 # Apply filter
                 filtered_remisiones = remisiones
                 if selected_estado_remisiones == "Orden del día":
-                    # Include pendientes (not realizado) OR today's date
+                    # Include pendientes (not realizado) OR today's date using Dia column
                     filtered_remisiones = remisiones[
                         (~remisiones["Estado_Normalizado"].str.contains("Realizado", na=False)) |
-                        (remisiones["Fecha"] == today_str)
+                        (remisiones["Dia"] == today_dia_str)
                     ]
                     
                 # Update the remisiones variable for the rest of the function
