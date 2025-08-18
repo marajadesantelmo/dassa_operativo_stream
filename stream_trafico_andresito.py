@@ -63,8 +63,7 @@ def show_page_trafico_andresito():
     )
     # Add link to Google Sheet
     st.markdown("""
-    ## Orden de Tráfico
-    [Ver planilla histórica en Google Sheets](https://docs.google.com/spreadsheets/d/129PyI0APvtPYEYwJIsDf-Uzy2YQR-0ojj-IG2etHCYs)
+    ## Orden de Tráfico | [Ver planilla histórica en Google Sheets](https://docs.google.com/spreadsheets/d/129PyI0APvtPYEYwJIsDf-Uzy2YQR-0ojj-IG2etHCYs)
     """)
     st.header("Traslado IMPO")
     col1, col2 = st.columns(2)
