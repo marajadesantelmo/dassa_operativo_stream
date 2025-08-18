@@ -61,10 +61,12 @@ def show_page_trafico_andresito():
     st.warning(
         "ATENCION: Esta página está en desarrollo. Algunas funcionalidades pueden no estar disponibles o no funcionar como se espera."
     )
-    # Add link to Google Sheet
-    st.markdown("""
-    ## Orden de Tráfico | [Ver planilla histórica en Google Sheets](https://docs.google.com/spreadsheets/d/129PyI0APvtPYEYwJIsDf-Uzy2YQR-0ojj-IG2etHCYs)
-    """)
+
+    coltitle1, col_title2 = st.columns([4,1])
+    with coltitle1:
+        st.header("Orden de Tráfico")
+    with col_title2:
+        st.markdown("[Ver planilla histórica en Google Sheets](https://docs.google.com/spreadsheets/d/129PyI0APvtPYEYwJIsDf-Uzy2YQR-0ojj-IG2etHCYs)")
     st.header("Traslado IMPO")
     col1, col2 = st.columns(2)
     with col1:
