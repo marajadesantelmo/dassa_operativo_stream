@@ -22,6 +22,10 @@ id,Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,key,fe
 131.0,Trp - Terminales 1-2-3,1200,TLLU-315856-8,Lift Van Int. Co S.A,COSU8040476890,DC,TD,,16:07 Arribado,,2025-08-12T14:20:31.385077,,2025-08-13
 188.0,Terminal 4 - Maersk,900,MSKU-688312-4,Mercovan Argentina S.A.,255376147,DC,TD,,Pendiente de arribo,,2025-08-18T12:20:31.383489,mosca cris,2025-08-19
 191.0,Exolgan,1500,HLBU-256559-3,Poka S.A.,DLSZ25060418,HC,T,,Pendiente de arribo,,2025-08-19T13:05:31.558618,,2025-08-20
+201.0,Exolgan,1700,TGBU-989355-3,Poka S.A.,DLSZ2506433B,HC,T,,Pendiente de arribo,,2025-08-19T13:20:31.207022,,2025-08-20
+203.0,Exolgan,1500,FANU-313812-9,Bermax S.A.,DLNB2506429,HC,T,,Pendiente de arribo,,2025-08-19T13:20:31.397277,,2025-08-20
+205.0,Exolgan,1500,FANU-383678-9,Bermax S.A.,DLNB2506429,HC,T,,Pendiente de arribo,,2025-08-19T13:20:31.573314,,2025-08-20
+207.0,Exolgan,1500,SEGU-578310-3,Bermax S.A.,DLNB2506429,HC,T,,Pendiente de arribo,,2025-08-19T13:20:31.76115,,2025-08-20
 135.0,Trp - Terminales 1-2-3,1200,BEAU-403427-0,Patagonia Maquinas S.A.,QINS00242043,HC,TD,,15:40 Arribado,,2025-08-12T14:20:31.79645,,2025-08-13
 132.0,Trp - Terminales 1-2-3,1300,PCIU-002379-4,Alsina Motos Srl,TWLE25143055,DC,TD,,18:22 Arribado,,2025-08-12T14:20:31.511504,,2025-08-13
 179.0,Exolgan,500,CXDU-115914-8,Jupam Sa,SS00009276,HC,T,,08:59 Arribado,,2025-08-13T15:05:31.326285,schaumayer,2025-08-14
@@ -44,6 +48,9 @@ id,Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,key,fe
 196.0,Exolgan,1500,CAIU-423119-1,Poka S.A.,DLSZ2506433A,HC,T,,Pendiente de arribo,,2025-08-19T13:16:14.45997,,2025-08-20
 198.0,Exolgan,1500,HLBU-240618-5,Poka S.A.,DLSZ2506433A,HC,T,,Pendiente de arribo,,2025-08-19T13:16:14.684751,,2025-08-20
 200.0,Exolgan,1700,HAMU-124060-7,Poka S.A.,DLSZ2506433B,HC,T,,Pendiente de arribo,,2025-08-19T13:16:14.977513,,2025-08-20
+202.0,Exolgan,1700,HAMU-373544-1,Poka S.A.,DLSZ2506433B,HC,T,,Pendiente de arribo,,2025-08-19T13:20:31.298309,,2025-08-20
+204.0,Exolgan,1500,FANU-370845-3,Bermax S.A.,DLNB2506429,HC,T,,Pendiente de arribo,,2025-08-19T13:20:31.48818,,2025-08-20
+206.0,Exolgan,1500,HAMU-357726-4,Bermax S.A.,DLNB2506429,HC,T,,Pendiente de arribo,,2025-08-19T13:20:31.669283,,2025-08-20
 186.0,Terminal 4 - Maersk,1700,TCKU-686959-0,Grupo Rsm Srl,257039754,DC,TD,,19:50 Arribado,,2025-08-14T13:20:31.816475,,2025-08-16
 187.0,Trp - Terminales 1-2-3,1200,APZU-450260-2,Noah Servicess.R.L.,IBC1367243,DR,TD,,15:50 Arribado,,2025-08-15T12:05:31.137234,alvarez,2025-08-18
 167.0,Exolgan,500,MSDU-403455-0,Sk Distributors S.R.L.,DLNB2506647,DC,TD,,09:04 Arribado,,2025-08-12T19:35:31.233997,,2025-08-13
@@ -79,10 +86,5 @@ id,Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,key,fe
 195.0,Exolgan,1700,HLXU-848464-4,Poka S.A.,DLSZ2506434A,HC,T,,Pendiente de arribo,,2025-08-19T13:16:14.359791,,2025-08-20
 197.0,Exolgan,1500,HLBU-193278-1,Poka S.A.,DLSZ2506433A,HC,T,,Pendiente de arribo,,2025-08-19T13:16:14.590543,,2025-08-20
 199.0,Exolgan,1700,FANU-194966-2,Poka S.A.,DLSZ2506433B,HC,T,,Pendiente de arribo,,2025-08-19T13:16:14.871309,,2025-08-20
-,Exolgan,1700,TGBU-989355-3,Poka S.A.,DLSZ2506433B,HC,T,,Pendiente de arribo,,,,2025-08-20
-,Exolgan,1700,HAMU-373544-1,Poka S.A.,DLSZ2506433B,HC,T,,Pendiente de arribo,,,,2025-08-20
-,Exolgan,1500,FANU-313812-9,Bermax S.A.,DLNB2506429,HC,T,,Pendiente de arribo,,,,2025-08-20
-,Exolgan,1500,FANU-370845-3,Bermax S.A.,DLNB2506429,HC,T,,Pendiente de arribo,,,,2025-08-20
-,Exolgan,1500,FANU-383678-9,Bermax S.A.,DLNB2506429,HC,T,,Pendiente de arribo,,,,2025-08-20
-,Exolgan,1500,HAMU-357726-4,Bermax S.A.,DLNB2506429,HC,T,,Pendiente de arribo,,,,2025-08-20
-,Exolgan,1500,SEGU-578310-3,Bermax S.A.,DLNB2506429,HC,T,,Pendiente de arribo,,,,2025-08-20
+,Terminal 4 - Maersk,1300,ZCSU-894721-7,Independencia 3187 Maquinarias...,SHIPSE2506062,HC,T,,Pendiente de arribo,,,,2025-08-20
+,Terminal 4 - Maersk,1300,TCNU-550213-6,Independencia 3187 Maquinarias...,SHIPSE2506063,HC,T,,Pendiente de arribo,,,,2025-08-20
