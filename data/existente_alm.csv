@@ -23,9 +23,9 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 37411-1-1,Mercovan Argentina S...,Franco Matias,HLCULIV250602660,RFSU-302811-7,06-08-2025,17.50,1590.00,EP-IM,http://dassa.mqbic.com/PublicTally.php?id=2271
 37399-1-1,Lift Van Int. Co S.A,Embajada De Suecia,ONEYGOTF06474300,SEGU-553075-9,06-08-2025,48.00,4800.00,NV3,http://dassa.mqbic.com/PublicTally.php?id=2276
 37407-1-1,Cordova Camila Valer...,Mudanza - Marquinez ...,SUSA001819E25F,MEDU-780962-2,06-08-2025,67.00,4936.00,NV3,http://dassa.mqbic.com/PublicTally.php?id=2265
-37294-1-1,Lift Van Int. Co S.A,Malara Guillermos,HLCUBSC2506CDVS3,HLBU-279216-0,01-08-2025,70.00,7911.00,NAVE 3,http://dassa.mqbic.com/PublicTally.php?id=2256
-37295-1-1,Baires International,Mudanza - Sophie Mar...,NJOLX252010,MSNU-248276-6,01-08-2025,28.00,1578.50,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=2260
 37298-1-1,Grupo Rsm Srl,"Jeans,Tops,Nightwear",255301067,CIPU-510985-6,01-08-2025,60.00,6677.00,IA5,http://dassa.mqbic.com/PublicTally.php?id=2261
+37295-1-1,Baires International,Mudanza - Sophie Mar...,NJOLX252010,MSNU-248276-6,01-08-2025,28.00,1578.50,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=2260
+37294-1-1,Lift Van Int. Co S.A,Malara Guillermos,HLCUBSC2506CDVS3,HLBU-279216-0,01-08-2025,70.00,7911.00,NAVE 3,http://dassa.mqbic.com/PublicTally.php?id=2256
 37248-1-1,Noah Servicess.R.L.,Mudanza - Clemente A...,IBC1359193,TCLU-442094-6,31-07-2025,40.00,3013.00,NV3,http://dassa.mqbic.com/PublicTally.php?id=2244
 37253-3-1,Blue Mail S.A.,Used Car   X20250707...,HLCUBSC2506BRTR0,UACU-842675-1,31-07-2025,15.00,1678.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=2240
 37253-2-1,Blue Mail S.A.,Moto X20250707624927,HLCUBSC2506BRTR0,UACU-842675-1,31-07-2025,3.00,470.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=2240
@@ -33,14 +33,13 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 37226-2-1,Baires International,Material Para Evento...,OOLU8898837640,OOCU-755349-9,30-07-2025,70.00,6620.00,IB6,http://dassa.mqbic.com/PublicTally.php?id=2233
 37226-1-1,Baires International,Material Para Evento...,OOLU8898837640,TGBU-854860-8,30-07-2025,70.00,600.00,IB5,http://dassa.mqbic.com/PublicTally.php?id=2234
 37231-1-1,Grupo Leal-Tex S.R.L...,Rollos De Tela,GILSH250500144,MEDU-721659-2,30-07-2025,68.00,25900.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=2232
+37193-1-1,Chemotecnica Sa,Cipermetrina,MEDUJB753567,TGBU-269396-0,29-07-2025,20.00,21660.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=2227
 37195-1-1,Zorrilla  Daniel,Suitcase,SYNNGB25SE060946,MSDU-412548-0,29-07-2025,48.00,3594.80,N4-1,http://dassa.mqbic.com/PublicTally.php?id=2224
 37190-1-1,Mercovan Argentina S...,Sanchez Zinny/ Moto ...,255127491,HLBU-112925-5,29-07-2025,5.00,100.00,NV1,http://dassa.mqbic.com/PublicTally.php?id=2222
-37193-1-1,Chemotecnica Sa,Cipermetrina,MEDUJB753567,TGBU-269396-0,29-07-2025,20.00,21660.00,CTNNAC,http://dassa.mqbic.com/PublicTally.php?id=2227
-37166-1-1,Grupo Rsm Srl,Chevrolet Corvette 1...,255567782,MRKU-036612-2,25-07-2025,8.00,1597.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=2217
 37166-2-1,Grupo Rsm Srl,Automobile Chevrolet...,255567782,MRKU-036612-2,25-07-2025,8.00,1597.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=2217
+37166-1-1,Grupo Rsm Srl,Chevrolet Corvette 1...,255567782,MRKU-036612-2,25-07-2025,8.00,1597.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=2217
 37168-1-1,Grupo Rsm Srl,Mercedes Benz 1990 /...,255567843,MRKU-077966-1,25-07-2025,11.00,1870.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=2218
 37168-2-1,Grupo Rsm Srl,Mercedes Benz 1992 /...,255567843,MRKU-077966-1,25-07-2025,11.00,1870.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=2218
-37127-1-1,Mercovan Argentina S...,Efectos Personales /...,DXB0944629,TCNU-501654-0,24-07-2025,65.00,6039.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=2212
 37107-2-1,Talwin Transport Ser...,Santo Tome / Ford Mu...,HLCUBSC2506AXZL0,TCLU-428516-8,23-07-2025,10.00,1508.00,PA-B,http://dassa.mqbic.com/PublicTally.php?id=2205
 37107-1-1,Talwin Transport Ser...,Santo Tome  Vehicle ...,HLCUBSC2506AXZL0,TCLU-428516-8,23-07-2025,10.00,1415.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=2205
 37057-1-1,Mercovan Argentina S...,Orozcos Ibarra,HLCUGY3250531238,UACU-852575-4,22-07-2025,50.00,4090.00,IB9,http://dassa.mqbic.com/PublicTally.php?id=2191
@@ -50,9 +49,9 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 36936-0-1,Berkma S.A.,.Mercaderia Denuncia...,-,EITU-123028-0,17-07-2025,10.00,25.00,RZ-1A,
 36805-2-1,Santana Textil Chaco...,Repuestos Carga Gene...,PEC22629/43,CMAU-304660-6,14-07-2025,0.81,227.75,IA9,http://dassa.mqbic.com/PublicTally.php?id=2148
 36710-1-1,Chemotecnica Sa,Cipermetrina Tecnica...,MEDUJB542754,TCLU-271702-5,10-07-2025,25.50,17887.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=2139
-36672-2-1,Industrias Saladillo...,Accecosrios De Tuber...,TPNGBSG25056020,HDMU-271974-1,08-07-2025,27.00,15266.00,ANEX,http://dassa.mqbic.com/PublicTally.php?id=2134
-36672-1-1,Industrias Saladillo...,Accecosrios De Tuber...,TPNGBSG25056020,HDMU-271974-1,08-07-2025,26.16,14742.00,ANEX,http://dassa.mqbic.com/PublicTally.php?id=2134
 36670-1-1,Verde Fuerte Srl,Fertilizantes,SEA30/2505-0044A,MRKU-056983-4,08-07-2025,46.00,21308.44,IB7,http://dassa.mqbic.com/PublicTally.php?id=2133
+36672-1-1,Industrias Saladillo...,Accecosrios De Tuber...,TPNGBSG25056020,HDMU-271974-1,08-07-2025,26.16,14742.00,ANEX,http://dassa.mqbic.com/PublicTally.php?id=2134
+36672-2-1,Industrias Saladillo...,Accecosrios De Tuber...,TPNGBSG25056020,HDMU-271974-1,08-07-2025,27.00,15266.00,ANEX,http://dassa.mqbic.com/PublicTally.php?id=2134
 36550-1-1,Alstom Argentina S.A...,Electrical Cabinet,255500497,CAAU-657477-2,03-07-2025,50.00,8907.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=2114
 36518-1-1,Industrias Saladillo...,Accesorios De Tuberi...,TPNGBSG255046030,BMOU-255036-9,02-07-2025,17.66,15287.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=2099
 36251-1-1,Bisora Group Sa,Garment,BK2530431,EGHU-945537-0,19-06-2025,68.00,11980.00,IB6,http://dassa.mqbic.com/PublicTally.php?id=2036
@@ -96,8 +95,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 6067-1-1,Ribeiro S.A.C.I.F.A....,Notebook,HBL6814058,HLXU-336012-6,26-06-2018,5.00,4764.00,N1-21,
 5603-1-1,Dassa - Client A La ...,Electrobombas,FS1710006,SEGU-114044-9,17-04-2018,13.74,7365.96,RZ-1B,
 5411-1-1,Leave It S.A.,Textile,SHE180105015,FCIU-988340-0,04-04-2018,66.00,22850.00,CTNNAC,
-5015-3-1,Zimmermann Ernesto,Ernesto Zimmermann/ ...,COSU4006908970,DFSU-737166-6,20-02-2018,3.00,190.00,NAVEEXTERIOR,
 5015-1-1,Zimmermann Ernesto,Ernesto Zimmermann/ ...,COSU4006908970,DFSU-737166-6,20-02-2018,40.00,8340.00,N1-21,
+5015-3-1,Zimmermann Ernesto,Ernesto Zimmermann/ ...,COSU4006908970,DFSU-737166-6,20-02-2018,3.00,190.00,NAVEEXTERIOR,
 3784-1-1,Lift Van Int. Co S.A,Efectos Personales/ ...,HLCUCHI170922111Q,CDU-578248-00,17-10-2017,0.16,13.79,NV1,
 3719-1-1,Algodonera Aconcagua...,Qdc Toallitas Y Prot...,SUDU27159A76RR67,BSIU-910837-5,06-10-2017,22.12,1981.32,N1-21,
 3513-1-1,Metalurgica Calviño ...,Machinery,EXPSEA000140817,UACU-441335-5,19-09-2017,45.00,15760.00,NAVEEXTERIOR,
