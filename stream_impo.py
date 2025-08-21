@@ -15,6 +15,8 @@ def fetch_data_impo():
     existente_alm = fetch_table_data("existente_alm")
     try:
         arribos = arribos.sort_values(by="Turno")
+        arribos['Chofer'] = arribos['Chofer'].fillna('-')
+        arribos['Chofer'] = arribos['Chofer'].str.title()
         verificaciones_impo = verificaciones_impo.drop(columns=['Hora'])
         pendiente_desconsolidar['Vto. Vacio'] = pd.to_datetime(pendiente_desconsolidar['Vto. Vacio'], format='%d/%m', errors='coerce')
         pendiente_desconsolidar = pendiente_desconsolidar.sort_values(by='Vto. Vacio')
