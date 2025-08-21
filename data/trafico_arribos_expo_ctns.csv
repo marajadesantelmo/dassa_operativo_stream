@@ -1,10 +1,13 @@
 id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Cantidad
 1036.0,13/08,EBKG13860161,Hdv Leather S.R.L.,-,2025-08-20T19:20:31.918591+00:00,,,,
-1014.0,21/08,35566959,Mercovan Argentina S.A.,-,2025-08-20T13:50:31.871889+00:00,,,,
 1038.0,18/08,EBKG13680357,Alimentaria Sa,Defibe,2025-08-20T19:20:32.10783+00:00,,,,
 1040.0,18/08,EBKG13680357,S/D,Defibe,2025-08-20T19:20:32.293317+00:00,,,,
 1042.0,18/08,EBKG13816184,Alimentaria Sa,Medlog Sarandi,2025-08-20T19:20:32.48373+00:00,,,,
+1045.0,21/08,BUA0348467,Borax Argentina S A,-,2025-08-21T15:05:31.95874+00:00,,,,
+1047.0,21/08,BUA0348467,Borax Argentina S A,-,2025-08-21T15:05:32.159628+00:00,,,,
 1013.0,21/08,EBKG13920207,Hdv Leather S.R.L.,-,2025-08-19T19:35:32.955324+00:00,,,,
+1049.0,21/08,BUA0348467,Borax Argentina S A,-,2025-08-21T15:05:32.350186+00:00,,,,
+1014.0,21/08,35566959,Mercovan Argentina S.A.,-,2025-08-20T13:50:31.871889+00:00,,,Realizado,
 1044.0,18/08,EBKG13816184,Alimentaria Sa,Medlog Sarandi,2025-08-20T19:20:32.687184+00:00,,,,
 1010.0,20/08,LA0441617,Borax Argentina S A,Hiperbaires - Icb T.Sur,2025-08-19T14:05:32.706777+00:00,,,Realizado,
 975.0,19/08,ZIMUBUE9042572,S/D,-,2025-08-14T13:20:33.186372+00:00,,,Realizado,
@@ -16,8 +19,11 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Cantidad
 1037.0,14/08,EBKG13486678,Henn Y Cia S.R.L.,-,2025-08-20T19:20:32.014624+00:00,,,,
 1039.0,18/08,EBKG13680357,Alimentaria Sa,Defibe,2025-08-20T19:20:32.206842+00:00,,,,
 1041.0,18/08,EBKG13816184,Alimentaria Sa,Medlog Sarandi,2025-08-20T19:20:32.384476+00:00,,,,
+1046.0,21/08,BUA0348467,Borax Argentina S A,-,2025-08-21T15:05:32.073463+00:00,,,,
 1043.0,18/08,EBKG13816184,Alimentaria Sa,Medlog Sarandi,2025-08-20T19:20:32.606188+00:00,,,,
+1048.0,21/08,BUA0348467,Borax Argentina S A,-,2025-08-21T15:05:32.263835+00:00,,,,
 1009.0,20/08,23475304,Pelama Chubut S.A.,Huxley Sa,2025-08-19T14:05:32.622616+00:00,,,Realizado,
+1050.0,21/08,BUA0348467,Borax Argentina S A,-,2025-08-21T15:05:32.439659+00:00,,,,
 1011.0,20/08,LA0441617,Borax Argentina S A,Hiperbaires - Icb T.Sur,2025-08-19T14:05:32.812453+00:00,,,Realizado,
 1016.0,21/08,COSU6427496360,Dry Sea Srl,Gamma Mujica,2025-08-20T14:35:31.85096+00:00,,,,
 978.0,19/08,COSU6427505430,Borax Argentina S A,-,2025-08-14T17:50:32.461532+00:00,,marcelo peril,Realizado,
@@ -38,4 +44,5 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Cantidad
 1003.0,19/08,29771473,Servicio Internacional De Flet...,Capitan Cortes,2025-08-18T18:35:33.001874+00:00,,david sanchez,Realizado,
 1004.0,19/08,39033870,Norfor Sa,Huxley Sa,2025-08-18T18:35:33.204806+00:00,,,Realizado,
 1006.0,19/08,39033870,Norfor Sa,Huxley Sa,2025-08-18T18:35:33.424579+00:00,,barrientos jonatan,Realizado,
-,21/08,BUA0348467,Borax Argentina S A,-,,,,,6.0
+,25/08,BUA0348257,Mercovan Argentina S.A.,-,,,,,1.0
+,26/08,75729048,Conextube Sa,-,,,,,2.0
