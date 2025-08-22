@@ -1,73 +1,58 @@
 Fecha,Booking,Cliente,Cantidad,Contenedor,Precinto,Origen,Obs.,Estado
-14/08,257349960,Henn Y Cia S.R.L.,1,MRKU-270505-6,**********          ,Huxley Sa,,10:43 Arribado
-14/08,257349960,Henn Y Cia S.R.L.,1,MRKU-421714-8,***********         ,Huxley Sa,,11:07 Arribado
-14/08,257349960,Henn Y Cia S.R.L.,1,MRKU-617176-6,***********         ,Huxley Sa,,11:23 Arribado
-14/08,257349960,Henn Y Cia S.R.L.,1,MSKU-935987-2,***********         ,Huxley Sa,,11:27 Arribado
-14/08,257691656,Lift Van Int. Co S.A,1,SUDU-737052-0,**************      ,Defibe,,18:33 Arribado
-14/08,EBKG13486678,Henn Y Cia S.R.L.,1,-,                    ,-,26600,Pendiente
-14/08,EBKG13486678,Henn Y Cia S.R.L.,1,FCIU-646051-2,FX32941069          ,Exolgan,26600,09:48 Arribado
-14/08,EBKG13486678,Henn Y Cia S.R.L.,1,MEDU-305733-7,FX32941196          ,Exolgan,,15:07 Arribado
-14/08,EBKG13486678,Henn Y Cia S.R.L.,1,MSMU-260513-1,FX32941180          ,Exolgan,26600,09:28 Arribado
-14/08,EBKG13615673,Henn Y Cia S.R.L.,1,MEDU-664606-9,FX32941198          ,Exolgan,,15:26 Arribado
-14/08,EBKG13615673,Henn Y Cia S.R.L.,1,TCKU-367927-8,FX32941197          ,Exolgan,,15:23 Arribado
-14/08,EBKG13860179,Hdv Leather S.R.L.,1,MEDU-733336-7,FX32988015          ,Defibe,26600,16:06 Arribado
-14/08,EBKG13860179,Hdv Leather S.R.L.,1,MEDU-737142-8,FX32988013          ,Defibe,26600,18:39 Arribado
-14/08,EBKG13860179,Hdv Leather S.R.L.,1,MSNU-611224-5,FX32988020          ,Defibe,26600,16:34 Arribado
-14/08,EBKG32941228,Henn Y Cia S.R.L.,1,GLDU-544767-2,FX32941228          ,Exolgan,,15:13 Arribado
-15/08,BUA0347678,Chaguar Sociedad Anonima,1,SEKU-114986-2,R8686473            ,Hiperbaires - Icb T.Sur,,15:38 Arribado
-15/08,BUA0347678,Chaguar Sociedad Anonima,1,TRHU-387678-4,R8686528            ,Hiperbaires - Icb T.Sur,,15:39 Arribado
-15/08,EBKG13680357,Alimentaria Sa,1,CAAU-560804-0,FX32988038          ,Defibe,,13:39 Arribado
-15/08,EBKG13680357,Alimentaria Sa,1,TGBU-797900-4,FX32988034          ,Defibe,,10:27 Arribado
-15/08,EBKG13816184,Alimentaria Sa,1,BEAU-571906-2,FX32946259          ,Medlog Sarandi,,12:03 Arribado
-15/08,EBKG13816184,Alimentaria Sa,1,CRSU-926351-3,FX32946285          ,Medlog Sarandi,,11:54 Arribado
-15/08,EBKG13816184,Alimentaria Sa,1,FCIU-843833-3,FX32946292          ,Medlog Sarandi,,11:15 Arribado
-15/08,EBKG13816184,Alimentaria Sa,1,MEDU-791794-6,FX32946281          ,Medlog Sarandi,,11:24 Arribado
-18/08,25001EC01052710C,Fijaciones Py S.A.,1,-,                    ,-,,14:52 Arribado
-18/08,25001PE01000281L,Lift Van Int. Co S.A,1,-,                    ,Dassa,,10:20 Arribado
-18/08,257290426,Lift Van Int. Co S.A,1,PONU-192620-2,***********         ,Huxley Sa,,10:08 Arribado
+15/08,BUA0347678,Chaguar Sociedad Anonima,1,SEKU-114986-2,R8686473,Hiperbaires - Icb T.Sur,,15:38 Arribado
+15/08,BUA0347678,Chaguar Sociedad Anonima,1,TRHU-387678-4,R8686528,Hiperbaires - Icb T.Sur,,15:39 Arribado
+15/08,EBKG13680357,Alimentaria Sa,1,CAAU-560804-0,FX32988038,Defibe,,13:39 Arribado
+15/08,EBKG13680357,Alimentaria Sa,1,TGBU-797900-4,FX32988034,Defibe,,10:27 Arribado
+15/08,EBKG13816184,Alimentaria Sa,1,BEAU-571906-2,FX32946259,Medlog Sarandi,,12:03 Arribado
+15/08,EBKG13816184,Alimentaria Sa,1,CRSU-926351-3,FX32946285,Medlog Sarandi,,11:54 Arribado
+15/08,EBKG13816184,Alimentaria Sa,1,FCIU-843833-3,FX32946292,Medlog Sarandi,,11:15 Arribado
+15/08,EBKG13816184,Alimentaria Sa,1,MEDU-791794-6,FX32946281,Medlog Sarandi,,11:24 Arribado
+18/08,25001EC01052710C,Fijaciones Py S.A.,1,-,,-,,14:52 Arribado
+18/08,25001PE01000281L,Lift Van Int. Co S.A,1,-,,Dassa,,10:20 Arribado
+18/08,257290426,Lift Van Int. Co S.A,1,PONU-192620-2,***********,Huxley Sa,,10:08 Arribado
 18/08,258267536,Pelama Chubut S.A.,1,MSKU-590708-9,********************,Gamma Mujica,,14:25 Arribado
-18/08,50659386,Mader Zu S.R.L.,1,CAAU-503625-8,********            ,Huxley Sa,,11:05 Arribado
-18/08,EBKG13680357,Alimentaria Sa,2,-,                    ,Defibe,,Pendiente
-18/08,EBKG13680357,S/D,1,CAAU-560804-0,FX32988038          ,Defibe,,Pendiente
-18/08,EBKG13816184,Alimentaria Sa,4,-,                    ,Medlog Sarandi,,Pendiente
-18/08,EBKG13857270,Alimentaria Sa,1,MSDU-245443-0,FX32945721          ,Medlog Sarandi,,15:47 Arribado
-18/08,EBKG13857270,Alimentaria Sa,1,MSMU-302352-0,FX32945738          ,Medlog Sarandi,,15:43 Arribado
-18/08,ZIMUBUE9042572,Mader Zu S.R.L.,1,ZCSU-693932-0,********            ,Hiperbaires - Icb T.Sur,26600,12:21 Arribado
+18/08,50659386,Mader Zu S.R.L.,1,CAAU-503625-8,********,Huxley Sa,,11:05 Arribado
+18/08,EBKG13680357,Alimentaria Sa,2,-,,Defibe,,Pendiente
+18/08,EBKG13680357,S/D,1,CAAU-560804-0,FX32988038,Defibe,,Pendiente
+18/08,EBKG13816184,Alimentaria Sa,4,-,,Medlog Sarandi,,Pendiente
+18/08,EBKG13857270,Alimentaria Sa,1,MSDU-245443-0,FX32945721,Medlog Sarandi,,15:47 Arribado
+18/08,EBKG13857270,Alimentaria Sa,1,MSMU-302352-0,FX32945738,Medlog Sarandi,,15:43 Arribado
+18/08,ZIMUBUE9042572,Mader Zu S.R.L.,1,ZCSU-693932-0,********,Hiperbaires - Icb T.Sur,26600,12:21 Arribado
 19/08,257635177,Hellmann Worldwide Logistics,2,MRKU-076627-9,********************,Huxley Sa,,15:28 Arribado
-19/08,29771473,Servicio Internacional De Flet...,1,HAMU-278363-5,HLD0434085          ,Capitan Cortes,MULTIMODAL,11:37 Arribado
-19/08,39033870,Norfor Sa,1,FANU-345337-3,******************* ,Huxley Sa,,14:22 Arribado
+19/08,29771473,Servicio Internacional De Flet...,1,HAMU-278363-5,HLD0434085,Capitan Cortes,MULTIMODAL,11:37 Arribado
+19/08,39033870,Norfor Sa,1,FANU-345337-3,*******************,Huxley Sa,,14:22 Arribado
 19/08,39033870,Norfor Sa,1,HAMU-317270-7,********************,Huxley Sa,,10:47 Arribado
 19/08,39033870,Norfor Sa,1,HLBU-320405-0,********************,Huxley Sa,,10:36 Arribado
-19/08,COSU6427505430,Minera Santa Rita Srl,1,CCLU-765317-0,**************      ,Gamma Libertador,FACT 14-465,18:28 Arribado
+19/08,COSU6427505430,Minera Santa Rita Srl,1,CCLU-765317-0,**************,Gamma Libertador,FACT 14-465,18:28 Arribado
 19/08,COSU6427505430,Minera Santa Rita Srl,1,FFAU-343841-5,********************,Gamma Libertador,FACT 14-465,17:41 Arribado
-19/08,COSU6427505430,Minera Santa Rita Srl,1,RFCU-401700-7,*************       ,Gamma Libertador,FC 14-465,09:14 Arribado
-19/08,COSU6427505430,Minera Santa Rita Srl,1,TRHU-490724-1,******************* ,Gamma Libertador,FC 14-465,16:23 Arribado
-19/08,EBKG13874473,Borax Argentina S A,1,CXDU-142903-2,FX32945554          ,Medlog Sarandi,FC 12518,17:16 Arribado
-19/08,EBKG13874473,Borax Argentina S A,1,FCIU-344323-4,FX32945574          ,Medlog Sarandi,FC 12518,10:19 Arribado
-19/08,EBKG13874473,Borax Argentina S A,1,MEDU-521159-1,FX32945633          ,Medlog Sarandi,FC 12518,15:22 Arribado
-19/08,EBKG13874473,Borax Argentina S A,1,MEDU-684641-0,FX32945552          ,Medlog Sarandi,FC 12518,17:29 Arribado
-19/08,EBKG13874473,Borax Argentina S A,1,MSCU-348856-0,FX32945634          ,Medlog Sarandi,FC 12518,15:16 Arribado
-19/08,EBKG13874473,Borax Argentina S A,1,MSDU-271153-8,FX32945631          ,Medlog Sarandi,FC 12518,15:17 Arribado
-19/08,EBKG13874473,Borax Argentina S A,1,MSNU-289429-6,FX32945636          ,Medlog Sarandi,FC 12518,15:19 Arribado
-19/08,EBKG13874473,Borax Argentina S A,1,TCKU-376157-6,FX32945575          ,Medlog Sarandi,FC 12518,10:18 Arribado
-19/08,EBKG13874473,Borax Argentina S A,1,TGBU-319086-7,FX32945553          ,Medlog Sarandi,FC 12518,17:12 Arribado
-19/08,EBKG13874473,Borax Argentina S A,1,XINU-109853-0,FX32945551          ,Medlog Sarandi,FC 12518,17:28 Arribado
+19/08,COSU6427505430,Minera Santa Rita Srl,1,RFCU-401700-7,*************,Gamma Libertador,FC 14-465,09:14 Arribado
+19/08,COSU6427505430,Minera Santa Rita Srl,1,TRHU-490724-1,*******************,Gamma Libertador,FC 14-465,16:23 Arribado
+19/08,EBKG13874473,Borax Argentina S A,1,CXDU-142903-2,FX32945554,Medlog Sarandi,FC 12518,17:16 Arribado
+19/08,EBKG13874473,Borax Argentina S A,1,FCIU-344323-4,FX32945574,Medlog Sarandi,FC 12518,10:19 Arribado
+19/08,EBKG13874473,Borax Argentina S A,1,MEDU-521159-1,FX32945633,Medlog Sarandi,FC 12518,15:22 Arribado
+19/08,EBKG13874473,Borax Argentina S A,1,MEDU-684641-0,FX32945552,Medlog Sarandi,FC 12518,17:29 Arribado
+19/08,EBKG13874473,Borax Argentina S A,1,MSCU-348856-0,FX32945634,Medlog Sarandi,FC 12518,15:16 Arribado
+19/08,EBKG13874473,Borax Argentina S A,1,MSDU-271153-8,FX32945631,Medlog Sarandi,FC 12518,15:17 Arribado
+19/08,EBKG13874473,Borax Argentina S A,1,MSNU-289429-6,FX32945636,Medlog Sarandi,FC 12518,15:19 Arribado
+19/08,EBKG13874473,Borax Argentina S A,1,TCKU-376157-6,FX32945575,Medlog Sarandi,FC 12518,10:18 Arribado
+19/08,EBKG13874473,Borax Argentina S A,1,TGBU-319086-7,FX32945553,Medlog Sarandi,FC 12518,17:12 Arribado
+19/08,EBKG13874473,Borax Argentina S A,1,XINU-109853-0,FX32945551,Medlog Sarandi,FC 12518,17:28 Arribado
 20/08,21984624,Pelama Chubut S.A.,1,HLXU-540297-7,********************,Huxley Sa,,08:27 Arribado
 20/08,23475304,Pelama Chubut S.A.,1,GCXU-244120-3,********************,Huxley Sa,,09:09 Arribado
-20/08,LA0441617,Borax Argentina S A,1,MSMU-649528-5,************        ,Hiperbaires - Icb T.Sur,FC 12548,11:22 Arribado
-20/08,LA0441617,Borax Argentina S A,1,TCNU-869595-4,**************      ,Hiperbaires - Icb T.Sur,FC 12548,11:02 Arribado
-20/08,ZIMUBUE9042762,Borax Argentina S A,1,TEMU-439011-3,*****************   ,Hiperbaires - Icb T.Sur,FC 12546,09:58 Arribado
-21/08,257750953,Lift Van Int. Co S.A,1,MSKU-694190-9,***************     ,Huxley Sa,Aaron Tiffany,09:04 Arribado
-21/08,35566959,Mercovan Argentina S.A.,1,UACU-842757-3,******              ,Huxley Sa,,12:56 Arribado
-21/08,BUA0348467,Borax Argentina S A,6,-,                    ,-,,Pendiente
-21/08,COSU6427496360,Dry Sea Srl,1,-,                    ,Gamma Mujica,,Pendiente
-21/08,EBKG13920207,Hdv Leather S.R.L.,1,MSDU-735591-2,FX32948196          ,Medlog Sarandi,,16:31 Arribado
-21/08,EBKG13920207,Hdv Leather S.R.L.,1,MSMU-777155-7,FX32948197          ,Medlog Sarandi,26600,16:27 Arribado
-21/08,MCORIV030538,Geo-Trade Comercio Exterior Sr...,1,TCLU-374900-6,R8686954            ,Hiperbaires - Icb T.Sur,,17:02 Arribado
-22/08,BUE500141500,Minera Santa Rita Srl,1,-,                    ,Container International Servic,FC 14-462,Pendiente
-22/08,BUE500141600,Minera Santa Rita Srl,1,-,                    ,Container International Servic,,Pendiente
-22/08,EBKG13905503,Alimentaria Sa,2,-,                    ,Gamma Libertador,,Pendiente
-25/08,90341233,Tipoiti Satic,1,-,                    ,-,,Pendiente
-25/08,BUA0348257,Mercovan Argentina S.A.,1,-,                    ,-,,Pendiente
-25/08,BUA0348795,Isischu Srl,3,-,                    ,-,26600,Pendiente
-26/08,75729048,Conextube Sa,2,-,                    ,-,,Pendiente
+20/08,LA0441617,Borax Argentina S A,1,MSMU-649528-5,************,Hiperbaires - Icb T.Sur,FC 12548,11:22 Arribado
+20/08,LA0441617,Borax Argentina S A,1,TCNU-869595-4,**************,Hiperbaires - Icb T.Sur,FC 12548,11:02 Arribado
+20/08,ZIMUBUE9042762,Borax Argentina S A,1,TEMU-439011-3,*****************,Hiperbaires - Icb T.Sur,FC 12546,09:58 Arribado
+21/08,257750953,Lift Van Int. Co S.A,1,MSKU-694190-9,***************,Huxley Sa,Aaron Tiffany,09:04 Arribado
+21/08,35566959,Mercovan Argentina S.A.,1,UACU-842757-3,******,Huxley Sa,,12:56 Arribado
+21/08,BUA0348467,Borax Argentina S A,6,-,,-,,Pendiente
+21/08,COSU6427496360,Dry Sea Srl,1,-,,Gamma Mujica,,Pendiente
+21/08,EBKG13920207,Hdv Leather S.R.L.,1,MSDU-735591-2,FX32948196,Medlog Sarandi,,16:31 Arribado
+21/08,EBKG13920207,Hdv Leather S.R.L.,1,MSMU-777155-7,FX32948197,Medlog Sarandi,26600,16:27 Arribado
+21/08,MCORIV030538,Geo-Trade Comercio Exterior Sr...,1,TCLU-374900-6,R8686954,Hiperbaires - Icb T.Sur,,17:02 Arribado
+22/08,BUE500141500,Minera Santa Rita Srl,1,-,,Container International Servic,FC 14-462,Pendiente
+22/08,BUE500141600,Minera Santa Rita Srl,1,-,,Container International Servic,,Pendiente
+22/08,EBKG13905503,Alimentaria Sa,2,-,,Gamma Libertador,,Pendiente
+25/08,90341233,Tipoiti Satic,1,-,,-,,Pendiente
+25/08,BUA0348257,Mercovan Argentina S.A.,1,-,,-,,Pendiente
+25/08,BUA0348795,Isischu Srl,3,-,,-,26600,Pendiente
+26/08,75729048,Conextube Sa,2,-,,-,,Pendiente
