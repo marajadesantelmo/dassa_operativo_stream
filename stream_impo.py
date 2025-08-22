@@ -21,6 +21,8 @@ def fetch_data_impo():
         pendiente_desconsolidar['Vto. Vacio'] = pd.to_datetime(pendiente_desconsolidar['Vto. Vacio'], format='%d/%m', errors='coerce')
         pendiente_desconsolidar = pendiente_desconsolidar.sort_values(by='Vto. Vacio')
         pendiente_desconsolidar['Vto. Vacio'] = pendiente_desconsolidar['Vto. Vacio'].dt.strftime('%d/%m')
+        pendiente_desconsolidar['Chofer'] = pendiente_desconsolidar['Chofer'].fillna('-')
+        pendiente_desconsolidar['Chofer'] = pendiente_desconsolidar['Chofer'].str.title()
         cols = verificaciones_impo.columns.tolist()
         cols.insert(2, cols.pop(cols.index('Operacion')))
         verificaciones_impo = verificaciones_impo[cols]
