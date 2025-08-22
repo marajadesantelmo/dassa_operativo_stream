@@ -1,12 +1,18 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-36864,22/08,Minera Santa Rita Srl,-,10,DR,TD,                    ,BUE500141600,0,                              ,,     ,2025-09-11,Fc 14-463,                    ,Pendiente
+36878,22/08,Uld Global Trade Srl,-,Exolgan,DR,TD,                    ,EBKG13905315,0,                              ,,     ,2025-09-12,,                    ,Pendiente
+36864,22/08,Minera Santa Rita Srl,PCIU-462441-1,10,DR,TD,********************,BUE500141600,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,09:38,2025-09-11,Fc 14-463,                    ,09:38 Arribado
 36865,22/08,Minera Santa Rita Srl,PCIU-463655-7,10,DR,TD,***************     ,BUE500141500,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,08:53,2025-09-11,Fc 14-462,                    ,08:53 Arribado
 36854,22/08,Alimentaria Sa,SEGU-471517-2,10076,HC,TD,FX32940348          ,EBKG13905503,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,08:46,2025-09-11,,                    ,08:46 Arribado
-36855,22/08,Alimentaria Sa,-,10076,HC,TD,                    ,EBKG13905503,0,                              ,,     ,2025-09-11,,                    ,Pendiente
+36855,22/08,Alimentaria Sa,MEDU-724670-3,10076,HC,TD,FX32940349          ,EBKG13905503,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,09:15,2025-09-11,,                    ,09:15 Arribado
+36877,22/08,Uld Global Trade Srl,-,Exolgan,DR,TD,                    ,EBKG13905315,0,                              ,,     ,2025-09-12,,                    ,Pendiente
+36874,25/08,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9042951,0,                              ,,     ,2025-09-12,,                    ,Pendiente
+36873,25/08,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9042951,0,                              ,,     ,2025-09-12,,                    ,Pendiente
+36872,25/08,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9042951,0,                              ,,     ,2025-09-12,,                    ,Pendiente
 36844,25/08,Mercovan Argentina S.A.,-,0,  ,TD,                    ,BUA0348257,0,                              ,,     ,2025-09-11,Edith Anabela Rodas,BUA0348257          ,Pendiente
-36850,25/08,Tipoiti Satic,-,0,  ,TD,                    ,90341233,0,                              ,,     ,2025-09-11,Fc 1335,90341233            ,Pendiente
-36861,25/08,Isischu Srl,-,0,  ,TD,                    ,BUA0348795,0,                              ,,     ,2025-09-11,Bua0348795,BUA0348795          ,Pendiente
 36862,25/08,Isischu Srl,-,0,  ,TD,                    ,BUA0348795,0,                              ,,     ,2025-09-11,Bua0348795,BUA0348795          ,Pendiente
+36861,25/08,Isischu Srl,-,0,  ,TD,                    ,BUA0348795,0,                              ,,     ,2025-09-11,Bua0348795,BUA0348795          ,Pendiente
+36850,25/08,Tipoiti Satic,-,0,  ,TD,                    ,90341233,0,                              ,,     ,2025-09-11,Fc 1335,90341233            ,Pendiente
+36871,25/08,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9042951,0,                              ,,     ,2025-09-12,,                    ,Pendiente
 36863,25/08,Isischu Srl,-,0,  ,TD,                    ,BUA0348795,0,                              ,,     ,2025-09-11,Bua0348795,BUA0348795          ,Pendiente
 36847,26/08,Conextube Sa,-,0,  ,TD,                    ,75729048,0,                              ,,     ,2025-09-11,75729048,75729048            ,Pendiente
 36848,26/08,Conextube Sa,-,0,  ,TD,                    ,75729048,0,                              ,,     ,2025-09-11,75729048,75729048            ,Pendiente
