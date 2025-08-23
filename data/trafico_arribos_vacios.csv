@@ -1,24 +1,17 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-36864,22/08,Minera Santa Rita Srl,PCIU-462441-1,10,DR,TD,********************,BUE500141600,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,09:38,2025-09-11,Fc 14-463,                    ,09:38 Arribado
-36865,22/08,Minera Santa Rita Srl,PCIU-463655-7,10,DR,TD,***************     ,BUE500141500,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,08:53,2025-09-11,Fc 14-462,                    ,08:53 Arribado
-36878,22/08,Uld Global Trade Srl,MSBU-132063-4,Exolgan,DR,TD,FX32947527          ,EBKG13905315,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,13:55,2025-09-12,,                    ,13:55 Arribado
-36877,22/08,Uld Global Trade Srl,MSBU-132099-5,Exolgan,DR,TD,FX32947717          ,EBKG13905315,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,13:54,2025-09-12,,                    ,13:54 Arribado
-36854,22/08,Alimentaria Sa,SEGU-471517-2,10076,HC,TD,FX32940348          ,EBKG13905503,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,08:46,2025-09-11,,                    ,08:46 Arribado
-36855,22/08,Alimentaria Sa,MEDU-724670-3,10076,HC,TD,FX32940349          ,EBKG13905503,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,09:15,2025-09-11,,                    ,09:15 Arribado
-36919,22/08,Henn Y Cia S.R.L.,SEGU-576497-3,10080,HC,TD,**************      ,15391139,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,17:13,2025-09-12,,15391139            ,17:13 Arribado
 36844,25/08,Mercovan Argentina S.A.,-,0,  ,TD,                    ,BUA0348257,0,                              ,,     ,2025-09-11,Edith Anabela Rodas,BUA0348257          ,Pendiente
-36930,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
-36931,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
-36932,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
-36874,25/08,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9042951,0,                              ,,     ,2025-09-12,,                    ,Pendiente
-36872,25/08,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9042951,0,                              ,,     ,2025-09-12,,                    ,Pendiente
-36873,25/08,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9042951,0,                              ,,     ,2025-09-12,,                    ,Pendiente
-36928,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
 36893,25/08,Entretelas Americanas Sa,-,0,DR,TD,                    ,LA0443436,1,TRANSPORTE DEL CLIENTE        ,Barrientos Jonatan,15:53,2025-09-12,,                    ,15:53 Arribado
+36874,25/08,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9042951,0,                              ,,     ,2025-09-12,,                    ,Pendiente
+36873,25/08,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9042951,0,                              ,,     ,2025-09-12,,                    ,Pendiente
+36872,25/08,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9042951,0,                              ,,     ,2025-09-12,,                    ,Pendiente
 36871,25/08,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9042951,0,                              ,,     ,2025-09-12,,                    ,Pendiente
-36927,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
+36932,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
+36930,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
 36929,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
-36925,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
+36928,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
+36927,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
+36926,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
+36931,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
 36924,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
 36923,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
 36863,25/08,Isischu Srl,-,0,  ,TD,                    ,BUA0348795,0,                              ,,     ,2025-09-11,Bua0348795,BUA0348795          ,Pendiente
@@ -26,18 +19,18 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 36861,25/08,Isischu Srl,-,0,  ,TD,                    ,BUA0348795,0,                              ,,     ,2025-09-11,Bua0348795,BUA0348795          ,Pendiente
 36911,25/08,Championx Argentina Srl,-,10080,DR,TD,                    ,258260734,0,                              ,,     ,2025-09-12,,                    ,Pendiente
 36850,25/08,Tipoiti Satic,-,0,  ,TD,                    ,90341233,0,                              ,,     ,2025-09-11,Fc 1335,90341233            ,Pendiente
-36920,25/08,Mader Zu S.R.L.,-,0,  ,TD,                    ,BUA0348795,0,                              ,,     ,2025-09-12,Bua0348795,BUA0348795          ,Pendiente
-36921,25/08,Mader Zu S.R.L.,-,0,  ,TD,                    ,BUA0348795,0,                              ,,     ,2025-09-12,Bua0348795,BUA0348795          ,Pendiente
-36926,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
 36922,25/08,Mader Zu S.R.L.,-,0,  ,TD,                    ,BUA0348795,0,                              ,,     ,2025-09-12,Bua0348795,BUA0348795          ,Pendiente
+36921,25/08,Mader Zu S.R.L.,-,0,  ,TD,                    ,BUA0348795,0,                              ,,     ,2025-09-12,Bua0348795,BUA0348795          ,Pendiente
+36925,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
+36920,25/08,Mader Zu S.R.L.,-,0,  ,TD,                    ,BUA0348795,0,                              ,,     ,2025-09-12,Bua0348795,BUA0348795          ,Pendiente
 36897,26/08,Javier Luque S.R.L.,-,0,  ,TD,                    ,258465156,0,                              ,,     ,2025-09-12,,258465156           ,Pendiente
 36848,26/08,Conextube Sa,-,0,  ,TD,                    ,75729048,0,                              ,,     ,2025-09-11,75729048,75729048            ,Pendiente
 36847,26/08,Conextube Sa,-,0,  ,TD,                    ,75729048,0,                              ,,     ,2025-09-11,75729048,75729048            ,Pendiente
-36915,26/08,Santa Anita Oil Sa,-,10074,HC,TD,                    ,ZIMUBUE9042551,0,                              ,,     ,2025-09-12,,                    ,Pendiente
-36917,26/08,Santa Anita Oil Sa,-,10074,HC,TD,                    ,ZIMUBUE9042551,0,                              ,,     ,2025-09-12,,                    ,Pendiente
-36916,26/08,Santa Anita Oil Sa,-,10074,HC,TD,                    ,ZIMUBUE9042551,0,                              ,,     ,2025-09-12,,                    ,Pendiente
-36914,26/08,Santa Anita Oil Sa,-,10074,HC,TD,                    ,ZIMUBUE9042551,0,                              ,,     ,2025-09-12,,                    ,Pendiente
-36913,26/08,Santa Anita Oil Sa,-,10074,HC,TD,                    ,ZIMUBUE9042551,0,                              ,,     ,2025-09-12,,                    ,Pendiente
-36898,26/08,Javier Luque S.R.L.,-,0,  ,TD,                    ,258465156,0,                              ,,     ,2025-09-12,,258465156           ,Pendiente
 36918,26/08,Santa Anita Oil Sa,-,10074,HC,TD,                    ,ZIMUBUE9042551,0,                              ,,     ,2025-09-12,,                    ,Pendiente
+36913,26/08,Santa Anita Oil Sa,-,10074,HC,TD,                    ,ZIMUBUE9042551,0,                              ,,     ,2025-09-12,,                    ,Pendiente
+36916,26/08,Santa Anita Oil Sa,-,10074,HC,TD,                    ,ZIMUBUE9042551,0,                              ,,     ,2025-09-12,,                    ,Pendiente
+36915,26/08,Santa Anita Oil Sa,-,10074,HC,TD,                    ,ZIMUBUE9042551,0,                              ,,     ,2025-09-12,,                    ,Pendiente
+36914,26/08,Santa Anita Oil Sa,-,10074,HC,TD,                    ,ZIMUBUE9042551,0,                              ,,     ,2025-09-12,,                    ,Pendiente
+36898,26/08,Javier Luque S.R.L.,-,0,  ,TD,                    ,258465156,0,                              ,,     ,2025-09-12,,258465156           ,Pendiente
+36917,26/08,Santa Anita Oil Sa,-,10074,HC,TD,                    ,ZIMUBUE9042551,0,                              ,,     ,2025-09-12,,                    ,Pendiente
 36899,26/08,Javier Luque S.R.L.,-,0,  ,TD,                    ,258465156,0,                              ,,     ,2025-09-12,,258465156           ,Pendiente
