@@ -12,7 +12,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 36874,25/08,Lawter Argentina S.A.,ZCSU-678924-1,10074,HC,TD,***********         ,ZIMUBUE9042951,1,TRANSPORTE DEL CLIENTE        ,Miguez,11:31,2025-09-12,,                    ,11:31 Arribado
 36967,25/08,Dsi Underground Sa,-,0,  ,TD,                    ,25001EC01055642J,1,TRANSPORTE DEL CLIENTE        ,.,15:51,2025-09-15,,                    ,15:51 Arribado
 36893,25/08,Entretelas Americanas Sa,SEGU-117820-7,10074,DR,TD,**********          ,LA0443436,1,TRANSPORTES LEIRA-NO USAR     ,Muller,15:53,2025-09-12,,                    ,15:53 Arribado
-36951,25/08,Pampa Logistica Internacional ...,-,10080,DR,TD,                    ,24595442,0,                              ,,     ,2025-09-15,,                    ,Pendiente
+36951,25/08,Pampa Logistica Internacional ...,HLXU-534811-4,10080,DR,TD,*****************   ,24595442,1,TRANSPORTE DEL CLIENTE        ,Barrientos Jonatan,16:23,2025-09-15,,                    ,16:23 Arribado
 36952,25/08,Pampa Logistica Internacional ...,-,10080,DR,TD,                    ,24595442,0,                              ,,     ,2025-09-15,,                    ,Pendiente
 36872,25/08,Lawter Argentina S.A.,ZCSU-725368-0,10074,HC,TD,******************  ,ZIMUBUE9042951,1,TRANSPORTE DEL CLIENTE        ,Barrientos,11:25,2025-09-12,,                    ,11:25 Arribado
 36925,25/08,Borax Argentina S A,MEDU-692991-6,Exolgan,DR,TD,FX32947615          ,EBKG13946201,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:01,2025-09-12,Ebkg13946201,EBKG13946201        ,10:01 Arribado
@@ -33,8 +33,9 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 36959,26/08,Conextube Sa,-,10080,DR,TD,                    ,75729048,0,                              ,,     ,2025-09-15,,                    ,Pendiente
 36958,26/08,Conextube Sa,-,10080,DR,TD,                    ,75729048,0,                              ,,     ,2025-09-15,,                    ,Pendiente
 36848,26/08,Conextube Sa,-,0,  ,TD,                    ,75729048,0,                              ,,     ,2025-09-11,75729048,75729048            ,Pendiente
-36946,26/08,Seaside Logistic Sa,-,10074,HC,TD,                    ,ZIMUBUE9042980,0,                              ,,     ,2025-09-15,,                    ,Pendiente
+36899,26/08,Javier Luque S.R.L.,-,0,  ,TD,                    ,258465156,0,                              ,,     ,2025-09-12,,258465156           ,Pendiente
 36947,26/08,Mader Zu S.R.L.,-,10080,HC,TD,                    ,32695685,0,                              ,,     ,2025-09-15,,                    ,Pendiente
+36946,26/08,Seaside Logistic Sa,-,10074,HC,TD,                    ,ZIMUBUE9042980,0,                              ,,     ,2025-09-15,,                    ,Pendiente
 36948,26/08,Mader Zu S.R.L.,-,10080,HC,TD,                    ,32695685,0,                              ,,     ,2025-09-15,,                    ,Pendiente
 36964,26/08,Alimentaria Sa,-,Exolgan,DR,TD,                    ,33391005,0,                              ,,     ,2025-09-15,,                    ,Pendiente
 36965,26/08,Alimentaria Sa,-,Exolgan,DR,TD,                    ,33391005,0,                              ,,     ,2025-09-15,,                    ,Pendiente
@@ -42,5 +43,5 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 36962,26/08,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,BUE500142700,0,                              ,,     ,2025-09-15,,BUE500142700        ,Pendiente
 36963,26/08,Henn Y Cia S.R.L.,-,10074,HC,TD,                    ,BUA0348951,0,                              ,,     ,2025-09-15,,                    ,Pendiente
 36847,26/08,Conextube Sa,-,0,  ,TD,                    ,75729048,0,                              ,,     ,2025-09-11,75729048,75729048            ,Pendiente
-36899,26/08,Javier Luque S.R.L.,-,0,  ,TD,                    ,258465156,0,                              ,,     ,2025-09-12,,258465156           ,Pendiente
 36957,27/08,Borax Argentina S A,-,Exolgan,DR,TD,                    ,17052557,0,                              ,,     ,2025-09-15,Fc 12568,                    ,Pendiente
+36971,29/08,Lawter Argentina S.A.,-,0,  ,TD,                    ,258417597,0,                              ,,     ,2025-09-15,Ref 5154573,258417597           ,Pendiente
