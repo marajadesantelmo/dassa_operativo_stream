@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 from datetime import datetime
 from fpdf import FPDF
+import os
 
 
 def highlight(row):
@@ -46,19 +47,29 @@ def generar_comprobante(balanza_row):
     current_date = datetime.now().strftime("%Y-%m-%d")
     pdf = FPDF()
     pdf.add_page()
-    pdf.image("membrete.png", x=10, y=10, w=pdf.w - 20)
+    
+    # Check if membrete image exists
+    membrete_path = "membrete.png"
+    if not os.path.exists(membrete_path):
+        # Create a placeholder or handle missing image
+        print(f"Warning: {membrete_path} not found, continuing without header image")
+    else:
+        pdf.image(membrete_path, x=10, y=10, w=pdf.w - 20)
+    
     # Add invoice title
     pdf.set_font("Arial", style='B', size=22)
     pdf.set_text_color(190, 30, 45)  # #be1e2d color
     pdf.ln(25)
     pdf.cell(200, 10, txt="Comprobante de pesaje en balanza    ", ln=True, align="R")
     pdf.ln(1)
+    
     # Add id pesada, date and other fix text
     pdf.set_font("Arial", style='B', size=16)
     pdf.set_text_color(0, 0, 0)  
-    pdf.cell(100, 6, txt=f"ID Pesada: {balanza_row['ID Pesada']}", ln=False, align="L")
+    pdf.cell(100, 6, txt=f"ID Pesada: {balanza_row.get('ID Pesada', '-')}", ln=False, align="L")
     pdf.cell(100, 6, txt=f"Fecha: {current_date}      ", ln=True, align="R")
     pdf.ln(5)
+    
     # Add fixed data
     pdf.set_font("Arial", size=12)
     pdf.set_text_color(0, 0, 0)
@@ -74,6 +85,7 @@ def generar_comprobante(balanza_row):
     pdf.set_xy(15, pdf.get_y())
     pdf.cell(200, 6, txt="Aduana: 001                                            Lote Balanza: 11002", ln=True, align="L")
     pdf.ln(5)
+    
     # Add table title
     pdf.set_font("Arial", style='B', size=12)
     pdf.set_text_color(131, 148, 150)  # Solarized base0 color
@@ -90,11 +102,11 @@ def generar_comprobante(balanza_row):
         pdf.set_font("Arial", style='B', size=10)
         pdf.cell(35, 6, txt=f"{left_field}:", align="L")
         pdf.set_font("Arial", size=10)
-        pdf.cell(55, 6, txt=str(balanza_row[left_field]), align="C")
+        pdf.cell(55, 6, txt=str(balanza_row.get(left_field, '-')), align="C")
         pdf.set_font("Arial", style='B', size=10)
         pdf.cell(35, 6, txt=f"{right_field}:", align="L")
         pdf.set_font("Arial", size=10)
-        pdf.cell(55, 6, txt=str(balanza_row[right_field]), align="C")
+        pdf.cell(55, 6, txt=str(balanza_row.get(right_field, '-')), align="C")
         pdf.ln()
 
     # If there are remaining fields in right_fields
@@ -105,7 +117,7 @@ def generar_comprobante(balanza_row):
             pdf.cell(55, 6, txt="", align="C")
             pdf.cell(35, 6, txt=f"{right_field}:", align="L")
             pdf.set_font("Arial", size=10)
-            pdf.cell(55, 6, txt=str(balanza_row[right_field]), align="C")
+            pdf.cell(55, 6, txt=str(balanza_row.get(right_field, '-')), align="C")
             pdf.ln()
     pdf.ln(2)
 
@@ -127,7 +139,7 @@ def generar_comprobante(balanza_row):
     for field in weight_fields:
         pdf.set_x(start_x)  # Set x position to start_x to center the table
         pdf.cell(50, 8, txt=str(field), border=1, align="C", fill=True)
-        pdf.cell(50, 8, txt=str(balanza_row[field]), border=1, align="C", fill=True)
+        pdf.cell(50, 8, txt=str(balanza_row.get(field, '-')), border=1, align="C", fill=True)
         pdf.ln()
     pdf.ln(15)
 
@@ -153,7 +165,5 @@ def generar_comprobante(balanza_row):
     ), align="L")
     pdf.ln(5)
 
-    # Save the PDF and return it
-    pdf_output = f"comprobante_{balanza_row['ID Pesada']}.pdf"
-    pdf.output(pdf_output)
+    # Return the PDF object instead of saving
     return pdf
