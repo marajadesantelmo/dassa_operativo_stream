@@ -8,8 +8,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 36872,25/08,Lawter Argentina S.A.,ZCSU-725368-0,10074,HC,TD,******************  ,ZIMUBUE9042951,1,TRANSPORTE DEL CLIENTE        ,Barrientos,11:25,2025-09-12,,                    ,11:25 Arribado
 36871,25/08,Lawter Argentina S.A.,ZCSU-798133-0,10074,HC,TD,************        ,ZIMUBUE9042951,1,TRANSPORTE DEL CLIENTE        ,Alvarez,11:01,2025-09-12,,                    ,11:01 Arribado
 36932,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
-36930,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
-36929,25/08,Borax Argentina S A,-,0,  ,TD,                    ,EBKG13946201,0,                              ,,     ,2025-09-12,Ebkg13946201,EBKG13946201        ,Pendiente
+36930,25/08,Borax Argentina S A,MSNU-190255-0,Exolgan,DR,TD,FX32947503          ,EBKG13946201,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,13:49,2025-09-12,Ebkg13946201,EBKG13946201        ,13:49 Arribado
+36929,25/08,Borax Argentina S A,MSMU-214598-8,Exolgan,DR,TD,FX32947518          ,EBKG13946201,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,13:43,2025-09-12,Ebkg13946201,EBKG13946201        ,13:43 Arribado
 36928,25/08,Borax Argentina S A,MSDU-291207-0,Exolgan,DR,TD,FX32947614          ,EBKG13946201,1,TRANSPORTE DEL CLIENTE        ,Moscardini,10:33,2025-09-12,Ebkg13946201,EBKG13946201        ,10:33 Arribado
 36927,25/08,Borax Argentina S A,SEGU-305471-4,Exolgan,DR,TD,FX32947616          ,EBKG13946201,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,10:33,2025-09-12,Ebkg13946201,EBKG13946201        ,10:33 Arribado
 36926,25/08,Borax Argentina S A,MSBU-321609-0,Exolgan,DR,TD,FX32947565          ,EBKG13946201,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:02,2025-09-12,Ebkg13946201,EBKG13946201        ,10:02 Arribado
@@ -20,7 +20,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 36862,25/08,Isischu Srl,TCNU-410725-0,10074,HC,TD,R8687727            ,BUA0348795,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,10:54,2025-09-11,Bua0348795,BUA0348795          ,10:54 Arribado
 36861,25/08,Isischu Srl,BEAU-476647-6,10074,HC,TD,R8687723            ,BUA0348795,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,09:37,2025-09-11,Bua0348795,BUA0348795          ,09:37 Arribado
 36911,25/08,Championx Argentina Srl,-,10080,DR,TD,                    ,258260734,0,                              ,,     ,2025-09-12,,                    ,Pendiente
-36850,25/08,Tipoiti Satic,-,0,  ,TD,                    ,90341233,0,                              ,,     ,2025-09-11,Fc 1335,90341233            ,Pendiente
+36850,25/08,Tipoiti Satic,HLBU-212497-8,10080,HC,TD,**********          ,90341233,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,13:37,2025-09-11,Fc 1335,90341233            ,13:37 Arribado
 36920,25/08,Mader Zu S.R.L.,-,0,  ,TD,                    ,BUA0348795,0,                              ,,     ,2025-09-12,Bua0348795,BUA0348795          ,Pendiente
 36921,25/08,Mader Zu S.R.L.,-,0,  ,TD,                    ,BUA0348795,0,                              ,,     ,2025-09-12,Bua0348795,BUA0348795          ,Pendiente
 36922,25/08,Mader Zu S.R.L.,-,0,  ,TD,                    ,BUA0348795,0,                              ,,     ,2025-09-12,Bua0348795,BUA0348795          ,Pendiente
