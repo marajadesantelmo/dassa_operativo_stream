@@ -290,6 +290,26 @@ def show_page_trafico_andresito():
                                 st.error(f"Error al asignar chofer: {e}")
                         else:
                             st.warning("Por favor ingrese el nombre del chofer")
+                # --- NUEVO BLOQUE: Asignar Fecha y Hora Fin ---
+                st.markdown("**Asignar Fecha y Hora Fin - Remisiones**")
+                col_fecha, col_hora, col_btn_fecha = st.columns([2, 2, 1])
+                with col_fecha:
+                    fecha_fin = st.date_input("Fecha fin:", key="fecha_fin_remision")
+                with col_hora:
+                    hora_fin = st.time_input("Hora fin:", key="hora_fin_remision")
+                with col_btn_fecha:
+                    if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_remision"):
+                        if fecha_fin and hora_fin:
+                            fecha_hora_fin_str = fecha_fin.strftime("%d/%m/%Y") + " " + hora_fin.strftime("%H:%M")
+                            try:
+                                update_data("trafico_remisiones", selected_remision_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
+                                st.success(f"Fecha y Hora Fin asignada al registro ID {selected_remision_id}")
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Error al asignar Fecha y Hora Fin: {e}")
+                        else:
+                            st.warning("Por favor seleccione fecha y hora")
         remisiones_display = remisiones.copy()
         remisiones_display['ID'] = remisiones_display['id'].apply(lambda x: f"E{x:03d}")
         cols = ['ID'] + [col for col in remisiones_display.columns if col != 'ID']
