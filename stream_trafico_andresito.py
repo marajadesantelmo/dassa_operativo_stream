@@ -110,6 +110,7 @@ def show_page_trafico_andresito():
         arribos_display = arribos_display.drop(columns=['id', 'Estado_Normalizado'], errors='ignore')
         st.dataframe(arribos_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
     with col_assign1:
+        st.markdown("---")
         if not arribos.empty:
             st.markdown("**Asignar Chofer - Arribos**")
             selected_arribo_id = st.selectbox(
@@ -170,6 +171,7 @@ def show_page_trafico_andresito():
         pendiente_desconsolidar_display = pendiente_desconsolidar_display.drop(columns=['id'], errors='ignore')
         st.dataframe(pendiente_desconsolidar_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
     with col_assign2:
+        st.markdown("---")
         if not pendiente_desconsolidar.empty:
             st.markdown("**Asignar Chofer - Pendiente Desconsolidar**")
             selected_pendiente_id = st.selectbox(
@@ -234,6 +236,7 @@ def show_page_trafico_andresito():
         arribos_expo_ctns_display['Estado'] = arribos_expo_ctns_display['Estado'].fillna('Pendiente')
         st.dataframe(arribos_expo_ctns_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
     with col_assign3:
+        st.markdown("---")
         if not arribos_expo_ctns.empty:
             st.markdown("**Asignar Chofer - Arribos Expo Ctns**")
             selected_expo_id = st.selectbox(
@@ -298,6 +301,7 @@ def show_page_trafico_andresito():
                     hide_index=True, use_container_width=True)
     if not remisiones.empty:
         with col_assign4a:
+            st.markdown("---")
             st.markdown("**Asignar Chofer - Remisiones**")
             selected_remision_id = st.selectbox(
                 "Seleccionar registro:",
