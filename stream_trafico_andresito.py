@@ -173,7 +173,7 @@ def show_page_trafico_andresito():
     with col_assign2:
         st.markdown("---")
         if not pendiente_desconsolidar.empty:
-            st.markdown("**Asignar Chofer - Pendiente Desconsolidar**")
+            st.markdown("**Asignar Chofer - Vacíos IMPO**")
             selected_pendiente_id = st.selectbox(
                 "Seleccionar registro:",
                 options=pendiente_desconsolidar["id"].unique(),
@@ -238,7 +238,7 @@ def show_page_trafico_andresito():
     with col_assign3:
         st.markdown("---")
         if not arribos_expo_ctns.empty:
-            st.markdown("**Asignar Chofer - Arribos Expo Ctns**")
+            st.markdown("**Asignar Chofer - Vacíos EXPO**")
             selected_expo_id = st.selectbox(
                 "Seleccionar registro:",
                 options=arribos_expo_ctns["id"].unique(),
