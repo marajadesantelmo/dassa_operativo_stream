@@ -1,6 +1,6 @@
-id,Contenedor,Cliente,Entrega,Vto. Vacio,Tipo,Peso,Cantidad,Envase,Estado,key,fecha_registro,chofer,Chofer
+id,Contenedor,Cliente,Entrega,Vto. Vacio,Tipo,Peso,Cantidad,Envase,Estado,key,fecha_registro,chofer,Fecha y Hora Fin
 15.0,MEDU-721659-2,Grupo Leal-Tex S.R.L...,-,19/08,HC,25900.0,2324.0,Rollos,Realizado,MEDU-721659-2_Grupo Leal-Tex S.R.L...,2025-08-05T14:20:31.156827+00:00,,
-20.0,HLBU-127003-1,Moniport Cargo Sa,-,26/08,DC,2160.0,0.0,-,Realizado,HLBU-127003-1_Moniport Cargo Sa,2025-08-06T18:35:31.213674+00:00,,
+25.0,HLBU-243587-7,Noah Servicess.R.L.,-,26/08,HC,3113.0,0.0,-,Realizado,HLBU-243587-7_Noah Servicess.R.L.,2025-08-07T12:20:31.518498+00:00,,13/08/2025 16:45
 13.0,HDMU-473453-4,Tandem Global Logist...,Trp - Terminales 1-2-3,14/08,DC,7980.0,129.0,Bultos,Realizado,HDMU-473453-4_Tandem Global Logist...,2025-08-05T13:00:17.099864+00:00,alexis,
 14.0,KOCU-521786-5,Tandem Global Logist...,Gamma San Pedro,14/08,HC,15255.3,363.0,Bultos,Realizado,KOCU-521786-5_Tandem Global Logist...,2025-08-05T13:00:17.278597+00:00,,
 4.0,UACU-853690-7,Mercovan Argentina S...,-,21/08,DC,2111.47,1.0,Bultos,Realizado,UACU-853690-7_Mercovan Argentina S...,2025-08-04T14:05:30.889751+00:00,moscardini cristian,
@@ -13,8 +13,7 @@ id,Contenedor,Cliente,Entrega,Vto. Vacio,Tipo,Peso,Cantidad,Envase,Estado,key,fe
 29.0,MRKU-066222-7,Grupo Rsm Srl,-,28/08,DC,4775.0,0.0,-,Realizado,MRKU-066222-7_Grupo Rsm Srl,2025-08-09T03:05:31.661293+00:00,,
 10.0,OOCU-755349-9,Baires International,Trp - Terminales 1-2-3,10/08,HC,6620.0,340.0,Bultos,Realizado,OOCU-755349-9_Baires International,2025-08-05T13:00:16.439942+00:00,,
 7.0,MSNU-248276-6,Baires International,-,21/08,DC,1578.5,87.0,Bultos,Realizado,MSNU-248276-6_Baires International,2025-08-04T19:20:31.074682+00:00,prueba1111,
-25.0,HLBU-243587-7,Noah Servicess.R.L.,-,26/08,HC,3113.0,0.0,-,Realizado,HLBU-243587-7_Noah Servicess.R.L.,2025-08-07T12:20:31.518498+00:00,,
-9.0,UACU-842675-1,Blue Mail S.A.,Huxley Sa,04/08,DC,4689.0,122.0,Bultos,Realizado,UACU-842675-1_Blue Mail S.A.,2025-08-05T13:00:16.259418+00:00,,
+9.0,UACU-842675-1,Blue Mail S.A.,Huxley Sa,04/08,DC,4689.0,122.0,Bultos,Realizado,UACU-842675-1_Blue Mail S.A.,2025-08-05T13:00:16.259418+00:00,,20/08/2025 15:00
 11.0,TGBU-854860-8,Baires International,Trp - Terminales 1-2-3,10/08,HC,600.0,110.0,Bultos,Realizado,TGBU-854860-8_Baires International,2025-08-05T13:00:16.616754+00:00,,
 24.0,BEAU-282181-0,Southcross Logistics...,-,26/08,DC,12300.0,0.0,-,Realizado,BEAU-282181-0_Southcross Logistics...,2025-08-07T12:20:31.413267+00:00,,
 40.0,HLBU-152461-9,Tb Cargo Sa,Huxley Sa,18/08,DC,6652.45,24.0,Bultos,Realizado,HLBU-152461-9_Tb Cargo Sa,2025-08-14T21:05:31.704562+00:00,sanchez,
@@ -26,7 +25,6 @@ id,Contenedor,Cliente,Entrega,Vto. Vacio,Tipo,Peso,Cantidad,Envase,Estado,key,fe
 5.0,UETU-298035-4,Lift Van Int. Co S.A,Maersk Arg.,01/08,DC,3000.0,144.0,Bultos,Realizado,UETU-298035-4_Lift Van Int. Co S.A,2025-08-04T14:20:31.046406+00:00,miguez critian,
 19.0,BMOU-550924-5,Grouport Srl,-,26/08,HC,11470.0,0.0,-,Realizado,BMOU-550924-5_Grouport Srl,2025-08-06T18:35:31.117825+00:00,,
 3.0,TCLU-442094-6,Noah Servicess.R.L.,Terminal 7,09/08,DC,3600.0,215.0,Bultos,Realizado,TCLU-442094-6_Noah Servicess.R.L.,2025-08-01T19:26:42.33926+00:00,,
-23.0,TGBU-269396-0,Chemotecnica Sa,-,18/08,DC,21660.0,0.0,-,Realizado,TGBU-269396-0_Chemotecnica Sa,2025-08-07T03:05:31.297143+00:00,,
 47.0,TCKU-687552-5,Grupo Rsm Srl,Maersk Arg.,20/08,DC,5501.0,182.0,Bultos,Realizado,TCKU-687552-5_Grupo Rsm Srl,2025-08-18T18:50:31.540122+00:00,adrian alvarez,
 32.0,TRHU-823341-4,Lift Van Int. Co S.A,Exolgan,29/08,HC,5733.0,360.0,Bultos,Realizado,TRHU-823341-4_Lift Van Int. Co S.A,2025-08-13T18:20:31.268693+00:00,ADRIAN ALVAREZ,
 49.0,MRKU-080824-5,Grupo Rsm Srl,Maersk Arg.,19/08,DC,2845.0,2.0,Bultos,Realizado,MRKU-080824-5_Grupo Rsm Srl,2025-08-19T18:20:31.449416+00:00,,
@@ -35,8 +33,8 @@ id,Contenedor,Cliente,Entrega,Vto. Vacio,Tipo,Peso,Cantidad,Envase,Estado,key,fe
 45.0,TCKU-686959-0,Grupo Rsm Srl,Maersk Arg.,25/08,DC,5607.0,22.0,Bultos,Realizado,TCKU-686959-0_Grupo Rsm Srl,2025-08-18T12:35:31.291726+00:00,ariel ortiz,
 48.0,APZU-450260-2,Noah Servicess.R.L.,-,05/09,DR,7720.0,336.0,Bultos,Realizado,APZU-450260-2_Noah Servicess.R.L.,2025-08-18T20:05:31.341459+00:00,,
 27.0,HLXU-533549-9,Lift Van Int. Co S.A,Huxley Sa,16/08,DC,2630.88,201.0,Bultos,Realizado,HLXU-533549-9_Lift Van Int. Co S.A,2025-08-09T03:05:31.458238+00:00,,
-43.0,TCLU-953831-4,Trice Transport Comp...,-,04/09,HC,7554.56,0.0,-,En Espera,TCLU-953831-4_Trice Transport Comp...,2025-08-18T12:20:31.788031+00:00,pruba 1,
-44.0,FANU-117537-6,Trice Transport Comp...,-,04/09,HC,5611.44,0.0,-,En Espera,FANU-117537-6_Trice Transport Comp...,2025-08-18T12:20:31.89759+00:00,,
+20.0,HLBU-127003-1,Moniport Cargo Sa,-,26/08,DC,2160.0,0.0,-,Realizado,HLBU-127003-1_Moniport Cargo Sa,2025-08-06T18:35:31.213674+00:00,,15/08/2025 16:00
+44.0,FANU-117537-6,Trice Transport Comp...,-,04/09,HC,5611.44,0.0,-,En Espera,FANU-117537-6_Trice Transport Comp...,2025-08-18T12:20:31.89759+00:00,FacuProbando,26/08/2025 13:30
 38.0,TLLU-244660-0,Mercovan Argentina S...,Huxley Sa,11/08,DC,2190.0,81.0,Bultos,Realizado,TLLU-244660-0_Mercovan Argentina S...,2025-08-14T21:05:31.505592+00:00,adrian alvarez,
 37.0,STJU-420211-7,Lift Van Int. Co S.A,Huxley Sa,22/08,HC,3655.95,281.0,Bultos,Realizado,STJU-420211-7_Lift Van Int. Co S.A,2025-08-14T21:05:31.407898+00:00,ariel ortiz,
 31.0,FCIU-979514-5,Comunicaciones Valle...,Trp - Terminales 1-2-3,23/08,HC,22428.0,18.0,Bultos,Realizado,FCIU-979514-5_Comunicaciones Valle...,2025-08-12T19:05:31.3512+00:00,adri alvarez,
@@ -44,17 +42,18 @@ id,Contenedor,Cliente,Entrega,Vto. Vacio,Tipo,Peso,Cantidad,Envase,Estado,key,fe
 46.0,MRKU-076284-3,Grupo Rsm Srl,Maersk Arg.,25/09,DC,3530.0,14.0,Bultos,Realizado,MRKU-076284-3_Grupo Rsm Srl,2025-08-18T18:50:31.447527+00:00,marcelo peril,
 39.0,UACU-845402-8,Tb Cargo Sa,Huxley Sa,18/08,DC,5109.31,14.0,Bultos,Realizado,UACU-845402-8_Tb Cargo Sa,2025-08-14T21:05:31.602016+00:00,ortiz,
 42.0,TCNU-861619-5,Pezzelatto Jorge Fac...,Maersk Arg.,28/08,HC,6620.0,52.0,Bultos,Realizado,TCNU-861619-5_Pezzelatto Jorge Fac...,2025-08-14T21:05:31.927865+00:00,,
+43.0,TCLU-953831-4,Trice Transport Comp...,-,04/09,HC,7554.56,0.0,-,En Espera,TCLU-953831-4_Trice Transport Comp...,2025-08-18T12:20:31.788031+00:00,pruba 1,26/08/2025 14:00
 36.0,BMOU-141829-7,Mercovan Argentina S...,Huxley Sa,22/08,DC,2197.23,101.0,Bultos,Realizado,BMOU-141829-7_Mercovan Argentina S...,2025-08-14T21:05:31.299286+00:00,,
+59.0,ZCSU-665893-5,Mercovan Argentina S...,-,12/09,DC,5797.0,0.0,-,En Espera,ZCSU-665893-5_Mercovan Argentina S...,2025-08-26T13:57:31.851244+00:00,Facu probando,26/08/2025 12:45
 50.0,MSKU-688312-4,Mercovan Argentina S...,Maersk Arg.,22/08,DC,6100.0,281.0,Bultos,Realizado,MSKU-688312-4_Mercovan Argentina S...,2025-08-19T18:20:31.639084+00:00,,
 34.0,TLLU-315856-8,Lift Van Int. Co S.A,Trp - Terminales 1-2-3,15/08,DC,3370.5,144.0,Bultos,Realizado,TLLU-315856-8_Lift Van Int. Co S.A,2025-08-13T19:35:31.342716+00:00,tte leon,
-52.0,HLBU-353678-0,Mercovan Argentina S...,Huxley Sa,26/08,DC,1209.0,2.0,Bultos,Realizado,HLBU-353678-0_Mercovan Argentina S...,2025-08-21T18:35:31.439613+00:00,,
-55.0,TEMU-150536-9,Chemotecnica Sa,Maersk Arg.,07/09,DC,22075.0,20.0,Pallets,Realizado,TEMU-150536-9_Chemotecnica Sa,2025-08-21T19:05:31.722497+00:00,,
-53.0,HASU-119731-2,Chemotecnica Sa,Maersk Arg.,07/09,DC,12494.4,20.0,Pallets,Realizado,HASU-119731-2_Chemotecnica Sa,2025-08-21T19:05:31.552415+00:00,,
-54.0,MRSU-058556-6,Chemotecnica Sa,Maersk Arg.,07/09,DC,22075.0,20.0,Pallets,Realizado,MRSU-058556-6_Chemotecnica Sa,2025-08-21T19:05:31.640704+00:00,,
+57.0,HLBU-256559-3,Poka S.A.,Exolgan,02/09,HC,11320.0,664.0,Bultos,Realizado,HLBU-256559-3_Poka S.A.,2025-08-21T20:50:31.724863+00:00,,25/08/2025 12:45
+56.0,TCLU-546397-9,Poka S.A.,Exolgan,02/09,HC,11270.0,553.0,Bultos,Realizado,TCLU-546397-9_Poka S.A.,2025-08-21T20:50:31.636676+00:00,,26/08/2025 12:45
+55.0,TEMU-150536-9,Chemotecnica Sa,Maersk Arg.,07/09,DC,22075.0,20.0,Pallets,Realizado,TEMU-150536-9_Chemotecnica Sa,2025-08-21T19:05:31.722497+00:00,,26/08/2025 12:45
+54.0,MRSU-058556-6,Chemotecnica Sa,Maersk Arg.,07/09,DC,22075.0,20.0,Pallets,Realizado,MRSU-058556-6_Chemotecnica Sa,2025-08-21T19:05:31.640704+00:00,,26/08/2025 12:45
+53.0,HASU-119731-2,Chemotecnica Sa,Maersk Arg.,07/09,DC,12494.4,20.0,Pallets,Realizado,HASU-119731-2_Chemotecnica Sa,2025-08-21T19:05:31.552415+00:00,,26/08/2025 12:45
+52.0,HLBU-353678-0,Mercovan Argentina S...,Huxley Sa,26/08,DC,1209.0,2.0,Bultos,Realizado,HLBU-353678-0_Mercovan Argentina S...,2025-08-21T18:35:31.439613+00:00,,26/08/2025 12:45
+23.0,TGBU-269396-0,Chemotecnica Sa,-,18/08,DC,21660.0,0.0,-,Realizado,TGBU-269396-0_Chemotecnica Sa,2025-08-07T03:05:31.297143+00:00,,13/08/2025 18:30
+58.0,SEGU-538295-0,Selltech Company S.A...,Terminal 7,06/09,HC,7506.7,542.0,Bultos,Vacio,SEGU-538295-0_Selltech Company S.A...,2025-08-26T13:57:31.760749+00:00,FacuProbando3,26/08/2025 12:45
 51.0,MSBU-651395-5,Moniport Cargo Sa,Medlog Sarandi,22/08,HC,3505.0,43.0,Bultos,Realizado,MSBU-651395-5_Moniport Cargo Sa,2025-08-21T13:20:31.582187+00:00,Prueba 8:50,
-56.0,TCLU-546397-9,Poka S.A.,Exolgan,02/09,HC,11270.0,553.0,Bultos,Realizado,TCLU-546397-9_Poka S.A.,2025-08-21T20:50:31.636676+00:00,,
-57.0,HLBU-256559-3,Poka S.A.,Exolgan,02/09,HC,11320.0,664.0,Bultos,Realizado,HLBU-256559-3_Poka S.A.,2025-08-21T20:50:31.724863+00:00,,
-,SEGU-538295-0,Selltech Company S.A...,Terminal 7,06/09,HC,7506.7,542.0,Bultos,Pte. Desc.,SEGU-538295-0_Selltech Company S.A...,,,nan
-,ZCSU-665893-5,Mercovan Argentina S...,-,12/09,DC,5797.0,0.0,-,En Espera,ZCSU-665893-5_Mercovan Argentina S...,,,nan
-,SEGU-538295-0,Selltech Company S.A...,Terminal 7,06/09,HC,7506.7,542.0,Bultos,Pte. Desc.,SEGU-538295-0_Selltech Company S.A...,,nan,
-,ZCSU-665893-5,Mercovan Argentina S...,-,12/09,DC,5797.0,0.0,-,En Espera,ZCSU-665893-5_Mercovan Argentina S...,,nan,
+,APHU-728462-5,Fh&Eh S.A.S.,-,15/09,HC,9240.0,0.0,-,En Espera,APHU-728462-5_Fh&Eh S.A.S.,,nan,
