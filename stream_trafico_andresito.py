@@ -69,57 +69,56 @@ def show_page_trafico_andresito():
         st.markdown("[Ver planilla histórica en Google Sheets](https://docs.google.com/spreadsheets/d/129PyI0APvtPYEYwJIsDf-Uzy2YQR-0ojj-IG2etHCYs)")
     st.header("Traslados IMPO")
     st.markdown("---")
-    col1a, col1b = st.columns([1, 2])
-    with col1a: 
-        st.subheader("Desde Puerto a DASSA")
-        col1a1, col1b1 = st.columns([2, 1])
-        with col1a1:
-            estado_options = ["Orden del día", "Todos"]
-            selected_estado = st.selectbox("Filtrar por Estado:", estado_options, key="estado_filter_arribos")
 
-            # Apply filter
-            filtered_arribos = arribos
-            if selected_estado == "Orden del día":
-                # Include pendientes (not arribado) OR today's date
-                filtered_arribos = arribos[
-                    (~arribos["Estado_Normalizado"].str.contains("Arribado", na=False)) |
-                    (arribos["Fecha"] == today_str)
-                ]
-                
-            # Update the arribos variable for the rest of the function
-            arribos = filtered_arribos
-    with col1b:
-        arribos_display = arribos.copy()
-        arribos_display['ID'] = arribos_display['id'].apply(lambda x: f"I{x:03d}")
-        cols = ['ID'] + [col for col in arribos_display.columns if col != 'ID']
-        arribos_display = arribos_display[cols]
-        arribos_display = arribos_display.drop(columns=['id', 'Estado_Normalizado'], errors='ignore')
-        st.dataframe(arribos_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-        # Assignment controls moved below the table
-        if not arribos.empty:
-            st.markdown("**Asignar Chofer - Arribos**")
-            col_select1, col_input1, col_button1 = st.columns([2, 2, 1])
-            with col_select1:
-                selected_arribo_id = st.selectbox(
-                    "Seleccionar registro:",
-                    options=arribos["id"].unique(),
-                    format_func=lambda x: f"ID {x} - {arribos[arribos['id']==x]['Contenedor'].iloc[0] if not arribos[arribos['id']==x].empty else 'N/A'}",
-                    key="arribo_select"
-                )
-            with col_input1:
-                chofer_name_arribos = st.text_input("Chofer:", key="chofer_arribos")
-            with col_button1:
-                if st.button("Asignar", key="assign_arribos"):
-                    if chofer_name_arribos.strip():
-                        try:
-                            update_data("trafico_arribos", selected_arribo_id, {"chofer": chofer_name_arribos.strip()})
-                            st.success(f"Chofer asignado al registro ID {selected_arribo_id}")
-                            st.cache_data.clear()
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al asignar chofer: {e}")
-                    else:
-                        st.warning("Por favor ingrese el nombre del chofer")
+    st.subheader("Desde Puerto a DASSA")
+    col1a1, col1b1 = st.columns([2, 1])
+    with col1a1:
+        estado_options = ["Orden del día", "Todos"]
+        selected_estado = st.selectbox("Filtrar por Estado:", estado_options, key="estado_filter_arribos")
+
+        # Apply filter
+        filtered_arribos = arribos
+        if selected_estado == "Orden del día":
+            # Include pendientes (not arribado) OR today's date
+            filtered_arribos = arribos[
+                (~arribos["Estado_Normalizado"].str.contains("Arribado", na=False)) |
+                (arribos["Fecha"] == today_str)
+            ]
+            
+        # Update the arribos variable for the rest of the function
+        arribos = filtered_arribos
+
+    arribos_display = arribos.copy()
+    arribos_display['ID'] = arribos_display['id'].apply(lambda x: f"I{x:03d}")
+    cols = ['ID'] + [col for col in arribos_display.columns if col != 'ID']
+    arribos_display = arribos_display[cols]
+    arribos_display = arribos_display.drop(columns=['id', 'Estado_Normalizado'], errors='ignore')
+    st.dataframe(arribos_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+    # Assignment controls moved below the table
+    if not arribos.empty:
+        st.markdown("**Asignar Chofer - Arribos**")
+        col_select1, col_input1, col_button1 = st.columns([2, 2, 1])
+        with col_select1:
+            selected_arribo_id = st.selectbox(
+                "Seleccionar registro:",
+                options=arribos["id"].unique(),
+                format_func=lambda x: f"ID {x} - {arribos[arribos['id']==x]['Contenedor'].iloc[0] if not arribos[arribos['id']==x].empty else 'N/A'}",
+                key="arribo_select"
+            )
+        with col_input1:
+            chofer_name_arribos = st.text_input("Chofer:", key="chofer_arribos")
+        with col_button1:
+            if st.button("Asignar", key="assign_arribos"):
+                if chofer_name_arribos.strip():
+                    try:
+                        update_data("trafico_arribos", selected_arribo_id, {"chofer": chofer_name_arribos.strip()})
+                        st.success(f"Chofer asignado al registro ID {selected_arribo_id}")
+                        st.cache_data.clear()
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Error al asignar chofer: {e}")
+                else:
+                    st.warning("Por favor ingrese el nombre del chofer")
     st.markdown("---")
     col2a, col2b = st.columns([1, 2])
     with col2a:
