@@ -1,6 +1,9 @@
 Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
+2025-08-26,36974,TLLU-276660-3,Mercovan Argentina S.A.,BUA0348827,R8687847            ,Arribado
 2025-08-21,36774,UACU-842757-3,Mercovan Argentina S.A.,35566959,******              ,Arribado
-2025-08-25,36844,,Mercovan Argentina S.A.,BUA0348257,                    ,Pendiente
+2025-08-25,36844,FCIU-730400-5,Mercovan Argentina S.A.,BUA0348257,R8684123            ,Arribado
+2025-08-27,36972,,Mercovan Argentina S.A.,54835559,                    ,Pendiente
+2025-08-27,36973,,Mercovan Argentina S.A.,26926574,                    ,Pendiente
 2025-08-12,36526,FCIU-631941-7,Mercovan Argentina S.A.,29292925,*********           ,Arribado
 2025-08-12,36566,,Mercovan Argentina S.A.,25001PE01000259Z,                    ,Arribado
 2025-08-12,36613,CAIU-665034-5,Mercovan Argentina S.A.,90570522,**************      ,Arribado
@@ -43,6 +46,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-05,33277,,Lift Van Int. Co S.A,TERRESTRE,                    ,Pendiente
 2025-05-07,33400,MRKU-946137-3,Lift Van Int. Co S.A,253188679,                    ,Arribado
 2025-08-21,36776,MSKU-694190-9,Lift Van Int. Co S.A,257750953,***************     ,Arribado
+2025-09-01,36995,,Lift Van Int. Co S.A,1025070018,                    ,Pendiente
 2025-08-12,36603,UACU-391933-3,Lift Van Int. Co S.A,19870113,*********           ,Arribado
 2025-08-18,36663,PONU-192620-2,Lift Van Int. Co S.A,257290426,***********         ,Arribado
 2025-08-14,36678,SUDU-737052-0,Lift Van Int. Co S.A,257691656,**************      ,Arribado
@@ -214,8 +218,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-08-25,36920,,Mader Zu S.R.L.,BUA0348795,                    ,Pendiente
 2025-08-25,36921,,Mader Zu S.R.L.,BUA0348795,                    ,Pendiente
 2025-08-25,36922,,Mader Zu S.R.L.,BUA0348795,                    ,Pendiente
-2025-08-26,36947,,Mader Zu S.R.L.,32695685,                    ,Pendiente
-2025-08-26,36948,,Mader Zu S.R.L.,32695685,                    ,Pendiente
+2025-08-26,36947,FANU-184122-0,Mader Zu S.R.L.,32695685,***********         ,Arribado
+2025-08-26,36948,BEAU-499197-0,Mader Zu S.R.L.,32695685,**********          ,Arribado
 2025-08-08,36420,EGSU-952515-1,Mader Zu S.R.L.,340500027772,********************,Arribado
 2025-08-18,36656,ZCSU-693932-0,Mader Zu S.R.L.,ZIMUBUE9042572,********            ,Arribado
 2025-08-18,36657,CAAU-503625-8,Mader Zu S.R.L.,50659386,********            ,Arribado
@@ -315,6 +319,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-07,35320,YMMU-124920-6,Alimentaria Sa,B946026075,********            ,Arribado
 2025-08-22,36854,SEGU-471517-2,Alimentaria Sa,EBKG13905503,FX32940348          ,Arribado
 2025-08-22,36855,MEDU-724670-3,Alimentaria Sa,EBKG13905503,FX32940349          ,Arribado
+2025-08-26,36964,GLDU-546618-4,Alimentaria Sa,33391005,***********         ,Arribado
+2025-08-26,36965,UACU-403560-9,Alimentaria Sa,33391005,***********         ,Arribado
 2025-08-18,36683,,Alimentaria Sa,EBKG13816184,                    ,Pendiente
 2025-08-18,36684,,Alimentaria Sa,EBKG13680357,                    ,Pendiente
 2025-08-18,36685,,Alimentaria Sa,EBKG13680357,                    ,Pendiente
@@ -378,18 +384,19 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-21,33800,CAAU-207714-5,Chemotecnica Sa,36762071,************        ,Arribado
 2025-05-19,33678,TRHU-113826-7,Gestion Forward S.R.L.,253605922,***********         ,Arribado
 2025-06-02,34112,HLXU-125580-0,Gestion Forward S.R.L.,26766325,*********           ,Arribado
+2025-09-01,36961,,Mafralac Alimenticia Srl,69996360,                    ,Pendiente
 2025-08-11,36502,UACU-557285-5,Mafralac Alimenticia Srl,23155833,*********           ,Arribado
 2025-07-17,35747,CAIU-480411-7,Mafralac Alimenticia Srl,92937581,***********         ,Arribado
 2025-05-16,33659,,Tipoiti Satic,25001EC01029661L,                    ,Arribado
 2025-06-27,34989,,Tipoiti Satic,25001EC01040300R,                    ,Arribado
 2025-06-27,34991,,Tipoiti Satic,TERRESTRE,                    ,Arribado
 2025-08-07,36448,,Tipoiti Satic,25001EC01050878P,                    ,Arribado
-2025-08-25,36850,,Tipoiti Satic,90341233,                    ,Pendiente
+2025-08-25,36850,HLBU-212497-8,Tipoiti Satic,90341233,**********          ,Arribado
 2025-05-20,33709,TCKU-608057-6,Mgp Logistics S.R.L,21442454,**********          ,Arribado
 2025-05-20,33710,FSCU-823785-2,Mgp Logistics S.R.L,21442454,***************     ,Arribado
 2025-05-21,33733,TGBU-687122-6,Global Rover Logistic Srl,EBKG12820164,FX32979374          ,Arribado
 2025-08-11,36480,DRYU-205734-8,Championx Argentina Srl,BUA0347369,R8687251            ,Arribado
-2025-08-25,36911,,Championx Argentina Srl,258260734,                    ,Pendiente
+2025-08-25,36911,MSKU-378881-7,Championx Argentina Srl,258260734,***********         ,Arribado
 2025-04-28,33147,MEDU-851058-0,Isischu Srl,EBKG12473011,FX32979618          ,Arribado
 2025-04-28,33148,MSBU-825164-3,Isischu Srl,EBKG12473011,FX32979610          ,Arribado
 2025-04-28,33149,TXGU-435596-4,Isischu Srl,EBKG12473011,FX32979608          ,Arribado
@@ -471,6 +478,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-13,34580,FCIU-722464-0,Pallets Nef De Raul E. Fernandez Sa,32871554,***********         ,Arribado
 2025-05-06,33294,,Hector Reboratti,EBKG12662957,                    ,Pendiente
 2025-05-06,33295,,Hector Reboratti,EBKG12662957,                    ,Pendiente
+2025-08-27,36980,,Hector Reboratti,EBKG13876536,                    ,Pendiente
 2025-08-08,36459,,Hector Reboratti,24264367,                    ,Pendiente
 2025-08-08,36460,,Hector Reboratti,24264367,                    ,Pendiente
 2025-08-08,36478,HLXU-863330-5,Hector Reboratti,24264367,**********          ,Arribado
@@ -540,6 +548,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-28,33154,MSBU-504540-1,Henn Y Cia S.R.L.,EBKG12563718,FX32979639          ,Arribado
 2025-04-28,33155,MSNU-955701-8,Henn Y Cia S.R.L.,EBKG12563718,FX32979624          ,Arribado
 2025-04-28,33156,MEDU-697871-5,Henn Y Cia S.R.L.,EBKG12612597,FX32979612          ,Arribado
+2025-08-26,36962,,Henn Y Cia S.R.L.,BUE500142700,                    ,Pendiente
+2025-08-26,36963,CAIU-939146-4,Henn Y Cia S.R.L.,BUA0348951,R8687663            ,Arribado
 2025-08-14,36670,TCKU-367927-8,Henn Y Cia S.R.L.,EBKG13615673,FX32941197          ,Arribado
 2025-08-14,36671,MEDU-664606-9,Henn Y Cia S.R.L.,EBKG13615673,FX32941198          ,Arribado
 2025-08-22,36919,SEGU-576497-3,Henn Y Cia S.R.L.,15391139,**************      ,Arribado
@@ -698,16 +708,23 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-28,33161,MRKU-712953-9,Borax Argentina S A,253072779,*******             ,Arribado
 2025-04-28,33162,TCKU-144921-3,Borax Argentina S A,253072779,**************      ,Arribado
 2025-04-28,33163,MRKU-837924-0,Borax Argentina S A,253072779,**************      ,Arribado
-2025-08-25,36930,,Borax Argentina S A,EBKG13946201,                    ,Pendiente
-2025-08-25,36931,,Borax Argentina S A,EBKG13946201,                    ,Pendiente
-2025-08-25,36932,,Borax Argentina S A,EBKG13946201,                    ,Pendiente
+2025-08-25,36930,MSNU-190255-0,Borax Argentina S A,EBKG13946201,FX32947503          ,Arribado
+2025-08-25,36931,MSNU-105060-2,Borax Argentina S A,EBKG13946201,FX32947669          ,Arribado
+2025-08-25,36932,MEDU-679318-3,Borax Argentina S A,EBKG13946201,FX32947515          ,Arribado
+2025-08-27,36957,,Borax Argentina S A,17052557,                    ,Pendiente
 2025-08-25,36924,MSMU-268614-9,Borax Argentina S A,EBKG13946201,FX32947554          ,Arribado
 2025-08-25,36925,MEDU-692991-6,Borax Argentina S A,EBKG13946201,FX32947615          ,Arribado
 2025-08-25,36926,MSBU-321609-0,Borax Argentina S A,EBKG13946201,FX32947565          ,Arribado
 2025-08-25,36927,SEGU-305471-4,Borax Argentina S A,EBKG13946201,FX32947616          ,Arribado
 2025-08-25,36928,MSDU-291207-0,Borax Argentina S A,EBKG13946201,FX32947614          ,Arribado
-2025-08-25,36929,,Borax Argentina S A,EBKG13946201,                    ,Pendiente
+2025-08-25,36929,MSMU-214598-8,Borax Argentina S A,EBKG13946201,FX32947518          ,Arribado
+2025-08-22,36895,CAIU-910771-1,Borax Argentina S A,BUA0348467,***************     ,Arribado
+2025-08-22,36896,FBLU-011905-5,Borax Argentina S A,BUA0348467,**************      ,Arribado
+2025-08-22,36908,DFSU-783552-0,Borax Argentina S A,BUA0348467,******************  ,Arribado
+2025-08-22,36910,CINU-709471-6,Borax Argentina S A,BUA0348467,****************    ,Arribado
 2025-08-25,36923,MSNU-110142-2,Borax Argentina S A,EBKG13946201,FX32947517          ,Arribado
+2025-08-22,36880,NWRU-601199-0,Borax Argentina S A,BUA0348467,********************,Arribado
+2025-08-22,36881,APHU-660655-8,Borax Argentina S A,BUA0348467,********************,Arribado
 2025-08-21,36838,,Borax Argentina S A,BUA0348467,                    ,Pendiente
 2025-08-21,36839,,Borax Argentina S A,BUA0348467,                    ,Pendiente
 2025-08-21,36840,,Borax Argentina S A,BUA0348467,                    ,Pendiente
@@ -884,6 +901,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-08,33414,TCNU-462548-1,Lawter Argentina S.A.,ZIMUBUE9039804,                    ,Arribado
 2025-08-25,36873,ZCSU-754781-2,Lawter Argentina S.A.,ZIMUBUE9042951,***********         ,Arribado
 2025-08-25,36874,ZCSU-678924-1,Lawter Argentina S.A.,ZIMUBUE9042951,***********         ,Arribado
+2025-08-29,36971,,Lawter Argentina S.A.,258417597,                    ,Pendiente
 2025-08-25,36871,ZCSU-798133-0,Lawter Argentina S.A.,ZIMUBUE9042951,************        ,Arribado
 2025-08-25,36872,ZCSU-725368-0,Lawter Argentina S.A.,ZIMUBUE9042951,******************  ,Arribado
 2025-08-12,36466,UACU-831396-6,Lawter Argentina S.A.,19098761,***********         ,Arribado
@@ -1034,12 +1052,6 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-06,33304,FCIU-732590-2,Santa Anita Oil Sa,62443730,************        ,Arribado
 2025-05-22,33791,FSCU-855514-9,Santa Anita Oil Sa,BUEF04934600,************        ,Arribado
 2025-05-22,33792,TCNU-757255-4,Santa Anita Oil Sa,BUEF04934600,**********          ,Arribado
-2025-08-26,36918,,Santa Anita Oil Sa,ZIMUBUE9042551,                    ,Pendiente
-2025-08-26,36913,,Santa Anita Oil Sa,ZIMUBUE9042551,                    ,Pendiente
-2025-08-26,36914,,Santa Anita Oil Sa,ZIMUBUE9042551,                    ,Pendiente
-2025-08-26,36915,,Santa Anita Oil Sa,ZIMUBUE9042551,                    ,Pendiente
-2025-08-26,36916,,Santa Anita Oil Sa,ZIMUBUE9042551,                    ,Pendiente
-2025-08-26,36917,,Santa Anita Oil Sa,ZIMUBUE9042551,                    ,Pendiente
 2025-08-06,36295,FANU-331780-2,Santa Anita Oil Sa,93627701,***********         ,Arribado
 2025-08-06,36293,TEMU-671741-6,Santa Anita Oil Sa,93627701,********************,Arribado
 2025-08-06,36294,SEGU-528568-8,Santa Anita Oil Sa,93627701,**************      ,Arribado
@@ -1117,10 +1129,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-12,34572,BEAU-594152-6,Seaside Logistic Sa,LA0428297,***********         ,Arribado
 2025-06-12,34573,MSDU-724181-7,Seaside Logistic Sa,LA0428297,***********         ,Arribado
 2025-06-12,34574,SEGU-409979-7,Seaside Logistic Sa,LA0428297,**************      ,Arribado
-2025-08-26,36946,,Seaside Logistic Sa,ZIMUBUE9042980,                    ,Pendiente
+2025-08-26,36946,ZCSU-660374-2,Seaside Logistic Sa,ZIMUBUE9042980,*************       ,Arribado
 2025-05-14,33542,,Dsi Underground Sa,25001EC01029105E,                    ,Arribado
 2025-06-10,34521,,Dsi Underground Sa,25001EC01036520D,                    ,Arribado
 2025-07-08,35381,,Dsi Underground Sa,25001EC01043189M,                    ,Arribado
+2025-08-25,36967,,Dsi Underground Sa,25001EC01055642J,                    ,Arribado
 2025-06-26,34968,MSMU-491820-1,Forestal Bosques Del Plata Sa,EBKG13130443,FX32934194          ,Arribado
 2025-06-26,34969,MSMU-754747-0,Forestal Bosques Del Plata Sa,EBKG13130443,FX32934234          ,Arribado
 2025-06-26,34977,MSNU-686436-6,Forestal Bosques Del Plata Sa,EBKG13130443,FX32934239          ,Arribado
@@ -1200,8 +1213,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-27,33964,TLLU-759104-6,Conextube Sa,BUA0341908,R1954900            ,Arribado
 2025-05-27,33965,TCNU-451456-0,Conextube Sa,BUA0341908,R1954897            ,Arribado
 2025-07-15,35649,MSKU-119413-8,Conextube Sa,256653277,************        ,Arribado
-2025-08-26,36847,,Conextube Sa,75729048,                    ,Pendiente
-2025-08-26,36848,,Conextube Sa,75729048,                    ,Pendiente
+2025-08-26,36847,UACU-838419-4,Conextube Sa,75729048,***********         ,Arribado
+2025-08-26,36848,UACU-851764-0,Conextube Sa,75729048,************        ,Arribado
 2025-06-02,34149,CMAU-785951-7,Conextube Sa,BUA0342770,R1955823            ,Arribado
 2025-06-02,34150,SEGU-628431-0,Conextube Sa,BUA0342770,R1955757            ,Arribado
 2025-07-14,35487,,Conextube Sa,256653277,                    ,Pendiente
@@ -1232,7 +1245,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-04-29,33199,,Hdv Leather S.R.L.,253269514,                    ,Pendiente
 2025-04-29,33200,,Hdv Leather S.R.L.,253269514,                    ,Pendiente
 2025-05-05,33316,CAAU-530140-7,Hdv Leather S.R.L.,253430248,*****************   ,Arribado
+2025-08-28,36990,,Hdv Leather S.R.L.,257275060,                    ,Pendiente
+2025-08-28,36991,,Hdv Leather S.R.L.,257275060,                    ,Pendiente
 2025-08-21,36860,MSDU-735591-2,Hdv Leather S.R.L.,EBKG13920207,FX32948196          ,Arribado
+2025-08-27,36986,,Hdv Leather S.R.L.,257138016,                    ,Pendiente
+2025-08-27,36987,,Hdv Leather S.R.L.,257138016,                    ,Pendiente
+2025-08-28,36988,,Hdv Leather S.R.L.,257138418,                    ,Pendiente
+2025-08-28,36989,,Hdv Leather S.R.L.,257138418,                    ,Pendiente
 2025-08-21,36766,MSMU-777155-7,Hdv Leather S.R.L.,EBKG13920207,FX32948197          ,Arribado
 2025-08-14,36588,MEDU-733336-7,Hdv Leather S.R.L.,EBKG13860179,FX32988015          ,Arribado
 2025-08-14,36589,MSNU-611224-5,Hdv Leather S.R.L.,EBKG13860179,FX32988020          ,Arribado
@@ -1441,11 +1460,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-17,34662,MRKU-890029-7,Mager S R L,255073398,***********         ,Arribado
 2025-06-23,34803,,La Aurora Sociedad Anonima Industrial Comercial Y Ganadera,255182768,                    ,Pendiente
 2025-06-23,34853,MRKU-732404-7,La Aurora Sociedad Anonima Industrial Comercial Y Ganadera,255182768,************        ,Arribado
-2025-08-25,36951,,Pampa Logistica Internacional S.A,24595442,                    ,Pendiente
-2025-08-25,36952,,Pampa Logistica Internacional S.A,24595442,                    ,Pendiente
+2025-08-25,36951,HLXU-534811-4,Pampa Logistica Internacional S.A,24595442,*****************   ,Arribado
+2025-08-25,36952,HLXU-537526-0,Pampa Logistica Internacional S.A,24595442,********************,Arribado
 2025-07-01,35110,PCIU-957769-4,Sm-Cyclo De Argentina S.A,BUE500109300,*************       ,Arribado
 2025-07-10,35374,TCLU-400089-8,Forestal San Francisco S.R.L.,EBKG13344861,FX32939344          ,Arribado
 2025-07-10,35375,MEDU-407352-2,Forestal San Francisco S.R.L.,EBKG13344861,FX32939328          ,Arribado
+2025-08-26,36968,CSNU-605472-4,Forestal San Francisco S.R.L.,COSU6427868490,**********          ,Arribado
+2025-08-26,36969,,Forestal San Francisco S.R.L.,COSU6427868490,                    ,Pendiente
 2025-07-10,35376,MSDU-418456-5,Forestal San Francisco S.R.L.,EBKG13344861,FX32939393          ,Arribado
 2025-07-10,35377,MSDU-428693-1,Forestal San Francisco S.R.L.,EBKG13344861,FX32939348          ,Arribado
 2025-07-15,35657,CAIU-839717-5,Forestal San Francisco S.R.L.,EBKG13344861,FX32939328          ,Arribado
@@ -1515,6 +1536,6 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-25,35968,PCIU-289256-5,Chaguar Sociedad Anonima,BUE500129800,**********          ,Arribado
 2025-08-01,36253,UACU-546198-0,Coster Packaging S. A. U,10538335,***********         ,Arribado
 2025-08-07,36449,OOLU-444219-0,Pagano S A,6426461330,***************     ,Arribado
-2025-08-26,36897,,Javier Luque S.R.L.,258465156,                    ,Pendiente
-2025-08-26,36898,,Javier Luque S.R.L.,258465156,                    ,Pendiente
-2025-08-26,36899,,Javier Luque S.R.L.,258465156,                    ,Pendiente
+2025-08-26,36897,MSKU-089719-9,Javier Luque S.R.L.,258465156,***********         ,Arribado
+2025-08-26,36898,MRKU-586519-2,Javier Luque S.R.L.,258465156,**********          ,Arribado
+2025-08-26,36899,MRSU-524456-2,Javier Luque S.R.L.,258465156,**********          ,Arribado
