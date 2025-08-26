@@ -101,7 +101,7 @@ def show_page_trafico_andresito():
     arribos = filtered_arribos
 
     # Table and Asignar controls in two columns
-    col_table1, col_assign1 = st.columns([2, 1])
+    col_table1, col_assign1 = st.columns([3, 1])
     with col_table1:
         arribos_display = arribos.copy()
         arribos_display['ID'] = arribos_display['id'].apply(lambda x: f"I{x:03d}")
@@ -161,7 +161,7 @@ def show_page_trafico_andresito():
     pendiente_desconsolidar = filtered_pendiente_desconsolidar
 
     # Table and Asignar controls in two columns
-    col_table2, col_assign2 = st.columns([2, 1])
+    col_table2, col_assign2 = st.columns([3, 1])
     with col_table2:
         pendiente_desconsolidar_display = pendiente_desconsolidar.copy()
         pendiente_desconsolidar_display['ID'] = pendiente_desconsolidar_display['id'].apply(lambda x: f"V{x:03d}")
@@ -224,7 +224,7 @@ def show_page_trafico_andresito():
     arribos_expo_ctns = filtered_arribos_expo_ctns
 
     # Table and Asignar controls in two columns
-    col_table3, col_assign3 = st.columns([2, 1])
+    col_table3, col_assign3 = st.columns([3, 1])
     with col_table3:
         arribos_expo_ctns_display = arribos_expo_ctns.copy()
         arribos_expo_ctns_display['ID'] = arribos_expo_ctns_display['id'].apply(lambda x: f"B{x:03d}")
@@ -287,7 +287,7 @@ def show_page_trafico_andresito():
     remisiones = filtered_remisiones
 
     # Table and Asignar controls in two columns, with both functionalities side by side
-    col_table4, col_assign4a, col_assign4b = st.columns([2, 1, 1])
+    col_table4, col_assign4a = st.columns([3, 1])
     with col_table4:
         remisiones_display = remisiones.copy()
         remisiones_display['ID'] = remisiones_display['id'].apply(lambda x: f"E{x:03d}")
@@ -317,7 +317,6 @@ def show_page_trafico_andresito():
                         st.error(f"Error al asignar chofer: {e}")
                 else:
                     st.warning("Por favor ingrese el nombre del chofer")
-        with col_assign4b:
             st.markdown("**Asignar Fecha y Hora Fin - Remisiones**")
             fecha_fin = st.date_input("Fecha fin:", key="fecha_fin_remision")
             hora_fin = st.time_input("Hora fin:", key="hora_fin_remision")
