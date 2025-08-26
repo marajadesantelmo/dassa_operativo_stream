@@ -67,8 +67,8 @@ def show_page_trafico_andresito():
         st.header("Orden de Tráfico")
     with col_title2:
         st.markdown("[Ver planilla histórica en Google Sheets](https://docs.google.com/spreadsheets/d/129PyI0APvtPYEYwJIsDf-Uzy2YQR-0ojj-IG2etHCYs)")
-    st.header("Traslado IMPO")
-
+    st.header("Traslados IMPO")
+    st.markdown("---")
     col1a, col1b = st.columns([1, 2])
     with col1a: 
         st.subheader("Desde Puerto a DASSA")
@@ -123,7 +123,7 @@ def show_page_trafico_andresito():
     arribos_display = arribos_display.drop(columns=['id', 'Estado_Normalizado'], errors='ignore')
     st.dataframe(arribos_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
-
+    st.markdown("---")
     col2a, col2b = st.columns([1, 2])
     with col2a:
         st.subheader("Vacios IMPO a devolver")
@@ -178,7 +178,7 @@ def show_page_trafico_andresito():
     st.dataframe(pendiente_desconsolidar_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
         
     st.markdown("---")
-    st.header("Traslado EXPO")
+    st.header("Traslados EXPO")
 
     col3a, col3b = st.columns([1, 2])
     with col3a:
@@ -236,7 +236,7 @@ def show_page_trafico_andresito():
     arribos_expo_ctns_display = arribos_expo_ctns_display.drop(columns=['id'], errors='ignore')
     arribos_expo_ctns_display['Estado'] = arribos_expo_ctns_display['Estado'].fillna('Pendiente')
     st.dataframe(arribos_expo_ctns_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-
+    st.markdown("---")
     col4a, col4b = st.columns([1, 2])
     with col4a:
         st.subheader("Remisiones de DASSA a puerto")
