@@ -192,6 +192,22 @@ def show_page_trafico_andresito():
                         st.error(f"Error al asignar chofer: {e}")
                 else:
                     st.warning("Por favor ingrese el nombre del chofer")
+            # --- NUEVO BLOQUE: Asignar Fecha y Hora Fin ---
+            st.markdown("**Asignar Fecha y Hora Fin - Vacíos IMPO**")
+            fecha_fin_pte = st.date_input("Fecha fin:", key="fecha_fin_pendiente")
+            hora_fin_pte = st.time_input("Hora fin:", key="hora_fin_pendiente")
+            if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_pendiente"):
+                if fecha_fin_pte and hora_fin_pte:
+                    fecha_hora_fin_str = fecha_fin_pte.strftime("%d/%m/%Y") + " " + hora_fin_pte.strftime("%H:%M")
+                    try:
+                        update_data("trafico_pendiente_desconsolidar", selected_pendiente_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
+                        st.success(f"Fecha y Hora Fin asignada al registro ID {selected_pendiente_id}")
+                        st.cache_data.clear()
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Error al asignar Fecha y Hora Fin: {e}")
+                else:
+                    st.warning("Por favor seleccione fecha y hora")
     st.markdown("---")
     st.header("Traslados EXPO")
 

@@ -1,22 +1,23 @@
-Dia,Cliente,Operacion,Booking,Contenedor,Volumen,Precinto,Observaciones,Estado,Hora,e-tally,Chofer
-26/08,Borax Argentina S A,37668-1-1,EBKG13874473,MEDU-684641-0,30.0,                    ,EXOLGAN   13HS,En curso,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6842,Prueba 25-8 8:37
-26/08,Minera Santa Rita Sr...,37663-1-1,25001EC03008692Y,TRHU-490724-1,60.0,                    ,TRP  11HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6832,damian bertoli
-26/08,Borax Argentina S A,37676-1-1,EBKG13874473,FCIU-344323-4,30.0,                    ,EXOLGAN 13HS,En curso,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6844,-
-26/08,Borax Argentina S A,37675-1-1,EBKG13874473,TCKU-376157-6,30.0,                    ,EXOLGAN  13HS,En curso,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6843,-
-26/08,Borax Argentina S A,37667-1-1,EBKG13874473,XINU-109853-0,30.0,                    ,EXOLGAN   13HS,En curso,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6841,-
-26/08,Borax Argentina S A,37665-1-1,EBKG13874473,TGBU-319086-7,30.0,                    ,EXOLGAN   13HS,En curso,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6839,-
-26/08,Borax Argentina S A,37666-1-1,EBKG13874473,CXDU-142903-2,30.0,                    ,EXOLGAN   13HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6840,-
-26/08,Borax Argentina S A,37658-1-1,EBKG13874473,MSDU-271153-8,30.0,                    ,EXOLGAN   13HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6837,-
-26/08,Minera Santa Rita Sr...,37644-1-1,25001EC03008692Y,RFCU-401700-7,60.0,                    ,TRP    11HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6831,schaumayer
-26/08,Borax Argentina S A,37657-1-1,EBKG13874473,MSNU-289429-6,30.0,                    ,EXOLGAN   13HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6836,-
-26/08,Borax Argentina S A,37659-1-1,EBKG13874473,MEDU-521159-1,30.0,                    ,EXOLGAN   13HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6838,-
-26/08,Borax Argentina S A,37656-1-1,EBKG13874473,MSCU-348856-0,30.0,                    ,EXOLGAN  13HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6835,-
-26/08,Minera Santa Rita Sr...,37671-1-1,25001EC03008692Y,CCLU-765317-0,60.0,                    ,TRP  17HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6834,-
-26/08,Minera Santa Rita Sr...,37670-1-1,25001EC03008692Y,FFAU-343841-5,60.0,                    ,TRP   11HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6833,peril marcelo
-27/08,Lift Van Int. Co S.A,37534-1-1,25001PE01000297S              ,UACU-391933-3,0.0,                    ,EXOLGAN   16HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6795,-
-27/08,Hdv Leather S.R.L.,37715-1-1,25001EC01054146H              ,MSDU-735591-2,60.0,                    ,EXOLGAN  13HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6859,-
-27/08,Hdv Leather S.R.L.,37714-1-1,25001EC01054146H              ,MSMU-777155-7,60.0,                    ,EXOLGAN   13HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6858,-
-28/08,Isischu Srl,37756-1-1,25001EC010559131K             ,TCNU-410725-0,0.0,                    ,TRP 17HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6878,-
-28/08,Isischu Srl,37750-1-1,25001EC010559131K             ,BEAU-476647-6,0.0,                    ,TRP 15HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6876,-
-28/08,Isischu Srl,37758-1-1,25001EC010559131K             ,BMOU-645582-1,0.0,                    ,TRP 15HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6879,-
-29/08,Lift Van Int. Co S.A,37527-1-1,25001PER1000495G              ,UACU-853668-2,0.0,                    ,EXOLGAN   16HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6845,-
+Dia,Cliente,Operacion,Booking,Contenedor,Volumen,Precinto,Observaciones,Estado,Hora,e-tally,Chofer,Fecha y Hora Fin
+26/08,Minera Santa Rita Sr...,37663-1-1,25001EC03008692Y,TRHU-490724-1,60.0,                    ,TRP  11HS,11:28 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6832,damian bertoli,
+26/08,Minera Santa Rita Sr...,37644-1-1,25001EC03008692Y,RFCU-401700-7,60.0,                    ,TRP    11HS,11:28 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6831,schaumayer,
+26/08,Borax Argentina S A,37668-1-1,EBKG13874473,MEDU-684641-0,30.0,                    ,EXOLGAN   13HS,11:52 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6842,nahuel ortiz,
+26/08,Minera Santa Rita Sr...,37671-1-1,25001EC03008692Y,CCLU-765317-0,60.0,                    ,TRP  17HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6834,-,
+26/08,Borax Argentina S A,37676-1-1,EBKG13874473,FCIU-344323-4,30.0,                    ,EXOLGAN 13HS,En curso,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6844,-,
+26/08,Borax Argentina S A,37667-1-1,EBKG13874473,XINU-109853-0,30.0,                    ,EXOLGAN   13HS,En curso,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6841,-,
+26/08,Borax Argentina S A,37675-1-1,EBKG13874473,TCKU-376157-6,30.0,                    ,EXOLGAN  13HS,En curso,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6843,-,
+26/08,Minera Santa Rita Sr...,37670-1-1,25001EC03008692Y,FFAU-343841-5,60.0,                    ,TRP   11HS,11:28 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6833,peril marcelo,
+26/08,Borax Argentina S A,37656-1-1,EBKG13874473,MSCU-348856-0,30.0,                    ,EXOLGAN  13HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6835,-,
+26/08,Borax Argentina S A,37659-1-1,EBKG13874473,MEDU-521159-1,30.0,                    ,EXOLGAN   13HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6838,-,
+26/08,Borax Argentina S A,37657-1-1,EBKG13874473,MSNU-289429-6,30.0,                    ,EXOLGAN   13HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6836,-,
+26/08,Borax Argentina S A,37658-1-1,EBKG13874473,MSDU-271153-8,30.0,                    ,EXOLGAN   13HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6837,-,
+26/08,Borax Argentina S A,37665-1-1,EBKG13874473,TGBU-319086-7,30.0,                    ,EXOLGAN   13HS,11:52 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6839,ariel ortiz,
+26/08,Borax Argentina S A,37666-1-1,EBKG13874473,CXDU-142903-2,30.0,                    ,EXOLGAN   13HS,11:57 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6840,david sanchez,
+27/08,Hdv Leather S.R.L.,37714-1-1,25001EC01054146H              ,MSMU-777155-7,60.0,                    ,EXOLGAN   13HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6858,-,
+27/08,Lift Van Int. Co S.A,37534-1-1,25001PE01000297S              ,UACU-391933-3,0.0,                    ,EXOLGAN   16HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6795,-,
+27/08,Hdv Leather S.R.L.,37715-1-1,25001EC01054146H              ,MSDU-735591-2,60.0,                    ,EXOLGAN  13HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6859,-,
+28/08,Isischu Srl,37750-1-1,25001EC010559131K             ,BEAU-476647-6,0.0,                    ,TRP 15HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6876,-,
+28/08,Championx Argentina ...,37784-0-1,  : 0                         ,MSKU-378881-7,0.0,***********         ,T4 19HS,Pendiente,8:00 ,,-,
+28/08,Isischu Srl,37756-1-1,25001EC010559131K             ,TCNU-410725-0,0.0,                    ,TRP 17HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6878,-,
+28/08,Isischu Srl,37758-1-1,25001EC010559131K             ,BMOU-645582-1,0.0,                    ,TRP 15HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6879,-,
+29/08,Lift Van Int. Co S.A,37527-1-1,25001PER1000495G              ,UACU-853668-2,0.0,                    ,EXOLGAN   16HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6845,-,

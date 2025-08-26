@@ -1,25 +1,29 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 36961,01/09,Mafralac Alimenticia Srl,-,10080,HC,TD,                    ,69996360,0,                              ,,     ,2025-09-15,,                    ,Pendiente
-36899,26/08,Javier Luque S.R.L.,MRSU-524456-2,10080,HC,TD,**********          ,258465156,1,TRANSPORTE DEL CLIENTE        ,Miguez,10:19,2025-09-12,,258465156           ,10:19 Arribado
-36897,26/08,Javier Luque S.R.L.,MSKU-089719-9,10080,HC,TD,***********         ,258465156,1,TRANSPORTE DEL CLIENTE        ,Bertoli,09:43,2025-09-12,,258465156           ,09:43 Arribado
-36974,26/08,Mercovan Argentina S.A.,-,0,  ,TD,                    ,BUA0348827,0,                              ,,     ,2025-09-15,Bua0348827,BUA0348827          ,Pendiente
-36947,26/08,Mader Zu S.R.L.,FANU-184122-0,10080,HC,TD,***********         ,32695685,1,TRANSPORTE DEL CLIENTE        ,Barrientos,10:08,2025-09-15,,                    ,10:08 Arribado
-36948,26/08,Mader Zu S.R.L.,BEAU-499197-0,10080,HC,TD,**********          ,32695685,1,TRANSPORTE DEL CLIENTE        ,Barrientos,10:13,2025-09-15,,                    ,10:13 Arribado
-36964,26/08,Alimentaria Sa,GLDU-546618-4,Exolgan,DR,TD,***********         ,33391005,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,09:02,2025-09-15,,                    ,09:02 Arribado
-36965,26/08,Alimentaria Sa,UACU-403560-9,Exolgan,DR,TD,***********         ,33391005,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,09:05,2025-09-15,,                    ,09:05 Arribado
-36969,26/08,Forestal San Francisco S.R.L.,-,10077,HC,TD,                    ,COSU6427868490,0,                              ,,     ,2025-09-15,,                    ,Pendiente
-36962,26/08,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,BUE500142700,0,                              ,,     ,2025-09-15,,BUE500142700        ,Pendiente
-36963,26/08,Henn Y Cia S.R.L.,CAIU-939146-4,10074,HC,TD,R8687663            ,BUA0348951,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,11:01,2025-09-15,,                    ,11:01 Arribado
+36995,01/09,Lift Van Int. Co S.A,-,0,  ,TD,                    ,1025070018,0,                              ,,     ,2025-09-16,Melina Marquisio,1025070018          ,Pendiente
+36847,26/08,Conextube Sa,UACU-838419-4,10080,DR,TD,***********         ,75729048,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,09:26,2025-09-11,75729048,75729048            ,09:26 Arribado
+36946,26/08,Seaside Logistic Sa,ZCSU-660374-2,10074,HC,TD,*************       ,ZIMUBUE9042980,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:20,2025-09-15,,                    ,10:20 Arribado
 36898,26/08,Javier Luque S.R.L.,MRKU-586519-2,10080,HC,TD,**********          ,258465156,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,09:46,2025-09-12,,258465156           ,09:46 Arribado
 36968,26/08,Forestal San Francisco S.R.L.,CSNU-605472-4,10077,HC,TD,**********          ,COSU6427868490,1,TRANSPORTE DEL CLIENTE        ,Peril,08:58,2025-09-15,,                    ,08:58 Arribado
-36946,26/08,Seaside Logistic Sa,ZCSU-660374-2,10074,HC,TD,*************       ,ZIMUBUE9042980,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:20,2025-09-15,,                    ,10:20 Arribado
-36847,26/08,Conextube Sa,UACU-838419-4,10080,DR,TD,***********         ,75729048,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,09:26,2025-09-11,75729048,75729048            ,09:26 Arribado
+36963,26/08,Henn Y Cia S.R.L.,CAIU-939146-4,10074,HC,TD,R8687663            ,BUA0348951,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,11:01,2025-09-15,,                    ,11:01 Arribado
+36962,26/08,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,BUE500142700,0,                              ,,     ,2025-09-15,,BUE500142700        ,Pendiente
+36969,26/08,Forestal San Francisco S.R.L.,-,10077,HC,TD,                    ,COSU6427868490,0,                              ,,     ,2025-09-15,,                    ,Pendiente
+36899,26/08,Javier Luque S.R.L.,MRSU-524456-2,10080,HC,TD,**********          ,258465156,1,TRANSPORTE DEL CLIENTE        ,Miguez,10:19,2025-09-12,,258465156           ,10:19 Arribado
+36965,26/08,Alimentaria Sa,UACU-403560-9,Exolgan,DR,TD,***********         ,33391005,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,09:05,2025-09-15,,                    ,09:05 Arribado
+36964,26/08,Alimentaria Sa,GLDU-546618-4,Exolgan,DR,TD,***********         ,33391005,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,09:02,2025-09-15,,                    ,09:02 Arribado
+36948,26/08,Mader Zu S.R.L.,BEAU-499197-0,10080,HC,TD,**********          ,32695685,1,TRANSPORTE DEL CLIENTE        ,Barrientos,10:13,2025-09-15,,                    ,10:13 Arribado
+36947,26/08,Mader Zu S.R.L.,FANU-184122-0,10080,HC,TD,***********         ,32695685,1,TRANSPORTE DEL CLIENTE        ,Barrientos,10:08,2025-09-15,,                    ,10:08 Arribado
+36974,26/08,Mercovan Argentina S.A.,TLLU-276660-3,10074,DR,TD,R8687847            ,BUA0348827,1,TRANSPORTE DEL CLIENTE        ,Barrientos,12:31,2025-09-15,Bua0348827,BUA0348827          ,12:31 Arribado
+36897,26/08,Javier Luque S.R.L.,MSKU-089719-9,10080,HC,TD,***********         ,258465156,1,TRANSPORTE DEL CLIENTE        ,Bertoli,09:43,2025-09-12,,258465156           ,09:43 Arribado
 36848,26/08,Conextube Sa,UACU-851764-0,10080,DR,TD,************        ,75729048,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,09:37,2025-09-11,75729048,75729048            ,09:37 Arribado
+36987,27/08,Hdv Leather S.R.L.,-,0,  ,TD,                    ,257138016,0,                              ,,     ,2025-09-16,,257138016           ,Pendiente
 36972,27/08,Mercovan Argentina S.A.,-,0,  ,TD,                    ,54835559,0,                              ,,     ,2025-09-15,54835559,54835559            ,Pendiente
+36957,27/08,Borax Argentina S A,-,Exolgan,DR,TD,                    ,17052557,0,                              ,,     ,2025-09-15,Fc 12568,                    ,Pendiente
 36980,27/08,Hector Reboratti,-,0,  ,TD,                    ,EBKG13876536,0,                              ,,     ,2025-09-16,Ebkg13876536,EBKG13876536        ,Pendiente
 36973,27/08,Mercovan Argentina S.A.,-,0,  ,TD,                    ,26926574,0,                              ,,     ,2025-09-15,26926574,26926574            ,Pendiente
-36957,27/08,Borax Argentina S A,-,Exolgan,DR,TD,                    ,17052557,0,                              ,,     ,2025-09-15,Fc 12568,                    ,Pendiente
-36978,28/08,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG14005814,0,                              ,,     ,2025-09-15,Ebkg14005814,EBKG14005814        ,Pendiente
-36979,28/08,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG14005814,0,                              ,,     ,2025-09-15,Ebkg14005814,EBKG14005814        ,Pendiente
-36977,28/08,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG14005814,0,                              ,,     ,2025-09-15,Ebkg14005814,EBKG14005814        ,Pendiente
+36986,27/08,Hdv Leather S.R.L.,-,0,  ,TD,                    ,257138016,0,                              ,,     ,2025-09-16,,257138016           ,Pendiente
+36988,28/08,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257138418,0,                              ,,     ,2025-09-16,,                    ,Pendiente
+36989,28/08,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257138418,0,                              ,,     ,2025-09-16,,                    ,Pendiente
+36990,28/08,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257275060,0,                              ,,     ,2025-09-16,,                    ,Pendiente
+36991,28/08,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257275060,0,                              ,,     ,2025-09-16,,                    ,Pendiente
 36971,29/08,Lawter Argentina S.A.,-,0,  ,TD,                    ,258417597,0,                              ,,     ,2025-09-15,Ref 5154573,258417597           ,Pendiente
