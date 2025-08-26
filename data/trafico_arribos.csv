@@ -63,6 +63,7 @@ id,Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,key,fe
 238.0,Trp - Terminales 1-2-3,1100,CMAU-245895-4,Albatros Sur S.R.L.,SSZBUE00000370,DC,T,,Pendiente de arribo,,2025-08-25T12:35:31.354132,adrian alvarez,2025-08-26
 232.0,Trp - Terminales 1-2-3,1300,TRHU-719030-2,Dmc Import Group S.R.L.,BK2530874A,HC,T,,Arribado,,2025-08-21T14:20:31.649811,moscardini cristian,2025-08-22
 241.0,Trp - Terminales 1-2-3,1200,APHU-728462-5,Fh&Eh S.A.S.,QGD1877585,HC,TD,,Pendiente de arribo,,2025-08-25T12:50:31.636077,moscardini matias,2025-08-26
+244.0,Exolgan,1300,HAMU-298903-5,Bisora Group Sa,NBFC2506006,HC,T,,Pendiente de arribo,,2025-08-25T20:20:31.473209,,2025-08-26
 186.0,Terminal 4 - Maersk,1700,TCKU-686959-0,Grupo Rsm Srl,257039754,DC,TD,,19:50 Arribado,,2025-08-14T13:20:31.816475,,2025-08-16
 187.0,Trp - Terminales 1-2-3,1200,APZU-450260-2,Noah Servicess.R.L.,IBC1367243,DR,TD,,15:50 Arribado,,2025-08-15T12:05:31.137234,alvarez,2025-08-18
 167.0,Exolgan,500,MSDU-403455-0,Sk Distributors S.R.L.,DLNB2506647,DC,TD,,09:04 Arribado,,2025-08-12T19:35:31.233997,,2025-08-13
@@ -121,5 +122,5 @@ id,Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,key,fe
 219.0,Trp - Terminales 1-2-3,400,SEGU-538295-0,A La Orden,SHKAGN25060170,HC,TD,,Arribado,,2025-08-20T15:35:31.870093,nahuel ortiz,2025-08-22
 242.0,Trp - Terminales 1-2-3,1300,CSNU-747361-7,Independencia 3187 Maquinarias...,TCSH2505582A,HC,T,,Pendiente de arribo,,2025-08-25T13:05:31.181729,schaumayer,2025-08-26
 229.0,Trp - Terminales 1-2-3,1200,PCIU-461316-6,Be Investment Sa,SHA25060565,DC,T,,Arribado,,2025-08-21T14:05:31.981546,ariel ortiz,2025-08-22
-236.0,Terminal 4 - Maersk,1400,ZCSU-665893-5,Mercovan Argentina S.A.,ZIMUIAH976157,DC,TD,,Pendiente de arribo,,2025-08-22T18:35:31.280095,bertoli damian,2025-08-25
-,Exolgan,1300,HAMU-298903-5,Bisora Group Sa,NBFC2506006,HC,T,,Pendiente de arribo,,,,2025-08-26
+236.0,Terminal 4 - Maersk,1400,ZCSU-665893-5,Mercovan Argentina S.A.,ZIMUIAH976157,DC,TD,,Arribado,,2025-08-22T18:35:31.280095,bertoli damian,2025-08-25
+,Exolgan,500,DFSU-421991-6,Lift Van Int. Co S.A,HLCUPTY250741411,DC,TD,,Pendiente de arribo,,,,2025-08-27

@@ -3,8 +3,8 @@ Operacion,Cliente,Desc,Booking,Cantidad,Kilos,Volumen,Dias
 37789-0-2,Samet Sa,Seaside //Samet S.A.,,2,2491.00,0.00,1
 37788-0-1,Borax Argentina S A,Fact 12576,,20,24572.00,30.00,1
 37787-0-1,Barbury Company S.A.,Seaside //Barbury Co...,,1198,7191.13,0.00,1
-37782-0-2,Forestal San Francisco S.R.L.,Fct 232 // 25-E-0800...,258417597,25,26020.00,0.00,1
 37782-0-1,Forestal San Francisco S.R.L.,Fct 232 // 25-E-0800...,258417597,25,26020.00,0.00,1
+37782-0-2,Forestal San Francisco S.R.L.,Fct 232 // 25-E-0800...,258417597,25,26020.00,0.00,1
 37779-0-1,Henn Y Cia S.R.L.,Bua0348951,258417597,25,26100.00,0.00,1
 37778-0-1,Henn Y Cia S.R.L.,Bue500142700  / 1X40...,258417597,25,26100.00,0.00,1
 37789-0-1,Samet Sa,Seaside //Samet S.A.,,3,5000.00,0.00,1
@@ -20,9 +20,9 @@ Operacion,Cliente,Desc,Booking,Cantidad,Kilos,Volumen,Dias
 37650-0-2,Hdv Leather S.R.L.,Lote 3351,,10,28060.00,60.00,12
 37532-0-1,Chaguar Sociedad Anonima,Cp: 10225832857,25001EC01,20,503.00,0.60,14
 37552-0-1,Administracion Federal De Ingresos Publi,Toyota Hilux //,,1,2150.00,0.00,15
-37484-0-4,Hdv Leather S.R.L.,Lote 3320,LOTE 3307,10,26182.00,0.00,18
-37484-0-1,Hdv Leather S.R.L.,Lote 3315,LOTE 3307,10,26182.00,0.00,18
 37484-0-5,Hdv Leather S.R.L.,Lote 3322,LOTE 3307,10,26182.00,0.00,18
+37484-0-1,Hdv Leather S.R.L.,Lote 3315,LOTE 3307,10,26182.00,0.00,18
+37484-0-4,Hdv Leather S.R.L.,Lote 3320,LOTE 3307,10,26182.00,0.00,18
 37484-0-3,Hdv Leather S.R.L.,Lote 3307,LOTE 3307,10,26182.00,0.00,18
 37484-0-2,Hdv Leather S.R.L.,Lote 3314,LOTE 3307,10,26182.00,0.00,18
 37579-0-2,Hdv Leather S.R.L.,Lote 3319,,10,27855.00,60.00,19
@@ -32,12 +32,12 @@ Operacion,Cliente,Desc,Booking,Cantidad,Kilos,Volumen,Dias
 37135-0-1,Chaguar Sociedad Anonima,256457109 // 5X20,,12,298.22,0.36,32
 37580-0-3,Hdv Leather S.R.L.,Lote  3315,,10,26182.00,60.00,46
 37580-0-2,Hdv Leather S.R.L.,Lote 3322,,10,26182.00,60.00,46
-37580-0-4,Hdv Leather S.R.L.,Lote 3314,,10,26182.00,60.00,46
 37580-0-5,Hdv Leather S.R.L.,Lote 3320,,10,26182.00,60.00,46
+37580-0-4,Hdv Leather S.R.L.,Lote 3314,,10,26182.00,60.00,46
 37580-0-1,Hdv Leather S.R.L.,Lote  3307,,10,26182.00,60.00,46
 36417-0-2,Forestal Guarani Sa,Grlae2596 /30741536,255083138,1,804.00,1.71,60
-36417-0-1,Forestal Guarani Sa,Grlae2596 /30741536,255083138,1,809.14,1.71,60
 36417-0-3,Forestal Guarani Sa,Grlae2596 /30741536,255083138,1,656.53,1.40,60
+36417-0-1,Forestal Guarani Sa,Grlae2596 /30741536,255083138,1,809.14,1.71,60
 36246-0-1,Ads Agropecuaria Sa,Ads Agropecuaria,COSU6421214450,140,3396.30,3.89,68
 35990-0-1,Ads Agropecuaria Sa,001 - Exp - Momasa /...,,24,604.37,0.75,78
 29624-0-1,Piranga Sa,Ebkg09501733 // Made...,NBOBUE24050057,2,715.56,1.67,407
