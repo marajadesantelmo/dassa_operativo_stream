@@ -89,10 +89,16 @@ def show_page_trafico_andresito():
             # Update the arribos variable for the rest of the function
             arribos = filtered_arribos
     with col1b:
+        arribos_display = arribos.copy()
+        arribos_display['ID'] = arribos_display['id'].apply(lambda x: f"I{x:03d}")
+        cols = ['ID'] + [col for col in arribos_display.columns if col != 'ID']
+        arribos_display = arribos_display[cols]
+        arribos_display = arribos_display.drop(columns=['id', 'Estado_Normalizado'], errors='ignore')
+        st.dataframe(arribos_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+        # Assignment controls moved below the table
         if not arribos.empty:
             st.markdown("**Asignar Chofer - Arribos**")
             col_select1, col_input1, col_button1 = st.columns([2, 2, 1])
-            
             with col_select1:
                 selected_arribo_id = st.selectbox(
                     "Seleccionar registro:",
@@ -100,10 +106,8 @@ def show_page_trafico_andresito():
                     format_func=lambda x: f"ID {x} - {arribos[arribos['id']==x]['Contenedor'].iloc[0] if not arribos[arribos['id']==x].empty else 'N/A'}",
                     key="arribo_select"
                 )
-            
             with col_input1:
                 chofer_name_arribos = st.text_input("Chofer:", key="chofer_arribos")
-            
             with col_button1:
                 if st.button("Asignar", key="assign_arribos"):
                     if chofer_name_arribos.strip():
@@ -116,37 +120,31 @@ def show_page_trafico_andresito():
                             st.error(f"Error al asignar chofer: {e}")
                     else:
                         st.warning("Por favor ingrese el nombre del chofer")
-    arribos_display = arribos.copy()
-    arribos_display['ID'] = arribos_display['id'].apply(lambda x: f"I{x:03d}")
-    cols = ['ID'] + [col for col in arribos_display.columns if col != 'ID']
-    arribos_display = arribos_display[cols]
-    arribos_display = arribos_display.drop(columns=['id', 'Estado_Normalizado'], errors='ignore')
-    st.dataframe(arribos_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-
     st.markdown("---")
     col2a, col2b = st.columns([1, 2])
     with col2a:
         st.subheader("Vacios IMPO a devolver")
         col2a1, col2b1 = st.columns([2, 1])
         with col2a1:
-            # Add filter by Estado for pendiente_desconsolidar table
             estado_options_pendiente = ["Orden del día", "Todos"]
             selected_estado_pendiente = st.selectbox("Filtrar por Estado:", estado_options_pendiente, key="estado_filter_pendiente")
 
-            # Apply filter
             filtered_pendiente_desconsolidar = pendiente_desconsolidar
             if selected_estado_pendiente == "Orden del día":
-                # Include pendientes (not realizado) 
                 filtered_pendiente_desconsolidar = pendiente_desconsolidar[
                     (~pendiente_desconsolidar["Estado"].str.contains("Realizado", na=False)) ]
-                
-            # Update the pendiente_desconsolidar variable for the rest of the function
             pendiente_desconsolidar = filtered_pendiente_desconsolidar
     with col2b:
+        pendiente_desconsolidar_display = pendiente_desconsolidar.copy()
+        pendiente_desconsolidar_display['ID'] = pendiente_desconsolidar_display['id'].apply(lambda x: f"V{x:03d}")
+        cols = ['ID'] + [col for col in pendiente_desconsolidar_display.columns if col != 'ID']
+        pendiente_desconsolidar_display = pendiente_desconsolidar_display[cols]
+        pendiente_desconsolidar_display = pendiente_desconsolidar_display.drop(columns=['id'], errors='ignore')
+        st.dataframe(pendiente_desconsolidar_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+        # Assignment controls moved below the table
         if not pendiente_desconsolidar.empty:
             st.markdown("**Asignar Chofer - Pendiente Desconsolidar**")
             col_select2, col_input2, col_button2 = st.columns([2, 2, 1])
-            
             with col_select2:
                 selected_pendiente_id = st.selectbox(
                     "Seleccionar registro:",
@@ -154,10 +152,8 @@ def show_page_trafico_andresito():
                     format_func=lambda x: f"ID {x} - {pendiente_desconsolidar[pendiente_desconsolidar['id']==x]['Contenedor'].iloc[0] if not pendiente_desconsolidar[pendiente_desconsolidar['id']==x].empty else 'N/A'}",
                     key="pendiente_select"
                 )
-            
             with col_input2:
                 chofer_name_pendiente = st.text_input("Chofer:", key="chofer_pendiente")
-            
             with col_button2:
                 if st.button("Asignar", key="assign_pendiente"):
                     if chofer_name_pendiente.strip():
@@ -170,13 +166,6 @@ def show_page_trafico_andresito():
                             st.error(f"Error al asignar chofer: {e}")
                     else:
                         st.warning("Por favor ingrese el nombre del chofer")
-    pendiente_desconsolidar_display = pendiente_desconsolidar.copy()
-    pendiente_desconsolidar_display['ID'] = pendiente_desconsolidar_display['id'].apply(lambda x: f"V{x:03d}")
-    cols = ['ID'] + [col for col in pendiente_desconsolidar_display.columns if col != 'ID']
-    pendiente_desconsolidar_display = pendiente_desconsolidar_display[cols]
-    pendiente_desconsolidar_display = pendiente_desconsolidar_display.drop(columns=['id'], errors='ignore')
-    st.dataframe(pendiente_desconsolidar_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
-        
     st.markdown("---")
     st.header("Traslados EXPO")
 
@@ -185,27 +174,28 @@ def show_page_trafico_andresito():
         st.subheader("Retiros de Vacíos EXPO")
         col3a1, col3b1 = st.columns([2, 1])
         with col3a1:
-            # Add filter by Estado for arribos_expo_ctns table
             estado_options_expo = ["Orden del día", "Todos"]
             selected_estado_expo = st.selectbox("Filtrar por Estado:", estado_options_expo, key="estado_filter_expo")
 
-            # Apply filter
             filtered_arribos_expo_ctns = arribos_expo_ctns
             if selected_estado_expo == "Orden del día":
-                # Include pendientes (not realizado) OR today's date
                 filtered_arribos_expo_ctns = arribos_expo_ctns[
                     (~arribos_expo_ctns["Estado"].str.contains("Realizado", na=False)) |
                     (arribos_expo_ctns["Fecha"] == today_str)
                 ]
-                
-            # Update the arribos_expo_ctns variable for the rest of the function
             arribos_expo_ctns = filtered_arribos_expo_ctns
     with col3b:
-        # Add chofer assignment for arribos_expo_ctns
+        arribos_expo_ctns_display = arribos_expo_ctns.copy()
+        arribos_expo_ctns_display['ID'] = arribos_expo_ctns_display['id'].apply(lambda x: f"B{x:03d}")
+        cols = ['ID'] + [col for col in arribos_expo_ctns_display.columns if col != 'ID']
+        arribos_expo_ctns_display = arribos_expo_ctns_display[cols]
+        arribos_expo_ctns_display = arribos_expo_ctns_display.drop(columns=['id'], errors='ignore')
+        arribos_expo_ctns_display['Estado'] = arribos_expo_ctns_display['Estado'].fillna('Pendiente')
+        st.dataframe(arribos_expo_ctns_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
+        # Assignment controls moved below the table
         if not arribos_expo_ctns.empty:
             st.markdown("**Asignar Chofer - Arribos Expo Ctns**")
             col_select3, col_input3, col_button3 = st.columns([2, 2, 1])
-            
             with col_select3:
                 selected_expo_id = st.selectbox(
                     "Seleccionar registro:",
@@ -213,10 +203,8 @@ def show_page_trafico_andresito():
                     format_func=lambda x: f"ID {x} - {arribos_expo_ctns[arribos_expo_ctns['id']==x]['Booking'].iloc[0] if not arribos_expo_ctns[arribos_expo_ctns['id']==x].empty else 'N/A'}",
                     key="expo_select"
                 )
-            
             with col_input3:
                 chofer_name_expo = st.text_input("Chofer:", key="chofer_expo")
-            
             with col_button3:
                 if st.button("Asignar", key="assign_expo"):
                     if chofer_name_expo.strip():
@@ -229,40 +217,34 @@ def show_page_trafico_andresito():
                             st.error(f"Error al asignar chofer: {e}")
                     else:
                         st.warning("Por favor ingrese el nombre del chofer")
-    arribos_expo_ctns_display = arribos_expo_ctns.copy()
-    arribos_expo_ctns_display['ID'] = arribos_expo_ctns_display['id'].apply(lambda x: f"B{x:03d}")
-    cols = ['ID'] + [col for col in arribos_expo_ctns_display.columns if col != 'ID']
-    arribos_expo_ctns_display = arribos_expo_ctns_display[cols]
-    arribos_expo_ctns_display = arribos_expo_ctns_display.drop(columns=['id'], errors='ignore')
-    arribos_expo_ctns_display['Estado'] = arribos_expo_ctns_display['Estado'].fillna('Pendiente')
-    st.dataframe(arribos_expo_ctns_display.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
     st.markdown("---")
     col4a, col4b = st.columns([1, 2])
     with col4a:
         st.subheader("Remisiones de DASSA a puerto")
         col4a1, col4b1 = st.columns([2, 1])
         with col4a1:
-            # Add filter by Estado for remisiones table using normalized Estado
             estado_options_remisiones = ["Orden del día", "Todos"]
             selected_estado_remisiones = st.selectbox("Filtrar por Estado:", estado_options_remisiones, key="estado_filter_remisiones")
 
-            # Apply filter
             filtered_remisiones = remisiones
             if selected_estado_remisiones == "Orden del día":
-                # Include pendientes (not realizado) OR today's date using Dia column
                 filtered_remisiones = remisiones[
                     (~remisiones["Estado_Normalizado"].str.contains("Realizado", na=False)) |
                     (remisiones["Dia"] == today_dia_str)
                 ]
-                
-            # Update the remisiones variable for the rest of the function
             remisiones = filtered_remisiones
     with col4b:
-        # Add chofer assignment for remisiones
+        remisiones_display = remisiones.copy()
+        remisiones_display['ID'] = remisiones_display['id'].apply(lambda x: f"E{x:03d}")
+        cols = ['ID'] + [col for col in remisiones_display.columns if col != 'ID']
+        remisiones_display = remisiones_display[cols]
+        remisiones_display = remisiones_display.drop(columns=['id', 'Estado_Normalizado'], errors='ignore')
+        st.dataframe(remisiones_display.style.apply(highlight, axis=1), column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)}, 
+                    hide_index=True, use_container_width=True)
+        # Assignment controls moved below the table
         if not remisiones.empty:
             st.markdown("**Asignar Chofer - Remisiones**")
             col_select4, col_input4, col_button4 = st.columns([2, 2, 1])
-            
             with col_select4:
                 selected_remision_id = st.selectbox(
                     "Seleccionar registro:",
@@ -270,10 +252,8 @@ def show_page_trafico_andresito():
                     format_func=lambda x: f"ID {x} - {remisiones[remisiones['id']==x]['Contenedor'].iloc[0] if not remisiones[remisiones['id']==x].empty else 'N/A'}",
                     key="remision_select"
                 )
-            
             with col_input4:
                 chofer_name_remisiones = st.text_input("Chofer:", key="chofer_remisiones")
-            
             with col_button4:
                 if st.button("Asignar", key="assign_remisiones"):
                     if chofer_name_remisiones.strip():
@@ -306,13 +286,6 @@ def show_page_trafico_andresito():
                             st.error(f"Error al asignar Fecha y Hora Fin: {e}")
                     else:
                         st.warning("Por favor seleccione fecha y hora")
-    remisiones_display = remisiones.copy()
-    remisiones_display['ID'] = remisiones_display['id'].apply(lambda x: f"E{x:03d}")
-    cols = ['ID'] + [col for col in remisiones_display.columns if col != 'ID']
-    remisiones_display = remisiones_display[cols]
-    remisiones_display = remisiones_display.drop(columns=['id', 'Estado_Normalizado'], errors='ignore')
-    st.dataframe(remisiones_display.style.apply(highlight, axis=1), column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)}, 
-                    hide_index=True, use_container_width=True)
 
 
 
