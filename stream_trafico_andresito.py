@@ -302,36 +302,37 @@ def show_page_trafico_andresito():
     with tabs[3]:
         st.subheader("Remisiones de DASSA a puerto")
         with st.container():
-            col_f1, col_f2, col_f3, col_f4 = st.columns(4)
-            with col_f1:
-                estado_options_remisiones = ["Orden del día", "Todos"]
-                selected_estado_remisiones = st.selectbox("Estado", estado_options_remisiones, key="estado_filter_remisiones")
-            with col_f2:
-                contenedor_options_remisiones = ['Todos'] + sorted(remisiones['Contenedor'].dropna().unique().tolist()) if 'Contenedor' in remisiones.columns else ['Todos']
-                selected_contenedor_remisiones = st.selectbox("Contenedor", contenedor_options_remisiones, key="contenedor_filter_remisiones")
-            with col_f3:
-                cliente_options_remisiones = ['Todos'] + sorted(remisiones['Cliente'].dropna().unique().tolist()) if 'Cliente' in remisiones.columns else ['Todos']
-                selected_cliente_remisiones = st.selectbox("Cliente", cliente_options_remisiones, key="cliente_filter_remisiones")
-            with col_f4:
-                chofer_options_remisiones = ['Todos'] + sorted(remisiones['chofer'].dropna().unique().tolist()) if 'chofer' in remisiones.columns else ['Todos']
-                selected_chofer_remisiones = st.selectbox("Chofer", chofer_options_remisiones, key="chofer_filter_remisiones")
+            col_table4, col_assign4a = st.columns([3, 1])
+            with col_table4:
+                col_f1, col_f2, col_f3, col_f4 = st.columns(4)
+                with col_f1:
+                    estado_options_remisiones = ["Orden del día", "Todos"]
+                    selected_estado_remisiones = st.selectbox("Estado", estado_options_remisiones, key="estado_filter_remisiones")
+                with col_f2:
+                    contenedor_options_remisiones = ['Todos'] + sorted(remisiones['Contenedor'].dropna().unique().tolist()) if 'Contenedor' in remisiones.columns else ['Todos']
+                    selected_contenedor_remisiones = st.selectbox("Contenedor", contenedor_options_remisiones, key="contenedor_filter_remisiones")
+                with col_f3:
+                    cliente_options_remisiones = ['Todos'] + sorted(remisiones['Cliente'].dropna().unique().tolist()) if 'Cliente' in remisiones.columns else ['Todos']
+                    selected_cliente_remisiones = st.selectbox("Cliente", cliente_options_remisiones, key="cliente_filter_remisiones")
+                with col_f4:
+                    chofer_options_remisiones = ['Todos'] + sorted(remisiones['chofer'].dropna().unique().tolist()) if 'chofer' in remisiones.columns else ['Todos']
+                    selected_chofer_remisiones = st.selectbox("Chofer", chofer_options_remisiones, key="chofer_filter_remisiones")
 
-        filtered_remisiones = remisiones
-        if selected_estado_remisiones == "Orden del día":
-            filtered_remisiones = filtered_remisiones[
-                (~filtered_remisiones["Estado_Normalizado"].str.contains("Realizado", na=False)) |
-                (filtered_remisiones["Dia"] == today_dia_str)
-            ]
-        if selected_contenedor_remisiones != 'Todos':
-            filtered_remisiones = filtered_remisiones[filtered_remisiones['Contenedor'] == selected_contenedor_remisiones]
-        if selected_cliente_remisiones != 'Todos':
-            filtered_remisiones = filtered_remisiones[filtered_remisiones['Cliente'] == selected_cliente_remisiones]
-        if selected_chofer_remisiones != 'Todos':
-            filtered_remisiones = filtered_remisiones[filtered_remisiones['chofer'] == selected_chofer_remisiones]
-        remisiones = filtered_remisiones
+            filtered_remisiones = remisiones
+            if selected_estado_remisiones == "Orden del día":
+                filtered_remisiones = filtered_remisiones[
+                    (~filtered_remisiones["Estado_Normalizado"].str.contains("Realizado", na=False)) |
+                    (filtered_remisiones["Dia"] == today_dia_str)
+                ]
+            if selected_contenedor_remisiones != 'Todos':
+                filtered_remisiones = filtered_remisiones[filtered_remisiones['Contenedor'] == selected_contenedor_remisiones]
+            if selected_cliente_remisiones != 'Todos':
+                filtered_remisiones = filtered_remisiones[filtered_remisiones['Cliente'] == selected_cliente_remisiones]
+            if selected_chofer_remisiones != 'Todos':
+                filtered_remisiones = filtered_remisiones[filtered_remisiones['chofer'] == selected_chofer_remisiones]
+            remisiones = filtered_remisiones
 
-        col_table4, col_assign4a = st.columns([3, 1])
-        with col_table4:
+
             remisiones_display = remisiones.copy()
             remisiones_display = remisiones_display.rename(columns={'Registro': 'Solicitud'})
             remisiones_display['ID'] = remisiones_display['id'].apply(lambda x: f"E{x:03d}")
@@ -345,42 +346,42 @@ def show_page_trafico_andresito():
                 use_container_width=True,
                 height=400
             )
-        if not remisiones.empty:
-            with col_assign4a:
-                st.markdown("**Asignar Chofer**")
-                selected_remision_id = st.selectbox(
-                    "Registro:",
-                    options=remisiones["id"].unique(),
-                    format_func=lambda x: f"ID {x} - {remisiones[remisiones['id']==x]['Contenedor'].iloc[0] if not remisiones[remisiones['id']==x].empty else 'N/A'}",
-                    key="remision_select"
-                )
-                chofer_name_remisiones = st.text_input("Chofer:", key="chofer_remisiones")
-                if st.button("Asignar", key="assign_remisiones"):
-                    if chofer_name_remisiones.strip():
-                        try:
-                            update_data("trafico_remisiones", selected_remision_id, {"chofer": chofer_name_remisiones.strip()})
-                            st.success(f"Chofer asignado al registro ID {selected_remision_id}")
-                            st.cache_data.clear()
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al asignar chofer: {e}")
-                    else:
-                        st.warning("Por favor ingrese el nombre del chofer")
-                st.markdown("**Asignar Fecha y Hora Fin**")
-                fecha_fin = st.date_input("Fecha fin:", key="fecha_fin_remision")
-                hora_fin = st.time_input("Hora fin:", key="hora_fin_remision")
-                if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_remision"):
-                    if fecha_fin and hora_fin:
-                        fecha_hora_fin_str = fecha_fin.strftime("%d/%m/%Y") + " " + hora_fin.strftime("%H:%M")
-                        try:
-                            update_data("trafico_remisiones", selected_remision_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
-                            st.success(f"Fecha y Hora Fin asignada al registro ID {selected_remision_id}")
-                            st.cache_data.clear()
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al asignar Fecha y Hora Fin: {e}")
-                    else:
-                        st.warning("Por favor seleccione fecha y hora")
+            if not remisiones.empty:
+                with col_assign4a:
+                    st.markdown("**Asignar Chofer**")
+                    selected_remision_id = st.selectbox(
+                        "Registro:",
+                        options=remisiones["id"].unique(),
+                        format_func=lambda x: f"ID {x} - {remisiones[remisiones['id']==x]['Contenedor'].iloc[0] if not remisiones[remisiones['id']==x].empty else 'N/A'}",
+                        key="remision_select"
+                    )
+                    chofer_name_remisiones = st.text_input("Chofer:", key="chofer_remisiones")
+                    if st.button("Asignar", key="assign_remisiones"):
+                        if chofer_name_remisiones.strip():
+                            try:
+                                update_data("trafico_remisiones", selected_remision_id, {"chofer": chofer_name_remisiones.strip()})
+                                st.success(f"Chofer asignado al registro ID {selected_remision_id}")
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Error al asignar chofer: {e}")
+                        else:
+                            st.warning("Por favor ingrese el nombre del chofer")
+                    st.markdown("**Asignar Fecha y Hora Fin**")
+                    fecha_fin = st.date_input("Fecha fin:", key="fecha_fin_remision")
+                    hora_fin = st.time_input("Hora fin:", key="hora_fin_remision")
+                    if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_remision"):
+                        if fecha_fin and hora_fin:
+                            fecha_hora_fin_str = fecha_fin.strftime("%d/%m/%Y") + " " + hora_fin.strftime("%H:%M")
+                            try:
+                                update_data("trafico_remisiones", selected_remision_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
+                                st.success(f"Fecha y Hora Fin asignada al registro ID {selected_remision_id}")
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Error al asignar Fecha y Hora Fin: {e}")
+                        else:
+                            st.warning("Por favor seleccione fecha y hora")
 
 
 
