@@ -332,7 +332,6 @@ def show_page_trafico_andresito():
                 filtered_remisiones = filtered_remisiones[filtered_remisiones['chofer'] == selected_chofer_remisiones]
             remisiones = filtered_remisiones
 
-
             remisiones_display = remisiones.copy()
             remisiones_display = remisiones_display.rename(columns={'Registro': 'Solicitud'})
             remisiones_display['ID'] = remisiones_display['id'].apply(lambda x: f"E{x:03d}")
@@ -346,42 +345,41 @@ def show_page_trafico_andresito():
                 use_container_width=True,
                 height=400
             )
-            if not remisiones.empty:
-                with col_assign4a:
-                    st.markdown("**Asignar Chofer**")
-                    selected_remision_id = st.selectbox(
-                        "Registro:",
-                        options=remisiones["id"].unique(),
-                        format_func=lambda x: f"ID {x} - {remisiones[remisiones['id']==x]['Contenedor'].iloc[0] if not remisiones[remisiones['id']==x].empty else 'N/A'}",
-                        key="remision_select"
-                    )
-                    chofer_name_remisiones = st.text_input("Chofer:", key="chofer_remisiones")
-                    if st.button("Asignar", key="assign_remisiones"):
-                        if chofer_name_remisiones.strip():
-                            try:
-                                update_data("trafico_remisiones", selected_remision_id, {"chofer": chofer_name_remisiones.strip()})
-                                st.success(f"Chofer asignado al registro ID {selected_remision_id}")
-                                st.cache_data.clear()
-                                st.rerun()
-                            except Exception as e:
-                                st.error(f"Error al asignar chofer: {e}")
-                        else:
-                            st.warning("Por favor ingrese el nombre del chofer")
-                    st.markdown("**Asignar Fecha y Hora Fin**")
-                    fecha_fin = st.date_input("Fecha fin:", key="fecha_fin_remision")
-                    hora_fin = st.time_input("Hora fin:", key="hora_fin_remision")
-                    if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_remision"):
-                        if fecha_fin and hora_fin:
-                            fecha_hora_fin_str = fecha_fin.strftime("%d/%m/%Y") + " " + hora_fin.strftime("%H:%M")
-                            try:
-                                update_data("trafico_remisiones", selected_remision_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
-                                st.success(f"Fecha y Hora Fin asignada al registro ID {selected_remision_id}")
-                                st.cache_data.clear()
-                                st.rerun()
-                            except Exception as e:
-                                st.error(f"Error al asignar Fecha y Hora Fin: {e}")
-                        else:
-                            st.warning("Por favor seleccione fecha y hora")
+        with col_assign4a:
+            st.markdown("**Asignar Chofer**")
+            selected_remision_id = st.selectbox(
+                "Registro:",
+                options=remisiones["id"].unique(),
+                format_func=lambda x: f"ID {x} - {remisiones[remisiones['id']==x]['Contenedor'].iloc[0] if not remisiones[remisiones['id']==x].empty else 'N/A'}",
+                key="remision_select"
+            )
+            chofer_name_remisiones = st.text_input("Chofer:", key="chofer_remisiones")
+            if st.button("Asignar", key="assign_remisiones"):
+                if chofer_name_remisiones.strip():
+                    try:
+                        update_data("trafico_remisiones", selected_remision_id, {"chofer": chofer_name_remisiones.strip()})
+                        st.success(f"Chofer asignado al registro ID {selected_remision_id}")
+                        st.cache_data.clear()
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Error al asignar chofer: {e}")
+                else:
+                    st.warning("Por favor ingrese el nombre del chofer")
+            st.markdown("**Asignar Fecha y Hora Fin**")
+            fecha_fin = st.date_input("Fecha fin:", key="fecha_fin_remision")
+            hora_fin = st.time_input("Hora fin:", key="hora_fin_remision")
+            if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_remision"):
+                if fecha_fin and hora_fin:
+                    fecha_hora_fin_str = fecha_fin.strftime("%d/%m/%Y") + " " + hora_fin.strftime("%H:%M")
+                    try:
+                        update_data("trafico_remisiones", selected_remision_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
+                        st.success(f"Fecha y Hora Fin asignada al registro ID {selected_remision_id}")
+                        st.cache_data.clear()
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Error al asignar Fecha y Hora Fin: {e}")
+                else:
+                    st.warning("Por favor seleccione fecha y hora")
 
 
 
