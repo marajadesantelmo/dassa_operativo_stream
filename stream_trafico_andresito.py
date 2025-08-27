@@ -85,6 +85,7 @@ def show_page_trafico_andresito():
     # --- Tab 1: Traslados IMPO ---
     with tabs[0]:
         st.subheader("Desde Puerto a DASSA")
+
         col_table1, col_assign1 = st.columns([3, 1])
         with col_table1:
             with st.container():
@@ -114,7 +115,7 @@ def show_page_trafico_andresito():
                 if selected_chofer != 'Todos':
                     filtered_arribos = filtered_arribos[filtered_arribos['chofer'] == selected_chofer]
                 arribos = filtered_arribos
-
+            
             arribos_display = arribos.copy()
             arribos_display = arribos_display.rename(columns={'Registro': 'Solicitud'})
             arribos_display['ID'] = arribos_display['id'].apply(lambda x: f"I{x:03d}")
@@ -152,34 +153,35 @@ def show_page_trafico_andresito():
     # --- Tab 2: Vacíos IMPO a devolver ---
     with tabs[1]:
         st.subheader("Vacíos IMPO a devolver")
+        with st.container():
+            col_f1, col_f2, col_f3, col_f4 = st.columns(4)
+            with col_f1:
+                estado_options_pendiente = ["Orden del día", "Todos"]
+                selected_estado_pendiente = st.selectbox("Estado", estado_options_pendiente, key="estado_filter_pendiente")
+            with col_f2:
+                contenedor_options_pendiente = ['Todos'] + sorted(pendiente_desconsolidar['Contenedor'].dropna().unique().tolist()) if 'Contenedor' in pendiente_desconsolidar.columns else ['Todos']
+                selected_contenedor_pendiente = st.selectbox("Contenedor", contenedor_options_pendiente, key="contenedor_filter_pendiente")
+            with col_f3:
+                cliente_options_pendiente = ['Todos'] + sorted(pendiente_desconsolidar['Cliente'].dropna().unique().tolist()) if 'Cliente' in pendiente_desconsolidar.columns else ['Todos']
+                selected_cliente_pendiente = st.selectbox("Cliente", cliente_options_pendiente, key="cliente_filter_pendiente")
+            with col_f4:
+                chofer_options_pendiente = ['Todos'] + sorted(pendiente_desconsolidar['chofer'].dropna().unique().tolist()) if 'chofer' in pendiente_desconsolidar.columns else ['Todos']
+                selected_chofer_pendiente = st.selectbox("Chofer", chofer_options_pendiente, key="chofer_filter_pendiente")
+
+        filtered_pendiente_desconsolidar = pendiente_desconsolidar
+        if selected_estado_pendiente == "Orden del día":
+            filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[
+                (~filtered_pendiente_desconsolidar["Estado"].str.contains("Realizado", na=False)) ]
+        if selected_contenedor_pendiente != 'Todos':
+            filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[filtered_pendiente_desconsolidar['Contenedor'] == selected_contenedor_pendiente]
+        if selected_cliente_pendiente != 'Todos':
+            filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[filtered_pendiente_desconsolidar['Cliente'] == selected_cliente_pendiente]
+        if selected_chofer_pendiente != 'Todos':
+            filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[filtered_pendiente_desconsolidar['chofer'] == selected_chofer_pendiente]
+        pendiente_desconsolidar = filtered_pendiente_desconsolidar
+
         col_table2, col_assign2 = st.columns([3, 1])
         with col_table2:
-            with st.container():
-                col_f1, col_f2, col_f3, col_f4 = st.columns(4)
-                with col_f1:
-                    estado_options_pendiente = ["Orden del día", "Todos"]
-                    selected_estado_pendiente = st.selectbox("Estado", estado_options_pendiente, key="estado_filter_pendiente")
-                with col_f2:
-                    contenedor_options_pendiente = ['Todos'] + sorted(pendiente_desconsolidar['Contenedor'].dropna().unique().tolist()) if 'Contenedor' in pendiente_desconsolidar.columns else ['Todos']
-                    selected_contenedor_pendiente = st.selectbox("Contenedor", contenedor_options_pendiente, key="contenedor_filter_pendiente")
-                with col_f3:
-                    cliente_options_pendiente = ['Todos'] + sorted(pendiente_desconsolidar['Cliente'].dropna().unique().tolist()) if 'Cliente' in pendiente_desconsolidar.columns else ['Todos']
-                    selected_cliente_pendiente = st.selectbox("Cliente", cliente_options_pendiente, key="cliente_filter_pendiente")
-                with col_f4:
-                    chofer_options_pendiente = ['Todos'] + sorted(pendiente_desconsolidar['chofer'].dropna().unique().tolist()) if 'chofer' in pendiente_desconsolidar.columns else ['Todos']
-                    selected_chofer_pendiente = st.selectbox("Chofer", chofer_options_pendiente, key="chofer_filter_pendiente")
-                filtered_pendiente_desconsolidar = pendiente_desconsolidar
-                if selected_estado_pendiente == "Orden del día":
-                    filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[
-                        (~filtered_pendiente_desconsolidar["Estado"].str.contains("Realizado", na=False)) ]
-                if selected_contenedor_pendiente != 'Todos':
-                    filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[filtered_pendiente_desconsolidar['Contenedor'] == selected_contenedor_pendiente]
-                if selected_cliente_pendiente != 'Todos':
-                    filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[filtered_pendiente_desconsolidar['Cliente'] == selected_cliente_pendiente]
-                if selected_chofer_pendiente != 'Todos':
-                    filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[filtered_pendiente_desconsolidar['chofer'] == selected_chofer_pendiente]
-                pendiente_desconsolidar = filtered_pendiente_desconsolidar
-
             pendiente_desconsolidar_display = pendiente_desconsolidar.copy()
             pendiente_desconsolidar_display = pendiente_desconsolidar_display.rename(columns={'Registro': 'Solicitud'})
             pendiente_desconsolidar_display['ID'] = pendiente_desconsolidar_display['id'].apply(lambda x: f"V{x:03d}")
@@ -232,36 +234,37 @@ def show_page_trafico_andresito():
     # --- Tab 3: Retiros Vacíos EXPO ---
     with tabs[2]:
         st.subheader("Retiros de Vacíos EXPO")
+        with st.container():
+            col_f1, col_f2, col_f3, col_f4 = st.columns(4)
+            with col_f1:
+                estado_options_expo = ["Orden del día", "Todos"]
+                selected_estado_expo = st.selectbox("Estado", estado_options_expo, key="estado_filter_expo")
+            with col_f2:
+                booking_options_expo = ['Todos'] + sorted(arribos_expo_ctns['Booking'].dropna().unique().tolist()) if 'Booking' in arribos_expo_ctns.columns else ['Todos']
+                selected_booking_expo = st.selectbox("Booking", booking_options_expo, key="booking_filter_expo")
+            with col_f3:
+                cliente_options_expo = ['Todos'] + sorted(arribos_expo_ctns['Cliente'].dropna().unique().tolist()) if 'Cliente' in arribos_expo_ctns.columns else ['Todos']
+                selected_cliente_expo = st.selectbox("Cliente", cliente_options_expo, key="cliente_filter_expo")
+            with col_f4:
+                chofer_options_expo = ['Todos'] + sorted(arribos_expo_ctns['chofer'].dropna().unique().tolist()) if 'chofer' in arribos_expo_ctns.columns else ['Todos']
+                selected_chofer_expo = st.selectbox("Chofer", chofer_options_expo, key="chofer_filter_expo")
+
+            filtered_arribos_expo_ctns = arribos_expo_ctns
+            if selected_estado_expo == "Orden del día":
+                filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[
+                    (~filtered_arribos_expo_ctns["Estado"].str.contains("Realizado", na=False)) |
+                    (filtered_arribos_expo_ctns["Fecha"] == today_str)
+                ]
+            if selected_booking_expo != 'Todos':
+                filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[filtered_arribos_expo_ctns['Booking'] == selected_booking_expo]
+            if selected_cliente_expo != 'Todos':
+                filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[filtered_arribos_expo_ctns['Cliente'] == selected_cliente_expo]
+            if selected_chofer_expo != 'Todos':
+                filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[filtered_arribos_expo_ctns['chofer'] == selected_chofer_expo]
+            arribos_expo_ctns = filtered_arribos_expo_ctns
+
         col_table3, col_assign3 = st.columns([3, 1])
         with col_table3:
-            with st.container():
-                col_f1, col_f2, col_f3, col_f4 = st.columns(4)
-                with col_f1:
-                    estado_options_expo = ["Orden del día", "Todos"]
-                    selected_estado_expo = st.selectbox("Estado", estado_options_expo, key="estado_filter_expo")
-                with col_f2:
-                    booking_options_expo = ['Todos'] + sorted(arribos_expo_ctns['Booking'].dropna().unique().tolist()) if 'Booking' in arribos_expo_ctns.columns else ['Todos']
-                    selected_booking_expo = st.selectbox("Booking", booking_options_expo, key="booking_filter_expo")
-                with col_f3:
-                    cliente_options_expo = ['Todos'] + sorted(arribos_expo_ctns['Cliente'].dropna().unique().tolist()) if 'Cliente' in arribos_expo_ctns.columns else ['Todos']
-                    selected_cliente_expo = st.selectbox("Cliente", cliente_options_expo, key="cliente_filter_expo")
-                with col_f4:
-                    chofer_options_expo = ['Todos'] + sorted(arribos_expo_ctns['chofer'].dropna().unique().tolist()) if 'chofer' in arribos_expo_ctns.columns else ['Todos']
-                    selected_chofer_expo = st.selectbox("Chofer", chofer_options_expo, key="chofer_filter_expo")
-                filtered_arribos_expo_ctns = arribos_expo_ctns
-                if selected_estado_expo == "Orden del día":
-                    filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[
-                        (~filtered_arribos_expo_ctns["Estado"].str.contains("Realizado", na=False)) |
-                        (filtered_arribos_expo_ctns["Fecha"] == today_str)
-                    ]
-                if selected_booking_expo != 'Todos':
-                    filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[filtered_arribos_expo_ctns['Booking'] == selected_booking_expo]
-                if selected_cliente_expo != 'Todos':
-                    filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[filtered_arribos_expo_ctns['Cliente'] == selected_cliente_expo]
-                if selected_chofer_expo != 'Todos':
-                    filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[filtered_arribos_expo_ctns['chofer'] == selected_chofer_expo]
-                arribos_expo_ctns = filtered_arribos_expo_ctns
-
             arribos_expo_ctns_display = arribos_expo_ctns.copy()
             arribos_expo_ctns_display = arribos_expo_ctns_display.rename(columns={'Registro': 'Solicitud'})
             arribos_expo_ctns_display['ID'] = arribos_expo_ctns_display['id'].apply(lambda x: f"B{x:03d}")
@@ -300,36 +303,37 @@ def show_page_trafico_andresito():
     # --- Tab 4: Remisiones DASSA a puerto ---
     with tabs[3]:
         st.subheader("Remisiones de DASSA a puerto")
+        with st.container():
+            col_f1, col_f2, col_f3, col_f4 = st.columns(4)
+            with col_f1:
+                estado_options_remisiones = ["Orden del día", "Todos"]
+                selected_estado_remisiones = st.selectbox("Estado", estado_options_remisiones, key="estado_filter_remisiones")
+            with col_f2:
+                contenedor_options_remisiones = ['Todos'] + sorted(remisiones['Contenedor'].dropna().unique().tolist()) if 'Contenedor' in remisiones.columns else ['Todos']
+                selected_contenedor_remisiones = st.selectbox("Contenedor", contenedor_options_remisiones, key="contenedor_filter_remisiones")
+            with col_f3:
+                cliente_options_remisiones = ['Todos'] + sorted(remisiones['Cliente'].dropna().unique().tolist()) if 'Cliente' in remisiones.columns else ['Todos']
+                selected_cliente_remisiones = st.selectbox("Cliente", cliente_options_remisiones, key="cliente_filter_remisiones")
+            with col_f4:
+                chofer_options_remisiones = ['Todos'] + sorted(remisiones['chofer'].dropna().unique().tolist()) if 'chofer' in remisiones.columns else ['Todos']
+                selected_chofer_remisiones = st.selectbox("Chofer", chofer_options_remisiones, key="chofer_filter_remisiones")
+
+        filtered_remisiones = remisiones
+        if selected_estado_remisiones == "Orden del día":
+            filtered_remisiones = filtered_remisiones[
+                (~filtered_remisiones["Estado_Normalizado"].str.contains("Realizado", na=False)) |
+                (filtered_remisiones["Dia"] == today_dia_str)
+            ]
+        if selected_contenedor_remisiones != 'Todos':
+            filtered_remisiones = filtered_remisiones[filtered_remisiones['Contenedor'] == selected_contenedor_remisiones]
+        if selected_cliente_remisiones != 'Todos':
+            filtered_remisiones = filtered_remisiones[filtered_remisiones['Cliente'] == selected_cliente_remisiones]
+        if selected_chofer_remisiones != 'Todos':
+            filtered_remisiones = filtered_remisiones[filtered_remisiones['chofer'] == selected_chofer_remisiones]
+        remisiones = filtered_remisiones
+
         col_table4, col_assign4a = st.columns([3, 1])
         with col_table4:
-            with st.container():
-                col_f1, col_f2, col_f3, col_f4 = st.columns(4)
-                with col_f1:
-                    estado_options_remisiones = ["Orden del día", "Todos"]
-                    selected_estado_remisiones = st.selectbox("Estado", estado_options_remisiones, key="estado_filter_remisiones")
-                with col_f2:
-                    contenedor_options_remisiones = ['Todos'] + sorted(remisiones['Contenedor'].dropna().unique().tolist()) if 'Contenedor' in remisiones.columns else ['Todos']
-                    selected_contenedor_remisiones = st.selectbox("Contenedor", contenedor_options_remisiones, key="contenedor_filter_remisiones")
-                with col_f3:
-                    cliente_options_remisiones = ['Todos'] + sorted(remisiones['Cliente'].dropna().unique().tolist()) if 'Cliente' in remisiones.columns else ['Todos']
-                    selected_cliente_remisiones = st.selectbox("Cliente", cliente_options_remisiones, key="cliente_filter_remisiones")
-                with col_f4:
-                    chofer_options_remisiones = ['Todos'] + sorted(remisiones['chofer'].dropna().unique().tolist()) if 'chofer' in remisiones.columns else ['Todos']
-                    selected_chofer_remisiones = st.selectbox("Chofer", chofer_options_remisiones, key="chofer_filter_remisiones")
-                filtered_remisiones = remisiones
-                if selected_estado_remisiones == "Orden del día":
-                    filtered_remisiones = filtered_remisiones[
-                        (~filtered_remisiones["Estado_Normalizado"].str.contains("Realizado", na=False)) |
-                        (filtered_remisiones["Dia"] == today_dia_str)
-                    ]
-                if selected_contenedor_remisiones != 'Todos':
-                    filtered_remisiones = filtered_remisiones[filtered_remisiones['Contenedor'] == selected_contenedor_remisiones]
-                if selected_cliente_remisiones != 'Todos':
-                    filtered_remisiones = filtered_remisiones[filtered_remisiones['Cliente'] == selected_cliente_remisiones]
-                if selected_chofer_remisiones != 'Todos':
-                    filtered_remisiones = filtered_remisiones[filtered_remisiones['chofer'] == selected_chofer_remisiones]
-                remisiones = filtered_remisiones
-
             remisiones_display = remisiones.copy()
             remisiones_display = remisiones_display.rename(columns={'Registro': 'Solicitud'})
             remisiones_display['ID'] = remisiones_display['id'].apply(lambda x: f"E{x:03d}")
@@ -375,10 +379,6 @@ def show_page_trafico_andresito():
                             st.success(f"Fecha y Hora Fin asignada al registro ID {selected_remision_id}")
                             st.cache_data.clear()
                             st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al asignar Fecha y Hora Fin: {e}")
-                    else:
-                        st.warning("Por favor seleccione fecha y hora")
                         except Exception as e:
                             st.error(f"Error al asignar Fecha y Hora Fin: {e}")
                     else:
