@@ -318,33 +318,33 @@ def show_page_trafico_andresito():
                     chofer_options_remisiones = ['Todos'] + sorted(remisiones['chofer'].dropna().unique().tolist()) if 'chofer' in remisiones.columns else ['Todos']
                     selected_chofer_remisiones = st.selectbox("Chofer", chofer_options_remisiones, key="chofer_filter_remisiones")
 
-            filtered_remisiones = remisiones
-            if selected_estado_remisiones == "Orden del día":
-                filtered_remisiones = filtered_remisiones[
-                    (~filtered_remisiones["Estado_Normalizado"].str.contains("Realizado", na=False)) |
-                    (filtered_remisiones["Dia"] == today_dia_str)
-                ]
-            if selected_contenedor_remisiones != 'Todos':
-                filtered_remisiones = filtered_remisiones[filtered_remisiones['Contenedor'] == selected_contenedor_remisiones]
-            if selected_cliente_remisiones != 'Todos':
-                filtered_remisiones = filtered_remisiones[filtered_remisiones['Cliente'] == selected_cliente_remisiones]
-            if selected_chofer_remisiones != 'Todos':
-                filtered_remisiones = filtered_remisiones[filtered_remisiones['chofer'] == selected_chofer_remisiones]
-            remisiones = filtered_remisiones
+                filtered_remisiones = remisiones
+                if selected_estado_remisiones == "Orden del día":
+                    filtered_remisiones = filtered_remisiones[
+                        (~filtered_remisiones["Estado_Normalizado"].str.contains("Realizado", na=False)) |
+                        (filtered_remisiones["Dia"] == today_dia_str)
+                    ]
+                if selected_contenedor_remisiones != 'Todos':
+                    filtered_remisiones = filtered_remisiones[filtered_remisiones['Contenedor'] == selected_contenedor_remisiones]
+                if selected_cliente_remisiones != 'Todos':
+                    filtered_remisiones = filtered_remisiones[filtered_remisiones['Cliente'] == selected_cliente_remisiones]
+                if selected_chofer_remisiones != 'Todos':
+                    filtered_remisiones = filtered_remisiones[filtered_remisiones['chofer'] == selected_chofer_remisiones]
+                remisiones = filtered_remisiones
 
-            remisiones_display = remisiones.copy()
-            remisiones_display = remisiones_display.rename(columns={'Registro': 'Solicitud'})
-            remisiones_display['ID'] = remisiones_display['id'].apply(lambda x: f"E{x:03d}")
-            cols = ['ID'] + [col for col in remisiones_display.columns if col != 'ID']
-            remisiones_display = remisiones_display[cols]
-            remisiones_display = remisiones_display.drop(columns=['id', 'Estado_Normalizado'], errors='ignore')
-            st.dataframe(
-                remisiones_display.style.apply(highlight, axis=1),
-                column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
-                hide_index=True,
-                use_container_width=True,
-                height=400
-            )
+                remisiones_display = remisiones.copy()
+                remisiones_display = remisiones_display.rename(columns={'Registro': 'Solicitud'})
+                remisiones_display['ID'] = remisiones_display['id'].apply(lambda x: f"E{x:03d}")
+                cols = ['ID'] + [col for col in remisiones_display.columns if col != 'ID']
+                remisiones_display = remisiones_display[cols]
+                remisiones_display = remisiones_display.drop(columns=['id', 'Estado_Normalizado'], errors='ignore')
+                st.dataframe(
+                    remisiones_display.style.apply(highlight, axis=1),
+                    column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
+                    hide_index=True,
+                    use_container_width=True,
+                    height=400
+                )
         with col_assign4a:
             st.markdown("**Asignar Chofer**")
             selected_remision_id = st.selectbox(
