@@ -3,14 +3,15 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 36961,01/09,Mafralac Alimenticia Srl,-,10080,HC,TD,                    ,69996360,0,                              ,,     ,2025-09-15,,                    ,Pendiente
 37003,05/09,Seaside Logistic Sa,-,0,  ,TD,                    ,19086151,0,                              ,,     ,2025-09-16,19086151,19086151            ,Pendiente
 37002,05/09,Seaside Logistic Sa,-,0,  ,TD,                    ,19086151,0,                              ,,     ,2025-09-16,19086151,19086151            ,Pendiente
-36972,27/08,Mercovan Argentina S.A.,-,0,  ,TD,                    ,54835559,0,                              ,,     ,2025-09-15,54835559,54835559            ,Pendiente
+36972,27/08,Mercovan Argentina S.A.,CAIU-211969-1,10080,DR,TD,       *************,54835559,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:54,2025-09-15,54835559,54835559            ,10:54 Arribado
 36987,27/08,Hdv Leather S.R.L.,-,0,  ,TD,                    ,257138016,0,                              ,,     ,2025-09-16,,257138016           ,Pendiente
-36986,27/08,Hdv Leather S.R.L.,-,0,  ,TD,                    ,257138016,0,                              ,,     ,2025-09-16,,257138016           ,Pendiente
-36957,27/08,Borax Argentina S A,-,Exolgan,DR,TD,                    ,17052557,0,                              ,,     ,2025-09-15,Fc 12568,                    ,Pendiente
+36986,27/08,Hdv Leather S.R.L.,TCNU-319714-1,10080,HC,TD,***************     ,257138016,1,TRANSPORTE DEL CLIENTE        ,Peril,11:04,2025-09-16,,257138016           ,11:04 Arribado
+37014,27/08,Litoral Citrus S A,-,10083,DR,TD,                    ,153IAR0651665,0,                              ,,     ,2025-09-17,,                    ,Pendiente
 37000,27/08,Borax Argentina S A,PCIU-000802-2,10,DR,TD,************        ,BUE500151900,1,TRANSPORTE DEL CLIENTE        ,Moscardini,09:44,2025-09-16,Fc 12576,                    ,09:44 Arribado
-37005,27/08,Championx Argentina Srl,-,0,  ,TD,                    ,25001EC01055684P,1,TRANSPORTE DEL CLIENTE        ,Villenas Matias,17:11,2025-09-16,,                    ,17:11 Arribado
-36973,27/08,Mercovan Argentina S.A.,-,0,  ,TD,                    ,26926574,0,                              ,,     ,2025-09-15,26926574,26926574            ,Pendiente
 36980,27/08,Hector Reboratti,MSDU-650322-9,Exolgan,HC,TD,FX32947700          ,EBKG13876536,1,TRANSPORTE DEL CLIENTE        ,Peril,08:45,2025-09-16,Ebkg13876536,EBKG13876536        ,08:45 Arribado
+37005,27/08,Championx Argentina Srl,-,0,  ,TD,                    ,25001EC01055684P,1,TRANSPORTE DEL CLIENTE        ,Villenas Matias,17:11,2025-09-16,,                    ,17:11 Arribado
+36973,27/08,Mercovan Argentina S.A.,CAIU-338221-2,0,DR,TD,***********         ,26926574,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:50,2025-09-15,26926574,26926574            ,10:50 Arribado
+36957,27/08,Borax Argentina S A,-,Exolgan,DR,TD,                    ,17052557,0,                              ,,     ,2025-09-15,Fc 12568,                    ,Pendiente
 36990,28/08,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257275060,0,                              ,,     ,2025-09-16,,                    ,Pendiente
 36988,28/08,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257138418,0,                              ,,     ,2025-09-16,,                    ,Pendiente
 36989,28/08,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257138418,0,                              ,,     ,2025-09-16,,                    ,Pendiente
