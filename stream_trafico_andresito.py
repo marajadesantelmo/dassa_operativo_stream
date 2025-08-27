@@ -137,19 +137,18 @@ def show_page_trafico_andresito():
                     format_func=lambda x: f"ID {x} - {arribos[arribos['id']==x]['Contenedor'].iloc[0] if not arribos[arribos['id']==x].empty else 'N/A'}",
                     key="arribo_select"
                 )
-                col_assign1, col_assign2 = st.columns(2)
-                with col_assign1:
-                    chofer_name_arribos = st.text_input("Chofer:", key="chofer_arribos")
-                with col_assign2:
-                    if st.button("Asignar", key="assign_arribos"):
-                        if chofer_name_arribos.strip():
-                            try:
-                                update_data("trafico_arribos", selected_arribo_id, {"chofer": chofer_name_arribos.strip()})
-                                st.success(f"Chofer asignado al registro ID {selected_arribo_id}")
-                                st.cache_data.clear()
-                                st.rerun()
-                            except Exception as e:
-                                st.error(f"Error al asignar chofer: {e}")
+                chofer_name_arribos = st.text_input("Chofer:", key="chofer_arribos")
+                if st.button("Asignar", key="assign_arribos"):
+                    if chofer_name_arribos.strip():
+                        try:
+                            update_data("trafico_arribos", selected_arribo_id, {"chofer": chofer_name_arribos.strip()})
+                            st.success(f"Chofer asignado al registro ID {selected_arribo_id}")
+                            st.cache_data.clear()
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Error al asignar chofer: {e}")
+                    else:
+                        st.warning("Por favor ingrese el nombre del chofer")
 
     # --- Tab 2: Vacíos IMPO a devolver ---
     with tabs[1]:
