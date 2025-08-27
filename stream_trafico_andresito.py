@@ -235,70 +235,69 @@ def show_page_trafico_andresito():
     with tabs[2]:
         st.subheader("Retiros de Vacíos EXPO")
         with st.container():
-            col_f1, col_f2, col_f3, col_f4 = st.columns(4)
-            with col_f1:
-                estado_options_expo = ["Orden del día", "Todos"]
-                selected_estado_expo = st.selectbox("Estado", estado_options_expo, key="estado_filter_expo")
-            with col_f2:
-                booking_options_expo = ['Todos'] + sorted(arribos_expo_ctns['Booking'].dropna().unique().tolist()) if 'Booking' in arribos_expo_ctns.columns else ['Todos']
-                selected_booking_expo = st.selectbox("Booking", booking_options_expo, key="booking_filter_expo")
-            with col_f3:
-                cliente_options_expo = ['Todos'] + sorted(arribos_expo_ctns['Cliente'].dropna().unique().tolist()) if 'Cliente' in arribos_expo_ctns.columns else ['Todos']
-                selected_cliente_expo = st.selectbox("Cliente", cliente_options_expo, key="cliente_filter_expo")
-            with col_f4:
-                chofer_options_expo = ['Todos'] + sorted(arribos_expo_ctns['chofer'].dropna().unique().tolist()) if 'chofer' in arribos_expo_ctns.columns else ['Todos']
-                selected_chofer_expo = st.selectbox("Chofer", chofer_options_expo, key="chofer_filter_expo")
+            col_table3, col_assign3 = st.columns([3, 1])
+            with col_table3:
+                col_f1, col_f2, col_f3, col_f4 = st.columns(4)
+                with col_f1:
+                    estado_options_expo = ["Orden del día", "Todos"]
+                    selected_estado_expo = st.selectbox("Estado", estado_options_expo, key="estado_filter_expo")
+                with col_f2:
+                    booking_options_expo = ['Todos'] + sorted(arribos_expo_ctns['Booking'].dropna().unique().tolist()) if 'Booking' in arribos_expo_ctns.columns else ['Todos']
+                    selected_booking_expo = st.selectbox("Booking", booking_options_expo, key="booking_filter_expo")
+                with col_f3:
+                    cliente_options_expo = ['Todos'] + sorted(arribos_expo_ctns['Cliente'].dropna().unique().tolist()) if 'Cliente' in arribos_expo_ctns.columns else ['Todos']
+                    selected_cliente_expo = st.selectbox("Cliente", cliente_options_expo, key="cliente_filter_expo")
+                with col_f4:
+                    chofer_options_expo = ['Todos'] + sorted(arribos_expo_ctns['chofer'].dropna().unique().tolist()) if 'chofer' in arribos_expo_ctns.columns else ['Todos']
+                    selected_chofer_expo = st.selectbox("Chofer", chofer_options_expo, key="chofer_filter_expo")
 
-            filtered_arribos_expo_ctns = arribos_expo_ctns
-            if selected_estado_expo == "Orden del día":
-                filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[
-                    (~filtered_arribos_expo_ctns["Estado"].str.contains("Realizado", na=False)) |
-                    (filtered_arribos_expo_ctns["Fecha"] == today_str)
-                ]
-            if selected_booking_expo != 'Todos':
-                filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[filtered_arribos_expo_ctns['Booking'] == selected_booking_expo]
-            if selected_cliente_expo != 'Todos':
-                filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[filtered_arribos_expo_ctns['Cliente'] == selected_cliente_expo]
-            if selected_chofer_expo != 'Todos':
-                filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[filtered_arribos_expo_ctns['chofer'] == selected_chofer_expo]
-            arribos_expo_ctns = filtered_arribos_expo_ctns
-
-        col_table3, col_assign3 = st.columns([3, 1])
-        with col_table3:
-            arribos_expo_ctns_display = arribos_expo_ctns.copy()
-            arribos_expo_ctns_display = arribos_expo_ctns_display.rename(columns={'Registro': 'Solicitud'})
-            arribos_expo_ctns_display['ID'] = arribos_expo_ctns_display['id'].apply(lambda x: f"B{x:03d}")
-            cols = ['ID'] + [col for col in arribos_expo_ctns_display.columns if col != 'ID']
-            arribos_expo_ctns_display = arribos_expo_ctns_display[cols]
-            arribos_expo_ctns_display = arribos_expo_ctns_display.drop(columns=['id'], errors='ignore')
-            arribos_expo_ctns_display['Estado'] = arribos_expo_ctns_display['Estado'].fillna('Pendiente')
-            st.dataframe(
-                arribos_expo_ctns_display.style.apply(highlight, axis=1),
-                hide_index=True,
-                use_container_width=True,
-                height=400
-            )
-        with col_assign3:
-            st.markdown("**Asignar Chofer**")
-            if not arribos_expo_ctns.empty:
-                selected_expo_id = st.selectbox(
-                    "Registro:",
-                    options=arribos_expo_ctns["id"].unique(),
-                    format_func=lambda x: f"ID {x} - {arribos_expo_ctns[arribos_expo_ctns['id']==x]['Booking'].iloc[0] if not arribos_expo_ctns[arribos_expo_ctns['id']==x].empty else 'N/A'}",
-                    key="expo_select"
+                filtered_arribos_expo_ctns = arribos_expo_ctns
+                if selected_estado_expo == "Orden del día":
+                    filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[
+                        (~filtered_arribos_expo_ctns["Estado"].str.contains("Realizado", na=False)) |
+                        (filtered_arribos_expo_ctns["Fecha"] == today_str)
+                    ]
+                if selected_booking_expo != 'Todos':
+                    filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[filtered_arribos_expo_ctns['Booking'] == selected_booking_expo]
+                if selected_cliente_expo != 'Todos':
+                    filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[filtered_arribos_expo_ctns['Cliente'] == selected_cliente_expo]
+                if selected_chofer_expo != 'Todos':
+                    filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[filtered_arribos_expo_ctns['chofer'] == selected_chofer_expo]
+                arribos_expo_ctns = filtered_arribos_expo_ctns
+                arribos_expo_ctns_display = arribos_expo_ctns.copy()
+                arribos_expo_ctns_display = arribos_expo_ctns_display.rename(columns={'Registro': 'Solicitud'})
+                arribos_expo_ctns_display['ID'] = arribos_expo_ctns_display['id'].apply(lambda x: f"B{x:03d}")
+                cols = ['ID'] + [col for col in arribos_expo_ctns_display.columns if col != 'ID']
+                arribos_expo_ctns_display = arribos_expo_ctns_display[cols]
+                arribos_expo_ctns_display = arribos_expo_ctns_display.drop(columns=['id'], errors='ignore')
+                arribos_expo_ctns_display['Estado'] = arribos_expo_ctns_display['Estado'].fillna('Pendiente')
+                st.dataframe(
+                    arribos_expo_ctns_display.style.apply(highlight, axis=1),
+                    hide_index=True,
+                    use_container_width=True,
+                    height=400
                 )
-                chofer_name_expo = st.text_input("Chofer:", key="chofer_expo")
-                if st.button("Asignar", key="assign_expo"):
-                    if chofer_name_expo.strip():
-                        try:
-                            update_data("trafico_arribos_expo_ctns", selected_expo_id, {"chofer": chofer_name_expo.strip()})
-                            st.success(f"Chofer asignado al registro ID {selected_expo_id}")
-                            st.cache_data.clear()
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al asignar chofer: {e}")
-                    else:
-                        st.warning("Por favor ingrese el nombre del chofer")
+            with col_assign3:
+                st.markdown("**Asignar Chofer**")
+                if not arribos_expo_ctns.empty:
+                    selected_expo_id = st.selectbox(
+                        "Registro:",
+                        options=arribos_expo_ctns["id"].unique(),
+                        format_func=lambda x: f"ID {x} - {arribos_expo_ctns[arribos_expo_ctns['id']==x]['Booking'].iloc[0] if not arribos_expo_ctns[arribos_expo_ctns['id']==x].empty else 'N/A'}",
+                        key="expo_select"
+                    )
+                    chofer_name_expo = st.text_input("Chofer:", key="chofer_expo")
+                    if st.button("Asignar", key="assign_expo"):
+                        if chofer_name_expo.strip():
+                            try:
+                                update_data("trafico_arribos_expo_ctns", selected_expo_id, {"chofer": chofer_name_expo.strip()})
+                                st.success(f"Chofer asignado al registro ID {selected_expo_id}")
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Error al asignar chofer: {e}")
+                        else:
+                            st.warning("Por favor ingrese el nombre del chofer")
 
     # --- Tab 4: Remisiones DASSA a puerto ---
     with tabs[3]:
