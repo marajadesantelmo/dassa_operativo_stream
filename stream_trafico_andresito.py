@@ -27,7 +27,8 @@ def fetch_data_trafico_andresito():
             lambda x: x[:2] + ":" + x[2:] if len(x) >= 4 and x.isdigit() else 
                      ('0' + x[0] + ':' + x[1:] if len(x) == 3 and x.isdigit() else x)
         )
-    
+
+
     pendiente_desconsolidar = fetch_table_data("trafico_pendiente_desconsolidar")
     pendiente_desconsolidar['Registro'] = pd.to_datetime(pendiente_desconsolidar['fecha_registro']) - pd.Timedelta(hours=3)
     pendiente_desconsolidar['Registro'] = pendiente_desconsolidar['Registro'].dt.strftime('%d/%m/%Y %H:%M')
