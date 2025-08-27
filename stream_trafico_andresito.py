@@ -154,82 +154,81 @@ def show_page_trafico_andresito():
     with tabs[1]:
         st.subheader("Vacíos IMPO a devolver")
         with st.container():
-            col_f1, col_f2, col_f3, col_f4 = st.columns(4)
-            with col_f1:
-                estado_options_pendiente = ["Orden del día", "Todos"]
-                selected_estado_pendiente = st.selectbox("Estado", estado_options_pendiente, key="estado_filter_pendiente")
-            with col_f2:
-                contenedor_options_pendiente = ['Todos'] + sorted(pendiente_desconsolidar['Contenedor'].dropna().unique().tolist()) if 'Contenedor' in pendiente_desconsolidar.columns else ['Todos']
-                selected_contenedor_pendiente = st.selectbox("Contenedor", contenedor_options_pendiente, key="contenedor_filter_pendiente")
-            with col_f3:
-                cliente_options_pendiente = ['Todos'] + sorted(pendiente_desconsolidar['Cliente'].dropna().unique().tolist()) if 'Cliente' in pendiente_desconsolidar.columns else ['Todos']
-                selected_cliente_pendiente = st.selectbox("Cliente", cliente_options_pendiente, key="cliente_filter_pendiente")
-            with col_f4:
-                chofer_options_pendiente = ['Todos'] + sorted(pendiente_desconsolidar['chofer'].dropna().unique().tolist()) if 'chofer' in pendiente_desconsolidar.columns else ['Todos']
-                selected_chofer_pendiente = st.selectbox("Chofer", chofer_options_pendiente, key="chofer_filter_pendiente")
+            col_table2, col_assign2 = st.columns([3, 1])
+            with col_table2:
+                col_f1, col_f2, col_f3, col_f4 = st.columns(4)
+                with col_f1:
+                    estado_options_pendiente = ["Orden del día", "Todos"]
+                    selected_estado_pendiente = st.selectbox("Estado", estado_options_pendiente, key="estado_filter_pendiente")
+                with col_f2:
+                    contenedor_options_pendiente = ['Todos'] + sorted(pendiente_desconsolidar['Contenedor'].dropna().unique().tolist()) if 'Contenedor' in pendiente_desconsolidar.columns else ['Todos']
+                    selected_contenedor_pendiente = st.selectbox("Contenedor", contenedor_options_pendiente, key="contenedor_filter_pendiente")
+                with col_f3:
+                    cliente_options_pendiente = ['Todos'] + sorted(pendiente_desconsolidar['Cliente'].dropna().unique().tolist()) if 'Cliente' in pendiente_desconsolidar.columns else ['Todos']
+                    selected_cliente_pendiente = st.selectbox("Cliente", cliente_options_pendiente, key="cliente_filter_pendiente")
+                with col_f4:
+                    chofer_options_pendiente = ['Todos'] + sorted(pendiente_desconsolidar['chofer'].dropna().unique().tolist()) if 'chofer' in pendiente_desconsolidar.columns else ['Todos']
+                    selected_chofer_pendiente = st.selectbox("Chofer", chofer_options_pendiente, key="chofer_filter_pendiente")
 
-        filtered_pendiente_desconsolidar = pendiente_desconsolidar
-        if selected_estado_pendiente == "Orden del día":
-            filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[
-                (~filtered_pendiente_desconsolidar["Estado"].str.contains("Realizado", na=False)) ]
-        if selected_contenedor_pendiente != 'Todos':
-            filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[filtered_pendiente_desconsolidar['Contenedor'] == selected_contenedor_pendiente]
-        if selected_cliente_pendiente != 'Todos':
-            filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[filtered_pendiente_desconsolidar['Cliente'] == selected_cliente_pendiente]
-        if selected_chofer_pendiente != 'Todos':
-            filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[filtered_pendiente_desconsolidar['chofer'] == selected_chofer_pendiente]
-        pendiente_desconsolidar = filtered_pendiente_desconsolidar
-
-        col_table2, col_assign2 = st.columns([3, 1])
-        with col_table2:
-            pendiente_desconsolidar_display = pendiente_desconsolidar.copy()
-            pendiente_desconsolidar_display = pendiente_desconsolidar_display.rename(columns={'Registro': 'Solicitud'})
-            pendiente_desconsolidar_display['ID'] = pendiente_desconsolidar_display['id'].apply(lambda x: f"V{x:03d}")
-            cols = ['ID'] + [col for col in pendiente_desconsolidar_display.columns if col != 'ID']
-            pendiente_desconsolidar_display = pendiente_desconsolidar_display[cols]
-            pendiente_desconsolidar_display = pendiente_desconsolidar_display.drop(columns=['id'], errors='ignore')
-            st.dataframe(
-                pendiente_desconsolidar_display.style.apply(highlight, axis=1),
-                hide_index=True,
-                use_container_width=True,
-                height=400
-            )
-        with col_assign2:
-            st.markdown("**Asignar Chofer**")
-            if not pendiente_desconsolidar.empty:
-                selected_pendiente_id = st.selectbox(
-                    "Registro:",
-                    options=pendiente_desconsolidar["id"].unique(),
-                    format_func=lambda x: f"ID {x} - {pendiente_desconsolidar[pendiente_desconsolidar['id']==x]['Contenedor'].iloc[0] if not pendiente_desconsolidar[pendiente_desconsolidar['id']==x].empty else 'N/A'}",
-                    key="pendiente_select"
+                filtered_pendiente_desconsolidar = pendiente_desconsolidar
+                if selected_estado_pendiente == "Orden del día":
+                    filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[
+                        (~filtered_pendiente_desconsolidar["Estado"].str.contains("Realizado", na=False)) ]
+                if selected_contenedor_pendiente != 'Todos':
+                    filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[filtered_pendiente_desconsolidar['Contenedor'] == selected_contenedor_pendiente]
+                if selected_cliente_pendiente != 'Todos':
+                    filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[filtered_pendiente_desconsolidar['Cliente'] == selected_cliente_pendiente]
+                if selected_chofer_pendiente != 'Todos':
+                    filtered_pendiente_desconsolidar = filtered_pendiente_desconsolidar[filtered_pendiente_desconsolidar['chofer'] == selected_chofer_pendiente]
+                pendiente_desconsolidar = filtered_pendiente_desconsolidar
+                pendiente_desconsolidar_display = pendiente_desconsolidar.copy()
+                pendiente_desconsolidar_display = pendiente_desconsolidar_display.rename(columns={'Registro': 'Solicitud'})
+                pendiente_desconsolidar_display['ID'] = pendiente_desconsolidar_display['id'].apply(lambda x: f"V{x:03d}")
+                cols = ['ID'] + [col for col in pendiente_desconsolidar_display.columns if col != 'ID']
+                pendiente_desconsolidar_display = pendiente_desconsolidar_display[cols]
+                pendiente_desconsolidar_display = pendiente_desconsolidar_display.drop(columns=['id'], errors='ignore')
+                st.dataframe(
+                    pendiente_desconsolidar_display.style.apply(highlight, axis=1),
+                    hide_index=True,
+                    use_container_width=True,
+                    height=400
                 )
-                chofer_name_pendiente = st.text_input("Chofer:", key="chofer_pendiente")
-                if st.button("Asignar", key="assign_pendiente"):
-                    if chofer_name_pendiente.strip():
-                        try:
-                            update_data("trafico_pendiente_desconsolidar", selected_pendiente_id, {"chofer": chofer_name_pendiente.strip()})
-                            st.success(f"Chofer asignado al registro ID {selected_pendiente_id}")
-                            st.cache_data.clear()
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al asignar chofer: {e}")
-                    else:
-                        st.warning("Por favor ingrese el nombre del chofer")
-                st.markdown("**Asignar Fecha y Hora Fin**")
-                fecha_fin_pte = st.date_input("Fecha fin:", key="fecha_fin_pendiente")
-                hora_fin_pte = st.time_input("Hora fin:", key="hora_fin_pendiente")
-                if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_pendiente"):
-                    if fecha_fin_pte and hora_fin_pte:
-                        fecha_hora_fin_str = fecha_fin_pte.strftime("%d/%m/%Y") + " " + hora_fin_pte.strftime("%H:%M")
-                        try:
-                            update_data("trafico_pendiente_desconsolidar", selected_pendiente_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
-                            st.success(f"Fecha y Hora Fin asignada al registro ID {selected_pendiente_id}")
-                            st.cache_data.clear()
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al asignar Fecha y Hora Fin: {e}")
-                    else:
-                        st.warning("Por favor seleccione fecha y hora")
+            with col_assign2:
+                st.markdown("**Asignar Chofer**")
+                if not pendiente_desconsolidar.empty:
+                    selected_pendiente_id = st.selectbox(
+                        "Registro:",
+                        options=pendiente_desconsolidar["id"].unique(),
+                        format_func=lambda x: f"ID {x} - {pendiente_desconsolidar[pendiente_desconsolidar['id']==x]['Contenedor'].iloc[0] if not pendiente_desconsolidar[pendiente_desconsolidar['id']==x].empty else 'N/A'}",
+                        key="pendiente_select"
+                    )
+                    chofer_name_pendiente = st.text_input("Chofer:", key="chofer_pendiente")
+                    if st.button("Asignar", key="assign_pendiente"):
+                        if chofer_name_pendiente.strip():
+                            try:
+                                update_data("trafico_pendiente_desconsolidar", selected_pendiente_id, {"chofer": chofer_name_pendiente.strip()})
+                                st.success(f"Chofer asignado al registro ID {selected_pendiente_id}")
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Error al asignar chofer: {e}")
+                        else:
+                            st.warning("Por favor ingrese el nombre del chofer")
+                    st.markdown("**Asignar Fecha y Hora Fin**")
+                    fecha_fin_pte = st.date_input("Fecha fin:", key="fecha_fin_pendiente")
+                    hora_fin_pte = st.time_input("Hora fin:", key="hora_fin_pendiente")
+                    if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_pendiente"):
+                        if fecha_fin_pte and hora_fin_pte:
+                            fecha_hora_fin_str = fecha_fin_pte.strftime("%d/%m/%Y") + " " + hora_fin_pte.strftime("%H:%M")
+                            try:
+                                update_data("trafico_pendiente_desconsolidar", selected_pendiente_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
+                                st.success(f"Fecha y Hora Fin asignada al registro ID {selected_pendiente_id}")
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Error al asignar Fecha y Hora Fin: {e}")
+                        else:
+                            st.warning("Por favor seleccione fecha y hora")
 
     # --- Tab 3: Retiros Vacíos EXPO ---
     with tabs[2]:
