@@ -85,37 +85,37 @@ def show_page_trafico_andresito():
     # --- Tab 1: Traslados IMPO ---
     with tabs[0]:
         st.subheader("Desde Puerto a DASSA")
-        with st.container():
-            col_f1, col_f2, col_f3, col_f4 = st.columns(4)
-            with col_f1:
-                estado_options = ["Orden del día", "Todos"]
-                selected_estado = st.selectbox("Estado", estado_options, key="estado_filter_arribos")
-            with col_f2:
-                contenedor_options = ['Todos'] + sorted(arribos['Contenedor'].dropna().unique().tolist()) if 'Contenedor' in arribos.columns else ['Todos']
-                selected_contenedor = st.selectbox("Contenedor", contenedor_options, key="contenedor_filter_arribos")
-            with col_f3:
-                cliente_options = ['Todos'] + sorted(arribos['Cliente'].dropna().unique().tolist()) if 'Cliente' in arribos.columns else ['Todos']
-                selected_cliente = st.selectbox("Cliente", cliente_options, key="cliente_filter_arribos")
-            with col_f4:
-                chofer_options = ['Todos'] + sorted(arribos['chofer'].dropna().unique().tolist()) if 'chofer' in arribos.columns else ['Todos']
-                selected_chofer = st.selectbox("Chofer", chofer_options, key="chofer_filter_arribos")
-
-        filtered_arribos = arribos
-        if selected_estado == "Orden del día":
-            filtered_arribos = filtered_arribos[
-                (~filtered_arribos["Estado_Normalizado"].str.contains("Arribado", na=False)) |
-                (filtered_arribos["Fecha"] == today_str)
-            ]
-        if selected_contenedor != 'Todos':
-            filtered_arribos = filtered_arribos[filtered_arribos['Contenedor'] == selected_contenedor]
-        if selected_cliente != 'Todos':
-            filtered_arribos = filtered_arribos[filtered_arribos['Cliente'] == selected_cliente]
-        if selected_chofer != 'Todos':
-            filtered_arribos = filtered_arribos[filtered_arribos['chofer'] == selected_chofer]
-        arribos = filtered_arribos
 
         col_table1, col_assign1 = st.columns([3, 1])
         with col_table1:
+            with st.container():
+                col_f1, col_f2, col_f3, col_f4 = st.columns(4)
+                with col_f1:
+                    estado_options = ["Orden del día", "Todos"]
+                    selected_estado = st.selectbox("Estado", estado_options, key="estado_filter_arribos")
+                with col_f2:
+                    contenedor_options = ['Todos'] + sorted(arribos['Contenedor'].dropna().unique().tolist()) if 'Contenedor' in arribos.columns else ['Todos']
+                    selected_contenedor = st.selectbox("Contenedor", contenedor_options, key="contenedor_filter_arribos")
+                with col_f3:
+                    cliente_options = ['Todos'] + sorted(arribos['Cliente'].dropna().unique().tolist()) if 'Cliente' in arribos.columns else ['Todos']
+                    selected_cliente = st.selectbox("Cliente", cliente_options, key="cliente_filter_arribos")
+                with col_f4:
+                    chofer_options = ['Todos'] + sorted(arribos['chofer'].dropna().unique().tolist()) if 'chofer' in arribos.columns else ['Todos']
+                    selected_chofer = st.selectbox("Chofer", chofer_options, key="chofer_filter_arribos")
+                filtered_arribos = arribos
+                if selected_estado == "Orden del día":
+                    filtered_arribos = filtered_arribos[
+                        (~filtered_arribos["Estado_Normalizado"].str.contains("Arribado", na=False)) |
+                        (filtered_arribos["Fecha"] == today_str)
+                    ]
+                if selected_contenedor != 'Todos':
+                    filtered_arribos = filtered_arribos[filtered_arribos['Contenedor'] == selected_contenedor]
+                if selected_cliente != 'Todos':
+                    filtered_arribos = filtered_arribos[filtered_arribos['Cliente'] == selected_cliente]
+                if selected_chofer != 'Todos':
+                    filtered_arribos = filtered_arribos[filtered_arribos['chofer'] == selected_chofer]
+                arribos = filtered_arribos
+            
             arribos_display = arribos.copy()
             arribos_display = arribos_display.rename(columns={'Registro': 'Solicitud'})
             arribos_display['ID'] = arribos_display['id'].apply(lambda x: f"I{x:03d}")
