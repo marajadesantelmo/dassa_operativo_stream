@@ -117,6 +117,7 @@ def show_page_trafico_andresito():
         col_table1, col_assign1 = st.columns([3, 1])
         with col_table1:
             arribos_display = arribos.copy()
+            arribos_display = arribos_display.rename(columns={'Registro': 'Solicitud'})
             arribos_display['ID'] = arribos_display['id'].apply(lambda x: f"I{x:03d}")
             cols = ['ID'] + [col for col in arribos_display.columns if col != 'ID']
             arribos_display = arribos_display[cols]
@@ -182,6 +183,7 @@ def show_page_trafico_andresito():
         col_table2, col_assign2 = st.columns([3, 1])
         with col_table2:
             pendiente_desconsolidar_display = pendiente_desconsolidar.copy()
+            pendiente_desconsolidar_display = pendiente_desconsolidar_display.rename(columns={'Registro': 'Solicitud'})
             pendiente_desconsolidar_display['ID'] = pendiente_desconsolidar_display['id'].apply(lambda x: f"V{x:03d}")
             cols = ['ID'] + [col for col in pendiente_desconsolidar_display.columns if col != 'ID']
             pendiente_desconsolidar_display = pendiente_desconsolidar_display[cols]
@@ -264,6 +266,7 @@ def show_page_trafico_andresito():
         col_table3, col_assign3 = st.columns([3, 1])
         with col_table3:
             arribos_expo_ctns_display = arribos_expo_ctns.copy()
+            arribos_expo_ctns_display = arribos_expo_ctns_display.rename(columns={'Registro': 'Solicitud'})
             arribos_expo_ctns_display['ID'] = arribos_expo_ctns_display['id'].apply(lambda x: f"B{x:03d}")
             cols = ['ID'] + [col for col in arribos_expo_ctns_display.columns if col != 'ID']
             arribos_expo_ctns_display = arribos_expo_ctns_display[cols]
@@ -332,6 +335,7 @@ def show_page_trafico_andresito():
         col_table4, col_assign4a = st.columns([3, 1])
         with col_table4:
             remisiones_display = remisiones.copy()
+            remisiones_display = remisiones_display.rename(columns={'Registro': 'Solicitud'})
             remisiones_display['ID'] = remisiones_display['id'].apply(lambda x: f"E{x:03d}")
             cols = ['ID'] + [col for col in remisiones_display.columns if col != 'ID']
             remisiones_display = remisiones_display[cols]
