@@ -30,14 +30,23 @@ def fetch_data_trafico_andresito():
     pendiente_desconsolidar['Registro'] = pd.to_datetime(pendiente_desconsolidar['fecha_registro']) - pd.Timedelta(hours=3)
     pendiente_desconsolidar['Registro'] = pendiente_desconsolidar['Registro'].dt.strftime('%d/%m/%Y %H:%M')
     pendiente_desconsolidar = pendiente_desconsolidar.drop(columns=['Peso', 'Cantidad', 'Envase', 'key', 'fecha_registro'], errors='ignore')
+    pendiente_desconsolidar['Vto. Vacio'] = pd.to_datetime(pendiente_desconsolidar['Vto. Vacio'], format='%d/%m', errors='coerce')
+    pendiente_desconsolidar = pendiente_desconsolidar.sort_values(by='Vto. Vacio')
+    pendiente_desconsolidar['Vto. Vacio'] = pendiente_desconsolidar['Vto. Vacio'].dt.strftime('%d/%m')
     arribos_expo_ctns = fetch_table_data("trafico_arribos_expo_ctns")   
     arribos_expo_ctns['Registro'] = pd.to_datetime(arribos_expo_ctns['fecha_registro']) - pd.Timedelta(hours=3)
     arribos_expo_ctns['Registro'] = arribos_expo_ctns['Registro'].dt.strftime('%d/%m/%Y %H:%M')
     arribos_expo_ctns = arribos_expo_ctns.drop(columns=['fecha_registro', 'key'], errors='ignore')
+    arribos_expo_ctns['Fecha'] = pd.to_datetime(arribos_expo_ctns['Fecha'], format='%d/%m', errors='coerce')
+    arribos_expo_ctns = arribos_expo_ctns.sort_values('Fecha')
+    arribos_expo_ctns['Fecha'] = arribos_expo_ctns['Fecha'].dt.strftime('%d/%m')
     remisiones = fetch_table_data("trafico_remisiones")
     remisiones['Registro'] = pd.to_datetime(remisiones['fecha_registro']) - pd.Timedelta(hours=3)
     remisiones['Registro'] = remisiones['Registro'].dt.strftime('%d/%m/%Y %H:%M')
     remisiones = remisiones.drop(columns=['fecha_registro', 'key'], errors='ignore')
+    remisiones['Dia'] = pd.to_datetime(remisiones['Dia'], format='%d/%m', errors='coerce')
+    remisiones = remisiones.sort_values('Dia')
+    remisiones['Dia'] = remisiones['Dia'].dt.strftime('%d/%m')
 
     # Normalize Estado column for remisiones - treat all "Realizado" statuses as one case
     remisiones['Estado_Normalizado'] = remisiones['Estado'].apply(
