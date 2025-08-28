@@ -44,6 +44,8 @@ id,Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,key,fe
 256.0,Terminal 4 - Maersk,1000,GLDU-523598-7,Mercovan Argentina S.A.,ZIMUNYC9103797,DC,TD,,Pendiente arribo,,2025-08-28T12:35:31.320783,,2025-08-29
 259.0,Trp - Terminales 1-2-3,1300,TRHU-871610-9,La Tela Srl,FDNBSE2507073,HC,T,,Pendiente arribo,,2025-08-28T12:35:31.640661,,2025-08-29
 252.0,Terminal 4 - Maersk,1400,HAMU-192422-0,Lift Van Int. Co S.A,HLCUBSC250841472,HC,TD,,Pendiente de arribo,,2025-08-27T14:50:31.781011,peril marcelo,2025-08-28
+262.0,Trp - Terminales 1-2-3,1200,TRHU-585246-2,Mma Tex S.A.,NB250662584,HC,T,,Pendiente arribo,,2025-08-28T13:20:31.753751,,2025-08-29
+265.0,Trp - Terminales 1-2-3,900,TGHU-519461-0,Noah Servicess.R.L.,IBC1368657,DC,TD,,Pendiente arribo,,2025-08-28T13:20:32.070045,,2025-08-29
 135.0,Trp - Terminales 1-2-3,1200,BEAU-403427-0,Patagonia Maquinas S.A.,QINS00242043,HC,TD,,15:40 Arribado,,2025-08-12T14:20:31.79645,,2025-08-13
 132.0,Trp - Terminales 1-2-3,1300,PCIU-002379-4,Alsina Motos Srl,TWLE25143055,DC,TD,,18:22 Arribado,,2025-08-12T14:20:31.511504,,2025-08-13
 179.0,Exolgan,500,CXDU-115914-8,Jupam Sa,SS00009276,HC,T,,08:59 Arribado,,2025-08-13T15:05:31.326285,schaumayer,2025-08-14
@@ -92,6 +94,8 @@ id,Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,key,fe
 257.0,Terminal 4 - Maersk,1300,DRYU-215401-3,Lift Van Int. Co S.A,HLCUBSC250842442,DC,TD,,Pendiente arribo,,2025-08-28T12:35:31.435606,,2025-08-29
 253.0,Terminal 4 - Maersk,1000,HASU-108388-1,Refractarios Argentinos Saicm,720933984,DR,TD,,Pendiente de arribo,,2025-08-27T14:50:31.932549,schamuayer claudio,2025-08-28
 260.0,Trp - Terminales 1-2-3,1000,EGSU-958160-1,Compañia Bulk S.A.,SY250663168,HC,T,,Pendiente arribo,,2025-08-28T12:50:31.444613,prueba 1 22,2025-08-29
+263.0,Trp - Terminales 1-2-3,1200,FFAU-210421-8,Mma Tex S.A.,HDE25-0700010A/B,HC,T,,Pendiente arribo,,2025-08-28T13:20:31.851599,,2025-08-29
+266.0,Terminal 4 - Maersk,1000,PONU-166826-3,Grupo Rsm Srl,257748199,DC,TD,,Pendiente arribo,,2025-08-28T13:20:32.187239,,2025-08-29
 105.0,Trp - Terminales 1-2-3,1100,LATU-101322-3,Protan Sa,TJN0645193,DC,T,,13:43 Arribado,,2025-08-11T12:50:31.508869,,2025-08-12
 104.0,Trp - Terminales 1-2-3,1200,FCIU-979514-5,Comunicaciones Valles Calchaqu...,TCSH2505564,HC,TD,,15:04 Arribado,,2025-08-11T12:50:31.384765,,2025-08-12
 168.0,Exolgan,500,MSDU-814347-7,Telamania Srl,GILNB250501131,HC,T,,09:02 Arribado,,2025-08-12T19:35:31.320861,,2025-08-13
@@ -140,10 +144,7 @@ id,Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,key,fe
 251.0,Trp - Terminales 1-2-3,1900,EGSU-163230-1,Dmc Import Group S.R.L.,QD20250122,HC,TD,,08:52 Arribado,,2025-08-26T15:20:31.657927,peril marcelo,2025-08-27
 254.0,Terminal 4 - Maersk,1000,GCXU-565981-6,Aspee Monee,254928969,DR,T,,Pendiente de arribo,,2025-08-27T14:50:32.050141,damian bertoli,2025-08-28
 261.0,Trp - Terminales 1-2-3,1100,FSCU-472330-5,Noah Servicess.R.L.,IBC1375031,DC,TD,,Pendiente arribo,,2025-08-28T13:05:31.541804,,2025-08-29
-,,1900,TGBU-925320-0,A La Orden,Z209GZH2505007,HC,TD,,Pendiente arribo,,,,2025-08-29
-,,1900,FCIU-813928-7,A La Orden,Z209GZH2505007,HC,TD,,Pendiente arribo,,,,2025-08-29
-,Trp - Terminales 1-2-3,1200,TRHU-585246-2,Mma Tex S.A.,NB250662584,HC,T,,Pendiente arribo,,,,2025-08-29
-,Trp - Terminales 1-2-3,1200,FFAU-210421-8,Mma Tex S.A.,HDE25-0700010A/B,HC,T,,Pendiente arribo,,,,2025-08-29
-,Trp - Terminales 1-2-3,1200,CAAU-541370-5,Impacto Textil S.A.,HDE25-0700004,HC,T,,Pendiente arribo,,,,2025-08-29
-,Trp - Terminales 1-2-3,900,TGHU-519461-0,Noah Servicess.R.L.,IBC1368657,DC,TD,,Pendiente arribo,,,,2025-08-29
-,Terminal 4 - Maersk,1000,PONU-166826-3,Grupo Rsm Srl,257748199,DC,TD,,Pendiente arribo,,,,2025-08-29
+264.0,Trp - Terminales 1-2-3,1200,CAAU-541370-5,Impacto Textil S.A.,HDE25-0700004,HC,T,,Pendiente arribo,,2025-08-28T13:20:31.973737,,2025-08-29
+,Trp - Terminales 1-2-3,1900,TGBU-925320-0,A La Orden,Z209GZH2505007,HC,TD,,Pendiente arribo,,,,2025-08-29
+,Trp - Terminales 1-2-3,1900,FCIU-813928-7,A La Orden,Z209GZH2505007,HC,TD,,Pendiente arribo,,,,2025-08-29
+,Exolgan,500,SEGU-124746-3,Cargocorp Argentina Sa,HLCUDX3250541379,DC,TD,,Pendiente arribo,,,,2025-08-29
