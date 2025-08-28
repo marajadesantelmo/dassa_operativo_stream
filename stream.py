@@ -24,7 +24,6 @@ url_supabase = os.getenv("url_supabase")
 key_supabase= os.getenv("key_supabase")
 
 refresh_interval_ms = 300 * 1000  
-count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refresh")
 
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
@@ -55,6 +54,10 @@ if 'logged_in' not in st.session_state:
     st.session_state.logged_in = cookies.get("logged_in", False)
 if 'username' not in st.session_state:
     st.session_state.username = cookies.get("username", "")
+
+# Apply auto-refresh only if user is not "andresito"
+if st.session_state.get('logged_in', False) and st.session_state.get('username', "") != "andresito":
+    count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refresh")
 
 if not st.session_state['logged_in']:
     st.title("Login")
