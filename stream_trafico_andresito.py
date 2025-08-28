@@ -355,6 +355,11 @@ def show_page_trafico_andresito():
             cols = ['ID'] + [col for col in remisiones_display.columns if col != 'ID']
             remisiones_display = remisiones_display[cols]
             remisiones_display = remisiones_display.drop(columns=['id', 'Estado_Normalizado'], errors='ignore')
+            # Ensure Estado column exists and has no NaN values for the highlight function
+            if 'Estado' not in remisiones_display.columns:
+                remisiones_display['Estado'] = 'Pendiente'
+            else:
+                remisiones_display['Estado'] = remisiones_display['Estado'].fillna('Pendiente')
             st.dataframe(
                 remisiones_display.style.apply(highlight, axis=1),
                 column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)},
