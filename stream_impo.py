@@ -17,6 +17,12 @@ def fetch_data_impo():
         arribos = arribos.sort_values(by="Turno")
         arribos['Chofer'] = arribos['Chofer'].fillna('-')
         arribos['Chofer'] = arribos['Chofer'].str.title()
+        # Move Dimension column after Tipo CNT if it exists
+        cols = arribos.columns.tolist()
+        tipo_cnt_idx = cols.index('Tipo CNT')
+        cols.remove('Dimension')
+        cols.insert(tipo_cnt_idx + 1, 'Dimension')
+        arribos = arribos[cols]
         verificaciones_impo = verificaciones_impo.drop(columns=['Hora'])
         pendiente_desconsolidar['Vto. Vacio'] = pd.to_datetime(pendiente_desconsolidar['Vto. Vacio'], format='%d/%m', errors='coerce')
         pendiente_desconsolidar = pendiente_desconsolidar.sort_values(by='Vto. Vacio')
