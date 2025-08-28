@@ -139,6 +139,20 @@ def show_page_trafico_andresito():
                         st.error(f"Error al asignar chofer: {e}")
                 else:
                     st.warning("Por favor ingrese el nombre del chofer")
+                
+                st.markdown("**Asignar Observaciones**")
+                observaciones_arribos = st.text_area("Observaciones:", key="observaciones_arribos")
+                if st.button("Asignar Observaciones", key="assign_observaciones_arribos"):
+                    if observaciones_arribos.strip():
+                        try:
+                            update_data("trafico_arribos", selected_arribo_id, {"Observaciones": observaciones_arribos.strip()})
+                            st.success(f"Observaciones asignadas al registro ID {selected_arribo_id}")
+                            st.cache_data.clear()
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Error al asignar observaciones: {e}")
+                    else:
+                        st.warning("Por favor ingrese las observaciones")
 
     st.subheader("Vacíos IMPO a devolver")
     with st.container():
@@ -202,6 +216,20 @@ def show_page_trafico_andresito():
                             st.error(f"Error al asignar chofer: {e}")
                     else:
                         st.warning("Por favor ingrese el nombre del chofer")
+                st.markdown("**Asignar Observaciones**")
+                observaciones_pendiente = st.text_area("Observaciones:", key="observaciones_pendiente")
+                if st.button("Asignar Observaciones", key="assign_observaciones_pendiente"):
+                    if observaciones_pendiente.strip():
+                        try:
+                            update_data("trafico_pendiente_desconsolidar", selected_pendiente_id, {"Observaciones": observaciones_pendiente.strip()})
+                            st.success(f"Observaciones asignadas al registro ID {selected_pendiente_id}")
+                            st.cache_data.clear()
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Error al asignar observaciones: {e}")
+                    else:
+                        st.warning("Por favor ingrese las observaciones")
+                        
                 st.markdown("**Asignar Fecha y Hora Fin**")
                 fecha_fin_pte = st.date_input("Fecha fin:", key="fecha_fin_pendiente")
                 hora_fin_pte = st.time_input("Hora fin:", key="hora_fin_pendiente")
@@ -284,6 +312,20 @@ def show_page_trafico_andresito():
                     else:
                         st.warning("Por favor ingrese el nombre del chofer")
 
+                st.markdown("**Asignar Observaciones**")
+                observaciones_expo = st.text_area("Observaciones:", key="observaciones_expo")
+                if st.button("Asignar Observaciones", key="assign_observaciones_expo"):
+                    if observaciones_expo.strip():
+                        try:
+                            update_data("trafico_arribos_expo_ctns", selected_expo_id, {"Observaciones": observaciones_expo.strip()})
+                            st.success(f"Observaciones asignadas al registro ID {selected_expo_id}")
+                            st.cache_data.clear()
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Error al asignar observaciones: {e}")
+                    else:
+                        st.warning("Por favor ingrese las observaciones")
+
     st.subheader("Remisiones de DASSA a puerto")
     with st.container():
         col_table4, col_assign4a = st.columns([3, 1])
@@ -349,6 +391,21 @@ def show_page_trafico_andresito():
                     st.error(f"Error al asignar chofer: {e}")
             else:
                 st.warning("Por favor ingrese el nombre del chofer")
+                
+        st.markdown("**Asignar Observaciones**")
+        observaciones_remisiones = st.text_area("Observaciones:", key="observaciones_remisiones")
+        if st.button("Asignar Observaciones", key="assign_observaciones_remisiones"):
+            if observaciones_remisiones.strip():
+                try:
+                    update_data("trafico_remisiones", selected_remision_id, {"Observaciones trafico": observaciones_remisiones.strip()})
+                    st.success(f"Observaciones asignadas al registro ID {selected_remision_id}")
+                    st.cache_data.clear()
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"Error al asignar observaciones: {e}")
+            else:
+                st.warning("Por favor ingrese las observaciones")
+                
         st.markdown("**Asignar Fecha y Hora Fin**")
         fecha_fin = st.date_input("Fecha fin:", key="fecha_fin_remision")
         hora_fin = st.time_input("Hora fin:", key="hora_fin_remision")
