@@ -11,8 +11,6 @@ def fetch_data_trafico_andresito():
     arribos['Registro'] = pd.to_datetime(arribos['fecha_registro']) - pd.Timedelta(hours=3)
     arribos['Registro'] = arribos['Registro'].dt.strftime('%d/%m/%Y %H:%M')
     arribos = arribos.drop(columns=['fecha_registro','key', 'Tiempo'], errors='ignore')
-    
-
     arribos['Fecha'] = pd.to_datetime(arribos['Fecha'], errors='coerce')
     arribos = arribos.sort_values('Fecha')
     arribos = arribos[arribos['Fecha'] > pd.to_datetime('2025-08-10')]
@@ -27,7 +25,6 @@ def fetch_data_trafico_andresito():
             lambda x: x[:2] + ":" + x[2:] if len(x) >= 4 and x.isdigit() else 
                      ('0' + x[0] + ':' + x[1:] if len(x) == 3 and x.isdigit() else x)
         )
-
 
     pendiente_desconsolidar = fetch_table_data("trafico_pendiente_desconsolidar")
     pendiente_desconsolidar['Registro'] = pd.to_datetime(pendiente_desconsolidar['fecha_registro']) - pd.Timedelta(hours=3)
@@ -60,17 +57,13 @@ def show_page_trafico_andresito():
     today_dia_str = datetime.now().strftime('%d/%m')
     
     st.warning(
-        "⚠️ Esta página está en desarrollo. Algunas funcionalidades pueden no estar disponibles o no funcionar como se espera."
-    )
-
+        "⚠️ Esta página está en desarrollo. Algunas funcionalidades pueden no estar disponibles o no funcionar como se espera.")
     st.markdown(
         "<h1 style='text-align: left; color: #2c3e50; margin-bottom: 0;'>Orden de Tráfico</h1>",
-        unsafe_allow_html=True
-    )
+        unsafe_allow_html=True)
     st.markdown(
         "<div style='text-align: right; margin-top: -40px;'><a href='https://docs.google.com/spreadsheets/d/129PyI0APvtPYEYwJIsDf-Uzy2YQR-0ojj-IG2etHCYs' target='_blank'>Ver planilla histórica en Google Sheets</a></div>",
-        unsafe_allow_html=True
-    )
+        unsafe_allow_html=True)
     st.markdown("---")
 
     # Use tabs for each main section
