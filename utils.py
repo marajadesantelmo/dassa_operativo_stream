@@ -6,25 +6,29 @@ import os
 
 
 def highlight(row):
-    if "Realizado" in row['Estado']:
+    # Handle missing 'Estado' column or None values
+    if 'Estado' not in row or pd.isna(row['Estado']) or row['Estado'] is None:
+        return ['' for _ in row]
+    estado = str(row['Estado'])  # Convert to string to handle any data type
+    if "Realizado" in estado:
         return ['background-color: darkgreen; color: black' for _ in row]
-    elif "En curso" in row['Estado']:
+    elif "En curso" in estado:
         return ['background-color: darkgoldenrod; color: black' for _ in row]
     elif 'Balanza' in row and 'Entrada' in str(row['Balanza']):
         return ['background-color: darkgoldenrod; color: black' for _ in row]
-    elif "Arribado" in row['Estado'] and row.get('Balanza', None) == "-":
+    elif "Arribado" in estado and row.get('Balanza', None) == "-":
         return ['background-color: darkgoldenrod; color: black' for _ in row]
-    elif row['Estado'] == "Vacio":
+    elif estado == "Vacio":
         return ['background-color: #be1e2d; color: black' for _ in row]
-    elif "Arribado" in row['Estado']:
+    elif "Arribado" in estado:
         return ['background-color: darkgreen; color: black' for _ in row]
-    elif "Ingresado" in row['Estado']:
+    elif "Ingresado" in estado:
         return ['background-color: darkgreen; color: black' for _ in row]
-    elif row['Estado'] == "Pendiente ingreso":
+    elif estado == "Pendiente ingreso":
         return ['background-color: darkgoldenrod; color: black' for _ in row]
-    elif row['Estado'] == "En Espera":
+    elif estado == "En Espera":
         return ['background-color: #444444; color: black' for _ in row]
-    elif "anterior" in row['Estado']:
+    elif "anterior" in estado:
         return ['background-color: #be1e2d; color: black' for _ in row]
     else:
         return ['' for _ in row]
