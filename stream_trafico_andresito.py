@@ -66,16 +66,7 @@ def show_page_trafico_andresito():
         unsafe_allow_html=True)
     st.markdown("---")
 
-    # Use tabs for each main section
-    tab_labels = [
-        "Traslados IMPO",
-        "Vacíos IMPO a devolver",
-        "Retiros Vacíos EXPO",
-        "Remisiones DASSA a puerto"
-    ]
-
-    st.subheader("Desde Puerto a DASSA")
-
+    st.subheader("I. IMPO Desde Puerto a DASSA")
     col_table1, col_assign1 = st.columns([3, 1])
     with col_table1:
         with st.container():
@@ -139,7 +130,6 @@ def show_page_trafico_andresito():
                         st.error(f"Error al asignar chofer: {e}")
                 else:
                     st.warning("Por favor ingrese el nombre del chofer")
-                
                 st.markdown("**Asignar Observaciones**")
                 observaciones_arribos = st.text_area("Observaciones:", key="observaciones_arribos")
                 if st.button("Asignar Observaciones", key="assign_observaciones_arribos"):
@@ -154,7 +144,7 @@ def show_page_trafico_andresito():
                     else:
                         st.warning("Por favor ingrese las observaciones")
 
-    st.subheader("Vacíos IMPO a devolver")
+    st.subheader("V. Vacíos IMPO a devolver")
     with st.container():
         col_table2, col_assign2 = st.columns([3, 1])
         with col_table2:
