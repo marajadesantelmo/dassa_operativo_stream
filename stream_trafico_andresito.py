@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from utils import highlight
 from supabase_connection import fetch_table_data, update_data, update_data_by_index, insert_data
 
@@ -448,7 +448,6 @@ def show_page_trafico_andresito():
                         insert_data_dict[column] = str(value)
             
             # Add timestamp for registro
-            from datetime import datetime
             current_time = datetime.now()
             insert_data_dict['fecha_registro'] = current_time.isoformat()
             
