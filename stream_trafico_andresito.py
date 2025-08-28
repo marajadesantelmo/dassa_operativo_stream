@@ -3,7 +3,7 @@ import pandas as pd
 import time
 from datetime import datetime
 from utils import highlight
-from supabase_connection import fetch_table_data, update_data, update_data_by_index
+from supabase_connection import fetch_table_data, update_data, update_data_by_index, insert_data
 
 @st.cache_data(ttl=300) 
 def fetch_data_trafico_andresito():
@@ -371,6 +371,94 @@ def show_page_trafico_andresito():
                     st.error(f"Error al asignar Fecha y Hora Fin: {e}")
             else:
                 st.warning("Por favor seleccione fecha y hora")
+
+    # Manual Data Entry Section
+    st.markdown("---")
+    st.subheader("Agregar Registro Manual")
+    
+    # Table selection
+    table_options = {
+        "Traslados IMPO": "trafico_arribos",
+        "Vacíos IMPO a devolver": "trafico_pendiente_desconsolidar", 
+        "Retiros Vacíos EXPO": "trafico_arribos_expo_ctns",
+        "Remisiones DASSA a puerto": "trafico_remisiones"
+    }
+    
+    selected_table_name = st.selectbox(
+        "Seleccionar tabla para agregar datos:",
+        options=list(table_options.keys()),
+        key="table_selection"
+    )
+    
+    selected_table = table_options[selected_table_name]
+    
+    # Get the corresponding dataframe
+    if selected_table == "trafico_arribos":
+        df_columns = arribos.columns.tolist()
+    elif selected_table == "trafico_pendiente_desconsolidar":
+        df_columns = pendiente_desconsolidar.columns.tolist()
+    elif selected_table == "trafico_arribos_expo_ctns":
+        df_columns = arribos_expo_ctns.columns.tolist()
+    else:  # trafico_remisiones
+        df_columns = remisiones.columns.tolist()
+    
+    # Remove id and auto-generated columns
+    excluded_columns = ['id', 'Registro', 'Solicitud', 'fecha_registro', 'key', 'Estado_Normalizado']
+    form_columns = [col for col in df_columns if col not in excluded_columns]
+    
+    st.markdown(f"**Agregar nuevo registro a: {selected_table_name}**")
+    
+    with st.form(f"add_record_{selected_table}"):
+        form_data = {}
+        
+        # Create form fields for each column
+        col1, col2 = st.columns(2)
+        
+        for i, column in enumerate(form_columns):
+            with col1 if i % 2 == 0 else col2:
+                if column in ['Fecha', 'Dia']:
+                    if column == 'Fecha':
+                        form_data[column] = st.date_input(f"{column}:", key=f"form_{column}_{selected_table}")
+                    else:  # Dia column for remisiones
+                        form_data[column] = st.text_input(f"{column} (DD/MM):", key=f"form_{column}_{selected_table}")
+                elif column in ['Turno', 'Hora']:
+                    form_data[column] = st.time_input(f"{column}:", key=f"form_{column}_{selected_table}")
+                elif column in ['Estado', 'Cliente', 'Contenedor', 'Booking', 'chofer']:
+                    form_data[column] = st.text_input(f"{column}:", key=f"form_{column}_{selected_table}")
+                elif column in ['Peso', 'Cantidad']:
+                    form_data[column] = st.number_input(f"{column}:", min_value=0.0, key=f"form_{column}_{selected_table}")
+                elif 'tally' in column.lower():
+                    form_data[column] = st.text_input(f"{column} (URL):", key=f"form_{column}_{selected_table}")
+                else:
+                    form_data[column] = st.text_input(f"{column}:", key=f"form_{column}_{selected_table}")
+        
+        submitted = st.form_submit_button("Agregar Registro")
+        
+        if submitted:
+            # Prepare data for insertion
+            insert_data_dict = {}
+            
+            for column, value in form_data.items():
+                if value is not None and value != "":
+                    if column == 'Fecha' and hasattr(value, 'strftime'):
+                        insert_data_dict[column] = value.strftime('%d/%m/%Y')
+                    elif column in ['Turno', 'Hora'] and hasattr(value, 'strftime'):
+                        insert_data_dict[column] = value.strftime('%H%M') if column == 'Turno' else value.strftime('%H:%M')
+                    else:
+                        insert_data_dict[column] = str(value)
+            
+            # Add timestamp for registro
+            from datetime import datetime
+            current_time = datetime.now()
+            insert_data_dict['fecha_registro'] = current_time.isoformat()
+            
+            try:
+                insert_data(selected_table, insert_data_dict)
+                st.success(f"Registro agregado exitosamente a {selected_table_name}")
+                st.cache_data.clear()
+                st.rerun()
+            except Exception as e:
+                st.error(f"Error al agregar registro: {e}")
 
 
 
