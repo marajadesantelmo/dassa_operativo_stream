@@ -1,5 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-36995,01/09,Lift Van Int. Co S.A,-,0,  ,TD,                    ,1025070018,0,                              ,,     ,2025-09-16,Melina Marquisio,1025070018          ,Pendiente
+36995,01/09,Lift Van Int. Co S.A,-,0,  ,TD,                    ,BUA0348790,0,                              ,,     ,2025-09-16,Melina Marquisio,BUA0348790          ,Pendiente
 37026,01/09,Litoral Citrus S A,-,0,  ,TD,                    ,17053740,0,                              ,,     ,2025-09-17,17053740,EC01056967U         ,Pendiente
 37091,01/09,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,257343891,0,                              ,,     ,2025-09-19,,                    ,Pendiente
 37089,01/09,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,257343891,0,                              ,,     ,2025-09-19,,                    ,Pendiente
@@ -19,7 +19,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 37074,29/08,Seaside Logistic Sa,-,0,  ,TD,                    ,ZIMUBUE9043239,0,                              ,,     ,2025-09-18,Zimubue9043239,ZIMUBUE9043239      ,Pendiente
 37006,29/08,Isischu Srl,-,0,  ,TD,                    ,ZIMUBUE9043132,0,                              ,,     ,2025-09-16,,                    ,Pendiente
 37058,29/08,Hdv Leather S.R.L.,PCIU-956948-8,10,HC,TD,**********          ,BUE500148100,1,TRANSPORTES LEIRA-NO USAR     ,Muller,09:14,2025-09-18,Bue500148100,BUE500148100        ,09:14 Arribado
-37059,29/08,Hdv Leather S.R.L.,-,0,  ,TD,                    ,BUE500148100,0,                              ,,     ,2025-09-18,Bue500148100,BUE500148100        ,Pendiente
+37059,29/08,Hdv Leather S.R.L.,PCIU-943497-0,10,HC,TD,***********         ,BUE500148100,1,TRANSPORTE DEL CLIENTE        ,Miguez,14:34,2025-09-18,Bue500148100,BUE500148100        ,14:34 Arribado
 37060,29/08,Hdv Leather S.R.L.,PCIU-856857-4,10,HC,TD,*************       ,BUE500145800,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,09:26,2025-09-18,Bue500145800,BUE500145800        ,09:26 Arribado
 37061,29/08,Hdv Leather S.R.L.,-,0,  ,TD,                    ,BUE500145800,0,                              ,,     ,2025-09-18,Bue500145800,BUE500145800        ,Pendiente
 37063,29/08,Hdv Leather S.R.L.,PCIU-852534-0,10,HC,TD,********************,BUE500145700,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,09:29,2025-09-18,Bue500145700,BUE500145700        ,09:29 Arribado
