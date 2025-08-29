@@ -1,10 +1,14 @@
 Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribado,Estado
 2025-08-25,Terminal 4 - Maersk,1400 ,ZCSU-665893-5,Mercovan Argentina S.A.,ZIMUIAH976157,TD,DC,60,1,18:36 Arribado
 2025-08-29,Terminal 4 - Maersk,1000 ,GLDU-523598-7,Mercovan Argentina S.A.,ZIMUNYC9103797,TD,DC,30,1,13:29 Arribado
+2025-09-01,Exolgan,1100 ,HLXU-538969-0,Mercovan Argentina S.A.,HLCUBC1250624762,TD,DC,60,0,Pendiente arribo
+2025-09-01,Exolgan,1100 ,CAAU-236338-6,Mercovan Argentina S.A.,HLCULE1250708561,TD,DC,30,0,Pendiente arribo
+2025-09-01,Exolgan,1100 ,FANU-373775-0,Mercovan Argentina S.A.,HLCULE1250712952,TD,HC,70,0,Pendiente arribo
 2025-08-27,Exolgan,0500 ,DFSU-421991-6,Lift Van Int. Co S.A,HLCUPTY250741411,TD,DC,60,1,08:25 Arribado
 2025-08-28,Terminal 4 - Maersk,1400 ,HAMU-192422-0,Lift Van Int. Co S.A,HLCUBSC250841472,TD,HC,70,1,08:13 Arribado
 2025-08-29,Terminal 4 - Maersk,1300 ,DRYU-215401-3,Lift Van Int. Co S.A,HLCUBSC250842442,TD,DC,30,0,Pendiente arribo
 2025-08-29,Terminal 4 - Maersk,1300 ,FANU-138262-4,Lift Van Int. Co S.A,HLCUBSDC2507CFXR7,TD,HC,70,0,Pendiente arribo
+2025-09-01,Exolgan,1100 ,BSIU-326295-3,Lift Van Int. Co S.A,HLCULIV250724739,TD,DC,30,0,Pendiente arribo
 2025-08-22,Trp - Terminales 1-2-3,1300 ,TCKU-719494-8,La Tela Srl,SEF250613157,T,HC,70,1,14:40 Arribado
 2025-08-29,Trp - Terminales 1-2-3,1300 ,TRHU-871610-9,La Tela Srl,FDNBSE2507073,T,HC,70,0,Pendiente arribo
 2025-08-29,Exolgan,1500 ,MSBU-337864-0,Grouport Srl,TCQD2505313,T,DC,30,0,Pendiente arribo
@@ -29,6 +33,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-08-26,Trp - Terminales 1-2-3,1200 ,TCLU-831412-0,Raisvic S.R.L.,HDE25-0700039,T,HC,70,1,13:45 Arribado
 2025-08-29,Exolgan,1500 ,MSDU-769128-6,Raisvic S.R.L.,BOE25015146,T,HC,70,0,Pendiente arribo
 2025-08-29,Trp - Terminales 1-2-3,1200 ,CAAU-541370-5,Impacto Textil S.A.,HDE25-0700004,T,HC,70,0,Pendiente arribo
+2025-09-01,Exolgan,1100 ,UACU-393851-8,Eagle Service Group Srl,BCNBUE250036,TD,DC,30,0,Pendiente arribo
 2025-08-29,Trp - Terminales 1-2-3,1100 ,FSCU-472330-5,Noah Servicess.R.L.,IBC1375031,TD,DC,60,0,Pendiente arribo
 2025-08-29,Trp - Terminales 1-2-3,0900 ,TGHU-519461-0,Noah Servicess.R.L.,IBC1368657,TD,DC,60,1,12:14 Arribado
 2025-08-26,Trp - Terminales 1-2-3,1100 ,CMAU-245895-4,Albatros Sur S.R.L.,SSZBUE00000370,T,DC,30,1,13:52 Arribado
