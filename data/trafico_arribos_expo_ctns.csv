@@ -1,12 +1,19 @@
-Fecha,Booking,Cliente,Origen,Cantidad
-01/09,17053740,Litoral Citrus S A,-,1
-01/09,257343891,Henn Y Cia S.R.L.,Huxley Sa,4
-01/09,69996360,Mafralac Alimenticia Srl,-,1
-01/09,69996360,Mafralac Alimenticia Srl,Huxley Sa,2
-01/09,BUA0348790,Lift Van Int. Co S.A,-,1
-02/09,ZIMUBUE9043076,Mercopallet Srl,-,4
-05/09,19086151,Seaside Logistic Sa,-,2
-25/08,BUA0348795,Mader Zu S.R.L.,-,3
-29/08,258417597,Lawter Argentina S.A.,-,1
-29/08,ZIMUBUE9043132,Isischu Srl,-,1
-29/08,ZIMUBUE9043239,Seaside Logistic Sa,-,1
+Fecha,Booking,Cliente,Cantidad,Contenedor,Precinto,Origen,Obs.,Estado
+01/09,17053740,Litoral Citrus S A,1,-,,-,,Pendiente
+01/09,257343891,Henn Y Cia S.R.L.,4,-,,Huxley Sa,,Pendiente
+01/09,69996360,Mafralac Alimenticia Srl,1,-,,-,,Pendiente
+01/09,69996360,Mafralac Alimenticia Srl,2,-,,Huxley Sa,,Pendiente
+01/09,BUA0348790,Lift Van Int. Co S.A,1,-,,-,,Pendiente
+02/09,ZIMUBUE9043076,Mercopallet Srl,4,-,,-,,Pendiente
+05/09,19086151,Seaside Logistic Sa,2,-,,-,,Pendiente
+01/09,17053740,Litoral Citrus S A,1,,,-,,
+01/09,257343891,Henn Y Cia S.R.L.,4,,,Huxley Sa,,
+01/09,69996360,Mafralac Alimenticia Srl,1,,,-,,
+01/09,69996360,Mafralac Alimenticia Srl,2,,,Huxley Sa,,
+01/09,BUA0348790,Lift Van Int. Co S.A,1,,,-,,
+02/09,ZIMUBUE9043076,Mercopallet Srl,4,,,-,,
+05/09,19086151,Seaside Logistic Sa,2,,,-,,
+25/08,BUA0348795,Mader Zu S.R.L.,3,,,-,,
+29/08,258417597,Lawter Argentina S.A.,1,,,-,,
+29/08,ZIMUBUE9043132,Isischu Srl,1,,,-,,
+29/08,ZIMUBUE9043239,Seaside Logistic Sa,1,,,-,,
