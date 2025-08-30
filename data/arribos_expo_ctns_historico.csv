@@ -44,7 +44,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-05,33277,,Lift Van Int. Co S.A,TERRESTRE,                    ,Pendiente
 2025-05-07,33400,MRKU-946137-3,Lift Van Int. Co S.A,253188679,                    ,Arribado
 2025-08-21,36776,MSKU-694190-9,Lift Van Int. Co S.A,257750953,***************     ,Arribado
-2025-09-01,36995,,Lift Van Int. Co S.A,1025070018,                    ,Pendiente
+2025-09-01,36995,,Lift Van Int. Co S.A,BUA0348790,                    ,Pendiente
 2025-08-14,36678,SUDU-737052-0,Lift Van Int. Co S.A,257691656,**************      ,Arribado
 2025-08-18,36717,,Lift Van Int. Co S.A,25001PE01000281L,                    ,Arribado
 2025-08-11,36527,UACU-842675-1,Lift Van Int. Co S.A,32375613,****************    ,Arribado
@@ -377,6 +377,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-19,33678,TRHU-113826-7,Gestion Forward S.R.L.,253605922,***********         ,Arribado
 2025-06-02,34112,HLXU-125580-0,Gestion Forward S.R.L.,26766325,*********           ,Arribado
 2025-09-01,37019,,Mafralac Alimenticia Srl,69996360,                    ,Pendiente
+2025-09-01,37106,,Mafralac Alimenticia Srl,69996360,                    ,Pendiente
 2025-09-01,36961,,Mafralac Alimenticia Srl,69996360,                    ,Pendiente
 2025-08-11,36502,UACU-557285-5,Mafralac Alimenticia Srl,23155833,*********           ,Arribado
 2025-07-17,35747,CAIU-480411-7,Mafralac Alimenticia Srl,92937581,***********         ,Arribado
@@ -533,6 +534,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-06,33311,MVIU-001686-7,Henn Y Cia S.R.L.,253384357,**********          ,Arribado
 2025-05-06,33312,HASU-476273-6,Henn Y Cia S.R.L.,253379263,***********         ,Arribado
 2025-05-06,33313,MRKU-382500-9,Henn Y Cia S.R.L.,253379263,**********          ,Arribado
+2025-09-01,37088,,Henn Y Cia S.R.L.,257343891,                    ,Pendiente
+2025-09-01,37089,,Henn Y Cia S.R.L.,257343891,                    ,Pendiente
+2025-09-01,37090,,Henn Y Cia S.R.L.,257343891,                    ,Pendiente
+2025-09-01,37091,,Henn Y Cia S.R.L.,257343891,                    ,Pendiente
 2025-08-22,36919,SEGU-576497-3,Henn Y Cia S.R.L.,15391139,**************      ,Arribado
 2025-08-26,36962,PIDU-426677-4,Henn Y Cia S.R.L.,BUE500142700,*****************   ,Arribado
 2025-08-26,36963,CAIU-939146-4,Henn Y Cia S.R.L.,BUA0348951,R8687663            ,Arribado
@@ -1213,12 +1218,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-05,33318,MRKU-350936-1,Hdv Leather S.R.L.,253430248,***********         ,Arribado
 2025-05-08,33422,MRKU-500698-3,Hdv Leather S.R.L.,253330229,***********         ,Arribado
 2025-05-08,33423,MRSU-350358-2,Hdv Leather S.R.L.,253330229,*********           ,Arribado
-2025-08-29,37059,,Hdv Leather S.R.L.,BUE500148100,                    ,Pendiente
+2025-08-29,37059,PCIU-943497-0,Hdv Leather S.R.L.,BUE500148100,***********         ,Arribado
 2025-08-29,37060,PCIU-856857-4,Hdv Leather S.R.L.,BUE500145800,*************       ,Arribado
-2025-08-29,37061,,Hdv Leather S.R.L.,BUE500145800,                    ,Pendiente
+2025-08-29,37061,PCIU-885149-7,Hdv Leather S.R.L.,BUE500145800,******************* ,Arribado
 2025-08-29,37063,PCIU-852534-0,Hdv Leather S.R.L.,BUE500145700,********************,Arribado
-2025-08-29,37064,,Hdv Leather S.R.L.,BUE500145700,                    ,Pendiente
-2025-08-29,37065,,Hdv Leather S.R.L.,BUE500145700,                    ,Pendiente
+2025-08-29,37064,PCIU-844765-4,Hdv Leather S.R.L.,BUE500145700,******************  ,Arribado
+2025-08-29,37065,PIDU-408819-0,Hdv Leather S.R.L.,BUE500145700,********************,Arribado
 2025-08-28,36988,MRKU-369396-2,Hdv Leather S.R.L.,257138418,***************     ,Arribado
 2025-08-28,36989,MSKU-194731-3,Hdv Leather S.R.L.,257138418,**************      ,Arribado
 2025-08-28,36990,MRSU-437508-5,Hdv Leather S.R.L.,257275060,***********         ,Arribado
