@@ -1,8 +1,5 @@
 id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,Contenedor,Precinto,Obs.,Cantidad
 1.0,01/09,17053740,Litoral Citrus S A,-,2025-08-30T13:56:06.080301,,,,,,,,
-4.0,01/09,257343891,Henn Y Cia S.R.L.,Huxley Sa,2025-08-30T13:56:06.339779,,,,,,,,
-5.0,01/09,257343891,Henn Y Cia S.R.L.,Huxley Sa,2025-08-30T13:56:06.444992,,,,,,,,
-8.0,01/09,69996360,Mafralac Alimenticia Srl,Huxley Sa,2025-08-30T13:56:06.733648,,,,,,,,
 9.0,01/09,BUA0348790,Lift Van Int. Co S.A,-,2025-08-30T13:56:06.814238,,,,,,,,
 10.0,02/09,ZIMUBUE9043076,Mercopallet Srl,-,2025-08-30T13:56:06.894182,,,,,,,,
 11.0,02/09,ZIMUBUE9043076,Mercopallet Srl,-,2025-08-30T13:56:06.976386,,,,,,,,
@@ -16,9 +13,19 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 19.0,29/08,258417597,Lawter Argentina S.A.,-,2025-08-30T13:56:07.664593,,,,,,,,
 20.0,29/08,ZIMUBUE9043132,Isischu Srl,-,2025-08-30T13:56:07.767659,,,,,,,,
 21.0,29/08,ZIMUBUE9043239,Seaside Logistic Sa,-,2025-08-30T13:56:07.844241,,,,,,,,
-7.0,01/09,69996360,Mafralac Alimenticia Srl,Huxley Sa,2025-08-30T13:56:06.619535,,nahuel jr,,,,,,
 2.0,01/09,257343891,Henn Y Cia S.R.L.,Huxley Sa,2025-08-30T13:56:06.168064,,alan porco,09:53 Arribado,,GCXU-581554-4,**********,,
-22.0,01/09/2025,258310013,LIFTVAN,huxley,2025-09-01T13:42:51.682914,,Schaumayer ,,,SUDU-592045-9,,,
 3.0,01/09,257343891,Henn Y Cia S.R.L.,Huxley Sa,2025-08-30T13:56:06.250843,,marcelo porco,09:51 Arribado,,MRKU-589346-6,************,,
 6.0,01/09,69996360,Mafralac Alimenticia Srl,Huxley Sa,2025-08-30T13:56:06.532242,,nahuel jr,09:52 Arribado,,TCNU-370840-5,***********,,
-,02/09,BUEF10283700,Santa Anita Oil Sa,Hiperbaires - Icb T.Sur,,,,,,,,,6.0
+23.0,02/09,BUEF10283700,Santa Anita Oil Sa,Hiperbaires - Icb T.Sur,2025-09-01T13:50:37.06345,,,,,,,,
+24.0,02/09,BUEF10283700,Santa Anita Oil Sa,Hiperbaires - Icb T.Sur,2025-09-01T13:50:37.159064,,,,,,,,
+25.0,02/09,BUEF10283700,Santa Anita Oil Sa,Hiperbaires - Icb T.Sur,2025-09-01T13:50:37.249431,,,,,,,,
+26.0,02/09,BUEF10283700,Santa Anita Oil Sa,Hiperbaires - Icb T.Sur,2025-09-01T13:50:37.337125,,,,,,,,
+27.0,02/09,BUEF10283700,Santa Anita Oil Sa,Hiperbaires - Icb T.Sur,2025-09-01T13:50:37.425345,,,,,,,,
+28.0,02/09,BUEF10283700,Santa Anita Oil Sa,Hiperbaires - Icb T.Sur,2025-09-01T13:50:37.569571,,,,,,,,
+22.0,01/09/2025,258310013,LIFTVAN,huxley,2025-09-01T13:42:51.682914,,Schaumayer ,Arribado,,SUDU-592045-9,,,
+4.0,01/09,257343891,Henn Y Cia S.R.L.,Huxley Sa,2025-08-30T13:56:06.339779,,,09:53 Arribado,,GCXU-581554-4,**********,,
+5.0,01/09,257343891,Henn Y Cia S.R.L.,Huxley Sa,2025-08-30T13:56:06.444992,,,09:51 Arribado,,MRKU-589346-6,************,,
+8.0,01/09,69996360,Mafralac Alimenticia Srl,Huxley Sa,2025-08-30T13:56:06.733648,,,09:52 Arribado,,TCNU-370840-5,***********,,
+7.0,01/09,69996360,Mafralac Alimenticia Srl,Huxley Sa,2025-08-30T13:56:06.619535,,nahuel jr,09:52 Arribado,,TCNU-370840-5,***********,,
+,01/09,BUEF10236500,Pachamama Products S.R.L.,Hiperbaires - Icb T.Sur,,,,,,,,,1.0
+,02/09,BUEF10547300,Pallets Nef De Raul E. Fernand...,-,,,,,,,,,2.0
