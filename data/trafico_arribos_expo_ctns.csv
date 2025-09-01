@@ -1,19 +1,24 @@
-Fecha,Booking,Cliente,Cantidad,Contenedor,Precinto,Origen,Obs.,Estado
-01/09,17053740,Litoral Citrus S A,1,-,,-,,Pendiente
-01/09,257343891,Henn Y Cia S.R.L.,4,-,,Huxley Sa,,Pendiente
-01/09,69996360,Mafralac Alimenticia Srl,1,-,,-,,Pendiente
-01/09,69996360,Mafralac Alimenticia Srl,2,-,,Huxley Sa,,Pendiente
-01/09,BUA0348790,Lift Van Int. Co S.A,1,-,,-,,Pendiente
-02/09,ZIMUBUE9043076,Mercopallet Srl,4,-,,-,,Pendiente
-05/09,19086151,Seaside Logistic Sa,2,-,,-,,Pendiente
-01/09,17053740,Litoral Citrus S A,1,,,-,,
-01/09,257343891,Henn Y Cia S.R.L.,4,,,Huxley Sa,,
-01/09,69996360,Mafralac Alimenticia Srl,1,,,-,,
-01/09,69996360,Mafralac Alimenticia Srl,2,,,Huxley Sa,,
-01/09,BUA0348790,Lift Van Int. Co S.A,1,,,-,,
-02/09,ZIMUBUE9043076,Mercopallet Srl,4,,,-,,
-05/09,19086151,Seaside Logistic Sa,2,,,-,,
-25/08,BUA0348795,Mader Zu S.R.L.,3,,,-,,
-29/08,258417597,Lawter Argentina S.A.,1,,,-,,
-29/08,ZIMUBUE9043132,Isischu Srl,1,,,-,,
-29/08,ZIMUBUE9043239,Seaside Logistic Sa,1,,,-,,
+id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,Contenedor,Precinto,Obs.,Cantidad
+1.0,01/09,17053740,Litoral Citrus S A,-,2025-08-30T13:56:06.080301,,,,,,,,
+4.0,01/09,257343891,Henn Y Cia S.R.L.,Huxley Sa,2025-08-30T13:56:06.339779,,,,,,,,
+5.0,01/09,257343891,Henn Y Cia S.R.L.,Huxley Sa,2025-08-30T13:56:06.444992,,,,,,,,
+8.0,01/09,69996360,Mafralac Alimenticia Srl,Huxley Sa,2025-08-30T13:56:06.733648,,,,,,,,
+9.0,01/09,BUA0348790,Lift Van Int. Co S.A,-,2025-08-30T13:56:06.814238,,,,,,,,
+10.0,02/09,ZIMUBUE9043076,Mercopallet Srl,-,2025-08-30T13:56:06.894182,,,,,,,,
+11.0,02/09,ZIMUBUE9043076,Mercopallet Srl,-,2025-08-30T13:56:06.976386,,,,,,,,
+12.0,02/09,ZIMUBUE9043076,Mercopallet Srl,-,2025-08-30T13:56:07.056949,,,,,,,,
+13.0,02/09,ZIMUBUE9043076,Mercopallet Srl,-,2025-08-30T13:56:07.145896,,,,,,,,
+14.0,05/09,19086151,Seaside Logistic Sa,-,2025-08-30T13:56:07.226386,,,,,,,,
+15.0,05/09,19086151,Seaside Logistic Sa,-,2025-08-30T13:56:07.306348,,,,,,,,
+16.0,25/08,BUA0348795,Mader Zu S.R.L.,-,2025-08-30T13:56:07.391882,,,,,,,,
+17.0,25/08,BUA0348795,Mader Zu S.R.L.,-,2025-08-30T13:56:07.48741,,,,,,,,
+18.0,25/08,BUA0348795,Mader Zu S.R.L.,-,2025-08-30T13:56:07.5791,,,,,,,,
+19.0,29/08,258417597,Lawter Argentina S.A.,-,2025-08-30T13:56:07.664593,,,,,,,,
+20.0,29/08,ZIMUBUE9043132,Isischu Srl,-,2025-08-30T13:56:07.767659,,,,,,,,
+21.0,29/08,ZIMUBUE9043239,Seaside Logistic Sa,-,2025-08-30T13:56:07.844241,,,,,,,,
+7.0,01/09,69996360,Mafralac Alimenticia Srl,Huxley Sa,2025-08-30T13:56:06.619535,,nahuel jr,,,,,,
+2.0,01/09,257343891,Henn Y Cia S.R.L.,Huxley Sa,2025-08-30T13:56:06.168064,,alan porco,09:53 Arribado,,GCXU-581554-4,**********,,
+22.0,01/09/2025,258310013,LIFTVAN,huxley,2025-09-01T13:42:51.682914,,Schaumayer ,,,SUDU-592045-9,,,
+3.0,01/09,257343891,Henn Y Cia S.R.L.,Huxley Sa,2025-08-30T13:56:06.250843,,marcelo porco,09:51 Arribado,,MRKU-589346-6,************,,
+6.0,01/09,69996360,Mafralac Alimenticia Srl,Huxley Sa,2025-08-30T13:56:06.532242,,nahuel jr,09:52 Arribado,,TCNU-370840-5,***********,,
+,02/09,BUEF10283700,Santa Anita Oil Sa,Hiperbaires - Icb T.Sur,,,,,,,,,6.0
