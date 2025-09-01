@@ -1,5 +1,4 @@
 id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,Contenedor,Precinto,Obs.,Cantidad
-1.0,01/09,17053740,Litoral Citrus S A,-,2025-08-30T13:56:06.080301,,,,,,,,
 9.0,01/09,BUA0348790,Lift Van Int. Co S.A,-,2025-08-30T13:56:06.814238,,,,,,,,
 10.0,02/09,ZIMUBUE9043076,Mercopallet Srl,-,2025-08-30T13:56:06.894182,,,,,,,,
 11.0,02/09,ZIMUBUE9043076,Mercopallet Srl,-,2025-08-30T13:56:06.976386,,,,,,,,
@@ -22,10 +21,13 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 26.0,02/09,BUEF10283700,Santa Anita Oil Sa,Hiperbaires - Icb T.Sur,2025-09-01T13:50:37.337125,,,,,,,,
 27.0,02/09,BUEF10283700,Santa Anita Oil Sa,Hiperbaires - Icb T.Sur,2025-09-01T13:50:37.425345,,,,,,,,
 28.0,02/09,BUEF10283700,Santa Anita Oil Sa,Hiperbaires - Icb T.Sur,2025-09-01T13:50:37.569571,,,,,,,,
-22.0,01/09/2025,258310013,LIFTVAN,huxley,2025-09-01T13:42:51.682914,,Schaumayer ,Arribado,,SUDU-592045-9,,,
 4.0,01/09,257343891,Henn Y Cia S.R.L.,Huxley Sa,2025-08-30T13:56:06.339779,,,09:53 Arribado,,GCXU-581554-4,**********,,
 5.0,01/09,257343891,Henn Y Cia S.R.L.,Huxley Sa,2025-08-30T13:56:06.444992,,,09:51 Arribado,,MRKU-589346-6,************,,
 8.0,01/09,69996360,Mafralac Alimenticia Srl,Huxley Sa,2025-08-30T13:56:06.733648,,,09:52 Arribado,,TCNU-370840-5,***********,,
 7.0,01/09,69996360,Mafralac Alimenticia Srl,Huxley Sa,2025-08-30T13:56:06.619535,,nahuel jr,09:52 Arribado,,TCNU-370840-5,***********,,
-,01/09,BUEF10236500,Pachamama Products S.R.L.,Hiperbaires - Icb T.Sur,,,,,,,,,1.0
-,02/09,BUEF10547300,Pallets Nef De Raul E. Fernand...,-,,,,,,,,,2.0
+30.0,02/09,BUEF10547300,Pallets Nef De Raul E. Fernand...,-,2025-09-01T15:05:38.921158,,,,,,,,
+31.0,02/09,BUEF10547300,Pallets Nef De Raul E. Fernand...,-,2025-09-01T15:05:39.006969,,,,,,,,
+22.0,01/09/2025,258310013,LIFTVAN,huxley,2025-09-01T13:42:51.682914,,Schaumayer ,Arribado,,SUDU-592045-9,,,
+1.0,01/09,17053740,Litoral Citrus S A,Huxley Sa,2025-08-30T13:56:06.080301,,,11:20 Arribado,,CAIU-684727-3,********,,
+29.0,01/09,BUEF10236500,Pachamama Products S.R.L.,Hiperbaires - Icb T.Sur,2025-09-01T15:05:38.815831,,Damian bertoli,,,,,,
+,02/09,82112000,Helvecia S.A.,Huxley Sa,,,,,,,,,2.0
