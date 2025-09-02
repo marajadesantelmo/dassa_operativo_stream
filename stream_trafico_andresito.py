@@ -48,7 +48,6 @@ def fetch_data_trafico_andresito():
     remisiones = remisiones.sort_values('Dia')
     remisiones['Dia'] = remisiones['Dia'].dt.strftime('%d/%m')
 
-    # Normalize Estado column for remisiones - treat all "Realizado" statuses as one case
     remisiones['Estado_Normalizado'] = remisiones['Estado'].apply(
         lambda x: 'Realizado' if pd.notna(x) and 'Realizado' in str(x) else x
     )
