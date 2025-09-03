@@ -14,6 +14,7 @@ import stream_trafico
 import stream_trafico_andresito
 import stream_trafico2
 import stream_facturacion
+import stream_choferes
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
@@ -89,14 +90,14 @@ else:
         allowed_pages = ["Tráfico2", "Logout"]
         icons = ["car", "box-arrow-right"]
     elif st.session_state['username'] == "andresito":
-        allowed_pages = ["Andresito", "Logout"]
-        icons = ["car", "box-arrow-right"]
+        allowed_pages = ["Andresito", "Gestión Choferes", "Logout"]
+        icons = ["car", "people", "box-arrow-right"]
     elif st.session_state['username'] in ["plazoleta", "mudancera"]:
         allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "box-arrow-right"]
     else:
-        allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "IMPO - histórico", "EXPO - histórico", "Gestión de usuarios", "Logout"]
-        icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "book", "book", "people", "box-arrow-right"]
+        allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "IMPO - histórico", "EXPO - histórico", "Gestión de usuarios", "Gestión Choferes", "Logout"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "book", "book", "people", "people", "box-arrow-right"]
 
     page_selection = option_menu(
         None,  # No menu title
@@ -121,6 +122,8 @@ else:
         stream_trafico2.show_page_trafico2()
     elif page_selection == "Andresito":
         stream_trafico_andresito.show_page_trafico_andresito()
+    elif page_selection == "Gestión Choferes":
+        stream_choferes.show_page_choferes()
     elif page_selection == "Balanza":
         stream_balanza.show_page_balanza()
     elif page_selection == "Plazoleta":
