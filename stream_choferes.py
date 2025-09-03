@@ -46,18 +46,19 @@ def show_chofer_table(df_filtered, tipo):
     
     # Display table
     display_df = df_filtered.copy()
-    display_df['link'] = display_df['whatsapp'].apply(lambda x: x if x and x.startswith('http') else None)
+    display_df['link'] = display_df['Whatsapp'].apply(lambda x: x if x and x.startswith('http') else None)
     
     st.dataframe(
-        display_df[['codigo', 'nombre', 'dni', 'telefono', 'whatsapp', 'link', 'activo']].style.apply(highlight, axis=1),
+        display_df[['Codigo', 'Nombre', 'DNI', 'Patente', 'Semi', 'Whatsapp', 'link', 'Transporte']].style.apply(highlight, axis=1),
         column_config={
             'link': st.column_config.LinkColumn('WhatsApp', display_text="\U0001F517"),
-            'codigo': 'Código',
-            'nombre': 'Nombre',
-            'dni': 'DNI', 
-            'telefono': 'Teléfono',
-            'whatsapp': 'WhatsApp',
-            'activo': 'Activo'
+            'Codigo': 'Código',
+            'Nombre': 'Nombre',
+            'DNI': 'DNI', 
+            'Patente': 'Patente',
+            'Semi': 'Semi',
+            'Whatsapp': 'WhatsApp',
+            'Transporte': 'Transporte'
         },
         hide_index=True,
         use_container_width=True
@@ -71,21 +72,19 @@ def show_chofer_table(df_filtered, tipo):
     with col1:
         selected_chofer = st.selectbox(
             f"Seleccionar chofer {tipo}:",
-            options=df_filtered['codigo'].tolist(),
-            format_func=lambda x: f"{x} - {df_filtered[df_filtered['codigo']==x]['nombre'].iloc[0]}",
+            options=df_filtered['Codigo'].tolist(),
+            format_func=lambda x: f"{x} - {df_filtered[df_filtered['Codigo']==x]['Nombre'].iloc[0]}",
             key=f"edit_select_{tipo}"
         )
     
     if selected_chofer:
-        chofer_data = df_filtered[df_filtered['codigo'] == selected_chofer].iloc[0]
+        chofer_data = df_filtered[df_filtered['Codigo'] == selected_chofer].iloc[0]
         
         with col2:
-            new_activo = st.selectbox(
-                "Estado:",
-                options=[True, False],
-                index=0 if chofer_data['activo'] else 1,
-                format_func=lambda x: "Activo" if x else "Inactivo",
-                key=f"edit_activo_{tipo}"
+            new_transporte = st.text_input(
+                "Transporte:",
+                value=chofer_data['Transporte'] if pd.notna(chofer_data['Transporte']) else "",
+                key=f"edit_transporte_{tipo}"
             )
         
         col3, col4 = st.columns([1, 1])
@@ -93,23 +92,28 @@ def show_chofer_table(df_filtered, tipo):
         with col3:
             new_nombre = st.text_input(
                 "Nombre:",
-                value=chofer_data['nombre'],
+                value=chofer_data['Nombre'],
                 key=f"edit_nombre_{tipo}"
             )
             new_dni = st.text_input(
                 "DNI:",
-                value=chofer_data['dni'],
+                value=chofer_data['DNI'],
                 key=f"edit_dni_{tipo}"
+            )
+            new_patente = st.text_input(
+                "Patente:",
+                value=chofer_data['Patente'] if pd.notna(chofer_data['Patente']) else "",
+                key=f"edit_patente_{tipo}"
             )
         
         with col4:
-            new_telefono = st.text_input(
-                "Teléfono:",
-                value=chofer_data['telefono'],
-                key=f"edit_telefono_{tipo}"
+            new_semi = st.text_input(
+                "Semi:",
+                value=chofer_data['Semi'] if pd.notna(chofer_data['Semi']) else "",
+                key=f"edit_semi_{tipo}"
             )
             # Extract phone number from WhatsApp link for editing
-            current_whatsapp = chofer_data['whatsapp']
+            current_whatsapp = chofer_data['Whatsapp']
             phone_from_link = ""
             if current_whatsapp and current_whatsapp.startswith('http://wa.me/549'):
                 phone_from_link = current_whatsapp.replace('http://wa.me/549', '')
@@ -118,6 +122,11 @@ def show_chofer_table(df_filtered, tipo):
                 "WhatsApp (solo números):",
                 value=phone_from_link,
                 key=f"edit_whatsapp_{tipo}"
+            )
+            new_valor = st.number_input(
+                "Valor:",
+                value=float(chofer_data['Valor']) if pd.notna(chofer_data['Valor']) else 0.0,
+                key=f"edit_valor_{tipo}"
             )
         
         if st.button(f"Actualizar Chofer {tipo}", key=f"update_btn_{tipo}"):
@@ -128,11 +137,13 @@ def show_chofer_table(df_filtered, tipo):
                     "choferes",
                     chofer_data['id'],
                     {
-                        'nombre': new_nombre,
-                        'dni': new_dni,
-                        'telefono': new_telefono,
-                        'whatsapp': whatsapp_link,
-                        'activo': new_activo
+                        'Nombre': new_nombre,
+                        'DNI': new_dni,
+                        'Patente': new_patente,
+                        'Semi': new_semi,
+                        'Whatsapp': whatsapp_link,
+                        'Transporte': new_transporte,
+                        'Valor': new_valor
                     }
                 )
                 st.success(f"Chofer {selected_chofer} actualizado correctamente")
@@ -151,7 +162,7 @@ def show_page_choferes():
     
     if choferes_data.empty:
         st.warning("No hay datos de choferes disponibles")
-        choferes_data = pd.DataFrame(columns=['id', 'codigo', 'tipo', 'nombre', 'dni', 'telefono', 'whatsapp', 'activo'])
+        choferes_data = pd.DataFrame(columns=['id', 'Codigo', 'Tipo', 'Nombre', 'Patente', 'Semi', 'Whatsapp', 'DNI', 'Transporte', 'Valor'])
     
     # Add new chofer section
     st.subheader("Agregar Nuevo Chofer")
@@ -165,25 +176,22 @@ def show_page_choferes():
             key="new_tipo"
         )
         new_nombre = st.text_input("Nombre:", key="new_nombre")
+        new_dni = st.text_input("DNI:", key="new_dni")
     
     with col2:
-        new_dni = st.text_input("DNI:", key="new_dni")
-        new_telefono = st.text_input("Teléfono:", key="new_telefono")
+        new_patente = st.text_input("Patente:", key="new_patente")
+        new_semi = st.text_input("Semi:", key="new_semi")
+        new_whatsapp = st.text_input("WhatsApp (solo números):", key="new_whatsapp")
     
     with col3:
-        new_whatsapp = st.text_input("WhatsApp (solo números):", key="new_whatsapp")
-        new_activo = st.selectbox(
-            "Estado:",
-            options=[True, False],
-            format_func=lambda x: "Activo" if x else "Inactivo",
-            key="new_activo"
-        )
+        new_transporte = st.text_input("Transporte:", key="new_transporte")
+        new_valor = st.number_input("Valor:", value=0.0, key="new_valor")
     
     if st.button("Agregar Chofer", key="add_chofer_btn"):
         if new_nombre and new_dni:
             try:
                 # Generate new code
-                existing_codes = choferes_data['codigo'].tolist() if not choferes_data.empty else []
+                existing_codes = choferes_data['Codigo'].tolist() if not choferes_data.empty else []
                 new_codigo = generate_chofer_code(new_tipo, existing_codes)
                 
                 # Format WhatsApp link
@@ -191,13 +199,15 @@ def show_page_choferes():
                 
                 # Insert new chofer
                 insert_data("choferes", {
-                    'codigo': new_codigo,
-                    'tipo': new_tipo,
-                    'nombre': new_nombre,
-                    'dni': new_dni,
-                    'telefono': new_telefono,
-                    'whatsapp': whatsapp_link,
-                    'activo': new_activo
+                    'Codigo': new_codigo,
+                    'Tipo': new_tipo,
+                    'Nombre': new_nombre,
+                    'DNI': new_dni,
+                    'Patente': new_patente,
+                    'Semi': new_semi,
+                    'Whatsapp': whatsapp_link,
+                    'Transporte': new_transporte,
+                    'Valor': new_valor
                 })
                 
                 st.success(f"Chofer {new_codigo} - {new_nombre} agregado correctamente")
@@ -216,7 +226,7 @@ def show_page_choferes():
     
     for tipo in tipos:
         st.subheader(f"Choferes {tipo}")
-        df_tipo = choferes_data[choferes_data['tipo'] == tipo] if not choferes_data.empty else pd.DataFrame()
+        df_tipo = choferes_data[choferes_data['Tipo'] == tipo] if not choferes_data.empty else pd.DataFrame()
         
         show_chofer_table(df_tipo, tipo)
         st.markdown("---")
