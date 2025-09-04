@@ -14,7 +14,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-01,Exolgan,1100 ,BSIU-326295-3,Lift Van Int. Co S.A,HLCULIV250724739,T,DC,30,1,15:26 Arribado
 2025-09-02,Exolgan,1500 ,TGBU-397950-0,Lift Van Int. Co S.A,MEDUJZ287643,TD,DC,30,1,18:31 Arribado
 2025-08-29,Trp - Terminales 1-2-3,1300 ,TRHU-871610-9,La Tela Srl,FDNBSE2507073,T,HC,70,1,16:17 Arribado
-2025-09-04,Terminal 4 - Maersk,1300 ,ZHLU-201409-6,Dpmg S.A.,278686583,T,is,30,0,Pendiente arribo
+2025-09-04,Terminal 4 - Maersk,1300 ,ZHLU-201409-6,Dpmg S.A.,278686583,T,is,30,1,17:35 Arribado
 2025-09-03,Terminal 4 - Maersk,0900 ,ZHLU-201402-8,Dpmg S.A.,278686582,T,is,30,1,12:11 Arribado
 2025-08-29,Exolgan,1500 ,MSBU-337864-0,Grouport Srl,TCQD2505313,T,DC,30,1,18:20 Arribado
 2025-08-28,Terminal 4 - Maersk,1000 ,HASU-108388-1,Refractarios Argentinos Saicm,720933984,TD,DR,30,1,13:38 Arribado
@@ -27,7 +27,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-02,Exolgan,1500 ,MEDU-886776-8,Metal Gauss S.A.,TCSH2506232,TD,HC,70,1,19:42 Arribado
 2025-08-29,Trp - Terminales 1-2-3,1200 ,TRHU-585246-2,Mma Tex S.A.,NB250662584,TD,HC,70,1,15:23 Arribado
 2025-08-29,Trp - Terminales 1-2-3,1200 ,FFAU-210421-8,Mma Tex S.A.,HDE25-0700010A/B,TD,HC,70,1,14:12 Arribado
-2025-09-04,Trp - Terminales 1-2-3,1300 ,TGHU-514001-8,Mma Tex S.A.,HDE25-060038A/B,TD,HC,70,0,Pendiente arribo
+2025-09-04,Trp - Terminales 1-2-3,1300 ,TGHU-514001-8,Mma Tex S.A.,HDE25-060038A/B,TD,HC,70,1,17:28 Arribado
 2025-09-04,Trp - Terminales 1-2-3,1200 ,EISU-837420-2,Mma Tex S.A.,HDE25-0700008,T,HC,70,1,16:54 Arribado
 2025-08-28,Terminal 4 - Maersk,1000 ,MRKU-081700-0,Presmar S.A.,ARBUE/000464,T,DR,60,1,13:42 Arribado
 2025-08-29,Trp - Terminales 1-2-3,1700 ,EGSU-146082-0,Jupam Sa,TWLE25060101,T,HC,70,1,18:53 Arribado
@@ -39,7 +39,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-01,Trp - Terminales 1-2-3,1300 ,TRHU-829637-2,Compañia Bulk S.A.,SY250663167,T,HC,70,1,15:57 Arribado
 2025-09-02,Terminal 4 - Maersk,1400 ,MRKU-000630-0,Southcross Logistics Sa,GGLFE25070021,T,HC,70,1,18:22 Arribado
 2025-09-04,Trp - Terminales 1-2-3,1200 ,CMAU-542796-2,Juliana Sa,CHN2302222,T,HC,70,1,15:33 Arribado
-2025-09-04,Terminal 4 - Maersk,1100 ,MRKU-474393-9,Chemotecnica Sa,QT25Y8107651,TD,HC,70,1,14:19 Arribado
+2025-09-04,Terminal 4 - Maersk,1100 ,MRKU-474393-9,Chemotecnica Sa,QT25Y8107651,T,HC,70,1,14:19 Arribado
 2025-09-04,Trp - Terminales 1-2-3,0500 ,YMLU-354611-2,Chemotecnica Sa,YMJAB237005023,TD,DC,60,1,08:58 Arribado
 2025-08-29,Exolgan,1500 ,MSDU-769128-6,Raisvic S.R.L.,BOE25015146,T,HC,70,1,18:25 Arribado
 2025-09-03,Trp - Terminales 1-2-3,1300 ,EGHU-918096-6,Raisvic S.R.L.,HDE25-0600008,T,HC,70,1,14:40 Arribado
@@ -69,8 +69,8 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-03,Trp - Terminales 1-2-3,1200 ,CMAU-275489-5,Industrias Zapla S.A.,PEC013641RCS,TD,DR,30,1,15:12 Arribado
 2025-09-03,Trp - Terminales 1-2-3,1300 ,CMAU-253746-2,Industrias Zapla S.A.,PEC013641RCS,TD,DR,30,1,14:53 Arribado
 2025-09-03,Trp - Terminales 1-2-3,1200 ,CAIU-279844-2,Industrias Zapla S.A.,PEC013641RCS,TD,DR,30,1,15:36 Arribado
-2025-09-04,Terminal 4 - Maersk,1400 ,ZCSU-862988-0,Independencia 3187 Maquinarias...,SHIPSE2506090,T,HC,70,0,Pendiente arribo
-2025-09-04,Terminal 4 - Maersk,1400 ,ZCSU-698120-7,Independencia 3187 Maquinarias...,SHIPSE2506089,TD,HC,70,0,Pendiente arribo
+2025-09-04,Terminal 4 - Maersk,1400 ,ZCSU-862988-0,Independencia 3187 Maquinarias...,SHIPSE2506090,T,HC,70,1,17:26 Arribado
+2025-09-04,Terminal 4 - Maersk,1400 ,ZCSU-698120-7,Independencia 3187 Maquinarias...,SHIPSE2506089,TD,HC,70,1,17:25 Arribado
 2025-09-01,Trp - Terminales 1-2-3,1200 ,OOCU-892836-8,Arg Color S.R.L.,TCNB25070308,T,HC,70,1,14:18 Arribado
 2025-08-29,Exolgan,0500 ,SEGU-124746-3,Cargocorp Argentina Sa,HLCUDX3250541379,TD,DR,30,1,09:18 Arribado
 2025-09-04,Trp - Terminales 1-2-3,1200 ,OOCU-778911-8,Skop Trader S. A.,TCNB2506462,T,HC,70,1,14:10 Arribado
