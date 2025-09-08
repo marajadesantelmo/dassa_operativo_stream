@@ -4,16 +4,16 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 37308,08/09,Lawter Argentina S.A.,-,9,DR,TD,                    ,153IAR0651167,0,                              ,,     ,2025-09-18,,                    ,Pendiente
 37307,08/09,Lawter Argentina S.A.,MSCU-471008-0,9,DR,TD,FX32910713          ,153IAR0651167,1,TRANSPORTE DEL CLIENTE        ,Bertoli,11:24,2025-09-18,,                    ,11:24 Arribado
 37306,08/09,Lawter Argentina S.A.,MSBU-409899-0,9,DR,TD,FX32910723          ,153IAR0651167,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Miguel,11:21,2025-09-18,,                    ,11:21 Arribado
-37296,08/09,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,EBKG13709692,0,                              ,,     ,2025-09-26,Ebkg13709692,EBKG13709692        ,Pendiente
+37296,08/09,Henn Y Cia S.R.L.,MEDU-571584-3,0,DR,TD,FX32910705          ,EBKG13709692,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,12:17,2025-09-26,Ebkg13709692,EBKG13709692        ,12:17 Arribado
 37295,08/09,Henn Y Cia S.R.L.,MSBU-131709-7,9,DR,TD,FX32910704          ,EBKG13709692,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,12:06,2025-09-26,Ebkg13709692,EBKG13709692        ,12:06 Arribado
 37294,08/09,Henn Y Cia S.R.L.,TTNU-111421-7,9,DR,TD,FX32910717          ,EBKG13709692,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,11:56,2025-09-26,Ebkg13709692,EBKG13709692        ,11:56 Arribado
 37293,08/09,Henn Y Cia S.R.L.,MSMU-261648-1,9,DR,TD,FX32910716          ,EBKG13709692,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,11:52,2025-09-26,Ebkg13709692,EBKG13709692        ,11:52 Arribado
 37381,08/09,Sandrin Paola Karina,-,10074,HC,TD,                    ,BUA0349544,0,                              ,,     ,2025-09-29,,                    ,Pendiente
-37375,08/09,Alimentaria Sa,-,10082,DR,TD,                    ,BUA0349544,0,                              ,,     ,2025-09-29,,                    ,Pendiente
-37374,08/09,Alimentaria Sa,-,10082,DR,TD,                    ,BUA0349544,0,                              ,,     ,2025-09-29,,                    ,Pendiente
+37375,08/09,Alimentaria Sa,CAIU-380224-9,10082,DR,TD,R8695136            ,BUA0349544,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,12:31,2025-09-29,,                    ,12:31 Arribado
+37374,08/09,Alimentaria Sa,TCLU-371545-4,10082,DR,TD,R8695141            ,BUA0349544,0,                              ,,     ,2025-09-29,,                    ,Pendiente
 37376,08/09,Alimentaria Sa,-,10082,DR,TD,                    ,BUA0349544,0,                              ,,     ,2025-09-29,,                    ,Pendiente
 37372,08/09,Alimentaria Sa,CMAU-173653-6,10082,DR,TD,R8695147            ,BUA0349544,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,11:34,2025-09-29,,                    ,11:34 Arribado
-37292,08/09,Mercovan Argentina S.A.,-,0,  ,TD,                    ,17053204,0,                              ,,     ,2025-09-26,Fang (David) Chen,17053204            ,Pendiente
+37292,08/09,Mercovan Argentina S.A.,HLBU-403514-4,Exolgan,DR,TD,******************  ,17053204,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,12:21,2025-09-26,Fang (David) Chen,17053204            ,12:21 Arribado
 37298,08/09,Pelama Chubut S.A.,-,10080,DR,TD,                    ,31734501,0,                              ,,     ,2025-09-26,,                    ,Pendiente
 37320,08/09,Mader Zu S.R.L.,HAMU-288422-4,10080,HC,TD,********************,61995137,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,09:32,2025-09-26,61995137,                    ,09:32 Arribado
 37373,08/09,Alimentaria Sa,TCKU-106479-9,10082,DR,TD,R8695145            ,BUA0349544,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,11:42,2025-09-29,,                    ,11:42 Arribado
