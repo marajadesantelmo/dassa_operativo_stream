@@ -1,14 +1,14 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 37291,08/09,Mercovan Argentina S.A.,UACU-831687-8,Exolgan,DR,TD,********************,34199313,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:41,2025-09-26,Puissant Baeyens,34199313            ,10:41 Arribado
-37380,08/09,Sandrin Paola Karina,-,10074,HC,TD,                    ,BUA0349544,0,                              ,,     ,2025-09-29,,                    ,Pendiente
-37308,08/09,Lawter Argentina S.A.,-,9,DR,TD,                    ,153IAR0651167,0,                              ,,     ,2025-09-18,,                    ,Pendiente
+37380,08/09,Sandrin Paola Karina,-,10074,HC,TD,                    ,BUA0350014,0,                              ,,     ,2025-09-29,,                    ,Pendiente
+37308,08/09,Lawter Argentina S.A.,MSDU-447521-5,9,DR,TD,FX32910655          ,153IAR0651167,1,TRANSPORTE DEL CLIENTE        ,Peril,13:58,2025-09-18,,                    ,13:58 Arribado
 37307,08/09,Lawter Argentina S.A.,MSCU-471008-0,9,DR,TD,FX32910713          ,153IAR0651167,1,TRANSPORTE DEL CLIENTE        ,Bertoli,11:24,2025-09-18,,                    ,11:24 Arribado
 37306,08/09,Lawter Argentina S.A.,MSBU-409899-0,9,DR,TD,FX32910723          ,153IAR0651167,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Miguel,11:21,2025-09-18,,                    ,11:21 Arribado
 37296,08/09,Henn Y Cia S.R.L.,MEDU-571584-3,0,DR,TD,FX32910705          ,EBKG13709692,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,12:17,2025-09-26,Ebkg13709692,EBKG13709692        ,12:17 Arribado
 37295,08/09,Henn Y Cia S.R.L.,MSBU-131709-7,9,DR,TD,FX32910704          ,EBKG13709692,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,12:06,2025-09-26,Ebkg13709692,EBKG13709692        ,12:06 Arribado
 37294,08/09,Henn Y Cia S.R.L.,TTNU-111421-7,9,DR,TD,FX32910717          ,EBKG13709692,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,11:56,2025-09-26,Ebkg13709692,EBKG13709692        ,11:56 Arribado
 37293,08/09,Henn Y Cia S.R.L.,MSMU-261648-1,9,DR,TD,FX32910716          ,EBKG13709692,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,11:52,2025-09-26,Ebkg13709692,EBKG13709692        ,11:52 Arribado
-37381,08/09,Sandrin Paola Karina,-,10074,HC,TD,                    ,BUA0349544,0,                              ,,     ,2025-09-29,,                    ,Pendiente
+37381,08/09,Sandrin Paola Karina,-,10074,HC,TD,                    ,BUA0350014,0,                              ,,     ,2025-09-29,,                    ,Pendiente
 37375,08/09,Alimentaria Sa,CAIU-380224-9,10082,DR,TD,R8695136            ,BUA0349544,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,12:31,2025-09-29,,                    ,12:31 Arribado
 37374,08/09,Alimentaria Sa,TCLU-371545-4,10082,DR,TD,R8695141            ,BUA0349544,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,12:35,2025-09-29,,                    ,12:35 Arribado
 37376,08/09,Alimentaria Sa,-,10082,DR,TD,                    ,BUA0349544,0,                              ,,     ,2025-09-29,,                    ,Pendiente
@@ -17,7 +17,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 37298,08/09,Pelama Chubut S.A.,UACU-845565-7,10080,DR,TD,********************,31734501,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,12:39,2025-09-26,,                    ,12:39 Arribado
 37320,08/09,Mader Zu S.R.L.,HAMU-288422-4,10080,HC,TD,********************,61995137,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,09:32,2025-09-26,61995137,                    ,09:32 Arribado
 37373,08/09,Alimentaria Sa,TCKU-106479-9,10082,DR,TD,R8695145            ,BUA0349544,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,11:42,2025-09-29,,                    ,11:42 Arribado
-37382,08/09,Sandrin Paola Karina,-,10074,HC,TD,                    ,BUA0349544,0,                              ,,     ,2025-09-29,,                    ,Pendiente
+37382,08/09,Sandrin Paola Karina,-,10074,HC,TD,                    ,BUA0350014,0,                              ,,     ,2025-09-29,,                    ,Pendiente
 37332,09/09,Hilado Sa,-,10076,HC,TD,                    ,258260897,0,                              ,,     ,2025-09-26,,                    ,Pendiente
 37331,09/09,Hilado Sa,-,10076,HC,TD,                    ,258260897,0,                              ,,     ,2025-09-26,,                    ,Pendiente
 37334,09/09,Hilado Sa,-,10076,HC,TD,                    ,258260897,0,                              ,,     ,2025-09-26,,                    ,Pendiente
