@@ -30,6 +30,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-10,Terminal 4 - Maersk,1300 ,GAOU-610031-1,Jupam Sa,TWLE25070086,T,HC,70,0,Pendiente arribo
 2025-09-10,Trp - Terminales 1-2-3,1200 ,TEMU-640960-3,Aoda Sa,NB250561059,T,HC,70,0,Pendiente arribo
 2025-09-09,Exolgan,0500 ,UETU-776642-7,Awam Tex Srl,NBOE25015689,T,HC,70,1,09:49 Arribado
+2025-09-11,Exolgan,1300 ,MSDU-713012-0,Grupo Leal-Tex S.R.L.,GILSH250600125,T,HC,70,0,Pendiente arribo
 2025-09-10,Trp - Terminales 1-2-3,1000 ,HMCU-916037-6,Compañia Bulk S.A.,SY250662105,T,HC,70,1,13:49 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1200 ,TEMU-617770-3,Compañia Bulk S.A.,SY250662105,T,HC,70,0,Pendiente arribo
 2025-09-10,Trp - Terminales 1-2-3,1100 ,EMCU-849221-8,Compañia Bulk S.A.,SY250662105,T,HC,70,1,13:45 Arribado
@@ -41,8 +42,11 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-08,Terminal 4 - Maersk,1300 ,TCNU-427014-4,Juliana Sa,ZIMUNGB20633788,T,HC,70,1,16:19 Arribado
 2025-09-10,Terminal 4 - Maersk,1300 ,TLLU-459410-2,Juliana Sa,ZIMUNGB20633790,T,HC,70,0,Pendiente arribo
 2025-09-10,Terminal 4 - Maersk,1300 ,ZCSU-692856-3,Juliana Sa,ZIMUNGB20633791,TD,HC,70,0,Pendiente arribo
+2025-09-11,Trp - Terminales 1-2-3,0400 ,TCNU-299299-7,Juliana Sa,NGP2552016,T,HC,70,0,Pendiente arribo
+2025-09-11,Trp - Terminales 1-2-3,0400 ,TGHU-669552-0,Juliana Sa,NGP2552024,T,HC,70,0,Pendiente arribo
 2025-09-09,Exolgan,0500 ,CAIU-440167-8,Bisora Group Sa,NBOE25015864,T,HC,70,1,09:52 Arribado
 2025-09-09,Exolgan,0500 ,UETU-610500-0,Bisora Group Sa,NBOE25015670,T,HC,70,1,09:58 Arribado
+2025-09-11,Exolgan,1300 ,CAIU-478264-0,Bisora Group Sa,NBOE25015946A,TD,HC,70,0,Pendiente arribo
 2025-09-04,Terminal 4 - Maersk,1100 ,MRKU-474393-9,Chemotecnica Sa,QT25Y8107651,T,HC,70,1,14:19 Arribado
 2025-09-04,Trp - Terminales 1-2-3,0500 ,YMLU-354611-2,Chemotecnica Sa,YMJAB237005023,TD,DC,60,1,08:58 Arribado
 2025-09-03,Trp - Terminales 1-2-3,1300 ,EGHU-918096-6,Raisvic S.R.L.,HDE25-0600008,T,HC,70,1,14:40 Arribado
