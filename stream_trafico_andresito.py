@@ -213,7 +213,17 @@ def show_page_trafico_andresito():
                     format_func=lambda x: f"ID {x} - {pendiente_desconsolidar[pendiente_desconsolidar['id']==x]['Contenedor'].iloc[0] if not pendiente_desconsolidar[pendiente_desconsolidar['id']==x].empty else 'N/A'}",
                     key="pendiente_select"
                 )
-                chofer_name_pendiente = st.text_input("Chofer:", key="chofer_pendiente")
+                chofer_name_pendiente = st.selectbox(
+                    "Chofer:",
+                    options=chofer_options,
+                    key="chofer_pendiente_select",
+                    index=0
+                )
+                
+                # Allow custom input if needed
+                if chofer_name_pendiente == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_pendiente"):
+                    chofer_name_pendiente = st.text_input("Ingresar nombre de chofer:", key="chofer_pendiente_custom")
+
                 if st.button("Asignar", key="assign_pendiente"):
                     if chofer_name_pendiente.strip():
                         try:
@@ -308,7 +318,16 @@ def show_page_trafico_andresito():
                     format_func=lambda x: f"ID {x} - {arribos_expo_ctns[arribos_expo_ctns['id']==x]['Booking'].iloc[0] if not arribos_expo_ctns[arribos_expo_ctns['id']==x].empty else 'N/A'}",
                     key="expo_select"
                 )
-                chofer_name_expo = st.text_input("Chofer:", key="chofer_expo")
+                chofer_name_expo = st.selectbox(
+                    "Chofer:",
+                    options=chofer_options,
+                    key="chofer_expo_select",
+                    index=0
+                )
+                
+                # Allow custom input if needed
+                if chofer_name_expo == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_expo"):
+                    chofer_name_expo = st.text_input("Ingresar nombre de chofer:", key="chofer_expo_custom")
                 if st.button("Asignar", key="assign_expo"):
                     if chofer_name_expo.strip():
                         try:
@@ -393,7 +412,17 @@ def show_page_trafico_andresito():
             format_func=lambda x: f"ID {x} - {remisiones[remisiones['id']==x]['Contenedor'].iloc[0] if not remisiones[remisiones['id']==x].empty else 'N/A'}",
             key="remision_select"
         )
-        chofer_name_remisiones = st.text_input("Chofer:", key="chofer_remisiones")
+        chofer_name_remisiones = st.selectbox(
+                    "Chofer:",
+                    options=chofer_options,
+                    key="chofer_remisiones_select",
+                    index=0
+                )
+                
+                # Allow custom input if needed
+        if chofer_name_remisiones == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_remisiones"):
+            chofer_name_remisiones = st.text_input("Ingresar nombre de chofer:", key="chofer_remisiones_custom")
+
         if st.button("Asignar", key="assign_remisiones"):
             if chofer_name_remisiones.strip():
                 try:
