@@ -126,9 +126,17 @@ def show_page_trafico_andresito():
                 format_func=lambda x: f"ID {x} - {arribos[arribos['id']==x]['Contenedor'].iloc[0] if not arribos[arribos['id']==x].empty else 'N/A'}",
                 key="arribo_select"
             )
-            chofer_name_arribos = st.text_input("Chofer:",
-                                                options=choferes['Nombre'].dropna().unique().tolist() if not choferes.empty else [],
-                                                 key="chofer_arribos")
+            chofer_options = [""] + choferes['Nombre'].dropna().unique().tolist() if not choferes.empty else [""]
+            chofer_name_arribos = st.selectbox(
+                "Chofer:",
+                options=chofer_options,
+                key="chofer_arribos_select",
+                index=0
+            )
+            
+            # Allow custom input if needed
+            if chofer_name_arribos == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_arribos"):
+                chofer_name_arribos = st.text_input("Ingresar nombre de chofer:", key="chofer_arribos_custom")
             if st.button("Asignar", key="assign_arribos"):
                 if chofer_name_arribos.strip():
                     try:
