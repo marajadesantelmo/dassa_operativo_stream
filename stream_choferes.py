@@ -155,7 +155,7 @@ def show_chofer_table(df_filtered, tipo):
 
 def show_page_choferes():
     st.title("Gestión de Choferes")
-    st.markdown("Administración de choferes por tipo: Andresito, Fletero y Transporte")
+    st.markdown("Administración de choferes por tipo: Andresito, Fletero y Transportes")
     
     # Fetch data
     choferes_data = fetch_data_choferes()
@@ -172,7 +172,7 @@ def show_page_choferes():
     with col1:
         new_tipo = st.selectbox(
             "Tipo de Chofer:",
-            options=['Andresito', 'Fletero', 'Transporte'],
+            options=['Andresito', 'Fletero', 'Transportes'],
             key="new_tipo"
         )
         new_nombre = st.text_input("Nombre:", key="new_nombre")
@@ -222,7 +222,7 @@ def show_page_choferes():
     st.markdown("---")
     
     # Display tables by type
-    tipos = ['Andresito', 'Fletero', 'Transporte']
+    tipos = ['Andresito', 'Fletero', 'Transportes']
     
     for tipo in tipos:
         st.subheader(f"Choferes {tipo}")
