@@ -1,10 +1,12 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 37400,10/09,Lift Van Int. Co S.A,-,0,  ,TD,                    ,259005939,0,                              ,,     ,2025-09-29,Camilo Garcia,259005939           ,Pendiente
 37406,10/09,Santana Textil Chaco Sa,CMAU-382489-4,10074,HC,TD,8681736             ,MCORIV030926,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,09:24,2025-09-30,,                    ,09:24 Arribado
-37407,10/09,Santana Textil Chaco Sa,-,10074,HC,TD,                    ,MCORIV030926,0,                              ,,     ,2025-09-30,,                    ,Pendiente
-37408,10/09,Santana Textil Chaco Sa,-,10074,HC,TD,                    ,MCORIV030926,0,                              ,,     ,2025-09-30,,                    ,Pendiente
-37409,10/09,Santana Textil Chaco Sa,-,10074,HC,TD,                    ,MCORIV030926,0,                              ,,     ,2025-09-30,,                    ,Pendiente
+37407,10/09,Santana Textil Chaco Sa,CMAU-652269-2,10074,HC,TD,R8681649            ,MCORIV030926,1,TRANSPORTE DEL CLIENTE        ,Miguez,09:39,2025-09-30,,                    ,09:39 Arribado
+37408,10/09,Santana Textil Chaco Sa,BEAU-400436-2,10074,HC,TD,R8685356            ,MCORIV030926,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,09:42,2025-09-30,,                    ,09:42 Arribado
+37409,10/09,Santana Textil Chaco Sa,CAAU-618947-8,10074,HC,TD,R8681737            ,MCORIV030926,1,TRANSPORTE DEL CLIENTE        ,Bellusci,09:48,2025-09-30,,                    ,09:48 Arribado
 37410,10/09,Santana Textil Chaco Sa,-,10074,HC,TD,                    ,MCORIV030926,0,                              ,,     ,2025-09-30,,                    ,Pendiente
+37455,10/09,Dpmg S.A.,ZHLU-202160-2,0,is,TD,                    ,25001EC03009621H,1,TRANSPORTE DEL CLIENTE        ,.,09:37,2025-10-01,,                    ,09:37 Arribado
+37456,10/09,Dpmg S.A.,SIMU-706889-5,0,is,TD,                    ,25001EC03009659S,1,TRANSPORTE DEL CLIENTE        ,.,09:37,2025-10-01,,                    ,09:37 Arribado
 37417,10/09,Mader Zu S.R.L.,-,0,  ,TD,                    ,340500034965,0,                              ,,     ,2025-09-30,340500034965,340500034965        ,Pendiente
 37418,10/09,Mader Zu S.R.L.,-,0,  ,TD,                    ,340500034965,0,                              ,,     ,2025-09-30,340500034965,340500034965        ,Pendiente
 37398,10/09,Agrotres S.A,TCLU-831202-4,10074,HC,TD,R8681742            ,BUA0349119,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,09:21,2025-09-29,"Int, S04770459",25001EC01059900K    ,09:21 Arribado
