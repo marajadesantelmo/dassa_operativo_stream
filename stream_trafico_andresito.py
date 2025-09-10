@@ -51,13 +51,13 @@ def fetch_data_trafico_andresito():
     remisiones['Estado_Normalizado'] = remisiones['Estado'].apply(
         lambda x: 'Realizado' if pd.notna(x) and 'Realizado' in str(x) else x
     )
-
-    return arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns
+    choferes = fetch_table_data("choferes")
+    return arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns, choferes
 
 
 def show_page_trafico_andresito():
     # Load data
-    arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns = fetch_data_trafico_andresito()
+    arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns, choferes = fetch_data_trafico_andresito()
     
     # Get today's date in the same format as Fecha column
     today_str = datetime.now().strftime('%d/%m/%Y')
@@ -126,7 +126,9 @@ def show_page_trafico_andresito():
                 format_func=lambda x: f"ID {x} - {arribos[arribos['id']==x]['Contenedor'].iloc[0] if not arribos[arribos['id']==x].empty else 'N/A'}",
                 key="arribo_select"
             )
-            chofer_name_arribos = st.text_input("Chofer:", key="chofer_arribos")
+            chofer_name_arribos = st.text_input("Chofer:",
+                                                options=choferes['Nombre'].dropna().unique().tolist() if not choferes.empty else [],
+                                                 key="chofer_arribos")
             if st.button("Asignar", key="assign_arribos"):
                 if chofer_name_arribos.strip():
                     try:
