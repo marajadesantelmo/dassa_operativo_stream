@@ -35,8 +35,8 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-10,Trp - Terminales 1-2-3,1000 ,HMCU-916037-6,Compañia Bulk S.A.,SY250662105,T,HC,70,1,13:49 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1200 ,TEMU-617770-3,Compañia Bulk S.A.,SY250662105,T,HC,70,1,17:10 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1100 ,EMCU-849221-8,Compañia Bulk S.A.,SY250662105,T,HC,70,1,13:45 Arribado
-2025-09-10,Exolgan,1300 ,TCLU-400559-1,Southcross Logistics Sa,MEDUYN346877,T,DC,60,0,Pendiente arribo
-2025-09-10,Exolgan,1500 ,TTNU-432725-8,Southcross Logistics Sa,MEDUYN346877,T,DC,60,0,Pendiente arribo
+2025-09-10,Exolgan,1300 ,TCLU-400559-1,Southcross Logistics Sa,MEDUYN346877,T,DC,60,1,18:12 Arribado
+2025-09-10,Exolgan,1500 ,TTNU-432725-8,Southcross Logistics Sa,MEDUYN346877,T,DC,60,1,18:23 Arribado
 2025-09-04,Trp - Terminales 1-2-3,1200 ,CMAU-542796-2,Juliana Sa,CHN2302222,T,HC,70,1,15:33 Arribado
 2025-09-08,Terminal 4 - Maersk,1300 ,TLLU-458157-4,Juliana Sa,ZIMUNGB20633783,T,HC,70,1,16:25 Arribado
 2025-09-08,Terminal 4 - Maersk,1300 ,TCNU-451797-5,Juliana Sa,ZIMUNGB20633789,T,HC,70,1,16:31 Arribado
@@ -81,8 +81,8 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-03,Trp - Terminales 1-2-3,1200 ,CAIU-279844-2,Industrias Zapla S.A.,PEC013641RCS,TD,DR,30,1,15:36 Arribado
 2025-09-04,Terminal 4 - Maersk,1400 ,ZCSU-862988-0,Independencia 3187 Maquinarias...,SHIPSE2506090,T,HC,70,1,17:26 Arribado
 2025-09-04,Terminal 4 - Maersk,1400 ,ZCSU-698120-7,Independencia 3187 Maquinarias...,SHIPSE2506089,T,HC,70,1,17:25 Arribado
-2025-09-10,Exolgan,1500 ,UETU-754465-1,Independencia 3187 Maquinarias...,TCSH2505570A,T,HC,70,0,Pendiente arribo
-2025-09-10,Exolgan,1500 ,UETU-754342-3,Independencia 3187 Maquinarias...,TCSH2505570B,T,HC,70,0,Pendiente arribo
+2025-09-10,Exolgan,1500 ,UETU-754465-1,Independencia 3187 Maquinarias...,TCSH2505570A,T,HC,70,1,18:25 Arribado
+2025-09-10,Exolgan,1500 ,UETU-754342-3,Independencia 3187 Maquinarias...,TCSH2505570B,T,HC,70,1,18:28 Arribado
 2025-09-10,Exolgan,1500 ,MSBU-689107-1,Independencia 3187 Maquinarias...,TCSH2505572D,T,HC,70,1,17:29 Arribado
 2025-09-10,Exolgan,1100 ,UETU-754317-2,Independencia 3187 Maquinarias...,TCSH2505572B,T,HC,70,1,14:56 Arribado
 2025-09-10,Exolgan,1100 ,MSBU-689105-0,Independencia 3187 Maquinarias...,TCSH2505572E,T,HC,70,1,14:54 Arribado
