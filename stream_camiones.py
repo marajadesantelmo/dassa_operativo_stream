@@ -130,7 +130,7 @@ def show_page_camiones():
         # Display filtered data
         st.write(f"Mostrando {len(filtered_data)} registros")
         st.dataframe(
-            display_historico.style.set_properties(subset=['link'], **{'width': '20px'}),
+            filtered_data.style.set_properties(subset=['link'], **{'width': '20px'}),
             column_config={'link': st.column_config.LinkColumn('link', display_text="\U0001F517")},
             hide_index=True, use_container_width=True
         )
