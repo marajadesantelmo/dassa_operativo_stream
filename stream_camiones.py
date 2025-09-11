@@ -38,7 +38,7 @@ def fetch_preingreso_data():
 
             display_historico = preingreso_historico[["Fecha", "Número Fila", "Hora", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "link", 
                                         "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida"]]
-            display_historico.sort_values(by='Fecha', inplace=True)
+            display_historico.sort_values(by=['Fecha', 'Número Fila'], ascending=[False, True], inplace=True)
 
     except Exception as e:
         st.error(f"Error al cargar datos: {e}")
@@ -99,6 +99,36 @@ def show_page_camiones():
         
         st.markdown("---")
         st.subheader("Datos Históricos")
+        # Add filters for historical data
+        col_filter1, col_filter2 = st.columns(2)
+
+        with col_filter1:
+            # Filter by date
+            available_dates = sorted(display_historico['Fecha'].unique(), reverse=True)
+            selected_date = st.selectbox(
+                "Filtrar por fecha:",
+                options=["Todas"] + available_dates.tolist(),
+                key="date_filter"
+            )
+
+        with col_filter2:
+            # Filter by driver name
+            available_drivers = sorted(display_historico['Nombre Chofer'].unique())
+            selected_driver = st.selectbox(
+                "Filtrar por chofer:",
+                options=["Todos"] + available_drivers.tolist(),
+                key="driver_filter"
+            )
+
+        # Apply filters
+        filtered_data = display_historico.copy()
+        if selected_date != "Todas":
+            filtered_data = filtered_data[filtered_data['Fecha'] == selected_date]
+        if selected_driver != "Todos":
+            filtered_data = filtered_data[filtered_data['Nombre Chofer'] == selected_driver]
+
+        # Display filtered data
+        st.write(f"Mostrando {len(filtered_data)} registros")
         st.dataframe(
             display_historico.style.set_properties(subset=['link'], **{'width': '20px'}),
             column_config={'link': st.column_config.LinkColumn('link', display_text="\U0001F517")},
