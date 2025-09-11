@@ -53,10 +53,18 @@ def fetch_last_update():
             return "No disponible"
     return "No disponible"
 
-def show_page_balanza():
+def show_page_balanza(apply_mudanceras_filter=False):
     # Load data
     balanza, balanza_impo, balanza_expo, balanza_historico_impo, balanza_historico_expo, balanza_historico = fetch_data_balanza()
     last_update = fetch_last_update()
+
+    if apply_mudanceras_filter:
+        mudanceras_filter = ['Mercovan', 'Lift Van', 'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
+        balanza = balanza[balanza['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        balanza_impo = balanza_impo[balanza_impo['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        balanza_expo = balanza_expo[balanza_expo['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        balanza_historico_expo = balanza_historico_expo[balanza_historico_expo['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
+        balanza_historico_impo = balanza_historico_impo[balanza_historico_impo['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
 
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
