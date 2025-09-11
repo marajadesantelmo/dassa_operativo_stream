@@ -65,7 +65,7 @@ def fetch_last_update():
             return "No disponible"
     return "No disponible"
 
-def show_page_impo(allowed_clients=None):
+def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
     # Load data
     arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm= fetch_data_impo()
     last_update = fetch_last_update()
@@ -80,8 +80,9 @@ def show_page_impo(allowed_clients=None):
         existente_plz = filter_dataframe_by_clients(existente_plz, allowed_clients)
         existente_alm = filter_dataframe_by_clients(existente_alm, allowed_clients)
     
-    mudanceras_filter = ['Mercovan', 'Lift Van', 'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
-    if st.session_state['username'] in ["mudancera", "nicolasnunez"]:
+    # Apply mudanceras filter if needed
+    if apply_mudanceras_filter:
+        mudanceras_filter = ['Mercovan', 'Lift Van', 'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
         arribos = arribos[arribos['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
         pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
         verificaciones_impo = verificaciones_impo[verificaciones_impo['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]

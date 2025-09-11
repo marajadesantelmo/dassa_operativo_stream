@@ -66,7 +66,7 @@ def fetch_last_update():
 
     
 
-def show_page_expo(allowed_clients=None):
+def show_page_expo(allowed_clients=None, apply_mudanceras_filter=False):
     # Load data
     arribos_expo_carga, arribos_expo_ctns, verificaciones_expo, otros_expo, remisiones, pendiente_consolidar, listos_para_remitir, vacios_disponibles, a_consolidar = fetch_data_expo()
     last_update = fetch_last_update()
@@ -83,8 +83,9 @@ def show_page_expo(allowed_clients=None):
         vacios_disponibles = filter_dataframe_by_clients(vacios_disponibles, allowed_clients)
         a_consolidar = filter_dataframe_by_clients(a_consolidar, allowed_clients)
     
-    mudanceras_filter = ['Mercovan', 'Lift Van', 'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
-    if st.session_state['username'] == "mudancera":
+    # Apply mudanceras filter if needed
+    if apply_mudanceras_filter:
+        mudanceras_filter = ['Mercovan', 'Lift Van', 'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
         arribos_expo_carga = arribos_expo_carga[arribos_expo_carga['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
         arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
         verificaciones_expo = verificaciones_expo[verificaciones_expo['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
