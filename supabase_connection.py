@@ -27,6 +27,25 @@ def fetch_table_data(table_name, retries=3, delay=5):
             else:
                 raise
 
+def fetch_table_data_last90rows(table_name, retries=3, delay=5):
+    for attempt in range(retries):
+        try:
+            query = (
+                supabase_client
+                .from_(table_name)
+                .select('*')
+                .order('id', desc=True)
+                .limit(90)
+                .execute()
+            )
+            return pd.DataFrame(query.data)
+        except Exception as e:
+            print(f"Attempt {attempt + 1} failed: {e}")
+            if attempt < retries - 1:
+                time.sleep(delay)
+            else:
+                raise
+
 def delete_table_data(table_name):
     # WARNING: This will delete all rows in the table
     supabase_client.from_(table_name).delete().neq('ID Pesada', None).execute()

@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from supabase_connection import fetch_table_data, delete_data, soft_delete_data
+from supabase_connection import fetch_table_data, delete_data, soft_delete_data, fetch_table_data_last90rows
 from utils import highlight
 
 def fetch_preingreso_data():
@@ -25,7 +25,7 @@ def fetch_preingreso_data():
         else:
             preingreso_data = pd.DataFrame()
         
-        preingreso_historico = fetch_table_data("preingreso_historico")
+        preingreso_historico = fetch_table_data_last90rows("preingreso_historico")
         if not preingreso_historico.empty:
             preingreso_historico = preingreso_historico[preingreso_historico['del'].isna()]
             preingreso_historico = preingreso_historico.drop(columns=['del'])
