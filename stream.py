@@ -128,7 +128,8 @@ else:
     elif page_selection == "Gestión Choferes":
         stream_choferes.show_page_choferes()
     elif page_selection == "Balanza":
-        stream_balanza.show_page_balanza()
+        apply_mudanceras_filter = st.session_state['username'] in ["mudancera", "nicolasnunez"]
+        stream_balanza.show_page_balanza(apply_mudanceras_filter)
     elif page_selection == "Plazoleta":
         stream_plazoleta.show_page_plazoleta()
     elif page_selection == "IMPO - histórico":
