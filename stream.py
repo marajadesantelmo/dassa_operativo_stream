@@ -147,6 +147,8 @@ else:
         stream_camiones.show_page_camiones()
     elif page_selection == "Gestión de usuarios":
         stream_usuarios.show_page_usuarios()
+    elif page_selection == "Ingresos y Retiros":
+        stream_ingresos_retiros.show_page_ingresos_retiros()
 
     elif page_selection == "Logout":
         cookies.pop("logged_in", None)
