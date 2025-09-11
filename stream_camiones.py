@@ -76,7 +76,7 @@ def show_page_camiones():
         )
 
         st.markdown("---")
-        st.subheader("Eliminar Registro")
+        st.subheader("Eliminar Registro del día de Hoy")
         
         col_delete1, col_delete2, col_delete3 = st.columns([1, 1, 2])
         
@@ -107,7 +107,7 @@ def show_page_camiones():
             available_dates = sorted(display_historico['Fecha'].unique(), reverse=True)
             selected_date = st.selectbox(
                 "Filtrar por fecha:",
-                options=["Todas"] + available_dates.tolist(),
+                options=["Todas"] + available_dates,
                 key="date_filter"
             )
 
@@ -116,7 +116,7 @@ def show_page_camiones():
             available_drivers = sorted(display_historico['Nombre Chofer'].unique())
             selected_driver = st.selectbox(
                 "Filtrar por chofer:",
-                options=["Todos"] + available_drivers.tolist(),
+                options=["Todos"] + available_drivers,
                 key="driver_filter"
             )
 
