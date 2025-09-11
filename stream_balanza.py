@@ -4,8 +4,6 @@ from datetime import datetime
 from supabase_connection import fetch_table_data
 from utils import highlight, generar_comprobante
 
-
-
 @st.cache_data(ttl=60)
 def fetch_data_balanza():
     balanza = fetch_table_data("balanza_data")
