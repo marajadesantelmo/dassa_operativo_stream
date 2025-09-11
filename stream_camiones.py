@@ -28,7 +28,7 @@ def fetch_preingreso_data():
         preingreso_historico = fetch_table_data("preingreso_historico")
         if not preingreso_historico.empty:
             preingreso_historico = preingreso_historico[preingreso_historico['del'].isna()]
-            preingreso_historico = preingreso_historico.drop(columns=['del'])
+            preingreso_historico = preingreso_historico.drop(columns=['del, Estado'])
             preingreso_historico.columns = column_names
             preingreso_historico['link'] = preingreso_historico['Celular WhatsApp'].str.replace(" ", "").apply(
                 lambda x: f"http://wa.me/549{x}" if x.isdigit() else None)
@@ -36,8 +36,7 @@ def fetch_preingreso_data():
             preingreso_historico['Hora'] = preingreso_historico['Hora'].dt.strftime('%H:%M')
 
             display_historico = preingreso_historico[["Fecha", "Número Fila", "Hora", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "link", 
-                                        "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida", "Estado"]]
-            display_historico['Estado'] = display_historico['Estado'].fillna('Pendiente')
+                                        "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida"]]
             display_historico.sort_values(by='Fecha', inplace=True)
 
     except Exception as e:
@@ -100,7 +99,7 @@ def show_page_camiones():
         st.markdown("---")
         st.subheader("Datos Históricos")
         st.dataframe(
-            display_historico.style.apply(highlight, axis=1).set_properties(subset=['link'], **{'width': '20px'}),
+            display_historico.set_properties(subset=['link'], **{'width': '20px'}),
             column_config={'link': st.column_config.LinkColumn('link', display_text="\U0001F517")},
             hide_index=True, use_container_width=True
         )
