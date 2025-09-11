@@ -100,7 +100,7 @@ def show_page_camiones():
         st.markdown("---")
         st.subheader("Datos Históricos")
         st.dataframe(
-            display_historico.set_properties(subset=['link'], **{'width': '20px'}),
+            display_historico.style.clearset_properties(subset=['link'], **{'width': '20px'}),
             column_config={'link': st.column_config.LinkColumn('link', display_text="\U0001F517")},
             hide_index=True, use_container_width=True
         )
