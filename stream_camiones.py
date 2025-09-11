@@ -28,7 +28,7 @@ def fetch_preingreso_data():
         preingreso_historico = fetch_table_data("preingreso_historico")
         if not preingreso_historico.empty:
             preingreso_historico = preingreso_historico[preingreso_historico['del'].isna()]
-            preingreso_historico = preingreso_historico.drop(columns=['del, Estado'])
+            preingreso_historico = preingreso_historico.drop(columns=['del', 'Estado'])
             preingreso_historico.columns = column_names
             preingreso_historico['link'] = preingreso_historico['Celular WhatsApp'].str.replace(" ", "").apply(
                 lambda x: f"http://wa.me/549{x}" if x.isdigit() else None)
