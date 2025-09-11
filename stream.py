@@ -110,10 +110,12 @@ else:
     )
     if page_selection == "IMPO":
         allowed_clients = get_allowed_clients(st.session_state['username'])
-        stream_impo.show_page_impo(allowed_clients)  
+        apply_mudanceras_filter = st.session_state['username'] in ["mudancera", "nicolasnunez"]
+        stream_impo.show_page_impo(allowed_clients, apply_mudanceras_filter)  
     elif page_selection == "EXPO":
         allowed_clients = get_allowed_clients(st.session_state['username'])
-        stream_expo.show_page_expo(allowed_clients)
+        apply_mudanceras_filter = st.session_state['username'] in ["mudancera", "nicolasnunez"]
+        stream_expo.show_page_expo(allowed_clients, apply_mudanceras_filter)
     elif page_selection == "Facturación":
         allowed_clients = get_allowed_clients(st.session_state['username'])
         stream_facturacion.show_page_facturacion(allowed_clients)
