@@ -80,7 +80,7 @@ else:
     if es_cliente == "1":
         allowed_pages = ["IMPO", "EXPO", "Facturación", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "receipt", "box-arrow-right"]
-    elif st.session_state['username'] in ["deposito", "nicolasnunez", "francoperez", "federico", 
+    elif st.session_state['username'] in ["deposito", "francoperez", "federico", 
                         "estigarribiaclaudio", "fabian.fuentes", "marcos.avalos", "guardia"]:
         allowed_pages = ["IMPO", "EXPO", "Camiones", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "truck", "box-arrow-right"]
@@ -93,7 +93,7 @@ else:
     elif st.session_state['username'] == "andresito":
         allowed_pages = ["Andresito", "Gestión Choferes", "Logout"]
         icons = ["car", "people", "box-arrow-right"]
-    elif st.session_state['username'] in ["plazoleta", "mudancera"]:
+    elif st.session_state['username'] in ["plazoleta", "mudancera", "nicolasnunez"]:
         allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "box-arrow-right"]
     else:

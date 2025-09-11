@@ -81,7 +81,7 @@ def show_page_impo(allowed_clients=None):
         existente_alm = filter_dataframe_by_clients(existente_alm, allowed_clients)
     
     mudanceras_filter = ['Mercovan', 'Lift Van', 'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
-    if st.session_state['username'] == "mudancera":
+    if st.session_state['username'] in ["mudancera", "nicolasnunez"]:
         arribos = arribos[arribos['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
         pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
         verificaciones_impo = verificaciones_impo[verificaciones_impo['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
