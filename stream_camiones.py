@@ -25,16 +25,31 @@ def fetch_preingreso_data():
         else:
             preingreso_data = pd.DataFrame()
         
+        preingreso_historico = fetch_table_data("preingreso_historico")
+        if not preingreso_historico.empty:
+            preingreso_historico = preingreso_historico[preingreso_historico['del'].isna()]
+            preingreso_historico = preingreso_historico.drop(columns=['del'])
+            preingreso_historico.columns = column_names
+            preingreso_historico['link'] = preingreso_historico['Celular WhatsApp'].str.replace(" ", "").apply(
+                lambda x: f"http://wa.me/549{x}" if x.isdigit() else None)
+            preingreso_historico['Hora'] = pd.to_datetime(preingreso_historico['Hora']) - pd.Timedelta(hours=3)
+            preingreso_historico['Hora'] = preingreso_historico['Hora'].dt.strftime('%H:%M')
+
+            display_historico = preingreso_historico[["Fecha", "Número Fila", "Hora", "Cliente/Mercadería", "Nombre Chofer", "Celular WhatsApp", "link", 
+                                        "DNI Chofer","Patente Camión", "Patente Acoplado", "Remito/Permiso Embarque", "Obs/Carga/Lote/Partida", "Estado"]]
+            display_historico['Estado'] = display_historico['Estado'].fillna('Pendiente')
+            display_historico.sort_values(by='Fecha', inplace=True)
+
     except Exception as e:
         st.error(f"Error al cargar datos: {e}")
         preingreso_data = pd.DataFrame()
         display_data = pd.DataFrame()
-    return preingreso_data, display_data
+    return preingreso_data, display_data, display_historico
 
 def show_page_camiones():
     st.set_page_config(page_title="Camiones - Preingreso", layout="wide")
     
-    preingreso_data, display_data = fetch_preingreso_data()
+    preingreso_data, display_data, display_historico = fetch_preingreso_data()
 
     col1, col2 = st.columns([7, 1])
     with col1:
@@ -83,4 +98,9 @@ def show_page_camiones():
                     st.error(f"Error al eliminar registro: {e}")
         
         st.markdown("---")
-
+        st.subheader("Datos Históricos")
+        st.dataframe(
+            display_historico.style.apply(highlight, axis=1).set_properties(subset=['link'], **{'width': '20px'}),
+            column_config={'link': st.column_config.LinkColumn('link', display_text="\U0001F517")},
+            hide_index=True, use_container_width=True
+        )
