@@ -94,7 +94,7 @@ else:
         allowed_pages = ["Andresito", "Gestión Choferes", "Logout"]
         icons = ["car", "people", "box-arrow-right"]
     elif st.session_state['username'] in ["plazoleta", "mudancera", "nicolasnunez"]:
-        allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "Logout"]
+        allowed_pages = ["IMPO", "EXPO", "Balanza", "Camiones", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "box-arrow-right"]
     else:
         allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "IMPO - histórico", "EXPO - histórico", "Gestión de usuarios", "Gestión Choferes", "Logout"]
