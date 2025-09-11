@@ -15,6 +15,7 @@ import stream_trafico_andresito
 import stream_trafico2
 import stream_facturacion
 import stream_choferes
+import stream_ingresos_retiros
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 from streamlit_cookies_manager import EncryptedCookieManager
@@ -81,9 +82,12 @@ else:
         allowed_pages = ["IMPO", "EXPO", "Facturación", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "receipt", "box-arrow-right"]
     elif st.session_state['username'] in ["deposito", "francoperez", "federico", 
-                        "estigarribiaclaudio", "fabian.fuentes", "marcos.avalos", "guardia"]:
+                        "fabian.fuentes", "marcos.avalos", "guardia"]:
         allowed_pages = ["IMPO", "EXPO", "Camiones", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "truck", "box-arrow-right"]
+    elif st.session_state['username'] == "estigarribiaclaudio":
+        allowed_pages = ["Ingresos y Retiros", "Logout"]
+        icons = ["arrow-up-arrow-down", "box-arrow-right"]
     elif st.session_state['username'] == "trafico":
         allowed_pages = ["Tráfico", "Logout"]
         icons = ["car", "box-arrow-right"]
@@ -94,7 +98,10 @@ else:
         allowed_pages = ["Andresito", "Gestión Choferes", "Logout"]
         icons = ["car", "people", "box-arrow-right"]
     elif st.session_state['username'] in ["plazoleta", "mudancera", "nicolasnunez"]:
-        allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "Logout"]
+        allowed_pages = ["IMPO", "EXPO", "Balanza", "Logout"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "book", "box-arrow-right"]
+    elif st.session_state['username'] in ["federico"]:
+        allowed_pages = ["EXPO", "Balanza", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "box-arrow-right"]
     else:
         allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "IMPO - histórico", "EXPO - histórico", "Gestión de usuarios", "Gestión Choferes", "Logout"]
