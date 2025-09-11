@@ -31,7 +31,7 @@ def fetch_preingreso_data():
             preingreso_historico = preingreso_historico.drop(columns=['del'])
             preingreso_historico.columns = column_names
             preingreso_historico = preingreso_historico.drop(columns=['Estado'])
-            preingreso_historico['link'] = preingreso_historico['celular_whatsapp'].str.replace(" ", "").apply(
+            preingreso_historico['link'] = preingreso_historico['Celular WhatsApp'].str.replace(" ", "").apply(
                 lambda x: f"http://wa.me/549{x}" if x.isdigit() else None)
             preingreso_historico['Hora'] = pd.to_datetime(preingreso_historico['Hora']) - pd.Timedelta(hours=3)
             preingreso_historico['Hora'] = preingreso_historico['Hora'].dt.strftime('%H:%M')
