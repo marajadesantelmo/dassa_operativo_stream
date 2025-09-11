@@ -154,14 +154,6 @@ def show_page_ingresos_retiros(allowed_clients=None, apply_mudanceras_filter=Fal
         st.subheader("Arribos Carga suelta EXPO ")
         st.dataframe(arribos_expo_carga.style.apply(highlight, axis=1).set_properties(subset=['Cliente'], **{'width': '20px'}), hide_index=True, use_container_width=True)
     st.subheader("Remisiones EXPO")
-    col4_metric, col4_metric2 = st.columns([1, 1])
-    with col4_metric:
-        remisiones_pendientes = remisiones[(remisiones['Estado'] == 'Pendiente') & 
-                                                (remisiones['Dia'] == today)].shape[0]
-        st.metric(label="Pendientes hoy", value=remisiones_pendientes)
-    with col4_metric2:
-        remisiones_realizadas= remisiones[(remisiones['Estado'].str.contains('Realizado'))].shape[0]
-        st.metric(label="Realizadas", value=remisiones_realizadas)
     st.dataframe(remisiones.style.apply(highlight, axis=1), 
                     column_config={'e-tally': st.column_config.LinkColumn('e-tally', display_text="\U0001F517",)} ,
                     hide_index=True, use_container_width=True)
