@@ -5,6 +5,7 @@ st.set_page_config(page_title="Operativa DASSA",
 import stream_impo
 import stream_expo
 import stream_balanza
+import stream_buques
 import stream_plazoleta
 import stream_impo_historico
 import stream_expo_historico
@@ -104,8 +105,8 @@ else:
         allowed_pages = ["EXPO", "Balanza", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "box-arrow-right"]
     else:
-        allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "IMPO - histórico", "EXPO - histórico", "Gestión de usuarios", "Gestión Choferes", "Logout"]
-        icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "book", "book", "people", "people", "box-arrow-right"]
+        allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "Buques", "IMPO - histórico", "EXPO - histórico", "Gestión de usuarios", "Gestión Choferes", "Logout"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "ship", "clock-history", "clock-history", "people", "people", "box-arrow-right"]
 
     page_selection = option_menu(
         None,  # No menu title
@@ -149,6 +150,8 @@ else:
         stream_usuarios.show_page_usuarios()
     elif page_selection == "Ingresos y Retiros":
         stream_ingresos_retiros.show_page_ingresos_retiros()
+    elif page_selection == "Buques":
+        stream_buques.show_page_buques()
 
     elif page_selection == "Logout":
         cookies.pop("logged_in", None)

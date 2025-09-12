@@ -1,0 +1,36 @@
+import streamlit as st
+import pandas as pd
+from datetime import datetime
+from supabase_connection import fetch_table_data
+from utils import highlight, generar_comprobante
+
+@st.cache_data(ttl=60)
+def fetch_data_balanza():
+    apm_terminals = fetch_table_data("apm_terminals")
+    itl_exolgan = fetch_table_data("itl_exolgan")
+    dp_world = fetch_table_data("dp_world")
+    return apm_terminals, itl_exolgan, dp_world
+
+
+def show_page_buques(apply_mudanceras_filter=False):
+    # Load data
+    apm_terminals, itl_exolgan, dp_world = fetch_data_balanza()
+    st.title("Estado de Buques en Terminales")
+    st.markdown("---")
+    st.subheader("APM Terminals")
+    st.dataframe(apm_terminals)
+    st.markdown("---")
+    st.subheader("ITL Exolgan")
+    st.dataframe(itl_exolgan)
+    st.markdown("---")
+    st.subheader("DP World")
+    st.dataframe(dp_world)
+
+
+# Run the show_page function
+if __name__ == "__main__":
+    while True:
+        show_page_buques()
+        time.sleep(60)  
+        st.experimental_rerun()
+
