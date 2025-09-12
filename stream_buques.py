@@ -27,10 +27,10 @@ def show_page_buques(apply_mudanceras_filter=False):
     st.dataframe(apm_terminals)
     st.markdown("---")
     st.subheader("ITL Exolgan")
-    st.dataframe(itl_exolgan)
+    st.dataframe(itl_exolgan, hide_index=True)
     st.markdown("---")
     st.subheader("DP World")
-    st.dataframe(dp_world)
+    st.dataframe(dp_world, hide_index=True)
 
 
 # Run the show_page function
