@@ -12,7 +12,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-11,Terminal 4 - Maersk,0900 ,ZCSU-691113-3,Lift Van Int. Co S.A,CDOLX250849,TD,DC,60,1,14:53 Arribado
 2025-09-12,Terminal 4 - Maersk,1400 ,TCKU-338199-8,Lift Van Int. Co S.A,ONEYRICFDS628600,TD,DC,30,0,Pendiente arribo
 2025-09-12,Exolgan,0900 ,MSBU-457668-2,Lift Van Int. Co S.A,MEDUJZ555908,TD,DC,60,0,Pendiente arribo
-2025-09-12,Exolgan,0900 ,UETU-287941-5,Lift Van Int. Co S.A,MEDUJZ346118,TD,DC,30,0,Pendiente arribo
+2025-09-12,Exolgan,0900 ,UETU-287941-5,Lift Van Int. Co S.A,MEDUJZ346118,TD,DC,30,1,12:04 Arribado
 2025-09-12,Trp - Terminales 1-2-3,0400 ,PIDU-441589-9,La Tela Srl,NGB31157376,T,HC,70,1,10:56 Arribado
 2025-09-12,Trp - Terminales 1-2-3,0400 ,PIDU-413726-8,La Tela Srl,NGB31157175,T,HC,70,1,11:00 Arribado
 2025-09-15,Trp - Terminales 1-2-3,1500 ,PCIU-932451-0,La Tela Srl,SHA31166631,T,HC,70,0,Pendiente arribo
@@ -86,4 +86,5 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-10,Exolgan,1100 ,UETU-754133-3,Independencia 3187 Maquinarias...,TCSH2505570C,T,HC,70,1,13:46 Arribado
 2025-09-05,Trp - Terminales 1-2-3,1100 ,FFAU-714597-1,Mibeda S.A.,OOLU2309171300,T,HC,70,1,16:38 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1300 ,EGSU-131155-4,Impacto Jean S.A.,HDE25-0700090,T,HC,70,1,19:41 Arribado
+2025-09-15,Terminal 4 - Maersk,1400 ,MSKU-678759-0,Distribuidora Koruk S R L,OXOE2507040,T,DR,60,0,Pendiente arribo
 2025-09-15,Trp - Terminales 1-2-3,1500 ,TRHU-563866-1,Perozzi Domingo Y Perozzi Osva...,SY250662826,T,HC,70,0,Pendiente arribo
