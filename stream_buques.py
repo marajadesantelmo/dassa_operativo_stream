@@ -24,7 +24,7 @@ def show_page_buques(apply_mudanceras_filter=False):
     st.title("Estado de Buques en Terminales")
     st.markdown("---")
     st.subheader("APM Terminals")
-    st.dataframe(apm_terminals)
+    st.dataframe(apm_terminals, hide_index=True)
     st.markdown("---")
     st.subheader("ITL Exolgan")
     st.dataframe(itl_exolgan, hide_index=True)
