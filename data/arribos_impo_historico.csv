@@ -206,7 +206,6 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-09-12,05:00,Exolgan,TLLU-518514-0,Aspee Monee,MEDUOO433488,T,2025-09-12,,
 2025-09-12,05:00,Exolgan,MSDU-671225-5,Aspee Monee,GILSH250600161,T,2025-09-12,,
 2025-09-12,05:00,Exolgan,MSDU-733325-6,Aspee Monee,MEDUOO433637,T,2025-09-12,,
-2025-05-17,07:00,Terminal 4,MRKU-658582-7,Fenisan S.A.,252818759,TD,2025-05-17,1871,http://dassa.mqbic.com/PublicTally.php?id=1871
 2025-05-20,05:00,Exolgan,MSNU-551470-1,Fenisan S.A.,MEDUVZ055397,T,2025-05-20,,
 2025-05-20,10:00,Terminal 4,MSKU-184409-0,Fenisan S.A.,252086205,T,2025-05-20,,
 2025-06-05,07:00,Terminal 4,HASU-117095-0,Fenisan S.A.,252867483,T,2025-06-05,,
@@ -631,8 +630,6 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-08-11,07:00,Exolgan,CAAU-732921-3,Anaya San Martín Y Asoc. S.R.L.,NBOBUE25060209,T,2025-08-11,,
 2025-08-11,07:00,Exolgan,GLDU-983800-0,Anaya San Martín Y Asoc. S.R.L.,NBOBUE25060209,T,2025-08-11,,
 2025-08-11,07:00,Exolgan,MSCU-759855-0,Anaya San Martín Y Asoc. S.R.L.,NBOBUE25060209,T,2025-08-11,,
-2025-05-17,08:00,TRP,TTNU-567553-5,Grupo Rsm Srl,IBC1330953,TD,2025-05-17,1874,http://dassa.mqbic.com/PublicTally.php?id=1874
-2025-05-17,08:00,TRP,TTNU-567553-5,Grupo Rsm Srl,IBC1330953,TD,2025-05-17,1874,http://dassa.mqbic.com/PublicTally.php?id=1874
 2025-05-27,13:00,Exolgan,BMOU-562648-9,Grupo Rsm Srl,HLCUBSC2503BRSU3,TD,2025-05-28,1896,http://dassa.mqbic.com/PublicTally.php?id=1896
 2025-06-06,08:00,Terminal 4,MRKU-071444-4,Grupo Rsm Srl,253484332,TD,2025-06-06,1979,http://dassa.mqbic.com/PublicTally.php?id=1979
 2025-06-06,08:00,Terminal 4,MRKU-071444-4,Grupo Rsm Srl,253484332,TD,2025-06-06,1979,http://dassa.mqbic.com/PublicTally.php?id=1979
@@ -648,24 +645,22 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-07-18,13:00,TRP,MRKU-082400-9,Grupo Rsm Srl,254819098,TD,2025-07-18,2182,http://dassa.mqbic.com/PublicTally.php?id=2182
 2025-07-18,13:00,TRP,MRKU-082400-9,Grupo Rsm Srl,254819098,TD,2025-07-18,2182,http://dassa.mqbic.com/PublicTally.php?id=2182
 2025-07-18,13:00,TRP,MRKU-082400-9,Grupo Rsm Srl,254819098,TD,2025-07-18,2182,http://dassa.mqbic.com/PublicTally.php?id=2182
-2025-09-05,14:00,Terminal 4,MRKU-062645-1,Grupo Rsm Srl,257936433,TD,2025-09-05,2470,http://dassa.mqbic.com/PublicTally.php?id=2470
-2025-09-05,14:00,Terminal 4,MRKU-062645-1,Grupo Rsm Srl,257936433,TD,2025-09-05,2470,http://dassa.mqbic.com/PublicTally.php?id=2470
-2025-09-05,14:00,Terminal 4,MRKU-104094-8,Grupo Rsm Srl,258034200,TD,2025-09-05,2471,http://dassa.mqbic.com/PublicTally.php?id=2471
-2025-09-05,14:00,Terminal 4,MRKU-104094-8,Grupo Rsm Srl,258034200,TD,2025-09-05,2471,http://dassa.mqbic.com/PublicTally.php?id=2471
-2025-08-08,10:00,Terminal 4,MRKU-066222-7,Grupo Rsm Srl,256716514,TD,2025-08-08,2293,http://dassa.mqbic.com/PublicTally.php?id=2293
-2025-08-08,10:00,Terminal 4,MRKU-066222-7,Grupo Rsm Srl,256716514,TD,2025-08-08,2293,http://dassa.mqbic.com/PublicTally.php?id=2293
-2025-08-18,10:00,Terminal 4,MRKU-076284-3,Grupo Rsm Srl,257039902,TD,2025-08-18,2328,http://dassa.mqbic.com/PublicTally.php?id=2328
-2025-08-18,10:00,Terminal 4,MRKU-076284-3,Grupo Rsm Srl,257039902,TD,2025-08-18,2328,http://dassa.mqbic.com/PublicTally.php?id=2328
-2025-08-18,10:00,Terminal 4,TCKU-687552-5,Grupo Rsm Srl,256981800,TD,2025-08-18,2329,http://dassa.mqbic.com/PublicTally.php?id=2329
-2025-08-18,10:00,Terminal 4,TCKU-687552-5,Grupo Rsm Srl,256981800,TD,2025-08-18,2329,http://dassa.mqbic.com/PublicTally.php?id=2329
-2025-08-16,17:00,Terminal 4,TCKU-686959-0,Grupo Rsm Srl,257039754,TD,2025-08-16,2327,http://dassa.mqbic.com/PublicTally.php?id=2327
-2025-08-16,17:00,Terminal 4,TCKU-686959-0,Grupo Rsm Srl,257039754,TD,2025-08-16,2327,http://dassa.mqbic.com/PublicTally.php?id=2327
-2025-08-19,09:00,Terminal 4,MRKU-080824-5,Grupo Rsm Srl,255762904,TD,2025-08-19,2331,http://dassa.mqbic.com/PublicTally.php?id=2331
-2025-08-19,09:00,Terminal 4,MRKU-080824-5,Grupo Rsm Srl,255762904,TD,2025-08-19,2331,http://dassa.mqbic.com/PublicTally.php?id=2331
-2025-08-29,10:00,Terminal 4,PONU-166826-3,Grupo Rsm Srl,257748199,TD,2025-08-29,2398,http://dassa.mqbic.com/PublicTally.php?id=2398
-2025-08-29,10:00,Terminal 4,PONU-166826-3,Grupo Rsm Srl,257748199,TD,2025-08-29,2398,http://dassa.mqbic.com/PublicTally.php?id=2398
-2025-08-29,10:00,Terminal 4,PONU-166826-3,Grupo Rsm Srl,257748199,TD,2025-08-29,2398,http://dassa.mqbic.com/PublicTally.php?id=2398
 2025-07-22,05:00,Exolgan,TEMU-185223-9,Grupo Rsm Srl,HLCUBC1250577870,TD,2025-07-22,2190,http://dassa.mqbic.com/PublicTally.php?id=2190
+2025-09-05,14:00,Terminal 4,MRKU-104094-8,Grupo Rsm Srl,258034200,TD,2025-09-05,2471,http://dassa.mqbic.com/PublicTally.php?id=2471
+2025-09-05,14:00,Terminal 4,MRKU-104094-8,Grupo Rsm Srl,258034200,TD,2025-09-05,2471,http://dassa.mqbic.com/PublicTally.php?id=2471
+2025-08-18,10:00,Terminal 4,MRKU-076284-3,Grupo Rsm Srl,257039902,TD,2025-08-18,2328,http://dassa.mqbic.com/PublicTally.php?id=2328
+2025-08-18,10:00,Terminal 4,MRKU-076284-3,Grupo Rsm Srl,257039902,TD,2025-08-18,2328,http://dassa.mqbic.com/PublicTally.php?id=2328
+2025-08-18,10:00,Terminal 4,TCKU-687552-5,Grupo Rsm Srl,256981800,TD,2025-08-18,2329,http://dassa.mqbic.com/PublicTally.php?id=2329
+2025-08-18,10:00,Terminal 4,TCKU-687552-5,Grupo Rsm Srl,256981800,TD,2025-08-18,2329,http://dassa.mqbic.com/PublicTally.php?id=2329
+2025-08-16,17:00,Terminal 4,TCKU-686959-0,Grupo Rsm Srl,257039754,TD,2025-08-16,2327,http://dassa.mqbic.com/PublicTally.php?id=2327
+2025-08-16,17:00,Terminal 4,TCKU-686959-0,Grupo Rsm Srl,257039754,TD,2025-08-16,2327,http://dassa.mqbic.com/PublicTally.php?id=2327
+2025-08-19,09:00,Terminal 4,MRKU-080824-5,Grupo Rsm Srl,255762904,TD,2025-08-19,2331,http://dassa.mqbic.com/PublicTally.php?id=2331
+2025-08-19,09:00,Terminal 4,MRKU-080824-5,Grupo Rsm Srl,255762904,TD,2025-08-19,2331,http://dassa.mqbic.com/PublicTally.php?id=2331
+2025-08-29,10:00,Terminal 4,PONU-166826-3,Grupo Rsm Srl,257748199,TD,2025-08-29,2398,http://dassa.mqbic.com/PublicTally.php?id=2398
+2025-08-29,10:00,Terminal 4,PONU-166826-3,Grupo Rsm Srl,257748199,TD,2025-08-29,2398,http://dassa.mqbic.com/PublicTally.php?id=2398
+2025-08-29,10:00,Terminal 4,PONU-166826-3,Grupo Rsm Srl,257748199,TD,2025-08-29,2398,http://dassa.mqbic.com/PublicTally.php?id=2398
+2025-09-05,14:00,Terminal 4,MRKU-062645-1,Grupo Rsm Srl,257936433,TD,2025-09-05,2470,http://dassa.mqbic.com/PublicTally.php?id=2470
+2025-09-05,14:00,Terminal 4,MRKU-062645-1,Grupo Rsm Srl,257936433,TD,2025-09-05,2470,http://dassa.mqbic.com/PublicTally.php?id=2470
 2025-07-24,15:00,TRP,APZU-472889-0,Grupo Rsm Srl,IBC1349234,TD,2025-07-24,2211,http://dassa.mqbic.com/PublicTally.php?id=2211
 2025-07-24,15:00,TRP,APZU-472889-0,Grupo Rsm Srl,IBC1349234,TD,2025-07-24,2211,http://dassa.mqbic.com/PublicTally.php?id=2211
 2025-07-25,13:00,Terminal 4,MRKU-036612-2,Grupo Rsm Srl,255567782,TD,2025-07-25,2217,http://dassa.mqbic.com/PublicTally.php?id=2217
@@ -676,6 +671,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-08-08,10:00,Terminal 4,MRKU-078739-5,Grupo Rsm Srl,256789870,TD,2025-08-08,2292,http://dassa.mqbic.com/PublicTally.php?id=2292
 2025-08-08,10:00,Terminal 4,MRKU-078739-5,Grupo Rsm Srl,256789870,TD,2025-08-08,2292,http://dassa.mqbic.com/PublicTally.php?id=2292
 2025-08-08,10:00,Terminal 4,MRKU-078739-5,Grupo Rsm Srl,256789870,TD,2025-08-08,2292,http://dassa.mqbic.com/PublicTally.php?id=2292
+2025-08-08,10:00,Terminal 4,MRKU-066222-7,Grupo Rsm Srl,256716514,TD,2025-08-08,2293,http://dassa.mqbic.com/PublicTally.php?id=2293
+2025-08-08,10:00,Terminal 4,MRKU-066222-7,Grupo Rsm Srl,256716514,TD,2025-08-08,2293,http://dassa.mqbic.com/PublicTally.php?id=2293
 2025-07-03,07:00,Exolgan,HLBU-231182-9,American Transport S.R.L,S04639528/292,TD,2025-07-03,2108,http://dassa.mqbic.com/PublicTally.php?id=2108
 2025-07-03,07:00,Exolgan,HLBU-231182-9,American Transport S.R.L,S04639528/292,TD,2025-07-03,2108,http://dassa.mqbic.com/PublicTally.php?id=2108
 2025-06-10,07:00,Terminal 4,HAMU-416927-2,Jakytextil S.A.,NBOE25014148,T,2025-06-10,,
@@ -702,8 +699,6 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-08-12,12:00,TRP,FCIU-979514-5,Comunicaciones Valles Calchaquies Srl,TCSH2505564,TD,2025-08-12,2301,http://dassa.mqbic.com/PublicTally.php?id=2301
 2025-06-06,05:00,Exolgan,TRHU-453257-2,Crosby Argentina S.A.,S00014475,T,2025-06-06,,
 2025-06-13,13:00,TRP,TEMU-867944-4,Neumaticos Bisso Srl,QGD1660491,T,2025-06-13,,
-2025-05-17,07:00,Terminal 4,CAXU-578821-8,Ecomet Srl,000364-2025,TD,2025-05-17,1872,http://dassa.mqbic.com/PublicTally.php?id=1872
-2025-05-17,07:00,Terminal 4,TLLU-153678-2,Ecomet Srl,000364-2025,TD,2025-05-17,1873,http://dassa.mqbic.com/PublicTally.php?id=1873
 2025-05-28,08:00,Terminal 4,MAEU-408781-3,Ecomet Srl,000364-2025/B,TD,2025-05-28,1900,http://dassa.mqbic.com/PublicTally.php?id=1900
 2025-07-24,11:00,Terminal 4,TGHU-675506-4,Edificios Comahue Sociedad De Responsabilidad Limitada,TPTAOABD25056014,TD,2025-07-24,2213,http://dassa.mqbic.com/PublicTally.php?id=2213
 2025-08-14,10:00,Terminal 4,MRSU-654185-8,Edificios Comahue Sociedad De Responsabilidad Limitada,TPTAOABD25046024,TD,2025-08-14,2315,http://dassa.mqbic.com/PublicTally.php?id=2315
