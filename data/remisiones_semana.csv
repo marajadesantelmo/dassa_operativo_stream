@@ -29,8 +29,8 @@ Dia,Cliente,Operacion,Booking,Contenedor,Volumen,Precinto,Observaciones,Estado,H
 11/09,Javier Luque S.R.L.,37950-1-1,258776239,HASU-134268-4,30.0,                    ,TERMINAL 4  13HS,12:01 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7256
 11/09,Javier Luque S.R.L.,37948-1-1,258776239,TCKU-123953-6,30.0,                    ,TERMINAL 4   13HS,11:50 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7254
 11/09,Javier Luque S.R.L.,37949-1-1,258776239,MSKU-720278-1,30.0,                    ,TERMINAL  4 13HS,12:00 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7255
-11/09,Javier Luque S.R.L.,37928-1-1,258776239,MSKU-384486-5,30.0,                    ,TERMINAL 4  13HS,11:41 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7244
 11/09,Lift Van Int. Co S.A,38007-1-1,258534129,TCKU-757132-1,75.0,                    ,TERMINAL 4  15HS,14:55 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7296
+11/09,Javier Luque S.R.L.,37928-1-1,258776239,MSKU-384486-5,30.0,                    ,TERMINAL 4  13HS,11:41 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7244
 11/09,Lawter Argentina S.A...,38063-1-1,153IAR0651167,MSDU-447521-5,60.0,                    ,TRP 03HS,18:46 Realizado,9:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7299
 11/09,Lift Van Int. Co S.A,37896-1-1,258534207,MRKU-042957-6,44.0,                    ,TERMINAL 4  15HS,13:58 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7280
 11/09,Javier Luque S.R.L.,37930-1-1,258776239,MRKU-651972-2,30.0,                    ,TERMINAL  4   13HS,12:01 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7246
@@ -45,9 +45,9 @@ Dia,Cliente,Operacion,Booking,Contenedor,Volumen,Precinto,Observaciones,Estado,H
 11/09,Bdfm Sa,38030-1-1,MCORIV030883,FCIU-904149-0,60.0,                    ,TERMINAL 4  19HS,17:09 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7288
 11/09,Lift Van Int. Co S.A,37914-1-1,258473309,HASU-108388-1,0.0,BAI51903            ,TERMINAL 4   21HS,15:37 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6935
 11/09,Lift Van Int. Co S.A,37914-1-1,258473309,HASU-108388-1,0.0,BAI51903            ,TERMINAL 4   21HS,17:09 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=6935
+12/09,Manufactura Los Ande...,38088-1-1,259009511,MRKU-004178-6,60.0,                    ,terminal 4  09hs,10:38 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7318
 12/09,Manufactura Los Ande...,38093-1-1,259009511,MRKU-048265-2,60.0,                    ,terminal 4   09hs,10:24 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7319
 12/09,Praxair Argentina S....,38027-1-1,27610711,HLBU-347344-4,30.0,                    ,EXOLGAN 16HS,11:34 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7295
-12/09,Manufactura Los Ande...,38088-1-1,259009511,MRKU-004178-6,60.0,                    ,terminal 4  09hs,10:38 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7318
 12/09,Mercovan Argentina S...,38046-0-1, 9:00                         ,UACU-831687-8,0.0,********************,EXOLGAN   07HS  TURNO DEL 13/09,Pendiente,9:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7339
 12/09,Manufactura Los Ande...,38094-1-1,259009511,MRKU-063690-6,60.0,                    ,terminal 4   09hs,10:38 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7320
 12/09,Alimentaria Sa,38060-1-1,BUA0349544,CAIU-380224-9,30.0,                    ,TRP   17HS,16:30 Realizado,9:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7308
@@ -73,12 +73,12 @@ Dia,Cliente,Operacion,Booking,Contenedor,Volumen,Precinto,Observaciones,Estado,H
 12/09,Santana Textil Chaco...,38109-1-1,MCORIV030926,BEAU-400436-2,60.0,                    ,TRP   19HS   CAMION CLIENTE,16:21 Realizado,9:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7335
 12/09,Santana Textil Chaco...,38110-1-1,MCORIV030926,CAAU-618947-8,60.0,                    ,TRP   19HS CAMION CLIENTE,16:20 Realizado,9:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7336
 12/09,Santana Textil Chaco...,38113-1-1,MCORIV030926,SEGU-463513-8,60.0,                    ,TRP  19HS  CAMION CLIENTE,16:20 Realizado,9:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7337
-15/09,Agrotres S.A,38103-1-1,25001EC01059900K              ,TCLU-831202-4,60.0,                    ,TERMINAL 4   13HS,Pendiente,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7340
-15/09,Taeda Sa,38146-1-1,25001EC01057925P              ,MSDU-854195-3,60.0,                    ,EXOLGAN  13HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7341
 15/09,Mader Zu S.R.L.,38112-0-1, 8:00                         ,DRYU-957363-9,0.0,******************  ,TRP 17HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7344
-15/09,Mader Zu S.R.L.,38111-0-1, 8:00                         ,FFAU-511267-0,0.0,******************  ,REMISION 17HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7343
+15/09,Taeda Sa,38146-1-1,25001EC01057925P              ,MSDU-854195-3,60.0,                    ,EXOLGAN  13HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7341
+15/09,Agrotres S.A,38103-1-1,25001EC01059900K              ,TCLU-831202-4,60.0,                    ,TERMINAL 4   13HS,Pendiente,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7340
+15/09,Sandrin Paola Karina,38075-0-1,  : 0                         ,TCKU-626944-6,0.0,R8685565            ,TRP 15HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7330
 15/09,Sandrin Paola Karina,38073-0-1,  : 0                         ,TGHU-638704-4,0.0,R8685579            ,TRP 15HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7329
+15/09,Mader Zu S.R.L.,38111-0-1, 8:00                         ,FFAU-511267-0,0.0,******************  ,REMISION 17HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7343
 15/09,Sandrin Paola Karina,38072-0-1,  : 0                         ,GESU-657141-8,0.0,R8685573            ,TRP 11HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7328
 15/09,Taeda Sa,38161-1-1,25001EC01059928U              ,MSMU-659501-0,60.0,                    ,EXOLGAN  13HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7342
-15/09,Sandrin Paola Karina,38075-0-1,  : 0                         ,TCKU-626944-6,0.0,R8685565            ,TRP 15HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=7330
 18/09,Isischu Srl,38145-0-1,  : 0                         ,MSBU-501768-9,0.0,FX32947324          ,exolgan   16hs,Pendiente,8:00 ,
