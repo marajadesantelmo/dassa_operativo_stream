@@ -15,6 +15,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-11,Terminal 4 - Maersk,0900 ,ZCSU-691113-3,Lift Van Int. Co S.A,CDOLX250849,TD,DC,60,1,14:53 Arribado
 2025-09-12,Terminal 4 - Maersk,1400 ,TCKU-338199-8,Lift Van Int. Co S.A,ONEYRICFDS628600,TD,DC,30,1,17:44 Arribado
 2025-09-12,Exolgan,0900 ,MSBU-457668-2,Lift Van Int. Co S.A,MEDUJZ555908,TD,DC,60,1,14:20 Arribado
+2025-09-16,Trp - Terminales 1-2-3,1000 ,GESU-112370-3,Lift Van Int. Co S.A,IBC1382175,TD,DC,30,0,Pendiente arribo
 2025-09-12,Exolgan,0900 ,UETU-287941-5,Lift Van Int. Co S.A,MEDUJZ346118,TD,DC,30,1,12:04 Arribado
 2025-09-16,Exolgan,0500 ,DFSU-135441-9,Lift Van Int. Co S.A,MEDUJZ502132,TD,DC,30,0,Pendiente arribo
 2025-09-16,Exolgan,0500 ,BSIU-830255-5,Lift Van Int. Co S.A,HLCUBC1250645250,TD,HC,70,0,Pendiente arribo
@@ -40,6 +41,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-12,Trp - Terminales 1-2-3,0400 ,GAOU-668272-1,Poka S.A.,NB250763420,T,HC,70,1,08:17 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1300 ,EGHU-916625-3,Mma Tex S.A.,HDE25-0700053,T,HC,70,1,16:30 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1200 ,EMCU-157632-2,Mma Tex S.A.,HDE25-0700049,T,HC,70,1,17:00 Arribado
+2025-09-16,Trp - Terminales 1-2-3,1500 ,EGHU-931861-2,Mma Tex S.A.,HDE25-0800035,T,HC,70,0,Pendiente arribo
 2025-09-08,Exolgan,1500 ,MEDU-417697-9,Sk Distributors S.R.L.,DLNB2507612,T,DC,60,1,17:30 Arribado
 2025-09-10,Terminal 4 - Maersk,1300 ,JXLU-785431-5,Geo Logistics Argentina S.R.L.,ZIMUNGB20503145,TD,HC,70,1,23:36 Arribado
 2025-09-10,Terminal 4 - Maersk,1300 ,ZCSU-735304-1,Jupam Sa,TWLE25070079,T,HC,70,1,19:28 Arribado
@@ -47,6 +49,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-15,Exolgan,0700 ,FFAU-215755-8,Jupam Sa,TWLE25060146,T,HC,70,1,09:22 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1200 ,TEMU-640960-3,Aoda Sa,NB250561059,T,HC,70,1,21:36 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1100 ,FSCU-495909-7,Aoda Sa,NB250663051,T,DC,60,0,Pendiente arribo
+2025-09-16,Trp - Terminales 1-2-3,1300 ,EITU-127299-,Aoda Sa,NB250663270/84,T,HC,70,0,Pendiente arribo
 2025-09-09,Exolgan,0500 ,UETU-776642-7,Awam Tex Srl,NBOE25015689,T,HC,70,1,09:49 Arribado
 2025-09-11,Exolgan,1300 ,MSDU-713012-0,Grupo Leal-Tex S.R.L.,GILSH250600125,T,HC,70,1,17:34 Arribado
 2025-09-15,Trp - Terminales 1-2-3,1500 ,EITU-911465-1,Dmc Import Group S.R.L.,TSSZ2507033,T,HC,70,0,Pendiente arribo
@@ -105,3 +108,4 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-15,Terminal 4 - Maersk,1400 ,MSKU-678759-0,Distribuidora Koruk S R L,OXOE2507040,T,DR,60,0,Pendiente arribo
 2025-09-15,Trp - Terminales 1-2-3,1500 ,TRHU-563866-1,Perozzi Domingo Y Perozzi Osva...,SY250662826,T,HC,70,0,Pendiente arribo
 2025-09-16,Terminal 4 - Maersk,1500 ,HLBU-226851-1,Republica Textil Srl,NBOE25016048,T,HC,70,0,Pendiente arribo
+2025-09-16,Trp - Terminales 1-2-3,100  ,FCIU-811383-1,Sistema Obraseco Srl,OE00SH250702918,TD,HC,70,0,Pendiente arribo
