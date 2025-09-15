@@ -42,12 +42,6 @@ def fetch_data_balanza():
         balanza_historico_expo = balanza_historico_expo.sort_values(by='Estado', ascending=True)
     except FileNotFoundError:
         st.warning("Archivo histórico de balanza no disponible")
-        columns_impo_historico = ['ID Pesada', 'Fecha', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
-           'Peso Neto', 'Tara CNT', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI',
-           'Booking', 'Precinto', 'Tipo Doc', 'Estado']
-        columns_expo_historico = ['ID Pesada', 'Fecha', 'Cliente', 'ATA',  'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
-           'Peso Neto', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI', 'Observaciones',
-           'Booking', 'Permiso Emb.', 'Tipo Doc', 'Estado']
         balanza_historico = pd.DataFrame()
         balanza_historico_impo = pd.DataFrame(columns=columns_impo_historico)
         balanza_historico_expo = pd.DataFrame(columns=columns_expo_historico)

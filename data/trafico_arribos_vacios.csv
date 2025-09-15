@@ -1,7 +1,7 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 37552,15/09,Lift Van Int. Co S.A,-,0,  ,TD,                    ,EBKGQ00122A4,0,                              ,,     ,2025-10-03,Ebkgq00122A4,EBKGQ00122A4        ,Pendiente
 37566,15/09,Norfor Sa,-,0,  ,TD,                    ,340500034574,0,                              ,,     ,2025-10-03,Grlem251119,340500034574        ,Pendiente
-37565,15/09,Norfor Sa,-,0,  ,TD,                    ,340500034574,0,                              ,,     ,2025-10-03,Grlem251119,340500034574        ,Pendiente
+37565,15/09,Norfor Sa,EITU-177158-3,10076,HC,TD,*****************   ,340500034574,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,12:16,2025-10-03,Grlem251119,340500034574        ,12:16 Arribado
 37564,15/09,Norfor Sa,EMCU-157632-2,10076,HC,TD,**************      ,340500034574,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,10:48,2025-10-03,Grlem251119,340500034574        ,10:48 Arribado
 37563,15/09,Norfor Sa,CAAU-749721-7,10076,HC,TD,***********         ,340500034574,1,TRANSPORTE DEL CLIENTE        ,Bertoli,10:45,2025-10-03,Grlem251119,340500034574        ,10:45 Arribado
 37562,15/09,Norfor Sa,EITU-936408-0,10076,HC,TD,************        ,340500034574,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,10:23,2025-10-03,Grlem251119,340500034574        ,10:23 Arribado
@@ -9,21 +9,27 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 37570,15/09,Borax Argentina S A,-,9,DR,TD,                    ,EBKG14145517,0,                              ,,     ,2025-10-03,Fact 12619,                    ,Pendiente
 37569,15/09,Borax Argentina S A,-,9,DR,TD,                    ,EBKG14145517,0,                              ,,     ,2025-10-03,Fact 12619,                    ,Pendiente
 37568,15/09,Borax Argentina S A,MSDU-132283-0,9,DR,TD,FX32919001          ,EBKG14145517,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:29,2025-10-03,Fact 12619,                    ,11:29 Arribado
-37567,15/09,Borax Argentina S A,MEDU-522472-6,9,DR,TD,FX32919002          ,EBKG14145517,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:26,2025-10-03,Fact 12619,                    ,11:26 Arribado
 37540,15/09,Henn Y Cia S.R.L.,-,TRP,HC,TD,                    ,340500034982,0,                              ,,     ,2025-10-02,,                    ,Pendiente
 37539,15/09,Henn Y Cia S.R.L.,-,TRP,HC,TD,                    ,340500034982,0,                              ,,     ,2025-10-02,,                    ,Pendiente
 37538,15/09,Henn Y Cia S.R.L.,-,TRP,HC,TD,                    ,340500034982,0,                              ,,     ,2025-10-02,,                    ,Pendiente
-37537,15/09,Henn Y Cia S.R.L.,-,TRP,HC,TD,                    ,340500034982,0,                              ,,     ,2025-10-02,,                    ,Pendiente
+37567,15/09,Borax Argentina S A,MEDU-522472-6,9,DR,TD,FX32919002          ,EBKG14145517,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:26,2025-10-03,Fact 12619,                    ,11:26 Arribado
 37536,15/09,Henn Y Cia S.R.L.,TIIU-487366-1,10076,HC,TD,*************       ,340500034982,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,11:15,2025-10-02,,                    ,11:15 Arribado
-37535,15/09,Henn Y Cia S.R.L.,EMCU-824298-6,10076,HC,TD,********************,340500034982,1,TRANSPORTE DEL CLIENTE        ,Alvarez,10:58,2025-10-02,,                    ,10:58 Arribado
-37534,15/09,Henn Y Cia S.R.L.,TRHU-677949-5,TRP,HC,TD,******************  ,340500034982,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,10:54,2025-10-02,,                    ,10:54 Arribado
-37533,15/09,Henn Y Cia S.R.L.,EGHU-975260-8,TRP,HC,TD,***************     ,340500034982,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,10:51,2025-10-02,,                    ,10:51 Arribado
-37573,15/09,Minera Santa Rita Srl,PCIU-463868-9,10,DR,TD,***************     ,BUE500161000,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,09:27,2025-10-03,Fact 14-466,                    ,09:27 Arribado
-37572,15/09,Minera Santa Rita Srl,-,10074,DR,TD,                    ,EBKG13977029,0,                              ,,     ,2025-10-03,Fact 14-464,                    ,Pendiente
-37571,15/09,Minera Santa Rita Srl,MSBU-400834-2,10074,DR,TD,FX32950092          ,EBKG13977029,1,TRANSPORTE DEL CLIENTE        ,Miguez,11:22,2025-10-03,Fact 14-464,                    ,11:22 Arribado
-37621,15/09,Lift Van Int. Co S.A,-,0,  ,TD,                    ,25001PE01000350X,1,TRANSPORTE DEL CLIENTE        ,.,11:17,2025-10-06,Ulrika Wilgren,                    ,11:17 Arribado
 37553,15/09,Lift Van Int. Co S.A,-,0,  ,TD,                    ,EBKGQ00122A5,0,                              ,,     ,2025-10-03,Ebkgq00122A5,EBKGQ00122A5        ,Pendiente
-37584,16/09,Alimentaria Sa,-,10082,DR,TD,                    ,BUA0349516,0,                              ,,     ,2025-10-03,,                    ,Pendiente
+37621,15/09,Lift Van Int. Co S.A,-,0,  ,TD,                    ,25001PE01000350X,1,TRANSPORTE DEL CLIENTE        ,.,11:17,2025-10-06,Ulrika Wilgren,                    ,11:17 Arribado
+37537,15/09,Henn Y Cia S.R.L.,-,TRP,HC,TD,                    ,340500034982,0,                              ,,     ,2025-10-02,,                    ,Pendiente
+37572,15/09,Minera Santa Rita Srl,-,10074,DR,TD,                    ,EBKG13977029,0,                              ,,     ,2025-10-03,Fact 14-464,                    ,Pendiente
+37573,15/09,Minera Santa Rita Srl,PCIU-463868-9,10,DR,TD,***************     ,BUE500161000,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,09:27,2025-10-03,Fact 14-466,                    ,09:27 Arribado
+37571,15/09,Minera Santa Rita Srl,MSBU-400834-2,10074,DR,TD,FX32950092          ,EBKG13977029,1,TRANSPORTE DEL CLIENTE        ,Miguez,11:22,2025-10-03,Fact 14-464,                    ,11:22 Arribado
+37533,15/09,Henn Y Cia S.R.L.,EGHU-975260-8,TRP,HC,TD,***************     ,340500034982,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,10:51,2025-10-02,,                    ,10:51 Arribado
+37534,15/09,Henn Y Cia S.R.L.,TRHU-677949-5,TRP,HC,TD,******************  ,340500034982,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,10:54,2025-10-02,,                    ,10:54 Arribado
+37535,15/09,Henn Y Cia S.R.L.,EMCU-824298-6,10076,HC,TD,********************,340500034982,1,TRANSPORTE DEL CLIENTE        ,Alvarez,10:58,2025-10-02,,                    ,10:58 Arribado
 37618,16/09,Curtiembre Infante Sa,-,TRP,HC,TD,                    ,340500034817,0,                              ,,     ,2025-10-06,,                    ,Pendiente
+37625,16/09,Pallets Jauregui Sociedad Anon...,-,Exolgan,HC,TD,                    ,153IAR0651887,0,                              ,,     ,2025-10-06,,                    ,Pendiente
+37626,16/09,Pallets Jauregui Sociedad Anon...,-,Exolgan,HC,TD,                    ,153IAR0651887,0,                              ,,     ,2025-10-06,,                    ,Pendiente
+37627,16/09,Pallets Jauregui Sociedad Anon...,-,Exolgan,HC,TD,                    ,153IAR0651887,0,                              ,,     ,2025-10-06,,                    ,Pendiente
+37628,16/09,Pallets Jauregui Sociedad Anon...,-,Exolgan,HC,TD,                    ,153IAR0651887,0,                              ,,     ,2025-10-06,,                    ,Pendiente
+37629,16/09,Pallets Jauregui Sociedad Anon...,-,Exolgan,HC,TD,                    ,153IAR0651887,0,                              ,,     ,2025-10-06,,                    ,Pendiente
+37630,16/09,Pallets Jauregui Sociedad Anon...,-,Exolgan,HC,TD,                    ,153IAR0651887,0,                              ,,     ,2025-10-06,,                    ,Pendiente
+37584,16/09,Alimentaria Sa,-,10082,DR,TD,                    ,BUA0349516,0,                              ,,     ,2025-10-03,,                    ,Pendiente
 37619,16/09,Curtiembre Infante Sa,-,TRP,HC,TD,                    ,340500034817,0,                              ,,     ,2025-10-06,,                    ,Pendiente
 37583,17/09,Bdfm Sa,-,10074,DR,TD,                    ,LA0448041,0,                              ,,     ,2025-10-03,,                    ,Pendiente
