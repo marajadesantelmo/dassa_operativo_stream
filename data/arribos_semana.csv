@@ -6,6 +6,9 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-12,Terminal 4 - Maersk,1700 ,CMAU-239086-0,Mercovan Argentina S.A.,TMA0153588,TD,DC,30,1,19:22 Arribado
 2025-09-12,Exolgan,0500 ,DFSU-433491-0,Mercovan Argentina S.A.,HLCUDUR250712712,TD,DC,60,1,10:35 Arribado
 2025-09-15,Exolgan,1100 ,MEDU-571669-1,Mercovan Argentina S.A.,MEDUJZ580286,TD,DR,30,0,Pendiente arribo
+2025-09-16,Exolgan,0500 ,MEDU-291435-3,Mercovan Argentina S.A.,FE2523075119NYCBUE,TD,DC,30,0,Pendiente arribo
+2025-09-16,Exolgan,0500 ,TCLU-415732-0,Mercovan Argentina S.A.,HLCULE1250769870,TD,DC,60,0,Pendiente arribo
+2025-09-16,Exolgan,1500 ,UACU-842024-4,Mercovan Argentina S.A.,HLCUBC1250752804,TD,DC,60,0,Pendiente arribo
 2025-09-08,Exolgan,1500 ,MEDU-522472-6,Lift Van Int. Co S.A,MEDUJV943447,TD,DC,30,1,16:56 Arribado
 2025-09-09,Terminal 4 - Maersk,1300 ,BSIU-338082-7,Lift Van Int. Co S.A,CDOLX250840,TD,DC,30,1,18:25 Arribado
 2025-09-09,Terminal 4 - Maersk,1300 ,ZIMU-303202-1,Lift Van Int. Co S.A,ZIMUVRT910656,TD,DC,30,1,17:14 Arribado
@@ -13,6 +16,12 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-12,Terminal 4 - Maersk,1400 ,TCKU-338199-8,Lift Van Int. Co S.A,ONEYRICFDS628600,TD,DC,30,1,17:44 Arribado
 2025-09-12,Exolgan,0900 ,MSBU-457668-2,Lift Van Int. Co S.A,MEDUJZ555908,TD,DC,60,1,14:20 Arribado
 2025-09-12,Exolgan,0900 ,UETU-287941-5,Lift Van Int. Co S.A,MEDUJZ346118,TD,DC,30,1,12:04 Arribado
+2025-09-16,Exolgan,0500 ,DFSU-135441-9,Lift Van Int. Co S.A,MEDUJZ502132,TD,DC,30,0,Pendiente arribo
+2025-09-16,Exolgan,0500 ,BSIU-830255-5,Lift Van Int. Co S.A,HLCUBC1250645250,TD,HC,70,0,Pendiente arribo
+2025-09-16,Exolgan,0500 ,UACU-851282-3,Lift Van Int. Co S.A,HLUSPIL250609355,TD,DC,60,0,Pendiente arribo
+2025-09-16,Exolgan,0500 ,HLBU-164292-5,Lift Van Int. Co S.A,HLXULE1250762943,TD,HC,70,0,Pendiente arribo
+2025-09-16,Exolgan,1500 ,HLBU-109856-0,Lift Van Int. Co S.A,HLCUME3250737471,TD,DC,30,0,Pendiente arribo
+2025-09-16,Exolgan,1500 ,HLBU-180704-9,Edelweiss Spedition Srl,HLCUME3250712442,TD,DC,60,0,Pendiente arribo
 2025-09-12,Trp - Terminales 1-2-3,0400 ,PIDU-441589-9,La Tela Srl,NGB31157376,T,HC,70,1,10:56 Arribado
 2025-09-12,Trp - Terminales 1-2-3,0400 ,PIDU-413726-8,La Tela Srl,NGB31157175,T,HC,70,1,11:00 Arribado
 2025-09-15,Trp - Terminales 1-2-3,1500 ,PCIU-932451-0,La Tela Srl,SHA31166631,T,HC,70,0,Pendiente arribo
@@ -63,6 +72,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-10,Trp - Terminales 1-2-3,1100 ,TGBU-434959-4,Aceptyourdestiny Sa,HDE25-0800012,T,HC,70,1,13:48 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1000 ,OOCU-710858-0,All Trade S.A.,TCQD2506268,T,HC,70,1,18:51 Arribado
 2025-09-10,Exolgan,0500 ,FCIU-890261-3,All Trade S.A.,PUS-HSE-2506-0042,TD,HC,70,1,08:33 Arribado
+2025-09-16,Exolgan,0500 ,HLXU-855489-1,Bymar Transforwarding,HLCUBC1250705347,TD,HC,70,0,Pendiente arribo
 2025-09-12,Exolgan,0500 ,MEDU-936976-0,Grass S. R. L.,HBUE2507X0115,T,HC,70,1,09:18 Arribado
 2025-09-12,Exolgan,0500 ,MSMU-623553-9,Grass S. R. L.,HBUE2507X0115,T,HC,70,1,08:32 Arribado
 2025-09-12,Trp - Terminales 1-2-3,0400 ,OOCU-848543-9,Verde Fuerte Srl,SRTME000980,TD,HC,70,1,09:16 Arribado
