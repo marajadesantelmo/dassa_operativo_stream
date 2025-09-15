@@ -8,7 +8,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 37561,15/09,Norfor Sa,EISU-824617-7,10076,HC,TD,***************     ,340500034574,1,TRANSPORTE DEL CLIENTE        ,Bollota,10:20,2025-10-03,Grlem251119,340500034574        ,10:20 Arribado
 37474,15/09,Norfor Sa,EGSU-132827-0,10076,HC,TD,*************       ,340500034574,1,TRANSPORTE DEL CLIENTE        ,Dicciardelli,12:07,2025-10-01,,                    ,12:07 Arribado
 37570,15/09,Borax Argentina S A,-,9,DR,TD,                    ,EBKG14145517,0,                              ,,     ,2025-10-03,Fact 12619,                    ,Pendiente
-37569,15/09,Borax Argentina S A,-,9,DR,TD,                    ,EBKG14145517,0,                              ,,     ,2025-10-03,Fact 12619,                    ,Pendiente
+37569,15/09,Borax Argentina S A,MSNU-187835-1,9,DR,TD,FX32919003          ,EBKG14145517,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,15:33,2025-10-03,Fact 12619,                    ,15:33 Arribado
 37568,15/09,Borax Argentina S A,MSDU-132283-0,9,DR,TD,FX32919001          ,EBKG14145517,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:29,2025-10-03,Fact 12619,                    ,11:29 Arribado
 37567,15/09,Borax Argentina S A,MEDU-522472-6,9,DR,TD,FX32919002          ,EBKG14145517,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:26,2025-10-03,Fact 12619,                    ,11:26 Arribado
 37540,15/09,Henn Y Cia S.R.L.,EGHU-844073-4,10076,HC,TD,*************       ,340500034982,1,TRANSPORTE DEL CLIENTE        ,Bollota,14:27,2025-10-02,,                    ,14:27 Arribado
@@ -18,6 +18,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 37539,15/09,Henn Y Cia S.R.L.,TCLU-866361-0,10076,HC,TD,**************      ,340500034982,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,14:25,2025-10-02,,                    ,14:25 Arribado
 37534,15/09,Henn Y Cia S.R.L.,TRHU-677949-5,TRP,HC,TD,******************  ,340500034982,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,10:54,2025-10-02,,                    ,10:54 Arribado
 37533,15/09,Henn Y Cia S.R.L.,EGHU-975260-8,TRP,HC,TD,***************     ,340500034982,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,10:51,2025-10-02,,                    ,10:51 Arribado
+37640,15/09,Bdfm Sa,MRKU-962162-0,10076,DR,TD,**************      ,258472294,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,15:09,2025-10-06,,258472294           ,15:09 Arribado
 37573,15/09,Minera Santa Rita Srl,PCIU-463868-9,10,DR,TD,***************     ,BUE500161000,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,09:27,2025-10-03,Fact 14-466,                    ,09:27 Arribado
 37572,15/09,Minera Santa Rita Srl,-,10074,DR,TD,                    ,EBKG13977029,0,                              ,,     ,2025-10-03,Fact 14-464,                    ,Pendiente
 37571,15/09,Minera Santa Rita Srl,MSBU-400834-2,10074,DR,TD,FX32950092          ,EBKG13977029,1,TRANSPORTE DEL CLIENTE        ,Miguez,11:22,2025-10-03,Fact 14-464,                    ,11:22 Arribado
@@ -31,11 +32,11 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 37627,16/09,Pallets Jauregui Sociedad Anon...,-,Exolgan,HC,TD,                    ,153IAR0651887,0,                              ,,     ,2025-10-06,,                    ,Pendiente
 37626,16/09,Pallets Jauregui Sociedad Anon...,-,Exolgan,HC,TD,                    ,153IAR0651887,0,                              ,,     ,2025-10-06,,                    ,Pendiente
 37625,16/09,Pallets Jauregui Sociedad Anon...,-,Exolgan,HC,TD,                    ,153IAR0651887,0,                              ,,     ,2025-10-06,,                    ,Pendiente
-37635,16/09,Lift Van Int. Co S.A,-,10076,DR,TD,                    ,258894129,0,                              ,,     ,2025-10-06,Armando Lopez Rocha,                    ,Pendiente
+37636,16/09,Lift Van Int. Co S.A,-,10077,DR,TD,                    ,258894129,0,                              ,,     ,2025-10-06,Armando Lopez Rocha,                    ,Pendiente
 37633,16/09,Mader Zu S.R.L.,-,10080,HC,TD,                    ,32311349,0,                              ,,     ,2025-10-06,,                    ,Pendiente
 37634,16/09,Mader Zu S.R.L.,-,10080,HC,TD,                    ,32311349,0,                              ,,     ,2025-10-06,,                    ,Pendiente
 37584,16/09,Alimentaria Sa,-,10082,DR,TD,                    ,BUA0349516,0,                              ,,     ,2025-10-03,,                    ,Pendiente
 37618,16/09,Curtiembre Infante Sa,-,TRP,HC,TD,                    ,340500034817,0,                              ,,     ,2025-10-06,,                    ,Pendiente
-37636,16/09,Lift Van Int. Co S.A,-,10077,DR,TD,                    ,258894129,0,                              ,,     ,2025-10-06,Armando Lopez Rocha,                    ,Pendiente
+37635,16/09,Lift Van Int. Co S.A,-,10076,DR,TD,                    ,258894129,0,                              ,,     ,2025-10-06,Armando Lopez Rocha,                    ,Pendiente
 37619,16/09,Curtiembre Infante Sa,-,TRP,HC,TD,                    ,340500034817,0,                              ,,     ,2025-10-06,,                    ,Pendiente
 37583,17/09,Bdfm Sa,-,10074,DR,TD,                    ,LA0448041,0,                              ,,     ,2025-10-03,,                    ,Pendiente
