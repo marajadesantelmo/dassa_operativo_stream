@@ -128,12 +128,21 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
     with col3:
         if st.session_state['username'] != "plazoleta":
             st.subheader("Verificaciones")
-            st.dataframe(verificaciones_impo.style.apply(highlight, axis=1), 
-                        hide_index=True, use_container_width=True)
-            if not otros_impo.empty:
-                st.subheader("Otros")
-                st.dataframe(otros_impo.style.apply(highlight, axis=1), 
-                        hide_index=True, use_container_width=True)
+            if not verificaciones_impo.empty:
+                verificaciones_impo_ctn = verificaciones_impo[verificaciones_impo['Envase'] == "Contenedor"]
+                verificaciones_impo_carga = verificaciones_impo[verificaciones_impo['Envase'] != "Contenedor"]
+                if not verificaciones_impo_ctn.empty:
+                    st.write("Contenedores")
+                    st.dataframe(verificaciones_impo_ctn.style.apply(highlight, axis=1), 
+                                hide_index=True, use_container_width=True)
+                if not verificaciones_impo_carga.empty:
+                    st.write("Carga suelta")
+                    st.dataframe(verificaciones_impo_carga.style.apply(highlight, axis=1), 
+                                hide_index=True, use_container_width=True)
+                if not otros_impo.empty:
+                    st.subheader("Otros")
+                    st.dataframe(otros_impo.style.apply(highlight, axis=1), 
+                            hide_index=True, use_container_width=True)
     with col4:
         st.subheader("Retiros")
         retiros_impo_ctn = retiros_impo[retiros_impo['Envase'] == "Contenedor"].drop(columns=['Envase', 'Cant.', 'Volumen', 'e-tally', 'Salida'])
