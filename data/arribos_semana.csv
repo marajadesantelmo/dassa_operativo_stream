@@ -75,7 +75,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-09,Exolgan,0500 ,CAIU-440167-8,Bisora Group Sa,NBOE25015864,T,HC,70,1,09:52 Arribado
 2025-09-09,Exolgan,0500 ,UETU-610500-0,Bisora Group Sa,NBOE25015670,T,HC,70,1,09:58 Arribado
 2025-09-11,Exolgan,1300 ,CAIU-478264-0,Bisora Group Sa,NBOE25015946A,T,HC,70,1,16:54 Arribado
-2025-09-16,Trp - Terminales 1-2-3,1100 ,EITU-106334-7,Novelty Trend Srl,TWLE25070162,T,HC,70,0,Pendiente arribo
+2025-09-16,Trp - Terminales 1-2-3,1100 ,EITU-106334-7,Novelty Trend Srl,TWLE25070162,T,HC,70,1,14:36 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1200 ,LYGU-021135-1,Eramine Sudamerica Sa,NSHEC250739660,TD,HC,70,1,17:41 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1200 ,LYGU-021127-0,Eramine Sudamerica Sa,NSHEC250739660,TD,HC,70,1,17:45 Arribado
 2025-09-12,Trp - Terminales 1-2-3,0400 ,DRYU-984499-9,Bulldog Solutions S.A.,HDE25-080006,T,HC,70,1,08:43 Arribado
@@ -85,6 +85,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-10,Trp - Terminales 1-2-3,1000 ,OOCU-710858-0,All Trade S.A.,TCQD2506268,T,HC,70,1,18:51 Arribado
 2025-09-10,Exolgan,0500 ,FCIU-890261-3,All Trade S.A.,PUS-HSE-2506-0042,TD,HC,70,1,08:33 Arribado
 2025-09-17,Exolgan,1500 ,UACU-831356-5,Eagle Service Group Srl,HLCUBC1250745576,TD,DC,60,0,Pendiente arribo
+2025-09-17,Trp - Terminales 1-2-3,1200 ,CMAU-430429-0,Noah Servicess.R.L.,IBC1377772,TD,HC,70,0,Pendiente arribo
 2025-09-16,Exolgan,0500 ,HLXU-855489-1,Bymar Transforwarding,HLCUBC1250705347,TD,HC,70,1,10:17 Arribado
 2025-09-17,Terminal 4 - Maersk,0800 ,MRSU-543828-0,Lartex Srl,SHAX25070014,T,HC,70,0,Pendiente arribo
 2025-09-17,Terminal 4 - Maersk,0800 ,MRSU-559911-4,Lartex Srl,SHAX25070014,T,HC,70,0,Pendiente arribo
@@ -92,6 +93,10 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-12,Exolgan,0500 ,MSMU-623553-9,Grass S. R. L.,HBUE2507X0115,T,HC,70,1,08:32 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1200 ,PIDU-440217-1,Telamania Srl,NGB31157375,T,HC,70,0,Pendiente arribo
 2025-09-12,Trp - Terminales 1-2-3,0400 ,OOCU-848543-9,Verde Fuerte Srl,SRTME000980,TD,HC,70,1,09:16 Arribado
+2025-09-17,Trp - Terminales 1-2-3,1100 ,TCKU-637422-5,Grupo Simpa Sa,NB250763414,T,HC,70,0,Pendiente arribo
+2025-09-17,Trp - Terminales 1-2-3,1100 ,BEAU-476172-5,Grupo Simpa Sa,NB250763414,T,HC,70,0,Pendiente arribo
+2025-09-17,Trp - Terminales 1-2-3,1100 ,CAAU-764972-6,Grupo Simpa Sa,NB250763414,T,HC,70,0,Pendiente arribo
+2025-09-17,Trp - Terminales 1-2-3,1200 ,TCNU-348426-5,Grupo Simpa Sa,NB250763414,T,HC,70,0,Pendiente arribo
 2025-09-17,Exolgan,1500 ,MRKU-032855-0,Grupo Rsm Srl,255696787,TD,DC,60,0,Pendiente arribo
 2025-09-09,Terminal 4 - Maersk,1500 ,BSIU-851743-0,Fedtex S.R.L,TWLE25070074,TD,HC,70,1,18:32 Arribado
 2025-09-10,Terminal 4 - Maersk,1300 ,ZCSU-732458-9,Fedtex S.R.L,TWLE25070085,TD,HC,70,1,19:45 Arribado
