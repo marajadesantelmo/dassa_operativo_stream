@@ -1,6 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-37635,16/09,Lift Van Int. Co S.A,-,10076,DR,TD,                    ,258894129,0,                              ,,     ,2025-10-06,Armando Lopez Rocha,                    ,Pendiente
-37618,16/09,Curtiembre Infante Sa,-,TRP,HC,TD,                    ,340500034817,0,                              ,,     ,2025-10-06,,                    ,Pendiente
+37635,16/09,Lift Van Int. Co S.A,MRKU-100303-4,10076,DR,TD,***************     ,258894129,1,TRANSPORTE DEL CLIENTE        ,Drapela,11:36,2025-10-06,Armando Lopez Rocha,                    ,11:36 Arribado
+37618,16/09,Curtiembre Infante Sa,EGSU-123921-2,TRP,HC,TD,*****************   ,340500034817,1,TRANSPORTE DEL CLIENTE        ,Bollota,11:41,2025-10-06,,                    ,11:41 Arribado
 37630,16/09,Pallets Jauregui Sociedad Anon...,-,Exolgan,HC,TD,                    ,153IAR0651887,0,                              ,,     ,2025-10-06,,                    ,Pendiente
 37629,16/09,Pallets Jauregui Sociedad Anon...,MSMU-778322-3,Exolgan,HC,TD,FX32919603          ,153IAR0651887,1,TRANSPORTE DEL CLIENTE        ,Delgado,11:33,2025-10-06,,                    ,11:33 Arribado
 37628,16/09,Pallets Jauregui Sociedad Anon...,TRHU-651770-4,Exolgan,HC,TD,FX32919531          ,153IAR0651887,1,TRANSPORTE DEL CLIENTE        ,Ibañez,11:31,2025-10-06,,                    ,11:31 Arribado
