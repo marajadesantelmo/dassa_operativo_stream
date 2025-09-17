@@ -52,12 +52,27 @@ def fetch_data_trafico_andresito():
         lambda x: 'Realizado' if pd.notna(x) and 'Realizado' in str(x) else x
     )
     choferes = fetch_table_data("choferes")
-    return arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns, choferes
-
+    
+    # Add trafico_otros fetching
+    otros = fetch_table_data("trafico_otros")
+    if not otros.empty:
+        otros['Registro'] = pd.to_datetime(otros['fecha_registro']) - pd.Timedelta(hours=3)
+        otros['Registro'] = otros['Registro'].dt.strftime('%d/%m/%Y %H:%M')
+        otros = otros.drop(columns=['fecha_registro'], errors='ignore')
+        if 'Dia' in otros.columns:
+            otros['Dia'] = pd.to_datetime(otros['Dia'], format='%d/%m', errors='coerce')
+            otros = otros.sort_values('Dia')
+            otros['Dia'] = otros['Dia'].dt.strftime('%d/%m')
+        if 'Fecha' in otros.columns:
+            otros['Fecha'] = pd.to_datetime(otros['Fecha'], format='%d/%m/%Y', errors='coerce')
+            otros = otros.sort_values('Fecha', na_position='last')
+            otros['Fecha'] = otros['Fecha'].dt.strftime('%d/%m/%Y')
+    
+    return arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns, choferes, otros
 
 def show_page_trafico_andresito():
     # Load data
-    arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns, choferes = fetch_data_trafico_andresito()
+    arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns, choferes, otros = fetch_data_trafico_andresito()
     
     # Get today's date in the same format as Fecha column
     today_str = datetime.now().strftime('%d/%m/%Y')
@@ -465,6 +480,119 @@ def show_page_trafico_andresito():
             else:
                 st.warning("Por favor seleccione fecha y hora")
 
+    # Add new "Otros" section before manual data entry
+    st.subheader("Otros")
+    with st.container():
+        col_table5, col_assign5 = st.columns([3, 1])
+        with col_table5:
+            col_f1, col_f2, col_f3, col_f4 = st.columns(4)
+            with col_f1:
+                estado_options_otros = ["Todos"]
+                if not otros.empty and 'Estado' in otros.columns:
+                    estado_options_otros = ["Orden del día", "Todos"]
+                selected_estado_otros = st.selectbox("Estado", estado_options_otros, key="estado_filter_otros")
+            with col_f2:
+                operacion_options_otros = ['Todos'] + sorted(otros['Operacion'].dropna().unique().tolist()) if not otros.empty and 'Operacion' in otros.columns else ['Todos']
+                selected_operacion_otros = st.selectbox("Operación", operacion_options_otros, key="operacion_filter_otros")
+            with col_f3:
+                cliente_options_otros = ['Todos'] + sorted(otros['Cliente'].dropna().unique().tolist()) if not otros.empty and 'Cliente' in otros.columns else ['Todos']
+                selected_cliente_otros = st.selectbox("Cliente", cliente_options_otros, key="cliente_filter_otros")
+            with col_f4:
+                chofer_options_otros = ['Todos'] + sorted(otros['chofer'].dropna().unique().tolist()) if not otros.empty and 'chofer' in otros.columns else ['Todos']
+                selected_chofer_otros = st.selectbox("Chofer", chofer_options_otros, key="chofer_filter_otros")
+
+            filtered_otros = otros
+            if selected_estado_otros == "Orden del día" and not otros.empty and 'Estado' in otros.columns:
+                filtered_otros = filtered_otros[
+                    (~filtered_otros["Estado"].str.contains("Realizado", na=False)) |
+                    (filtered_otros["Dia"] == today_dia_str)
+                ]
+            if selected_operacion_otros != 'Todos' and not otros.empty:
+                filtered_otros = filtered_otros[filtered_otros['Operacion'] == selected_operacion_otros]
+            if selected_cliente_otros != 'Todos' and not otros.empty:
+                filtered_otros = filtered_otros[filtered_otros['Cliente'] == selected_cliente_otros]
+            if selected_chofer_otros != 'Todos' and not otros.empty:
+                filtered_otros = filtered_otros[filtered_otros['chofer'] == selected_chofer_otros]
+            
+            otros_filtered = filtered_otros
+            otros_display = otros_filtered.copy()
+            
+            if not otros_display.empty:
+                otros_display = otros_display.rename(columns={'Registro': 'Solicitud'})
+                otros_display['ID'] = otros_display['id'].apply(lambda x: f"O{x:03d}")
+                cols = ['ID'] + [col for col in otros_display.columns if col != 'ID']
+                otros_display = otros_display[cols]
+                otros_display = otros_display.drop(columns=['id'], errors='ignore')
+            
+            st.dataframe(
+                otros_display.style.apply(highlight, axis=1) if not otros_display.empty else otros_display,
+                hide_index=True,
+                use_container_width=True,
+                height=400
+            )
+            
+        with col_assign5:
+            if not otros_filtered.empty:
+                st.markdown("**Asignar Chofer**")
+                selected_otros_id = st.selectbox(
+                    "Registro:",
+                    options=otros_filtered["id"].unique(),
+                    format_func=lambda x: f"ID {x} - {otros_filtered[otros_filtered['id']==x]['Operacion'].iloc[0] if not otros_filtered[otros_filtered['id']==x].empty else 'N/A'}",
+                    key="otros_select"
+                )
+                chofer_name_otros = st.selectbox(
+                    "Chofer:",
+                    options=chofer_options,
+                    key="chofer_otros_select",
+                    index=0
+                )
+                
+                # Allow custom input if needed
+                if chofer_name_otros == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_otros"):
+                    chofer_name_otros = st.text_input("Ingresar nombre de chofer:", key="chofer_otros_custom")
+
+                if st.button("Asignar", key="assign_otros"):
+                    if chofer_name_otros.strip():
+                        try:
+                            update_data("trafico_otros", selected_otros_id, {"chofer": chofer_name_otros.strip()})
+                            st.success(f"Chofer asignado al registro ID {selected_otros_id}")
+                            st.cache_data.clear()
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Error al asignar chofer: {e}")
+                    else:
+                        st.warning("Por favor ingrese el nombre del chofer")
+
+                st.markdown("**Asignar Observaciones**")
+                observaciones_otros = st.text_area("Observaciones:", key="observaciones_otros")
+                if st.button("Asignar Observaciones", key="assign_observaciones_otros"):
+                    if observaciones_otros.strip():
+                        try:
+                            update_data("trafico_otros", selected_otros_id, {"Observaciones trafico": observaciones_otros.strip()})
+                            st.success(f"Observaciones asignadas al registro ID {selected_otros_id}")
+                            st.cache_data.clear()
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Error al asignar observaciones: {e}")
+                    else:
+                        st.warning("Por favor ingrese las observaciones")
+                        
+                st.markdown("**Asignar Fecha y Hora Fin**")
+                fecha_fin_otros = st.date_input("Fecha fin:", key="fecha_fin_otros")
+                hora_fin_otros = st.time_input("Hora fin:", key="hora_fin_otros")
+                if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_otros"):
+                    if fecha_fin_otros and hora_fin_otros:
+                        fecha_hora_fin_str = fecha_fin_otros.strftime("%d/%m/%Y") + " " + hora_fin_otros.strftime("%H:%M")
+                        try:
+                            update_data("trafico_otros", selected_otros_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
+                            st.success(f"Fecha y Hora Fin asignada al registro ID {selected_otros_id}")
+                            st.cache_data.clear()
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Error al asignar Fecha y Hora Fin: {e}")
+                    else:
+                        st.warning("Por favor seleccione fecha y hora")
+
     # Manual Data Entry Section
     st.markdown("---")
     st.subheader("Agregar Registro Manual")
@@ -474,7 +602,8 @@ def show_page_trafico_andresito():
         "Traslados IMPO": "trafico_arribos",
         "Vacíos IMPO a devolver": "trafico_pendiente_desconsolidar", 
         "Retiros Vacíos EXPO": "trafico_arribos_expo_ctns",
-        "Remisiones DASSA a puerto": "trafico_remisiones"
+        "Remisiones DASSA a puerto": "trafico_remisiones",
+        "Otros": "trafico_otros"
     }
     
     selected_table_name = st.selectbox(
@@ -492,6 +621,17 @@ def show_page_trafico_andresito():
         df_columns = pendiente_desconsolidar.columns.tolist()
     elif selected_table == "trafico_arribos_expo_ctns":
         df_columns = arribos_expo_ctns.columns.tolist()
+    elif selected_table == "trafico_otros":
+        if not otros.empty:
+            df_columns = otros.columns.tolist()
+        else:
+            # Provide default columns for empty otros table based on database schema
+            df_columns = [
+                'id', 'Dia', 'Hora', 'Tipo Turno', 'Operacion', 'Cliente', 'Contenedor', 
+                'chofer', 'Fecha y Hora Fin', 'Observaciones', 'Terminal', 'Dimension', 
+                'Entrega', 'Cantidad', 'Fecha', 'Origen', 'Observaciones trafico', 
+                'Valor', 'fecha_registro'
+            ]
     else:  # trafico_remisiones
         df_columns = remisiones.columns.tolist()
     
@@ -516,7 +656,7 @@ def show_page_trafico_andresito():
                         form_data[column] = st.text_input(f"{column} (DD/MM):", key=f"form_{column}_{selected_table}")
                 elif column in ['Turno', 'Hora']:
                     form_data[column] = st.time_input(f"{column}:", key=f"form_{column}_{selected_table}")
-                elif column in ['Estado', 'Cliente', 'Contenedor', 'Booking', 'chofer']:
+                elif column in ['Estado', 'Cliente', 'Contenedor', 'Booking', 'chofer', 'Valor']:
                     form_data[column] = st.text_input(f"{column}:", key=f"form_{column}_{selected_table}")
                 elif column in ['Peso', 'Cantidad']:
                     form_data[column] = st.number_input(f"{column}:", min_value=0.0, key=f"form_{column}_{selected_table}")
