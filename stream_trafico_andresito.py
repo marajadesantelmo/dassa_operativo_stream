@@ -488,39 +488,41 @@ def show_page_trafico_andresito():
             col_f1, col_f2, col_f3, col_f4 = st.columns(4)
             with col_f1:
                 estado_options_otros = ["Todos"]
-                if 'Estado' in otros.columns:
+                if not otros.empty and 'Estado' in otros.columns:
                     estado_options_otros = ["Orden del día", "Todos"]
                 selected_estado_otros = st.selectbox("Estado", estado_options_otros, key="estado_filter_otros")
             with col_f2:
-                operacion_options_otros = ['Todos'] + sorted(otros['Operacion'].dropna().unique().tolist()) if 'Operacion' in otros.columns else ['Todos']
+                operacion_options_otros = ['Todos'] + sorted(otros['Operacion'].dropna().unique().tolist()) if not otros.empty and 'Operacion' in otros.columns else ['Todos']
                 selected_operacion_otros = st.selectbox("Operación", operacion_options_otros, key="operacion_filter_otros")
             with col_f3:
-                cliente_options_otros = ['Todos'] + sorted(otros['Cliente'].dropna().unique().tolist()) if 'Cliente' in otros.columns else ['Todos']
+                cliente_options_otros = ['Todos'] + sorted(otros['Cliente'].dropna().unique().tolist()) if not otros.empty and 'Cliente' in otros.columns else ['Todos']
                 selected_cliente_otros = st.selectbox("Cliente", cliente_options_otros, key="cliente_filter_otros")
             with col_f4:
-                chofer_options_otros = ['Todos'] + sorted(otros['chofer'].dropna().unique().tolist()) if 'chofer' in otros.columns else ['Todos']
+                chofer_options_otros = ['Todos'] + sorted(otros['chofer'].dropna().unique().tolist()) if not otros.empty and 'chofer' in otros.columns else ['Todos']
                 selected_chofer_otros = st.selectbox("Chofer", chofer_options_otros, key="chofer_filter_otros")
 
             filtered_otros = otros
-            if selected_estado_otros == "Orden del día" and 'Estado' in otros.columns:
+            if selected_estado_otros == "Orden del día" and not otros.empty and 'Estado' in otros.columns:
                 filtered_otros = filtered_otros[
                     (~filtered_otros["Estado"].str.contains("Realizado", na=False)) |
                     (filtered_otros["Dia"] == today_dia_str)
                 ]
-            if selected_operacion_otros != 'Todos':
+            if selected_operacion_otros != 'Todos' and not otros.empty:
                 filtered_otros = filtered_otros[filtered_otros['Operacion'] == selected_operacion_otros]
-            if selected_cliente_otros != 'Todos':
+            if selected_cliente_otros != 'Todos' and not otros.empty:
                 filtered_otros = filtered_otros[filtered_otros['Cliente'] == selected_cliente_otros]
-            if selected_chofer_otros != 'Todos':
+            if selected_chofer_otros != 'Todos' and not otros.empty:
                 filtered_otros = filtered_otros[filtered_otros['chofer'] == selected_chofer_otros]
             
             otros_filtered = filtered_otros
             otros_display = otros_filtered.copy()
-            otros_display = otros_display.rename(columns={'Registro': 'Solicitud'})
-            otros_display['ID'] = otros_display['id'].apply(lambda x: f"O{x:03d}")
-            cols = ['ID'] + [col for col in otros_display.columns if col != 'ID']
-            otros_display = otros_display[cols]
-            otros_display = otros_display.drop(columns=['id'], errors='ignore')
+            
+            if not otros_display.empty:
+                otros_display = otros_display.rename(columns={'Registro': 'Solicitud'})
+                otros_display['ID'] = otros_display['id'].apply(lambda x: f"O{x:03d}")
+                cols = ['ID'] + [col for col in otros_display.columns if col != 'ID']
+                otros_display = otros_display[cols]
+                otros_display = otros_display.drop(columns=['id'], errors='ignore')
             
             st.dataframe(
                 otros_display.style.apply(highlight, axis=1) if not otros_display.empty else otros_display,
