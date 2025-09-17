@@ -1,15 +1,15 @@
 Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Tipo,T-TD,Ubicacion,e-tally
 38327-0-1,Southcross Logistics...,Spray,-,MRKU-071447-0,17-09-2025,DC,TD,PLZA,
-38319-0-2,Grupo Simpa Sa,Ladder,-,BEAU-476172-5,17-09-2025,HC,T,PLZA,
+38319-0-1,Grupo Simpa Sa,Ladder,-,TCKU-637422-5,17-09-2025,HC,T,PLZA,
 38317-0-2,Mercovan Argentina S...,Mudanza,-,TCLU-716296-9,17-09-2025,HC,T,PLZA,
 38317-0-1,Mercovan Argentina S...,Mudanza,-,CMNU-500009-1,17-09-2025,HC,T,PLZA,
 38318-0-4,Mercovan Argentina S...,Mudanza,-,TLLU-887867-9,17-09-2025,HC,T,PLZA,
 38318-0-3,Mercovan Argentina S...,Mudanza,-,ECMU-709386-7,17-09-2025,HC,T,PLZA,
-38318-0-1,Mercovan Argentina S...,Mudanza,-,CMAU-458200-7,17-09-2025,HC,T,PLZA,
-38319-0-4,Grupo Simpa Sa,Ladder,-,TCNU-348426-5,17-09-2025,HC,T,PLZA,
-38319-0-3,Grupo Simpa Sa,Ladder,-,CAAU-764972-6,17-09-2025,HC,T,PLZA,
-38319-0-1,Grupo Simpa Sa,Ladder,-,TCKU-637422-5,17-09-2025,HC,T,PLZA,
 38318-0-2,Mercovan Argentina S...,Mudanza,-,TCLU-716011-7,17-09-2025,HC,T,PLZA,
+38319-0-4,Grupo Simpa Sa,Ladder,-,TCNU-348426-5,17-09-2025,HC,T,PLZA,
+38319-0-2,Grupo Simpa Sa,Ladder,-,BEAU-476172-5,17-09-2025,HC,T,PLZA,
+38319-0-3,Grupo Simpa Sa,Ladder,-,CAAU-764972-6,17-09-2025,HC,T,PLZA,
+38318-0-1,Mercovan Argentina S...,Mudanza,-,CMAU-458200-7,17-09-2025,HC,T,PLZA,
 38320-0-1,Xiadex Srl,Telas,-,MSDU-737711-0,17-09-2025,HC,T,PLZA,
 38322-0-2,Lartex Srl,Polyester,-,MRSU-559911-4,17-09-2025,HC,T,PLZA,
 38322-0-1,Lartex Srl,Pilyester,-,MRSU-543828-0,17-09-2025,HC,T,PLZA,
@@ -33,8 +33,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Tipo,T-TD,Ubicacion,e-tal
 38287-0-1,Vertisoles Srl,Ligc Plus 5L,-,ZIMU-315529-0,16-09-2025,DR,TD,PLZA,http://dassa.mqbic.com/PublicTally.php?id=2576
 38286-0-1,Lift Van Int. Co S.A,Mudanza,-,GESU-112370-3,16-09-2025,DC,TD,PLZA,http://dassa.mqbic.com/PublicTally.php?id=2573
 38304-0-1,Bulldog Solutions S....,Telas,-,EITU-154087-7,16-09-2025,HC,T,PLZA,
-38288-0-1,Bazar Del Mundo S.A.,Plastic Bottles,-,GCXU-517785-6,16-09-2025,HC,TD,PLZA,
 38288-0-2,Bazar Del Mundo S.A.,Plastic Bottles,-,PCIU-963460-2,16-09-2025,HC,TD,PLZA,
+38288-0-1,Bazar Del Mundo S.A.,Plastic Bottles,-,GCXU-517785-6,16-09-2025,HC,TD,PLZA,
 38297-0-1,Mercovan Argentina S...,Mudanza,-,UACU-842024-4,16-09-2025,DC,TD,PLZA,
 38298-0-1,Lift Van Int. Co S.A,Mudanza,-,HLBU-109856-0,16-09-2025,DC,TD,PLZA,
 38299-0-1,Edelweiss Spedition ...,Mudanza,-,HLBU-180704-9,16-09-2025,DC,TD,PLZA,
@@ -70,17 +70,17 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Tipo,T-TD,Ubicacion,e-tal
 38171-0-1,Grupo Leal-Tex S.R.L...,Telas,-,MSDU-713012-0,11-09-2025,HC,T,PLZA,http://dassa.mqbic.com/PublicTally.php?id=2526
 38175-0-1,Jupam Sa,Telas,NGP2552018,CAIU-897615-6,11-09-2025,HC,T,PLZA,
 38164-0-1,Jupam Sa,Telas,NGP2552016,TCNU-299299-7,11-09-2025,HC,T,PLZA,
-38138-0-1,Poka S.A.,Inflatable Items,-,MAGU-527913-0,10-09-2025,HC,T,PLZA,
+38138-0-3,Poka S.A.,Inflatable Items,-,TXGU-581988-5,10-09-2025,HC,T,PLZA,
 38127-0-1,Independencia 3187 M...,..,-,UETU-754233-0,10-09-2025,HC,T,PLZA,
 38136-0-3,Compañia Bulk S.A.,Chair And Table,-,EMCU-849221-8,10-09-2025,HC,T,PLZA,
 38136-0-1,Compañia Bulk S.A.,Chair And Table,-,HMCU-916037-6,10-09-2025,HC,T,PLZA,
 38136-0-2,Compañia Bulk S.A.,Chair And Table,-,TEMU-617770-3,10-09-2025,HC,T,PLZA,
 38138-0-2,Poka S.A.,Inflatable Items,-,FFAU-134470-2,10-09-2025,HC,T,PLZA,
-38138-0-3,Poka S.A.,Inflatable Items,-,TXGU-581988-5,10-09-2025,HC,T,PLZA,
+38138-0-1,Poka S.A.,Inflatable Items,-,MAGU-527913-0,10-09-2025,HC,T,PLZA,
 38149-0-1,Rodriguez Carlos Alb...,.,-,OOCU-710858-0,10-09-2025,HC,T,PLZA,
 38150-0-1,Impacto Jean S.A.,Telas,-,EGSU-131155-4,10-09-2025,HC,T,PLZA,
-38153-0-1,Southcross Logistics...,Pot Plant,-,TCLU-400559-1,10-09-2025,DC,T,PLZA,
 38153-0-2,Southcross Logistics...,Pot Plant,-,TTNU-432725-8,10-09-2025,DC,T,PLZA,
+38153-0-1,Southcross Logistics...,Pot Plant,-,TCLU-400559-1,10-09-2025,DC,T,PLZA,
 38159-0-1,Jupam Sa,Telas,ZIMUNGB20633791,ZCSU-692856-3,10-09-2025,HC,T,PLZA,
 38142-0-1,Lift Van Int. Co S.A,Mduanza,ZIMUVRT910656,ZIMU-303202-1,09-09-2025,DC,-,PLZA,
 38020-5-1,Edificios Comahue So...,Movable House,TPTXGABD25056051,TXGU-563463-9,04-09-2025,HC,-,PLZA,http://dassa.mqbic.com/PublicTally.php?id=2467
@@ -92,8 +92,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Tipo,T-TD,Ubicacion,e-tal
 38020-1-1,Edificios Comahue So...,Movable House,TPTXGABD25056051,EITU-901287-6,04-09-2025,HC,-,PLZA,http://dassa.mqbic.com/PublicTally.php?id=2465
 37987-0-1,Dpmg S.A.,Isotanque,-,ZHLU-201402-8,03-09-2025,is,-,PLZA,
 37815-0-1,Raisvic S.R.L.,Telas,-,TCLU-831412-0,26-08-2025,HC,-,PLZA,
-37607-0-1,Trice Transport Comp...,Mudanza,-,FANU-117537-6,16-08-2025,HC,-,PLZA,
 37607-0-2,Trice Transport Comp...,Mudanza,-,TCLU-953831-4,16-08-2025,HC,-,PLZA,
+37607-0-1,Trice Transport Comp...,Mudanza,-,FANU-117537-6,16-08-2025,HC,-,PLZA,
 36994-0-1,Lift Van Int. Co S.A,Efectos,-,TCLU-359747-5,18-07-2025,DC,-,PLZA,http://dassa.mqbic.com/PublicTally.php?id=2181
 36383-0-1,Lift Van Int. Co S.A,Mudanza,ONEYRICFU2271500,TCLU-343728-7,26-06-2025,DC,-,PLZA,
 36251-0-1,Bisora Group Sa,Garment,-,EGHU-945537-0,19-06-2025,HC,-,PLZA,http://dassa.mqbic.com/PublicTally.php?id=2036
