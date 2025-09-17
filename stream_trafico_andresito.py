@@ -622,7 +622,16 @@ def show_page_trafico_andresito():
     elif selected_table == "trafico_arribos_expo_ctns":
         df_columns = arribos_expo_ctns.columns.tolist()
     elif selected_table == "trafico_otros":
-        df_columns = otros.columns.tolist()
+        if not otros.empty:
+            df_columns = otros.columns.tolist()
+        else:
+            # Provide default columns for empty otros table based on database schema
+            df_columns = [
+                'id', 'Dia', 'Hora', 'Tipo Turno', 'Operacion', 'Cliente', 'Contenedor', 
+                'chofer', 'Fecha y Hora Fin', 'Observaciones', 'Terminal', 'Dimension', 
+                'Entrega', 'Cantidad', 'Fecha', 'Origen', 'Observaciones trafico', 
+                'Valor', 'fecha_registro'
+            ]
     else:  # trafico_remisiones
         df_columns = remisiones.columns.tolist()
     
