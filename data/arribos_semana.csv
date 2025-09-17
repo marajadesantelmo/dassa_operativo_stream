@@ -1,20 +1,16 @@
 Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribado,Estado
-2025-09-09,Terminal 4 - Maersk,1300 ,ZCSU-849076-9,Mercovan Argentina S.A.,ZIMUMIA933115,TD,DC,60,1,19:23 Arribado
-2025-09-09,Terminal 4 - Maersk,1300 ,ZCSU-769860-8,Mercovan Argentina S.A.,ZIMUCRT910392,TD,DC,60,1,18:30 Arribado
 2025-09-12,Terminal 4 - Maersk,1700 ,CMAU-239086-0,Mercovan Argentina S.A.,TMA0153588,TD,DC,30,1,19:22 Arribado
 2025-09-12,Exolgan,0500 ,DFSU-433491-0,Mercovan Argentina S.A.,HLCUDUR250712712,TD,DC,60,1,10:35 Arribado
 2025-09-15,Exolgan,1100 ,MEDU-571669-1,Mercovan Argentina S.A.,MEDUJZ580286,TD,DR,30,1,14:49 Arribado
 2025-09-16,Exolgan,0500 ,MEDU-291435-3,Mercovan Argentina S.A.,FE2523075119NYCBUE,TD,DC,30,1,09:54 Arribado
-2025-09-17,Trp - Terminales 1-2-3,1100 ,TLLU-887867-9,Mercovan Argentina S.A.,ISB1790539,T,HC,70,0,Pendiente arribo
-2025-09-17,Trp - Terminales 1-2-3,1100 ,CMNU-500009-1,Mercovan Argentina S.A.,ISB1784667,T,HC,70,0,Pendiente arribo
-2025-09-17,Trp - Terminales 1-2-3,1100 ,TCLU-716296-9,Mercovan Argentina S.A.,ISB1784667,T,HC,70,0,Pendiente arribo
 2025-09-16,Exolgan,0500 ,TCLU-415732-0,Mercovan Argentina S.A.,HLCULE1250769870,TD,DC,60,1,11:39 Arribado
+2025-09-17,Trp - Terminales 1-2-3,1100 ,TCLU-716296-9,Mercovan Argentina S.A.,ISB1784667,T,HC,70,0,Pendiente arribo
 2025-09-16,Exolgan,1500 ,UACU-842024-4,Mercovan Argentina S.A.,HLCUBC1250752804,TD,DC,60,1,20:24 Arribado
 2025-09-17,Trp - Terminales 1-2-3,1100 ,CMAU-458200-7,Mercovan Argentina S.A.,ISB1790539,T,HC,70,0,Pendiente arribo
 2025-09-17,Trp - Terminales 1-2-3,1100 ,TCLU-716011-7,Mercovan Argentina S.A.,ISB1790539,T,HC,70,0,Pendiente arribo
 2025-09-17,Trp - Terminales 1-2-3,1100 ,ECMU-709386-7,Mercovan Argentina S.A.,ISB1790539,T,HC,70,0,Pendiente arribo
-2025-09-09,Terminal 4 - Maersk,1300 ,BSIU-338082-7,Lift Van Int. Co S.A,CDOLX250840,TD,DC,30,1,18:25 Arribado
-2025-09-09,Terminal 4 - Maersk,1300 ,ZIMU-303202-1,Lift Van Int. Co S.A,ZIMUVRT910656,TD,DC,30,1,17:14 Arribado
+2025-09-17,Trp - Terminales 1-2-3,1100 ,TLLU-887867-9,Mercovan Argentina S.A.,ISB1790539,T,HC,70,0,Pendiente arribo
+2025-09-17,Trp - Terminales 1-2-3,1100 ,CMNU-500009-1,Mercovan Argentina S.A.,ISB1784667,T,HC,70,0,Pendiente arribo
 2025-09-11,Terminal 4 - Maersk,0900 ,ZCSU-691113-3,Lift Van Int. Co S.A,CDOLX250849,TD,DC,60,1,14:53 Arribado
 2025-09-12,Terminal 4 - Maersk,1400 ,TCKU-338199-8,Lift Van Int. Co S.A,ONEYRICFDS628600,TD,DC,30,1,17:44 Arribado
 2025-09-12,Exolgan,0900 ,MSBU-457668-2,Lift Van Int. Co S.A,MEDUJZ555908,TD,DC,60,1,14:20 Arribado
@@ -54,7 +50,6 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-10,Trp - Terminales 1-2-3,1200 ,TEMU-640960-3,Aoda Sa,NB250561059,T,HC,70,1,21:36 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1100 ,FSCU-495909-7,Aoda Sa,NB250663051,T,DC,60,1,13:37 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1300 ,EITU-124729-9,Aoda Sa,NB250663270/84,T,HC,70,1,16:04 Arribado
-2025-09-09,Exolgan,0500 ,UETU-776642-7,Awam Tex Srl,NBOE25015689,T,HC,70,1,09:49 Arribado
 2025-09-11,Exolgan,1300 ,MSDU-713012-0,Grupo Leal-Tex S.R.L.,GILSH250600125,T,HC,70,1,17:34 Arribado
 2025-09-15,Trp - Terminales 1-2-3,1500 ,EITU-911465-1,Dmc Import Group S.R.L.,TSSZ2507033,T,HC,70,1,18:49 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1000 ,HMCU-916037-6,Compañia Bulk S.A.,SY250662105,T,HC,70,1,13:49 Arribado
@@ -72,8 +67,6 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-11,Trp - Terminales 1-2-3,0400 ,TCNU-299299-7,Juliana Sa,NGP2552016,T,HC,70,1,08:16 Arribado
 2025-09-11,Trp - Terminales 1-2-3,0400 ,TGHU-669552-0,Juliana Sa,NGP2552024,T,HC,70,1,08:12 Arribado
 2025-09-11,Trp - Terminales 1-2-3,1200 ,CAIU-897615-6,Juliana Sa,NGP2552018,T,HC,70,1,14:45 Arribado
-2025-09-09,Exolgan,0500 ,CAIU-440167-8,Bisora Group Sa,NBOE25015864,T,HC,70,1,09:52 Arribado
-2025-09-09,Exolgan,0500 ,UETU-610500-0,Bisora Group Sa,NBOE25015670,T,HC,70,1,09:58 Arribado
 2025-09-11,Exolgan,1300 ,CAIU-478264-0,Bisora Group Sa,NBOE25015946A,T,HC,70,1,16:54 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1100 ,EITU-106334-7,Novelty Trend Srl,TWLE25070162,TD,HC,70,1,14:36 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1200 ,LYGU-021135-1,Eramine Sudamerica Sa,NSHEC250739660,TD,HC,70,1,17:41 Arribado
@@ -98,7 +91,6 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-17,Trp - Terminales 1-2-3,1100 ,CAAU-764972-6,Grupo Simpa Sa,NB250763414,T,HC,70,0,Pendiente arribo
 2025-09-17,Trp - Terminales 1-2-3,1200 ,TCNU-348426-5,Grupo Simpa Sa,NB250763414,T,HC,70,0,Pendiente arribo
 2025-09-17,Exolgan,1500 ,MRKU-032855-0,Grupo Rsm Srl,255696787,TD,DC,60,0,Pendiente arribo
-2025-09-09,Terminal 4 - Maersk,1500 ,BSIU-851743-0,Fedtex S.R.L,TWLE25070074,TD,HC,70,1,18:32 Arribado
 2025-09-10,Terminal 4 - Maersk,1300 ,ZCSU-732458-9,Fedtex S.R.L,TWLE25070085,TD,HC,70,1,19:45 Arribado
 2025-09-15,None,     ,EGHU-849387-9,Pantografos Cam Cnc S.A.S,0385000STB/CL/2025,TD,HC,70,1,08:47 Arribado
 2025-09-15,None,     ,DRYU-957373-1,Pantografos Cam Cnc S.A.S,0385000STB/CL/2025,TD,HC,70,1,08:56 Arribado
