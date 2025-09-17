@@ -47,7 +47,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-10,Terminal 4 - Maersk,1300 ,GAOU-610031-1,Jupam Sa,TWLE25070086,T,HC,70,1,20:59 Arribado
 2025-09-15,Exolgan,0700 ,FFAU-215755-8,Jupam Sa,TWLE25060146,T,HC,70,1,09:22 Arribado
 2025-09-17,Terminal 4 - Maersk,1200 ,TCKU-664318-1,Jupam Sa,TWLE25070183,T,HC,70,0,Pendiente arribo
-2025-09-17,Terminal 4 - Maersk,1100 ,JXLU-618880-5,Jupam Sa,TWLE25070182,T,HC,70,0,Pendiente arribo
+2025-09-17,Terminal 4 - Maersk,1100 ,JXLU-618880-5,Jupam Sa,TWLE25070182,T,HC,70,1,15:05 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1200 ,TEMU-640960-3,Aoda Sa,NB250561059,T,HC,70,1,21:36 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1100 ,FSCU-495909-7,Aoda Sa,NB250663051,T,DC,60,1,13:37 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1300 ,EITU-124729-9,Aoda Sa,NB250663270/84,T,HC,70,1,16:04 Arribado
@@ -90,8 +90,8 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-12,Exolgan,0500 ,MSMU-623553-9,Grass S. R. L.,HBUE2507X0115,T,HC,70,1,08:32 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1200 ,PIDU-440217-1,Telamania Srl,NGB31157375,T,HC,70,1,15:12 Arribado
 2025-09-12,Trp - Terminales 1-2-3,0400 ,OOCU-848543-9,Verde Fuerte Srl,SRTME000980,TD,HC,70,1,09:16 Arribado
-2025-09-17,Trp - Terminales 1-2-3,1100 ,TCKU-637422-5,Grupo Simpa Sa,NB250763414,T,HC,70,0,Pendiente arribo
-2025-09-17,Trp - Terminales 1-2-3,1100 ,BEAU-476172-5,Grupo Simpa Sa,NB250763414,T,HC,70,0,Pendiente arribo
+2025-09-17,Trp - Terminales 1-2-3,1100 ,TCKU-637422-5,Grupo Simpa Sa,NB250763414,T,HC,70,1,15:16 Arribado
+2025-09-17,Trp - Terminales 1-2-3,1100 ,BEAU-476172-5,Grupo Simpa Sa,NB250763414,T,HC,70,1,15:14 Arribado
 2025-09-17,Trp - Terminales 1-2-3,1100 ,CAAU-764972-6,Grupo Simpa Sa,NB250763414,T,HC,70,0,Pendiente arribo
 2025-09-17,Trp - Terminales 1-2-3,1200 ,TCNU-348426-5,Grupo Simpa Sa,NB250763414,T,HC,70,0,Pendiente arribo
 2025-09-17,Exolgan,1500 ,MRKU-032855-0,Grupo Rsm Srl,255696787,TD,DC,60,0,Pendiente arribo
