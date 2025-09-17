@@ -106,7 +106,7 @@ else:
         icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "box-arrow-right"]
     else:
         allowed_pages = ["IMPO", "EXPO", "Balanza", "Plazoleta", "Camiones", "Buques", "IMPO - histórico", "EXPO - histórico", "Gestión de usuarios", "Gestión Choferes", "Logout"]
-        icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "ship", "clock-history", "clock-history", "people", "people", "box-arrow-right"]
+        icons = ["arrow-down-circle", "arrow-up-circle", "book", "building", "truck", "clock-history", "clock-history", "clock-history", "people", "people", "box-arrow-right"]
 
     page_selection = option_menu(
         None,  # No menu title
