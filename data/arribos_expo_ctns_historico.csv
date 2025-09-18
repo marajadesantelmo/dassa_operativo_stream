@@ -3,6 +3,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-02,33903,TCLU-246894-0,Mercovan Argentina S.A.,253811924,*************       ,Arribado
 2025-09-09,37390,MRKU-095103-0,Mercovan Argentina S.A.,258476881,******************  ,Arribado
 2025-09-15,37639,MAXU-136464-9,Mercovan Argentina S.A.,USG0314947,R8695190            ,Arribado
+2025-09-18,37726,,Mercovan Argentina S.A.,32204078,                    ,Pendiente
 2025-09-08,37291,UACU-831687-8,Mercovan Argentina S.A.,34199313,********************,Arribado
 2025-09-08,37292,HLBU-403514-4,Mercovan Argentina S.A.,17053204,******************  ,Arribado
 2025-08-27,36972,CAIU-211969-1,Mercovan Argentina S.A.,54835559,       *************,Arribado
@@ -39,129 +40,125 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-06,34387,HLBU-147084-7,Mercovan Argentina S.A.,92724024,***********         ,Arribado
 2025-05-27,33967,HLBU-133858-0,Mercovan Argentina S.A.,93674190,***********         ,Arribado
 2025-05-30,34219,,Mercovan Argentina S.A.,21956525,                    ,Pendiente
-2025-09-16,37641,UETU-278310-2,Lift Van Int. Co S.A,90503487,HLD0436013          ,Arribado
-2025-09-15,37553,TCLU-484898-1,Lift Van Int. Co S.A,EBKGQ00122A5,FX32950093          ,Arribado
-2025-09-12,37560,TCLU-432460-2,Lift Van Int. Co S.A,BUA0349947,R8683835            ,Arribado
+2025-05-26,33909,MRKU-893453-2,Lift Van Int. Co S.A,253613375,***********         ,Arribado
+2025-05-26,33910,MRKU-801950-0,Lift Van Int. Co S.A,253551048,*************       ,Arribado
+2025-05-26,33911,BMOU-104042-1,Lift Van Int. Co S.A,253550660,************        ,Arribado
 2025-09-15,37621,,Lift Van Int. Co S.A,25001PE01000350X,                    ,Arribado
 2025-09-16,37635,MRKU-100303-4,Lift Van Int. Co S.A,258894129,***************     ,Arribado
 2025-09-16,37636,TEMU-153276-5,Lift Van Int. Co S.A,258894129,*************       ,Arribado
-2025-09-10,37400,MRKU-092697-3,Lift Van Int. Co S.A,259005939,******************* ,Arribado
+2025-09-16,37641,UETU-278310-2,Lift Van Int. Co S.A,90503487,HLD0436013          ,Arribado
 2025-09-11,37542,APZU-362697-5,Lift Van Int. Co S.A,BUA0349854,R8695197            ,Arribado
 2025-09-15,37552,,Lift Van Int. Co S.A,EBKGQ00122A4,                    ,Pendiente
+2025-09-15,37553,TCLU-484898-1,Lift Van Int. Co S.A,EBKGQ00122A5,FX32950093          ,Arribado
+2025-09-12,37560,TCLU-432460-2,Lift Van Int. Co S.A,BUA0349947,R8683835            ,Arribado
+2025-09-10,37400,MRKU-092697-3,Lift Van Int. Co S.A,259005939,******************* ,Arribado
+2025-09-03,37162,HLBU-104025-5,Lift Van Int. Co S.A,34759445,**********          ,Arribado
+2025-09-05,37163,TCKU-757132-1,Lift Van Int. Co S.A,258534129,**************      ,Arribado
 2025-09-03,37198,UACU-574303-2,Lift Van Int. Co S.A,13662045,HLD 0436086         ,Arribado
 2025-09-01,37113,MRKU-042957-6,Lift Van Int. Co S.A,258534207,*******             ,Arribado
 2025-09-01,37114,SUDU-592045-9,Lift Van Int. Co S.A,258310013,**********          ,Arribado
 2025-09-01,37148,HASU-108388-1,Lift Van Int. Co S.A,258473309,************        ,Arribado
-2025-09-03,37162,HLBU-104025-5,Lift Van Int. Co S.A,34759445,**********          ,Arribado
-2025-09-05,37163,TCKU-757132-1,Lift Van Int. Co S.A,258534129,**************      ,Arribado
-2025-09-01,36995,,Lift Van Int. Co S.A,BUA0348790,                    ,Pendiente
-2025-08-18,36717,,Lift Van Int. Co S.A,25001PE01000281L,                    ,Arribado
 2025-08-21,36776,MSKU-694190-9,Lift Van Int. Co S.A,257750953,***************     ,Arribado
-2025-08-12,36602,UACU-403602-0,Lift Van Int. Co S.A,20945369,*************       ,Arribado
-2025-08-12,36603,UACU-391933-3,Lift Van Int. Co S.A,19870113,*********           ,Arribado
+2025-09-01,36995,,Lift Van Int. Co S.A,BUA0348790,                    ,Pendiente
 2025-08-18,36663,PONU-192620-2,Lift Van Int. Co S.A,257290426,***********         ,Arribado
 2025-08-14,36678,SUDU-737052-0,Lift Van Int. Co S.A,257691656,**************      ,Arribado
-2025-08-12,36503,UACU-853668-2,Lift Van Int. Co S.A,44540284,**********          ,Arribado
+2025-08-18,36717,,Lift Van Int. Co S.A,25001PE01000281L,                    ,Arribado
 2025-08-11,36504,BSIU-291374-7,Lift Van Int. Co S.A,93745598,***********         ,Arribado
 2025-08-13,36523,CAAU-638128-5,Lift Van Int. Co S.A,257691498,**********          ,Arribado
 2025-08-11,36527,UACU-842675-1,Lift Van Int. Co S.A,32375613,****************    ,Arribado
-2025-08-04,36302,SEGU-160820-5,Lift Van Int. Co S.A,USG0310149,R8682573            ,Arribado
-2025-08-05,36351,MRKU-023506-1,Lift Van Int. Co S.A,257038583,****************    ,Arribado
-2025-07-31,36200,HLBU-174685-3,Lift Van Int. Co S.A,10416430,***********         ,Arribado
+2025-08-12,36602,UACU-403602-0,Lift Van Int. Co S.A,20945369,*************       ,Arribado
+2025-08-12,36603,UACU-391933-3,Lift Van Int. Co S.A,19870113,*********           ,Arribado
+2025-08-12,36503,UACU-853668-2,Lift Van Int. Co S.A,44540284,**********          ,Arribado
 2025-08-01,36254,UETU-244360-6,Lift Van Int. Co S.A,257273973,                    ,Arribado
 2025-08-04,36280,TEMU-126854-4,Lift Van Int. Co S.A,MCORIV030104,R8682585            ,Arribado
+2025-08-04,36302,SEGU-160820-5,Lift Van Int. Co S.A,USG0310149,R8682573            ,Arribado
+2025-08-05,36351,MRKU-023506-1,Lift Van Int. Co S.A,257038583,****************    ,Arribado
 2025-07-30,36110,FCIU-628594-0,Lift Van Int. Co S.A,93774162,***********         ,Arribado
 2025-08-01,36158,TEMU-177797-9,Lift Van Int. Co S.A,38042211,                    ,Arribado
-2025-07-25,35988,HLBU-273571-9,Lift Van Int. Co S.A,23265518,*************       ,Arribado
+2025-07-31,36200,HLBU-174685-3,Lift Van Int. Co S.A,10416430,***********         ,Arribado
 2025-07-24,35923,MRKU-022250-5,Lift Van Int. Co S.A,256654796,  ***************   ,Arribado
 2025-07-25,35979,,Lift Van Int. Co S.A,23265518,                    ,Pendiente
+2025-07-25,35988,HLBU-273571-9,Lift Van Int. Co S.A,23265518,*************       ,Arribado
+2025-07-15,35617,DFSU-249229-0,Lift Van Int. Co S.A,34208160,**********          ,Arribado
+2025-07-04,35274,UACU-600159-4,Lift Van Int. Co S.A,35530751,0433933             ,Arribado
 2025-07-11,35373,SUDU-734833-7,Lift Van Int. Co S.A,256588632,***********         ,Arribado
 2025-07-14,35483,MRKU-843119-0,Lift Van Int. Co S.A,256447645,************        ,Arribado
 2025-07-14,35532,CAIU-668649-8,Lift Van Int. Co S.A,58233181,**********          ,Arribado
-2025-07-15,35617,DFSU-249229-0,Lift Van Int. Co S.A,34208160,**********          ,Arribado
-2025-07-03,35260,MRKU-080496-0,Lift Van Int. Co S.A,255310523,************        ,Arribado
-2025-07-03,35269,HLXU-535909-0,Lift Van Int. Co S.A,21259607,**********          ,Arribado
-2025-07-04,35274,UACU-600159-4,Lift Van Int. Co S.A,35530751,0433933             ,Arribado
-2025-06-30,35107,MRKU-750921-0,Lift Van Int. Co S.A,255372708,**********          ,Arribado
 2025-07-03,35219,CAIU-264508-4,Lift Van Int. Co S.A,29963404,************        ,Arribado
 2025-07-03,35220,DFSU-279519-4,Lift Van Int. Co S.A,27799953,*********           ,Arribado
-2025-06-24,34836,,Lift Van Int. Co S.A,93496815,                    ,Pendiente
-2025-06-24,34898,UACU-372034-1,Lift Van Int. Co S.A,93496815,***********         ,Arribado
-2025-06-13,34615,,Lift Van Int. Co S.A,254555242,                    ,Pendiente
-2025-06-13,34617,,Lift Van Int. Co S.A,36400659,                    ,Pendiente
-2025-06-17,34655,HLBU-104472-8,Lift Van Int. Co S.A,36400659,***********         ,Arribado
+2025-07-03,35260,MRKU-080496-0,Lift Van Int. Co S.A,255310523,************        ,Arribado
+2025-07-03,35269,HLXU-535909-0,Lift Van Int. Co S.A,21259607,**********          ,Arribado
+2025-06-30,35107,MRKU-750921-0,Lift Van Int. Co S.A,255372708,**********          ,Arribado
 2025-06-17,34656,CAIU-615506-4,Lift Van Int. Co S.A,254555242,************        ,Arribado
 2025-06-24,34834,,Lift Van Int. Co S.A,93496815,                    ,Pendiente
-2025-06-09,34432,TCKU-214624-8,Lift Van Int. Co S.A,254130292,************        ,Arribado
-2025-06-09,34433,MRKU-816944-9,Lift Van Int. Co S.A,254311809,***********         ,Arribado
+2025-06-24,34836,,Lift Van Int. Co S.A,93496815,                    ,Pendiente
+2025-06-24,34898,UACU-372034-1,Lift Van Int. Co S.A,93496815,***********         ,Arribado
 2025-06-11,34562,,Lift Van Int. Co S.A,TERRESTRE,                    ,Arribado
 2025-06-12,34578,SUDU-148917-4,Lift Van Int. Co S.A,254302060,************        ,Arribado
 2025-06-13,34612,UACU-849110-3,Lift Van Int. Co S.A,39663430,**********          ,Arribado
-2025-05-28,34106,,Lift Van Int. Co S.A,TERRESTRE,                    ,Arribado
-2025-06-03,34294,MRKU-973013-2,Lift Van Int. Co S.A,254310061,***********         ,Arribado
-2025-06-03,34295,MSKU-760704-9,Lift Van Int. Co S.A,254184165,****************    ,Arribado
+2025-06-13,34615,,Lift Van Int. Co S.A,254555242,                    ,Pendiente
+2025-06-13,34617,,Lift Van Int. Co S.A,36400659,                    ,Pendiente
+2025-06-17,34655,HLBU-104472-8,Lift Van Int. Co S.A,36400659,***********         ,Arribado
+2025-06-09,34432,TCKU-214624-8,Lift Van Int. Co S.A,254130292,************        ,Arribado
+2025-06-09,34433,MRKU-816944-9,Lift Van Int. Co S.A,254311809,***********         ,Arribado
 2025-05-28,34057,,Lift Van Int. Co S.A,25001PER1000211P,                    ,Arribado
 2025-05-28,34058,,Lift Van Int. Co S.A,25001PE01000188R,                    ,Arribado
 2025-05-28,34065,,Lift Van Int. Co S.A,TERRESTRE,                    ,Pendiente
-2025-05-26,33909,MRKU-893453-2,Lift Van Int. Co S.A,253613375,***********         ,Arribado
-2025-05-26,33910,MRKU-801950-0,Lift Van Int. Co S.A,253551048,*************       ,Arribado
-2025-05-26,33911,BMOU-104042-1,Lift Van Int. Co S.A,253550660,************        ,Arribado
+2025-05-28,34106,,Lift Van Int. Co S.A,TERRESTRE,                    ,Arribado
+2025-06-03,34294,MRKU-973013-2,Lift Van Int. Co S.A,254310061,***********         ,Arribado
+2025-06-03,34295,MSKU-760704-9,Lift Van Int. Co S.A,254184165,****************    ,Arribado
 2025-05-26,33912,MSKU-394859-8,Lift Van Int. Co S.A,253551644,************        ,Arribado
 2025-05-26,33913,MSKU-583404-3,Lift Van Int. Co S.A,253550275,**************      ,Arribado
 2025-08-11,36514,MRKU-009191-4,Edelweiss Spedition Srl,256833670,********            ,Arribado
 2025-07-22,35861,HLBU-396305-6,Edelweiss Spedition Srl,35330092,*************       ,Arribado
 2025-06-05,34364,,Edelweiss Spedition Srl,J25001PE01000186P,                    ,Arribado
-2025-05-20,33720,MAGU-525143-0,Santana Textil Chaco Sa,MCORIV028580,R1954007            ,Arribado
-2025-05-20,33721,GESU-656752-6,Santana Textil Chaco Sa,MCORIV028580,R1954086            ,Arribado
-2025-05-20,33722,CXDU-181987-4,Santana Textil Chaco Sa,MCORIV028580,R1954071            ,Arribado
-2025-05-20,33723,TLLU-788362-3,Santana Textil Chaco Sa,MCORIV028580,R1954077            ,Arribado
-2025-09-10,37410,SEGU-463513-8,Santana Textil Chaco Sa,MCORIV030926,R8681797            ,Arribado
 2025-09-10,37406,CMAU-382489-4,Santana Textil Chaco Sa,MCORIV030926,8681736             ,Arribado
 2025-09-10,37407,CMAU-652269-2,Santana Textil Chaco Sa,MCORIV030926,R8681649            ,Arribado
 2025-09-10,37408,BEAU-400436-2,Santana Textil Chaco Sa,MCORIV030926,R8685356            ,Arribado
 2025-09-10,37409,CAAU-618947-8,Santana Textil Chaco Sa,MCORIV030926,R8681737            ,Arribado
+2025-09-10,37410,SEGU-463513-8,Santana Textil Chaco Sa,MCORIV030926,R8681797            ,Arribado
 2025-05-23,33860,RFCU-219788-8,Minera Santa Rita Srl,BUE500083400,************        ,Arribado
-2025-09-15,37571,MSBU-400834-2,Minera Santa Rita Srl,EBKG13977029,FX32950092          ,Arribado
+2025-05-23,33861,PCIU-167646-9,Minera Santa Rita Srl,BUE500083400,***********         ,Arribado
 2025-09-15,37572,MSCU-588753-2,Minera Santa Rita Srl,EBKG13977029,FX32950100          ,Arribado
 2025-09-15,37573,PCIU-463868-9,Minera Santa Rita Srl,BUE500161000,***************     ,Arribado
-2025-08-19,36665,TRHU-490724-1,Minera Santa Rita Srl,COSU6427505430,******************* ,Arribado
+2025-09-15,37571,MSBU-400834-2,Minera Santa Rita Srl,EBKG13977029,FX32950092          ,Arribado
 2025-08-19,36666,FFAU-343841-5,Minera Santa Rita Srl,COSU6427505430,********************,Arribado
 2025-08-19,36667,CCLU-765317-0,Minera Santa Rita Srl,COSU6427505430,**************      ,Arribado
 2025-08-22,36864,PCIU-462441-1,Minera Santa Rita Srl,BUE500141600,********************,Arribado
 2025-08-22,36865,PCIU-463655-7,Minera Santa Rita Srl,BUE500141500,***************     ,Arribado
 2025-08-19,36664,RFCU-401700-7,Minera Santa Rita Srl,COSU6427505430,*************       ,Arribado
-2025-07-29,36065,KKFU-759895-2,Minera Santa Rita Srl,BUEF09165700,*****************   ,Arribado
+2025-08-19,36665,TRHU-490724-1,Minera Santa Rita Srl,COSU6427505430,******************* ,Arribado
 2025-07-23,35893,BMOU-307956-7,Minera Santa Rita Srl,BUE500126200,******************  ,Arribado
 2025-07-28,35997,BMOU-308047-0,Minera Santa Rita Srl,BUE500126300,***********         ,Arribado
 2025-07-28,35998,PCIU-463884-2,Minera Santa Rita Srl,BUE500126300,*********           ,Arribado
 2025-07-29,36064,TRHU-705470-7,Minera Santa Rita Srl,BUEF09165700,*******             ,Arribado
-2025-07-14,35531,MRKU-905553-8,Minera Santa Rita Srl,256516151,**********          ,Arribado
+2025-07-29,36065,KKFU-759895-2,Minera Santa Rita Srl,BUEF09165700,*****************   ,Arribado
 2025-07-18,35770,PCIU-007585-9,Minera Santa Rita Srl,BUE500123300,***********         ,Arribado
 2025-07-18,35771,PCIU-154513-4,Minera Santa Rita Srl,BUE00123300,***********         ,Arribado
 2025-07-07,35317,UACU-853937-8,Minera Santa Rita Srl,20304596,***********         ,Arribado
 2025-07-07,35321,UACU-844336-3,Minera Santa Rita Srl,20304596,*********           ,Arribado
 2025-07-07,35324,UACU-847747-1,Minera Santa Rita Srl,20304596,*********           ,Arribado
 2025-07-10,35372,MEDU-671146-2,Minera Santa Rita Srl,EBKG13459247,FX32939388          ,Arribado
-2025-07-15,35029,UACU-837001-4,Minera Santa Rita Srl,20488774,********            ,Arribado
+2025-07-14,35531,MRKU-905553-8,Minera Santa Rita Srl,256516151,**********          ,Arribado
 2025-07-15,35030,UACU-846858-8,Minera Santa Rita Srl,20488774,*********           ,Arribado
 2025-07-15,35031,HLXU-535255-7,Minera Santa Rita Srl,20488774,**********          ,Arribado
 2025-07-15,35032,TCLU-446365-5,Minera Santa Rita Srl,20488774,*************       ,Arribado
 2025-07-03,35261,UACU-856876-1,Minera Santa Rita Srl,20304596,**********          ,Arribado
 2025-07-03,35276,UACU-842831-1,Minera Santa Rita Srl,20304596,**********          ,Arribado
 2025-07-15,35028,HLBU-151792-3,Minera Santa Rita Srl,20488774,***********         ,Arribado
-2025-06-24,34892,MSKU-562726-2,Minera Santa Rita Srl,255138295,*********           ,Arribado
+2025-07-15,35029,UACU-837001-4,Minera Santa Rita Srl,20488774,********            ,Arribado
 2025-06-27,34970,HLBU-297263-9,Minera Santa Rita Srl,28286431,***********         ,Arribado
-2025-06-13,34565,MRKU-059637-8,Minera Santa Rita Srl,254753841,************        ,Arribado
 2025-06-13,34621,MRKU-077532-6,Minera Santa Rita Srl,254753841,************        ,Arribado
 2025-06-17,34659,HLBU-139556-9,Minera Santa Rita Srl,93173263,***********         ,Arribado
 2025-06-17,34660,UACU-858088-0,Minera Santa Rita Srl,93173263,***********         ,Arribado
 2025-06-24,34841,,Minera Santa Rita Srl,255138295,                    ,Pendiente
-2025-06-02,34179,MRKU-067311-3,Minera Santa Rita Srl,254254288,**************      ,Arribado
+2025-06-24,34892,MSKU-562726-2,Minera Santa Rita Srl,255138295,*********           ,Arribado
 2025-06-02,34180,MRKU-041887-0,Minera Santa Rita Srl,254254288,**********          ,Arribado
 2025-06-13,34564,MRKU-077532-6,Minera Santa Rita Srl,254753841,**********          ,Arribado
-2025-05-23,33861,PCIU-167646-9,Minera Santa Rita Srl,BUE500083400,***********         ,Arribado
+2025-06-13,34565,MRKU-059637-8,Minera Santa Rita Srl,254753841,************        ,Arribado
 2025-05-23,33862,PCIU-126899-7,Minera Santa Rita Srl,BUE500083400,*********           ,Arribado
 2025-06-02,34178,MRKU-061212-3,Minera Santa Rita Srl,254254288,************        ,Arribado
+2025-06-02,34179,MRKU-067311-3,Minera Santa Rita Srl,254254288,**************      ,Arribado
 2025-06-30,35050,,Aniceto Gomez Sa,30741536,                    ,Pendiente
 2025-06-30,35081,ZCSU-745465-9,Aniceto Gomez Sa,ZIMUBUE9041156,***********         ,Arribado
 2025-08-06,36373,,Aniceto Gomez Sa,ZIMUBUE9042271,                    ,Pendiente
@@ -203,7 +200,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-11,35507,HLXU-137723-8,Refractarios Argentinos Saicm,31857457,**********          ,Arribado
 2025-07-23,35885,,Refractarios Argentinos Saicm,92902045,                    ,Pendiente
 2025-07-23,35886,,Refractarios Argentinos Saicm,92902045,                    ,Pendiente
-2025-09-17,37660,,Pelama Chubut S.A.,BUEF11054400,                    ,Pendiente
+2025-09-17,37660,CXDU-108444-0,Pelama Chubut S.A.,BUEF11054400,  ******************,Arribado
 2025-09-19,37696,,Pelama Chubut S.A.,COSU6430427900,                    ,Pendiente
 2025-09-02,37147,ONEU-271813-8,Pelama Chubut S.A.,BUEF10239800,**************      ,Arribado
 2025-09-08,37298,UACU-845565-7,Pelama Chubut S.A.,31734501,********************,Arribado
@@ -298,8 +295,6 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-05,34376,,Helvecia S.A.,254605636,                    ,Pendiente
 2025-07-29,36017,UETU-689832-6,Helvecia S.A.,45137792,************        ,Arribado
 2025-07-29,36018,BMOU-662867-6,Helvecia S.A.,45137792,****************    ,Arribado
-2025-05-20,33701,,Capilatis S.A.,SNG0465606,                    ,Pendiente
-2025-05-20,33703,,Capilatis S.A.,SNG0465606,                    ,Pendiente
 2025-06-24,34825,CMAU-578721-2,Capilatis S.A.,SNG0469131,R1944624            ,Arribado
 2025-06-24,34826,GESU-611932-6,Capilatis S.A.,SNG0469131,R1950918            ,Arribado
 2025-07-30,36112,TGHU-979954-9,Capilatis S.A.,SNG0472824,R1957502            ,Arribado
@@ -425,12 +420,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-27,34991,,Tipoiti Satic,TERRESTRE,                    ,Arribado
 2025-08-07,36448,,Tipoiti Satic,25001EC01050878P,                    ,Arribado
 2025-08-25,36850,HLBU-212497-8,Tipoiti Satic,90341233,**********          ,Arribado
-2025-05-20,33709,TCKU-608057-6,Mgp Logistics S.R.L,21442454,**********          ,Arribado
-2025-05-20,33710,FSCU-823785-2,Mgp Logistics S.R.L,21442454,***************     ,Arribado
 2025-05-21,33733,TGBU-687122-6,Global Rover Logistic Srl,EBKG12820164,FX32979374          ,Arribado
 2025-08-11,36480,DRYU-205734-8,Championx Argentina Srl,BUA0347369,R8687251            ,Arribado
 2025-08-25,36911,MSKU-378881-7,Championx Argentina Srl,258260734,***********         ,Arribado
 2025-09-11,37490,HLXU-108289-6,Championx Argentina Srl,26453128,*************       ,Arribado
+2025-09-18,37738,,Championx Argentina Srl,25001EC01061675M,                    ,Arribado
 2025-08-27,37005,,Championx Argentina Srl,25001EC01055684P,                    ,Arribado
 2025-09-05,37266,BMOU-140308-6,Championx Argentina Srl,66331772,********************,Arribado
 2025-09-05,37267,UACU-854863-6,Championx Argentina Srl,66331772,********************,Arribado
@@ -471,18 +465,16 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-29,34040,,Isischu Srl,340500019257,                    ,Pendiente
 2025-05-28,33974,MEDU-862819-3,Isischu Srl,EBKG12937679,FX32980135          ,Arribado
 2025-05-28,33975,MSNU-660487-8,Isischu Srl,EBKG12937679,FX32980121          ,Arribado
-2025-05-20,33705,TCNU-369689-7,Valerio Oliva Forestal Sa,253076747,**********          ,Arribado
-2025-05-20,33707,MSKU-973960-9,Valerio Oliva Forestal Sa,253076747,**********          ,Arribado
 2025-06-17,34537,MSKU-192211-0,Valerio Oliva Forestal Sa,254365842,***********         ,Arribado
+2025-06-17,34538,MRKU-627527-2,Valerio Oliva Forestal Sa,254365842,**********          ,Arribado
 2025-08-07,36436,MSDU-859411-0,Valerio Oliva Forestal Sa,EBKG13696134,FX32944226          ,Arribado
 2025-08-12,36521,CAIU-951063-0,Valerio Oliva Forestal Sa,93528334,*********           ,Arribado
-2025-07-15,35513,EGHU-950134-6,Valerio Oliva Forestal Sa,340500025117,************        ,Arribado
 2025-07-15,35514,,Valerio Oliva Forestal Sa,340500025117,                    ,Pendiente
 2025-07-14,35558,TXGU-833584-2,Valerio Oliva Forestal Sa,240500025117,*************       ,Arribado
 2025-08-05,36289,CAAU-593476-6,Valerio Oliva Forestal Sa,255767853,************        ,Arribado
-2025-06-17,34538,MRKU-627527-2,Valerio Oliva Forestal Sa,254365842,**********          ,Arribado
 2025-07-08,35356,MSKU-195090-8,Valerio Oliva Forestal Sa,255303020,**********          ,Arribado
 2025-07-17,35434,MRKU-523415-5,Valerio Oliva Forestal Sa,255303186,***********         ,Arribado
+2025-07-15,35513,EGHU-950134-6,Valerio Oliva Forestal Sa,340500025117,************        ,Arribado
 2025-06-09,34344,TXGU-677991-4,Asecor Srl,EBKG13031481,FX32972793          ,Arribado
 2025-05-28,33978,DAYU-611257-8,Asecor Srl,22136841,************        ,Arribado
 2025-05-28,33979,HLBU-218969-1,Asecor Srl,22136841,**********          ,Arribado
@@ -506,23 +498,27 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-13,34580,FCIU-722464-0,Pallets Nef De Raul E. Fernandez Sa,32871554,***********         ,Arribado
 2025-05-29,34062,HAMU-409749-1,Hector Reboratti,93954793,**********          ,Arribado
 2025-05-29,34063,FANU-360304-6,Hector Reboratti,93954793,***********         ,Arribado
-2025-08-08,36460,,Hector Reboratti,24264367,                    ,Pendiente
+2025-06-19,34717,FFAU-371126-3,Hector Reboratti,EBKG13191019,FX32930917          ,Arribado
 2025-08-08,36478,HLXU-863330-5,Hector Reboratti,24264367,**********          ,Arribado
 2025-08-08,36482,GCXU-593554-0,Hector Reboratti,24264367,**********          ,Arribado
 2025-08-27,36980,MSDU-650322-9,Hector Reboratti,EBKG13876536,FX32947700          ,Arribado
-2025-07-31,36145,,Hector Reboratti,340500027063,                    ,Pendiente
+2025-09-19,37721,,Hector Reboratti,64179524,                    ,Pendiente
+2025-09-19,37722,,Hector Reboratti,64179524,                    ,Pendiente
 2025-08-04,36278,CAIU-499740-1,Hector Reboratti,340500027063,**********          ,Arribado
 2025-08-04,36279,EGSU-174001-3,Hector Reboratti,340500027063,***********         ,Arribado
 2025-08-08,36459,,Hector Reboratti,24264367,                    ,Pendiente
-2025-06-19,34717,FFAU-371126-3,Hector Reboratti,EBKG13191019,FX32930917          ,Arribado
+2025-08-08,36460,,Hector Reboratti,24264367,                    ,Pendiente
 2025-07-01,35056,MSKU-161645-0,Hector Reboratti,255083138,*******             ,Arribado
 2025-07-01,35057,HASU-501055-9,Hector Reboratti,255083138,**********          ,Arribado
 2025-07-31,36144,,Hector Reboratti,340500027063,                    ,Pendiente
+2025-07-31,36145,,Hector Reboratti,340500027063,                    ,Pendiente
 2025-06-09,34367,TGBU-786318-5,Maringa Maderas Sa,EBKG13032675,FX32972903          ,Arribado
 2025-06-23,34778,,Maringa Maderas Sa,EBKG13192544,                    ,Pendiente
 2025-06-24,34782,MEDU-443152-3,Maringa Maderas Sa,EBKG13159092,FX32934153          ,Arribado
+2025-09-18,37719,,Maringa Maderas Sa,259288369,                    ,Pendiente
 2025-07-17,35694,MSMU-595947-9,Maringa Maderas Sa,EBKG13533627,FX32939518          ,Arribado
 2025-08-04,36260,MEDU-443227-9,Maringa Maderas Sa,EBKG13753917,FX32943992          ,Arribado
+2025-09-18,37718,,Maringa Maderas Sa,259288341,                    ,Pendiente
 2025-07-11,35429,TEMU-856890-2,Maringa Maderas Sa,EBKG13411161,FX32938800          ,Arribado
 2025-07-14,35430,,Maringa Maderas Sa,EBKG13411179,                    ,Pendiente
 2025-07-16,35581,,Maringa Maderas Sa,34095700,                    ,Pendiente
@@ -704,12 +700,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-27,33957,FFAU-224614-6,Henn Y Cia S.R.L.,EBKG12934944,FX32985907          ,Arribado
 2025-05-27,33958,MSBU-684771-5,Henn Y Cia S.R.L.,EBKG12934944,FX32974840          ,Arribado
 2025-05-27,34046,DRYU-979443-4,Henn Y Cia S.R.L.,340500018952,****************    ,Arribado
-2025-05-20,33748,MRKU-923364-5,Borax Argentina S A,253132017,**********          ,Arribado
-2025-05-20,33749,MSKU-569543-6,Borax Argentina S A,253132017,***********         ,Arribado
-2025-05-20,33750,MSKU-589237-4,Borax Argentina S A,253132017,**********          ,Arribado
-2025-05-20,33751,SUDU-780708-2,Borax Argentina S A,253132017,************        ,Arribado
-2025-05-20,33752,MRKU-686923-2,Borax Argentina S A,253132017,***********         ,Arribado
-2025-05-20,33753,MSKU-401037-9,Borax Argentina S A,253132017,***********         ,Arribado
+2025-05-27,34000,MRKU-790239-8,Borax Argentina S A,253131960,***********         ,Arribado
+2025-05-27,34001,MRKU-846467-6,Borax Argentina S A,253131960,************        ,Arribado
+2025-05-27,34002,HASU-133086-8,Borax Argentina S A,253131960,***********         ,Arribado
+2025-09-19,37742,,Borax Argentina S A,13858874,                    ,Pendiente
+2025-09-19,37743,,Borax Argentina S A,13858874,                    ,Pendiente
+2025-09-19,37744,,Borax Argentina S A,13858874,                    ,Pendiente
 2025-09-12,37384,MOAU-581557-6,Borax Argentina S A,58930454,***************     ,Arribado
 2025-09-12,37385,TEMU-220671-6,Borax Argentina S A,58930454,********************,Arribado
 2025-09-15,37567,MEDU-522472-6,Borax Argentina S A,EBKG14145517,FX32919002          ,Arribado
@@ -852,9 +848,6 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-27,34006,BMOU-104298-0,Borax Argentina S A,253131960,*********           ,Arribado
 2025-05-27,34007,HASU-106118-3,Borax Argentina S A,253131960,***********         ,Arribado
 2025-05-27,34008,MRKU-814832-2,Borax Argentina S A,253131960,*********           ,Arribado
-2025-05-27,34000,MRKU-790239-8,Borax Argentina S A,253131960,***********         ,Arribado
-2025-05-27,34001,MRKU-846467-6,Borax Argentina S A,253131960,************        ,Arribado
-2025-05-27,34002,HASU-133086-8,Borax Argentina S A,253131960,***********         ,Arribado
 2025-08-28,37072,FCIU-345337-7,Bymar Transforwarding,BUA0349068,R8684283            ,Arribado
 2025-07-02,35221,,La Casa De Los Terminales Srl,25001EC01042021T,                    ,Arribado
 2025-06-25,34875,SUDU-749590-8,Plasticos Dise S A,255564238,***********         ,Arribado
@@ -862,6 +855,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-23,33840,MRKU-068601-8,Lawter Argentina S.A.,253920980,*************       ,Arribado
 2025-05-23,33841,MSKU-686327-8,Lawter Argentina S.A.,253920980,***********         ,Arribado
 2025-05-23,33850,,Lawter Argentina S.A.,253920980,                    ,Pendiente
+2025-09-17,37709,GLDU-960782-4,Lawter Argentina S.A.,BUA0350794,R8695342            ,Arribado
 2025-09-08,37306,MSBU-409899-0,Lawter Argentina S.A.,153IAR0651167,FX32910723          ,Arribado
 2025-09-08,37307,MSCU-471008-0,Lawter Argentina S.A.,153IAR0651167,FX32910713          ,Arribado
 2025-09-08,37308,MSDU-447521-5,Lawter Argentina S.A.,153IAR0651167,FX32910655          ,Arribado
@@ -943,6 +937,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-05-23,33848,,Norfor Sa,340500018162,                    ,Pendiente
 2025-05-23,33849,,Norfor Sa,340500018162,                    ,Pendiente
 2025-05-23,33865,EGSU-931560-1,Norfor Sa,340500018162,***************     ,Arribado
+2025-09-19,37735,,Norfor Sa,340500034558,                    ,Pendiente
+2025-09-19,37736,,Norfor Sa,340500034558,                    ,Pendiente
+2025-09-19,37737,,Norfor Sa,340500034558,                    ,Pendiente
+2025-09-18,37711,,Norfor Sa,340500034736,                    ,Pendiente
+2025-09-18,37712,,Norfor Sa,340500034736,                    ,Pendiente
 2025-09-15,37561,EISU-824617-7,Norfor Sa,340500034574,***************     ,Arribado
 2025-09-15,37562,EITU-936408-0,Norfor Sa,340500034574,************        ,Arribado
 2025-09-15,37563,CAAU-749721-7,Norfor Sa,340500034574,***********         ,Arribado
@@ -1180,169 +1179,170 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-08-27,37014,MEDU-270911-1,Litoral Citrus S A,153IAR0651665,FX32971190          ,Arribado
 2025-08-28,37022,DRYU-216477-3,Litoral Citrus S A,57775695,HLD0436048          ,Arribado
 2025-09-01,37026,CAIU-684727-3,Litoral Citrus S A,17053740,********            ,Arribado
-2025-09-18,37697,,Hdv Leather S.R.L.,257214500,                    ,Pendiente
 2025-09-18,37698,,Hdv Leather S.R.L.,257214500,                    ,Pendiente
-2025-09-12,37526,,Hdv Leather S.R.L.,LOTE 3470,                    ,Arribado
-2025-09-17,37663,,Hdv Leather S.R.L.,BUEF11038600,                    ,Pendiente
+2025-09-18,37716,,Hdv Leather S.R.L.,BUEF11036400,                    ,Pendiente
 2025-09-17,37664,,Hdv Leather S.R.L.,BUEF11038600,                    ,Pendiente
 2025-09-17,37665,,Hdv Leather S.R.L.,BUEF11038600,                    ,Pendiente
 2025-09-17,37666,ONEU-110007-9,Hdv Leather S.R.L.,BUEF11039700,***************     ,Arribado
 2025-09-17,37667,CAIU-935382-3,Hdv Leather S.R.L.,BUEF11039700,***************     ,Arribado
-2025-09-04,37328,PCIU-936710-5,Hdv Leather S.R.L.,BUE500159900,                    ,Arribado
-2025-09-05,37254,MSNU-515036-4,Hdv Leather S.R.L.,EBKG14005814,FX32911434          ,Arribado
+2025-09-18,37697,,Hdv Leather S.R.L.,257214500,                    ,Pendiente
+2025-09-12,37526,,Hdv Leather S.R.L.,LOTE 3470,                    ,Arribado
+2025-09-17,37663,,Hdv Leather S.R.L.,BUEF11038600,                    ,Pendiente
 2025-09-04,37324,BMOU-438374-3,Hdv Leather S.R.L.,BUE500160000,                    ,Arribado
 2025-09-04,37325,PCIU-868567-3,Hdv Leather S.R.L.,BUE500160000,                    ,Arribado
 2025-09-04,37326,GLDU-906425-0,Hdv Leather S.R.L.,BUE500159900,                    ,Arribado
 2025-09-04,37327,PCIU-910176-9,Hdv Leather S.R.L.,BUE500159900,                    ,Arribado
+2025-09-04,37328,PCIU-936710-5,Hdv Leather S.R.L.,BUE500159900,                    ,Arribado
 2025-09-05,37252,TGBU-991637-1,Hdv Leather S.R.L.,EBKG14005814,FX32911438          ,Arribado
 2025-09-05,37253,MSDU-696490-9,Hdv Leather S.R.L.,EBKG14005814,FX32911437          ,Arribado
-2025-08-29,37063,PCIU-852534-0,Hdv Leather S.R.L.,BUE500145700,********************,Arribado
-2025-08-29,37064,PCIU-844765-4,Hdv Leather S.R.L.,BUE500145700,******************  ,Arribado
+2025-09-05,37254,MSNU-515036-4,Hdv Leather S.R.L.,EBKG14005814,FX32911434          ,Arribado
 2025-08-29,37065,PIDU-408819-0,Hdv Leather S.R.L.,BUE500145700,********************,Arribado
-2025-08-28,36990,MRSU-437508-5,Hdv Leather S.R.L.,257275060,***********         ,Arribado
-2025-08-28,36991,CAAU-647556-9,Hdv Leather S.R.L.,257275060,******************  ,Arribado
 2025-08-29,37058,PCIU-956948-8,Hdv Leather S.R.L.,BUE500148100,**********          ,Arribado
 2025-08-29,37059,PCIU-943497-0,Hdv Leather S.R.L.,BUE500148100,***********         ,Arribado
 2025-08-29,37060,PCIU-856857-4,Hdv Leather S.R.L.,BUE500145800,*************       ,Arribado
 2025-08-29,37061,PCIU-885149-7,Hdv Leather S.R.L.,BUE500145800,******************* ,Arribado
-2025-08-21,36860,MSDU-735591-2,Hdv Leather S.R.L.,EBKG13920207,FX32948196          ,Arribado
+2025-08-29,37063,PCIU-852534-0,Hdv Leather S.R.L.,BUE500145700,********************,Arribado
+2025-08-29,37064,PCIU-844765-4,Hdv Leather S.R.L.,BUE500145700,******************  ,Arribado
 2025-08-27,36986,TCNU-319714-1,Hdv Leather S.R.L.,257138016,***************     ,Arribado
 2025-08-27,36987,MSKU-184517-9,Hdv Leather S.R.L.,257138016,*****************   ,Arribado
 2025-08-28,36988,MRKU-369396-2,Hdv Leather S.R.L.,257138418,***************     ,Arribado
 2025-08-28,36989,MSKU-194731-3,Hdv Leather S.R.L.,257138418,**************      ,Arribado
+2025-08-28,36990,MRSU-437508-5,Hdv Leather S.R.L.,257275060,***********         ,Arribado
+2025-08-28,36991,CAAU-647556-9,Hdv Leather S.R.L.,257275060,******************  ,Arribado
 2025-08-21,36766,MSMU-777155-7,Hdv Leather S.R.L.,EBKG13920207,FX32948197          ,Arribado
-2025-08-14,36590,MEDU-737142-8,Hdv Leather S.R.L.,EBKG13860179,FX32988013          ,Arribado
-2025-08-12,36592,TCKU-763559-7,Hdv Leather S.R.L.,257353680,**********          ,Arribado
+2025-08-21,36860,MSDU-735591-2,Hdv Leather S.R.L.,EBKG13920207,FX32948196          ,Arribado
 2025-08-13,36630,DRYU-923526-7,Hdv Leather S.R.L.,EBKG13860161,FX32988071          ,Arribado
-2025-08-13,36576,,Hdv Leather S.R.L.,EBKG13860161,                    ,Pendiente
-2025-08-13,36581,MEDU-700414-5,Hdv Leather S.R.L.,EBKG13814971,FX32988080          ,Arribado
 2025-08-13,36582,TXGU-678047-4,Hdv Leather S.R.L.,EBKG13814971,FX32988086          ,Arribado
 2025-08-13,36583,MSDU-584032-8,Hdv Leather S.R.L.,EBKG13814971,FX32988089          ,Arribado
 2025-08-14,36588,MEDU-733336-7,Hdv Leather S.R.L.,EBKG13860179,FX32988015          ,Arribado
 2025-08-14,36589,MSNU-611224-5,Hdv Leather S.R.L.,EBKG13860179,FX32988020          ,Arribado
-2025-08-07,36423,TEMU-682124-6,Hdv Leather S.R.L.,EBKG13727492,FX32988160          ,Arribado
+2025-08-14,36590,MEDU-737142-8,Hdv Leather S.R.L.,EBKG13860179,FX32988013          ,Arribado
+2025-08-12,36592,TCKU-763559-7,Hdv Leather S.R.L.,257353680,**********          ,Arribado
+2025-08-13,36576,,Hdv Leather S.R.L.,EBKG13860161,                    ,Pendiente
+2025-08-13,36581,MEDU-700414-5,Hdv Leather S.R.L.,EBKG13814971,FX32988080          ,Arribado
 2025-08-06,36439,MRKU-308662-9,Hdv Leather S.R.L.,257285675,**********          ,Arribado
 2025-08-06,36440,MRSU-383017-9,Hdv Leather S.R.L.,257285675,*************       ,Arribado
 2025-08-06,36441,MRSU-600301-9,Hdv Leather S.R.L.,257285675,***********         ,Arribado
 2025-08-07,36422,TCLU-570096-2,Hdv Leather S.R.L.,EBKG13727492,FX32988167          ,Arribado
-2025-08-06,36325,TRHU-426407-9,Hdv Leather S.R.L.,257353731,***********         ,Arribado
-2025-08-06,36326,GCXU-630790-7,Hdv Leather S.R.L.,257353731,*******             ,Arribado
+2025-08-07,36423,TEMU-682124-6,Hdv Leather S.R.L.,EBKG13727492,FX32988160          ,Arribado
 2025-08-06,36327,MRSU-354940-7,Hdv Leather S.R.L.,257285781,***********         ,Arribado
 2025-08-06,36328,MRSU-337802-7,Hdv Leather S.R.L.,257285781,*************       ,Arribado
-2025-07-29,36053,MVIU-003346-3,Hdv Leather S.R.L.,257276770,************        ,Arribado
-2025-07-29,36054,TEMU-725566-8,Hdv Leather S.R.L.,257276770,**********          ,Arribado
+2025-08-06,36325,TRHU-426407-9,Hdv Leather S.R.L.,257353731,***********         ,Arribado
+2025-08-06,36326,GCXU-630790-7,Hdv Leather S.R.L.,257353731,*******             ,Arribado
 2025-07-29,36055,HASU-458655-5,Hdv Leather S.R.L.,257276770,****************    ,Arribado
-2025-07-22,35865,MRSU-348962-7,Hdv Leather S.R.L.,256662089,***********         ,Arribado
 2025-07-29,36051,TGBU-524810-3,Hdv Leather S.R.L.,257276807,**********          ,Arribado
 2025-07-29,36052,MSKU-048838-0,Hdv Leather S.R.L.,257276807,***********         ,Arribado
-2025-07-21,35845,TEMU-733360-5,Hdv Leather S.R.L.,256662122,**********          ,Arribado
-2025-07-21,35846,MRSU-605220-3,Hdv Leather S.R.L.,255366255,*********           ,Arribado
+2025-07-29,36053,MVIU-003346-3,Hdv Leather S.R.L.,257276770,************        ,Arribado
+2025-07-29,36054,TEMU-725566-8,Hdv Leather S.R.L.,257276770,**********          ,Arribado
 2025-07-22,35848,SELU-402153-2,Hdv Leather S.R.L.,256661789,**********          ,Arribado
 2025-07-22,35857,MSKU-168389-0,Hdv Leather S.R.L.,256662122,**********          ,Arribado
 2025-07-22,35858,MRSU-655694-5,Hdv Leather S.R.L.,256662122,**********          ,Arribado
 2025-07-22,35859,MRSU-763978-8,Hdv Leather S.R.L.,256662089,***********         ,Arribado
-2025-07-18,35779,TCLU-879392-7,Hdv Leather S.R.L.,256662045,**********          ,Arribado
-2025-07-18,35780,HASU-499639-6,Hdv Leather S.R.L.,256662045,***********         ,Arribado
+2025-07-22,35865,MRSU-348962-7,Hdv Leather S.R.L.,256662089,***********         ,Arribado
 2025-07-18,35781,GCXU-565762-3,Hdv Leather S.R.L.,256662045,***********         ,Arribado
 2025-07-18,35793,SUDU-864870-3,Hdv Leather S.R.L.,256661789,**********          ,Arribado
 2025-07-21,35832,MRKU-534748-6,Hdv Leather S.R.L.,255366255,*********           ,Arribado
 2025-07-21,35844,TLLU-691037-0,Hdv Leather S.R.L.,255366255,********            ,Arribado
+2025-07-21,35845,TEMU-733360-5,Hdv Leather S.R.L.,256662122,**********          ,Arribado
+2025-07-21,35846,MRSU-605220-3,Hdv Leather S.R.L.,255366255,*********           ,Arribado
+2025-07-18,35779,TCLU-879392-7,Hdv Leather S.R.L.,256662045,**********          ,Arribado
+2025-07-18,35780,HASU-499639-6,Hdv Leather S.R.L.,256662045,***********         ,Arribado
 2025-07-21,35684,FFAU-413503-3,Hdv Leather S.R.L.,EBKG13458801,FX32942540          ,Arribado
 2025-07-21,35685,MSMU-779929-8,Hdv Leather S.R.L.,EBKG13458801,FX32942539          ,Arribado
 2025-07-21,35686,MEDU-722975-3,Hdv Leather S.R.L.,EBKG13440708,FX32939393          ,Arribado
 2025-07-21,35687,TCLU-973274-1,Hdv Leather S.R.L.,EBKG13440708,FX32943453          ,Arribado
-2025-07-14,35485,MSKU-131958-0,Hdv Leather S.R.L.,255626058,**********          ,Arribado
 2025-07-10,35441,CIPU-509543-3,Hdv Leather S.R.L.,255316838,***********         ,Arribado
 2025-07-10,35442,MRKU-295741-7,Hdv Leather S.R.L.,255316838,********            ,Arribado
 2025-07-10,35454,MRKU-371542-3,Hdv Leather S.R.L.,255316838,**********          ,Arribado
 2025-07-14,35484,PONU-819721-0,Hdv Leather S.R.L.,255626058,***********         ,Arribado
-2025-07-07,35264,MRKU-204192-8,Hdv Leather S.R.L.,255317569,***********         ,Arribado
+2025-07-14,35485,MSKU-131958-0,Hdv Leather S.R.L.,255626058,**********          ,Arribado
 2025-07-07,35265,MIEU-000482-2,Hdv Leather S.R.L.,255317569,***********         ,Arribado
 2025-07-07,35266,HASU-497641-9,Hdv Leather S.R.L.,255365721,************        ,Arribado
 2025-07-07,35267,SUDU-683629-7,Hdv Leather S.R.L.,255365721,**********          ,Arribado
 2025-07-07,35268,MSKU-978948-8,Hdv Leather S.R.L.,255365721,***********         ,Arribado
-2025-07-02,35134,MRKU-576832-0,Hdv Leather S.R.L.,255316738,**************      ,Arribado
-2025-07-02,35135,MSKU-190903-6,Hdv Leather S.R.L.,255316738,************        ,Arribado
 2025-06-30,35187,MSKU-010656-0,Hdv Leather S.R.L.,255810575,                    ,Arribado
-2025-07-04,35128,BMOU-563884-9,Hdv Leather S.R.L.,EBKG13363857,FX32934923          ,Arribado
-2025-07-04,35129,BMOU-686638-1,Hdv Leather S.R.L.,EBKG13363857,FX32934828          ,Arribado
+2025-07-07,35264,MRKU-204192-8,Hdv Leather S.R.L.,255317569,***********         ,Arribado
 2025-07-04,35130,FCIU-739630-0,Hdv Leather S.R.L.,EBKG13363857,FX32934959          ,Arribado
 2025-07-02,35131,MRSU-456810-3,Hdv Leather S.R.L.,255822877,***********         ,Arribado
 2025-07-02,35132,MRSU-494800-0,Hdv Leather S.R.L.,255822877,***********         ,Arribado
 2025-07-02,35133,SUDU-871674-7,Hdv Leather S.R.L.,255822877,*************       ,Arribado
-2025-07-04,35123,BMOU-695822-0,Hdv Leather S.R.L.,EBKG13330347,FX32934926          ,Arribado
+2025-07-02,35134,MRKU-576832-0,Hdv Leather S.R.L.,255316738,**************      ,Arribado
+2025-07-02,35135,MSKU-190903-6,Hdv Leather S.R.L.,255316738,************        ,Arribado
 2025-07-04,35124,MEDU-446234-0,Hdv Leather S.R.L.,EBKG13330347,FX32934760          ,Arribado
 2025-07-04,35125,TEMU-833030-2,Hdv Leather S.R.L.,EBKG13330347,FX32934851          ,Arribado
 2025-07-04,35126,MSDU-674855-6,Hdv Leather S.R.L.,EBKG13330347,FX32934790          ,Arribado
 2025-07-04,35127,MSDU-729254-2,Hdv Leather S.R.L.,EBKG13363857,FX32934777          ,Arribado
-2025-06-27,34987,GCXU-581020-2,Hdv Leather S.R.L.,254973255,***********         ,Arribado
+2025-07-04,35128,BMOU-563884-9,Hdv Leather S.R.L.,EBKG13363857,FX32934923          ,Arribado
+2025-07-04,35129,BMOU-686638-1,Hdv Leather S.R.L.,EBKG13363857,FX32934828          ,Arribado
+2025-07-04,35123,BMOU-695822-0,Hdv Leather S.R.L.,EBKG13330347,FX32934926          ,Arribado
 2025-06-26,34966,UETU-569792-3,Hdv Leather S.R.L.,254973413,***********         ,Arribado
 2025-06-26,34967,TEMU-789042-6,Hdv Leather S.R.L.,254973413,********            ,Arribado
 2025-06-27,34986,TCNU-104393-3,Hdv Leather S.R.L.,254973255,***********         ,Arribado
+2025-06-27,34987,GCXU-581020-2,Hdv Leather S.R.L.,254973255,***********         ,Arribado
 2025-06-23,34867,SEKU-693937-1,Hdv Leather S.R.L.,254973157,***********         ,Arribado
 2025-06-19,34795,TRHU-597051-0,Hdv Leather S.R.L.,EBKG13139303,FX32930925          ,Arribado
 2025-06-19,34798,MSNU-733404-1,Hdv Leather S.R.L.,EBKG13139303,FX32930916          ,Arribado
 2025-06-19,34800,TGBU-722475-4,Hdv Leather S.R.L.,EBKG13139303,FX32930927          ,Arribado
 2025-06-19,34805,MSMU-778558-7,Hdv Leather S.R.L.,EBKG13139303,FX32930931          ,Arribado
-2025-06-19,34775,HASU-419889-0,Hdv Leather S.R.L.,254973157,*******             ,Arribado
 2025-06-19,34779,MRKU-307768-0,Hdv Leather S.R.L.,254973157,********************,Arribado
-2025-06-19,34712,,Hdv Leather S.R.L.,254971666,                    ,Pendiente
-2025-06-19,34713,,Hdv Leather S.R.L.,254971666,                    ,Pendiente
 2025-06-19,34714,MSKU-887228-4,Hdv Leather S.R.L.,254970635,************        ,Arribado
 2025-06-19,34715,CAAU-850644-2,Hdv Leather S.R.L.,254970635,************        ,Arribado
 2025-06-19,34716,SUDU-886577-7,Hdv Leather S.R.L.,254970635,**********          ,Arribado
+2025-06-19,34775,HASU-419889-0,Hdv Leather S.R.L.,254973157,*******             ,Arribado
 2025-06-19,34711,,Hdv Leather S.R.L.,254971666,                    ,Pendiente
-2025-06-11,34453,MEDU-484612-9,Hdv Leather S.R.L.,EBKG13098173,FX32931365          ,Arribado
-2025-06-11,34454,MSDU-739883-2,Hdv Leather S.R.L.,EBKG13098173,FX32931305          ,Arribado
-2025-06-09,34440,MRKU-300235-6,Hdv Leather S.R.L.,253436205,**********          ,Arribado
-2025-06-09,34441,MSKU-010656-0,Hdv Leather S.R.L.,253436205,************        ,Arribado
+2025-06-19,34712,,Hdv Leather S.R.L.,254971666,                    ,Pendiente
+2025-06-19,34713,,Hdv Leather S.R.L.,254971666,                    ,Pendiente
 2025-06-11,34448,MSMU-755943-0,Hdv Leather S.R.L.,EBKG13098090,FX32931405          ,Arribado
 2025-06-11,34449,MSDU-831558-1,Hdv Leather S.R.L.,EBKG13098090,FX32931402          ,Arribado
 2025-06-11,34450,MSMU-713044-5,Hdv Leather S.R.L.,EBKG13098090,FX32931376          ,Arribado
 2025-06-11,34451,TGHU-666693-8,Hdv Leather S.R.L.,EBKG13098090,FX32931375          ,Arribado
-2025-06-09,34434,HASU-440135-3,Hdv Leather S.R.L.,254706668,************        ,Arribado
-2025-06-09,34435,MRKU-541577-0,Hdv Leather S.R.L.,254706668,********************,Arribado
+2025-06-11,34453,MEDU-484612-9,Hdv Leather S.R.L.,EBKG13098173,FX32931365          ,Arribado
+2025-06-11,34454,MSDU-739883-2,Hdv Leather S.R.L.,EBKG13098173,FX32931305          ,Arribado
 2025-06-09,34436,MRKU-357013-0,Hdv Leather S.R.L.,254706668,**********          ,Arribado
 2025-06-09,34437,MSKU-090887-9,Hdv Leather S.R.L.,254706841,***********         ,Arribado
 2025-06-09,34438,SELU-409793-9,Hdv Leather S.R.L.,254706841,**********          ,Arribado
 2025-06-09,34439,SUDU-864540-6,Hdv Leather S.R.L.,253436205,.************       ,Arribado
-2025-06-06,34398,MRKU-235633-4,Hdv Leather S.R.L.,254706937,************        ,Arribado
-2025-06-06,34399,MSKU-051802-1,Hdv Leather S.R.L.,254706937,*************       ,Arribado
+2025-06-09,34440,MRKU-300235-6,Hdv Leather S.R.L.,253436205,**********          ,Arribado
+2025-06-09,34441,MSKU-010656-0,Hdv Leather S.R.L.,253436205,************        ,Arribado
+2025-06-09,34434,HASU-440135-3,Hdv Leather S.R.L.,254706668,************        ,Arribado
+2025-06-09,34435,MRKU-541577-0,Hdv Leather S.R.L.,254706668,********************,Arribado
 2025-06-06,34395,MRKU-240870-0,Hdv Leather S.R.L.,254053964,***********         ,Arribado
 2025-06-06,34396,SUDU-588029-5,Hdv Leather S.R.L.,254053964,***********         ,Arribado
 2025-06-06,34397,MRKU-498613-7,Hdv Leather S.R.L.,254053964,*************       ,Arribado
-2025-06-04,34304,MSNU-605815-0,Hdv Leather S.R.L.,EBKG12954059,FX32973401          ,Arribado
-2025-06-04,34305,MSMU-748268-3,Hdv Leather S.R.L.,EBKG12954059,FX32973428          ,Arribado
+2025-06-06,34398,MRKU-235633-4,Hdv Leather S.R.L.,254706937,************        ,Arribado
+2025-06-06,34399,MSKU-051802-1,Hdv Leather S.R.L.,254706937,*************       ,Arribado
 2025-06-04,34301,SEKU-669980-9,Hdv Leather S.R.L.,EBKG12954134,FX32973396          ,Arribado
 2025-06-04,34302,MSMU-789599-0,Hdv Leather S.R.L.,EBKG12954134,FX32973424          ,Arribado
 2025-06-04,34303,MSNU-539966-0,Hdv Leather S.R.L.,EBKG12954059,FX32973398          ,Arribado
+2025-06-04,34304,MSNU-605815-0,Hdv Leather S.R.L.,EBKG12954059,FX32973401          ,Arribado
+2025-06-04,34305,MSMU-748268-3,Hdv Leather S.R.L.,EBKG12954059,FX32973428          ,Arribado
 2025-06-03,34270,MRKU-508683-9,Hdv Leather S.R.L.,253436147,**********          ,Arribado
 2025-06-03,34271,TCKU-768363-5,Hdv Leather S.R.L.,253436147,***********         ,Arribado
-2025-06-02,34182,TRHU-850170-7,Hdv Leather S.R.L.,254494321,*********           ,Arribado
-2025-06-02,34183,PONU-824401-4,Hdv Leather S.R.L.,253932326,***********         ,Arribado
 2025-06-04,34245,HASU-417110-0,Hdv Leather S.R.L.,254651199,**********          ,Arribado
 2025-06-04,34246,MRSU-360247-7,Hdv Leather S.R.L.,254651199,*************       ,Arribado
 2025-06-02,34181,SUDU-588623-0,Hdv Leather S.R.L.,254494321,************        ,Arribado
-2025-05-29,34074,MRKU-268963-3,Hdv Leather S.R.L.,254372376,*************       ,Arribado
-2025-05-29,34075,MSKU-122484-4,Hdv Leather S.R.L.,254372252,************        ,Arribado
+2025-06-02,34182,TRHU-850170-7,Hdv Leather S.R.L.,254494321,*********           ,Arribado
+2025-06-02,34183,PONU-824401-4,Hdv Leather S.R.L.,253932326,***********         ,Arribado
 2025-05-29,34076,PONU-789711-7,Hdv Leather S.R.L.,254372252,***********         ,Arribado
 2025-05-29,34077,MSKU-125097-2,Hdv Leather S.R.L.,254372252,************        ,Arribado
 2025-05-29,34078,MRSU-511986-9,Hdv Leather S.R.L.,254372252,************        ,Arribado
-2025-05-29,34068,TRHU-430798-8,Hdv Leather S.R.L.,254054086,***********         ,Arribado
-2025-05-29,34069,MSKU-047289-3,Hdv Leather S.R.L.,254054086,**********          ,Arribado
 2025-05-29,34070,TCLU-792113-4,Hdv Leather S.R.L.,254372274,**********          ,Arribado
 2025-05-29,34071,MRKU-354937-0,Hdv Leather S.R.L.,254372274,************        ,Arribado
 2025-05-29,34072,HASU-503206-0,Hdv Leather S.R.L.,254372274,************        ,Arribado
 2025-05-29,34073,TCKU-664111-0,Hdv Leather S.R.L.,254372376,***********         ,Arribado
+2025-05-29,34074,MRKU-268963-3,Hdv Leather S.R.L.,254372376,*************       ,Arribado
+2025-05-29,34075,MSKU-122484-4,Hdv Leather S.R.L.,254372252,************        ,Arribado
 2025-05-27,33994,MRSU-485325-0,Hdv Leather S.R.L.,253484984,************        ,Arribado
 2025-05-27,33995,MSKU-973985-1,Hdv Leather S.R.L.,253484984,***********         ,Arribado
 2025-05-27,33996,MRSU-313283-5,Hdv Leather S.R.L.,253484984,***********         ,Arribado
 2025-05-29,34067,MRSU-433705-9,Hdv Leather S.R.L.,254054086,***********         ,Arribado
-2025-05-26,33878,BMOU-423967-5,Hdv Leather S.R.L.,EBKG12917443,FX32974910          ,Arribado
-2025-05-26,33879,MSMU-436943-6,Hdv Leather S.R.L.,EBKG12917252,FX32985908          ,Arribado
+2025-05-29,34068,TRHU-430798-8,Hdv Leather S.R.L.,254054086,***********         ,Arribado
+2025-05-29,34069,MSKU-047289-3,Hdv Leather S.R.L.,254054086,**********          ,Arribado
 2025-05-26,33880,MSMU-803274-1,Hdv Leather S.R.L.,EBKG12917252,FX32974854          ,Arribado
 2025-05-26,33881,MSMU-531367-9,Hdv Leather S.R.L.,EBKG12917252,FX32985905          ,Arribado
 2025-05-26,33877,TGBU-451048-2,Hdv Leather S.R.L.,EBKG12917443,FX32974907          ,Arribado
+2025-05-26,33878,BMOU-423967-5,Hdv Leather S.R.L.,EBKG12917443,FX32974910          ,Arribado
+2025-05-26,33879,MSMU-436943-6,Hdv Leather S.R.L.,EBKG12917252,FX32985908          ,Arribado
 2025-06-05,34383,,Ninci - Aguero S.A.,25001EC01026947P,                    ,Arribado
 2025-06-05,34384,,Ninci - Aguero S.A.,25001EC01026947P,                    ,Arribado
 2025-05-28,33980,BSIU-820743-4,Placas Rivadavia S.R.L.,26779023,************        ,Arribado
@@ -1488,8 +1488,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-08-26,36899,MRSU-524456-2,Javier Luque S.R.L.,258465156,**********          ,Arribado
 2025-09-02,37165,MSKU-384486-5,Javier Luque S.R.L.,258776239,********            ,Arribado
 2025-09-02,37166,MRKU-924670-3,Javier Luque S.R.L.,258776239,********            ,Arribado
-2025-09-17,37662,,Javier Luque S.R.L.,20616402,                    ,Pendiente
-2025-09-17,37661,,Javier Luque S.R.L.,20616402,                    ,Pendiente
+2025-09-17,37662,CAAU-234541-7,Javier Luque S.R.L.,20616402,************        ,Arribado
+2025-09-17,37661,HLBU-299969-2,Javier Luque S.R.L.,20616402,******************  ,Arribado
 2025-09-02,37181,,Javier Luque S.R.L.,258776239,                    ,Pendiente
 2025-09-02,37182,,Javier Luque S.R.L.,258776239,                    ,Pendiente
 2025-09-02,37186,MRKU-839751-5,Javier Luque S.R.L.,258776239,*********           ,Arribado
