@@ -1,10 +1,10 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-37726,18/09,Mercovan Argentina S.A.,-,10080,HC,TD,                    ,32204078,0,                              ,,     ,2025-10-08,"Mancaniello, Carlos",                    ,Pendiente
+37726,18/09,Mercovan Argentina S.A.,FANU-139639-8,10080,HC,TD,*************       ,32204078,1,TRANSPORTE DEL CLIENTE        ,Benitez,16:36,2025-10-08,"Mancaniello, Carlos",                    ,16:36 Arribado
 37697,18/09,Hdv Leather S.R.L.,TGHU-672805-3,10080,HC,TD,*************       ,257214500,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,14:19,2025-10-08,,                    ,14:19 Arribado
-37712,18/09,Norfor Sa,-,TRP,HC,TD,                    ,340500034736,0,                              ,,     ,2025-10-08,,                    ,Pendiente
-37711,18/09,Norfor Sa,-,TRP,HC,TD,                    ,340500034736,0,                              ,,     ,2025-10-08,,                    ,Pendiente
+37712,18/09,Norfor Sa,TRHU-737958-0,TRP,HC,TD,                    ,340500034736,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,16:49,2025-10-08,,                    ,16:49 Arribado
+37711,18/09,Norfor Sa,EMCU-826356-7,TRP,HC,TD,***************     ,340500034736,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,16:46,2025-10-08,,                    ,16:46 Arribado
 37698,18/09,Hdv Leather S.R.L.,GCXU-554691-2,10080,HC,TD,******************  ,257214500,1,TRANSPORTE DEL CLIENTE        ,Bollota,14:23,2025-10-08,,                    ,14:23 Arribado
-37719,18/09,Maringa Maderas Sa,-,10080,HC,TD,                    ,259288369,0,                              ,,     ,2025-10-08,,                    ,Pendiente
+37719,18/09,Maringa Maderas Sa,TEMU-812322-3,10080,HC,TD,**************      ,259288369,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,16:43,2025-10-08,,                    ,16:43 Arribado
 37718,18/09,Maringa Maderas Sa,MSKU-957334-9,10080,HC,TD,***************     ,259288341,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,16:32,2025-10-08,,                    ,16:32 Arribado
 37716,18/09,Hdv Leather S.R.L.,ONEU-581269-9,10081,HC,TD,*****************   ,BUEF11036400,1,TRANSPORTE DEL CLIENTE        ,Benitez,14:38,2025-10-08,,                    ,14:38 Arribado
 37738,18/09,Championx Argentina Srl,-,0,  ,TD,                    ,25001EC01061675M,1,TRANSPORTE DEL CLIENTE        ,.,17:22,2025-10-08,,                    ,17:22 Arribado
