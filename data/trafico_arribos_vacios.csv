@@ -1,29 +1,19 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-37662,17/09,Javier Luque S.R.L.,CAAU-234541-7,Exolgan,DR,TD,************        ,20616402,1,TRANSPORTE DEL CLIENTE        ,Ibañez,18:29,2025-10-07,,                    ,18:29 Arribado
-37660,17/09,Pelama Chubut S.A.,CXDU-108444-0,TRP,DR,TD,  ******************,BUEF11054400,1,TRANSPORTE DEL CLIENTE        ,Delgado,14:28,2025-10-07,,                    ,14:28 Arribado
-37583,17/09,Bdfm Sa,MSMU-138438-1,10074,DR,TD,**************      ,LA0448041,1,TRANSPORTE DEL CLIENTE        ,Bollota,17:24,2025-10-03,,                    ,17:24 Arribado
-37667,17/09,Hdv Leather S.R.L.,CAIU-935382-3,TRP,HC,TD,***************     ,BUEF11039700,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:19,2025-10-07,,                    ,11:19 Arribado
-37666,17/09,Hdv Leather S.R.L.,ONEU-110007-9,TRP,HC,TD,***************     ,BUEF11039700,1,TRANSPORTE DEL CLIENTE        ,Delgado,09:08,2025-10-07,,                    ,09:08 Arribado
-37665,17/09,Hdv Leather S.R.L.,-,TRP,HC,TD,                    ,BUEF11038600,0,                              ,,     ,2025-10-07,,                    ,Pendiente
-37664,17/09,Hdv Leather S.R.L.,-,TRP,HC,TD,                    ,BUEF11038600,0,                              ,,     ,2025-10-07,,                    ,Pendiente
-37663,17/09,Hdv Leather S.R.L.,-,TRP,HC,TD,                    ,BUEF11038600,0,                              ,,     ,2025-10-07,,                    ,Pendiente
-37709,17/09,Lawter Argentina S.A.,GLDU-960782-4,10082,DR,TD,R8695342            ,BUA0350794,1,TRANSPORTE DEL CLIENTE        ,Javier,14:25,2025-10-08,,                    ,14:25 Arribado
-37661,17/09,Javier Luque S.R.L.,HLBU-299969-2,Exolgan,DR,TD,******************  ,20616402,1,TRANSPORTE DEL CLIENTE        ,Ibañez,17:35,2025-10-07,,                    ,17:35 Arribado
-37716,18/09,Hdv Leather S.R.L.,-,10081,HC,TD,                    ,BUEF11036400,0,                              ,,     ,2025-10-08,,                    ,Pendiente
-37698,18/09,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257214500,0,                              ,,     ,2025-10-08,,                    ,Pendiente
+37726,18/09,Mercovan Argentina S.A.,-,10080,HC,TD,                    ,32204078,0,                              ,,     ,2025-10-08,"Mancaniello, Carlos",                    ,Pendiente
 37697,18/09,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257214500,0,                              ,,     ,2025-10-08,,                    ,Pendiente
 37712,18/09,Norfor Sa,-,TRP,HC,TD,                    ,340500034736,0,                              ,,     ,2025-10-08,,                    ,Pendiente
-37726,18/09,Mercovan Argentina S.A.,-,10080,HC,TD,                    ,32204078,0,                              ,,     ,2025-10-08,"Mancaniello, Carlos",                    ,Pendiente
-37719,18/09,Maringa Maderas Sa,-,10080,HC,TD,                    ,259288369,0,                              ,,     ,2025-10-08,,                    ,Pendiente
-37718,18/09,Maringa Maderas Sa,-,10080,HC,TD,                    ,259288341,0,                              ,,     ,2025-10-08,,                    ,Pendiente
-37738,18/09,Championx Argentina Srl,-,0,  ,TD,                    ,25001EC01061675M,1,TRANSPORTE DEL CLIENTE        ,.,17:22,2025-10-08,,                    ,17:22 Arribado
 37711,18/09,Norfor Sa,-,TRP,HC,TD,                    ,340500034736,0,                              ,,     ,2025-10-08,,                    ,Pendiente
+37698,18/09,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,257214500,0,                              ,,     ,2025-10-08,,                    ,Pendiente
+37719,18/09,Maringa Maderas Sa,-,10080,HC,TD,                    ,259288369,0,                              ,,     ,2025-10-08,,                    ,Pendiente
+37716,18/09,Hdv Leather S.R.L.,-,10081,HC,TD,                    ,BUEF11036400,0,                              ,,     ,2025-10-08,,                    ,Pendiente
+37738,18/09,Championx Argentina Srl,-,0,  ,TD,                    ,25001EC01061675M,1,TRANSPORTE DEL CLIENTE        ,.,17:22,2025-10-08,,                    ,17:22 Arribado
+37718,18/09,Maringa Maderas Sa,-,10080,HC,TD,                    ,259288341,0,                              ,,     ,2025-10-08,,                    ,Pendiente
+37742,19/09,Borax Argentina S A,-,10074,DR,TD,                    ,13858874,0,                              ,,     ,2025-10-08,Fc 12644,                    ,Pendiente
+37722,19/09,Hector Reboratti,-,10080,HC,TD,                    ,64179524,0,                              ,,     ,2025-10-08,,                    ,Pendiente
+37744,19/09,Borax Argentina S A,-,10074,DR,TD,                    ,13858874,0,                              ,,     ,2025-10-08,Fc 12644,                    ,Pendiente
+37721,19/09,Hector Reboratti,-,10080,HC,TD,                    ,64179524,0,                              ,,     ,2025-10-08,,                    ,Pendiente
 37735,19/09,Norfor Sa,-,TRP,HC,TD,                    ,340500034558,0,                              ,,     ,2025-10-08,,                    ,Pendiente
 37736,19/09,Norfor Sa,-,TRP,HC,TD,                    ,340500034558,0,                              ,,     ,2025-10-08,,                    ,Pendiente
 37737,19/09,Norfor Sa,-,TRP,HC,TD,                    ,340500034558,0,                              ,,     ,2025-10-08,,                    ,Pendiente
-37743,19/09,Borax Argentina S A,-,10074,DR,TD,                    ,13858874,0,                              ,,     ,2025-10-08,Fc 12644,                    ,Pendiente
-37742,19/09,Borax Argentina S A,-,10074,DR,TD,                    ,13858874,0,                              ,,     ,2025-10-08,Fc 12644,                    ,Pendiente
-37722,19/09,Hector Reboratti,-,10080,HC,TD,                    ,64179524,0,                              ,,     ,2025-10-08,,                    ,Pendiente
-37721,19/09,Hector Reboratti,-,10080,HC,TD,                    ,64179524,0,                              ,,     ,2025-10-08,,                    ,Pendiente
 37696,19/09,Pelama Chubut S.A.,-,TRP,DR,TD,                    ,COSU6430427900,0,                              ,,     ,2025-10-08,,                    ,Pendiente
-37744,19/09,Borax Argentina S A,-,10074,DR,TD,                    ,13858874,0,                              ,,     ,2025-10-08,Fc 12644,                    ,Pendiente
+37743,19/09,Borax Argentina S A,-,10074,DR,TD,                    ,13858874,0,                              ,,     ,2025-10-08,Fc 12644,                    ,Pendiente
