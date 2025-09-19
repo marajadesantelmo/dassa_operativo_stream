@@ -1,14 +1,14 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-37771,19/09,Mercovan Argentina S.A.,-,10080,DR,TD,                    ,90271038,0,                              ,,     ,2025-10-09,,                    ,Pendiente
+37771,19/09,Mercovan Argentina S.A.,GESU-113715-8,10080,DR,TD,***********         ,90271038,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,15:56,2025-10-09,,                    ,15:56 Arribado
 37696,19/09,Pelama Chubut S.A.,OOCU-487959-0,TRP,DR,TD,**************      ,COSU6430427900,1,TRANSPORTE DEL CLIENTE        ,Bollota,08:47,2025-10-08,,                    ,08:47 Arribado
 37770,19/09,Mader Zu S.R.L.,ZCSU-791387-1,10074,HC,TD,*****************   ,ZIMUBUE9043390,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,08:42,2025-10-09,,                    ,08:42 Arribado
 37721,19/09,Hector Reboratti,TCLU-953831-4,10080,HC,TD,**************      ,64179524,1,TRANSPORTE DEL CLIENTE        ,Alvarez,16:25,2025-10-08,,                    ,16:25 Arribado
 37722,19/09,Hector Reboratti,FANU-117537-6,10080,HC,TD,**************      ,64179524,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,16:28,2025-10-08,,                    ,16:28 Arribado
-37742,19/09,Borax Argentina S A,-,10074,DR,TD,                    ,13858874,0,                              ,,     ,2025-10-08,Fc 12644,                    ,Pendiente
-37743,19/09,Borax Argentina S A,-,10074,DR,TD,                    ,13858874,0,                              ,,     ,2025-10-08,Fc 12644,                    ,Pendiente
-37744,19/09,Borax Argentina S A,-,10074,DR,TD,                    ,13858874,0,                              ,,     ,2025-10-08,Fc 12644,                    ,Pendiente
-37737,19/09,Norfor Sa,-,TRP,HC,TD,                    ,340500034558,0,                              ,,     ,2025-10-08,,                    ,Pendiente
-37736,19/09,Norfor Sa,-,TRP,HC,TD,                    ,340500034558,0,                              ,,     ,2025-10-08,,                    ,Pendiente
+37742,19/09,Borax Argentina S A,SEGU-270225-8,10074,DR,TD,************        ,13858874,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,15:58,2025-10-08,Fc 12644,                    ,15:58 Arribado
+37743,19/09,Borax Argentina S A,UACU-407401-4,10074,DR,TD,***************     ,13858874,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,16:00,2025-10-08,Fc 12644,                    ,16:00 Arribado
+37744,19/09,Borax Argentina S A,HLBU-109548-0,10074,DR,TD,**********          ,13858874,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,16:02,2025-10-08,Fc 12644,                    ,16:02 Arribado
+37737,19/09,Norfor Sa,EITU-128015-2,TRP,HC,TD,***************     ,340500034558,1,TRANSPORTE DEL CLIENTE        ,Bertoli,15:53,2025-10-08,,                    ,15:53 Arribado
+37736,19/09,Norfor Sa,TGBU-693173-1,TRP,HC,TD,*************       ,340500034558,1,TRANSPORTE DEL CLIENTE        ,Benitez,15:49,2025-10-08,,                    ,15:49 Arribado
 37735,19/09,Norfor Sa,TIIU-684474-4,TRP,HC,TD,******************* ,340500034558,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,11:44,2025-10-08,,                    ,11:44 Arribado
 37780,22/09,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG14245274,0,                              ,,     ,2025-10-10,,                    ,Pendiente
 37779,22/09,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG14245274,0,                              ,,     ,2025-10-10,,                    ,Pendiente
