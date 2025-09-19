@@ -21,6 +21,9 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-16,Exolgan,0500 ,BSIU-830255-5,Lift Van Int. Co S.A,HLCUBC1250645250,TD,HC,70,1,10:07 Arribado
 2025-09-16,Exolgan,0500 ,UACU-851282-3,Lift Van Int. Co S.A,HLUSPIL250609355,TD,DC,60,1,10:35 Arribado
 2025-09-23,Exolgan,0500 ,MSNU-286243-1,Lift Van Int. Co S.A,MEDUG9698218,TD,DC,30,0,Pendiente arribo
+2025-09-23,Exolgan,0500 ,HLBU-374089-6,Lift Van Int. Co S.A,HLCUOSL250713012,TD,DC,30,0,Pendiente arribo
+2025-09-23,Terminal 4 - Maersk,1000 ,UACU-838570-8,Lift Van Int. Co S.A,HLCUBSC2508ARCG5,TD,DC,60,0,Pendiente arribo
+2025-09-23,Terminal 4 - Maersk,1000 ,HLBU-351943-7,Lift Van Int. Co S.A,HLCUBSC250843478,TD,DC,30,0,Pendiente arribo
 2025-09-16,Exolgan,0500 ,HLBU-164292-5,Lift Van Int. Co S.A,HLXULE1250762943,TD,HC,70,1,09:59 Arribado
 2025-09-16,Exolgan,1500 ,HLBU-109856-0,Lift Van Int. Co S.A,HLCUME3250737471,TD,DC,30,1,19:09 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1000 ,GESU-112370-3,Lift Van Int. Co S.A,IBC1382175,TD,DC,30,1,14:34 Arribado
@@ -29,6 +32,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-23,Exolgan,0500 ,DRYU-417686-0,Lift Van Int. Co S.A,MEDUG9698192,TD,DC,60,0,Pendiente arribo
 2025-09-16,Exolgan,1500 ,HLBU-180704-9,Edelweiss Spedition Srl,HLCUME3250712442,TD,DC,60,1,19:15 Arribado
 2025-09-19,Trp - Terminales 1-2-3,0300 ,SEGU-185712-6,Edelweiss Spedition Srl,ONEYHAME51682300,TD,DC,30,1,10:00 Arribado
+2025-09-23,Exolgan,0500 ,TCLU-414616-2,Edelweiss Spedition Srl,HLCUHAM2507BPES6,TD,DC,60,0,Pendiente arribo
 2025-09-12,Trp - Terminales 1-2-3,0400 ,PIDU-441589-9,La Tela Srl,NGB31157376,T,HC,70,1,10:56 Arribado
 2025-09-12,Trp - Terminales 1-2-3,0400 ,PIDU-413726-8,La Tela Srl,NGB31157175,T,HC,70,1,11:00 Arribado
 2025-09-15,Trp - Terminales 1-2-3,1500 ,PCIU-932451-0,La Tela Srl,SHA31166631,T,HC,70,1,18:37 Arribado
@@ -36,11 +40,14 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-15,Trp - Terminales 1-2-3,1300 ,TIFU-525772-0,Dpmg S.A.,NGP2632629,T,is,30,1,18:55 Arribado
 2025-09-19,Trp - Terminales 1-2-3,2000 ,MSBU-157538-4,Refractarios Argentinos Saicm,TSN25060158,TD,DR,30,0,Pendiente arribo
 2025-09-19,Trp - Terminales 1-2-3,2100 ,MSBU-153268-0,Refractarios Argentinos Saicm,TSN25060158,TD,DR,30,0,Pendiente arribo
+2025-09-23,Terminal 4 - Maersk,1000 ,HAMU-289490-0,Almar Internacional Del Argent...,HLCUBSC2508BIBQ3,TD,HC,70,0,Pendiente arribo
 2025-09-12,Exolgan,0500 ,TLLU-518514-0,Aspee Monee,MEDUOO433488,T,HC,70,1,09:00 Arribado
 2025-09-12,Exolgan,0500 ,MSDU-671225-5,Aspee Monee,GILSH250600161,T,HC,70,1,10:43 Arribado
 2025-09-12,Exolgan,0500 ,MSDU-733325-6,Aspee Monee,MEDUOO433637,T,HC,70,1,10:46 Arribado
 2025-09-19,Terminal 4 - Maersk,1500 ,MSKU-179254-6,Aspee Monee,255476630,T,DC,60,0,Pendiente arribo
 2025-09-19,Terminal 4 - Maersk,1200 ,MSKU-167653-0,Aspee Monee,255476525,T,DC,60,0,Pendiente arribo
+2025-09-23,Terminal 4 - Maersk,1000 ,MRKU-067396-2,Fenisan S.A.,258262518,T,DC,60,0,Pendiente arribo
+2025-09-23,Terminal 4 - Maersk,1000 ,MSKU-196898-0,Fenisan S.A.,258262518,T,DC,60,0,Pendiente arribo
 2025-09-12,Trp - Terminales 1-2-3,0400 ,EISU-822402-8,Poka S.A.,NB250763420,T,HC,70,1,08:20 Arribado
 2025-09-12,Trp - Terminales 1-2-3,0400 ,EISU-850627-4,Poka S.A.,NB250763420,T,HC,70,1,08:57 Arribado
 2025-09-12,Trp - Terminales 1-2-3,0400 ,EGHU-936346-3,Poka S.A.,NB250763420,T,HC,70,1,08:41 Arribado
@@ -61,11 +68,14 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-12,Exolgan,0500 ,MSCU-347537-2,Southcross Logistics Sa,KHIS25260178,T,DC,30,1,08:45 Arribado
 2025-09-17,Terminal 4 - Maersk,0800 ,MRKU-071447-0,Southcross Logistics Sa,257299198,TD,DC,30,1,11:21 Arribado
 2025-09-19,Trp - Terminales 1-2-3,1100 ,MSNU-673412-5,Juliana Sa,MEDUOP807326,T,HC,70,1,15:51 Arribado
+2025-09-23,Trp - Terminales 1-2-3,1300 ,CMAU-881793-8,Juliana Sa,NGP2609684,T,HC,70,0,Pendiente arribo
 2025-09-22,Trp - Terminales 1-2-3,1100 ,BSIU-931571-0,Bisora Group Sa,HDMUSZPM60827700,T,HC,70,0,Pendiente arribo
 2025-09-16,Trp - Terminales 1-2-3,1100 ,EITU-106334-7,Novelty Trend Srl,TWLE25070162,T,HC,70,1,14:36 Arribado
 2025-09-19,Trp - Terminales 1-2-3,1300 ,OOCU-808479-7,Novelty Trend Srl,TWLE25060188,T,HC,70,1,16:12 Arribado
 2025-09-18,Trp - Terminales 1-2-3,1200 ,PCIU-612000-3,Fibras Argentinas Sa,BKE500388601,TD,HC,70,1,15:15 Arribado
 2025-09-18,Trp - Terminales 1-2-3,1200 ,OTPU-674030-3,Fibras Argentinas Sa,BKE500388601,TD,HC,70,1,15:32 Arribado
+2025-09-23,Trp - Terminales 1-2-3,1300 ,OTPU-673966-3,Fibras Argentinas Sa,BKK501138800,TD,HC,70,0,Pendiente arribo
+2025-09-23,Trp - Terminales 1-2-3,1300 ,PCIU-612456-5,Fibras Argentinas Sa,BKK501138800,TD,HC,70,0,Pendiente arribo
 2025-09-12,Trp - Terminales 1-2-3,0400 ,DRYU-984499-9,Bulldog Solutions S.A.,HDE25-080006,T,HC,70,1,08:43 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1500 ,TCNU-240738-8,Bulldog Solutions S.A.,HDE25-0800018,T,HC,70,1,17:27 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1500 ,EITU-154087-7,Bulldog Solutions S.A.,HDE25-0800024,T,HC,70,1,18:12 Arribado
@@ -84,7 +94,10 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-17,Trp - Terminales 1-2-3,1200 ,TCNU-348426-5,Grupo Simpa Sa,NB250763414,T,HC,70,1,15:42 Arribado
 2025-09-19,Exolgan,0700 ,CAIU-784102-7,Grupo Simpa Sa,FBLCBUE0625/00303,T,HC,70,1,12:28 Arribado
 2025-09-17,Exolgan,1500 ,MRKU-032855-0,Grupo Rsm Srl,255696787,TD,DC,60,1,20:06 Arribado
+2025-09-23,Terminal 4 - Maersk,1300 ,MRKU-039332-3,Grupo Rsm Srl,258263606,T,DC,60,0,Pendiente arribo
 2025-09-22,Exolgan,1300 ,MSBU-729385-5,Chelatex Sas,NBOE25016249,T,HC,70,0,Pendiente arribo
+2025-09-23,Terminal 4 - Maersk,1000 ,MRSU-303521-8,Grupo De Asesoramiento Empresa...,PEF2508389,T,HC,70,0,Pendiente arribo
+2025-09-23,Terminal 4 - Maersk,1000 ,TGBU-631729-8,Grupo De Asesoramiento Empresa...,PEF2508389,T,HC,70,0,Pendiente arribo
 2025-09-18,Trp - Terminales 1-2-3,0500 ,BMOU-491480-8,E A Balbi E Hijos S A,DEL-HSE-2507-0306,T,HC,70,1,10:44 Arribado
 2025-09-18,Trp - Terminales 1-2-3,0500 ,TCLU-560683-2,E A Balbi E Hijos S A,DEL-HSE-2507-0306,T,HC,70,1,10:53 Arribado
 2025-09-18,Trp - Terminales 1-2-3,0500 ,MEDU-867516-9,E A Balbi E Hijos S A,DEL-HSE-2507-0306,T,HC,70,1,10:57 Arribado
