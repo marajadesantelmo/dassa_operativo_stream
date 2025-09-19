@@ -27,7 +27,7 @@ from datetime import datetime, timedelta
 import json
 import logging
 from typing import Dict, List, Optional, Tuple, Any
-from supabase_connection import (
+from supabase_connection2 import (
     fetch_table_data, 
     insert_data, 
     update_data, 
@@ -117,14 +117,20 @@ class TraficoV2Synchronizer:
                 return True
         return False
     
-    def prepare_record_for_sync(self, record: Dict, exclude_columns: List[str], source_id: int) -> Dict:
+    def prepare_record_for_sync(self, record: Dict, exclude_columns: List[str], source_id: int = None) -> Dict:
         """Prepare a record for insertion/update in target table"""
         cleaned_record = {}
         for key, value in record.items():
             if key not in exclude_columns:
                 cleaned_record[key] = value
         
-        cleaned_record['source_id'] = source_id
+        # Handle cases where source_id might be None (when no 'id' column exists)
+        if source_id is not None:
+            cleaned_record['source_id'] = source_id
+        elif 'source_id' in record:
+            # Use the source_id that was created during aggregation
+            cleaned_record['source_id'] = record['source_id']
+        
         cleaned_record['fecha_modificacion'] = datetime.now().isoformat()
         
         return cleaned_record
@@ -134,21 +140,57 @@ class TraficoV2Synchronizer:
         if df.empty:
             return df
             
-        # Group by booking and aggregate
-        aggregated = df.groupby('Booking').agg({
-            'Fecha': 'first',  # Take first date
-            'Cliente': 'first',  # Take first client
-            'Cantidad': 'sum',   # Sum quantities
-            'Contenedor': lambda x: ', '.join(x.dropna().astype(str).unique()) if len(x.dropna()) > 0 else '-',  # Concatenate containers
-            'Precinto': 'first',  # Take first precinto
-            'Origen': 'first',   # Take first origin
-            'Estado': 'first',   # Take first state
-            'Obs.': 'first',     # Take first observation
-            'Chofer': 'first',   # Take first chofer
-            'id': 'first'        # Take first ID as source reference
-        }).reset_index()
+        # Check if required columns exist
+        required_columns = ['Booking']
+        if not all(col in df.columns for col in required_columns):
+            logger.error(f"Missing required columns in arribos_expo_ctns. Available columns: {df.columns.tolist()}")
+            return pd.DataFrame()
         
-        return aggregated
+        # Define aggregation rules based on available columns
+        agg_rules = {}
+        
+        # Standard columns that should be aggregated
+        column_mappings = {
+            'Fecha': 'first',
+            'Cliente': 'first',
+            'Cantidad': 'sum',
+            'Contenedor': lambda x: ', '.join(x.dropna().astype(str).unique()) if len(x.dropna()) > 0 else '-',
+            'Precinto': 'first',
+            'Origen': 'first',
+            'Estado': 'first',
+            'Obs.': 'first',
+            'Chofer': 'first'
+        }
+        
+        # Only include columns that exist in the dataframe
+        for col, agg_func in column_mappings.items():
+            if col in df.columns:
+                agg_rules[col] = agg_func
+        
+        # Handle the ID column - use row index if 'id' column doesn't exist
+        if 'id' in df.columns:
+            agg_rules['id'] = 'first'
+        else:
+            # Create a temporary ID based on row index for source reference
+            df = df.reset_index()
+            agg_rules['index'] = 'first'
+            logger.warning("No 'id' column found in arribos_expo_ctns, using row index as source reference")
+        
+        try:
+            # Group by booking and aggregate
+            aggregated = df.groupby('Booking').agg(agg_rules).reset_index()
+            
+            # If we used index instead of id, rename it to source_id for database compatibility
+            if 'index' in aggregated.columns and 'id' not in aggregated.columns:
+                aggregated = aggregated.rename(columns={'index': 'source_id'})
+            
+            return aggregated
+            
+        except Exception as e:
+            logger.error(f"Error during aggregation: {e}")
+            logger.error(f"DataFrame columns: {df.columns.tolist()}")
+            logger.error(f"Aggregation rules: {agg_rules}")
+            return pd.DataFrame()
     
     def sync_table(self, source_table: str, full_sync: bool = False) -> Dict[str, int]:
         """Sync a source table to its corresponding target table"""
@@ -178,6 +220,12 @@ class TraficoV2Synchronizer:
             if config.get('aggregate_by_booking'):
                 logger.info("Aggregating arribos_expo_ctns data by booking")
                 source_df = self.aggregate_arribos_expo_by_booking(source_df)
+                
+                # If aggregation failed, return with error
+                if source_df.empty:
+                    logger.error("Aggregation failed, no data to sync")
+                    stats['errors'] += 1
+                    return stats
             
             # Fetch existing target data
             logger.info(f"Fetching existing data from target table: {target_table}")
@@ -209,6 +257,10 @@ class TraficoV2Synchronizer:
                     
                     source_record = source_row.to_dict()
                     source_id = source_record.get('id')
+                    
+                    # Handle case where there's no 'id' column but we have source_id from aggregation
+                    if source_id is None and 'source_id' in source_record:
+                        source_id = source_record['source_id']
                     
                     if composite_key in existing_records:
                         # Record exists - check if update needed

@@ -6,6 +6,7 @@ from supabase import create_client, Client
 import time
 from tokens import url_supabase, key_supabase
 
+
 #url_supabase = os.getenv("url_supabase")
 #key_supabase= os.getenv("key_supabase")
 

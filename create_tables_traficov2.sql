@@ -132,6 +132,7 @@ CREATE TABLE IF NOT EXISTS trafico_otros (
     "Fecha" TEXT,
     "Origen" TEXT,
     "Observaciones trafico" TEXT, 
+    "Valor" TEXT,
     fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
