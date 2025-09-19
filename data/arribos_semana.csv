@@ -7,7 +7,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-17,Trp - Terminales 1-2-3,1100 ,TCLU-716296-9,Mercovan Argentina S.A.,ISB1784667,TD,HC,70,1,16:06 Arribado
 2025-09-19,Exolgan,0500 ,UACU-824925-5,Mercovan Argentina S.A.,HLUSAN2250701372,TD,DC,60,1,11:04 Arribado
 2025-09-19,Exolgan,1300 ,FANU-136696-3,Mercovan Argentina S.A.,HLUSAN2250701372,TD,DC,30,0,Pendiente arribo
-2025-09-19,Trp - Terminales 1-2-3,1200 ,TCKU-463563-3,Mercovan Argentina S.A.,ONEYRTMF18024600,TD,DC,60,0,Pendiente arribo
+2025-09-19,Trp - Terminales 1-2-3,1200 ,TCKU-463563-3,Mercovan Argentina S.A.,ONEYRTMF18024600,TD,DC,60,1,16:10 Arribado
 2025-09-16,Exolgan,1500 ,UACU-842024-4,Mercovan Argentina S.A.,HLCUBC1250752804,TD,DC,60,1,20:24 Arribado
 2025-09-17,Trp - Terminales 1-2-3,1100 ,CMAU-458200-7,Mercovan Argentina S.A.,ISB1790539,TD,HC,70,1,16:12 Arribado
 2025-09-17,Trp - Terminales 1-2-3,1100 ,TCLU-716011-7,Mercovan Argentina S.A.,ISB1790539,TD,HC,70,1,16:24 Arribado
@@ -50,7 +50,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-17,Terminal 4 - Maersk,1100 ,JXLU-618880-5,Jupam Sa,TWLE25070182,T,HC,70,1,15:05 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1100 ,FSCU-495909-7,Aoda Sa,NB250663051,T,DC,60,1,13:37 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1300 ,EITU-124729-9,Aoda Sa,NB250663270/84,T,HC,70,1,16:04 Arribado
-2025-09-18,Trp - Terminales 1-2-3,0600 ,MEDU-435035-5,Grupo Leal-Tex S.R.L.,GILSH250700054,TD,HC,70,1,10:27 Arribado
+2025-09-18,Trp - Terminales 1-2-3,0600 ,MEDU-435035-5,Grupo Leal-Tex S.R.L.,GILSH250700054,T,HC,70,1,10:27 Arribado
 2025-09-15,Trp - Terminales 1-2-3,1500 ,EITU-911465-1,Dmc Import Group S.R.L.,TSSZ2507033,T,HC,70,1,18:49 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1100 ,EMCU-173040-1,Compañia Bulk S.A.,SY250662715,T,HC,70,1,14:08 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1100 ,EITU-192870-7,Compañia Bulk S.A.,SY250662715,T,HC,70,1,15:37 Arribado
@@ -60,7 +60,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-19,Trp - Terminales 1-2-3,1100 ,MSNU-673412-5,Juliana Sa,MEDUOP807326,T,HC,70,1,15:51 Arribado
 2025-09-22,Trp - Terminales 1-2-3,1100 ,BSIU-931571-0,Bisora Group Sa,HDMUSZPM60827700,T,HC,70,0,Pendiente arribo
 2025-09-16,Trp - Terminales 1-2-3,1100 ,EITU-106334-7,Novelty Trend Srl,TWLE25070162,T,HC,70,1,14:36 Arribado
-2025-09-19,Trp - Terminales 1-2-3,1300 ,OOCU-808479-7,Novelty Trend Srl,TWLE25060188,T,HC,70,0,Pendiente arribo
+2025-09-19,Trp - Terminales 1-2-3,1300 ,OOCU-808479-7,Novelty Trend Srl,TWLE25060188,T,HC,70,1,16:12 Arribado
 2025-09-18,Trp - Terminales 1-2-3,1200 ,PCIU-612000-3,Fibras Argentinas Sa,BKE500388601,TD,HC,70,1,15:15 Arribado
 2025-09-18,Trp - Terminales 1-2-3,1200 ,OTPU-674030-3,Fibras Argentinas Sa,BKE500388601,TD,HC,70,1,15:32 Arribado
 2025-09-12,Trp - Terminales 1-2-3,0400 ,DRYU-984499-9,Bulldog Solutions S.A.,HDE25-080006,T,HC,70,1,08:43 Arribado
