@@ -113,6 +113,34 @@ CREATE TABLE IF NOT EXISTS traficov2_sync_log (
     details JSONB
 );
 
+-- Table for storing trafico_otros data (Other traffic operations)
+CREATE TABLE IF NOT EXISTS trafico_otros (
+    id SERIAL PRIMARY KEY,
+    "Dia" TEXT,
+    "Hora" TEXT,
+    "Tipo Turno" TEXT,
+    "Operacion" TEXT,
+    "Cliente" TEXT,
+    "Contenedor" TEXT,
+    "chofer" TEXT,
+    "Fecha y Hora Fin" TEXT,
+    "Observaciones" TEXT,
+    "Terminal" TEXT,
+    "Dimension" TEXT,
+    "Entrega" TEXT,
+    "Cantidad" TEXT,
+    "Fecha" TEXT,
+    "Origen" TEXT,
+    "Observaciones trafico" TEXT, 
+    fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create indexes for trafico_otros
+CREATE INDEX IF NOT EXISTS idx_trafico_otros_contenedor ON trafico_otros("Contenedor");
+CREATE INDEX IF NOT EXISTS idx_trafico_otros_cliente ON trafico_otros("Cliente");
+CREATE INDEX IF NOT EXISTS idx_trafico_otros_operacion ON trafico_otros("Operacion");
+CREATE INDEX IF NOT EXISTS idx_trafico_otros_fecha_registro ON trafico_otros(fecha_registro);
+
 CREATE INDEX IF NOT EXISTS idx_traficov2_sync_log_table_name ON traficov2_sync_log(table_name);
 CREATE INDEX IF NOT EXISTS idx_traficov2_sync_log_timestamp ON traficov2_sync_log(sync_timestamp);
 CREATE INDEX IF NOT EXISTS idx_traficov2_sync_log_source_id ON traficov2_sync_log(source_id);
