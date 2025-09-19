@@ -70,12 +70,12 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 37891-1-1,Lift Van Int. Co S.A,Retes Barros,HLCUBSC250842442,DRYU-215401-3,29-08-2025,28.00,2767.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=2409
 37894-2-1,Grupo Harley S.A.,Motorcycle Tire,Z209GZH2505007,FCIU-813928-7,29-08-2025,70.00,15360.00,IA9,http://dassa.mqbic.com/PublicTally.php?id=2412
 37833-1-1,Chemotecnica Sa,Azoxistrobina,ONEYSHAFH7963800,FFAU-642015-3,27-08-2025,53.00,20442.72,NV4,http://dassa.mqbic.com/PublicTally.php?id=2389
-37710-1-1,Chemotecnica Sa,Haloxifop Metil 97%,QT25Y8106673,MRSU-058556-6,21-08-2025,26.00,22075.00,NV4,http://dassa.mqbic.com/PublicTally.php?id=2359
 37710-2-1,Chemotecnica Sa,Haloxifop Metil 97%,QT25Y8106673,TEMU-150536-9,21-08-2025,26.00,22075.00,NV4,http://dassa.mqbic.com/PublicTally.php?id=2360
+37710-1-1,Chemotecnica Sa,Haloxifop Metil 97%,QT25Y8106673,MRSU-058556-6,21-08-2025,26.00,22075.00,NV4,http://dassa.mqbic.com/PublicTally.php?id=2359
 37709-1-1,Chemotecnica Sa,Diflufenican,QT25Y8106673,HASU-119731-2,21-08-2025,28.00,12494.40,NV4,http://dassa.mqbic.com/PublicTally.php?id=2358
 37607-1-1,Trice Transport Comp...,Mudanza Alexia Barta...,HLCUBSC250764190,TCLU-953831-4,16-08-2025,67.00,7554.56,IA5,http://dassa.mqbic.com/PublicTally.php?id=2325
-37571-1-1,Lift Van Int. Co S.A,Emb De Eeuu / Subaru...,MEDUJV802346,HPCU-262271-3,13-08-2025,10.00,1558.00,NV5,http://dassa.mqbic.com/PublicTally.php?id=2306
 37565-1-1,Lift Van Int. Co S.A,Martorell  Pablo,MEDUJ802346,TRHU-823341-4,13-08-2025,76.00,5733.00,IB8,http://dassa.mqbic.com/PublicTally.php?id=2302
+37571-1-1,Lift Van Int. Co S.A,Emb De Eeuu / Subaru...,MEDUJV802346,HPCU-262271-3,13-08-2025,10.00,1558.00,NV5,http://dassa.mqbic.com/PublicTally.php?id=2306
 37495-1-1,Grouport Srl,Pen,TCNB2505096,CAIU-568248-2,11-08-2025,28.66,5008.80,IA8,http://dassa.mqbic.com/PublicTally.php?id=2298
 37473-2-1,Grupo Rsm Srl,Pieces Body And Acc,256789870,MRKU-078739-5,08-08-2025,5.00,230.00,EA3,http://dassa.mqbic.com/PublicTally.php?id=2292
 37473-1-1,Grupo Rsm Srl,Edi Julio / Ford Mus...,256789870,MRKU-078739-5,08-08-2025,10.00,1489.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=2292
@@ -97,7 +97,6 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 36672-1-1,Industrias Saladillo...,Accecosrios De Tuber...,TPNGBSG25056020,HDMU-271974-1,08-07-2025,20.25,10417.00,ANEX,http://dassa.mqbic.com/PublicTally.php?id=2134
 36550-1-1,Alstom Argentina S.A...,Electrical Cabinet,255500497,CAAU-657477-2,03-07-2025,50.00,8907.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=2114
 36518-1-1,Industrias Saladillo...,Accesorios De Tuberi...,TPNGBSG255046030,BMOU-255036-9,02-07-2025,16.30,7699.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=2099
-36251-1-1,Bisora Group Sa,Garment,BK2530431,EGHU-945537-0,19-06-2025,68.00,11980.00,IB6,http://dassa.mqbic.com/PublicTally.php?id=2036
 35962-2-1,Grupo Rsm Srl,Mgb Year 1966 Color ...,253484332,MRKU-071444-4,06-06-2025,10.00,970.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=1979
 35928-1-1,Alejandro Amiano,Austin Healey - Vin ...,253382834,MRKU-110231-4,05-06-2025,15.00,1157.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=1970
 35855-1-1,World Sport S.R.L.,Remeras,CFPU25252600013,FFAU-383926-0,02-06-2025,36.00,6169.35,NV1,http://dassa.mqbic.com/PublicTally.php?id=1953
@@ -106,14 +105,13 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 35111-1-1,Grupo Rsm Srl,Bmw E91974,252126076,MRKU-079575-0,02-05-2025,12.00,1400.00,EA9,http://dassa.mqbic.com/PublicTally.php?id=1776
 35113-1-1,Grupo Rsm Srl,Mercedes Benz 1934,250567979,SUDU-766410-3,02-05-2025,14.00,1725.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=1777
 35053-1-1,Mercovan Argentina S...,Mudanza - William An...,ONEYANRF06904900,TEMU-233384-0,29-04-2025,12.00,1070.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1763
-35013-2-1,Kreme Logistica Y Di...,Triumph Model Tr3,HLCUBSC2503AYGW4,HLXU-536008-5,25-04-2025,5.00,997.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=1748
 35013-1-1,Kreme Logistica Y Di...,Chevrolet Corvette,HLCUBSC2503AYGW4,HLXU-536008-5,25-04-2025,5.00,1579.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=1748
+35013-2-1,Kreme Logistica Y Di...,Triumph Model Tr3,HLCUBSC2503AYGW4,HLXU-536008-5,25-04-2025,5.00,997.00,PA-A,http://dassa.mqbic.com/PublicTally.php?id=1748
 34975-1-1,Industrias Saladillo...,Valves,TPNGBSG25036008,CAIU-326125-2,24-04-2025,2.17,2173.32,NV1,http://dassa.mqbic.com/PublicTally.php?id=1743
 34052-0-1,Alstom Argentina S.A...,Railroad Signaling,-,,07-03-2025,1.00,135.00,IA1,
 33867-1-1,Industrias Saladillo...,Valves,TPNGBSG25016008,TLLU-254412-3,25-02-2025,4.55,2014.00,IB8,http://dassa.mqbic.com/PublicTally.php?id=1432
 33487-2-1,Industrias Saladillo...,Valves,TPNGBSG24126014,TEMU-133886-8,07-02-2025,28.36,12235.00,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1322
 33487-1-1,Industrias Saladillo...,Valves,TPNGBSG24126014,GCXU-213925-6,07-02-2025,4.09,1286.50,ANEX-A1,http://dassa.mqbic.com/PublicTally.php?id=1323
-33018-1-1,Industrias Saladillo...,Accesorios De Tuberi...,ONEYNB4IVF532600,TEMU-750540-6,20-01-2025,40.51,13985.26,NV1,http://dassa.mqbic.com/PublicTally.php?id=1231
 32938-1-1,Corona Insumos Srl,Iron Jeans Button,GSZBUE24101914,KOCU-428583-9,13-01-2025,5.37,4279.00,NV1,http://dassa.mqbic.com/PublicTally.php?id=1208
 32892-2-1,Lift Van Int. Co S.A,Efectos Personales,HLCUBC1241043227,CAIU-333600-6,10-01-2025,11.00,1275.00,EP-IM,http://dassa.mqbic.com/PublicTally.php?id=1196
 32838-1-1,Novelty Trend Srl,Telas,TWLE24100081,KOCU-434678-6,08-01-2025,30.25,10557.59,NV5,http://dassa.mqbic.com/PublicTally.php?id=1167
