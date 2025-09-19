@@ -127,8 +127,9 @@ class TraficoV2Synchronizer:
         # Handle cases where source_id might be None (when no 'id' column exists)
         if source_id is not None:
             cleaned_record['source_id'] = source_id
-        elif 'source_index' in record:
-            cleaned_record['source_id'] = record['source_index']
+        elif 'source_id' in record:
+            # Use the source_id that was created during aggregation
+            cleaned_record['source_id'] = record['source_id']
         
         cleaned_record['fecha_modificacion'] = datetime.now().isoformat()
         
@@ -179,9 +180,9 @@ class TraficoV2Synchronizer:
             # Group by booking and aggregate
             aggregated = df.groupby('Booking').agg(agg_rules).reset_index()
             
-            # If we used index instead of id, rename it for consistency
+            # If we used index instead of id, rename it to source_id for database compatibility
             if 'index' in aggregated.columns and 'id' not in aggregated.columns:
-                aggregated = aggregated.rename(columns={'index': 'source_index'})
+                aggregated = aggregated.rename(columns={'index': 'source_id'})
             
             return aggregated
             
@@ -257,9 +258,9 @@ class TraficoV2Synchronizer:
                     source_record = source_row.to_dict()
                     source_id = source_record.get('id')
                     
-                    # Handle case where there's no 'id' column
-                    if source_id is None and 'source_index' in source_record:
-                        source_id = source_record['source_index']
+                    # Handle case where there's no 'id' column but we have source_id from aggregation
+                    if source_id is None and 'source_id' in source_record:
+                        source_id = source_record['source_id']
                     
                     if composite_key in existing_records:
                         # Record exists - check if update needed
