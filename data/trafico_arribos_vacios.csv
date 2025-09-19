@@ -1,24 +1,15 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-37726,18/09,Mercovan Argentina S.A.,FANU-139639-8,10080,HC,TD,*************       ,32204078,1,TRANSPORTE DEL CLIENTE        ,Benitez,16:36,2025-10-08,"Mancaniello, Carlos",                    ,16:36 Arribado
-37697,18/09,Hdv Leather S.R.L.,TGHU-672805-3,10080,HC,TD,*************       ,257214500,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,14:19,2025-10-08,,                    ,14:19 Arribado
-37712,18/09,Norfor Sa,TRHU-737958-0,TRP,HC,TD,                    ,340500034736,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,16:49,2025-10-08,,                    ,16:49 Arribado
-37711,18/09,Norfor Sa,EMCU-826356-7,TRP,HC,TD,***************     ,340500034736,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,16:46,2025-10-08,,                    ,16:46 Arribado
-37698,18/09,Hdv Leather S.R.L.,GCXU-554691-2,10080,HC,TD,******************  ,257214500,1,TRANSPORTE DEL CLIENTE        ,Bollota,14:23,2025-10-08,,                    ,14:23 Arribado
-37719,18/09,Maringa Maderas Sa,TEMU-812322-3,10080,HC,TD,**************      ,259288369,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,16:43,2025-10-08,,                    ,16:43 Arribado
-37718,18/09,Maringa Maderas Sa,MSKU-957334-9,10080,HC,TD,***************     ,259288341,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,16:32,2025-10-08,,                    ,16:32 Arribado
-37716,18/09,Hdv Leather S.R.L.,ONEU-581269-9,10081,HC,TD,*****************   ,BUEF11036400,1,TRANSPORTE DEL CLIENTE        ,Benitez,14:38,2025-10-08,,                    ,14:38 Arribado
-37738,18/09,Championx Argentina Srl,-,0,  ,TD,                    ,25001EC01061675M,1,TRANSPORTE DEL CLIENTE        ,.,17:22,2025-10-08,,                    ,17:22 Arribado
+37771,19/09,Mercovan Argentina S.A.,-,10080,DR,TD,                    ,90271038,0,                              ,,     ,2025-10-09,,                    ,Pendiente
+37696,19/09,Pelama Chubut S.A.,-,TRP,DR,TD,                    ,COSU6430427900,0,                              ,,     ,2025-10-08,,                    ,Pendiente
+37770,19/09,Mader Zu S.R.L.,-,10074,HC,TD,                    ,ZIMUBUE9043390,0,                              ,,     ,2025-10-09,,                    ,Pendiente
 37721,19/09,Hector Reboratti,TCLU-953831-4,10080,HC,TD,**************      ,64179524,1,TRANSPORTE DEL CLIENTE        ,Alvarez,16:25,2025-10-08,,                    ,16:25 Arribado
+37722,19/09,Hector Reboratti,FANU-117537-6,10080,HC,TD,**************      ,64179524,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,16:28,2025-10-08,,                    ,16:28 Arribado
 37742,19/09,Borax Argentina S A,-,10074,DR,TD,                    ,13858874,0,                              ,,     ,2025-10-08,Fc 12644,                    ,Pendiente
 37743,19/09,Borax Argentina S A,-,10074,DR,TD,                    ,13858874,0,                              ,,     ,2025-10-08,Fc 12644,                    ,Pendiente
-37770,19/09,Mader Zu S.R.L.,-,10074,HC,TD,                    ,ZIMUBUE9043390,0,                              ,,     ,2025-10-09,,                    ,Pendiente
-37696,19/09,Pelama Chubut S.A.,-,TRP,DR,TD,                    ,COSU6430427900,0,                              ,,     ,2025-10-08,,                    ,Pendiente
+37744,19/09,Borax Argentina S A,-,10074,DR,TD,                    ,13858874,0,                              ,,     ,2025-10-08,Fc 12644,                    ,Pendiente
 37735,19/09,Norfor Sa,-,TRP,HC,TD,                    ,340500034558,0,                              ,,     ,2025-10-08,,                    ,Pendiente
 37736,19/09,Norfor Sa,-,TRP,HC,TD,                    ,340500034558,0,                              ,,     ,2025-10-08,,                    ,Pendiente
 37737,19/09,Norfor Sa,-,TRP,HC,TD,                    ,340500034558,0,                              ,,     ,2025-10-08,,                    ,Pendiente
-37771,19/09,Mercovan Argentina S.A.,-,10080,DR,TD,                    ,90271038,0,                              ,,     ,2025-10-09,,                    ,Pendiente
-37722,19/09,Hector Reboratti,FANU-117537-6,10080,HC,TD,**************      ,64179524,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,16:28,2025-10-08,,                    ,16:28 Arribado
-37744,19/09,Borax Argentina S A,-,10074,DR,TD,                    ,13858874,0,                              ,,     ,2025-10-08,Fc 12644,                    ,Pendiente
 37142,22/09,Lawter Argentina S.A.,-,10080,HC,TD,                    ,258940403,0,                              ,,     ,2025-09-22,,                    ,Pendiente
 37143,22/09,Lawter Argentina S.A.,-,10080,HC,TD,                    ,258940403,0,                              ,,     ,2025-09-22,,                    ,Pendiente
 37772,22/09,Lawter Argentina S.A.,-,10080,HC,TD,                    ,258647923,0,                              ,,     ,2025-09-22,,                    ,Pendiente
