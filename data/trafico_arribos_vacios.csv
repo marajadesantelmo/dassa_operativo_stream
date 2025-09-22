@@ -1,9 +1,9 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 37799,22/09,Edelweiss Spedition Srl,-,10080,DR,TD,                    ,38413602,0,                              ,,     ,2025-10-10,Roman Bartomeo,                    ,Pendiente
 37823,22/09,Alimentaria Sa,-,10080,DR,TD,                    ,12523053,0,                              ,,     ,2025-10-13,,                    ,Pendiente
-37142,22/09,Lawter Argentina S.A.,-,10080,HC,TD,                    ,258940403,0,                              ,,     ,2025-09-22,,                    ,Pendiente
-37143,22/09,Lawter Argentina S.A.,-,10080,HC,TD,                    ,258940403,0,                              ,,     ,2025-09-22,,                    ,Pendiente
-37772,22/09,Lawter Argentina S.A.,-,10080,HC,TD,                    ,258647923,0,                              ,,     ,2025-09-22,,                    ,Pendiente
+37142,22/09,Lawter Argentina S.A.,MSKU-664504-4,10080,DR,TD,*************       ,258940403,0,                              ,,     ,2025-09-22,,                    ,Pendiente
+37143,22/09,Lawter Argentina S.A.,-,10080,DC,TD,                    ,258940403,0,                              ,,     ,2025-09-22,,                    ,Pendiente
+37772,22/09,Lawter Argentina S.A.,MRKU-032206-3,10080,HC,TD,***************     ,258647923,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,10:50,2025-09-22,,                    ,10:50 Arribado
 37773,22/09,Lawter Argentina S.A.,-,10080,HC,TD,                    ,258647923,0,                              ,,     ,2025-09-22,,                    ,Pendiente
 37779,22/09,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG14245274,0,                              ,,     ,2025-10-10,,                    ,Pendiente
 37780,22/09,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG14245274,0,                              ,,     ,2025-10-10,,                    ,Pendiente
