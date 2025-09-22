@@ -114,7 +114,7 @@ CREATE TABLE IF NOT EXISTS traficov2_sync_log (
 );
 
 -- Table for storing trafico_otros data (Other traffic operations)
-CREATE TABLE IF NOT EXISTS trafico_otros (
+CREATE TABLE IF NOT EXISTS traficov2_otros (
     id SERIAL PRIMARY KEY,
     "Dia" TEXT,
     "Hora" TEXT,

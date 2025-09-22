@@ -13,6 +13,7 @@ import stream_camiones
 import stream_usuarios
 import stream_trafico
 import stream_trafico_andresito
+import stream_trafico_andresitov2
 import stream_trafico2
 import stream_facturacion
 import stream_choferes
@@ -98,6 +99,9 @@ else:
     elif st.session_state['username'] == "andresito":
         allowed_pages = ["Andresito", "Gestión Choferes", "Logout"]
         icons = ["car", "people", "box-arrow-right"]
+    elif st.session_state['username'] == "andresito2":
+        allowed_pages = ["Andresitov2", "Gestión Choferes", "Logout"]
+        icons = ["car", "people", "box-arrow-right"]
     elif st.session_state['username'] in ["plazoleta", "mudancera", "nicolasnunez"]:
         allowed_pages = ["IMPO", "EXPO", "Balanza", "Logout"]
         icons = ["arrow-down-circle", "arrow-up-circle", "book", "box-arrow-right"]
@@ -133,6 +137,8 @@ else:
         stream_trafico2.show_page_trafico2()
     elif page_selection == "Andresito":
         stream_trafico_andresito.show_page_trafico_andresito()
+    elif page_selection == "Andresitov2":
+        stream_trafico_andresitov2.show_page_trafico_andresitov2()
     elif page_selection == "Gestión Choferes":
         stream_choferes.show_page_choferes()
     elif page_selection == "Balanza":

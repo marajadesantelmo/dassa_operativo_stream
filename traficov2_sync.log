@@ -651,3 +651,29 @@
 2025-09-22 09:07:16,285 - INFO - Incremental synchronization completed
 2025-09-22 09:07:16,291 - INFO - Overall stats: {'arribos': {'inserted': 0, 'updated': 1, 'errors': 0}, 'pendiente_desconsolidar': {'inserted': 2, 'updated': 2, 'errors': 0}, 'remisiones': {'inserted': 0, 'updated': 9, 'errors': 0}, 'arribos_expo_ctns': {'inserted': 0, 'updated': 7, 'errors': 0}}
 2025-09-22 09:07:16,340 - INFO - Script execution completed successfully
+2025-09-22 14:19:10,416 - INFO - Configuration loaded from trafico_config.json
+2025-09-22 14:19:11,129 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=id&limit=1 "HTTP/2 200 OK"
+2025-09-22 14:19:11,324 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/arribos?select=%2A "HTTP/2 200 OK"
+2025-09-22 14:19:11,502 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos?select=%2A "HTTP/2 200 OK"
+2025-09-22 14:19:11,678 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/pendiente_desconsolidar?select=%2A "HTTP/2 200 OK"
+2025-09-22 14:19:11,863 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar?select=%2A "HTTP/2 200 OK"
+2025-09-22 14:19:12,014 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/remisiones?select=%2A "HTTP/2 200 OK"
+2025-09-22 14:19:12,215 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_remisiones?select=%2A "HTTP/2 200 OK"
+2025-09-22 14:19:12,376 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/arribos_expo_ctns?select=%2A "HTTP/2 200 OK"
+2025-09-22 14:19:12,523 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo?select=%2A "HTTP/2 200 OK"
+2025-09-22 14:19:12,675 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_arribos&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-22 14:19:12,823 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_pendiente_desconsolidar&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-22 14:19:12,973 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_remisiones&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-22 14:19:13,095 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_arribos_ctns_expo&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-22 14:19:13,219 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_arribos&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-22 14:19:13,355 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_pendiente_desconsolidar&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-22 14:19:13,475 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_remisiones&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-22 14:19:13,582 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_arribos_ctns_expo&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-22 14:19:13,703 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=id&operation=eq.ERROR&sync_timestamp=gte.2025-09-21T14%3A19%3A13.583765 "HTTP/2 200 OK"
+2025-09-22 14:19:32,976 - INFO - Configuration loaded from trafico_config.json
+2025-09-22 14:19:32,976 - INFO - Running in dry-run mode
+2025-09-22 14:21:28,519 - INFO - Configuration loaded from trafico_config.json
+2025-09-22 14:21:28,586 - INFO - Loaded CSV data from arribos_semana.csv: 108 records
+2025-09-22 14:21:28,609 - INFO - Loaded CSV data from pendiente_desconsolidar.csv: 29 records
+2025-09-22 14:21:28,662 - INFO - Loaded CSV data from remisiones_semana.csv: 78 records
+2025-09-22 14:21:28,680 - INFO - Loaded CSV data from arribos_expo_semana_ctns.csv: 94 records
