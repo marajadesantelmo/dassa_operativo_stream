@@ -138,7 +138,7 @@ else:
     elif page_selection == "Andresito":
         stream_trafico_andresito.show_page_trafico_andresito()
     elif page_selection == "Andresitov2":
-        stream_trafico_andresitov2.show_page_trafico_andresito()
+        stream_trafico_andresitov2.show_page_trafico_andresitov2()
     elif page_selection == "Gestión Choferes":
         stream_choferes.show_page_choferes()
     elif page_selection == "Balanza":
