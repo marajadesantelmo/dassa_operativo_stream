@@ -517,7 +517,7 @@ def show_page_trafico_andresito():
             otros_filtered = filtered_otros
             otros_display = otros_filtered.copy()
             
-            if not otros_display.empty:
+            if not otros_display.empty and 'id' in otros_display.columns:
                 otros_display = otros_display.rename(columns={'Registro': 'Solicitud'})
                 otros_display['ID'] = otros_display['id'].apply(lambda x: f"O{x:03d}")
                 cols = ['ID'] + [col for col in otros_display.columns if col != 'ID']
@@ -532,7 +532,7 @@ def show_page_trafico_andresito():
             )
             
         with col_assign5:
-            if not otros_filtered.empty:
+            if not otros_filtered.empty and 'id' in otros_filtered.columns:
                 st.markdown("**Asignar Chofer**")
                 selected_otros_id = st.selectbox(
                     "Registro:",
