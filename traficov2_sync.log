@@ -334,3 +334,219 @@
 2025-09-19 09:25:34,759 - INFO - Incremental synchronization completed
 2025-09-19 09:25:34,760 - INFO - Overall stats: {'arribos': {'inserted': 0, 'updated': 5, 'errors': 0}, 'pendiente_desconsolidar': {'inserted': 0, 'updated': 0, 'errors': 0}, 'remisiones': {'inserted': 0, 'updated': 0, 'errors': 0}, 'arribos_expo_ctns': {'inserted': 0, 'updated': 0, 'errors': 8}}
 2025-09-19 09:25:34,763 - INFO - Script execution completed successfully
+2025-09-19 09:39:34,612 - INFO - Starting incremental synchronization
+2025-09-19 09:39:35,152 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_arribos&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-19 09:39:35,158 - INFO - Last sync for arribos: 2025-09-19 12:25:33.068825
+2025-09-19 09:39:35,158 - INFO - Starting sync for table: arribos
+2025-09-19 09:39:35,159 - INFO - Fetching data from source table: arribos
+2025-09-19 09:39:35,258 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/arribos?select=%2A "HTTP/2 200 OK"
+2025-09-19 09:39:35,266 - INFO - Fetching existing data from target table: traficov2_arribos
+2025-09-19 09:39:35,361 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos?select=%2A "HTTP/2 200 OK"
+2025-09-19 09:39:35,470 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos?id=eq.1 "HTTP/2 200 OK"
+2025-09-19 09:39:35,574 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-19 09:39:35,575 - INFO - Logged UPDATE operation for traficov2_arribos
+2025-09-19 09:39:35,665 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos?id=eq.2 "HTTP/2 200 OK"
+2025-09-19 09:39:35,758 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-19 09:39:35,759 - INFO - Logged UPDATE operation for traficov2_arribos
+2025-09-19 09:39:36,019 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos?id=eq.3 "HTTP/2 200 OK"
+2025-09-19 09:39:36,128 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-19 09:39:36,131 - INFO - Logged UPDATE operation for traficov2_arribos
+2025-09-19 09:39:36,227 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos?id=eq.10 "HTTP/2 200 OK"
+2025-09-19 09:39:36,338 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-19 09:39:36,340 - INFO - Logged UPDATE operation for traficov2_arribos
+2025-09-19 09:39:36,438 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos?id=eq.4 "HTTP/2 200 OK"
+2025-09-19 09:39:36,533 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-19 09:39:36,534 - INFO - Logged UPDATE operation for traficov2_arribos
+2025-09-19 09:39:36,535 - INFO - Sync completed for arribos. Stats: {'inserted': 0, 'updated': 5, 'errors': 0}
+2025-09-19 09:39:36,647 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_pendiente_desconsolidar&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-19 09:39:36,914 - WARNING - Could not get last sync time for traficov2_pendiente_desconsolidar: Invalid isoformat string: '2025-09-19T12:15:44.08105'
+2025-09-19 09:39:36,915 - INFO - No previous sync found for pendiente_desconsolidar, running full sync
+2025-09-19 09:39:36,916 - INFO - Starting sync for table: pendiente_desconsolidar
+2025-09-19 09:39:36,917 - INFO - Fetching data from source table: pendiente_desconsolidar
+2025-09-19 09:39:37,030 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/pendiente_desconsolidar?select=%2A "HTTP/2 200 OK"
+2025-09-19 09:39:37,033 - INFO - Fetching existing data from target table: traficov2_pendiente_desconsolidar
+2025-09-19 09:39:37,142 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar?select=%2A "HTTP/2 200 OK"
+2025-09-19 09:39:37,158 - INFO - Sync completed for pendiente_desconsolidar. Stats: {'inserted': 0, 'updated': 0, 'errors': 0}
+2025-09-19 09:39:37,252 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_remisiones&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-19 09:39:37,255 - INFO - Last sync for remisiones: 2025-09-19 12:15:50.783802
+2025-09-19 09:39:37,256 - INFO - Starting sync for table: remisiones
+2025-09-19 09:39:37,257 - INFO - Fetching data from source table: remisiones
+2025-09-19 09:39:37,351 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/remisiones?select=%2A "HTTP/2 200 OK"
+2025-09-19 09:39:37,355 - INFO - Fetching existing data from target table: traficov2_remisiones
+2025-09-19 09:39:37,444 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_remisiones?select=%2A "HTTP/2 200 OK"
+2025-09-19 09:39:37,454 - INFO - Sync completed for remisiones. Stats: {'inserted': 0, 'updated': 0, 'errors': 0}
+2025-09-19 09:39:37,545 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_arribos_ctns_expo&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-19 09:39:37,548 - INFO - No previous sync found for arribos_expo_ctns, running full sync
+2025-09-19 09:39:37,548 - INFO - Starting sync for table: arribos_expo_ctns
+2025-09-19 09:39:37,548 - INFO - Fetching data from source table: arribos_expo_ctns
+2025-09-19 09:39:37,642 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/arribos_expo_ctns?select=%2A "HTTP/2 200 OK"
+2025-09-19 09:39:37,644 - INFO - Aggregating arribos_expo_ctns data by booking
+2025-09-19 09:39:37,646 - WARNING - No 'id' column found in arribos_expo_ctns, using row index as source reference
+2025-09-19 09:39:37,667 - INFO - Fetching existing data from target table: traficov2_arribos_ctns_expo
+2025-09-19 09:39:37,758 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo?select=%2A "HTTP/2 200 OK"
+2025-09-19 09:39:37,867 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo "HTTP/2 201 Created"
+2025-09-19 09:39:37,953 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-19 09:39:37,954 - INFO - Logged INSERT operation for traficov2_arribos_ctns_expo
+2025-09-19 09:39:38,124 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo "HTTP/2 201 Created"
+2025-09-19 09:39:38,210 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-19 09:39:38,212 - INFO - Logged INSERT operation for traficov2_arribos_ctns_expo
+2025-09-19 09:39:38,318 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo "HTTP/2 201 Created"
+2025-09-19 09:39:38,404 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-19 09:39:38,407 - INFO - Logged INSERT operation for traficov2_arribos_ctns_expo
+2025-09-19 09:39:38,515 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo "HTTP/2 201 Created"
+2025-09-19 09:39:38,609 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-19 09:39:38,612 - INFO - Logged INSERT operation for traficov2_arribos_ctns_expo
+2025-09-19 09:39:38,704 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo "HTTP/2 201 Created"
+2025-09-19 09:39:38,802 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-19 09:39:38,803 - INFO - Logged INSERT operation for traficov2_arribos_ctns_expo
+2025-09-19 09:39:38,890 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo "HTTP/2 201 Created"
+2025-09-19 09:39:38,989 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-19 09:39:38,992 - INFO - Logged INSERT operation for traficov2_arribos_ctns_expo
+2025-09-19 09:39:39,081 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo "HTTP/2 201 Created"
+2025-09-19 09:39:39,177 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-19 09:39:39,190 - INFO - Logged INSERT operation for traficov2_arribos_ctns_expo
+2025-09-19 09:39:39,283 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo "HTTP/2 201 Created"
+2025-09-19 09:39:39,376 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-19 09:39:39,377 - INFO - Logged INSERT operation for traficov2_arribos_ctns_expo
+2025-09-19 09:39:39,377 - INFO - Sync completed for arribos_expo_ctns. Stats: {'inserted': 8, 'updated': 0, 'errors': 0}
+2025-09-19 09:39:39,377 - INFO - Incremental synchronization completed
+2025-09-19 09:39:39,379 - INFO - Overall stats: {'arribos': {'inserted': 0, 'updated': 5, 'errors': 0}, 'pendiente_desconsolidar': {'inserted': 0, 'updated': 0, 'errors': 0}, 'remisiones': {'inserted': 0, 'updated': 0, 'errors': 0}, 'arribos_expo_ctns': {'inserted': 8, 'updated': 0, 'errors': 0}}
+2025-09-19 09:39:39,379 - INFO - Script execution completed successfully
+2025-09-22 08:54:37,586 - INFO - Starting incremental synchronization
+2025-09-22 08:54:38,165 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_arribos&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-22 08:54:38,185 - INFO - Last sync for arribos: 2025-09-19 12:39:36.512719
+2025-09-22 08:54:38,187 - INFO - Starting sync for table: arribos
+2025-09-22 08:54:38,188 - INFO - Fetching data from source table: arribos
+2025-09-22 08:54:38,382 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/arribos?select=%2A "HTTP/2 200 OK"
+2025-09-22 08:54:38,394 - INFO - Fetching existing data from target table: traficov2_arribos
+2025-09-22 08:54:38,520 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos?select=%2A "HTTP/2 200 OK"
+2025-09-22 08:54:38,761 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos "HTTP/2 201 Created"
+2025-09-22 08:54:38,878 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:38,880 - INFO - Logged INSERT operation for traficov2_arribos
+2025-09-22 08:54:38,997 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos "HTTP/2 201 Created"
+2025-09-22 08:54:39,122 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:39,124 - INFO - Logged INSERT operation for traficov2_arribos
+2025-09-22 08:54:39,320 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos "HTTP/2 201 Created"
+2025-09-22 08:54:39,470 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:39,471 - INFO - Logged INSERT operation for traficov2_arribos
+2025-09-22 08:54:39,471 - INFO - Sync completed for arribos. Stats: {'inserted': 3, 'updated': 0, 'errors': 0}
+2025-09-22 08:54:39,582 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_pendiente_desconsolidar&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-22 08:54:39,583 - WARNING - Could not get last sync time for traficov2_pendiente_desconsolidar: Invalid isoformat string: '2025-09-19T12:15:44.08105'
+2025-09-22 08:54:39,584 - INFO - No previous sync found for pendiente_desconsolidar, running full sync
+2025-09-22 08:54:39,584 - INFO - Starting sync for table: pendiente_desconsolidar
+2025-09-22 08:54:39,584 - INFO - Fetching data from source table: pendiente_desconsolidar
+2025-09-22 08:54:39,778 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/pendiente_desconsolidar?select=%2A "HTTP/2 200 OK"
+2025-09-22 08:54:39,783 - INFO - Fetching existing data from target table: traficov2_pendiente_desconsolidar
+2025-09-22 08:54:39,875 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar?select=%2A "HTTP/2 200 OK"
+2025-09-22 08:54:39,993 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar?id=eq.12 "HTTP/2 200 OK"
+2025-09-22 08:54:40,173 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:40,175 - INFO - Logged UPDATE operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:40,345 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar?id=eq.5 "HTTP/2 200 OK"
+2025-09-22 08:54:40,437 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:40,438 - INFO - Logged UPDATE operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:40,542 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar?id=eq.23 "HTTP/2 200 OK"
+2025-09-22 08:54:40,658 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:40,658 - INFO - Logged UPDATE operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:40,841 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar?id=eq.14 "HTTP/2 200 OK"
+2025-09-22 08:54:41,000 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:41,002 - INFO - Logged UPDATE operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:41,098 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar?id=eq.17 "HTTP/2 200 OK"
+2025-09-22 08:54:41,182 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:41,182 - INFO - Logged UPDATE operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:41,285 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar "HTTP/2 201 Created"
+2025-09-22 08:54:41,369 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:41,371 - INFO - Logged INSERT operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:41,467 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar "HTTP/2 201 Created"
+2025-09-22 08:54:41,559 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:41,560 - INFO - Logged INSERT operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:41,638 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar "HTTP/2 201 Created"
+2025-09-22 08:54:41,735 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:41,735 - INFO - Logged INSERT operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:41,837 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar?id=eq.18 "HTTP/2 200 OK"
+2025-09-22 08:54:41,917 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:41,917 - INFO - Logged UPDATE operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:42,015 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar?id=eq.4 "HTTP/2 200 OK"
+2025-09-22 08:54:42,114 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:42,115 - INFO - Logged UPDATE operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:42,241 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar?id=eq.20 "HTTP/2 200 OK"
+2025-09-22 08:54:42,330 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:42,331 - INFO - Logged UPDATE operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:42,418 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar "HTTP/2 201 Created"
+2025-09-22 08:54:42,513 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:42,515 - INFO - Logged INSERT operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:42,635 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar?id=eq.11 "HTTP/2 200 OK"
+2025-09-22 08:54:42,733 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:42,735 - INFO - Logged UPDATE operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:42,829 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar?id=eq.27 "HTTP/2 200 OK"
+2025-09-22 08:54:42,928 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:42,933 - INFO - Logged UPDATE operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:43,026 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar?id=eq.28 "HTTP/2 200 OK"
+2025-09-22 08:54:43,109 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:43,110 - INFO - Logged UPDATE operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:43,202 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_pendiente_desconsolidar "HTTP/2 201 Created"
+2025-09-22 08:54:43,306 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:43,308 - INFO - Logged INSERT operation for traficov2_pendiente_desconsolidar
+2025-09-22 08:54:43,309 - INFO - Sync completed for pendiente_desconsolidar. Stats: {'inserted': 5, 'updated': 11, 'errors': 0}
+2025-09-22 08:54:43,413 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_remisiones&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-22 08:54:43,415 - INFO - Last sync for remisiones: 2025-09-19 12:15:50.783802
+2025-09-22 08:54:43,415 - INFO - Starting sync for table: remisiones
+2025-09-22 08:54:43,415 - INFO - Fetching data from source table: remisiones
+2025-09-22 08:54:43,513 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/remisiones?select=%2A "HTTP/2 200 OK"
+2025-09-22 08:54:43,515 - INFO - Fetching existing data from target table: traficov2_remisiones
+2025-09-22 08:54:43,617 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_remisiones?select=%2A "HTTP/2 200 OK"
+2025-09-22 08:54:43,731 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_remisiones "HTTP/2 201 Created"
+2025-09-22 08:54:43,817 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:43,818 - INFO - Logged INSERT operation for traficov2_remisiones
+2025-09-22 08:54:43,909 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_remisiones?id=eq.33 "HTTP/2 200 OK"
+2025-09-22 08:54:43,999 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:44,001 - INFO - Logged UPDATE operation for traficov2_remisiones
+2025-09-22 08:54:44,090 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_remisiones "HTTP/2 201 Created"
+2025-09-22 08:54:44,182 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:44,183 - INFO - Logged INSERT operation for traficov2_remisiones
+2025-09-22 08:54:44,289 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_remisiones "HTTP/2 201 Created"
+2025-09-22 08:54:44,370 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:44,371 - INFO - Logged INSERT operation for traficov2_remisiones
+2025-09-22 08:54:44,461 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_remisiones "HTTP/2 201 Created"
+2025-09-22 08:54:44,561 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:44,563 - INFO - Logged INSERT operation for traficov2_remisiones
+2025-09-22 08:54:44,665 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_remisiones?id=eq.32 "HTTP/2 200 OK"
+2025-09-22 08:54:44,754 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:44,755 - INFO - Logged UPDATE operation for traficov2_remisiones
+2025-09-22 08:54:44,846 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_remisiones "HTTP/2 201 Created"
+2025-09-22 08:54:44,937 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:44,938 - INFO - Logged INSERT operation for traficov2_remisiones
+2025-09-22 08:54:44,940 - INFO - Sync completed for remisiones. Stats: {'inserted': 5, 'updated': 2, 'errors': 0}
+2025-09-22 08:54:45,029 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log?select=sync_timestamp&table_name=eq.traficov2_arribos_ctns_expo&order=sync_timestamp.desc&limit=1 "HTTP/2 200 OK"
+2025-09-22 08:54:45,030 - INFO - Last sync for arribos_expo_ctns: 2025-09-19 12:39:39.355352
+2025-09-22 08:54:45,030 - INFO - Starting sync for table: arribos_expo_ctns
+2025-09-22 08:54:45,030 - INFO - Fetching data from source table: arribos_expo_ctns
+2025-09-22 08:54:45,122 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/arribos_expo_ctns?select=%2A "HTTP/2 200 OK"
+2025-09-22 08:54:45,124 - INFO - Aggregating arribos_expo_ctns data by booking
+2025-09-22 08:54:45,214 - WARNING - No 'id' column found in arribos_expo_ctns, using row index as source reference
+2025-09-22 08:54:45,706 - INFO - Fetching existing data from target table: traficov2_arribos_ctns_expo
+2025-09-22 08:54:45,802 - INFO - HTTP Request: GET https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo?select=%2A "HTTP/2 200 OK"
+2025-09-22 08:54:45,920 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo?id=eq.2 "HTTP/2 200 OK"
+2025-09-22 08:54:46,007 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:46,008 - INFO - Logged UPDATE operation for traficov2_arribos_ctns_expo
+2025-09-22 08:54:46,098 - INFO - HTTP Request: PATCH https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo?id=eq.3 "HTTP/2 200 OK"
+2025-09-22 08:54:46,186 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:46,186 - INFO - Logged UPDATE operation for traficov2_arribos_ctns_expo
+2025-09-22 08:54:46,272 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo "HTTP/2 201 Created"
+2025-09-22 08:54:46,369 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:46,371 - INFO - Logged INSERT operation for traficov2_arribos_ctns_expo
+2025-09-22 08:54:46,454 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo "HTTP/2 201 Created"
+2025-09-22 08:54:46,546 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:46,547 - INFO - Logged INSERT operation for traficov2_arribos_ctns_expo
+2025-09-22 08:54:46,638 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo "HTTP/2 201 Created"
+2025-09-22 08:54:46,735 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:46,737 - INFO - Logged INSERT operation for traficov2_arribos_ctns_expo
+2025-09-22 08:54:46,833 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo "HTTP/2 201 Created"
+2025-09-22 08:54:46,934 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:46,935 - INFO - Logged INSERT operation for traficov2_arribos_ctns_expo
+2025-09-22 08:54:47,030 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_arribos_ctns_expo "HTTP/2 201 Created"
+2025-09-22 08:54:47,120 - INFO - HTTP Request: POST https://tpdzwpsoulnxqhrwishl.supabase.co/rest/v1/traficov2_sync_log "HTTP/2 201 Created"
+2025-09-22 08:54:47,121 - INFO - Logged INSERT operation for traficov2_arribos_ctns_expo
+2025-09-22 08:54:47,121 - INFO - Sync completed for arribos_expo_ctns. Stats: {'inserted': 5, 'updated': 2, 'errors': 0}
+2025-09-22 08:54:47,123 - INFO - Incremental synchronization completed
+2025-09-22 08:54:47,123 - INFO - Overall stats: {'arribos': {'inserted': 3, 'updated': 0, 'errors': 0}, 'pendiente_desconsolidar': {'inserted': 5, 'updated': 11, 'errors': 0}, 'remisiones': {'inserted': 5, 'updated': 2, 'errors': 0}, 'arribos_expo_ctns': {'inserted': 5, 'updated': 2, 'errors': 0}}
+2025-09-22 08:54:47,124 - INFO - Script execution completed successfully
