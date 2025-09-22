@@ -6,3 +6,7 @@ streamlit_cookies_manager
 fpdf
 matplotlib
 supabase
+# Optional dependencies for enhanced features
+# pyodbc  # Uncomment for SQL Server support
+# psutil  # For system monitoring
+# schedule  # For scheduled runs
