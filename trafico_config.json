@@ -1,0 +1,58 @@
+{
+    "csv_sources": {
+        "enabled": true,
+        "data_path": "./data/",
+        "files": {
+            "arribos_semana": "arribos_semana.csv",
+            "pendiente_desconsolidar": "pendiente_desconsolidar.csv",
+            "remisiones_semana": "remisiones_semana.csv",
+            "arribos_expo_ctns": "arribos_expo_semana_ctns.csv"
+        }
+    },
+    "sql_server": {
+        "enabled": false,
+        "server": "101.44.8.58\\SQLEXPRESS_X86,1436",
+        "database": "DEPOFIS",
+        "schema": "DASSA",
+        "table": "Salidas",
+        "username": "",
+        "password": ""
+    },
+    "sync_settings": {
+        "arribos": {
+            "batch_size": 1000,
+            "validation_enabled": true,
+            "retry_attempts": 3
+        },
+        "pendiente_desconsolidar": {
+            "batch_size": 500,
+            "status_validation": true,
+            "retry_attempts": 3
+        },
+        "remisiones": {
+            "batch_size": 1000,
+            "retry_attempts": 3
+        },
+        "arribos_expo_ctns": {
+            "batch_size": 500,
+            "container_assignment": true,
+            "quantity_expansion": true,
+            "retry_attempts": 3
+        }
+    },
+    "business_rules": {
+        "container_validation": {
+            "required_fields": ["Contenedor", "Booking"],
+            "container_format_regex": "^[A-Z]{4}[0-9]{7}$"
+        },
+        "booking_validation": {
+            "required_fields": ["Booking", "Cliente"],
+            "booking_format_regex": "^[A-Z0-9]{8,12}$"
+        }
+    },
+    "archival": {
+        "enabled": false,
+        "days_to_keep": 365,
+        "archive_tables": true
+    }
+}
