@@ -1,4 +1,4 @@
-Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,Chofer,Dimension
-Exolgan,07:00,TGCU-525859-5,Xiadex Srl,NBOE25016225,HC,T,-,09:45 Arribado,Marcelo Peril,70
-Trp - Terminales 1-2-3,11:00,BSIU-931571-0,Bisora Group Sa,HDMUSZPM60827700,HC,T,-,13:37 Arribado,Adrian Alvarez,70
-Exolgan,13:00,MSBU-729385-5,Chelatex Sas,NBOE25016249,HC,T,01:21,Pendiente arribo,Marcelo Porco,70
+Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Dimension,Oper.,Tiempo,Estado,Chofer
+Exolgan,07:00,TGCU-525859-5,Xiadex Srl,NBOE25016225,HC,70,T,-,09:45 Arribado,Marcelo Peril
+Trp - Terminales 1-2-3,11:00,BSIU-931571-0,Bisora Group Sa,HDMUSZPM60827700,HC,70,T,-,13:37 Arribado,Adrian Alvarez
+Exolgan,13:00,MSBU-729385-5,Chelatex Sas,NBOE25016249,HC,70,T,01:36,Pendiente arribo,Marcelo Porco

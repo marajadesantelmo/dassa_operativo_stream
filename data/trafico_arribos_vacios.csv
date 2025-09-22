@@ -1,22 +1,25 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-37818,22/09,Hdv Leather S.R.L.,ONEU-180488-5,TRP,HC,TD,******************  ,BUEF11038600,1,TRANSPORTE DEL CLIENTE        ,Alvarez,08:50,2025-10-13,,BUEF11038600        ,08:50 Arribado
-37781,22/09,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG14245274,0,                              ,,     ,2025-10-10,,                    ,Pendiente
-37799,22/09,Edelweiss Spedition Srl,-,10080,DR,TD,                    ,38413602,0,                              ,,     ,2025-10-10,Roman Bartomeo,                    ,Pendiente
-37827,22/09,Pelama Chubut S.A.,OOCU-699585-5,10077,HC,TD,********************,COSU6430265970,1,TRANSPORTE DEL CLIENTE        ,Bollota,11:52,2025-10-03,,                    ,11:52 Arribado
-37828,22/09,Pelama Chubut S.A.,CSNU-848120-0,10077,HC,TD,********************,COSU6430265970,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,11:59,2025-10-03,,                    ,11:59 Arribado
-37829,22/09,Pelama Chubut S.A.,-,10077,HC,TD,                    ,COSU6430265970,0,                              ,,     ,2025-10-03,,                    ,Pendiente
-37830,22/09,Pelama Chubut S.A.,-,10077,HC,TD,                    ,COSU6430265970,0,                              ,,     ,2025-10-03,,                    ,Pendiente
-37831,22/09,Pelama Chubut S.A.,-,10077,HC,TD,                    ,COSU6430265970,0,                              ,,     ,2025-10-03,,                    ,Pendiente
 37823,22/09,Alimentaria Sa,-,10080,DR,TD,                    ,12523053,0,                              ,,     ,2025-10-13,,                    ,Pendiente
-37780,22/09,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG14245274,0,                              ,,     ,2025-10-10,,                    ,Pendiente
-37782,22/09,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG14245274,0,                              ,,     ,2025-10-10,,                    ,Pendiente
-37142,22/09,Lawter Argentina S.A.,MSKU-664504-4,10080,DR,TD,*************       ,258940403,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,11:05,2025-09-22,,                    ,11:05 Arribado
-37143,22/09,Lawter Argentina S.A.,MRKU-097933-5,10080,DR,TD,********************,258940403,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:07,2025-09-22,,                    ,11:07 Arribado
+37781,22/09,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG14245274,0,                              ,,     ,2025-10-10,,                    ,Pendiente
+37780,22/09,Hdv Leather S.R.L.,MEDU-747459-7,9,HC,TD,FX32917476          ,EBKG14245274,1,TRANSPORTE DEL CLIENTE        ,Bollota,13:49,2025-10-10,,                    ,13:49 Arribado
+37779,22/09,Hdv Leather S.R.L.,MSDU-570310-9,9,HC,TD,FX32917497          ,EBKG14245274,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Martin,13:45,2025-10-10,,                    ,13:45 Arribado
+37773,22/09,Lawter Argentina S.A.,MRKU-095619-7,10080,DR,TD,******************* ,258647923,1,TRANSPORTE DEL CLIENTE        ,Benitez,13:34,2025-09-22,,                    ,13:34 Arribado
 37772,22/09,Lawter Argentina S.A.,MRKU-032206-3,10080,HC,TD,***************     ,258647923,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,10:50,2025-09-22,,                    ,10:50 Arribado
-37773,22/09,Lawter Argentina S.A.,-,10080,HC,TD,                    ,258647923,0,                              ,,     ,2025-09-22,,                    ,Pendiente
-37779,22/09,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG14245274,0,                              ,,     ,2025-10-10,,                    ,Pendiente
-37800,23/09,Mercovan Argentina S.A.,-,10081,HC,TD,                    ,EBKG14130002,0,                              ,,     ,2025-10-10,Francisco De Calheiros,                    ,Pendiente
+37143,22/09,Lawter Argentina S.A.,MRKU-097933-5,10080,DR,TD,********************,258940403,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:07,2025-09-22,,                    ,11:07 Arribado
+37142,22/09,Lawter Argentina S.A.,MSKU-664504-4,10080,DR,TD,*************       ,258940403,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,11:05,2025-09-22,,                    ,11:05 Arribado
+37782,22/09,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG14245274,0,                              ,,     ,2025-10-10,,                    ,Pendiente
+37818,22/09,Hdv Leather S.R.L.,ONEU-180488-5,TRP,HC,TD,******************  ,BUEF11038600,1,TRANSPORTE DEL CLIENTE        ,Alvarez,08:50,2025-10-13,,BUEF11038600        ,08:50 Arribado
+37831,22/09,Pelama Chubut S.A.,-,10077,HC,TD,                    ,COSU6430265970,0,                              ,,     ,2025-10-03,,                    ,Pendiente
+37830,22/09,Pelama Chubut S.A.,-,10077,HC,TD,                    ,COSU6430265970,0,                              ,,     ,2025-10-03,,                    ,Pendiente
+37829,22/09,Pelama Chubut S.A.,-,10077,HC,TD,                    ,COSU6430265970,0,                              ,,     ,2025-10-03,,                    ,Pendiente
+37828,22/09,Pelama Chubut S.A.,CSNU-848120-0,10077,HC,TD,********************,COSU6430265970,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,11:59,2025-10-03,,                    ,11:59 Arribado
+37827,22/09,Pelama Chubut S.A.,OOCU-699585-5,10077,HC,TD,********************,COSU6430265970,1,TRANSPORTE DEL CLIENTE        ,Bollota,11:52,2025-10-03,,                    ,11:52 Arribado
+37799,22/09,Edelweiss Spedition Srl,-,10080,DR,TD,                    ,38413602,0,                              ,,     ,2025-10-10,Roman Bartomeo,                    ,Pendiente
+37837,23/09,Capilatis S.A.,-,10082,DR,TD,                    ,SNG0478106,0,                              ,,     ,2025-10-13,,                    ,Pendiente
+37835,23/09,Capilatis S.A.,-,10082,HC,TD,                    ,SNG0478106,0,                              ,,     ,2025-10-13,,                    ,Pendiente
 37825,23/09,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,EBKG14203854,0,                              ,,     ,2025-10-13,,                    ,Pendiente
-37824,23/09,Litoral Citrus S A,-,10081,DR,TD,                    ,153IAR0652268,0,                              ,,     ,2025-10-13,,                    ,Pendiente
 37826,23/09,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,EBKG14203854,0,                              ,,     ,2025-10-13,,                    ,Pendiente
+37824,23/09,Litoral Citrus S A,-,10081,DR,TD,                    ,153IAR0652268,0,                              ,,     ,2025-10-13,,                    ,Pendiente
+37836,23/09,Capilatis S.A.,-,10082,HC,TD,                    ,SNG0478106,0,                              ,,     ,2025-10-13,,                    ,Pendiente
+37800,23/09,Mercovan Argentina S.A.,-,10081,HC,TD,                    ,EBKG14130002,0,                              ,,     ,2025-10-10,Francisco De Calheiros,                    ,Pendiente
 37778,25/09,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,48140095,0,                              ,,     ,2025-10-10,Francisco Infante,                    ,Pendiente
