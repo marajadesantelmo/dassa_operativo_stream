@@ -33,7 +33,7 @@ def fetch_data_trafico_andresitov2():
     pendiente_desconsolidar['Vto. Vacio'] = pd.to_datetime(pendiente_desconsolidar['Vto. Vacio'], format='%d/%m', errors='coerce')
     pendiente_desconsolidar = pendiente_desconsolidar.sort_values(by='Vto. Vacio')
     pendiente_desconsolidar['Vto. Vacio'] = pendiente_desconsolidar['Vto. Vacio'].dt.strftime('%d/%m')
-    arribos_expo_ctns = fetch_table_data("traficov2_arribos_expo_ctns")   
+    arribos_expo_ctns = fetch_table_data("traficov2_arribos_ctns_expo")   
     arribos_expo_ctns['Registro'] = pd.to_datetime(arribos_expo_ctns['fecha_registro']) - pd.Timedelta(hours=3)
     arribos_expo_ctns['Registro'] = arribos_expo_ctns['Registro'].dt.strftime('%d/%m/%Y %H:%M')
     arribos_expo_ctns = arribos_expo_ctns.drop(columns=['fecha_registro', 'key'], errors='ignore')
@@ -346,7 +346,7 @@ def show_page_trafico_andresitov2():
                 if st.button("Asignar", key="assign_expo"):
                     if chofer_name_expo.strip():
                         try:
-                            update_data("traficov2_arribos_expo_ctns", selected_expo_id, {"chofer": chofer_name_expo.strip()})
+                            update_data("traficov2_arribos_ctns_expo", selected_expo_id, {"chofer": chofer_name_expo.strip()})
                             st.success(f"Chofer asignado al registro ID {selected_expo_id}")
                             st.cache_data.clear()
                             st.rerun()
@@ -360,7 +360,7 @@ def show_page_trafico_andresitov2():
                 if st.button("Asignar Observaciones", key="assign_observaciones_expo"):
                     if observaciones_expo.strip():
                         try:
-                            update_data("traficov2_arribos_expo_ctns", selected_expo_id, {"Observaciones": observaciones_expo.strip()})
+                            update_data("traficov2_arribos_ctns_expo", selected_expo_id, {"Observaciones": observaciones_expo.strip()})
                             st.success(f"Observaciones asignadas al registro ID {selected_expo_id}")
                             st.cache_data.clear()
                             st.rerun()
@@ -601,7 +601,7 @@ def show_page_trafico_andresitov2():
     table_options = {
         "Traslados IMPO": "traficov2_arribos",
         "Vacíos IMPO a devolver": "traficov2_pendiente_desconsolidar", 
-        "Retiros Vacíos EXPO": "traficov2_arribos_expo_ctns",
+        "Retiros Vacíos EXPO": "traficov2_arribos_ctns_expo",
         "Remisiones DASSA a puerto": "traficov2_remisiones",
         "Otros": "traficov2_otros"
     }
@@ -619,7 +619,7 @@ def show_page_trafico_andresitov2():
         df_columns = arribos.columns.tolist()
     elif selected_table == "traficov2_pendiente_desconsolidar":
         df_columns = pendiente_desconsolidar.columns.tolist()
-    elif selected_table == "traficov2_arribos_expo_ctns":
+    elif selected_table == "traficov2_arribos_ctns_expo":
         df_columns = arribos_expo_ctns.columns.tolist()
     elif selected_table == "traficov2_otros":
         if not otros.empty:
