@@ -46,6 +46,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-05-29,34043,,Mercovan Argentina S.A.,25001PE01,"CALETRIO, REBECCA",Arribado
 2025-05-26,33774,,Lift Van Int. Co S.A,PE01000186P,JOAQUIN IGNACIO ESANDI,Arribado
 2025-05-27,33884,,Lift Van Int. Co S.A,254310061,DANIEL VIOLA,Arribado
+2025-09-22,37832,,Lift Van Int. Co S.A,259560878,GERARDO JIMENEZ,Arribado
+2025-09-22,37833,,Lift Van Int. Co S.A,259444694,ERNESTO PUCHE,Pendiente
 2025-09-16,37659,,Lift Van Int. Co S.A,90503487,MENGYA ZHOU,Arribado
 2025-09-19,37715,,Lift Van Int. Co S.A,10387648,ERNEST TE,Arribado
 2025-09-19,37725,,Lift Van Int. Co S.A,48140095,FRANCISCO INFANTE,Arribado
@@ -265,8 +267,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-09-15,37462,,Pelama Chubut S.A.,25001EC01,,Arribado
 2025-09-19,37575,,Pelama Chubut S.A.,25001EC01,,Arribado
 2025-09-29,37577,,Pelama Chubut S.A.,25001EC01,,Pendiente
-2025-09-22,37578,,Pelama Chubut S.A.,COSU6430265970,COSU6430265970 / 5X40HC,Pendiente
-2025-09-22,37579,,Pelama Chubut S.A.,COSU6430265970,COSU6430265970 / 5X40HC,Pendiente
+2025-09-22,37578,,Pelama Chubut S.A.,COSU6430265970,COSU6430265970 / 5X40HC,Arribado
+2025-09-22,37579,,Pelama Chubut S.A.,COSU6430265970,COSU6430265970 / 5X40HC,Arribado
 2025-09-01,36999,,Pelama Chubut S.A.,25001EC01,,Arribado
 2025-09-08,37199,,Pelama Chubut S.A.,25001EC01,,Arribado
 2025-08-18,36692,,Pelama Chubut S.A.,258267536,258267536,Arribado
@@ -394,6 +396,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-07-15,35384,,Alimentaria Sa,255766293,,Pendiente
 2025-09-17,37695,,Alimentaria Sa,BUA0349516,E-527 // BUA0349516,Arribado
 2025-09-18,37769,,Alimentaria Sa,12523053,E-427C //,Pendiente
+2025-09-22,37834,,Alimentaria Sa,12523053,E-427C,Pendiente
 2025-09-15,37465,,Alimentaria Sa,42424015,E-427B.,Arribado
 2025-09-15,37466,,Alimentaria Sa,75526877,E-519 / 2X20,Arribado
 2025-09-08,37342,,Alimentaria Sa,BUA0349544,BUA0349544 / 5X20,Arribado
@@ -851,8 +854,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-09-18,37710,,Lawter Argentina S.A.,BUA0350794,IMO 4.1  REF 5154958,Arribado
 2025-09-08,37286,,Lawter Argentina S.A.,153IAR0651167,REF 169596/169597/169598,Arribado
 2025-09-08,37287,,Lawter Argentina S.A.,153IAR0651167,REF 169596/169597/169598,Arribado
-2025-09-04,37122,,Lawter Argentina S.A.,258940403,REF  5154539/5154540,Pendiente
-2025-09-04,37123,,Lawter Argentina S.A.,258940403,REF  5154539/5154540,Pendiente
+2025-09-04,37122,,Lawter Argentina S.A.,258940403,REF  5154539/5154540,Arribado
+2025-09-04,37123,,Lawter Argentina S.A.,258940403,REF  5154539/5154540,Arribado
 2025-09-08,37285,,Lawter Argentina S.A.,153IAR0651167,REF 169596/169597/169598,Arribado
 2025-09-01,36970,,Lawter Argentina S.A.,258417597,REF 5154573,Arribado
 2025-08-26,36868,,Lawter Argentina S.A.,ZIMUBUE9042951,REF 4700170028,Arribado
