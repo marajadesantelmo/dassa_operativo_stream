@@ -82,7 +82,7 @@ def show_page_trafico_andresitov2():
     st.warning(
         "⚠️ Esta página está en desarrollo. Algunas funcionalidades pueden no estar disponibles o no funcionar como se espera.")
     st.markdown(
-        "<h1 style='text-align: left; color: #2c3e50; margin-bottom: 0;'>Orden de Tráfico</h1>",
+        "<h1 style='text-align: left; color: #2c3e50; margin-bottom: 0;'>Orden de Tráfico v2</h1>",
         unsafe_allow_html=True)
     st.markdown(
         "<div style='text-align: right; margin-top: -40px;'><a href='https://docs.google.com/spreadsheets/d/129PyI0APvtPYEYwJIsDf-Uzy2YQR-0ojj-IG2etHCYs' target='_blank'>Ver planilla histórica en Google Sheets</a></div>",
