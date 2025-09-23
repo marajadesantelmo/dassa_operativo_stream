@@ -38,12 +38,12 @@ def fetch_data_plazoleta():
     ctns_impo_plz = existente_plz.shape[0]
     ctns_expo_plz = listos_para_remitir.shape[0] + vacios_disponibles.shape[0]
     ctns_nac = cont_nac.shape[0]
-    disponibles = 220 - ctns_impo_plz - ctns_expo_plz - ctns_nac
+    disponibles = 264 - ctns_impo_plz - ctns_expo_plz - ctns_nac
     tabla_resumen = pd.DataFrame({
         'Contenedor': ['Importación', 'Exportación', 'Nacional', 'Disponibles'],
         'Cantidad': [ctns_impo_plz, ctns_expo_plz, ctns_nac, disponibles]
     })
-    tabla_resumen['%'] = (tabla_resumen['Cantidad'] / 220) * 100
+    tabla_resumen['%'] = (tabla_resumen['Cantidad'] / 264) * 100
     tabla_resumen['%'] = tabla_resumen['%'].round(0).astype(str) + '%'
 
     return (arribos, pendiente_desconsolidar, existente_plz, existente_plz_clientes, cont_nac, cont_nac_clientes, arribos_semana, 
