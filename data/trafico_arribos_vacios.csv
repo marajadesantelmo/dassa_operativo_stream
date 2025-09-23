@@ -3,6 +3,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 37826,23/09,Henn Y Cia S.R.L.,MEDU-762818-3,Exolgan,HC,TD,FX32916473          ,EBKG14203854,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,11:07,2025-10-13,,                    ,11:07 Arribado
 37825,23/09,Henn Y Cia S.R.L.,TCNU-236150-1,Exolgan,HC,TD,FX32916424          ,EBKG14203854,1,TRANSPORTE DEL CLIENTE        ,Benitez,11:04,2025-10-13,,                    ,11:04 Arribado
 37851,23/09,Chemotecnica Sa,TGHU-520978-9,10080,DR,TD,********************,93197163,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,11:11,2025-10-13,,                    ,11:11 Arribado
+37824,23/09,Litoral Citrus S A,TRHU-242290-9,10081,DR,TD,FX32911757          ,153IAR0652268,1,TRANSPORTE DEL CLIENTE        ,Alvarez,11:47,2025-10-13,,                    ,11:47 Arribado
 37836,23/09,Capilatis S.A.,-,10082,HC,TD,                    ,SNG0478106,0,                              ,,     ,2025-10-13,,                    ,Pendiente
 37835,23/09,Capilatis S.A.,ECMU-709386-7,10082,HC,TD,R8691382            ,SNG0478106,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Martin,11:22,2025-10-13,,                    ,11:22 Arribado
 37862,23/09,Hilado Sa,TCKU-612515-6,0,HC,TD,                    ,340500035112,1,TRANSPORTE DEL CLIENTE        ,.,11:22,2025-10-14,,                    ,11:22 Arribado
@@ -12,8 +13,6 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 37856,23/09,Termoplasticos Del Sur Sa,MSMU-238178-8,Exolgan,DR,TD,FX32916432          ,EBKG14261806,1,TRANSPORTE DEL CLIENTE        ,.,10:01,2025-10-14,,                    ,10:01 Arribado
 37852,23/09,Lift Van Int. Co S.A,MRKU-436132-4,10080,HC,TD,******************  ,259005302,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:53,2025-10-13,Mike Jaska,                    ,11:53 Arribado
 37861,23/09,Hilado Sa,TXGU-613927-0,0,HC,TD,                    ,340500035112,1,TRANSPORTE DEL CLIENTE        ,.,11:22,2025-10-14,,                    ,11:22 Arribado
-37824,23/09,Litoral Citrus S A,TRHU-242290-9,10081,DR,TD,FX32911757          ,153IAR0652268,1,TRANSPORTE DEL CLIENTE        ,Alvarez,11:47,2025-10-13,,                    ,11:47 Arribado
-37872,24/09,Pallets Jauregui Sociedad Anon...,-,0,HC,TD,                    ,153IAR0651850,0,                              ,,     ,2025-10-14,,                    ,Pendiente
 37843,24/09,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,10387648,0,                              ,,     ,2025-10-13,Ernest Te,                    ,Pendiente
 37864,24/09,Borax Argentina S A,-,9,DR,TD,                    ,EBKG14264133,0,                              ,,     ,2025-10-14,,                    ,Pendiente
 37867,24/09,Pallets Jauregui Sociedad Anon...,-,0,HC,TD,                    ,153IAR0651850,0,                              ,,     ,2025-10-14,,                    ,Pendiente
@@ -21,4 +20,6 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 37869,24/09,Pallets Jauregui Sociedad Anon...,-,0,HC,TD,                    ,153IAR0651850,0,                              ,,     ,2025-10-14,,                    ,Pendiente
 37870,24/09,Pallets Jauregui Sociedad Anon...,-,0,HC,TD,                    ,153IAR0651850,0,                              ,,     ,2025-10-14,,                    ,Pendiente
 37871,24/09,Pallets Jauregui Sociedad Anon...,-,0,HC,TD,                    ,153IAR0651850,0,                              ,,     ,2025-10-14,,                    ,Pendiente
+37872,24/09,Pallets Jauregui Sociedad Anon...,-,0,HC,TD,                    ,153IAR0651850,0,                              ,,     ,2025-10-14,,                    ,Pendiente
+37880,24/09,Lasfor Srl,-,10080,HC,TD,                    ,29756636,0,                              ,,     ,2025-10-14,,                    ,Pendiente
 37778,25/09,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,48140095,0,                              ,,     ,2025-10-10,Francisco Infante,                    ,Pendiente
