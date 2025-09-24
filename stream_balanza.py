@@ -104,26 +104,17 @@ def show_page_balanza(apply_mudanceras_filter=False):
     
     st.title("Histórico de Pesadas")
     
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2 = st.columns(2)
     with col1:
-        # Set default start date as 01/01/2025 and end date as 31/12 of current year
-        current_year = datetime.now().year
-        start_date_historico = pd.to_datetime(st.date_input("Fecha Inicio", value=datetime(2025, 1, 1), key='start_date_historico'))
-    with col2:
-        end_date_historico = pd.to_datetime(st.date_input("Fecha Fin", value=datetime(current_year, 12, 31), key='end_date_historico'))
-    with col3:
         id_pesada_filter = st.selectbox("ID Pesada", options=["Todos"] + sorted(balanza_historico_impo['ID Pesada'].unique().tolist()), key='id_pesada_filter')
-    with col4:
+    with col2:
         # Ensure Cliente column is treated as strings
         cliente_options = ["Todos"] + sorted(balanza_historico_impo['Cliente'].astype(str).unique().tolist())
         cliente_filter = st.selectbox("Cliente", options=cliente_options, key='cliente_filter')
 
     st.write("Importación")
     # Filter data based on the selected criteria
-    filtered_historico_impo = balanza_historico_impo[
-        (pd.to_datetime(balanza_historico_impo['Fecha'], format='%d/%m/%Y') >= start_date_historico) &
-        (pd.to_datetime(balanza_historico_impo['Fecha'], format='%d/%m/%Y') <= end_date_historico)
-    ]
+    filtered_historico_impo = balanza_historico_impo.copy()
     if id_pesada_filter != "Todos":
         filtered_historico_impo = filtered_historico_impo[filtered_historico_impo['ID Pesada'] == id_pesada_filter]
     if cliente_filter != "Todos":
@@ -134,10 +125,7 @@ def show_page_balanza(apply_mudanceras_filter=False):
     st.write("Exportación")
     
     # Repeat the same filtering logic for export data
-    filtered_historico_expo = balanza_historico_expo[
-        (pd.to_datetime(balanza_historico_expo['Fecha'], format='%d/%m/%Y') >= start_date_historico) &
-        (pd.to_datetime(balanza_historico_expo['Fecha'], format='%d/%m/%Y') <= end_date_historico)
-    ]
+    filtered_historico_expo = balanza_historico_expo.copy()
     if id_pesada_filter != "Todos":
         filtered_historico_expo = filtered_historico_expo[filtered_historico_expo['ID Pesada'] == id_pesada_filter]
     if cliente_filter != "Todos":
