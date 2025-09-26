@@ -1,5 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-37944,26/09,Mercovan Argentina S.A.,-,10080,DR,TD,                    ,23301907,0,                              ,,     ,2025-10-16,"Colon, Edwin",                    ,Pendiente
+37944,26/09,Mercovan Argentina S.A.,FANU-134261-6,10080,DR,TD,********************,23301907,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,14:55,2025-10-16,"Colon, Edwin",                    ,14:55 Arribado
 37949,26/09,Sandrin Paola Karina,-,10074,HC,TD,                    ,BUA0351224,0,                              ,,     ,2025-10-16,,                    ,Pendiente
 37955,26/09,Henn Y Cia S.R.L.,MSNU-149038-7,Exolgan,DR,TD,FX32913751          ,EBKG14203751,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,12:24,2025-10-16,,                    ,12:24 Arribado
 37954,26/09,Henn Y Cia S.R.L.,MSDU-224002-1,Exolgan,DR,TD,FX32913801          ,EBKG14203751,1,TRANSPORTE DEL CLIENTE        ,Bollota,10:47,2025-10-16,,                    ,10:47 Arribado
@@ -10,7 +10,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 37941,26/09,Mader Zu S.R.L.,ZCSU-758977-8,10074,HC,TD,********************,ZIMUBUE9043483,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,08:59,2025-10-16,,                    ,08:59 Arribado
 37940,26/09,Mader Zu S.R.L.,ZCSU-729801-0,10074,HC,TD,**************      ,ZIMUBUE9043483,1,TRANSPORTE DEL CLIENTE        ,Peril,16:56,2025-10-16,,                    ,16:56 Arribado
 37939,26/09,Mader Zu S.R.L.,TLLU-445350-5,10074,HC,TD,********************,ZIMUBUE9043483,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,16:53,2025-10-16,,                    ,16:53 Arribado
-37943,26/09,Mader Zu S.R.L.,-,10074,HC,TD,                    ,12888856,0,                              ,,     ,2025-10-16,,                    ,Pendiente
+37943,26/09,Mader Zu S.R.L.,HLBU-198561-0,10074,HC,TD,***************     ,12888856,1,TRANSPORTE DEL CLIENTE        ,Golpe,14:39,2025-10-16,,                    ,14:39 Arribado
 37922,29/09,Carpal Sa,-,10074,HC,TD,                    ,BUA0350782,0,                              ,,     ,2025-10-15,,                    ,Pendiente
 37923,29/09,Carpal Sa,-,10074,HC,TD,                    ,BUA0350782,0,                              ,,     ,2025-10-15,,                    ,Pendiente
 37958,29/09,Hdv Leather S.R.L.,-,0,  ,TD,                    ,EBKG14323877,0,                              ,,     ,2025-10-17,Ebkg14323877,EBKG14323877        ,Pendiente
