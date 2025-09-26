@@ -1,5 +1,4 @@
 id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,Contenedor,Precinto,Obs.,Cantidad
-9.0,01/09,BUA0348790,Lift Van Int. Co S.A,-,2025-08-30T13:56:06.814238,,,,,,,,
 16.0,25/08,BUA0348795,Mader Zu S.R.L.,-,2025-08-30T13:56:07.391882,,,,,,,,
 17.0,25/08,BUA0348795,Mader Zu S.R.L.,-,2025-08-30T13:56:07.48741,,,,,,,,
 18.0,25/08,BUA0348795,Mader Zu S.R.L.,-,2025-08-30T13:56:07.5791,,,,,,,,
@@ -20,7 +19,6 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 53.0,03/09,33064021,Norfor Sa,Huxley Sa,2025-09-03T15:20:38.020426,,,Arribado,,FANU-144790-0,*********,28600,
 3.0,01/09,257343891,Henn Y Cia S.R.L.,Huxley Sa,2025-08-30T13:56:06.250843,,marcelo porco,Arribado,,MRKU-589346-6,************,,
 45.0,03/09,ZIMUBUE9043286,Aniceto Gomez Sa,Hiperbaires - Icb T.Sur,2025-09-02T15:20:37.798578,,,Arribado,,HPCU-468360-0,*********,,
-29.0,01/09,BUEF10236500,Pachamama Products S.R.L.,Hiperbaires - Icb T.Sur,2025-09-01T15:05:38.815831,,Damian bertoli,,,,,,
 60.0,05/09,27610711,Praxair Argentina S.R.L.,Exolgan,2025-09-04T17:35:36.343572,,,Arribado,,HLBU-347344-4,*******************,,
 54.0,03/09,MCORIV030883,Bdfm Sa,Hiperbaires - Icb T.Sur,2025-09-03T20:20:36.836364,,,Arribado,,,,,
 11.0,02/09,ZIMUBUE9043076,Mercopallet Srl,Hiperbaires - Icb T.Sur,2025-08-30T13:56:06.976386,,,Arribado,,ZCSU-747357-7,****************,,
@@ -77,8 +75,6 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 66.0,08/09,EBKG13709692,Henn Y Cia S.R.L.,Medlog Sarandi,2025-09-05T13:20:37.936581,,alan porco,Arribado,,MSBU-131709-7,FX32910704,26600.0,
 88.0,12/09,58930454,Borax Argentina S A,Huxley Sa,2025-09-08T18:05:36.931791,,,Arribado,,MOAU-581557-6,***************,,
 93.0,09/09,25001EC01059897C,Aj Comercio Exterior Srl,-,2025-09-08T19:05:38.153728,,,Arribado,,,,,
-83.0,09/09,25001EC01059753Z,Aj Comercio Exterior Srl,-,2025-09-08T15:05:36.988137,,,,,,,,
-84.0,09/09,25001EC01059753Z,Aj Comercio Exterior Srl,-,2025-09-08T15:05:37.139669,,,,,,,,
 63.0,08/09,EBKG13709692,Henn Y Cia S.R.L.,Medlog Sarandi,2025-09-05T13:20:37.560738,,matias moscardini,Arribado,,MSMU-261648-1,FX32910716,26600.0,
 79.0,09/09,258260897,Hilado Sa,Gamma Libertador,2025-09-05T19:35:39.193315,,,Arribado,,TCKU-773550-7,****************,28600.0,
 75.0,09/09,258260897,Hilado Sa,Gamma Libertador,2025-09-05T19:35:38.764291,,moscardini cristian,Arribado,,MRSU-437332-8,********************,28600.0,
@@ -114,7 +110,6 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 128.0,15/09,340500034574,Norfor Sa,Gamma Libertador,2025-09-12T17:35:37.804663,,,10:20 Arribado,,EISU-824617-7,***************,,
 129.0,15/09,340500034574,Norfor Sa,Gamma Libertador,2025-09-12T17:35:37.895292,,,10:23 Arribado,,EITU-936408-0,************,,
 130.0,15/09,340500034574,Norfor Sa,Gamma Libertador,2025-09-12T17:35:37.981645,,,10:20 Arribado,,EISU-824617-7,***************,,
-126.0,15/09,EBKGQ00122A4,Lift Van Int. Co S.A,-,2025-09-12T15:20:36.754246,,,,,,,,
 131.0,15/09,340500034574,Norfor Sa,Gamma Libertador,2025-09-12T17:35:38.06234,,,10:23 Arribado,,EITU-936408-0,************,,
 115.0,12/09,75526877,Alimentaria Sa,Exolgan,2025-09-11T14:50:35.369891,,,Arribado,,HLBU-264107-6,*******************,,
 117.0,12/09,LOTE 3470,Hdv Leather S.R.L.,-,2025-09-11T18:35:38.545336,,,Arribado,,,,,
@@ -235,4 +230,9 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 233.0,26/09,12888856,Mader Zu S.R.L.,Hiperbaires - Icb T.Sur,2025-09-25T14:20:35.20897,,,,,,,,
 234.0,26/09,12888856,Mader Zu S.R.L.,Hiperbaires - Icb T.Sur,2025-09-25T14:20:35.310341,,,,,,,,
 232.0,26/09,ZIMUBUE9043483,Mader Zu S.R.L.,Hiperbaires - Icb T.Sur,2025-09-25T14:05:36.448796,,,16:53 Arribado,,TLLU-445350-5,********************,28600,
-,26/09,EBKG14203751,Henn Y Cia S.R.L.,Exolgan,,,,,,,,,5.0
+237.0,26/09,EBKG14203751,Henn Y Cia S.R.L.,Exolgan,2025-09-25T20:35:40.079216,,,,,,,,
+238.0,26/09,EBKG14203751,Henn Y Cia S.R.L.,Exolgan,2025-09-25T20:35:40.182584,,,,,,,,
+239.0,26/09,EBKG14203751,Henn Y Cia S.R.L.,Exolgan,2025-09-25T20:35:40.302292,,,,,,,,
+240.0,26/09,EBKG14203751,Henn Y Cia S.R.L.,Exolgan,2025-09-25T20:35:40.406188,,,,,,,,
+241.0,26/09,EBKG14203751,Henn Y Cia S.R.L.,Exolgan,2025-09-25T20:35:40.508113,,,,,,,,
+,15/09,EBKGQ00122A4,Lift Van Int. Co S.A,-,,,,,,,,,1.0

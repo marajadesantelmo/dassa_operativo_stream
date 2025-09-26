@@ -32,8 +32,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Tipo,T-TD,Ubicacion,e-tal
 38455-0-1,Grupo Rsm Srl,Autos,-,MRKU-039332-3,23-09-2025,DC,TD,PLZA,
 38457-0-1,Mercovan Argentina S...,Mudanza,-,TCKU-361978-8,23-09-2025,DC,TD,PLZA,http://dassa.mqbic.com/PublicTally.php?id=2657
 38458-0-1,Mercovan Argentina S...,Mudanza,-,GCXU-517570-3,23-09-2025,HC,TD,PLZA,http://dassa.mqbic.com/PublicTally.php?id=2656
-38441-0-2,Fenisan S.A.,Mudanza - Martinez C...,258262518,MSKU-196898-0,23-09-2025,DC,T,PLZA,
 38441-0-1,Fenisan S.A.,Mudanza - Martinez C...,258262518,MRKU-067396-2,23-09-2025,DC,T,PLZA,
+38441-0-2,Fenisan S.A.,Mudanza - Martinez C...,258262518,MSKU-196898-0,23-09-2025,DC,T,PLZA,
 38438-0-1,Lift Van Int. Co S.A,Mudanza,-,DRYU-417686-0,23-09-2025,DC,TD,PLZA,http://dassa.mqbic.com/PublicTally.php?id=2637
 38438-0-1,Lift Van Int. Co S.A,Mudanza,-,DRYU-417686-0,23-09-2025,DC,TD,PLZA,http://dassa.mqbic.com/PublicTally.php?id=2637
 38438-0-1,Lift Van Int. Co S.A,Mudanza,-,DRYU-417686-0,23-09-2025,DC,TD,PLZA,http://dassa.mqbic.com/PublicTally.php?id=2637
@@ -46,10 +46,10 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Tipo,T-TD,Ubicacion,e-tal
 38325-0-1,Jupam Sa,Telas,-,JXLU-618880-5,17-09-2025,HC,T,PLZA,
 38322-0-1,Lartex Srl,Pilyester,-,MRSU-543828-0,17-09-2025,HC,T,PLZA,
 38322-0-2,Lartex Srl,Polyester,-,MRSU-559911-4,17-09-2025,HC,T,PLZA,
-38285-0-1,Compañia Bulk S.A.,Chair / Table,-,EMCU-173040-1,16-09-2025,HC,T,PLZA,
-38275-0-1,Novelty Trend Srl,Telas,-,EITU-106334-7,16-09-2025,HC,TD,PLZA,
-38285-0-2,Compañia Bulk S.A.,Chair / Table,-,EITU-192870-7,16-09-2025,HC,T,PLZA,
 38285-0-3,Compañia Bulk S.A.,Chair / Table,-,TGBU-627926-4,16-09-2025,HC,T,PLZA,
+38275-0-1,Novelty Trend Srl,Telas,-,EITU-106334-7,16-09-2025,HC,TD,PLZA,
+38285-0-1,Compañia Bulk S.A.,Chair / Table,-,EMCU-173040-1,16-09-2025,HC,T,PLZA,
+38285-0-2,Compañia Bulk S.A.,Chair / Table,-,EITU-192870-7,16-09-2025,HC,T,PLZA,
 38254-0-1,Dpmg S.A.,Refrigerant,-,TIFU-525772-0,15-09-2025,is,T,PLZA,
 38259-0-1,Car Pro Accesorios S...,Air Filter,-,FSCU-496250-5,15-09-2025,DC,T,PLZA,
 38253-0-1,Dpmg S.A.,Refrigerant,-,ZHLU-201824-0,15-09-2025,is,T,PLZA,
@@ -62,12 +62,12 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Tipo,T-TD,Ubicacion,e-tal
 38175-0-1,Jupam Sa,Telas,NGP2552018,CAIU-897615-6,11-09-2025,HC,T,PLZA,
 38174-0-1,Aspee Monee,Telas,-,ZCSU-660469-3,11-09-2025,HC,T,PLZA,
 38164-0-1,Jupam Sa,Telas,NGP2552016,TCNU-299299-7,11-09-2025,HC,T,PLZA,
-38153-0-2,Southcross Logistics...,Pot Plant,MEDUYN346877,TTNU-432725-8,10-09-2025,DC,T,PLZA,
 38153-0-1,Southcross Logistics...,Pot Plant,MEDUYN346877,TCLU-400559-1,10-09-2025,DC,T,PLZA,
-38018-0-1,Dpmg S.A.,Isotanque,-,ZHLU-201409-6,04-09-2025,is,T,PLZA,
-38014-0-1,Skop Trader S. A.,Folding,-,TGBU-807249-2,04-09-2025,HC,T,PLZA,
-38013-0-1,Skop Trader S. A.,Rattan Design,-,OOCU-778911-8,04-09-2025,HC,T,PLZA,
-37987-0-1,Dpmg S.A.,Isotanque,-,ZHLU-201402-8,03-09-2025,is,T,PLZA,
+38153-0-2,Southcross Logistics...,Pot Plant,MEDUYN346877,TTNU-432725-8,10-09-2025,DC,T,PLZA,
+38018-0-1,Dpmg S.A.,Isotanque,-,ZHLU-201409-6,04-09-2025,is,-,PLZA,
+38014-0-1,Skop Trader S. A.,Folding,-,TGBU-807249-2,04-09-2025,HC,-,PLZA,
+38013-0-1,Skop Trader S. A.,Rattan Design,-,OOCU-778911-8,04-09-2025,HC,-,PLZA,
+37987-0-1,Dpmg S.A.,Isotanque,-,ZHLU-201402-8,03-09-2025,is,-,PLZA,
 37815-0-1,Raisvic S.R.L.,Telas,-,TCLU-831412-0,26-08-2025,HC,-,PLZA,
 36994-0-1,Lift Van Int. Co S.A,Efectos,-,TCLU-359747-5,18-07-2025,DC,-,PLZA,http://dassa.mqbic.com/PublicTally.php?id=2181
 36383-0-1,Lift Van Int. Co S.A,Mudanza,ONEYRICFU2271500,TCLU-343728-7,26-06-2025,DC,-,PLZA,
