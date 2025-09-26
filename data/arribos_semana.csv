@@ -31,11 +31,13 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-11,Terminal 4 - Maersk,0900 ,ZCSU-691113-3,Lift Van Int. Co S.A,CDOLX250849,TD,DC,60,1,14:53 Arribado
 2025-09-12,Terminal 4 - Maersk,1400 ,TCKU-338199-8,Lift Van Int. Co S.A,ONEYRICFDS628600,TD,DC,30,1,17:44 Arribado
 2025-09-12,Exolgan,0900 ,MSBU-457668-2,Lift Van Int. Co S.A,MEDUJZ555908,TD,DC,60,1,14:20 Arribado
+2025-09-29,Terminal 4 - Maersk,1500 ,TCNU-478400-9,Lift Van Int. Co S.A,CDOLX251009,TD,HC,70,0,Pendiente arribo
 2025-09-23,Terminal 4 - Maersk,1000 ,UACU-838570-8,Lift Van Int. Co S.A,HLCUBSC2508ARCG5,TD,DC,60,1,13:38 Arribado
 2025-09-23,Terminal 4 - Maersk,1000 ,HLBU-351943-7,Lift Van Int. Co S.A,HLCUBSC250843478,TD,DC,30,1,13:44 Arribado
 2025-09-23,Exolgan,1500 ,BSIU-284883-1,Lift Van Int. Co S.A,HLCULGB250804690,TD,DC,30,1,18:28 Arribado
 2025-09-23,Exolgan,0500 ,HLBU-127114-6,Lift Van Int. Co S.A,HLCUME3250738207,TD,DC,60,1,15:21 Arribado
 2025-09-23,Exolgan,1100 ,DRYU-908880-2,Lift Van Int. Co S.A,MEDUJZ371843,TD,HC,70,1,15:18 Arribado
+2025-09-29,Trp - Terminales 1-2-3,1200 ,APZU-377428-9,Lift Van Int. Co S.A,USG0310324,TD,DC,30,0,Pendiente arribo
 2025-09-16,Trp - Terminales 1-2-3,1000 ,GESU-112370-3,Lift Van Int. Co S.A,IBC1382175,TD,DC,30,1,14:34 Arribado
 2025-09-19,Trp - Terminales 1-2-3,0300 ,OOCU-048760-4,Lift Van Int. Co S.A,COSU6426848340,TD,DC,30,1,09:48 Arribado
 2025-09-19,Exolgan,1300 ,TRHU-585857-9,Lift Van Int. Co S.A,ONEYPKGF44733400,TD,HC,70,1,00:24 Arribado
@@ -172,6 +174,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-26,Terminal 4 - Maersk,0800 ,MRKU-066590-4,Grupo Rsm Srl,258782317,TD,DC,60,0,Pendiente arribo
 2025-09-26,Trp - Terminales 1-2-3,1200 ,TCLU-407367-8,Grupo Rsm Srl,IBC1383284,TD,DC,60,0,Pendiente arribo
 2025-09-26,Terminal 4 - Maersk,0800 ,MRKU-084892-6,Grupo Rsm Srl,258726627,TD,DC,60,0,Pendiente arribo
+2025-09-29,Terminal 4 - Maersk,1200 ,TCNU-791296-8,Grupo Rsm Srl,258590460,TD,DC,60,0,Pendiente arribo
 2025-09-05,Trp - Terminales 1-2-3,1500 ,OOCU-902366-7,Fedtex S.R.L,TWLE25060076,TD,HC,70,1,17:37 Arribado
 2025-09-09,Terminal 4 - Maersk,1500 ,BSIU-851743-0,Fedtex S.R.L,TWLE25070074,TD,HC,70,1,18:32 Arribado
 2025-09-10,Terminal 4 - Maersk,1300 ,ZCSU-732458-9,Fedtex S.R.L,TWLE25070085,TD,HC,70,1,19:45 Arribado
