@@ -19,7 +19,7 @@ def highlight(row):
     elif "Arribado" in estado and row.get('Balanza', None) == "-":
         return ['background-color: darkgoldenrod; color: black' for _ in row]
     elif estado == "Vacio":
-        return ['background-color: #be1e2d; color: black' for _ in row]
+        return ['background-color: #8b0000; color: black' for _ in row]
     elif "Arribado" in estado:
         return ['background-color: darkgreen; color: black' for _ in row]
     elif "Ingresado" in estado:
@@ -29,7 +29,7 @@ def highlight(row):
     elif estado == "En Espera":
         return ['background-color: #444444; color: black' for _ in row]
     elif "anterior" in estado:
-        return ['background-color: #be1e2d; color: black' for _ in row]
+        return ['background-color: #8b0000; color: black' for _ in row]
     else:
         return ['' for _ in row]
 

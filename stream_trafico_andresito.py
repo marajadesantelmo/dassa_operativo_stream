@@ -305,7 +305,7 @@ def show_page_trafico_andresito():
             filtered_arribos_expo_ctns = arribos_expo_ctns
             if selected_estado_expo == "Orden del día":
                 filtered_arribos_expo_ctns = filtered_arribos_expo_ctns[
-                    (~filtered_arribos_expo_ctns["Estado"].str.contains("Realizado", na=False)) |
+                    (~filtered_arribos_expo_ctns["Estado"].str.contains("Arribado", na=False)) |
                     (filtered_arribos_expo_ctns["Fecha"] == today_str)
                 ]
             if selected_booking_expo != 'Todos':
