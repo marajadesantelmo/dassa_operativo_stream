@@ -130,7 +130,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-11,Trp - Terminales 1-2-3,0400 ,TCNU-299299-7,Juliana Sa,NGP2552016,T,HC,70,1,08:16 Arribado
 2025-09-11,Trp - Terminales 1-2-3,0400 ,TGHU-669552-0,Juliana Sa,NGP2552024,T,HC,70,1,08:12 Arribado
 2025-09-11,Trp - Terminales 1-2-3,1200 ,CAIU-897615-6,Juliana Sa,NGP2552018,T,HC,70,1,14:45 Arribado
-2025-09-19,Trp - Terminales 1-2-3,1100 ,MSNU-673412-5,Juliana Sa,MEDUOP807326,T,HC,70,1,15:51 Arribado
+2025-09-19,Trp - Terminales 1-2-3,1100 ,MSNU-673412-5,Juliana Sa,MEDUOP807326,TD,HC,70,1,15:51 Arribado
 2025-09-23,Trp - Terminales 1-2-3,1300 ,CMAU-881793-8,Juliana Sa,NGP2609684,T,HC,70,1,16:43 Arribado
 2025-09-24,Trp - Terminales 1-2-3,1200 ,CMAU-576011-9,Juliana Sa,NGP2576088,T,HC,70,1,16:05 Arribado
 2025-09-09,Exolgan,0500 ,CAIU-440167-8,Bisora Group Sa,NBOE25015864,T,HC,70,1,09:52 Arribado
@@ -177,6 +177,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-26,Trp - Terminales 1-2-3,1200 ,TCLU-407367-8,Grupo Rsm Srl,IBC1383284,TD,DC,60,0,Pendiente arribo
 2025-09-26,Terminal 4 - Maersk,0800 ,MRKU-084892-6,Grupo Rsm Srl,258726627,TD,DC,60,1,13:45 Arribado
 2025-09-29,Terminal 4 - Maersk,1200 ,TCNU-791296-8,Grupo Rsm Srl,258590460,TD,DC,60,0,Pendiente arribo
+2025-09-29,Terminal 4 - Maersk,1400 ,FFAU-745885-2,Mazon Textil Sa,NBOE25016288,T,HC,70,0,Pendiente arribo
 2025-09-05,Trp - Terminales 1-2-3,1500 ,OOCU-902366-7,Fedtex S.R.L,TWLE25060076,TD,HC,70,1,17:37 Arribado
 2025-09-09,Terminal 4 - Maersk,1500 ,BSIU-851743-0,Fedtex S.R.L,TWLE25070074,TD,HC,70,1,18:32 Arribado
 2025-09-10,Terminal 4 - Maersk,1300 ,ZCSU-732458-9,Fedtex S.R.L,TWLE25070085,TD,HC,70,1,19:45 Arribado
