@@ -1,4 +1,6 @@
 Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
+2025-09-30,37992,,Mercovan Argentina S.A.,70051159,AFONSO RAFAEL,Pendiente
+2025-09-29,37993,,Mercovan Argentina S.A.,25001PE01000375 P,GARDNER MATHEW 5 CAJONES,Arribado
 2025-09-26,37950,,Mercovan Argentina S.A.,25001PER1000602T,"AMARO, ADRIAN",Arribado
 2025-09-29,37966,,Mercovan Argentina S.A.,25001PE01000375P,,Pendiente
 2025-09-30,37967,,Mercovan Argentina S.A.,,,Pendiente
@@ -395,6 +397,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-09-17,37695,,Alimentaria Sa,BUA0349516,E-527 // BUA0349516,Arribado
 2025-09-18,37769,,Alimentaria Sa,12523053,E-427C //,Pendiente
 2025-09-22,37834,,Alimentaria Sa,12523053,E-427C,Arribado
+2025-09-29,37989,,Alimentaria Sa,10126677788,BIG BAG,Arribado
 2025-09-15,37465,,Alimentaria Sa,42424015,E-427B.,Arribado
 2025-09-15,37466,,Alimentaria Sa,75526877,E-519 / 2X20,Arribado
 2025-09-08,37342,,Alimentaria Sa,BUA0349544,BUA0349544 / 5X20,Arribado
@@ -601,7 +604,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-09-26,37896,,Henn Y Cia S.R.L.,EBKG14203751,5X20,Arribado
 2025-09-26,37897,,Henn Y Cia S.R.L.,EBKG14203751,5X20,Arribado
 2025-09-26,37898,,Henn Y Cia S.R.L.,EBKG14203751,5X20,Pendiente
-2025-09-29,37899,,Henn Y Cia S.R.L.,COSU6429983900,4X40,Pendiente
+2025-09-29,37899,,Henn Y Cia S.R.L.,COSU6429983900,4X40,Arribado
 2025-09-29,37900,,Henn Y Cia S.R.L.,COSU6429983900,4X40,Pendiente
 2025-09-15,37652,,Henn Y Cia S.R.L.,258250569,258250569 // 4X20,Arribado
 2025-09-18,37728,,Henn Y Cia S.R.L.,EBKG14203854,EBKG14203854,Arribado
@@ -725,8 +728,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-06-04,34324,,Henn Y Cia S.R.L.,340500020093,340500020093 //,Arribado
 2025-06-04,34325,,Henn Y Cia S.R.L.,340500020093,340500020093 //,Arribado
 2025-06-02,34220,,Borax Argentina S A,25001EC01,FC 12248,Arribado
+2025-09-29,37987,,Borax Argentina S A,260048744,FAC.12689,Arribado
+2025-09-29,37988,,Borax Argentina S A,260048744,FACTURA-12689,Arribado
 2025-09-25,37909,,Borax Argentina S A,BUA0350534,FAC.12674 //BUA0350534,Arribado
-2025-09-25,37910,,Borax Argentina S A,BUA0350534,FAC.12674 //BUA0350534,Pendiente
+2025-09-25,37910,,Borax Argentina S A,BUA0350534,FAC.12674 //BUA0350534,Arribado
+2025-09-29,37983,,Borax Argentina S A,260048744,,Pendiente
+2025-09-29,37984,,Borax Argentina S A,260048744,,Pendiente
 2025-09-25,37904,,Borax Argentina S A,BUA0350534,FAC.12674 //BUA0350534,Arribado
 2025-09-25,37905,,Borax Argentina S A,BUA0350534,FAC.12674 //BUA0350534,Arribado
 2025-09-25,37906,,Borax Argentina S A,BUA0350534,FAC.12674 //BUA0350534,Arribado
