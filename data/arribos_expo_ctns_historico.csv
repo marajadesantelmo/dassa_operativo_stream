@@ -2,6 +2,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-02,33903,TCLU-246894-0,Mercovan Argentina S.A.,253811924,*************       ,Arribado
 2025-06-04,34328,,Mercovan Argentina S.A.,92724024,                    ,Pendiente
 2025-06-06,34387,HLBU-147084-7,Mercovan Argentina S.A.,92724024,***********         ,Arribado
+2025-10-01,38026,,Mercovan Argentina S.A.,259657556,                    ,Pendiente
 2025-09-23,37800,MSDU-545824-9,Mercovan Argentina S.A.,EBKG14130002,FX32911755          ,Arribado
 2025-09-26,37944,FANU-134261-6,Mercovan Argentina S.A.,23301907,********************,Arribado
 2025-09-18,37726,FANU-139639-8,Mercovan Argentina S.A.,32204078,*************       ,Arribado
@@ -42,10 +43,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-01,35111,TEMU-148771-1,Mercovan Argentina S.A.,24161635,**********          ,Arribado
 2025-06-03,34294,MRKU-973013-2,Lift Van Int. Co S.A,254310061,***********         ,Arribado
 2025-06-03,34295,MSKU-760704-9,Lift Van Int. Co S.A,254184165,****************    ,Arribado
+2025-09-30,38005,,Lift Van Int. Co S.A,EBKG0013790,                    ,Pendiente
 2025-09-24,37843,SEGU-171558-5,Lift Van Int. Co S.A,10387648,HLD0436061          ,Arribado
 2025-09-23,37852,MRKU-436132-4,Lift Van Int. Co S.A,259005302,******************  ,Arribado
 2025-09-24,37920,MRKU-060235-7,Lift Van Int. Co S.A,259560878,***********         ,Arribado
-2025-09-30,37938,,Lift Van Int. Co S.A,BUA0351211,                    ,Pendiente
+2025-09-30,37938,APZU-376616-0,Lift Van Int. Co S.A,BUA0351211,R8693541            ,Arribado
 2025-09-25,37948,MSKU-513083-0,Lift Van Int. Co S.A,259444694,********************,Arribado
 2025-09-25,37778,FBIU-044562-7,Lift Van Int. Co S.A,48140095,******************* ,Arribado
 2025-09-12,37560,TCLU-432460-2,Lift Van Int. Co S.A,BUA0349947,R8683835            ,Arribado
@@ -159,7 +161,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-08-06,36373,,Aniceto Gomez Sa,ZIMUBUE9042271,                    ,Pendiente
 2025-08-06,36424,BSIU-977129-0,Aniceto Gomez Sa,ZIMUBUE9042271,***************     ,Arribado
 2025-09-03,37196,HPCU-468360-0,Aniceto Gomez Sa,ZIMUBUE9043286,*********           ,Arribado
-2025-09-30,37970,,Aniceto Gomez Sa,ZIMUBUE9043768,                    ,Pendiente
+2025-09-30,37970,TEMU-668146-3,Aniceto Gomez Sa,ZIMUBUE9043768,******************  ,Arribado
 2025-06-09,34447,TEMU-523592-9,A La Orden,93870694,************        ,Arribado
 2025-07-23,35892,TLLU-809374-7,A La Orden,23782252,**********          ,Arribado
 2025-07-25,35983,,A La Orden,CNTR NAC,                    ,Arribado
@@ -228,8 +230,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-09-26,37941,ZCSU-758977-8,Mader Zu S.R.L.,ZIMUBUE9043483,********************,Arribado
 2025-09-26,37942,CAIU-856980-2,Mader Zu S.R.L.,12888856,******************* ,Arribado
 2025-09-26,37943,HLBU-198561-0,Mader Zu S.R.L.,12888856,***************     ,Arribado
-2025-09-30,37990,,Mader Zu S.R.L.,48125240,                    ,Pendiente
-2025-09-30,37991,,Mader Zu S.R.L.,48125240,                    ,Pendiente
+2025-09-30,37990,TRHU-475286-0,Mader Zu S.R.L.,48125240,****************    ,Arribado
+2025-09-30,37991,HAMU-456321-8,Mader Zu S.R.L.,48125240,****************    ,Arribado
 2025-09-24,37903,TGBU-569781-9,Mader Zu S.R.L.,33889957,********************,Arribado
 2025-09-26,37939,TLLU-445350-5,Mader Zu S.R.L.,ZIMUBUE9043483,********************,Arribado
 2025-09-26,37940,ZCSU-729801-0,Mader Zu S.R.L.,ZIMUBUE9043483,**************      ,Arribado
@@ -438,6 +440,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-08-27,37005,,Championx Argentina Srl,25001EC01055684P,                    ,Arribado
 2025-09-05,37266,BMOU-140308-6,Championx Argentina Srl,66331772,********************,Arribado
 2025-09-05,37267,UACU-854863-6,Championx Argentina Srl,66331772,********************,Arribado
+2025-09-30,38007,TCNU-238329-1,Isischu Srl,BUA0351514,R8691432            ,Arribado
+2025-09-30,38008,,Isischu Srl,BUA0351514,                    ,Pendiente
+2025-09-30,38009,,Isischu Srl,BUA0351514,                    ,Pendiente
 2025-08-29,37007,ZCSU-787123-0,Isischu Srl,ZIMUBUE0943132,********************,Arribado
 2025-09-11,37463,MSKU-167044-5,Isischu Srl,259211588,**********          ,Arribado
 2025-09-11,37485,MSBU-501768-9,Isischu Srl,EBKG14103888,FX32947324          ,Arribado
@@ -683,6 +688,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-02,34234,MRKU-901766-7,Borax Argentina S A,254651581,***********         ,Arribado
 2025-06-02,34235,MRKU-911801-9,Borax Argentina S A,254651581,************        ,Arribado
 2025-06-02,34236,SUDU-746681-2,Borax Argentina S A,254651581,***********         ,Arribado
+2025-10-01,38019,,Borax Argentina S A,260048744,                    ,Pendiente
+2025-10-01,38020,,Borax Argentina S A,260048744,                    ,Pendiente
 2025-10-01,37985,,Borax Argentina S A,260048744,                    ,Pendiente
 2025-10-01,37986,,Borax Argentina S A,260048744,                    ,Pendiente
 2025-09-24,37864,MSNU-194646-1,Borax Argentina S A,EBKG14264133,FX32985838          ,Arribado
@@ -805,11 +812,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-02,34095,MRKU-046375-5,Lawter Argentina S.A.,253934352,************        ,Arribado
 2025-06-02,34096,SUDU-530092-5,Lawter Argentina S.A.,253934352,**************      ,Arribado
 2025-06-02,34097,MRKU-078832-3,Lawter Argentina S.A.,253934352,***********         ,Arribado
-2025-09-30,37978,,Lawter Argentina S.A.,ZIMUBUE9043944,                    ,Pendiente
-2025-09-30,37979,,Lawter Argentina S.A.,ZIMUBUE9043944,                    ,Pendiente
+2025-09-30,37978,DRYU-956636-8,Lawter Argentina S.A.,ZIMUBUE9043944,************        ,Arribado
+2025-09-30,37979,TGBU-549556-7,Lawter Argentina S.A.,ZIMUBUE9043944,************        ,Arribado
 2025-09-30,37980,,Lawter Argentina S.A.,ZIMUBUE9043944,                    ,Pendiente
-2025-09-30,37976,,Lawter Argentina S.A.,ZIMUBUE9043944,                    ,Pendiente
-2025-09-30,37977,,Lawter Argentina S.A.,ZIMUBUE9043944,                    ,Pendiente
+2025-09-30,37976,ZCSU-659186-8,Lawter Argentina S.A.,ZIMUBUE9043944,******************* ,Arribado
+2025-09-30,37977,ZCSU-743827-8,Lawter Argentina S.A.,ZIMUBUE9043944,*************       ,Arribado
 2025-09-17,37709,GLDU-960782-4,Lawter Argentina S.A.,BUA0350794,R8695342            ,Arribado
 2025-09-22,37772,MRKU-032206-3,Lawter Argentina S.A.,258647923,***************     ,Arribado
 2025-09-22,37773,MRKU-095619-7,Lawter Argentina S.A.,258647923,******************* ,Arribado
@@ -1049,18 +1056,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-08-12,36529,HASU-427785-4,Curtiembre Infante Sa,257214831,**********          ,Arribado
 2025-08-12,36530,MSKU-019324-5,Curtiembre Infante Sa,257214831,***********         ,Arribado
 2025-08-28,37023,SEGU-519532-6,Curtiembre Infante Sa,BUA0349052,R8692646            ,Arribado
-2025-09-26,37949,APHU-734667-1,Sandrin Paola Karina,BUA0351224,R8687938            ,Arribado
-2025-06-01,35122,MRKU-595157-8,Sandrin Paola Karina,255365718,********            ,Arribado
 2025-09-08,37380,GESU-657141-8,Sandrin Paola Karina,BUA0350014,R8685573            ,Arribado
 2025-09-08,37381,TGHU-638704-4,Sandrin Paola Karina,BUA0350014,R8685579            ,Arribado
 2025-09-08,37382,TCKU-626944-6,Sandrin Paola Karina,BUA0350014,R8685565            ,Arribado
-2025-06-01,35116,MSKU-197852-5,Sandrin Paola Karina,255365718,                    ,Arribado
-2025-06-01,35117,MRKU-245502-3,Sandrin Paola Karina,255365718,*********           ,Arribado
-2025-06-01,35118,MRKU-624325-4,Sandrin Paola Karina,255365718,*************       ,Arribado
-2025-06-01,35119,HASU-465422-2,Sandrin Paola Karina,255365718,***********         ,Arribado
-2025-06-01,35120,HASU-461755-3,Sandrin Paola Karina,255365718,************        ,Arribado
-2025-06-01,35121,HASU-430410-0,Sandrin Paola Karina,255365718,**********          ,Arribado
-2025-06-01,35115,MRKU-590633-1,Sandrin Paola Karina,255365718,*********           ,Arribado
+2025-09-26,37949,APHU-734667-1,Sandrin Paola Karina,BUA0351224,R8687938            ,Arribado
 2025-06-19,34770,MEDU-895957-1,Sandrin Paola Karina,EBKG13221474,FX32930883          ,Arribado
 2025-06-19,34772,FBLU-007483-4,Sandrin Paola Karina,EBKG13221474,FX32930838          ,Arribado
 2025-06-19,34804,FSCU-696884-2,Sandrin Paola Karina,EBKG13221282,FX32930766          ,Arribado
@@ -1106,6 +1105,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-09-29,37957,MEDU-707136-0,Hdv Leather S.R.L.,EBKG14323877,FX32915269          ,Arribado
 2025-09-29,37958,MEDU-724051-5,Hdv Leather S.R.L.,EBKG14323877,FX32915278          ,Arribado
 2025-09-29,37959,TCNU-781330-6,Hdv Leather S.R.L.,EBKG14323877,FX32915279          ,Arribado
+2025-10-01,38017,,Hdv Leather S.R.L.,258593432,                    ,Pendiente
+2025-10-01,38018,,Hdv Leather S.R.L.,258593432,                    ,Pendiente
 2025-09-22,37781,MSNU-908845-6,Hdv Leather S.R.L.,EBKG14245274,FX32917495          ,Arribado
 2025-09-22,37782,MEDU-789648-4,Hdv Leather S.R.L.,EBKG14245274,FX32917424          ,Arribado
 2025-09-22,37818,ONEU-180488-5,Hdv Leather S.R.L.,BUEF11038600,******************  ,Arribado
