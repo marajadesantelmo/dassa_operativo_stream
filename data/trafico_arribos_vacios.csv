@@ -2,14 +2,18 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 38026,01/10,Mercovan Argentina S.A.,-,10080,DR,TD,                    ,259657556,0,                              ,,     ,2025-10-21,Gardner Matthew Edward,                    ,Pendiente
 38020,01/10,Borax Argentina S A,-,10080,DR,TD,                    ,260048744,0,                              ,,     ,2025-10-21,,                    ,Pendiente
 38019,01/10,Borax Argentina S A,-,10080,DR,TD,                    ,260048744,0,                              ,,     ,2025-10-21,,                    ,Pendiente
-38017,01/10,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,258593432,0,                              ,,     ,2025-10-21,,                    ,Pendiente
-37985,01/10,Borax Argentina S A,-,0,  ,TD,                    ,260048744,0,                              ,,     ,2025-10-20,,                    ,Pendiente
 37986,01/10,Borax Argentina S A,-,0,  ,TD,                    ,260048744,0,                              ,,     ,2025-10-20,,                    ,Pendiente
+37985,01/10,Borax Argentina S A,-,0,  ,TD,                    ,260048744,0,                              ,,     ,2025-10-20,,                    ,Pendiente
+38017,01/10,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,258593432,0,                              ,,     ,2025-10-21,,                    ,Pendiente
+38043,01/10,Henn Y Cia S.R.L.,-,10074,HC,TD,                    ,BUEF11772400,0,                              ,,     ,2025-10-21,,                    ,Pendiente
+38042,01/10,Henn Y Cia S.R.L.,-,10074,HC,TD,                    ,BUEF11772400,0,                              ,,     ,2025-10-21,,                    ,Pendiente
+38041,01/10,Henn Y Cia S.R.L.,-,10074,HC,TD,                    ,BUEF11772400,0,                              ,,     ,2025-10-21,,                    ,Pendiente
+38044,01/10,Henn Y Cia S.R.L.,-,10074,HC,TD,                    ,BUEF11772400,0,                              ,,     ,2025-10-21,,                    ,Pendiente
 38018,01/10,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,258593432,0,                              ,,     ,2025-10-21,,                    ,Pendiente
 38034,02/10,Borax Argentina S A,-,10080,DR,TD,                    ,260121555,0,                              ,,     ,2025-10-21,Fact 12697,                    ,Pendiente
-38007,30/09,Isischu Srl,TCNU-238329-1,10082,HC,TD,R8691432            ,BUA0351514,1,TRANSPORTE DEL CLIENTE        ,Bertoli,12:22,2025-10-20,Bua0351514,BUA0351514          ,12:22 Arribado
 38008,30/09,Isischu Srl,TCNU-314340-1,10082,HC,TD,R8693545            ,BUA0351514,1,TRANSPORTE DEL CLIENTE        ,Miguez,14:37,2025-10-20,Bua0351514,BUA0351514          ,14:37 Arribado
-38009,30/09,Isischu Srl,CMAU-787626-3,10082,HC,TD,R8693544            ,BUA0351514,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,14:50,2025-10-20,Bua0351514,BUA0351514          ,14:50 Arribado
+38007,30/09,Isischu Srl,TCNU-238329-1,10082,HC,TD,R8691432            ,BUA0351514,1,TRANSPORTE DEL CLIENTE        ,Bertoli,12:22,2025-10-20,Bua0351514,BUA0351514          ,12:22 Arribado
+37991,30/09,Mader Zu S.R.L.,HAMU-456321-8,10080,HC,TD,****************    ,48125240,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,11:06,2025-10-20,,48125240            ,11:06 Arribado
 37990,30/09,Mader Zu S.R.L.,TRHU-475286-0,10080,HC,TD,****************    ,48125240,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,11:03,2025-10-20,,48125240            ,11:03 Arribado
 37970,30/09,Aniceto Gomez Sa,TEMU-668146-3,10074,HC,TD,******************  ,ZIMUBUE9043768,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,12:16,2025-10-17,Zimubue9043768,ZIMUBUE9043768      ,12:16 Arribado
 38005,30/09,Lift Van Int. Co S.A,DFSU-273562-0,10083,DC,TD,FX34202583          ,EBKG0013790,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,16:06,2025-10-20,Betti-Jo Ruston,EBKG0013790         ,16:06 Arribado
@@ -19,4 +23,4 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 37978,30/09,Lawter Argentina S.A.,DRYU-956636-8,10074,HC,TD,************        ,ZIMUBUE9043944,1,TRANSPORTE DEL CLIENTE        ,Peril,11:53,2025-10-17,Zimubue9043944,ZIMUBUE9043944      ,11:53 Arribado
 37979,30/09,Lawter Argentina S.A.,TGBU-549556-7,10074,HC,TD,************        ,ZIMUBUE9043944,1,TRANSPORTE DEL CLIENTE        ,Gonzalezz,12:23,2025-10-17,Zimubue9043944,ZIMUBUE9043944      ,12:23 Arribado
 37980,30/09,Lawter Argentina S.A.,ZCSU-759603-6,10074,HC,TD,********************,ZIMUBUE9043944,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,14:56,2025-10-17,Zimubue9043944,ZIMUBUE9043944      ,14:56 Arribado
-37991,30/09,Mader Zu S.R.L.,HAMU-456321-8,10080,HC,TD,****************    ,48125240,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,11:06,2025-10-20,,48125240            ,11:06 Arribado
+38009,30/09,Isischu Srl,CMAU-787626-3,10082,HC,TD,R8693544            ,BUA0351514,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,14:50,2025-10-20,Bua0351514,BUA0351514          ,14:50 Arribado
