@@ -146,7 +146,7 @@ def show_page_trafico_andresito():
                 key="arribo_select"
             )
 
-            col_assign1_1, col_assign1_2, col_assign1_3 = st.columns(2, 2, 1)
+            col_assign1_1, col_assign1_2, col_assign1_3 = st.columns([2, 2, 1])
 
             with col_assign1_1:
                 chofer_options = [""] + choferes['Nombre'].dropna().unique().tolist() if not choferes.empty else [""]
@@ -160,6 +160,7 @@ def show_page_trafico_andresito():
             # Allow custom input if needed
                 if chofer_name_arribos == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_arribos"):
                     chofer_name_arribos = st.text_input("Ingresar nombre de chofer:", key="chofer_arribos_custom")
+            with col_assign1_3:
                 if st.button("Asignar", key="assign_arribos"):
                     if chofer_name_arribos.strip():
                         try:
@@ -171,8 +172,6 @@ def show_page_trafico_andresito():
                             st.error(f"Error al asignar chofer: {e}")
                     else:
                         st.warning("Por favor ingrese el nombre del chofer")
-            col_assign1_1b, col_assign1_2b = st.columns(2)
-            with col_assign1_1b:
                 observaciones_arribos = st.text_area("Observaciones:", key="observaciones_arribos")
             if st.button("Asignar Observaciones", key="assign_observaciones_arribos"):
                 if observaciones_arribos.strip():
