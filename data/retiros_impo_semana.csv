@@ -43,9 +43,10 @@ Dia,Cliente,Operacion,Contenedor,Conocim.,Envase,Cant.,Volumen,Ubic.,Estado,Hora
 29/09,Lift Van Int. Co S.A,38436-1-1,HLBU-374089-6,LIFBUE25080004,Bultos,80.0,22.0,ANEX-A1,18:34 Realizado,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=2639,
 29/09,Fedtex S.R.L,38494-0-1,TRHU-713348-9,TWLE25070206,Contenedor,1.0,0.0,PLZA,15:17 Realizado,9:30 ,-,-
 29/09,Lift Van Int. Co S.A,38298-1-1,HLBU-109856-0,LIFBUE25090002,Bultos,62.0,28.0,NV3,18:34 Realizado,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2578,http://dassa.mqbic.com/NewTallySalida.php?id=725
-30/09,Baires International,37226-1-1,TGBU-854860-8,ARBAIT310725,Bultos,110.0,70.0,IB5,16:41 Realizado,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2234,
+30/09,Chemotecnica Sa,37710-2-1,TEMU-150536-9,QT25Y8107622,Pallets,20.0,26.0,NV4,11:44 Realizado,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=2360,http://dassa.mqbic.com/NewTallySalida.php?id=733
 30/09,Geo Logistics Argent...,38157-4-1,JXLU-785431-5,SZ25070362D,Bultos,6.0,9.0,IA8,12:11 Realizado,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2520,http://dassa.mqbic.com/NewTallySalida.php?id=745
 30/09,Verde Fuerte Srl,38002-1-1,GCXU-653898-0,SRTME000817,Pallets,20.0,50.0,IB4,15:49 Realizado,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=2444,http://dassa.mqbic.com/NewTallySalida.php?id=741
+30/09,Baires International,37226-1-1,TGBU-854860-8,ARBAIT310725,Bultos,110.0,70.0,IB5,16:41 Realizado,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2234,
 30/09,Mercovan Argentina S...,37878-1-1,GLDU-523598-7,MVANES20252407,Bultos,160.0,28.0,ANEX-A1,15:23 Realizado,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2400,http://dassa.mqbic.com/NewTallySalida.php?id=742
 30/09,Chemotecnica Sa,37710-1-1,MRSU-058556-6,QT25Y8107622,Pallets,20.0,26.0,NV4,11:44 Realizado,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=2359,http://dassa.mqbic.com/NewTallySalida.php?id=732
 30/09,Baires International,37226-2-1,OOCU-755349-9,ARBAIT310725,Bultos,598.0,70.0,IB6,16:41 Realizado,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2233,
@@ -58,7 +59,6 @@ Dia,Cliente,Operacion,Contenedor,Conocim.,Envase,Cant.,Volumen,Ubic.,Estado,Hora
 30/09,Sistema Obraseco Srl,38345-1-1,FCIU-811383-1,OE00SH250702918,Bultos,620.0,65.0,IB2,09:42 Realizado,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2609,http://dassa.mqbic.com/NewTallySalida.php?id=731
 30/09,Southcross Logistics...,38327-1-1,MRKU-071447-0,ROECHN25074678,Bultos,28.0,45.0,IB3,10:50 Realizado,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=2591,http://dassa.mqbic.com/NewTallySalida.php?id=730
 30/09,Fenisan S.A.,38441-0-1,MRKU-067396-2,HBOL4230,Contenedor,1.0,0.0,PLZA,10:50 Realizado,9:00 ,-,-
-30/09,Chemotecnica Sa,37710-2-1,TEMU-150536-9,QT25Y8107622,Pallets,20.0,26.0,NV4,11:44 Realizado,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=2360,http://dassa.mqbic.com/NewTallySalida.php?id=733
 30/09,Blanco Mamila Srl,38477-0-1,PIDU-454214-7,TWLE25070178,Contenedor,1.0,0.0,PLZA,14:59 Realizado,9:00 ,-,-
 30/09,Grupo Leal-Tex S.R.L...,38459-0-1,MRSU-867729-4,GILSH250700186,Contenedor,1.0,0.0,PLZA,09:03 Realizado,9:00 ,-,-
 30/09,Compañia Bulk S.A.,38285-0-2,EITU-192870-7,SY250662715,Contenedor,1.0,0.0,PLZA,09:34 Realizado,9:30 ,-,-
@@ -67,36 +67,39 @@ Dia,Cliente,Operacion,Contenedor,Conocim.,Envase,Cant.,Volumen,Ubic.,Estado,Hora
 30/09,Compañia Bulk S.A.,38285-0-3,TGBU-627926-4,SY250662715,Contenedor,1.0,0.0,PLZA,09:34 Realizado,9:30 ,-,-
 30/09,Fenisan S.A.,38441-0-2,MSKU-196898-0,HBOL4230,Contenedor,1.0,0.0,PLZA,10:50 Realizado,9:00 ,-,-
 30/09,Compañia Bulk S.A.,38285-0-1,EMCU-173040-1,SY250662715,Contenedor,1.0,0.0,PLZA,09:34 Realizado,9:30 ,-,-
-01/10,Industrias Saladillo...,36672-1-1,HDMU-271974-1,TPNGBSG25056020,Bultos,2.0,1.69,ANEX,10:24 Realizado,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2134,http://dassa.mqbic.com/NewTallySalida.php?id=747
-01/10,Noah Servicess.R.L.,38324-2-1,CMAU-430429-0,IBC1377772B,Bultos,1.0,10.0,EA9,18:33 Realizado,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=2605,
-01/10,Aspee Monee,38201-0-1,MSDU-733325-6,MEDUOO433637,Contenedor,1.0,0.0,PLZA,Pendiente,9:30 ,-,-
-01/10,Noah Servicess.R.L.,38324-1-1,CMAU-430429-0,IBC1377772A,Bultos,1.0,15.0,NV5,18:33 Realizado,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=2605,
 01/10,Industrias Saladillo...,36672-1-1,HDMU-271974-1,TPNGBSG25056020,Bultos,2.0,1.69,ANEX,10:28 Realizado,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2134,http://dassa.mqbic.com/NewTallySalida.php?id=747
+01/10,Industrias Saladillo...,36672-1-1,HDMU-271974-1,TPNGBSG25056020,Bultos,2.0,1.69,ANEX,10:24 Realizado,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2134,http://dassa.mqbic.com/NewTallySalida.php?id=747
+01/10,Noah Servicess.R.L.,38324-1-1,CMAU-430429-0,IBC1377772A,Bultos,1.0,15.0,NV5,18:33 Realizado,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=2605,
+01/10,Aspee Monee,38201-0-1,MSDU-733325-6,MEDUOO433637,Contenedor,1.0,0.0,PLZA,Pendiente,9:30 ,-,-
+01/10,Noah Servicess.R.L.,38324-2-1,CMAU-430429-0,IBC1377772B,Bultos,1.0,10.0,EA9,18:33 Realizado,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=2605,
 01/10,Industrias Saladillo...,36672-1-1,HDMU-271974-1,TPNGBSG25056020,Bultos,2.0,1.69,ANEX,15:45 Realizado,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2134,http://dassa.mqbic.com/NewTallySalida.php?id=747
 01/10,Mercovan Argentina S...,38041-1-1,UACU-388583-0,MVANES20251208,Bultos,57.0,13.0,ANEX-A1,11:50 Realizado,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2472,http://dassa.mqbic.com/NewTallySalida.php?id=751
 01/10,Industrias Saladillo...,36518-1-1,BMOU-255036-9,TPNGBSG25046030,Bultos,8.0,1.36,ANEX-A1,10:23 Realizado,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=2099,http://dassa.mqbic.com/NewTallySalida.php?id=606
 01/10,Industrias Saladillo...,36518-1-1,BMOU-255036-9,TPNGBSG25046030,Bultos,8.0,1.36,ANEX-A1,11:50 Realizado,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=2099,http://dassa.mqbic.com/NewTallySalida.php?id=606
-01/10,Industrias Saladillo...,36518-1-1,BMOU-255036-9,TPNGBSG25046030,Bultos,8.0,1.36,ANEX-A1,15:45 Realizado,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=2099,http://dassa.mqbic.com/NewTallySalida.php?id=606
 01/10,Sk Distributors S.R....,38501-0-1,MRKU-075134-5,DLSZ250800040,Contenedor,1.0,0.0,PLZA,09:39 Realizado,8:30 ,-,-
 01/10,Noah Servicess.R.L.,38324-3-1,CMAU-430429-0,IBC1377772C,Bultos,69.0,15.0,IA7,18:33 Realizado,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=2605,
-01/10,Aspee Monee,38187-0-1,TLLU-518514-0,MEDUOO433488,Contenedor,1.0,0.0,PLZA,En curso,9:30 ,-,-
+01/10,Aspee Monee,38187-0-1,TLLU-518514-0,MEDUOO433488,Contenedor,1.0,0.0,PLZA,14:51 Realizado,9:30 ,-,-
+01/10,Lift Van Int. Co S.A,38170-1-1,ZCSU-691113-3,LIFBUE25090010,Bultos,236.0,65.0,IA6,14:26 Realizado,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=2524,http://dassa.mqbic.com/NewTallySalida.php?id=744
+01/10,Mercovan Argentina S...,38135-2-1,ZCSU-849076-9,MVANES20252808,Bultos,312.0,60.0,IA9,En curso,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2488,
+01/10,Geo Logistics Argent...,38157-2-1,JXLU-785431-5,SZ25070362B,Bultos,9.0,12.0,IA9,12:11 Realizado,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=2520,http://dassa.mqbic.com/NewTallySalida.php?id=745
+01/10,Industrias Saladillo...,36518-1-1,BMOU-255036-9,TPNGBSG25046030,Bultos,8.0,1.36,ANEX-A1,15:45 Realizado,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=2099,http://dassa.mqbic.com/NewTallySalida.php?id=606
 01/10,Industrias Saladillo...,36672-1-1,HDMU-271974-1,TPNGBSG25056020,Bultos,2.0,1.69,ANEX,11:33 Realizado,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2134,http://dassa.mqbic.com/NewTallySalida.php?id=747
 01/10,Industrias Saladillo...,36672-1-1,HDMU-271974-1,TPNGBSG25056020,Bultos,2.0,1.69,ANEX,11:50 Realizado,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2134,http://dassa.mqbic.com/NewTallySalida.php?id=747
 01/10,Industrias Saladillo...,36518-1-1,BMOU-255036-9,TPNGBSG25046030,Bultos,8.0,1.36,ANEX-A1,12:34 Realizado,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=2099,http://dassa.mqbic.com/NewTallySalida.php?id=606
 01/10,Mercovan Argentina S...,38370-1-1,UACU-824925-5,MVANLT20250608,Bultos,7.0,38.0,ANEX-A1,En curso,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2621,
-01/10,Geo Logistics Argent...,38157-2-1,JXLU-785431-5,SZ25070362B,Bultos,9.0,12.0,IA9,12:11 Realizado,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=2520,http://dassa.mqbic.com/NewTallySalida.php?id=745
-01/10,Mercovan Argentina S...,38135-2-1,ZCSU-849076-9,MVANES20252808,Bultos,312.0,60.0,IA9,En curso,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2488,
-01/10,Jupam Sa,38326-0-1,TCKU-664318-1,TWLE25070183,Contenedor,1.0,0.0,PLZA,09:39 Realizado,8:30 ,-,-
-01/10,Lift Van Int. Co S.A,38170-1-1,ZCSU-691113-3,LIFBUE25090010,Bultos,236.0,65.0,IA6,14:26 Realizado,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=2524,http://dassa.mqbic.com/NewTallySalida.php?id=744
 01/10,Geo Logistics Argent...,38157-2-1,JXLU-785431-5,SZ25070362B,Bultos,9.0,12.0,IA9,09:03 Realizado,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=2520,http://dassa.mqbic.com/NewTallySalida.php?id=745
 01/10,Geo Logistics Argent...,38157-2-1,JXLU-785431-5,SZ25070362B,Bultos,9.0,12.0,IA9,10:33 Realizado,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=2520,http://dassa.mqbic.com/NewTallySalida.php?id=745
-02/10,Southcross Logistics...,37965-1-1,MRKU-000630-0,GGLFE25070021,Bultos,317.0,60.0,NV1,Pendiente,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2426,
+01/10,Jupam Sa,38326-0-1,TCKU-664318-1,TWLE25070183,Contenedor,1.0,0.0,PLZA,09:39 Realizado,8:30 ,-,-
+02/10,Lift Van Int. Co S.A,38456-1-1,BSIU-284883-1,LIFBUE25080014,Bultos,3.0,14.0,ANEX-A1,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=2658,
 02/10,Juguetech Sa,38547-0-1,MEDU-891867-5,SZXS067814,Contenedor,1.0,0.0,PLZA,Pendiente,8:30 ,-,-
 02/10,Mercovan Argentina S...,38370-1-2,FANU-136696-3,MVANLT20250708,Bultos,1.0,19.0,ANEX-A1,Pendiente,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2627,
-02/10,Lift Van Int. Co S.A,38456-1-1,BSIU-284883-1,LIFBUE25080014,Bultos,3.0,14.0,ANEX-A1,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=2658,
+02/10,Southcross Logistics...,37965-1-1,MRKU-000630-0,GGLFE25070021,Bultos,317.0,60.0,NV1,Pendiente,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2426,
 02/10,Mercovan Argentina S...,38281-1-1,MEDU-291435-3,MVANES17082025,Bultos,90.0,15.0,ANEX-A1,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=2561,
-03/10,Eramine Sudamerica S...,38131-2-1,LYGU-021127-0,NSHEC250739660,Bultos,500.0,70.0,IA6,Pendiente,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2493,
+03/10,Ricoltex Srl,38527-0-1,CMAU-731519-6,EID0878688,Contenedor,1.0,0.0,PLZA,Pendiente,8:30 ,-,-
+03/10,Indugroup S.A.,38510-1-1,TGBU-631864-8,514961/1,Bultos,381.0,50.0,ANEX-A1,Pendiente,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2682,
+03/10,Indugroup S.A.,38336-1-1,HAMU-353826-8,OS25/175387/1,Bultos,46.0,75.0,IB1,Pendiente,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2608,
 03/10,Lift Van Int. Co S.A,38203-1-1,TCKU-338199-8,LIFBUE25090011,Bultos,76.0,25.0,ANEX-A1,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=2547,
-03/10,Eramine Sudamerica S...,38131-1-1,LYGU-021135-1,NSHEC250739660,Bultos,500.0,70.0,IA6,Pendiente,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2492,
 03/10,Mercovan Argentina S...,37918-1-1,CAAU-236338-6,MVANES20251608,Bultos,178.0,30.0,ANEX-A1,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=2416,
 03/10,Aoda Sa,38578-0-1,DRYU-265903-1,NB250763882,Contenedor,1.0,0.0,PLZA,Pendiente,8:00 ,-,-
+03/10,Eramine Sudamerica S...,38131-1-1,LYGU-021135-1,NSHEC250739660,Bultos,500.0,70.0,IA6,Pendiente,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2492,
+03/10,Eramine Sudamerica S...,38131-2-1,LYGU-021127-0,NSHEC250739660,Bultos,500.0,70.0,IA6,Pendiente,8:30 ,http://dassa.mqbic.com/PublicTally.php?id=2493,
