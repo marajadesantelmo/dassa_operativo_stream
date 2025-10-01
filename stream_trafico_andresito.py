@@ -188,9 +188,7 @@ def show_page_trafico_andresito():
                     index=0
                 )
             with col_assign1_5:
-                # Allow custom input if needed
-                if transporte_name_arribos == "" or st.checkbox("Ingresar otro transporte", key="custom_transporte_arribos"):
-                    transporte_name_arribos = st.text_input("Ingresar nombre manualmente:", key="transporte_arribos_custom")
+                transporte_name_arribos = st.text_input("Ingresar nombre manualmente:", key="transporte_arribos_custom")
             with col_assign1_6:
                 if st.button("Asignar", key="assign_transporte_arribos"):
                     if transporte_name_arribos.strip():
@@ -308,8 +306,7 @@ def show_page_trafico_andresito():
                     )
                 with col_assign2_5:
                     # Allow custom input if needed
-                    if transporte_name_pendiente == "" or st.checkbox("Ingresar otro transporte", key="custom_transporte_pendiente"):
-                        transporte_name_pendiente = st.text_input("Ingresar nombre manualmente:", key="transporte_pendiente_custom")
+                    transporte_name_pendiente = st.text_input("Ingresar nombre manualmente:", key="transporte_pendiente_custom")
                 with col_assign2_6:
                     if st.button("Asignar", key="assign_transporte_pendiente"):
                         if transporte_name_pendiente.strip():
@@ -430,8 +427,7 @@ def show_page_trafico_andresito():
                     )
                 with col_assign3_5:
                     # Allow custom input if needed
-                    if transporte_name_expo == "" or st.checkbox("Ingresar otro transporte", key="custom_transporte_expo"):
-                        transporte_name_expo = st.text_input("Ingresar nombre manualmente:", key="transporte_expo_custom")
+                    transporte_name_expo = st.text_input("Ingresar nombre manualmente:", key="transporte_expo_custom")
                 with col_assign3_6:
                     if st.button("Asignar", key="assign_transporte_expo"):
                         if transporte_name_expo.strip():
@@ -557,8 +553,7 @@ def show_page_trafico_andresito():
             )
         with col_assign4_5:
             # Allow custom input if needed
-            if transporte_name_remisiones == "" or st.checkbox("Ingresar otro transporte", key="custom_transporte_remisiones"):
-                transporte_name_remisiones = st.text_input("Ingresar nombre manualmente:", key="transporte_remisiones_custom")
+            transporte_name_remisiones = st.text_input("Ingresar nombre manualmente:", key="transporte_remisiones_custom")
         with col_assign4_6:
             if st.button("Asignar", key="assign_transporte_remisiones"):
                 if transporte_name_remisiones.strip():
@@ -686,8 +681,7 @@ def show_page_trafico_andresito():
                     )
                 with col_assign5_5:
                     # Allow custom input if needed
-                    if transporte_name_otros == "" or st.checkbox("Ingresar otro transporte", key="custom_transporte_otros"):
-                        transporte_name_otros = st.text_input("Ingresar nombre manualmente:", key="transporte_otros_custom")
+                    transporte_name_otros = st.text_input("Ingresar nombre manualmente:", key="transporte_otros_custom")
                 with col_assign5_6:
                     if st.button("Asignar", key="assign_transporte_otros"):
                         if transporte_name_otros.strip():
@@ -806,6 +800,12 @@ def show_page_trafico_andresito():
             insert_data_dict['fecha_registro'] = current_time.isoformat()
             
             try:
+                insert_data(selected_table, insert_data_dict)
+                st.success(f"Registro agregado exitosamente a {selected_table_name}")
+                st.cache_data.clear()
+                st.rerun()
+            except Exception as e:
+                st.error(f"Error al agregar registro: {e}")
                 insert_data(selected_table, insert_data_dict)
                 st.success(f"Registro agregado exitosamente a {selected_table_name}")
                 st.cache_data.clear()
