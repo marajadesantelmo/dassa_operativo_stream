@@ -276,8 +276,11 @@ def show_page_trafico_andresito():
                         st.warning("Por favor ingrese las observaciones")
                         
                 st.markdown("**Asignar Fecha y Hora Fin**")
-                fecha_fin_pte = st.date_input("Fecha fin:", key="fecha_fin_pendiente")
-                hora_fin_pte = st.time_input("Hora fin:", key="hora_fin_pendiente")
+                col_fecha1, col_fecha2 = st.columns(2)
+                with col_fecha1:
+                    fecha_fin_pte = st.date_input("Fecha fin:", key="fecha_fin_pendiente")
+                with col_fecha2:
+                    hora_fin_pte = st.time_input("Hora fin:", key="hora_fin_pendiente")
                 if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_pendiente"):
                     if fecha_fin_pte and hora_fin_pte:
                         fecha_hora_fin_str = fecha_fin_pte.strftime("%d/%m/%Y") + " " + hora_fin_pte.strftime("%H:%M")
