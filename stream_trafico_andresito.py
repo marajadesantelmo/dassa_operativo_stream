@@ -489,20 +489,24 @@ def show_page_trafico_andresito():
                 st.warning("Por favor ingrese las observaciones")
                 
         st.markdown("**Asignar Fecha y Hora Fin**")
-        fecha_fin = st.date_input("Fecha fin:", key="fecha_fin_remision")
-        hora_fin = st.time_input("Hora fin:", key="hora_fin_remision")
-        if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_remision"):
-            if fecha_fin and hora_fin:
-                fecha_hora_fin_str = fecha_fin.strftime("%d/%m/%Y") + " " + hora_fin.strftime("%H:%M")
-                try:
-                    update_data("trafico_remisiones", selected_remision_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
-                    st.success(f"Fecha y Hora Fin asignada al registro ID {selected_remision_id}")
-                    st.cache_data.clear()
-                    st.rerun()
-                except Exception as e:
-                    st.error(f"Error al asignar Fecha y Hora Fin: {e}")
-            else:
-                st.warning("Por favor seleccione fecha y hora")
+        col_fecha4_1, col_fecha4_2, col_fecha4_3 = st.columns([2, 2, 1])
+        with col_fecha4_1:
+            fecha_fin = st.date_input("Fecha fin:", key="fecha_fin_remision")
+        with col_fecha4_2:
+            hora_fin = st.time_input("Hora fin:", key="hora_fin_remision")
+        with col_fecha4_3:
+            if st.button("Asignar Fin", key="assign_fecha_fin_remision"):
+                if fecha_fin and hora_fin:
+                    fecha_hora_fin_str = fecha_fin.strftime("%d/%m/%Y") + " " + hora_fin.strftime("%H:%M")
+                    try:
+                        update_data("trafico_remisiones", selected_remision_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
+                        st.success(f"Fecha y Hora Fin asignada al registro ID {selected_remision_id}")
+                        st.cache_data.clear()
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Error al asignar Fecha y Hora Fin: {e}")
+                else:
+                    st.warning("Por favor seleccione fecha y hora")
 
     # Add new "Otros" section before manual data entry
     st.subheader("Otros")
@@ -606,20 +610,24 @@ def show_page_trafico_andresito():
                         st.warning("Por favor ingrese las observaciones")
                         
                 st.markdown("**Asignar Fecha y Hora Fin**")
-                fecha_fin_otros = st.date_input("Fecha fin:", key="fecha_fin_otros")
-                hora_fin_otros = st.time_input("Hora fin:", key="hora_fin_otros")
-                if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_otros"):
-                    if fecha_fin_otros and hora_fin_otros:
-                        fecha_hora_fin_str = fecha_fin_otros.strftime("%d/%m/%Y") + " " + hora_fin_otros.strftime("%H:%M")
-                        try:
-                            update_data("trafico_otros", selected_otros_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
-                            st.success(f"Fecha y Hora Fin asignada al registro ID {selected_otros_id}")
-                            st.cache_data.clear()
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al asignar Fecha y Hora Fin: {e}")
-                    else:
-                        st.warning("Por favor seleccione fecha y hora")
+                col_fecha5_1, col_fecha5_2, col_fecha5_3 = st.columns([2, 2, 1])
+                with col_fecha5_1:
+                    fecha_fin_otros = st.date_input("Fecha fin:", key="fecha_fin_otros")
+                with col_fecha5_2:
+                    hora_fin_otros = st.time_input("Hora fin:", key="hora_fin_otros")
+                with col_fecha5_3:
+                    if st.button("Asignar Fin", key="assign_fecha_fin_otros"):
+                        if fecha_fin_otros and hora_fin_otros:
+                            fecha_hora_fin_str = fecha_fin_otros.strftime("%d/%m/%Y") + " " + hora_fin_otros.strftime("%H:%M")
+                            try:
+                                update_data("trafico_otros", selected_otros_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
+                                st.success(f"Fecha y Hora Fin asignada al registro ID {selected_otros_id}")
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Error al asignar Fecha y Hora Fin: {e}")
+                        else:
+                            st.warning("Por favor seleccione fecha y hora")
 
     # Manual Data Entry Section
     st.markdown("---")
