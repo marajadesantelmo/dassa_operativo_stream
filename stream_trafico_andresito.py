@@ -172,7 +172,7 @@ def show_page_trafico_andresito():
                             st.error(f"Error al asignar chofer: {e}")
                     else:
                         st.warning("Por favor ingrese el nombre del chofer")
-                observaciones_arribos = st.text_area("Observaciones:", key="observaciones_arribos")
+            observaciones_arribos = st.text_area("Observaciones:", key="observaciones_arribos")
             if st.button("Asignar Observaciones", key="assign_observaciones_arribos"):
                 if observaciones_arribos.strip():
                     try:
