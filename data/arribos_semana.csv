@@ -7,6 +7,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-01,Exolgan,1300 ,FBIU-012748-3,Mercovan Argentina S.A.,HLUSPIL250710333,TD,DC,30,0,Pendiente arribo
 2025-10-02,Terminal 4 - Maersk,1400 ,TCNU-963565-1,Mercovan Argentina S.A.,ISB1783593,TD,HC,70,0,Pendiente arribo
 2025-10-02,Terminal 4 - Maersk,1400 ,MSKU-020688-8,Mercovan Argentina S.A.,ISB1783592,TD,HC,70,0,Pendiente arribo
+2025-10-02,Exolgan,0500 ,UASU-106344-5,Mercovan Argentina S.A.,HLUSPIL250712942,TD,HC,70,0,Pendiente arribo
 2025-09-23,Exolgan,1500 ,GCXU-517570-3,Mercovan Argentina S.A.,HLCUGY3250731647,TD,HC,70,1,19:43 Arribado
 2025-09-23,Exolgan,1500 ,TCKU-361978-8,Mercovan Argentina S.A.,HLCUBC1250731630,TD,DC,0,1,19:41 Arribado
 2025-09-24,Terminal 4 - Maersk,1400 ,MRSU-812206-4,Mercovan Argentina S.A.,256798062,TD,DC,60,1,17:21 Arribado
@@ -76,7 +77,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-12,Exolgan,0500 ,MSDU-733325-6,Aspee Monee,MEDUOO433637,T,HC,70,1,10:46 Arribado
 2025-09-19,Terminal 4 - Maersk,1500 ,MSKU-179254-6,Aspee Monee,255476630,T,DC,60,1,19:12 Arribado
 2025-09-19,Terminal 4 - Maersk,1200 ,MSKU-167653-0,Aspee Monee,255476525,T,DC,60,1,18:46 Arribado
-2025-10-02,None,1400 ,MRSU-335766-2,Dagher S.A.,OXOE2507035,T,HC,70,0,Pendiente arribo
+2025-10-02,Terminal 4 - Maersk,1400 ,MRSU-335766-2,Dagher S.A.,OXOE2507035,T,HC,70,0,Pendiente arribo
 2025-09-23,Terminal 4 - Maersk,1000 ,MRKU-067396-2,Fenisan S.A.,258262518,T,DC,60,1,13:40 Arribado
 2025-09-23,Terminal 4 - Maersk,1000 ,MSKU-196898-0,Fenisan S.A.,258262518,T,DC,60,1,13:48 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1300 ,MAGU-527913-0,Poka S.A.,QD20250175,T,HC,70,1,17:35 Arribado
@@ -180,6 +181,9 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-26,Trp - Terminales 1-2-3,1200 ,TCLU-407367-8,Grupo Rsm Srl,IBC1383284,TD,DC,60,1,16:33 Arribado
 2025-09-26,Terminal 4 - Maersk,0800 ,MRKU-084892-6,Grupo Rsm Srl,258726627,TD,DC,60,1,13:45 Arribado
 2025-09-29,Terminal 4 - Maersk,1200 ,TCNU-791296-8,Grupo Rsm Srl,258590460,TD,DC,60,1,15:43 Arribado
+2025-10-02,Terminal 4 - Maersk,1100 ,MRKU-523050-3,Grupo Rsm Srl,258779880,TD,DC,60,0,Pendiente arribo
+2025-10-02,Terminal 4 - Maersk,1100 ,MRKU-635466-4,Grupo Rsm Srl,258779880,TD,DC,60,0,Pendiente arribo
+2025-10-02,Terminal 4 - Maersk,1100 ,MRKU-073604-2,Grupo Rsm Srl,258946624,TD,DC,60,0,Pendiente arribo
 2025-09-29,Terminal 4 - Maersk,1400 ,FFAU-745885-2,Mazon Textil Sa,NBOE25016288,T,HC,70,1,17:31 Arribado
 2025-09-30,Exolgan,0500 ,UETU-619562-1,Mazon Textil Sa,NBOE25017303,T,HC,70,1,09:44 Arribado
 2025-09-10,Terminal 4 - Maersk,1300 ,ZCSU-732458-9,Fedtex S.R.L,TWLE25070085,TD,HC,70,1,19:45 Arribado
@@ -204,7 +208,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-19,Exolgan,0500 ,TRHU-611296-4,Xiadex Srl,NBOE25016079,T,HC,70,1,11:26 Arribado
 2025-09-22,Exolgan,0700 ,TGCU-525859-5,Xiadex Srl,NBOE25016225,T,HC,70,1,09:45 Arribado
 2025-09-15,Trp - Terminales 1-2-3,1200 ,FSCU-496250-5,Car Pro Accesorios S.R.L,MFSE2506X144,T,DC,60,1,15:13 Arribado
-2025-10-02,None,1000 ,FCIU-415019-0,Sermat Sa,AWSL298363,T,DC,30,0,Pendiente arribo
+2025-10-02,Terminal 4 - Maersk,1000 ,FCIU-415019-0,Sermat Sa,AWSL298363,T,DC,30,0,Pendiente arribo
 2025-09-12,Terminal 4 - Maersk,0900 ,TEMU-407810-5,Jet Cargo S.A.,ZIMUASH4372037,TD,DC,30,1,14:36 Arribado
 2025-09-10,Exolgan,1500 ,UETU-754465-1,Independencia 3187 Maquinarias...,TCSH2505570A,T,HC,70,1,18:25 Arribado
 2025-09-10,Exolgan,1500 ,UETU-754342-3,Independencia 3187 Maquinarias...,TCSH2505570B,T,HC,70,1,18:28 Arribado
@@ -225,6 +229,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-25,Terminal 4 - Maersk,1100 ,TGBU-631864-8,Indugroup S.A.,514961/1,TD,HC,70,1,15:44 Arribado
 2025-09-16,Terminal 4 - Maersk,1000 ,ZIMU-315529-0,Vertisoles Srl,ZIMUASH4371657,TD,DR,30,1,12:12 Arribado
 2025-09-17,Terminal 4 - Maersk,0800 ,MRSU-627747-3,Boratex Srl,256680902,TD,DC,60,1,10:45 Arribado
+2025-10-02,Terminal 4 - Maersk,1100 ,MRSU-672624-0,Boratex Srl,256768758,TD,DC,60,0,Pendiente arribo
 2025-09-16,Trp - Terminales 1-2-3,1200 ,GCXU-517785-6,Bazar Del Mundo S.A.,ESHOE2507065,TD,HC,70,1,15:39 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1200 ,PCIU-963460-2,Bazar Del Mundo S.A.,ESHOE2507065,TD,HC,70,1,14:59 Arribado
 2025-10-02,Terminal 4 - Maersk,0800 ,TRHU-589362-5,Bazar Del Mundo S.A.,VOLEP25071319,TD,HC,70,0,Pendiente arribo
