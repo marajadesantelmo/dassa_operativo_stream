@@ -73,6 +73,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-12,Exolgan,0500 ,MSDU-733325-6,Aspee Monee,MEDUOO433637,T,HC,70,1,10:46 Arribado
 2025-09-19,Terminal 4 - Maersk,1500 ,MSKU-179254-6,Aspee Monee,255476630,T,DC,60,1,19:12 Arribado
 2025-09-19,Terminal 4 - Maersk,1200 ,MSKU-167653-0,Aspee Monee,255476525,T,DC,60,1,18:46 Arribado
+2025-10-02,None,1400 ,MRSU-335766-2,Dagher S.A.,OXOE2507035,T,HC,70,0,Pendiente arribo
 2025-09-23,Terminal 4 - Maersk,1000 ,MRKU-067396-2,Fenisan S.A.,258262518,T,DC,60,1,13:40 Arribado
 2025-09-23,Terminal 4 - Maersk,1000 ,MSKU-196898-0,Fenisan S.A.,258262518,T,DC,60,1,13:48 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1300 ,MAGU-527913-0,Poka S.A.,QD20250175,T,HC,70,1,17:35 Arribado
@@ -81,7 +82,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-12,Trp - Terminales 1-2-3,0400 ,EISU-822402-8,Poka S.A.,NB250763420,T,HC,70,1,08:20 Arribado
 2025-09-12,Trp - Terminales 1-2-3,0400 ,EISU-850627-4,Poka S.A.,NB250763420,T,HC,70,1,08:57 Arribado
 2025-09-12,Trp - Terminales 1-2-3,0400 ,EGHU-936346-3,Poka S.A.,NB250763420,T,HC,70,1,08:41 Arribado
-2025-10-01,Exolgan,0500 ,HAMU-169138-6,Poka S.A.,DLSZ25080151B,T,HC,70,0,Pendiente arribo
+2025-10-01,Exolgan,0500 ,HAMU-169138-6,Poka S.A.,DLSZ25080151B,T,HC,70,1,09:27 Arribado
 2025-10-01,Exolgan,0500 ,HAMU-386909-7,Poka S.A.,DLSZ25080151B,T,HC,70,1,08:26 Arribado
 2025-10-01,Exolgan,1300 ,HAMU-452464-9,Poka S.A.,DLSZ25080151B,T,HC,70,0,Pendiente arribo
 2025-10-01,Exolgan,1300 ,HAMU-452470-0,Poka S.A.,DLSZ25080151B,T,HC,70,0,Pendiente arribo
@@ -90,7 +91,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-23,Exolgan,1300 ,HLBU-214589-9,Poka S.A.,DLNB2507490,T,HC,70,1,16:49 Arribado
 2025-09-23,Exolgan,1300 ,HLXU-841984-4,Poka S.A.,DLNB2507490,T,HC,70,1,18:12 Arribado
 2025-09-30,Exolgan,1500 ,HAMU-452152-6,Poka S.A.,DLSZ25080151A,T,HC,70,1,19:06 Arribado
-2025-10-01,Exolgan,0500 ,CAIU-855371-9,Poka S.A.,DLSZ25080151B,T,HC,70,0,Pendiente arribo
+2025-10-01,Exolgan,0500 ,CAIU-855371-9,Poka S.A.,DLSZ25080151B,T,HC,70,1,09:31 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1300 ,EGHU-916625-3,Mma Tex S.A.,HDE25-0700053,T,HC,70,1,16:30 Arribado
 2025-09-10,Trp - Terminales 1-2-3,1200 ,EMCU-157632-2,Mma Tex S.A.,HDE25-0700049,T,HC,70,1,17:00 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1500 ,EGHU-931861-2,Mma Tex S.A.,HDE25-0800035,T,HC,70,1,18:11 Arribado
@@ -200,6 +201,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-19,Exolgan,0500 ,TRHU-611296-4,Xiadex Srl,NBOE25016079,T,HC,70,1,11:26 Arribado
 2025-09-22,Exolgan,0700 ,TGCU-525859-5,Xiadex Srl,NBOE25016225,T,HC,70,1,09:45 Arribado
 2025-09-15,Trp - Terminales 1-2-3,1200 ,FSCU-496250-5,Car Pro Accesorios S.R.L,MFSE2506X144,T,DC,60,1,15:13 Arribado
+2025-10-02,None,1000 ,FCIU-415019-0,Sermat Sa,AWSL298363,T,DC,30,0,Pendiente arribo
 2025-09-12,Terminal 4 - Maersk,0900 ,TEMU-407810-5,Jet Cargo S.A.,ZIMUASH4372037,TD,DC,30,1,14:36 Arribado
 2025-09-10,Exolgan,1500 ,UETU-754465-1,Independencia 3187 Maquinarias...,TCSH2505570A,T,HC,70,1,18:25 Arribado
 2025-09-10,Exolgan,1500 ,UETU-754342-3,Independencia 3187 Maquinarias...,TCSH2505570B,T,HC,70,1,18:28 Arribado
@@ -222,6 +224,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-17,Terminal 4 - Maersk,0800 ,MRSU-627747-3,Boratex Srl,256680902,TD,DC,60,1,10:45 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1200 ,GCXU-517785-6,Bazar Del Mundo S.A.,ESHOE2507065,TD,HC,70,1,15:39 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1200 ,PCIU-963460-2,Bazar Del Mundo S.A.,ESHOE2507065,TD,HC,70,1,14:59 Arribado
+2025-10-02,Terminal 4 - Maersk,0800 ,TRHU-589362-5,Bazar Del Mundo S.A.,VOLEP25071319,TD,HC,70,0,Pendiente arribo
 2025-09-26,Trp - Terminales 1-2-3,1300 ,CMAU-731519-6,Ricoltex Srl,EID0878688,T,HC,70,1,15:44 Arribado
 2025-09-24,Trp - Terminales 1-2-3,1200 ,PIDU-454214-7,Blanco Mamila Srl,TWLE25070178,T,HC,70,1,16:11 Arribado
 2025-09-24,Trp - Terminales 1-2-3,1200 ,KOCU-218230-1,Blanco Mamila Srl,TWLE25070109,T,DC,30,1,16:31 Arribado
