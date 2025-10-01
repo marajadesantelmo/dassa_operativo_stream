@@ -159,7 +159,7 @@ def show_page_trafico_andresito():
             with col_assign1_2:
             # Allow custom input if needed
                 if chofer_name_arribos == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_arribos"):
-                    chofer_name_arribos = st.text_input("Ingresar nombre de chofer:", key="chofer_arribos_custom")
+                    chofer_name_arribos = st.text_input("Ingresar nombre manualmente:", key="chofer_arribos_custom")
             with col_assign1_3:
                 if st.button("Asignar", key="assign_arribos"):
                     if chofer_name_arribos.strip():
