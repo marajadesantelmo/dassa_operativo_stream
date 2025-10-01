@@ -282,7 +282,7 @@ def show_page_trafico_andresito():
                 with col_fecha2:
                     hora_fin_pte = st.time_input("Hora fin:", key="hora_fin_pendiente")
                 with col_fecha3:
-                    if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_pendiente"):
+                    if st.button("Asignar Fin", key="assign_fecha_fin_pendiente"):
                         if fecha_fin_pte and hora_fin_pte:
                             fecha_hora_fin_str = fecha_fin_pte.strftime("%d/%m/%Y") + " " + hora_fin_pte.strftime("%H:%M")
                             try:
