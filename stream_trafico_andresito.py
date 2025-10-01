@@ -171,20 +171,21 @@ def show_page_trafico_andresito():
                             st.error(f"Error al asignar chofer: {e}")
                     else:
                         st.warning("Por favor ingrese el nombre del chofer")
-            
-            st.markdown("**Asignar Observaciones**")
-            observaciones_arribos = st.text_area("Observaciones:", key="observaciones_arribos")
-            if st.button("Asignar Observaciones", key="assign_observaciones_arribos"):
-                if observaciones_arribos.strip():
-                    try:
-                        update_data("trafico_arribos", selected_arribo_id, {"Observaciones": observaciones_arribos.strip()})
-                        st.success(f"Observaciones asignadas al registro ID {selected_arribo_id}")
-                        st.cache_data.clear()
-                        st.rerun()
-                    except Exception as e:
-                        st.error(f"Error al asignar observaciones: {e}")
-                else:
-                    st.warning("Por favor ingrese las observaciones")
+            col_assign1_1b, col_assign1_2b = st.columns(2)
+            with col_assign1_1b:
+                observaciones_arribos = st.text_area("Observaciones:", key="observaciones_arribos")
+            with col_assign1_2b:
+                if st.button("Asignar", key="assign_observaciones_arribos"):
+                    if observaciones_arribos.strip():
+                        try:
+                            update_data("trafico_arribos", selected_arribo_id, {"Observaciones": observaciones_arribos.strip()})
+                            st.success(f"Observaciones asignadas al registro ID {selected_arribo_id}")
+                            st.cache_data.clear()
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Error al asignar observaciones: {e}")
+                    else:
+                        st.warning("Por favor ingrese las observaciones")
 
     st.subheader("V. Vacíos IMPO a devolver")
     with st.container():
