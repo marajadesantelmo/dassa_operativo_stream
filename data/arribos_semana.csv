@@ -125,6 +125,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-17,Terminal 4 - Maersk,1100 ,JXLU-618880-5,Jupam Sa,TWLE25070182,TD,HC,70,1,15:05 Arribado
 2025-10-03,Trp - Terminales 1-2-3,0600 ,EGHU-964767-0,Jupam Sa,TWLE25070164,T,HC,70,0,Pendiente arribo
 2025-10-03,Trp - Terminales 1-2-3,0500 ,EGHU-935739-4,Jupam Sa,TWLE25070179,T,HC,70,0,Pendiente arribo
+2025-10-03,Trp - Terminales 1-2-3,0500 ,EITU-900979-0,Jupam Sa,TWLE25070223,T,HC,70,0,Pendiente arribo
 2025-09-16,Trp - Terminales 1-2-3,1100 ,FSCU-495909-7,Aoda Sa,NB250663051,T,DC,60,1,13:37 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1300 ,EITU-124729-9,Aoda Sa,NB250663270/84,T,HC,70,1,16:04 Arribado
 2025-09-30,Trp - Terminales 1-2-3,1900 ,DRYU-265903-1,Aoda Sa,NB250763882,T,DC,30,1,20:57 Arribado
@@ -134,6 +135,9 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-24,Trp - Terminales 1-2-3,1100 ,CSNU-775417-3,Grupo Leal-Tex S.R.L.,GILSH250700162,TD,HC,70,1,13:37 Arribado
 2025-09-24,Trp - Terminales 1-2-3,1100 ,BEAU-578719-6,Grupo Leal-Tex S.R.L.,GILSH250700161,TD,HC,70,1,14:15 Arribado
 2025-09-15,Trp - Terminales 1-2-3,1500 ,EITU-911465-1,Dmc Import Group S.R.L.,TSSZ2507033,T,HC,70,1,18:49 Arribado
+2025-10-03,Trp - Terminales 1-2-3,0400 ,GAOU-695258-1,Dmc Import Group S.R.L.,TSSZ2508057,T,HC,70,0,Pendiente arribo
+2025-10-03,Trp - Terminales 1-2-3,0500 ,TIIU-583158-9,Dmc Import Group S.R.L.,TSSZ2507150,T,HC,70,0,Pendiente arribo
+2025-10-03,Trp - Terminales 1-2-3,0500 ,EGSU-969165-6,Dmc Import Group S.R.L.,BK2531113,T,HC,70,0,Pendiente arribo
 2025-10-02,Trp - Terminales 1-2-3,1300 ,BEAU-559667-2,Multitransport Argentina,TCQD2507196,T,HC,70,0,Pendiente arribo
 2025-10-02,Trp - Terminales 1-2-3,1300 ,TLLU-264812-8,Multitransport Argentina,TCQD2507196,T,HC,70,0,Pendiente arribo
 2025-10-02,Trp - Terminales 1-2-3,1300 ,TRHU-535131-0,Multitransport Argentina,TCQD2507196,T,HC,70,0,Pendiente arribo
@@ -222,6 +226,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-12,Terminal 4 - Maersk,0900 ,TEMU-407810-5,Jet Cargo S.A.,ZIMUASH4372037,TD,DC,30,1,14:36 Arribado
 2025-09-30,Terminal 4 - Maersk,0700 ,FFAU-733764-0,Alas Comex S.A,NGBAGN25070154,T,HC,70,1,09:56 Arribado
 2025-10-03,Trp - Terminales 1-2-3,0500 ,DRYU-929698-2,Impacto Jean S.A.,HDE25-0700089,T,HC,70,0,Pendiente arribo
+2025-10-03,Trp - Terminales 1-2-3,0600 ,EISU-821588-0,Impacto Jean S.A.,HDE25-0800040,T,HC,70,0,Pendiente arribo
 2025-09-15,Terminal 4 - Maersk,1400 ,MSKU-678759-0,Distribuidora Koruk S R L,OXOE2507040,T,DR,60,1,18:09 Arribado
 2025-09-15,Trp - Terminales 1-2-3,1500 ,TRHU-563866-1,Perozzi Domingo Y Perozzi Osva...,SY250662826,T,HC,70,1,17:32 Arribado
 2025-09-16,Terminal 4 - Maersk,1500 ,HLBU-226851-1,Republica Textil Srl,NBOE25016048,T,HC,70,1,19:18 Arribado
