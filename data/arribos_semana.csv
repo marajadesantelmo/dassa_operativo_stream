@@ -6,7 +6,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-16,Exolgan,0500 ,TCLU-415732-0,Mercovan Argentina S.A.,HLCULE1250769870,TD,DC,60,1,11:39 Arribado
 2025-10-01,Exolgan,1300 ,FBIU-012748-3,Mercovan Argentina S.A.,HLUSPIL250710333,TD,DC,30,1,16:04 Arribado
 2025-10-02,Terminal 4 - Maersk,1400 ,TCNU-963565-1,Mercovan Argentina S.A.,ISB1783593,TD,HC,70,1,19:43 Arribado
-2025-10-02,Terminal 4 - Maersk,1400 ,MSKU-020688-8,Mercovan Argentina S.A.,ISB1783592,TD,HC,70,0,Pendiente arribo
+2025-10-02,Terminal 4 - Maersk,1400 ,MSKU-020688-8,Mercovan Argentina S.A.,ISB1783592,TD,HC,70,1,19:48 Arribado
 2025-10-02,Exolgan,0500 ,UASU-106344-5,Mercovan Argentina S.A.,HLUSPIL250712942,TD,HC,70,1,10:45 Arribado
 2025-09-23,Exolgan,1500 ,GCXU-517570-3,Mercovan Argentina S.A.,HLCUGY3250731647,TD,HC,70,1,19:43 Arribado
 2025-09-23,Exolgan,1500 ,TCKU-361978-8,Mercovan Argentina S.A.,HLCUBC1250731630,TD,DC,0,1,19:41 Arribado
@@ -79,7 +79,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-12,Exolgan,0500 ,MSDU-733325-6,Aspee Monee,MEDUOO433637,T,HC,70,1,10:46 Arribado
 2025-09-19,Terminal 4 - Maersk,1500 ,MSKU-179254-6,Aspee Monee,255476630,T,DC,60,1,19:12 Arribado
 2025-09-19,Terminal 4 - Maersk,1200 ,MSKU-167653-0,Aspee Monee,255476525,T,DC,60,1,18:46 Arribado
-2025-10-02,Terminal 4 - Maersk,1400 ,MRSU-335766-2,Dagher S.A.,OXOE2507035,T,HC,70,0,Pendiente arribo
+2025-10-02,Terminal 4 - Maersk,1400 ,MRSU-335766-2,Dagher S.A.,OXOE2507035,T,HC,70,1,19:47 Arribado
 2025-09-23,Terminal 4 - Maersk,1000 ,MRKU-067396-2,Fenisan S.A.,258262518,T,DC,60,1,13:40 Arribado
 2025-09-23,Terminal 4 - Maersk,1000 ,MSKU-196898-0,Fenisan S.A.,258262518,T,DC,60,1,13:48 Arribado
 2025-10-03,Trp - Terminales 1-2-3,0500 ,EGSU-159286-8,Shipy S.A.,TSSZ2507177,T,HC,70,0,Pendiente arribo
@@ -138,7 +138,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-03,Trp - Terminales 1-2-3,0400 ,GAOU-695258-1,Dmc Import Group S.R.L.,TSSZ2508057,T,HC,70,0,Pendiente arribo
 2025-10-03,Trp - Terminales 1-2-3,0500 ,TIIU-583158-9,Dmc Import Group S.R.L.,TSSZ2507150,T,HC,70,0,Pendiente arribo
 2025-10-03,Trp - Terminales 1-2-3,0500 ,EGSU-969165-6,Dmc Import Group S.R.L.,BK2531113,T,HC,70,0,Pendiente arribo
-2025-10-02,Trp - Terminales 1-2-3,1300 ,BEAU-559667-2,Multitransport Argentina,TCQD2507196,T,HC,70,0,Pendiente arribo
+2025-10-02,Trp - Terminales 1-2-3,1300 ,BEAU-559667-2,Multitransport Argentina,TCQD2507196,T,HC,70,1,19:54 Arribado
 2025-10-02,Trp - Terminales 1-2-3,1300 ,TLLU-264812-8,Multitransport Argentina,TCQD2507196,T,HC,70,1,17:59 Arribado
 2025-10-02,Trp - Terminales 1-2-3,1300 ,TRHU-535131-0,Multitransport Argentina,TCQD2507196,T,HC,70,1,16:33 Arribado
 2025-09-16,Trp - Terminales 1-2-3,1100 ,EMCU-173040-1,Compañia Bulk S.A.,SY250662715,T,HC,70,1,14:08 Arribado
