@@ -53,6 +53,9 @@ def fetch_data_trafico_andresito():
     )
     choferes = fetch_table_data("choferes")
     
+    # Add transport companies fetching
+    transportes = fetch_table_data("transporte")
+    
     # Add trafico_otros fetching
     otros = fetch_table_data("trafico_otros")
     if not otros.empty:
@@ -68,11 +71,11 @@ def fetch_data_trafico_andresito():
             otros = otros.sort_values('Fecha', na_position='last')
             otros['Fecha'] = otros['Fecha'].dt.strftime('%d/%m/%Y')
     
-    return arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns, choferes, otros
+    return arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns, choferes, otros, transportes
 
 def show_page_trafico_andresito():
     # Load data
-    arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns, choferes, otros = fetch_data_trafico_andresito()
+    arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns, choferes, otros, transportes = fetch_data_trafico_andresito()
     
     # Get today's date in the same format as Fecha column
     today_str = datetime.now().strftime('%d/%m/%Y')
@@ -137,7 +140,7 @@ def show_page_trafico_andresito():
             height=400
         )
     with col_assign1:
-        st.markdown("**Asignar Chofer**")
+        st.markdown("**Agregar datos al traslado**")
         if not arribos.empty:
             selected_arribo_id = st.selectbox(
                 "Registro:",
@@ -145,30 +148,60 @@ def show_page_trafico_andresito():
                 format_func=lambda x: f"ID {x} - {arribos[arribos['id']==x]['Contenedor'].iloc[0] if not arribos[arribos['id']==x].empty else 'N/A'}",
                 key="arribo_select"
             )
-            chofer_options = [""] + choferes['Nombre'].dropna().unique().tolist() if not choferes.empty else [""]
-            chofer_name_arribos = st.selectbox(
-                "Chofer:",
-                options=chofer_options,
-                key="chofer_arribos_select",
-                index=0
-            )
-            
+
+            col_assign1_1, col_assign1_2, col_assign1_3 = st.columns([2, 2, 1])
+
+            with col_assign1_1:
+                chofer_options = [""] + choferes['Nombre'].dropna().unique().tolist() if not choferes.empty else [""]
+                chofer_name_arribos = st.selectbox(
+                    "Chofer:",
+                    options=chofer_options,
+                    key="chofer_arribos_select",
+                    index=0
+                )
+            with col_assign1_2:
             # Allow custom input if needed
-            if chofer_name_arribos == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_arribos"):
-                chofer_name_arribos = st.text_input("Ingresar nombre de chofer:", key="chofer_arribos_custom")
-            if st.button("Asignar", key="assign_arribos"):
-                if chofer_name_arribos.strip():
-                    try:
-                        update_data("trafico_arribos", selected_arribo_id, {"chofer": chofer_name_arribos.strip()})
-                        st.success(f"Chofer asignado al registro ID {selected_arribo_id}")
-                        st.cache_data.clear()
-                        st.rerun()
-                    except Exception as e:
-                        st.error(f"Error al asignar chofer: {e}")
-                else:
-                    st.warning("Por favor ingrese el nombre del chofer")
-            
-            st.markdown("**Asignar Observaciones**")
+                if chofer_name_arribos == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_arribos"):
+                    chofer_name_arribos = st.text_input("Ingresar nombre manualmente:", key="chofer_arribos_custom")
+            with col_assign1_3:
+                if st.button("Asignar", key="assign_arribos"):
+                    if chofer_name_arribos.strip():
+                        try:
+                            update_data("trafico_arribos", selected_arribo_id, {"chofer": chofer_name_arribos.strip()})
+                            st.success(f"Chofer asignado al registro ID {selected_arribo_id}")
+                            st.cache_data.clear()
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Error al asignar chofer: {e}")
+                    else:
+                        st.warning("Por favor ingrese el nombre del chofer")
+
+            # Transport company assignment for arribos
+            col_assign1_4, col_assign1_5, col_assign1_6 = st.columns([2, 2, 1])
+
+            with col_assign1_4:
+                transporte_options = [""] + transportes['Transporte'].dropna().unique().tolist() if not transportes.empty else [""]
+                transporte_name_arribos = st.selectbox(
+                    "Transporte:",
+                    options=transporte_options,
+                    key="transporte_arribos_select",
+                    index=0
+                )
+            with col_assign1_5:
+                transporte_name_arribos = st.text_input("Ingresar nombre manualmente:", key="transporte_arribos_custom")
+            with col_assign1_6:
+                if st.button("Asignar", key="assign_transporte_arribos"):
+                    if transporte_name_arribos.strip():
+                        try:
+                            update_data("trafico_arribos", selected_arribo_id, {"Transporte": transporte_name_arribos.strip()})
+                            st.success(f"Transporte asignado al registro ID {selected_arribo_id}")
+                            st.cache_data.clear()
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Error al asignar transporte: {e}")
+                    else:
+                        st.warning("Por favor ingrese el nombre del transporte")
+
             observaciones_arribos = st.text_area("Observaciones:", key="observaciones_arribos")
             if st.button("Asignar Observaciones", key="assign_observaciones_arribos"):
                 if observaciones_arribos.strip():
@@ -224,7 +257,7 @@ def show_page_trafico_andresito():
                 height=400
             )
         with col_assign2:
-            st.markdown("**Asignar Chofer**")
+            st.markdown("**Agregar datos al traslado**")
             if not pendiente_desconsolidar.empty:
                 selected_pendiente_id = st.selectbox(
                     "Registro:",
@@ -232,29 +265,61 @@ def show_page_trafico_andresito():
                     format_func=lambda x: f"ID {x} - {pendiente_desconsolidar[pendiente_desconsolidar['id']==x]['Contenedor'].iloc[0] if not pendiente_desconsolidar[pendiente_desconsolidar['id']==x].empty else 'N/A'}",
                     key="pendiente_select"
                 )
-                chofer_name_pendiente = st.selectbox(
-                    "Chofer:",
-                    options=chofer_options,
-                    key="chofer_pendiente_select",
-                    index=0
-                )
-                
-                # Allow custom input if needed
-                if chofer_name_pendiente == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_pendiente"):
-                    chofer_name_pendiente = st.text_input("Ingresar nombre de chofer:", key="chofer_pendiente_custom")
 
-                if st.button("Asignar", key="assign_pendiente"):
-                    if chofer_name_pendiente.strip():
-                        try:
-                            update_data("trafico_pendiente_desconsolidar", selected_pendiente_id, {"chofer": chofer_name_pendiente.strip()})
-                            st.success(f"Chofer asignado al registro ID {selected_pendiente_id}")
-                            st.cache_data.clear()
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al asignar chofer: {e}")
-                    else:
-                        st.warning("Por favor ingrese el nombre del chofer")
-                st.markdown("**Asignar Observaciones**")
+                col_assign2_1, col_assign2_2, col_assign2_3 = st.columns([2, 2, 1])
+
+                with col_assign2_1:
+                    chofer_options = [""] + choferes['Nombre'].dropna().unique().tolist() if not choferes.empty else [""]
+                    chofer_name_pendiente = st.selectbox(
+                        "Chofer:",
+                        options=chofer_options,
+                        key="chofer_pendiente_select",
+                        index=0
+                    )
+                with col_assign2_2:
+                    # Allow custom input if needed
+                    if chofer_name_pendiente == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_pendiente"):
+                        chofer_name_pendiente = st.text_input("Ingresar nombre manualmente:", key="chofer_pendiente_custom")
+                with col_assign2_3:
+                    if st.button("Asignar", key="assign_pendiente"):
+                        if chofer_name_pendiente.strip():
+                            try:
+                                update_data("trafico_pendiente_desconsolidar", selected_pendiente_id, {"chofer": chofer_name_pendiente.strip()})
+                                st.success(f"Chofer asignado al registro ID {selected_pendiente_id}")
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Error al asignar chofer: {e}")
+                        else:
+                            st.warning("Por favor ingrese el nombre del chofer")
+
+                # Transport company assignment for pendiente
+                col_assign2_4, col_assign2_5, col_assign2_6 = st.columns([2, 2, 1])
+
+                with col_assign2_4:
+                    transporte_options = [""] + transportes['Transporte'].dropna().unique().tolist() if not transportes.empty else [""]
+                    transporte_name_pendiente = st.selectbox(
+                        "Transporte:",
+                        options=transporte_options,
+                        key="transporte_pendiente_select",
+                        index=0
+                    )
+                with col_assign2_5:
+                    # Allow custom input if needed
+                    transporte_name_pendiente = st.text_input("Ingresar nombre manualmente:", key="transporte_pendiente_custom")
+                with col_assign2_6:
+                    if st.button("Asignar", key="assign_transporte_pendiente"):
+                        if transporte_name_pendiente.strip():
+                            try:
+                                update_data("trafico_pendiente_desconsolidar", selected_pendiente_id, {"Transporte": transporte_name_pendiente.strip()})
+                                st.success(f"Transporte asignado al registro ID {selected_pendiente_id}")
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Error al asignar transporte: {e}")
+                        else:
+                            st.warning("Por favor ingrese el nombre del transporte")
+
                 observaciones_pendiente = st.text_area("Observaciones:", key="observaciones_pendiente")
                 if st.button("Asignar Observaciones", key="assign_observaciones_pendiente"):
                     if observaciones_pendiente.strip():
@@ -267,22 +332,6 @@ def show_page_trafico_andresito():
                             st.error(f"Error al asignar observaciones: {e}")
                     else:
                         st.warning("Por favor ingrese las observaciones")
-                        
-                st.markdown("**Asignar Fecha y Hora Fin**")
-                fecha_fin_pte = st.date_input("Fecha fin:", key="fecha_fin_pendiente")
-                hora_fin_pte = st.time_input("Hora fin:", key="hora_fin_pendiente")
-                if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_pendiente"):
-                    if fecha_fin_pte and hora_fin_pte:
-                        fecha_hora_fin_str = fecha_fin_pte.strftime("%d/%m/%Y") + " " + hora_fin_pte.strftime("%H:%M")
-                        try:
-                            update_data("trafico_pendiente_desconsolidar", selected_pendiente_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
-                            st.success(f"Fecha y Hora Fin asignada al registro ID {selected_pendiente_id}")
-                            st.cache_data.clear()
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al asignar Fecha y Hora Fin: {e}")
-                    else:
-                        st.warning("Por favor seleccione fecha y hora")
 
     st.subheader("Retiros de Vacíos EXPO")
     with st.container():
@@ -329,7 +378,7 @@ def show_page_trafico_andresito():
                 height=400
             )
         with col_assign3:
-            st.markdown("**Asignar Chofer**")
+            st.markdown("**Agregar datos al traslado**")
             if not arribos_expo_ctns.empty:
                 selected_expo_id = st.selectbox(
                     "Registro:",
@@ -337,29 +386,61 @@ def show_page_trafico_andresito():
                     format_func=lambda x: f"ID {x} - {arribos_expo_ctns[arribos_expo_ctns['id']==x]['Booking'].iloc[0] if not arribos_expo_ctns[arribos_expo_ctns['id']==x].empty else 'N/A'}",
                     key="expo_select"
                 )
-                chofer_name_expo = st.selectbox(
-                    "Chofer:",
-                    options=chofer_options,
-                    key="chofer_expo_select",
-                    index=0
-                )
-                
-                # Allow custom input if needed
-                if chofer_name_expo == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_expo"):
-                    chofer_name_expo = st.text_input("Ingresar nombre de chofer:", key="chofer_expo_custom")
-                if st.button("Asignar", key="assign_expo"):
-                    if chofer_name_expo.strip():
-                        try:
-                            update_data("trafico_arribos_expo_ctns", selected_expo_id, {"chofer": chofer_name_expo.strip()})
-                            st.success(f"Chofer asignado al registro ID {selected_expo_id}")
-                            st.cache_data.clear()
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al asignar chofer: {e}")
-                    else:
-                        st.warning("Por favor ingrese el nombre del chofer")
 
-                st.markdown("**Asignar Observaciones**")
+                col_assign3_1, col_assign3_2, col_assign3_3 = st.columns([2, 2, 1])
+
+                with col_assign3_1:
+                    chofer_options = [""] + choferes['Nombre'].dropna().unique().tolist() if not choferes.empty else [""]
+                    chofer_name_expo = st.selectbox(
+                        "Chofer:",
+                        options=chofer_options,
+                        key="chofer_expo_select",
+                        index=0
+                    )
+                with col_assign3_2:
+                    # Allow custom input if needed
+                    if chofer_name_expo == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_expo"):
+                        chofer_name_expo = st.text_input("Ingresar nombre manualmente:", key="chofer_expo_custom")
+                with col_assign3_3:
+                    if st.button("Asignar", key="assign_expo"):
+                        if chofer_name_expo.strip():
+                            try:
+                                update_data("trafico_arribos_expo_ctns", selected_expo_id, {"chofer": chofer_name_expo.strip()})
+                                st.success(f"Chofer asignado al registro ID {selected_expo_id}")
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Error al asignar chofer: {e}")
+                        else:
+                            st.warning("Por favor ingrese el nombre del chofer")
+
+                # Transport company assignment for expo
+                col_assign3_4, col_assign3_5, col_assign3_6 = st.columns([2, 2, 1])
+
+                with col_assign3_4:
+                    transporte_options = [""] + transportes['Transporte'].dropna().unique().tolist() if not transportes.empty else [""]
+                    transporte_name_expo = st.selectbox(
+                        "Transporte:",
+                        options=transporte_options,
+                        key="transporte_expo_select",
+                        index=0
+                    )
+                with col_assign3_5:
+                    # Allow custom input if needed
+                    transporte_name_expo = st.text_input("Ingresar nombre manualmente:", key="transporte_expo_custom")
+                with col_assign3_6:
+                    if st.button("Asignar", key="assign_transporte_expo"):
+                        if transporte_name_expo.strip():
+                            try:
+                                update_data("trafico_arribos_expo_ctns", selected_expo_id, {"Transporte": transporte_name_expo.strip()})
+                                st.success(f"Transporte asignado al registro ID {selected_expo_id}")
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Error al asignar transporte: {e}")
+                        else:
+                            st.warning("Por favor ingrese el nombre del transporte")
+
                 observaciones_expo = st.text_area("Observaciones:", key="observaciones_expo")
                 if st.button("Asignar Observaciones", key="assign_observaciones_expo"):
                     if observaciones_expo.strip():
@@ -424,37 +505,68 @@ def show_page_trafico_andresito():
                 height=400
             )
     with col_assign4a:
-        st.markdown("**Asignar Chofer**")
+        st.markdown("**Agregar datos al traslado**")
         selected_remision_id = st.selectbox(
             "Registro:",
             options=remisiones["id"].unique(),
             format_func=lambda x: f"ID {x} - {remisiones[remisiones['id']==x]['Contenedor'].iloc[0] if not remisiones[remisiones['id']==x].empty else 'N/A'}",
             key="remision_select"
         )
-        chofer_name_remisiones = st.selectbox(
-                    "Chofer:",
-                    options=chofer_options,
-                    key="chofer_remisiones_select",
-                    index=0
-                )
-                
-                # Allow custom input if needed
-        if chofer_name_remisiones == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_remisiones"):
-            chofer_name_remisiones = st.text_input("Ingresar nombre de chofer:", key="chofer_remisiones_custom")
 
-        if st.button("Asignar", key="assign_remisiones"):
-            if chofer_name_remisiones.strip():
-                try:
-                    update_data("trafico_remisiones", selected_remision_id, {"chofer": chofer_name_remisiones.strip()})
-                    st.success(f"Chofer asignado al registro ID {selected_remision_id}")
-                    st.cache_data.clear()
-                    st.rerun()
-                except Exception as e:
-                    st.error(f"Error al asignar chofer: {e}")
-            else:
-                st.warning("Por favor ingrese el nombre del chofer")
+        col_assign4_1, col_assign4_2, col_assign4_3 = st.columns([2, 2, 1])
+
+        with col_assign4_1:
+            chofer_options = [""] + choferes['Nombre'].dropna().unique().tolist() if not choferes.empty else [""]
+            chofer_name_remisiones = st.selectbox(
+                "Chofer:",
+                options=chofer_options,
+                key="chofer_remisiones_select",
+                index=0
+            )
+        with col_assign4_2:
+            # Allow custom input if needed
+            if chofer_name_remisiones == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_remisiones"):
+                chofer_name_remisiones = st.text_input("Ingresar nombre manualmente:", key="chofer_remisiones_custom")
+        with col_assign4_3:
+            if st.button("Asignar", key="assign_remisiones"):
+                if chofer_name_remisiones.strip():
+                    try:
+                        update_data("trafico_remisiones", selected_remision_id, {"chofer": chofer_name_remisiones.strip()})
+                        st.success(f"Chofer asignado al registro ID {selected_remision_id}")
+                        st.cache_data.clear()
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Error al asignar chofer: {e}")
+                else:
+                    st.warning("Por favor ingrese el nombre del chofer")
+
+        # Transport company assignment for remisiones
+        col_assign4_4, col_assign4_5, col_assign4_6 = st.columns([2, 2, 1])
+
+        with col_assign4_4:
+            transporte_options = [""] + transportes['Transporte'].dropna().unique().tolist() if not transportes.empty else [""]
+            transporte_name_remisiones = st.selectbox(
+                "Transporte:",
+                options=transporte_options,
+                key="transporte_remisiones_select",
+                index=0
+            )
+        with col_assign4_5:
+            # Allow custom input if needed
+            transporte_name_remisiones = st.text_input("Ingresar nombre manualmente:", key="transporte_remisiones_custom")
+        with col_assign4_6:
+            if st.button("Asignar", key="assign_transporte_remisiones"):
+                if transporte_name_remisiones.strip():
+                    try:
+                        update_data("trafico_remisiones", selected_remision_id, {"Transporte": transporte_name_remisiones.strip()})
+                        st.success(f"Transporte asignado al registro ID {selected_remision_id}")
+                        st.cache_data.clear()
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Error al asignar transporte: {e}")
+                else:
+                    st.warning("Por favor ingrese el nombre del transporte")
                 
-        st.markdown("**Asignar Observaciones**")
         observaciones_remisiones = st.text_area("Observaciones:", key="observaciones_remisiones")
         if st.button("Asignar Observaciones", key="assign_observaciones_remisiones"):
             if observaciones_remisiones.strip():
@@ -467,22 +579,6 @@ def show_page_trafico_andresito():
                     st.error(f"Error al asignar observaciones: {e}")
             else:
                 st.warning("Por favor ingrese las observaciones")
-                
-        st.markdown("**Asignar Fecha y Hora Fin**")
-        fecha_fin = st.date_input("Fecha fin:", key="fecha_fin_remision")
-        hora_fin = st.time_input("Hora fin:", key="hora_fin_remision")
-        if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_remision"):
-            if fecha_fin and hora_fin:
-                fecha_hora_fin_str = fecha_fin.strftime("%d/%m/%Y") + " " + hora_fin.strftime("%H:%M")
-                try:
-                    update_data("trafico_remisiones", selected_remision_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
-                    st.success(f"Fecha y Hora Fin asignada al registro ID {selected_remision_id}")
-                    st.cache_data.clear()
-                    st.rerun()
-                except Exception as e:
-                    st.error(f"Error al asignar Fecha y Hora Fin: {e}")
-            else:
-                st.warning("Por favor seleccione fecha y hora")
 
     # Add new "Otros" section before manual data entry
     st.subheader("Otros")
@@ -537,37 +633,68 @@ def show_page_trafico_andresito():
             
         with col_assign5:
             if not otros_filtered.empty and 'id' in otros_filtered.columns:
-                st.markdown("**Asignar Chofer**")
+                st.markdown("**Agregar datos al traslado**")
                 selected_otros_id = st.selectbox(
                     "Registro:",
                     options=otros_filtered["id"].unique(),
                     format_func=lambda x: f"ID {x} - {otros_filtered[otros_filtered['id']==x]['Operacion'].iloc[0] if not otros_filtered[otros_filtered['id']==x].empty else 'N/A'}",
                     key="otros_select"
                 )
-                chofer_name_otros = st.selectbox(
-                    "Chofer:",
-                    options=chofer_options,
-                    key="chofer_otros_select",
-                    index=0
-                )
-                
-                # Allow custom input if needed
-                if chofer_name_otros == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_otros"):
-                    chofer_name_otros = st.text_input("Ingresar nombre de chofer:", key="chofer_otros_custom")
 
-                if st.button("Asignar", key="assign_otros"):
-                    if chofer_name_otros.strip():
-                        try:
-                            update_data("trafico_otros", selected_otros_id, {"chofer": chofer_name_otros.strip()})
-                            st.success(f"Chofer asignado al registro ID {selected_otros_id}")
-                            st.cache_data.clear()
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al asignar chofer: {e}")
-                    else:
-                        st.warning("Por favor ingrese el nombre del chofer")
+                col_assign5_1, col_assign5_2, col_assign5_3 = st.columns([2, 2, 1])
 
-                st.markdown("**Asignar Observaciones**")
+                with col_assign5_1:
+                    chofer_options = [""] + choferes['Nombre'].dropna().unique().tolist() if not choferes.empty else [""]
+                    chofer_name_otros = st.selectbox(
+                        "Chofer:",
+                        options=chofer_options,
+                        key="chofer_otros_select",
+                        index=0
+                    )
+                with col_assign5_2:
+                    # Allow custom input if needed
+                    if chofer_name_otros == "" or st.checkbox("Ingresar otro chofer", key="custom_chofer_otros"):
+                        chofer_name_otros = st.text_input("Ingresar nombre manualmente:", key="chofer_otros_custom")
+                with col_assign5_3:
+                    if st.button("Asignar", key="assign_otros"):
+                        if chofer_name_otros.strip():
+                            try:
+                                update_data("trafico_otros", selected_otros_id, {"chofer": chofer_name_otros.strip()})
+                                st.success(f"Chofer asignado al registro ID {selected_otros_id}")
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Error al asignar chofer: {e}")
+                        else:
+                            st.warning("Por favor ingrese el nombre del chofer")
+
+                # Transport company assignment for otros
+                col_assign5_4, col_assign5_5, col_assign5_6 = st.columns([2, 2, 1])
+
+                with col_assign5_4:
+                    transporte_options = [""] + transportes['Transporte'].dropna().unique().tolist() if not transportes.empty else [""]
+                    transporte_name_otros = st.selectbox(
+                        "Transporte:",
+                        options=transporte_options,
+                        key="transporte_otros_select",
+                        index=0
+                    )
+                with col_assign5_5:
+                    # Allow custom input if needed
+                    transporte_name_otros = st.text_input("Ingresar nombre manualmente:", key="transporte_otros_custom")
+                with col_assign5_6:
+                    if st.button("Asignar", key="assign_transporte_otros"):
+                        if transporte_name_otros.strip():
+                            try:
+                                update_data("trafico_otros", selected_otros_id, {"Transporte": transporte_name_otros.strip()})
+                                st.success(f"Transporte asignado al registro ID {selected_otros_id}")
+                                st.cache_data.clear()
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Error al asignar transporte: {e}")
+                        else:
+                            st.warning("Por favor ingrese el nombre del transporte")
+
                 observaciones_otros = st.text_area("Observaciones:", key="observaciones_otros")
                 if st.button("Asignar Observaciones", key="assign_observaciones_otros"):
                     if observaciones_otros.strip():
@@ -580,22 +707,6 @@ def show_page_trafico_andresito():
                             st.error(f"Error al asignar observaciones: {e}")
                     else:
                         st.warning("Por favor ingrese las observaciones")
-                        
-                st.markdown("**Asignar Fecha y Hora Fin**")
-                fecha_fin_otros = st.date_input("Fecha fin:", key="fecha_fin_otros")
-                hora_fin_otros = st.time_input("Hora fin:", key="hora_fin_otros")
-                if st.button("Asignar Fecha y Hora Fin", key="assign_fecha_fin_otros"):
-                    if fecha_fin_otros and hora_fin_otros:
-                        fecha_hora_fin_str = fecha_fin_otros.strftime("%d/%m/%Y") + " " + hora_fin_otros.strftime("%H:%M")
-                        try:
-                            update_data("trafico_otros", selected_otros_id, {"Fecha y Hora Fin": fecha_hora_fin_str})
-                            st.success(f"Fecha y Hora Fin asignada al registro ID {selected_otros_id}")
-                            st.cache_data.clear()
-                            st.rerun()
-                        except Exception as e:
-                            st.error(f"Error al asignar Fecha y Hora Fin: {e}")
-                    else:
-                        st.warning("Por favor seleccione fecha y hora")
 
     # Manual Data Entry Section
     st.markdown("---")
@@ -689,6 +800,12 @@ def show_page_trafico_andresito():
             insert_data_dict['fecha_registro'] = current_time.isoformat()
             
             try:
+                insert_data(selected_table, insert_data_dict)
+                st.success(f"Registro agregado exitosamente a {selected_table_name}")
+                st.cache_data.clear()
+                st.rerun()
+            except Exception as e:
+                st.error(f"Error al agregar registro: {e}")
                 insert_data(selected_table, insert_data_dict)
                 st.success(f"Registro agregado exitosamente a {selected_table_name}")
                 st.cache_data.clear()
