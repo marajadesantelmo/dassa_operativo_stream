@@ -1,24 +1,27 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 38083,02/10,Mercovan Argentina S.A.,BMOU-140430-7,10080,DR,TD,**************      ,18434285,1,TRANSPORTE DEL CLIENTE        ,Barrientos,16:09,2025-10-22,"De Miranda Reis, Jose",                    ,16:09 Arribado
 38034,02/10,Borax Argentina S A,GCXU-256167-8,10080,DR,TD,*****************   ,260121555,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,16:05,2025-10-21,Fact 12697,                    ,16:05 Arribado
+38065,02/10,Alimentaria Sa,-,0,HC,TD,                    ,BUA0351286,0,                              ,,     ,2025-10-22,,                    ,Pendiente
 38064,02/10,Alimentaria Sa,-,0,HC,TD,                    ,BUA0351286,0,                              ,,     ,2025-10-22,,                    ,Pendiente
-38063,02/10,Alimentaria Sa,-,0,HC,TD,                    ,BUA0351286,0,                              ,,     ,2025-10-22,,                    ,Pendiente
+38063,02/10,Alimentaria Sa,BEAU-409634-8,10074,HC,TD,R8682749            ,BUA0351286,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,16:29,2025-10-22,,                    ,16:29 Arribado
 38062,02/10,Alimentaria Sa,APHU-700106-8,10074,HC,TD,R8688059            ,BUA0351286,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,12:08,2025-10-22,,                    ,12:08 Arribado
 38061,02/10,Alimentaria Sa,TCLU-648273-6,10074,HC,TD,R8688058            ,BUA0351286,1,TRANSPORTE DEL CLIENTE        ,Bertoli,12:05,2025-10-22,,                    ,12:05 Arribado
-38065,02/10,Alimentaria Sa,-,0,HC,TD,                    ,BUA0351286,0,                              ,,     ,2025-10-22,,                    ,Pendiente
+38084,02/10,Sandrin Paola Karina,-,9,HC,TD,                    ,EBKG14395697,0,                              ,,     ,2025-10-22,,                    ,Pendiente
 38073,02/10,Hilado Sa,MSKU-157154-5,10080,HC,TD,*****************   ,259498791,1,TRANSPORTE DEL CLIENTE        ,Peril,10:15,2025-10-22,,                    ,10:15 Arribado
 38072,02/10,Hilado Sa,MSKU-892269-9,10080,HC,TD,**************      ,259498791,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,10:05,2025-10-22,,                    ,10:05 Arribado
 38068,02/10,Mader Zu S.R.L.,EMCU-998296-6,TRP,HC,TD,*************       ,340500038995,1,TRANSPORTE DEL CLIENTE        ,Barrientos,09:30,2025-10-22,,                    ,09:30 Arribado
 38067,02/10,Mader Zu S.R.L.,EGHU-982828-3,TRP,HC,TD,********************,340500038995,1,TRANSPORTE DEL CLIENTE        ,Miguez,09:28,2025-10-22,,                    ,09:28 Arribado
-38066,02/10,Mader Zu S.R.L.,BSIU-950113-0,TRP,HC,TD,******************  ,340500038995,1,TRANSPORTE DEL CLIENTE        ,Alvarez,09:21,2025-10-22,,                    ,09:21 Arribado
 38074,02/10,Hilado Sa,-,10080,HC,TD,                    ,259498791,0,                              ,,     ,2025-10-22,,                    ,Pendiente
-38084,02/10,Sandrin Paola Karina,-,9,HC,TD,                    ,EBKG14395697,0,                              ,,     ,2025-10-22,,                    ,Pendiente
-38082,03/10,Don Satur Srl,-,10080,DR,TD,                    ,260174171,0,                              ,,     ,2025-10-22,,                    ,Pendiente
-38141,03/10,Hector Reboratti,-,10080,HC,TD,                    ,259874017,0,                              ,,     ,2025-10-23,,                    ,Pendiente
-38142,03/10,Hector Reboratti,-,10080,HC,TD,                    ,259874017,0,                              ,,     ,2025-10-23,,                    ,Pendiente
-38087,03/10,Taeda Sa,-,9,HC,TD,                    ,EBKG14411415,0,                              ,,     ,2025-10-23,,                    ,Pendiente
-38088,03/10,Pallets Jauregui Sociedad Anon...,-,10083,HC,TD,                    ,153IAR0652579,0,                              ,,     ,2025-10-23,,                    ,Pendiente
-38089,03/10,Pallets Jauregui Sociedad Anon...,-,10083,HC,TD,                    ,153IAR0652579,0,                              ,,     ,2025-10-23,,                    ,Pendiente
-38080,03/10,Don Satur Srl,-,10080,DR,TD,                    ,260174171,0,                              ,,     ,2025-10-22,,                    ,Pendiente
+38066,02/10,Mader Zu S.R.L.,BSIU-950113-0,TRP,HC,TD,******************  ,340500038995,1,TRANSPORTE DEL CLIENTE        ,Alvarez,09:21,2025-10-22,,                    ,09:21 Arribado
 38081,03/10,Don Satur Srl,-,10080,DR,TD,                    ,260174171,0,                              ,,     ,2025-10-22,,                    ,Pendiente
+38080,03/10,Don Satur Srl,-,10080,DR,TD,                    ,260174171,0,                              ,,     ,2025-10-22,,                    ,Pendiente
+38089,03/10,Pallets Jauregui Sociedad Anon...,-,10083,HC,TD,                    ,153IAR0652579,0,                              ,,     ,2025-10-23,,                    ,Pendiente
+38088,03/10,Pallets Jauregui Sociedad Anon...,-,10083,HC,TD,                    ,153IAR0652579,0,                              ,,     ,2025-10-23,,                    ,Pendiente
+38142,03/10,Hector Reboratti,-,10080,HC,TD,                    ,259874017,0,                              ,,     ,2025-10-23,,                    ,Pendiente
+38141,03/10,Hector Reboratti,-,10080,HC,TD,                    ,259874017,0,                              ,,     ,2025-10-23,,                    ,Pendiente
+38148,03/10,Pallets Nef De Raul E. Fernand...,-,10074,HC,TD,                    ,BUEF11484400,0,                              ,,     ,2025-10-21,,                    ,Pendiente
+38147,03/10,Pallets Nef De Raul E. Fernand...,-,10074,HC,TD,                    ,BUEF11484400,0,                              ,,     ,2025-10-21,,                    ,Pendiente
+38082,03/10,Don Satur Srl,-,10080,DR,TD,                    ,260174171,0,                              ,,     ,2025-10-22,,                    ,Pendiente
+38087,03/10,Taeda Sa,-,9,HC,TD,                    ,EBKG14411415,0,                              ,,     ,2025-10-23,,                    ,Pendiente
+38146,03/10,Pallets Nef De Raul E. Fernand...,-,10074,HC,TD,                    ,BUEF11484400,0,                              ,,     ,2025-10-21,,                    ,Pendiente
 38097,06/10,Suabia Maderas Srl,-,10074,HC,TD,                    ,BUA0652019,0,                              ,,     ,2025-10-23,,                    ,Pendiente
