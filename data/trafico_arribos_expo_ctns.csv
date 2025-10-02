@@ -260,11 +260,6 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 266.0,01/10,BUEF11772400,Henn Y Cia S.R.L.,Defibe,2025-09-30T20:50:38.601912,,,18:39 Arribado,,TGBU-980337-5,****************,,,
 267.0,01/10,BUEF11772400,Henn Y Cia S.R.L.,Defibe,2025-09-30T20:50:38.696043,,,18:43 Arribado,,ONEU-123056-0,*****************,,,
 268.0,01/10,BUEF11772400,Henn Y Cia S.R.L.,Defibe,2025-09-30T20:50:38.794147,,,18:39 Arribado,,TGBU-980337-5,****************,,,
-270.0,02/10,BUA0351286,Alimentaria Sa,-,2025-10-01T15:35:41.878147,,,,,,,,,
-271.0,02/10,BUA0351286,Alimentaria Sa,-,2025-10-01T15:35:42.053467,,,,,,,,,
-272.0,02/10,BUA0351286,Alimentaria Sa,-,2025-10-01T15:35:42.138583,,,,,,,,,
-273.0,02/10,BUA0351286,Alimentaria Sa,-,2025-10-01T15:35:42.236278,,,,,,,,,
-274.0,02/10,BUA0351286,Alimentaria Sa,-,2025-10-01T15:35:42.414009,,,,,,,,,
 281.0,03/10,260174171,Don Satur Srl,Huxley Sa,2025-10-01T19:50:37.039295,,,,,,,,,
 282.0,03/10,260174171,Don Satur Srl,Huxley Sa,2025-10-01T19:50:37.149654,,,,,,,,,
 283.0,03/10,260174171,Don Satur Srl,Huxley Sa,2025-10-01T19:50:37.253982,,,,,,,,,
@@ -282,4 +277,10 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 287.0,03/10,153IAR0652579,Pallets Jauregui Sociedad Anon...,Murchinson,2025-10-02T13:35:39.726891,,,,,,,,,
 288.0,03/10,153IAR0652579,Pallets Jauregui Sociedad Anon...,Murchinson,2025-10-02T13:35:39.821874,,,,,,,,,
 280.0,02/10,259498791,Hilado Sa,Huxley Sa,2025-10-01T18:20:39.38908,,,10:15 Arribado,,MSKU-157154-5,*****************,28600,,
-,06/10,BUA0652019,Suabia Maderas Srl,Hiperbaires - Icb T.Sur,,,,,,,,,,1.0
+289.0,06/10,BUA0652019,Suabia Maderas Srl,Hiperbaires - Icb T.Sur,2025-10-02T13:50:40.073357,,,,,,,,,
+270.0,02/10,BUA0351286,Alimentaria Sa,Hiperbaires - Icb T.Sur,2025-10-01T15:35:41.878147,,,12:08 Arribado,,APHU-700106-8,R8688059,28600,,
+271.0,02/10,BUA0351286,Alimentaria Sa,Hiperbaires - Icb T.Sur,2025-10-01T15:35:42.053467,,,12:05 Arribado,,TCLU-648273-6,R8688058,28600,,
+272.0,02/10,BUA0351286,Alimentaria Sa,Hiperbaires - Icb T.Sur,2025-10-01T15:35:42.138583,,,12:08 Arribado,,APHU-700106-8,R8688059,28600,,
+273.0,02/10,BUA0351286,Alimentaria Sa,Hiperbaires - Icb T.Sur,2025-10-01T15:35:42.236278,,,12:05 Arribado,,TCLU-648273-6,R8688058,28600,,
+274.0,02/10,BUA0351286,Alimentaria Sa,Hiperbaires - Icb T.Sur,2025-10-01T15:35:42.414009,,,12:08 Arribado,,APHU-700106-8,R8688059,28600,,
+,03/10,259874017,Hector Reboratti,Huxley Sa,,,,,,,,,,2.0
