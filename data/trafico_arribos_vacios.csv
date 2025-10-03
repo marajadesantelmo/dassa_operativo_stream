@@ -1,4 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
+38156,03/10,A La Orden,TLLU-213616-3,10080,DR,TD,**************      ,259833210,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,11:58,2025-10-23,259833210 // Noble Trophy,                    ,11:58 Arribado
 38146,03/10,Pallets Nef De Raul E. Fernand...,FFAU-141828-2,10074,HC,TD,****************    ,BUEF11484400,1,TRANSPORTE DEL CLIENTE        ,Bollota,10:45,2025-10-21,,                    ,10:45 Arribado
 38147,03/10,Pallets Nef De Raul E. Fernand...,ONEU-575015-4,10074,HC,TD,**********          ,BUEF11484400,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:54,2025-10-21,,                    ,10:54 Arribado
 38148,03/10,Pallets Nef De Raul E. Fernand...,FFAU-606073-5,10074,HC,TD,***************     ,BUEF11484400,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,10:58,2025-10-21,,                    ,10:58 Arribado
@@ -7,7 +8,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 38087,03/10,Taeda Sa,FFAU-568461-3,9,HC,TD,FX32916120          ,EBKG14411415,1,TRANSPORTE DEL CLIENTE        ,Porco,10:50,2025-10-23,,                    ,10:50 Arribado
 38088,03/10,Pallets Jauregui Sociedad Anon...,GAOU-761732-0,10083,HC,TD,FX32931955          ,153IAR0652579,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Miguel,11:08,2025-10-23,,                    ,11:08 Arribado
 38089,03/10,Pallets Jauregui Sociedad Anon...,-,10083,HC,TD,                    ,153IAR0652579,0,                              ,,     ,2025-10-23,,                    ,Pendiente
-38080,03/10,Don Satur Srl,-,10080,DR,TD,                    ,260174171,0,                              ,,     ,2025-10-22,,                    ,Pendiente
-38081,03/10,Don Satur Srl,-,10080,DR,TD,                    ,260174171,0,                              ,,     ,2025-10-22,,                    ,Pendiente
+38080,03/10,Don Satur Srl,MRKU-015713-8,10080,DR,TD,********************,260174171,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,11:47,2025-10-22,,                    ,11:47 Arribado
+38081,03/10,Don Satur Srl,MRKU-066388-2,10080,DR,TD,********************,260174171,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,11:51,2025-10-22,,                    ,11:51 Arribado
 38082,03/10,Don Satur Srl,-,10080,DR,TD,                    ,260174171,0,                              ,,     ,2025-10-22,,                    ,Pendiente
 38097,06/10,Suabia Maderas Srl,-,10074,HC,TD,                    ,BUA0652019,0,                              ,,     ,2025-10-23,,                    ,Pendiente
