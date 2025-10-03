@@ -35,6 +35,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-02,Terminal 4 - Maersk,1000 ,TEMU-161073-9,Lift Van Int. Co S.A,HLCUBSC2508BZCI4,TD,DC,30,1,13:39 Arribado
 2025-10-03,Trp - Terminales 1-2-3,0500 ,BEAU-530617-7,Lift Van Int. Co S.A,ONEYHAMF70932900,TD,HC,70,1,08:56 Arribado
 2025-10-03,Trp - Terminales 1-2-3,0500 ,TGBU-325399-1,Lift Van Int. Co S.A,ONEYHAMF70932901,TD,DC,30,1,07:15 Arribado
+2025-10-06,Exolgan,1500 ,FCIU-628110-0,Lift Van Int. Co S.A,HLCUME3250812334,TD,DC,30,0,Pendiente arribo
 2025-09-23,Exolgan,1100 ,DRYU-908880-2,Lift Van Int. Co S.A,MEDUJZ371843,TD,HC,70,1,15:18 Arribado
 2025-09-29,Trp - Terminales 1-2-3,1200 ,APZU-377428-9,Lift Van Int. Co S.A,USG0310324,TD,DC,30,1,13:42 Arribado
 2025-09-29,Terminal 4 - Maersk,1500 ,TCNU-478400-9,Lift Van Int. Co S.A,CDOLX251009,TD,HC,70,1,17:24 Arribado
@@ -54,6 +55,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-19,Exolgan,1300 ,TRHU-585857-9,Lift Van Int. Co S.A,ONEYPKGF44733400,TD,HC,70,1,00:24 Arribado
 2025-09-23,Exolgan,0500 ,DRYU-417686-0,Lift Van Int. Co S.A,MEDUG9698192,TD,DC,60,1,08:11 Arribado
 2025-09-16,Exolgan,1500 ,HLBU-180704-9,Edelweiss Spedition Srl,HLCUME3250712442,TD,DC,60,1,19:15 Arribado
+2025-10-06,Exolgan,1300 ,HLBU-121374-6,Edelweiss Spedition Srl,HLCUME3250781528,TD,DC,30,0,Pendiente arribo
 2025-09-19,Trp - Terminales 1-2-3,0300 ,SEGU-185712-6,Edelweiss Spedition Srl,ONEYHAME51682300,TD,DC,30,1,10:00 Arribado
 2025-09-23,Exolgan,0500 ,TCLU-414616-2,Edelweiss Spedition Srl,HLCUHAM2507BPES6,TD,DC,60,1,15:41 Arribado
 2025-09-24,Terminal 4 - Maersk,1400 ,MNBU-042516-4,Sanyo Color Sa,27297277,TD,DC,60,1,17:48 Arribado
@@ -80,7 +82,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-02,Terminal 4 - Maersk,1400 ,MRSU-335766-2,Dagher S.A.,OXOE2507035,T,HC,70,1,19:47 Arribado
 2025-09-23,Terminal 4 - Maersk,1000 ,MRKU-067396-2,Fenisan S.A.,258262518,T,DC,60,1,13:40 Arribado
 2025-09-23,Terminal 4 - Maersk,1000 ,MSKU-196898-0,Fenisan S.A.,258262518,T,DC,60,1,13:48 Arribado
-2025-10-03,Trp - Terminales 1-2-3,0500 ,EGSU-159286-8,Shipy S.A.,TSSZ2507177,T,HC,70,0,Pendiente arribo
+2025-10-03,Trp - Terminales 1-2-3,0500 ,EGSU-159286-8,Shipy S.A.,TSSZ2507177,T,HC,70,1,10:12 Arribado
 2025-10-03,Trp - Terminales 1-2-3,0500 ,EITU-937723-6,Shipy S.A.,TSSZ2507177,T,HC,70,0,Pendiente arribo
 2025-10-03,Trp - Terminales 1-2-3,0400 ,EITU-941803-7,Shipy S.A.,TSSZ2507177,T,HC,70,0,Pendiente arribo
 2025-10-03,Trp - Terminales 1-2-3,0400 ,EMCU-863143-7,Shipy S.A.,TSSZ2507177,T,HC,70,0,Pendiente arribo
@@ -220,7 +222,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-12,Terminal 4 - Maersk,0900 ,TEMU-407810-5,Jet Cargo S.A.,ZIMUASH4372037,TD,DC,30,1,14:36 Arribado
 2025-09-30,Terminal 4 - Maersk,0700 ,FFAU-733764-0,Alas Comex S.A,NGBAGN25070154,T,HC,70,1,09:56 Arribado
 2025-10-03,Trp - Terminales 1-2-3,0500 ,DRYU-929698-2,Impacto Jean S.A.,HDE25-0700089,T,HC,70,1,08:46 Arribado
-2025-10-03,Trp - Terminales 1-2-3,0600 ,EISU-821588-0,Impacto Jean S.A.,HDE25-0800040,T,HC,70,0,Pendiente arribo
+2025-10-03,Trp - Terminales 1-2-3,0600 ,EISU-821588-0,Impacto Jean S.A.,HDE25-0800040,T,HC,70,1,10:15 Arribado
 2025-09-15,Terminal 4 - Maersk,1400 ,MSKU-678759-0,Distribuidora Koruk S R L,OXOE2507040,T,DR,60,1,18:09 Arribado
 2025-09-15,Trp - Terminales 1-2-3,1500 ,TRHU-563866-1,Perozzi Domingo Y Perozzi Osva...,SY250662826,T,HC,70,1,17:32 Arribado
 2025-09-16,Terminal 4 - Maersk,1500 ,HLBU-226851-1,Republica Textil Srl,NBOE25016048,T,HC,70,1,19:18 Arribado
