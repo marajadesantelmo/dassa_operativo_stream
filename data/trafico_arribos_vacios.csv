@@ -1,12 +1,20 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-38171,06/10,Mercovan Argentina S.A.,-,Exolgan,DR,TD,                    ,57319039,0,                              ,,     ,2025-10-24,"Cardenas, Julio Cesar",                    ,Pendiente
-38174,06/10,Mercovan Argentina S.A.,-,10082,HC,TD,                    ,BUA0351591,0,                              ,,     ,2025-10-24,Adrian Amaro,                    ,Pendiente
-38175,06/10,Mercovan Argentina S.A.,-,Exolgan,DR,TD,                    ,70051159,0,                              ,,     ,2025-10-24,Adrian Amaro,                    ,Pendiente
-38177,06/10,Pelama Chubut S.A.,BEAU-578719-6,10086,HC,TD,*****************   ,COSU6431031370,1,TRANSPORTE DEL CLIENTE        ,Alvarez,08:58,2025-10-27,,                    ,08:58 Arribado
-38097,06/10,Suabia Maderas Srl,-,10074,HC,TD,                    ,BUA0652019,0,                              ,,     ,2025-10-23,,                    ,Pendiente
-38166,06/10,Henn Y Cia S.R.L.,-,Exolgan,DR,TD,                    ,EBKG14203706,0,                              ,,     ,2025-10-24,,                    ,Pendiente
-38167,06/10,Henn Y Cia S.R.L.,-,Exolgan,DR,TD,                    ,EBKG14203706,0,                              ,,     ,2025-10-24,,                    ,Pendiente
-38168,06/10,Henn Y Cia S.R.L.,-,Exolgan,DR,TD,                    ,EBKG14203706,0,                              ,,     ,2025-10-24,,                    ,Pendiente
+38171,06/10,Mercovan Argentina S.A.,TCKU-472029-4,Exolgan,DR,TD,***********         ,57319039,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,09:55,2025-10-24,"Cardenas, Julio Cesar",                    ,09:55 Arribado
 38169,06/10,Henn Y Cia S.R.L.,-,Exolgan,DR,TD,                    ,EBKG14203706,0,                              ,,     ,2025-10-24,,                    ,Pendiente
+38168,06/10,Henn Y Cia S.R.L.,-,Exolgan,DR,TD,                    ,EBKG14203706,0,                              ,,     ,2025-10-24,,                    ,Pendiente
+38167,06/10,Henn Y Cia S.R.L.,MSNU-309670-5,Exolgan,DR,TD,FX32918864          ,EBKG14203706,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:02,2025-10-24,,                    ,10:02 Arribado
+38166,06/10,Henn Y Cia S.R.L.,TGHU-081524-8,Exolgan,DR,TD,FX32918923          ,EBKG14203706,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:00,2025-10-24,,                    ,10:00 Arribado
+38097,06/10,Suabia Maderas Srl,-,10074,HC,TD,                    ,BUA0652019,0,                              ,,     ,2025-10-23,,                    ,Pendiente
+38187,06/10,Alimentaria Sa,-,0,  ,TD,                    ,259173844,0,                              ,,     ,2025-10-27,259173844,259173844           ,Pendiente
+38186,06/10,Alimentaria Sa,-,0,  ,TD,                    ,259173844,0,                              ,,     ,2025-10-27,259173844,259173844           ,Pendiente
 38170,06/10,Henn Y Cia S.R.L.,-,Exolgan,DR,TD,                    ,EBKG14203706,0,                              ,,     ,2025-10-24,,                    ,Pendiente
+38185,06/10,Alimentaria Sa,-,0,  ,TD,                    ,259173844,0,                              ,,     ,2025-10-27,259173844,259173844           ,Pendiente
+38183,06/10,Alimentaria Sa,-,0,  ,TD,                    ,259173844,0,                              ,,     ,2025-10-27,259173844,259173844           ,Pendiente
+38182,06/10,Pelama Chubut S.A.,FFAU-319944-0,10086,HC,TD,*************       ,COSU6431031370,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,09:53,2025-10-27,,                    ,09:53 Arribado
+38181,06/10,Pelama Chubut S.A.,CSNU-775417-3,10086,HC,TD,********************,COSU6431031370,1,TRANSPORTE DEL CLIENTE        ,Peril,09:51,2025-10-27,,                    ,09:51 Arribado
+38180,06/10,Pelama Chubut S.A.,CSNU-834117-4,10086,HC,TD,***************     ,COSU6431031370,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,09:48,2025-10-27,,                    ,09:48 Arribado
+38177,06/10,Pelama Chubut S.A.,BEAU-578719-6,10086,HC,TD,*****************   ,COSU6431031370,1,TRANSPORTE DEL CLIENTE        ,Alvarez,08:58,2025-10-27,,                    ,08:58 Arribado
+38175,06/10,Mercovan Argentina S.A.,-,Exolgan,DR,TD,                    ,70051159,0,                              ,,     ,2025-10-24,Adrian Amaro,                    ,Pendiente
+38174,06/10,Mercovan Argentina S.A.,-,10082,HC,TD,                    ,BUA0351591,0,                              ,,     ,2025-10-24,Adrian Amaro,                    ,Pendiente
+38184,06/10,Alimentaria Sa,-,0,  ,TD,                    ,259173844,0,                              ,,     ,2025-10-27,259173844,259173844           ,Pendiente
 38173,06/10,Alami Flejes De Precision Srl,-,10074,DR,TD,                    ,ZIMUBUE9044030,0,                              ,,     ,2025-10-24,Zimubue9044030,                    ,Pendiente
