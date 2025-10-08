@@ -189,6 +189,7 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
 
     if st.session_state['username'] == "DASSA":
         st.header("Estadisticas IMPO")
+        st.subheader("Operaciones con Contenedores")
         col1_grafico, col2_grafico = st.columns(2)
         with col1_grafico:
             grafico_arribos_impo['Fecha'] = pd.to_datetime(grafico_arribos_impo['Fecha'])
