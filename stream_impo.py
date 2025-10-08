@@ -4,6 +4,7 @@ import time
 from datetime import datetime
 from utils import highlight, filter_dataframe_by_clients    
 from supabase_connection import fetch_table_data
+import plotly.express as px
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
     arribos = fetch_table_data("arribos")
@@ -13,6 +14,7 @@ def fetch_data_impo():
     otros_impo = fetch_table_data("otros_impo")
     existente_plz = fetch_table_data("existente_plz")
     existente_alm = fetch_table_data("existente_alm")
+    grafico_arribos_impo = fetch_table_data("grafico_arribos_impo")
     try:
         arribos = arribos.sort_values(by="Turno")
         arribos['Chofer'] = arribos['Chofer'].fillna('-')
@@ -49,7 +51,7 @@ def fetch_data_impo():
     except Exception:
         pass
 
-    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm
+    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, grafico_arribos_impo
 
 @st.cache_data(ttl=60)
 def fetch_last_update():
@@ -67,7 +69,7 @@ def fetch_last_update():
 
 def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
     # Load data
-    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm= fetch_data_impo()
+    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, grafico_arribos_impo= fetch_data_impo()
     last_update = fetch_last_update()
     
     # Apply client filtering first
@@ -183,6 +185,31 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
                 hide_index=True, use_container_width=True)
     
     st.markdown("<hr>", unsafe_allow_html=True)
+
+    st.header("Estadisticas de arribos IMPO")
+    grafico_arribos_impo['Fecha'] = pd.to_datetime(grafico_arribos_impo['Fecha'])
+    grafico_arribos_impo = grafico_arribos_impo.sort_values('Fecha')
+    grafico_arribos_impo['Fecha'] = grafico_arribos_impo['Fecha'].dt.strftime('%d/%m')
+    fig = px.bar(
+        grafico_arribos_impo,
+        x='Fecha',
+        y='Arribos',
+        color='Estado',
+        title='Arribos por día',
+        color_discrete_map={
+            'Arribado': '#4CAF50',
+            'Pendiente': '#FFA500'
+        }
+    )
+
+    fig.update_layout(
+        xaxis_title='Fecha',
+        yaxis_title='Cantidad de arribos',
+        legend_title='Estado',
+        barmode='stack'
+    )
+
+    st.plotly_chart(fig, use_container_width=True)
 
 # Run the show_page function
 if __name__ == "__main__":
