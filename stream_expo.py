@@ -85,7 +85,7 @@ def show_page_expo(allowed_clients=None, apply_mudanceras_filter=False):
     
     # Apply mudanceras filter if needed
     if apply_mudanceras_filter:
-        mudanceras_filter = ['Mercovan', 'Lift Van', 'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
+        mudanceras_filter =  ['Mercovan', 'Lift Van', 'Edelweiss',  'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
         arribos_expo_carga = arribos_expo_carga[arribos_expo_carga['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
         arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
         verificaciones_expo = verificaciones_expo[verificaciones_expo['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
