@@ -186,9 +186,8 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
     
     st.markdown("<hr>", unsafe_allow_html=True)
 
-    st.header("Estadisticas de arribos IMPO")
     if st.session_state['username'] == "DASSA":
-        # Only process and show the chart for DASSA user
+        st.header("Estadisticas de arribos IMPO")
         grafico_arribos_impo['Fecha'] = pd.to_datetime(grafico_arribos_impo['Fecha'])
         grafico_arribos_impo = grafico_arribos_impo.sort_values('Fecha')
         grafico_arribos_impo['Fecha'] = grafico_arribos_impo['Fecha'].dt.strftime('%d/%m')
