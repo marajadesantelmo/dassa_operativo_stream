@@ -210,13 +210,7 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
                     yanchor="bottom",
                     y=1.02,
                     xanchor="right",
-                    x=1,
-                    font=dict(
-                        size=14,  # Increasing legend font size
-                        color="black"
-                    ),
-                    itemsizing='constant',  # Makes legend items consistent in size
-                    itemwidth=30  # Increases width of legend items
+                    x=1
                 ))
                 
             st.plotly_chart(fig, use_container_width=True)
