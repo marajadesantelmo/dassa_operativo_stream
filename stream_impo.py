@@ -52,7 +52,7 @@ def fetch_data_impo():
     except Exception:
         pass
 
-    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, grafico_arribos_impo
+    return arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, grafico_arribos_impo, grafico_verificaciones_impo
 
 @st.cache_data(ttl=60)
 def fetch_last_update():
@@ -70,7 +70,7 @@ def fetch_last_update():
 
 def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
     # Load data
-    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, grafico_arribos_impo= fetch_data_impo()
+    arribos, pendiente_desconsolidar, verificaciones_impo, retiros_impo, otros_impo, existente_plz, existente_alm, grafico_arribos_impo, grafico_verificaciones_impo= fetch_data_impo()
     last_update = fetch_last_update()
     
     # Apply client filtering first
