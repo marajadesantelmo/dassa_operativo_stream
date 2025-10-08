@@ -187,29 +187,31 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
     st.markdown("<hr>", unsafe_allow_html=True)
 
     st.header("Estadisticas de arribos IMPO")
-    grafico_arribos_impo['Fecha'] = pd.to_datetime(grafico_arribos_impo['Fecha'])
-    grafico_arribos_impo = grafico_arribos_impo.sort_values('Fecha')
-    grafico_arribos_impo['Fecha'] = grafico_arribos_impo['Fecha'].dt.strftime('%d/%m')
-    fig = px.bar(
-        grafico_arribos_impo,
-        x='Fecha',
-        y='Arribos',
-        color='Estado',
-        title='Arribos por día',
-        color_discrete_map={
-            'Arribado': '#4CAF50',
-            'Pendiente': '#FFA500'
-        }
-    )
+    if st.session_state['username'] == "DASSA":
+        # Only process and show the chart for DASSA user
+        grafico_arribos_impo['Fecha'] = pd.to_datetime(grafico_arribos_impo['Fecha'])
+        grafico_arribos_impo = grafico_arribos_impo.sort_values('Fecha')
+        grafico_arribos_impo['Fecha'] = grafico_arribos_impo['Fecha'].dt.strftime('%d/%m')
+        fig = px.bar(
+            grafico_arribos_impo,
+            x='Fecha',
+            y='Arribos',
+            color='Estado',
+            title='Arribos por día',
+            color_discrete_map={
+                'Arribado': '#4CAF50',
+                'Pendiente': '#FFA500'
+            }
+        )
 
-    fig.update_layout(
-        xaxis_title='Fecha',
-        yaxis_title='Cantidad de arribos',
-        legend_title='Estado',
-        barmode='stack'
-    )
+        fig.update_layout(
+            xaxis_title='Fecha',
+            yaxis_title='Cantidad de arribos',
+            legend_title='Estado',
+            barmode='stack')
+            
+        st.plotly_chart(fig, use_container_width=True)
 
-    st.plotly_chart(fig, use_container_width=True)
 
 # Run the show_page function
 if __name__ == "__main__":
