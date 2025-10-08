@@ -198,14 +198,22 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
                 x='Fecha',
                 y='Arribos',
                 color='Estado',
-                title='Arribos por día',
+                title='Arribos CTNs por día',
                 color_discrete_map={
                     'Arribado': '#4CAF50',
                     'Pendiente': '#FFA500'})
 
             fig.update_layout(
                 legend_title='Estado',
-                barmode='stack')
+                barmode='stack',
+                title_font_size=20,
+                legend=dict(
+                    orientation="h",
+                    yanchor="bottom",
+                    y=1.02,
+                    xanchor="right",
+                    x=1
+                ))
                 
             st.plotly_chart(fig, use_container_width=True)
 
