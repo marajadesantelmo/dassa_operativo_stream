@@ -195,8 +195,6 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
             grafico_arribos_impo['Fecha'] = grafico_arribos_impo['Fecha'].dt.strftime('%d/%m')
             fig = px.bar(
                 grafico_arribos_impo,
-                x='Fecha',
-                y='Arribos',
                 color='Estado',
                 title='Arribos CTNs por día',
                 color_discrete_map={
@@ -212,7 +210,13 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
                     yanchor="bottom",
                     y=1.02,
                     xanchor="right",
-                    x=1
+                    x=1,
+                    font=dict(
+                        size=14,  # Increasing legend font size
+                        color="black"
+                    ),
+                    itemsizing='constant',  # Makes legend items consistent in size
+                    itemwidth=30  # Increases width of legend items
                 ))
                 
             st.plotly_chart(fig, use_container_width=True)
