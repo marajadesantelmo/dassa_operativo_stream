@@ -194,7 +194,7 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
         col1_grafico, col2_grafico = st.columns(2)
         with col1_grafico:
             grafico_arribos_impo['Fecha'] = pd.to_datetime(grafico_arribos_impo['Fecha'])
-            grafico_arribos_impo = grafico_arribos_impo.sort_values('Fecha')
+            grafico_arribos_impo = grafico_arribos_impo.sort_values(['Fecha', 'Estado'])
             grafico_arribos_impo['Fecha'] = grafico_arribos_impo['Fecha'].dt.strftime('%d/%m')
             
             # Calculate daily average for arribos
@@ -227,7 +227,8 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
                     y=1.02,
                     xanchor="right",
                     x=1
-                ))                
+                ),
+                xaxis={'categoryorder': 'array', 'categoryarray': sorted(grafico_arribos_impo['Fecha'].unique(), key=lambda x: pd.to_datetime(x, format='%d/%m'))})
             st.plotly_chart(fig, use_container_width=True)
 
             grafico_retiros_impo['Fecha'] = pd.to_datetime(grafico_retiros_impo['Fecha'])
