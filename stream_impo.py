@@ -227,7 +227,7 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
                 y='Verificaciones IMPO',
                 color='Estado',
                 title='Verificaciones CTNs por día',
-                color_discrete_map={'Arribado': '#4CAF50', 'Pendiente': '#FFA500'})
+                color_discrete_map={'Realizado': '#4CAF50', 'Pendiente': '#FFA500'})
 
             fig2.update_layout(
                 legend_title='Estado',
