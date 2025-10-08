@@ -201,8 +201,7 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
                 color='Estado',
                 title='Arribos CTNs por día',
                 color_discrete_map={
-                    'Arribado': '#4CAF50',
-                    'Pendiente': '#FFA500'})
+                    'Arribado': '#4CAF50', 'Pendiente': '#FFA500'})
 
             fig.update_layout(
                 legend_title='Estado',
@@ -221,15 +220,14 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
             grafico_verificaciones_impo['Fecha'] = pd.to_datetime(grafico_verificaciones_impo['Fecha'])
             grafico_verificaciones_impo = grafico_verificaciones_impo.sort_values('Fecha')
             grafico_verificaciones_impo['Fecha'] = grafico_verificaciones_impo['Fecha'].dt.strftime('%d/%m')
+            grafico_verificaciones_impo_ctns = grafico_verificaciones_impo[grafico_verificaciones_impo['Envase'] == "Contenedor"]
             fig2 = px.bar(
-                grafico_verificaciones_impo,
+                grafico_verificaciones_impo_ctns,
                 x='Fecha',
                 y='Verificaciones IMPO',
                 color='Estado',
-                title='Verificaciones IMPO por día',
-                color_discrete_map={
-                    'Realizada': '#4CAF50',
-                    'Pte. Verif.': '#FFA500'})
+                title='Verificaciones CTNs por día',
+                color_discrete_map={'Arribado': '#4CAF50', 'Pendiente': '#FFA500'})
 
             fig2.update_layout(
                 legend_title='Estado',
