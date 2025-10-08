@@ -196,7 +196,7 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
             fig = px.bar(
                 grafico_arribos_impo,
                 x='Fecha',
-                y='Cantidad',
+                y='Arribos',
                 color='Estado',
                 title='Arribos CTNs por día',
                 color_discrete_map={
@@ -214,6 +214,8 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
                     xanchor="right",
                     x=1
                 ))
+            
+            
                 
             st.plotly_chart(fig, use_container_width=True)
 
