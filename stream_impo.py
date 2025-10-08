@@ -82,7 +82,7 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
     
     # Apply mudanceras filter if needed
     if apply_mudanceras_filter:
-        mudanceras_filter = ['Mercovan', 'Lift Van', 'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
+        mudanceras_filter = ['Mercovan', 'Lift Van', 'Edelweiss',  'Rsm', 'Fenisan', 'Moniport', 'Bymar', 'Noah']
         arribos = arribos[arribos['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
         pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
         verificaciones_impo = verificaciones_impo[verificaciones_impo['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
