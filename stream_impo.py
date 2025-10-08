@@ -196,25 +196,26 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
             grafico_arribos_impo = grafico_arribos_impo.sort_values('Fecha')
             grafico_arribos_impo['Fecha'] = grafico_arribos_impo['Fecha'].dt.strftime('%d/%m')
             fig = px.bar(
-                grafico_arribos_impo,
-                x='Fecha',
-                y='Arribos',
-                color='Estado',
-                title='Arribos CTNs por día',
-                color_discrete_map={
-                    'Arribado': '#4CAF50', 'Pendiente': '#FFA500'})
+            grafico_arribos_impo,
+            x='Fecha',
+            y='Arribos',
+            color='Estado',
+            title='Arribos CTNs por día',
+            color_discrete_map={
+                'Arribado': '#4CAF50', 'Pendiente': '#FFA500'})
 
             fig.update_layout(
-                legend_title='Estado',
-                barmode='stack',
-                title_font_size=20,
-                legend=dict(
-                    orientation="h",
-                    yanchor="bottom",
-                    y=1.02,
-                    xanchor="right",
-                    x=1
-                ))                
+            legend_title='Estado',
+            barmode='stack',
+            title_font_size=20,
+            yaxis=dict(range=[0, 45]),  # Set y-axis max value to 45
+            legend=dict(
+                orientation="h",
+                yanchor="bottom",
+                y=1.02,
+                xanchor="right",
+                x=1
+            ))                
             st.plotly_chart(fig, use_container_width=True)
 
         with col2_grafico:
@@ -223,24 +224,25 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
             grafico_verificaciones_impo['Fecha'] = grafico_verificaciones_impo['Fecha'].dt.strftime('%d/%m')
             grafico_verificaciones_impo_ctns = grafico_verificaciones_impo[grafico_verificaciones_impo['Envase'] == "Contenedor"]
             fig2 = px.bar(
-                grafico_verificaciones_impo_ctns,
-                x='Fecha',
-                y='Verificaciones IMPO',
-                color='Estado',
-                title='Verificaciones CTNs por día',
-                color_discrete_map={'Realizado': '#4CAF50', 'Pendiente': '#FFA500'})
+            grafico_verificaciones_impo_ctns,
+            x='Fecha',
+            y='Verificaciones IMPO',
+            color='Estado',
+            title='Verificaciones CTNs por día',
+            color_discrete_map={'Realizado': '#4CAF50', 'Pendiente': '#FFA500'})
 
             fig2.update_layout(
-                legend_title='Estado',
-                barmode='stack',
-                title_font_size=20,
-                legend=dict(
-                    orientation="h",
-                    yanchor="bottom",
-                    y=1.02,
-                    xanchor="right",
-                    x=1
-                ))                
+            legend_title='Estado',
+            barmode='stack',
+            title_font_size=20,
+            yaxis=dict(range=[0, 45]),  # Set y-axis max value to 45
+            legend=dict(
+                orientation="h",
+                yanchor="bottom",
+                y=1.02,
+                xanchor="right",
+                x=1
+            ))                
             st.plotly_chart(fig2, use_container_width=True)
 
 
