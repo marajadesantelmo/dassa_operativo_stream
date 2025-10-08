@@ -196,52 +196,74 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
             grafico_arribos_impo['Fecha'] = pd.to_datetime(grafico_arribos_impo['Fecha'])
             grafico_arribos_impo = grafico_arribos_impo.sort_values('Fecha')
             grafico_arribos_impo['Fecha'] = grafico_arribos_impo['Fecha'].dt.strftime('%d/%m')
+            
+            # Calculate daily average for arribos
+            total_arribos = grafico_arribos_impo['Arribos'].sum()
+            num_days = grafico_arribos_impo['Fecha'].nunique()
+            avg_arribos = round(total_arribos / num_days, 1) if num_days > 0 else 0
+            
+            col_title1, col_metric1 = st.columns([3, 1])
+            with col_title1:
+                st.markdown("**Arribos CTNs por día**")
+            with col_metric1:
+                st.metric(label="Promedio diario", value=avg_arribos)
+            
             fig = px.bar(
-            grafico_arribos_impo,
-            x='Fecha',
-            y='Arribos',
-            color='Estado',
-            title='Arribos CTNs por día',
-            color_discrete_map={
-                'Arribado': '#4CAF50', 'Pendiente': '#FFA500'})
+                grafico_arribos_impo,
+                x='Fecha',
+                y='Arribos',
+                color='Estado',
+                color_discrete_map={
+                    'Arribado': '#4CAF50', 'Pendiente': '#FFA500'})
 
             fig.update_layout(
-            legend_title='Estado',
-            barmode='stack',
-            title_font_size=20,
-            yaxis=dict(range=[0, 45]),  # Set y-axis max value to 45
-            legend=dict(
-                orientation="h",
-                yanchor="bottom",
-                y=1.02,
-                xanchor="right",
-                x=1
-            ))                
+                legend_title='Estado',
+                barmode='stack',
+                yaxis=dict(range=[0, 45]),
+                showlegend=True,
+                legend=dict(
+                    orientation="h",
+                    yanchor="bottom",
+                    y=1.02,
+                    xanchor="right",
+                    x=1
+                ))                
             st.plotly_chart(fig, use_container_width=True)
 
             grafico_retiros_impo['Fecha'] = pd.to_datetime(grafico_retiros_impo['Fecha'])
             grafico_retiros_impo = grafico_retiros_impo.sort_values('Fecha')
             grafico_retiros_impo['Fecha'] = grafico_retiros_impo['Fecha'].dt.strftime('%d/%m')
             grafico_retiros_impo_ctns = grafico_retiros_impo[grafico_retiros_impo['Envase'] == "Contenedor"]
+            
+            # Calculate daily average for retiros
+            total_retiros = grafico_retiros_impo_ctns['Retiros'].sum()
+            num_days_retiros = grafico_retiros_impo_ctns['Fecha'].nunique()
+            avg_retiros = round(total_retiros / num_days_retiros, 1) if num_days_retiros > 0 else 0
+            
+            col_title2, col_metric2 = st.columns([3, 1])
+            with col_title2:
+                st.markdown("**Retiros CTNs por día**")
+            with col_metric2:
+                st.metric(label="Promedio diario", value=avg_retiros)
+            
             fig3 = px.bar(
-            grafico_retiros_impo_ctns,
-            x='Fecha',
-            y='Retiros',
-            color='Estado',
-            title='Retiros CTNs por día',
-            color_discrete_map={'Realizado': '#4CAF50', 'Pendiente': '#FFA500'})
+                grafico_retiros_impo_ctns,
+                x='Fecha',
+                y='Retiros',
+                color='Estado',
+                color_discrete_map={'Realizado': '#4CAF50', 'Pendiente': '#FFA500'})
             fig3.update_layout(
-            legend_title='Estado',
-            barmode='stack',
-            title_font_size=20,
-            yaxis=dict(range=[0, 45]),  # Set y-axis max value to 45
-            legend=dict(
-                orientation="h",
-                yanchor="bottom",
-                y=1.02,
-                xanchor="right",
-                x=1
-            ))
+                legend_title='Estado',
+                barmode='stack',
+                yaxis=dict(range=[0, 45]),
+                showlegend=True,
+                legend=dict(
+                    orientation="h",
+                    yanchor="bottom",
+                    y=1.02,
+                    xanchor="right",
+                    x=1
+                ))
             st.plotly_chart(fig3, use_container_width=True)
 
         with col2_grafico:
@@ -249,26 +271,37 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
             grafico_verificaciones_impo = grafico_verificaciones_impo.sort_values('Fecha')
             grafico_verificaciones_impo['Fecha'] = grafico_verificaciones_impo['Fecha'].dt.strftime('%d/%m')
             grafico_verificaciones_impo_ctns = grafico_verificaciones_impo[grafico_verificaciones_impo['Envase'] == "Contenedor"]
+            
+            # Calculate daily average for verificaciones
+            total_verificaciones = grafico_verificaciones_impo_ctns['Verificaciones IMPO'].sum()
+            num_days_verif = grafico_verificaciones_impo_ctns['Fecha'].nunique()
+            avg_verificaciones = round(total_verificaciones / num_days_verif, 1) if num_days_verif > 0 else 0
+            
+            col_title3, col_metric3 = st.columns([3, 1])
+            with col_title3:
+                st.markdown("**Verificaciones CTNs por día**")
+            with col_metric3:
+                st.metric(label="Promedio diario", value=avg_verificaciones)
+            
             fig2 = px.bar(
-            grafico_verificaciones_impo_ctns,
-            x='Fecha',
-            y='Verificaciones IMPO',
-            color='Estado',
-            title='Verificaciones CTNs por día',
-            color_discrete_map={'Realizado': '#4CAF50', 'Pendiente': '#FFA500'})
+                grafico_verificaciones_impo_ctns,
+                x='Fecha',
+                y='Verificaciones IMPO',
+                color='Estado',
+                color_discrete_map={'Realizado': '#4CAF50', 'Pendiente': '#FFA500'})
 
             fig2.update_layout(
-            legend_title='Estado',
-            barmode='stack',
-            title_font_size=20,
-            yaxis=dict(range=[0, 45]),  # Set y-axis max value to 45
-            legend=dict(
-                orientation="h",
-                yanchor="bottom",
-                y=1.02,
-                xanchor="right",
-                x=1
-            ))                
+                legend_title='Estado',
+                barmode='stack',
+                yaxis=dict(range=[0, 45]),
+                showlegend=True,
+                legend=dict(
+                    orientation="h",
+                    yanchor="bottom",
+                    y=1.02,
+                    xanchor="right",
+                    x=1
+                ))                
             st.plotly_chart(fig2, use_container_width=True)
 
 
