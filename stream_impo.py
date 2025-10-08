@@ -15,6 +15,7 @@ def fetch_data_impo():
     existente_plz = fetch_table_data("existente_plz")
     existente_alm = fetch_table_data("existente_alm")
     grafico_arribos_impo = fetch_table_data("grafico_arribos_impo")
+    grafico_verificaciones_impo = fetch_table_data("grafico_verificaciones_impo")
     try:
         arribos = arribos.sort_values(by="Turno")
         arribos['Chofer'] = arribos['Chofer'].fillna('-')
@@ -213,11 +214,35 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
                     y=1.02,
                     xanchor="right",
                     x=1
-                ))
-            
-            
-                
+                ))                
             st.plotly_chart(fig, use_container_width=True)
+
+        with col2_grafico:
+            grafico_verificaciones_impo['Fecha'] = pd.to_datetime(grafico_verificaciones_impo['Fecha'])
+            grafico_verificaciones_impo = grafico_verificaciones_impo.sort_values('Fecha')
+            grafico_verificaciones_impo['Fecha'] = grafico_verificaciones_impo['Fecha'].dt.strftime('%d/%m')
+            fig2 = px.bar(
+                grafico_verificaciones_impo,
+                x='Fecha',
+                y='Verificaciones IMPO',
+                color='Estado',
+                title='Verificaciones IMPO por día',
+                color_discrete_map={
+                    'Realizada': '#4CAF50',
+                    'Pte. Verif.': '#FFA500'})
+
+            fig2.update_layout(
+                legend_title='Estado',
+                barmode='stack',
+                title_font_size=20,
+                legend=dict(
+                    orientation="h",
+                    yanchor="bottom",
+                    y=1.02,
+                    xanchor="right",
+                    x=1
+                ))                
+            st.plotly_chart(fig2, use_container_width=True)
 
 
 # Run the show_page function
