@@ -62,6 +62,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-19,Terminal 4 - Maersk,1500 ,MSKU-179254-6,Aspee Monee,255476630,T,DC,60,1,19:12 Arribado
 2025-09-19,Terminal 4 - Maersk,1200 ,MSKU-167653-0,Aspee Monee,255476525,T,DC,60,1,18:46 Arribado
 2025-10-09,None,2100 ,MSBU-518861-3,Aspee Monee,MEDUOO403622,T,HC,70,0,Pendiente arribo
+2025-10-09,Exolgan,1900 ,BEAU-423367-2,Aspee Monee,LDH/25/1693,T,HC,70,0,Pendiente arribo
 2025-10-02,Terminal 4 - Maersk,1400 ,MRSU-335766-2,Dagher S.A.,OXOE2507035,T,HC,70,1,19:47 Arribado
 2025-09-23,Terminal 4 - Maersk,1000 ,MRKU-067396-2,Fenisan S.A.,258262518,T,DC,60,1,13:40 Arribado
 2025-09-23,Terminal 4 - Maersk,1000 ,MSKU-196898-0,Fenisan S.A.,258262518,T,DC,60,1,13:48 Arribado
@@ -152,6 +153,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-23,Trp - Terminales 1-2-3,1300 ,PCIU-612456-5,Fibras Argentinas Sa,BKK501138800,TD,HC,70,1,15:44 Arribado
 2025-10-09,Trp - Terminales 1-2-3,1200 ,FBIU-518108-6,Fibras Argentinas Sa,BKK501250100,TD,HC,70,0,Pendiente arribo
 2025-10-09,Trp - Terminales 1-2-3,1200 ,PCIU-607716-5,Fibras Argentinas Sa,BKK501250100,TD,HC,70,0,Pendiente arribo
+2025-10-09,Trp - Terminales 1-2-3,0500 ,OOCU-722084-1,Ba Comex S.A,CL25070996,T,HC,70,0,Pendiente arribo
 2025-09-24,Trp - Terminales 1-2-3,1200 ,EISU-838153-6,Bulldog Solutions S.A.,HDE25-0800064,TD,HC,70,1,15:38 Arribado
 2025-10-03,Trp - Terminales 1-2-3,1500 ,EGSU-984530-3,Aceptyourdestiny Sa,HDE25-0800119,T,HC,70,1,17:26 Arribado
 2025-10-03,Trp - Terminales 1-2-3,2000 ,CAAU-519771-4,Aceptyourdestiny Sa,HDE25-0800036,T,HC,70,1,22:19 Arribado
@@ -181,7 +183,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-24,Trp - Terminales 1-2-3,1200 ,TXGU-559828-0,Fedtex S.R.L,TWLE25070200,TD,HC,70,1,14:53 Arribado
 2025-09-24,Trp - Terminales 1-2-3,1300 ,EMCU-877109-0,Fedtex S.R.L,TWLE25070207,TD,HC,70,1,14:32 Arribado
 2025-09-24,Trp - Terminales 1-2-3,1200 ,TRHU-713348-9,Fedtex S.R.L,TWLE25070206,T,HC,70,1,16:52 Arribado
-2025-10-08,Exolgan,0500 ,ONEU-162702-8,Fedtex S.R.L,ONEYNB5BCT854900,T,HC,70,0,Pendiente arribo
+2025-10-08,Exolgan,0500 ,ONEU-162702-8,Fedtex S.R.L,ONEYNB5BCT854900,T,HC,70,1,09:42 Arribado
 2025-09-22,Exolgan,1300 ,MSBU-729385-5,Chelatex Sas,NBOE25016249,TD,HC,70,1,15:25 Arribado
 2025-10-09,Trp - Terminales 1-2-3,0500 ,CAIU-262504-6,Dromex Srl,CEI0323212,TD,DR,30,0,Pendiente arribo
 2025-09-23,Terminal 4 - Maersk,1000 ,MRSU-303521-8,Grupo De Asesoramiento Empresa...,PEF2508389,TD,HC,70,1,14:23 Arribado
@@ -218,4 +220,5 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-01,Trp - Terminales 1-2-3,1200 ,FFAU-430595-2,Bahia Blanca Viviendas Srl,Z330GZH2507011,T,HC,70,1,16:50 Arribado
 2025-10-03,Trp - Terminales 1-2-3,0500 ,PCIU-000797-8,Fondere Herrajes S R L,Z33GZH2507009,T,DC,30,1,08:32 Arribado
 2025-10-08,Terminal 4 - Maersk,1400 ,MRKU-508258-2,Alpha Group Sc Srl,256630731,T,DC,60,0,Pendiente arribo
+2025-10-09,Trp - Terminales 1-2-3,0500 ,TCNU-618067-2,Andres Madariya,EID0887386,T,HC,70,0,Pendiente arribo
 2025-10-09,Trp - Terminales 1-2-3,1200 ,CCLU-796363-7,Lismar Sur S.A.,CL25070824,T,HC,70,0,Pendiente arribo
