@@ -48,15 +48,16 @@ def fetch_data_balanza():
         balanza_historico_expo = pd.DataFrame(columns=columns_expo_historico)
     return balanza, balanza_impo, balanza_expo, balanza_historico_impo, balanza_historico_expo, balanza_historico
 
-@st.cache_data(ttl=60)
 def fetch_last_update():
     update_log = fetch_table_data("update_log")
     if not update_log.empty:
+        last_update = update_log[update_log['table_name'] == 'Balanza']['last_update'].max()
         try:
-            last_update = update_log[update_log['table_name'] == 'Balanza']['last_update'].max()
-            return pd.to_datetime(last_update).strftime("%d/%m/%Y %H:%M")
-        except Exception as e:
-            st.error(f"Error al obtener la última actualización: {e}")
+            datetime_obj = pd.to_datetime(last_update)
+            if pd.isna(datetime_obj):
+                return "No disponible"
+            return datetime_obj.strftime("%d/%m/%Y %H:%M")
+        except (ValueError, TypeError):
             return "No disponible"
     return "No disponible"
 
