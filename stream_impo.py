@@ -232,7 +232,7 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
             st.plotly_chart(fig, use_container_width=True)
 
             grafico_retiros_impo['Fecha'] = pd.to_datetime(grafico_retiros_impo['Fecha'])
-            grafico_retiros_impo = grafico_retiros_impo.sort_values('Fecha')
+            grafico_retiros_impo = grafico_retiros_impo.sort_values(['Fecha', 'Estado'])
             grafico_retiros_impo['Fecha'] = grafico_retiros_impo['Fecha'].dt.strftime('%d/%m')
             grafico_retiros_impo_ctns = grafico_retiros_impo[grafico_retiros_impo['Envase'] == "Contenedor"]
             
@@ -264,12 +264,13 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
                     y=1.02,
                     xanchor="right",
                     x=1
-                ))
+                ),
+                xaxis={'categoryorder': 'array', 'categoryarray': sorted(grafico_retiros_impo_ctns['Fecha'].unique(), key=lambda x: pd.to_datetime(x, format='%d/%m'))})
             st.plotly_chart(fig3, use_container_width=True)
 
         with col2_grafico:
             grafico_verificaciones_impo['Fecha'] = pd.to_datetime(grafico_verificaciones_impo['Fecha'])
-            grafico_verificaciones_impo = grafico_verificaciones_impo.sort_values('Fecha')
+            grafico_verificaciones_impo = grafico_verificaciones_impo.sort_values(['Fecha', 'Estado'])
             grafico_verificaciones_impo['Fecha'] = grafico_verificaciones_impo['Fecha'].dt.strftime('%d/%m')
             grafico_verificaciones_impo_ctns = grafico_verificaciones_impo[grafico_verificaciones_impo['Envase'] == "Contenedor"]
             
@@ -302,7 +303,8 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
                     y=1.02,
                     xanchor="right",
                     x=1
-                ))                
+                ),
+                xaxis={'categoryorder': 'array', 'categoryarray': sorted(grafico_verificaciones_impo_ctns['Fecha'].unique(), key=lambda x: pd.to_datetime(x, format='%d/%m'))})
             st.plotly_chart(fig2, use_container_width=True)
 
 
