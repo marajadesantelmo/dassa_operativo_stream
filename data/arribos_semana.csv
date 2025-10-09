@@ -4,7 +4,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-19,Trp - Terminales 1-2-3,1200 ,TCKU-463563-3,Mercovan Argentina S.A.,ONEYRTMF18024600,TD,DC,60,1,16:10 Arribado
 2025-09-23,Exolgan,1500 ,GCXU-517570-3,Mercovan Argentina S.A.,HLCUGY3250731647,TD,HC,70,1,19:43 Arribado
 2025-10-02,Terminal 4 - Maersk,1400 ,TCNU-963565-1,Mercovan Argentina S.A.,ISB1783593,T,HC,70,1,19:43 Arribado
-2025-10-02,Terminal 4 - Maersk,1400 ,MSKU-020688-8,Mercovan Argentina S.A.,ISB1783592,TD,HC,70,1,19:48 Arribado
+2025-10-02,Terminal 4 - Maersk,1400 ,MSKU-020688-8,Mercovan Argentina S.A.,ISB1783592,T,HC,70,1,19:48 Arribado
 2025-10-02,Exolgan,0500 ,UASU-106344-5,Mercovan Argentina S.A.,HLUSPIL250712942,TD,HC,70,1,10:45 Arribado
 2025-10-09,Exolgan,1900 ,UACU-415023-8,Mercovan Argentina S.A.,HLCULE1250826545,TD,DC,30,0,Pendiente arribo
 2025-10-09,Exolgan,1700 ,TXGU-889833-7,Mercovan Argentina S.A.,MEDURN002197,TD,DC,30,0,Pendiente arribo
@@ -119,7 +119,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-02,Trp - Terminales 1-2-3,1300 ,BEAU-559667-2,Multitransport Argentina,TCQD2507196,T,HC,70,1,19:54 Arribado
 2025-10-02,Trp - Terminales 1-2-3,1300 ,TLLU-264812-8,Multitransport Argentina,TCQD2507196,T,HC,70,1,17:59 Arribado
 2025-10-02,Trp - Terminales 1-2-3,1300 ,TRHU-535131-0,Multitransport Argentina,TCQD2507196,T,HC,70,1,16:33 Arribado
-2025-10-09,Trp - Terminales 1-2-3,0400 ,EGSU-135894-7,Compañia Bulk S.A.,SY250764723,T,HC,70,0,Pendiente arribo
+2025-10-09,Trp - Terminales 1-2-3,0400 ,EGSU-135894-7,Compañia Bulk S.A.,SY250764723,T,HC,70,1,09:17 Arribado
 2025-10-09,Trp - Terminales 1-2-3,0500 ,GAOU-626211-7,Compañia Bulk S.A.,SY250764723,T,HC,70,0,Pendiente arribo
 2025-09-19,Trp - Terminales 1-2-3,1100 ,MSNU-673412-5,Juliana Sa,MEDUOP807326,TD,HC,70,1,15:51 Arribado
 2025-09-23,Trp - Terminales 1-2-3,1300 ,CMAU-881793-8,Juliana Sa,NGP2609684,T,HC,70,1,16:43 Arribado
@@ -185,7 +185,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-18,Trp - Terminales 1-2-3,0500 ,MEDU-867516-9,E A Balbi E Hijos S A,DEL-HSE-2507-0306,T,HC,70,1,10:57 Arribado
 2025-09-18,Trp - Terminales 1-2-3,0500 ,MSMU-651786-7,E A Balbi E Hijos S A,DEL-HSE-2507-0306,T,HC,70,1,10:49 Arribado
 2025-10-09,Trp - Terminales 1-2-3,0500 ,TGBU-487774-0,Kraster Argentina Sa,SHHS25080039,TD,HC,70,1,08:52 Arribado
-2025-10-09,Trp - Terminales 1-2-3,0500 ,CSNU-834198-1,Kraster Argentina Sa,SHHS25080039,TD,HC,70,0,Pendiente arribo
+2025-10-09,Trp - Terminales 1-2-3,0500 ,CSNU-834198-1,Kraster Argentina Sa,SHHS25080039,TD,HC,70,1,09:15 Arribado
 2025-09-18,Trp - Terminales 1-2-3,0600 ,MEDU-426059-1,Xiadex Srl,NBOE25016138,T,HC,70,1,11:26 Arribado
 2025-09-18,Trp - Terminales 1-2-3,0400 ,FFAU-263087-1,Xiadex Srl,GILSH250700060,TD,HC,70,1,10:40 Arribado
 2025-09-19,Exolgan,0500 ,TRHU-611296-4,Xiadex Srl,NBOE25016079,T,HC,70,1,11:26 Arribado
