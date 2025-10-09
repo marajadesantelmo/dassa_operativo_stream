@@ -7,6 +7,9 @@ from utils import highlight, generar_comprobante
 @st.cache_data(ttl=60)
 def fetch_data_balanza():
     balanza = fetch_table_data("balanza_data")
+    cols = list(balanza.columns)
+    cols.insert(2, cols.pop(cols.index("Booking")))
+    balanza = balanza[cols]
     if balanza.empty:
         column_names = [
             "ID Pesada", "Cliente", "CUIT Cliente", "ATA", "CUIT ATA", "Contenedor", "Entrada", "Salida", 
