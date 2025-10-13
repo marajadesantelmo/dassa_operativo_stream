@@ -310,8 +310,6 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 280.0,02/10,259498791,Hilado Sa,Huxley Sa,2025-10-01T18:20:39.38908,,,Arribado,,MSKU-157154-5,*****************,28600,,
 299.0,06/10,EBKG14203706,Henn Y Cia S.R.L.,Exolgan,2025-10-03T19:35:41.434255,,,Arribado,,TGHU-081524-8,FX32918923,,,
 271.0,02/10,BUA0351286,Alimentaria Sa,Hiperbaires - Icb T.Sur,2025-10-01T15:35:42.053467,,,Arribado,,TCLU-648273-6,R8688058,28600,,
-323.0,13/10,260330725,Borax Argentina S A,-,2025-10-07T18:05:39.603447,,,,,,,,,
-324.0,13/10,260330725,Borax Argentina S A,-,2025-10-07T18:05:39.726925,,,,,,,,,
 325.0,13/10,260330725,Borax Argentina S A,-,2025-10-07T18:05:39.872797,,,,,,,,,
 331.0,09/10,BUA0351168,Geo Logistics Argentina S.R.L.,Terminal 7,2025-10-07T19:05:39.95923,,,Arribado,,APHU-641721-4,R8687563,,,
 334.0,09/10,340500040213,Norfor Sa,Gamma Bactssa - Asas One -,2025-10-08T17:20:38.449866,,,Arribado,,TCNU-627666-6,***************,,,
@@ -335,10 +333,13 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 336.0,09/10,340500041202,Hector Reboratti,Gamma Bactssa - Asas One -,2025-10-08T18:20:41.193642,,,17:40 Arribado,,CAAU-959227-6,****************,,,
 337.0,09/10,340500041202,Hector Reboratti,Gamma Bactssa - Asas One -,2025-10-08T18:20:41.284212,,,17:38 Arribado,,EITU-935613-0,**************,,,
 354.0,13/10,ZIMUBUE9044084,Suabia Maderas Srl,-,2025-10-09T22:20:39.529957,,,,,,,,,
-350.0,13/10,EBKG14423606,Chaguar Sociedad Anonima,-,2025-10-09T19:50:39.410083,,,,,,,,,
-351.0,13/10,EBKG14423606,Chaguar Sociedad Anonima,-,2025-10-09T19:50:39.512126,,,,,,,,,
-352.0,13/10,EBKG14423606,Chaguar Sociedad Anonima,-,2025-10-09T19:50:39.630701,,,,,,,,,
-353.0,13/10,EBKG14423606,Chaguar Sociedad Anonima,-,2025-10-09T19:50:39.727669,,,,,,,,,
+355.0,13/10,COSU6431725820,Pelama Chubut S.A.,-,2025-10-10T14:05:38.887442,,,,,,,,,
+356.0,13/10,COSU6432293550,Pelama Chubut S.A.,-,2025-10-10T14:05:39.047385,,,,,,,,,
+323.0,13/10,260330725,Borax Argentina S A,Huxley Sa,2025-10-07T18:05:39.603447,,,08:36 Arribado,,HASU-114667-6,*******************,,,
+350.0,13/10,EBKG14423606,Chaguar Sociedad Anonima,Medlog Sarandi,2025-10-09T19:50:39.410083,,,08:42 Arribado,,FTAU-126365-5,FX32918724,,,
+351.0,13/10,EBKG14423606,Chaguar Sociedad Anonima,Medlog Sarandi,2025-10-09T19:50:39.512126,,,08:39 Arribado,,MSDU-116614-6,FX32918725,,,
+324.0,13/10,260330725,Borax Argentina S A,Huxley Sa,2025-10-07T18:05:39.726925,,,08:36 Arribado,,HASU-114667-6,*******************,,,
+352.0,13/10,EBKG14423606,Chaguar Sociedad Anonima,Medlog Sarandi,2025-10-09T19:50:39.630701,,,08:42 Arribado,,FTAU-126365-5,FX32918724,,,
 328.0,08/10,EBKG14449072,Hdv Leather S.R.L.,Medlog Sarandi,2025-10-07T18:35:40.789708,,,Arribado,,MSMU-725673-1,FX32915936,,,
 329.0,08/10,EBKG14449072,Hdv Leather S.R.L.,Medlog Sarandi,2025-10-07T18:35:40.884676,,,Arribado,,TCLU-491727-5,FX32915943,,,
 284.0,02/10,18434285,Mercovan Argentina S.A.,Huxley Sa,2025-10-01T20:50:36.856052,,,Arribado,,BMOU-140430-7,**************,"DE MIRANDA REIS, JOSE",,
@@ -348,5 +349,6 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 332.0,08/10,259614937,Hdv Leather S.R.L.,Gamma Bactssa - Asas One -,2025-10-07T19:20:39.597814,,,Arribado,,TRHU-589362-5,********************,,,
 333.0,08/10,259614937,Hdv Leather S.R.L.,Gamma Bactssa - Asas One -,2025-10-07T19:20:39.715503,,,Arribado,,TRHU-589362-5,********************,,,
 330.0,08/10,LA0452728,Lift Van Int. Co S.A,Hiperbaires - Icb T.Sur,2025-10-07T18:50:39.770272,,,Arribado,,MEDU-573910-4,**********,,,
-,13/10,COSU6431725820,Pelama Chubut S.A.,-,,,,,,,,,,1.0
-,13/10,COSU6432293550,Pelama Chubut S.A.,-,,,,,,,,,,1.0
+353.0,13/10,EBKG14423606,Chaguar Sociedad Anonima,Medlog Sarandi,2025-10-09T19:50:39.727669,,,08:39 Arribado,,MSDU-116614-6,FX32918725,,,
+,13/10,32726281,Lift Van Int. Co S.A,Huxley Sa,,,,,,,,,,1.0
+,13/10,BUEA96905200,Minera Santa Rita Srl,Gamma Mujica,,,,,,,,,,2.0
