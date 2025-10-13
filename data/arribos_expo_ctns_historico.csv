@@ -48,7 +48,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-24,34836,,Lift Van Int. Co S.A,93496815,                    ,Pendiente
 2025-06-24,34898,UACU-372034-1,Lift Van Int. Co S.A,93496815,***********         ,Arribado
 2025-10-08,38253,MEDU-573910-4,Lift Van Int. Co S.A,LA0452728,**********          ,Arribado
-2025-10-13,38359,,Lift Van Int. Co S.A,BUA0352508,                    ,Pendiente
+2025-10-13,38359,CXDU-159960-9,Lift Van Int. Co S.A,BUA0352508,R8682671            ,Arribado
+2025-10-13,38393,,Lift Van Int. Co S.A,32726281,                    ,Pendiente
 2025-10-15,38213,,Lift Van Int. Co S.A,93298549,                    ,Pendiente
 2025-09-23,37852,MRKU-436132-4,Lift Van Int. Co S.A,259005302,******************  ,Arribado
 2025-09-24,37920,MRKU-060235-7,Lift Van Int. Co S.A,259560878,***********         ,Arribado
@@ -114,6 +115,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-17,34659,HLBU-139556-9,Minera Santa Rita Srl,93173263,***********         ,Arribado
 2025-06-17,34660,UACU-858088-0,Minera Santa Rita Srl,93173263,***********         ,Arribado
 2025-10-14,38364,,Minera Santa Rita Srl,340500041538,                    ,Pendiente
+2025-10-13,38391,,Minera Santa Rita Srl,BUEA96905200,                    ,Pendiente
+2025-10-13,38392,,Minera Santa Rita Srl,BUEA96905200,                    ,Pendiente
 2025-10-14,38360,,Minera Santa Rita Srl,340500041538,                    ,Pendiente
 2025-10-14,38361,,Minera Santa Rita Srl,340500041538,                    ,Pendiente
 2025-10-14,38362,,Minera Santa Rita Srl,340500041538,                    ,Pendiente
@@ -270,6 +273,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-17,34645,TGBU-921275-2,Hilado Sa,COSU6420889760,************        ,Arribado
 2025-06-17,34646,FFAU-337285-3,Hilado Sa,COSU6420889760,***********         ,Arribado
 2025-06-17,34647,CSLU-632951-0,Hilado Sa,COSU6420889760,*********           ,Arribado
+2025-10-14,38414,,Hilado Sa,259760381,                    ,Pendiente
+2025-10-14,38415,,Hilado Sa,259760381,                    ,Pendiente
+2025-10-14,38412,,Hilado Sa,259760381,                    ,Pendiente
+2025-10-14,38413,,Hilado Sa,259760381,                    ,Pendiente
 2025-10-02,38072,MSKU-892269-9,Hilado Sa,259498791,**************      ,Arribado
 2025-10-02,38073,MSKU-157154-5,Hilado Sa,259498791,*****************   ,Arribado
 2025-10-02,38074,MRKU-294875-5,Hilado Sa,259498791,******************  ,Arribado
@@ -448,7 +455,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-02,35156,TXGU-727247-8,Isischu Srl,EBKG13426886,FX32934475          ,Arribado
 2025-07-02,35201,TCKU-655562-4,Isischu Srl,33719070,*************       ,Arribado
 2025-09-30,38009,CMAU-787626-3,Isischu Srl,BUA0351514,R8693544            ,Arribado
-2025-10-13,38357,,Isischu Srl,ZIMUBUE9043877,                    ,Pendiente
+2025-10-13,38357,ZCSU-691289-1,Isischu Srl,ZIMUBUE9043877,********************,Arribado
 2025-09-11,37485,MSBU-501768-9,Isischu Srl,EBKG14103888,FX32947324          ,Arribado
 2025-09-30,38007,TCNU-238329-1,Isischu Srl,BUA0351514,R8691432            ,Arribado
 2025-09-30,38008,TCNU-314340-1,Isischu Srl,BUA0351514,R8693545            ,Arribado
@@ -516,7 +523,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-23,34778,,Maringa Maderas Sa,EBKG13192544,                    ,Pendiente
 2025-06-24,34782,MEDU-443152-3,Maringa Maderas Sa,EBKG13159092,FX32934153          ,Arribado
 2025-06-30,34939,CAIU-459786-9,Maringa Maderas Sa,EBKG13192555,FX32932271          ,Arribado
-2025-10-13,38358,,Maringa Maderas Sa,ZIMUBUE9044079,                    ,Pendiente
+2025-10-13,38358,BSIU-954105-0,Maringa Maderas Sa,ZIMUBUE9044079,***************     ,Arribado
 2025-08-04,36260,MEDU-443227-9,Maringa Maderas Sa,EBKG13753917,FX32943992          ,Arribado
 2025-09-18,37718,MSKU-957334-9,Maringa Maderas Sa,259288341,***************     ,Arribado
 2025-09-18,37719,TEMU-812322-3,Maringa Maderas Sa,259288369,**************      ,Arribado
@@ -528,7 +535,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-07,35213,MSNU-761662-0,Maringa Maderas Sa,EBKG13411142,FX32934791          ,Arribado
 2025-09-11,37461,CMAU-581885-9,Suabia Maderas Srl,BUA0350295,R8683744            ,Arribado
 2025-10-06,38097,,Suabia Maderas Srl,BUA0652019,                    ,Pendiente
-2025-10-13,38372,,Suabia Maderas Srl,ZIMUBUE9044084,                    ,Pendiente
+2025-10-13,38372,TCNU-303911-0,Suabia Maderas Srl,ZIMUBUE9044084,******************  ,Arribado
 2025-06-25,34906,TCLU-852067-1,Piranga Sa,255319646,**********          ,Arribado
 2025-06-25,34907,MSKU-069522-2,Piranga Sa,255319646,************        ,Arribado
 2025-07-16,35677,HAMU-115276-4,Piranga Sa,34095700,***********         ,Arribado
@@ -685,9 +692,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-18,34747,CXDU-142058-6,Henn Y Cia S.R.L.,EBKG13204005,FX32932775          ,Arribado
 2025-06-24,34827,,Borax Argentina S A,255033881,                    ,Pendiente
 2025-06-24,34828,,Borax Argentina S A,255033881,                    ,Pendiente
-2025-10-13,38243,,Borax Argentina S A,260330725,                    ,Pendiente
-2025-10-13,38244,,Borax Argentina S A,260330725,                    ,Pendiente
-2025-10-13,38245,,Borax Argentina S A,260330725,                    ,Pendiente
+2025-10-13,38243,HASU-114667-6,Borax Argentina S A,260330725,******************* ,Arribado
+2025-10-13,38244,MRKU-873252-6,Borax Argentina S A,260330725,***********         ,Arribado
+2025-10-13,38245,MRKU-854452-9,Borax Argentina S A,260330725,**************      ,Arribado
 2025-10-08,38224,HASU-113909-1,Borax Argentina S A,260330701,*****************   ,Arribado
 2025-10-08,38225,MSKU-526657-6,Borax Argentina S A,260330701,*************       ,Arribado
 2025-10-08,38226,MRKU-806049-0,Borax Argentina S A,260330701,***************     ,Arribado
@@ -1270,10 +1277,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-23,35881,TEMU-223300-7,Chaguar Sociedad Anonima,256457109,********            ,Arribado
 2025-07-23,35882,MRSU-032431-0,Chaguar Sociedad Anonima,256457109,**********          ,Arribado
 2025-07-23,35883,,Chaguar Sociedad Anonima,256457109,                    ,Pendiente
-2025-10-13,38365,,Chaguar Sociedad Anonima,EBKG14423606,                    ,Pendiente
-2025-10-13,38366,,Chaguar Sociedad Anonima,EBKG14423606,                    ,Pendiente
-2025-10-13,38367,,Chaguar Sociedad Anonima,EBKG14423606,                    ,Pendiente
-2025-10-13,38368,,Chaguar Sociedad Anonima,EBKG14423606,                    ,Pendiente
+2025-10-13,38365,MSDU-116614-6,Chaguar Sociedad Anonima,EBKG14423606,FX32918725          ,Arribado
+2025-10-13,38366,FTAU-126365-5,Chaguar Sociedad Anonima,EBKG14423606,FX32918724          ,Arribado
+2025-10-13,38367,MSNU-361656-1,Chaguar Sociedad Anonima,EBKG14423606,FX32915762          ,Arribado
+2025-10-13,38368,GLDU-965826-7,Chaguar Sociedad Anonima,EBKG14423606,FX32915761          ,Arribado
 2025-08-12,36546,JXLU-643953-6,Chaguar Sociedad Anonima,ZIMUBUE9042328,***********         ,Arribado
 2025-08-12,36591,OOCU-077346-5,Chaguar Sociedad Anonima,COSU6425125310,****************    ,Arribado
 2025-08-15,36688,SEKU-114986-2,Chaguar Sociedad Anonima,BUA0347678,R8686473            ,Arribado

@@ -265,8 +265,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-06-23,34629,,Pelama Chubut S.A.,COSU6421827870,COSU6421827870 /,Arribado
 2025-10-13,38246,,Pelama Chubut S.A.,COSU6432293550,,Pendiente
 2025-10-13,38247,,Pelama Chubut S.A.,COSU6431725820,,Pendiente
-2025-10-13,38389,,Pelama Chubut S.A.,COSU6432293550,COSU6432293550,Pendiente
-2025-10-13,38390,,Pelama Chubut S.A.,COSU6431725820,COSU6431725820,Pendiente
+2025-10-13,38389,,Pelama Chubut S.A.,COSU6432293550,COSU6432293550,Arribado
+2025-10-13,38390,,Pelama Chubut S.A.,COSU6431725820,COSU6431725820,Arribado
 2025-10-06,38153,,Pelama Chubut S.A.,COSU6430266930,,Pendiente
 2025-10-06,37930,,Pelama Chubut S.A.,25001EC01,,Arribado
 2025-10-06,38149,,Pelama Chubut S.A.,COSU6431031370,,Pendiente
@@ -343,6 +343,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-06-23,34741,,Hilado Sa,COSU6420745130,COSU6420745130,Arribado
 2025-06-23,34742,,Hilado Sa,COSU6420745130,COSU6420745130,Arribado
 2025-06-23,34743,,Hilado Sa,COSU6420745130,COSU6420745130,Arribado
+2025-10-13,38408,,Hilado Sa,259760381,259760381,Arribado
+2025-10-13,38409,,Hilado Sa,259760381,259760381,Pendiente
+2025-10-13,38410,,Hilado Sa,259760381,259760381,Pendiente
+2025-10-14,38411,,Hilado Sa,259760381,259760381,Pendiente
 2025-10-02,38036,,Hilado Sa,25001EC01,CME014064 EXPO 1602,Arribado
 2025-10-02,38037,,Hilado Sa,25001EC01,CME014064 EXPO 1602,Arribado
 2025-10-02,38038,,Hilado Sa,25001EC01,CME014064 EXPO 1602,Arribado
@@ -458,6 +462,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-09-09,37192,,Manufactura Los Andes S.A.,259009511,FACT 11-174,Pendiente
 2025-09-09,37193,,Manufactura Los Andes S.A.,259009511,FACT 11-174,Pendiente
 2025-09-09,37194,,Manufactura Los Andes S.A.,259009511,FACT 11-174,Pendiente
+2025-10-13,38404,,Manufactura Los Andes S.A.,340500041538,340500041538,Pendiente
+2025-10-13,38405,,Manufactura Los Andes S.A.,340500041538,340500041538,Pendiente
+2025-10-13,38406,,Manufactura Los Andes S.A.,340500041538,340500041538,Pendiente
+2025-10-13,38407,,Manufactura Los Andes S.A.,340500041538,340500041538,Pendiente
+2025-10-13,38402,,Manufactura Los Andes S.A.,340500041538,340500041538,Pendiente
+2025-10-13,38403,,Manufactura Los Andes S.A.,340500041538,340500041538,Pendiente
 2025-06-24,34872,,Servicio Internacional De Fletes S.A.,255431206,,Pendiente
 2025-07-07,35222,,Interalmar S.A.,BOOKING : 254762551/SM-026-25,,Pendiente
 2025-07-07,35223,,Interalmar S.A.,BOOKING : 254762551/SM-026-25,,Pendiente
@@ -743,7 +753,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-10-08,38262,,Borax Argentina S A,260330701,FAC 12719,Pendiente
 2025-10-09,38333,,Borax Argentina S A,260330701,260330701,Arribado
 2025-10-09,38334,,Borax Argentina S A,260330701,,Arribado
-2025-10-13,38388,,Borax Argentina S A,260330725,FAC 12720,Pendiente
+2025-10-13,38388,,Borax Argentina S A,260330725,FAC 12720,Arribado
 2025-10-13,38242,,Borax Argentina S A,260330725,,Pendiente
 2025-10-08,38260,,Borax Argentina S A,260330701,FAC 12719,Pendiente
 2025-10-08,38261,,Borax Argentina S A,260330701,FAC 12719,Pendiente
@@ -1301,6 +1311,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-07-25,35974,,Biosophy S. A. S,EBKG13626654,EBKG13626654 // POROTOS MUNG,Arribado
 2025-07-23,35894,,Chaguar Sociedad Anonima,256522179,256522179 // 1X40HC,Pendiente
 2025-10-13,38371,,Chaguar Sociedad Anonima,EBKG14423606,EBKG14423606,Pendiente
+2025-10-13,38396,,Chaguar Sociedad Anonima,EBKG14305566,EBKG14305566,Arribado
+2025-10-13,38397,,Chaguar Sociedad Anonima,EBKG14305566,EBKG14305566,Pendiente
+2025-10-13,38398,,Chaguar Sociedad Anonima,EBKG14305566,EBKG14305566,Pendiente
 2025-10-13,38369,,Chaguar Sociedad Anonima,EBKG14423606,EBKG14423606,Pendiente
 2025-10-13,38370,,Chaguar Sociedad Anonima,EBKG14423606,EBKG14423606,Pendiente
 2025-08-12,36567,,Chaguar Sociedad Anonima,COSU6425125310,CP: 10225832857,Arribado
