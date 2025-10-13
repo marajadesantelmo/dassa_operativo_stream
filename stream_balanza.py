@@ -23,12 +23,10 @@ def fetch_data_balanza():
     balanza_impo = balanza_impo.drop(columns=['tipo_oper'], errors='ignore')
     balanza_expo = balanza[balanza['tipo_oper'] == 'Exportacion']
     balanza_expo = balanza_expo.drop(columns=['tipo_oper'], errors='ignore')
-    columns_impo_historico = ['ID Pesada', 'Fecha', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
-        'Peso Neto', 'Tara CNT', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI',
-        'Booking', 'Precinto', 'Tipo Doc', 'Estado']
-    columns_expo_historico = ['ID Pesada', 'Fecha', 'Cliente', 'ATA',  'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
-        'Peso Neto', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI', 'Observaciones',
-        'Booking', 'Permiso Emb.', 'Tipo Doc', 'Estado']
+    columns_impo_historico = ['ID Pesada', 'Fecha', 'Booking', 'Cliente', 'ATA', 'Contenedor', 'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
+        'Peso Neto', 'Tara CNT', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI', 'Precinto', 'Tipo Doc', 'Estado']
+    columns_expo_historico = ['ID Pesada', 'Fecha', 'Cliente',   'Booking', 'ATA',  'Entrada', 'Salida', 'Peso Bruto', 'Peso Tara',
+        'Peso Neto', 'Peso Mercadería', 'Descripción', 'Patente Chasis', 'Patente Semi', 'Chofer', 'DNI', 'Observaciones', 'Permiso Emb.', 'Tipo Doc', 'Estado']
     try:
         balanza_historico = fetch_table_data("balanza_historico")
         balanza_historico['DNI'] = balanza_historico['DNI'].fillna('-').astype(str).str.replace('.0', '', regex=False)
