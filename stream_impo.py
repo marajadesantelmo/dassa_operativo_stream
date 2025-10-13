@@ -46,6 +46,8 @@ def fetch_data_impo():
         retiros_impo['Hora'] = retiros_impo['Hora'].apply(lambda x: x[1:] if isinstance(x, str) and x.startswith('0') else x)
         retiros_impo['Dia'] = retiros_impo['Dia'].dt.strftime('%d/%m')
         retiros_impo['Volumen'] = retiros_impo['Volumen'].round(0).astype(int)
+        retiros_impo['e-tally'] = retiros_impo['e-tally'].replace("-", None)
+        retiros_impo['Salida'] = retiros_impo['Salida'].replace("-", None)
         cols = retiros_impo.columns.tolist()
         cols.insert(1, cols.pop(cols.index('Hora')))
         retiros_impo = retiros_impo[cols]
