@@ -337,12 +337,8 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 284.0,02/10,18434285,Mercovan Argentina S.A.,Huxley Sa,2025-10-01T20:50:36.856052,,,Arribado,,BMOU-140430-7,**************,"DE MIRANDA REIS, JOSE",,
 343.0,13/10,ZIMUBUE9044079,Maringa Maderas Sa,Hiperbaires - Icb T.Sur,2025-10-09T18:05:40.932022,,,Arribado,,BSIU-954105-0,***************,,,
 358.0,13/10,BUEA96905200,Minera Santa Rita Srl,Gamma Mujica,2025-10-13T12:20:40.069591,,,13:55 Arribado,,GAOU-605252-7,********************,FC 14-468,,
-364.0,13/10,258776626,Henn Y Cia S.R.L.,Gamma Libertador,2025-10-13T17:20:40.216395,,,,,,,,,
-365.0,13/10,258776626,Henn Y Cia S.R.L.,Gamma Libertador,2025-10-13T17:20:40.388936,,,,,,,,,
 353.0,13/10,EBKG14423606,Chaguar Sociedad Anonima,Medlog Sarandi,2025-10-09T19:50:39.727669,,,Arribado,,MSDU-116614-6,FX32918725,,,
 344.0,13/10,BUA0352508,Lift Van Int. Co S.A,Hiperbaires - Icb T.Sur,2025-10-09T18:35:39.742441,,,Arribado,,CXDU-159960-9,R8682671,,,
-366.0,13/10,258776626,Henn Y Cia S.R.L.,Gamma Libertador,2025-10-13T17:20:40.495376,,,,,,,,,
-367.0,13/10,258776626,Henn Y Cia S.R.L.,Gamma Libertador,2025-10-13T17:20:40.594723,,,,,,,,,
 359.0,13/10,BUEA96905200,Minera Santa Rita Srl,Gamma Mujica,2025-10-13T12:20:40.169336,,,13:55 Arribado,,GAOU-605252-7,********************,FC 14-468,,
 304.0,06/10,259173844,Alimentaria Sa,Gamma Bactssa - Asas One -,2025-10-06T13:20:38.378657,,,Arribado,,MRKU-738896-7,********************,,,
 357.0,13/10,32726281,Lift Van Int. Co S.A,Huxley Sa,2025-10-13T12:20:39.930569,,,,,,,,,
@@ -364,4 +360,9 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 348.0,14/10,340500041538,Minera Santa Rita Srl,Trp - Terminales 1-2-3,2025-10-09T18:35:40.161241,,,15:26 Arribado,,EGHU-318368-0,************,,,
 370.0,14/10,COSU6432628590,Ronalb S.R.L.,Trp - Terminales 1-2-3,2025-10-13T19:35:39.895398,,,,,,,,,
 349.0,14/10,340500041538,Minera Santa Rita Srl,Trp - Terminales 1-2-3,2025-10-09T18:35:40.267292,,,15:26 Arribado,,EGHU-318368-0,************,,,
-,14/10,ZIMUBUE9044221,Chaguar Sociedad Anonima,Hiperbaires - Icb T.Sur,,,,,,,,,,1.0
+371.0,14/10,ZIMUBUE9044221,Chaguar Sociedad Anonima,Hiperbaires - Icb T.Sur,2025-10-13T19:50:39.934528,,,,,,,,,
+364.0,13/10,258776626,Henn Y Cia S.R.L.,Gamma Libertador,2025-10-13T17:20:40.216395,,,17:04 Arribado,,TCNU-152902-0,*************,,,
+365.0,13/10,258776626,Henn Y Cia S.R.L.,Gamma Libertador,2025-10-13T17:20:40.388936,,,17:24 Arribado,,MRKU-640643-3,**********,,,
+367.0,13/10,258776626,Henn Y Cia S.R.L.,Gamma Libertador,2025-10-13T17:20:40.594723,,,17:24 Arribado,,MRKU-640643-3,**********,,,
+366.0,13/10,258776626,Henn Y Cia S.R.L.,Gamma Libertador,2025-10-13T17:20:40.495376,,,17:04 Arribado,,TCNU-152902-0,*************,,,
+,14/10,259832181,Lift Van Int. Co S.A,Huxley Sa,,,,,,,,,,1.0
