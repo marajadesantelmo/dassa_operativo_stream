@@ -20,7 +20,7 @@ gc = gspread.service_account(filename='//dc01/Usuarios/PowerBI/flastra/Documents
 
 cursor.execute("""
     SELECT cliente AS Cliente, cantidad AS Cantidad, kilos AS Peso, volumen AS Volumen, 
-            orden_ing, suborden, renglon, tipo_oper AS Tipo, env.detalle AS Envase, fecha_ing AS Fecha_Ingreso
+            orden_ing, suborden, renglon, tipo_oper AS Tipo, env.detalle AS Envase, fecha_ing AS Ingreso
     FROM [DEPOFIS].[DASSA].[Existente en Stock] e
     JOIN DEPOFIS.DASSA.[Tip_env] env ON e.tipo_env = env.codigo
 """)  
@@ -47,8 +47,26 @@ ubicaciones_existente['ubicacion'] = ubicaciones_existente['ubicacion'].str.stri
 existente = pd.merge(existente, ubicaciones_existente[['Operacion', 'ubicacion']], on='Operacion', how='left')
 familias_ubicaciones = pd.read_excel('//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/flias_ubicaciones.xlsx')
 existente = pd.merge(existente, familias_ubicaciones[['ubicacion', 'ubicacion_familia']], on='ubicacion', how='left')
+fecha_actual = datetime.now()
+existente['Ingreso'] = pd.to_datetime(existente['Ingreso'], format='%Y-%m-%d')
+existente['Dias'] = (fecha_actual - existente['Ingreso']).dt.days
 
-existente_plz = existente[existente['ubicacion_familia'].isin(['Plazoleta', 'Temporal'])]
-existente_alm = existente[~existente['ubicacion_familia'].isin(['Plazoleta', 'Temporal'])]
+cols = ['Cliente', 'Tipo', 'Envase']
+for col in cols:
+    existente[col] = existente[col].str.strip().str.title()
+
+existente.rename(columns={'ubicacion': 'Ubicacion', 'ubicacion_familia': 'Ubicacion Familia'}, inplace=True)
+
+existente = existente[['Ubicacion Familia', 'Ubicacion', 'Cliente', 'Tipo', 'Envase', 'Peso', 'Volumen',  'Cantidad', 'Ingreso',
+       'Operacion',  'Dias']]
+
+existente['Estiba OK'] = ""
+existente['Alcahuete OK'] = ""
+existente['Observaciones'] = ""
+
+existente.sortby(by=['Ubicacion Familia', 'Ubicacion'], inplace=True)
+
+existente_plz = existente[existente['Ubicacion Familia'].isin(['Plazoleta', 'Temporal'])]
+existente_alm = existente[~existente['Ubicacion Familia'].isin(['Plazoleta', 'Temporal'])]
 
 sheet = gc.create('Control_Stock_DASSA_{mes}_{year}'.format(mes=datetime.now().strftime('%m'), year=datetime.now().year))
