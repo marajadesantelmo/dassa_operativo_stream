@@ -161,10 +161,6 @@ def upload_to_supabase(df, table_name):
         
         print(f"Successfully uploaded {total_records} records to {table_name}")
         
-        # Update log
-        from supabase_connection import update_log
-        update_log(table_name)
-        
     except Exception as e:
         print(f"Error uploading to {table_name}: {e}")
         raise e
