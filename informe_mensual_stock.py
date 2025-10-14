@@ -9,7 +9,11 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 import gspread
 from gspread_dataframe import set_with_dataframe
-from supabase_connection import supabase_client, insert_table_data, update_log
+from tokens import username, password, url_supabase, key_supabase
+from supabase import create_client, Client
+
+
+supabase_client = create_client(url_supabase, key_supabase)
 
 path = "//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/"
 
