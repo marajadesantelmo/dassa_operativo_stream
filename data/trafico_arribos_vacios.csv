@@ -1,41 +1,17 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-38321,13/10,Global Rover Logistic Srl,-,0,  ,TD,                    ,260039607,0,                              ,,     ,2025-10-29,260039607,260039607           ,Pendiente
-38358,13/10,Maringa Maderas Sa,BSIU-954105-0,10074,HC,TD,***************     ,ZIMUBUE9044079,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,09:17,2025-10-30,Zimubue9044079,ZIMUBUE9044079      ,09:17 Arribado
-38357,13/10,Isischu Srl,ZCSU-691289-1,10074,HC,TD,********************,ZIMUBUE9043877,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,10:28,2025-10-30,Zimubue9043877,ZIMUBUE9043877      ,10:28 Arribado
-38323,13/10,Global Rover Logistic Srl,-,0,  ,TD,                    ,260039607,0,                              ,,     ,2025-10-29,260039607,260039607           ,Pendiente
-38322,13/10,Global Rover Logistic Srl,-,0,  ,TD,                    ,260039607,0,                              ,,     ,2025-10-29,260039607,260039607           ,Pendiente
-38420,13/10,Henn Y Cia S.R.L.,MRKU-640643-3,10076,HC,TD,**********          ,258776626,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,17:24,2025-11-03,,                    ,17:24 Arribado
-38320,13/10,Global Rover Logistic Srl,-,0,  ,TD,                    ,260039607,0,                              ,,     ,2025-10-29,260039607,260039607           ,Pendiente
-38421,13/10,Henn Y Cia S.R.L.,MRSU-441893-1,10076,HC,TD,*************       ,258776626,1,TRANSPORTE DEL CLIENTE        ,Alvarez,18:15,2025-11-03,,                    ,18:15 Arribado
-38422,13/10,Henn Y Cia S.R.L.,-,10076,HC,TD,                    ,258776626,0,                              ,,     ,2025-11-03,,                    ,Pendiente
-38243,13/10,Borax Argentina S A,HASU-114667-6,10080,DR,TD,******************* ,260330725,1,TRANSPORTE DEL CLIENTE        ,Alvarez,08:36,2025-10-28,,                    ,08:36 Arribado
-38244,13/10,Borax Argentina S A,MRKU-873252-6,10080,DR,TD,***********         ,260330725,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:37,2025-10-28,,                    ,10:37 Arribado
-38384,13/10,Pelama Chubut S.A.,CSNU-740411-2,10077,HC,TD,****************    ,COSU6431725820,1,TRANSPORTE DEL CLIENTE        ,Alvarez,15:29,2025-10-31,,                    ,15:29 Arribado
-38383,13/10,Pelama Chubut S.A.,-,0,  ,TD,                    ,COSU6432293550,0,                              ,,     ,2025-10-31,,                    ,Pendiente
-38392,13/10,Minera Santa Rita Srl,HMMU-690964-5,10077,DR,TD,************        ,BUEA96905200,1,TRANSPORTE DEL CLIENTE        ,Gonzales,18:22,2025-11-03,Fc 14-468,                    ,18:22 Arribado
-38391,13/10,Minera Santa Rita Srl,GAOU-605252-7,10077,HC,TD,********************,BUEA96905200,1,TRANSPORTE DEL CLIENTE        ,Barrientos Emanuel,13:55,2025-11-03,Fc 14-468,                    ,13:55 Arribado
-38245,13/10,Borax Argentina S A,MRKU-854452-9,10080,DR,TD,**************      ,260330725,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:42,2025-10-28,,                    ,10:42 Arribado
-38365,13/10,Chaguar Sociedad Anonima,MSDU-116614-6,9,DR,TD,FX32918725          ,EBKG14423606,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,08:39,2025-10-30,Ebkg14423606,EBKG14423606        ,08:39 Arribado
-38366,13/10,Chaguar Sociedad Anonima,FTAU-126365-5,9,DR,TD,FX32918724          ,EBKG14423606,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,08:42,2025-10-30,Ebkg14423606,EBKG14423606        ,08:42 Arribado
-38367,13/10,Chaguar Sociedad Anonima,MSNU-361656-1,9,DR,TD,FX32915762          ,EBKG14423606,1,TRANSPORTE DEL CLIENTE        ,Bollota,11:02,2025-10-30,Ebkg14423606,EBKG14423606        ,11:02 Arribado
-38368,13/10,Chaguar Sociedad Anonima,GLDU-965826-7,9,DR,TD,FX32915761          ,EBKG14423606,1,TRANSPORTE DEL CLIENTE        ,Bollota,11:04,2025-10-30,Ebkg14423606,EBKG14423606        ,11:04 Arribado
-38393,13/10,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,32726281,0,                              ,,     ,2025-11-03,Romina Belen Juarez Amadini,                    ,Pendiente
-38359,13/10,Lift Van Int. Co S.A,CXDU-159960-9,10074,DR,TD,R8682671            ,BUA0352508,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,09:19,2025-10-30,Bua0352508,BUA0352508          ,09:19 Arribado
-38372,13/10,Suabia Maderas Srl,TCNU-303911-0,10074,HC,TD,******************  ,ZIMUBUE9044084,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,09:14,2025-10-30,Zimubue9044084,ZIMUBUE9044084      ,09:14 Arribado
-38419,13/10,Henn Y Cia S.R.L.,TCNU-152902-0,10076,HC,TD,*************       ,258776626,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,17:04,2025-11-03,,                    ,17:04 Arribado
+38431,14/10,Lift Van Int. Co S.A,-,10080,HC,TD,                    ,259832181,0,                              ,,     ,2025-11-03,Michelle Lee,                    ,Pendiente
+38432,14/10,Lift Van Int. Co S.A,-,10080,HC,TD,                    ,259496488,0,                              ,,     ,2025-11-03,Luis Sainz Hernandez,                    ,Pendiente
+38360,14/10,Minera Santa Rita Srl,EGHU-318368-0,TRP,DR,TD,************        ,340500041538,1,TRANSPORTE DEL CLIENTE        ,Bollota,15:26,2025-10-30,,                    ,15:26 Arribado
+38361,14/10,Minera Santa Rita Srl,-,0,  ,TD,                    ,340500041538,0,                              ,,     ,2025-10-30,,                    ,Pendiente
+38362,14/10,Minera Santa Rita Srl,-,0,  ,TD,                    ,340500041538,0,                              ,,     ,2025-10-30,,                    ,Pendiente
+38363,14/10,Minera Santa Rita Srl,-,0,  ,TD,                    ,340500041538,0,                              ,,     ,2025-10-30,,                    ,Pendiente
+38364,14/10,Minera Santa Rita Srl,-,0,  ,TD,                    ,340500041538,0,                              ,,     ,2025-10-30,,                    ,Pendiente
+38412,14/10,Hilado Sa,MRKU-416786-0,10080,HC,TD,**************      ,259760381,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,14:07,2025-11-03,,                    ,14:07 Arribado
+38413,14/10,Hilado Sa,MSKU-977969-0,10080,HC,TD,*************       ,259760381,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,14:09,2025-11-03,,                    ,14:09 Arribado
+38414,14/10,Hilado Sa,SUDU-692085-4,10080,HC,TD,*************       ,259760381,1,TRANSPORTE DEL CLIENTE        ,Barrientos Emanuel,15:33,2025-11-03,,                    ,15:33 Arribado
+38415,14/10,Hilado Sa,MRKU-361025-3,10080,HC,TD,************        ,259760381,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,17:29,2025-11-03,,                    ,17:29 Arribado
 38425,14/10,Lawter Argentina S.A.,-,10074,DR,TD,                    ,ZIMUBUE9044129,0,                              ,,     ,2025-11-03,,                    ,Pendiente
 38426,14/10,Lawter Argentina S.A.,-,10074,DR,TD,                    ,ZIMUBUE9044129,0,                              ,,     ,2025-11-03,,                    ,Pendiente
-38428,14/10,Ronalb S.R.L.,-,TRP,DR,TD,                    ,COSU6432628590,0,                              ,,     ,2025-11-03,,                    ,Pendiente
-38415,14/10,Hilado Sa,MRKU-361025-3,10080,HC,TD,************        ,259760381,1,TRANSPORTE DEL CLIENTE        ,Porco Alan,17:29,2025-11-03,,                    ,17:29 Arribado
-38414,14/10,Hilado Sa,SUDU-692085-4,10080,HC,TD,*************       ,259760381,1,TRANSPORTE DEL CLIENTE        ,Barrientos Emanuel,15:33,2025-11-03,,                    ,15:33 Arribado
-38413,14/10,Hilado Sa,MSKU-977969-0,10080,HC,TD,*************       ,259760381,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,14:09,2025-11-03,,                    ,14:09 Arribado
-38412,14/10,Hilado Sa,MRKU-416786-0,10080,HC,TD,**************      ,259760381,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,14:07,2025-11-03,,                    ,14:07 Arribado
-38364,14/10,Minera Santa Rita Srl,-,0,  ,TD,                    ,340500041538,0,                              ,,     ,2025-10-30,,                    ,Pendiente
-38363,14/10,Minera Santa Rita Srl,-,0,  ,TD,                    ,340500041538,0,                              ,,     ,2025-10-30,,                    ,Pendiente
-38362,14/10,Minera Santa Rita Srl,-,0,  ,TD,                    ,340500041538,0,                              ,,     ,2025-10-30,,                    ,Pendiente
-38361,14/10,Minera Santa Rita Srl,-,0,  ,TD,                    ,340500041538,0,                              ,,     ,2025-10-30,,                    ,Pendiente
-38360,14/10,Minera Santa Rita Srl,EGHU-318368-0,TRP,DR,TD,************        ,340500041538,1,TRANSPORTE DEL CLIENTE        ,Bollota,15:26,2025-10-30,,                    ,15:26 Arribado
-38432,14/10,Lift Van Int. Co S.A,-,10080,HC,TD,                    ,259496488,0,                              ,,     ,2025-11-03,Luis Sainz Hernandez,                    ,Pendiente
-38431,14/10,Lift Van Int. Co S.A,-,10080,HC,TD,                    ,259832181,0,                              ,,     ,2025-11-03,Michelle Lee,                    ,Pendiente
 38429,14/10,Chaguar Sociedad Anonima,-,10074,HC,TD,                    ,ZIMUBUE9044221,0,                              ,,     ,2025-11-03,,                    ,Pendiente
+38428,14/10,Ronalb S.R.L.,-,TRP,DR,TD,                    ,COSU6432628590,0,                              ,,     ,2025-11-03,,                    ,Pendiente
 38213,15/10,Lift Van Int. Co S.A,-,0,  ,TD,                    ,93298549,0,                              ,,     ,2025-10-27,,93298549            ,Pendiente
