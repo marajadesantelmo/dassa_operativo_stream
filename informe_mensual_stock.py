@@ -102,19 +102,34 @@ def upload_to_supabase(df, table_name):
         if 'Ingreso' in df_copy.columns:
             df_copy['Ingreso'] = pd.to_datetime(df_copy['Ingreso']).dt.strftime('%Y-%m-%d')
         
-        # Convert Decimal types to float for JSON serialization
+        # Convert Decimal types to appropriate numeric types for JSON serialization
         from decimal import Decimal
+        
+        # Handle numeric columns - convert Decimals but preserve integer types
+        if 'Cantidad' in df_copy.columns:
+            df_copy['Cantidad'] = df_copy['Cantidad'].apply(
+                lambda x: int(x) if isinstance(x, (Decimal, float, int)) and pd.notna(x) else None
+            )
+        
+        if 'Dias' in df_copy.columns:
+            df_copy['Dias'] = df_copy['Dias'].apply(
+                lambda x: int(x) if isinstance(x, (Decimal, float, int)) and pd.notna(x) else None
+            )
+        
+        # Handle float columns - convert Decimals to float
+        float_columns = ['Peso', 'Volumen']
+        for col in float_columns:
+            if col in df_copy.columns:
+                df_copy[col] = df_copy[col].apply(
+                    lambda x: float(x) if isinstance(x, (Decimal, float, int)) and pd.notna(x) else None
+                )
+        
+        # Handle remaining object columns that might contain Decimals
         for col in df_copy.columns:
-            if df_copy[col].dtype == 'object':
+            if df_copy[col].dtype == 'object' and col not in ['Ingreso']:
                 # Check if column contains Decimal objects
                 if df_copy[col].apply(lambda x: isinstance(x, Decimal)).any():
                     df_copy[col] = df_copy[col].apply(lambda x: float(x) if isinstance(x, Decimal) else x)
-        
-        # Also convert numeric columns that might contain Decimals
-        numeric_columns = ['Peso', 'Volumen', 'Cantidad']
-        for col in numeric_columns:
-            if col in df_copy.columns:
-                df_copy[col] = pd.to_numeric(df_copy[col], errors='coerce')
         
         # Replace NaN values with None
         df_copy = df_copy.where(pd.notna(df_copy), None)
@@ -122,12 +137,17 @@ def upload_to_supabase(df, table_name):
         # Convert to records
         records = df_copy.to_dict('records')
         
-        # Additional cleanup: ensure all Decimal values are converted to float
-        import json
+        # Additional cleanup: ensure all Decimal values are converted and integers are proper ints
         for record in records:
             for key, value in record.items():
                 if isinstance(value, Decimal):
-                    record[key] = float(value)
+                    if key in ['Cantidad', 'Dias']:
+                        record[key] = int(value)
+                    else:
+                        record[key] = float(value)
+                elif isinstance(value, float) and key in ['Cantidad', 'Dias']:
+                    # Ensure integer fields are actually integers
+                    record[key] = int(value) if value is not None else None
         
         # Insert data in batches to avoid timeouts
         batch_size = 100
@@ -142,6 +162,7 @@ def upload_to_supabase(df, table_name):
         print(f"Successfully uploaded {total_records} records to {table_name}")
         
         # Update log
+        from supabase_connection import update_log
         update_log(table_name)
         
     except Exception as e:
