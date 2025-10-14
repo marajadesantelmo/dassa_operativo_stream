@@ -98,11 +98,32 @@ def upload_to_supabase(df, table_name):
         if 'Ingreso' in df_copy.columns:
             df_copy['Ingreso'] = pd.to_datetime(df_copy['Ingreso']).dt.strftime('%Y-%m-%d')
         
+        # Convert Decimal types to float for JSON serialization
+        from decimal import Decimal
+        for col in df_copy.columns:
+            if df_copy[col].dtype == 'object':
+                # Check if column contains Decimal objects
+                if df_copy[col].apply(lambda x: isinstance(x, Decimal)).any():
+                    df_copy[col] = df_copy[col].apply(lambda x: float(x) if isinstance(x, Decimal) else x)
+        
+        # Also convert numeric columns that might contain Decimals
+        numeric_columns = ['Peso', 'Volumen', 'Cantidad']
+        for col in numeric_columns:
+            if col in df_copy.columns:
+                df_copy[col] = pd.to_numeric(df_copy[col], errors='coerce')
+        
         # Replace NaN values with None
         df_copy = df_copy.where(pd.notna(df_copy), None)
         
         # Convert to records
         records = df_copy.to_dict('records')
+        
+        # Additional cleanup: ensure all Decimal values are converted to float
+        import json
+        for record in records:
+            for key, value in record.items():
+                if isinstance(value, Decimal):
+                    record[key] = float(value)
         
         # Insert data in batches to avoid timeouts
         batch_size = 100
