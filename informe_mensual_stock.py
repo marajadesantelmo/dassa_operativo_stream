@@ -76,6 +76,8 @@ existente_alm = existente[~existente['Ubicacion Familia'].isin(['Plazoleta', 'Te
 
 sheet = gc.create('Control_Stock_DASSA_{mes}_{year}'.format(mes=datetime.now().strftime('%m'), year=datetime.now().year))
 sheet.share('marajadesantelmo@gmail.com', perm_type='user', role='writer')
+sheet.share('santiago@dassa.com.ar', perm_type='user', role='writer')
+sheet.share('manuel@dassa.com.ar', perm_type='user', role='writer')
 worksheet_plz = sheet.add_worksheet(title='Plazoleta', rows=existente_plz.shape[0] + 10, cols=existente_plz.shape[1] + 5)
 set_with_dataframe(worksheet_plz, existente_plz, include_index=False)
 worksheet_alm = sheet.add_worksheet(title='Almacen', rows=existente_alm.shape[0] + 10, cols=existente_alm.shape[1] + 5)
