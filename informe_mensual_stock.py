@@ -9,6 +9,24 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 import gspread
 from gspread_dataframe import set_with_dataframe
+from tokens import username, password, url_supabase, key_supabase
+from supabase import create_client, Client
+
+
+supabase_client = create_client(url_supabase, key_supabase)
+def insert_table_data(table_name, data):
+    for record in data:
+        try:
+            supabase_client.from_(table_name).insert(record).execute()
+        except Exception as e:
+            print(f"Error inserting record into {table_name}: {e}")
+
+def delete_table_data_estado(table_name):
+    supabase_client.from_(table_name).delete().neq('Estado', None).execute()
+
+def delete_table_data_operacion(table_name):
+    supabase_client.from_(table_name).delete().neq('Operacion', None).execute()
+
 
 path = "//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/"
 
