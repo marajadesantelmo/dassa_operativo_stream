@@ -9,6 +9,7 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 import gspread
 from gspread_dataframe import set_with_dataframe
+from supabase_connection import supabase_client, insert_table_data, update_log
 
 path = "//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/"
 
@@ -64,10 +65,10 @@ existente['Estiba OK'] = ""
 existente['Alcahuete OK'] = ""
 existente['Observaciones'] = ""
 
-existente.sortby(by=['Ubicacion Familia', 'Ubicacion'], inplace=True)
+existente.sort_values(by=['Ubicacion Familia', 'Ubicacion'], inplace=True)
 
-existente_plz = existente[existente['Ubicacion Familia'].isin(['Plazoleta', 'Temporal'])]
-existente_alm = existente[~existente['Ubicacion Familia'].isin(['Plazoleta', 'Temporal'])]
+existente_plz = existente[existente['Ubicacion Familia'].isin(['Plazoleta', 'Temporal'])].copy()
+existente_alm = existente[~existente['Ubicacion Familia'].isin(['Plazoleta', 'Temporal'])].copy()
 
 sheet = gc.create('Control_Stock_DASSA_{mes}_{year}'.format(mes=datetime.now().strftime('%m'), year=datetime.now().year))
 sheet.share('marajadesantelmo@gmail.com', perm_type='user', role='writer')
@@ -79,3 +80,51 @@ default_worksheet = sheet.get_worksheet(0)
 sheet.del_worksheet(default_worksheet)
 
 print(f"Spreadsheet created: {sheet.url}")
+
+# Upload to Supabase
+def upload_to_supabase(df, table_name):
+    """Delete all data from table and insert new data"""
+    try:
+        # Delete all existing data
+        print(f"Deleting existing data from {table_name}...")
+        supabase_client.from_(table_name).delete().neq('id', 0).execute()
+        
+        # Prepare data for insertion
+        # Convert DataFrame to list of dictionaries and handle data types
+        df_copy = df.copy()
+        
+        # Keep original column names (do NOT rename to lowercase)
+        # Convert datetime columns to string format
+        if 'Ingreso' in df_copy.columns:
+            df_copy['Ingreso'] = pd.to_datetime(df_copy['Ingreso']).dt.strftime('%Y-%m-%d')
+        
+        # Replace NaN values with None
+        df_copy = df_copy.where(pd.notna(df_copy), None)
+        
+        # Convert to records
+        records = df_copy.to_dict('records')
+        
+        # Insert data in batches to avoid timeouts
+        batch_size = 100
+        total_records = len(records)
+        
+        print(f"Inserting {total_records} records into {table_name}...")
+        for i in range(0, total_records, batch_size):
+            batch = records[i:i + batch_size]
+            supabase_client.from_(table_name).insert(batch).execute()
+            print(f"Inserted batch {i//batch_size + 1}/{(total_records + batch_size - 1)//batch_size}")
+        
+        print(f"Successfully uploaded {total_records} records to {table_name}")
+        
+        # Update log
+        update_log(table_name)
+        
+    except Exception as e:
+        print(f"Error uploading to {table_name}: {e}")
+        raise e
+
+# Upload data to Supabase tables
+print("\n--- Starting Supabase upload ---")
+upload_to_supabase(existente_plz, 'control_stock_existente_plz')
+upload_to_supabase(existente_alm, 'control_stock_existente_alm')
+print("--- Supabase upload completed ---\n")
