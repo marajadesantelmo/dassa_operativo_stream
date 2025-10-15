@@ -146,6 +146,16 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
                     st.dataframe(verificaciones_impo_ctn.style.apply(highlight, axis=1), 
                                 hide_index=True, use_container_width=True)
                 if not verificaciones_impo_carga.empty:
+                    # Move 'Operacion' and 'Contenedor' to the last positions
+                    cols = verificaciones_impo_carga.columns.tolist()
+                    for col in ['Operacion', 'Contenedor']:
+                        if col in cols:
+                            cols.append(cols.pop(cols.index(col)))
+                    # Move 'Ubic.', 'Cant.' and 'Envase' to 3rd, 4th and 5th positions
+                    for idx, col in enumerate(['Ubic.', 'Cant.', 'Envase'], start=2):
+                        if col in cols:
+                            cols.insert(idx, cols.pop(cols.index(col)))
+                    verificaciones_impo_carga = verificaciones_impo_carga[cols]
                     st.write("Carga suelta")
                     st.dataframe(verificaciones_impo_carga.style.apply(highlight, axis=1), 
                                 hide_index=True, use_container_width=True)
