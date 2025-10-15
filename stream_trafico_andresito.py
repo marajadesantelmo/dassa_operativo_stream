@@ -4,6 +4,7 @@ import time
 from datetime import datetime, timedelta
 from utils import highlight
 from supabase_connection import fetch_table_data, update_data, update_data_by_index, insert_data
+from supabase_connection import delete_data
 
 @st.cache_data(ttl=300) 
 def fetch_data_trafico_andresito():
@@ -630,7 +631,26 @@ def show_page_trafico_andresito():
                 use_container_width=True,
                 height=400
             )
-            
+
+            # Delete row functionality
+            if not otros_filtered.empty and 'id' in otros_filtered.columns:
+                st.markdown("**Eliminar registro manualmente**")
+                selected_delete_id = st.selectbox(
+                    "Seleccionar registro a eliminar:",
+                    options=otros_filtered["id"].unique(),
+                    format_func=lambda x: f"ID {x} - {otros_filtered[otros_filtered['id']==x]['Operacion'].iloc[0] if not otros_filtered[otros_filtered['id']==x].empty else 'N/A'}",
+                    key="otros_delete_select"
+                )
+                if st.button("Eliminar registro", key="delete_otros"):
+                    try:
+                        # You must implement a delete_data function in supabase_connection.py
+                        delete_data("trafico_otros", selected_delete_id)
+                        st.success(f"Registro ID {selected_delete_id} eliminado correctamente")
+                        st.cache_data.clear()
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Error al eliminar registro: {e}")
+
         with col_assign5:
             if not otros_filtered.empty and 'id' in otros_filtered.columns:
                 st.markdown("**Agregar datos al traslado**")
