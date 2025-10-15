@@ -1,10 +1,4 @@
 Dia,Cliente,Contenedor,Volumen,Precinto,Observaciones,Estado
-2025-06-17,Smart Trading S.A.S,TGCU-234359-0,-31,---,TRP 13HS,Pendiente
-2025-06-17,Smart Trading S.A.S,ONEU-213538-3,-29,---,TRP 13HS,Pendiente
-2025-06-17,Bdfm Sa,MAGU-533559-4,-60,---,TERMINAL 4  13HS,Pendiente
-2025-06-17,Denso Manufacturing ...,MRKU-830564-8,-30,---,TERMINAL 4   13HS,Pendiente
-2025-06-17,Hdv Leather S.R.L.,MEDU-484612-9,-60,---,EXOLGAN   16HS,Pendiente
-2025-06-17,Hdv Leather S.R.L.,MSDU-739883-2,-60,---,EXOLGAN 16 HS,Pendiente
 2025-06-18,Hdv Leather S.R.L.,MSMU-755943-0,-60,---,exolgan   16hs,Pendiente
 2025-06-18,Hdv Leather S.R.L.,MSDU-831558-1,-60,---,exolgan   16hs,Pendiente
 2025-06-18,Hdv Leather S.R.L.,MSMU-713044-5,-60,---,exolgan  16hs,Pendiente
@@ -1059,11 +1053,11 @@ Dia,Cliente,Contenedor,Volumen,Precinto,Observaciones,Estado
 2025-10-09,Henn Y Cia S.R.L.,MSDU-133390-0,0,---,exolgan 22HS,Pendiente
 2025-10-09,Henn Y Cia S.R.L.,MEDU-677345-9,0,---,EXOLGAN 22HS,Pendiente
 2025-10-09,Henn Y Cia S.R.L.,MSMU-247628-7,0,---,EXOLGAN 22HS,Pendiente
-2025-10-09,Alimentaria Sa,MRKU-738896-7,0,---,,11:43 Realizado
-2025-10-09,Alimentaria Sa,MRKU-873429-9,0,---,,11:43 Realizado
-2025-10-09,Alimentaria Sa,MRKU-988386-7,0,---,,11:44 Realizado
-2025-10-09,Alimentaria Sa,MRKU-902215-4,0,---,,11:44 Realizado
-2025-10-09,Alimentaria Sa,HASU-101630-6,0,---,,11:44 Realizado
+2025-10-09,Alimentaria Sa,MRKU-738896-7,0,---,,Pendiente
+2025-10-09,Alimentaria Sa,MRKU-873429-9,0,---,,Pendiente
+2025-10-09,Alimentaria Sa,MRKU-988386-7,0,---,,Pendiente
+2025-10-09,Alimentaria Sa,MRKU-902215-4,0,---,,Pendiente
+2025-10-09,Alimentaria Sa,HASU-101630-6,0,---,,Pendiente
 2025-10-13,Mercovan Argentina S...,CAIU-684468-0,-8,---,EXOLGAN 13HS,Pendiente
 2025-10-13,Norfor Sa,EGSU-638381-3,0,---,TRP 11HS,Pendiente
 2025-10-13,Norfor Sa,GAOU-699099-8,0,---,TRP 11HS,Pendiente
@@ -1071,27 +1065,33 @@ Dia,Cliente,Contenedor,Volumen,Precinto,Observaciones,Estado
 2025-10-10,Pelama Chubut S.A.,CSNU-834117-4,0,---,,Pendiente
 2025-10-10,Pelama Chubut S.A.,CSNU-775417-3,0,---,,Pendiente
 2025-10-10,Pelama Chubut S.A.,FFAU-319944-0,0,---,,Pendiente
-2025-10-14,Santa Anita Oil Sa,MSDU-773296-0,0,---,ECXOLGASN 10HS,11:45 Realizado
-2025-10-14,Santa Anita Oil Sa,DRYU-940493-7,0,---,EXOLGAN 10HS,11:45 Realizado
-2025-10-14,Santa Anita Oil Sa,MSBU-818304-5,0,---,EXOLGAN 10HS,11:45 Realizado
-2025-10-14,Santa Anita Oil Sa,TCLU-162767-3,0,---,EXOLGAN 10HS,11:45 Realizado
-2025-10-14,Helvecia S.A.,CMAU-622286-4,0,---,TRP             17HS,En curso
-2025-10-14,Mercovan Argentina S...,TCNU-321700-0,0,---,,11:45 Realizado
-2025-10-14,Bdfm Sa,APHU-641721-4,0,---,T4 13HS,En curso
-2025-10-14,Borax Argentina S A,HASU-113909-1,0,---,terminal 4   15hd,En curso
-2025-10-14,Borax Argentina S A,MSKU-526657-6,0,---,TERMINAL 4  15HS,En curso
+2025-10-14,Santa Anita Oil Sa,MSDU-773296-0,0,---,ECXOLGASN 10HS,Pendiente
+2025-10-14,Santa Anita Oil Sa,DRYU-940493-7,0,---,EXOLGAN 10HS,Pendiente
+2025-10-14,Santa Anita Oil Sa,MSBU-818304-5,0,---,EXOLGAN 10HS,Pendiente
+2025-10-14,Santa Anita Oil Sa,TCLU-162767-3,0,---,EXOLGAN 10HS,Pendiente
+2025-10-14,Helvecia S.A.,CMAU-622286-4,0,---,TRP             17HS,Pendiente
+2025-10-14,Mercovan Argentina S...,TCNU-321700-0,0,---,,Pendiente
+2025-10-14,Bdfm Sa,APHU-641721-4,0,---,T4 13HS,Pendiente
+2025-10-14,Hdv Leather S.R.L.,TRHU-589362-5,0,---,terminal 4   13hs,Pendiente
+2025-10-14,Hdv Leather S.R.L.,TCKU-712859-2,0,---,terminal 4  13hs,Pendiente
+2025-10-14,Borax Argentina S A,HASU-113909-1,0,---,terminal 4   15hd,Pendiente
+2025-10-14,Borax Argentina S A,MSKU-526657-6,0,---,TERMINAL 4  15HS,Pendiente
+2025-10-15,Hdv Leather S.R.L.,MSMU-725673-1,0,---,EXOLGAN 13HS,En curso
+2025-10-15,Hdv Leather S.R.L.,TCLU-491727-5,0,---,EXOLGAN 13HS,En curso
+2025-10-15,Hdv Leather S.R.L.,MEDU-780313-6,0,---,EXOLGAN 13HS,En curso
+2025-10-15,Hdv Leather S.R.L.,MSDU-620729-5,0,---,EXOLGAN 13HS,En curso
+2025-10-15,Borax Argentina S A,MRKU-854452-9,0,---,TERMINAL 4   13HS,En curso
+2025-10-15,Borax Argentina S A,HASU-114667-6,0,---,TERMINAL 4   13HS,En curso
+2025-10-15,Borax Argentina S A,MRKU-873252-6,0,---,TERMINAL 4   13HS,En curso
+2025-10-15,Henn Y Cia S.R.L.,HASU-423867-3,0,---,TERMINAL 4   13HS,En curso
+2025-10-15,Henn Y Cia S.R.L.,TCNU-152902-0,0,---,TERMINAL 4   15HS,En curso
+2025-10-15,Henn Y Cia S.R.L.,MRSU-441893-1,0,---,TERMINAL 4   15HS,En curso
 2025-07-08,Henn Y Cia S.R.L.,BMOU-213304-6,30,                    ,EXOLGAN 16HS,Pendiente
 2025-08-19,Hdv Leather S.R.L.,MEDU-700414-5,60,                    ,EXOLGAN 10HS,Pendiente
 2025-10-09,Hector Reboratti,MRSU-729959-0,0,************        ,T4    11HS,Pendiente
 2025-10-09,Hector Reboratti,MSKU-863022-8,0,***********         ,T4 11HS,Pendiente
-2025-10-14,Hdv Leather S.R.L.,TRHU-589362-5,0,                    ,terminal 4   13hs,Pendiente
-2025-10-14,Hdv Leather S.R.L.,TCKU-712859-2,0,                    ,terminal 4  13hs,Pendiente
 2025-10-14,Hector Reboratti,EITU-935613-0,0,**************      ,TRP   17HS,Pendiente
 2025-10-14,Hector Reboratti,CAAU-959227-6,0,****************    ,TRP    17HS,Pendiente
-2025-10-15,Hdv Leather S.R.L.,MSMU-725673-1,0,                    ,EXOLGAN 13HS,Pendiente
-2025-10-15,Hdv Leather S.R.L.,TCLU-491727-5,0,                    ,EXOLGAN 13HS,Pendiente
-2025-10-15,Hdv Leather S.R.L.,MEDU-780313-6,0,                    ,EXOLGAN 13HS,Pendiente
-2025-10-15,Hdv Leather S.R.L.,MSDU-620729-5,0,FX32915871          ,EXOLGAN 13HS,Pendiente
 2025-10-16,Norfor Sa,TCNU-627666-6,0,***************     ,TRP 11HS,Pendiente
 2025-10-16,Norfor Sa,TCLU-629737-9,0,********************,TRP  11HS,Pendiente
 2025-10-16,Suabia Maderas Srl,TCNU-303911-0,0,******************  ,TERMINAL 4    15HS,Pendiente
@@ -1099,3 +1099,4 @@ Dia,Cliente,Contenedor,Volumen,Precinto,Observaciones,Estado
 2025-10-16,Hector Reboratti,CAAU-959227-6,0,****************    ,TRP   17HS,Pendiente
 2025-10-16,Isischu Srl,ZCSU-691289-1,0,********************,TERMINAL 4   15HS,Pendiente
 2025-10-16,Maringa Maderas Sa,BSIU-954105-0,0,***************     ,terminal 4   17hs,Pendiente
+2025-10-16,Hilado Sa,SUDU-692085-4,0,*************       ,TERMINAL  4   13HS,Pendiente
