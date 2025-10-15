@@ -99,7 +99,7 @@ def show_page_trafico_andresito():
     
     # General date filter by Solicitud (Registro)
     st.markdown("### Filtros Generales")
-    col_general_filter = st.columns([2, 2, 6])
+    col_general_filter = st.columns([2, 2, 2, 2, 4])
     with col_general_filter[0]:
         # Extract unique dates from Solicitud/Registro columns
         all_dates = set()
@@ -116,6 +116,34 @@ def show_page_trafico_andresito():
             "Fecha de Solicitud:",
             options=date_options,
             key="general_date_filter"
+        )
+    
+    with col_general_filter[1]:
+        # Extract unique clients from all dataframes
+        all_clients = set()
+        for df in [arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns]:
+            if 'Cliente' in df.columns:
+                all_clients.update(df['Cliente'].dropna().unique())
+        
+        client_options = ['Todos'] + sorted(all_clients)
+        selected_general_client = st.selectbox(
+            "Cliente:",
+            options=client_options,
+            key="general_client_filter"
+        )
+    
+    with col_general_filter[2]:
+        # Extract unique choferes from all dataframes
+        all_choferes = set()
+        for df in [arribos, pendiente_desconsolidar, remisiones, arribos_expo_ctns]:
+            if 'chofer' in df.columns:
+                all_choferes.update(df['chofer'].dropna().unique())
+        
+        chofer_options = ['Todos'] + sorted(all_choferes)
+        selected_general_chofer = st.selectbox(
+            "Chofer:",
+            options=chofer_options,
+            key="general_chofer_filter"
         )
     
     # Apply general date filter to all dataframes
@@ -137,6 +165,28 @@ def show_page_trafico_andresito():
         if 'Registro' in arribos_expo_ctns.columns:
             expo_dates = pd.to_datetime(arribos_expo_ctns['Registro'], format='%d/%m/%Y %H:%M', errors='coerce').dt.date
             arribos_expo_ctns = arribos_expo_ctns[expo_dates == selected_date_obj]
+    
+    # Apply general client filter to all dataframes
+    if selected_general_client != 'Todos':
+        if 'Cliente' in arribos.columns:
+            arribos = arribos[arribos['Cliente'] == selected_general_client]
+        if 'Cliente' in pendiente_desconsolidar.columns:
+            pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar['Cliente'] == selected_general_client]
+        if 'Cliente' in remisiones.columns:
+            remisiones = remisiones[remisiones['Cliente'] == selected_general_client]
+        if 'Cliente' in arribos_expo_ctns.columns:
+            arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns['Cliente'] == selected_general_client]
+    
+    # Apply general chofer filter to all dataframes
+    if selected_general_chofer != 'Todos':
+        if 'chofer' in arribos.columns:
+            arribos = arribos[arribos['chofer'] == selected_general_chofer]
+        if 'chofer' in pendiente_desconsolidar.columns:
+            pendiente_desconsolidar = pendiente_desconsolidar[pendiente_desconsolidar['chofer'] == selected_general_chofer]
+        if 'chofer' in remisiones.columns:
+            remisiones = remisiones[remisiones['chofer'] == selected_general_chofer]
+        if 'chofer' in arribos_expo_ctns.columns:
+            arribos_expo_ctns = arribos_expo_ctns[arribos_expo_ctns['chofer'] == selected_general_chofer]
     
     st.markdown("---")
 
