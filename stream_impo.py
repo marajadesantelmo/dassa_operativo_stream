@@ -136,12 +136,12 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
             st.subheader("Verificaciones")
             if not verificaciones_impo.empty:
                 verificaciones_impo_ctn = verificaciones_impo[verificaciones_impo['Envase'] == "Contenedor"]
-                verificaciones_impo_ctn.drop(columns=['Volumen'], inplace=True)
-                cols = verificaciones_impo_ctn.columns.tolist()
-                cols.append(cols.pop(cols.index('Operacion')))
-                verificaciones_impo_ctn = verificaciones_impo_ctn[cols]
                 verificaciones_impo_carga = verificaciones_impo[verificaciones_impo['Envase'] != "Contenedor"]
                 if not verificaciones_impo_ctn.empty:
+                    verificaciones_impo_ctn.drop(columns=['Volumen'], inplace=True)
+                    cols = verificaciones_impo_ctn.columns.tolist()
+                    cols.append(cols.pop(cols.index('Operacion')))
+                    verificaciones_impo_ctn = verificaciones_impo_ctn[cols]
                     st.write("Contenedores")
                     st.dataframe(verificaciones_impo_ctn.style.apply(highlight, axis=1), 
                                 hide_index=True, use_container_width=True)
