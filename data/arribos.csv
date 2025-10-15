@@ -1,5 +1,19 @@
-Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,Chofer,Dimension
-Exolgan,05:00,TRHU-865607-8,Daniel Berant,GZSBUE25072455,HC,T,-,09:24 Arribado,,70
-Terminal 4 - Maersk,13:00,TRHU-889159-1,Jet Cargo S.A.,ZIMUASH4372678,HC,TD,02:58,Pendiente arribo,,70
-Exolgan,13:00,MSMU-792064-5,Bicicletas Futura Sr...,GILSH250700114,HC,TD,-,15:30 Arribado,,70
-Exolgan,15:00,UETU-757474-3,Bicicletas Futura Sr...,GILSH250700114,HC,TD,00:58,Pendiente arribo,,70
+Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Dimension,Oper.,Tiempo,Estado,Chofer
+Trp - Terminales 1-2-3,04:00,TGHU-668045-3,Tio Musa,SYNNGB25SE081203,HC,70,T,-,08:32 Arribado,
+Trp - Terminales 1-2-3,05:00,CAAU-724927-3,Mercovan Argentina S...,256003808,DR,60,TD,-,09:27 Arribado,
+Trp - Terminales 1-2-3,05:00,UETU-811590-2,Arbrex Commercial Gr...,TPYTNSG25086039A/B,HC,70,TD,-,09:22 Arribado,
+Trp - Terminales 1-2-3,05:00,UETU-811719-2,Arbrex Commercial Gr...,TPYTNSG25086039A,HC,70,TD,-,09:20 Arribado,
+Trp - Terminales 1-2-3,05:00,SUDU-530915-7,Sk Distributors S.R....,DLNB2508183,DR,60,T,-,08:26 Arribado,
+Trp - Terminales 1-2-3,05:00,MRSU-732312-5,Faraday S A I C F,OE03DL250706015A/B,HC,70,T,-,08:56 Arribado,
+Trp - Terminales 1-2-3,05:00,MRSU-866157-5,Eat Well Company S.R...,258736256,DR,60,T,-,09:16 Arribado,
+Trp - Terminales 1-2-3,05:00,MRSU-655949-8,Arealoop Srl,ROECHN25082222,HC,70,TD,-,08:30 Arribado,
+Trp - Terminales 1-2-3,12:00,CAAU-955068-7,Unimers Argentina S....,ZIMUXIA8508402,HC,70,T,-,Pendiente arribo,
+Terminal 4 - Maersk,13:00,MSKU-353878-3,Mercovan Argentina S...,257083804,DR,30,TD,-,Pendiente arribo,
+Exolgan,15:00,HLBU-152519-5,Lift Van Int. Co S.A,HLCUME3250832454,DR,60,TD,-,Pendiente arribo,
+Exolgan,15:00,MSNU-183435-3,Mercovan Argentina S...,MEDUJV957553,DR,30,TD,-,Pendiente arribo,
+Trp - Terminales 1-2-3,15:00,FFAU-672984-1,Tmcp S.A.S.,BSZFL25071753,HC,70,T,-,Pendiente arribo,
+Trp - Terminales 1-2-3,15:00,ONEU-091001-2,Tmcp S.A.S.,BSZFL25071753,HC,70,T,-,Pendiente arribo,
+Trp - Terminales 1-2-3,15:00,ONEU-559693-8,Tmcp S.A.S.,BSZFL25071753,HC,70,T,-,Pendiente arribo,
+Exolgan,15:00,HLBU-175216-2,Lift Van Int. Co S.A,HLUSPIL250801730,HC,70,TD,-,Pendiente arribo,
+Exolgan,17:00,HLBU-376328-0,Lift Van Int. Co S.A,HLCULIV250857712,DR,30,TD,-,Pendiente arribo,
+Exolgan,19:00,DAYU-216442-3,Edelweiss Spedition ...,HLCUME3250830627,DR,30,TD,-,Pendiente arribo,
