@@ -16,8 +16,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 38766-1-1,Kraster Argentina Sa,Livestock,SHHS25080039,TGBU-487774-0,09-10-2025,70.00,18000.00,ANEX-A1,
 38775-1-1,Noah Servicess.R.L.,Bondelle Emilia  / E...,IBC1386703,CAIU-828794-3,09-10-2025,15.00,650.00,NV3,
 38775-2-1,Noah Servicess.R.L.,Bondelle Emilia  / C...,IBC1386703,CAIU-828794-3,09-10-2025,20.00,700.00,NV5,
-38794-1-1,Mercovan Argentina S...,Mazzeo Julieta / Efe...,MEDURN002197,TXGU-889833-7,09-10-2025,60.00,2300.00,NV3,
 38795-1-1,Mercovan Argentina S...,Risio Nicolas / Efec...,HLCULE1250826545,UACU-415023-8,09-10-2025,36.00,3600.00,NV3,
+38794-1-1,Mercovan Argentina S...,Mazzeo Julieta / Efe...,MEDURN002197,TXGU-889833-7,09-10-2025,60.00,2300.00,NV3,
 38776-1-1,Shipy S.A.,Houseware,NB250865413,EMCU-897415-9,09-10-2025,70.00,6595.00,IB6,
 38776-2-1,Shipy S.A.,Houseware,NB250865413,DRYU-984682-0,09-10-2025,70.00,9710.00,IB6,
 38776-3-1,Shipy S.A.,Houseware,NB250865413,EITU-161624-7,09-10-2025,70.00,7970.00,IB6,
@@ -26,12 +26,11 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 38796-1-1,Lift Van Int. Co S.A,Edo Nicolas / Efecto...,MEDUHX076605,MEDU-750504-4,09-10-2025,45.00,4363.56,NV1,
 38785-1-1,Lift Van Int. Co S.A,Fernandez Anthony / ...,ONEYRICFGE591300,ONEU-572881-8,09-10-2025,63.00,4427.00,IB6,
 38753-1-1,Arbrex Commercial Gr...,Plush Toys,TPYTNSG25086040,NYKU-849833-1,08-10-2025,60.00,2680.10,IA5,
-38734-0-1,Danisco Argentina Sa,Carragenina,CL18483025,,08-10-2025,7.00,3096.00,ANEX-A2,
 38719-0-1,Colorantes Industria...,Tambores Quimicos,ROU0826/25,,07-10-2025,0.00,3882.00,ANEX-A1,
-38644-1-1,Impulso Jm S.A.,Mochilas,TCNB2507645,OERU-432109-7,03-10-2025,50.00,7939.50,IB2,
 38640-1-1,Jupam Sa,Telas,OOLU2161129700,TGBU-968263-2,03-10-2025,68.00,18177.00,CTNNAC,
-38606-1-1,Lift Van Int. Co S.A,Davola Julieta / Efe...,HLCUBSC2508BZCI4,TEMU-161073-9,02-10-2025,15.00,1323.00,IA3,http://dassaweb.mqbic.com/PublicTally.php?id=2719
+38644-1-1,Impulso Jm S.A.,Mochilas,TCNB2507645,OERU-432109-7,03-10-2025,50.00,7939.50,IB2,
 38608-1-1,Bazar Del Mundo S.A.,Thermos,VOLEP25071319,TRHU-589362-5,02-10-2025,68.00,12940.59,N1-11,http://dassaweb.mqbic.com/PublicTally.php?id=2717
+38606-1-1,Lift Van Int. Co S.A,Davola Julieta / Efe...,HLCUBSC2508BZCI4,TEMU-161073-9,02-10-2025,15.00,1323.00,IA3,http://dassaweb.mqbic.com/PublicTally.php?id=2719
 38607-1-1,Mercovan Argentina S...,Miles Maccarthy,HLUSPIL250712942,UASU-106344-5,02-10-2025,32.00,3492.00,IA3,http://dassaweb.mqbic.com/PublicTally.php?id=2721
 38626-1-1,Mercovan Argentina S...,Emb Eeuu / Suplies,ISB1783592,MSKU-020688-8,02-10-2025,60.00,3650.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id=2724
 38609-1-1,Boratex Srl,Conos De Hilo,256768758,MRSU-672624-0,02-10-2025,40.00,25199.10,IA1,http://dassaweb.mqbic.com/PublicTally.php?id=2720
@@ -85,23 +84,22 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 38287-1-1,Vertisoles Srl,Coadyuvante Ligc Plu...,ZIMUASH4371657,ZIMU-315529-0,16-09-2025,23.00,13380.00,NV4,http://dassaweb.mqbic.com/PublicTally.php?id=2576
 38275-1-1,Novelty Trend Srl,Telas,TWLE25070162,EITU-106334-7,16-09-2025,42.84,14761.00,EA8,
 38303-1-1,Bulldog Solutions S....,Textile,HDE25-0800018,TCNU-240738-8,16-09-2025,70.00,16410.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id=2582
-38276-1-1,Lift Van Int. Co S.A,Efectos Personales /...,HLXULE1250762943,HLBU-164292-5,16-09-2025,48.00,2920.00,IA6,http://dassaweb.mqbic.com/PublicTally.php?id=2566
-38288-2-1,Bazar Del Mundo S.A.,Kitchenware / Plasti...,ESHOE2507065,PCIU-963460-2,16-09-2025,70.00,12660.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id=2575
 38288-1-1,Bazar Del Mundo S.A.,Kitchenware / Plasti...,ESHOE2507065,GCXU-517785-6,16-09-2025,70.00,8960.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id=2574
+38288-2-1,Bazar Del Mundo S.A.,Kitchenware / Plasti...,ESHOE2507065,PCIU-963460-2,16-09-2025,70.00,12660.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id=2575
+38276-1-1,Lift Van Int. Co S.A,Efectos Personales /...,HLXULE1250762943,HLBU-164292-5,16-09-2025,48.00,2920.00,IA6,http://dassaweb.mqbic.com/PublicTally.php?id=2566
 38251-1-1,Mercovan Argentina S...,Paz Santiago / Volvo...,MEDUJZ580286,MEDU-571669-1,15-09-2025,6.00,1750.90,NV5,http://dassaweb.mqbic.com/PublicTally.php?id=2555
-38188-1-1,Verde Fuerte Srl,Fertilizantes,SRTME000980,OOCU-848543-9,12-09-2025,42.00,23720.00,IA2,http://dassaweb.mqbic.com/PublicTally.php?id=2544
 38171-1-1,Grupo Leal-Tex S.R.L...,Telas,GILSH250600125,MSDU-713012-0,11-09-2025,680.00,25753.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id=2526
-38153-2-1,Southcross Logistics...,Artifical Pot Plant,MEDUYN346877,TTNU-432725-8,10-09-2025,57.00,5005.12,IB7,http://dassaweb.mqbic.com/PublicTally.php?id=2513
 38147-1-1,All Trade S.A.,Ricoltex / Colorante...,PUS-HSE-2506-0042,FCIU-890261-3,10-09-2025,46.39,22918.19,EA6,http://dassaweb.mqbic.com/PublicTally.php?id=2516
 38153-1-1,Southcross Logistics...,Artificial Pot Plant,MEDUYN346877,TCLU-400559-1,10-09-2025,60.00,3822.20,IA1,http://dassaweb.mqbic.com/PublicTally.php?id=2512
+38153-2-1,Southcross Logistics...,Artifical Pot Plant,MEDUYN346877,TTNU-432725-8,10-09-2025,57.00,5005.12,IB7,http://dassaweb.mqbic.com/PublicTally.php?id=2513
 38042-1-1,Fedtex S.R.L,Telas,TWLE25060076,OOCU-902366-7,05-09-2025,55.05,17170.89,IA8,http://dassaweb.mqbic.com/PublicTally.php?id=2468
 37965-1-1,Southcross Logistics...,Garden Tool,GGLFE25070021,MRKU-000630-0,02-09-2025,42.45,4917.22,NV1,http://dassaweb.mqbic.com/PublicTally.php?id=2426
-37894-1-1,Grupo Harley S.A.,Motortcycle Tire,Z209GZH2505007,TGBU-925320-0,29-08-2025,298.85,11240.00,IA8,http://dassaweb.mqbic.com/PublicTally.php?id=2411
 37894-2-1,Grupo Harley S.A.,Motorcycle Tire,Z209GZH2505007,FCIU-813928-7,29-08-2025,70.00,15360.00,IA9,http://dassaweb.mqbic.com/PublicTally.php?id=2412
+37894-1-1,Grupo Harley S.A.,Motortcycle Tire,Z209GZH2505007,TGBU-925320-0,29-08-2025,298.85,11240.00,IA8,http://dassaweb.mqbic.com/PublicTally.php?id=2411
 37495-1-1,Grouport Srl,Pen,TCNB2505096,CAIU-568248-2,11-08-2025,28.66,5008.80,IA8,http://dassaweb.mqbic.com/PublicTally.php?id=2298
 37193-1-1,Chemotecnica Sa,Cipermetrina,MEDUJB753567,TGBU-269396-0,29-07-2025,20.00,21660.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id=2227
-37107-2-1,Talwin Transport Ser...,Santo Tome / Ford Mu...,HLCUBSC2506AXZL0,TCLU-428516-8,23-07-2025,10.00,1508.00,PA-B,http://dassaweb.mqbic.com/PublicTally.php?id=2205
 37107-1-1,Talwin Transport Ser...,Santo Tome  Vehicle ...,HLCUBSC2506AXZL0,TCLU-428516-8,23-07-2025,10.00,1415.00,PA-A,http://dassaweb.mqbic.com/PublicTally.php?id=2205
+37107-2-1,Talwin Transport Ser...,Santo Tome / Ford Mu...,HLCUBSC2506AXZL0,TCLU-428516-8,23-07-2025,10.00,1508.00,PA-B,http://dassaweb.mqbic.com/PublicTally.php?id=2205
 36991-1-1,Grupo Rsm Srl,Conci  Chevrolet Cor...,254819098,MRKU-082400-9,18-07-2025,10.00,1469.00,PA-A,http://dassaweb.mqbic.com/PublicTally.php?id=2182
 36936-0-1,Berkma S.A.,.Mercaderia Denuncia...,-,EITU-123028-0,17-07-2025,10.00,25.00,RZ-1A,
 36670-1-1,Verde Fuerte Srl,Fertilizantes,SEA30/2505-0044A,MRKU-056983-4,08-07-2025,46.00,21308.44,IB7,http://dassaweb.mqbic.com/PublicTally.php?id=2133
