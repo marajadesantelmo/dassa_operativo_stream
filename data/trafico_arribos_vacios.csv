@@ -1,7 +1,7 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-38533,17/10,Litoral Citrus S A,-,9,DR,TD,                    ,EBKG14423084,0,                              ,,     ,2025-11-06,,                    ,Pendiente
-38469,17/10,Pampa Logistica Internacional ...,-,10080,DR,TD,                    ,96536692,0,                              ,,     ,2025-11-04,,                    ,Pendiente
-38529,17/10,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG14536752,0,                              ,,     ,2025-11-06,,                    ,Pendiente
+38533,17/10,Litoral Citrus S A,CAIU-682571-5,9,DR,TD,FX32922561          ,EBKG14423084,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:47,2025-11-06,,                    ,11:47 Arribado
+38469,17/10,Pampa Logistica Internacional ...,BEAU-223378-1,10080,DR,TD,****************    ,96536692,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,11:42,2025-11-04,,                    ,11:42 Arribado
+38529,17/10,Chaguar Sociedad Anonima,GLDU-949232-4,9,DR,TD,FX32922562          ,EBKG14536752,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:50,2025-11-06,,                    ,11:50 Arribado
 38530,17/10,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG14536752,0,                              ,,     ,2025-11-06,,                    ,Pendiente
 38531,17/10,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG14536752,0,                              ,,     ,2025-11-06,,                    ,Pendiente
 38540,20/10,Helvecia S.A.,-,10082,HC,TD,                    ,BUA0352755,0,                              ,,     ,1899-12-30,,                    ,Pendiente
