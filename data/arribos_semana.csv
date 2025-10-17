@@ -18,9 +18,13 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-29,Exolgan,1500 ,CAIU-655519-0,Lift Van Int. Co S.A,HLCUDX3250557316,TD,HC,30,1,19:34 Arribado
 2025-09-30,Trp - Terminales 1-2-3,1200 ,PRSU-156237-8,Lift Van Int. Co S.A,NAM9443883,TD,DC,30,1,16:08 Arribado
 2025-09-30,Trp - Terminales 1-2-3,1200 ,CMAU-715026-5,Lift Van Int. Co S.A,SSZ123761RCS,TD,HC,70,1,15:43 Arribado
+2025-10-21,Exolgan,0500 ,UACU-832526-8,Lift Van Int. Co S.A,HLCURTM250870169,TD,HC,70,0,Pendiente arribo
 2025-10-15,Exolgan,1500 ,HLBU-152519-5,Lift Van Int. Co S.A,HLCUME3250832454,TD,DR,60,1,18:55 Arribado
 2025-10-15,Exolgan,1700 ,HLBU-376328-0,Lift Van Int. Co S.A,HLCULIV250857712,TD,DR,30,1,18:59 Arribado
 2025-10-15,Exolgan,1500 ,HLBU-175216-2,Lift Van Int. Co S.A,HLUSPIL250801730,TD,HC,70,1,17:03 Arribado
+2025-10-21,Exolgan,0500 ,MSDU-474725-6,Lift Van Int. Co S.A,10899855,TD,DC,60,0,Pendiente arribo
+2025-10-21,Exolgan,0500 ,MSBU-412474-3,Lift Van Int. Co S.A,10899855,TD,DC,60,0,Pendiente arribo
+2025-10-21,Exolgan,0500 ,HAMU-421206-5,Lift Van Int. Co S.A,HLCUME3250841765,TD,HC,70,0,Pendiente arribo
 2025-10-09,Exolgan,1900 ,MEDU-750504-4,Lift Van Int. Co S.A,MEDUHX076605,TD,HC,70,1,22:10 Arribado
 2025-10-09,Exolgan,1300 ,ONEU-572881-8,Lift Van Int. Co S.A,ONEYRICFGE591300,TD,HC,70,1,17:09 Arribado
 2025-10-13,Trp - Terminales 1-2-3,1200 ,TXGU-843102-3,Lift Van Int. Co S.A,SSZ124291RCS,TD,HC,70,1,15:12 Arribado
@@ -31,6 +35,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-06,Exolgan,1500 ,FCIU-628110-0,Lift Van Int. Co S.A,HLCUME3250812334,T,DC,30,1,17:00 Arribado
 2025-10-09,Trp - Terminales 1-2-3,0300 ,TCLU-717555-0,Lift Van Int. Co S.A,ONEYLIVF24598700,TD,DR,30,1,08:24 Arribado
 2025-10-06,Exolgan,1300 ,HLBU-121374-6,Edelweiss Spedition Srl,HLCUME3250781528,TD,DC,30,1,15:29 Arribado
+2025-10-21,Exolgan,0500 ,UACU-838445-0,Edelweiss Spedition Srl,HLCUHAM250893710,TD,DC,60,0,Pendiente arribo
 2025-10-15,Exolgan,1900 ,DAYU-216442-3,Edelweiss Spedition Srl,HLCUME3250830627,TD,DR,30,1,22:25 Arribado
 2025-10-17,Trp - Terminales 1-2-3,1800 ,TEMU-530977-0,Edelweiss Spedition Srl,ONEYLISF02997500,TD,DR,30,0,Pendiente arribo
 2025-10-10,Terminal 4 - Maersk,1000 ,TRLU-946205-4,Edelweiss Spedition Srl,HBG2023908,TD,DC,60,1,13:52 Arribado
@@ -58,6 +63,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-09,Exolgan,1900 ,BEAU-423367-2,Aspee Monee,LDH/25/1693,T,HC,70,1,22:21 Arribado
 2025-10-09,Exolgan,1700 ,TCLU-551984-6,Aspee Monee,LDH/25/1676,T,  ,60,1,19:43 Arribado
 2025-10-13,Exolgan,1300 ,MSMU-714789-6,Aspee Monee,GILNB250701048,T,HC,70,1,18:37 Arribado
+2025-10-21,Exolgan,1300 ,HAMU-374607-1,Aspee Monee,HLCUBO12507BNWN5,T,HC,70,0,Pendiente arribo
 2025-10-02,Terminal 4 - Maersk,1400 ,MRSU-335766-2,Dagher S.A.,OXOE2507035,T,HC,70,1,19:47 Arribado
 2025-10-10,Trp - Terminales 1-2-3,0500 ,CSNU-648493-6,Dagher S.A.,CL25070919,T,HC,70,1,09:22 Arribado
 2025-10-03,Trp - Terminales 1-2-3,0500 ,EGSU-159286-8,Shipy S.A.,TSSZ2507177,T,HC,70,1,10:12 Arribado
@@ -104,6 +110,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-19,Trp - Terminales 1-2-3,1200 ,EGSU-990414-0,Jupam Sa,TWLE25080096,T,HC,70,0,Pendiente arribo
 2025-10-19,Trp - Terminales 1-2-3,1600 ,EGHU-965578-4,Jupam Sa,TWLE25080147,T,HC,70,0,Pendiente arribo
 2025-10-19,Trp - Terminales 1-2-3,1600 ,EITU-941226-0,Jupam Sa,TWLE25080077,T,HC,70,0,Pendiente arribo
+2025-10-21,Terminal 4 - Maersk,1500 ,TEMU-677609-1,Jupam Sa,TWLE25070128,T,HC,70,0,Pendiente arribo
 2025-09-30,Trp - Terminales 1-2-3,1900 ,DRYU-265903-1,Aoda Sa,NB250763882,T,DC,30,1,20:57 Arribado
 2025-10-10,Trp - Terminales 1-2-3,0500 ,EMCU-840148-1,Aoda Sa,NB250865116,T,HC,70,1,09:44 Arribado
 2025-10-17,Terminal 4 - Maersk,1000 ,MSKU-513853-3,Awam Tex Srl,NBFC2509051A/B,T,DC,30,1,16:00 Arribado
@@ -139,11 +146,13 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-09,Trp - Terminales 1-2-3,1200 ,EGSU-963635-0,Novelty Trend Srl,TWLE25080023,T,HC,70,1,16:45 Arribado
 2025-09-26,Trp - Terminales 1-2-3,1100 ,APZU-376616-0,Chemotecnica Sa,JSL/NSA/02546A,TD,DC,30,1,13:38 Arribado
 2025-10-09,Trp - Terminales 1-2-3,1100 ,KOCU-217001-8,Chemotecnica Sa,JSL/NSA//2575A,TD,DR,30,1,16:54 Arribado
+2025-10-21,Exolgan,1300 ,HLBU-172083-8,Gestion Forward S.R.L.,HLCULE1250849513,TD,DC,30,0,Pendiente arribo
 2025-10-16,Terminal 4 - Maersk,0800 ,TLLU-496318-1,Industrias Saladillo S.A.,DEDUS0000032493,TD,HC,70,1,12:00 Arribado
 2025-10-03,Exolgan,1300 ,ONEU-087977-1,Sam Log S.R.L.,HLCUSHA2505HFWJ2,T,HC,70,1,15:49 Arribado
 2025-10-09,Trp - Terminales 1-2-3,1200 ,FBIU-518108-6,Fibras Argentinas Sa,BKK501250100,TD,HC,70,1,17:55 Arribado
 2025-10-09,Trp - Terminales 1-2-3,1200 ,PCIU-607716-5,Fibras Argentinas Sa,BKK501250100,TD,HC,70,1,16:43 Arribado
 2025-10-15,Trp - Terminales 1-2-3,1200 ,CAAU-955068-7,Unimers Argentina S.A.,ZIMUXIA8508402,T,HC,70,1,17:31 Arribado
+2025-10-21,Exolgan,1100 ,MSMU-409205-9,Raisvic S.R.L.,NBOE25016863,T,HC,70,0,Pendiente arribo
 2025-10-09,Trp - Terminales 1-2-3,0500 ,OOCU-722084-1,Ba Comex S.A,CL25070996,TD,HC,70,1,08:56 Arribado
 2025-10-03,Trp - Terminales 1-2-3,1500 ,EGSU-984530-3,Aceptyourdestiny Sa,HDE25-0800119,TD,HC,70,1,17:26 Arribado
 2025-10-03,Trp - Terminales 1-2-3,2000 ,CAAU-519771-4,Aceptyourdestiny Sa,HDE25-0800036,TD,HC,70,1,22:19 Arribado
@@ -178,6 +187,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-09,Exolgan,1100 ,TRLU-480706-6,Mazon Textil Sa,NBOE25016605,T,DC,60,1,13:57 Arribado
 2025-10-08,Exolgan,0500 ,ONEU-162702-8,Fedtex S.R.L,ONEYNB5BCT854900,T,HC,70,1,09:42 Arribado
 2025-10-10,Terminal 4 - Maersk,0700 ,TIIU-423700-0,Fedtex S.R.L,TWLE25070233,T,HC,70,1,12:11 Arribado
+2025-10-21,Terminal 4 - Maersk,1500 ,ZCSU-775941-0,Fedtex S.R.L,TWLE25070129,T,HC,70,0,Pendiente arribo
 2025-10-09,Exolgan,0500 ,MSMU-430512-8,Chelatex Sas,NBOE25016545,T,DC,60,1,08:28 Arribado
 2025-10-10,Trp - Terminales 1-2-3,0500 ,TRHU-575912-8,Chelatex Sas,GILNB250800525,T,HC,70,1,09:20 Arribado
 2025-10-09,Trp - Terminales 1-2-3,0500 ,CAIU-262504-6,Dromex Srl,CEI0323212,TD,DR,30,1,08:27 Arribado
