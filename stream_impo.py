@@ -125,9 +125,15 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
         with col2_sub:
             st.subheader("Pendiente Desconsolidar y Vacios")
         with col2_metric1:
-            st.metric(label="Ptes. Desco.", value=pendiente_desconsolidar[pendiente_desconsolidar['Estado'] == 'Pte. Desc.'].shape[0])
+            if pendiente_desconsolidar.empty:
+                st.metric(label="Ptes. Desco.", value=0)
+            else:
+                st.metric(label="Ptes. Desco.", value=pendiente_desconsolidar[pendiente_desconsolidar['Estado'] == 'Pte. Desc.'].shape[0])
         with col2_mentric2:
-            st.metric(label="Vacios", value=pendiente_desconsolidar[pendiente_desconsolidar['Estado'] == 'Vacio'].shape[0])
+            if pendiente_desconsolidar.empty:
+                st.metric(label="Vacios", value=0)
+            else:
+                st.metric(label="Vacios", value=pendiente_desconsolidar[pendiente_desconsolidar['Estado'] == 'Vacio'].shape[0])
         st.dataframe(pendiente_desconsolidar.style.apply(highlight, axis=1).format(precision=0), hide_index=True, use_container_width=True)
 
     col3, col4 = st.columns(2)
