@@ -7,9 +7,6 @@ from utils import highlight, generar_comprobante
 @st.cache_data(ttl=60)
 def fetch_data_balanza():
     balanza = fetch_table_data("balanza_data")
-    cols = list(balanza.columns)
-    cols.insert(2, cols.pop(cols.index("Booking")))
-    balanza = balanza[cols]
     if balanza.empty:
         column_names = [
             "ID Pesada", "Cliente", "CUIT Cliente", "ATA", "CUIT ATA", "Contenedor", "Entrada", "Salida", 
@@ -18,6 +15,9 @@ def fetch_data_balanza():
             "Booking", "Permiso Emb.", "Precinto", "Estado"
         ]
         balanza = pd.DataFrame(columns=column_names)
+    cols = list(balanza.columns)
+    cols.insert(2, cols.pop(cols.index("Booking")))
+    balanza = balanza[cols]
     balanza['ID Pesada'] = balanza['ID Pesada'].fillna('-').astype(str).str.replace('.0', '', regex=False)
     balanza_impo = balanza[balanza['tipo_oper'] == 'Importacion']
     balanza_impo = balanza_impo.drop(columns=['tipo_oper'], errors='ignore')
