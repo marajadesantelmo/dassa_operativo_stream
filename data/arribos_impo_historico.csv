@@ -162,7 +162,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-07-18,19:00,Exolgan,TCLU-359747-5,Lift Van Int. Co S.A,ONEYMEXF10239800,T,2025-07-18,2181,http://dassa.mqbic.com/PublicTally.php?id=2181
 2025-07-22,13:00,Exolgan,TGBU-511889-8,Lift Van Int. Co S.A,CDOLX250523,TD,2025-07-22,2192,http://dassa.mqbic.com/PublicTally.php?id=2192
 2025-10-15,19:00,Exolgan,DAYU-216442-3,Edelweiss Spedition Srl,HLCUME3250830627,TD,2025-10-15,,
-2025-10-17,18:00,TRP,TEMU-530977-0,Edelweiss Spedition Srl,ONEYLISF02997500,TD,,,
+2025-10-17,18:00,TRP,TEMU-530977-0,Edelweiss Spedition Srl,ONEYLISF02997500,TD,2025-10-17,,
 2025-10-21,05:00,Exolgan,UACU-838445-0,Edelweiss Spedition Srl,HLCUHAM250893710,TD,,,
 2025-10-10,10:00,Terminal 4,TRLU-946205-4,Edelweiss Spedition Srl,HBG2023908,TD,2025-10-10,,
 2025-10-10,10:00,Terminal 4,TGHU-508972-3,Edelweiss Spedition Srl,HBG2023908,TD,2025-10-10,,
@@ -227,10 +227,10 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-08-11,07:00,Exolgan,CAIU-568248-2,Grouport Srl,TCNB2505096,TD,2025-08-11,2298,http://dassa.mqbic.com/PublicTally.php?id=2298
 2025-08-29,15:00,Exolgan,MSBU-337864-0,Grouport Srl,TCQD2505313,T,2025-08-29,,
 2025-09-30,11:00,TRP,FCIU-539638-4,Refractarios Argentinos Saicm,SSA029771RCS,TD,2025-09-30,2704,http://dassa.mqbic.com/PublicTally.php?id=2704
-2025-10-17,14:00,Terminal 4,MSKU-731057-5,Refractarios Argentinos Saicm,TSN25080034,TD,,,
-2025-10-17,14:00,Terminal 4,SUDU-769056-6,Refractarios Argentinos Saicm,TSN25080034,TD,,,
-2025-10-17,14:00,Terminal 4,MRSU-009119-9,Refractarios Argentinos Saicm,TSN25080034,TD,,,
-2025-10-17,14:00,Terminal 4,MSKU-578243-8,Refractarios Argentinos Saicm,TSN25080034,TD,,,
+2025-10-21,09:00,Terminal 4,MSKU-731057-5,Refractarios Argentinos Saicm,TSN25080034,TD,,,
+2025-10-21,09:00,Terminal 4,SUDU-769056-6,Refractarios Argentinos Saicm,TSN25080034,TD,,,
+2025-10-21,09:00,Terminal 4,MRSU-009119-9,Refractarios Argentinos Saicm,TSN25080034,TD,,,
+2025-10-21,09:00,Terminal 4,MSKU-578243-8,Refractarios Argentinos Saicm,TSN25080034,TD,,,
 2025-09-19,20:00,TRP,MSBU-157538-4,Refractarios Argentinos Saicm,TSN25060158,TD,2025-09-19,2625,http://dassa.mqbic.com/PublicTally.php?id=2625
 2025-09-19,21:00,TRP,MSBU-153268-0,Refractarios Argentinos Saicm,TSN25060158,TD,2025-09-19,2626,http://dassa.mqbic.com/PublicTally.php?id=2626
 2025-09-30,11:00,TRP,TLLU-833694-0,Refractarios Argentinos Saicm,SSA029771RCS,TD,2025-09-30,2703,http://dassa.mqbic.com/PublicTally.php?id=2703
@@ -263,7 +263,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-10-09,19:00,Exolgan,BEAU-423367-2,Aspee Monee,LDH/25/1693,T,2025-10-09,,
 2025-10-09,17:00,Exolgan,TCLU-551984-6,Aspee Monee,LDH/25/1676,T,2025-10-09,,
 2025-10-13,13:00,Exolgan,MSMU-714789-6,Aspee Monee,GILNB250701048,T,2025-10-13,,
-2025-10-21,13:00,Exolgan,HAMU-374607-1,Aspee Monee,HLCUBO12507BNWN5,T,,,
+2025-10-22,22:00,Exolgan,HAMU-374607-1,Aspee Monee,HLCUBO12507BNWN5,T,,,
 2025-09-02,15:00,Exolgan,MSDU-676646-2,Aspee Monee,GILSH250600008,T,2025-09-02,,
 2025-09-11,14:00,Terminal 4,ZCSU-660469-3,Aspee Monee,GILSH250700055,T,2025-09-11,,
 2025-09-12,05:00,Exolgan,TLLU-518514-0,Aspee Monee,MEDUOO433488,T,2025-09-12,,
@@ -469,7 +469,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-07-30,05:00,Exolgan,MEDU-721659-2,Grupo Leal-Tex S.R.L.,GILSH250500144,TD,2025-07-30,2232,http://dassa.mqbic.com/PublicTally.php?id=2232
 2025-10-09,11:00,TRP,OOCU-886565-5,Grupo Leal-Tex S.R.L.,CL2GILNB250800037,T,2025-10-09,,
 2025-10-17,05:00,Exolgan,MSNU-907577-8,Grupo Leal-Tex S.R.L.,GILSH250800044,T,2025-10-17,,
-2025-10-17,15:00,Exolgan,MSCU-519537-0,Grupo Leal-Tex S.R.L.,GILSH250800042,T,,,
+2025-10-17,15:00,Exolgan,MSCU-519537-0,Grupo Leal-Tex S.R.L.,GILSH250800042,T,2025-10-17,,
 2025-10-17,08:00,Terminal 4,HASU-463247-6,Grupo Leal-Tex S.R.L.,WLLSH2509046,T,2025-10-17,,
 2025-08-07,10:00,Terminal 4,MRKU-265369-3,Grupo Leal-Tex S.R.L.,GILSH250500230,T,2025-08-07,,
 2025-09-11,13:00,Exolgan,MSDU-713012-0,Grupo Leal-Tex S.R.L.,GILSH250600125,TD,2025-09-11,2526,http://dassa.mqbic.com/PublicTally.php?id=2526
@@ -722,7 +722,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-09-17,08:00,Terminal 4,MRSU-559911-4,Lartex Srl,SHAX25070014,T,2025-09-17,,
 2025-10-09,21:00,Exolgan,MSNU-796555-6,Tio Musa,SYNCAN25SE070923,T,2025-10-09,,
 2025-10-15,04:00,TRP,TGHU-668045-3,Tio Musa,SYNNGB25SE081203,T,2025-10-15,,
-2025-10-17,15:00,Exolgan,MSBU-699285-8,Tio Musa,SYNNKG25SE070125,T,,,
+2025-10-17,15:00,Exolgan,MSBU-699285-8,Tio Musa,SYNNKG25SE070125,T,2025-10-17,,
 2025-10-17,05:00,Exolgan,MSBU-716723-0,Tio Musa,SYNNK25SSE070127,T,2025-10-17,,
 2025-10-17,05:00,Exolgan,UETU-785011-6,Tio Musa,SYNNK25SSE070121,T,2025-10-17,,
 2025-10-17,05:00,Exolgan,UETU-786271-3,Tio Musa,SYNNK25SSE070121,T,2025-10-17,,
