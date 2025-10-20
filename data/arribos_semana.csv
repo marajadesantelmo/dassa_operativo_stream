@@ -51,7 +51,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-09-29,Exolgan,1500 ,HLBU-111743-9,Baires International,HLCUDX3250542718,TD,DC,30,1,19:21 Arribado
 2025-09-29,Exolgan,1100 ,MEDU-891867-5,Juguetech Sa,SZXS067814,T,HC,70,1,13:47 Arribado
 2025-10-15,Trp - Terminales 1-2-3,1900 ,MSKU-436954-3,A La Orden,ENBFL25080115,T,DR,30,1,20:59 Arribado
-2025-10-20,Exolgan,0700 ,MEDU-475657-6,La Tela Srl,GILNB250701042,T,HC,70,0,Pendiente arribo
+2025-10-20,Exolgan,0700 ,MEDU-475657-6,La Tela Srl,GILNB250701042,T,HC,70,1,13:35 Arribado
 2025-09-30,Trp - Terminales 1-2-3,1100 ,TLLU-833694-0,Refractarios Argentinos Saicm,SSA029771RCS,TD,DC,30,1,13:40 Arribado
 2025-09-30,Trp - Terminales 1-2-3,1100 ,FCIU-539638-4,Refractarios Argentinos Saicm,SSA029771RCS,TD,DC,30,1,13:48 Arribado
 2025-10-21,Terminal 4 - Maersk,0900 ,MSKU-731057-5,Refractarios Argentinos Saicm,TSN25080034,TD,DC,30,0,Pendiente arribo
@@ -167,6 +167,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-17,Exolgan,0500 ,MSBU-716723-0,Tio Musa,SYNNK25SSE070127,T,HC,70,1,10:11 Arribado
 2025-10-17,Exolgan,0500 ,UETU-785011-6,Tio Musa,SYNNK25SSE070121,T,HC,70,1,10:26 Arribado
 2025-10-17,Exolgan,0500 ,UETU-786271-3,Tio Musa,SYNNK25SSE070121,T,HC,70,1,10:21 Arribado
+2025-10-21,Exolgan,0500 ,MSNU-880629-2,Tio Musa,SYNCAN25SE080334,T,HC,70,0,Pendiente arribo
 2025-10-20,Exolgan,0700 ,FFAU-223682-6,Telamania Srl,GILNB250800222,T,HC,70,1,11:32 Arribado
 2025-09-29,Terminal 4 - Maersk,1200 ,TCNU-791296-8,Grupo Rsm Srl,258590460,TD,DC,60,1,15:43 Arribado
 2025-10-02,Terminal 4 - Maersk,1100 ,MRKU-523050-3,Grupo Rsm Srl,258779880,T,DC,60,1,14:45 Arribado
