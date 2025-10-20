@@ -363,7 +363,6 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 337.0,09/10,340500041202,Hector Reboratti,Gamma Bactssa - Asas One -,2025-10-08T18:20:41.284212,,,Arribado,,EITU-935613-0,**************,,,
 372.0,14/10,259832181,Lift Van Int. Co S.A,Huxley Sa,2025-10-13T21:05:39.660774,,,Arribado,,MRKU-225456-4,*****************,MICHELLE LEE,,
 373.0,14/10,259496488,Lift Van Int. Co S.A,Huxley Sa,2025-10-13T21:20:39.656936,,,Arribado,,CAAU-827265-8,****************,Luis Sainz Hernandez,,
-398.0,20/10,340500041121,Maringa Maderas Sa,Trp - Terminales 1-2-3,2025-10-17T20:35:41.678337,,,,,,,,,
 374.0,15/10,260361275,Mader Zu S.R.L.,-,2025-10-14T16:50:40.669336,,,Arribado,,MRKU-381451-3,***************,28600.0,,
 358.0,13/10,BUEA96905200,Minera Santa Rita Srl,Gamma Mujica,2025-10-13T12:20:40.069591,,,Arribado,,GAOU-605252-7,********************,FC 14-468,,
 378.0,15/10,EBKG14423612,Chaguar Sociedad Anonima,Medlog Sarandi,2025-10-14T17:50:39.399699,,,Arribado,,MEDU-546151-7,FX32918525,,,
@@ -376,6 +375,7 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 394.0,20/10,340500036852,Henn Y Cia S.R.L.,Trp - Terminales 1-2-3,2025-10-17T14:50:40.561728,,,,,,,,,
 399.0,20/10,BUA0353261,Taeda Sa,Terminal 7,2025-10-17T20:35:41.772942,,,,,,,,,
 397.0,20/10,340500041121,Maringa Maderas Sa,Trp - Terminales 1-2-3,2025-10-17T20:35:41.54143,,,09:41 Arribado,,TEMU-622177-1,********************,28600.0,,
+400.0,21/10,20424133,Global Rover Logistic Srl,Exolgan,2025-10-20T13:05:41.58435,,,,,,,,,
 382.0,16/10,19429500,Chaguar Sociedad Anonima,Huxley Sa,2025-10-16T19:50:43.601959,,,Arribado,,HLBU-123482-0,***********,,,
 383.0,16/10,19429500,Chaguar Sociedad Anonima,Huxley Sa,2025-10-16T19:50:43.724762,,,Arribado,,TEMU-546549-6,*************,,,
 395.0,20/10,11886333,Alimentaria Sa,Exolgan,2025-10-17T15:20:41.11254,,,,,,,,,
@@ -386,7 +386,9 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 385.0,17/10,EBKG14536752,Chaguar Sociedad Anonima,Medlog Sarandi,2025-10-16T19:50:43.949512,,,Arribado,,GLDU-949232-4,FX32922562,,,
 386.0,17/10,EBKG14536752,Chaguar Sociedad Anonima,Medlog Sarandi,2025-10-16T19:50:44.038798,,,Arribado,,GLDU-949232-4,FX32922562,,,
 387.0,17/10,EBKG14536752,Chaguar Sociedad Anonima,Medlog Sarandi,2025-10-16T19:50:44.148037,,,Arribado,,GLDU-949232-4,FX32922562,,,
+401.0,21/10,68719902,Lift Van Int. Co S.A,Exolgan,2025-10-20T13:05:41.678241,,,,,,,,,
 381.0,15/10,BUEA73809000,Curtiembre Infante Sa,Gamma Mujica,2025-10-15T14:50:41.337829,,,14:16 Arribado,,SEGU-604726-2,********************,,,
+398.0,20/10,340500041121,Maringa Maderas Sa,Trp - Terminales 1-2-3,2025-10-17T20:35:41.678337,,,09:41 Arribado,,TEMU-622177-1,********************,28600,,
 375.0,15/10,260465513,Mercopallet Srl,-,2025-10-14T16:50:40.768039,,,Arribado,,MSKU-086276-2,****************,28600.0,,
-,21/10,20424133,Global Rover Logistic Srl,Exolgan,,,,,,,,,,1.0
-,21/10,68719902,Lift Van Int. Co S.A,Exolgan,,,,,,,,,,1.0
+,21/10,BUEF12410800,Santa Anita Oil Sa,Hiperbaires - Icb T.Sur,,,,,,,,,,2.0
+,21/10,EBKG14305566,Chaguar Sociedad Anonima,Medlog Sarandi,,,,,,,,,,4.0
