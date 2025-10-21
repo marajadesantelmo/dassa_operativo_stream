@@ -45,7 +45,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-24,34834,,Lift Van Int. Co S.A,93496815,                    ,Pendiente
 2025-06-24,34836,,Lift Van Int. Co S.A,93496815,                    ,Pendiente
 2025-06-24,34898,UACU-372034-1,Lift Van Int. Co S.A,93496815,***********         ,Arribado
-2025-10-21,38581,,Lift Van Int. Co S.A,68719902,                    ,Pendiente
+2025-10-21,38581,UACU-851181-1,Lift Van Int. Co S.A,68719902,******************  ,Arribado
 2025-10-13,38393,,Lift Van Int. Co S.A,32726281,                    ,Pendiente
 2025-10-14,38431,MRKU-225456-4,Lift Van Int. Co S.A,259832181,*****************   ,Arribado
 2025-10-14,38432,CAAU-827265-8,Lift Van Int. Co S.A,259496488,****************    ,Arribado
@@ -229,6 +229,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-01,35113,FANU-325731-8,Mader Zu S.R.L.,65443977,************        ,Arribado
 2025-07-01,35114,,Mader Zu S.R.L.,65443977,                    ,Pendiente
 2025-07-02,35202,CAIU-854508-2,Mader Zu S.R.L.,65443977,***********         ,Arribado
+2025-10-21,38609,,Mader Zu S.R.L.,93491205,                    ,Pendiente
+2025-10-21,38610,,Mader Zu S.R.L.,93491205,                    ,Pendiente
+2025-10-21,38611,,Mader Zu S.R.L.,93491205,                    ,Pendiente
+2025-10-21,38612,,Mader Zu S.R.L.,93491205,                    ,Pendiente
 2025-10-15,38465,MRKU-381451-3,Mader Zu S.R.L.,260361275,***************     ,Arribado
 2025-10-02,38066,BSIU-950113-0,Mader Zu S.R.L.,340500038995,******************  ,Arribado
 2025-10-02,38067,EGHU-982828-3,Mader Zu S.R.L.,340500038995,********************,Arribado
@@ -301,8 +305,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-15,35526,TCKU-767651-2,Hilado Sa,255808171,************        ,Arribado
 2025-07-29,36017,UETU-689832-6,Helvecia S.A.,45137792,************        ,Arribado
 2025-07-29,36018,BMOU-662867-6,Helvecia S.A.,45137792,****************    ,Arribado
-2025-10-20,38540,,Helvecia S.A.,BUA0352755,                    ,Pendiente
-2025-10-20,38541,,Helvecia S.A.,BUA0352755,                    ,Pendiente
+2025-10-20,38540,TCNU-607097-3,Helvecia S.A.,BUA0352755,R8694225            ,Arribado
+2025-10-20,38541,FCIU-803315-0,Helvecia S.A.,BUA0352755,R8694223            ,Arribado
 2025-09-02,37132,BSIU-821792-0,Helvecia S.A.,82112000,****************    ,Arribado
 2025-09-02,37133,HLBU-321694-0,Helvecia S.A.,82112000,*****************   ,Arribado
 2025-10-08,38239,CMAU-622286-4,Helvecia S.A.,BUA0351791,R8687600            ,Arribado
@@ -340,8 +344,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-07,35319,YMMU-108832-8,Alimentaria Sa,B946026075,**********          ,Arribado
 2025-07-07,35320,YMMU-124920-6,Alimentaria Sa,B946026075,********            ,Arribado
 2025-10-06,38187,HASU-101630-6,Alimentaria Sa,259173844,*************       ,Arribado
-2025-10-20,38550,,Alimentaria Sa,11886333,                    ,Pendiente
-2025-10-20,38551,,Alimentaria Sa,11886333,                    ,Pendiente
+2025-10-20,38550,UACU-852896-4,Alimentaria Sa,11886333,****************    ,Arribado
+2025-10-20,38551,UACU-832198-2,Alimentaria Sa,11886333,************        ,Arribado
 2025-10-02,38064,SEKU-452332-2,Alimentaria Sa,BUA0351286,R8688014            ,Arribado
 2025-10-02,38065,TRHU-601023-7,Alimentaria Sa,BUA0351286,R8682796            ,Arribado
 2025-10-06,38183,MRKU-738896-7,Alimentaria Sa,259173844,********************,Arribado
@@ -523,7 +527,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-30,34939,CAIU-459786-9,Maringa Maderas Sa,EBKG13192555,FX32932271          ,Arribado
 2025-10-13,38358,BSIU-954105-0,Maringa Maderas Sa,ZIMUBUE9044079,***************     ,Arribado
 2025-10-20,38569,TEMU-622177-1,Maringa Maderas Sa,340500041121,********************,Arribado
-2025-10-20,38570,,Maringa Maderas Sa,340500041121,                    ,Pendiente
+2025-10-20,38570,EGHU-914503-4,Maringa Maderas Sa,340500041121,***************     ,Arribado
 2025-08-04,36260,MEDU-443227-9,Maringa Maderas Sa,EBKG13753917,FX32943992          ,Arribado
 2025-09-18,37718,MSKU-957334-9,Maringa Maderas Sa,259288341,***************     ,Arribado
 2025-09-18,37719,TEMU-812322-3,Maringa Maderas Sa,259288369,**************      ,Arribado
@@ -543,7 +547,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-27,34948,MEDU-452830-2,Taeda Sa,EBKG13359360,FX32932341          ,Arribado
 2025-07-24,35936,HAMU-144154-0,Taeda Sa,15433336,**********          ,Arribado
 2025-10-03,38087,FFAU-568461-3,Taeda Sa,EBKG14411415,FX32916120          ,Arribado
-2025-10-20,38567,,Taeda Sa,BUA0353261,                    ,Pendiente
+2025-10-20,38567,CZZU-890092-6,Taeda Sa,BUA0353261,R8694230            ,Arribado
 2025-08-01,36164,TGHU-986208-7,Taeda Sa,EBKG13739044,FX32940858          ,Arribado
 2025-08-01,36165,MSCU-499879-0,Taeda Sa,EBKG13739044,FX32940776          ,Arribado
 2025-09-11,37487,MSDU-854195-3,Taeda Sa,EBKG14049385,FX32947287          ,Arribado
@@ -557,11 +561,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-21,35729,JXLU-633516-7,Carpal Sa,ZIMUBUE9041801,***********         ,Arribado
 2025-07-21,35730,JXLU-639362-5,Carpal Sa,ZIMUBUE9041801,***********         ,Arribado
 2025-06-23,34808,,Henn Y Cia S.R.L.,EBKG13080070,                    ,Pendiente
-2025-10-20,38546,,Henn Y Cia S.R.L.,340500036852,                    ,Pendiente
-2025-10-20,38547,,Henn Y Cia S.R.L.,340500036852,                    ,Pendiente
-2025-10-20,38548,,Henn Y Cia S.R.L.,340500036852,                    ,Pendiente
+2025-10-20,38546,EGSU-991341-3,Henn Y Cia S.R.L.,340500036852,*************       ,Arribado
+2025-10-20,38547,EGSU-147236-9,Henn Y Cia S.R.L.,340500036852,***************     ,Arribado
+2025-10-20,38548,BEAU-502708-5,Henn Y Cia S.R.L.,340500036852,******************* ,Arribado
+2025-10-20,38613,TGBU-657503-4,Henn Y Cia S.R.L.,340500036852,********************,Arribado
 2025-10-13,38422,HASU-423867-3,Henn Y Cia S.R.L.,258776626,****************    ,Arribado
-2025-10-20,38545,,Henn Y Cia S.R.L.,340500036852,                    ,Pendiente
+2025-10-20,38545,,Henn Y Cia S.R.L.,340500036852,                    ,Arribado
 2025-10-13,38419,TCNU-152902-0,Henn Y Cia S.R.L.,258776626,*************       ,Arribado
 2025-10-13,38420,MRKU-640643-3,Henn Y Cia S.R.L.,258776626,**********          ,Arribado
 2025-10-13,38421,MRSU-441893-1,Henn Y Cia S.R.L.,258776626,*************       ,Arribado
@@ -799,6 +804,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-02,35200,PCIU-463911-3,Lawter Argentina S.A.,BUE500115400,*************       ,Arribado
 2025-10-14,38425,ZCSU-662666-6,Lawter Argentina S.A.,ZIMUBUE9044129,*************       ,Arribado
 2025-10-14,38426,ZCSU-660329-6,Lawter Argentina S.A.,ZIMUBUE9044129,******************  ,Arribado
+2025-10-22,38630,,Lawter Argentina S.A.,EBKGQ0014BFF,                    ,Pendiente
 2025-09-30,37978,DRYU-956636-8,Lawter Argentina S.A.,ZIMUBUE9043944,************        ,Arribado
 2025-09-30,37979,TGBU-549556-7,Lawter Argentina S.A.,ZIMUBUE9043944,************        ,Arribado
 2025-09-30,37980,ZCSU-759603-6,Lawter Argentina S.A.,ZIMUBUE9043944,********************,Arribado
@@ -913,6 +919,14 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-06-26,34961,TXGU-595860-1,Norfor Sa,340500023009,***********         ,Arribado
 2025-06-26,34962,TEMU-622869-4,Norfor Sa,340500023009,**********          ,Arribado
 2025-07-08,35329,MSNU-703349-6,Santa Anita Oil Sa,EBKG13443760,FX32939486          ,Arribado
+2025-10-21,38593,,Santa Anita Oil Sa,BUEF12410800,                    ,Pendiente
+2025-10-21,38594,,Santa Anita Oil Sa,BUEF11869400,                    ,Pendiente
+2025-10-21,38595,,Santa Anita Oil Sa,BUEF11869400,                    ,Pendiente
+2025-10-21,38596,,Santa Anita Oil Sa,BUEF11869400,                    ,Pendiente
+2025-10-21,38597,,Santa Anita Oil Sa,BUEF11869400,                    ,Pendiente
+2025-10-21,38590,,Santa Anita Oil Sa,BUEF12410800,                    ,Pendiente
+2025-10-21,38591,,Santa Anita Oil Sa,BUEF12410800,                    ,Pendiente
+2025-10-21,38592,,Santa Anita Oil Sa,BUEF12410800,                    ,Pendiente
 2025-10-07,38198,MSDU-773296-0,Santa Anita Oil Sa,EBKG14423721,FX32919794          ,Arribado
 2025-10-07,38199,DRYU-940493-7,Santa Anita Oil Sa,EBKG14423721,FX32919783          ,Arribado
 2025-10-07,38202,MSBU-818304-5,Santa Anita Oil Sa,EBKG14423721,FX32919774          ,Arribado
@@ -1263,6 +1277,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-23,35883,,Chaguar Sociedad Anonima,256457109,                    ,Pendiente
 2025-10-17,38530,FBIU-049887-0,Chaguar Sociedad Anonima,EBKG14536752,FX32927215          ,Arribado
 2025-10-17,38531,MSDU-239346-3,Chaguar Sociedad Anonima,EBKG14536752,FX32927216          ,Arribado
+2025-10-21,38586,MSMU-217945-8,Chaguar Sociedad Anonima,EBKG14305566,FX32929635          ,Arribado
+2025-10-21,38587,MSNU-178052-9,Chaguar Sociedad Anonima,EBKG14305566, FX32929636         ,Arribado
+2025-10-21,38588,MSDU-113994-2,Chaguar Sociedad Anonima,EBKG14305566,FX32929638          ,Arribado
+2025-10-21,38589,BMOU-161086-4,Chaguar Sociedad Anonima,EBKG14305566,FX32929639          ,Arribado
 2025-10-16,38520,DRYU-217144-8,Chaguar Sociedad Anonima,15725122,*****************   ,Arribado
 2025-10-16,38521,HLBU-118621-3,Chaguar Sociedad Anonima,15725122,*************       ,Arribado
 2025-10-16,38522,HLBU-123482-0,Chaguar Sociedad Anonima,19429500,***********         ,Arribado
