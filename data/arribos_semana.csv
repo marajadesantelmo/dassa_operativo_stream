@@ -63,8 +63,14 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-03,Trp - Terminales 1-2-3,0400 ,EMCU-863143-7,Shipy S.A.,TSSZ2507177,T,HC,70,1,10:38 Arribado
 2025-10-09,Trp - Terminales 1-2-3,1100 ,EMCU-897415-9,Shipy S.A.,NB250865413,TD,HC,70,1,16:37 Arribado
 2025-10-09,Trp - Terminales 1-2-3,1100 ,EITU-161624-7,Shipy S.A.,NB250865413,TD,HC,70,1,14:45 Arribado
+2025-10-23,Exolgan,0500 ,TCLU-182913-9,Shipy S.A.,DLSZ25090052,T,HC,70,0,Pendiente arribo
+2025-10-23,Exolgan,0500 ,FDCU-014658-8,Shipy S.A.,DLSZ25090008,T,HC,70,0,Pendiente arribo
 2025-10-09,Trp - Terminales 1-2-3,1200 ,DRYU-984682-0,Shipy S.A.,NB250865413,TD,HC,70,1,16:39 Arribado
 2025-10-09,Trp - Terminales 1-2-3,1100 ,FFAU-487001-7,Shipy S.A.,NB250865413,TD,HC,70,1,17:14 Arribado
+2025-10-23,Exolgan,0500 ,DFSU-751297-5,Shipy S.A.,DLSZ25090052,T,HC,70,0,Pendiente arribo
+2025-10-23,Exolgan,0500 ,HAMU-219640-6,Shipy S.A.,DLSZ25090052,T,HC,70,0,Pendiente arribo
+2025-10-23,Exolgan,1100 ,HLBU-255338-1,Shipy S.A.,DLSZ25090052,T,HC,70,0,Pendiente arribo
+2025-10-23,Exolgan,0500 ,HLBU-259918-7,Shipy S.A.,DLSZ25090052,T,HC,70,0,Pendiente arribo
 2025-10-01,Exolgan,0500 ,CAIU-855371-9,Poka S.A.,DLSZ25080151B,T,HC,70,1,09:31 Arribado
 2025-10-01,Exolgan,0500 ,HAMU-169138-6,Poka S.A.,DLSZ25080151B,T,HC,70,1,09:27 Arribado
 2025-10-01,Exolgan,0500 ,HAMU-386909-7,Poka S.A.,DLSZ25080151B,T,HC,70,1,08:26 Arribado
@@ -97,6 +103,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-03,Exolgan,1700 ,MSDU-416608-9,Sk Distributors S.R.L.,DLNB2508611,T,DC,60,1,19:46 Arribado
 2025-10-15,Trp - Terminales 1-2-3,0500 ,SUDU-530915-7,Sk Distributors S.R.L.,DLNB2508183,T,DR,60,1,08:26 Arribado
 2025-10-23,Exolgan,1100 ,UACU-852499-5,Sk Distributors S.R.L.,DLSZ25080414,T,DC,60,0,Pendiente arribo
+2025-10-23,Exolgan,0500 ,HLBU-133334-0,Sk Distributors S.R.L.,DLSZ25080430,T,HC,70,0,Pendiente arribo
 2025-10-22,Terminal 4 - Maersk,1300 ,MSKU-730543-4,Presmar S.A.,OE01XZ250904496,T,DC,30,0,Pendiente arribo
 2025-10-08,Trp - Terminales 1-2-3,1200 ,EITU-152186-1,Rueda Oeste S.A.,CMI013503,T,HC,70,1,15:11 Arribado
 2025-10-20,Terminal 4 - Maersk,0700 ,TCLU-818453-5,Rueda Oeste S.A.,258539068,T,HC,70,1,10:41 Arribado
@@ -202,6 +209,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-10,Trp - Terminales 1-2-3,0500 ,FBIU-565995-6,Kraster Argentina Sa,SHHS25080062,T,DC,60,1,09:25 Arribado
 2025-10-02,Terminal 4 - Maersk,1000 ,FCIU-415019-0,Sermat Sa,AWSL298363,TD,DC,30,1,13:41 Arribado
 2025-10-03,Trp - Terminales 1-2-3,0600 ,OERU-432109-7,Impulso Jm S.A.,TCNB2507645,TD,DC,60,1,09:40 Arribado
+2025-10-23,Exolgan,0500 ,MSMU-148165-3,Impulso Jm S.A.,SYNTAO25SE071041,TD,DC,30,0,Pendiente arribo
 2025-10-14,Terminal 4 - Maersk,1300 ,TRHU-889159-1,Jet Cargo S.A.,ZIMUASH4372678,TD,HC,70,1,18:17 Arribado
 2025-10-10,Terminal 4 - Maersk,0800 ,ZCSU-793858-7,Mibeda S.A.,TWLE25070219,TD,HC,70,1,12:30 Arribado
 2025-10-10,Terminal 4 - Maersk,0800 ,JXLU-634246-4,Mibeda S.A.,TWLE25070218,T,HC,70,1,12:17 Arribado
