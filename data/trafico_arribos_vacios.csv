@@ -5,7 +5,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 38739,23/10,Borax Argentina S A,-,10082,HC,TD,                    ,BUA0353155,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38738,23/10,Borax Argentina S A,-,10082,HC,TD,                    ,BUA0353155,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38737,23/10,Borax Argentina S A,-,10082,HC,TD,                    ,BUA0353155,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-38735,23/10,Borax Argentina S A,-,10082,HC,TD,                    ,BUA0353155,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+38735,23/10,Borax Argentina S A,APHU-728938-1,10082,HC,TD,R8694348            ,BUA0353155,1,TRANSPORTE DEL CLIENTE        ,Rodriguez,18:03,1899-12-30,,                    ,18:03 Arribado
 38734,23/10,Borax Argentina S A,TCNU-527558-3,10082,HC,TD,R8694254            ,BUA0353155,1,TRANSPORTE DEL CLIENTE        ,Garcia,15:47,1899-12-30,,                    ,15:47 Arribado
 38736,23/10,Borax Argentina S A,-,10082,HC,TD,                    ,BUA0353155,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38673,23/10,Forestal Guarani Sa,HASU-479601-6,10080,HC,TD,******************* ,260688151,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,11:58,1899-12-30,,                    ,11:58 Arribado
@@ -33,4 +33,4 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 38712,24/10,Mader Zu S.R.L.,HLBU-206509-4,10080,HC,TD,****************    ,11418090,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,16:54,1899-12-30,,                    ,16:54 Arribado
 38637,24/10,Pelama Chubut S.A.,-,10077,HC,TD,                    ,COSU6432621210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38749,24/10,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500193900,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-38745,24/10,Lawter Argentina S.A.,PIDU-440798-0,10,HC,TD,*************       ,BUE500193900,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+38745,24/10,Lawter Argentina S.A.,PIDU-440798-0,10,HC,TD,*************       ,BUE500193900,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,17:45,1899-12-30,,                    ,17:45 Arribado
