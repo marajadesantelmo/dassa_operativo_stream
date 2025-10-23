@@ -24,8 +24,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 38748,24/10,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500193900,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38747,24/10,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500193900,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38746,24/10,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500193900,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-38744,24/10,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500193900,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-38743,24/10,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500193900,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+38744,24/10,Lawter Argentina S.A.,PCIU-910880-3,10,HC,TD,***********         ,BUE500193900,1,TRANSPORTE DEL CLIENTE        ,Ortiz,17:41,1899-12-30,,                    ,17:41 Arribado
+38743,24/10,Lawter Argentina S.A.,UETU-709845-7,10,HC,TD,***********         ,BUE500193900,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,17:37,1899-12-30,,                    ,17:37 Arribado
 38761,24/10,Hilado Sa,GAOU-626486-6,TRP,HC,TD,                    ,340500037506,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38760,24/10,Hilado Sa,TXGU-747171-5,TRP,HC,TD,                    ,340500037506,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38759,24/10,Hilado Sa,TGBU-996566-9,TRP,HC,TD,                    ,340500037506,0,                              ,,     ,1899-12-30,,                    ,Pendiente
@@ -33,4 +33,4 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 38712,24/10,Mader Zu S.R.L.,HLBU-206509-4,10080,HC,TD,****************    ,11418090,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,16:54,1899-12-30,,                    ,16:54 Arribado
 38637,24/10,Pelama Chubut S.A.,-,10077,HC,TD,                    ,COSU6432621210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38749,24/10,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500193900,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-38745,24/10,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500193900,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+38745,24/10,Lawter Argentina S.A.,PIDU-440798-0,10,HC,TD,*************       ,BUE500193900,0,                              ,,     ,1899-12-30,,                    ,Pendiente
