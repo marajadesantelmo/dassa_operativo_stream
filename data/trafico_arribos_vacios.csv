@@ -10,7 +10,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 38736,23/10,Borax Argentina S A,-,10082,HC,TD,                    ,BUA0353155,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38673,23/10,Forestal Guarani Sa,HASU-479601-6,10080,HC,TD,******************* ,260688151,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,11:58,1899-12-30,,                    ,11:58 Arribado
 38674,23/10,Forestal Guarani Sa,CAAU-917523-0,10080,HC,TD,********************,260688151,1,TRANSPORTE DEL CLIENTE        ,Rodriguez,12:06,1899-12-30,,                    ,12:06 Arribado
-38687,23/10,Global Motion S.A.,-,9,DR,C,                    ,EBKG14420085,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+38687,23/10,Global Motion S.A.,CAIU-667906-1,9,DR,C,FX32985783          ,EBKG14420085,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,16:56,1899-12-30,,                    ,16:56 Arribado
 38675,23/10,Forestal Guarani Sa,MRKU-255659-0,10080,HC,TD,********************,260688151,1,TRANSPORTE DEL CLIENTE        ,Rodriguez,12:10,1899-12-30,,                    ,12:10 Arribado
 38752,24/10,Curtiembre Infante Sa,-,10,HC,TD,                    ,BUE500194300,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38682,24/10,Norfor Sa,-,TRP,HC,TD,                    ,340500042305,0,                              ,,     ,1899-12-30,,                    ,Pendiente
@@ -30,7 +30,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 38760,24/10,Hilado Sa,TXGU-747171-5,TRP,HC,TD,                    ,340500037506,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38759,24/10,Hilado Sa,TGBU-996566-9,TRP,HC,TD,                    ,340500037506,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38758,24/10,Hilado Sa,TXGU-747171-5,0,HC,TD,                    ,340500037506,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-38712,24/10,Mader Zu S.R.L.,-,10080,HC,TD,                    ,11418090,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+38712,24/10,Mader Zu S.R.L.,HLBU-206509-4,10080,HC,TD,****************    ,11418090,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,16:54,1899-12-30,,                    ,16:54 Arribado
 38637,24/10,Pelama Chubut S.A.,-,10077,HC,TD,                    ,COSU6432621210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38749,24/10,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500193900,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38745,24/10,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500193900,0,                              ,,     ,1899-12-30,,                    ,Pendiente
