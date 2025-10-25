@@ -1,33 +1,10 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-38733,24/10,Mercovan Argentina S.A.,TCKU-227735-6,Exolgan,DR,TD,****************    ,17065374,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:43,1899-12-30,Colon,                    ,10:43 Arribado
-38753,24/10,Curtiembre Infante Sa,PIDU-417016-3,10,HC,TD,********************,BUE500194300,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,09:03,1899-12-30,,                    ,09:03 Arribado
-38752,24/10,Curtiembre Infante Sa,PCIU-934711-4,10,HC,TD,***********         ,BUE500194300,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,18:29,1899-12-30,,                    ,18:29 Arribado
-38764,24/10,Forestal Y Ganadera Indumarca ...,MRSU-617029-5,10080,HC,TD,****************    ,261017685,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,08:53,1899-12-30,,                    ,08:53 Arribado
-38686,24/10,Norfor Sa,EITU-177700-4,TRP,HC,TD,******************* ,340500042305,1,TRANSPORTE DEL CLIENTE        ,Alvarez,14:00,1899-12-30,,                    ,14:00 Arribado
-38685,24/10,Norfor Sa,EGSU-984451-8,TRP,HC,TD,*************       ,340500042305,1,TRANSPORTE DEL CLIENTE        ,Bollota,12:16,1899-12-30,,                    ,12:16 Arribado
-38684,24/10,Norfor Sa,EMCU-849950-5,TRP,HC,TD,********************,340500042305,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,11:09,1899-12-30,,                    ,11:09 Arribado
-38683,24/10,Norfor Sa,EGHU-927093-0,TRP,HC,TD,********************,340500042305,1,TRANSPORTE DEL CLIENTE        ,Alvarez,10:12,1899-12-30,,                    ,10:12 Arribado
-38682,24/10,Norfor Sa,TRHU-575912-8,TRP,HC,TD,**************      ,340500042305,1,TRANSPORTE DEL CLIENTE        ,Abadia,10:11,1899-12-30,,                    ,10:11 Arribado
-38750,24/10,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500193900,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-38749,24/10,Lawter Argentina S.A.,PCIU-915741-2,10,HC,TD,*****************   ,BUE500193900,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,11:36,1899-12-30,,                    ,11:36 Arribado
-38748,24/10,Lawter Argentina S.A.,PCIU-907423-6,10,HC,TD,****************    ,BUE500193900,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,10:14,1899-12-30,,                    ,10:14 Arribado
-38747,24/10,Lawter Argentina S.A.,PIDU-423819-7,10,HC,TD,********************,BUE500193900,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,08:57,1899-12-30,,                    ,08:57 Arribado
-38745,24/10,Lawter Argentina S.A.,PIDU-440798-0,10,HC,TD,*************       ,BUE500193900,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,17:45,1899-12-30,,                    ,17:45 Arribado
-38746,24/10,Lawter Argentina S.A.,PCIU-881873-4,10,HC,TD,**************      ,BUE500193900,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,18:35,1899-12-30,,                    ,18:35 Arribado
-38759,24/10,Hilado Sa,TGBU-996566-9,TRP,HC,TD,                    ,340500037506,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-38743,24/10,Lawter Argentina S.A.,UETU-709845-7,10,HC,TD,***********         ,BUE500193900,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,17:37,1899-12-30,,                    ,17:37 Arribado
-38637,24/10,Pelama Chubut S.A.,TCNU-827176-6,10077,HC,TD,**************      ,COSU6432621210,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Martin,13:55,1899-12-30,,                    ,13:55 Arribado
-38761,24/10,Hilado Sa,GAOU-626486-6,TRP,HC,TD,                    ,340500037506,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-38760,24/10,Hilado Sa,TXGU-747171-5,TRP,HC,TD,                    ,340500037506,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-38744,24/10,Lawter Argentina S.A.,PCIU-910880-3,10,HC,TD,***********         ,BUE500193900,1,TRANSPORTE DEL CLIENTE        ,Ortiz,17:41,1899-12-30,,                    ,17:41 Arribado
-38758,24/10,Hilado Sa,TXGU-747171-5,0,HC,TD,                    ,340500037506,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-38712,24/10,Mader Zu S.R.L.,HLBU-206509-4,10080,HC,TD,****************    ,11418090,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,16:54,1899-12-30,,                    ,16:54 Arribado
-38797,27/10,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG14630540,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-38796,27/10,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG14630540,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38790,27/10,J. Llorente Y Cía. S.A.,-,10080,HC,TD,                    ,30737255,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-38798,27/10,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG14630540,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+38807,27/10,Capilatis S.A.,-,10080,HC,TD,                    ,11538072,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38808,27/10,Capilatis S.A.,-,10080,HC,TD,                    ,11538072,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38809,27/10,Capilatis S.A.,-,10080,HC,TD,                    ,11538072,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38791,27/10,Maringa Maderas Sa,-,10074,HC,TD,                    ,ZIMUBUE9044254,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-38807,27/10,Capilatis S.A.,-,10080,HC,TD,                    ,11538072,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+38796,27/10,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG14630540,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+38797,27/10,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG14630540,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+38798,27/10,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG14630540,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 38799,27/10,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG14630540,0,                              ,,     ,1899-12-30,,                    ,Pendiente
