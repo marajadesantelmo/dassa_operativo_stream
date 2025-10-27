@@ -308,10 +308,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-30,36113,CMAU-743799-6,Capilatis S.A.,SNG0472824,R1957581            ,Arribado
 2025-07-30,36114,,Capilatis S.A.,SNG0472824,                    ,Arribado
 2025-07-30,36127,CMAU-949232-8,Capilatis S.A.,SNG0472824,R1957588            ,Arribado
-2025-09-23,37837,CMAU-055117-9,Capilatis S.A.,SNG0478106,R8695331            ,Arribado
-2025-10-27,38807,,Capilatis S.A.,11538072,                    ,Pendiente
-2025-10-27,38808,,Capilatis S.A.,11538072,                    ,Pendiente
 2025-10-27,38809,,Capilatis S.A.,11538072,                    ,Pendiente
+2025-09-23,37837,CMAU-055117-9,Capilatis S.A.,SNG0478106,R8695331            ,Arribado
+2025-10-27,38807,HLBU-316000-7,Capilatis S.A.,11538072,HLD 0436105         ,Arribado
+2025-10-27,38808,FANU-376694-8,Capilatis S.A.,11538072,HLD 0436104         ,Arribado
 2025-09-23,37835,ECMU-709386-7,Capilatis S.A.,SNG0478106,R8691382            ,Arribado
 2025-09-23,37836,CMAU-430429-0,Capilatis S.A.,SNG0478106,R8693569            ,Arribado
 2025-07-17,35704,,Geo Logistics Argentina S.R.L.,25001EC01044241C,                    ,Arribado
@@ -505,7 +505,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-08-08,36460,,Hector Reboratti,24264367,                    ,Pendiente
 2025-06-30,34939,CAIU-459786-9,Maringa Maderas Sa,EBKG13192555,FX32932271          ,Arribado
 2025-07-07,35213,MSNU-761662-0,Maringa Maderas Sa,EBKG13411142,FX32934791          ,Arribado
-2025-10-27,38791,,Maringa Maderas Sa,ZIMUBUE9044254,                    ,Pendiente
+2025-10-27,38791,BEAU-501380-0,Maringa Maderas Sa,ZIMUBUE9044254,********************,Arribado
 2025-09-18,37719,TEMU-812322-3,Maringa Maderas Sa,259288369,**************      ,Arribado
 2025-10-13,38358,BSIU-954105-0,Maringa Maderas Sa,ZIMUBUE9044079,***************     ,Arribado
 2025-10-20,38569,TEMU-622177-1,Maringa Maderas Sa,340500041121,********************,Arribado
@@ -762,7 +762,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-02,35192,PCIU-464717-1,Lawter Argentina S.A.,BUE500115400,**********          ,Arribado
 2025-07-02,35200,PCIU-463911-3,Lawter Argentina S.A.,BUE500115400,*************       ,Arribado
 2025-10-24,38749,PCIU-915741-2,Lawter Argentina S.A.,BUE500193900,*****************   ,Arribado
-2025-10-24,38750,,Lawter Argentina S.A.,BUE500193900,                    ,Pendiente
+2025-10-24,38750,DRYU-932157-6,Lawter Argentina S.A.,BUE500193900,********************,Arribado
 2025-10-24,38743,UETU-709845-7,Lawter Argentina S.A.,BUE500193900,***********         ,Arribado
 2025-10-24,38744,PCIU-910880-3,Lawter Argentina S.A.,BUE500193900,***********         ,Arribado
 2025-10-24,38745,PIDU-440798-0,Lawter Argentina S.A.,BUE500193900,*************       ,Arribado
