@@ -49,7 +49,6 @@ datos_tally.to_csv('data/tally.csv', sep=',', encoding='latin1', index=False)
 # Procesamiento datos de EXPO
 datos_tally_expo = pd.read_csv('TallyBIEXPO.csv', sep='|', encoding='latin1')
 
-
 # Logeo
 gc = gspread.service_account(filename='credenciales_gsheets.json')
 sheet_logs =  gc.open_by_url('https://docs.google.com/spreadsheets/d/1aPUkhige3tq7_HuJezTYA1Ko7BWZ4D4W0sZJtsTyq3A')                                           
