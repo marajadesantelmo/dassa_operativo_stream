@@ -6,7 +6,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-21,Terminal 4 - Maersk,1100 ,TLLU-153779-4,Mercovan Argentina S.A.,258238757,TD,FL,60,1,17:03 Arribado
 2025-10-27,Exolgan,1100 ,MSBU-274370-7,Mercovan Argentina S.A.,MEDUOF833539,TD,DC,30,1,16:53 Arribado
 2025-10-23,Trp - Terminales 1-2-3,1200 ,BMOU-152930-4,Mercovan Argentina S.A.,ONEYLEHF30764600,TD,DC,30,1,17:02 Arribado
-2025-10-24,Terminal 4 - Maersk,1800 ,TRHU-326910-0,Mercovan Argentina S.A.,DXB0970509,T,DC,30,0,Pendiente arribo
+2025-10-29,Terminal 4 - Maersk,0800 ,TRHU-326910-0,Mercovan Argentina S.A.,DXB0970509,T,DC,30,0,Pendiente arribo
 2025-10-28,Trp - Terminales 1-2-3,1100 ,KOCU-404929-0,Mercovan Argentina S.A.,HDMUSELM09368000,TD,HC,70,0,Pendiente arribo
 2025-10-13,Terminal 4 - Maersk,1300 ,SEGU-104461-4,Mercovan Argentina S.A.,ONEYRICFDJ895300,TD,DC,30,1,17:45 Arribado
 2025-10-15,Terminal 4 - Maersk,1300 ,MSKU-353878-3,Mercovan Argentina S.A.,257083804,TD,DR,30,1,18:32 Arribado
@@ -156,7 +156,6 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-29,Exolgan,0500 ,MEDU-893487-1,Bisora Group Sa,NBOE25017667,TD,HC,70,0,Pendiente arribo
 2025-10-09,Trp - Terminales 1-2-3,1200 ,EGSU-963635-0,Novelty Trend Srl,TWLE25080023,TD,HC,70,1,16:45 Arribado
 2025-10-09,Trp - Terminales 1-2-3,1100 ,KOCU-217001-8,Chemotecnica Sa,JSL/NSA//2575A,TD,DR,30,1,16:54 Arribado
-2025-10-29,Exolgan,1300 ,HLBU-172083-8,Gestion Forward S.R.L.,HLCULE1250849513,TD,DC,30,0,Pendiente arribo
 2025-10-16,Terminal 4 - Maersk,0800 ,TLLU-496318-1,Industrias Saladillo S.A.,DEDUS0000032493,TD,HC,70,1,12:00 Arribado
 2025-10-09,Trp - Terminales 1-2-3,1200 ,FBIU-518108-6,Fibras Argentinas Sa,BKK501250100,TD,HC,70,1,17:55 Arribado
 2025-10-09,Trp - Terminales 1-2-3,1200 ,PCIU-607716-5,Fibras Argentinas Sa,BKK501250100,TD,HC,70,1,16:43 Arribado
@@ -226,6 +225,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-29,None,0500 ,TRHU-337367-1,Jet Cargo S.A.,ZIMUNFA4374020,TD,DC,30,0,Pendiente arribo
 2025-10-24,Trp - Terminales 1-2-3,1100 ,CSNU-226383-4,Skop Trader S. A.,TCSH2508229,T,DC,30,1,18:25 Arribado
 2025-10-24,Trp - Terminales 1-2-3,1200 ,CSNU-238709-6,Skop Trader S. A.,TCSH2508229,T,DC,30,1,19:36 Arribado
+2025-10-29,Trp - Terminales 1-2-3,1200 ,KOCU-492522-1,Skop Trader S. A.,TCNB2507800,T,HC,70,0,Pendiente arribo
 2025-10-10,Terminal 4 - Maersk,0800 ,ZCSU-793858-7,Mibeda S.A.,TWLE25070219,TD,HC,70,1,12:30 Arribado
 2025-10-10,Terminal 4 - Maersk,0800 ,JXLU-634246-4,Mibeda S.A.,TWLE25070218,T,HC,70,1,12:17 Arribado
 2025-10-09,Trp - Terminales 1-2-3,1100 ,TGBU-674261-4,Perozzi Domingo Y Perozzi Osva...,TCXM2508019,T,HC,70,1,16:15 Arribado
@@ -256,5 +256,6 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-22,Exolgan,1500 ,ONEU-651056-4,Hogar Total S.A.,ONEYBOGF09702901,T,HC,70,1,18:48 Arribado
 2025-10-22,Exolgan,2100 ,TRHU-702429-8,Hogar Total S.A.,ONEYBOGF09702901,T,HC,70,1,00:24 Arribado
 2025-10-22,Exolgan,2100 ,TRHU-700769-1,Hogar Total S.A.,ONEYBOGF09702901,T,HC,70,1,23:11 Arribado
+2025-10-29,Trp - Terminales 1-2-3,1100 ,HMMU-638940-9,Maria Guadalupe Verano,ROESHA25070597,T,HC,70,0,Pendiente arribo
 2025-10-24,Terminal 4 - Maersk,1500 ,SKYU-824931-1,Jose Luis San Martin,OLGM255329,T,HC,70,1,18:50 Arribado
 2025-10-28,Exolgan,1500 ,MSMU-606035-9,Outdoors Solutions S.R.L.,SYNNGB25SE090264,T,HC,70,0,Pendiente arribo
