@@ -462,7 +462,6 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 425.0,24/10,340500042305,Norfor Sa,Trp - Terminales 1-2-3,2025-10-22T17:50:39.010313,,,Arribado,,EGHU-927093-0,********************,28600,,
 428.0,24/10,340500042305,Norfor Sa,Trp - Terminales 1-2-3,2025-10-22T17:50:39.298253,,,Arribado,,EMCU-849950-5,********************,28600,,
 446.0,24/10,BUE500193900,Lawter Argentina S.A.,Container International Servic,2025-10-23T17:50:40.141797,,,Arribado,,PCIU-910880-3,***********,,,
-474.0,29/10,EBKG14634401,Hdv Leather S.R.L.,Exolgan,2025-10-28T19:05:50.744941,,,,,,,,,
 475.0,29/10,EBKG14634401,Hdv Leather S.R.L.,Exolgan,2025-10-28T19:05:50.905464,,,,,,,,,
 476.0,29/10,EBKG14634401,Hdv Leather S.R.L.,Exolgan,2025-10-28T19:05:51.036005,,,,,,,,,
 477.0,29/10,EBKG14634401,Hdv Leather S.R.L.,Exolgan,2025-10-28T19:05:51.160527,,,,,,,,,
@@ -472,5 +471,8 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 481.0,29/10,BUE500197000,Henn Y Cia S.R.L.,Container International Servic,2025-10-28T19:35:40.610903,,,,,,,,,
 482.0,29/10,BUE500200100,Borax Argentina S A,Container International Servic,2025-10-28T21:20:39.555201,,,,,,,,,
 483.0,30/10,38535442,Mercovan Argentina S.A.,Huxley Sa,2025-10-29T18:50:39.605578,,,,,,,,,
-,30/10,260621163,Pallets Jauregui Sociedad Anon...,Huxley Sa,,,,,,,,,,2.0
-,30/10,EBKG14646524,Isischu Srl,Exolgan,,,,,,,,,,1.0
+484.0,30/10,260621163,Pallets Jauregui Sociedad Anon...,Huxley Sa,2025-10-29T19:05:41.315564,,,,,,,,,
+485.0,30/10,260621163,Pallets Jauregui Sociedad Anon...,Huxley Sa,2025-10-29T19:05:41.445715,,,,,,,,,
+486.0,30/10,EBKG14646524,Isischu Srl,Exolgan,2025-10-29T19:05:41.576275,,,,,,,,,
+474.0,29/10,EBKG14634401,Hdv Leather S.R.L.,Exolgan,2025-10-28T19:05:50.744941,,,16:05 Arribado,,MSBU-506106-4,FX32912983,,,
+,30/10,93260005,Mercovan Argentina S.A.,Huxley Sa,,,,,,,,,,1.0
