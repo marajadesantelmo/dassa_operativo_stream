@@ -9,16 +9,6 @@ Dia,Cliente,Contenedor,Volumen,Precinto,Observaciones,Estado
 2025-07-02,Norfor Sa,EGSU-956773-2,0,---,TRP 15HS,Pendiente
 2025-07-02,Taeda Sa,MEDU-452830-2,0,---,EXOLGAN 16HS,Pendiente
 2025-07-02,Famacon S.A.,UACU-577925-1,-60,---,EXOLGAN 13HS,Pendiente
-2025-07-01,Refractarios Argenti...,HLBU-123935-5,-30,---,EXOLGAN  10HS,Pendiente
-2025-07-01,Refractarios Argenti...,CXDU-176642-9,-30,---,EXOLGAN  10HS,Pendiente
-2025-07-01,Forestal Bosques Del...,MSMU-491820-1,-60,---,EXOLGAN 13HS,Pendiente
-2025-07-01,Forestal Bosques Del...,MSMU-754747-0,-60,---,EXOLGAN  13HS,Pendiente
-2025-07-01,Forestal Bosques Del...,MSNU-686436-6,-60,---,EXOLGAN   13HS,Pendiente
-2025-07-01,Forestal Bosques Del...,MSMU-781741-0,-60,---,EXOLGAN  13HS,Pendiente
-2025-07-01,Forestal Bosques Del...,MEDU-443152-3,-60,---,EXOLGAN 13HS,Pendiente
-2025-07-01,Borax Argentina S A,MSKU-520973-0,-30,---,T4 07HS,Pendiente
-2025-07-01,Borax Argentina S A,TEMU-452471-6,-30,---,T4 09HS,Pendiente
-2025-07-01,Minera Santa Rita Sr...,MSKU-562726-2,-30,---,T4 09HS,Pendiente
 2025-07-07,Forestal Guarani Sa,HLXU-857174-9,0,---,EXOLGAN 13HS,Pendiente
 2025-07-07,Forestal Guarani Sa,HLXU-838700-6,0,---,EXOLGAN 13HS,Pendiente
 2025-07-07,Forestal Guarani Sa,DFSU-709597-4,0,---,EXOLGAN 13HS,Pendiente
@@ -1026,7 +1016,7 @@ Dia,Cliente,Contenedor,Volumen,Precinto,Observaciones,Estado
 2025-10-27,Mader Zu S.R.L.,HAMU-229605-1,0,---,EXOLGAN   13HS,Pendiente
 2025-10-27,Lawter Argentina S.A...,DFSU-119599-7,0,---,EXOLGAN  16HS,Pendiente
 2025-10-27,Mader Zu S.R.L.,HAMU-343208-6,0,---,EXOLGAN  13HS,Pendiente
-2025-10-27,Chaguar Sociedad Ano...,UACU-852896-4,0,---,EXOLGAN  10HS,En curso
+2025-10-27,Chaguar Sociedad Ano...,UACU-852896-4,0,---,EXOLGAN  10HS,Pendiente
 2025-10-27,Global Rover Logisti...,TEMU-105608-3,0,---,EXOLGAN  10HS,Pendiente
 2025-10-27,Mader Zu S.R.L.,MRKU-381451-3,0,---,EXOLGAN   10HS,Pendiente
 2025-10-27,Helvecia S.A.,FCIU-803315-0,0,---,TRP   11HS,Pendiente
@@ -1047,9 +1037,15 @@ Dia,Cliente,Contenedor,Volumen,Precinto,Observaciones,Estado
 2025-10-27,Borax Argentina S A,BEAU-405966-3,0,---,TRP   11HS,Pendiente
 2025-10-27,Borax Argentina S A,BEAU-476422-0,0,---,TRP   11HS,Pendiente
 2025-10-27,Borax Argentina S A,GESU-627706-5,0,---,TRP    11HS,Pendiente
-2025-10-28,Chaguar Sociedad Ano...,UACU-832198-2,-60,---,EXOLGAN   16HS,En curso
-2025-10-28,Mercovan Argentina S...,TCKU-227735-6,0,---,EXOLGAN  13HS,En curso
-2025-10-28,Litoral Citrus S A,MSBU-321747-7,0,---,EXOLGAN   13HS  (IMO),En curso
+2025-10-28,Santa Anita Oil Sa,TCNU-781442-6,0,---,EXOLGAN   16HS,Pendiente
+2025-10-28,Santa Anita Oil Sa,TCLU-795195-1,0,---,EXOLGAN   16HS,Pendiente
+2025-10-28,Santa Anita Oil Sa,GAOU-655819-8,0,---,EXOLGAN   16HS,Pendiente
+2025-10-28,Santa Anita Oil Sa,TCLU-643363-9,0,---,EXOLGAN   16HS,Pendiente
+2025-10-28,Santa Anita Oil Sa,ONEU-116748-9,0,---,EXOLGAN  16HS,Pendiente
+2025-10-28,Santa Anita Oil Sa,GAOU-650066-3,0,---,EXOLGAN   16HS,Pendiente
+2025-10-28,Chaguar Sociedad Ano...,UACU-832198-2,-60,---,EXOLGAN   16HS,Pendiente
+2025-10-28,Mercovan Argentina S...,TCKU-227735-6,0,---,EXOLGAN  13HS,Pendiente
+2025-10-28,Litoral Citrus S A,MSBU-321747-7,0,---,EXOLGAN   13HS  (IMO),Pendiente
 2025-10-24,Taeda Sa,CZZU-890092-6,0,---,TRP   09HS,Pendiente
 2025-10-24,Chaguar Sociedad Ano...,MSMU-217945-8,0,---,EXOLGAN   13HS,Pendiente
 2025-10-24,Chaguar Sociedad Ano...,MSNU-178052-9,0,---,EXOLGAN  13HS,Pendiente
@@ -1060,16 +1056,44 @@ Dia,Cliente,Contenedor,Volumen,Precinto,Observaciones,Estado
 2025-10-24,Lift Van Int. Co S.A,TEMU-207360-8,0,---,EXOLGAN   22HS,Pendiente
 2025-10-24,Pampa Logistica Inte...,BEAU-223378-1,0,---,EXOLGAN  10HS,Pendiente
 2025-10-24,Global Motion S.A.,CAIU-667906-1,0,---,EXOLGAN   16HS,Pendiente
+2025-10-29,Mader Zu S.R.L.,HLBU-206509-4,0,---,exolgan   10hs,11:47 Realizado
+2025-10-29,Henn Y Cia S.R.L.,EGSU-991341-3,0,---,TRP    15HS,En curso
+2025-10-29,Henn Y Cia S.R.L.,EGSU-147236-9,0,---,TRP   15HS,En curso
+2025-10-29,Henn Y Cia S.R.L.,BEAU-502708-5,0,---,TRP    15HS,En curso
+2025-10-29,Henn Y Cia S.R.L.,TGBU-657503-4,0,---,TRP   15HS,En curso
+2025-10-29,Pelama Chubut S.A.,TCNU-827176-6,0,---,TRP   11HS,11:47 Realizado
 2025-07-08,Henn Y Cia S.R.L.,BMOU-213304-6,30,                    ,EXOLGAN 16HS,Pendiente
 2025-08-19,Hdv Leather S.R.L.,MEDU-700414-5,60,                    ,EXOLGAN 10HS,Pendiente
-2025-10-28,Santa Anita Oil Sa,TCNU-781442-6,0,********************,EXOLGAN   16HS,Pendiente
-2025-10-28,Santa Anita Oil Sa,TCLU-795195-1,0,***************     ,EXOLGAN   16HS,Pendiente
-2025-10-28,Santa Anita Oil Sa,GAOU-655819-8,0,********************,EXOLGAN   16HS,Pendiente
-2025-10-28,Santa Anita Oil Sa,TCLU-643363-9,0,******************  ,EXOLGAN   16HS,Pendiente
-2025-10-28,Santa Anita Oil Sa,ONEU-116748-9,0,******************* ,EXOLGAN  16HS,Pendiente
-2025-10-28,Santa Anita Oil Sa,GAOU-650066-3,0,****************    ,EXOLGAN   16HS,Pendiente
-2025-10-29,Mader Zu S.R.L.,HLBU-206509-4,0,****************    ,exolgan   10hs,Pendiente
-2025-10-29,Henn Y Cia S.R.L.,EGSU-991341-3,0,*************       ,TRP    15HS,Pendiente
-2025-10-29,Henn Y Cia S.R.L.,EGSU-147236-9,0,***************     ,TRP   15HS,Pendiente
-2025-10-29,Henn Y Cia S.R.L.,BEAU-502708-5,0,******************* ,TRP    15HS,Pendiente
-2025-10-29,Henn Y Cia S.R.L.,TGBU-657503-4,0,********************,TRP   15HS,Pendiente
+2025-10-30,Chaguar Sociedad Ano...,MSDU-290937-5,0,FX32929328          ,EXOLGAN  07HS A 10HS,Pendiente
+2025-10-30,Chaguar Sociedad Ano...,MSDU-153437-7,0,FX32929329          ,EXOLGAN  07HS A 10HS,Pendiente
+2025-10-30,Chaguar Sociedad Ano...,MSMU-148165-3,0,FX32926958          ,EXOLGAN  10HS,Pendiente
+2025-10-30,Forestal Y Ganadera ...,MRSU-617029-5,0,****************    ,TERMINAL 4  13HS,Pendiente
+2025-10-30,Lift Van Int. Co S.A,CAAU-827265-8,0,****************    ,TERMINAL  4 13HS,Pendiente
+2025-10-30,Lift Van Int. Co S.A,MRKU-225456-4,0,*****************   ,TERMINAL 4   13HS,Pendiente
+2025-10-30,Maringa Maderas Sa,BEAU-501380-0,0,********************,TERMINAL 4 13HS,Pendiente
+2025-10-30,J. Llorente Y Cía. S...,TGBU-606328-0,0,********************,EXOLGAN   13HS,Pendiente
+2025-10-30,Forestal Guarani Sa,CAAU-917523-0,0,********************,TERMINAL 4   15HS,Pendiente
+2025-10-30,Forestal Guarani Sa,MRSU-825182-1,0,************        ,TERMINAL 4  15HS,Pendiente
+2025-10-30,Capilatis S.A.,HLBU-316000-7,0,HLD 0436105         ,MULTIMODAL CHILE,Pendiente
+2025-10-30,Capilatis S.A.,FANU-376694-8,0,HLD 0436104         ,MULTIMODAL CHILE,Pendiente
+2025-10-30,Capilatis S.A.,HAMU-435371-5,0,HLD 0436106         ,MULTIMODAL CHILE,Pendiente
+2025-10-30,Curtiembre Infante S...,PCIU-934711-4,0,***********         ,TRP  19HS,Pendiente
+2025-10-30,Curtiembre Infante S...,PIDU-417016-3,0,********************,TRP  19HS,Pendiente
+2025-10-31,Maringa Maderas Sa,TEMU-622177-1,0,********************,TRP  09HS,Pendiente
+2025-10-31,Maringa Maderas Sa,EGHU-914503-4,0,***************     ,TRP  09HS,Pendiente
+2025-10-31,Hilado Sa,TXGU-747171-5,0,                    ,TRP  17HS,Pendiente
+2025-10-31,Hilado Sa,TGBU-996566-9,0,                    ,TRP   17HS,Pendiente
+2025-10-31,Hilado Sa,GAOU-626486-6,0,                    ,TRP   17HS,Pendiente
+2025-10-31,Lawter Argentina S.A...,MSDU-405733-9,0,FX32929263          ,EXOLGAN  19HS,Pendiente
+2025-10-31,Lawter Argentina S.A...,MSDU-461985-8,0,FX32929261          ,EXOLGAN   19HS,Pendiente
+2025-10-31,Lawter Argentina S.A...,MSDU-461899-6,0,FX32929298          ,EXOLGAN   19HS,Pendiente
+2025-10-31,Lawter Argentina S.A...,TTNU-565635-0,0,FX32929289          ,EXOLGAN   19HS,Pendiente
+2025-11-03,Lawter Argentina S.A...,UETU-709845-7,0,***********         ,TRP   09HS,Pendiente
+2025-11-03,Lawter Argentina S.A...,PCIU-910880-3,0,***********         ,TRP  09HS,Pendiente
+2025-11-03,Lawter Argentina S.A...,PIDU-440798-0,0,*************       ,TRP   09HS,Pendiente
+2025-11-03,Lawter Argentina S.A...,PCIU-881873-4,0,**************      ,TRP   09HS,Pendiente
+2025-11-03,Lawter Argentina S.A...,PIDU-423819-7,0,********************,TRP   09HS,Pendiente
+2025-11-03,Lawter Argentina S.A...,PCIU-907423-6,0,****************    ,TRP  09HS,Pendiente
+2025-11-03,Lawter Argentina S.A...,PCIU-915741-2,0,*****************   ,TRP   09HS,Pendiente
+2025-11-03,Lawter Argentina S.A...,DRYU-932157-6,0,********************,TRP   09HS,Pendiente
+2025-11-03,Isischu Srl,MRSU-792538-0,0,********************,EXOLGAN  10HS,Pendiente
