@@ -81,7 +81,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-29,Trp - Terminales 1-2-3,1100 ,KOCU-464353-1,Shipy S.A.,TSSZ2508116,T,HC,70,1,14:45 Arribado
 2025-10-30,Trp - Terminales 1-2-3,1000 ,EGSU-152789-9,Shipy S.A.,TSSZ2508167,T,HC,70,1,14:15 Arribado
 2025-10-30,Trp - Terminales 1-2-3,1000 ,BSIU-811382-3,Shipy S.A.,TSSZ2508167,T,HC,70,1,15:04 Arribado
-2025-10-30,Trp - Terminales 1-2-3,1100 ,EMCU-842647-4,Shipy S.A.,TSSZ2508167,T,HC,70,0,Pendiente arribo
+2025-10-30,Trp - Terminales 1-2-3,1100 ,EMCU-842647-4,Shipy S.A.,TSSZ2508167,T,HC,70,1,15:16 Arribado
 2025-10-30,Trp - Terminales 1-2-3,0700 ,TGBU-658211-5,Shipy S.A.,TSSZ2508167,T,HC,70,1,10:26 Arribado
 2025-10-29,Trp - Terminales 1-2-3,1100 ,HMMU-638104-9,Shipy S.A.,TSSZ2508117,T,HC,70,1,14:48 Arribado
 2025-10-29,Trp - Terminales 1-2-3,1200 ,KOCU-438047-7,Shipy S.A.,TSSZ2508117,T,HC,70,1,16:12 Arribado
@@ -159,7 +159,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-30,Trp - Terminales 1-2-3,1200 ,FFAU-495285-6,Juliana Sa,NGNT51061200,T,HC,70,0,Pendiente arribo
 2025-10-30,Trp - Terminales 1-2-3,1100 ,CMAU-934364-3,Juliana Sa,NGP2732956,T,HC,70,1,14:01 Arribado
 2025-10-22,Trp - Terminales 1-2-3,1000 ,CMAU-555702-0,Juliana Sa,NGP2684956,T,HC,70,1,14:37 Arribado
-2025-10-24,Trp - Terminales 1-2-3,1100 ,TCNU-669452-1,Juliana Sa,OOLU2161436390,T,HC,70,1,18:07 Arribado
+2025-10-24,Trp - Terminales 1-2-3,1100 ,TCNU-669452-1,Juliana Sa,OOLU2161436390,TD,HC,70,1,18:07 Arribado
 2025-10-24,Trp - Terminales 1-2-3,1200 ,CAAU-601458-8,Juliana Sa,NGNT51061100,T,HC,70,1,19:05 Arribado
 2025-10-28,Trp - Terminales 1-2-3,1200 ,GESU-646776-4,Juliana Sa,NGP2732970,T,HC,70,1,15:26 Arribado
 2025-10-30,Trp - Terminales 1-2-3,1200 ,OOCU-963929-3,Juliana Sa,OOLU2161806950,T,HC,70,0,Pendiente arribo
@@ -194,6 +194,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-24,Terminal 4 - Maersk,1300 ,ECMU-704939-7,Aerofit Srl,EID0892505,T,HC,70,1,17:12 Arribado
 2025-10-30,Trp - Terminales 1-2-3,1500 ,OOCU-745752-0,Eramine Sudamerica Sa,NSHEC250841564,TD,HC,70,0,Pendiente arribo
 2025-10-30,Trp - Terminales 1-2-3,1300 ,FFAU-643636-0,Eramine Sudamerica Sa,NSHEC250841564,TD,HC,70,0,Pendiente arribo
+2025-10-31,Trp - Terminales 1-2-3,1200 ,KOCU-212195-0,Dodero & Cia S.R.L.,SZE25081223,T,DC,30,0,Pendiente arribo
 2025-10-24,Terminal 4 - Maersk,1000 ,CMAU-758235-6,Foralia Sa,148515007218,T,HC,70,1,14:22 Arribado
 2025-10-23,Trp - Terminales 1-2-3,1500 ,EGHU-833111-6,Aceptyourdestiny Sa,HDE25-0800013,T,HC,70,1,18:29 Arribado
 2025-10-24,Trp - Terminales 1-2-3,1500 ,EISU-183943-7,Aceptyourdestiny Sa,HDE25-0900031,T,DC,60,1,18:24 Arribado
@@ -265,7 +266,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-31,Trp - Terminales 1-2-3,0700 ,HMMU-659616-0,Skop Trader S. A.,TCNB2508476,T,HC,70,0,Pendiente arribo
 2025-10-10,Terminal 4 - Maersk,0800 ,ZCSU-793858-7,Mibeda S.A.,TWLE25070219,TD,HC,70,1,12:30 Arribado
 2025-10-10,Terminal 4 - Maersk,0800 ,JXLU-634246-4,Mibeda S.A.,TWLE25070218,T,HC,70,1,12:17 Arribado
-2025-10-30,Trp - Terminales 1-2-3,1200 ,EGHU-917559-5,Mibeda S.A.,TWLE25080202,T,HC,70,0,Pendiente arribo
+2025-10-30,Trp - Terminales 1-2-3,1200 ,EGHU-917559-5,Mibeda S.A.,TWLE25080202,T,HC,70,1,15:19 Arribado
 2025-10-30,Trp - Terminales 1-2-3,1200 ,EGHU-975425-7,Mibeda S.A.,TWLE25080201,T,HC,70,0,Pendiente arribo
 2025-10-30,Trp - Terminales 1-2-3,1100 ,EITU-917903-5,Impacto Jean S.A.,HDE25-0900012,T,HC,70,0,Pendiente arribo
 2025-10-09,Trp - Terminales 1-2-3,1100 ,TGBU-674261-4,Perozzi Domingo Y Perozzi Osva...,TCXM2508019,T,HC,70,1,16:15 Arribado
