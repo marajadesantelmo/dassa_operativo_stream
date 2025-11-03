@@ -1,7 +1,6 @@
 Dia,Cliente,Desc. Merc.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado,idcont,e-tally
 2025-07-29,Lift Van Int. Co S.A,Mudanza,TCLU-343728-7,Contenedor,1,0,PLZA,Pendiente,,
 2025-09-10,Grupo Harley S.A.,Motortcycle Tire,TGBU-925320-0,Bultos,745,299,IA8,Realizado,2411,http://dassa.mqbic.com/PublicTally.php?id=2411
-2025-10-30,Sk Distributors S.R....,Stand Mixer,UACU-852499-5,Contenedor,1,0,PLZA,Realizado,,
 2025-10-30,Poka S.A.,Juguetes,EITU-904387-7,Contenedor,1,0,PLZA,Realizado,,
 2025-10-30,Poka S.A.,Juguetes,TCNU-168400-6,Contenedor,1,0,PLZA,Realizado,,
 2025-10-30,Poka S.A.,Juguetes,EGHU-927093-0,Bultos,375,68,IA2,Realizado,2889,http://dassa.mqbic.com/PublicTally.php?id=2889
@@ -41,10 +40,11 @@ Dia,Cliente,Desc. Merc.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado,idcont,e-ta
 2025-11-04,Servicios L&A S.R.L.,Washing Machine,PCIU-939632-0,Bultos,10,31,IB6,Pendiente,3031,http://dassa.mqbic.com/PublicTally.php?id=3031
 2025-11-04,Servicios L&A S.R.L.,Washing Machine,PCIU-939632-0,Bultos,10,31,IB6,Pendiente,3031,http://dassa.mqbic.com/PublicTally.php?id=3031
 2025-11-04,Servicios L&A S.R.L.,Washing Machine,PCIU-939632-0,Bultos,10,31,IB6,Pendiente,3031,http://dassa.mqbic.com/PublicTally.php?id=3031
-2025-11-03,Sk Distributors S.R....,Stand Mixer,UACU-852499-5,Contenedor,1,0,PLZA,Realizado,,
-2025-11-03,Dmc Import Group S.R...,Ceramic,GAOU-629454-1,Contenedor,1,0,PLZA,Pendiente,,
-2025-11-03,Noah Servicess.R.L.,Quentin Octavio / Ef...,HLXU-809241-1,Bultos,396,65,ANEX-A1,Pendiente,2867,http://dassa.mqbic.com/PublicTally.php?id=2867
-2025-11-03,Maria Guadalupe Vera...,Striaght Umbrella,HMMU-638940-9,Contenedor,1,0,PLZA,Pendiente,,
+2025-11-04,Soul Design S.R.L,Allo Y Alkluminum,KOCU-212195-0,Contenedor,1,0,PLZA,Pendiente,,
+2025-11-04,Maria Guadalupe Vera...,Striaght Umbrella,HMMU-638940-9,Contenedor,1,0,PLZA,Realizado,,
+2025-11-03,Dmc Import Group S.R...,Ceramic,GAOU-629454-1,Contenedor,1,0,PLZA,Realizado,,
+2025-11-03,Noah Servicess.R.L.,Quentin Octavio / Ef...,HLXU-809241-1,Bultos,396,65,ANEX-A1,Realizado,2867,http://dassa.mqbic.com/PublicTally.php?id=2867
+2025-11-03,Maria Guadalupe Vera...,Striaght Umbrella,HMMU-638940-9,Contenedor,1,0,PLZA,Realizado,,
 2025-07-07,Gm Cargo Srl,Mudanza - Juan Cruz ...,CLHU-468714-0,Bultos,9,-20,IA8,Realizado,2038,http://dassa.mqbic.com/PublicTally.php?id=2038
 2025-07-07,Gm Cargo Srl,Mudanza - Juan Cruz ...,CLHU-468714-0,Bultos,9,-20,IA8,Realizado,2038,http://dassa.mqbic.com/PublicTally.php?id=2038
 2025-07-07,Gm Cargo Srl,Mudanza - Juan Cruz ...,CLHU-468714-0,Bultos,9,-20,IA8,Realizado,2038,http://dassa.mqbic.com/PublicTally.php?id=2038
@@ -419,6 +419,7 @@ Dia,Cliente,Desc. Merc.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado,idcont,e-ta
 2025-10-02,Sk Distributors S.R....,Vacuum Cleaner,BEAU-416511-4,Contenedor,1,0,PLZA,Realizado,,
 2025-10-30,Grupo Leal-Tex S.R.L...,Telas,MSNU-907577-8,Contenedor,1,0,PLZA,Realizado,,
 2025-10-30,Sk Distributors S.R....,Fan,HLBU-133334-0,Contenedor,1,0,PLZA,Realizado,,
+2025-10-30,Sk Distributors S.R....,Stand Mixer,UACU-852499-5,Contenedor,1,0,PLZA,Realizado,,
 2025-10-30,Tio Musa,Refrigerator And Wah...,UETU-785011-6,Contenedor,1,0,PLZA,Realizado,,
 2025-10-30,Tio Musa,Refrigerator And Wah...,UETU-786271-3,Contenedor,1,0,PLZA,Realizado,,
 2025-10-30,Impulso Jm S.A.,Woven Caps,MSMU-148165-3,Bultos,62,-13,IB9,Realizado,2926,http://dassa.mqbic.com/PublicTally.php?id=2926
@@ -637,3 +638,4 @@ Dia,Cliente,Desc. Merc.,Contenedor,Envase,Cant.,Volumen,Ubic.,Estado,idcont,e-ta
 2025-10-29,Noah Servicess.R.L.,Tavares Magdalena,OOCU-749009-2,Bultos,151,-45,ANEX-A1,Realizado,2905,http://dassa.mqbic.com/PublicTally.php?id=2905
 2025-10-31,E A Balbi E Hijos S ...,Towels,MSMU-701481-0,Contenedor,1,0,PLZA,Realizado,,
 2025-10-31,E A Balbi E Hijos S ...,Towels,MSDU-636869-0,Contenedor,1,0,PLZA,Realizado,,
+2025-11-03,Sk Distributors S.R....,Stand Mixer,UACU-852499-5,Contenedor,1,0,PLZA,Realizado,,
