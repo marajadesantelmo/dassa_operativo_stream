@@ -47,7 +47,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-14,35483,MRKU-843119-0,Lift Van Int. Co S.A,256447645,************        ,Arribado
 2025-07-14,35532,CAIU-668649-8,Lift Van Int. Co S.A,58233181,**********          ,Arribado
 2025-07-15,35617,DFSU-249229-0,Lift Van Int. Co S.A,34208160,**********          ,Arribado
-2025-11-03,38987,,Lift Van Int. Co S.A,90644776,                    ,Pendiente
+2025-11-03,38987,TEMU-130191-4,Lift Van Int. Co S.A,90644776,*****************   ,Arribado
+2025-11-03,39031,HLXU-533772-1,Lift Van Int. Co S.A,21952925,************        ,Arribado
 2025-10-21,38581,UACU-851181-1,Lift Van Int. Co S.A,68719902,******************  ,Arribado
 2025-10-21,38645,MSDU-436363-7,Lift Van Int. Co S.A,EBKGQ0014D1F,FX32920867          ,Arribado
 2025-10-22,38647,TEMU-207360-8,Lift Van Int. Co S.A,EBKGQ0014BFF,FX32913683          ,Arribado
@@ -206,14 +207,17 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-08-18,36718,MSKU-590708-9,Pelama Chubut S.A.,258267536,********************,Arribado
 2025-08-20,36761,GCXU-244120-3,Pelama Chubut S.A.,23475304,********************,Arribado
 2025-08-13,36578,HLBU-127003-1,Pelama Chubut S.A.,78952605,**********          ,Arribado
+2025-11-04,39033,TCLU-214568-1,Almar Internacional Del Argentina S.A.,EBKG14634030,FX32926354          ,Arribado
+2025-11-04,39034,,Almar Internacional Del Argentina S.A.,EBKG14634030,                    ,Pendiente
 2025-10-23,38687,CAIU-667906-1,Global Motion S.A.,EBKG14420085,FX32985783          ,Arribado
 2025-10-27,38790,TGBU-606328-0,J. Llorente Y Cía. S.A.,30737255,********************,Arribado
 2025-07-16,35627,TCLU-672748-5,Mader Zu S.R.L.,34885166,************        ,Arribado
 2025-07-16,35628,,Mader Zu S.R.L.,34885166,                    ,Pendiente
 2025-07-16,35679,HLXU-846139-8,Mader Zu S.R.L.,34885166,***********         ,Arribado
+2025-11-03,39039,TCLU-526565-4,Mader Zu S.R.L.,COSU6434342550,***********         ,Arribado
 2025-10-24,38712,HLBU-206509-4,Mader Zu S.R.L.,11418090,****************    ,Arribado
-2025-11-03,38999,,Mader Zu S.R.L.,COSU6434342550,                    ,Pendiente
-2025-11-03,39000,,Mader Zu S.R.L.,COSU6434342550,                    ,Pendiente
+2025-11-03,38999,FSCU-883559-8,Mader Zu S.R.L.,COSU6434342550,*****************   ,Arribado
+2025-11-03,39000,TRHU-657038-1,Mader Zu S.R.L.,COSU6434342550,************        ,Arribado
 2025-10-15,38465,MRKU-381451-3,Mader Zu S.R.L.,260361275,***************     ,Arribado
 2025-10-21,38609,HLBU-254647-0,Mader Zu S.R.L.,93491205,****************    ,Arribado
 2025-10-21,38610,FSCU-716355-0,Mader Zu S.R.L.,93491205,*************       ,Arribado
@@ -417,8 +421,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-17,35747,CAIU-480411-7,Mafralac Alimenticia Srl,92937581,***********         ,Arribado
 2025-08-07,36448,,Tipoiti Satic,25001EC01050878P,                    ,Arribado
 2025-08-25,36850,HLBU-212497-8,Tipoiti Satic,90341233,**********          ,Arribado
-2025-11-04,39005,,Tipoiti Satic,56754433,                    ,Pendiente
-2025-11-04,39006,,Tipoiti Satic,56754433,                    ,Pendiente
+2025-11-04,39005,HLXU-816618-1,Tipoiti Satic,56754433,********************,Arribado
+2025-11-04,39006,HLBU-310403-0,Tipoiti Satic,56754433,******************* ,Arribado
 2025-11-04,39007,,Tipoiti Satic,56754433,                    ,Pendiente
 2025-10-13,38320,TCNU-836512-4,Global Rover Logistic Srl,260039607,***********         ,Arribado
 2025-10-13,38321,MSKU-114155-0,Global Rover Logistic Srl,260039607,********************,Arribado
@@ -532,10 +536,15 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-21,35727,GAOU-689641-0,Carpal Sa,ZIMUBUE9041802,*************       ,Arribado
 2025-07-21,35729,JXLU-633516-7,Carpal Sa,ZIMUBUE9041801,***********         ,Arribado
 2025-07-21,35730,JXLU-639362-5,Carpal Sa,ZIMUBUE9041801,***********         ,Arribado
+2025-11-04,39046,,Henn Y Cia S.R.L.,260029950,                    ,Pendiente
+2025-11-04,39047,,Henn Y Cia S.R.L.,260029950,                    ,Pendiente
+2025-11-04,39048,,Henn Y Cia S.R.L.,260029950,                    ,Pendiente
+2025-11-04,39049,,Henn Y Cia S.R.L.,260029950,                    ,Pendiente
 2025-10-31,38978,TIIU-544996-1,Henn Y Cia S.R.L.,340500036861,******************  ,Arribado
 2025-10-31,38979,EGSU-936103-7,Henn Y Cia S.R.L.,340500036861,******************  ,Arribado
 2025-10-31,38980,EGSU-164232-0,Henn Y Cia S.R.L.,340500036861,******************* ,Arribado
-2025-10-31,38981,,Henn Y Cia S.R.L.,340500036861,                    ,Pendiente
+2025-10-31,38981,CAAU-544001-7,Henn Y Cia S.R.L.,340500036861,******************  ,Arribado
+2025-11-04,39045,,Henn Y Cia S.R.L.,260029950,                    ,Pendiente
 2025-10-29,38890,PCIU-138864-7,Henn Y Cia S.R.L.,BUE500197000,********************,Arribado
 2025-10-29,38891,PCIU-284643-0,Henn Y Cia S.R.L.,BUE500197000,******************* ,Arribado
 2025-10-29,38892,PCIU-142609-5,Henn Y Cia S.R.L.,BUE500196900,********************,Arribado
@@ -1012,10 +1021,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-07,35266,HASU-497641-9,Hdv Leather S.R.L.,255365721,************        ,Arribado
 2025-07-07,35267,SUDU-683629-7,Hdv Leather S.R.L.,255365721,**********          ,Arribado
 2025-07-07,35268,MSKU-978948-8,Hdv Leather S.R.L.,255365721,***********         ,Arribado
-2025-11-03,38994,,Hdv Leather S.R.L.,BUE500198900,                    ,Pendiente
-2025-11-03,38995,,Hdv Leather S.R.L.,BUE500198900,                    ,Pendiente
-2025-11-03,38996,,Hdv Leather S.R.L.,BUE500198900,                    ,Pendiente
-2025-11-03,38997,,Hdv Leather S.R.L.,BUE500198900,                    ,Pendiente
+2025-11-05,39061,,Hdv Leather S.R.L.,COSU6435163910,                    ,Pendiente
+2025-11-05,39062,,Hdv Leather S.R.L.,COSU6435163910,                    ,Pendiente
+2025-11-03,38994,UETU-598577-1,Hdv Leather S.R.L.,BUE500198900,*****************   ,Arribado
+2025-11-03,38995,CAIU-992317-1,Hdv Leather S.R.L.,BUE500198900,*************       ,Arribado
+2025-11-03,38996,TIIU-405422-6,Hdv Leather S.R.L.,BUE500198900,****************    ,Arribado
+2025-11-03,38997,PIDU-452695-3,Hdv Leather S.R.L.,BUE500198900,******************* ,Arribado
 2025-10-29,38886,MSBU-506106-4,Hdv Leather S.R.L.,EBKG14634401,FX32912983          ,Arribado
 2025-10-29,38887,CAIU-712744-7,Hdv Leather S.R.L.,EBKG14634401,FX32912839          ,Arribado
 2025-10-29,38888,MSDU-639901-1,Hdv Leather S.R.L.,EBKG14634401,FX32912934          ,Arribado
@@ -1184,11 +1195,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-23,35881,TEMU-223300-7,Chaguar Sociedad Anonima,256457109,********            ,Arribado
 2025-07-23,35882,MRSU-032431-0,Chaguar Sociedad Anonima,256457109,**********          ,Arribado
 2025-07-23,35883,,Chaguar Sociedad Anonima,256457109,                    ,Pendiente
-2025-11-04,39012,,Chaguar Sociedad Anonima,EBKG14630569,                    ,Pendiente
-2025-11-04,39013,,Chaguar Sociedad Anonima,EBKG14630569,                    ,Pendiente
-2025-11-04,39014,,Chaguar Sociedad Anonima,EBKG14630569,                    ,Pendiente
-2025-11-04,39015,,Chaguar Sociedad Anonima,EBKG14630569,                    ,Pendiente
-2025-11-04,39016,,Chaguar Sociedad Anonima,EBKG14630569,                    ,Pendiente
+2025-11-04,39012,TEMU-005642-7,Chaguar Sociedad Anonima,EBKG14630569,FX32926451          ,Arribado
+2025-11-04,39013,MSDU-115473-6,Chaguar Sociedad Anonima,EBKG14630569,FX32926461          ,Arribado
+2025-11-04,39014,MSBU-186836-1,Chaguar Sociedad Anonima,EBKG14630569,FX32926457          ,Arribado
+2025-11-04,39015,MEDU-387693-6,Chaguar Sociedad Anonima,EBKG14630569,FX32926409          ,Arribado
+2025-11-04,39016,MEDU-601218-8,Chaguar Sociedad Anonima,EBKG14630569,FX32926410          ,Arribado
 2025-10-21,38588,MSDU-113994-2,Chaguar Sociedad Anonima,EBKG14305566,FX32929638          ,Arribado
 2025-10-21,38589,BMOU-161086-4,Chaguar Sociedad Anonima,EBKG14305566,FX32929639          ,Arribado
 2025-10-27,38796,MSDU-290937-5,Chaguar Sociedad Anonima,EBKG14630540,FX32929328          ,Arribado
