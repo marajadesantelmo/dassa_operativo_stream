@@ -1,5 +1,4 @@
 Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribado,Estado
-2025-11-05,Trp - Terminales 1-2-3,1100 ,CCLU-720711-5,S/D,TJN0745457A/B,TD,HC,70,0,Pendiente arribo
 2025-10-15,Terminal 4 - Maersk,1300 ,MSKU-353878-3,Mercovan Argentina S.A.,257083804,TD,DR,30,1,18:32 Arribado
 2025-10-15,Trp - Terminales 1-2-3,0500 ,CAAU-724927-3,Mercovan Argentina S.A.,256003808,TD,DR,60,1,09:27 Arribado
 2025-10-15,Exolgan,1500 ,MSNU-183435-3,Mercovan Argentina S.A.,MEDUJV957553,TD,DR,30,1,18:57 Arribado
@@ -14,9 +13,10 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-15,Exolgan,1500 ,HLBU-175216-2,Lift Van Int. Co S.A,HLUSPIL250801730,TD,HC,70,1,17:03 Arribado
 2025-11-03,Exolgan,1900 ,SEKU-677686-5,Lift Van Int. Co S.A,MEDUOF885372,T,HC,70,1,20:59 Arribado
 2025-11-05,Terminal 4 - Maersk,1300 ,MRKU-833382-4,Lift Van Int. Co S.A,SJOARBUE250059,TD,DC,30,0,Pendiente arribo
+2025-11-05,Trp - Terminales 1-2-3,1200 ,TCKU-436130-0,Lift Van Int. Co S.A,ONEYHAMF81785300,TD,DR,60,0,Pendiente arribo
 2025-10-30,Terminal 4 - Maersk,0900 ,MRKU-655019-0,Lift Van Int. Co S.A,721052693,TD,DR,30,1,15:53 Arribado
 2025-11-04,Exolgan,0500 ,HLXU-110708-4,Lift Van Int. Co S.A,HLCUBSC2508BXSF9,TD,DC,30,1,10:14 Arribado
-2025-11-04,Exolgan,0500 ,CXDU-205132-7,Lift Van Int. Co S.A,ONEYRICFGU423900,TD,HC,70,0,Pendiente arribo
+2025-11-04,Exolgan,0500 ,CXDU-205132-7,Lift Van Int. Co S.A,ONEYRICFGU423900,TD,HC,70,1,10:50 Arribado
 2025-11-04,Exolgan,0500 ,TCLU-414582-3,Lift Van Int. Co S.A,HLCUME3250904035,TD,DC,60,0,Pendiente arribo
 2025-10-21,Exolgan,0500 ,MSDU-474726-8,Lift Van Int. Co S.A,10899855,TD,DC,60,1,11:07 Arribado
 2025-10-21,Exolgan,0500 ,MSBU-412474-3,Lift Van Int. Co S.A,10899855,TD,DC,60,1,10:55 Arribado
@@ -250,3 +250,4 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-24,Terminal 4 - Maersk,1500 ,SKYU-824931-1,Jose Luis San Martin,OLGM255329,T,HC,70,1,18:50 Arribado
 2025-10-28,Exolgan,1500 ,MSMU-606035-9,Outdoors Solutions S.R.L.,SYNNGB25SE090264,T,HC,70,1,18:01 Arribado
 2025-11-03,Exolgan,1300 ,MSNU-696679-5,Racafma Srl,MEDUP7038417,T,HC,70,1,14:46 Arribado
+2025-11-05,Trp - Terminales 1-2-3,1100 ,CCLU-720711-5,Juan M. Lavigne & Cia Sa,TJN0745457A/B,TD,HC,70,0,Pendiente arribo
