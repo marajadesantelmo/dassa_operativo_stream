@@ -1,7 +1,6 @@
 Operacion,Cliente,Desc,Booking,Cantidad,Kilos,Volumen,Dias
 39322-0-1,Lift Van Int. Co S.A,Fernandez Dominguez ...,BUE500196800,124,2529.00,30.00,1
 39321-0-1,Mercovan Argentina S.A.,"Negron Chang, Andrea",BUE500196800,72,1011.00,13.00,1
-39319-0-1,Almar Internacional Del Argentina S.A.,Ebkg14634030 // Grup...,BUE500196800,8,4880.00,46.00,1
 39318-0-1,Bru Erre Eme S.A.,Speed Argentina // M...,BUE500196800,17,13509.00,60.00,1
 39320-0-1,Lift Van Int. Co S.A,Felipe Andrés Valdés...,BUE500196800,207,3252.00,55.00,1
 39288-0-1,Mercovan Argentina S.A.,Francisco Javier Rie...,,135,2569.00,28.00,2
@@ -11,8 +10,8 @@ Operacion,Cliente,Desc,Booking,Cantidad,Kilos,Volumen,Dias
 39304-0-1,Hdv Leather S.R.L.,Lote 3607,EBKG14724426,10,24375.00,60.00,7
 39304-0-2,Hdv Leather S.R.L.,Lote 3617,EBKG14724426,10,24375.00,60.00,7
 39113-0-1,Santa Anita Oil Sa,Grlem251362 /Buef124...,,4,2600.00,5.45,12
-39255-0-2,Hdv Leather S.R.L.,Lote 3572,56754433,10,27620.00,60.00,15
 39255-0-1,Hdv Leather S.R.L.,Lote 3533,56754433,10,27620.00,60.00,15
+39255-0-2,Hdv Leather S.R.L.,Lote 3572,56754433,10,27620.00,60.00,15
 39151-0-1,Lift Van Int. Co S.A,Justin Valente,,257,4127.00,46.00,15
 38690-0-1,Noble Trophy Srl,259833210 // Noble T...,260316179,10,4175.00,0.00,30
 38539-0-1,Edelweiss Spedition Srl,Miguel Fernando Córd...,,84,1864.00,0.00,37
@@ -20,9 +19,9 @@ Operacion,Cliente,Desc,Booking,Cantidad,Kilos,Volumen,Dias
 37220-0-2,Helvecia S.A.,Grlem25868/45137792,25001PE01000284Y,1,1272.38,2.86,98
 37146-0-1,Chaguar Sociedad Anonima,Ctg: 10225550665/Ctg...,,3,75.34,0.09,100
 37135-0-1,Chaguar Sociedad Anonima,256457109 // 5X20,,12,298.22,0.36,103
-36417-0-1,Forestal Guarani Sa,Grlae2596 /30741536,255083138,1,809.14,1.71,131
-36417-0-3,Forestal Guarani Sa,Grlae2596 /30741536,255083138,1,656.53,1.40,131
 36417-0-2,Forestal Guarani Sa,Grlae2596 /30741536,255083138,1,804.00,1.71,131
+36417-0-3,Forestal Guarani Sa,Grlae2596 /30741536,255083138,1,656.53,1.40,131
+36417-0-1,Forestal Guarani Sa,Grlae2596 /30741536,255083138,1,809.14,1.71,131
 36246-0-1,Ads Agropecuaria Sa,Ads Agropecuaria,COSU6421214450,140,3396.30,3.89,139
 35990-0-1,Ads Agropecuaria Sa,001 - Exp - Momasa /...,,24,604.37,0.75,149
 29624-0-1,Piranga Sa,Ebkg09501733 // Made...,NBOBUE24050057,2,715.56,1.67,478
