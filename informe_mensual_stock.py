@@ -190,3 +190,57 @@ upload_to_supabase(existente_plz, 'control_stock_existente_plz')
 supabase_client.from_('control_stock_existente_alm').delete().neq('id', 0).execute()
 upload_to_supabase(existente_alm, 'control_stock_existente_alm')
 print("--- Supabase upload completed ---\n")
+
+
+
+
+
+def send_email(mail):
+    """Send notification email about stock control availability"""
+    current_time = datetime.now().strftime('%H:%M')
+    current_month = datetime.now().strftime('%B %Y')
+    
+    email_content = f"""
+    <html>
+    <body>
+        <p>Estimado,</p>
+        
+        <p>Ya se encuentra disponible la información actualizada para realizar el control de stock del mes corriente en <a href="https://dassa.tech/control_stock">dassa.tech/control_stock</a></p>
+        
+        <p>El informe fue generado el {datetime.now().strftime('%d/%m/%Y')} a las {current_time} y contiene:</p>
+        <ul>
+            <li>Stock en Plazoleta: {len(existente_plz):,} registros</li>
+            <li>Stock en Almacén: {len(existente_alm):,} registros</li>
+        </ul>
+        
+        <p>Saludos cordiales,<br>
+        <strong>Sistema Automatizado DASSA</strong></p>
+    </body>
+    </html>
+    """
+    
+    msg = MIMEMultipart()
+    msg['Subject'] = f'DASSA • Control de Stock - Información Actualizada'
+    msg['From'] = "auto@dassa.com.ar"
+    msg['To'] = mail
+    msg.attach(MIMEText(email_content, 'html'))
+    
+    try:
+        with smtplib.SMTP("smtp.gmail.com", 587) as server:
+            server.starttls()
+            server.login("auto@dassa.com.ar", "gyctvgzuwfgvmlfu")
+            server.sendmail(msg['From'], msg['To'], msg.as_string())
+        print(f"Email sent successfully to {mail}")
+    except Exception as e:
+        print(f"Error sending email to {mail}: {e}")
+
+# Send notification emails
+print("--- Sending notification emails ---")
+recipients = [
+    "santiago@dassa.com.ar",
+    "manuel@dassa.com.ar", 
+    "marajadesantelmo@gmail.com"
+]
+
+for email in recipients:
+    send_email(email)
