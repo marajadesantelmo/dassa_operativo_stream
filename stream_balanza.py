@@ -111,7 +111,7 @@ def show_page_balanza(apply_mudanceras_filter=False):
         id_pesada_filter = st.selectbox("ID Pesada", options=["Todos"] + sorted(balanza_historico_impo['ID Pesada'].unique().tolist()), key='id_pesada_filter')
     with col2:
         # Ensure Cliente column is treated as strings
-        cliente_options = ["Todos"] + sorted(balanza_historico_impo['Cliente'].astype(str).unique().tolist())
+        cliente_options = ["Todos"] + sorted(balanza_historico['Cliente'].astype(str).unique().tolist())
         cliente_filter = st.selectbox("Cliente", options=cliente_options, key='cliente_filter')
 
     st.write("Importación")

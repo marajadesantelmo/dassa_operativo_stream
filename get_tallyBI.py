@@ -23,7 +23,8 @@ else:
 ssh = paramiko.SSHClient()
 ssh.load_system_host_keys()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-ssh.connect(hostname='155.138.143.232', username=username_scp, password=password_scp)
+ssh.connect(hostname='155.138.154.37', username=username_scp, password=password_scp)
+#ssh.connect(hostname='155.138.143.232', username=username_scp, password='password_scp')
 with SCPClient(ssh.get_transport()) as scp:
     scp.get('TallyBI.csv')
     scp.get('TallyBIEXPO.csv')
@@ -48,7 +49,6 @@ datos_tally.to_csv('data/tally.csv', sep=',', encoding='latin1', index=False)
 
 # Procesamiento datos de EXPO
 datos_tally_expo = pd.read_csv('TallyBIEXPO.csv', sep='|', encoding='latin1')
-
 
 # Logeo
 gc = gspread.service_account(filename='credenciales_gsheets.json')
