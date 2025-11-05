@@ -168,6 +168,22 @@ def upload_to_supabase(df, table_name):
         raise e
 
 # Upload data to Supabase tables
+
+# Fetch data from supabase and save it as excel file with previous month name
+def fetch_data_and_save_excel():
+    # Get the previous month name
+    previous_month = (datetime.now().replace(day=1) - timedelta(days=1)).strftime('%B_%Y')
+    # Fetch data from Supabase
+    data_plz = supabase_client.from_('control_stock_existente_plz').select('*').execute()
+    data_alm = supabase_client.from_('control_stock_existente_alm').select('*').execute()
+    df_plz = pd.DataFrame(data_plz.data)
+    df_alm = pd.DataFrame(data_alm.data)
+    # Save to Excel
+    df_plz.to_excel(os.path.join(path, 'data_stock', f'control_stock_existente_plz_{previous_month}.xlsx'), index=False)
+    df_alm.to_excel(os.path.join(path, 'data_stock', f'control_stock_existente_alm_{previous_month}.xlsx'), index=False)
+
+fetch_data_and_save_excel()
+
 print("\n--- Starting Supabase upload ---")
 supabase_client.from_('control_stock_existente_plz').delete().neq('id', 0).execute()
 upload_to_supabase(existente_plz, 'control_stock_existente_plz')

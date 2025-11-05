@@ -55,10 +55,25 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-23,Exolgan,0500 ,HLBU-259918-7,Shipy S.A.,DLSZ25090052,T,HC,70,1,14:03 Arribado
 2025-10-23,Exolgan,0500 ,TCLU-182913-9,Shipy S.A.,DLSZ25090052,T,HC,70,1,13:49 Arribado
 2025-10-23,Exolgan,0500 ,FDCU-014658-8,Shipy S.A.,DLSZ25090008,T,HC,70,1,09:46 Arribado
+2025-11-06,Exolgan,0500 ,CIMU-066053-0,Shipy S.A.,DLSZ25090258,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,1300 ,TCLU-894260-9,Shipy S.A.,DLSZ25090162,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,1300 ,UACU-533682-3,Shipy S.A.,DLSZ25090162,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,0500 ,CIMU-066038-2,Shipy S.A.,DLSZ25090258,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,0500 ,CIMU-066046-4,Shipy S.A.,DLSZ25090258,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,0500 ,CIMU-066048-5,Shipy S.A.,DLSZ25090258,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,0500 ,CIMU-066051-0,Shipy S.A.,DLSZ25090258,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,1300 ,CIMU-066047-0,Shipy S.A.,DLSZ25090259,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,1300 ,CIMU-066049-0,Shipy S.A.,DLSZ25090259,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,1300 ,CIMU-066052-5,Shipy S.A.,DLSZ25090259,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,1300 ,HAMU-123166-8,Shipy S.A.,DLSZ25090162,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,1300 ,HAMU-211274-5,Shipy S.A.,DLSZ25090162,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,1300 ,HAMU-451385-5,Shipy S.A.,DLSZ25090162,T,HC,70,0,Pendiente arribo
 2025-10-30,Trp - Terminales 1-2-3,1500 ,EGHU-845709-0,Shipy S.A.,TSSZ2508190,T,HC,70,1,18:15 Arribado
 2025-10-30,Trp - Terminales 1-2-3,0900 ,EITU-102113-0,Shipy S.A.,TSSZ2508190,T,HC,70,1,11:30 Arribado
 2025-10-30,Trp - Terminales 1-2-3,0700 ,EGHU-980885-7,Shipy S.A.,TSSZ2508190,T,HC,70,1,10:19 Arribado
 2025-10-30,Trp - Terminales 1-2-3,0700 ,EGSU-959084-0,Shipy S.A.,TSSZ2508190,T,HC,70,1,11:07 Arribado
+2025-11-06,Exolgan,1300 ,CIMU-066041-7,Shipy S.A.,DLSZ25090259,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,1500 ,CIMU-066045-9,Shipy S.A.,DLSZ25090259,T,HC,70,0,Pendiente arribo
 2025-10-30,Trp - Terminales 1-2-3,1100 ,EMCU-842647-4,Shipy S.A.,TSSZ2508167,T,HC,70,1,15:16 Arribado
 2025-10-30,Trp - Terminales 1-2-3,0700 ,TGBU-658211-5,Shipy S.A.,TSSZ2508167,T,HC,70,1,10:26 Arribado
 2025-10-30,Trp - Terminales 1-2-3,1100 ,TCNU-270829-4,Shipy S.A.,TSSZ2508167,T,HC,70,1,14:03 Arribado
@@ -187,6 +202,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-31,Terminal 4 - Maersk,1000 ,MRKU-029097-9,Grupo Rsm Srl,260254448,TD,DR,60,1,14:42 Arribado
 2025-10-31,Terminal 4 - Maersk,1000 ,MRKU-071753-0,Grupo Rsm Srl,259942694,TD,DR,60,1,13:57 Arribado
 2025-10-31,Terminal 4 - Maersk,1200 ,MRSU-056785-5,Grupo Rsm Srl,260216952,TD,DR,30,1,14:40 Arribado
+2025-11-06,Exolgan,0500 ,MRSU-718080-5,Grupo Rsm Srl,259607224,TD,HC,70,0,Pendiente arribo
 2025-10-31,Exolgan,0500 ,MSNU-723103-8,Jakytextil S.A.,NBOE25017768,TD,HC,70,1,11:12 Arribado
 2025-11-04,Exolgan,0500 ,HAMU-148429-1,Jakytextil S.A.,NBOE25017924,TD,HC,70,1,09:09 Arribado
 2025-11-04,Exolgan,0500 ,SEGU-488848-1,Jakytextil S.A.,NBOE25017925,T,HC,70,1,10:04 Arribado
@@ -208,6 +224,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-27,Exolgan,0700 ,MSBU-456977-0,E A Balbi E Hijos S A,GILSH250700217,T,DR,60,1,11:10 Arribado
 2025-10-27,Exolgan,0700 ,MSMU-701481-0,E A Balbi E Hijos S A,ACS-PKAR25200,T,HC,70,1,11:30 Arribado
 2025-10-27,Exolgan,0700 ,MSDU-636869-0,E A Balbi E Hijos S A,ACS-PKAR25200,T,HC,70,1,10:49 Arribado
+2025-11-06,Exolgan,0500 ,HLBU-256087-9,Glamtex S.A.,NBOE25017919,T,HC,70,0,Pendiente arribo
 2025-10-27,Exolgan,0700 ,MEDU-716430-7,Xiadex Srl,NBOE25017548,T,HC,70,1,10:15 Arribado
 2025-10-23,Exolgan,0500 ,MSMU-148165-3,Impulso Jm S.A.,SYNTAO25SE071041,TD,DC,30,1,10:03 Arribado
 2025-10-29,Exolgan,0500 ,TRHU-337367-1,Jet Cargo S.A.,ZIMUNFA4374020,TD,DC,30,1,10:57 Arribado
