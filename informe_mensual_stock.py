@@ -21,7 +21,7 @@ server = '101.44.8.58\\SQLEXPRESS_X86,1436'
 conn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';UID='+username+';PWD='+ password)
 cursor = conn.cursor()
 
-gc = gspread.service_account(filename='//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/credenciales_gsheets.json')
+#gc = gspread.service_account(filename='//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/credenciales_gsheets.json')
 
 cursor.execute("""
     SELECT cliente AS Cliente, cantidad AS Cantidad, kilos AS Peso, volumen AS Volumen, 
@@ -74,18 +74,18 @@ existente.sort_values(by=['Ubicacion Familia', 'Ubicacion'], inplace=True)
 existente_plz = existente[existente['Ubicacion Familia'].isin(['Plazoleta', 'Temporal'])].copy()
 existente_alm = existente[~existente['Ubicacion Familia'].isin(['Plazoleta', 'Temporal'])].copy()
 
-sheet = gc.create('Control_Stock_DASSA_{mes}_{year}'.format(mes=datetime.now().strftime('%m'), year=datetime.now().year))
-sheet.share('marajadesantelmo@gmail.com', perm_type='user', role='writer')
-sheet.share('santiago@dassa.com.ar', perm_type='user', role='writer')
-sheet.share('manuel@dassa.com.ar', perm_type='user', role='writer')
-worksheet_plz = sheet.add_worksheet(title='Plazoleta', rows=existente_plz.shape[0] + 10, cols=existente_plz.shape[1] + 5)
-set_with_dataframe(worksheet_plz, existente_plz, include_index=False)
-worksheet_alm = sheet.add_worksheet(title='Almacen', rows=existente_alm.shape[0] + 10, cols=existente_alm.shape[1] + 5)
-set_with_dataframe(worksheet_alm, existente_alm, include_index=False)
-default_worksheet = sheet.get_worksheet(0)
-sheet.del_worksheet(default_worksheet)
+#sheet = gc.create('Control_Stock_DASSA_{mes}_{year}'.format(mes=datetime.now().strftime('%m'), year=datetime.now().year))
+#sheet.share('marajadesantelmo@gmail.com', perm_type='user', role='writer')
+#sheet.share('santiago@dassa.com.ar', perm_type='user', role='writer')
+#sheet.share('manuel@dassa.com.ar', perm_type='user', role='writer')
+#worksheet_plz = sheet.add_worksheet(title='Plazoleta', rows=existente_plz.shape[0] + 10, cols=existente_plz.shape[1] + 5)
+#set_with_dataframe(worksheet_plz, existente_plz, include_index=False)
+#worksheet_alm = sheet.add_worksheet(title='Almacen', rows=existente_alm.shape[0] + 10, cols=existente_alm.shape[1] + 5)
+#set_with_dataframe(worksheet_alm, existente_alm, include_index=False)
+#default_worksheet = sheet.get_worksheet(0)
+#sheet.del_worksheet(default_worksheet)
 
-print(f"Spreadsheet created: {sheet.url}")
+#print(f"Spreadsheet created: {sheet.url}")
 
 # Upload to Supabase
 def upload_to_supabase(df, table_name):
@@ -169,6 +169,8 @@ def upload_to_supabase(df, table_name):
 
 # Upload data to Supabase tables
 print("\n--- Starting Supabase upload ---")
+supabase_client.from_('control_stock_existente_plz').delete().neq('id', 0).execute()
 upload_to_supabase(existente_plz, 'control_stock_existente_plz')
+supabase_client.from_('control_stock_existente_alm').delete().neq('id', 0).execute()
 upload_to_supabase(existente_alm, 'control_stock_existente_alm')
 print("--- Supabase upload completed ---\n")
