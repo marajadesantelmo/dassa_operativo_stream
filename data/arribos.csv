@@ -1,20 +1,20 @@
-Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Dimension,Oper.,Tiempo,Estado,Chofer
-Exolgan,05:00,FFAU-118158-6,Aspee Monee,HLCUSHA250956006,HC,70,T,-,09:33 Arribado,
-Exolgan,05:00,CIMU-066053-0,Shipy S.A.,DLSZ25090258,HC,70,T,-,10:43 Arribado,
-Exolgan,05:00,CIMU-066051-0,Shipy S.A.,DLSZ25090258,HC,70,T,-,09:24 Arribado,
-Exolgan,05:00,CIMU-066048-5,Shipy S.A.,DLSZ25090258,HC,70,T,-,10:09 Arribado,
-Exolgan,05:00,MRSU-718080-5,Grupo Rsm Srl,259607224,HC,70,TD,-,09:27 Arribado,
-Exolgan,05:00,HLXU-531085-0,Ba Comex S.A,SNOE25013060,DR,60,T,-,09:58 Arribado,
-Exolgan,05:00,CIMU-066046-4,Shipy S.A.,DLSZ25090258,HC,70,T,-,10:41 Arribado,
-Exolgan,05:00,CIMU-066038-2,Shipy S.A.,DLSZ25090258,HC,70,T,-,10:07 Arribado,
-Exolgan,05:00,HLBU-256087-9,Glamtex S.A.,NBOE25017919,HC,70,T,-,09:21 Arribado,
-Exolgan,13:00,UACU-533682-3,Shipy S.A.,DLSZ25090162,HC,70,T,-,Pendiente arribo,
-Exolgan,13:00,HAMU-211274-5,Shipy S.A.,DLSZ25090162,HC,70,T,-,Pendiente arribo,
-Exolgan,13:00,CIMU-066052-5,Shipy S.A.,DLSZ25090259,HC,70,T,-,Pendiente arribo,
-Exolgan,13:00,CIMU-066049-0,Shipy S.A.,DLSZ25090259,HC,70,T,-,Pendiente arribo,
-Exolgan,13:00,HAMU-123166-8,Shipy S.A.,DLSZ25090162,HC,70,T,-,Pendiente arribo,
-Exolgan,13:00,CIMU-066047-0,Shipy S.A.,DLSZ25090259,HC,70,T,-,Pendiente arribo,
-Exolgan,13:00,CIMU-066041-7,Shipy S.A.,DLSZ25090259,HC,70,T,-,Pendiente arribo,
-Exolgan,13:00,TCLU-894260-9,Shipy S.A.,DLSZ25090162,HC,70,T,-,Pendiente arribo,
-Exolgan,13:00,HAMU-451385-5,Shipy S.A.,DLSZ25090162,HC,70,T,-,Pendiente arribo,
-Exolgan,15:00,CIMU-066045-9,Shipy S.A.,DLSZ25090259,HC,70,T,-,Pendiente arribo,
+Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,Chofer,Dimension
+Exolgan,05:00,FFAU-118158-6,Aspee Monee,HLCUSHA250956006,HC,T,-,09:33 Arribado,,70
+Exolgan,05:00,CIMU-066048-5,Shipy S.A.,DLSZ25090258,HC,T,-,10:09 Arribado,,70
+Exolgan,05:00,CIMU-066046-4,Shipy S.A.,DLSZ25090258,HC,T,-,10:41 Arribado,,70
+Exolgan,13:00,UACU-533682-3,Shipy S.A.,DLSZ25090162,HC,T,-,Pendiente arribo,,70
+Exolgan,13:00,CIMU-066049-0,Shipy S.A.,DLSZ25090259,HC,T,-,Pendiente arribo,,70
+Exolgan,13:00,CIMU-066041-7,Shipy S.A.,DLSZ25090259,HC,T,-,Pendiente arribo,,70
+Exolgan,15:00,CIMU-066045-9,Shipy S.A.,DLSZ25090259,HC,T,-,Pendiente arribo,,70
+Exolgan,05:00,CIMU-066053-0,Shipy S.A.,DLSZ25090258,HC,T,-,10:43 Arribado,,70
+Exolgan,05:00,MRSU-718080-5,Grupo Rsm Srl,259607224,HC,TD,-,09:27 Arribado,,70
+Exolgan,05:00,CIMU-066038-2,Shipy S.A.,DLSZ25090258,HC,T,-,10:07 Arribado,,70
+Exolgan,13:00,HAMU-211274-5,Shipy S.A.,DLSZ25090162,HC,T,-,Pendiente arribo,,70
+Exolgan,13:00,HAMU-123166-8,Shipy S.A.,DLSZ25090162,HC,T,-,Pendiente arribo,,70
+Exolgan,13:00,TCLU-894260-9,Shipy S.A.,DLSZ25090162,HC,T,-,Pendiente arribo,,70
+Exolgan,05:00,CIMU-066051-0,Shipy S.A.,DLSZ25090258,HC,T,-,09:24 Arribado,,70
+Exolgan,05:00,HLXU-531085-0,Ba Comex S.A,SNOE25013060,DR,T,-,09:58 Arribado,,60
+Exolgan,05:00,HLBU-256087-9,Glamtex S.A.,NBOE25017919,HC,T,-,09:21 Arribado,,70
+Exolgan,13:00,CIMU-066052-5,Shipy S.A.,DLSZ25090259,HC,T,-,Pendiente arribo,,70
+Exolgan,13:00,CIMU-066047-0,Shipy S.A.,DLSZ25090259,HC,T,-,Pendiente arribo,,70
+Exolgan,13:00,HAMU-451385-5,Shipy S.A.,DLSZ25090162,HC,T,-,Pendiente arribo,,70
