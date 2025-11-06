@@ -49,9 +49,9 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-06,Exolgan,0500 ,CIMU-066053-0,Shipy S.A.,DLSZ25090258,T,HC,70,0,Pendiente arribo
 2025-11-06,Exolgan,1300 ,TCLU-894260-9,Shipy S.A.,DLSZ25090162,T,HC,70,0,Pendiente arribo
 2025-11-06,Exolgan,1300 ,UACU-533682-3,Shipy S.A.,DLSZ25090162,T,HC,70,0,Pendiente arribo
-2025-11-06,Exolgan,0500 ,CIMU-066038-2,Shipy S.A.,DLSZ25090258,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,0500 ,CIMU-066038-2,Shipy S.A.,DLSZ25090258,T,HC,70,1,10:07 Arribado
 2025-11-06,Exolgan,0500 ,CIMU-066046-4,Shipy S.A.,DLSZ25090258,T,HC,70,0,Pendiente arribo
-2025-11-06,Exolgan,0500 ,CIMU-066048-5,Shipy S.A.,DLSZ25090258,T,HC,70,0,Pendiente arribo
+2025-11-06,Exolgan,0500 ,CIMU-066048-5,Shipy S.A.,DLSZ25090258,T,HC,70,1,10:09 Arribado
 2025-11-06,Exolgan,0500 ,CIMU-066051-0,Shipy S.A.,DLSZ25090258,T,HC,70,1,09:24 Arribado
 2025-11-06,Exolgan,1300 ,CIMU-066047-0,Shipy S.A.,DLSZ25090259,T,HC,70,0,Pendiente arribo
 2025-11-06,Exolgan,1300 ,CIMU-066049-0,Shipy S.A.,DLSZ25090259,T,HC,70,0,Pendiente arribo
@@ -246,4 +246,4 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-24,Terminal 4 - Maersk,1500 ,SKYU-824931-1,Jose Luis San Martin,OLGM255329,T,HC,70,1,18:50 Arribado
 2025-10-28,Exolgan,1500 ,MSMU-606035-9,Outdoors Solutions S.R.L.,SYNNGB25SE090264,TD,HC,70,1,18:01 Arribado
 2025-11-03,Exolgan,1300 ,MSNU-696679-5,Racafma Srl,MEDUP7038417,T,HC,70,1,14:46 Arribado
-2025-11-05,Trp - Terminales 1-2-3,1100 ,CCLU-720711-5,Juan M. Lavigne & Cia Sa,TJN0745457A/B,TD,HC,70,1,14:53 Arribado
+2025-11-05,Trp - Terminales 1-2-3,1100 ,CCLU-720711-5,Juan M. Lavigne & Cia Sa,TJN0745457A/B,T,HC,70,1,14:53 Arribado
