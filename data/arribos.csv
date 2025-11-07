@@ -1,20 +1,20 @@
-Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,Chofer,Dimension
-Exolgan,05:00,FFAU-118158-6,Aspee Monee,HLCUSHA250956006,HC,T,-,09:33 Arribado,,70
-Exolgan,05:00,CIMU-066048-5,Shipy S.A.,DLSZ25090258,HC,T,-,10:09 Arribado,,70
-Exolgan,05:00,CIMU-066046-4,Shipy S.A.,DLSZ25090258,HC,T,-,10:41 Arribado,,70
-Exolgan,13:00,UACU-533682-3,Shipy S.A.,DLSZ25090162,HC,T,-,Pendiente arribo,,70
-Exolgan,13:00,CIMU-066049-0,Shipy S.A.,DLSZ25090259,HC,T,-,Pendiente arribo,,70
-Exolgan,13:00,CIMU-066041-7,Shipy S.A.,DLSZ25090259,HC,T,-,Pendiente arribo,,70
-Exolgan,15:00,CIMU-066045-9,Shipy S.A.,DLSZ25090259,HC,T,-,Pendiente arribo,,70
-Exolgan,05:00,CIMU-066053-0,Shipy S.A.,DLSZ25090258,HC,T,-,10:43 Arribado,,70
-Exolgan,05:00,MRSU-718080-5,Grupo Rsm Srl,259607224,HC,TD,-,09:27 Arribado,,70
-Exolgan,05:00,CIMU-066038-2,Shipy S.A.,DLSZ25090258,HC,T,-,10:07 Arribado,,70
-Exolgan,13:00,HAMU-211274-5,Shipy S.A.,DLSZ25090162,HC,T,-,Pendiente arribo,,70
-Exolgan,13:00,HAMU-123166-8,Shipy S.A.,DLSZ25090162,HC,T,-,Pendiente arribo,,70
-Exolgan,13:00,TCLU-894260-9,Shipy S.A.,DLSZ25090162,HC,T,-,Pendiente arribo,,70
-Exolgan,05:00,CIMU-066051-0,Shipy S.A.,DLSZ25090258,HC,T,-,09:24 Arribado,,70
-Exolgan,05:00,HLXU-531085-0,Ba Comex S.A,SNOE25013060,DR,T,-,09:58 Arribado,,60
-Exolgan,05:00,HLBU-256087-9,Glamtex S.A.,NBOE25017919,HC,T,-,09:21 Arribado,,70
-Exolgan,13:00,CIMU-066052-5,Shipy S.A.,DLSZ25090259,HC,T,-,Pendiente arribo,,70
-Exolgan,13:00,CIMU-066047-0,Shipy S.A.,DLSZ25090259,HC,T,-,Pendiente arribo,,70
-Exolgan,13:00,HAMU-451385-5,Shipy S.A.,DLSZ25090162,HC,T,-,Pendiente arribo,,70
+Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Dimension,Oper.,Tiempo,Estado,Chofer
+Terminal 4 - Maersk,06:00,MNBU-361141-3,Sanyo Color Sa,258799444,HC,70,TD,-,08:33 Arribado,
+Exolgan,07:00,TRHU-401559-0,Grupo Simpa Sa,SY250966861,HC,70,T,01:38,Pendiente arribo,
+Trp - Terminales 1-2-3,11:00,HDMU-673499-7,Bisora Group Sa,NBFC2508016,HC,70,T,-,Pendiente arribo,
+Terminal 4 - Maersk,13:00,TRLU-751167-4,Mercovan Argentina S...,ISB1809622,HC,70,TD,-,Pendiente arribo,
+Exolgan,13:00,TGBU-439368-4,Jakytextil S.A.,NBOE25017766,HC,70,T,-,Pendiente arribo,
+Terminal 4 - Maersk,13:00,UETU-818714-2,Tallter Srl,259029238,DC,60,TD,-,Pendiente arribo,
+Terminal 4 - Maersk,13:00,BMOU-426820-4,Lift Van Int. Co S.A,ISB1807892,HC,70,T,-,Pendiente arribo,
+Exolgan,13:00,MEDU-764152-3,Mazon Textil Sa,NBOE25017804,HC,70,T,-,Pendiente arribo,
+Exolgan,13:00,MSDU-675093-3,Xiadex Srl,GILSH250800149,HC,70,T,-,Pendiente arribo,
+Trp - Terminales 1-2-3,13:00,KOCU-403777-1,Skop Trader S. A.,TCNB2509194,HC,70,T,-,Pendiente arribo,
+Trp - Terminales 1-2-3,13:00,SEGU-600727-5,Grupo Simpa Sa,S01438704,HC,70,T,-,Pendiente arribo,
+Trp - Terminales 1-2-3,13:00,KOCU-503851-4,Grupo Simpa Sa,S01438709,HC,70,T,-,Pendiente arribo,
+Terminal 4 - Maersk,14:00,MRKU-004540-0,Chemotecnica Sa,258864458,DR,60,TD,-,Pendiente arribo,
+Terminal 4 - Maersk,14:00,MRKU-468589-5,Chemotecnica Sa,258864458,DR,60,TD,-,Pendiente arribo,
+Trp - Terminales 1-2-3,15:00,OOCU-708890-4,Rk Elevaciones Srl,COSU6426777590,HC,70,TD,-,Pendiente arribo,
+Trp - Terminales 1-2-3,15:00,OOLU-997137-0,Rk Elevaciones Srl,COSU6426777590,HC,70,TD,-,Pendiente arribo,
+Trp - Terminales 1-2-3,15:00,OOLU-921057-7,Rk Elevaciones Srl,COSU6426777590,HC,70,TD,-,Pendiente arribo,
+Trp - Terminales 1-2-3,15:00,FSCU-963567-6,Juliana Sa,OOLU2161610130,HC,70,T,-,Pendiente arribo,
+Trp - Terminales 1-2-3,16:00,BSIU-964024-3,Rk Elevaciones Srl,COSU6426777590,HC,70,TD,-,Pendiente arribo,
