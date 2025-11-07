@@ -25,6 +25,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-17,Terminal 4 - Maersk,1400 ,MRKU-055666-8,Arbrex Commercial Group Srl,TPSHNSG25096004,TD,DC,60,1,19:44 Arribado
 2025-10-31,Exolgan,0500 ,HLBU-124610-1,Arbrex Commercial Group Srl,TPSHNSG25086048,TD,DR,60,1,09:06 Arribado
 2025-11-07,Terminal 4 - Maersk,0600 ,MNBU-361141-3,Sanyo Color Sa,258799444,TD,HC,70,1,08:33 Arribado
+2025-11-10,Terminal 4 - Maersk,0900 ,TRHU-378312-5,Baires International,BOS/BUE/14014,TD,DR,30,0,Pendiente arribo
 2025-10-28,Terminal 4 - Maersk,1700 ,MSKU-970192-2,Hometex S.A.,TMSE3745317,T,HC,70,1,18:57 Arribado
 2025-10-20,Exolgan,0700 ,MEDU-475657-6,La Tela Srl,GILNB250701042,T,HC,70,1,13:35 Arribado
 2025-10-21,Terminal 4 - Maersk,0900 ,MSKU-731057-5,Refractarios Argentinos Saicm,TSN25080034,TD,DC,30,1,13:32 Arribado
@@ -189,6 +190,9 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-22,Exolgan,0700 ,MSDU-544049-2,Tio Musa,GSZBUE25080296,T,HC,70,1,13:36 Arribado
 2025-11-10,Terminal 4 - Maersk,0600 ,MSKU-074194-5,Tio Musa,SZ25090293,T,HC,70,0,Pendiente arribo
 2025-11-10,Terminal 4 - Maersk,0600 ,MRKU-495255-9,Tio Musa,SZ25090293,T,HC,70,0,Pendiente arribo
+2025-11-10,Terminal 4 - Maersk,1400 ,UETU-832994-6,Tio Musa,SZ25081174,T,HC,70,0,Pendiente arribo
+2025-11-10,Terminal 4 - Maersk,1400 ,UETU-833276-5,Tio Musa,SZ25081174,T,HC,70,0,Pendiente arribo
+2025-11-10,Terminal 4 - Maersk,1400 ,UETU-833283-1,Tio Musa,SZ25081174,T,HC,70,0,Pendiente arribo
 2025-10-27,Terminal 4 - Maersk,1400 ,BSIU-965743-6,Tio Musa,SYNNGB25SE090227,T,HC,70,1,16:50 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1200 ,CSNU-870227-7,Tio Musa,SZ25080709,T,HC,70,0,Pendiente arribo
 2025-11-10,Trp - Terminales 1-2-3,1100 ,CBHU-891352-2,Tio Musa,SZ25080709,T,HC,70,0,Pendiente arribo
@@ -234,6 +238,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-27,Exolgan,0700 ,MSBU-456977-0,E A Balbi E Hijos S A,GILSH250700217,T,DR,60,1,11:10 Arribado
 2025-10-27,Exolgan,0700 ,MSMU-701481-0,E A Balbi E Hijos S A,ACS-PKAR25200,T,HC,70,1,11:30 Arribado
 2025-10-27,Exolgan,0700 ,MSDU-636869-0,E A Balbi E Hijos S A,ACS-PKAR25200,T,HC,70,1,10:49 Arribado
+2025-11-10,Terminal 4 - Maersk,1400 ,MRKU-063559-8,E A Balbi E Hijos S A,WLLSH2509097,T,DR,60,0,Pendiente arribo
 2025-11-06,Exolgan,0500 ,HLBU-256087-9,Glamtex S.A.,NBOE25017919,T,HC,70,1,09:21 Arribado
 2025-10-27,Exolgan,0700 ,MEDU-716430-7,Xiadex Srl,NBOE25017548,T,HC,70,1,10:15 Arribado
 2025-11-07,Exolgan,1300 ,MSDU-675093-3,Xiadex Srl,GILSH250800149,T,HC,70,0,Pendiente arribo
