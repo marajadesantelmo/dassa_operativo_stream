@@ -23,7 +23,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-30,Terminal 4 - Maersk,0800 ,MRKU-908223-5,Hra Consultora,260178868,TD,DR,30,1,11:11 Arribado
 2025-10-31,Exolgan,0500 ,HLBU-124610-1,Arbrex Commercial Group Srl,TPSHNSG25086048,TD,DR,60,1,09:06 Arribado
 2025-11-07,Terminal 4 - Maersk,0600 ,MNBU-361141-3,Sanyo Color Sa,258799444,TD,HC,70,1,08:33 Arribado
-2025-11-10,Terminal 4 - Maersk,0900 ,TRHU-378312-5,Baires International,BOS/BUE/14014,TD,DR,30,0,Pendiente arribo
+2025-11-10,Terminal 4 - Maersk,0900 ,TRHU-378312-5,Baires International,BOS/BUE/14014,TD,DR,30,1,13:40 Arribado
 2025-11-11,Terminal 4 - Maersk,1000 ,GAOU-795030-4,Juguetech Sa,SZXS069353,T,HC,70,0,Pendiente arribo
 2025-11-11,Terminal 4 - Maersk,0500 ,CAJU-528720-2,Juguetech Sa,SZXS069336,T,HC,70,0,Pendiente arribo
 2025-10-28,Terminal 4 - Maersk,1700 ,MSKU-970192-2,Hometex S.A.,TMSE3745317,T,HC,70,1,18:57 Arribado
@@ -164,7 +164,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-07,Terminal 4 - Maersk,1400 ,MRKU-004540-0,Chemotecnica Sa,258864458,TD,DR,60,1,18:36 Arribado
 2025-10-21,Exolgan,1100 ,MSMU-409205-9,Raisvic S.R.L.,NBOE25016863,T,HC,70,1,16:37 Arribado
 2025-10-23,Trp - Terminales 1-2-3,1500 ,TRHU-564520-7,Raisvic S.R.L.,HDE25-0900011,T,HC,70,1,17:56 Arribado
-2025-11-10,Terminal 4 - Maersk,0900 ,JXLU-457680-1,Raisvic S.R.L.,HDE25-1000037,T,HC,70,0,Pendiente arribo
+2025-11-10,Terminal 4 - Maersk,0900 ,JXLU-457680-1,Raisvic S.R.L.,HDE25-1000037,T,HC,70,1,13:34 Arribado
 2025-11-06,Exolgan,0500 ,HLXU-531085-0,Ba Comex S.A,SNOE25013060,T,DR,60,1,09:58 Arribado
 2025-10-24,Terminal 4 - Maersk,1300 ,ECMU-704939-7,Aerofit Srl,EID0892505,T,HC,70,1,17:12 Arribado
 2025-10-30,Trp - Terminales 1-2-3,1500 ,OOCU-745752-0,Eramine Sudamerica Sa,NSHEC250841564,TD,HC,70,1,18:09 Arribado
@@ -179,10 +179,10 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-22,Exolgan,0700 ,MSDU-544049-2,Tio Musa,GSZBUE25080296,T,HC,70,1,13:36 Arribado
 2025-10-27,Terminal 4 - Maersk,1400 ,BSIU-965743-6,Tio Musa,SYNNGB25SE090227,T,HC,70,1,16:50 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1200 ,CSNU-870227-7,Tio Musa,SZ25080709,T,HC,70,0,Pendiente arribo
-2025-11-10,Trp - Terminales 1-2-3,1100 ,CBHU-891352-2,Tio Musa,SZ25080709,T,HC,70,0,Pendiente arribo
+2025-11-10,Trp - Terminales 1-2-3,1100 ,CBHU-891352-2,Tio Musa,SZ25080709,T,HC,70,1,14:03 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1200 ,CSNU-699332-1,Tio Musa,SZ25080709,T,HC,70,0,Pendiente arribo
 2025-11-10,Terminal 4 - Maersk,1400 ,UETU-833283-1,Tio Musa,SZ25081174,T,HC,70,0,Pendiente arribo
-2025-11-10,Trp - Terminales 1-2-3,1100 ,CSNU-808862-0,Tio Musa,SZ25080709,T,HC,70,0,Pendiente arribo
+2025-11-10,Trp - Terminales 1-2-3,1100 ,CSNU-808862-0,Tio Musa,SZ25080709,T,HC,70,1,13:59 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1200 ,OOCU-718635-1,Tio Musa,SZ25080709,T,HC,70,0,Pendiente arribo
 2025-11-10,Terminal 4 - Maersk,0600 ,MSKU-074194-5,Tio Musa,SZ25090293,T,HC,70,1,10:26 Arribado
 2025-11-10,Terminal 4 - Maersk,0600 ,MRKU-495255-9,Tio Musa,SZ25090293,T,HC,70,1,10:24 Arribado
