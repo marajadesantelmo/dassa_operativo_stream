@@ -128,7 +128,6 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-22,Trp - Terminales 1-2-3,1000 ,OOCU-500821-6,Ing. Hector J Resino S.R.L.,TCSH2508355,T,DC,60,1,14:19 Arribado
 2025-10-31,Terminal 4 - Maersk,1200 ,TEMU-677609-1,Jupam Sa,TWLE25070128,T,HC,70,1,14:21 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1100 ,EGHU-828720-3,Jupam Sa,NB250865670,T,HC,70,1,14:10 Arribado
-2025-11-11,Trp - Terminales 1-2-3,1500 ,TIIU-512669-7,Jupam Sa,TWLE25080234,T,HC,70,0,Pendiente arribo
 2025-10-20,Exolgan,0700 ,MSNU-957438-1,Awam Tex Srl,TNOE25002958,T,HC,70,1,11:57 Arribado
 2025-10-31,Terminal 4 - Maersk,0600 ,MSKU-027489-8,Awam Tex Srl,258465941,T,DR,60,1,11:19 Arribado
 2025-10-22,Trp - Terminales 1-2-3,1500 ,BSIU-803397-0,Grupo Leal-Tex S.R.L.,GILSH250800033,TD,HC,70,1,18:13 Arribado
@@ -180,7 +179,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-24,Trp - Terminales 1-2-3,1500 ,EISU-183943-7,Aceptyourdestiny Sa,HDE25-0900031,TD,DC,60,1,18:24 Arribado
 2025-10-22,Trp - Terminales 1-2-3,0800 ,OOCU-749009-2,Noah Servicess.R.L.,COSU6426736450,TD,HC,70,1,14:36 Arribado
 2025-10-31,Terminal 4 - Maersk,1300 ,MRKU-090413-0,Noah Servicess.R.L.,260250102,TD,DR,60,1,15:30 Arribado
-2025-11-11,Exolgan,1500 ,MSDU-411630-2,Noah Servicess.R.L.,MEDUHX848441,TD,DC,60,0,Pendiente arribo
+2025-11-16,Exolgan,1500 ,MSDU-411630-2,Noah Servicess.R.L.,MEDUHX848441,TD,DC,60,0,Pendiente arribo
 2025-10-21,Exolgan,0500 ,MSNU-880629-2,Tio Musa,SYNCAN25SE080334,TD,HC,70,1,09:15 Arribado
 2025-10-22,Exolgan,0700 ,MSDU-544049-2,Tio Musa,GSZBUE25080296,T,HC,70,1,13:36 Arribado
 2025-10-27,Terminal 4 - Maersk,1400 ,BSIU-965743-6,Tio Musa,SYNNGB25SE090227,T,HC,70,1,16:50 Arribado
@@ -197,7 +196,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-27,Exolgan,1300 ,MSMU-661076-9,Grass S. R. L.,HBUE2508X0238,T,HC,70,1,09:50 Arribado
 2025-10-27,Exolgan,1300 ,MSMU-431477-3,Grass S. R. L.,HBUE2508X0238,T,HC,70,1,09:50 Arribado
 2025-10-20,Exolgan,0700 ,FFAU-223682-6,Telamania Srl,GILNB250800222,T,HC,70,1,11:32 Arribado
-2025-11-10,Trp - Terminales 1-2-3,1300 ,PIDU-408773-7,Telamania Srl,NGB31158486,T,HC,70,0,Pendiente arribo
+2025-11-10,Trp - Terminales 1-2-3,1300 ,PIDU-408773-7,Telamania Srl,NGB31158486,T,HC,70,1,16:16 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1300 ,KOCU-495359-0,Grupo Simpa Sa,S01438705,T,HC,70,1,16:04 Arribado
 2025-11-03,Terminal 4 - Maersk,0900 ,ONEU-665837-7,Grupo Simpa Sa,252106593A,TD,HC,70,1,10:59 Arribado
 2025-11-03,Terminal 4 - Maersk,0900 ,ONEU-527516-2,Grupo Simpa Sa,252106593B,TD,HC,70,1,11:02 Arribado
@@ -247,8 +246,8 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-07,Trp - Terminales 1-2-3,1300 ,KOCU-403777-1,Skop Trader S. A.,TCNB2509194,T,HC,70,1,15:44 Arribado
 2025-10-30,Trp - Terminales 1-2-3,1200 ,EGHU-917559-5,Mibeda S.A.,TWLE25080202,T,HC,70,1,15:19 Arribado
 2025-10-30,Trp - Terminales 1-2-3,1200 ,EGHU-975425-7,Mibeda S.A.,TWLE25080201,T,HC,70,1,16:11 Arribado
-2025-11-11,Trp - Terminales 1-2-3,0200 ,EGHU-941701-9,Mibeda S.A.,TWLE25090048,T,HC,70,0,Pendiente arribo
-2025-11-11,Trp - Terminales 1-2-3,0300 ,CAAU-574787-3,Mibeda S.A.,TWLE25090049,T,HC,70,0,Pendiente arribo
+2025-11-16,Trp - Terminales 1-2-3,0200 ,EGHU-941701-9,Mibeda S.A.,TWLE25090048,T,HC,70,0,Pendiente arribo
+2025-11-16,Trp - Terminales 1-2-3,0300 ,CAAU-574787-3,Mibeda S.A.,TWLE25090049,T,HC,70,0,Pendiente arribo
 2025-10-30,Trp - Terminales 1-2-3,1100 ,EITU-917903-5,Impacto Jean S.A.,HDE25-0900012,TD,HC,70,1,15:59 Arribado
 2025-11-05,Terminal 4 - Maersk,1300 ,TCLU-557270-6,Boratex Srl,258608845,TD,DC,30,1,16:47 Arribado
 2025-10-27,Trp - Terminales 1-2-3,0900 ,CSNU-732071-0,Vestiditos Sa,TCXM2508087,T,HC,70,1,13:44 Arribado
