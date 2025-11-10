@@ -4,7 +4,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-16,35611,HLBU-324345-7,Mercovan Argentina S.A.,37094305,**********          ,Arribado
 2025-07-16,35639,MRSU-008230-3,Mercovan Argentina S.A.,256516909,*********           ,Arribado
 2025-10-31,38982,UACU-382791-5,Mercovan Argentina S.A.,93245223,********************,Arribado
-2025-11-10,39202,,Mercovan Argentina S.A.,34199316,                    ,Pendiente
+2025-11-10,39202,BEAU-215886-2,Mercovan Argentina S.A.,34199316,******************  ,Arribado
 2025-10-24,38733,TCKU-227735-6,Mercovan Argentina S.A.,17065374,****************    ,Arribado
 2025-10-30,38945,TEMU-218068-0,Mercovan Argentina S.A.,38535442,******************* ,Arribado
 2025-10-30,38950,HAMU-203145-3,Mercovan Argentina S.A.,93260005,*************       ,Arribado
@@ -203,6 +203,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-16,35627,TCLU-672748-5,Mader Zu S.R.L.,34885166,************        ,Arribado
 2025-07-16,35628,,Mader Zu S.R.L.,34885166,                    ,Pendiente
 2025-07-16,35679,HLXU-846139-8,Mader Zu S.R.L.,34885166,***********         ,Arribado
+2025-11-10,39240,,Mader Zu S.R.L.,29796699,                    ,Pendiente
+2025-11-10,39237,,Mader Zu S.R.L.,29796699,                    ,Pendiente
+2025-11-10,39238,,Mader Zu S.R.L.,29796699,                    ,Pendiente
+2025-11-10,39239,,Mader Zu S.R.L.,29796699,                    ,Pendiente
 2025-11-03,39039,TCLU-526565-4,Mader Zu S.R.L.,COSU6434342550,***********         ,Arribado
 2025-10-24,38712,HLBU-206509-4,Mader Zu S.R.L.,11418090,****************    ,Arribado
 2025-11-03,38999,FSCU-883559-8,Mader Zu S.R.L.,COSU6434342550,*****************   ,Arribado
@@ -394,7 +398,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-09-17,37583,MSMU-138438-1,Bdfm Sa,LA0448041,**************      ,Arribado
 2025-09-03,37255,FCIU-904149-0,Bdfm Sa,MCORIV030883,                    ,Arribado
 2025-09-23,37851,TGHU-520978-9,Chemotecnica Sa,93197163,********************,Arribado
-2025-11-10,39184,,Mafralac Alimenticia Srl,ZIMUBUE9044185,                    ,Pendiente
+2025-11-10,39184,ZCSU-704186-6,Mafralac Alimenticia Srl,ZIMUBUE9044185,********************,Arribado
 2025-10-01,38050,JXLU-783028-9,Mafralac Alimenticia Srl,ZIMUBUE9043780,******************  ,Arribado
 2025-09-09,37329,HAMU-405791-9,Mafralac Alimenticia Srl,37536771,***************     ,Arribado
 2025-09-01,37019,,Mafralac Alimenticia Srl,69996360,                    ,Pendiente
@@ -407,6 +411,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-11-04,39005,HLXU-816618-1,Tipoiti Satic,56754433,********************,Arribado
 2025-11-04,39006,HLBU-310403-0,Tipoiti Satic,56754433,******************* ,Arribado
 2025-11-04,39007,BMOU-495934-0,Tipoiti Satic,56754433,****************    ,Arribado
+2025-11-11,39230,,Tipoiti Satic,71939850,                    ,Pendiente
+2025-11-11,39231,,Tipoiti Satic,71939850,                    ,Pendiente
 2025-10-13,38320,TCNU-836512-4,Global Rover Logistic Srl,260039607,***********         ,Arribado
 2025-10-13,38321,MSKU-114155-0,Global Rover Logistic Srl,260039607,********************,Arribado
 2025-10-13,38322,TRHU-647433-0,Global Rover Logistic Srl,260039607,************        ,Arribado
@@ -525,9 +531,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-07-21,35730,JXLU-639362-5,Carpal Sa,ZIMUBUE9041801,***********         ,Arribado
 2025-07-15,35612,MSMU-714104-9,Henn Y Cia S.R.L.,EBKG13257927,FX32939730          ,Arribado
 2025-07-15,35613,TCNU-873169-2,Henn Y Cia S.R.L.,EBKG13257927,FX32939721          ,Arribado
-2025-11-10,39185,,Henn Y Cia S.R.L.,BUE500197400,                    ,Pendiente
-2025-11-10,39186,,Henn Y Cia S.R.L.,BUE500197400,                    ,Pendiente
-2025-11-10,39187,,Henn Y Cia S.R.L.,BUE500197400,                    ,Pendiente
+2025-11-10,39185,PCIU-103867-5,Henn Y Cia S.R.L.,BUE500197400,******************* ,Arribado
+2025-11-10,39186,PCIU-140530-1,Henn Y Cia S.R.L.,BUE500197400,*****************   ,Arribado
+2025-11-10,39187,PCIU-180127-8,Henn Y Cia S.R.L.,BUE500197400,***************     ,Arribado
 2025-11-05,39070,HLBU-137569-1,Henn Y Cia S.R.L.,28478939,******************* ,Arribado
 2025-11-05,39071,GLDU-977322-9,Henn Y Cia S.R.L.,BUE500196800,********************,Arribado
 2025-11-05,39072,PCIU-115352-9,Henn Y Cia S.R.L.,BUE500196800,******************* ,Arribado
@@ -1235,9 +1241,15 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado
 2025-09-24,37880,CAIU-483056-4,Lasfor Srl,29756636,**********          ,Arribado
 2025-10-07,38193,TCLU-614988-0,Energy Group S R L,260316179,*************       ,Arribado
 2025-10-14,38428,OOLU-034105-1,Ronalb S.R.L.,COSU6432628590,****************    ,Arribado
+2025-11-11,39234,,Figo Srl S. R. L.,BUA0355066,                    ,Pendiente
+2025-11-11,39235,,Figo Srl S. R. L.,BUA0355066,                    ,Pendiente
+2025-11-11,39236,,Figo Srl S. R. L.,BUA0355066,                    ,Pendiente
+2025-11-11,39232,,Figo Srl S. R. L.,BUA0355066,                    ,Pendiente
+2025-11-11,39233,,Figo Srl S. R. L.,BUA0355066,                    ,Pendiente
 2025-11-07,39125,AXIU-847493-3,Figo Srl S. R. L.,EBKG14752501,FX32928758          ,Arribado
 2025-11-07,39126,MSDU-138663-9,Figo Srl S. R. L.,EBKG14752501,FX32928757          ,Arribado
 2025-11-07,39127,MSNU-227281-5,Figo Srl S. R. L.,EBKG14752501,FX32928759          ,Arribado
 2025-11-07,39128,TGBU-397872-0,Figo Srl S. R. L.,EBKG14752501,FX32928848          ,Arribado
 2025-11-07,39129,TEMU-202938-0,Figo Srl S. R. L.,EBKG14752501,FX32928849          ,Arribado
 2025-11-05,39104,MSNU-549220-1,Gleba S A,EBKG14724426,FX32928908          ,Arribado
+2025-11-11,39244,,Cables Epuyen Srl,BUEF13243600,                    ,Pendiente
