@@ -113,7 +113,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-24,Trp - Terminales 1-2-3,1500 ,EGSU-150362-3,Mma Tex S.A.,CXMMF250801728,T,HC,70,1,21:13 Arribado
 2025-11-05,Exolgan,1300 ,ONEU-628355-8,Mma Tex S.A.,ONEYNB5BEAR09400,T,HC,70,1,15:25 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1100 ,EITU-317735-4,Mma Tex S.A.,CSHMF250900196,T,DC,30,0,Pendiente arribo
-2025-11-10,Trp - Terminales 1-2-3,1100 ,GAOU-692063-0,Mma Tex S.A.,CSHMF250900252,T,DC,30,0,Pendiente arribo
+2025-11-10,Trp - Terminales 1-2-3,1100 ,GAOU-692063-0,Mma Tex S.A.,CSHMF250900252,T,DC,30,1,14:42 Arribado
 2025-11-11,Trp - Terminales 1-2-3,1100 ,EGSU-638182-6,Mma Tex S.A.,HDE25-100021,T,HC,70,0,Pendiente arribo
 2025-10-30,Trp - Terminales 1-2-3,1200 ,PCIU-939632-0,Tandem Global Logistics S.A.,XMF202500829A/B/C,TD,HC,70,1,16:03 Arribado
 2025-11-10,Terminal 4 - Maersk,0600 ,MSKU-122274-9,Tandem Global Logistics S.A.,XMF202500827A/B/C/D,TD,HC,70,1,09:30 Arribado
@@ -184,9 +184,9 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-21,Exolgan,0500 ,MSNU-880629-2,Tio Musa,SYNCAN25SE080334,TD,HC,70,1,09:15 Arribado
 2025-10-22,Exolgan,0700 ,MSDU-544049-2,Tio Musa,GSZBUE25080296,T,HC,70,1,13:36 Arribado
 2025-10-27,Terminal 4 - Maersk,1400 ,BSIU-965743-6,Tio Musa,SYNNGB25SE090227,T,HC,70,1,16:50 Arribado
-2025-11-10,Trp - Terminales 1-2-3,1200 ,CSNU-870227-7,Tio Musa,SZ25080709,T,HC,70,0,Pendiente arribo
+2025-11-10,Trp - Terminales 1-2-3,1200 ,CSNU-870227-7,Tio Musa,SZ25080709,T,HC,70,1,14:54 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1100 ,CBHU-891352-2,Tio Musa,SZ25080709,T,HC,70,1,14:03 Arribado
-2025-11-10,Trp - Terminales 1-2-3,1200 ,CSNU-699332-1,Tio Musa,SZ25080709,T,HC,70,0,Pendiente arribo
+2025-11-10,Trp - Terminales 1-2-3,1200 ,CSNU-699332-1,Tio Musa,SZ25080709,T,HC,70,1,14:37 Arribado
 2025-11-10,Terminal 4 - Maersk,1400 ,UETU-833283-1,Tio Musa,SZ25081174,T,HC,70,0,Pendiente arribo
 2025-11-10,Trp - Terminales 1-2-3,1100 ,CSNU-808862-0,Tio Musa,SZ25080709,T,HC,70,1,13:59 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1200 ,OOCU-718635-1,Tio Musa,SZ25080709,T,HC,70,0,Pendiente arribo
@@ -266,7 +266,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-22,Trp - Terminales 1-2-3,1100 ,EMCU-546616-0,Fashion Concept,HDE25-0900048,TD,DC,60,1,14:32 Arribado
 2025-10-30,Trp - Terminales 1-2-3,1100 ,TLLU-768160-1,Fashion Concept,HDE25-0900029,T,HC,70,1,15:06 Arribado
 2025-10-30,Trp - Terminales 1-2-3,1200 ,EGSU-502931-7,Fashion Concept,HDE25-0900072A/B,T,RF,60,1,16:36 Arribado
-2025-11-10,Trp - Terminales 1-2-3,1200 ,EISU-854643-0,Fashion Concept,HDE25-0900041,T,HC,70,0,Pendiente arribo
+2025-11-10,Trp - Terminales 1-2-3,1200 ,EISU-854643-0,Fashion Concept,HDE25-0900041,T,HC,70,1,14:41 Arribado
 2025-10-22,Exolgan,1500 ,ONEU-111863-2,Hogar Total S.A.,ONEYBOGF09702901,T,HC,70,1,19:05 Arribado
 2025-10-22,Exolgan,1500 ,FFAU-661507-3,Hogar Total S.A.,ONEYBOGF09702901,T,HC,70,1,18:51 Arribado
 2025-10-22,Exolgan,1500 ,ONEU-651056-4,Hogar Total S.A.,ONEYBOGF09702901,T,HC,70,1,18:48 Arribado
