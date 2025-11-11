@@ -1,9 +1,9 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 39230,11/11,Tipoiti Satic,HLXU-819992-4,10080,HC,TD,********************,71939850,1,TRANSPORTE DEL CLIENTE        ,Bollota,11:13,1899-12-30,,                    ,11:13 Arribado
 39235,11/11,Figo Srl S. R. L.,-,10074,DR,TD,                    ,BUA0355066,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39234,11/11,Figo Srl S. R. L.,-,10074,DR,TD,                    ,BUA0355066,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39233,11/11,Figo Srl S. R. L.,-,10074,DR,TD,                    ,BUA0355066,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39232,11/11,Figo Srl S. R. L.,-,10074,DR,TD,                    ,BUA0355066,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39234,11/11,Figo Srl S. R. L.,TCLU-742373-8,10074,DR,TD,R8690598            ,BUA0355066,1,TRANSPORTE DEL CLIENTE        ,Garcia,16:44,1899-12-30,,                    ,16:44 Arribado
+39233,11/11,Figo Srl S. R. L.,TRHU-294073-9,10074,DR,TD,R8690594            ,BUA0355066,1,TRANSPORTE DEL CLIENTE        ,Garcia,16:39,1899-12-30,,                    ,16:39 Arribado
+39232,11/11,Figo Srl S. R. L.,TEMU-099945-7,10074,DR,TD,R8690597            ,BUA0355066,1,TRANSPORTE DEL CLIENTE        ,Abadia,16:36,1899-12-30,,                    ,16:36 Arribado
 39214,11/11,Borax Argentina S A,UACU-388483-3,10080,DR,TD,*****************   ,30844634,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:10,1899-12-30,Fc12807,                    ,11:10 Arribado
 39213,11/11,Borax Argentina S A,BMOU-137131-1,10080,DR,TD,********************,30844634,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:08,1899-12-30,Fc12807,                    ,11:08 Arribado
 39212,11/11,Borax Argentina S A,UETU-222343-2,10080,DR,TD,********************,30844634,1,TRANSPORTE DEL CLIENTE        ,Peril,11:06,1899-12-30,Fc12807,                    ,11:06 Arribado
