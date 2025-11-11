@@ -1,12 +1,12 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-39230,11/11,Tipoiti Satic,-,10080,HC,TD,                    ,71939850,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39230,11/11,Tipoiti Satic,HLXU-819992-4,10080,HC,TD,********************,71939850,1,TRANSPORTE DEL CLIENTE        ,Bollota,11:13,1899-12-30,,                    ,11:13 Arribado
 39235,11/11,Figo Srl S. R. L.,-,10074,DR,TD,                    ,BUA0355066,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39234,11/11,Figo Srl S. R. L.,-,10074,DR,TD,                    ,BUA0355066,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39233,11/11,Figo Srl S. R. L.,-,10074,DR,TD,                    ,BUA0355066,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39232,11/11,Figo Srl S. R. L.,-,10074,DR,TD,                    ,BUA0355066,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39214,11/11,Borax Argentina S A,-,10080,DR,TD,                    ,30844634,0,                              ,,     ,1899-12-30,Fc12807,                    ,Pendiente
-39213,11/11,Borax Argentina S A,-,10080,DR,TD,                    ,30844634,0,                              ,,     ,1899-12-30,Fc12807,                    ,Pendiente
-39212,11/11,Borax Argentina S A,-,10080,DR,TD,                    ,30844634,0,                              ,,     ,1899-12-30,Fc12807,                    ,Pendiente
+39214,11/11,Borax Argentina S A,UACU-388483-3,10080,DR,TD,*****************   ,30844634,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:10,1899-12-30,Fc12807,                    ,11:10 Arribado
+39213,11/11,Borax Argentina S A,BMOU-137131-1,10080,DR,TD,********************,30844634,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,11:08,1899-12-30,Fc12807,                    ,11:08 Arribado
+39212,11/11,Borax Argentina S A,UETU-222343-2,10080,DR,TD,********************,30844634,1,TRANSPORTE DEL CLIENTE        ,Peril,11:06,1899-12-30,Fc12807,                    ,11:06 Arribado
 39211,11/11,Borax Argentina S A,CAIU-292663-0,10080,DR,TD,*****************   ,30844634,1,TRANSPORTE DEL CLIENTE        ,Peril,11:04,1899-12-30,Fc12807,                    ,11:04 Arribado
 39210,11/11,Borax Argentina S A,FCIU-656080-4,10080,DR,TD,****************    ,30844634,1,TRANSPORTE DEL CLIENTE        ,Peril,11:01,1899-12-30,Fc12807,                    ,11:01 Arribado
 39209,11/11,Borax Argentina S A,UETU-283902-7,10080,DR,TD,******************  ,30844634,1,TRANSPORTE DEL CLIENTE        ,Peril,10:58,1899-12-30,Fc12807,                    ,10:58 Arribado
