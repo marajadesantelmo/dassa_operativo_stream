@@ -10,8 +10,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 39211,11/11,Borax Argentina S A,CAIU-292663-0,10080,DR,TD,*****************   ,30844634,1,TRANSPORTE DEL CLIENTE        ,Peril,11:04,1899-12-30,Fc12807,                    ,11:04 Arribado
 39210,11/11,Borax Argentina S A,FCIU-656080-4,10080,DR,TD,****************    ,30844634,1,TRANSPORTE DEL CLIENTE        ,Peril,11:01,1899-12-30,Fc12807,                    ,11:01 Arribado
 39209,11/11,Borax Argentina S A,UETU-283902-7,10080,DR,TD,******************  ,30844634,1,TRANSPORTE DEL CLIENTE        ,Peril,10:58,1899-12-30,Fc12807,                    ,10:58 Arribado
-39216,11/11,Borax Argentina S A,-,10080,DR,TD,                    ,30844634,0,                              ,,     ,1899-12-30,Fc12807,                    ,Pendiente
-39215,11/11,Borax Argentina S A,-,10080,DR,TD,                    ,30844634,0,                              ,,     ,1899-12-30,Fc12807,                    ,Pendiente
+39216,11/11,Borax Argentina S A,HLBU-102247-8,10080,DR,TD,*****************   ,30844634,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,16:28,1899-12-30,Fc12807,                    ,16:28 Arribado
+39215,11/11,Borax Argentina S A,DAYU-216199-6,10080,DR,TD,****************    ,30844634,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,16:26,1899-12-30,Fc12807,                    ,16:26 Arribado
 39208,11/11,Borax Argentina S A,TEMU-147210-0,10080,DR,TD,******************  ,30844634,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,10:56,1899-12-30,Fc12807,                    ,10:56 Arribado
 39207,11/11,Borax Argentina S A,NIDU-230763-5,10080,DR,TD,******************  ,30844634,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,10:37,1899-12-30,Fc12807,                    ,10:37 Arribado
 39206,11/11,Borax Argentina S A,TLLU-243805-5,10080,DR,TD,********************,30844634,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,10:35,1899-12-30,Fc12807,                    ,10:35 Arribado
@@ -20,4 +20,4 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 39203,11/11,Borax Argentina S A,DFSU-142295-6,10080,DR,TD,********************,30844634,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:24,1899-12-30,Fc12807,                    ,10:24 Arribado
 39231,11/11,Tipoiti Satic,FANU-324171-2,10080,HC,TD,********************,71939850,1,TRANSPORTE DEL CLIENTE        ,Bollota,14:40,1899-12-30,,                    ,14:40 Arribado
 39236,11/11,Figo Srl S. R. L.,-,10074,DR,TD,                    ,BUA0355066,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39244,11/11,Cables Epuyen Srl,-,10074,HC,TD,                    ,BUEF13243600,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39244,11/11,Cables Epuyen Srl,ONEU-566269-1,10074,HC,TD,***************     ,BUEF13243600,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,16:30,1899-12-30,,                    ,16:30 Arribado
