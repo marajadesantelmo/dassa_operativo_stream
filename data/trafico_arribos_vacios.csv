@@ -1,6 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 39274,11/11,J. Llorente Y Cía. S.A.,-,0,  ,TD,                    ,25001EC01075458Z,1,TRANSPORTE DEL CLIENTE        ,.,18:00,1899-12-30,,                    ,18:00 Arribado
-39235,11/11,Figo Srl S. R. L.,-,10074,DR,TD,                    ,BUA0355066,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39235,11/11,Figo Srl S. R. L.,CMAU-124324-7,10074,DR,TD,R8690487            ,BUA0355066,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,18:23,1899-12-30,,                    ,18:23 Arribado
 39234,11/11,Figo Srl S. R. L.,TCLU-742373-8,10074,DR,TD,R8690598            ,BUA0355066,1,TRANSPORTE DEL CLIENTE        ,Garcia,16:44,1899-12-30,,                    ,16:44 Arribado
 39233,11/11,Figo Srl S. R. L.,TRHU-294073-9,10074,DR,TD,R8690594            ,BUA0355066,1,TRANSPORTE DEL CLIENTE        ,Garcia,16:39,1899-12-30,,                    ,16:39 Arribado
 39232,11/11,Figo Srl S. R. L.,TEMU-099945-7,10074,DR,TD,R8690597            ,BUA0355066,1,TRANSPORTE DEL CLIENTE        ,Abadia,16:36,1899-12-30,,                    ,16:36 Arribado
@@ -12,7 +12,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 39209,11/11,Borax Argentina S A,UETU-283902-7,10080,DR,TD,******************  ,30844634,1,TRANSPORTE DEL CLIENTE        ,Peril,10:58,1899-12-30,Fc12807,                    ,10:58 Arribado
 39216,11/11,Borax Argentina S A,HLBU-102247-8,10080,DR,TD,*****************   ,30844634,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,16:28,1899-12-30,Fc12807,                    ,16:28 Arribado
 39215,11/11,Borax Argentina S A,DAYU-216199-6,10080,DR,TD,****************    ,30844634,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,16:26,1899-12-30,Fc12807,                    ,16:26 Arribado
-39236,11/11,Figo Srl S. R. L.,-,10074,DR,TD,                    ,BUA0355066,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39236,11/11,Figo Srl S. R. L.,CAIU-312547-2,10074,DR,TD,R8690489            ,BUA0355066,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,18:26,1899-12-30,,                    ,18:26 Arribado
 39208,11/11,Borax Argentina S A,TEMU-147210-0,10080,DR,TD,******************  ,30844634,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,10:56,1899-12-30,Fc12807,                    ,10:56 Arribado
 39206,11/11,Borax Argentina S A,TLLU-243805-5,10080,DR,TD,********************,30844634,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,10:35,1899-12-30,Fc12807,                    ,10:35 Arribado
 39205,11/11,Borax Argentina S A,CAIU-667402-8,10080,DR,TD,********************,30844634,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,10:32,1899-12-30,Fc12807,                    ,10:32 Arribado
