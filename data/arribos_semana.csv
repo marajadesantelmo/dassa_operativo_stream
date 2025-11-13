@@ -35,7 +35,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-24,Exolgan,1500 ,CAIU-302719-9,Refractarios Argentinos Saicm,MEDUT1318616,TD,DC,30,1,01:49 Arribado
 2025-10-24,Exolgan,1500 ,MSMU-237266-2,Refractarios Argentinos Saicm,MEDUT1318616,TD,DC,30,1,01:46 Arribado
 2025-10-27,Terminal 4 - Maersk,1300 ,MSKU-590196-4,Refractarios Argentinos Saicm,PCBUE25080002,TD,DR,30,1,17:24 Arribado
-2025-11-13,Exolgan,1500 ,HAMU-310826-7,Pelama Chubut S.A.,HLCULIV20970473,TD,HC,70,0,Pendiente arribo
+2025-11-13,Exolgan,1500 ,HAMU-310826-7,Pelama Chubut S.A.,HLCULIV20970473,TD,HC,70,1,18:28 Arribado
 2025-11-03,Exolgan,1100 ,HAMU-374607-1,Aspee Monee,HLCUBO12507BNWN5,T,HC,70,1,14:21 Arribado
 2025-10-27,Exolgan,1300 ,MSDU-548851-5,Aspee Monee,LDH/25/1751,T,HC,70,1,17:16 Arribado
 2025-10-29,Exolgan,0500 ,MSDU-537569-5,Aspee Monee,MEDUOO676706,T,HC,70,1,10:09 Arribado
@@ -109,12 +109,14 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-14,Trp - Terminales 1-2-3,1500 ,EITU-940162-5,Mma Tex S.A.,HDE25-1000003,T,HC,70,0,Pendiente arribo
 2025-10-30,Trp - Terminales 1-2-3,1200 ,PCIU-939632-0,Tandem Global Logistics S.A.,XMF202500829A/B/C,TD,HC,70,1,16:03 Arribado
 2025-11-10,Terminal 4 - Maersk,0600 ,MSKU-122274-9,Tandem Global Logistics S.A.,XMF202500827A/B/C/D,TD,HC,70,1,09:30 Arribado
+2025-11-17,Trp - Terminales 1-2-3,0600 ,SUDU-874616-6,Tandem Global Logistics S.A.,XMF202500917A/B/C,TD,HC,70,0,Pendiente arribo
 2025-10-23,Exolgan,1100 ,UACU-852499-5,Sk Distributors S.R.L.,DLSZ25080414,T,DC,60,1,14:48 Arribado
 2025-10-23,Exolgan,0500 ,HLBU-133334-0,Sk Distributors S.R.L.,DLSZ25080430,T,HC,70,1,09:37 Arribado
 2025-10-31,Exolgan,0500 ,MEDU-412289-0,Sk Distributors S.R.L.,DLNB2509605,T,DR,60,1,11:05 Arribado
 2025-10-31,Exolgan,0500 ,HLBU-140169-8,Sk Distributors S.R.L.,DLSZ25080613,T,DR,60,1,08:26 Arribado
 2025-10-31,Exolgan,0500 ,TXGU-712470-0,Sk Distributors S.R.L.,DLSZ25090111,T,HC,70,1,10:31 Arribado
 2025-11-11,Trp - Terminales 1-2-3,1100 ,TRHU-538239-5,Rueda Oeste S.A.,COSU6428137250,T,HC,70,1,14:15 Arribado
+2025-11-17,Trp - Terminales 1-2-3,1100 ,CAAU-514348-8,Rueda Oeste S.A.,TCSZ2509477B,T,HC,70,0,Pendiente arribo
 2025-11-14,Trp - Terminales 1-2-3,1500 ,ECMU-555623-7,Geo Logistics Argentina S.R.L.,SHZ7554986,T,HC,70,0,Pendiente arribo
 2025-10-31,Terminal 4 - Maersk,1200 ,TEMU-677609-1,Jupam Sa,TWLE25070128,T,HC,70,1,14:21 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1100 ,EGHU-828720-3,Jupam Sa,NB250865670,T,HC,70,1,14:10 Arribado
@@ -176,7 +178,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-10,Trp - Terminales 1-2-3,1100 ,CSNU-808862-0,Tio Musa,SZ25080709,T,HC,70,1,13:59 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1200 ,OOCU-718635-1,Tio Musa,SZ25080709,T,HC,70,1,15:32 Arribado
 2025-11-10,Terminal 4 - Maersk,0600 ,MSKU-074194-5,Tio Musa,SZ25090293,TD,HC,70,1,10:26 Arribado
-2025-11-10,Terminal 4 - Maersk,0600 ,MRKU-495255-9,Tio Musa,SZ25090293,T,HC,70,1,10:24 Arribado
+2025-11-10,Terminal 4 - Maersk,0600 ,MRKU-495255-9,Tio Musa,SZ25090293,TD,HC,70,1,10:24 Arribado
 2025-11-10,Terminal 4 - Maersk,1400 ,UETU-832994-6,Tio Musa,SZ25081174,TD,HC,70,1,18:24 Arribado
 2025-11-10,Terminal 4 - Maersk,1400 ,UETU-833276-5,Tio Musa,SZ25081174,TD,HC,70,1,18:26 Arribado
 2025-11-10,Terminal 4 - Maersk,1400 ,UETU-833283-1,Tio Musa,SZ25081174,TD,HC,70,1,18:30 Arribado
@@ -188,10 +190,11 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-03,Terminal 4 - Maersk,0900 ,ONEU-527516-2,Grupo Simpa Sa,252106593B,TD,HC,70,1,11:02 Arribado
 2025-11-07,Trp - Terminales 1-2-3,1300 ,KOCU-503851-4,Grupo Simpa Sa,S01438709,T,HC,70,1,17:10 Arribado
 2025-11-14,Exolgan,1500 ,TCNU-371130-6,Grupo Simpa Sa,TL/HBL/076637,T,HC,70,0,Pendiente arribo
+2025-11-17,Trp - Terminales 1-2-3,1100 ,BSIU-994099-7,Grupo Simpa Sa,NBOBUE25090074,T,HC,70,0,Pendiente arribo
 2025-11-07,Trp - Terminales 1-2-3,1300 ,SEGU-600727-5,Grupo Simpa Sa,S01438704,T,HC,70,1,15:45 Arribado
 2025-11-07,Exolgan,0700 ,TRHU-401559-0,Grupo Simpa Sa,SY250966861,T,HC,70,1,11:50 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1300 ,KOCU-495359-0,Grupo Simpa Sa,S01438705,T,HC,70,1,16:04 Arribado
-2025-11-13,Trp - Terminales 1-2-3,1500 ,EGHU-949004-6,Grupo Simpa Sa,NB250866129B,T,HC,70,0,Pendiente arribo
+2025-11-13,Trp - Terminales 1-2-3,1500 ,EGHU-949004-6,Grupo Simpa Sa,NB250866129B,T,HC,70,1,18:38 Arribado
 2025-11-14,Trp - Terminales 1-2-3,1300 ,EISU-851561-4,Grupo Simpa Sa,NB250865169B,T,HC,70,0,Pendiente arribo
 2025-11-14,Exolgan,1300 ,MSDU-808675-7,Grupo Simpa Sa,S3PL2526108,T,HC,70,0,Pendiente arribo
 2025-10-31,Terminal 4 - Maersk,1000 ,MRKU-037849-0,Grupo Rsm Srl,260180876,TD,DR,60,1,14:11 Arribado
@@ -238,8 +241,8 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-07,Trp - Terminales 1-2-3,1300 ,KOCU-403777-1,Skop Trader S. A.,TCNB2509194,T,HC,70,1,15:44 Arribado
 2025-10-30,Trp - Terminales 1-2-3,1200 ,EGHU-917559-5,Mibeda S.A.,TWLE25080202,T,HC,70,1,15:19 Arribado
 2025-10-30,Trp - Terminales 1-2-3,1200 ,EGHU-975425-7,Mibeda S.A.,TWLE25080201,T,HC,70,1,16:11 Arribado
-2025-11-16,Trp - Terminales 1-2-3,0200 ,EGHU-941701-9,Mibeda S.A.,TWLE25090048,T,HC,70,0,Pendiente arribo
-2025-11-16,Trp - Terminales 1-2-3,0300 ,CAAU-574787-3,Mibeda S.A.,TWLE25090049,T,HC,70,0,Pendiente arribo
+2025-11-17,Trp - Terminales 1-2-3,1600 ,EGHU-941701-9,Mibeda S.A.,TWLE25090048,T,HC,70,0,Pendiente arribo
+2025-11-17,Trp - Terminales 1-2-3,1600 ,CAAU-574787-3,Mibeda S.A.,TWLE25090049,T,HC,70,0,Pendiente arribo
 2025-10-30,Trp - Terminales 1-2-3,1100 ,EITU-917903-5,Impacto Jean S.A.,HDE25-0900012,TD,HC,70,1,15:59 Arribado
 2025-11-05,Terminal 4 - Maersk,1300 ,TCLU-557270-6,Boratex Srl,258608845,TD,DC,30,1,16:47 Arribado
 2025-10-27,Trp - Terminales 1-2-3,0900 ,CSNU-732071-0,Vestiditos Sa,TCXM2508087,T,HC,70,1,13:44 Arribado

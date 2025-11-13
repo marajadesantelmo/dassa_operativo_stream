@@ -1,14 +1,21 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
+from supabase_connection import fetch_table_data
 
 def fetch_data_expo_historico():
-    arribos_expo_carga_historico = pd.read_csv('data/arribos_expo_carga_historico.csv')
-    arribos_expo_ctns_historico = pd.read_csv('data/arribos_expo_ctns_historico.csv')
-    historico_verificaciones_expo = pd.read_csv('data/historico_verificaciones_expo.csv')
-    historico_otros_expo = pd.read_csv('data/historico_otros_expo.csv')
-    historico_remisiones = pd.read_csv('data/historico_remisiones.csv')
-    historico_consolidados = pd.read_csv('data/historico_consolidados.csv') # Hay que armar algo con el egresado
+    arribos_expo_carga_historico = fetch_table_data('arribos_expo_carga_historico')
+    arribos_expo_carga_historico.drop(columns=['fecha_registro'], inplace=True, errors='ignore')
+    arribos_expo_ctns_historico = fetch_table_data('arribos_expo_ctns_historico')
+    arribos_expo_ctns_historico['e-tally'] = arribos_expo_ctns_historico['e-tally'].fillna("")
+    arribos_expo_ctns_historico.drop(columns=['fecha_registro'], inplace=True, errors='ignore')
+    historico_verificaciones_expo = fetch_table_data('historico_verificaciones_expo')
+    historico_verificaciones_expo.drop(columns=['fecha_registro'], inplace=True, errors='ignore')
+    historico_otros_expo = fetch_table_data('historico_otros_expo')
+    historico_otros_expo.drop(columns=['fecha_registro'], inplace=True, errors='ignore')
+    historico_remisiones = fetch_table_data('historico_remisiones')
+    historico_remisiones.drop(columns=['fecha_registro'], inplace=True, errors='ignore')
+   
     return arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo, historico_otros_expo, historico_remisiones, historico_consolidados
 
 def filter_data(data, cliente, start_date, end_date, date_column):
