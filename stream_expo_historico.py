@@ -16,7 +16,7 @@ def fetch_data_expo_historico():
     historico_remisiones = fetch_table_data('historico_remisiones')
     historico_remisiones.drop(columns=['fecha_registro'], inplace=True, errors='ignore')
    
-    return arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo, historico_otros_expo, historico_remisiones, historico_consolidados
+    return arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo, historico_otros_expo, historico_remisiones
 
 def filter_data(data, cliente, start_date, end_date, date_column):
     if cliente == "Todos los clientes":
@@ -32,13 +32,12 @@ def filter_data(data, cliente, start_date, end_date, date_column):
     return filtered_data
 
 def show_page_expo_historico():
-    arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo, historico_otros_expo, historico_remisiones, historico_consolidados = fetch_data_expo_historico()
+    arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo, historico_otros_expo, historico_remisiones = fetch_data_expo_historico()
     arribos_expo_carga_historico['Fecha'] = pd.to_datetime(arribos_expo_carga_historico['Fecha'])
     arribos_expo_ctns_historico['Fecha'] = pd.to_datetime(arribos_expo_ctns_historico['Fecha'])
     historico_verificaciones_expo['Dia'] = pd.to_datetime(historico_verificaciones_expo['Dia'])
     historico_otros_expo['Dia'] = pd.to_datetime(historico_otros_expo['Dia'])
     historico_remisiones['Dia'] = pd.to_datetime(historico_remisiones['Dia'])
-    historico_consolidados['Dia'] = pd.to_datetime(historico_consolidados['Dia'])
     
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
