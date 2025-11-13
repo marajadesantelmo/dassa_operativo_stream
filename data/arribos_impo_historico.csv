@@ -261,7 +261,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-08-28,10:00,Terminal 4,HASU-108388-1,Refractarios Argentinos Saicm,720933984,TD,2025-08-28,2395,http://dassaweb.mqbic.com/PublicTally.php?id=2395
 2025-09-03,11:00,TRP,CSNU-252319-2,Refractarios Argentinos Saicm,COSU6420591180,TD,2025-09-03,2439,http://dassaweb.mqbic.com/PublicTally.php?id=2439
 2025-09-05,15:00,Exolgan,MEDU-540410-0,Refractarios Argentinos Saicm,WJM58635961,TD,2025-09-05,2473,http://dassaweb.mqbic.com/PublicTally.php?id=2473
-2025-11-13,15:00,Exolgan,HAMU-310826-7,Pelama Chubut S.A.,HLCULIV20970473,TD,,,
+2025-11-13,15:00,Exolgan,HAMU-310826-7,Pelama Chubut S.A.,HLCULIV20970473,TD,2025-11-13,,
 2025-07-18,12:00,TRP,FFAU-738306-0,Planet Seguridad S.R.L.,GILSH250500167,T,2025-07-18,,
 2025-08-13,11:00,TRP,ONEU-669059-5,Planet Seguridad S.R.L.,GILSH250500166,T,2025-08-13,,
 2025-08-13,05:00,Exolgan,MSMU-557703-3,Planet Seguridad S.R.L.,GINSH250500165,T,2025-08-13,,
@@ -475,6 +475,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-11-10,06:00,Terminal 4,MSKU-122274-9,Tandem Global Logistics S.A.,XMF202500827A/B/C/D,TD,2025-11-10,3128,http://dassaweb.mqbic.com/PublicTally.php?id=3128
 2025-11-10,06:00,Terminal 4,MSKU-122274-9,Tandem Global Logistics S.A.,XMF202500827A/B/C/D,TD,2025-11-10,3128,http://dassaweb.mqbic.com/PublicTally.php?id=3128
 2025-11-10,06:00,Terminal 4,MSKU-122274-9,Tandem Global Logistics S.A.,XMF202500827A/B/C/D,TD,2025-11-10,3128,http://dassaweb.mqbic.com/PublicTally.php?id=3128
+2025-11-17,06:00,TRP,SUDU-874616-6,Tandem Global Logistics S.A.,XMF202500917A/B/C,TD,,,
 2025-07-18,21:00,Exolgan,MEDU-430303-4,Sk Distributors S.R.L.,DLNB2505127,T,2025-07-18,,
 2025-07-18,21:00,Exolgan,TGHU-451367-3,Sk Distributors S.R.L.,DLNB2504173,T,2025-07-18,,
 2025-08-06,05:00,Exolgan,MSDU-474372-4,Sk Distributors S.R.L.,DLNB2505614,T,2025-08-06,,
@@ -498,6 +499,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-10-08,12:00,TRP,EITU-152186-1,Rueda Oeste S.A.,CMI013503,T,2025-10-08,,
 2025-10-20,07:00,Terminal 4,TCLU-818453-5,Rueda Oeste S.A.,258539068,T,2025-10-20,,
 2025-11-11,11:00,TRP,TRHU-538239-5,Rueda Oeste S.A.,COSU6428137250,T,2025-11-11,,
+2025-11-17,11:00,TRP,CAAU-514348-8,Rueda Oeste S.A.,TCSZ2509477B,T,,,
 2025-08-26,12:00,TRP,BMOU-162724-0,Geo Logistics Argentina S.R.L.,SZ25051521,T,2025-08-26,,
 2025-09-10,13:00,Terminal 4,JXLU-785431-5,Geo Logistics Argentina S.R.L.,ZIMUNGB20503145,TD,2025-09-10,2520,http://dassaweb.mqbic.com/PublicTally.php?id=2520
 2025-09-10,13:00,Terminal 4,JXLU-785431-5,Geo Logistics Argentina S.R.L.,ZIMUNGB20503145,TD,2025-09-10,2520,http://dassaweb.mqbic.com/PublicTally.php?id=2520
@@ -824,9 +826,9 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-11-10,11:00,TRP,CSNU-808862-0,Tio Musa,SZ25080709,T,2025-11-10,,
 2025-11-10,12:00,TRP,OOCU-718635-1,Tio Musa,SZ25080709,T,2025-11-10,,
 2025-11-10,06:00,Terminal 4,MSKU-074194-5,Tio Musa,SZ25090293,TD,2025-11-10,,
-2025-11-10,06:00,Terminal 4,MRKU-495255-9,Tio Musa,SZ25090293,T,2025-11-10,,
+2025-11-10,06:00,Terminal 4,MRKU-495255-9,Tio Musa,SZ25090293,TD,2025-11-10,,
 2025-11-10,14:00,Terminal 4,UETU-832994-6,Tio Musa,SZ25081174,TD,2025-11-10,,
-2025-11-10,14:00,Terminal 4,UETU-833276-5,Tio Musa,SZ25081174,TD,2025-11-10,,
+2025-11-10,14:00,Terminal 4,UETU-833276-5,Tio Musa,SZ25081174,TD,2025-11-10,3148,http://dassaweb.mqbic.com/PublicTally.php?id=3148
 2025-10-21,05:00,Exolgan,MSNU-880629-2,Tio Musa,SYNCAN25SE080334,TD,2025-10-21,2899,http://dassaweb.mqbic.com/PublicTally.php?id=2899
 2025-10-22,07:00,Exolgan,MSDU-544049-2,Tio Musa,GSZBUE25080296,T,2025-10-22,,
 2025-10-27,14:00,Terminal 4,BSIU-965743-6,Tio Musa,SYNNGB25SE090227,T,2025-10-27,,
@@ -859,10 +861,11 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-07-25,15:00,Terminal 4,BSIU-957193-9,Grupo Simpa Sa,255567843,T,2025-07-25,,
 2025-08-07,10:00,Terminal 4,ZCSU-684359-5,Grupo Simpa Sa,NBOBUE25060146,T,2025-08-07,,
 2025-11-10,13:00,TRP,KOCU-495359-0,Grupo Simpa Sa,S01438705,T,2025-11-10,,
-2025-11-13,15:00,TRP,EGHU-949004-6,Grupo Simpa Sa,NB250866129B,T,,,
+2025-11-13,15:00,TRP,EGHU-949004-6,Grupo Simpa Sa,NB250866129B,T,2025-11-13,,
 2025-11-14,13:00,TRP,EISU-851561-4,Grupo Simpa Sa,NB250865169B,T,,,
 2025-11-14,13:00,Exolgan,MSDU-808675-7,Grupo Simpa Sa,S3PL2526108,T,,,
 2025-11-14,15:00,Exolgan,TCNU-371130-6,Grupo Simpa Sa,TL/HBL/076637,T,,,
+2025-11-17,11:00,TRP,BSIU-994099-7,Grupo Simpa Sa,NBOBUE25090074,T,,,
 2025-11-03,09:00,Terminal 4,ONEU-665837-7,Grupo Simpa Sa,252106593A,TD,2025-11-03,3073,http://dassaweb.mqbic.com/PublicTally.php?id=3073
 2025-11-03,09:00,Terminal 4,ONEU-527516-2,Grupo Simpa Sa,252106593B,TD,2025-11-03,3074,http://dassaweb.mqbic.com/PublicTally.php?id=3074
 2025-11-07,13:00,TRP,KOCU-503851-4,Grupo Simpa Sa,S01438709,T,2025-11-07,,
@@ -1122,8 +1125,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-10-10,08:00,Terminal 4,JXLU-634246-4,Mibeda S.A.,TWLE25070218,T,2025-10-10,,
 2025-10-30,12:00,TRP,EGHU-917559-5,Mibeda S.A.,TWLE25080202,T,2025-10-30,,
 2025-10-30,12:00,TRP,EGHU-975425-7,Mibeda S.A.,TWLE25080201,T,2025-10-30,,
-2025-11-16,02:00,TRP,EGHU-941701-9,Mibeda S.A.,TWLE25090048,T,,,
-2025-11-16,03:00,TRP,CAAU-574787-3,Mibeda S.A.,TWLE25090049,T,,,
+2025-11-17,16:00,TRP,EGHU-941701-9,Mibeda S.A.,TWLE25090048,T,,,
+2025-11-17,16:00,TRP,CAAU-574787-3,Mibeda S.A.,TWLE25090049,T,,,
 2025-09-03,12:00,TRP,TCNU-321925-6,Pablo Sebastian Paz,OEKTAO25060189,T,2025-09-03,,
 2025-10-03,06:00,TRP,EISU-821588-0,Impacto Jean S.A.,HDE25-0800040,TD,2025-10-03,2743,http://dassaweb.mqbic.com/PublicTally.php?id=2743
 2025-10-30,11:00,TRP,EITU-917903-5,Impacto Jean S.A.,HDE25-0900012,TD,2025-10-30,3030,http://dassaweb.mqbic.com/PublicTally.php?id=3030
