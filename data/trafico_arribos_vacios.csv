@@ -1,6 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 39295,13/11,Lift Van Int. Co S.A,-,Exolgan,DR,TD,                    ,25813261,0,                              ,,     ,1899-12-30,Rocha Lima,                    ,Pendiente
-39301,13/11,Hdv Leather S.R.L.,-,Exolgan,HC,TD,                    ,EBKG14843116,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39301,13/11,Hdv Leather S.R.L.,BMOU-680021-3,Exolgan,HC,TD,FX32921846          ,EBKG14843116,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,13:42,1899-12-30,,                    ,13:42 Arribado
 39300,13/11,Hdv Leather S.R.L.,MSMU-460435-0,Exolgan,HC,TD,FX32921776          ,EBKG14843116,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,12:28,1899-12-30,,                    ,12:28 Arribado
 39299,13/11,Hdv Leather S.R.L.,TIIU-401773-1,Exolgan,HC,TD,FX32921844          ,EBKG14843116,1,TRANSPORTE DEL CLIENTE        ,Bertoli,12:25,1899-12-30,,                    ,12:25 Arribado
 39298,13/11,Hdv Leather S.R.L.,MSMU-893378-1,Exolgan,HC,TD,FX32921759          ,EBKG14843116,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,12:11,1899-12-30,,                    ,12:11 Arribado
@@ -14,8 +14,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 39319,13/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91533185,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39303,13/11,Hdv Leather S.R.L.,-,Exolgan,HC,TD,                    ,EBKG14843116,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39317,13/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91533185,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39313,13/11,Henn Y Cia S.R.L.,HAMU-156981-9,Exolgan,HC,TD,********************,91533185,0,TRANSPORTE DEL CLIENTE        ,Peril,13:34,1899-12-30,,                    ,Pendiente
-39314,13/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91533185,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39313,13/11,Henn Y Cia S.R.L.,HAMU-156981-9,Exolgan,HC,TD,********************,91533185,1,TRANSPORTE DEL CLIENTE        ,Peril,13:34,1899-12-30,,                    ,13:34 Arribado
+39314,13/11,Henn Y Cia S.R.L.,FANU-142631-6,Exolgan,HC,TD,******************  ,91533185,1,TRANSPORTE DEL CLIENTE        ,Amato Alejandro,13:39,1899-12-30,,                    ,13:39 Arribado
 39315,13/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91533185,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39318,13/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91533185,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39316,13/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91533185,0,                              ,,     ,1899-12-30,,                    ,Pendiente
