@@ -6,13 +6,13 @@ from supabase_connection import fetch_table_data
 def fetch_data_impo_historico():
     arribos_impo_historico = fetch_table_data('arribos_impo_historico')
     arribos_impo_historico['e-tally'] = arribos_impo_historico['e-tally'].fillna("")
-    arribos_impo_historico.drop(columns=['fecha_registro'], inplace=True, errors='ignore')
+    arribos_impo_historico.drop(columns=['fecha_registro', 'idcont'], inplace=True, errors='ignore')
     historico_retiros_impo = fetch_table_data('historico_retiros_impo')
     historico_retiros_impo['e-tally'] = historico_retiros_impo['e-tally'].fillna("")
-    historico_retiros_impo.drop(columns=['fecha_registro'], inplace=True, errors='ignore')
+    historico_retiros_impo.drop(columns=['fecha_registro', 'idcont'], inplace=True, errors='ignore')
     historico_verificaciones_impo = fetch_table_data('historico_verificaciones_impo')
     historico_verificaciones_impo['e-tally'] = historico_verificaciones_impo['e-tally'].fillna("")
-    historico_verificaciones_impo.drop(columns=['fecha_registro'], inplace=True, errors='ignore')
+    historico_verificaciones_impo.drop(columns=['fecha_registro', 'idcont'], inplace=True, errors='ignore')
     return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo
 
 def filter_data(data, cliente, start_date, end_date, date_column):
