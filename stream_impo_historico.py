@@ -1,13 +1,14 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
+from supabase_connection import fetch_table_data
 
 def fetch_data_impo_historico():
-    arribos_impo_historico = pd.read_csv('data/arribos_impo_historico.csv')
+    arribos_impo_historico = fetch_table_data('arribos_impo_historico')
     arribos_impo_historico['e-tally'] = arribos_impo_historico['e-tally'].fillna("")
-    historico_retiros_impo = pd.read_csv('data/historico_retiros_impo.csv')
+    historico_retiros_impo = fetch_table_data('historico_retiros_impo')
     historico_retiros_impo['e-tally'] = historico_retiros_impo['e-tally'].fillna("")
-    historico_verificaciones_impo = pd.read_csv('data/historico_verificaciones_impo.csv')
+    historico_verificaciones_impo = fetch_table_data('historico_verificaciones_impo')
     historico_verificaciones_impo['e-tally'] = historico_verificaciones_impo['e-tally'].fillna("")
     return arribos_impo_historico, historico_retiros_impo, historico_verificaciones_impo
 
