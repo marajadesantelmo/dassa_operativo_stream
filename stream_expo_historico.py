@@ -14,6 +14,7 @@ def fetch_data_expo_historico():
     historico_otros_expo = fetch_table_data('historico_otros_expo')
     historico_otros_expo.drop(columns=['fecha_registro'], inplace=True, errors='ignore')
     historico_remisiones = fetch_table_data('historico_remisiones')
+    historico_remisiones['e-tally'] = historico_remisiones['e-tally'].fillna("")
     historico_remisiones.drop(columns=['fecha_registro'], inplace=True, errors='ignore')
    
     return arribos_expo_carga_historico, arribos_expo_ctns_historico, historico_verificaciones_expo, historico_otros_expo, historico_remisiones
@@ -91,7 +92,10 @@ def show_page_expo_historico():
             client_options = ["Todos los clientes"] + sorted(list(arribos_expo_carga_historico['Cliente'].unique()))
             cliente_arribos_ctns = st.selectbox("Cliente", options=client_options, key='cliente_arribos_ctns')
             filtered_data_arribos_ctns = filter_data(arribos_expo_ctns_historico, cliente_arribos_ctns, start_date_arribos_ctns, end_date_arribos_ctns, "Fecha")
-        st.dataframe(filtered_data_arribos_ctns, hide_index=True, use_container_width=True)
+        st.dataframe(filtered_data_arribos_ctns,
+                     column_config={'e-tally': st.column_config.LinkColumn('e-tally', 
+                                                display_text="\U0001F517",)},
+                     hide_index=True, use_container_width=True)
 
         st.subheader("Remisiones")
         col2_4, col2_5, col2_6 = st.columns(3)
@@ -105,4 +109,7 @@ def show_page_expo_historico():
             client_options = ["Todos los clientes"] + sorted(list(arribos_expo_carga_historico['Cliente'].unique()))
             cliente_remisiones = st.selectbox("Cliente", options=client_options, key='cliente_remisiones')
             filtered_data_remisiones = filter_data(historico_remisiones, cliente_remisiones, start_date_remisiones, end_date_remisiones, "Dia")
-        st.dataframe(filtered_data_remisiones, hide_index=True, use_container_width=True)
+        st.dataframe(filtered_data_remisiones,
+                     column_config={'e-tally': st.column_config.LinkColumn('e-tally', 
+                                                display_text="\U0001F517",)},
+                     hide_index=True, use_container_width=True)
