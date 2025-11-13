@@ -1,10 +1,10 @@
-Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Dimension,Oper.,Tiempo,Estado,Chofer
-Terminal 4 - Maersk,05:00,CAJU-504314-5,Car Pro Accesorios S...,TCQD2508510,DC,60,T,-,08:23 Arribado,
-Exolgan,07:00,TEMU-190782-0,Lift Van Int. Co S.A,HLCUBSC2509BGQX2,DC,30,TD,-,10:31 Arribado,
-Terminal 4 - Maersk,10:00,MRKU-091708-2,Grupo Rsm Srl,260839109,DC,60,TD,-,14:41 Arribado,
-Terminal 4 - Maersk,10:00,MRSU-507429-7,Macro Blanco Srl,JCCM33946,DC,60,T,-,13:50 Arribado,
-Trp - Terminales 1-2-3,12:00,APHU-682987-0,Luial Sa,SY250967222,HC,70,T,-,14:48 Arribado,
-Trp - Terminales 1-2-3,12:00,TGBU-698566-1,Fashion Concept,HDE25-0900047,HC,70,T,-,16:00 Arribado,
-Terminal 4 - Maersk,14:00,UETU-802574-8,Oriental Suppy Chain...,258917175,DC,60,TD,02:53,Pendiente arribo,
-Trp - Terminales 1-2-3,15:00,EGHU-949004-6,Grupo Simpa Sa,NB250866129B,HC,70,T,01:53,Pendiente arribo,
-Exolgan,15:00,HAMU-310826-7,Pelama Chubut S.A.,HLCULIV20970473,HC,70,TD,01:53,Pendiente arribo,
+Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,Chofer,Dimension
+Exolgan,07:00,TEMU-190782-0,Lift Van Int. Co S.A,HLCUBSC2509BGQX2,DC,TD,-,10:31 Arribado,,30
+Trp - Terminales 1-2-3,12:00,APHU-682987-0,Luial Sa,SY250967222,HC,T,-,14:48 Arribado,,70
+Trp - Terminales 1-2-3,15:00,EGHU-949004-6,Grupo Simpa Sa,NB250866129B,HC,T,01:53,Pendiente arribo,,70
+Terminal 4 - Maersk,10:00,MRKU-091708-2,Grupo Rsm Srl,260839109,DC,TD,-,14:41 Arribado,,60
+Trp - Terminales 1-2-3,12:00,TGBU-698566-1,Fashion Concept,HDE25-0900047,HC,T,-,16:00 Arribado,,70
+Exolgan,15:00,HAMU-310826-7,Pelama Chubut S.A.,HLCULIV20970473,HC,TD,01:53,Pendiente arribo,,70
+Terminal 4 - Maersk,05:00,CAJU-504314-5,Car Pro Accesorios S...,TCQD2508510,DC,T,-,08:23 Arribado,,60
+Terminal 4 - Maersk,10:00,MRSU-507429-7,Macro Blanco Srl,JCCM33946,DC,T,-,13:50 Arribado,,60
+Terminal 4 - Maersk,14:00,UETU-802574-8,Oriental Suppy Chain...,258917175,DC,TD,02:53,Pendiente arribo,,60
