@@ -14,7 +14,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-11,Exolgan,1500 ,MSDU-413321-2,Lift Van Int. Co S.A,MEDUHX601899,TD,DC,60,1,18:31 Arribado
 2025-11-13,Exolgan,0700 ,TEMU-190782-0,Lift Van Int. Co S.A,HLCUBSC2509BGQX2,TD,DC,30,1,10:31 Arribado
 2025-11-14,Terminal 4 - Maersk,1300 ,PCIU-189163-0,Lift Van Int. Co S.A,HLCUBKK250866818,TD,DR,30,1,17:14 Arribado
-2025-11-14,Trp - Terminales 1-2-3,1300 ,OOLU-931034-4,Lift Van Int. Co S.A,OOLU2311673410,TD,HC,70,0,Pendiente arribo
+2025-11-14,Trp - Terminales 1-2-3,1300 ,OOLU-931034-4,Lift Van Int. Co S.A,OOLU2311673410,TD,HC,70,1,18:36 Arribado
 2025-11-14,Exolgan,0500 ,HLXU-112415-8,Lift Van Int. Co S.A,HLCULIV250929593,T,DC,30,1,11:23 Arribado
 2025-11-03,Exolgan,1900 ,SEKU-677686-5,Lift Van Int. Co S.A,MEDUOF885372,T,HC,70,1,20:59 Arribado
 2025-11-05,Terminal 4 - Maersk,1300 ,MRKU-833382-4,Lift Van Int. Co S.A,SJOARBUE250059,TD,DC,30,1,16:45 Arribado
@@ -99,7 +99,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-11,Trp - Terminales 1-2-3,1100 ,EGSU-638182-6,Mma Tex S.A.,HDE25-100021,T,HC,70,1,14:14 Arribado
 2025-11-12,Terminal 4 - Maersk,0600 ,ZCSU-787977-7,Mma Tex S.A.,HDE25-1000038,T,HC,70,1,10:04 Arribado
 2025-11-14,Trp - Terminales 1-2-3,1500 ,EGHU-844528-0,Mma Tex S.A.,HDE25-0900035,T,HC,70,0,Pendiente arribo
-2025-11-14,Trp - Terminales 1-2-3,1500 ,EITU-940162-5,Mma Tex S.A.,HDE25-1000003,T,HC,70,0,Pendiente arribo
+2025-11-14,Trp - Terminales 1-2-3,1500 ,EITU-940162-5,Mma Tex S.A.,HDE25-1000003,T,HC,70,1,18:42 Arribado
 2025-10-30,Trp - Terminales 1-2-3,1200 ,PCIU-939632-0,Tandem Global Logistics S.A.,XMF202500829A/B/C,TD,HC,70,1,16:03 Arribado
 2025-11-10,Terminal 4 - Maersk,0600 ,MSKU-122274-9,Tandem Global Logistics S.A.,XMF202500827A/B/C/D,TD,HC,70,1,09:30 Arribado
 2025-11-17,Terminal 4 - Maersk,0600 ,SUDU-874616-6,Tandem Global Logistics S.A.,XMF202500917A/B/C,TD,HC,70,0,Pendiente arribo
@@ -108,7 +108,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-31,Exolgan,0500 ,TXGU-712470-0,Sk Distributors S.R.L.,DLSZ25090111,T,HC,70,1,10:31 Arribado
 2025-11-11,Trp - Terminales 1-2-3,1100 ,TRHU-538239-5,Rueda Oeste S.A.,COSU6428137250,T,HC,70,1,14:15 Arribado
 2025-11-17,Trp - Terminales 1-2-3,1100 ,CAAU-514348-8,Rueda Oeste S.A.,TCSZ2509477B,T,HC,70,0,Pendiente arribo
-2025-11-14,Trp - Terminales 1-2-3,1500 ,ECMU-555623-7,Geo Logistics Argentina S.R.L.,SHZ7554986,T,HC,70,1,17:24 Arribado
+2025-11-14,Trp - Terminales 1-2-3,1500 ,ECMU-555623-7,Geo Logistics Argentina S.R.L.,SHZ7554986,TD,HC,70,1,17:24 Arribado
 2025-10-31,Terminal 4 - Maersk,1200 ,TEMU-677609-1,Jupam Sa,TWLE25070128,T,HC,70,1,14:21 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1100 ,EGHU-828720-3,Jupam Sa,NB250865670,T,HC,70,1,14:10 Arribado
 2025-11-14,Trp - Terminales 1-2-3,1500 ,TCNU-103439-8,Jupam Sa,TSSZ2509107,T,HC,70,0,Pendiente arribo
