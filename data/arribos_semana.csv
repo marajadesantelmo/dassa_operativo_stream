@@ -31,6 +31,10 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-11,Terminal 4 - Maersk,1000 ,GAOU-795030-4,Juguetech Sa,SZXS069353,T,HC,70,1,14:04 Arribado
 2025-11-11,Terminal 4 - Maersk,0500 ,CAJU-528720-2,Juguetech Sa,SZXS069336,T,HC,70,1,08:33 Arribado
 2025-10-28,Terminal 4 - Maersk,1700 ,MSKU-970192-2,Hometex S.A.,TMSE3745317,T,HC,70,1,18:57 Arribado
+2025-11-17,Exolgan,1100 ,FCIU-324664-1,A La Orden,MEDUK7436497,T,DC,30,0,Pendiente arribo
+2025-11-17,Exolgan,1100 ,MEDU-604183-8,A La Orden,MEDUK7436497,T,DC,30,0,Pendiente arribo
+2025-11-17,Exolgan,1100 ,MEDU-588885-4,A La Orden,MEDUK7436497,T,DC,30,0,Pendiente arribo
+2025-11-17,Exolgan,1100 ,MSMU-120397-1,A La Orden,MEDUK7436497,T,DC,30,0,Pendiente arribo
 2025-10-24,Exolgan,1500 ,CAIU-302719-9,Refractarios Argentinos Saicm,MEDUT1318616,TD,DC,30,1,01:49 Arribado
 2025-10-24,Exolgan,1500 ,MSMU-237266-2,Refractarios Argentinos Saicm,MEDUT1318616,TD,DC,30,1,01:46 Arribado
 2025-10-27,Terminal 4 - Maersk,1300 ,MSKU-590196-4,Refractarios Argentinos Saicm,PCBUE25080002,TD,DR,30,1,17:24 Arribado
@@ -207,6 +211,8 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-27,Exolgan,0700 ,MSMU-701481-0,E A Balbi E Hijos S A,ACS-PKAR25200,T,HC,70,1,11:30 Arribado
 2025-10-27,Exolgan,0700 ,MSDU-636869-0,E A Balbi E Hijos S A,ACS-PKAR25200,T,HC,70,1,10:49 Arribado
 2025-11-10,Terminal 4 - Maersk,1400 ,MRKU-063559-8,E A Balbi E Hijos S A,WLLSH2509097,T,DR,60,1,18:34 Arribado
+2025-11-17,Exolgan,1100 ,MEDU-793604-1,E A Balbi E Hijos S A,ACS-PKAR25334,T,HC,70,0,Pendiente arribo
+2025-11-17,Exolgan,1100 ,FDCU-020447-3,E A Balbi E Hijos S A,ACS-PKAR25334,T,HC,70,0,Pendiente arribo
 2025-11-06,Exolgan,0500 ,HLBU-256087-9,Glamtex S.A.,NBOE25017919,T,HC,70,1,09:21 Arribado
 2025-11-14,Exolgan,1500 ,CARU-998701-7,Glamtex S.A.,NBOE25018044,T,HC,70,0,Pendiente arribo
 2025-11-14,Exolgan,1500 ,MSMU-505129-1,Glamtex S.A.,NBOE25017997,T,HC,70,0,Pendiente arribo
