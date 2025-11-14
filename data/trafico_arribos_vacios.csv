@@ -1,44 +1,24 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-39295,13/11,Lift Van Int. Co S.A,HLBU-127070-4,Exolgan,DR,TD,**************      ,25813261,1,TRANSPORTE DEL CLIENTE        ,Bollota,14:15,1899-12-30,Rocha Lima,                    ,14:15 Arribado
-39301,13/11,Hdv Leather S.R.L.,BMOU-680021-3,Exolgan,HC,TD,FX32921846          ,EBKG14843116,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,13:42,1899-12-30,,                    ,13:42 Arribado
-39300,13/11,Hdv Leather S.R.L.,MSMU-460435-0,Exolgan,HC,TD,FX32921776          ,EBKG14843116,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,12:28,1899-12-30,,                    ,12:28 Arribado
-39299,13/11,Hdv Leather S.R.L.,TIIU-401773-1,Exolgan,HC,TD,FX32921844          ,EBKG14843116,1,TRANSPORTE DEL CLIENTE        ,Bertoli,12:25,1899-12-30,,                    ,12:25 Arribado
-39298,13/11,Hdv Leather S.R.L.,MSMU-893378-1,Exolgan,HC,TD,FX32921759          ,EBKG14843116,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,12:11,1899-12-30,,                    ,12:11 Arribado
-39297,13/11,Hdv Leather S.R.L.,MSDU-771706-1,Exolgan,HC,TD,FX32921842          ,EBKG14843116,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,12:08,1899-12-30,,                    ,12:08 Arribado
-39309,13/11,Forestal Guarani Sa,TCKU-693600-3,10080,HC,TD,**************      ,261211047,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,14:22,1899-12-30,,                    ,14:22 Arribado
-39308,13/11,Forestal Guarani Sa,BEAU-518442-2,10080,HC,TD,****************    ,261211047,1,TRANSPORTE DEL CLIENTE        ,Czech,12:03,1899-12-30,,                    ,12:03 Arribado
-39307,13/11,Forestal Guarani Sa,MSKU-969181-9,10080,HC,TD,********************,261211047,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,11:57,1899-12-30,,                    ,11:57 Arribado
-39306,13/11,Norfor Sa,-,TRP,HC,TD,                    ,340500045096,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39302,13/11,Hdv Leather S.R.L.,MSDU-543336-4,Exolgan,HC,TD,FX32921974          ,EBKG14843116,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,20:46,1899-12-30,,                    ,20:46 Arribado
-39320,13/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91533185,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39319,13/11,Henn Y Cia S.R.L.,HLBU-194142-2,Exolgan,HC,TD,****************    ,91533185,1,TRANSPORTE DEL CLIENTE        ,Barrientos Emanuel,21:00,1899-12-30,,                    ,21:00 Arribado
-39318,13/11,Henn Y Cia S.R.L.,HLBU-289556-9,Exolgan,HC,TD,**************      ,91533185,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,20:55,1899-12-30,,                    ,20:55 Arribado
-39303,13/11,Hdv Leather S.R.L.,MSBU-651252-1,Exolgan,HC,TD,FX32921915          ,EBKG14843116,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,20:53,1899-12-30,,                    ,20:53 Arribado
-39316,13/11,Henn Y Cia S.R.L.,HAMU-174576-0,Exolgan,HC,TD,**************      ,91533185,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,14:32,1899-12-30,,                    ,14:32 Arribado
-39315,13/11,Henn Y Cia S.R.L.,BEAU-472968-3,Exolgan,HC,TD,*************       ,91533185,1,TRANSPORTE DEL CLIENTE        ,Daniel Mato,14:28,1899-12-30,,                    ,14:28 Arribado
-39313,13/11,Henn Y Cia S.R.L.,HAMU-156981-9,Exolgan,HC,TD,********************,91533185,1,TRANSPORTE DEL CLIENTE        ,Peril,13:34,1899-12-30,,                    ,13:34 Arribado
-39314,13/11,Henn Y Cia S.R.L.,FANU-142631-6,Exolgan,HC,TD,******************  ,91533185,1,TRANSPORTE DEL CLIENTE        ,Amato Alejandro,13:39,1899-12-30,,                    ,13:39 Arribado
-39317,13/11,Henn Y Cia S.R.L.,FANU-150859-0,Exolgan,HC,TD,*************       ,91533185,1,TRANSPORTE DEL CLIENTE        ,Moscardini,14:35,1899-12-30,,                    ,14:35 Arribado
 39372,14/11,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,93834259,0,                              ,,     ,1899-12-30,Nunis Rodrigo,                    ,Pendiente
-39373,14/11,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,261065459,0,                              ,,     ,1899-12-30,Felipe Andrés Valdés Cruzat,                    ,Pendiente
-39357,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39356,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39355,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39354,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39353,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39355,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39352,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39359,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39358,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39351,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39350,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39357,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39349,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39348,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39347,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39346,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39352,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39350,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39373,14/11,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,261065459,0,                              ,,     ,1899-12-30,Felipe Andrés Valdés Cruzat,                    ,Pendiente
+39348,14/11,Borax Argentina S A,-,10080,DR,TD,                    ,14066084,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39273,17/11,Mader Zu S.R.L.,-,10077,HC,TD,                    ,COSU6435825100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39272,17/11,Mader Zu S.R.L.,-,10077,HC,TD,                    ,COSU6435825100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39271,17/11,Mader Zu S.R.L.,-,10077,HC,TD,                    ,COSU6435825100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39304,17/11,Litoral Citrus S A,-,10081,DR,TD,                    ,COSU6435427330,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39270,17/11,Mader Zu S.R.L.,-,10077,HC,TD,                    ,COSU6434780510,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39269,17/11,Mader Zu S.R.L.,-,10077,HC,TD,                    ,COSU6434780510,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39268,17/11,Mader Zu S.R.L.,-,10077,HC,TD,                    ,COSU6434780510,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39304,17/11,Litoral Citrus S A,-,10081,DR,TD,                    ,COSU6435427330,0,                              ,,     ,1899-12-30,,                    ,Pendiente
