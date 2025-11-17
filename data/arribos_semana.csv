@@ -33,7 +33,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-11,Terminal 4 - Maersk,1000 ,GAOU-795030-4,Juguetech Sa,SZXS069353,T,HC,70,1,14:04 Arribado
 2025-11-11,Terminal 4 - Maersk,0500 ,CAJU-528720-2,Juguetech Sa,SZXS069336,T,HC,70,1,08:33 Arribado
 2025-10-28,Terminal 4 - Maersk,1700 ,MSKU-970192-2,Hometex S.A.,TMSE3745317,T,HC,70,1,18:57 Arribado
-2025-11-17,Exolgan,1100 ,FCIU-324664-1,A La Orden,MEDUK7436497,T,DC,30,0,Pendiente arribo
+2025-11-17,Exolgan,1100 ,FCIU-324664-1,A La Orden,MEDUK7436497,T,DC,30,1,15:25 Arribado
 2025-11-17,Exolgan,1100 ,MEDU-604183-8,A La Orden,MEDUK7436497,T,DC,30,1,14:43 Arribado
 2025-11-17,Exolgan,1100 ,MEDU-588885-4,A La Orden,MEDUK7436497,T,DC,30,1,14:34 Arribado
 2025-11-17,Exolgan,1100 ,MSMU-120397-1,A La Orden,MEDUK7436497,T,DC,30,0,Pendiente arribo
@@ -187,7 +187,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-14,Trp - Terminales 1-2-3,1300 ,EISU-851561-4,Grupo Simpa Sa,NB250865169B,T,HC,70,1,17:18 Arribado
 2025-11-14,Exolgan,1300 ,MSDU-808675-7,Grupo Simpa Sa,S3PL2526108,T,HC,70,1,15:28 Arribado
 2025-11-14,Exolgan,1500 ,TCNU-371130-6,Grupo Simpa Sa,TL/HBL/076637,T,HC,70,1,16:59 Arribado
-2025-11-17,Trp - Terminales 1-2-3,1100 ,BSIU-994099-7,Grupo Simpa Sa,NBOBUE25090074,T,HC,70,0,Pendiente arribo
+2025-11-17,Trp - Terminales 1-2-3,1100 ,BSIU-994099-7,Grupo Simpa Sa,NBOBUE25090074,T,HC,70,1,15:23 Arribado
 2025-10-31,Terminal 4 - Maersk,1000 ,MRKU-037849-0,Grupo Rsm Srl,260180876,TD,DR,60,1,14:11 Arribado
 2025-10-31,Terminal 4 - Maersk,1000 ,MRKU-031536-2,Grupo Rsm Srl,260057889,TD,DR,60,1,14:18 Arribado
 2025-10-31,Terminal 4 - Maersk,1000 ,MRKU-029097-9,Grupo Rsm Srl,260254448,TD,DR,60,1,14:42 Arribado
