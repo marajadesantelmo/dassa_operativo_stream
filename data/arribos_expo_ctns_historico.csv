@@ -1,8 +1,8 @@
 Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2025-07-21,35768,,Mercovan Argentina S.A.,36701530,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2025-07-21,35839,UACU-858452-5,Mercovan Argentina S.A.,36701530,***********         ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6541
-2025-11-17,39402,,Mercovan Argentina S.A.,21587034,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
-2025-11-17,39403,,Mercovan Argentina S.A.,22463591,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2025-11-17,39402,TCKU-660521-6,Mercovan Argentina S.A.,21587034,******************* ,Arribado,
+2025-11-17,39403,TEMU-161843-1,Mercovan Argentina S.A.,22463591,***************     ,Arribado,
 2025-10-31,38982,UACU-382791-5,Mercovan Argentina S.A.,93245223,********************,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27731
 2025-11-10,39202,BEAU-215886-2,Mercovan Argentina S.A.,34199316,******************  ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27790
 2025-10-24,38733,TCKU-227735-6,Mercovan Argentina S.A.,17065374,****************    ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27672
@@ -44,6 +44,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2025-11-13,39295,HLBU-127070-4,Lift Van Int. Co S.A,25813261,**************      ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27825
 2025-11-14,39372,HLBU-113273-1,Lift Van Int. Co S.A,93834259,****************    ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27844
 2025-11-14,39373,MRKU-060866-9,Lift Van Int. Co S.A,261065459,****************    ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27841
+2025-11-17,39409,,Lift Van Int. Co S.A,261322738,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2025-11-03,39031,HLXU-533772-1,Lift Van Int. Co S.A,21952925,************        ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27766
 2025-11-05,39063,HLBU-113831-8,Lift Van Int. Co S.A,40954148,******************* ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27759
 2025-10-21,38645,MSDU-436363-7,Lift Van Int. Co S.A,EBKGQ0014D1F,FX32920867          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27641
@@ -198,8 +199,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2025-08-01,36166,MSMU-647281-8,Mader Zu S.R.L.,EBKG13649051,FX32943987          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6687
 2025-08-01,36167,,Mader Zu S.R.L.,EBKG13649051,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2025-08-01,36168,,Mader Zu S.R.L.,EBKG13649051,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
-2025-11-17,39268,,Mader Zu S.R.L.,COSU6434780510,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
-2025-11-17,39269,,Mader Zu S.R.L.,COSU6434780510,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2025-11-17,39268,OOLU-695638-8,Mader Zu S.R.L.,COSU6434780510,********************,Arribado,
+2025-11-17,39269,OOCU-831632-0,Mader Zu S.R.L.,COSU6434780510,*****************   ,Arribado,
 2025-11-17,39270,,Mader Zu S.R.L.,COSU6434780510,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2025-11-17,39271,,Mader Zu S.R.L.,COSU6435825100,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2025-11-17,39272,,Mader Zu S.R.L.,COSU6435825100,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
@@ -906,7 +907,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2025-09-05,37003,CAIU-863315-7,Seaside Logistic Sa,19086151,********************,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=7282
 2025-08-29,37074,,Seaside Logistic Sa,ZIMUBUE9043239,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2025-08-28,37075,FCIU-412681-0,Seaside Logistic Sa,ZIMUBUE9043239,****************    ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6921
-2025-11-17,39397,,Seaside Logistic Sa,261770865,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2025-11-17,39397,CAIU-225736-6,Seaside Logistic Sa,261770865,      **************,Arribado,
 2025-08-25,36967,,Dsi Underground Sa,25001EC01055642J,                    ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2025-10-14,38470,,Dsi Underground Sa,25001EC01068374P,                    ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2025-10-16,38472,MSMU-554119-6,Forestal Bosques Del Plata Sa,EBKG14333906,FX32922664          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27613
@@ -963,7 +964,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2025-07-31,36150,MSDU-153947-1,Litoral Citrus S A,153IAR0650906,FX32942232          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6649
 2025-08-27,37014,MEDU-270911-1,Litoral Citrus S A,153IAR0651665,FX32971190          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6912
 2025-08-28,37022,DRYU-216477-3,Litoral Citrus S A,57775695,HLD0436048          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6920
-2025-11-17,39304,,Litoral Citrus S A,COSU6435427330,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2025-11-17,39304,OOCU-052494-5,Litoral Citrus S A,COSU6435427330,******************* ,Arribado,
 2025-10-23,38681,MSBU-321747-7,Litoral Citrus S A,EBKG14487166,FX32913673          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27664
 2025-11-06,39098,TGHU-084648-6,Litoral Citrus S A,EBKG14697468,FX32928882          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27777
 2025-09-01,37026,CAIU-684727-3,Litoral Citrus S A,17053740,********            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6936
@@ -1201,6 +1202,6 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2025-11-17,39400,,Delicia Maderas,BUA0355336,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2025-11-17,39401,,Delicia Maderas,BUA0355336,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2025-11-11,39244,ONEU-566269-1,Cables Epuyen Srl,BUEF13243600,***************     ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27803
-2025-11-17,39393,,Elementa Foods S.A.,EBKG14875622,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
-2025-11-17,39394,,Elementa Foods S.A.,EBKG14875622,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
-2025-11-17,39395,,Elementa Foods S.A.,EBKG14875622,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2025-11-17,39393,MSDU-896651-5,Elementa Foods S.A.,EBKG14875622,FX32916517          ,Arribado,
+2025-11-17,39394,FFAU-157583-0,Elementa Foods S.A.,EBKG14875622,FX32916516          ,Arribado,
+2025-11-17,39395,CRSU-923289-4,Elementa Foods S.A.,EBKG14875622,FX32916527          ,Arribado,
