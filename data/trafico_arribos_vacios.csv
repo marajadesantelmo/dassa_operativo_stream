@@ -1,7 +1,7 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 39402,17/11,Mercovan Argentina S.A.,TCKU-660521-6,10080,HC,TD,******************* ,21587034,1,TRANSPORTE DEL CLIENTE        ,Czech,09:58,1899-12-30,Juan Cruz Arangoneses,                    ,09:58 Arribado
 39393,17/11,Elementa Foods S.A.,MSDU-896651-5,9,HC,TD,FX32916517          ,EBKG14875622,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,09:50,1899-12-30,,                    ,09:50 Arribado
-39401,17/11,Delicia Maderas,-,10082,HC,TD,                    ,BUA0355336,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39401,17/11,Delicia Maderas,CMAU-479657-0,10082,HC,TD,R8691236            ,BUA0355336,1,TRANSPORTE DEL CLIENTE        ,Surge,16:03,1899-12-30,,                    ,16:03 Arribado
 39400,17/11,Delicia Maderas,CMAU-588887-7,10082,HC,TD,R8691237            ,BUA0355336,1,TRANSPORTE DEL CLIENTE        ,Perez,15:29,1899-12-30,,                    ,15:29 Arribado
 39304,17/11,Litoral Citrus S A,OOCU-052494-5,10081,DR,TD,******************* ,COSU6435427330,1,TRANSPORTE DEL CLIENTE        ,Maidana,09:48,1899-12-30,,                    ,09:48 Arribado
 39397,17/11,Seaside Logistic Sa,CAIU-225736-6,10080,DR,TD,      **************,261770865,1,TRANSPORTE DEL CLIENTE        ,Solla,10:22,1899-12-30,,                    ,10:22 Arribado
@@ -13,7 +13,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 39270,17/11,Mader Zu S.R.L.,CBHU-942258-6,10077,HC,TD,*************       ,COSU6434780510,1,TRANSPORTE DEL CLIENTE        ,Barrientos,15:33,1899-12-30,,                    ,15:33 Arribado
 39269,17/11,Mader Zu S.R.L.,OOCU-831632-0,10077,HC,TD,*****************   ,COSU6434780510,1,TRANSPORTE DEL CLIENTE        ,Rios Ivan,09:46,1899-12-30,,                    ,09:46 Arribado
 39268,17/11,Mader Zu S.R.L.,OOLU-695638-8,10077,HC,TD,********************,COSU6434780510,1,TRANSPORTE DEL CLIENTE        ,Dicciardelli,09:44,1899-12-30,,                    ,09:44 Arribado
-39396,17/11,J. Llorente Y Cía. S.A.,-,10077,DR,TD,                    ,261550783,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39396,17/11,J. Llorente Y Cía. S.A.,UETU-294717-1,10077,DR,TD,**************      ,261550783,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,16:00,1899-12-30,,                    ,16:00 Arribado
 39409,17/11,Lift Van Int. Co S.A,-,10077,DR,TD,                    ,261322738,0,                              ,,     ,1899-12-30,Dominguez Fernandez,                    ,Pendiente
 39403,17/11,Mercovan Argentina S.A.,TEMU-161843-1,10080,DR,TD,***************     ,22463591,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,10:01,1899-12-30,Andrea Negron,                    ,10:01 Arribado
 39272,17/11,Mader Zu S.R.L.,-,10077,HC,TD,                    ,COSU6435825100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
