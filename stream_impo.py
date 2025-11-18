@@ -8,7 +8,9 @@ import plotly.express as px
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
     arribos = fetch_table_data("arribos")
+    arribos.drop(columns=['Chofer'], inplace=True, errors='ignore')
     pendiente_desconsolidar = fetch_table_data("pendiente_desconsolidar")
+    pendiente_desconsolidar.drop(columns=['Chofer'], inplace=True, errors='ignore')
     verificaciones_impo = fetch_table_data("verificaciones_impo")
     retiros_impo = fetch_table_data("retiros_impo")
     otros_impo = fetch_table_data("otros_impo")
