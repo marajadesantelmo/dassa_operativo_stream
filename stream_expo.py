@@ -128,10 +128,16 @@ def show_page_expo(allowed_clients=None, apply_mudanceras_filter=False):
         with co2_sub:
             st.subheader("Arribos de Contenedores")
         with col2_metric1:
-            st.metric(label="Pendientes hoy", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'] == 'Pendiente') & 
-                                                 (arribos_expo_ctns['Fecha'] == today)]['Cantidad'].sum())
+            if not arribos_expo_ctns.empty:
+                st.metric(label="Pendientes hoy", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'] == 'Pendiente') & 
+                                                    (arribos_expo_ctns['Fecha'] == today)]['Cantidad'].sum())
+            else:
+                st.metric(label="Pendientes hoy", value=0)
         with col2_metric2:
-            st.metric(label="Arribados", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'].str.contains('Arribado'))].shape[0])
+            if not arribos_expo_ctns.empty:
+                st.metric(label="Arribados", value=arribos_expo_ctns[(arribos_expo_ctns['Estado'].str.contains('Arribado'))]['Cantidad'].sum())
+            else:
+                st.metric(label="Arribados", value=0)
         st.dataframe(arribos_expo_ctns.style.apply(highlight, axis=1), hide_index=True, use_container_width=True)
 
 
