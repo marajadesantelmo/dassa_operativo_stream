@@ -46,6 +46,7 @@ def fetch_data_expo():
             cols = remisiones.columns.tolist()
             cols.insert(1, cols.pop(cols.index('Hora')))
             remisiones = remisiones[cols]
+            remisiones.drop(columns=['Chofer', 'Fecha y Hora Fin'], inplace=True, errors='ignore')
         a_consolidar.sort_values(by="Dias", ascending=False, inplace=True)
     except Exception:
         pass
