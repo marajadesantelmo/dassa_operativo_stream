@@ -8,9 +8,7 @@ import plotly.express as px
 @st.cache_data(ttl=60) 
 def fetch_data_impo():
     arribos = fetch_table_data("arribos")
-    arribos.drop(columns=['Chofer'], inplace=True, errors='ignore')
     pendiente_desconsolidar = fetch_table_data("pendiente_desconsolidar")
-    pendiente_desconsolidar.drop(columns=['Chofer'], inplace=True, errors='ignore')
     verificaciones_impo = fetch_table_data("verificaciones_impo")
     retiros_impo = fetch_table_data("retiros_impo")
     otros_impo = fetch_table_data("otros_impo")
@@ -21,9 +19,9 @@ def fetch_data_impo():
     grafico_retiros_impo = fetch_table_data("grafico_retiros_impo")
     try:
         arribos = arribos.sort_values(by="Turno")
-        arribos['Chofer'] = arribos['Chofer'].fillna('-')
-        arribos['Chofer'] = arribos['Chofer'].str.title()
-        # Move Dimension column after Tipo CNT if it exists
+        #arribos['Chofer'] = arribos['Chofer'].fillna('-')
+        #arribos['Chofer'] = arribos['Chofer'].str.title()
+        arribos.drop(columns=['Chofer'], inplace=True, errors='ignore')
         cols = arribos.columns.tolist()
         tipo_cnt_idx = cols.index('Tipo CNT')
         cols.remove('Dimension')
@@ -33,8 +31,9 @@ def fetch_data_impo():
         pendiente_desconsolidar['Vto. Vacio'] = pd.to_datetime(pendiente_desconsolidar['Vto. Vacio'], format='%d/%m', errors='coerce')
         pendiente_desconsolidar = pendiente_desconsolidar.sort_values(by='Vto. Vacio')
         pendiente_desconsolidar['Vto. Vacio'] = pendiente_desconsolidar['Vto. Vacio'].dt.strftime('%d/%m')
-        pendiente_desconsolidar['Chofer'] = pendiente_desconsolidar['Chofer'].fillna('-')
-        pendiente_desconsolidar['Chofer'] = pendiente_desconsolidar['Chofer'].str.title()
+        #pendiente_desconsolidar['Chofer'] = pendiente_desconsolidar['Chofer'].fillna('-')
+        #pendiente_desconsolidar['Chofer'] = pendiente_desconsolidar['Chofer'].str.title()
+        pendiente_desconsolidar.drop(columns=['Chofer'], inplace=True, errors='ignore')
         cols = verificaciones_impo.columns.tolist()
         cols.insert(2, cols.pop(cols.index('Operacion')))
         verificaciones_impo = verificaciones_impo[cols]
