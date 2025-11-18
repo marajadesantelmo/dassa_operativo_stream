@@ -19,11 +19,12 @@ def fetch_data_expo():
         arribos_expo_carga['Fecha'] = pd.to_datetime(arribos_expo_carga['Fecha'], format='%d/%m')
         arribos_expo_carga = arribos_expo_carga.sort_values(by="Fecha")
         arribos_expo_carga['Fecha'] = arribos_expo_carga['Fecha'].dt.strftime('%d/%m')
-        arribos_expo_ctns['Fecha'] = pd.to_datetime(arribos_expo_ctns['Fecha'], format='%d/%m')
-        arribos_expo_ctns = arribos_expo_ctns.sort_values(by="Fecha")
-        arribos_expo_ctns['Fecha'] = arribos_expo_ctns['Fecha'].dt.strftime('%d/%m')
-        arribos_expo_ctns['Chofer'] = arribos_expo_ctns['Chofer'].fillna('-')
-        arribos_expo_ctns['Chofer'] = arribos_expo_ctns['Chofer'].str.title()
+        if not arribos_expo_ctns.empty:
+            arribos_expo_ctns['Fecha'] = pd.to_datetime(arribos_expo_ctns['Fecha'], format='%d/%m')
+            arribos_expo_ctns = arribos_expo_ctns.sort_values(by="Fecha")
+            arribos_expo_ctns['Fecha'] = arribos_expo_ctns['Fecha'].dt.strftime('%d/%m')
+            arribos_expo_ctns['Chofer'] = arribos_expo_ctns['Chofer'].fillna('-')
+            arribos_expo_ctns['Chofer'] = arribos_expo_ctns['Chofer'].str.title()
         verificaciones_expo = verificaciones_expo[verificaciones_expo['Dia'] != '-']
         otros_expo = otros_expo[otros_expo['Dia'] != '-']
         remisiones = remisiones[remisiones['Dia'] != '-']
