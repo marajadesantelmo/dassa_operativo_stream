@@ -12,6 +12,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-04,Exolgan,0500 ,TCLU-414582-3,Lift Van Int. Co S.A,HLCUME3250904035,TD,DC,60,1,10:54 Arribado
 2025-11-03,Exolgan,1900 ,SEKU-677686-5,Lift Van Int. Co S.A,MEDUOF885372,T,HC,70,1,20:59 Arribado
 2025-11-19,Trp - Terminales 1-2-3,1000 ,CMAU-246743-1,Lift Van Int. Co S.A,GHC0319892,TD,DC,30,0,Pendiente arribo
+2025-11-20,Terminal 4 - Maersk,0500 ,HLBU-105720-0,Lift Van Int. Co S.A,HLCUBS2510BIER6,TD,DC,60,0,Pendiente arribo
 2025-11-13,Exolgan,0700 ,TEMU-190782-0,Lift Van Int. Co S.A,HLCUBSC2509BGQX2,TD,DC,30,1,10:31 Arribado
 2025-11-14,Terminal 4 - Maersk,1300 ,PCIU-189163-0,Lift Van Int. Co S.A,HLCUBKK250866818,TD,DR,30,1,17:14 Arribado
 2025-11-14,Trp - Terminales 1-2-3,1300 ,OOLU-931034-4,Lift Van Int. Co S.A,OOLU2311673410,TD,HC,70,1,18:36 Arribado
@@ -32,6 +33,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-14,Exolgan,0500 ,MSNU-123381-4,Baires International,MEDUHX037649,TD,DR,30,1,11:30 Arribado
 2025-11-11,Terminal 4 - Maersk,1000 ,GAOU-795030-4,Juguetech Sa,SZXS069353,T,HC,70,1,14:04 Arribado
 2025-11-11,Terminal 4 - Maersk,0500 ,CAJU-528720-2,Juguetech Sa,SZXS069336,T,HC,70,1,08:33 Arribado
+2025-11-20,Terminal 4 - Maersk,1500 ,CRSU-905017-0,Juguetech Sa,SZXS069911,T,HC,70,0,Pendiente arribo
 2025-11-17,Exolgan,1100 ,FCIU-324664-1,A La Orden,MEDUK7436497,T,DC,30,1,15:25 Arribado
 2025-11-17,Exolgan,1100 ,MEDU-604183-8,A La Orden,MEDUK7436497,T,DC,30,1,14:43 Arribado
 2025-11-17,Exolgan,1100 ,MEDU-588885-4,A La Orden,MEDUK7436497,T,DC,30,1,14:34 Arribado
@@ -100,6 +102,9 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-30,Trp - Terminales 1-2-3,1200 ,PCIU-939632-0,Tandem Global Logistics S.A.,XMF202500829A/B/C,TD,HC,70,1,16:03 Arribado
 2025-11-10,Terminal 4 - Maersk,0600 ,MSKU-122274-9,Tandem Global Logistics S.A.,XMF202500827A/B/C/D,TD,HC,70,1,09:30 Arribado
 2025-11-17,Terminal 4 - Maersk,0600 ,SUDU-874616-6,Tandem Global Logistics S.A.,XMF202500917A/B/C,TD,HC,70,1,09:38 Arribado
+2025-11-20,Exolgan,0500 ,CIMU-066026-9,Berkma S.A.,DLSZ25090581,T,HC,70,0,Pendiente arribo
+2025-11-20,Exolgan,0500 ,CIMU-066025-3,Berkma S.A.,DLSZ25090581,T,HC,70,0,Pendiente arribo
+2025-11-20,Exolgan,0500 ,CIMU-066027-4,Berkma S.A.,DLSZ25090581,T,HC,70,0,Pendiente arribo
 2025-10-31,Exolgan,0500 ,MEDU-412289-0,Sk Distributors S.R.L.,DLNB2509605,T,DR,60,1,11:05 Arribado
 2025-10-31,Exolgan,0500 ,HLBU-140169-8,Sk Distributors S.R.L.,DLSZ25080613,T,DR,60,1,08:26 Arribado
 2025-10-31,Exolgan,0500 ,TXGU-712470-0,Sk Distributors S.R.L.,DLSZ25090111,T,HC,70,1,10:31 Arribado
@@ -152,6 +157,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-10-31,Terminal 4 - Maersk,1300 ,MRKU-090413-0,Noah Servicess.R.L.,260250102,TD,DR,60,1,15:30 Arribado
 2025-11-14,Exolgan,1300 ,MSDU-411630-2,Noah Servicess.R.L.,MEDUHX848441,TD,DC,60,1,16:13 Arribado
 2025-11-19,Terminal 4 - Maersk,1200 ,GAOU-702897-3,Noah Servicess.R.L.,IBC1402813,TD,HC,70,0,Pendiente arribo
+2025-11-20,Terminal 4 - Maersk,0500 ,MRKU-105602-9,Noah Servicess.R.L.,259557782,TD,DC,60,0,Pendiente arribo
 2025-11-10,Trp - Terminales 1-2-3,1200 ,CSNU-870227-7,Tio Musa,SZ25080709,T,HC,70,1,14:54 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1100 ,CBHU-891352-2,Tio Musa,SZ25080709,T,HC,70,1,14:03 Arribado
 2025-11-10,Trp - Terminales 1-2-3,1200 ,CSNU-699332-1,Tio Musa,SZ25080709,T,HC,70,1,14:37 Arribado
@@ -192,6 +198,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-11-06,Exolgan,0500 ,MRSU-718080-5,Grupo Rsm Srl,259607224,TD,HC,70,1,09:27 Arribado
 2025-11-13,Terminal 4 - Maersk,1000 ,MRKU-091708-2,Grupo Rsm Srl,260839109,TD,DC,60,1,14:41 Arribado
 2025-11-23,Terminal 4 - Maersk,0500 ,MRKU-057985-3,Grupo Rsm Srl,260858208,TD,DR,60,0,Pendiente arribo
+2025-11-20,Terminal 4 - Maersk,0500 ,MRKU-022919-8,Grupo Rsm Srl,260980802,TD,DC,60,0,Pendiente arribo
 2025-10-31,Exolgan,0500 ,MSNU-723103-8,Jakytextil S.A.,NBOE25017768,TD,HC,70,1,11:12 Arribado
 2025-11-04,Exolgan,0500 ,HAMU-148429-1,Jakytextil S.A.,NBOE25017924,TD,HC,70,1,09:09 Arribado
 2025-11-04,Exolgan,0500 ,SEGU-488848-1,Jakytextil S.A.,NBOE25017925,TD,HC,70,1,10:04 Arribado
