@@ -1,6 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 39589,25/11,Elementa Foods S.A.,-,TRP,HC,TD,                    ,340500046386,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39628,25/11,Forestal Guarani Sa,-,10080,HC,TD,                    ,262101951,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39628,25/11,Forestal Guarani Sa,MSKU-070966-6,10080,HC,TD,**************      ,262101951,1,TRANSPORTE DEL CLIENTE        ,Czech,15:18,1899-12-30,,                    ,15:18 Arribado
 39627,25/11,Forestal Guarani Sa,MRKU-239327-7,10080,HC,TD,***********         ,262101951,1,TRANSPORTES LEIRA-NO USAR     ,Muller,15:04,1899-12-30,,                    ,15:04 Arribado
 39588,25/11,Elementa Foods S.A.,-,TRP,HC,TD,                    ,340500046386,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39599,25/11,Mafralac Alimenticia Srl,ZCSU-756012-0,10074,HC,TD,***********         ,ZIMUBUE9045482,1,TRANSPORTE DEL CLIENTE        ,Bertoli,11:15,1899-12-30,,                    ,11:15 Arribado
