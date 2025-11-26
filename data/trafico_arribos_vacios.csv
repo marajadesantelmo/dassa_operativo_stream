@@ -20,9 +20,9 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 39679,26/11,Delicia Maderas,-,10082,HC,TD,                    ,BUA0356174,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39675,26/11,Maringa Maderas Sa,HLXU-829786-0,10076,HC,TD,*************       ,15490815,1,TRANSPORTE DEL CLIENTE        ,Peril,13:47,1899-12-30,,                    ,13:47 Arribado
 39670,26/11,Helvecia S.A.,MRKU-581559-2,10076,HC,TD,***********         ,261920622,1,TRANSPORTE DEL CLIENTE        ,Barrientos,15:16,1899-12-30,,                    ,15:16 Arribado
-39662,26/11,Hilado Sa,EGSU-113061-7,0,HC,TD,                    ,340500045738,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39661,26/11,Hilado Sa,EMCU-990829-6,0,HC,TD,                    ,340500045738,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39660,26/11,Hilado Sa,EMCU-178363-3,0,HC,TD,                    ,340500045738,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39662,26/11,Hilado Sa,EGSU-113061-7,0,HC,TD,                    ,340500045738,1,TRANSPORTE DEL CLIENTE        ,.,17:06,1899-12-30,,                    ,17:06 Arribado
+39661,26/11,Hilado Sa,EMCU-990829-6,0,HC,TD,                    ,340500045738,1,TRANSPORTE DEL CLIENTE        ,.,17:06,1899-12-30,,                    ,17:06 Arribado
+39660,26/11,Hilado Sa,EMCU-178363-3,0,HC,TD,                    ,340500045738,1,TRANSPORTE DEL CLIENTE        ,.,17:06,1899-12-30,,                    ,17:06 Arribado
 39676,26/11,Maringa Maderas Sa,HAMU-140324-2,10076,HC,TD,***************     ,13085481,1,TRANSPORTE DEL CLIENTE        ,Czech,13:39,1899-12-30,,                    ,13:39 Arribado
 39745,26/11,Termoplasticos Del Sur Sa,HLBU-237434-4,10080,DR,TD,                    ,28457980,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39696,26/11,Henn Y Cia S.R.L.,PCIU-161284-4,10,DR,TD,************        ,BUE500219600,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,09:55,1899-12-30,,                    ,09:55 Arribado
@@ -38,21 +38,22 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 39706,27/11,Mader Zu S.R.L.,-,10077,HC,TD,                    ,COSU6437328100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39741,27/11,Mader Zu S.R.L.,-,9,HC,TD,                    ,EBKG14956207,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39737,27/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91163356,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39731,27/11,Sandrin Paola Karina,-,Exolgan,HC,TD,                    ,EBKG14936280,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39671,27/11,Borax Argentina S A,-,10080,DR,TD,                    ,262257925,0,                              ,,     ,1899-12-30,Fc 12851,                    ,Pendiente
 39738,27/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91163356,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39749,27/11,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,34773963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39750,27/11,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,34773963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39751,27/11,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,34773963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39752,27/11,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,34773963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39673,27/11,Borax Argentina S A,-,10080,DR,TD,                    ,262257859,0,                              ,,     ,1899-12-30,Fc 12849,                    ,Pendiente
-39671,27/11,Borax Argentina S A,-,10080,DR,TD,                    ,262257925,0,                              ,,     ,1899-12-30,Fc 12851,                    ,Pendiente
+39672,27/11,Borax Argentina S A,-,10080,DR,TD,                    ,262257925,0,                              ,,     ,1899-12-30,Fc 12851,                    ,Pendiente
 39699,27/11,Virasoro Maderas S R L,-,9,HC,TD,                    ,EBKG14925116,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39700,27/11,Virasoro Maderas S R L,-,9,HC,TD,                    ,EBKG14925116,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39701,27/11,Virasoro Maderas S R L,-,9,HC,TD,                    ,EBKG14925116,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39702,27/11,Virasoro Maderas S R L,-,9,HC,TD,                    ,EBKG14925116,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39685,27/11,Norfor Sa,-,TRP,HC,TD,                    ,340500049857,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39731,27/11,Sandrin Paola Karina,-,Exolgan,HC,TD,                    ,EBKG14936280,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39674,27/11,Borax Argentina S A,-,10080,DR,TD,                    ,262257859,0,                              ,,     ,1899-12-30,Fc 12849,                    ,Pendiente
-39672,27/11,Borax Argentina S A,-,10080,DR,TD,                    ,262257925,0,                              ,,     ,1899-12-30,Fc 12851,                    ,Pendiente
-39759,28/11,Hector Reboratti,-,TRP,HC,TD,                    ,340500050502,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39765,28/11,Sandrin Paola Karina,-,Exolgan,HC,TD,                    ,EBKG15006254,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39753,28/11,Carpal Sa,-,10082,HC,TD,                    ,BUA0355667,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39754,28/11,Carpal Sa,-,10082,HC,TD,                    ,BUA0355667,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39759,28/11,Hector Reboratti,-,TRP,HC,TD,                    ,340500050502,0,                              ,,     ,1899-12-30,,                    ,Pendiente
