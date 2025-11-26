@@ -1,6 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 39744,26/11,Termoplasticos Del Sur Sa,FANU-134396-8,10080,DR,TD,                    ,28457980,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39678,26/11,Delicia Maderas,-,10082,HC,TD,                    ,BUA0356174,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39678,26/11,Delicia Maderas,APHU-730177-0,10082,HC,TD,R8689548            ,BUA0356174,1,TRANSPORTE DEL CLIENTE        ,Gonzales,16:26,1899-12-30,,                    ,16:26 Arribado
 39657,26/11,Hdv Leather S.R.L.,GAOU-787685-0,9,HC,TD,FX32959187          ,EBKG14910023,1,TRANSPORTE DEL CLIENTE        ,Alvarez,18:33,1899-12-30,,                    ,18:33 Arribado
 39658,26/11,Hdv Leather S.R.L.,MSMU-831714-8,9,HC,TD,FX32959150          ,EBKG14910023,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,13:58,1899-12-30,,                    ,13:58 Arribado
 39663,26/11,Hdv Leather S.R.L.,MSDU-616327-9,9,HC,TD,FX32959185          ,EBKG14909942,1,TRANSPORTES LEIRA-NO USAR     ,Muller,17:26,1899-12-30,,                    ,17:26 Arribado
@@ -17,35 +17,39 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 39667,26/11,Hdv Leather S.R.L.,FFAU-375212-8,9,HC,TD,FX32959132          ,EBKG14909942,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,13:35,1899-12-30,,                    ,13:35 Arribado
 39668,26/11,Borax Argentina S A,MSKU-578886-3,10080,DR,TD,*************       ,262208797,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,13:43,1899-12-30,Fac 12850,                    ,13:43 Arribado
 39679,26/11,Delicia Maderas,-,10082,HC,TD,                    ,BUA0356174,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39670,26/11,Helvecia S.A.,MRKU-581559-2,10076,HC,TD,***********         ,261920622,1,TRANSPORTE DEL CLIENTE        ,Barrientos,15:16,1899-12-30,,                    ,15:16 Arribado
-39662,26/11,Hilado Sa,EGSU-113061-7,0,HC,TD,                    ,340500045738,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39675,26/11,Maringa Maderas Sa,HLXU-829786-0,10076,HC,TD,*************       ,15490815,1,TRANSPORTE DEL CLIENTE        ,Peril,13:47,1899-12-30,,                    ,13:47 Arribado
 39676,26/11,Maringa Maderas Sa,HAMU-140324-2,10076,HC,TD,***************     ,13085481,1,TRANSPORTE DEL CLIENTE        ,Czech,13:39,1899-12-30,,                    ,13:39 Arribado
 39661,26/11,Hilado Sa,EMCU-990829-6,0,HC,TD,                    ,340500045738,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39696,26/11,Henn Y Cia S.R.L.,PCIU-161284-4,10,DR,TD,************        ,BUE500219600,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,09:55,1899-12-30,,                    ,09:55 Arribado
 39660,26/11,Hilado Sa,EMCU-178363-3,0,HC,TD,                    ,340500045738,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39745,26/11,Termoplasticos Del Sur Sa,HLBU-237434-4,10080,DR,TD,                    ,28457980,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39662,26/11,Hilado Sa,EGSU-113061-7,0,HC,TD,                    ,340500045738,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39696,26/11,Henn Y Cia S.R.L.,PCIU-161284-4,10,DR,TD,************        ,BUE500219600,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,09:55,1899-12-30,,                    ,09:55 Arribado
+39670,26/11,Helvecia S.A.,MRKU-581559-2,10076,HC,TD,***********         ,261920622,1,TRANSPORTE DEL CLIENTE        ,Barrientos,15:16,1899-12-30,,                    ,15:16 Arribado
 39697,26/11,Henn Y Cia S.R.L.,PCIU-121975-5,10,DR,TD,***********         ,BUE500219600,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,10:10,1899-12-30,,                    ,10:10 Arribado
-39741,27/11,Mader Zu S.R.L.,-,9,HC,TD,                    ,EBKG14956207,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39745,26/11,Termoplasticos Del Sur Sa,HLBU-237434-4,10080,DR,TD,                    ,28457980,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39742,27/11,Mader Zu S.R.L.,-,9,HC,TD,                    ,EBKG14956207,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39739,27/11,Mader Zu S.R.L.,-,9,HC,TD,                    ,EBKG14956207,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39740,27/11,Mader Zu S.R.L.,-,9,HC,TD,                    ,EBKG14956207,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39694,27/11,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG15005198,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39693,27/11,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG15005198,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39706,27/11,Mader Zu S.R.L.,-,10077,HC,TD,                    ,COSU6437328100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39692,27/11,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG15005198,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39691,27/11,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG15005198,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39740,27/11,Mader Zu S.R.L.,-,9,HC,TD,                    ,EBKG14956207,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39739,27/11,Mader Zu S.R.L.,-,9,HC,TD,                    ,EBKG14956207,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39706,27/11,Mader Zu S.R.L.,-,10077,HC,TD,                    ,COSU6437328100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39741,27/11,Mader Zu S.R.L.,-,9,HC,TD,                    ,EBKG14956207,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39695,27/11,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG15005198,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39737,27/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91163356,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39743,27/11,Hector Reboratti,-,10080,HC,TD,                    ,261925605,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39749,27/11,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,34773963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39738,27/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91163356,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39731,27/11,Sandrin Paola Karina,-,Exolgan,HC,TD,                    ,EBKG14936280,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39685,27/11,Norfor Sa,-,TRP,HC,TD,                    ,340500049857,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39702,27/11,Virasoro Maderas S R L,-,9,HC,TD,                    ,EBKG14925116,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39701,27/11,Virasoro Maderas S R L,-,9,HC,TD,                    ,EBKG14925116,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39700,27/11,Virasoro Maderas S R L,-,9,HC,TD,                    ,EBKG14925116,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39699,27/11,Virasoro Maderas S R L,-,9,HC,TD,                    ,EBKG14925116,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39674,27/11,Borax Argentina S A,-,10080,DR,TD,                    ,262257859,0,                              ,,     ,1899-12-30,Fc 12849,                    ,Pendiente
-39673,27/11,Borax Argentina S A,-,10080,DR,TD,                    ,262257859,0,                              ,,     ,1899-12-30,Fc 12849,                    ,Pendiente
 39672,27/11,Borax Argentina S A,-,10080,DR,TD,                    ,262257925,0,                              ,,     ,1899-12-30,Fc 12851,                    ,Pendiente
 39671,27/11,Borax Argentina S A,-,10080,DR,TD,                    ,262257925,0,                              ,,     ,1899-12-30,Fc 12851,                    ,Pendiente
-39738,27/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91163356,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39699,27/11,Virasoro Maderas S R L,-,9,HC,TD,                    ,EBKG14925116,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39737,27/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91163356,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39752,27/11,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,34773963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39751,27/11,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,34773963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39750,27/11,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,34773963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39743,27/11,Hector Reboratti,-,10080,HC,TD,                    ,261925605,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39673,27/11,Borax Argentina S A,-,10080,DR,TD,                    ,262257859,0,                              ,,     ,1899-12-30,Fc 12849,                    ,Pendiente
