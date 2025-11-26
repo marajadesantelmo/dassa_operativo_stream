@@ -23,8 +23,7 @@ def fetch_data_expo():
             arribos_expo_ctns['Fecha'] = pd.to_datetime(arribos_expo_ctns['Fecha'], format='%d/%m')
             arribos_expo_ctns = arribos_expo_ctns.sort_values(by="Fecha")
             arribos_expo_ctns['Fecha'] = arribos_expo_ctns['Fecha'].dt.strftime('%d/%m')
-            arribos_expo_ctns['Chofer'] = arribos_expo_ctns['Chofer'].fillna('-')
-            arribos_expo_ctns['Chofer'] = arribos_expo_ctns['Chofer'].str.title()
+            arribos_expo_ctns.drop(columns=['Chofer'], inplace=True, errors='ignore')
         verificaciones_expo = verificaciones_expo[verificaciones_expo['Dia'] != '-']
         otros_expo = otros_expo[otros_expo['Dia'] != '-']
         remisiones = remisiones[remisiones['Dia'] != '-']
