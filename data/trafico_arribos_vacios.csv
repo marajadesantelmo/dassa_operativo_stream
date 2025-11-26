@@ -2,11 +2,11 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 39744,26/11,Termoplasticos Del Sur Sa,FANU-134396-8,10080,DR,TD,                    ,28457980,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39678,26/11,Delicia Maderas,-,10082,HC,TD,                    ,BUA0356174,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39657,26/11,Hdv Leather S.R.L.,GAOU-787685-0,9,HC,TD,FX32959187          ,EBKG14910023,1,TRANSPORTE DEL CLIENTE        ,Alvarez,18:33,1899-12-30,,                    ,18:33 Arribado
-39658,26/11,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG14910023,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39658,26/11,Hdv Leather S.R.L.,MSMU-831714-8,9,HC,TD,FX32959150          ,EBKG14910023,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,13:58,1899-12-30,,                    ,13:58 Arribado
 39663,26/11,Hdv Leather S.R.L.,MSDU-616327-9,9,HC,TD,FX32959185          ,EBKG14909942,1,TRANSPORTES LEIRA-NO USAR     ,Muller,17:26,1899-12-30,,                    ,17:26 Arribado
 39664,26/11,Hdv Leather S.R.L.,MSBU-504468-4,9,HC,TD,FX32959184          ,EBKG14909942,1,TRANSPORTE DEL CLIENTE        ,Czech,17:30,1899-12-30,,                    ,17:30 Arribado
 39665,26/11,Hdv Leather S.R.L.,TCNU-292226-4,9,HC,TD,FX32959160          ,EBKG14909942,1,TRANSPORTE DEL CLIENTE        ,Moscardini,10:54,1899-12-30,,                    ,10:54 Arribado
-39669,26/11,Borax Argentina S A,-,10080,DR,TD,                    ,262208797,0,                              ,,     ,1899-12-30,Fac 12850,                    ,Pendiente
+39669,26/11,Borax Argentina S A,MRKU-741614-3,10080,DR,TD,************        ,262208797,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,13:51,1899-12-30,Fac 12850,                    ,13:51 Arribado
 39666,26/11,Hdv Leather S.R.L.,MSDU-698902-3,9,HC,TD,FX32959157          ,EBKG14909942,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,10:59,1899-12-30,,                    ,10:59 Arribado
 39625,26/11,Chaguar Sociedad Anonima,HAMU-165090-0,10080,HC,C,**********          ,29838241,1,TRANSPORTE DEL CLIENTE        ,Solla,17:18,1899-12-30,,                    ,17:18 Arribado
 39626,26/11,Chaguar Sociedad Anonima,-,10080,HC,C,                    ,29838241,0,                              ,,     ,1899-12-30,,                    ,Pendiente
@@ -14,13 +14,13 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 39631,26/11,Chaguar Sociedad Anonima,-,10074,DR,C,                    ,94536178,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39632,26/11,Chaguar Sociedad Anonima,-,10074,DR,C,                    ,94536178,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39677,26/11,Delicia Maderas,-,10082,HC,TD,                    ,BUA0356174,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39667,26/11,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG14909942,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39668,26/11,Borax Argentina S A,-,10080,DR,TD,                    ,262208797,0,                              ,,     ,1899-12-30,Fac 12850,                    ,Pendiente
+39667,26/11,Hdv Leather S.R.L.,FFAU-375212-8,9,HC,TD,FX32959132          ,EBKG14909942,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,13:35,1899-12-30,,                    ,13:35 Arribado
+39668,26/11,Borax Argentina S A,MSKU-578886-3,10080,DR,TD,*************       ,262208797,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,13:43,1899-12-30,Fac 12850,                    ,13:43 Arribado
 39679,26/11,Delicia Maderas,-,10082,HC,TD,                    ,BUA0356174,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39670,26/11,Helvecia S.A.,-,10076,HC,TD,                    ,261920622,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39662,26/11,Hilado Sa,EGSU-113061-7,0,HC,TD,                    ,340500045738,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39675,26/11,Maringa Maderas Sa,-,10076,HC,TD,                    ,15490815,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39676,26/11,Maringa Maderas Sa,-,10076,HC,TD,                    ,13085481,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39675,26/11,Maringa Maderas Sa,HLXU-829786-0,10076,HC,TD,*************       ,15490815,1,TRANSPORTE DEL CLIENTE        ,Peril,13:47,1899-12-30,,                    ,13:47 Arribado
+39676,26/11,Maringa Maderas Sa,HAMU-140324-2,10076,HC,TD,***************     ,13085481,1,TRANSPORTE DEL CLIENTE        ,Czech,13:39,1899-12-30,,                    ,13:39 Arribado
 39661,26/11,Hilado Sa,EMCU-990829-6,0,HC,TD,                    ,340500045738,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39696,26/11,Henn Y Cia S.R.L.,PCIU-161284-4,10,DR,TD,************        ,BUE500219600,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,09:55,1899-12-30,,                    ,09:55 Arribado
 39660,26/11,Hilado Sa,EMCU-178363-3,0,HC,TD,                    ,340500045738,0,                              ,,     ,1899-12-30,,                    ,Pendiente
