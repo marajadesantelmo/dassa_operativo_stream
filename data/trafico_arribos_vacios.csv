@@ -1,47 +1,18 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-39794,01/12,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500224700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39790,01/12,Curtiembre Infante Sa,-,10,HC,TD,                    ,BUE500227500,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39791,01/12,Curtiembre Infante Sa,-,10,HC,TD,                    ,BUE500227500,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39795,01/12,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500224700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39799,01/12,Forestal Guarani Sa,-,10080,HC,TD,                    ,262198547,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39789,01/12,Suabia Maderas Srl,-,10082,HC,TD,                    ,BUA0356530,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39792,01/12,Curtiembre Infante Sa,-,10,HC,TD,                    ,BUE500227500,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39800,01/12,Forestal Guarani Sa,-,10080,HC,TD,                    ,262198547,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39799,01/12,Forestal Guarani Sa,-,10080,HC,TD,                    ,262198547,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39793,01/12,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500224700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39691,27/11,Hdv Leather S.R.L.,MSNU-544606-3,9,HC,TD,FX32959012          ,EBKG15005198,1,TRANSPORTE DEL CLIENTE        ,Barrientos,11:25,1899-12-30,,                    ,11:25 Arribado
-39692,27/11,Hdv Leather S.R.L.,MSDU-811179-9,9,HC,TD,FX32959013          ,EBKG15005198,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,11:38,1899-12-30,,                    ,11:38 Arribado
-39731,27/11,Sandrin Paola Karina,UETU-826868-7,Exolgan,HC,TD,FX32957602          ,EBKG14936280,1,TRANSPORTE DEL CLIENTE        ,Garcia,12:22,1899-12-30,,                    ,12:22 Arribado
-39693,27/11,Hdv Leather S.R.L.,TGBU-800229-0,9,HC,TD,FX32959030          ,EBKG15005198,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,11:45,1899-12-30,,                    ,11:45 Arribado
-39694,27/11,Hdv Leather S.R.L.,MSMU-548110-0,9,HC,TD,FX32959999          ,EBKG15005198,1,TRANSPORTE DEL CLIENTE        ,Barrientos,15:01,1899-12-30,,                    ,15:01 Arribado
-39695,27/11,Hdv Leather S.R.L.,MEDU-847506-8,9,HC,TD,FX32959990          ,EBKG15005198,1,TRANSPORTE DEL CLIENTE        ,Alvarez Adrian,15:40,1899-12-30,,                    ,15:40 Arribado
-39803,27/11,Norfor Sa,CCLU-769645-9,10076,HC,TD,***********         ,COSU6434651280,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,18:03,1899-12-30,,                    ,18:03 Arribado
-39801,27/11,Norfor Sa,EISU-939014-7,TRP,HC,TD,**************      ,340500049857,1,TRANSPORTE DEL CLIENTE        ,Moscardini,16:01,1899-12-30,,                    ,16:01 Arribado
-39685,27/11,Norfor Sa,EITU-163477-0,TRP,HC,TD,**************      ,340500049857,1,TRANSPORTE DEL CLIENTE        ,Lopena,15:54,1899-12-30,,                    ,15:54 Arribado
-39702,27/11,Virasoro Maderas S R L,-,9,HC,TD,                    ,EBKG14925116,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39701,27/11,Virasoro Maderas S R L,NEXU-952160-0,9,HC,TD,FX32959854          ,EBKG14925116,1,TRANSPORTE DEL CLIENTE        ,Alvarez,20:55,1899-12-30,,                    ,20:55 Arribado
-39700,27/11,Virasoro Maderas S R L,MSMU-595992-5,9,HC,TD,FX32959991          ,EBKG14925116,1,TRANSPORTE DEL CLIENTE        ,Rios Ivan,18:56,1899-12-30,,                    ,18:56 Arribado
-39699,27/11,Virasoro Maderas S R L,MSMU-425854-0,9,HC,TD,FX32959908          ,EBKG14925116,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,15:06,1899-12-30,,                    ,15:06 Arribado
-39706,27/11,Mader Zu S.R.L.,-,10077,HC,TD,                    ,COSU6437328100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39674,27/11,Borax Argentina S A,TEMU-258032-5,10080,DR,TD,*************       ,262257859,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,13:47,1899-12-30,Fc 12849,                    ,13:47 Arribado
-39673,27/11,Borax Argentina S A,MRKU-863667-2,10080,DR,TD,***********         ,262257859,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,13:40,1899-12-30,Fc 12849,                    ,13:40 Arribado
-39672,27/11,Borax Argentina S A,HASU-151053-5,10080,DR,TD,**********          ,262257925,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,13:36,1899-12-30,Fc 12851,                    ,13:36 Arribado
-39671,27/11,Borax Argentina S A,MRKU-975202-3,10080,DR,TD,************        ,262257925,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,13:25,1899-12-30,Fc 12851,                    ,13:25 Arribado
-39752,27/11,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,34773963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39751,27/11,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,34773963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39750,27/11,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,34773963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39749,27/11,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,34773963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39738,27/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91163356,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39737,27/11,Henn Y Cia S.R.L.,HLXU-820873-3,Exolgan,HC,TD,*********           ,91163356,1,TRANSPORTE DEL CLIENTE        ,Barrientos,21:04,1899-12-30,,                    ,21:04 Arribado
-39739,27/11,Mader Zu S.R.L.,MSBU-737809-0,9,HC,TD,FX32959007          ,EBKG14956207,1,TRANSPORTE DEL CLIENTE        ,Porco,12:16,1899-12-30,,                    ,12:16 Arribado
-39740,27/11,Mader Zu S.R.L.,TCNU-661402-2,9,HC,TD,FX32959946          ,EBKG14956207,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,18:21,1899-12-30,,                    ,18:21 Arribado
-39741,27/11,Mader Zu S.R.L.,-,9,HC,TD,                    ,EBKG14956207,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39742,27/11,Mader Zu S.R.L.,-,9,HC,TD,                    ,EBKG14956207,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39743,27/11,Hector Reboratti,DFSU-676753-9,10080,HC,TD,***********         ,261925605,1,TRANSPORTE DEL CLIENTE        ,Rios,11:05,1899-12-30,,                    ,11:05 Arribado
+39794,01/12,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500224700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39795,01/12,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500224700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39791,01/12,Curtiembre Infante Sa,-,10,HC,TD,                    ,BUE500227500,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39792,01/12,Curtiembre Infante Sa,-,10,HC,TD,                    ,BUE500227500,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39781,28/11,Chaguar Sociedad Anonima,-,10080,HC,TD,                    ,262144199,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39765,28/11,Sandrin Paola Karina,-,Exolgan,HC,TD,                    ,EBKG15006254,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39759,28/11,Hector Reboratti,-,TRP,HC,TD,                    ,340500050502,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39754,28/11,Carpal Sa,-,10082,HC,TD,                    ,BUA0355667,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39753,28/11,Carpal Sa,-,10082,HC,TD,                    ,BUA0355667,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39773,28/11,Taeda Sa,-,Exolgan,HC,TD,                    ,EBKG15006286,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39765,28/11,Sandrin Paola Karina,-,Exolgan,HC,TD,                    ,EBKG15006254,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39782,28/11,Chaguar Sociedad Anonima,-,10080,HC,TD,                    ,262144199,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39754,28/11,Carpal Sa,-,10082,HC,TD,                    ,BUA0355667,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39759,28/11,Hector Reboratti,-,TRP,HC,TD,                    ,340500050502,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39783,28/11,Chaguar Sociedad Anonima,-,10080,HC,TD,                    ,262144199,0,                              ,,     ,1899-12-30,,                    ,Pendiente
