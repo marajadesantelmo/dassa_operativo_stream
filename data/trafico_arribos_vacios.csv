@@ -18,7 +18,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 39801,27/11,Norfor Sa,EISU-939014-7,TRP,HC,TD,**************      ,340500049857,1,TRANSPORTE DEL CLIENTE        ,Moscardini,16:01,1899-12-30,,                    ,16:01 Arribado
 39685,27/11,Norfor Sa,EITU-163477-0,TRP,HC,TD,**************      ,340500049857,1,TRANSPORTE DEL CLIENTE        ,Lopena,15:54,1899-12-30,,                    ,15:54 Arribado
 39702,27/11,Virasoro Maderas S R L,-,9,HC,TD,                    ,EBKG14925116,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39701,27/11,Virasoro Maderas S R L,-,9,HC,TD,                    ,EBKG14925116,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39701,27/11,Virasoro Maderas S R L,NEXU-952160-0,9,HC,TD,FX32959854          ,EBKG14925116,1,TRANSPORTE DEL CLIENTE        ,Alvarez,20:55,1899-12-30,,                    ,20:55 Arribado
 39700,27/11,Virasoro Maderas S R L,MSMU-595992-5,9,HC,TD,FX32959991          ,EBKG14925116,1,TRANSPORTE DEL CLIENTE        ,Rios Ivan,18:56,1899-12-30,,                    ,18:56 Arribado
 39699,27/11,Virasoro Maderas S R L,MSMU-425854-0,9,HC,TD,FX32959908          ,EBKG14925116,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,15:06,1899-12-30,,                    ,15:06 Arribado
 39706,27/11,Mader Zu S.R.L.,-,10077,HC,TD,                    ,COSU6437328100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
@@ -31,7 +31,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 39750,27/11,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,34773963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39749,27/11,Henn Y Cia S.R.L.,-,10080,HC,TD,                    ,34773963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39738,27/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91163356,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39737,27/11,Henn Y Cia S.R.L.,-,Exolgan,HC,TD,                    ,91163356,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39737,27/11,Henn Y Cia S.R.L.,HLXU-820873-3,Exolgan,HC,TD,*********           ,91163356,1,TRANSPORTE DEL CLIENTE        ,Barrientos,21:04,1899-12-30,,                    ,21:04 Arribado
 39739,27/11,Mader Zu S.R.L.,MSBU-737809-0,9,HC,TD,FX32959007          ,EBKG14956207,1,TRANSPORTE DEL CLIENTE        ,Porco,12:16,1899-12-30,,                    ,12:16 Arribado
 39740,27/11,Mader Zu S.R.L.,TCNU-661402-2,9,HC,TD,FX32959946          ,EBKG14956207,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,18:21,1899-12-30,,                    ,18:21 Arribado
 39741,27/11,Mader Zu S.R.L.,-,9,HC,TD,                    ,EBKG14956207,0,                              ,,     ,1899-12-30,,                    ,Pendiente
