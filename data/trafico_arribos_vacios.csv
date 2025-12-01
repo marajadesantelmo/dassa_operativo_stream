@@ -1,33 +1,35 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 39824,01/12,Mercovan Argentina S.A.,-,9,DR,TD,                    ,EBKGQ0016890,0,                              ,,     ,1899-12-30,"Koh, Suyoung",                    ,Pendiente
-39850,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15021066,0,                              ,,     ,1899-12-30,Fac 12856,                    ,Pendiente
 39851,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15021066,0,                              ,,     ,1899-12-30,Fac 12856,                    ,Pendiente
 39844,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15002646,0,                              ,,     ,1899-12-30,Fact.12821,                    ,Pendiente
 39845,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15002646,0,                              ,,     ,1899-12-30,Fact.12821,                    ,Pendiente
 39846,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15002646,0,                              ,,     ,1899-12-30,Fact.12821,                    ,Pendiente
 39847,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15002646,0,                              ,,     ,1899-12-30,Fact.12821,                    ,Pendiente
-39848,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15021066,0,                              ,,     ,1899-12-30,Fac 12856,                    ,Pendiente
-39849,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15021066,0,                              ,,     ,1899-12-30,Fac 12856,                    ,Pendiente
-39793,01/12,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500224700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39794,01/12,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500224700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39795,01/12,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500224700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39790,01/12,Curtiembre Infante Sa,-,10,HC,TD,                    ,BUE500227500,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39848,01/12,Borax Argentina S A,GLDU-564851-1,Exolgan,DR,TD,FX32959383          ,EBKG15021066,1,TRANSPORTE DEL CLIENTE        ,Garcia,12:53,1899-12-30,Fac 12856,                    ,12:53 Arribado
+39849,01/12,Borax Argentina S A,GLDU-952136-1,Exolgan,DR,TD,FX32959423          ,EBKG15021066,1,TRANSPORTE DEL CLIENTE        ,Garcia,12:55,1899-12-30,Fac 12856,                    ,12:55 Arribado
+39793,01/12,Lawter Argentina S.A.,PIDU-421535-5,10,HC,TD,*****************   ,BUE500224700,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,12:50,1899-12-30,,                    ,12:50 Arribado
+39794,01/12,Lawter Argentina S.A.,HPCU-450648-2,10,HC,TD,********************,BUE500224700,1,TRANSPORTE DEL CLIENTE        ,Garcia,12:51,1899-12-30,,                    ,12:51 Arribado
+39795,01/12,Lawter Argentina S.A.,PIDU-454399-2,10,HC,TD,****************    ,BUE500224700,1,TRANSPORTE DEL CLIENTE        ,Solla,13:03,1899-12-30,,                    ,13:03 Arribado
+39903,01/12,Seaside Logistic Sa,MEDU-243439-6,Exolgan,DR,TD,FX32959411          ,153IAR0653429,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,12:59,1899-12-30,,                    ,12:59 Arribado
+39790,01/12,Curtiembre Infante Sa,PIDU-411082-1,10,HC,TD,*******             ,BUE500227500,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,12:56,1899-12-30,,                    ,12:56 Arribado
 39791,01/12,Curtiembre Infante Sa,-,10,HC,TD,                    ,BUE500227500,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39792,01/12,Curtiembre Infante Sa,-,10,HC,TD,                    ,BUE500227500,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39799,01/12,Forestal Guarani Sa,-,10080,HC,TD,                    ,262198547,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39800,01/12,Forestal Guarani Sa,-,10080,HC,TD,                    ,262198547,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39831,01/12,Elementa Foods S.A.,-,Exolgan,HC,TD,                    ,EBKG14921163,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39831,01/12,Elementa Foods S.A.,MSMU-825182-1,Exolgan,HC,TD,FX32959458          ,EBKG14921163,1,TRANSPORTE DEL CLIENTE        ,Gonzalez,13:04,1899-12-30,,                    ,13:04 Arribado
+39850,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15021066,0,                              ,,     ,1899-12-30,Fac 12856,                    ,Pendiente
 39843,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15002646,0,                              ,,     ,1899-12-30,Fact.12821,                    ,Pendiente
-39832,01/12,Elementa Foods S.A.,-,Exolgan,HC,TD,                    ,EBKG14921163,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39842,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15002646,0,                              ,,     ,1899-12-30,Fact.12821,                    ,Pendiente
-39840,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15002646,0,                              ,,     ,1899-12-30,Fact.12821,                    ,Pendiente
+39841,01/12,Borax Argentina S A,FCIU-644302-7,Exolgan,DR,TD,FX32959382          ,EBKG15002646,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,13:02,1899-12-30,Fact.12821,                    ,13:02 Arribado
 39836,01/12,Pelama Chubut S.A.,-,TRP,DR,TD,                    ,COSU6436515500,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39834,01/12,Isischu Srl,-,Exolgan,HC,TD,                    ,153IAR0654007,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39841,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15002646,0,                              ,,     ,1899-12-30,Fact.12821,                    ,Pendiente
+39832,01/12,Elementa Foods S.A.,-,Exolgan,HC,TD,                    ,EBKG14921163,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39833,01/12,Elementa Foods S.A.,-,Exolgan,HC,TD,                    ,EBKG14921163,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+39838,01/12,Borax Argentina S A,FCIU-398048-6,Exolgan,DR,TD,FX32959292          ,EBKG15002646,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,12:47,1899-12-30,Fact.12821,                    ,12:47 Arribado
+39839,01/12,Borax Argentina S A,MEDU-539128-2,Exolgan,DR,TD,FX32959401          ,EBKG15002646,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,12:49,1899-12-30,Fact.12821,                    ,12:49 Arribado
+39840,01/12,Borax Argentina S A,FCIU-216392-2,Exolgan,DR,TD,FX32959389          ,EBKG15002646,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,13:00,1899-12-30,Fact.12821,                    ,13:00 Arribado
 39789,01/12,Suabia Maderas Srl,-,10082,HC,TD,                    ,BUA0356530,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39838,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15002646,0,                              ,,     ,1899-12-30,Fact.12821,                    ,Pendiente
-39839,01/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15002646,0,                              ,,     ,1899-12-30,Fact.12821,                    ,Pendiente
+39874,02/12,Pallets Nef De Raul E. Fernand...,-,10074,HC,TD,                    ,BUEF13811700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39873,02/12,Pallets Nef De Raul E. Fernand...,-,10074,HC,TD,                    ,BUEF13811700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39872,02/12,Pallets Nef De Raul E. Fernand...,-,10074,HC,TD,                    ,BUEF13811700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39871,02/12,Pallets Nef De Raul E. Fernand...,-,10074,HC,TD,                    ,BUEF13811700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
@@ -38,5 +40,4 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 39902,02/12,Anan S.A.,-,Exolgan,DR,TD,                    ,EBKG15003435,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39901,02/12,Anan S.A.,-,10074,HC,TD,                    ,ZIMUBUE9045617,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39900,02/12,Anan S.A.,-,10074,HC,TD,                    ,ZIMUBUE9045617,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-39874,02/12,Pallets Nef De Raul E. Fernand...,-,10074,HC,TD,                    ,BUEF13811700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 39869,02/12,Pallets Nef De Raul E. Fernand...,-,10074,HC,TD,                    ,BUEF13811700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
