@@ -122,6 +122,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-08-11,36524,NYKU-441060-9,Dassa - Client A La ...,NACIONAL,NACIONAL,Arribado
 2025-08-12,36580,MSCU-567353-0,Dassa - Client A La ...,NACIONAL,NACIONAL,Arribado
 2025-08-20,36792,TCLU-516093-0,Dassa - Client A La ...,NACIONAL,NACIONAL,Arribado
+2025-12-01,39865,TCLU-512249-0,Dassa - Client A La ...,NACIONAL,,Arribado
 2025-11-14,39388,TCLU-544732-4,Dassa - Client A La ...,NACIONAL,NACIONAL,Arribado
 2025-11-14,39389,TCLU-554153-6,Dassa - Client A La ...,NACIONAL,NACIONAL,Arribado
 2025-11-26,39746,ZCSU-865869-9,Dassa - Client A La ...,NACIONAL,NACIONAL,Arribado
@@ -192,7 +193,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-09-05,37274,,Refractarios Argenti...,258781862,EC 2699-25,Arribado
 2025-08-18,36600,,Pelama Chubut S.A.,21984624,,Arribado
 2025-08-18,36601,,Pelama Chubut S.A.,23475304,23475304,Arribado
-2025-12-01,39837,,Pelama Chubut S.A.,COSU6436515500,COSU6436515500 // 1X20,Pendiente
+2025-12-01,39837,,Pelama Chubut S.A.,COSU6436515500,COSU6436515500 // 1X20,Arribado
 2025-10-13,38389,,Pelama Chubut S.A.,COSU6432293550,COSU6432293550,Arribado
 2025-10-13,38390,,Pelama Chubut S.A.,COSU6431725820,COSU6431725820,Arribado
 2025-10-27,38636,,Pelama Chubut S.A.,COSU6432621210,COSU6432621210 // 1X40HC,Arribado
@@ -635,8 +636,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-08-11,36486,,Borax Argentina S A,EBKG13741638,EBKG13741638,Pendiente
 2025-08-11,36487,,Borax Argentina S A,EBKG13741638,EBKG13741638,Pendiente
 2025-08-11,36488,,Borax Argentina S A,EBKG13741638,EBKG13741638,Pendiente
-2025-12-01,39859,,Borax Argentina S A,EBKG15021066,FAC 12856 /,Pendiente
-2025-12-01,39860,,Borax Argentina S A,EBKG15021066,FAC 12856 /,Pendiente
+2025-12-01,39859,,Borax Argentina S A,EBKG15021066,FAC 12856 /,Arribado
+2025-12-01,39860,,Borax Argentina S A,EBKG15021066,FAC 12856 /,Arribado
 2025-12-01,39861,,Borax Argentina S A,EBKG15021066,FAC 12856 /,Pendiente
 2025-11-25,39629,,Borax Argentina S A,EBKG15002646,FACT.12821 //EBKG15002646,Pendiente
 2025-11-25,39619,,Borax Argentina S A,262208797,FAC 12850,Arribado
@@ -889,7 +890,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-08-12,36562,,Curtiembre Infante S...,BUA0348164,BUA0348164,Arribado
 2025-08-28,37012,,Curtiembre Infante S...,SARE53328,,Arribado
 2025-12-01,39858,,Curtiembre Infante S...,BUE500227500,BUE500227500,Pendiente
-2025-12-01,39856,,Curtiembre Infante S...,BUE500227500,BUE500227500,Pendiente
+2025-12-01,39856,,Curtiembre Infante S...,BUE500227500,BUE500227500,Arribado
 2025-12-01,39857,,Curtiembre Infante S...,BUE500227500,BUE500227500,Pendiente
 2025-11-12,39276,,Curtiembre Infante S...,BUEF13473400,BUEF13473400,Arribado
 2025-11-14,39382,,Curtiembre Infante S...,BUEF13473400,,Arribado
@@ -926,7 +927,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-10-13,38162,,Forestal Guarani Sa,260039607,GRLME251265/GUARANI,Arribado
 2025-10-13,38163,,Forestal Guarani Sa,260039607,GRLME251265/GUARANI,Arribado
 2025-10-24,38650,,Forestal Guarani Sa,260688151,GRLEM251359 / 260688151,Arribado
-2025-12-01,39797,,Forestal Guarani Sa,262198547,GRLAE25187 / 262198547,Pendiente
+2025-12-01,39797,,Forestal Guarani Sa,262198547,GRLAE25187 / 262198547,Arribado
 2025-12-01,39798,,Forestal Guarani Sa,262198547,GRLAE25187 / 262198547,Pendiente
 2025-11-17,39312,,Forestal Guarani Sa,261211047,GRLEM251413 / 261211047,Arribado
 2025-11-25,39573,,Forestal Guarani Sa,26210951,GRLAE25183 /26210951,Pendiente
@@ -1048,7 +1049,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-08-07,36475,,Chaguar Sociedad Ano...,10225728718,10225728718,Arribado
 2025-08-11,36498,,Chaguar Sociedad Ano...,BUA0347295,CTG: 10225779595/CTG: 10125789688/ CTG 10225826319,Pendiente
 2025-11-28,39854,,Chaguar Sociedad Ano...,262144199,,Pendiente
-2025-11-27,39788,,Chaguar Sociedad Ano...,29838241,29838241,Pendiente
+2025-11-27,39788,,Chaguar Sociedad Ano...,BUA0355317,BUA0355317,Arribado
 2025-11-27,39802,,Chaguar Sociedad Ano...,29838241,CP :10227714258 (CAMION X CNTR),Arribado
 2025-11-28,39852,,Chaguar Sociedad Ano...,262144199,,Pendiente
 2025-11-25,39709,,Chaguar Sociedad Ano...,29838241,29838241 // 10227650215,Arribado

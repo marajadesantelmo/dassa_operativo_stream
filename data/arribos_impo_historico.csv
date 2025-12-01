@@ -9,6 +9,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-11-19,05:00,Terminal 4,TRHU-499540-6,Mercovan Argentina S...,259610467,TD,2025-11-19,3230,http://dassaweb.mqbic.com/PublicTally.php?id=3230
 2025-11-21,07:00,Exolgan,UACU-374234-0,Mercovan Argentina S...,HLCULE1250949924,TD,2025-11-21,3267,http://dassaweb.mqbic.com/PublicTally.php?id=3267
 2025-11-26,11:00,Terminal 4,ZIMU-126320-6,Mercovan Argentina S...,ZIMUCRT911572,TD,2025-11-26,3308,http://dassaweb.mqbic.com/PublicTally.php?id=3308
+2025-12-02,11:00,Terminal 4,CMAU-767695-9,Mercovan Argentina S...,ISB1833397,TD,,,
 2025-10-28,11:00,TRP,KOCU-404929-0,Mercovan Argentina S...,HDMUSELM09368000,TD,2025-10-28,2989,http://dassaweb.mqbic.com/PublicTally.php?id=2989
 2025-10-29,11:00,Exolgan,UACU-858783-8,Mercovan Argentina S...,HLCUALG250800101,TD,2025-10-29,3019,http://dassaweb.mqbic.com/PublicTally.php?id=3019
 2025-11-07,13:00,Terminal 4,TRLU-751167-4,Mercovan Argentina S...,ISB1809622,T,2025-11-07,,
@@ -199,6 +200,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-10-08,14:00,Terminal 4,NYKU-849833-1,Arbrex Commercial Gr...,TPYTNSG25086040,TD,2025-10-08,2775,http://dassaweb.mqbic.com/PublicTally.php?id=2775
 2025-10-08,14:00,Terminal 4,NYKU-849833-1,Arbrex Commercial Gr...,TPYTNSG25086040,TD,2025-10-08,2775,http://dassaweb.mqbic.com/PublicTally.php?id=2775
 2025-10-10,10:00,Terminal 4,MRKU-018061-0,Arbrex Commercial Gr...,TPSHNSG25086041,TD,2025-10-10,2834,http://dassaweb.mqbic.com/PublicTally.php?id=2834
+2025-10-10,10:00,Terminal 4,MRKU-018061-0,Arbrex Commercial Gr...,TPSHNSG25086041,TD,2025-10-10,2834,http://dassaweb.mqbic.com/PublicTally.php?id=2834
 2025-10-10,08:00,Terminal 4,BMOU-310126-0,Arbrex Commercial Gr...,SZX25080592A,TD,2025-10-10,2825,http://dassaweb.mqbic.com/PublicTally.php?id=2825
 2025-10-10,08:00,Terminal 4,BMOU-310126-0,Arbrex Commercial Gr...,SZX25080592A,TD,2025-10-10,2825,http://dassaweb.mqbic.com/PublicTally.php?id=2825
 2025-10-13,12:00,Terminal 4,TGHU-512782-3,Arbrex Commercial Gr...,SZX25080591,TD,2025-10-13,2838,http://dassaweb.mqbic.com/PublicTally.php?id=2838
@@ -267,6 +269,22 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-08-11,07:00,Exolgan,CAIU-568248-2,Grouport Srl        ...,TCNB2505096,TD,2025-08-11,2298,http://dassaweb.mqbic.com/PublicTally.php?id=2298
 2025-08-29,15:00,Exolgan,MSBU-337864-0,Grouport Srl        ...,TCQD2505313,T,2025-08-29,,
 2025-11-26,15:00,Exolgan,MSMU-448053-7,Grouport Srl        ...,SYNNKG25SE090106,TD,2025-11-26,,
+2025-12-02,15:00,Exolgan,MSBU-258755-9,Refractarios Argenti...,DLC59112290,TD,,,
+2025-12-02,15:00,Exolgan,MSBU-258902-1,Refractarios Argenti...,DLC59112290,TD,,,
+2025-12-02,17:00,Exolgan,MSBU-259636-0,Refractarios Argenti...,DLC59112290,TD,,,
+2025-12-02,17:00,Exolgan,MSBU-259686-4,Refractarios Argenti...,DLC59112290,TD,,,
+2025-12-02,17:00,Exolgan,MSMU-326123-6,Refractarios Argenti...,DLC59112263,TD,,,
+2025-12-02,17:00,Exolgan,TCLU-315762-4,Refractarios Argenti...,DLC59112263,TD,,,
+2025-12-02,17:00,Exolgan,MSBU-257694-0,Refractarios Argenti...,DLC59112283,TD,,,
+2025-12-02,17:00,Exolgan,MSBU-257790-4,Refractarios Argenti...,DLC59112283,TD,,,
+2025-12-02,17:00,Exolgan,MSBU-258929-5,Refractarios Argenti...,DLC59112283,TD,,,
+2025-12-02,17:00,Exolgan,MSBU-259616-5,Refractarios Argenti...,DLC59112283,TD,,,
+2025-12-02,13:00,Exolgan,MSBU-256017-8,Refractarios Argenti...,DLC59112290,TD,,,
+2025-12-02,17:00,Exolgan,MSBU-256307-4,Refractarios Argenti...,DLC59112290,TD,,,
+2025-12-02,17:00,Exolgan,BMOU-276287-7,Refractarios Argenti...,DLC59112263,TD,,,
+2025-12-02,17:00,Exolgan,CAIU-281159-1,Refractarios Argenti...,DLC59112263,TD,,,
+2025-12-02,17:00,Exolgan,MSBU-258490-3,Refractarios Argenti...,DLC59112263,TD,,,
+2025-12-02,17:00,Exolgan,MSBU-257470-0,Refractarios Argenti...,DLC59112283,TD,,,
 2025-11-19,05:00,Terminal 4,MRSU-022489-8,Refractarios Argenti...,MSLOG-ES25100084AA,TD,2025-11-19,3233,http://dassaweb.mqbic.com/PublicTally.php?id=3233
 2025-11-19,05:00,Terminal 4,TEMU-050721-7,Refractarios Argenti...,MSLOG-ES25100084AA,TD,2025-11-19,3234,http://dassaweb.mqbic.com/PublicTally.php?id=3234
 2025-11-21,08:00,TRP,CSLU-209338-7,Refractarios Argenti...,HAMS25569472,TD,2025-11-21,3273,http://dassaweb.mqbic.com/PublicTally.php?id=3273
@@ -325,6 +343,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-09-23,10:00,Terminal 4,MRKU-067396-2,Fenisan S.A.        ...,258262518,T,2025-09-23,,
 2025-09-23,10:00,Terminal 4,MSKU-196898-0,Fenisan S.A.        ...,258262518,T,2025-09-23,,
 2025-11-25,11:00,Terminal 4,GAOU-687825-2,Fenisan S.A.        ...,260980628,T,2025-11-25,,
+2025-12-02,05:00,Terminal 4,SUDU-781987-0,Fenisan S.A.        ...,261607139,T,,,
 2025-09-02,15:00,Exolgan,MEDU-418227-2,Metal Gauss S.A.    ...,TCSH2506232,TD,2025-09-02,2431,http://dassaweb.mqbic.com/PublicTally.php?id=2431
 2025-09-02,15:00,Exolgan,MEDU-886776-8,Metal Gauss S.A.    ...,TCSH2506232,TD,2025-09-02,2432,http://dassaweb.mqbic.com/PublicTally.php?id=2432
 2025-10-03,05:00,TRP,EGSU-159286-8,Shipy S.A.          ...,TSSZ2507177,T,2025-10-03,,
@@ -334,8 +353,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-10-09,11:00,TRP,EMCU-897415-9,Shipy S.A.          ...,NB250865413,TD,2025-10-09,2780,http://dassaweb.mqbic.com/PublicTally.php?id=2780
 2025-10-09,11:00,TRP,EITU-161624-7,Shipy S.A.          ...,NB250865413,TD,2025-10-09,2781,http://dassaweb.mqbic.com/PublicTally.php?id=2781
 2025-11-21,09:00,Exolgan,SKIU-911639-1,Shipy S.A.          ...,DLNB2509871B,T,2025-11-21,,
-2025-11-26,15:00,Exolgan,ONEU-524322-6,Shipy S.A.          ...,SY250966589,TD,2025-11-26,,
-2025-11-26,17:00,Exolgan,ONEU-593690-9,Shipy S.A.          ...,SY250966589,TD,2025-11-26,,
+2025-11-26,15:00,Exolgan,ONEU-524322-6,Shipy S.A.          ...,SY250966589,T,2025-11-26,,
+2025-11-26,17:00,Exolgan,ONEU-593690-9,Shipy S.A.          ...,SY250966589,T,2025-11-26,,
 2025-11-21,07:00,Exolgan,FCIU-710625-2,Shipy S.A.          ...,DLNB2509871A,T,2025-11-21,,
 2025-11-21,07:00,Exolgan,BMOU-663949-6,Shipy S.A.          ...,DLNB2509498,T,2025-11-21,,
 2025-11-21,07:00,Exolgan,FANU-144831-5,Shipy S.A.          ...,DLNB2509498,T,2025-11-21,,
@@ -725,7 +744,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-09-16,11:00,TRP,EITU-106334-7,Novelty Trend Srl   ...,TWLE25070162,TD,2025-09-16,,
 2025-09-19,13:00,TRP,OOCU-808479-7,Novelty Trend Srl   ...,TWLE25060188,TD,2025-09-19,2632,http://dassaweb.mqbic.com/PublicTally.php?id=2632
 2025-10-09,12:00,TRP,EGSU-963635-0,Novelty Trend Srl   ...,TWLE25080023,TD,2025-10-09,,
-2025-11-21,16:00,TRP,EGSU-169473-0,Novelty Trend Srl   ...,TWLE25090189,TD,2025-11-21,,
+2025-11-21,16:00,TRP,EGSU-169473-0,Novelty Trend Srl   ...,TWLE25090189,TD,2025-11-21,3296,http://dassaweb.mqbic.com/PublicTally.php?id=3296
 2025-08-13,13:00,TRP,PCIU-002379-4,Alsina Motos Srl    ...,TWLE25143055,T,2025-08-13,,
 2025-09-23,11:00,Exolgan,MSMU-701387-6,Pagraropao Srl      ...,DLNB2507696,T,2025-09-23,,
 2025-08-07,14:00,Terminal 4,HLBU-189079-4,Chemotecnica Sa     ...,INTSE00184283,T,2025-08-07,,
@@ -833,7 +852,11 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-11-20,05:00,Terminal 4,MRKU-105602-9,Noah Servicess.R.L. ...,259557782,TD,2025-11-20,3248,http://dassaweb.mqbic.com/PublicTally.php?id=3248
 2025-11-20,05:00,Terminal 4,MRKU-105602-9,Noah Servicess.R.L. ...,259557782,TD,2025-11-20,3248,http://dassaweb.mqbic.com/PublicTally.php?id=3248
 2025-11-20,05:00,Terminal 4,MRKU-105602-9,Noah Servicess.R.L. ...,259557782,TD,2025-11-20,3248,http://dassaweb.mqbic.com/PublicTally.php?id=3248
-2025-11-27,13:00,Exolgan,MSDU-457616-5,Noah Servicess.R.L. ...,MEDUHX848367,TD,2025-11-27,,
+2025-11-27,13:00,Exolgan,MSDU-457616-5,Noah Servicess.R.L. ...,MEDUHX848367,TD,2025-11-27,3343,http://dassaweb.mqbic.com/PublicTally.php?id=3343
+2025-11-27,13:00,Exolgan,MSDU-457616-5,Noah Servicess.R.L. ...,MEDUHX848367,TD,2025-11-27,3343,http://dassaweb.mqbic.com/PublicTally.php?id=3343
+2025-11-27,13:00,Exolgan,MSDU-457616-5,Noah Servicess.R.L. ...,MEDUHX848367,TD,2025-11-27,3343,http://dassaweb.mqbic.com/PublicTally.php?id=3343
+2025-11-27,13:00,Exolgan,MSDU-457616-5,Noah Servicess.R.L. ...,MEDUHX848367,TD,2025-11-27,3343,http://dassaweb.mqbic.com/PublicTally.php?id=3343
+2025-11-27,13:00,Exolgan,MSDU-457616-5,Noah Servicess.R.L. ...,MEDUHX848367,TD,2025-11-27,3343,http://dassaweb.mqbic.com/PublicTally.php?id=3343
 2025-11-28,05:00,Terminal 4,HLXU-816753-1,Noah Servicess.R.L. ...,HLCUBSC2510BEMZ2,TD,2025-11-28,,
 2025-09-17,12:00,TRP,CMAU-430429-0,Noah Servicess.R.L. ...,IBC1377772,TD,2025-09-17,2605,http://dassaweb.mqbic.com/PublicTally.php?id=2605
 2025-09-17,12:00,TRP,CMAU-430429-0,Noah Servicess.R.L. ...,IBC1377772,TD,2025-09-17,2605,http://dassaweb.mqbic.com/PublicTally.php?id=2605
@@ -916,6 +939,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-08-07,10:00,Terminal 4,ZCSU-658293-2,Grupo Simpa Sa      ...,NBOBUE25060146,T,2025-08-07,,
 2025-08-14,11:00,Terminal 4,JXLU-442845-0,Grupo Simpa Sa      ...,TCNB2506077,T,2025-08-14,,
 2025-08-14,11:00,Terminal 4,TCNU-536039-2,Grupo Simpa Sa      ...,TCNB2506077,T,2025-08-14,,
+2025-12-02,15:00,Exolgan,MSMU-677844-9,Grupo Simpa Sa      ...,NBO250014347,T,,,
+2025-12-02,15:00,Exolgan,MSMU-121455-4,Grupo Simpa Sa      ...,202508131001,T,,,
 2025-11-18,13:00,Terminal 4,ZCSU-695919-0,Grupo Simpa Sa      ...,TCSH2509123,T,2025-11-18,,
 2025-11-18,13:00,Terminal 4,BMOU-526295-7,Grupo Simpa Sa      ...,TCSH2509123,T,2025-11-18,,
 2025-11-20,12:00,TRP,EGSU-319291-6,Grupo Simpa Sa      ...,BSPL/BUE/025-297,T,2025-11-20,,
@@ -948,6 +973,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-08-16,17:00,Terminal 4,FANU-117537-6,Trice Transport Comp...,HLCUBSC250764190,TD,2025-08-16,2324,http://dassaweb.mqbic.com/PublicTally.php?id=2324
 2025-08-16,17:00,Terminal 4,FANU-117537-6,Trice Transport Comp...,HLCUBSC250764190,TD,2025-08-16,2324,http://dassaweb.mqbic.com/PublicTally.php?id=2324
 2025-08-16,17:00,Terminal 4,TCLU-953831-4,Trice Transport Comp...,HLCUBSC250764190,TD,2025-08-16,2325,http://dassaweb.mqbic.com/PublicTally.php?id=2325
+2025-12-01,15:00,Exolgan,UACU-387339-8,Breyer Hnos S A     ...,DLSZ25090493,T,,,
 2025-08-11,07:00,Exolgan,CAAU-732921-3,Anaya San Martín Y A...,NBOBUE25060209,T,2025-08-11,,
 2025-08-11,07:00,Exolgan,GLDU-983800-0,Anaya San Martín Y A...,NBOBUE25060209,T,2025-08-11,,
 2025-08-11,07:00,Exolgan,MSCU-759855-0,Anaya San Martín Y A...,NBOBUE25060209,T,2025-08-11,,
@@ -974,6 +1000,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-11-20,05:00,Terminal 4,MRKU-022919-8,Grupo Rsm Srl       ...,260980802,TD,2025-11-20,3250,http://dassaweb.mqbic.com/PublicTally.php?id=3250
 2025-11-21,08:00,TRP,FFAU-349710-4,Grupo Rsm Srl       ...,COSU6428749170,TD,2025-11-21,3272,http://dassaweb.mqbic.com/PublicTally.php?id=3272
 2025-11-21,08:00,TRP,FFAU-349710-4,Grupo Rsm Srl       ...,COSU6428749170,TD,2025-11-21,3272,http://dassaweb.mqbic.com/PublicTally.php?id=3272
+2025-12-02,05:00,Terminal 4,MRKU-062697-6,Grupo Rsm Srl       ...,261605585,TD,,,
 2025-10-13,13:00,Exolgan,SEGU-624001-3,Grupo Rsm Srl       ...,MEDUHX432501,T,2025-10-13,,
 2025-10-31,10:00,Terminal 4,MRKU-037849-0,Grupo Rsm Srl       ...,260180876,TD,2025-10-31,3066,http://dassaweb.mqbic.com/PublicTally.php?id=3066
 2025-10-31,10:00,Terminal 4,MRKU-037849-0,Grupo Rsm Srl       ...,260180876,TD,2025-10-31,3066,http://dassaweb.mqbic.com/PublicTally.php?id=3066
@@ -1034,7 +1061,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-09-24,12:00,TRP,TXGU-559828-0,Fedtex S.R.L        ...,TWLE25070200,TD,2025-09-24,2664,http://dassaweb.mqbic.com/PublicTally.php?id=2664
 2025-09-24,13:00,TRP,EMCU-877109-0,Fedtex S.R.L        ...,TWLE25070207,TD,2025-09-24,2665,http://dassaweb.mqbic.com/PublicTally.php?id=2665
 2025-10-24,15:00,TRP,EMCU-820152-3,Fedtex S.R.L        ...,TWLE25080161,T,,,
-2025-11-21,09:00,TRP,TGBU-690423-2,Fedtex S.R.L        ...,TWLE25090145,TD,2025-11-21,,
+2025-11-21,09:00,TRP,TGBU-690423-2,Fedtex S.R.L        ...,TWLE25090145,TD,2025-11-21,3286,http://dassaweb.mqbic.com/PublicTally.php?id=3286
 2025-11-21,08:00,TRP,TRHU-690734-3,Fedtex S.R.L        ...,TWLE25090146,T,2025-11-21,,
 2025-11-21,07:00,TRP,BSIU-839456-7,Fedtex S.R.L        ...,TWLE25090188,T,2025-11-21,,
 2025-09-24,12:00,TRP,TRHU-713348-9,Fedtex S.R.L        ...,TWLE25070206,T,2025-09-24,,
@@ -1119,6 +1146,9 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-09-15,12:00,TRP,FSCU-496250-5,Car Pro Accesorios S...,MFSE2506X144,T,2025-09-15,,
 2025-11-13,05:00,Terminal 4,CAJU-504314-5,Car Pro Accesorios S...,TCQD2508510,T,2025-11-13,,
 2025-10-02,10:00,Terminal 4,FCIU-415019-0,Sermat Sa           ...,AWSL298363,TD,2025-10-02,2718,http://dassaweb.mqbic.com/PublicTally.php?id=2718
+2025-12-02,14:00,Terminal 4,MRKU-997757-0,Sermat Sa           ...,250271EX,TD,,,
+2025-12-02,14:00,Terminal 4,MSKU-766005-9,Sermat Sa           ...,250271EX,TD,,,
+2025-12-02,14:00,Terminal 4,SUDU-148102-3,Sermat Sa           ...,250271EX,TD,,,
 2025-09-03,12:00,TRP,CMAU-275489-5,Industrias Zapla S.A...,PEC013641RCS,TD,2025-09-03,2436,http://dassaweb.mqbic.com/PublicTally.php?id=2436
 2025-09-03,13:00,TRP,CMAU-253746-2,Industrias Zapla S.A...,PEC013641RCS,TD,2025-09-03,2437,http://dassaweb.mqbic.com/PublicTally.php?id=2437
 2025-09-03,12:00,TRP,CAIU-279844-2,Industrias Zapla S.A...,PEC013641RCS,TD,2025-09-03,2438,http://dassaweb.mqbic.com/PublicTally.php?id=2438
