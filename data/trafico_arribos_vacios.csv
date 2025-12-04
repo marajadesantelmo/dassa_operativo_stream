@@ -1,10 +1,10 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-40017,04/12,Aniceto Gomez Sa,-,10081,HC,TD,                    ,BUEF13612600,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40017,04/12,Aniceto Gomez Sa,TGCU-519639-0,10081,HC,TD,******************* ,BUEF13612600,1,TRANSPORTE DEL CLIENTE        ,Garcia,13:04,1899-12-30,,                    ,13:04 Arribado
 40041,04/12,Henn Y Cia S.R.L.,-,10,DR,TD,                    ,BUE500197300,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40040,04/12,Henn Y Cia S.R.L.,-,10,DR,TD,                    ,BUE500197300,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40016,04/12,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE500229100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40015,04/12,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE500229100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40014,04/12,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE500229100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40016,04/12,Henn Y Cia S.R.L.,PIDU-400682-2,10,HC,TD,********            ,BUE500229100,1,TRANSPORTE DEL CLIENTE        ,Peril,13:03,1899-12-30,,                    ,13:03 Arribado
+40015,04/12,Henn Y Cia S.R.L.,FFAU-624017-2,10,HC,TD,***************     ,BUE500229100,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,13:02,1899-12-30,,                    ,13:02 Arribado
+40014,04/12,Henn Y Cia S.R.L.,FFAU-752469-8,10,HC,TD,***************     ,BUE500229100,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,13:00,1899-12-30,,                    ,13:00 Arribado
 39993,05/12,Sandrin Paola Karina,-,0,  ,TD,                    ,EBKG15006334,0,                              ,,     ,1899-12-30,Ebkg15006334,EBKG15006334        ,Pendiente
 40036,05/12,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,262042351,0,                              ,,     ,1899-12-30,,262042351           ,Pendiente
 40011,05/12,Suabia Maderas Srl,-,10082,HC,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,,                    ,Pendiente
