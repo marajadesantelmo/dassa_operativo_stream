@@ -1,23 +1,15 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-40042,04/12,Mercovan Argentina S.A.,CXDU-101391-3,10074,DR,TD,                    ,39031419,1,GALDERISI CARLOS ANDRES       ,.,19:12,1899-12-30,Bueno Vargas,                    ,19:12 Arribado
-40017,04/12,Aniceto Gomez Sa,TGCU-519639-0,10081,HC,TD,******************* ,BUEF13612600,1,TRANSPORTE DEL CLIENTE        ,Garcia,13:04,1899-12-30,,                    ,13:04 Arribado
-40044,04/12,Pelama Chubut S.A.,CMAU-194301-9,10082,DR,TD,R8688220            ,BUA0355441,1,GALDERISI CARLOS ANDRES       ,.,15:28,1899-12-30,,                    ,15:28 Arribado
-40041,04/12,Henn Y Cia S.R.L.,-,10,DR,TD,                    ,BUE500197300,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40040,04/12,Henn Y Cia S.R.L.,PCIU-112232-2,10,DR,TD,**************      ,BUE500197300,1,TRANSPORTE DEL CLIENTE        ,Ivan Rios,16:38,1899-12-30,,                    ,16:38 Arribado
-40016,04/12,Henn Y Cia S.R.L.,PIDU-400682-2,10,HC,TD,********            ,BUE500229100,1,TRANSPORTE DEL CLIENTE        ,Peril,13:03,1899-12-30,,                    ,13:03 Arribado
-40015,04/12,Henn Y Cia S.R.L.,FFAU-624017-2,10,HC,TD,***************     ,BUE500229100,1,TRANSPORTE DEL CLIENTE        ,Moscardini Matias,13:02,1899-12-30,,                    ,13:02 Arribado
-40014,04/12,Henn Y Cia S.R.L.,FFAU-752469-8,10,HC,TD,***************     ,BUE500229100,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,13:00,1899-12-30,,                    ,13:00 Arribado
-39993,05/12,Sandrin Paola Karina,-,0,  ,TD,                    ,EBKG15006334,0,                              ,,     ,1899-12-30,Ebkg15006334,EBKG15006334        ,Pendiente
-40036,05/12,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,262042351,0,                              ,,     ,1899-12-30,,262042351           ,Pendiente
-40011,05/12,Suabia Maderas Srl,-,10082,HC,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40009,05/12,Suabia Maderas Srl,-,10082,HC,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40012,05/12,Delicia Maderas,-,10082,HC,TD,                    ,BUA0356864,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40008,05/12,Suabia Maderas Srl,-,10082,HC,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40007,05/12,Suabia Maderas Srl,-,10082,HC,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40008,05/12,Suabia Maderas Srl,-,10082,HC,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40009,05/12,Suabia Maderas Srl,-,10082,HC,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40010,05/12,Suabia Maderas Srl,-,10082,HC,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40011,05/12,Suabia Maderas Srl,-,10082,HC,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40036,05/12,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,262042351,0,                              ,,     ,1899-12-30,,262042351           ,Pendiente
+39993,05/12,Sandrin Paola Karina,-,0,  ,TD,                    ,EBKG15006334,0,                              ,,     ,1899-12-30,Ebkg15006334,EBKG15006334        ,Pendiente
+40012,05/12,Delicia Maderas,-,10082,HC,TD,                    ,BUA0356864,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40013,05/12,Delicia Maderas,-,10082,HC,TD,                    ,BUA0356864,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40006,09/12,Suabia Maderas Srl,-,0,  ,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,Bua0356545,BUA0356545          ,Pendiente
-40005,09/12,Suabia Maderas Srl,-,0,  ,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,Bua0356545,BUA0356545          ,Pendiente
-40004,09/12,Suabia Maderas Srl,-,0,  ,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,Bua0356545,BUA0356545          ,Pendiente
-40003,09/12,Suabia Maderas Srl,-,0,  ,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,Bua0356545,BUA0356545          ,Pendiente
 40002,09/12,Suabia Maderas Srl,CMAU-544543-5,0,  ,TD,R8689569            ,BUA0356545,1,TRANSPORTE DEL CLIENTE        ,Garcia,19:05,1899-12-30,Bua0356545,BUA0356545          ,19:05 Arribado
+40003,09/12,Suabia Maderas Srl,-,0,  ,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,Bua0356545,BUA0356545          ,Pendiente
+40004,09/12,Suabia Maderas Srl,-,0,  ,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,Bua0356545,BUA0356545          ,Pendiente
+40005,09/12,Suabia Maderas Srl,-,0,  ,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,Bua0356545,BUA0356545          ,Pendiente
+40006,09/12,Suabia Maderas Srl,-,0,  ,TD,                    ,BUA0356545,0,                              ,,     ,1899-12-30,Bua0356545,BUA0356545          ,Pendiente
