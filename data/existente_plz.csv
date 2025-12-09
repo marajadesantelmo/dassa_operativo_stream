@@ -3,8 +3,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Tipo,T-TD,Ubicacion,e-tal
 40019-0-1,Dpmg S.A.,Refrigerante,-,ZPLU-201537-6,09-12-2025,is,T,PLZA,
 40014-0-1,Mma Tex S.A.,Telas,-,TEMU-622328-6,09-12-2025,HC,T,PLZA,
 40015-0-1,Bisora Group Sa,Telas,-,FANU-331407-0,09-12-2025,HC,T,PLZA,
-40016-0-2,Vestiditos Sa,Garments,-,HLXU-828653-0,09-12-2025,HC,T,PLZA,
 40016-0-1,Vestiditos Sa,Garments,-,HLBU-267089-7,09-12-2025,HC,T,PLZA,
+40016-0-2,Vestiditos Sa,Garments,-,HLXU-828653-0,09-12-2025,HC,T,PLZA,
 40017-0-1,Dpmg S.A.,Refrigerante,-,ZHLU-201721-7,09-12-2025,is,T,PLZA,
 40018-0-1,Dpmg S.A.,Refrigeramnte,-,BEAU-637118-2,09-12-2025,is,T,PLZA,
 40020-0-1,Dpmg S.A.,Refrigerante,-,ZHLU-201404-9,09-12-2025,is,T,PLZA,
@@ -14,8 +14,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Tipo,T-TD,Ubicacion,e-tal
 40042-0-1,Bisora Group Sa,Telas,-,HLBU-108243-5,09-12-2025,HC,TD,PLZA,
 40043-0-1,Jupam Sa,Telas,-,TCNU-821542-2,09-12-2025,HC,T,PLZA,
 40007-0-1,Lift Van Int. Co S.A,Mudanza,-,CXDU-234223-5,05-12-2025,DC,TD,PLZA,
-40001-0-2,Grupo Simpa Sa,Rally Raer,-,FFAU-201379-8,05-12-2025,HC,T,PLZA,
 40001-0-1,Grupo Simpa Sa,Rally Raer,-,FBLU-009958-1,05-12-2025,HC,T,PLZA,
+40001-0-2,Grupo Simpa Sa,Rally Raer,-,FFAU-201379-8,05-12-2025,HC,T,PLZA,
 40002-0-1,Grupo Simpa Sa,Spare Parts,-,MSKU-503817-5,05-12-2025,DC,T,PLZA,
 40003-0-1,Arbrex Commercial Gr...,Plush Toys,-,MRKU-939857-9,05-12-2025,DC,TD,PLZA,
 40011-0-1,Grupo De Asesoramien...,Mudanza,-,MSDU-447773-2,05-12-2025,DC,TD,PLZA,
@@ -37,20 +37,20 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Tipo,T-TD,Ubicacion,e-tal
 39964-0-1,Refractarios Argenti...,Fused Magnesite,-,MEDU-542555-1,03-12-2025,DR,TD,PLZA,
 39964-0-5,Refractarios Argenti...,Fused Magnesite,-,MSDU-137097-2,03-12-2025,DR,TD,PLZA,
 39939-0-4,Refractarios Argenti...,Fused Magnesite,-,MSBU-258902-1,02-12-2025,DR,TD,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3389
-39937-0-2,Sermat Sa,Batteries,-,MSKU-766005-9,02-12-2025,DR,TD,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3393
+39937-0-1,Sermat Sa,Batteries,-,MRKU-997757-0,02-12-2025,DR,TD,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3392
 39938-0-4,Refractarios Argenti...,Fused Magnesite,-,MSMU-326123-6,02-12-2025,DR,TD,PLZA,
 39938-0-5,Refractarios Argenti...,Fused Magnesite,-,TCLU-315762-4,02-12-2025,DR,TD,PLZA,
 39938-0-2,Refractarios Argenti...,Fused Magnesite,-,CAIU-281159-1,02-12-2025,DR,TD,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3378
 39938-0-1,Refractarios Argenti...,Fused Magnesite,-,BMOU-276287-7,02-12-2025,DR,TD,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3377
 39938-0-3,Refractarios Argenti...,Fused Magnesite,-,MSBU-258490-3,02-12-2025,DR,TD,PLZA,
-39939-0-6,Refractarios Argenti...,Fused Magnesite,-,MSBU-259686-4,02-12-2025,DR,TD,PLZA,
 39939-0-5,Refractarios Argenti...,Fused Magnesite,-,MSBU-259636-0,02-12-2025,DR,TD,PLZA,
-39939-0-1,Refractarios Argenti...,Fused Magnesite,-,MSBU-256017-8,02-12-2025,DR,TD,PLZA,
+39939-0-6,Refractarios Argenti...,Fused Magnesite,-,MSBU-259686-4,02-12-2025,DR,TD,PLZA,
 39939-0-2,Refractarios Argenti...,Fused Magnesite,-,MSBU-256307-4,02-12-2025,DR,TD,PLZA,
+39939-0-1,Refractarios Argenti...,Fused Magnesite,-,MSBU-256017-8,02-12-2025,DR,TD,PLZA,
 39939-0-3,Refractarios Argenti...,Fused Magnesite,-,MSBU-258755-9,02-12-2025,DR,TD,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3388
 39941-0-1,Grupo Simpa Sa,Mototcyle,-,MSMU-677844-9,02-12-2025,HC,T,PLZA,
-39937-0-1,Sermat Sa,Batteries,-,MRKU-997757-0,02-12-2025,DR,TD,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3392
 39937-0-3,Sermat Sa,Batteries,-,SUDU-148102-3,02-12-2025,DR,TD,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3394
+39937-0-2,Sermat Sa,Batteries,-,MSKU-766005-9,02-12-2025,DR,TD,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3393
 39927-0-1,Grupo Simpa Sa,Spare Parts,-,MSMU-121455-4,02-12-2025,DR,T,PLZA,
 39874-0-1,Corona Insumos Srl,Elastic Tape,-,FFAU-503115-7,01-12-2025,HC,T,PLZA,
 39841-0-1,Bymar Transforwardin...,Auto,MEDUW2243402,FSCU-405983-4,28-11-2025,DC,T,PLZA,

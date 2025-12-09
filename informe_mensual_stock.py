@@ -1,3 +1,8 @@
+"""Script que genera el informe mensual de stock existente en DASSA y lo sube a Supabase.
+Además, envía un correo de notificación a los responsables.
+"""
+
+
 import pandas as pd
 import pyodbc
 from datetime import datetime
@@ -11,7 +16,6 @@ import gspread
 from gspread_dataframe import set_with_dataframe
 from tokens import username, password, url_supabase, key_supabase
 from supabase import create_client, Client
-
 
 supabase_client = create_client(url_supabase, key_supabase)
 
@@ -239,7 +243,8 @@ print("--- Sending notification emails ---")
 recipients = [
     "santiago@dassa.com.ar",
     "manuel@dassa.com.ar", 
-    "marajadesantelmo@gmail.com"
+    "marajadesantelmo@gmail.com", 
+    "alan@dassa.com.ar"
 ]
 
 for email in recipients:
