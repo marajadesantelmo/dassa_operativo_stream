@@ -1,6 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 40078,09/12,Asecor Srl,-,10076,HC,TD,                    ,262197603,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40072,09/12,Hdv Leather S.R.L.,-,10076,HC,TD,                    ,261603746,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40072,09/12,Hdv Leather S.R.L.,MRKU-578990-8,10076,HC,TD,*********           ,261603746,1,TRANSPORTE DEL CLIENTE        ,Garcia,11:06,1899-12-30,,                    ,11:06 Arribado
 40060,09/12,Hdv Leather S.R.L.,-,0,  ,TD,                    ,261603746,0,                              ,,     ,1899-12-30,Lote 3220 / 3692 / 3711,261603746           ,Pendiente
 40059,09/12,Hdv Leather S.R.L.,-,0,  ,TD,                    ,261603746,0,                              ,,     ,1899-12-30,Lote 3220 / 3692 / 3711,261603746           ,Pendiente
 40058,09/12,Hdv Leather S.R.L.,MRKU-618617-5,0,  ,TD,**************      ,261603746,1,TRANSPORTE DEL CLIENTE        ,Escalante,10:58,1899-12-30,Lote 3220 / 3692 / 3711,261603746           ,10:58 Arribado
