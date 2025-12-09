@@ -1,9 +1,10 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-40078,09/12,Asecor Srl,-,10076,HC,TD,                    ,262197603,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40122,09/12,Mafralac Alimenticia Srl,ZCSU-725507-1,0,  ,TD,********************,ZIMUBUE9045828,1,TRANSPORTE DEL CLIENTE        ,Moscardini,11:39,1899-12-30,,                    ,11:39 Arribado
 40072,09/12,Hdv Leather S.R.L.,MRKU-578990-8,10076,HC,TD,*********           ,261603746,1,TRANSPORTE DEL CLIENTE        ,Garcia,11:06,1899-12-30,,                    ,11:06 Arribado
 40060,09/12,Hdv Leather S.R.L.,-,0,  ,TD,                    ,261603746,0,                              ,,     ,1899-12-30,Lote 3220 / 3692 / 3711,261603746           ,Pendiente
 40059,09/12,Hdv Leather S.R.L.,-,0,  ,TD,                    ,261603746,0,                              ,,     ,1899-12-30,Lote 3220 / 3692 / 3711,261603746           ,Pendiente
 40058,09/12,Hdv Leather S.R.L.,MRKU-618617-5,0,  ,TD,**************      ,261603746,1,TRANSPORTE DEL CLIENTE        ,Escalante,10:58,1899-12-30,Lote 3220 / 3692 / 3711,261603746           ,10:58 Arribado
+40123,09/12,Inter American Cargo Group Sa,FBLU-012860-6,0,  ,TD,*********           ,,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,11:41,1899-12-30,,                    ,11:41 Arribado
 40112,09/12,Borax Argentina S A,-,0,  ,TD,                    ,25001,1,TRANSPORTE DEL CLIENTE        ,Almada Matias,09:49,1899-12-30,,                    ,09:49 Arribado
 40084,09/12,Henn Y Cia S.R.L.,-,10082,HC,TD,                    ,BUA0356179,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40083,09/12,Henn Y Cia S.R.L.,-,10082,HC,TD,                    ,BUA0356179,0,                              ,,     ,1899-12-30,,                    ,Pendiente
@@ -19,5 +20,6 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 40003,09/12,Suabia Maderas Srl,CMAU-767695-9,0,  ,TD,R8691136            ,BUA0356545,1,TRANSPORTE DEL CLIENTE        ,Garcia,13:11,1899-12-30,Bua0356545,BUA0356545          ,13:11 Arribado
 40002,09/12,Suabia Maderas Srl,CMAU-544543-5,0,  ,TD,R8689569            ,BUA0356545,1,TRANSPORTE DEL CLIENTE        ,Garcia,19:05,1899-12-30,Bua0356545,BUA0356545          ,19:05 Arribado
 40079,09/12,Asecor Srl,-,10076,HC,TD,                    ,262197603,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40078,09/12,Asecor Srl,-,10076,HC,TD,                    ,262197603,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40073,09/12,Hdv Leather S.R.L.,-,10076,HC,TD,                    ,261603746,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40074,09/12,Hdv Leather S.R.L.,-,10076,HC,TD,                    ,261603746,0,                              ,,     ,1899-12-30,,                    ,Pendiente
