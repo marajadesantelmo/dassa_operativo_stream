@@ -31,9 +31,21 @@ def fetch_data_plazoleta():
     arribos_expo_ctns = arribos_expo_ctns[['Fecha', 'Contenedor', 'Cliente']]
     listos_para_remitir = fetch_table_data("listos_para_remitir")
     vacios_disponibles = fetch_table_data("vacios_disponibles")
-    existente_plz_expo = pd.concat([listos_para_remitir[['Cliente', 'Contenedor']], vacios_disponibles[['Cliente', 'Contenedor']]])
-    existente_plz_expo_clientes = existente_plz_expo['Cliente'].value_counts().reset_index()
-    existente_plz_expo_clientes.columns = ['Cliente', 'CTNs']
+    
+    # Handle empty dataframes
+    dfs_to_concat = []
+    if not listos_para_remitir.empty and 'Cliente' in listos_para_remitir.columns and 'Contenedor' in listos_para_remitir.columns:
+        dfs_to_concat.append(listos_para_remitir[['Cliente', 'Contenedor']])
+    if not vacios_disponibles.empty and 'Cliente' in vacios_disponibles.columns and 'Contenedor' in vacios_disponibles.columns:
+        dfs_to_concat.append(vacios_disponibles[['Cliente', 'Contenedor']])
+    
+    if dfs_to_concat:
+        existente_plz_expo = pd.concat(dfs_to_concat)
+        existente_plz_expo_clientes = existente_plz_expo['Cliente'].value_counts().reset_index()
+        existente_plz_expo_clientes.columns = ['Cliente', 'CTNs']
+    else:
+        existente_plz_expo = pd.DataFrame(columns=['Cliente', 'Contenedor'])
+        existente_plz_expo_clientes = pd.DataFrame(columns=['Cliente', 'CTNs'])
 
     ctns_impo_plz = existente_plz.shape[0]
     ctns_expo_plz = listos_para_remitir.shape[0] + vacios_disponibles.shape[0]
