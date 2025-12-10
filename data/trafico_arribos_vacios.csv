@@ -1,8 +1,8 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 40171,10/12,Lift Van Int. Co S.A,-,10074,DR,TD,                    ,33567211,0,                              ,,     ,1899-12-30,Maria Naranjo Quintero,                    ,Pendiente
-40187,10/12,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG15100672,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40186,10/12,Chaguar Sociedad Anonima,-,10074,DR,TD,                    ,14235675,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40185,10/12,Chaguar Sociedad Anonima,-,10074,DR,TD,                    ,14235675,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40187,10/12,Chaguar Sociedad Anonima,MSNU-189073-7,9,DR,TD,FX32961299          ,EBKG15100672,1,TRANSPORTE DEL CLIENTE        ,Martin Gonzalez,13:14,1899-12-30,,                    ,13:14 Arribado
+40186,10/12,Chaguar Sociedad Anonima,HLBU-387642-9,10074,DR,TD,************        ,14235675,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:11,1899-12-30,,                    ,13:11 Arribado
+40185,10/12,Chaguar Sociedad Anonima,DFSU-315096-5,10074,DR,TD,*********           ,14235675,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:12,1899-12-30,,                    ,13:12 Arribado
 40184,10/12,Chaguar Sociedad Anonima,-,10074,DR,TD,                    ,14235675,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40191,10/12,Forestal Guarani Sa,-,10080,HC,TD,                    ,262400154,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40190,10/12,Forestal Guarani Sa,-,10080,HC,TD,                    ,262400154,0,                              ,,     ,1899-12-30,,                    ,Pendiente
