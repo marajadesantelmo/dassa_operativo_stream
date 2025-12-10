@@ -16,7 +16,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 40183,10/12,Manufactura Los Andes S.A.,-,Exolgan,DR,TD,                    ,13588186,0,                              ,,     ,1899-12-30,Fact 19-02,                    ,Pendiente
 40182,10/12,Manufactura Los Andes S.A.,-,Exolgan,DR,TD,                    ,13588186,0,                              ,,     ,1899-12-30,Fact 19-02,                    ,Pendiente
 40181,10/12,Manufactura Los Andes S.A.,-,Exolgan,DR,TD,                    ,13588186,0,                              ,,     ,1899-12-30,Fact 19-02,                    ,Pendiente
-40180,10/12,Manufactura Los Andes S.A.,-,Exolgan,DR,TD,                    ,13588186,0,                              ,,     ,1899-12-30,Fact 19-02,                    ,Pendiente
+40180,10/12,Manufactura Los Andes S.A.,HLBU-346230-5,Exolgan,DR,TD,***************     ,13588186,1,TRANSPORTE DEL CLIENTE        ,Bollota,17:11,1899-12-30,Fact 19-02,                    ,17:11 Arribado
 40179,10/12,Manufactura Los Andes S.A.,TGBU-225020-0,Exolgan,DR,TD,**************      ,13588186,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,16:02,1899-12-30,Fact 19-02,                    ,16:02 Arribado
 40178,10/12,Manufactura Los Andes S.A.,UACU-414186-9,Exolgan,DR,TD,******************  ,13588186,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,16:01,1899-12-30,Fact 19-02,                    ,16:01 Arribado
 40177,10/12,Manufactura Los Andes S.A.,TCLU-284116-5,Exolgan,DR,TD,************        ,13588186,1,TRANSPORTE DEL CLIENTE        ,Ivan Czech,14:37,1899-12-30,Fact 19-02,                    ,14:37 Arribado
@@ -26,4 +26,4 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 40176,10/12,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,LA0461221,0,                              ,,     ,1899-12-30,Carla Uchoa,                    ,Pendiente
 40175,10/12,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,LA0461221,0,                              ,,     ,1899-12-30,Carla Uchoa,                    ,Pendiente
 40188,10/12,Chaguar Sociedad Anonima,MSBU-207355-0,9,DR,TD,FX32961298          ,EBKG15100672,1,TRANSPORTE DEL CLIENTE        ,Martin Gonzalez,13:15,1899-12-30,,                    ,13:15 Arribado
-40189,10/12,Chaguar Sociedad Anonima,-,9,DR,TD,                    ,EBKG15100672,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40189,10/12,Chaguar Sociedad Anonima,MSBU-258929-5,9,DR,TD,FX32956953          ,EBKG15100672,1,TRANSPORTE DEL CLIENTE        ,Rios Ivan,17:09,1899-12-30,,                    ,17:09 Arribado
