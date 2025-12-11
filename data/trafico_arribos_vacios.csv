@@ -1,55 +1,26 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-40195,10/12,Borax Argentina S A,MRKU-034575-2,10080,DR,TD,************        ,262838687,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:23,1899-12-30,,                    ,13:23 Arribado
-40187,10/12,Chaguar Sociedad Anonima,MSNU-189073-7,9,DR,TD,FX32961299          ,EBKG15100672,1,TRANSPORTE DEL CLIENTE        ,Martin Gonzalez,13:14,1899-12-30,,                    ,13:14 Arribado
-40186,10/12,Chaguar Sociedad Anonima,HLBU-387642-9,10074,DR,TD,************        ,14235675,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:11,1899-12-30,,                    ,13:11 Arribado
-40185,10/12,Chaguar Sociedad Anonima,DFSU-315096-5,10074,DR,TD,*********           ,14235675,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,13:12,1899-12-30,,                    ,13:12 Arribado
-40184,10/12,Chaguar Sociedad Anonima,HLBU-123654-6,10074,DR,TD,***********         ,14235675,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,15:59,1899-12-30,,                    ,15:59 Arribado
-40248,10/12,Funcke Maritime Sa,-,0,  ,TD,                    ,25001EC01,0,                              ,,     ,1899-12-30,Maquinas,25001EC01           ,Pendiente
-40191,10/12,Forestal Guarani Sa,-,10080,HC,TD,                    ,262400154,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40190,10/12,Forestal Guarani Sa,-,10080,HC,TD,                    ,262400154,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40168,10/12,Inter American Cargo Group Sa,CAIU-859912-9,10080,HC,TD,***********         ,94341351,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,13:04,1899-12-30,,                    ,13:04 Arribado
-40170,10/12,Lawter Argentina S.A.,MRSU-581860-8,10080,HC,TD,                    ,262728223,1,GALDERISI CARLOS ANDRES       ,.,19:04,1899-12-30,,                    ,19:04 Arribado
-40157,10/12,Bru Erre Eme S.A.,FCIU-655968-1,15004,DR,TD,HLD0437324          ,26628219,1,TRANSPORTE DEL CLIENTE        ,.,19:29,1899-12-30,,                    ,19:29 Arribado
-40188,10/12,Chaguar Sociedad Anonima,MSBU-207355-0,9,DR,TD,FX32961298          ,EBKG15100672,1,TRANSPORTE DEL CLIENTE        ,Martin Gonzalez,13:15,1899-12-30,,                    ,13:15 Arribado
-40194,10/12,Pallets Nef De Raul E. Fernand...,HLBU-319957-0,10080,HC,TD,*********           ,31241894,1,TRANSPORTE DEL CLIENTE        ,Escalante,16:21,1899-12-30,,                    ,16:21 Arribado
-40193,10/12,Pallets Nef De Raul E. Fernand...,HLBU-207717-7,10080,HC,TD,***********         ,31241894,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,13:25,1899-12-30,,                    ,13:25 Arribado
-40192,10/12,Pallets Nef De Raul E. Fernand...,FCIU-735046-4,10080,HC,TD,*************       ,31241894,1,TRANSPORTE DEL CLIENTE        ,Garcia,13:24,1899-12-30,,                    ,13:24 Arribado
-40183,10/12,Manufactura Los Andes S.A.,HLBU-228966-4,Exolgan,DR,TD,***********         ,13588186,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,20:38,1899-12-30,Fact 19-02,                    ,20:38 Arribado
-40189,10/12,Chaguar Sociedad Anonima,MSBU-258929-5,9,DR,TD,FX32956953          ,EBKG15100672,1,TRANSPORTE DEL CLIENTE        ,Rios Ivan,17:09,1899-12-30,,                    ,17:09 Arribado
-40181,10/12,Manufactura Los Andes S.A.,HLXU-125230-7,Exolgan,DR,TD,*****************   ,13588186,1,TRANSPORTE DEL CLIENTE        ,Bollota,17:16,1899-12-30,Fact 19-02,                    ,17:16 Arribado
-40172,10/12,Anan S.A.,BMOU-277876-5,10080,DR,TD,************        ,24324113,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,14:08,1899-12-30,,                    ,14:08 Arribado
-40174,10/12,Pelama Chubut S.A.,HLBU-105473-1,10080,DR,TD,***********         ,15109793,1,TRANSPORTE DEL CLIENTE        ,Garcia,16:19,1899-12-30,,                    ,16:19 Arribado
-40182,10/12,Manufactura Los Andes S.A.,HLBU-146035-0,Exolgan,DR,TD,******************  ,13588186,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,20:35,1899-12-30,Fact 19-02,                    ,20:35 Arribado
-40173,10/12,Pelama Chubut S.A.,FBIU-046454-5,10080,DR,TD,************        ,30526774,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,14:05,1899-12-30,,                    ,14:05 Arribado
-40178,10/12,Manufactura Los Andes S.A.,UACU-414186-9,Exolgan,DR,TD,******************  ,13588186,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,16:01,1899-12-30,Fact 19-02,                    ,16:01 Arribado
-40177,10/12,Manufactura Los Andes S.A.,TCLU-284116-5,Exolgan,DR,TD,************        ,13588186,1,TRANSPORTE DEL CLIENTE        ,Ivan Czech,14:37,1899-12-30,Fact 19-02,                    ,14:37 Arribado
-40180,10/12,Manufactura Los Andes S.A.,HLBU-346230-5,Exolgan,DR,TD,***************     ,13588186,1,TRANSPORTE DEL CLIENTE        ,Bollota,17:11,1899-12-30,Fact 19-02,                    ,17:11 Arribado
-40176,10/12,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,LA0461221,0,                              ,,     ,1899-12-30,Carla Uchoa,                    ,Pendiente
-40175,10/12,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,LA0461221,0,                              ,,     ,1899-12-30,Carla Uchoa,                    ,Pendiente
-40171,10/12,Lift Van Int. Co S.A,HAMU-106830-8,10074,DR,TD,***********         ,33567211,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,15:58,1899-12-30,Maria Naranjo Quintero,                    ,15:58 Arribado
-40179,10/12,Manufactura Los Andes S.A.,TGBU-225020-0,Exolgan,DR,TD,**************      ,13588186,1,TRANSPORTE DEL CLIENTE        ,Porco Marcelo,16:02,1899-12-30,Fact 19-02,                    ,16:02 Arribado
-40226,11/12,Mercovan Argentina S.A.,-,Exolgan,DR,TD,                    ,94365908,0,                              ,,     ,1899-12-30,Miranda Da Silva,                    ,Pendiente
-40220,11/12,Mercopallet Srl,-,Exolgan,HC,TD,                    ,262836599,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40219,11/12,Pallets Jauregui Sociedad Anon...,-,Exolgan,HC,TD,                    ,EBKG14939491,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40229,11/12,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500225000,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40225,11/12,Mercovan Argentina S.A.,-,Exolgan,DR,TD,                    ,28321509,0,                              ,,     ,1899-12-30,Sanchez Perez,                    ,Pendiente
 40228,11/12,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500225000,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40227,11/12,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500225000,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40221,11/12,Mercopallet Srl,-,Exolgan,HC,TD,                    ,262836599,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40222,11/12,Mercopallet Srl,-,Exolgan,HC,TD,                    ,262836599,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40214,11/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15125858,0,                              ,,     ,1899-12-30,Fac 12865,                    ,Pendiente
+40230,11/12,Borax Argentina S A,-,10074,DR,TD,                    ,94358756,0,                              ,,     ,1899-12-30,Fac 12864,                    ,Pendiente
 40215,11/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15125858,0,                              ,,     ,1899-12-30,Fac 12865,                    ,Pendiente
+40214,11/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15125858,0,                              ,,     ,1899-12-30,Fac 12865,                    ,Pendiente
 40213,11/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15125858,0,                              ,,     ,1899-12-30,Fac 12865,                    ,Pendiente
 40212,11/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15125858,0,                              ,,     ,1899-12-30,Fac 12865,                    ,Pendiente
 40211,11/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15125858,0,                              ,,     ,1899-12-30,Fac 12865,                    ,Pendiente
 40210,11/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15125858,0,                              ,,     ,1899-12-30,Fac 12865,                    ,Pendiente
 40209,11/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15125858,0,                              ,,     ,1899-12-30,Fac 12865,                    ,Pendiente
+40229,11/12,Lawter Argentina S.A.,-,10,HC,TD,                    ,BUE500225000,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40208,11/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15125858,0,                              ,,     ,1899-12-30,Fac 12865,                    ,Pendiente
-40207,11/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15125858,0,                              ,,     ,1899-12-30,Fac 12865,                    ,Pendiente
 40206,11/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15125858,0,                              ,,     ,1899-12-30,Fac 12865,                    ,Pendiente
 40218,11/12,Maringa Maderas Sa,-,10080,HC,TD,                    ,21818643,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40217,11/12,Valerio Oliva Forestal Sa,-,10074,HC,TD,                    ,ZIMUBUE9045458,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40216,11/12,Valerio Oliva Forestal Sa,-,10074,HC,TD,                    ,ZIMUBUE9045458,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40224,11/12,Tipoiti Satic,-,Exolgan,HC,TD,                    ,262392574,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40223,11/12,Tipoiti Satic,-,Exolgan,HC,TD,                    ,262392574,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40230,11/12,Borax Argentina S A,-,10074,DR,TD,                    ,94358756,0,                              ,,     ,1899-12-30,Fac 12864,                    ,Pendiente
-40225,11/12,Mercovan Argentina S.A.,-,Exolgan,DR,TD,                    ,28321509,0,                              ,,     ,1899-12-30,Sanchez Perez,                    ,Pendiente
+40222,11/12,Mercopallet Srl,-,Exolgan,HC,TD,                    ,262836599,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40221,11/12,Mercopallet Srl,-,Exolgan,HC,TD,                    ,262836599,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40220,11/12,Mercopallet Srl,-,Exolgan,HC,TD,                    ,262836599,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40226,11/12,Mercovan Argentina S.A.,-,Exolgan,DR,TD,                    ,94365908,0,                              ,,     ,1899-12-30,Miranda Da Silva,                    ,Pendiente
+40207,11/12,Borax Argentina S A,-,Exolgan,DR,TD,                    ,EBKG15125858,0,                              ,,     ,1899-12-30,Fac 12865,                    ,Pendiente
+40219,11/12,Pallets Jauregui Sociedad Anon...,-,Exolgan,HC,TD,                    ,EBKG14939491,0,                              ,,     ,1899-12-30,,                    ,Pendiente
