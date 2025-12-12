@@ -28,7 +28,7 @@ cursor = conn.cursor()
 #gc = gspread.service_account(filename='//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/credenciales_gsheets.json')
 
 cursor.execute("""
-    SELECT cliente AS Cliente, cantidad AS Cantidad, kilos AS Peso, volumen AS Volumen, conocim AS Booking,
+    SELECT cliente AS Cliente, cantidad AS Cantidad, kilos AS Peso, volumen AS Volumen, conocim AS Booking, contenedor AS Contenedor,
             orden_ing, suborden, renglon, tipo_oper AS Tipo, env.detalle AS Envase, fecha_ing AS Ingreso
     FROM [DEPOFIS].[DASSA].[Existente en Stock] e
     JOIN DEPOFIS.DASSA.[Tip_env] env ON e.tipo_env = env.codigo
@@ -66,7 +66,7 @@ for col in cols:
 
 existente.rename(columns={'ubicacion': 'Ubicacion', 'ubicacion_familia': 'Ubicacion Familia'}, inplace=True)
 
-existente = existente[['Ubicacion Familia', 'Ubicacion', 'Cliente', 'Booking', 'Tipo', 'Envase', 'Peso', 'Volumen',  'Cantidad', 'Ingreso',
+existente = existente[['Ubicacion Familia', 'Ubicacion', 'Cliente', 'Booking', 'Contenedor', 'Tipo', 'Envase', 'Peso', 'Volumen',  'Cantidad', 'Ingreso',
        'Operacion',  'Dias']]
 
 existente['Estiba OK'] = ""
@@ -77,6 +77,8 @@ existente.sort_values(by=['Ubicacion Familia', 'Ubicacion'], inplace=True)
 
 existente_plz = existente[existente['Ubicacion Familia'].isin(['Plazoleta', 'Temporal'])].copy()
 existente_alm = existente[~existente['Ubicacion Familia'].isin(['Plazoleta', 'Temporal'])].copy()
+
+existente_alm.drop(columns=['Contenedor'], inplace=True)
 
 #sheet = gc.create('Control_Stock_DASSA_{mes}_{year}'.format(mes=datetime.now().strftime('%m'), year=datetime.now().year))
 #sheet.share('marajadesantelmo@gmail.com', perm_type='user', role='writer')
@@ -248,4 +250,4 @@ recipients = [
 ]
 
 for email in recipients:
-    send_email(email)
+    #send_email(email)
