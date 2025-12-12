@@ -28,7 +28,7 @@ cursor = conn.cursor()
 #gc = gspread.service_account(filename='//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/credenciales_gsheets.json')
 
 cursor.execute("""
-    SELECT cliente AS Cliente, cantidad AS Cantidad, kilos AS Peso, volumen AS Volumen, 
+    SELECT cliente AS Cliente, cantidad AS Cantidad, kilos AS Peso, volumen AS Volumen, conocim AS Booking,
             orden_ing, suborden, renglon, tipo_oper AS Tipo, env.detalle AS Envase, fecha_ing AS Ingreso
     FROM [DEPOFIS].[DASSA].[Existente en Stock] e
     JOIN DEPOFIS.DASSA.[Tip_env] env ON e.tipo_env = env.codigo
@@ -66,7 +66,7 @@ for col in cols:
 
 existente.rename(columns={'ubicacion': 'Ubicacion', 'ubicacion_familia': 'Ubicacion Familia'}, inplace=True)
 
-existente = existente[['Ubicacion Familia', 'Ubicacion', 'Cliente', 'Tipo', 'Envase', 'Peso', 'Volumen',  'Cantidad', 'Ingreso',
+existente = existente[['Ubicacion Familia', 'Ubicacion', 'Cliente', 'Booking', 'Tipo', 'Envase', 'Peso', 'Volumen',  'Cantidad', 'Ingreso',
        'Operacion',  'Dias']]
 
 existente['Estiba OK'] = ""
