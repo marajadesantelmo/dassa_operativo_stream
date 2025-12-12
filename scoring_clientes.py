@@ -13,10 +13,7 @@ SELECT
     f.tipo, 
     f.fecha_emi, 
     f.concepto, 
-    f.[Neto Gravado], 
-    f.[Neto No Gravado], 
-    f.[Importe Total], 
-    f.[Unitario Final]
+    f.[Unitario Final],
     f.[Razon Social],
     c.detalle AS Concepto_Detalle
 FROM DEPOFIS.DASSA.Facturacion f
@@ -29,5 +26,19 @@ columns = [column[0] for column in cursor.description]
 facturacion = pd.DataFrame.from_records(rows, columns=columns)
 facturacion['Concepto_Detalle'] = facturacion['Concepto_Detalle'].str.strip().str.title()
 facturacion['Razon Social'] = facturacion['Razon Social'].str.strip().str.title()
-facturacion['Importe Total'] = facturacion['Importe Total'].fillna(0).astype(float).round(0)
-facturacion.to_excel('ver_facturacion_conceptos_ppales.xlsx')
+facturacion['Unitario Final'] = facturacion['Unitario Final'].fillna(0).round(0).astype(int)
+
+
+
+cursor.execute(f"""
+SELECT codigo AS Codigo, detalle AS Concepto
+FROM DEPOFIS.DASSA.Concepfc
+WHERE codigo IN (10001, 10002, 10003, 10111, 10112, 10113, 10114, 10115, 10116, 20001, 20002, 20003, 20004, 20005, 20006)""")
+rows = cursor.fetchall()
+columns = [column[0] for column in cursor.description]
+concepfc = pd.DataFrame.from_records(rows, columns=columns)
+concepfc['Concepto'] = concepfc['Concepto'].str.strip().str.title()
+
+with pd.ExcelWriter('ver_facturacion_conceptos_ppales.xlsx') as writer:
+    facturacion.to_excel(writer, sheet_name='Facturacion', index=False)
+    concepfc.to_excel(writer, sheet_name='Conceptos', index=False)
