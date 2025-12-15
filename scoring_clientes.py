@@ -61,7 +61,16 @@ saldos_grouped = saldos_grouped[saldos_grouped['fecha_haber'].str.contains('2025
 
 promedio_dias_pago = saldos_grouped.groupby('adicional')['dias_pago'].mean().reset_index()
 promedio_dias_pago.columns = ['adicional', 'promedio_dias_pago']
-promedio_dias_pago = promedio_dias_pago.sort_values('promedio_dias_pago', ascending=False)
+promedio_dias_pago = promedio_dias_pago.sort_values('promedio_dias_pago', ascending=False).reset_index()
+promedio_dias_pago.head(30)
+
+
+saldos_grouped[saldos_grouped['adicional'].str.contains('LIFT')]
+
+saldos[saldos['aplicacion'] == '0003-00028321']
+saldos[saldos['aplicacion'] == '0003-00024973']
+
+
 
 with pd.ExcelWriter('ver_facturacion_conceptos_ppales.xlsx') as writer:
     facturacion.to_excel(writer, sheet_name='Facturacion', index=False)
