@@ -44,28 +44,24 @@ concepfc['Concepto'] = concepfc['Concepto'].str.strip().str.title()
 cursor.execute("""
 SELECT fecha, fecha_alta, fecha_vto, tp_cpte, aplicacion, adicional, debe, haber
 FROM DEPOFIS.DASSA.CtaCcteD
-WHERE cliente IN (2, 10);
 """)  
 rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 saldos= pd.DataFrame.from_records(rows, columns=columns)
-saldos.tail(20)
 
-# Calculate days between fecha_vto of debe movement and fecha of haber movement for each aplicacion
-saldos_grouped = saldos.groupby('aplicacion').apply(
+saldos_grouped = saldos.groupby(['adicional', 'aplicacion']).apply(
     lambda group: pd.Series({
         'fecha_vto_debe': group[group['debe'] > 0]['fecha_vto'].min() if (group['debe'] > 0).any() else None,
         'fecha_haber': group[group['haber'] > 0]['fecha'].min() if (group['haber'] > 0).any() else None
-    })
-).reset_index()
+    }), include_groups=False).reset_index()
 
-saldos_grouped['dias_pago'] = (
-    pd.to_datetime(saldos_grouped['fecha_haber']) - pd.to_datetime(saldos_grouped['fecha_vto_debe'])
-).dt.days
-
+saldos_grouped['dias_pago'] = (pd.to_datetime(saldos_grouped['fecha_haber']) - pd.to_datetime(saldos_grouped['fecha_vto_debe'])).dt.days
 saldos_grouped = saldos_grouped.dropna(subset=['dias_pago'])
+saldos_grouped = saldos_grouped[saldos_grouped['fecha_haber'].str.contains('2025-|2026-|2027-')]
 
-
+promedio_dias_pago = saldos_grouped.groupby('adicional')['dias_pago'].mean().reset_index()
+promedio_dias_pago.columns = ['adicional', 'promedio_dias_pago']
+promedio_dias_pago = promedio_dias_pago.sort_values('promedio_dias_pago', ascending=False)
 
 with pd.ExcelWriter('ver_facturacion_conceptos_ppales.xlsx') as writer:
     facturacion.to_excel(writer, sheet_name='Facturacion', index=False)
