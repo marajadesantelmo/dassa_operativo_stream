@@ -677,21 +677,33 @@ id,Fecha,Booking,Cliente,Origen,fecha_registro,key,chofer,Estado,Observaciones,C
 647.0,11/12,21818643,Maringa Maderas Sa,Huxley Sa,2025-12-10T22:50:41.88461,,,Arribado,,BSIU-965189-1,,28600,,
 686.0,12/12,EBKG14899796,Pallets Jauregui Sociedad Anon...,Exolgan,2025-12-11T23:35:42.522531,,,Arribado,,TGBU-564190-7,,28600,,
 691.0,12/12,ZIMUBUE9045954,Norfor Sa,Hiperbaires - Icb T.Sur,2025-12-11T23:35:43.014827,,,,,,,,,
-696.0,15/12,262626588,Manufactura Los Andes S.A.,Defibe,2025-12-12T18:20:42.318668,,,,,,,,,
-697.0,15/12,262626588,Manufactura Los Andes S.A.,Defibe,2025-12-12T18:20:42.440822,,,,,,,,,
-698.0,15/12,262626588,Manufactura Los Andes S.A.,Defibe,2025-12-12T18:20:42.550113,,,,,,,,,
-699.0,15/12,262951690,Borax Argentina S A,Huxley Sa,2025-12-12T18:20:42.65456,,,,,,,,,
-700.0,15/12,262951690,Borax Argentina S A,Huxley Sa,2025-12-12T18:20:42.761732,,,,,,,,,
-701.0,15/12,262951690,Borax Argentina S A,Huxley Sa,2025-12-12T18:20:42.864229,,,,,,,,,
-702.0,15/12,340500052441,Maringa Maderas Sa,Trp - Terminales 1-2-3,2025-12-12T18:20:42.971069,,,,,,,,,
-703.0,15/12,340500052441,Maringa Maderas Sa,Trp - Terminales 1-2-3,2025-12-12T18:20:43.071845,,,,,,,,,
-704.0,15/12,340500052441,Maringa Maderas Sa,Trp - Terminales 1-2-3,2025-12-12T18:20:43.192327,,,,,,,,,
-692.0,15/12,261603328,Forestal San Francisco S.R.L.,Defibe,2025-12-12T18:20:41.869297,,,Arribado,,,,,,
-693.0,15/12,261603328,Forestal San Francisco S.R.L.,Defibe,2025-12-12T18:20:41.986064,,,Arribado,,,,,,
-694.0,15/12,261603328,Forestal San Francisco S.R.L.,Defibe,2025-12-12T18:20:42.094283,,,Arribado,,,,,,
-695.0,15/12,261603328,Forestal San Francisco S.R.L.,Defibe,2025-12-12T18:20:42.207926,,,Arribado,,,,,,
-705.0,15/12,65328412,Litoral Citrus S A,Hiperbaires - Icb T.Sur,2025-12-12T18:20:43.307898,,,Arribado,,,,,,
+700.0,15/12,262951690,Borax Argentina S A,Huxley Sa,2025-12-12T18:20:42.761732,,,11:00 Arribado,,CAIU-251538-9,**********,fac 12862,,
+701.0,15/12,262951690,Borax Argentina S A,Huxley Sa,2025-12-12T18:20:42.864229,,,11:00 Arribado,,CAIU-251538-9,**********,fac 12862,,
+706.0,15/12,BUA0356461,Henn Y Cia S.R.L.,Terminal 7,2025-12-15T17:05:44.044359,,,15:55 Arribado,,CMAU-453489-0,K1265089,,,
+707.0,15/12,BUA0356461,Henn Y Cia S.R.L.,Terminal 7,2025-12-15T17:05:44.139244,,,15:59 Arribado,,TLLU-500288-8,K1265210,,,
+708.0,15/12,BUA0356461,Henn Y Cia S.R.L.,Terminal 7,2025-12-15T17:05:44.223795,,,15:55 Arribado,,CMAU-453489-0,K1265089,,,
+709.0,15/12,BUA0356461,Henn Y Cia S.R.L.,Terminal 7,2025-12-15T17:05:44.327463,,,15:59 Arribado,,TLLU-500288-8,K1265210,,,
+710.0,15/12,BUA0356461,Henn Y Cia S.R.L.,Terminal 7,2025-12-15T17:05:44.412088,,,16:28 Arribado,,APHU-737626-0,K1265081,,,
+702.0,15/12,340500052441,Maringa Maderas Sa,Trp - Terminales 1-2-3,2025-12-12T18:20:42.971069,,,17:25 Arribado,,EITU-930641-7,**************,,,
+703.0,15/12,340500052441,Maringa Maderas Sa,Trp - Terminales 1-2-3,2025-12-12T18:20:43.071845,,,17:35 Arribado,,EISU-859091-6,************,,,
+704.0,15/12,340500052441,Maringa Maderas Sa,Trp - Terminales 1-2-3,2025-12-12T18:20:43.192327,,,17:25 Arribado,,EITU-930641-7,**************,,,
 578.0,02/12,BUEF13811700,Pallets Nef De Raul E. Fernand...,Hiperbaires - Icb T.Sur,2025-12-02T03:06:07.717864,,,Arribado,,TRHU-700769-1,***************,,,
 574.0,02/12,20323444,Capilatis S.A.,Huxley Sa,2025-12-02T03:06:07.305023,,,Arribado,,FANU-161397-6,HLD0437271,,,
 577.0,02/12,BUEF13811700,Pallets Nef De Raul E. Fernand...,Hiperbaires - Icb T.Sur,2025-12-02T03:06:07.614341,,,Arribado,,ONEU-136606-9,****************,,,
-,15/12,BUA0356461,Henn Y Cia S.R.L.,Terminal 7,,,,,,,,,,5.0
+696.0,15/12,262626588,Manufactura Los Andes S.A.,Defibe,2025-12-12T18:20:42.318668,,,12:36 Arribado,,MRKU-548063-1,************,,,
+697.0,15/12,262626588,Manufactura Los Andes S.A.,Defibe,2025-12-12T18:20:42.440822,,,12:23 Arribado,,MRSU-402301-6,***********,,,
+699.0,15/12,262951690,Borax Argentina S A,Huxley Sa,2025-12-12T18:20:42.65456,,,11:00 Arribado,,CAIU-251538-9,**********,fac 12862,,
+692.0,15/12,261603328,Forestal San Francisco S.R.L.,Defibe,2025-12-12T18:20:41.869297,,,11:14 Arribado,,MRSU-315375-6,***********,,,
+693.0,15/12,261603328,Forestal San Francisco S.R.L.,Defibe,2025-12-12T18:20:41.986064,,,11:07 Arribado,,MRSU-721628-2,**********,,,
+694.0,15/12,261603328,Forestal San Francisco S.R.L.,Defibe,2025-12-12T18:20:42.094283,,,11:04 Arribado,,MRSU-857514-2,**********,,,
+695.0,15/12,261603328,Forestal San Francisco S.R.L.,Defibe,2025-12-12T18:20:42.207926,,,11:17 Arribado,,SUDU-673654-9,**********,,,
+705.0,15/12,65328412,Litoral Citrus S A,Hiperbaires - Icb T.Sur,2025-12-12T18:20:43.307898,,,11:20 Arribado,,HLBU-373228-9,************,imo,,
+698.0,15/12,262626588,Manufactura Los Andes S.A.,Defibe,2025-12-12T18:20:42.550113,,,12:36 Arribado,,MRKU-548063-1,************,,,
+,16/12,23291701,Elementa Foods S.A.,Huxley Sa,,,,,,,,,,2.0
+,16/12,262790573,Funcke Maritime Sa,Gamma Mujica,,,,,,,,,,1.0
+,16/12,263052543,Manufactura Los Andes S.A.,Huxley Sa,,,,,,,,,,1.0
+,16/12,BUA0355666,Carpal Sa,Terminal 7,,,,,,,,,,2.0
+,16/12,BUA0356868,Lawter Argentina S.A.,Terminal 7,,,,,,,,,,9.0
+,16/12,ZIMUBUE9045625,Premecol Srl,Terminal 7,,,,,,,,,,2.0
+,16/12,ZIMUBUE9046022,Lawter Argentina S.A.,Huxley Sa,,,,,,,,,,4.0
+,16/12,ZIMUBUE9046132,Refractarios Argentinos Saicm,Hiperbaires - Icb T.Sur,,,,,,,,,,1.0

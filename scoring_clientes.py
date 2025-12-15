@@ -42,36 +42,32 @@ concepfc['Concepto'] = concepfc['Concepto'].str.strip().str.title()
 
 ### Descargo Saldos
 cursor.execute("""
-SELECT fecha, fecha_alta, fecha_vto, tp_cpte, aplicacion, adicional, debe, haber
+SELECT fecha_vto AS Vto, tp_cpte AS Tipo, aplicacion AS Nro, adicional AS Cliente, debe AS Debe, haber AS Haber
 FROM DEPOFIS.DASSA.CtaCcteD
+WHERE fecha_vto >= '2025-01-01'
 """)  
 rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 saldos= pd.DataFrame.from_records(rows, columns=columns)
 
-saldos_grouped = saldos.groupby(['adicional', 'aplicacion']).apply(
-    lambda group: pd.Series({
-        'fecha_vto_debe': group[group['debe'] > 0]['fecha_vto'].min() if (group['debe'] > 0).any() else None,
-        'fecha_haber': group[group['haber'] > 0]['fecha'].min() if (group['haber'] > 0).any() else None
-    }), include_groups=False).reset_index()
+saldos_debe = saldos[saldos['Tipo'] == 'FCA']
+saldos_debe_fechas = saldos_debe[['Cliente', 'Nro', 'Vto']].drop_duplicates()
+saldos_haber_fechas = saldos[saldos['Tipo'] == 'RCM'][['Nro', 'Vto']].drop_duplicates()
+saldos_haber_fechas = saldos_haber_fechas.rename(columns={'Vto': 'Pago'})
+saldos_fechas = saldos_debe_fechas.merge(saldos_haber_fechas, on='Nro', how='inner')
 
-saldos_grouped['dias_pago'] = (pd.to_datetime(saldos_grouped['fecha_haber']) - pd.to_datetime(saldos_grouped['fecha_vto_debe'])).dt.days
-saldos_grouped = saldos_grouped.dropna(subset=['dias_pago'])
-saldos_grouped = saldos_grouped[saldos_grouped['fecha_haber'].str.contains('2025-|2026-|2027-')]
+saldos_fechas['Vto'] = pd.to_datetime(saldos_fechas['Vto'])
+saldos_fechas['Pago'] = pd.to_datetime(saldos_fechas['Pago'])
+saldos_fechas['Dias_a_pago'] = (saldos_fechas['Pago'] - saldos_fechas['Vto']).dt.days
+pagadores = saldos_fechas.groupby('Cliente').agg(Promedio_dias_a_pago=('Dias_a_pago', 'mean'),
+                                              Min_dias_a_pago=('Dias_a_pago', 'min'),
+                                                Max_dias_a_pago=('Dias_a_pago', 'max'),
+                                                Cantidad_pagos=('Dias_a_pago', 'count')).reset_index()
 
-promedio_dias_pago = saldos_grouped.groupby('adicional')['dias_pago'].mean().reset_index()
-promedio_dias_pago.columns = ['adicional', 'promedio_dias_pago']
-promedio_dias_pago = promedio_dias_pago.sort_values('promedio_dias_pago', ascending=False).reset_index()
-promedio_dias_pago.head(30)
-
-
-saldos_grouped[saldos_grouped['adicional'].str.contains('LIFT')]
-
-saldos[saldos['aplicacion'] == '0003-00028321']
-saldos[saldos['aplicacion'] == '0003-00024973']
-
+pagadores = pagadores.sort_values(by='Promedio_dias_a_pago', ascending=False).reset_index(drop=True)
 
 
 with pd.ExcelWriter('ver_facturacion_conceptos_ppales.xlsx') as writer:
     facturacion.to_excel(writer, sheet_name='Facturacion', index=False)
     concepfc.to_excel(writer, sheet_name='Conceptos', index=False)
+    saldos.tail(1000).to_excel(writer, sheet_name='Saldos', index=False)
