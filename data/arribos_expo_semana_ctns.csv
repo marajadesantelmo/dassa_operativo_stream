@@ -131,8 +131,9 @@ Fecha,Booking,Cliente,Cantidad,Contenedor,Precinto,Origen,Obs.,Estado
 11/12,21818643,Maringa Maderas Sa,1,BSIU-965189-1,,Huxley Sa,28600,18:14 Arribado
 11/12,262392574,Tipoiti Satic,1,MRSU-514449-0,,Exolgan,28600,18:57 Arribado
 11/12,262392574,Tipoiti Satic,1,TCNU-248731-5,,Exolgan,28600,18:57 Arribado
-11/12,262836599,Mercopallet Srl,2,-,,Exolgan,28600,Pendiente
+11/12,262836599,Mercopallet Srl,1,-,,Exolgan,28600,Pendiente
 11/12,262836599,Mercopallet Srl,1,MRSU-409864-8,************,Exolgan,28600,10:48 Arribado
+11/12,262836599,Mercopallet Srl,1,TCKU-887745-5,,Exolgan,28600,Pendiente
 11/12,28321509,Mercovan Argentina S.A.,1,CAIU-675459-2,,Exolgan,SANCHEZ PEREZ,09:19 Arribado
 11/12,29307951,Termoplasticos Del Sur Sa,1,CAIU-654259-3,,Exolgan,,11:15 Arribado
 11/12,29307951,Termoplasticos Del Sur Sa,1,HLBU-261636-6,,Exolgan,,11:15 Arribado
@@ -175,13 +176,15 @@ Fecha,Booking,Cliente,Cantidad,Contenedor,Precinto,Origen,Obs.,Estado
 12/12,EBKG15066032,Mader Zu S.R.L.,1,MSMU-694908-0,FX-32962653,Medlog Sarandi,28600,18:50 Arribado
 12/12,EBKG15066032,Mader Zu S.R.L.,1,MSNU-569510-6,FX-32956789,Medlog Sarandi,28600,18:51 Arribado
 12/12,ZIMUBUE9045954,Norfor Sa,1,-,,Hiperbaires - Icb T.Sur,28600,Pendiente
-15/12,261603328,Forestal San Francisco S.R.L.,3,-,,Defibe,,Pendiente
+15/12,261603328,Forestal San Francisco S.R.L.,1,MRSU-315375-6,***********,Defibe,,11:14 Arribado
+15/12,261603328,Forestal San Francisco S.R.L.,1,MRSU-721628-2,**********,Defibe,,11:07 Arribado
 15/12,261603328,Forestal San Francisco S.R.L.,1,MRSU-857514-2,**********,Defibe,,11:04 Arribado
+15/12,261603328,Forestal San Francisco S.R.L.,1,SUDU-673654-9,**********,Defibe,,11:17 Arribado
 15/12,262626588,Manufactura Los Andes S.A.,3,-,,Defibe,,Pendiente
 15/12,262951690,Borax Argentina S A,2,-,,Huxley Sa,fac 12862,Pendiente
 15/12,262951690,Borax Argentina S A,1,CAIU-251538-9,**********,Huxley Sa,fac 12862,11:00 Arribado
 15/12,340500052441,Maringa Maderas Sa,3,-,,Trp - Terminales 1-2-3,,Pendiente
-15/12,65328412,Litoral Citrus S A,1,-,,Hiperbaires - Icb T.Sur,imo,Pendiente
+15/12,65328412,Litoral Citrus S A,1,HLBU-373228-9,************,Hiperbaires - Icb T.Sur,imo,Pendiente
 25/11,262101951,Forestal Guarani Sa,1,MRKU-239327-7,***********,Huxley Sa,,15:04 Arribado
 25/11,262101951,Forestal Guarani Sa,1,MSKU-070966-6,**************,Huxley Sa,,15:18 Arribado
 25/11,28856508,Mafralac Alimenticia Srl,1,CAAU-637078-4,**************,Huxley Sa,,12:18 Arribado
