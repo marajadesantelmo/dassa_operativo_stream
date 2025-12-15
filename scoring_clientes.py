@@ -1,3 +1,6 @@
+""" Script para generación de scoring de clientes basado en facturación de conceptos principales, saldos, etc."""
+
+
 from tokens import username, password
 import pyodbc
 from datetime import datetime, timedelta
@@ -28,8 +31,6 @@ facturacion['Concepto_Detalle'] = facturacion['Concepto_Detalle'].str.strip().st
 facturacion['Razon Social'] = facturacion['Razon Social'].str.strip().str.title()
 facturacion['Unitario Final'] = facturacion['Unitario Final'].fillna(0).round(0).astype(int)
 
-
-
 cursor.execute(f"""
 SELECT codigo AS Codigo, detalle AS Concepto
 FROM DEPOFIS.DASSA.Concepfc
@@ -38,6 +39,33 @@ rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 concepfc = pd.DataFrame.from_records(rows, columns=columns)
 concepfc['Concepto'] = concepfc['Concepto'].str.strip().str.title()
+
+### Descargo Saldos
+cursor.execute("""
+SELECT fecha, fecha_alta, fecha_vto, tp_cpte, aplicacion, adicional, debe, haber
+FROM DEPOFIS.DASSA.CtaCcteD
+WHERE cliente IN (2, 10);
+""")  
+rows = cursor.fetchall()
+columns = [column[0] for column in cursor.description]
+saldos= pd.DataFrame.from_records(rows, columns=columns)
+saldos.tail(20)
+
+# Calculate days between fecha_vto of debe movement and fecha of haber movement for each aplicacion
+saldos_grouped = saldos.groupby('aplicacion').apply(
+    lambda group: pd.Series({
+        'fecha_vto_debe': group[group['debe'] > 0]['fecha_vto'].min() if (group['debe'] > 0).any() else None,
+        'fecha_haber': group[group['haber'] > 0]['fecha'].min() if (group['haber'] > 0).any() else None
+    })
+).reset_index()
+
+saldos_grouped['dias_pago'] = (
+    pd.to_datetime(saldos_grouped['fecha_haber']) - pd.to_datetime(saldos_grouped['fecha_vto_debe'])
+).dt.days
+
+saldos_grouped = saldos_grouped.dropna(subset=['dias_pago'])
+
+
 
 with pd.ExcelWriter('ver_facturacion_conceptos_ppales.xlsx') as writer:
     facturacion.to_excel(writer, sheet_name='Facturacion', index=False)
