@@ -8,6 +8,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-09-01,11:00,Exolgan,CAAU-236338-6,Mercovan Argentina S...,HLCULE1250708561,TD,2025-09-01,2416,http://dassaweb.mqbic.com/PublicTally.php?id=2416
 2025-11-26,11:00,Terminal 4,ZIMU-126320-6,Mercovan Argentina S...,ZIMUCRT911572,TD,2025-11-26,3308,http://dassaweb.mqbic.com/PublicTally.php?id=3308
 2025-12-02,11:00,Terminal 4,CMAU-767695-9,Mercovan Argentina S...,ISB1833397,TD,2025-12-02,3374,http://dassaweb.mqbic.com/PublicTally.php?id=3374
+2025-12-16,15:00,Exolgan,HLBU-272987-1,Mercovan Argentina S...,HLCUME3251043731,TD,,,
 2025-11-11,15:00,Exolgan,HLXU-841558-2,Mercovan Argentina S...,HLCULBC1250951969,TD,2025-11-11,3156,http://dassaweb.mqbic.com/PublicTally.php?id=3156
 2025-11-11,15:00,Exolgan,FANU-178959-0,Mercovan Argentina S...,HLCUANR250825997,TD,2025-11-11,3158,http://dassaweb.mqbic.com/PublicTally.php?id=3158
 2025-11-18,13:00,Exolgan,UACU-857310-9,Mercovan Argentina S...,HLCUME3250948097,TD,2025-11-18,3215,http://dassaweb.mqbic.com/PublicTally.php?id=3215
@@ -583,6 +584,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-10-03,17:00,Exolgan,MSDU-416608-9,Sk Distributors S.R....,DLNB2508611,T,2025-10-03,,
 2025-11-21,07:00,Exolgan,DFSU-434168-9,Sk Distributors S.R....,DLNB2509642,T,2025-11-21,,
 2025-11-21,07:00,Terminal 4,MRKU-042415-2,Sk Distributors S.R....,DLSZ25100145,T,2025-11-21,,
+2025-12-16,15:00,Exolgan,HLXU-533909-3,Sk Distributors S.R....,DLNB2510461,T,,,
 2025-10-15,05:00,TRP,SUDU-530915-7,Sk Distributors S.R....,DLNB2508183,T,2025-10-15,,
 2025-10-23,11:00,Exolgan,UACU-852499-5,Sk Distributors S.R....,DLSZ25080414,T,2025-10-23,,
 2025-10-23,05:00,Exolgan,HLBU-133334-0,Sk Distributors S.R....,DLSZ25080430,T,2025-10-23,,
@@ -860,9 +862,11 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-09-10,11:00,TRP,TGBU-434959-4,Aceptyourdestiny Sa ...,HDE25-0800012,T,2025-09-10,,
 2025-10-03,15:00,TRP,EGSU-984530-3,Aceptyourdestiny Sa ...,HDE25-0800119,TD,2025-10-03,,
 2025-10-03,20:00,TRP,CAAU-519771-4,Aceptyourdestiny Sa ...,HDE25-0800036,TD,2025-10-03,2762,http://dassaweb.mqbic.com/PublicTally.php?id=2762
+2025-12-16,10:00,TRP,TIIU-465388-3,Aceptyourdestiny Sa ...,HDE25-1000107,T,,,
 2025-10-23,15:00,TRP,EGHU-833111-6,Aceptyourdestiny Sa ...,HDE25-0800013,T,2025-10-23,2943,http://dassaweb.mqbic.com/PublicTally.php?id=2943
 2025-10-24,15:00,TRP,EISU-183943-7,Aceptyourdestiny Sa ...,HDE25-0900031,TD,2025-10-24,2957,http://dassaweb.mqbic.com/PublicTally.php?id=2957
 2025-11-14,05:00,TRP,FYCU-717458-3,Aceptyourdestiny Sa ...,HDE25-1000011,T,2025-11-14,,
+2025-12-16,11:00,TRP,PCIU-909680-5,Aceptyourdestiny Sa ...,WLC51004049,T,,,
 2025-09-10,10:00,TRP,OOCU-710858-0,All Trade S.A.      ...,TCQD2506268,T,2025-09-10,,
 2025-09-10,05:00,Exolgan,FCIU-890261-3,All Trade S.A.      ...,PUS-HSE-2506-0042,TD,2025-09-10,2516,http://dassaweb.mqbic.com/PublicTally.php?id=2516
 2025-09-10,05:00,Exolgan,FCIU-890261-3,All Trade S.A.      ...,PUS-HSE-2506-0042,TD,2025-09-10,2516,http://dassaweb.mqbic.com/PublicTally.php?id=2516
@@ -884,7 +888,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-10-09,04:00,TRP,CAIU-828794-3,Noah Servicess.R.L. ...,IBC1386703,TD,2025-10-09,2779,http://dassaweb.mqbic.com/PublicTally.php?id=2779
 2025-10-09,04:00,TRP,CAIU-828794-3,Noah Servicess.R.L. ...,IBC1386703,TD,2025-10-09,2779,http://dassaweb.mqbic.com/PublicTally.php?id=2779
 2025-10-17,05:00,Exolgan,HLXU-809241-1,Noah Servicess.R.L. ...,HLCUGOA2507BDQQ7,TD,2025-10-17,2867,http://dassaweb.mqbic.com/PublicTally.php?id=2867
-2025-12-12,14:00,Terminal 4,MRKU-046390-3,Noah Servicess.R.L. ...,261879419,TD,,,
+2025-12-12,14:00,Terminal 4,MRKU-046390-3,Noah Servicess.R.L. ...,261879419,TD,2025-12-15,,
 2025-11-27,13:00,Exolgan,MSDU-457616-5,Noah Servicess.R.L. ...,MEDUHX848367,TD,2025-11-27,3343,http://dassaweb.mqbic.com/PublicTally.php?id=3343
 2025-11-27,13:00,Exolgan,MSDU-457616-5,Noah Servicess.R.L. ...,MEDUHX848367,TD,2025-11-27,3343,http://dassaweb.mqbic.com/PublicTally.php?id=3343
 2025-11-27,13:00,Exolgan,MSDU-457616-5,Noah Servicess.R.L. ...,MEDUHX848367,TD,2025-11-27,3343,http://dassaweb.mqbic.com/PublicTally.php?id=3343
@@ -969,6 +973,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-09-12,05:00,Exolgan,MSMU-623553-9,Grass S. R. L.      ...,HBUE2507X0115,T,2025-09-12,,
 2025-10-27,13:00,Exolgan,MSMU-661076-9,Grass S. R. L.      ...,HBUE2508X0238,T,2025-10-27,,
 2025-10-27,13:00,Exolgan,MSMU-431477-3,Grass S. R. L.      ...,HBUE2508X0238,T,2025-10-27,,
+2025-12-16,15:00,Exolgan,MSNU-865826-1,Grass S. R. L.      ...,HBUE2510X0206,T,,,
+2025-12-16,15:00,Exolgan,SEKU-668233-9,Grass S. R. L.      ...,HBUE2510X0206,T,,,
 2025-09-16,12:00,TRP,PIDU-440217-1,Telamania Srl       ...,NGB31157375,T,2025-09-16,,
 2025-10-20,07:00,Exolgan,FFAU-223682-6,Telamania Srl       ...,GILNB250800222,T,2025-10-20,,
 2025-11-10,13:00,TRP,PIDU-408773-7,Telamania Srl       ...,NGB31158486,T,2025-11-10,,
@@ -1339,6 +1345,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2025-11-21,07:00,Exolgan,TLLU-482954-7,Oriental Supply Chai...,ONEYNB5BEEQ08600,TD,2025-11-21,3295,http://dassaweb.mqbic.com/PublicTally.php?id=3295
 2025-11-13,10:00,Terminal 4,MRSU-507429-7,Macro Blanco Srl    ...,JCCM33946,T,2025-11-13,,
 2025-11-21,09:00,Exolgan,MSDU-541607-4,Insumosonline S.R.L....,GGLCNBE25090290,TD,2025-11-21,3280,http://dassaweb.mqbic.com/PublicTally.php?id=3280
+2025-12-16,15:00,Exolgan,FFAU-252716-4,Dalpra Carlos Leonci...,03/25/005743,TD,,,
+2025-12-16,15:00,Exolgan,MSCU-253026-4,Dalpra Carlos Leonci...,03/25/005743,TD,,,
 2025-11-21,08:00,TRP,CSNU-407583-6,Grismondi Alejandro ...,COSU6429247930,TD,2025-11-21,3279,http://dassaweb.mqbic.com/PublicTally.php?id=3279
 2025-12-10,15:00,Exolgan,BMOU-547226-0,Stauben Lp Sa       ...,SHH25090172,T,2025-12-10,,
 2025-12-11,12:00,TRP,HMMU-667233-7,Narlu Srl           ...,Z330GZH2509014,T,2025-12-11,,
