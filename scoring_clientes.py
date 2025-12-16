@@ -35,7 +35,9 @@ precio_promedio_por_concepto = facturacion.groupby(['concepto', 'Concepto_Detall
     Precio_Promedio_Concepto=('Unitario Final', 'mean'),
     Precio_Min_Concepto=('Unitario Final', 'min'),
     Precio_Max_Concepto=('Unitario Final', 'max'), 
-    Cantidad_Facturas_Concepto=('Factura', 'count')
+    Cantidad_Facturas_Concepto=('Factura', 'count'),
+    Cliente_Precio_Max=('Razon Social', lambda x: facturacion.loc[x.index[facturacion.loc[x.index, 'Unitario Final'].idxmax()], 'Razon Social']),
+    Cliente_Precio_Min=('Razon Social', lambda x: facturacion.loc[x.index[facturacion.loc[x.index, 'Unitario Final'].idxmin()], 'Razon Social'])
 ).reset_index()
 
 precio_promedio_por_item_cliente = facturacion.groupby(['Razon Social', 'concepto', 'Concepto_Detalle']).agg(
@@ -88,7 +90,7 @@ pagadores = saldos_fechas.groupby('Cliente').agg(Promedio_dias_a_pago=('Dias_a_p
 pagadores = pagadores.sort_values(by='Promedio_dias_a_pago', ascending=False).reset_index(drop=True)
 
 
-with pd.ExcelWriter('ver_facturacion_conceptos_ppales.xlsx') as writer:
+with pd.ExcelWriter('Informe Scoring 2025.xlsx') as writer:
     facturacion.to_excel(writer, sheet_name='Facturacion', index=False)
     precio_promedio_por_concepto.to_excel(writer, sheet_name='Precio_Promedio_Concepto', index=False)
     precio_promedio_por_cliente.to_excel(writer, sheet_name='Precio_Promedio_Cliente', index=False)
