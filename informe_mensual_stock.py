@@ -250,4 +250,4 @@ recipients = [
 ]
 
 for email in recipients:
-    #send_email(email)
+    send_email(email)
