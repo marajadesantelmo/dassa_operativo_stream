@@ -132,8 +132,8 @@ Fecha,Booking,Cliente,Cantidad,Contenedor,Precinto,Origen,Obs.,Estado
 11/12,262392574,Tipoiti Satic,1,MRSU-514449-0,,Exolgan,28600,18:57 Arribado
 11/12,262392574,Tipoiti Satic,1,TCNU-248731-5,,Exolgan,28600,18:57 Arribado
 11/12,262836599,Mercopallet Srl,1,MRSU-409864-8,************,Exolgan,28600,10:48 Arribado
-11/12,262836599,Mercopallet Srl,1,TCKU-887745-5,,Exolgan,28600,11:23 Arribado
 11/12,262836599,Mercopallet Srl,1,TCNU-321291-9,,Exolgan,28600,11:22 Arribado
+11/12,262836599,Mercopallet Srl,1,TCNU-887745-5,,Exolgan,28600,11:23 Arribado
 11/12,28321509,Mercovan Argentina S.A.,1,CAIU-675459-2,,Exolgan,SANCHEZ PEREZ,09:19 Arribado
 11/12,29307951,Termoplasticos Del Sur Sa,1,CAIU-654259-3,,Exolgan,,11:15 Arribado
 11/12,29307951,Termoplasticos Del Sur Sa,1,HLBU-261636-6,,Exolgan,,11:15 Arribado
@@ -192,8 +192,8 @@ Fecha,Booking,Cliente,Cantidad,Contenedor,Precinto,Origen,Obs.,Estado
 15/12,340500052441,Maringa Maderas Sa,1,EISU-859091-6,************,Trp - Terminales 1-2-3,,17:35 Arribado
 15/12,340500052441,Maringa Maderas Sa,1,EITU-930641-7,**************,Trp - Terminales 1-2-3,,17:25 Arribado
 15/12,65328412,Litoral Citrus S A,1,HLBU-373228-9,************,Hiperbaires - Icb T.Sur,imo,11:20 Arribado
-15/12,BUA0356461,Henn Y Cia S.R.L.,1,-,,Terminal 7,,Pendiente
 15/12,BUA0356461,Henn Y Cia S.R.L.,1,APHU-737626-0,K1265081,Terminal 7,,16:28 Arribado
+15/12,BUA0356461,Henn Y Cia S.R.L.,1,BMOU-529406-5,K1265053,Terminal 7,,12:30 Arribado
 15/12,BUA0356461,Henn Y Cia S.R.L.,1,CMAU-359904-7,K1265074,Terminal 7,,19:36 Arribado
 15/12,BUA0356461,Henn Y Cia S.R.L.,1,CMAU-453489-0,K1265089,Terminal 7,,15:55 Arribado
 15/12,BUA0356461,Henn Y Cia S.R.L.,1,TLLU-500288-8,K1265210,Terminal 7,,15:59 Arribado
@@ -202,9 +202,14 @@ Fecha,Booking,Cliente,Cantidad,Contenedor,Precinto,Origen,Obs.,Estado
 16/12,23291701,Elementa Foods S.A.,1,-,,Huxley Sa,,Pendiente
 16/12,23291701,Elementa Foods S.A.,1,HLBU-135647-5,***********,Huxley Sa,,10:17 Arribado
 16/12,262790573,Funcke Maritime Sa,1,-,,Gamma Mujica,,Pendiente
-16/12,263052543,Manufactura Los Andes S.A.,1,-,,Huxley Sa,FC 23-007,Pendiente
+16/12,263001070,Borax Argentina S A,1,MRKU-939857-9,**********,Huxley Sa,,11:53 Arribado
+16/12,263052543,Manufactura Los Andes S.A.,1,MRKU-410233-9,,Huxley Sa,FC 23-007,11:22 Arribado
 16/12,BUA0355666,Carpal Sa,2,-,,Terminal 7,,Pendiente
-16/12,BUA0356868,Lawter Argentina S.A.,9,-,,Terminal 7,,Pendiente
+16/12,BUA0356868,Lawter Argentina S.A.,5,-,,Terminal 7,,Pendiente
+16/12,BUA0356868,Lawter Argentina S.A.,1,FCIU-876513-0,K1265100,Terminal 7,,12:19 Arribado
+16/12,BUA0356868,Lawter Argentina S.A.,1,FFAU-216037-7,K1265069,Terminal 7,,12:03 Arribado
+16/12,BUA0356868,Lawter Argentina S.A.,1,SEKU-548860-6,K1265095,Terminal 7,,12:14 Arribado
+16/12,BUA0356868,Lawter Argentina S.A.,1,TGBU-519752-0,K1265054,Terminal 7,,12:32 Arribado
 16/12,ZIMUBUE9045625,Premecol Srl,2,-,,Terminal 7,,Pendiente
 16/12,ZIMUBUE9046022,Lawter Argentina S.A.,2,-,,Huxley Sa,,Pendiente
 16/12,ZIMUBUE9046022,Lawter Argentina S.A.,1,JXLU-441642-3,*********,Huxley Sa,,09:10 Arribado

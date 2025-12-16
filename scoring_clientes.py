@@ -112,6 +112,7 @@ egresos_volumen_cliente = egresos_mercaderia.groupby('cliente').agg(
 ).reset_index()
 egresos_volumen_cliente['Volumen_Total_egresado_m3'] = egresos_volumen_cliente['Volumen_Total_egresado_m3'] * (-1)
 egresos_volumen_cliente = egresos_volumen_cliente.sort_values(by='Volumen_Total_egresado_m3', ascending=False).reset_index(drop=True)
+
 ### Tipo de cliente
 
 
@@ -128,4 +129,3 @@ with pd.ExcelWriter('Informe Scoring 2025.xlsx') as writer:
     egresos.to_excel(writer, sheet_name='Egresos del stock', index=False)
     egresos_volumen_cliente.to_excel(writer, sheet_name='Volumen Egresado por Cliente', index=False)
 
-    
