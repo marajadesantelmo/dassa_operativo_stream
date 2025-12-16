@@ -1,8 +1,8 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 40446,16/12,Refractarios Argentinos Saicm,-,10074,DR,TD,                    ,ZIMUBUE9046132,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40445,16/12,Funcke Maritime Sa,-,10077,HC,TD,                    ,262790573,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40457,16/12,Premecol Srl,-,10082,HC,TD,                    ,ZIMUBUE9045625,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40456,16/12,Premecol Srl,-,10082,HC,TD,                    ,ZIMUBUE9045625,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40457,16/12,Premecol Srl,BSIU-976739-3,10082,HC,TD,**************      ,ZIMUBUE9045625,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,14:13,1899-12-30,,                    ,14:13 Arribado
+40456,16/12,Premecol Srl,ZCSU-707841-7,10082,HC,TD,**************      ,ZIMUBUE9045625,1,TRANSPORTE DEL CLIENTE        ,Sanches Bustos,14:09,1899-12-30,,                    ,14:09 Arribado
 40454,16/12,Lawter Argentina S.A.,-,10082,HC,TD,                    ,BUA0356868,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40453,16/12,Lawter Argentina S.A.,-,10082,HC,TD,                    ,BUA0356868,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40452,16/12,Lawter Argentina S.A.,-,10082,HC,TD,                    ,BUA0356868,0,                              ,,     ,1899-12-30,,                    ,Pendiente
@@ -21,4 +21,4 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 40436,16/12,Carpal Sa,-,10082,HC,TD,                    ,BUA0355666,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40438,16/12,Manufactura Los Andes S.A.,MRKU-410233-9,10080,DR,TD,                    ,263052543,1,TRANSPORTE DEL CLIENTE        ,Porco,11:22,1899-12-30,Fc 23-007,                    ,11:22 Arribado
 40448,16/12,Lawter Argentina S.A.,SEKU-548860-6,10082,HC,TD,K1265095            ,BUA0356868,1,TRANSPORTE DEL CLIENTE        ,Garcia,12:14,1899-12-30,,                    ,12:14 Arribado
-40440,16/12,Elementa Foods S.A.,-,10080,HC,TD,                    ,23291701,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40440,16/12,Elementa Foods S.A.,HAMU-310240-1,10080,HC,TD,************        ,23291701,1,TRANSPORTE DEL CLIENTE        ,Porco,13:36,1899-12-30,,                    ,13:36 Arribado
