@@ -36,8 +36,8 @@ precio_promedio_por_concepto = facturacion.groupby(['concepto', 'Concepto_Detall
     Precio_Min_Concepto=('Unitario Final', 'min'),
     Precio_Max_Concepto=('Unitario Final', 'max'), 
     Cantidad_Facturas_Concepto=('Factura', 'count'),
-    Cliente_Precio_Max=('Razon Social', lambda x: facturacion.loc[x.index[facturacion.loc[x.index, 'Unitario Final'].idxmax()], 'Razon Social']),
-    Cliente_Precio_Min=('Razon Social', lambda x: facturacion.loc[x.index[facturacion.loc[x.index, 'Unitario Final'].idxmin()], 'Razon Social'])
+    Cliente_Precio_Max=('Razon Social', lambda x: x.loc[facturacion.loc[x.index, 'Unitario Final'].idxmax()]),
+    Cliente_Precio_Min=('Razon Social', lambda x: x.loc[facturacion.loc[x.index, 'Unitario Final'].idxmin()])
 ).reset_index()
 
 precio_promedio_por_item_cliente = facturacion.groupby(['Razon Social', 'concepto', 'Concepto_Detalle']).agg(
@@ -90,6 +90,32 @@ pagadores = saldos_fechas.groupby('Cliente').agg(Promedio_dias_a_pago=('Dias_a_p
 pagadores = pagadores.sort_values(by='Promedio_dias_a_pago', ascending=False).reset_index(drop=True)
 
 
+### Analisis de volumen
+
+cursor.execute(f"""
+SELECT  e.orden_ing, e.suborden, e.renglon, e.cliente, e.tipo_oper, e.fecha_ing, 
+e.contenedor, e.desc_merc, e.conocim AS conocim1, e.dimension, e.tipo_cnt, e.volumen, env.detalle AS Envase
+FROM [DEPOFIS].[DASSA].[Egresadas del stock] e
+JOIN DEPOFIS.DASSA.[Tip_env] env ON e.tipo_env = env.codigo
+WHERE e.fecha_egr > '{fecha_ant}'
+""")
+egresos = cursor.fetchall()
+columns = [column[0] for column in cursor.description]
+egresos = pd.DataFrame.from_records(egresos, columns=columns)
+egresos['cliente'] = egresos['cliente'].str.strip().str.title()
+egresos['Envase'] = egresos['Envase'].str.strip().str.title()
+egresos['Envase'].value_counts()
+egresos_mercaderia = egresos[egresos['Envase'].str.contains('Bultos|Pallets|Rollos|Cajas|Cajones', case=False, na=False)]
+egresos_volumen_cliente = egresos_mercaderia.groupby('cliente').agg(
+    Volumen_Total_egresado_m3=('volumen', 'sum'),
+    OIs=('orden_ing', 'count')
+).reset_index()
+egresos_volumen_cliente['Volumen_Total_egresado_m3'] = egresos_volumen_cliente['Volumen_Total_egresado_m3'] * (-1)
+egresos_volumen_cliente = egresos_volumen_cliente.sort_values(by='Volumen_Total_egresado_m3', ascending=False).reset_index(drop=True)
+### Tipo de cliente
+
+
+
 with pd.ExcelWriter('Informe Scoring 2025.xlsx') as writer:
     facturacion.to_excel(writer, sheet_name='Facturacion', index=False)
     precio_promedio_por_concepto.to_excel(writer, sheet_name='Precio_Promedio_Concepto', index=False)
@@ -99,3 +125,7 @@ with pd.ExcelWriter('Informe Scoring 2025.xlsx') as writer:
     saldos.tail(1000).to_excel(writer, sheet_name='Saldos (utlimos 1000 mov)', index=False)
     saldos_fechas.to_excel(writer, sheet_name='Fechas de pago', index=False)
     pagadores.to_excel(writer, sheet_name='Pagadores', index=False)
+    egresos.to_excel(writer, sheet_name='Egresos del stock', index=False)
+    egresos_volumen_cliente.to_excel(writer, sheet_name='Volumen Egresado por Cliente', index=False)
+
+    
