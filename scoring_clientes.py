@@ -31,6 +31,27 @@ facturacion['Concepto_Detalle'] = facturacion['Concepto_Detalle'].str.strip().st
 facturacion['Razon Social'] = facturacion['Razon Social'].str.strip().str.title()
 facturacion['Unitario Final'] = facturacion['Unitario Final'].fillna(0).round(0).astype(int)
 
+precio_promedio_por_concepto = facturacion.groupby(['concepto', 'Concepto_Detalle']).agg(
+    Precio_Promedio_Concepto=('Unitario Final', 'mean'),
+    Precio_Min_Concepto=('Unitario Final', 'min'),
+    Precio_Max_Concepto=('Unitario Final', 'max'), 
+    Cantidad_Facturas_Concepto=('Factura', 'count')
+).reset_index()
+
+precio_promedio_por_item_cliente = facturacion.groupby(['Razon Social', 'concepto', 'Concepto_Detalle']).agg(
+    Precio_Promedio_Item=('Unitario Final', 'mean'),
+    Precio_Min_Item=('Unitario Final', 'min'),
+    Precio_Max_Item=('Unitario Final', 'max'), 
+    Cantidad_Facturas_Item=('Factura', 'count')
+).reset_index()
+
+precio_promedio_por_cliente = precio_promedio_por_item_cliente.groupby('Razon Social').agg(
+    Promedio_Precio_Cliente=('Precio_Promedio_Item', 'mean'),
+    Min_Precio_Cliente=('Precio_Promedio_Item', 'min'),
+    Max_Precio_Cliente=('Precio_Promedio_Item', 'max'), 
+    Cantidad_Conceptos_Facturados_Cliente=('concepto', 'count')
+).reset_index()
+
 cursor.execute(f"""
 SELECT codigo AS Codigo, detalle AS Concepto
 FROM DEPOFIS.DASSA.Concepfc
@@ -49,7 +70,7 @@ WHERE fecha_vto >= '2025-01-01'
 rows = cursor.fetchall()
 columns = [column[0] for column in cursor.description]
 saldos= pd.DataFrame.from_records(rows, columns=columns)
-
+saldos['Cliente'] = saldos['Cliente'].str.strip().str.title()
 saldos_debe = saldos[saldos['Tipo'] == 'FCA']
 saldos_debe_fechas = saldos_debe[['Cliente', 'Nro', 'Vto']].drop_duplicates()
 saldos_haber_fechas = saldos[saldos['Tipo'] == 'RCM'][['Nro', 'Vto']].drop_duplicates()
@@ -69,5 +90,10 @@ pagadores = pagadores.sort_values(by='Promedio_dias_a_pago', ascending=False).re
 
 with pd.ExcelWriter('ver_facturacion_conceptos_ppales.xlsx') as writer:
     facturacion.to_excel(writer, sheet_name='Facturacion', index=False)
+    precio_promedio_por_concepto.to_excel(writer, sheet_name='Precio_Promedio_Concepto', index=False)
+    precio_promedio_por_cliente.to_excel(writer, sheet_name='Precio_Promedio_Cliente', index=False)
+    precio_promedio_por_item_cliente.to_excel(writer, sheet_name='Precio_Promedio_Item_Cliente', index=False)
     concepfc.to_excel(writer, sheet_name='Conceptos', index=False)
-    saldos.tail(1000).to_excel(writer, sheet_name='Saldos', index=False)
+    saldos.tail(1000).to_excel(writer, sheet_name='Saldos (utlimos 1000 mov)', index=False)
+    saldos_fechas.to_excel(writer, sheet_name='Fechas de pago', index=False)
+    pagadores.to_excel(writer, sheet_name='Pagadores', index=False)
