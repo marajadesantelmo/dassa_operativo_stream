@@ -75,6 +75,8 @@ precio_promedio_por_item_cliente = facturacion.groupby(['Razon Social', 'concept
     Cantidad_Facturas_Item=('Factura', 'count')
 ).reset_index()
 
+precio_promedio_por_item_cliente = precio_promedio_por_item_cliente[precio_promedio_por_item_cliente['Precio_Promedio_Item']!=0].copy()
+
 precio_promedio_por_cliente = precio_promedio_por_item_cliente.groupby('Razon Social').agg(
     Promedio_Precio_Cliente=('Precio_Promedio_Item', 'mean'),
     Min_Precio_Cliente=('Precio_Promedio_Item', 'min'),
@@ -160,27 +162,32 @@ egresos_volumen_cliente = egresos_volumen_cliente.sort_values(by='OIs', ascendin
 print("Calculando scoring de clientes...")
 
 # Función para normalizar valores entre 0 y 100
-def normalizar_score(serie, invertir=False):
+def normalizar_score(serie, invertir=False, percentile_cap=95):
     """
-    Normaliza valores entre 0 y 100
+    Normaliza valores entre 0 y 100 con manejo de outliers
     invertir=True: valores más bajos son mejores (ejemplo: días de pago)
     invertir=False: valores más altos son mejores (ejemplo: volumen)
+    percentile_cap: percentil para limitar outliers (por defecto 95)
     """
     if serie.isna().all():
         return serie
     
-    min_val = serie.min()
-    max_val = serie.max()
+    # Usar percentiles en lugar de min/max absoluto para manejar outliers
+    min_val = serie.quantile(0.05)  # 5th percentile como mínimo
+    max_val = serie.quantile(percentile_cap / 100)  # percentile_cap como máximo
     
     if min_val == max_val:
         return pd.Series([50] * len(serie), index=serie.index)
     
+    # Limitar valores extremos (winsorization)
+    serie_capped = serie.clip(lower=min_val, upper=max_val)
+    
     if invertir:
         # Invertir: valores bajos = score alto
-        normalized = 100 - ((serie - min_val) / (max_val - min_val) * 100)
+        normalized = 100 - ((serie_capped - min_val) / (max_val - min_val) * 100)
     else:
         # Normal: valores altos = score alto
-        normalized = (serie - min_val) / (max_val - min_val) * 100
+        normalized = (serie_capped - min_val) / (max_val - min_val) * 100
     
     return normalized
 
