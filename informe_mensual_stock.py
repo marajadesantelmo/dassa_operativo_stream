@@ -78,8 +78,6 @@ existente.sort_values(by=['Ubicacion Familia', 'Ubicacion'], inplace=True)
 existente_plz = existente[existente['Ubicacion Familia'].isin(['Plazoleta', 'Temporal'])].copy()
 existente_alm = existente[~existente['Ubicacion Familia'].isin(['Plazoleta', 'Temporal'])].copy()
 
-existente_alm.drop(columns=['Contenedor'], inplace=True)
-
 #sheet = gc.create('Control_Stock_DASSA_{mes}_{year}'.format(mes=datetime.now().strftime('%m'), year=datetime.now().year))
 #sheet.share('marajadesantelmo@gmail.com', perm_type='user', role='writer')
 #sheet.share('santiago@dassa.com.ar', perm_type='user', role='writer')
@@ -242,12 +240,7 @@ def send_email(mail):
 
 # Send notification emails
 print("--- Sending notification emails ---")
-recipients = [
-    "santiago@dassa.com.ar",
-    "manuel@dassa.com.ar", 
-    "marajadesantelmo@gmail.com", 
-    "alan@dassa.com.ar"
-]
+recipients = ["santiago@dassa.com.ar", "manuel@dassa.com.ar", "marajadesantelmo@gmail.com", "alan@dassa.com.ar", "christian@dassa.com.ar"]
 
 for email in recipients:
     send_email(email)
