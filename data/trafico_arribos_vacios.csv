@@ -1,8 +1,8 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 40514,18/12,Lift Van Int. Co S.A,-,10074,DR,TD,                    ,BUA0357167,0,                              ,,     ,1899-12-30,Tanvir Ejdanee,                    ,Pendiente
 40520,18/12,Hilado Sa,MRKU-448755-0,10081,HC,TD,************        ,261969570,1,TRANSPORTE DEL CLIENTE        ,Czech,13:32,1899-12-30,,                    ,13:32 Arribado
-40521,18/12,Hilado Sa,HASU-400350-8,10081,HC,TD,*********           ,261969570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-40522,18/12,Hilado Sa,-,10081,HC,TD,                    ,261969570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40521,18/12,Hilado Sa,HASU-400350-8,10081,HC,TD,*********           ,261969570,1,TRANSPORTE DEL CLIENTE        ,Bertoli,13:34,1899-12-30,,                    ,13:34 Arribado
+40522,18/12,Hilado Sa,CAAU-523526-5,10081,HC,TD,***********         ,261969570,1,TRANSPORTES LEIRA-NO USAR     ,Muller,13:41,1899-12-30,,                    ,13:41 Arribado
 40523,18/12,Hilado Sa,-,10081,HC,TD,                    ,261969570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40524,18/12,Hilado Sa,-,10081,HC,TD,                    ,261969570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 40525,18/12,Hilado Sa,-,10081,HC,TD,                    ,261969570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
