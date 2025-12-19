@@ -1,16 +1,28 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 40514,18/12,Lift Van Int. Co S.A,TLLU-279650-5,10074,DR,TD,K1267638            ,BUA0357167,1,TRANSPORTE DEL CLIENTE        ,Gonzales,19:09,1899-12-30,Tanvir Ejdanee,                    ,19:09 Arribado
+40517,18/12,Chaguar Sociedad Anonima,HLBU-275473-0,10074,DR,TD,***********         ,17225872,1,TRANSPORTE DEL CLIENTE        ,Gonzales,11:46,1899-12-30,,                    ,11:46 Arribado
+40516,18/12,Chaguar Sociedad Anonima,HLBU-381332-8,10074,DR,TD,************        ,17225872,1,TRANSPORTE DEL CLIENTE        ,Gonzales,11:29,1899-12-30,,                    ,11:29 Arribado
+40529,18/12,Henn Y Cia S.R.L.,PCIU-186999-8,10,DR,TD,                    ,BUE500245500,1,GALDERISI CARLOS ANDRES       ,.,20:12,1899-12-30,,                    ,20:12 Arribado
+40518,18/12,Chaguar Sociedad Anonima,HLBU-389538-9,10074,DR,TD,***********         ,17225872,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,11:55,1899-12-30,,                    ,11:55 Arribado
+40527,18/12,Henn Y Cia S.R.L.,PCIU-139058-3,10,DR,TD,****************    ,BUE500245500,1,TRANSPORTE DEL CLIENTE        ,Peril,09:51,1899-12-30,,                    ,09:51 Arribado
+40526,18/12,Hilado Sa,MRKU-336068-4,10081,HC,TD,***********         ,261969570,1,TRANSPORTE DEL CLIENTE        ,Borrelli,16:31,1899-12-30,,                    ,16:31 Arribado
+40528,18/12,Henn Y Cia S.R.L.,GLDU-970553-8,10,DR,TD,                    ,BUE500245500,1,GALDERISI CARLOS ANDRES       ,.,20:07,1899-12-30,,                    ,20:07 Arribado
+40519,18/12,Chaguar Sociedad Anonima,TEMU-159349-9,10074,DR,TD,**********          ,17225872,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,12:09,1899-12-30,,                    ,12:09 Arribado
 40520,18/12,Hilado Sa,MRKU-448755-0,10081,HC,TD,************        ,261969570,1,TRANSPORTE DEL CLIENTE        ,Czech,13:32,1899-12-30,,                    ,13:32 Arribado
 40521,18/12,Hilado Sa,HASU-400350-8,10081,HC,TD,*********           ,261969570,1,TRANSPORTE DEL CLIENTE        ,Bertoli,13:34,1899-12-30,,                    ,13:34 Arribado
-40522,18/12,Hilado Sa,CAAU-523526-5,10081,HC,TD,***********         ,261969570,1,TRANSPORTES LEIRA-NO USAR     ,Muller,13:41,1899-12-30,,                    ,13:41 Arribado
-40523,18/12,Hilado Sa,MRSU-791150-9,10081,HC,TD,***********         ,261969570,1,TRANSPORTE DEL CLIENTE        ,Garcia,14:32,1899-12-30,,                    ,14:32 Arribado
 40524,18/12,Hilado Sa,TCLU-915293-3,10081,HC,TD,***********         ,261969570,1,TRANSPORTE DEL CLIENTE        ,Solla,16:24,1899-12-30,,                    ,16:24 Arribado
+40523,18/12,Hilado Sa,MRSU-791150-9,10081,HC,TD,***********         ,261969570,1,TRANSPORTE DEL CLIENTE        ,Garcia,14:32,1899-12-30,,                    ,14:32 Arribado
+40522,18/12,Hilado Sa,CAAU-523526-5,10081,HC,TD,***********         ,261969570,1,TRANSPORTES LEIRA-NO USAR     ,Muller,13:41,1899-12-30,,                    ,13:41 Arribado
 40525,18/12,Hilado Sa,SUDU-698362-0,10081,HC,TD,************        ,261969570,1,TRANSPORTE DEL CLIENTE        ,Maidana,16:29,1899-12-30,,                    ,16:29 Arribado
-40526,18/12,Hilado Sa,MRKU-336068-4,10081,HC,TD,***********         ,261969570,1,TRANSPORTE DEL CLIENTE        ,Borrelli,16:31,1899-12-30,,                    ,16:31 Arribado
-40527,18/12,Henn Y Cia S.R.L.,PCIU-139058-3,10,DR,TD,****************    ,BUE500245500,1,TRANSPORTE DEL CLIENTE        ,Peril,09:51,1899-12-30,,                    ,09:51 Arribado
-40528,18/12,Henn Y Cia S.R.L.,GLDU-970553-8,10,DR,TD,                    ,BUE500245500,1,GALDERISI CARLOS ANDRES       ,.,20:07,1899-12-30,,                    ,20:07 Arribado
-40529,18/12,Henn Y Cia S.R.L.,PCIU-186999-8,10,DR,TD,                    ,BUE500245500,1,GALDERISI CARLOS ANDRES       ,.,20:12,1899-12-30,,                    ,20:12 Arribado
-40516,18/12,Chaguar Sociedad Anonima,HLBU-381332-8,10074,DR,TD,************        ,17225872,1,TRANSPORTE DEL CLIENTE        ,Gonzales,11:29,1899-12-30,,                    ,11:29 Arribado
-40517,18/12,Chaguar Sociedad Anonima,HLBU-275473-0,10074,DR,TD,***********         ,17225872,1,TRANSPORTE DEL CLIENTE        ,Gonzales,11:46,1899-12-30,,                    ,11:46 Arribado
-40518,18/12,Chaguar Sociedad Anonima,HLBU-389538-9,10074,DR,TD,***********         ,17225872,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,11:55,1899-12-30,,                    ,11:55 Arribado
-40519,18/12,Chaguar Sociedad Anonima,TEMU-159349-9,10074,DR,TD,**********          ,17225872,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,12:09,1899-12-30,,                    ,12:09 Arribado
+40580,19/12,Lawter Argentina S.A.,-,10074,DR,TD,                    ,BUEA92942800,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40578,19/12,Bymar Transforwarding,-,Exolgan,HC,TD,                    ,EBKG14924878,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40577,19/12,Bymar Transforwarding,-,Exolgan,HC,TD,                    ,EBKG14924878,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40576,19/12,Bymar Transforwarding,-,Exolgan,HC,TD,                    ,EBKG14924878,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40571,19/12,Mafralac Alimenticia Srl,-,10074,HC,TD,                    ,ZIMUBUE9045961,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40573,19/12,Bymar Transforwarding,-,Exolgan,HC,TD,                    ,EBKG14924878,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40572,19/12,Bymar Transforwarding,-,Exolgan,HC,TD,                    ,EBKG14924878,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40579,19/12,Maringa Maderas Sa,-,10080,HC,TD,                    ,33247364,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40570,19/12,Valerio Oliva Forestal Sa,-,10074,HC,TD,                    ,ZIMUBUE9045659,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40569,19/12,Valerio Oliva Forestal Sa,-,10074,HC,TD,                    ,ZIMUBUE9045659,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40575,19/12,Bymar Transforwarding,-,Exolgan,HC,TD,                    ,EBKG14924878,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+40574,19/12,Bymar Transforwarding,-,Exolgan,HC,TD,                    ,EBKG14924878,0,                              ,,     ,1899-12-30,,                    ,Pendiente
