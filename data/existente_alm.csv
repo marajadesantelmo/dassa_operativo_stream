@@ -32,8 +32,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 39955-2-1,Trice Transport Comp...,Moto 2016 Vin 1Hd1Lc...,HBOL515/6/7,BEAU-493424-5,03-12-2025,3.00,240.40,NV1,http://dassaweb.mqbic.com/PublicTally.php?id=3406
 39933-0-1,Ifisa Sa,Arroz Blanco,-,,02-12-2025,45.00,28200.00,NV1,
 39937-1-1,Sermat Sa,Bateries,250271EX,SUDU-148102-3,02-12-2025,20.00,25493.00,IA5,http://dassaweb.mqbic.com/PublicTally.php?id=3394
-39937-3-1,Sermat Sa,Bateries,250271EX,MRKU-997757-0,02-12-2025,20.00,24806.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id=3392
 39937-2-1,Sermat Sa,Bateries,250271EX,MSKU-766005-9,02-12-2025,20.00,25639.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id=3393
+39937-3-1,Sermat Sa,Bateries,250271EX,MRKU-997757-0,02-12-2025,20.00,24806.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id=3392
 39899-1-1,Lift Van Int. Co S.A,Arilla Sebastian,HLCUME3251004191,UACU-409833-5,01-12-2025,28.00,1702.00,IA7,http://dassaweb.mqbic.com/PublicTally.php?id=3366
 39898-1-1,Lift Van Int. Co S.A,Sanchez Alejandro,HLCUME3250931830,HLBU-140125-5,01-12-2025,60.00,6037.69,IB7,http://dassaweb.mqbic.com/PublicTally.php?id=3364
 39847-1-1,Bisora Group Sa,Telas,NBOE25018594,HASU-412584-6,28-11-2025,68.00,20835.00,N23-1,http://dassaweb.mqbic.com/PublicTally.php?id=3352
@@ -75,11 +75,10 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 39643-1-1,Bisora Group Sa,Rollos De Tela,NBOE25018149,MSMU-516260-7,20-11-2025,60.00,22480.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id=3255
 39649-1-1,Bisora Group Sa,Rollos De Tela,NBFC2509116,YMLU-864970-4,20-11-2025,68.00,20200.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id=3254
 39615-1-1,Bazar Del Mundo S.A.,Duty Rack,TCSZ2509516,FFAU-357677-5,19-11-2025,26.04,2652.65,NV4,http://dassaweb.mqbic.com/PublicTally.php?id=3228
-39618-1-1,Jakytextil S.A.,Rollos De Tela,NBOE25018104,HAMU-294657-9,19-11-2025,64.00,19890.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id=3235
 39613-1-1,Mercovan Argentina S...,Mudanza Uzcategui Br...,259610467,TRHU-499540-6,19-11-2025,63.00,5740.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id=3230
+39618-1-1,Jakytextil S.A.,Rollos De Tela,NBOE25018104,HAMU-294657-9,19-11-2025,64.00,19890.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id=3235
 39594-1-1,Bisora Group Sa,Telas,NBFC2509023,BSIU-994537-1,18-11-2025,68.00,20600.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id=3208
 39604-1-1,Jupam Sa,Rollos De Tela,NB250967283,TLLU-801151-7,18-11-2025,60.00,21060.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id=3224
-39596-1-1,Lift Van Int. Co S.A,Mudanza - Cabezali S...,HLCUME3250927427,GESU-121047-5,18-11-2025,33.00,3300.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id=3213
 39595-1-1,Mercovan Argentina S...,Mudanza - Farfan Alf...,HLCUME3250948097,UACU-857310-9,18-11-2025,54.00,4040.00,NV2,http://dassaweb.mqbic.com/PublicTally.php?id=3215
 39520-2-1,Baires International,Honda 2008 Vin 5J6Yh...,MEDUHX037649,MSNU-123381-4,14-11-2025,5.00,1557.00,PA-A,http://dassaweb.mqbic.com/PublicTally.php?id=3173
 39520-1-1,Baires International,Mudanza Barba Marcel...,MEDUHX037649,MSNU-123381-4,14-11-2025,15.00,1128.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id=3173
@@ -104,8 +103,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 39309-1-1,Jakytextil S.A.,Texitl,NBOE25017925,SEGU-488848-1,04-11-2025,70.00,16607.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id=3083
 39248-1-1,Arbrex Commercial Gr...,Plush Toy,TPSHNSG25086048,HLBU-124610-1,31-10-2025,44.03,1633.92,IB9,http://dassaweb.mqbic.com/PublicTally.php?id=3060
 39264-1-1,Grupo Rsm Srl,Ibarra Federico,260216952,MRSU-056785-5,31-10-2025,10.00,1400.00,IB1,http://dassaweb.mqbic.com/PublicTally.php?id=3071
-39228-1-1,Impulso Textil Srl,Textil,TWLE25080189,EMCU-166952-8,30-10-2025,70.00,20090.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id=3026
 39238-1-1,Juliana Sa,Textil,OOLU2161806950,OOCU-963929-3,30-10-2025,70.00,24615.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id=3043
+39228-1-1,Impulso Textil Srl,Textil,TWLE25080189,EMCU-166952-8,30-10-2025,70.00,20090.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id=3026
 39225-1-1,Jupam Sa,Textil,NGP2732956,CMAU-934364-3,30-10-2025,68.00,16952.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id=3028
 39239-1-1,Jupam Sa,Textil Fabrics,NGNT51061200,FFAU-495285-6,30-10-2025,68.00,15300.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id=3044
 39192-1-1,Bisora Group Sa,Telas,NBOE25017667,MEDU-893487-1,29-10-2025,60.00,20900.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id=2996
