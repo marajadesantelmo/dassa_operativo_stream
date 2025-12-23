@@ -3,54 +3,69 @@
 ## Objetivo
 Calcular un score de 0 a 100 para cada cliente basado en tres métricas clave que reflejan el valor y comportamiento del cliente.
 
+## Períodos de Análisis
+- **Últimos 2 meses** (60 días)
+- **Últimos 6 meses** (180 días)
+
+Ambos períodos se calculan y se presentan en el reporte con una columna "Periodo" para filtrar.
+
 ## Métricas Utilizadas
 
-### 1. **Volumen Total Egresado (40% del score)**
-- **Fuente**: Tabla `volumen_egresado_por_cliente`
-- **Campo**: `Volumen_Total_egresado_m3`
-- **Criterio**: Mayor volumen = Mejor score
-- **Interpretación**: Clientes que mueven más volumen (m³) son más valiosos para el negocio
+### 1. **Número de Operaciones (33% del score)**
+- **Fuente**: Egresos del stock
+- **Campo**: `OIs` (órdenes de ingreso únicas)
+- **Criterio**: Mayor número de operaciones = Mejor score
+- **Interpretación**: Clientes con más operaciones son más activos
 
-### 2. **Precio Promedio (35% del score)**
-- **Fuente**: Tabla `precio_promedio_por_item_cliente` 
-- **Campo**: `Precio_Promedio_Item` (agregado por cliente)
-- **Criterio**: Mayor precio promedio = Mejor score
-- **Interpretación**: Clientes que pagan precios más altos por los servicios son más rentables
+### 2. **Último Precio por Item (33% del score)**
+- **Fuente**: Facturación por concepto
+- **Campo**: `Ultimo_Precio` (último precio por fecha_emi)
+- **Método**: Normalización item-level por concepto, luego promedio por cliente
+- **Criterio**: Mayor precio = Mejor score
+- **Interpretación**: Clientes que pagan precios más altos son más rentables
+- **Importante**: Si el cliente no tiene facturación en el período, su score de precio es 0 y afecta el score final
 
-### 3. **Días Promedio a Pago (25% del score)**
-- **Fuente**: Tabla `pagadores`
+### 3. **Días Promedio a Pago (34% del score)**
+- **Fuente**: Análisis de pagos (CtaCcteD)
 - **Campo**: `Promedio_dias_a_pago`
 - **Criterio**: Menos días = Mejor score (invertido)
 - **Interpretación**: Clientes que pagan más rápido tienen mejor comportamiento financiero
 
 ## Proceso de Cálculo
 
-### Paso 1: Normalización Individual
-Cada métrica se normaliza en una escala de 0 a 100 usando la fórmula:
+### Paso 1: Cálculo de Último Precio
+Para cada cliente-item, se toma el precio de la última transacción (ordenado por fecha_emi descendente).
 
-**Para métricas donde "más es mejor" (Volumen, Precio):**
+### Paso 2: Normalización Item-Level
+Los precios se normalizan por concepto (0-100) usando percentiles (5-95) para manejar outliers:
 ```
-Score = ((Valor - Valor_Mínimo) / (Valor_Máximo - Valor_Mínimo)) × 100
+Score_Item = ((Precio - P5) / (P95 - P5)) × 100
 ```
+Luego se promedian todos los scores de items por cliente.
 
-**Para métricas donde "menos es mejor" (Días de pago):**
+### Paso 3: Normalización de Otras Métricas
+**Para métricas "más es mejor" (Operaciones):**
 ```
-Score = 100 - ((Valor - Valor_Mínimo) / (Valor_Máximo - Valor_Mínimo)) × 100
-```
-
-### Paso 2: Score Ponderado
-El score final se calcula como promedio ponderado de las métricas disponibles:
-
-```
-Score_Final = (Score_Volumen × 0.40) + (Score_Precio × 0.35) + (Score_Días_Pago × 0.25)
+Score = ((Valor - P5) / (P95 - P5)) × 100
 ```
 
-**Importante:** Si un cliente no tiene todas las métricas disponibles:
+**Para métricas "menos es mejor" (Días de pago):**
+```
+Score = 100 - ((Valor - P5) / (P95 - P5)) × 100
+```
+
+### Paso 4: Score Ponderado Final
+```
+Score_Final = (Score_Operaciones × 0.33) + (Score_Precio × 0.33) + (Score_Días_Pago × 0.34)
+```
+
+**Importante:** 
 - Se requieren al menos 2 de las 3 métricas
-- Los pesos se redistribuyen proporcionalmente entre las métricas disponibles
+- Si falta una métrica, los pesos se redistribuyen proporcionalmente
+- Scores de 0 (ej: sin facturación) se incluyen en el cálculo y bajan el score final
 
-### Paso 3: Ranking
-Los clientes se ordenan de mayor a menor score final y se les asigna un ranking.
+### Paso 5: Ranking por Período
+Los clientes se ordenan de mayor a menor score final dentro de cada período.
 
 ## Interpretación del Score
 
@@ -65,34 +80,36 @@ Los clientes se ordenan de mayor a menor score final y se les asigna un ranking.
 ## Columnas del Reporte
 
 1. **Ranking**: Posición del cliente ordenado por score final
-2. **Cliente**: Nombre del cliente normalizado
+2. **Cliente**: Nombre del cliente consolidado
 3. **Score Final (0-100)**: Score ponderado final
-4. **Score Volumen**: Score individual de volumen (0-100)
+4. **Score Operaciones**: Score individual de operaciones (0-100)
 5. **Score Precio**: Score individual de precio (0-100)
 6. **Score Días Pago**: Score individual de días de pago (0-100)
-7. **Volumen Total (m³)**: Volumen total egresado en metros cúbicos
-8. **Precio Promedio ($)**: Precio promedio pagado por servicios
-9. **Promedio Días a Pago**: Días promedio desde vencimiento hasta pago efectivo
-10. **Métricas Disponibles**: Cantidad de métricas con datos (de 3 posibles)
+7. **Número de Operaciones**: Cantidad de OIs únicas
+8. **Precio Promedio ($)**: Promedio de últimos precios por item
+9. **Ultimo Precio ($)**: Último precio de transacción del cliente
+10. **Promedio Días a Pago**: Días promedio desde vencimiento hasta pago
+11. **Métricas Disponibles**: Cantidad de métricas con datos (de 3 posibles)
+12. **Periodo**: "Ultimos 2 meses" o "Ultimos 6 meses"
 
-## Ventajas del Método
+## Características Clave
 
-✅ **Objetivo**: Basado en datos reales del sistema
-✅ **Normalizado**: Permite comparación justa entre clientes
-✅ **Ponderado**: Refleja la importancia relativa de cada métrica
-✅ **Flexible**: Funciona incluso si faltan algunas métricas
-✅ **Actualizable**: Se recalcula automáticamente con nuevos datos
+✅ **Multi-período**: Análisis de 2 y 6 meses en un solo reporte
+✅ **Último precio**: Usa precios más recientes en lugar de promedios históricos
+✅ **Normalización robusta**: Usa percentiles para manejar outliers
+✅ **Item-level**: Normaliza precios por concepto para evitar sesgos
+✅ **Penalización por inactividad**: Clientes sin facturación reciben score 0 en precio
+✅ **Consolidación**: Agrupa clientes relacionados automáticamente
 
 ## Limitaciones
 
-⚠️ **Datos históricos**: El score refleja comportamiento pasado (últimos 180 días)
-⚠️ **Clientes nuevos**: Pueden tener pocas métricas disponibles
-⚠️ **Estacionalidad**: No considera variaciones estacionales del negocio
+⚠️ **Clientes nuevos**: Pueden tener pocas métricas o no aparecer en el período corto
+⚠️ **Estacionalidad**: No ajusta por variaciones estacionales del negocio
+⚠️ **Saldos fijos**: Análisis de pagos usa fecha fija (desde 2025-01-01)
 
 ## Uso Recomendado
 
-- **Segmentación de clientes** para estrategias comerciales diferenciadas
-- **Priorización** de atención y recursos comerciales
-- **Identificación** de clientes de alto valor para retención
-- **Detección** de clientes en riesgo o de bajo rendimiento
-- **Análisis de tendencias** comparando scores en el tiempo
+- **Comparar períodos**: Usar columna "Periodo" para ver evolución 2 vs 6 meses
+- **Identificar tendencias**: Clientes que mejoran/empeoran entre períodos
+- **Priorización comercial**: Focus en clientes de alto score en período corto
+- **Retención**: Detectar clientes con score decreciente entre períodos
