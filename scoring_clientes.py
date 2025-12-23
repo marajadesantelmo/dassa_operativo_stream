@@ -93,6 +93,11 @@ def calcular_scoring(dias_lookback, nombre_periodo):
         Max_Precio_Cliente=('Precio_Promedio_Item', 'max'), 
         Cantidad_Conceptos_Facturados_Cliente=('concepto', 'count')
     ).reset_index()
+    
+    # Calculate the ultimo precio (last transaction price per client)
+    ultimo_precio_cliente = facturacion_sorted.groupby('Razon Social').agg(
+        Ultimo_Precio_Cliente=('Unitario Final', 'first')  # First after sorting by fecha_emi desc = last price
+    ).reset_index()
 
     cursor.execute(f"""
     SELECT codigo AS Codigo, detalle AS Concepto
@@ -224,6 +229,7 @@ def calcular_scoring(dias_lookback, nombre_periodo):
     scoring_base = pagadores[['Cliente', 'Promedio_dias_a_pago']].copy()
     scoring_base = scoring_base.merge(score_precio_por_cliente[['Cliente', 'Score_Precio', 'Precio_Promedio_Cliente']], on='Cliente', how='outer')
     scoring_base = scoring_base.merge(egresos_volumen_cliente.rename(columns={'cliente': 'Cliente'})[['Cliente', 'OIs']], on='Cliente', how='outer')
+    scoring_base = scoring_base.merge(ultimo_precio_cliente.rename(columns={'Razon Social': 'Cliente'}), on='Cliente', how='left')
 
     # Convertir métricas a float para evitar problemas con Decimal
     scoring_base['Promedio_dias_a_pago'] = pd.to_numeric(scoring_base['Promedio_dias_a_pago'], errors='coerce')
@@ -267,7 +273,7 @@ def calcular_scoring(dias_lookback, nombre_periodo):
         weights = []
         
         for score_col, peso in pesos.items():
-            if pd.notna(row[score_col]) and row[score_col] != 0:
+            if pd.notna(row[score_col]):
                 scores.append(row[score_col])
                 weights.append(peso)
         
@@ -300,6 +306,7 @@ def calcular_scoring(dias_lookback, nombre_periodo):
         'Score_Dias_Pago',
         'OIs',
         'Precio_Promedio_Cliente',
+        'Ultimo_Precio_Cliente',
         'Promedio_dias_a_pago',
         'Metricas_disponibles'
     ]].copy()
@@ -314,6 +321,7 @@ def calcular_scoring(dias_lookback, nombre_periodo):
         'Score Días Pago',
         'Número de Operaciones',
         'Precio Promedio ($)',
+        'Ultimo Precio ($)',
         'Promedio Días a Pago',
         'Métricas Disponibles'
     ]
@@ -324,6 +332,7 @@ def calcular_scoring(dias_lookback, nombre_periodo):
     # Formatear valores numéricos
     scoring_reporte['Número de Operaciones'] = scoring_reporte['Número de Operaciones'].fillna(0).astype(int)
     scoring_reporte['Precio Promedio ($)'] = scoring_reporte['Precio Promedio ($)'].round(0)
+    scoring_reporte['Ultimo Precio ($)'] = scoring_reporte['Ultimo Precio ($)'].round(0)
     scoring_reporte['Promedio Días a Pago'] = scoring_reporte['Promedio Días a Pago'].round(1)
 
     print(f"Scoring calculado para {len(scoring_reporte)} clientes en {nombre_periodo}")
