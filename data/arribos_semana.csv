@@ -68,6 +68,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-12-02,EXOLGAN,1700 ,MSBU-259616-5,Refractarios Argentinos Saicm,DLC59112283,TD,DR,30,1,21:04 Arribado
 2025-12-02,EXOLGAN,1300 ,MSBU-256017-8,Refractarios Argentinos Saicm,DLC59112290,TD,DR,30,1,16:41 Arribado
 2025-12-02,EXOLGAN,1700 ,MSBU-256307-4,Refractarios Argentinos Saicm,DLC59112290,TD,DR,30,1,19:24 Arribado
+2025-12-26,T4,0500 ,MSKU-147981-9,Aspee Monee,260345383,T,DC,60,0,Pendiente arribo
 2025-12-02,T4,0500 ,SUDU-781987-0,Fenisan S.A.,261607139,T,DR,30,1,12:48 Arribado
 2025-12-10,EXOLGAN,2100 ,CIMU-034264-8,Shipy S.A.,DLNB2509879,T,DR,30,1,23:41 Arribado
 2025-12-10,EXOLGAN,2100 ,CIMU-034289-0,Shipy S.A.,DLNB2509879,T,DR,30,1,23:33 Arribado
@@ -103,6 +104,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-12-19,TRP,1100 ,FCIU-946926-2,Jupam Sa,NB251068210,T,HC,70,1,14:41 Arribado
 2025-12-03,T4,1500 ,MSKU-971584-4,Grupo Leal-Tex S.R.L.,GILSH251000005,T,HC,70,1,18:57 Arribado
 2025-12-26,None,1900 ,TRHU-836944-2,Dmc Import Group S.R.L.,BK2531687,T,HC,70,0,Pendiente arribo
+2025-12-26,TRP,1500 ,EMCU-852797-3,Dmc Import Group S.R.L.,TSSZ2510111,T,HC,70,0,Pendiente arribo
 2025-12-10,T4,1200 ,MSKU-660741-9,Bambu Saludable Srl,260483094,T,DR,60,1,15:06 Arribado
 2025-12-09,TRP,1500 ,FCIU-973636-9,Juliana Sa,OOLU2765338360,TD,HC,70,1,18:22 Arribado
 2025-12-18,TRP,1200 ,TCNU-271488-8,Juliana Sa,NGP2853180,T,HC,70,1,17:14 Arribado
@@ -131,6 +133,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-12-12,T4,1200 ,MRKU-022181-2,Eagle Service Group Srl,261373703,TD,DR,60,1,18:16 Arribado
 2025-12-12,T4,1400 ,CAAU-594795-3,Noah Servicess.R.L.,261931218,TD,DR,60,1,19:36 Arribado
 2025-12-12,T4,1400 ,MRKU-046390-3,Noah Servicess.R.L.,261879419,TD,DR,60,1,08:35 Arribado
+2025-12-26,None,1600 ,BEAU-418563-5,Noah Servicess.R.L.,HLCUBSC2511BOXV2,TD,HC,70,0,Pendiente arribo
 2025-12-05,T4,1600 ,TCKU-600553-0,Corona Insumos Srl,GSZBUE25100333,T,HC,70,1,19:28 Arribado
 2025-12-05,T4,0500 ,MRSU-410777-6,Tmcp S.A.S.,BSZFL25100291,T,HC,70,1,09:29 Arribado
 2025-12-05,T4,0500 ,MRSU-447348-2,Tmcp S.A.S.,BSZFL25100291,T,HC,70,1,08:37 Arribado
@@ -199,7 +202,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-12-19,T4,1300 ,UETU-548697-8,Bahia Blanca Viviendas Srl,OXOE2510001,T,HC,70,1,16:58 Arribado
 2025-12-23,TRP,1100 ,TLLU-529356-7,Bahia Blanca Viviendas Srl,OXOE2509034,T,HC,70,1,13:46 Arribado
 2025-12-23,TRP,1100 ,HMMU-705541-1,Bahia Blanca Viviendas Srl,OXOE2509034,T,HC,70,1,15:13 Arribado
-2025-12-23,TRP,1200 ,CAAU-513434-1,Bahia Blanca Viviendas Srl,OXOE2509034,T,HC,70,0,Pendiente arribo
+2025-12-23,TRP,1200 ,CAAU-513434-1,Bahia Blanca Viviendas Srl,OXOE2509034,T,HC,70,1,16:45 Arribado
 2025-12-23,TRP,1200 ,HMMU-673451-0,Bahia Blanca Viviendas Srl,OXOE2509034,T,HC,70,1,14:47 Arribado
 2025-12-23,TRP,1200 ,HMMU-645975-9,Bahia Blanca Viviendas Srl,OXOE2509034,T,HC,70,1,15:21 Arribado
 2025-12-23,TRP,1100 ,HMMU-647427-0,Bahia Blanca Viviendas Srl,OXOE2509034,T,HC,70,1,13:37 Arribado
