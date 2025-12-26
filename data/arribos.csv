@@ -1,27 +1,27 @@
-Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,Chofer,Dimension
-T4,05:00,MAEU-418710-8,Nollmann Sa,009733,HC,T,-,Pendiente arribo,,70
-T4,05:00,MAEU-408900-9,Nollmann Sa,009733,HC,T,-,Pendiente arribo,,70
-T4,05:00,MSKU-147981-9,Aspee Monee,260345383,DC,T,-,Pendiente arribo,,60
-TRP,15:00,FFAU-487028-0,Dmc Import Group S.R...,QD20250284,HC,T,-,Pendiente arribo,,70
-TRP,17:00,EMCU-852720-6,Aceptyourdestiny Sa,HDE25-1100087,HC,T,-,Pendiente arribo,,70
-TRP,19:00,UETU-521062-9,Juliana Sa,SS00012998,HC,T,-,Pendiente arribo,,70
-EXOLGAN,19:00,NYKU-355478-8,Mercovan Argentina S...,ONEYRICFLX191300,DC,TD,-,Pendiente arribo,,30
-T4,05:00,MAEU-414712-6,Nollmann Sa,009733,HC,T,-,Pendiente arribo,,70
-T4,05:00,MAEU-421660-7,Minera Del Mojotoro ...,ABTCJS033018,HC,T,-,Pendiente arribo,,70
-T4,05:00,MAEU-417185-8,Minera Del Mojotoro ...,ABTCJS033018,HC,T,-,Pendiente arribo,,70
-TRP,16:00,TLLU-267656-2,Refractarios Argenti...,COSU6434974320,DC,TD,-,Pendiente arribo,,30
-TRP,17:00,EGSU-154461-7,Aceptyourdestiny Sa,HDE25-1000061,HC,T,-,Pendiente arribo,,70
-TRP,19:00,TRHU-836944-2,Dmc Import Group S.R...,BK2531687,HC,T,-,Pendiente arribo,,70
-TRP,21:00,OOCU-971440-0,Juliana Sa,OOLU2163806920,HC,T,-,Pendiente arribo,,70
-T4,05:00,MAEU-412372-0,Nollmann Sa,009733,HC,T,-,Pendiente arribo,,70
-T4,05:00,MAEU-418378-2,Minera Del Mojotoro ...,ABTCJS033018,HC,T,-,Pendiente arribo,,70
-T4,05:00,MAEU-408723-8,Minera Del Mojotoro ...,ABTCJS033018,HC,T,-,Pendiente arribo,,70
-T4,16:00,BEAU-418563-5,Noah Servicess.R.L.,HLCUBSC2511BOXV2,HC,TD,-,Pendiente arribo,,70
-EXOLGAN,17:00,HLXU-100156-0,Lift Van Int. Co S.A,HLCUME3251023487,DC,TD,-,Pendiente arribo,,30
-TRP,19:00,TGBU-713836-3,Shipy S.A.,TSSZ2511012,HC,T,-,Pendiente arribo,,70
-T4,05:00,MAEU-412298-2,Nollmann Sa,009733,HC,T,-,Pendiente arribo,,70
-T4,05:00,MAEU-417857-5,Minera Del Mojotoro ...,ABTCJS033018,HC,T,-,Pendiente arribo,,70
-TRP,15:00,EMCU-852797-3,Dmc Import Group S.R...,TSSZ2510111,HC,T,-,Pendiente arribo,,70
-TRP,16:00,EGSU-133031-7,Tandem Global Logist...,KHBUEP25A001,HC,TD,-,Pendiente arribo,,70
-EXOLGAN,17:00,TXGU-679963-3,Ene Group S.R.L.,10909059,HC,TD,-,Pendiente arribo,,70
-TRP,19:00,EMCU-158007-1,Shipy S.A.,TSSZ2511012,HC,T,-,Pendiente arribo,,70
+Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Dimension,Oper.,Tiempo,Estado,Chofer
+T4,05:00,MAEU-418710-8,Nollmann Sa,009733,HC,70,T,-,Pendiente arribo,
+T4,05:00,MAEU-414712-6,Nollmann Sa,009733,HC,70,T,-,Pendiente arribo,
+T4,05:00,MAEU-412372-0,Nollmann Sa,009733,HC,70,T,-,Pendiente arribo,
+T4,05:00,MAEU-412298-2,Nollmann Sa,009733,HC,70,T,-,Pendiente arribo,
+T4,05:00,MAEU-408900-9,Nollmann Sa,009733,HC,70,T,-,Pendiente arribo,
+T4,05:00,MAEU-421660-7,Minera Del Mojotoro ...,ABTCJS033018,HC,70,T,-,Pendiente arribo,
+T4,05:00,MAEU-418378-2,Minera Del Mojotoro ...,ABTCJS033018,HC,70,T,-,Pendiente arribo,
+T4,05:00,MAEU-417857-5,Minera Del Mojotoro ...,ABTCJS033018,HC,70,T,-,Pendiente arribo,
+T4,05:00,MSKU-147981-9,Aspee Monee,260345383,DC,60,T,-,Pendiente arribo,
+T4,05:00,MAEU-417185-8,Minera Del Mojotoro ...,ABTCJS033018,HC,70,T,-,Pendiente arribo,
+T4,05:00,MAEU-408723-8,Minera Del Mojotoro ...,ABTCJS033018,HC,70,T,-,Pendiente arribo,
+TRP,15:00,EMCU-852797-3,Dmc Import Group S.R...,TSSZ2510111,HC,70,T,-,Pendiente arribo,
+TRP,15:00,FFAU-487028-0,Dmc Import Group S.R...,QD20250284,HC,70,T,-,Pendiente arribo,
+TRP,16:00,TLLU-267656-2,Refractarios Argenti...,COSU6434974320,DC,30,TD,-,Pendiente arribo,
+T4,16:00,BEAU-418563-5,Noah Servicess.R.L.,HLCUBSC2511BOXV2,HC,70,TD,-,Pendiente arribo,
+TRP,16:00,EGSU-133031-7,Tandem Global Logist...,KHBUEP25A001,HC,70,TD,-,Pendiente arribo,
+TRP,17:00,EMCU-852720-6,Aceptyourdestiny Sa,HDE25-1100087,HC,70,T,-,Pendiente arribo,
+TRP,17:00,EGSU-154461-7,Aceptyourdestiny Sa,HDE25-1000061,HC,70,T,-,Pendiente arribo,
+EXOLGAN,17:00,HLXU-100156-0,Lift Van Int. Co S.A,HLCUME3251023487,DC,30,TD,-,Pendiente arribo,
+EXOLGAN,17:00,TXGU-679963-3,Ene Group S.R.L.,10909059,HC,70,TD,-,Pendiente arribo,
+TRP,19:00,UETU-521062-9,Juliana Sa,SS00012998,HC,70,T,-,Pendiente arribo,
+TRP,19:00,TRHU-836944-2,Dmc Import Group S.R...,BK2531687,HC,70,T,-,Pendiente arribo,
+TRP,19:00,TGBU-713836-3,Shipy S.A.,TSSZ2511012,HC,70,T,-,Pendiente arribo,
+TRP,19:00,EMCU-158007-1,Shipy S.A.,TSSZ2511012,HC,70,T,-,Pendiente arribo,
+EXOLGAN,19:00,NYKU-355478-8,Mercovan Argentina S...,ONEYRICFLX191300,DC,30,TD,-,Pendiente arribo,
+TRP,21:00,OOCU-971440-0,Juliana Sa,OOLU2163806920,HC,70,T,-,Pendiente arribo,
