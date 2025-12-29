@@ -32,7 +32,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-12-11,T4,0600 ,MAEU-469749-9,Grouport Srl,HTNB25100125,TD,OT,30,1,14:26 Arribado
 2025-12-11,T4,0600 ,MAEU-470064-8,Grouport Srl,HTNB25100125,TD,OT,30,1,14:35 Arribado
 2025-12-11,T4,0600 ,MAEU-472402-2,Grouport Srl,HTNB25100125,TD,OT,30,1,15:29 Arribado
-2025-12-26,TRP,1600 ,TLLU-267656-2,Refractarios Argentinos Saicm,COSU6434974320,TD,DC,30,0,Pendiente arribo
+2025-12-30,TRP,0400 ,TLLU-267656-2,Refractarios Argentinos Saicm,COSU6434974320,TD,DC,30,0,Pendiente arribo
 2025-12-26,T4,0500 ,MSKU-147981-9,Aspee Monee,260345383,T,DC,60,1,10:06 Arribado
 2025-12-10,EXOLGAN,2100 ,CIMU-034264-8,Shipy S.A.,DLNB2509879,T,DR,30,1,23:41 Arribado
 2025-12-10,EXOLGAN,2100 ,CIMU-034289-0,Shipy S.A.,DLNB2509879,T,DR,30,1,23:33 Arribado
@@ -129,6 +129,9 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-12-22,T4,0500 ,JXLU-784335-2,Grupo Simpa Sa,TCNB2511047,TD,HC,70,1,08:40 Arribado
 2025-12-22,T4,0500 ,JZPU-802470-6,Grupo Simpa Sa,TCNB2511047,TD,HC,70,1,10:14 Arribado
 2025-12-22,T4,0500 ,ZCSU-717253-1,Grupo Simpa Sa,TCNB2511047,TD,HC,70,1,10:05 Arribado
+2025-12-30,TRP,0400 ,ECMU-725934-6,Anaya San Martín Y Asoc. S.R.L...,Z330GZH2510035,TD,HC,70,0,Pendiente arribo
+2025-12-30,TRP,0400 ,TIIU-582352-0,Anaya San Martín Y Asoc. S.R.L...,Z330GZH2510035,TD,HC,70,0,Pendiente arribo
+2025-12-30,TRP,2000 ,TCLU-554974-8,Anaya San Martín Y Asoc. S.R.L...,OXOE2510045,TD,HC,70,0,Pendiente arribo
 2025-12-11,T4,1400 ,MSKU-626794-1,Grupo Rsm Srl,261702773,TD,DC,60,1,18:57 Arribado
 2025-12-23,EXOLGAN,0700 ,MEDU-738336-8,Grapot Sa,SHOE25012353,T,HC,70,1,11:37 Arribado
 2025-12-23,EXOLGAN,0700 ,CAIU-951369-1,Grapot Sa,NBOE25018922,T,HC,70,1,09:33 Arribado
@@ -155,6 +158,11 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-12-19,T4,1300 ,UETU-548697-8,Bahia Blanca Viviendas Srl,OXOE2510001,T,HC,70,1,16:58 Arribado
 2025-12-23,TRP,1100 ,TLLU-529356-7,Bahia Blanca Viviendas Srl,OXOE2509034,T,HC,70,1,13:46 Arribado
 2025-12-23,TRP,1100 ,HMMU-705541-1,Bahia Blanca Viviendas Srl,OXOE2509034,T,HC,70,1,15:13 Arribado
+2025-12-30,T4,2000 ,CAAU-594960-0,Bahia Blanca Viviendas Srl,OXOE2510013,T,HC,70,0,Pendiente arribo
+2025-12-30,T4,2000 ,CAAU-693671-6,Bahia Blanca Viviendas Srl,OXOE2510013,T,HC,70,0,Pendiente arribo
+2025-12-30,T4,2000 ,CAAU-916720-9,Bahia Blanca Viviendas Srl,OXOE2510013,T,HC,70,0,Pendiente arribo
+2025-12-30,T4,2000 ,HASU-455532-2,Bahia Blanca Viviendas Srl,OXOE2510013,T,HC,70,0,Pendiente arribo
+2025-12-30,T4,2000 ,SUDU-576513-6,Bahia Blanca Viviendas Srl,OXOE2510013,T,HC,70,0,Pendiente arribo
 2025-12-23,TRP,1200 ,CAAU-513434-1,Bahia Blanca Viviendas Srl,OXOE2509034,T,HC,70,1,16:45 Arribado
 2025-12-23,TRP,1200 ,HMMU-673451-0,Bahia Blanca Viviendas Srl,OXOE2509034,T,HC,70,1,14:47 Arribado
 2025-12-23,TRP,1200 ,HMMU-645975-9,Bahia Blanca Viviendas Srl,OXOE2509034,T,HC,70,1,15:21 Arribado
