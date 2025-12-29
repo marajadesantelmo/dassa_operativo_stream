@@ -87,8 +87,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-01-05,40787,,Minera Santa Rita Sr...,263523866,FC 23-0004,Pendiente
 2026-01-05,40786,,Minera Santa Rita Sr...,263523866,FC 23-0004,Pendiente
 2025-12-22,40634,,Minera Santa Rita Sr...,FC 23-0008,FC 23-0008,Arribado
-2025-12-22,40635,,Minera Santa Rita Sr...,FC 23-0008,FC 23-0008,Pendiente
-2025-12-22,40636,,Minera Santa Rita Sr...,FC 23-0008,FC 23-0008,Pendiente
+2025-12-22,40635,,Minera Santa Rita Sr...,FC 23-0008,FC 23-0008,Arribado
+2025-12-22,40636,,Minera Santa Rita Sr...,FC 23-0008,FC 23-0008,Arribado
 2025-12-22,40637,,Minera Santa Rita Sr...,FC 23-0008,FC 23-0008,Pendiente
 2025-12-23,40708,,Minera Santa Rita Sr...,FC 23-0009,FC 23-0009,Arribado
 2025-12-19,40601,,Minera Santa Rita Sr...,263052543,FC 230-7,Arribado
@@ -653,6 +653,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-09-08,37360,,Borax Argentina S A,EBKG14145517,FAC 12619,Arribado
 2025-09-08,37361,,Borax Argentina S A,EBKG14145517,FAC 12619,Arribado
 2025-09-08,37362,,Borax Argentina S A,EBKG14145517,FAC 12619,Arribado
+2025-12-30,40821,,Borax Argentina S A,263573447,,Pendiente
 2025-12-19,40568,,Borax Argentina S A,FACT 12917,FACT 12917,Arribado
 2025-12-19,40597,,Borax Argentina S A,FACT 12917,FACT 12917,Arribado
 2025-12-22,40639,,Borax Argentina S A,FACT 12917,FACT 12917,Arribado
@@ -752,7 +753,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-12-09,40106,,Bymar Transforwardin...,EBKG14924878,EBKG14924878 7 CAMIONESTAS,Pendiente
 2025-09-01,36970,,Lawter Argentina S.A...,258417597,REF 5154573,Arribado
 2025-09-04,37122,,Lawter Argentina S.A...,258940403,REF  5154539/5154540,Arribado
+2025-12-29,40834,,Lawter Argentina S.A...,25001,25001,Arribado
 2026-01-06,40810,,Lawter Argentina S.A...,BUE500256200,5157377 - 5157378 - 5157379 - 5157380,Pendiente
+2025-12-29,40829,,Lawter Argentina S.A...,25001,25001,Arribado
 2026-01-06,40807,,Lawter Argentina S.A...,BUE500256200,5157377 - 5157378 - 5157379 - 5157380,Pendiente
 2026-01-06,40808,,Lawter Argentina S.A...,BUE500256200,5157377 - 5157378 - 5157379 - 5157380,Pendiente
 2026-01-06,40809,,Lawter Argentina S.A...,BUE500256200,5157377 - 5157378 - 5157379 - 5157380,Pendiente
@@ -944,8 +947,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-09-16,37654,,Curtiembre Infante S...,340500034817,,Arribado
 2025-09-16,37656,,Curtiembre Infante S...,340500034817,,Arribado
 2025-12-15,40340,,Curtiembre Infante S...,25001EC01,WW-2025-0035 A-B,Arribado
-2025-12-29,40772,,Curtiembre Infante S...,CME014297,CME014297,Pendiente
-2025-12-29,40773,,Curtiembre Infante S...,CME014297,CME014297,Pendiente
+2025-12-29,40772,,Curtiembre Infante S...,CME014297,CME014297,Arribado
+2025-12-29,40773,,Curtiembre Infante S...,CME014297,CME014297,Arribado
 2025-12-01,39856,,Curtiembre Infante S...,BUE500227500,BUE500227500,Arribado
 2025-12-01,39857,,Curtiembre Infante S...,BUE500227500,BUE500227500,Pendiente
 2025-12-01,39858,,Curtiembre Infante S...,BUE500227500,BUE500227500,Pendiente
@@ -1174,7 +1177,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2025-11-18,39442,,Elementa Foods S.A.,340500046386,340500046386 // 2X40HC,Arribado
 2025-11-18,39443,,Elementa Foods S.A.,340500046386,340500046386 // 2X40HC,Arribado
 2025-12-29,40752,,Elementa Foods S.A.,34583017,34583017,Pendiente
-2025-12-29,40749,,Elementa Foods S.A.,34583017,34583017,Pendiente
+2025-12-29,40749,,Elementa Foods S.A.,34583017,34583017,Arribado
 2025-12-29,40751,,Elementa Foods S.A.,34583017,34583017,Pendiente
 2025-12-17,40409,,Elementa Foods S.A.,23291701,23291701,Arribado
 2025-12-17,40410,,Elementa Foods S.A.,23291701,23291701,Arribado
