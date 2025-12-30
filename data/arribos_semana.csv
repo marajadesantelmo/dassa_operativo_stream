@@ -70,6 +70,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2025-12-09,TRP,0800 ,EGSU-938673-4,Mma Tex S.A.,HDE25-1000087,T,HC,70,1,11:45 Arribado
 2025-12-09,TRP,1200 ,EITU-916662-9,Mma Tex S.A.,HDE25-1000085,T,HC,70,1,16:54 Arribado
 2025-12-26,TRP,1600 ,EGSU-133031-7,Tandem Global Logistics S.A.,KHBUEP25A001,TD,HC,70,1,21:28 Arribado
+2026-01-02,TRP,1800 ,APZU-430512-0,Tandem Global Logistics S.A.,OEKTAO25100360,T,DC,60,0,Pendiente arribo
 2025-12-10,EXOLGAN,2100 ,GCXU-598557-7,Berkma S.A.,DLNB2509877,T,HC,70,1,23:17 Arribado
 2025-12-10,EXOLGAN,2100 ,HAMU-225045-1,Berkma S.A.,DLNB2509877,T,HC,70,1,23:01 Arribado
 2025-12-19,TRP,1100 ,EGSU-172901-4,Berkma S.A.,NB251068517,T,HC,70,1,15:41 Arribado
@@ -155,7 +156,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-01-01,TRP,0400 ,TIIU-582352-0,Anaya San Martín Y Asoc. S.R.L...,Z330GZH2510035,TD,HC,70,0,Pendiente arribo
 2025-12-30,TRP,2000 ,TCLU-554974-8,Anaya San Martín Y Asoc. S.R.L...,OXOE2510045,TD,HC,70,0,Pendiente arribo
 2025-12-30,T4,0500 ,TCKU-763726-5,Anaya San Martín Y Asoc. S.R.L...,OXOE2510041,TD,HC,70,1,08:38 Arribado
-2025-12-30,T4,1400 ,CAAU-781931-3,Anaya San Martín Y Asoc. S.R.L...,Z360GZH2510001,T,HC,70,0,Pendiente arribo
+2025-12-30,T4,1400 ,CAAU-781931-3,Anaya San Martín Y Asoc. S.R.L...,Z360GZH2510001,T,HC,70,1,18:04 Arribado
 2026-01-02,TRP,1600 ,HPCU-433849-7,Anaya San Martín Y Asoc. S.R.L...,TXPT50513000,T,HC,70,0,Pendiente arribo
 2026-01-02,TRP,1600 ,UETU-599315-0,Anaya San Martín Y Asoc. S.R.L...,TXPT50513000,T,HC,70,0,Pendiente arribo
 2025-12-11,T4,1400 ,MSKU-626794-1,Grupo Rsm Srl,261702773,TD,DC,60,1,18:57 Arribado
