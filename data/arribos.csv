@@ -1,17 +1,17 @@
-Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,Chofer,Dimension
-T4,05:00,TCKU-763726-5,Anaya San Martín Y A...,OXOE2510041,HC,TD,00:54,Pendiente arribo,,70
-TRP,20:00,TCLU-554974-8,Anaya San Martín Y A...,OXOE2510045,HC,TD,-,Pendiente arribo,,70
-TRP,04:00,TEMU-510771-7,Mercovan Argentina S...,LHV3831143,HC,TD,01:54,Pendiente arribo,,30
-EXOLGAN,11:00,MSNU-706387-0,Noah Servicess.R.L.,MEDUQ769186,HC,TD,-,Pendiente arribo,,70
-T4,20:00,CAAU-594960-0,Bahia Blanca Viviend...,OXOE2510013,HC,T,-,Pendiente arribo,,70
-T4,20:00,CAAU-916720-9,Bahia Blanca Viviend...,OXOE2510013,HC,T,-,Pendiente arribo,,70
-TRP,04:00,TLLU-267656-2,Refractarios Argenti...,COSU6434974320,DC,TD,01:54,Pendiente arribo,,30
-TRP,13:00,MSMU-210390-9,Lift Van Int. Co S.A,FE2541086743MKCBUE,DC,TD,-,Pendiente arribo,,30
-T4,20:00,CAAU-693671-6,Bahia Blanca Viviend...,OXOE2510013,HC,T,-,Pendiente arribo,,70
-T4,20:00,HASU-455532-2,Bahia Blanca Viviend...,OXOE2510013,HC,T,-,Pendiente arribo,,70
-TRP,04:00,FCIU-340668-9,Dsi Underground Sa,QGD2263127,DC,T,01:54,Pendiente arribo,,30
-T4,13:00,MSKU-572365-1,Car Pro Accesorios S...,WLLSH2511018,DR,T,-,Pendiente arribo,,30
-T4,20:00,SUDU-576513-6,Bahia Blanca Viviend...,OXOE2510013,HC,T,-,Pendiente arribo,,70
-TRP,04:00,TCNU-292953-0,Sebastian Batarev,QGD2266507,HC,T,01:54,Pendiente arribo,,70
-T4,14:00,CAAU-781931-3,Anaya San Martín Y A...,Z360GZH2510001,HC,T,-,Pendiente arribo,,70
-TRP,21:00,ECMU-762900-8,Lift Van Int. Co S.A,CTR0312445,HC,TD,-,Pendiente arribo,,70
+Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Dimension,Oper.,Tiempo,Estado,Chofer
+TRP,04:00,TEMU-510771-7,Mercovan Argentina S...,LHV3831143,HC,30,TD,02:38,Pendiente arribo,
+TRP,04:00,TLLU-267656-2,Refractarios Argenti...,COSU6434974320,DC,30,TD,02:38,Pendiente arribo,
+TRP,04:00,FCIU-340668-9,Dsi Underground Sa,QGD2263127,DC,30,T,02:38,Pendiente arribo,
+TRP,04:00,TCNU-292953-0,Sebastian Batarev,QGD2266507,HC,70,T,02:38,Pendiente arribo,
+T4,05:00,TCKU-763726-5,Anaya San Martín Y A...,OXOE2510041,HC,70,TD,01:38,Pendiente arribo,
+EXOLGAN,11:00,MSNU-706387-0,Noah Servicess.R.L.,MEDUQ769186,HC,70,TD,-,Pendiente arribo,
+TRP,13:00,MSMU-210390-9,Lift Van Int. Co S.A,FE2541086743MKCBUE,DC,30,TD,-,Pendiente arribo,
+T4,13:00,MSKU-572365-1,Car Pro Accesorios S...,WLLSH2511018,DR,30,T,-,Pendiente arribo,
+T4,14:00,CAAU-781931-3,Anaya San Martín Y A...,Z360GZH2510001,HC,70,T,-,Pendiente arribo,
+TRP,20:00,TCLU-554974-8,Anaya San Martín Y A...,OXOE2510045,HC,70,TD,-,Pendiente arribo,
+T4,20:00,CAAU-594960-0,Bahia Blanca Viviend...,OXOE2510013,HC,70,T,-,Pendiente arribo,
+T4,20:00,CAAU-693671-6,Bahia Blanca Viviend...,OXOE2510013,HC,70,T,-,Pendiente arribo,
+T4,20:00,CAAU-916720-9,Bahia Blanca Viviend...,OXOE2510013,HC,70,T,-,Pendiente arribo,
+T4,20:00,HASU-455532-2,Bahia Blanca Viviend...,OXOE2510013,HC,70,T,-,Pendiente arribo,
+T4,20:00,SUDU-576513-6,Bahia Blanca Viviend...,OXOE2510013,HC,70,T,-,Pendiente arribo,
+TRP,21:00,ECMU-762900-8,Lift Van Int. Co S.A,CTR0312445,HC,70,TD,-,Pendiente arribo,
