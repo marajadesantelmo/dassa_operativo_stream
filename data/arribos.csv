@@ -1,30 +1,30 @@
-Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,Chofer,Dimension
-T4,06:00,MRKU-408817-3,Minera Del Mojotoro ...,ABTCJS033164,HC,T,-,Pendiente arribo,,70
-EXOLGAN,11:00,MSMU-589739-8,La Tela Srl,NGB31160336,HC,TD,-,Pendiente arribo,,70
-EXOLGAN,11:00,MSMU-500540-2,La Tela Srl,NGB31160334,HC,TD,-,Pendiente arribo,,70
-TRP,18:00,TCKU-460878-8,Tandem Global Logist...,OEKTAO25100360,DC,T,-,Pendiente arribo,,60
-TRP,18:00,APZU-430512-0,Tandem Global Logist...,OEKTAO25100360,DC,T,-,Pendiente arribo,,60
-T4,06:00,MAEU-418349-0,Minera Del Mojotoro ...,ABTCJS033164,HC,T,-,Pendiente arribo,,70
-EXOLGAN,11:00,MSDU-685882-5,La Tela Srl,NGB31160332,HC,TD,-,Pendiente arribo,,70
-TRP,18:00,OOLU-045838-8,Lift Van Int. Co S.A,OOLU2311675530,DC,TD,-,Pendiente arribo,,30
-T4,06:00,MAEU-417113-8,Minera Del Mojotoro ...,ABTCJS033164,HC,T,-,Pendiente arribo,,70
-EXOLGAN,11:00,TGBU-428484-7,Grupo Simpa Sa,S3PL2526170,HC,TD,-,Pendiente arribo,,70
-TRP,19:00,TCNU-155652-0,Aceptyourdestiny Sa,HDE25-1100135,HC,T,-,Pendiente arribo,,70
-T4,06:00,MAEU-416085-3,Minera Del Mojotoro ...,ABTCJS033164,HC,T,-,Pendiente arribo,,70
-TRP,11:00,BEAU-580762-5,Tio Musa,SZ25091616,HC,T,-,Pendiente arribo,,70
-TRP,20:00,OOCU-903358-3,Planet Seguridad S.R...,NSZEC251199062,HC,T,-,Pendiente arribo,,70
-T4,06:00,MAEU-408819-4,Minera Del Mojotoro ...,ABTCJS033164,HC,T,-,Pendiente arribo,,70
-T4,14:00,TCNU-342835-9,Lift Van Int. Co S.A,PSJ/BUE/00225,HC,TD,-,Pendiente arribo,,70
-TRP,21:00,CSNU-179828-2,All Trade S.A.,NBOBUE25110100,DC,T,-,Pendiente arribo,,30
-T4,06:00,SUDU-486894-7,Minera Del Mojotoro ...,ABTCJS033164,HC,T,-,Pendiente arribo,,70
-TRP,16:00,UETU-599315-0,Anaya San Martín Y A...,TXPT50513000,HC,T,-,Pendiente arribo,,70
-T4,06:00,MRKU-759803-2,Fantasia Cueros Srl,260669879,DC,T,-,Pendiente arribo,,30
-TRP,16:00,HPCU-433849-7,Anaya San Martín Y A...,TXPT50513000,HC,T,-,Pendiente arribo,,70
-EXOLGAN,07:00,MSDU-730035-5,La Tela Srl,NGB31160337,HC,TD,-,Pendiente arribo,,70
-TRP,17:00,EGHU-983429-1,Impacto Jean S.A.,HDE25-1100095,HC,T,-,Pendiente arribo,,70
-EXOLGAN,07:00,DFSU-687391-0,La Tela Srl,NGB31160335,HC,TD,-,Pendiente arribo,,70
-TRP,17:00,EITU-035666-0,Carrupi S.A.,TSSZ2511033,DC,T,-,Pendiente arribo,,30
-EXOLGAN,07:00,MSNU-912687-5,La Tela Srl,NGB31160333,HC,TD,-,Pendiente arribo,,70
-TRP,17:00,FCIU-978380-1,Dmc Import Group S.R...,SY251068570,HC,T,-,Pendiente arribo,,70
-T4,10:00,MRKU-849514-7,Refractarios Argenti...,721169729,DC,TD,-,Pendiente arribo,,30
-TRP,18:00,CSLU-628835-0,Globaccom Sas,NSHEC251045095,HC,TD,-,Pendiente arribo,,70
+Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Dimension,Oper.,Tiempo,Estado,Chofer
+T4,06:00,MRKU-408817-3,Minera Del Mojotoro ...,ABTCJS033164,HC,70,T,-,Pendiente arribo,
+T4,06:00,MAEU-418349-0,Minera Del Mojotoro ...,ABTCJS033164,HC,70,T,-,Pendiente arribo,
+T4,06:00,MAEU-417113-8,Minera Del Mojotoro ...,ABTCJS033164,HC,70,T,-,Pendiente arribo,
+T4,06:00,MAEU-416085-3,Minera Del Mojotoro ...,ABTCJS033164,HC,70,T,-,Pendiente arribo,
+T4,06:00,MAEU-408819-4,Minera Del Mojotoro ...,ABTCJS033164,HC,70,T,-,Pendiente arribo,
+T4,06:00,SUDU-486894-7,Minera Del Mojotoro ...,ABTCJS033164,HC,70,T,-,Pendiente arribo,
+T4,06:00,MRKU-759803-2,Fantasia Cueros Srl,260669879,DC,30,T,-,Pendiente arribo,
+EXOLGAN,07:00,MSDU-730035-5,La Tela Srl,NGB31160337,HC,70,TD,-,Pendiente arribo,
+EXOLGAN,07:00,DFSU-687391-0,La Tela Srl,NGB31160335,HC,70,TD,-,Pendiente arribo,
+EXOLGAN,07:00,MSNU-912687-5,La Tela Srl,NGB31160333,HC,70,TD,-,Pendiente arribo,
+T4,10:00,MRKU-849514-7,Refractarios Argenti...,721169729,DC,30,TD,-,Pendiente arribo,
+EXOLGAN,11:00,MSMU-589739-8,La Tela Srl,NGB31160336,HC,70,TD,-,Pendiente arribo,
+EXOLGAN,11:00,MSMU-500540-2,La Tela Srl,NGB31160334,HC,70,TD,-,Pendiente arribo,
+EXOLGAN,11:00,MSDU-685882-5,La Tela Srl,NGB31160332,HC,70,TD,-,Pendiente arribo,
+EXOLGAN,11:00,TGBU-428484-7,Grupo Simpa Sa,S3PL2526170,HC,70,TD,-,Pendiente arribo,
+TRP,11:00,BEAU-580762-5,Tio Musa,SZ25091616,HC,70,T,-,Pendiente arribo,
+T4,14:00,TCNU-342835-9,Lift Van Int. Co S.A,PSJ/BUE/00225,HC,70,TD,-,Pendiente arribo,
+TRP,16:00,UETU-599315-0,Anaya San Martín Y A...,TXPT50513000,HC,70,T,-,Pendiente arribo,
+TRP,16:00,HPCU-433849-7,Anaya San Martín Y A...,TXPT50513000,HC,70,T,-,Pendiente arribo,
+TRP,17:00,EGHU-983429-1,Impacto Jean S.A.,HDE25-1100095,HC,70,T,-,Pendiente arribo,
+TRP,17:00,EITU-035666-0,Carrupi S.A.,TSSZ2511033,DC,30,T,-,Pendiente arribo,
+TRP,17:00,FCIU-978380-1,Dmc Import Group S.R...,SY251068570,HC,70,T,-,Pendiente arribo,
+TRP,18:00,CSLU-628835-0,Globaccom Sas,NSHEC251045095,HC,70,TD,-,Pendiente arribo,
+TRP,18:00,TCKU-460878-8,Tandem Global Logist...,OEKTAO25100360,DC,60,T,-,Pendiente arribo,
+TRP,18:00,APZU-430512-0,Tandem Global Logist...,OEKTAO25100360,DC,60,T,-,Pendiente arribo,
+TRP,18:00,OOLU-045838-8,Lift Van Int. Co S.A,OOLU2311675530,DC,30,TD,-,Pendiente arribo,
+TRP,19:00,TCNU-155652-0,Aceptyourdestiny Sa,HDE25-1100135,HC,70,T,-,Pendiente arribo,
+TRP,20:00,OOCU-903358-3,Planet Seguridad S.R...,NSZEC251199062,HC,70,T,-,Pendiente arribo,
+TRP,21:00,CSNU-179828-2,All Trade S.A.,NBOBUE25110100,DC,30,T,-,Pendiente arribo,
