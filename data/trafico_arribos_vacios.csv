@@ -1,17 +1,15 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-40929,02/01,Mercovan Argentina S.A.,UACU-398026-7,10080,DR,TD,***********         ,31237112,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,16:06,1899-12-30,Lowery Michael,31237112            ,16:06 Arribado
-40882,02/01,Santa Anita Oil Sa,ZCSU-754529-7,10074,HC,TD,**************      ,ZIMUBUE9046290,1,TRANSPORTE DEL CLIENTE        ,Escalante,14:07,1899-12-30,Z?Imubue9046290,ZIMUBUE9046290      ,14:07 Arribado
-40883,02/01,Santa Anita Oil Sa,TLLU-520372-7,10074,HC,TD,*************       ,ZIMUBUE9046290,1,TRANSPORTE DEL CLIENTE        ,Escalante,17:43,1899-12-30,Z?Imubue9046290,ZIMUBUE9046290      ,17:43 Arribado
-40806,02/01,Litoral Citrus S A,FBIU-044899-2,Exolgan,DR,TD,**********          ,20661133,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,15:31,1899-12-30,20661133 / Carga Imo,20661133            ,15:31 Arribado
-40814,05/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUE500256200,0,                              ,,     ,1899-12-30,5157377 - 5157378 - 5157379 - ...,BUE500256200        ,Pendiente
-40813,05/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUE500256200,0,                              ,,     ,1899-12-30,5157377 - 5157378 - 5157379 - ...,BUE500256200        ,Pendiente
-40812,05/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUE500256200,0,                              ,,     ,1899-12-30,5157377 - 5157378 - 5157379 - ...,BUE500256200        ,Pendiente
+40977,05/01,Mercovan Argentina S.A.,-,0,  ,TD,                    ,34891821,0,                              ,,     ,1899-12-30,Philippe Savariau,34891821            ,Pendiente
 40811,05/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUE500256200,0,                              ,,     ,1899-12-30,5157377 - 5157378 - 5157379 - ...,BUE500256200        ,Pendiente
+40814,05/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUE500256200,0,                              ,,     ,1899-12-30,5157377 - 5157378 - 5157379 - ...,BUE500256200        ,Pendiente
+40835,05/01,Norfor Sa,-,0,  ,TD,                    ,340500054940,0,                              ,,     ,1899-12-30,340500054940,340500054940        ,Pendiente
+40836,05/01,Norfor Sa,-,0,  ,TD,                    ,340500054940,0,                              ,,     ,1899-12-30,340500054940,340500054940        ,Pendiente
 40837,05/01,Norfor Sa,-,0,  ,TD,                    ,340500055092,0,                              ,,     ,1899-12-30,340500055092,340500055092        ,Pendiente
 40898,05/01,Laharrague Chodorge Sociedad A...,-,0,  ,TD,                    ,25762647,0,                              ,,     ,1899-12-30,25762647,25762647            ,Pendiente
 40911,05/01,Pallets Jauregui Sociedad Anon...,-,0,  ,TD,                    ,263708309,0,                              ,,     ,1899-12-30,Grale25227/Jauregui,263708309           ,Pendiente
-40835,05/01,Norfor Sa,-,0,  ,TD,                    ,340500054940,0,                              ,,     ,1899-12-30,340500054940,340500054940        ,Pendiente
 40935,05/01,Asecor Srl,-,0,  ,TD,                    ,EBKG15320408,0,                              ,,     ,1899-12-30,Ebkg15320408,EBKG15320408        ,Pendiente
+40812,05/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUE500256200,0,                              ,,     ,1899-12-30,5157377 - 5157378 - 5157379 - ...,BUE500256200        ,Pendiente
+40884,05/01,Tipoiti Satic,-,0,  ,TD,                    ,37074305,0,                              ,,     ,1899-12-30,37074305,37074305            ,Pendiente
 40948,05/01,Mader Zu S.R.L.,-,0,  ,TD,                    ,EBKG15224147,0,                              ,,     ,1899-12-30,Ebkg15224147,EBKG15224147        ,Pendiente
 40947,05/01,Mader Zu S.R.L.,-,0,  ,TD,                    ,EBKG15224147,0,                              ,,     ,1899-12-30,Ebkg15224147,EBKG15224147        ,Pendiente
 40946,05/01,Mader Zu S.R.L.,-,0,  ,TD,                    ,EBKG15224147,0,                              ,,     ,1899-12-30,Ebkg15224147,EBKG15224147        ,Pendiente
@@ -20,13 +18,11 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 40962,05/01,Pelama Chubut S.A.,-,0,  ,TD,                    ,COSU6439549470,0,                              ,,     ,1899-12-30,Cosu6439549470,COSU6439549470      ,Pendiente
 40785,05/01,Minera Santa Rita Srl,-,0,  ,TD,                    ,263523866,0,                              ,,     ,1899-12-30,263523866,263523866           ,Pendiente
 40784,05/01,Minera Santa Rita Srl,-,0,  ,TD,                    ,263523866,0,                              ,,     ,1899-12-30,263523866,263523866           ,Pendiente
-40977,05/01,Mercovan Argentina S.A.,-,0,  ,TD,                    ,34891821,0,                              ,,     ,1899-12-30,Philippe Savariau,34891821            ,Pendiente
-40884,05/01,Tipoiti Satic,-,0,  ,TD,                    ,37074305,0,                              ,,     ,1899-12-30,37074305,37074305            ,Pendiente
-40836,05/01,Norfor Sa,-,0,  ,TD,                    ,340500054940,0,                              ,,     ,1899-12-30,340500054940,340500054940        ,Pendiente
+40813,05/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,BUE500256200,0,                              ,,     ,1899-12-30,5157377 - 5157378 - 5157379 - ...,BUE500256200        ,Pendiente
 40939,06/01,Elementa Foods S.A.,-,0,  ,TD,                    ,BUEF13906500,0,                              ,,     ,1899-12-30,Buef13906500,BUEF13906500        ,Pendiente
+40797,06/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,4700173039,0,                              ,,     ,1899-12-30,4700173039,4700173039          ,Pendiente
 40798,06/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,4700173039,0,                              ,,     ,1899-12-30,4700173039,4700173039          ,Pendiente
 40940,06/01,Elementa Foods S.A.,-,0,  ,TD,                    ,BUEF13906500,0,                              ,,     ,1899-12-30,Buef13906500,BUEF13906500        ,Pendiente
-40797,06/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,4700173039,0,                              ,,     ,1899-12-30,4700173039,4700173039          ,Pendiente
 40796,06/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,4700173039,0,                              ,,     ,1899-12-30,4700173039,4700173039          ,Pendiente
 40795,06/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,4700173039,0,                              ,,     ,1899-12-30,4700173039,4700173039          ,Pendiente
 40794,06/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,4700173039,0,                              ,,     ,1899-12-30,4700173039,4700173039          ,Pendiente
