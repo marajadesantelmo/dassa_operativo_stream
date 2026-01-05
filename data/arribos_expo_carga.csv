@@ -6,7 +6,7 @@ Fecha,Orden,Booking,Cliente,Desc. Merc.,Patente Semi,Obs.,Estado,Balanza
 05/01,40702,263006968,Taeda Sa,GRLEA25211/TAEDA,PLT332,,11:33 Arribado,12:28 Salida
 05/01,40703,263006968,Taeda Sa,GRLEA25211/TAEDA,-,,Pendiente,-
 05/01,40861,ZIMUBUE9046290,Santa Anita Oil Sa,GRLEM251673/SAO,WBI797,,13:42 Arribado,13:42 Entrada
-05/01,40862,ZIMUBUE9046290,Santa Anita Oil Sa,GRLEM251673/SAO,-,,Pendiente,-
+05/01,40862,ZIMUBUE9046290,Santa Anita Oil Sa,GRLEM251673/SAO,TVL986,,14:08 Arribado,-
 05/01,40910,263708309,Pallets Jauregui Sociedad Anon...,GRALE25227/JAUREGUI,-,,Pendiente,-
 05/01,40981,25001,Grupo Rsm Srl,-,-,,10:45 Arribado,-
 05/01,40984,25001EC01,Grupo Rsm Srl,VEHICULO,-,,Pendiente,-
@@ -20,9 +20,9 @@ Fecha,Orden,Booking,Cliente,Desc. Merc.,Patente Semi,Obs.,Estado,Balanza
 05/01,40975,COSU6439549470,Pelama Chubut S.A.,COSU6439549470,-,,Pendiente,-
 05/01,40969,263638538,Hilado Sa,CME014300 EXPO 1680 + 1685,EYY427,,10:52 Arribado,12:31 Salida
 05/01,40976,COSU6439549450,Pelama Chubut S.A.,COSU6439549450,JBQ245,,10:11 Arribado,11:32 Salida
-05/01,40970,263638538,Hilado Sa,CME014300 EXPO 1680 + 1685,GDC571,,12:05 Arribado,12:05 Entrada
-05/01,40971,263638538,Hilado Sa,CME014300 EXPO 1680 + 1685,-,,Pendiente,-
 05/01,40972,263638538,Hilado Sa,CME014300 EXPO 1680 + 1685,-,,Pendiente,-
+05/01,40970,263638538,Hilado Sa,CME014300 EXPO 1680 + 1685,GDC571,,12:05 Arribado,14:05 Salida
+05/01,40971,263638538,Hilado Sa,CME014300 EXPO 1680 + 1685,AE882DH,,14:11 Arribado,14:11 Entrada
 06/01,40964,31914521,Capilatis S.A.,-,-,,Pendiente,-
 06/01,40810,BUE500256200,Lawter Argentina S.A.,5157377 - 5157378 - 5157379 - ...,-,,Pendiente,-
 06/01,40809,BUE500256200,Lawter Argentina S.A.,5157377 - 5157378 - 5157379 - ...,-,,Pendiente,-
@@ -34,16 +34,18 @@ Fecha,Orden,Booking,Cliente,Desc. Merc.,Patente Semi,Obs.,Estado,Balanza
 07/01,40936,BUEF13906500,Elementa Foods S.A.,BUEF13906500,-,,Pendiente,-
 07/01,40937,BUEF13906500,Elementa Foods S.A.,BUEF13906500,-,,Pendiente,-
 07/01,40938,BUEF13906500,Elementa Foods S.A.,BUEF13906500,-,,Pendiente,-
-07/01,40886,25762647,Laharrague Chodorge Sociedad A...,GRALE25222/CHODORGE,-,,Pendiente,-
 07/01,40790,4700173038 / 39,Lawter Argentina S.A.,4700173038 / 39,-,,Pendiente,-
-08/01,40791,4700173039,Lawter Argentina S.A.,4700173039,-,,Pendiente,-
+07/01,40886,25762647,Laharrague Chodorge Sociedad A...,GRALE25222/CHODORGE,-,,Pendiente,-
 08/01,40563,340500054940,Norfor Sa,GRLEM251670/NORFOR,-,,Pendiente,-
 08/01,40562,340500054940,Norfor Sa,GRLEM251670/NORFOR,-,,Pendiente,-
 08/01,40793,4700173039,Lawter Argentina S.A.,4700173039,-,,Pendiente,-
 08/01,40792,4700173039,Lawter Argentina S.A.,4700173039,-,,Pendiente,-
+08/01,40791,4700173039,Lawter Argentina S.A.,4700173039,-,,Pendiente,-
 09/01,40561,340500055092,Norfor Sa,GRLEM251671/NORFOR,-,,Pendiente,-
 12/01,40952,ZIMUBUE9046450,Global Rover Logistic Srl,GRLEM251688/BOSQUES DEL PLATA,-,,Pendiente,-
 12/01,40951,ZIMUBUE9046450,Global Rover Logistic Srl,GRLEM251688/BOSQUES DEL PLATA,-,,Pendiente,-
+12/01,40995,EBKG1592230,Forestal Y Ganadera Indumarca ...,GRLEM25 // EBKG1592230,-,,Pendiente,-
+12/01,40997,EBKG1592230,Forestal Y Ganadera Indumarca ...,GRLEM25 // EBKG1592230,-,,Pendiente,-
 13/01,40958,153IAR0654538,Elementa Foods S.A.,153IAR0654538,-,,Pendiente,-
 13/01,40959,153IAR0654538,Elementa Foods S.A.,153IAR0654538,-,,Pendiente,-
 15/01,40888,92879775,Laharrague Chodorge Sociedad A...,GRLAE25224/CHODORGE,-,,Pendiente,-
