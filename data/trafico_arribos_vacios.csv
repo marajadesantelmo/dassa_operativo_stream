@@ -9,7 +9,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 40940,06/01,Elementa Foods S.A.,FFAU-692810-2,10074,HC,TD,**********          ,BUEF13906500,1,TRANSPORTES LEIRA-NO USAR     ,Muller,10:44,1899-12-30,Buef13906500,BUEF13906500        ,10:44 Arribado
 40795,06/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,4700173039,0,                              ,,     ,1899-12-30,4700173039,4700173039          ,Pendiente
 40794,06/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,4700173039,0,                              ,,     ,1899-12-30,4700173039,4700173039          ,Pendiente
-41011,06/01,Taeda Sa,-,10080,HC,TD,                    ,263006968,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41011,06/01,Taeda Sa,SUDU-850829-7,10080,HC,TD,***********         ,263006968,1,TRANSPORTE DEL CLIENTE        ,Maidana,17:26,1899-12-30,,                    ,17:26 Arribado
 41010,06/01,Taeda Sa,MRKU-616084-3,10080,HC,TD,**********          ,263006968,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,14:12,1899-12-30,,                    ,14:12 Arribado
 40796,06/01,Lawter Argentina S.A.,-,0,  ,TD,                    ,4700173039,0,                              ,,     ,1899-12-30,4700173039,4700173039          ,Pendiente
 40941,06/01,Elementa Foods S.A.,KKFU-814775-8,10074,HC,TD,***********         ,BUEF13906500,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:54,1899-12-30,Buef13906500,BUEF13906500        ,10:54 Arribado
@@ -19,7 +19,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41027,07/01,Smart Trading S.A.S,-,10082,DR,TD,                    ,BUA0358569,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41026,07/01,Smart Trading S.A.S,-,10082,DR,TD,                    ,BUA0358569,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41025,07/01,Smart Trading S.A.S,-,10082,DR,TD,                    ,BUA0358569,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41024,07/01,Smart Trading S.A.S,-,10082,DR,TD,                    ,BUA0358569,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41024,07/01,Smart Trading S.A.S,DFSU-142998-7,10082,DR,TD,R8689979            ,BUA0358569,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,17:22,1899-12-30,,                    ,17:22 Arribado
 41023,07/01,Smart Trading S.A.S,TGBU-219288-6,10082,DR,TD,R8689973            ,BUA0358569,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,17:10,1899-12-30,,                    ,17:10 Arribado
 41035,07/01,Forestal Y Ganadera Indumarca ...,-,Exolgan,HC,TD,                    ,EBKG15392230,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41034,07/01,Forestal Y Ganadera Indumarca ...,-,Exolgan,HC,TD,                    ,EBKG15392230,0,                              ,,     ,1899-12-30,,                    ,Pendiente
