@@ -11,9 +11,9 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41037,07/01,Forestal Bosques Del Plata Sa,CICU-690193-3,Exolgan,HC,TD,*********           ,ZIMUBUE9046450,1,TRANSPORTE DEL CLIENTE        ,Moscardini,18:25,1899-12-30,,                    ,18:25 Arribado
 41028,07/01,Smart Trading S.A.S,APZU-397124-6,10082,DR,TD,R8689966            ,BUA0358569,1,TRANSPORTE DEL CLIENTE        ,Garcia,17:58,1899-12-30,,                    ,17:58 Arribado
 41036,07/01,Valerio Oliva Forestal Sa,ZCSU-668974-6,Exolgan,HC,TD,**********          ,ZIMUBUE9046489,1,TRANSPORTE DEL CLIENTE        ,Solla,18:32,1899-12-30,,                    ,18:32 Arribado
-41042,07/01,Sam Log S.R.L.,-,TRP,DR,TD,                    ,COSU6439676000,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41041,07/01,Sam Log S.R.L.,-,TRP,DR,TD,                    ,COSU6439676000,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41040,07/01,Sam Log S.R.L.,-,TRP,DR,TD,                    ,COSU6439676000,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41042,07/01,Sam Log S.R.L.,OOCU-061285-6,TRP,DR,TD,***************     ,COSU6439676000,1,TRANSPORTE DEL CLIENTE        ,Bertoli,19:07,1899-12-30,,                    ,19:07 Arribado
+41041,07/01,Sam Log S.R.L.,CSNU-124712-4,TRP,DR,TD,           *********,COSU6439676000,1,TRANSPORTES LEIRA-NO USAR     ,Muller,19:06,1899-12-30,,                    ,19:06 Arribado
+41040,07/01,Sam Log S.R.L.,CSLU-163402-3,TRP,DR,TD,************        ,COSU6439676000,1,TRANSPORTE DEL CLIENTE        ,Ivan Czech,19:05,1899-12-30,,                    ,19:05 Arribado
 41039,07/01,Sam Log S.R.L.,CSNU-213018-0,TRP,DR,TD,***********         ,COSU6439676000,1,TRANSPORTES LEIRA-NO USAR     ,Muller,19:04,1899-12-30,,                    ,19:04 Arribado
 41044,07/01,Servicio Internacional De Flet...,-,10080,DR,TD,                    ,90622525,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41033,07/01,Hilado Sa,HASU-403060-6,10080,HC,TD,**********          ,263638538,1,TRANSPORTE DEL CLIENTE        ,Golpe,11:55,1899-12-30,,                    ,11:55 Arribado
@@ -21,7 +21,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41031,07/01,Hilado Sa,SUDU-866465-9,10080,HC,TD,***********         ,263638538,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,11:45,1899-12-30,,                    ,11:45 Arribado
 41030,07/01,Hilado Sa,MSKU-921666-0,10080,HC,TD,**********          ,263638538,1,TRANSPORTE DEL CLIENTE        ,Moscardini Cristian,09:45,1899-12-30,,                    ,09:45 Arribado
 41029,07/01,Hilado Sa,MRKU-630432-3,10080,HC,TD,**********          ,263638538,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,09:40,1899-12-30,,                    ,09:40 Arribado
-41043,07/01,Sam Log S.R.L.,-,TRP,DR,TD,                    ,COSU6439676000,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41043,07/01,Sam Log S.R.L.,CSNU-157360-3,TRP,DR,TD,**************      ,COSU6439676000,1,TRANSPORTE DEL CLIENTE        ,Bertoli,19:08,1899-12-30,,                    ,19:08 Arribado
 41065,07/01,Funcke Maritime Sa,-,15007,  ,TD,                    ,25001EC01083474N,1,TRANSPORTE DEL CLIENTE        ,Sergio Armijo,14:42,1899-12-30,,                    ,14:42 Arribado
 40899,12/01,Laharrague Chodorge Sociedad A...,-,0,  ,TD,                    ,33902948,0,                              ,,     ,1899-12-30,33902948,33902948            ,Pendiente
 40900,12/01,Laharrague Chodorge Sociedad A...,-,0,  ,TD,                    ,92879775,0,                              ,,     ,1899-12-30,92879775,92879775            ,Pendiente
