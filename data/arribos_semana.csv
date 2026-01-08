@@ -18,6 +18,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-01-09,EXOLGAN,1100 ,MSNU-301090-7,Lift Van Int. Co S.A,MEDUOQ742209,TD,DR,30,0,Pendiente arribo
 2025-12-22,EXOLGAN,1300 ,MSNU-188425-1,Edelweiss Spedition Srl,MEDUKQ268840,TD,DC,30,1,16:51 Arribado
 2026-01-09,EXOLGAN,1100 ,UACU-850462-2,Edelweiss Spedition Srl,HLCUBO2251129772,TD,DR,60,0,Pendiente arribo
+2026-01-09,EXOLGAN,1100 ,HLXU-539311-3,Edelweiss Spedition Srl,HLCUBO2251131510,TD,DR,60,0,Pendiente arribo
 2026-01-09,T4,1200 ,TEMU-745389-5,Hra Consultora,IBC1411352,TD,HC,70,0,Pendiente arribo
 2026-01-08,T4,1300 ,MRKU-579832-4,Santana Textil Chaco Sa,PEC23377/25,TD,HC,70,0,Pendiente arribo
 2026-01-08,T4,0700 ,UACU-412772-6,Baires International,HLCUBSC2511AUSN5,TD,DR,30,1,09:46 Arribado
@@ -42,7 +43,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-01-08,EXOLGAN,1100 ,CAIU-669142-6,Refractarios Argentinos Saicm,VIE59187111,TD,DR,30,1,14:40 Arribado
 2026-01-08,EXOLGAN,1500 ,GCXU-249161-0,Refractarios Argentinos Saicm,VIE59187111,TD,DR,30,0,Pendiente arribo
 2026-01-08,EXOLGAN,1700 ,HAMU-102019-8,Refractarios Argentinos Saicm,VIE59187111,TD,DR,30,0,Pendiente arribo
-2026-01-08,EXOLGAN,1100 ,HLBU-384275-3,Refractarios Argentinos Saicm,VIE59187111,TD,DR,30,0,Pendiente arribo
+2026-01-08,EXOLGAN,1100 ,HLBU-384275-3,Refractarios Argentinos Saicm,VIE59187111,TD,DR,30,1,14:55 Arribado
 2026-01-08,EXOLGAN,1100 ,HLXU-116539-4,Refractarios Argentinos Saicm,VIE59187111,TD,DR,30,1,14:21 Arribado
 2026-01-08,EXOLGAN,0500 ,SEGU-363163-1,Refractarios Argentinos Saicm,VIE59187111,TD,DR,30,1,08:06 Arribado
 2026-01-05,T4,0500 ,MRKU-732344-1,Refractarios Argentinos Saicm,PCBUE25100005,TD,DC,30,1,11:10 Arribado
@@ -210,3 +211,4 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-01-06,EXOLGAN,1100 ,SEGU-966556-2,Mazzeo David Hernan,SYNTSN25SE100658,T,HC,70,1,14:23 Arribado
 2026-01-09,T4,1400 ,MRKU-368865-2,Distribuidora Jaro Srl,OXOE2511021,T,HC,70,0,Pendiente arribo
 2026-01-09,T4,1400 ,TLLU-363361-0,Ronald Alejandro Salazar,262147791,T,DR,30,0,Pendiente arribo
+2026-01-09,T4,0500 ,GAOU-716883-0,Blanco Buenos Aires S.A.,NBOE25019884,T,HC,70,0,Pendiente arribo
