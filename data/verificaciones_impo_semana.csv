@@ -1,8 +1,4 @@
 Dia,Cliente,Conocimiento,Desc. Merc.,Contenedor,Obs.,Envase,Cant.,Volumen,Ubic.,Estado,Operacion
-14/01,Ba Comex S.A,CL25070996          ,Textil,OOCU-722084-1,-,Rollos,950.0,150.0,IB1,Realizado,38757-1-1
-14/01,Grismondi Alejandro ...,COSU6429247930      ,Motorcycle Parts,CSNU-407583-6,-,Bultos,478.0,58.08,IB1,Realizado,39676-1-1
-14/01,Lift Van Int. Co S.A,LIFBUE25120011      ,Mudanza Hormaechea R...,ECMU-762900-8,-,Bultos,281.0,62.0,ANEX-A1,Realizado,40581-1-1
-14/01,Rinox S.A.,DLSZ25100448        ,Cooker Hood,MSDU-621401-5,-,Contenedor,1.0,0.0,PLZA,Realizado,40718-0-1
 15/01,Anaya San Martín Y A...,OXOE2510041         ,.,TCKU-763726-5,-,Contenedor,1.0,0.0,PLZA,Realizado,40549-0-1
 15/01,Bisora Group Sa,NBOE25019513        ,Textil Fabric,DRYU-959583-3,-,Contenedor,1.0,0.0,PLZA,Realizado,40633-0-1
 15/01,Distribuidora Jaro S...,OXOE2511021         ,Four Planer Rallador,MRKU-368865-2,-,Contenedor,1.0,0.0,PLZA,Realizado,40711-0-1
@@ -20,7 +16,7 @@ Dia,Cliente,Conocimiento,Desc. Merc.,Contenedor,Obs.,Envase,Cant.,Volumen,Ubic.,
 16/01,Mercovan Argentina S...,MVANES20251112      ,Mudanza Griglione He...,HLBU-272987-1,CANES,Bultos,97.0,20.0,IB5,Pendiente,40259-1-1
 16/01,Ronald Alejandro Sal...,262147791           ,Plastic,TLLU-363361-0,-,Contenedor,1.0,0.0,PLZA,Realizado,40721-0-1
 16/01,Skop Trader S. A.,TCNB2507800         ,Mesas Y Sillas De Pl...,KOCU-492522-1,EXHAUSTIVA,Bultos,1101.0,68.0,ANEX-A1,Realizado,39205-1-1
-19/01,Distribuidora Jaro S...,Z330GZH2510035      ,Shoes Rack,"ECMU-725934-6, TIIU-582352-0",-,Contenedor,2.0,0.0,PLZA,Realizado,40739-0-1
+19/01,Distribuidora Jaro S...,Z330GZH2510035      ,Shoes Rack,"TIIU-582352-0, ECMU-725934-6",-,Contenedor,2.0,0.0,PLZA,Realizado,40739-0-2
 19/01,Lift Van Int. Co S.A,LIFBUE25120010      ,Sandra Maria,MSMU-210390-9,CON BRIGADA,Bultos,245.0,30.0,ANEX-A1,Realizado,40551-1-1
 19/01,Mercovan Argentina S...,MVANES20251411      ,Camoretti Luis / Efe...,UACU-396869-9,-,Bultos,116.0,15.0,ANEX-A1,Realizado,40431-1-1
 19/01,Servicios L&A S.R.L.,XMFZ25110002B       ,Bucket Screener,SEGU-526661-0,-,Bultos,2.0,16.0,ANEX-A1,Realizado,40672-2-1
@@ -28,12 +24,12 @@ Dia,Cliente,Conocimiento,Desc. Merc.,Contenedor,Obs.,Envase,Cant.,Volumen,Ubic.,
 20/01,Greenwave Srl,10913560            ,Used Lawn Mowers,GESU-495882-0,FUMIGACION SENASA,Contenedor,1.0,0.0,PLZA,Realizado,40748-0-1
 20/01,Vc Textil Srl,NBOE25019805        ,Textil Fabric,MSMU-559434-4,-,Contenedor,1.0,60.0,PLZA,Realizado,40796-0-1
 21/01,Baires International,ARBAIT08012026      ,Mudanzapablo Arcaya ...,UACU-412772-6,FONDEO,Bultos,144.0,25.0,NV2,Realizado,40687-1-1
-21/01,Bazar Del Mundo S.A.,TCSZ2509516         ,Duty Rack,FFAU-357677-5,-,Bultos,2332.0,120.22,"NV5, NV4",Realizado,39615-1-1
+21/01,Bazar Del Mundo S.A.,TCSZ2509516         ,Duty Rack,FFAU-357677-5,-,Bultos,2332.0,120.22,"NV4, NV5",Realizado,39615-1-1
 21/01,Boratex Srl,256680902           ,Cajas Con Hilo,MRSU-627747-3,-,Cajas,924.0,140.0,"IB5, NV1",Realizado,38323-1-1
 21/01,Grouport Srl,TCQD2502142         ,Caps,DFSU-436305-5,-,Bultos,90.0,16.2,NV1,Realizado,35280-1-1
 22/01,Baires International,ARBAIT26112025      ,Mudanza San Miguel E...,UACU-374064-6,CANES,Bultos,180.0,28.0,IA6,Pendiente,40131-1-1
 22/01,Bisora Group Sa,NBOE25019885        ,Telas,MSNU-607649-3,-,Contenedor,1.0,0.0,PLZA,Realizado,40814-0-1
-22/01,E A Balbi E Hijos S ...,ACS-PKAR25596       ,Telas,"EGSU-322718-6, TIIU-585215-4","con fondeo, -",Contenedor,2.0,0.0,PLZA,Pendiente,40856-0-1
+22/01,E A Balbi E Hijos S ...,ACS-PKAR25596       ,Telas,"TIIU-585215-4, EGSU-322718-6","-, con fondeo",Contenedor,2.0,0.0,PLZA,Pendiente,40856-0-2
 22/01,Fenisan S.A.,1415791A            ,Mudanza,CMAU-087855-7,CON FONDEO,Contenedor,1.0,0.0,PLZA,Pendiente,40670-0-1
 22/01,Grouport Srl,SYNNKG25SE090106    ,Artificial Grass,MSMU-448053-7,-,Bultos,246.0,136.0,NV5,Realizado,39765-1-1
 22/01,Impulso Jm S.A.,NBOBUE25110181      ,Microfiber Towel,SKYU-297340-1,-,Bultos,170.0,28.0,NV4,Realizado,40722-1-1
