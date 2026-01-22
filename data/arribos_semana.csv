@@ -55,6 +55,11 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-01-05,T4,0500 ,MRKU-732344-1,Refractarios Argentinos Saicm,PCBUE25100005,TD,DC,30,1,11:10 Arribado
 2026-01-05,T4,1100 ,MRKU-764915-0,Refractarios Argentinos Saicm,PCBUE25100006,TD,DC,30,1,14:57 Arribado
 2026-01-05,T4,1100 ,MRKU-880022-0,Refractarios Argentinos Saicm,PCBUE25100006,TD,DC,30,1,15:15 Arribado
+2026-01-23,T4,1200 ,AMFU-321053-4,Refractarios Argentinos Saicm,PCBUE25110005,TD,DR,30,0,Pendiente arribo
+2026-01-23,T4,1200 ,MRKU-854499-8,Refractarios Argentinos Saicm,PCBUE25110005,TD,DR,30,0,Pendiente arribo
+2026-01-23,T4,1200 ,MRKU-913917-7,Refractarios Argentinos Saicm,PCBUE25110005,TD,DR,30,0,Pendiente arribo
+2026-01-23,T4,1200 ,MRKU-933123-5,Refractarios Argentinos Saicm,PCBUE25110005,TD,DR,30,0,Pendiente arribo
+2026-01-23,T4,1200 ,MSKU-376466-7,Refractarios Argentinos Saicm,PCBUE25110005,TD,DR,30,0,Pendiente arribo
 2026-01-08,EXOLGAN,1100 ,HLBU-384275-3,Refractarios Argentinos Saicm,VIE59187111,TD,DR,30,1,14:55 Arribado
 2026-01-08,EXOLGAN,1100 ,HLXU-116539-4,Refractarios Argentinos Saicm,VIE59187111,TD,DR,30,1,14:21 Arribado
 2026-01-08,EXOLGAN,0500 ,SEGU-363163-1,Refractarios Argentinos Saicm,VIE59187111,TD,DR,30,1,08:06 Arribado
@@ -78,6 +83,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-01-07,EXOLGAN,1100 ,CAIU-701659-3,Bisora Group Sa,NBOE25019623,T,HC,70,1,13:53 Arribado
 2026-01-19,EXOLGAN,1100 ,MSNU-607649-3,Bisora Group Sa,NBOE25019885,T,HC,70,1,13:50 Arribado
 2026-01-20,EXOLGAN,0700 ,MSNU-519342-7,Bisora Group Sa,NBOE25019939,T,HC,70,1,09:51 Arribado
+2026-01-23,T4,1400 ,CMAU-710207-7,Gestion Forward S.R.L.,BOM25110012,TD,HC,70,0,Pendiente arribo
 2026-01-05,TRP,1300 ,GCXU-210504-5,Dodero & Cia S.R.L.,HDMUSZPM02832800,T,DC,30,1,15:57 Arribado
 2026-01-02,TRP,1900 ,TCNU-155652-0,Aceptyourdestiny Sa,HDE25-1100135,T,HC,70,1,21:40 Arribado
 2026-01-20,TRP,1300 ,TGBU-996001-3,Aceptyourdestiny Sa,HDE25-1200028,T,HC,70,1,15:39 Arribado
@@ -89,7 +95,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-01-08,EXOLGAN,1100 ,TCKU-656183-8,Noah Servicess.R.L.,HLCUME3251075240,TD,HC,70,1,15:20 Arribado
 2026-01-08,T4,0600 ,TCNU-311340-7,Noah Servicess.R.L.,262258068,TD,DR,60,1,09:32 Arribado
 2026-01-16,T4,1200 ,MRKU-225570-3,Noah Servicess.R.L.,262897313,TD,DR,60,1,14:44 Arribado
-2026-01-22,TRP,0500 ,TLLU-163421-7,Noah Servicess.R.L.,IBC1413736,TD,DR,60,0,Pendiente arribo
+2026-01-22,TRP,0500 ,TLLU-163421-7,Noah Servicess.R.L.,IBC1413736,TD,DR,60,1,10:38 Arribado
 2026-01-21,T4,1000 ,TCLU-655583-2,Bymar Transforwarding,HBG2076650,TD,HC,70,1,13:33 Arribado
 2026-01-08,TRP,2100 ,CSLU-628835-0,Globaccom Sas,NSHEC251045095,T,HC,70,1,22:17 Arribado
 2026-01-09,T4,1100 ,SEKU-635290-7,Corona Insumos Srl,GSZBUE25110312,T,HC,70,1,13:44 Arribado
@@ -125,6 +131,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-01-08,TRP,1300 ,HDMU-474481-0,Impulso Jm S.A.,TCSZ2510373,TD,DR,60,1,16:47 Arribado
 2026-01-09,T4,1500 ,SKYU-297340-1,Impulso Jm S.A.,NBOBUE25110181,TD,DR,30,1,17:50 Arribado
 2026-01-06,T4,1400 ,CICU-726431-5,Linkage Intertrade Srl,SZE251000020,T,DR,30,1,21:25 Arribado
+2026-01-23,T4,1400 ,MRSU-907911-0,Mibeda S.A.,GILNB251200030,T,HC,70,0,Pendiente arribo
 2026-01-02,TRP,1700 ,EGHU-983429-1,Impacto Jean S.A.,HDE25-1100095,T,HC,70,1,17:46 Arribado
 2026-01-13,TRP,1200 ,APHU-725616-1,Perozzi Domingo Y Perozzi Osva...,SE25092900001,T,HC,70,1,13:46 Arribado
 2026-01-07,T4,0600 ,MRKU-080402-3,Vestiditos Sa,ZFRALX12101-25,T,DR,60,1,09:07 Arribado
