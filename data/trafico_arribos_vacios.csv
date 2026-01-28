@@ -1,5 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-41475,28/01,Minera Santa Rita Srl,PCIU-941197-5,10,HC,TD,**********          ,BUE600014300,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,11:45,1899-12-30,Fc 23-018,                    ,11:45 Arribado
+41484,28/01,Henn Y Cia S.R.L.,-,10082,HC,TD,                    ,BUA0358922,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41480,28/01,Borax Argentina S A,BEAU-297256-5,9,DR,TD,FX32994520          ,EBKG15591592,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Martin,12:36,1899-12-30,Fac 12970,                    ,12:36 Arribado
 41479,28/01,Borax Argentina S A,TCKU-394825-3,9,DR,TD,FX32994571          ,EBKG15591592,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Martin,12:35,1899-12-30,Fac 12970,                    ,12:35 Arribado
 41478,28/01,Borax Argentina S A,MSMU-181747-6,9,DR,TD,FX32994516          ,EBKG15591592,1,TRANSPORTES LEIRA-NO USAR     ,Muller,12:30,1899-12-30,Fac 12970,                    ,12:30 Arribado
 41477,28/01,Borax Argentina S A,GESU-112934-2,9,DR,TD,FX32994515          ,EBKG15591592,1,TRANSPORTE DEL CLIENTE        ,Solla Franco,12:27,1899-12-30,Fac 12970,                    ,12:27 Arribado
@@ -8,8 +9,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41487,28/01,Henn Y Cia S.R.L.,PCIU-913467-5,10,HC,TD,******************  ,BUE600002600,1,TRANSPORTE DEL CLIENTE        ,Bertoli,11:40,1899-12-30,,                    ,11:40 Arribado
 41486,28/01,Henn Y Cia S.R.L.,BSIU-974900-2,10,HC,TD,***********         ,BUE600002600,1,TRANSPORTES LEIRA-NO USAR     ,Muller,10:41,1899-12-30,,                    ,10:41 Arribado
 41485,28/01,Henn Y Cia S.R.L.,BSIU-800754-4,10,HC,TD,***********         ,BUE600002600,1,TRANSPORTE DEL CLIENTE        ,Czech,08:56,1899-12-30,,                    ,08:56 Arribado
-41484,28/01,Henn Y Cia S.R.L.,-,10082,HC,TD,                    ,BUA0358922,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41483,28/01,Henn Y Cia S.R.L.,DRYU-971595-0,10082,HC,TD,K1267061            ,BUA0358922,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Martin,17:44,1899-12-30,,                    ,17:44 Arribado
+41500,28/01,Funcke Maritime Sa,-,10076,HC,TD,                    ,262790573,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41482,28/01,Henn Y Cia S.R.L.,CMAU-882174-8,10082,HC,TD,K1267078            ,BUA0358922,1,TRANSPORTE DEL CLIENTE        ,Solla Axel,17:40,1899-12-30,,                    ,17:40 Arribado
 41481,28/01,Henn Y Cia S.R.L.,FFAU-433268-6,10082,HC,TD,K1267082            ,BUA0358922,1,TRANSPORTE DEL CLIENTE        ,Escalante,14:36,1899-12-30,,                    ,14:36 Arribado
 41496,28/01,Termoplasticos Del Sur Sa,-,10080,DR,TD,                    ,69329511,0,                              ,,     ,1899-12-30,,                    ,Pendiente
@@ -17,5 +17,9 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41494,28/01,Termoplasticos Del Sur Sa,-,10080,DR,TD,                    ,69329511,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41493,28/01,Termoplasticos Del Sur Sa,-,10080,DR,TD,                    ,69329511,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41492,28/01,Termoplasticos Del Sur Sa,-,10080,DR,TD,                    ,69329511,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41480,28/01,Borax Argentina S A,BEAU-297256-5,9,DR,TD,FX32994520          ,EBKG15591592,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Martin,12:36,1899-12-30,Fac 12970,                    ,12:36 Arribado
-41500,28/01,Funcke Maritime Sa,-,10076,HC,TD,                    ,262790573,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41475,28/01,Minera Santa Rita Srl,PCIU-941197-5,10,HC,TD,**********          ,BUE600014300,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,11:45,1899-12-30,Fc 23-018,                    ,11:45 Arribado
+41483,28/01,Henn Y Cia S.R.L.,DRYU-971595-0,10082,HC,TD,K1267061            ,BUA0358922,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Martin,17:44,1899-12-30,,                    ,17:44 Arribado
+41527,29/01,Lawter Argentina S.A.,-,10080,DR,TD,                    ,265826369,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41525,29/01,Carpal Sa,-,10080,HC,TD,                    ,31071119,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41526,29/01,Lawter Argentina S.A.,-,10080,DR,TD,                    ,265826369,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41524,29/01,Edelweiss Spedition Srl,-,10080,DR,TD,                    ,265128307,0,                              ,,     ,1899-12-30,Jang Yoon Ho,                    ,Pendiente
