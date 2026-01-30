@@ -1,0 +1,35 @@
+2026-01-30 16:05:25,241 | INFO | Orquestador iniciado
+2026-01-30 16:05:27,499 | INFO | Iniciando alertas_arribos.py
+2026-01-30 16:05:31,963 | INFO | Salida alertas_arribos.py:
+Enviando alertas arribos...
+2026-01-30 16:05:31,964 | INFO | Finalizado alertas_arribos.py con estado OK en 2.6s
+2026-01-30 16:05:35,733 | INFO | Iniciando alertas_balanza.py
+2026-01-30 16:05:41,799 | INFO | Salida alertas_balanza.py:
+Se encontraron 0 nuevas operaciones de balanza para procesar.
+Empty DataFrame
+Columns: [ID Pesada, Cliente, CUIT Cliente, ATA, CUIT ATA, Contenedor, Entrada, Salida, Peso Bruto, Peso Tara, Peso Neto, Peso Mercadería, Tara CNT, Descripción, Patente Chasis, Patente Semi, Chofer, Tipo Doc, DNI, Observaciones, tipo_oper, Booking, Permiso Emb., Precinto, Estado]
+Index: []
+No hay nuevas operaciones de balanza para procesar.
+2026-01-30 16:05:41,802 | INFO | Finalizado alertas_balanza.py con estado OK en 4.1s
+2026-01-30 16:05:43,581 | INFO | Iniciando alertas_expo.py
+2026-01-30 16:05:48,282 | INFO | Salida alertas_expo.py:
+No hay bookings finalizados para enviar alerta
+2026-01-30 16:05:48,283 | INFO | Finalizado alertas_expo.py con estado OK en 2.9s
+2026-01-30 16:05:50,200 | INFO | Iniciando alertas_retiros.py
+2026-01-30 16:05:54,588 | INFO | Salida alertas_retiros.py:
+Enviando alertas retiros...
+No hay nuevas alertas de retiros para enviar
+2026-01-30 16:05:54,589 | INFO | Finalizado alertas_retiros.py con estado OK en 2.7s
+2026-01-30 16:05:56,282 | INFO | Iniciando alertas_remisiones_expo.py
+2026-01-30 16:06:03,632 | INFO | Salida alertas_remisiones_expo.py:
+Enviando alertas remisiones...
+Se registró el logeo
+No hay bookings finalizados para enviar alerta
+2026-01-30 16:06:03,633 | INFO | Finalizado alertas_remisiones_expo.py con estado OK en 5.7s
+2026-01-30 16:06:05,362 | INFO | Resumen de ejecución:
+- alertas_arribos.py: OK (2.6s)
+- alertas_balanza.py: OK (4.1s)
+- alertas_expo.py: OK (2.9s)
+- alertas_retiros.py: OK (2.7s)
+- alertas_remisiones_expo.py: OK (5.7s)
+2026-01-30 16:06:07,167 | INFO | Orquestador finalizado OK
