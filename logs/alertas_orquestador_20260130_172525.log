@@ -1,0 +1,45 @@
+2026-01-30 17:25:25,122 | INFO | Orquestador iniciado
+2026-01-30 17:25:27,171 | INFO | Iniciando alertas_arribos.py
+2026-01-30 17:25:43,264 | INFO | Salida alertas_arribos.py:
+Enviando alertas arribos...
+Error al enviar correo a enzo@dassa.com.ar para el contenedor MSKU-163622-4: (550, b'5.7.1 This message is not RFC 5322 compliant. There are multiple To headers.\n5.7.1 To reduce the amount of spam sent to Gmail, this message has been\n5.7.1 blocked. For more information, go to\n5.7.1  https://support.google.com/mail/?p=RfcMessageNonCompliant and review\n5.7.1 RFC 5322 specifications. 5a478bee46e88-2b7a1af898asm13780478eec.33 - gsmtp')
+Error al enviar correo a facturacion@dassa.com.ar para el contenedor MSKU-163622-4: (550, b'5.7.1 This message is not RFC 5322 compliant. There are multiple To headers.\n5.7.1 To reduce the amount of spam sent to Gmail, this message has been\n5.7.1 blocked. For more information, go to\n5.7.1  https://support.google.com/mail/?p=RfcMessageNonCompliant and review\n5.7.1 RFC 5322 specifications. a92af1059eb24-124a9d7f597sm11487457c88.5 - gsmtp')
+Error al enviar correo a angel@planetseguridad.com para el contenedor MSKU-163622-4: (550, b'5.7.1 This message is not RFC 5322 compliant. There are multiple To headers.\n5.7.1 To reduce the amount of spam sent to Gmail, this message has been\n5.7.1 blocked. For more information, go to\n5.7.1  https://support.google.com/mail/?p=RfcMessageNonCompliant and review\n5.7.1 RFC 5322 specifications. a92af1059eb24-124a9df97d0sm11660629c88.13 - gsmtp')
+Error al enviar correo a nazareno@planetseguridad.com para el contenedor MSKU-163622-4: (550, b'5.7.1 This message is not RFC 5322 compliant. There are multiple To headers.\n5.7.1 To reduce the amount of spam sent to Gmail, this message has been\n5.7.1 blocked. For more information, go to\n5.7.1  https://support.google.com/mail/?p=RfcMessageNonCompliant and review\n5.7.1 RFC 5322 specifications. 5a478bee46e88-2b7a1abe714sm12573990eec.20 - gsmtp')
+2026-01-30 17:25:43,267 | ERROR | Error alertas_arribos.py:
+\\dc01\Usuarios\PowerBI\flastra\Documents\dassa_operativo_stream\alertas_arribos.py:81: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  row['alerta_enviada'] = 1
+2026-01-30 17:25:43,268 | INFO | Finalizado alertas_arribos.py con estado OK en 13.9s
+2026-01-30 17:25:45,298 | INFO | Iniciando alertas_balanza.py
+2026-01-30 17:25:50,704 | INFO | Salida alertas_balanza.py:
+Se encontraron 0 nuevas operaciones de balanza para procesar.
+Empty DataFrame
+Columns: [ID Pesada, Cliente, CUIT Cliente, ATA, CUIT ATA, Contenedor, Entrada, Salida, Peso Bruto, Peso Tara, Peso Neto, Peso Mercadería, Tara CNT, Descripción, Patente Chasis, Patente Semi, Chofer, Tipo Doc, DNI, Observaciones, tipo_oper, Booking, Permiso Emb., Precinto, Estado]
+Index: []
+No hay nuevas operaciones de balanza para procesar.
+2026-01-30 17:25:50,705 | INFO | Finalizado alertas_balanza.py con estado OK en 3.2s
+2026-01-30 17:25:52,886 | INFO | Iniciando alertas_expo.py
+2026-01-30 17:25:57,197 | INFO | Salida alertas_expo.py:
+No hay bookings finalizados para enviar alerta
+2026-01-30 17:25:57,198 | INFO | Finalizado alertas_expo.py con estado OK en 2.0s
+2026-01-30 17:25:59,433 | INFO | Iniciando alertas_retiros.py
+2026-01-30 17:26:03,221 | INFO | Salida alertas_retiros.py:
+Enviando alertas retiros...
+No hay nuevas alertas de retiros para enviar
+2026-01-30 17:26:03,222 | INFO | Finalizado alertas_retiros.py con estado OK en 2.0s
+2026-01-30 17:26:05,920 | INFO | Iniciando alertas_remisiones_expo.py
+2026-01-30 17:26:12,797 | INFO | Salida alertas_remisiones_expo.py:
+Enviando alertas remisiones...
+Se registró el logeo
+No hay bookings finalizados para enviar alerta
+2026-01-30 17:26:12,797 | INFO | Finalizado alertas_remisiones_expo.py con estado OK en 4.5s
+2026-01-30 17:26:15,185 | INFO | Resumen de ejecución:
+- alertas_arribos.py: OK (13.9s)
+- alertas_balanza.py: OK (3.2s)
+- alertas_expo.py: OK (2.0s)
+- alertas_retiros.py: OK (2.0s)
+- alertas_remisiones_expo.py: OK (4.5s)
+2026-01-30 17:26:17,190 | INFO | Orquestador finalizado OK
