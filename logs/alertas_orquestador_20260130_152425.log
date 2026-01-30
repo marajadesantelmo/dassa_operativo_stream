@@ -1,0 +1,47 @@
+2026-01-30 15:24:25,483 | INFO | Orquestador iniciado
+2026-01-30 15:24:27,470 | INFO | Iniciando alertas_arribos.py
+2026-01-30 15:24:32,046 | INFO | Salida alertas_arribos.py:
+Enviando alertas arribos...
+2026-01-30 15:24:32,047 | INFO | Finalizado alertas_arribos.py con estado OK en 2.6s
+2026-01-30 15:24:33,798 | INFO | Iniciando alertas_balanza.py
+2026-01-30 15:24:39,994 | ERROR | Error alertas_balanza.py:
+Traceback (most recent call last):
+  File "\\dc01\Usuarios\PowerBI\flastra\Documents\dassa_operativo_stream\alertas_balanza.py", line 63, in <module>
+    print(f"\U0001f50d Se encontraron {len(balanza)} nuevas operaciones de balanza para procesar.")
+  File "C:\Users\flastra\AppData\Local\anaconda3\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2026-01-30 15:24:39,997 | INFO | Finalizado alertas_balanza.py con estado ERROR en 4.4s
+2026-01-30 15:24:41,761 | INFO | Iniciando alertas_expo.py
+2026-01-30 15:24:46,350 | INFO | Salida alertas_expo.py:
+No hay bookings finalizados para enviar alerta
+2026-01-30 15:24:46,351 | INFO | Finalizado alertas_expo.py con estado OK en 2.8s
+2026-01-30 15:24:48,271 | INFO | Iniciando alertas_retiros.py
+2026-01-30 15:24:53,029 | INFO | Salida alertas_retiros.py:
+Enviando alertas retiros...
+No hay nuevas alertas de retiros para enviar
+2026-01-30 15:24:53,030 | INFO | Finalizado alertas_retiros.py con estado OK en 2.9s
+2026-01-30 15:24:54,728 | INFO | Iniciando alertas_remisiones_expo.py
+2026-01-30 15:25:01,222 | INFO | Salida alertas_remisiones_expo.py:
+Enviando alertas remisiones...
+Se registró el logeo
+No hay bookings finalizados para enviar alerta
+2026-01-30 15:25:01,223 | INFO | Finalizado alertas_remisiones_expo.py con estado OK en 4.6s
+2026-01-30 15:25:03,020 | INFO | Resumen de ejecución:
+- alertas_arribos.py: OK (2.6s)
+- alertas_balanza.py: ERROR (4.4s)
+- alertas_expo.py: OK (2.8s)
+- alertas_retiros.py: OK (2.9s)
+- alertas_remisiones_expo.py: OK (4.6s)
+
+Errores:
+- alertas_balanza.py (code 1)
+  Traceback (most recent call last):
+  File "\\dc01\Usuarios\PowerBI\flastra\Documents\dassa_operativo_stream\alertas_balanza.py", line 63, in <module>
+    print(f"\U0001f50d Se encontraron {len(balanza)} nuevas operaciones de balanza para procesar.")
+  File "C:\Users\flastra\AppData\Local\anaconda3\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2026-01-30 15:25:03,021 | INFO | Alertas por email no configuradas. Defina ALERT_EMAIL_USER, ALERT_EMAIL_PASSWORD y ALERT_EMAIL_TO.
