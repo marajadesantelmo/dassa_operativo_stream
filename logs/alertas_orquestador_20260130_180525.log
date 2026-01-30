@@ -1,0 +1,42 @@
+2026-01-30 18:05:25,082 | INFO | Orquestador iniciado
+2026-01-30 18:05:27,070 | INFO | Iniciando alertas_arribos.py
+2026-01-30 18:05:31,480 | INFO | Salida alertas_arribos.py:
+Enviando alertas arribos...
+2026-01-30 18:05:31,481 | INFO | Finalizado alertas_arribos.py con estado OK en 2.0s
+2026-01-30 18:05:33,571 | INFO | Iniciando alertas_balanza.py
+2026-01-30 18:05:51,399 | INFO | Salida alertas_balanza.py:
+Se encontraron 2 nuevas operaciones de balanza para procesar.
+  ID Pesada                Cliente  ... Precinto  Estado
+0     67355  Minera Santa Rita Srl  ...        -  Pesado
+1     67354              Norfor Sa  ...        -  Pesado
+
+[2 rows x 25 columns]
+Procesando alerta para ID Pesada: 67355, Cliente: Minera Santa Rita Srl
+Email enviado exitosamente para ID Pesada: 67355
+Guardando nuevo registro de alerta para ID Pesada: 67355
+Procesando alerta para ID Pesada: 67354, Cliente: Norfor Sa
+Email enviado exitosamente para ID Pesada: 67354
+Guardando nuevo registro de alerta para ID Pesada: 67354
+2026-01-30 18:05:51,401 | INFO | Finalizado alertas_balanza.py con estado OK en 15.8s
+2026-01-30 18:05:53,482 | INFO | Iniciando alertas_expo.py
+2026-01-30 18:05:57,773 | INFO | Salida alertas_expo.py:
+No hay bookings finalizados para enviar alerta
+2026-01-30 18:05:57,774 | INFO | Finalizado alertas_expo.py con estado OK en 2.1s
+2026-01-30 18:05:59,744 | INFO | Iniciando alertas_retiros.py
+2026-01-30 18:06:04,651 | INFO | Salida alertas_retiros.py:
+Enviando alertas retiros...
+No hay nuevas alertas de retiros para enviar
+2026-01-30 18:06:04,652 | INFO | Finalizado alertas_retiros.py con estado OK en 2.7s
+2026-01-30 18:06:06,698 | INFO | Iniciando alertas_remisiones_expo.py
+2026-01-30 18:06:12,594 | INFO | Salida alertas_remisiones_expo.py:
+Enviando alertas remisiones...
+Se registró el logeo
+No hay bookings finalizados para enviar alerta
+2026-01-30 18:06:12,595 | INFO | Finalizado alertas_remisiones_expo.py con estado OK en 4.0s
+2026-01-30 18:06:14,649 | INFO | Resumen de ejecución:
+- alertas_arribos.py: OK (2.0s)
+- alertas_balanza.py: OK (15.8s)
+- alertas_expo.py: OK (2.1s)
+- alertas_retiros.py: OK (2.7s)
+- alertas_remisiones_expo.py: OK (4.0s)
+2026-01-30 18:06:16,594 | INFO | Orquestador finalizado OK
