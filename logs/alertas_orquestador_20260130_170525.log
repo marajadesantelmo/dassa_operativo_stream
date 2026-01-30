@@ -1,0 +1,42 @@
+2026-01-30 17:05:25,289 | INFO | Orquestador iniciado
+2026-01-30 17:05:28,032 | INFO | Iniciando alertas_arribos.py
+2026-01-30 17:05:32,785 | INFO | Salida alertas_arribos.py:
+Enviando alertas arribos...
+2026-01-30 17:05:32,787 | INFO | Finalizado alertas_arribos.py con estado OK en 2.4s
+2026-01-30 17:05:34,842 | INFO | Iniciando alertas_balanza.py
+2026-01-30 17:05:50,160 | INFO | Salida alertas_balanza.py:
+Se encontraron 2 nuevas operaciones de balanza para procesar.
+  ID Pesada                Cliente   CUIT Cliente  ... Permiso Emb. Precinto  Estado
+0     67346  Minera Santa Rita Srl  30-69414505-8  ...    265583225        -  Pesado
+1     67345            Isischu Srl  30-69839647-0  ...    265712867        -  Pesado
+
+[2 rows x 25 columns]
+Procesando alerta para ID Pesada: 67346, Cliente: Minera Santa Rita Srl
+Email enviado exitosamente para ID Pesada: 67346
+Guardando nuevo registro de alerta para ID Pesada: 67346
+Procesando alerta para ID Pesada: 67345, Cliente: Isischu Srl
+Email enviado exitosamente para ID Pesada: 67345
+Guardando nuevo registro de alerta para ID Pesada: 67345
+2026-01-30 17:05:50,161 | INFO | Finalizado alertas_balanza.py con estado OK en 13.3s
+2026-01-30 17:05:52,312 | INFO | Iniciando alertas_expo.py
+2026-01-30 17:05:56,904 | INFO | Salida alertas_expo.py:
+No hay bookings finalizados para enviar alerta
+2026-01-30 17:05:56,905 | INFO | Finalizado alertas_expo.py con estado OK en 2.3s
+2026-01-30 17:05:58,648 | INFO | Iniciando alertas_retiros.py
+2026-01-30 17:06:02,922 | INFO | Salida alertas_retiros.py:
+Enviando alertas retiros...
+No hay nuevas alertas de retiros para enviar
+2026-01-30 17:06:02,923 | INFO | Finalizado alertas_retiros.py con estado OK en 2.3s
+2026-01-30 17:06:04,639 | INFO | Iniciando alertas_remisiones_expo.py
+2026-01-30 17:06:10,518 | INFO | Salida alertas_remisiones_expo.py:
+Enviando alertas remisiones...
+Se registró el logeo
+No hay bookings finalizados para enviar alerta
+2026-01-30 17:06:10,519 | INFO | Finalizado alertas_remisiones_expo.py con estado OK en 4.1s
+2026-01-30 17:06:12,326 | INFO | Resumen de ejecución:
+- alertas_arribos.py: OK (2.4s)
+- alertas_balanza.py: OK (13.3s)
+- alertas_expo.py: OK (2.3s)
+- alertas_retiros.py: OK (2.3s)
+- alertas_remisiones_expo.py: OK (4.1s)
+2026-01-30 17:06:14,131 | INFO | Orquestador finalizado OK
