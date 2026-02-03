@@ -1,8 +1,8 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 41625,03/02,Lift Van Int. Co S.A,-,10082,DR,TD,                    ,BUA0359703,0,                              ,,     ,1899-12-30,Luis Angel Castañeda Zamora,                    ,Pendiente
 41640,03/02,Norfor Sa,-,10074,HC,TD,                    ,BUA0359963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41639,03/02,Norfor Sa,-,10074,HC,TD,                    ,BUA0359963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41638,03/02,Norfor Sa,-,10074,HC,TD,                    ,BUA0359963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41639,03/02,Norfor Sa,CMAU-499193-6,10074,HC,TD,K1271171            ,BUA0359963,1,TRANSPORTES LEIRA-NO USAR     ,Muller,10:14,1899-12-30,,                    ,10:14 Arribado
+41638,03/02,Norfor Sa,CMAU-870074-6,10074,HC,TD,  K1271087          ,BUA0359963,1,TRANSPORTE DEL CLIENTE        ,Solla Axel,10:12,1899-12-30,,                    ,10:12 Arribado
 41632,03/02,Norfor Sa,-,10074,HC,TD,                    ,BUA0359961,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41631,03/02,Norfor Sa,-,10074,HC,TD,                    ,BUA0359961,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41630,03/02,Norfor Sa,-,10074,HC,TD,                    ,BUA0359961,0,                              ,,     ,1899-12-30,,                    ,Pendiente
@@ -25,7 +25,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41653,03/02,Minera Santa Rita Srl,-,10080,DR,TD,                    ,265583225,0,                              ,,     ,1899-12-30,Fc 23-014,                    ,Pendiente
 41652,03/02,Minera Santa Rita Srl,-,10080,DR,TD,                    ,265583225,0,                              ,,     ,1899-12-30,Fc 23-014,                    ,Pendiente
 41651,03/02,Minera Santa Rita Srl,-,10080,DR,TD,                    ,265583225,0,                              ,,     ,1899-12-30,Fc 23-014,                    ,Pendiente
-41650,03/02,Minera Santa Rita Srl,-,10080,DR,TD,                    ,265583225,0,                              ,,     ,1899-12-30,Fc 23-014,                    ,Pendiente
-41649,03/02,Minera Santa Rita Srl,-,10080,DR,TD,                    ,265583225,0,                              ,,     ,1899-12-30,Fc 23-014,                    ,Pendiente
+41650,03/02,Minera Santa Rita Srl,MRKU-050478-8,10080,DR,TD,***************     ,265583225,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Martin,10:11,1899-12-30,Fc 23-014,                    ,10:11 Arribado
+41649,03/02,Minera Santa Rita Srl,MRKU-077976-4,10080,DR,TD,**************      ,265583225,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,10:10,1899-12-30,Fc 23-014,                    ,10:10 Arribado
 41641,03/02,Norfor Sa,-,10074,HC,TD,                    ,BUA0359963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41642,03/02,Norfor Sa,-,10074,HC,TD,                    ,BUA0359963,0,                              ,,     ,1899-12-30,,                    ,Pendiente
