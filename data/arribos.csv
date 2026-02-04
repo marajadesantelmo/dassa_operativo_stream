@@ -1,5 +1,5 @@
-Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,Chofer,Dimension
-T4,10:00,TLLU-524945-6,Edelweiss Spedition ...,262394916,DC,TD,-,14:29 Arribado,,60
-T4,10:00,HASU-516011-6,Noah Servicess.R.L.,262936781,DC,TD,-,13:51 Arribado,,60
-T4,10:00,ECMU-741760-5,Les Aliments S.A.S,BOM25110136,DC,TD,-,13:48 Arribado,,60
-EXOLGAN,11:00,HLBU-151727-1,Mercovan Argentina S...,HLCUBC1251217073,DC,TD,-,14:09 Arribado,,60
+Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Dimension,Oper.,Tiempo,Estado,Chofer
+T4,10:00,TLLU-524945-6,Edelweiss Spedition ...,262394916,DC,60,TD,-,14:29 Arribado,
+T4,10:00,HASU-516011-6,Noah Servicess.R.L.,262936781,DC,60,TD,-,13:51 Arribado,
+T4,10:00,ECMU-741760-5,Les Aliments S.A.S,BOM25110136,DC,60,TD,-,13:48 Arribado,
+EXOLGAN,11:00,HLBU-151727-1,Mercovan Argentina S...,HLCUBC1251217073,DC,60,TD,-,14:09 Arribado,
