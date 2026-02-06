@@ -1,6 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 41751,06/02,Mader Zu S.R.L.,-,TRP,HC,TD,                    ,COSU6444708820,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41765,06/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41765,06/02,Norfor Sa,GAOU-694935-6,TRP,HC,TD,**************      ,340600004570,1,TRANSPORTE DEL CLIENTE        ,Vidal,11:25,1899-12-30,,                    ,11:25 Arribado
 41764,06/02,Norfor Sa,EGHU-987187-0,TRP,HC,TD,************        ,340600004570,1,TRANSPORTE DEL CLIENTE        ,Escalante,10:57,1899-12-30,,                    ,10:57 Arribado
 41763,06/02,Norfor Sa,EGSU-608271-7,TRP,HC,TD,*********           ,340600004570,1,TRANSPORTE DEL CLIENTE        ,Ivan Czech,10:52,1899-12-30,,                    ,10:52 Arribado
 41762,06/02,Norfor Sa,TXGU-576333-8,TRP,HC,TD,***********         ,340600004570,1,TRANSPORTES LEIRA-NO USAR     ,Muller,10:49,1899-12-30,,                    ,10:49 Arribado
@@ -10,7 +10,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41769,06/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41768,06/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41767,06/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41766,06/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41766,06/02,Norfor Sa,EGSU-919495-8,TRP,HC,TD,************        ,340600004570,1,TRANSPORTE DEL CLIENTE        ,Ivan Rios,11:26,1899-12-30,,                    ,11:26 Arribado
 41759,06/02,Norfor Sa,EITU-164684-8,TRP,HC,TD,**********          ,340600004570,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,10:28,1899-12-30,,                    ,10:28 Arribado
 41758,06/02,Norfor Sa,TGBU-715548-4,TRP,HC,TD,****************    ,340600004570,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,10:22,1899-12-30,,                    ,10:22 Arribado
 41757,06/02,Norfor Sa,EGHU-938822-4,TRP,HC,TD,*************       ,340600004570,1,TRANSPORTE DEL CLIENTE        ,Solla Axel,10:04,1899-12-30,,                    ,10:04 Arribado
