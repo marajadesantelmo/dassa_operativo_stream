@@ -1,10 +1,10 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 41751,06/02,Mader Zu S.R.L.,-,TRP,HC,TD,                    ,COSU6444708820,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41765,06/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41764,06/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41763,06/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41762,06/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41761,06/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41764,06/02,Norfor Sa,EGHU-987187-0,TRP,HC,TD,************        ,340600004570,1,TRANSPORTE DEL CLIENTE        ,Escalante,10:57,1899-12-30,,                    ,10:57 Arribado
+41763,06/02,Norfor Sa,EGSU-608271-7,TRP,HC,TD,*********           ,340600004570,1,TRANSPORTE DEL CLIENTE        ,Ivan Czech,10:52,1899-12-30,,                    ,10:52 Arribado
+41762,06/02,Norfor Sa,TXGU-576333-8,TRP,HC,TD,***********         ,340600004570,1,TRANSPORTES LEIRA-NO USAR     ,Muller,10:49,1899-12-30,,                    ,10:49 Arribado
+41761,06/02,Norfor Sa,EGSU-935917-4,TRP,HC,TD,****************    ,340600004570,1,TRANSPORTE DEL CLIENTE        ,Solla Franco,10:37,1899-12-30,,                    ,10:37 Arribado
 41760,06/02,Norfor Sa,TGBU-629166-0,TRP,HC,TD,*************       ,340600004570,1,TRANSPORTE DEL CLIENTE        ,Maidana,10:34,1899-12-30,,                    ,10:34 Arribado
 41770,06/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41769,06/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004570,0,                              ,,     ,1899-12-30,,                    ,Pendiente
@@ -17,7 +17,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41756,06/02,Norfor Sa,EMCU-167960-8,TRP,HC,TD,*************       ,340600004570,1,TRANSPORTE DEL CLIENTE        ,Alvarez Adrian,09:52,1899-12-30,,                    ,09:52 Arribado
 41755,06/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004588,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41754,06/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004588,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41753,06/02,Borax Argentina S A,-,10080,DR,TD,                    ,265934332,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41753,06/02,Borax Argentina S A,TCLU-613118-2,10080,DR,TD,***********         ,265934332,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,10:56,1899-12-30,,                    ,10:56 Arribado
 41752,06/02,Mader Zu S.R.L.,-,TRP,HC,TD,                    ,COSU6444708820,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41749,06/02,Forestal Guarani Sa,TCLU-517804-0,10080,HC,TD,**************      ,36860677,1,TRANSPORTE DEL CLIENTE        ,Escalante,08:30,1899-12-30,,                    ,08:30 Arribado
 41750,06/02,Forestal Guarani Sa,-,10080,HC,TD,                    ,36860677,0,                              ,,     ,1899-12-30,,                    ,Pendiente
