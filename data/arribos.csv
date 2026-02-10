@@ -1,5 +1,9 @@
-Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Dimension,Oper.,Tiempo,Estado,Chofer
-TRP,12:00,PONU-807150-0,Bisora Group Sa,QDOS035220,HC,70,TD,-,15:21 Arribado,
-TERMINAL SUR,13:00,MSCU-539998-6,Noah Servicess.R.L.,MEDURS068803,HC,70,TD,-,17:34 Arribado,
-T4,15:00,TCLU-413098-9,Sk Distributors S.R....,DLSZ25120203,DC,60,TD,-,18:55 Arribado,
-EXOLGAN,15:00,HAMU-477120-6,A La Orden,,HC,70,TD,-,19:07 Arribado,
+Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,Chofer,Dimension
+TERMINAL SUR,05:00,MSMU-853067-8,Bisora Group Sa,NGBSE2511047,HC,T,00:25,Pendiente arribo,,70
+TRP,10:00,EITU-184731-2,Shipy S.A.,QD20250313,DC,T,-,Pendiente arribo,,60
+TRP,10:00,TXGU-530629-1,Shipy S.A.,QD20250313,DC,T,-,Pendiente arribo,,60
+TRP,12:00,YMMU-667310-9,Eurowitcel Sa,NB251270582,HC,TD,-,Pendiente arribo,,70
+TRP,13:00,EGHU-921506-5,Aoda Sa,33710002059,HC,T,-,Pendiente arribo,,70
+T4,13:00,BEAU-568034-0,Ruedas Liberal S.R.L...,262696609,HC,T,-,Pendiente arribo,,70
+T4,13:00,GESU-691924-7,Ruedas Liberal S.R.L...,262696609,HC,T,-,Pendiente arribo,,70
+EXOLGAN,13:00,MEDU-706932-0,Awam Tex Srl,NBOE25020321,HC,T,-,Pendiente arribo,,70
