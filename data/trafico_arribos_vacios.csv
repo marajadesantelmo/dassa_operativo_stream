@@ -1,7 +1,7 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 41874,10/02,Mercovan Argentina S.A.,-,Exolgan,DR,TD,                    ,20479953,0,                              ,,     ,1899-12-30,M. Loerena Vacatello,                    ,Pendiente
 41867,10/02,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG15687689,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41866,10/02,Hdv Leather S.R.L.,-,9,HC,TD,                    ,EBKG15687689,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41866,10/02,Hdv Leather S.R.L.,MEDU-770088-4,9,HC,TD,FX32969904          ,EBKG15687689,1,TRANSPORTE DEL CLIENTE        ,Borrelli,15:13,1899-12-30,,                    ,15:13 Arribado
 41865,10/02,Hdv Leather S.R.L.,TRHU-819961-8,9,HC,TD,FX32969960          ,EBKG15687689,1,TRANSPORTE DEL CLIENTE        ,Alvarez,12:22,1899-12-30,,                    ,12:22 Arribado
 41864,10/02,Hdv Leather S.R.L.,TCLU-778301-4,9,HC,TD,FX32969963          ,EBKG15687689,1,TRANSPORTE DEL CLIENTE        ,Czech,12:02,1899-12-30,,                    ,12:02 Arribado
 41863,10/02,Hdv Leather S.R.L.,FFAU-551280-4,9,HC,TD,FX32969965          ,EBKG15687689,1,TRANSPORTE DEL CLIENTE        ,Bertoli,11:58,1899-12-30,,                    ,11:58 Arribado
@@ -11,9 +11,9 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41861,10/02,Establecimiento Don Guillermo,-,10076,HC,TD,                    ,266164277,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41876,10/02,Borax Argentina S A,-,Exolgan,DR,TD,                    ,38880230,0,                              ,,     ,1899-12-30,Fact.12977,                    ,Pendiente
 41875,10/02,Borax Argentina S A,MRKU-071784-4,10080,DR,TD,************        ,266107361,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,11:26,1899-12-30,Fact 13005,                    ,11:26 Arribado
-41873,10/02,Pampa Logistica Internacional ...,-,10076,HC,TD,                    ,266166435,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41873,10/02,Pampa Logistica Internacional ...,CAAU-665742-9,10076,HC,TD,***********         ,266166435,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,15:26,1899-12-30,,                    ,15:26 Arribado
 41878,10/02,Lift Van Int. Co S.A,-,10080,DR,TD,                    ,27653690,0,                              ,,     ,1899-12-30,Owen Turner,                    ,Pendiente
-41897,10/02,Lift Van Int. Co S.A,-,10074,DR,TD,                    ,BUA0360775,0,                              ,,     ,1899-12-30,Juan Cruz Pasetto,                    ,Pendiente
+41897,10/02,Lift Van Int. Co S.A,CAIU-361592-6,10074,DR,TD,K1267361            ,BUA0360775,1,TRANSPORTE DEL CLIENTE        ,Czech,15:30,1899-12-30,Juan Cruz Pasetto,                    ,15:30 Arribado
 41869,10/02,Isischu Srl,-,10080,HC,TD,                    ,64327494,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41868,10/02,Maringa Maderas Sa,-,10080,HC,TD,                    ,28762191,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41911,11/02,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE500254700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
