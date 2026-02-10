@@ -1,13 +1,13 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-41874,10/02,Mercovan Argentina S.A.,-,Exolgan,DR,TD,                    ,20479953,0,                              ,,     ,1899-12-30,M. Loerena Vacatello,                    ,Pendiente
+41874,10/02,Mercovan Argentina S.A.,DFSU-161737-2,Exolgan,DR,TD,*************       ,20479953,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,17:44,1899-12-30,M. Loerena Vacatello,                    ,17:44 Arribado
 41867,10/02,Hdv Leather S.R.L.,CAAU-584709-1,9,HC,TD,FX32969950          ,EBKG15687689,1,TRANSPORTES LEIRA-NO USAR     ,Muller,15:37,1899-12-30,,                    ,15:37 Arribado
 41866,10/02,Hdv Leather S.R.L.,MEDU-770088-4,9,HC,TD,FX32969904          ,EBKG15687689,1,TRANSPORTE DEL CLIENTE        ,Borrelli,15:13,1899-12-30,,                    ,15:13 Arribado
 41865,10/02,Hdv Leather S.R.L.,TRHU-819961-8,9,HC,TD,FX32969960          ,EBKG15687689,1,TRANSPORTE DEL CLIENTE        ,Alvarez,12:22,1899-12-30,,                    ,12:22 Arribado
 41864,10/02,Hdv Leather S.R.L.,TCLU-778301-4,9,HC,TD,FX32969963          ,EBKG15687689,1,TRANSPORTE DEL CLIENTE        ,Czech,12:02,1899-12-30,,                    ,12:02 Arribado
 41863,10/02,Hdv Leather S.R.L.,FFAU-551280-4,9,HC,TD,FX32969965          ,EBKG15687689,1,TRANSPORTE DEL CLIENTE        ,Bertoli,11:58,1899-12-30,,                    ,11:58 Arribado
-41877,10/02,Atrim Argentina S.A.,-,10080,HC,TD,                    ,90033076,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41877,10/02,Atrim Argentina S.A.,HAMU-286027-0,10080,HC,TD,*********           ,90033076,1,TRANSPORTE DEL CLIENTE        ,Ivan Czech,17:38,1899-12-30,,                    ,17:38 Arribado
 41872,10/02,Pampa Logistica Internacional ...,HASU-457522-6,10076,HC,TD,************        ,266166435,1,TRANSPORTE DEL CLIENTE        ,Gonzales Martin,10:18,1899-12-30,,                    ,10:18 Arribado
-41862,10/02,Establecimiento Don Guillermo,-,10076,HC,TD,                    ,266164277,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41862,10/02,Establecimiento Don Guillermo,MRSU-321428-1,10076,HC,TD,**********          ,266164277,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,17:50,1899-12-30,,                    ,17:50 Arribado
 41861,10/02,Establecimiento Don Guillermo,MRSU-395061-5,10076,HC,TD,**************      ,266164277,1,TRANSPORTE DEL CLIENTE        ,Bollota,17:12,1899-12-30,,                    ,17:12 Arribado
 41876,10/02,Borax Argentina S A,FBIU-012031-8,Exolgan,DR,TD,**************      ,38880230,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,17:22,1899-12-30,Fact.12977,                    ,17:22 Arribado
 41875,10/02,Borax Argentina S A,MRKU-071784-4,10080,DR,TD,************        ,266107361,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,11:26,1899-12-30,Fact 13005,                    ,11:26 Arribado
@@ -15,7 +15,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41878,10/02,Lift Van Int. Co S.A,HLXU-540825-5,10080,DR,TD,*********           ,27653690,1,TRANSPORTE DEL CLIENTE        ,Borrelli,17:17,1899-12-30,Owen Turner,                    ,17:17 Arribado
 41897,10/02,Lift Van Int. Co S.A,CAIU-361592-6,10074,DR,TD,K1267361            ,BUA0360775,1,TRANSPORTE DEL CLIENTE        ,Czech,15:30,1899-12-30,Juan Cruz Pasetto,                    ,15:30 Arribado
 41869,10/02,Isischu Srl,TLLU-528339-0,10080,HC,TD,***************     ,64327494,1,TRANSPORTE DEL CLIENTE        ,Gonzales,17:24,1899-12-30,,                    ,17:24 Arribado
-41868,10/02,Maringa Maderas Sa,-,10080,HC,TD,                    ,28762191,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41868,10/02,Maringa Maderas Sa,HLBU-287558-3,10080,HC,TD,**************      ,28762191,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,17:36,1899-12-30,,                    ,17:36 Arribado
 41911,11/02,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE500254700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41892,11/02,Minera Santa Rita Srl,-,10080,DR,TD,                    ,266049284,0,                              ,,     ,1899-12-30,Fc 23-011,                    ,Pendiente
 41904,11/02,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE500254700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
