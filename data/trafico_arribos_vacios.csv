@@ -10,9 +10,9 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41881,11/02,Swallow Trade,-,10076,HC,TD,                    ,266169857,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41880,11/02,Swallow Trade,MRKU-325303-2,10076,HC,TD,************        ,266169857,1,TRANSPORTES LEIRA-NO USAR     ,Muller,10:43,1899-12-30,,                    ,10:43 Arribado
 41879,11/02,Swallow Trade,MSKU-164140-5,10076,HC,TD,**************      ,266169857,1,TRANSPORTE DEL CLIENTE        ,Peril,10:32,1899-12-30,,                    ,10:32 Arribado
-41890,11/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004847,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41891,11/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004847,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41948,11/02,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,26001EC01000621U,1,TRANSPORTE DEL CLIENTE        ,.,11:42,1899-12-30,,                    ,11:42 Arribado
+41889,11/02,Norfor Sa,EGSU-188154-1,TRP,HC,TD,**********          ,340600004847,1,TRANSPORTE DEL CLIENTE        ,Czech,09:45,1899-12-30,,                    ,09:45 Arribado
+41890,11/02,Norfor Sa,-,TRP,HC,TD,                    ,340600004847,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41911,11/02,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE500254700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41910,11/02,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE500254700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41909,11/02,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE500254700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
@@ -21,9 +21,10 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41906,11/02,Henn Y Cia S.R.L.,PCIU-853358-3,10,HC,TD,***********         ,BUE500254700,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,11:42,1899-12-30,,                    ,11:42 Arribado
 41905,11/02,Henn Y Cia S.R.L.,PCIU-906086-5,10,HC,TD,***********         ,BUE500254700,1,TRANSPORTE DEL CLIENTE        ,Czech,10:29,1899-12-30,,                    ,10:29 Arribado
 41904,11/02,Henn Y Cia S.R.L.,PCIU-888133-6,10,HC,TD,*********           ,BUE500254700,1,TRANSPORTE DEL CLIENTE        ,Gonzales,10:17,1899-12-30,,                    ,10:17 Arribado
+41949,11/02,Pelama Chubut S.A.,MRKU-078401-4,10080,DR,TD,***************     ,266105812,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,12:12,1899-12-30,,266105812           ,12:12 Arribado
 41943,11/02,Pelama Chubut S.A.,MRKU-011307-9,10080,DR,TD,************        ,266104503,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,10:37,1899-12-30,,266104503           ,10:37 Arribado
 41892,11/02,Minera Santa Rita Srl,SUDU-769730-2,10080,DR,TD,***********         ,266049284,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,10:40,1899-12-30,Fc 23-011,                    ,10:40 Arribado
-41889,11/02,Norfor Sa,EGSU-188154-1,TRP,HC,TD,**********          ,340600004847,1,TRANSPORTE DEL CLIENTE        ,Czech,09:45,1899-12-30,,                    ,09:45 Arribado
+41948,11/02,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,26001EC01000621U,1,TRANSPORTE DEL CLIENTE        ,.,11:42,1899-12-30,,                    ,11:42 Arribado
 41895,12/02,Forestal Guarani Sa,-,10076,HC,TD,                    ,266005875,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41893,12/02,Forestal Guarani Sa,-,10076,HC,TD,                    ,266005875,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41894,12/02,Forestal Guarani Sa,-,10076,HC,TD,                    ,266005875,0,                              ,,     ,1899-12-30,,                    ,Pendiente
