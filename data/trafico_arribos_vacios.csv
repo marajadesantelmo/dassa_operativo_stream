@@ -7,14 +7,13 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41880,11/02,Swallow Trade,MRKU-325303-2,10076,HC,TD,************        ,266169857,1,TRANSPORTES LEIRA-NO USAR     ,Muller,10:43,1899-12-30,,                    ,10:43 Arribado
 41881,11/02,Swallow Trade,MRSU-301478-7,10076,HC,TD,************        ,266169857,1,TRANSPORTE DEL CLIENTE        ,Golpe,12:30,1899-12-30,,                    ,12:30 Arribado
 41882,11/02,Swallow Trade,MRKU-540236-7,10076,HC,TD,**********          ,266169857,1,TRANSPORTE DEL CLIENTE        ,Solla Axel,13:50,1899-12-30,,                    ,13:50 Arribado
-41883,11/02,Swallow Trade,-,10076,HC,TD,                    ,266169857,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41883,11/02,Swallow Trade,MRSU-534026-8,10076,HC,TD,***********         ,266169857,1,TRANSPORTES LEIRA-NO USAR     ,Muller,17:00,1899-12-30,,                    ,17:00 Arribado
 41948,11/02,Henn Y Cia S.R.L.,-,0,  ,TD,                    ,26001EC01000621U,1,TRANSPORTE DEL CLIENTE        ,.,11:42,1899-12-30,,                    ,11:42 Arribado
 41911,11/02,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE500254700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41910,11/02,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE500254700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41884,11/02,Swallow Trade,-,10076,HC,TD,                    ,266169857,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41884,11/02,Swallow Trade,CAAU-915648-3,10076,HC,TD,*************       ,266169857,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,17:03,1899-12-30,,                    ,17:03 Arribado
 41885,11/02,Swallow Trade,-,10076,HC,TD,                    ,266169857,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41909,11/02,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE500254700,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41908,11/02,Henn Y Cia S.R.L.,PCIU-957151-0,10,HC,TD,**********          ,BUE500254700,1,TRANSPORTE DEL CLIENTE        ,Czech,14:14,1899-12-30,,                    ,14:14 Arribado
 41907,11/02,Henn Y Cia S.R.L.,PCIU-920071-4,10,HC,TD,**********          ,BUE500254700,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,12:27,1899-12-30,,                    ,12:27 Arribado
 41906,11/02,Henn Y Cia S.R.L.,PCIU-853358-3,10,HC,TD,***********         ,BUE500254700,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,11:42,1899-12-30,,                    ,11:42 Arribado
 41905,11/02,Henn Y Cia S.R.L.,PCIU-906086-5,10,HC,TD,***********         ,BUE500254700,1,TRANSPORTE DEL CLIENTE        ,Czech,10:29,1899-12-30,,                    ,10:29 Arribado
@@ -22,14 +21,16 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41886,11/02,Swallow Trade,-,10076,HC,TD,                    ,266169857,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41887,11/02,Swallow Trade,-,10076,HC,TD,                    ,266169857,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41888,11/02,Swallow Trade,-,10076,HC,TD,                    ,266169857,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41970,11/02,Pelama Chubut S.A.,CSGU-223874-5,10076,DR,TD,************        ,COSU6444595550,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,16:56,1899-12-30,,COSU6444595550      ,16:56 Arribado
 41949,11/02,Pelama Chubut S.A.,MRKU-078401-4,10080,DR,TD,***************     ,266105812,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,12:12,1899-12-30,,266105812           ,12:12 Arribado
 41943,11/02,Pelama Chubut S.A.,MRKU-011307-9,10080,DR,TD,************        ,266104503,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,10:37,1899-12-30,,266104503           ,10:37 Arribado
 41892,11/02,Minera Santa Rita Srl,SUDU-769730-2,10080,DR,TD,***********         ,266049284,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,10:40,1899-12-30,Fc 23-011,                    ,10:40 Arribado
+41908,11/02,Henn Y Cia S.R.L.,PCIU-957151-0,10,HC,TD,**********          ,BUE500254700,1,TRANSPORTE DEL CLIENTE        ,Czech,14:14,1899-12-30,,                    ,14:14 Arribado
+41966,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41893,12/02,Forestal Guarani Sa,-,10076,HC,TD,                    ,266005875,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41894,12/02,Forestal Guarani Sa,-,10076,HC,TD,                    ,266005875,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41966,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41965,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41959,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41958,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41963,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41967,12/02,Minera Santa Rita Srl,-,10080,DR,TD,                    ,266003587,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41968,12/02,A La Orden,-,Exolgan,HC,TD,                    ,EBKG15591931,0,                              ,,     ,1899-12-30,Oblan Sa,                    ,Pendiente
@@ -41,8 +42,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41953,12/02,Henn Y Cia S.R.L.,-,10,DR,TD,                    ,BUE600022100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41954,12/02,Henn Y Cia S.R.L.,-,10,DR,TD,                    ,BUE600022100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41955,12/02,Henn Y Cia S.R.L.,-,10,DR,TD,                    ,BUE600022100,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41958,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41895,12/02,Forestal Guarani Sa,-,10076,HC,TD,                    ,266005875,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41959,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41960,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41961,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41962,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
