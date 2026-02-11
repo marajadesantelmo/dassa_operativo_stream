@@ -16,7 +16,6 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-01-28,EXOLGAN,1500 ,HAMU-421056-6,Baires International,HLCUBC1251213726,TD,HC,70,1,18:40 Arribado
 2026-01-30,EXOLGAN,0500 ,MSMU-546618-0,Baires International,MEDUOQ807507,TD,HC,70,1,09:16 Arribado
 2026-02-09,EXOLGAN,1500 ,HAMU-477120-6,A La Orden,,TD,HC,70,1,19:07 Arribado
-2026-02-11,EXOLGAN,1300 ,MRKU-865020-1,A La Orden,263912875A,TD,HC,30,0,Pendiente arribo
 2026-02-10,T4,1300 ,BEAU-568034-0,Ruedas Liberal S.R.L.,262696609,T,HC,70,1,17:41 Arribado
 2026-02-10,T4,1300 ,GESU-691924-7,Ruedas Liberal S.R.L.,262696609,T,HC,70,1,16:37 Arribado
 2026-01-30,T4,0600 ,ZHLU-202220-8,Dpmg S.A.,262928431,T,is,30,1,08:43 Arribado
@@ -26,6 +25,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-01-23,T4,1200 ,MRKU-933123-5,Refractarios Argentinos Saicm,PCBUE25110005,TD,DR,30,1,16:24 Arribado
 2026-01-23,T4,1200 ,MSKU-376466-7,Refractarios Argentinos Saicm,PCBUE25110005,TD,DR,30,1,16:34 Arribado
 2026-02-03,TRP,1300 ,OOCU-103786-0,Refractarios Argentinos Saicm,COSU6436898080,TD,DC,30,1,15:52 Arribado
+2026-02-12,T4,1300 ,MRSU-006740-1,Refractarios Argentinos Saicm,262837051,TD,HC,30,0,Pendiente arribo
 2026-02-06,TRP,1600 ,TCKU-114247-0,Refractarios Argentinos Saicm,PCBUE25110003,TD,DC,30,1,20:36 Arribado
 2026-02-06,TRP,1600 ,CAIU-620434-3,Refractarios Argentinos Saicm,PCBUE25110003,TD,DC,30,1,20:42 Arribado
 2026-02-06,TRP,1700 ,HASU-144525-5,Refractarios Argentinos Saicm,PCBUE25110003,TD,DC,30,1,20:24 Arribado
@@ -97,3 +97,4 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-02-05,TRP,0700 ,FBLU-490560-1,Merco Vial S.A.,OOLU2316143560,TD,HC,70,1,09:12 Arribado
 2026-02-05,TRP,0700 ,OOLU-423106-8,Merco Vial S.A.,OOLU2316143560,TD,HC,70,1,08:39 Arribado
 2026-02-10,TRP,1200 ,YMMU-667310-9,Eurowitcel Sa,NB251270582,TD,HC,70,1,15:14 Arribado
+2026-02-11,EXOLGAN,1300 ,MRKU-865020-1,Gonzalez Augusto Andres,263912875A,TD,HC,30,0,Pendiente arribo
