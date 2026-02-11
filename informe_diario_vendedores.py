@@ -129,9 +129,8 @@ clientes['Cliente'] = clientes['Cliente'].apply(lambda x: x[:20] + "..." if len(
 
 dic_vendedores = pd.read_excel(path + 'diccionario_vendedores_puros_dassa.xlsx')
 dic_vendedores = dic_vendedores[dic_vendedores['nombre_vendedor'] != 'Otros']
-
-
-
+#Saco a Andre de la lista
+dic_vendedores = dic_vendedores[~dic_vendedores['nombre_vendedor'].str.contains('Andrea')]
 vendedores = dic_vendedores['nombre_vendedor'].unique()
 
 for vendedor in vendedores:
