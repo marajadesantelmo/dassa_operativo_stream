@@ -1,10 +1,10 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-41967,12/02,Minera Santa Rita Srl,-,10080,DR,TD,                    ,266003587,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41967,12/02,Minera Santa Rita Srl,PONU-192460-0,10080,DR,TD,*************       ,266003587,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,11:56,1899-12-30,,                    ,11:56 Arribado
 41893,12/02,Forestal Guarani Sa,TCKU-770015-7,10076,HC,TD,************        ,266005875,1,TRANSPORTE DEL CLIENTE        ,Solla Axel,11:02,1899-12-30,,                    ,11:02 Arribado
 41966,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41965,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41964,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-41963,12/02,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9047210,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41963,12/02,Lawter Argentina S.A.,TCLU-572302-1,10074,HC,TD,***********         ,ZIMUBUE9047210,1,TRANSPORTE DEL CLIENTE        ,Czech,11:46,1899-12-30,,                    ,11:46 Arribado
 41962,12/02,Lawter Argentina S.A.,TCNU-476624-2,10074,HC,TD,************        ,ZIMUBUE9047210,1,TRANSPORTE DEL CLIENTE        ,Escalante,11:40,1899-12-30,,                    ,11:40 Arribado
 41961,12/02,Lawter Argentina S.A.,ZCSU-720211-1,10074,HC,TD,*************       ,ZIMUBUE9047210,1,TRANSPORTES LEIRA-NO USAR     ,Muller,10:41,1899-12-30,,                    ,10:41 Arribado
 41960,12/02,Lawter Argentina S.A.,ZCSU-708305-4,10074,HC,TD,************        ,ZIMUBUE9047210,1,TRANSPORTE DEL CLIENTE        ,Alvarez,11:37,1899-12-30,,                    ,11:37 Arribado
@@ -19,5 +19,5 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 41951,12/02,Hector Reboratti,-,Exolgan,HC,TD,                    ,EBKG15732941,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41950,12/02,Hector Reboratti,-,Exolgan,HC,TD,                    ,EBKG15732941,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 41968,12/02,A La Orden,MSNU-745852-5,Exolgan,HC,TD,FX33005694          ,EBKG15591931,1,TRANSPORTE DEL CLIENTE        ,Peril,10:10,1899-12-30,Oblan Sa,                    ,10:10 Arribado
-41895,12/02,Forestal Guarani Sa,-,10076,HC,TD,                    ,266005875,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+41895,12/02,Forestal Guarani Sa,MRSU-405572-8,10076,HC,TD,*************       ,266005875,1,TRANSPORTE DEL CLIENTE        ,Peril,12:05,1899-12-30,,                    ,12:05 Arribado
 41896,12/02,Forestal Guarani Sa,-,10076,HC,TD,                    ,266005875,0,                              ,,     ,1899-12-30,,                    ,Pendiente
