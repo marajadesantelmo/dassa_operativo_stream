@@ -1,8 +1,8 @@
-Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,Chofer,Dimension
-TRP,04:00,EMCU-829070-5,Planet Seguridad S.R...,NSZEC251104489,HC,T,02:59,Pendiente arribo,,70
-T4,13:00,MRKU-790151-3,Refractarios Argenti...,262837051,HC,TD,-,Pendiente arribo,,30
-T4,13:00,MRKU-561713-3,Noah Servicess.R.L.,264176476,HC,TD,-,Pendiente arribo,,70
-T4,14:00,HLBU-825887-1,Grupo Rsm Srl,HLCUBSC260136349,HC,TD,-,Pendiente arribo,,70
-TRP,04:00,OOCU-879211-6,Grupo Tecnoled S.R.L...,NSHEC251145615,HC,T,02:59,Pendiente arribo,,70
-T4,13:00,MRSU-006740-1,Refractarios Argenti...,262837051,HC,TD,-,Pendiente arribo,,30
-TERMINAL SUR,13:00,TGHU-142275-4,Lift Van Int. Co S.A,HLCUBC1251250482,HC,TD,-,Pendiente arribo,,30
+Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Dimension,Oper.,Tiempo,Estado,Chofer
+TRP,04:00,EMCU-829070-5,Planet Seguridad S.R...,NSZEC251104489,HC,70,T,03:20,Pendiente arribo,
+TRP,04:00,OOCU-879211-6,Grupo Tecnoled S.R.L...,NSHEC251145615,HC,70,T,03:20,Pendiente arribo,
+T4,13:00,MRKU-790151-3,Refractarios Argenti...,262837051,HC,30,TD,-,Pendiente arribo,
+T4,13:00,MRSU-006740-1,Refractarios Argenti...,262837051,HC,30,TD,-,Pendiente arribo,
+T4,13:00,MRKU-561713-3,Noah Servicess.R.L.,264176476,HC,70,TD,-,Pendiente arribo,
+TERMINAL SUR,13:00,TGHU-142275-4,Lift Van Int. Co S.A,HLCUBC1251250482,HC,30,TD,-,Pendiente arribo,
+T4,14:00,HLBU-825887-1,Grupo Rsm Srl,HLCUBSC260136349,HC,70,TD,-,Pendiente arribo,
