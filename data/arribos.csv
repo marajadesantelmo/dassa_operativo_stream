@@ -1,23 +1,23 @@
-Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Oper.,Tiempo,Estado,Chofer,Dimension
-TRP,04:00,TGBU-603895-0,Aoda Sa,NB251068712,HC,T,00:59,Pendiente arribo,,70
-TRP,05:00,SEKU-554429-5,Grupo Simpa Sa,S3PL2526176,HC,TD,-,Pendiente arribo,,70
-T4,05:00,MRSU-557570-3,Domatel S. R. L.,XNO725002262,HC,T,-,Pendiente arribo,,70
-T4,05:00,MRSU-913530-1,Grapot Sa,NBOE25020762,HC,T,-,Pendiente arribo,,70
-T4,05:00,MSKU-949634-5,Bisora Group Sa,GILNB251201136A/B,HC,T,-,Pendiente arribo,,70
-EXOLGAN,13:00,MSMU-610261-8,La Tela Srl,SHA31173940,,T,-,Pendiente arribo,,60
-T4,16:00,MRSU-003281-1,Plasticos Del Futuro...,OXOE2512022,DC,T,-,Pendiente arribo,,30
-TRP,18:00,TRHU-400959-8,Lift Van Int. Co S.A,OOLU2766440760,HC,TD,-,Pendiente arribo,,70
-TRP,20:00,TIIU-614604-4,Impacto Jean S.A.,HDE251200016,HC,TD,-,Pendiente arribo,,70
-TRP,21:00,EGHU-843374-0,Impacto Jean S.A.,HDE25-1100094,HC,T,-,Pendiente arribo,,70
-TRP,02:00,CAIU-709841-5,Citrus Del Norte S.A...,CX0529702,,T,02:59,Pendiente arribo,,60
-T4,05:00,TTNU-129510-0,Refractarios Argenti...,TSN25120055,DC,TD,-,Pendiente arribo,,30
-T4,05:00,MRSU-703968-0,Vc Textil Srl,NBO725020204,HC,T,-,Pendiente arribo,,70
-T4,05:00,CAJU-502286-2,Domatel S. R. L.,XNOE25002262,HC,T,-,Pendiente arribo,,70
-T4,05:00,PONU-824404-0,Bisora Group Sa,GILNB251200690,HC,T,-,Pendiente arribo,,70
-TERMINAL SUR,07:00,MSMU-738799-0,Bisora Group Sa,NBOE25020653A/B,HC,T,-,Pendiente arribo,,70
-EXOLGAN,15:00,CAAU-229452-0,Lift Van Int. Co S.A,HLCUBC1251258809,DC,TD,-,Pendiente arribo,,30
-TERMINAL SUR,15:00,TXGU-420929-7,Grapot Sa,SHOE25013399,HC,T,-,Pendiente arribo,,70
-TRP,17:00,CSNU-673279-7,Juliana Sa,OOLU2315489630,HC,T,-,Pendiente arribo,,70
-T4,20:00,SEGU-430307-2,Lift Van Int. Co S.A,ISB1862894,HC,TD,-,Pendiente arribo,,70
-T4,20:00,SEKU-569054-0,Lift Van Int. Co S.A,ISB1862894,HC,TD,-,Pendiente arribo,,70
-TRP,21:00,TRHU-633543-8,Dmc Import Group S.R...,TSSZ2512052,HC,T,-,Pendiente arribo,,70
+Terminal,Turno,Contenedor,Cliente,Booking,Tipo CNT,Dimension,Oper.,Tiempo,Estado,Chofer
+TRP,02:00,CAIU-709841-5,Citrus Del Norte S.A...,CX0529702,,60,T,03:55,Pendiente arribo,
+TRP,04:00,TGBU-603895-0,Aoda Sa,NB251068712,HC,70,T,01:55,Pendiente arribo,
+T4,05:00,TTNU-129510-0,Refractarios Argenti...,TSN25120055,DC,30,TD,00:55,Pendiente arribo,
+TRP,05:00,SEKU-554429-5,Grupo Simpa Sa,S3PL2526176,HC,70,TD,00:55,Pendiente arribo,
+T4,05:00,MRSU-703968-0,Vc Textil Srl,NBO725020204,HC,70,T,00:55,Pendiente arribo,
+T4,05:00,MRSU-557570-3,Domatel S. R. L.,XNO725002262,HC,70,T,00:55,Pendiente arribo,
+T4,05:00,CAJU-502286-2,Domatel S. R. L.,XNOE25002262,HC,70,T,00:55,Pendiente arribo,
+T4,05:00,MRSU-913530-1,Grapot Sa,NBOE25020762,HC,70,T,00:55,Pendiente arribo,
+T4,05:00,PONU-824404-0,Bisora Group Sa,GILNB251200690,HC,70,T,00:55,Pendiente arribo,
+T4,05:00,MSKU-949634-5,Bisora Group Sa,GILNB251201136A/B,HC,70,T,00:55,Pendiente arribo,
+TERMINAL SUR,07:00,MSMU-738799-0,Bisora Group Sa,NBOE25020653A/B,HC,70,T,-,Pendiente arribo,
+EXOLGAN,13:00,MSMU-610261-8,La Tela Srl,SHA31173940,,60,T,-,Pendiente arribo,
+EXOLGAN,15:00,CAAU-229452-0,Lift Van Int. Co S.A,HLCUBC1251258809,DC,30,TD,-,Pendiente arribo,
+TERMINAL SUR,15:00,TXGU-420929-7,Grapot Sa,SHOE25013399,HC,70,T,-,Pendiente arribo,
+T4,16:00,MRSU-003281-1,Plasticos Del Futuro...,OXOE2512022,DC,30,T,-,Pendiente arribo,
+TRP,17:00,CSNU-673279-7,Juliana Sa,OOLU2315489630,HC,70,T,-,Pendiente arribo,
+TRP,18:00,TRHU-400959-8,Lift Van Int. Co S.A,OOLU2766440760,HC,70,TD,-,Pendiente arribo,
+T4,20:00,SEGU-430307-2,Lift Van Int. Co S.A,ISB1862894,HC,70,TD,-,Pendiente arribo,
+TRP,20:00,TIIU-614604-4,Impacto Jean S.A.,HDE251200016,HC,70,TD,-,Pendiente arribo,
+T4,20:00,SEKU-569054-0,Lift Van Int. Co S.A,ISB1862894,HC,70,TD,-,Pendiente arribo,
+TRP,21:00,EGHU-843374-0,Impacto Jean S.A.,HDE25-1100094,HC,70,T,-,Pendiente arribo,
+TRP,21:00,TRHU-633543-8,Dmc Import Group S.R...,TSSZ2512052,HC,70,T,-,Pendiente arribo,
