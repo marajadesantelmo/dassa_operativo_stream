@@ -1,10 +1,6 @@
 Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribado,Estado
 2026-02-21,TRP,1100 ,KOCU-516369-2,S/D,HMM25H1319517,TD,  ,60,0,Pendiente arribo
 2026-02-21,None,1500 ,SEGU-582964-7,S/D,24H0840084,TD,HC,70,0,Pendiente arribo
-2026-02-20,None,1100 ,FFAU-271300-7,S/D,ML-CN2258593,TD,HC,70,0,Pendiente arribo
-2026-02-20,None,1100 ,MRKU-395832-0,S/D,ML-CN2258552,TD,HC,70,0,Pendiente arribo
-2026-02-20,None,1100 ,MRSU-783401-7,S/D,ML-CN2257852,TD,HC,70,0,Pendiente arribo
-2026-02-20,None,1100 ,MRKU-258273-2,S/D,ML-CN2258405,TD,HC,70,0,Pendiente arribo
 2026-02-04,EXOLGAN,1100 ,HLBU-151727-1,Mercovan Argentina S.A.,HLCUBC1251217073,TD,DC,60,1,14:09 Arribado
 2026-02-13,T4,2000 ,SEGU-430307-2,Mercovan Argentina S.A.,ISB1862894,TD,HC,70,1,22:05 Arribado
 2026-02-13,T4,2000 ,SEKU-569054-0,Mercovan Argentina S.A.,ISB1862894,TD,HC,70,1,22:02 Arribado
@@ -62,6 +58,10 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-02-20,T4,0500 ,CAIU-464466-2,Chemotecnica Sa,SSZBUE02298,TD,HC,30,0,Pendiente arribo
 2026-02-11,EXOLGAN,1300 ,HOYU-262543-0,Unimers Argentina S.A.,1814681,TD,HC,30,1,15:48 Arribado
 2026-02-11,EXOLGAN,1300 ,HOYU-967562-3,Unimers Argentina S.A.,1814680,T,HC,30,1,15:48 Arribado
+2026-02-20,T4,1100 ,FFAU-571300-7,Eramine Sudamerica Sa,ML-CN2258593,TD,HC,70,0,Pendiente arribo
+2026-02-20,T4,1100 ,MRKU-395832-0,Eramine Sudamerica Sa,ML-CN2258552,TD,HC,70,0,Pendiente arribo
+2026-02-20,T4,1100 ,MRSU-783401-7,Eramine Sudamerica Sa,ML-CN2257852,TD,HC,70,0,Pendiente arribo
+2026-02-20,T4,1100 ,MRKU-258273-2,Eramine Sudamerica Sa,ML-CN2258405,TD,HC,70,0,Pendiente arribo
 2026-01-30,EXOLGAN,0500 ,MSBU-335877-3,Noah Servicess.R.L.,MEDUOQ433650,TD,DR,30,1,09:11 Arribado
 2026-02-04,T4,1000 ,HASU-516011-6,Noah Servicess.R.L.,262936781,TD,DC,60,1,13:51 Arribado
 2026-02-06,TRP,1600 ,APZU-480015-0,Noah Servicess.R.L.,IBC1428976,TD,  ,60,1,18:06 Arribado
@@ -92,7 +92,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-01-29,T4,0500 ,MRKU-633982-3,Xiadex Srl,NBOE25020707,T,HC,70,1,08:34 Arribado
 2026-01-29,T4,0500 ,MRKU-372910-8,Xiadex Srl,NBOE25020606,T,HC,70,1,09:59 Arribado
 2026-02-11,EXOLGAN,0500 ,MEDU-811370-5,Xiadex Srl,NBOE25020431,T,  ,60,1,08:46 Arribado
-2026-02-20,T4,     ,TCLU-576418-6,Xiadex Srl,NBOE25020269,TD,HC,70,0,Pendiente arribo
+2026-02-20,T4,0600 ,TCLU-576418-6,Xiadex Srl,NBOE25020269,TD,HC,70,0,Pendiente arribo
 2026-02-06,T4,1500 ,MRKU-045943-6,Car Pro Accesorios S.R.L,TCQD2512026,T,DC,60,1,17:45 Arribado
 2026-02-13,TRP,2000 ,TIIU-614604-4,Impacto Jean S.A.,HDE251200016,TD,HC,70,0,Pendiente arribo
 2026-02-13,TRP,2100 ,EGHU-843374-0,Impacto Jean S.A.,HDE25-1100094,T,HC,70,0,Pendiente arribo
