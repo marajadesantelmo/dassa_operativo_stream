@@ -1,6 +1,6 @@
 Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribado,Estado
-2026-02-21,TRP,1100 ,KOCU-516369-2,S/D,HMM25H1319517,TD,  ,60,0,Pendiente arribo
-2026-02-21,None,1500 ,SEGU-582964-7,S/D,24H0840084,TD,HC,70,0,Pendiente arribo
+2026-02-23,TRP,1200 ,KOCU-516369-2,S/D,HMM25H1319517,TD,  ,60,0,Pendiente arribo
+2026-02-23,None,1200 ,SEGU-582964-7,S/D,24H0840084,TD,HC,70,0,Pendiente arribo
 2026-02-04,EXOLGAN,1100 ,HLBU-151727-1,Mercovan Argentina S.A.,HLCUBC1251217073,TD,DC,60,1,14:09 Arribado
 2026-02-13,T4,2000 ,SEGU-430307-2,Mercovan Argentina S.A.,ISB1862894,TD,HC,70,1,22:05 Arribado
 2026-02-13,T4,2000 ,SEKU-569054-0,Mercovan Argentina S.A.,ISB1862894,TD,HC,70,1,22:02 Arribado
@@ -100,7 +100,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-02-20,TRP,1500 ,TCNU-110308-2,Vestiditos Sa,001049/26,TD,HC,70,0,Pendiente arribo
 2026-02-20,TRP,1500 ,CMAU-749985-3,Vestiditos Sa,001049/26,TD,HC,70,0,Pendiente arribo
 2026-02-20,TRP,1500 ,BMOU-661308-5,Vestiditos Sa,001049/26,TD,HC,70,0,Pendiente arribo
-2026-02-21,T4,1200 ,MRSU-557207-3,Rinox S.A.,DLSZ25110370,TD,  ,60,0,Pendiente arribo
+2026-02-21,T4,1200 ,MRSU-557207-3,Rinox S.A.,DLSZ25110370,TD,HC,70,0,Pendiente arribo
 2026-02-11,EXOLGAN,1300 ,HAMU-189052-0,Grupo Tecnoled S.R.L.,XDSEF251215736,TD,HC,70,1,17:23 Arribado
 2026-02-12,TRP,0400 ,OOCU-879211-6,Grupo Tecnoled S.R.L.,NSHEC251145615,T,HC,70,1,08:36 Arribado
 2026-02-04,T4,1000 ,ECMU-741760-5,Les Aliments S.A.S,BOM25110136,TD,DC,60,1,13:48 Arribado
