@@ -3,7 +3,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 42211,24/02,Lift Van Int. Co S.A,HLXU-127357-3,Exolgan,DR,TD,********************,34525904,1,TRANSPORTE DEL CLIENTE        ,Muller Pedro,13:38,1899-12-30,Natalia Marquez,                    ,13:38 Arribado
 42201,24/02,Capilatis S.A.,HAMU-151001-9,10080,HC,TD,HLD 0437899         ,36064517,1,TRANSPORTE DEL CLIENTE        ,Peril,10:10,1899-12-30,,                    ,10:10 Arribado
 42203,24/02,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE600032800,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-42204,24/02,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE600033800,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+42204,24/02,Henn Y Cia S.R.L.,PCIU-857454-0,10,HC,TD,********************,BUE600033800,1,TRANSPORTE DEL CLIENTE        ,Schaumeyer,14:52,1899-12-30,,                    ,14:52 Arribado
 42205,24/02,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE600033800,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 42206,24/02,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE600033800,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 42207,24/02,Henn Y Cia S.R.L.,-,10,HC,TD,                    ,BUE600033800,0,                              ,,     ,1899-12-30,,                    ,Pendiente
@@ -14,3 +14,4 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 42221,24/02,Hdv Leather S.R.L.,TTNU-518935-9,9,DR,TD,FX33006886          ,EBKG15810196,1,TRANSPORTE DEL CLIENTE        ,Maidana,12:25,1899-12-30,,EBKG15810196        ,12:25 Arribado
 42209,24/02,Indelval S A I Y C,GLDU-344585-5,99988,DR,TD,FX32953136          ,153IAR0655614,1,TRANSPORTE DEL CLIENTE        ,Alvarez Adrian,11:30,1899-12-30,,                    ,11:30 Arribado
 42220,24/02,Maderas Y Transporte S.R.L.,-,10080,HC,TD,                    ,26620139,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+42231,25/02,Lift Van Int. Co S.A,-,Exolgan,DR,TD,                    ,77246371,0,                              ,,     ,1899-12-30,"Crawford, James",                    ,Pendiente
