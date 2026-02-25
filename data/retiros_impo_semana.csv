@@ -38,13 +38,13 @@ Dia,Cliente,Operacion,Contenedor,Conocim.,Envase,Cant.,Volumen,Ubic.,Estado,Hora
 23/02,Minera Del Mojotoro ...,40759-0-5,MAEU-419890-4,ABTCJS033334,Contenedor,1.0,0.0,PLZA,11:24 Realizado,8:30 ,-,-
 24/02,Dmc Import Group S.R...,41377-0-1,TRHU-633543-8,TSSZ2512052,Contenedor,1.0,0.0,PLZA,10:58 Realizado,8:00 ,-,-
 24/02,Bisora Group Sa,41430-0-1,TCLU-564841-6,GILNB251200171,Contenedor,1.0,0.0,PLZA,15:41 Realizado,8:30 ,-,-
-24/02,Arauco Argentina Sa,41396-0-1,,CL157903486,Pallets,1.0,1.56,IB5,En curso,8:00 ,-,-
+24/02,Arauco Argentina Sa,41396-0-2,,CL157903487,Pallets,3.0,3.0,IB5,En curso,8:00 ,-,-
 24/02,Grapot Sa,41436-0-1,MRSU-908418-5,NBOE25020973,Contenedor,1.0,0.0,PLZA,15:41 Realizado,8:00 ,-,-
 24/02,Vestiditos Sa,41417-0-3,CMAU-749985-3,001049/26,Contenedor,1.0,0.0,PLZA,15:41 Realizado,8:00 ,-,-
 24/02,Vestiditos Sa,41417-0-2,TCNU-110308-2,001049/26,Contenedor,1.0,0.0,PLZA,15:41 Realizado,8:00 ,-,-
-24/02,Arauco Argentina Sa,41396-0-2,,CL157903487,Pallets,3.0,3.0,IB5,En curso,8:00 ,-,-
+24/02,Arauco Argentina Sa,41396-0-1,,CL157903486,Pallets,1.0,1.56,IB5,En curso,8:00 ,-,-
 25/02,Noah Servicess.R.L.,41218-2-1,APZU-480015-0,1428976B,Bultos,1.0,40.0,ANEXO,En curso,9:00 ,http://dassa.mqbic.com/PublicTally.php?id=3888,
-25/02,Rueda Oeste S.A.,41453-0-1,KOCU-492687-1,TCSZ2512507A,Contenedor,1.0,0.0,PLZA,10:01 Realizado,9:00 ,-,-
+25/02,Refractarios Argenti...,41230-4-1,MRSU-042018-6,PCBUE25110003,Bultos,25.0,20.0,ANEXO,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=3892,
 25/02,Vestiditos Sa,41417-0-1,GAOU-684599-0,001049/26,Contenedor,1.0,0.0,PLZA,En curso,8:00 ,-,-
 25/02,Vestiditos Sa,41417-0-4,BMOU-661308-5,001049/26,Contenedor,1.0,0.0,PLZA,En curso,8:00 ,-,-
 25/02,Italbo S.R.L.,41451-0-1,KOCU-516369-2,002086H,Contenedor,1.0,0.0,PLZA,En curso,8:00 ,-,-
@@ -54,8 +54,8 @@ Dia,Cliente,Operacion,Contenedor,Conocim.,Envase,Cant.,Volumen,Ubic.,Estado,Hora
 25/02,Refractarios Argenti...,41230-1-1,TCKU-114247-0,PCBUE25110003,Bultos,25.0,20.0,ANEXO,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=3889,
 25/02,Refractarios Argenti...,41230-2-1,HASU-144525-5,PCBUE25110003,Bultos,25.0,20.0,ANEXO,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=3891,
 25/02,Refractarios Argenti...,41230-3-1,CAIU-620434-3,PCBUE25110003,Bultos,25.0,20.0,ANEXO,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=3890,
+25/02,Rueda Oeste S.A.,41453-0-1,KOCU-492687-1,TCSZ2512507A,Contenedor,1.0,0.0,PLZA,10:01 Realizado,9:00 ,-,-
 25/02,Xiadex Srl,41278-0-1,MEDU-811370-5,NBOE25020431,Contenedor,1.0,0.0,PLZA,Pendiente,8:30 ,-,-
-25/02,Refractarios Argenti...,41230-4-1,MRSU-042018-6,PCBUE25110003,Bultos,25.0,20.0,ANEXO,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=3892,
 25/02,Mazon Textil Sa,41465-0-1,MRSU-909150-1,NBOE26021317,Contenedor,1.0,0.0,PLZA,Pendiente,8:30 ,-,-
 26/02,Bymar Transforwardin...,41027-1-1,FTAU-211368-6,BYG25041201,Bultos,265.0,25.0,ANEX-A1,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=3876,
 26/02,Xiadex Srl,41437-0-1,MSMU-867941-9,GILSH251100056,Contenedor,1.0,0.0,PLZA,Pendiente,8:00 ,-,-
@@ -63,6 +63,7 @@ Dia,Cliente,Operacion,Contenedor,Conocim.,Envase,Cant.,Volumen,Ubic.,Estado,Hora
 26/02,Grouport Srl,40109-3-1,MAEU-469749-9,HTNB25100125,Bultos,8.0,11.0,PLZA,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=3479,
 26/02,Noah Servicess.R.L.,41218-1-1,APZU-480015-0,1428976A,Bultos,175.0,40.0,ANEXO,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=3888,
 26/02,Grouport Srl,40109-2-1,MAEU-470064-8,HTNB25100125,Bultos,4.0,5.5,PLZA,17:13 Realizado,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=3480,http://dassa.mqbic.com/NewTallySalida.php?id=1312
-27/02,Rueda Oeste S.A.,41452-0-1,SEGU-582964-7,TCSZ2512507B,Contenedor,1.0,60.0,PLZA,Pendiente,8:00 ,-,-
-27/02,Refractarios Argenti...,41410-1-1,CLHU-390344-0,PCBUE25120001,Bultos,25.0,25.0,IB9,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=3965,
 27/02,Lift Van Int. Co S.A,41406-1-1,TGHU-116304-1,LIFBUE26010008,Bultos,5.0,30.0,ANEX-A1,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=3956,
+27/02,Refractarios Argenti...,41410-1-1,CLHU-390344-0,PCBUE25120001,Bultos,25.0,25.0,IB9,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=3965,
+27/02,Rueda Oeste S.A.,41452-0-1,SEGU-582964-7,TCSZ2512507B,Contenedor,1.0,60.0,PLZA,Pendiente,8:00 ,-,-
+02/03,Telamania Srl,40640-1-1,MEDU-797623-4,NGB31160766,Rollos,751.0,68.0,CTNNAC,Pendiente,8:00 ,http://dassa.mqbic.com/PublicTally.php?id=3702,
