@@ -9,8 +9,7 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Tipo,T-TD,Ubicacion,e-tal
 41593-0-1,Domatel S. R. L.,Clothers,-,MRSU-919715-5,02-03-2026,HC,T,PLZA,
 41583-0-1,El Campo Sa,Prefab Warehouse,-,OOCU-812458-6,27-02-2026,HC,T,PLZA,
 41581-0-3,Poka S.A.,Household,-,EGSU-651726-0,27-02-2026,HC,T,PLZA,
-41557-0-1,Grupo Rsm Srl,Carga Consolida,-,MRKU-098048-6,27-02-2026,HC,TD,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=4018
-41557-0-1,Grupo Rsm Srl,Carga Consolida,-,MRKU-098048-6,27-02-2026,HC,TD,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=4018
+41558-0-1,Grupo Rsm Srl,Mudanza,-,MRSU-520255-1,27-02-2026,HC,TD,PLZA,
 41577-0-1,Shipy S.A.,House,-,EGSU-125016-6,27-02-2026,HC,T,PLZA,
 41573-0-2,E A Balbi E Hijos S ...,Quilt,-,EMCU-618471-0,27-02-2026,HC,T,PLZA,
 41581-0-1,Poka S.A.,Household,-,EGSU-651694-2,27-02-2026,HC,T,PLZA,
@@ -20,7 +19,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Tipo,T-TD,Ubicacion,e-tal
 41574-0-1,Cl Global S.R.L.,Food  Preparations,-,CSNU-555595-3,27-02-2026,HC,TD,PLZA,
 41580-0-1,Inter American Cargo...,Qdc,-,PCIU-962019-4,27-02-2026,HC,TD,PLZA,
 41572-0-1,Jupam Sa,Textile Fabrics,EGLV142504103604,EITU-919019-0,27-02-2026,HC,T,PLZA,
-41558-0-1,Grupo Rsm Srl,Mudanza,-,MRSU-520255-1,27-02-2026,HC,TD,PLZA,
+41557-0-1,Grupo Rsm Srl,Carga Consolida,-,MRKU-098048-6,27-02-2026,HC,TD,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=4018
+41557-0-1,Grupo Rsm Srl,Carga Consolida,-,MRKU-098048-6,27-02-2026,HC,TD,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=4018
 41573-0-1,E A Balbi E Hijos S ...,Quilt,-,EGHU-959622-8,27-02-2026,HC,T,PLZA,
 41579-0-1,Refractarios Argenti...,Colloidal Silica,-,RFCU-227881-9,27-02-2026,HC,TD,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=4037
 41583-0-2,El Campo Sa,Prefab Warehouse,-,FBLU-491486-1,27-02-2026,HC,T,PLZA,
@@ -62,12 +62,12 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Tipo,T-TD,Ubicacion,e-tal
 40842-0-1,Dpmg S.A.,Gas Refrigerante,-,SEGU-818424-3,19-01-2026,is,-,PLZA,
 40841-0-1,Dpmg S.A.,Gas Refrigerante,-,DCIU-552742-0,19-01-2026,is,-,PLZA,
 40797-0-1,Dpmg S.A.,Refrigerant Gas,-,TIFU-524416-9,16-01-2026,is,-,PLZA,
-40469-0-1,Minera Del Mojotoro ...,Machinery,-,MAEU-408723-8,26-12-2025,HC,-,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3598
+40469-0-5,Minera Del Mojotoro ...,Machinery,-,MAEU-421660-7,26-12-2025,HC,-,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3602
 40469-0-4,Minera Del Mojotoro ...,Machinery,-,MAEU-418378-2,26-12-2025,HC,-,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3601
 40471-0-1,Shipy S.A.,Earphones,-,EMCU-158007-1,26-12-2025,HC,-,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3619
-40469-0-3,Minera Del Mojotoro ...,Machinery,-,MAEU-417857-5,26-12-2025,HC,-,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3600
 40469-0-2,Minera Del Mojotoro ...,Machinery,-,MAEU-417185-8,26-12-2025,HC,-,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3599
-40469-0-5,Minera Del Mojotoro ...,Machinery,-,MAEU-421660-7,26-12-2025,HC,-,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3602
+40469-0-1,Minera Del Mojotoro ...,Machinery,-,MAEU-408723-8,26-12-2025,HC,-,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3598
+40469-0-3,Minera Del Mojotoro ...,Machinery,-,MAEU-417857-5,26-12-2025,HC,-,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3600
 40368-0-1,Jupam Sa,Telas,-,EGHU-979981-6,19-12-2025,HC,-,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3553
 40369-0-1,Jupam Sa,Telas,-,EITU-912745-3,19-12-2025,HC,-,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3554
 40109-4-1,Grouport Srl,Tempered Glass,HTNB25100125,MAEU-464550-9,11-12-2025,OT,-,PLZA,http://dassaweb.mqbic.com/PublicTally.php?id=3478
