@@ -98,6 +98,8 @@ def show_page_expo(allowed_clients=None, apply_mudanceras_filter=False):
         a_consolidar = a_consolidar[a_consolidar['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
         
 
+    st.warning("⚠️ Tablero migrado a www.dassa.tech — En caso de necesitar soporte o generación usuario por favor contactar a auto@dassa.com.ar")
+
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
         st.image('logo.png')

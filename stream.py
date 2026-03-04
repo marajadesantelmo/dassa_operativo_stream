@@ -64,6 +64,7 @@ if st.session_state.get('logged_in', False) and st.session_state.get('username',
     count = st_autorefresh(interval=refresh_interval_ms, limit=None, key="auto-refresh")
 
 if not st.session_state['logged_in']:
+    st.warning("⚠️ Tablero migrado a www.dassa.tech — En caso de necesitar soporte o generación usuario por favor contactar a auto@dassa.com.ar")
     st.title("Login")
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")

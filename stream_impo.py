@@ -99,6 +99,8 @@ def show_page_impo(allowed_clients=None, apply_mudanceras_filter=False):
         existente_alm = existente_alm[existente_alm['Cliente'].str.contains('|'.join(mudanceras_filter), case=False, na=False)]
 
 
+    st.warning("⚠️ Tablero migrado a www.dassa.tech — En caso de necesitar soporte o generación usuario por favor contactar a auto@dassa.com.ar")
+
     col_logo, col_title = st.columns([2, 5])
     with col_logo:
         st.image('logo.png')
