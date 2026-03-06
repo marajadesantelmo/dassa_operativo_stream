@@ -33,8 +33,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2025-09-10,37400,MRKU-092697-3,Lift Van Int. Co S.A,259005939,******************* ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=7392
 2025-09-11,37542,APZU-362697-5,Lift Van Int. Co S.A,BUA0349854,R8695197            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=7347
 2026-03-05,42450,,Lift Van Int. Co S.A,263832661,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
-2026-03-05,42455,TCNU-441840-0,Lift Van Int. Co S.A,263832661,************        ,Arribado,
-2026-03-05,42469,,Lift Van Int. Co S.A,26975939,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-03-05,42455,TCNU-441840-0,Lift Van Int. Co S.A,263832661,************        ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28944
+2026-03-05,42469,CAIU-660583-4,Lift Van Int. Co S.A,26975939,************        ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28946
 2026-02-25,42231,FCIU-654404-3,Lift Van Int. Co S.A,77246371,******************  ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28890
 2026-02-25,42260,,Lift Van Int. Co S.A,77246371,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2026-02-27,42334,TCLU-414336-9,Lift Van Int. Co S.A,27085960,**************      ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28914
@@ -159,7 +159,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2025-11-12,39290,TRHU-663454-7,Aniceto Gomez Sa,BUEF13140900,*************       ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27826
 2025-12-04,40017,TGCU-519639-0,Aniceto Gomez Sa,BUEF13612600,******************* ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28023
 2026-01-16,41244,GCXU-521350-5,Aniceto Gomez Sa,BUEG00320600,********            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28387
-2026-03-05,42452,,Aniceto Gomez Sa,14237748,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-03-05,42452,FDCU-012808-0,Aniceto Gomez Sa,14237748,********************,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28945
 2026-03-05,42457,,Aniceto Gomez Sa,14237748,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2025-10-03,38156,TLLU-213616-3,A La Orden,259833210,**************      ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=17539
 2025-10-03,38156,TLLU-213616-3,A La Orden,259833210,**************      ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=7562
@@ -316,6 +316,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2026-03-03,42375,JXLU-327462-1,Anan S.A.,ZIMUBUE9047516,**********          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28924
 2026-03-05,42451,,Anan S.A.,266464212,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2026-03-05,42456,,Anan S.A.,266464212,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-03-06,42488,,Anan S.A.,26001EC03002204V,                    ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2025-12-10,40172,BMOU-277876-5,Anan S.A.,24324113,************        ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28054
 2026-02-18,42077,TEMU-163540-2,Anan S.A.,ZIMUBUE9047372,***********         ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28840
 2026-03-03,42397,TRHU-842331-1,Hilado Sa,266423306,********            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28930
@@ -981,8 +982,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2026-02-10,41862,MRSU-321428-1,Establecimiento Don ...,266164277,**********          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28636
 2025-09-22,37142,MSKU-664504-4,Lawter Argentina S.A...,258940403,*************       ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=7426
 2025-09-22,37143,MRKU-097933-5,Lawter Argentina S.A...,258940403,********************,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=7427
-2026-03-05,42458,MRKU-031873-6,Lawter Argentina S.A...,266153675,***********         ,Arribado,
-2026-03-05,42459,MRKU-051474-4,Lawter Argentina S.A...,266153675,************        ,Arribado,
+2026-03-06,42490,,Lawter Argentina S.A...,266156832,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-03-06,42491,,Lawter Argentina S.A...,266156832,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-03-06,42492,,Lawter Argentina S.A...,266156832,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-03-06,42493,,Lawter Argentina S.A...,266156832,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-03-06,42489,,Lawter Argentina S.A...,266156832,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-03-05,42458,MRKU-031873-6,Lawter Argentina S.A...,266153675,***********         ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28948
+2026-03-05,42459,MRKU-051474-4,Lawter Argentina S.A...,266153675,************        ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28949
 2026-03-05,42460,,Lawter Argentina S.A...,266153675,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2026-03-04,42422,MSBU-457750-2,Lawter Argentina S.A...,153IAR0655829,FX32955463          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28936
 2026-03-04,42423,MSDU-456466-8,Lawter Argentina S.A...,153IAR0655829,FX32955293          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28937
@@ -1383,7 +1389,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2025-09-23,37824,TRHU-242290-9,Litoral Citrus S A,153IAR0652268,FX32911757          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=7442
 2025-10-17,38533,CAIU-682571-5,Litoral Citrus S A,EBKG14423084,FX32922561          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27624
 2025-10-23,38681,MSBU-321747-7,Litoral Citrus S A,EBKG14487166,FX32913673          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27664
-2026-03-03,42418,TCLU-213021-2,Litoral Citrus S A,EBKG15984263,FX32965000          ,Arribado,
+2026-03-03,42418,TCLU-213021-2,Litoral Citrus S A,EBKG15984263,FX32965000          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28947
 2026-03-04,42468,RFCU-227881-9,Litoral Citrus S A,BUA0361849,                    ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28943
 2026-01-09,41120,TEMU-185780-0,Litoral Citrus S A,27423574,*************       ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28361
 2026-01-15,41229,DFSU-269426-5,Litoral Citrus S A,78881208,***********         ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28388
