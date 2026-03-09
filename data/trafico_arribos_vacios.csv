@@ -1,7 +1,6 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-42514,09/03,S/D,NYKU-380832-6,0,  ,TD,************        ,,1,TRANSPORTE DEL CLIENTE        ,Escalante,09:35,1899-12-30,,                    ,09:35 Arribado
-42507,09/03,Minera Santa Rita Srl,-,10080,HC,TD,                    ,267107907,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-42508,09/03,Minera Santa Rita Srl,-,10080,HC,TD,                    ,267107907,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-42509,09/03,Minera Santa Rita Srl,-,10080,HC,TD,                    ,267107885,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-42510,09/03,Minera Santa Rita Srl,-,10080,HC,TD,                    ,267107885,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-42506,09/03,Pelama Chubut S.A.,-,TRP,DR,TD,                    ,BUEG01969500,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+42507,09/03,Minera Santa Rita Srl,MRSU-359490-0,10080,HC,TD,***********         ,267107907,1,TRANSPORTE DEL CLIENTE        ,Gonzales Martin,10:43,1899-12-30,,                    ,10:43 Arribado
+42508,09/03,Minera Santa Rita Srl,TCKU-707383-8,10080,HC,TD,***************     ,267107907,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,10:53,1899-12-30,,                    ,10:53 Arribado
+42509,09/03,Minera Santa Rita Srl,MRKU-589985-0,10080,HC,TD,****************    ,267107885,1,TRANSPORTE DEL CLIENTE        ,Bertoli,10:47,1899-12-30,,                    ,10:47 Arribado
+42510,09/03,Minera Santa Rita Srl,TGBU-888699-2,10080,HC,TD,************        ,267107885,1,TRANSPORTE DEL CLIENTE        ,Gonzales,10:50,1899-12-30,,                    ,10:50 Arribado
+42514,09/03,Pelama Chubut S.A.,NYKU-380832-6,TRP,DR,TD,************        ,BUEG01969500,1,TRANSPORTE DEL CLIENTE        ,Escalante,09:35,1899-12-30,,                    ,09:35 Arribado
