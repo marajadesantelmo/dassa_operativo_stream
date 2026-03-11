@@ -1,5 +1,5 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-42571,11/03,Mercovan Argentina S.A.,-,10080,DR,TD,                    ,40824842,0,                              ,,     ,1899-12-30,"Geurdes, Hugo",                    ,Pendiente
+42571,11/03,Mercovan Argentina S.A.,HLBU-153726-2,10080,DR,TD,**********          ,40824842,1,TRANSPORTE DEL CLIENTE        ,Alvarez,11:46,1899-12-30,"Geurdes, Hugo",                    ,11:46 Arribado
 42583,11/03,Pelama Chubut S.A.,-,Exolgan,DR,TD,                    ,32261158,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 42551,11/03,Tipoiti Satic,UASU-104471-7,10080,HC,TD,**************      ,73126044,1,TRANSPORTE DEL CLIENTE        ,Ivan Rios,11:38,1899-12-30,,                    ,11:38 Arribado
 42557,11/03,Borax Argentina S A,CMAU-098825-6,TRP,DR,TD,K1271669            ,BUA0363547,1,TRANSPORTE DEL CLIENTE        ,Peril,09:09,1899-12-30,Fact: 13054,                    ,09:09 Arribado
