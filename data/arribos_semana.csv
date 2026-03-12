@@ -1,6 +1,4 @@
 Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribado,Estado
-2026-03-13,T4,1300 ,MRSU-930739-7,S/D,BSZFL2601188,T,HC,70,0,Pendiente arribo
-2026-03-13,T4,1300 ,MRSU-917884-9,S/D,BSZFL2601188,T,HC,70,0,Pendiente arribo
 2026-02-23,EXOLGAN,1300 ,UACU-859358-0,Mercovan Argentina S.A.,HLCUBC1251257002,TD,HC,70,1,18:21 Arribado
 2026-03-03,TRP,0900 ,ONEU-736876-8,Mercovan Argentina S.A.,ONEYISTF23002400,TD,HC,70,1,13:52 Arribado
 2026-03-10,EXOLGAN,0500 ,HLBU-124399-3,Mercovan Argentina S.A.,HLCUME3260121821,TD,HC,30,1,11:04 Arribado
@@ -92,6 +90,9 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-03-04,T4,0600 ,ZCSU-691914-0,Aceptyourdestiny Sa,FDNBSE2601102,T,HC,70,1,09:36 Arribado
 2026-03-06,T4,1400 ,GAOU-643767-9,Aceptyourdestiny Sa,FDNBSE2601125,T,HC,70,1,17:45 Arribado
 2026-03-06,T4,1400 ,BEAU-500909-7,Aceptyourdestiny Sa,FDNBSE2601124,T,HC,70,1,18:08 Arribado
+2026-03-13,T4,0600 ,TGBU-626558-0,Aceptyourdestiny Sa,FDNBSE2601183,T,HC,70,0,Pendiente arribo
+2026-03-13,T4,1300 ,CAAU-872579-6,Aceptyourdestiny Sa,FDNBSE2601086,T,HC,70,0,Pendiente arribo
+2026-03-13,T4,0600 ,ZSCU-699184-3,Aceptyourdestiny Sa,FDNBSE2602059,T,HC,70,0,Pendiente arribo
 2026-02-26,TRP,1000 ,CSNU-736894-6,Noah Servicess.R.L.,COSU6440209590,TD,HC,70,1,14:28 Arribado
 2026-03-02,T4,0600 ,MSKU-994537-0,Noah Servicess.R.L.,285695398,TD,HC,70,1,10:11 Arribado
 2026-03-06,T4,1000 ,MRKU-065227-6,Noah Servicess.R.L.,265401386,TD,DR,60,1,14:19 Arribado
