@@ -2,8 +2,8 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 42668,16/03,Minera Santa Rita Srl,MRKU-033893-8,10080,DR,TD,*********           ,267375603,1,TRANSPORTE DEL CLIENTE        ,Escalante,09:52,1899-12-30,,                    ,09:52 Arribado
 42661,16/03,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,266469563,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 42660,16/03,Hdv Leather S.R.L.,FFAU-228705-8,10080,HC,TD,************        ,266469563,1,TRANSPORTE DEL CLIENTE        ,Bertoli,10:14,1899-12-30,,                    ,10:14 Arribado
-42659,16/03,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,266469585,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-42658,16/03,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,266469585,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+42659,16/03,Hdv Leather S.R.L.,MRSU-374755-2,10080,HC,TD,**********          ,266469585,1,TRANSPORTES LEIRA-NO USAR     ,Muller,10:41,1899-12-30,,                    ,10:41 Arribado
+42658,16/03,Hdv Leather S.R.L.,MRKU-516468-0,10080,HC,TD,***********         ,266469585,1,TRANSPORTE DEL CLIENTE        ,Borrelli,10:37,1899-12-30,,                    ,10:37 Arribado
 42657,16/03,Hdv Leather S.R.L.,TGBU-682835-9,10080,HC,TD,**********          ,266469585,1,TRANSPORTE DEL CLIENTE        ,Peril,09:55,1899-12-30,,                    ,09:55 Arribado
 42667,16/03,Lawter Argentina S.A.,MRKU-020401-3,10080,DR,TD,************        ,266985774,1,TRANSPORTE DEL CLIENTE        ,Garcia,09:54,1899-12-30,,                    ,09:54 Arribado
 42678,16/03,Borax Argentina S A,MRKU-677178-1,10080,DR,TD,***********         ,267433713,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,09:17,1899-12-30,Fact 13108,                    ,09:17 Arribado
@@ -20,6 +20,6 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 42665,16/03,Hilado Sa,-,10076,HC,TD,                    ,267155318,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 42664,16/03,Hilado Sa,-,10076,HC,TD,                    ,267155318,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 42663,16/03,Hilado Sa,-,10076,HC,TD,                    ,267155318,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-42662,16/03,Hilado Sa,-,10076,HC,TD,                    ,267155318,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+42662,16/03,Hilado Sa,TCLU-589733-7,10076,HC,TD,************        ,267155318,1,TRANSPORTE DEL CLIENTE        ,Ivan Czech,10:39,1899-12-30,,                    ,10:39 Arribado
 42679,16/03,Haciendo Historia Srl,MSBU-310628-3,9,DR,TD,FX32963305          ,EBKG16159490,1,TRANSPORTE DEL CLIENTE        ,Alvarez,09:38,1899-12-30,,                    ,09:38 Arribado
 42680,16/03,Haciendo Historia Srl,AXIU-145322-4,9,HC,TD,FX32963321          ,EBKG16159490,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Martin,10:30,1899-12-30,,                    ,10:30 Arribado
