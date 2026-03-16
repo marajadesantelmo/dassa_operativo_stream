@@ -1,7 +1,7 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
 42668,16/03,Minera Santa Rita Srl,MRKU-033893-8,10080,DR,TD,*********           ,267375603,1,TRANSPORTE DEL CLIENTE        ,Escalante,09:52,1899-12-30,,                    ,09:52 Arribado
 42661,16/03,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,266469563,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-42660,16/03,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,266469563,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+42660,16/03,Hdv Leather S.R.L.,FFAU-228705-8,10080,HC,TD,************        ,266469563,1,TRANSPORTE DEL CLIENTE        ,Bertoli,10:14,1899-12-30,,                    ,10:14 Arribado
 42659,16/03,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,266469585,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 42658,16/03,Hdv Leather S.R.L.,-,10080,HC,TD,                    ,266469585,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 42657,16/03,Hdv Leather S.R.L.,TGBU-682835-9,10080,HC,TD,**********          ,266469585,1,TRANSPORTE DEL CLIENTE        ,Peril,09:55,1899-12-30,,                    ,09:55 Arribado
@@ -9,7 +9,7 @@ orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arr
 42678,16/03,Borax Argentina S A,MRKU-677178-1,10080,DR,TD,***********         ,267433713,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,09:17,1899-12-30,Fact 13108,                    ,09:17 Arribado
 42677,16/03,Borax Argentina S A,MRKU-735704-0,10080,DR,TD,**********          ,267433713,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,09:14,1899-12-30,Fact 13108,                    ,09:14 Arribado
 42676,16/03,Borax Argentina S A,-,10080,DR,TD,                    ,267433604,0,                              ,,     ,1899-12-30,Fact.13107,                    ,Pendiente
-42675,16/03,Borax Argentina S A,-,10080,DR,TD,                    ,267433604,0,                              ,,     ,1899-12-30,Fact.13107,                    ,Pendiente
+42675,16/03,Borax Argentina S A,MRKU-934820-1,10080,DR,TD,***********         ,267433604,1,TRANSPORTE DEL CLIENTE        ,Maidana,10:06,1899-12-30,Fact.13107,                    ,10:06 Arribado
 42674,16/03,Borax Argentina S A,MRKU-720872-5,10080,DR,TD,************        ,267433604,1,TRANSPORTE DEL CLIENTE        ,Maidana,10:03,1899-12-30,Fact.13107,                    ,10:03 Arribado
 42673,16/03,Borax Argentina S A,TEMU-092550-0,10080,DR,TD,***********         ,267433604,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,09:27,1899-12-30,Fact.13107,                    ,09:27 Arribado
 42672,16/03,Borax Argentina S A,MSKU-767055-0,10080,DR,TD,**********          ,267433604,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,09:23,1899-12-30,Fact.13107,                    ,09:23 Arribado
