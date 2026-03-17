@@ -1,49 +1,25 @@
 orden,fecha,cliente,contenedor,terminal,tipo_cnt,operacion,precinto,bookings,arribado,empresa,chofer,hora_ing,vto_vacio,desc_merc,permemb,Estado
-42680,16/03,Haciendo Historia Srl,AXIU-145322-4,9,HC,TD,FX32963321          ,EBKG16159490,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Martin,10:30,1899-12-30,,                    ,10:30 Arribado
-42677,16/03,Borax Argentina S A,MRKU-735704-0,10080,DR,TD,**********          ,267433713,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,09:14,1899-12-30,Fact 13108,                    ,09:14 Arribado
-42676,16/03,Borax Argentina S A,HASU-111355-9,10080,DR,TD,*************       ,267433604,1,TRANSPORTE DEL CLIENTE        ,Solla Axel,11:36,1899-12-30,Fact.13107,                    ,11:36 Arribado
-42675,16/03,Borax Argentina S A,MRKU-934820-1,10080,DR,TD,***********         ,267433604,1,TRANSPORTE DEL CLIENTE        ,Maidana,10:06,1899-12-30,Fact.13107,                    ,10:06 Arribado
-42667,16/03,Lawter Argentina S.A.,MRKU-020401-3,10080,DR,TD,************        ,266985774,1,TRANSPORTE DEL CLIENTE        ,Garcia,09:54,1899-12-30,,                    ,09:54 Arribado
-42679,16/03,Haciendo Historia Srl,MSBU-310628-3,9,DR,TD,FX32963305          ,EBKG16159490,1,TRANSPORTE DEL CLIENTE        ,Alvarez,09:38,1899-12-30,,                    ,09:38 Arribado
-42657,16/03,Hdv Leather S.R.L.,TGBU-682835-9,10080,HC,TD,**********          ,266469585,1,TRANSPORTE DEL CLIENTE        ,Peril,09:55,1899-12-30,,                    ,09:55 Arribado
-42658,16/03,Hdv Leather S.R.L.,MRKU-516468-0,10080,HC,TD,***********         ,266469585,1,TRANSPORTE DEL CLIENTE        ,Borrelli,10:37,1899-12-30,,                    ,10:37 Arribado
-42659,16/03,Hdv Leather S.R.L.,MRSU-374755-2,10080,HC,TD,**********          ,266469585,1,TRANSPORTES LEIRA-NO USAR     ,Muller,10:41,1899-12-30,,                    ,10:41 Arribado
-42678,16/03,Borax Argentina S A,MRKU-677178-1,10080,DR,TD,***********         ,267433713,1,TRANSPORTE DEL CLIENTE        ,Ortiz Nahuel,09:17,1899-12-30,Fact 13108,                    ,09:17 Arribado
-42674,16/03,Borax Argentina S A,MRKU-720872-5,10080,DR,TD,************        ,267433604,1,TRANSPORTE DEL CLIENTE        ,Maidana,10:03,1899-12-30,Fact.13107,                    ,10:03 Arribado
-42673,16/03,Borax Argentina S A,TEMU-092550-0,10080,DR,TD,***********         ,267433604,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,09:27,1899-12-30,Fact.13107,                    ,09:27 Arribado
-42660,16/03,Hdv Leather S.R.L.,FFAU-228705-8,10080,HC,TD,************        ,266469563,1,TRANSPORTE DEL CLIENTE        ,Bertoli,10:14,1899-12-30,,                    ,10:14 Arribado
-42671,16/03,Borax Argentina S A,MRKU-756279-1,10080,DR,TD,*************       ,267433604,1,TRANSPORTE DEL CLIENTE        ,Solla Franco,09:01,1899-12-30,Fact.13107,                    ,09:01 Arribado
-42670,16/03,Borax Argentina S A,MRSU-002114-4,10080,DR,TD,***********         ,267433604,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,08:49,1899-12-30,Fact.13107,                    ,08:49 Arribado
-42669,16/03,Borax Argentina S A,MRKU-972376-6,10080,DR,TD,************        ,267433604,1,TRANSPORTE DEL CLIENTE        ,Sanchez David,08:45,1899-12-30,Fact.13107,                    ,08:45 Arribado
-42666,16/03,Hilado Sa,-,10076,HC,TD,                    ,267155318,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-42665,16/03,Hilado Sa,FFAU-746461-8,10076,HC,TD,*******             ,267155318,1,TRANSPORTE DEL CLIENTE        ,Gonzalez Martin,14:01,1899-12-30,,                    ,14:01 Arribado
-42664,16/03,Hilado Sa,SEKU-463655-0,10076,HC,TD,***********         ,267155318,1,TRANSPORTE DEL CLIENTE        ,Escalante,12:26,1899-12-30,,                    ,12:26 Arribado
-42668,16/03,Minera Santa Rita Srl,MRKU-033893-8,10080,DR,TD,*********           ,267375603,1,TRANSPORTE DEL CLIENTE        ,Escalante,09:52,1899-12-30,,                    ,09:52 Arribado
-42661,16/03,Hdv Leather S.R.L.,TRHU-793790-7,10080,HC,TD,***********         ,266469563,1,TRANSPORTE DEL CLIENTE        ,Bertoli,12:01,1899-12-30,,                    ,12:01 Arribado
-42672,16/03,Borax Argentina S A,MSKU-767055-0,10080,DR,TD,**********          ,267433604,1,TRANSPORTE DEL CLIENTE        ,Ortiz Ariel,09:23,1899-12-30,Fact.13107,                    ,09:23 Arribado
-42663,16/03,Hilado Sa,MRKU-537255-5,10076,HC,TD,***********         ,267155318,1,TRANSPORTE DEL CLIENTE        ,Garcia,12:18,1899-12-30,,                    ,12:18 Arribado
-42662,16/03,Hilado Sa,TCLU-589733-7,10076,HC,TD,************        ,267155318,1,TRANSPORTE DEL CLIENTE        ,Ivan Czech,10:39,1899-12-30,,                    ,10:39 Arribado
-42721,17/03,Pampa Logistica Internacional ...,-,10074,HC,TD,                    ,BUEG02390800,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+42736,17/03,Mercovan Argentina S.A.,-,Exolgan,DR,TD,                    ,10731513,0,                              ,,     ,1899-12-30,"Chsebrough, Lucas",                    ,Pendiente
+42741,17/03,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9048026,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+42740,17/03,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9048026,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 42739,17/03,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9048026,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 42738,17/03,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9048026,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-42740,17/03,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9048026,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-42741,17/03,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9048026,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-42742,17/03,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9048026,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 42737,17/03,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9048026,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-42725,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363985,0,                              ,,     ,1899-12-30,Fc 13106,                    ,Pendiente
-42736,17/03,Mercovan Argentina S.A.,-,Exolgan,DR,TD,                    ,10731513,0,                              ,,     ,1899-12-30,"Chsebrough, Lucas",                    ,Pendiente
-42733,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363984,0,                              ,,     ,1899-12-30,Fc : 13105,                    ,Pendiente
-42732,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363984,0,                              ,,     ,1899-12-30,Fc : 13105,                    ,Pendiente
-42731,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363984,0,                              ,,     ,1899-12-30,Fc : 13105,                    ,Pendiente
-42727,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363985,0,                              ,,     ,1899-12-30,Fc 13106,                    ,Pendiente
-42726,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363985,0,                              ,,     ,1899-12-30,Fc 13106,                    ,Pendiente
-42756,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363939,0,                              ,,     ,1899-12-30,Fact 13104,                    ,Pendiente
-42755,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363939,0,                              ,,     ,1899-12-30,Fact 13104,                    ,Pendiente
 42754,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363939,0,                              ,,     ,1899-12-30,Fact 13104,                    ,Pendiente
 42753,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363939,0,                              ,,     ,1899-12-30,Fact 13104,                    ,Pendiente
 42735,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363984,0,                              ,,     ,1899-12-30,Fc : 13105,                    ,Pendiente
 42734,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363984,0,                              ,,     ,1899-12-30,Fc : 13105,                    ,Pendiente
+42733,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363984,0,                              ,,     ,1899-12-30,Fc : 13105,                    ,Pendiente
+42732,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363984,0,                              ,,     ,1899-12-30,Fc : 13105,                    ,Pendiente
+42756,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363939,0,                              ,,     ,1899-12-30,Fact 13104,                    ,Pendiente
+42755,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363939,0,                              ,,     ,1899-12-30,Fact 13104,                    ,Pendiente
+42731,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363984,0,                              ,,     ,1899-12-30,Fc : 13105,                    ,Pendiente
+42728,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363985,0,                              ,,     ,1899-12-30,Fc 13106,                    ,Pendiente
+42727,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363985,0,                              ,,     ,1899-12-30,Fc 13106,                    ,Pendiente
+42726,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363985,0,                              ,,     ,1899-12-30,Fc 13106,                    ,Pendiente
+42725,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363985,0,                              ,,     ,1899-12-30,Fc 13106,                    ,Pendiente
+42724,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363985,0,                              ,,     ,1899-12-30,Fc 13106,                    ,Pendiente
 42723,17/03,Pelama Chubut S.A.,-,Exolgan,DR,TD,                    ,36044582,0,                              ,,     ,1899-12-30,,                    ,Pendiente
 42722,17/03,Pelama Chubut S.A.,-,10080,DR,TD,                    ,267050779,0,                              ,,     ,1899-12-30,,                    ,Pendiente
-42724,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363985,0,                              ,,     ,1899-12-30,Fc 13106,                    ,Pendiente
-42728,17/03,Borax Argentina S A,-,10082,DR,TD,                    ,BUA0363985,0,                              ,,     ,1899-12-30,Fc 13106,                    ,Pendiente
+42742,17/03,Lawter Argentina S.A.,-,10074,HC,TD,                    ,ZIMUBUE9048026,0,                              ,,     ,1899-12-30,,                    ,Pendiente
+42721,17/03,Pampa Logistica Internacional ...,-,10074,HC,TD,                    ,BUEG02390800,0,                              ,,     ,1899-12-30,,                    ,Pendiente
