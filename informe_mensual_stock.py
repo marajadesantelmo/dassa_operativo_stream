@@ -29,7 +29,7 @@ cursor = conn.cursor()
 
 cursor.execute("""
     SELECT cliente AS Cliente, cantidad AS Cantidad, kilos AS Peso, volumen AS Volumen, conocim AS Booking, contenedor AS Contenedor,
-            orden_ing, suborden, renglon, tipo_oper AS Tipo, env.detalle AS Envase, fecha_ing AS Ingreso
+            orden_ing, suborden, renglon, tipo_oper AS Tipo, env.detalle AS Envase, fecha_ing AS Ingreso, desc_merc AS Descripcion
     FROM [DEPOFIS].[DASSA].[Existente en Stock] e
     JOIN DEPOFIS.DASSA.[Tip_env] env ON e.tipo_env = env.codigo
 """)  
@@ -60,13 +60,13 @@ fecha_actual = datetime.now()
 existente['Ingreso'] = pd.to_datetime(existente['Ingreso'], format='%Y-%m-%d')
 existente['Dias'] = (fecha_actual - existente['Ingreso']).dt.days
 
-cols = ['Cliente', 'Tipo', 'Envase']
+cols = ['Cliente', 'Tipo', 'Envase', 'Descripcion']
 for col in cols:
     existente[col] = existente[col].str.strip().str.title()
 
 existente.rename(columns={'ubicacion': 'Ubicacion', 'ubicacion_familia': 'Ubicacion Familia'}, inplace=True)
 
-existente = existente[['Ubicacion Familia', 'Ubicacion', 'Cliente', 'Booking', 'Contenedor', 'Tipo', 'Envase', 'Peso', 'Volumen',  'Cantidad', 'Ingreso',
+existente = existente[['Ubicacion Familia', 'Ubicacion', 'Cliente', 'Booking', 'Contenedor', 'Tipo', 'Envase', 'Peso', 'Volumen',  'Cantidad', 'Ingreso', 'Descripcion',
        'Operacion',  'Dias']]
 
 existente['Estiba OK'] = ""
