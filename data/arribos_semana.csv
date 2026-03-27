@@ -4,7 +4,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-03-10,EXOLGAN,0500 ,TEMU-145367-1,Mercovan Argentina S.A.,HLCUBO226144174,TD,HC,30,1,10:50 Arribado
 2026-03-13,TRP,1600 ,THGU-699511-0,Mercovan Argentina S.A.,ISB1891287,TD,HC,70,0,Pendiente arribo
 2026-03-16,EXOLGAN,1300 ,SEKU-108835-0,Mercovan Argentina S.A.,HLCUHAM260130425,TD,DR,30,1,17:13 Arribado
-2026-03-27,TRP,1300 ,FFAU-752751-0,Mercovan Argentina S.A.,NGOC60018100,TD,HC,70,0,Pendiente arribo
+2026-03-27,TRP,1300 ,FFAU-752751-0,Mercovan Argentina S.A.,NGOC60018100,TD,HC,70,1,17:12 Arribado
 2026-03-27,TRP,1600 ,PCIU-873114-6,Mercovan Argentina S.A.,NGOC60018100,TD,HC,70,0,Pendiente arribo
 2026-03-27,TRP,1700 ,DRYU-262303-9,Mercovan Argentina S.A.,NGOC60018100,TD,DR,30,0,Pendiente arribo
 2026-03-27,TRP,1800 ,PIDU-411587-0,Mercovan Argentina S.A.,NGOC60018100,TD,HC,70,0,Pendiente arribo
@@ -12,7 +12,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-03-20,TRP,1200 ,TEMU-104082-6,Mercovan Argentina S.A.,SSZ13441RCS,TD,DR,30,1,15:00 Arribado
 2026-03-25,TRP,0900 ,HMMU-224783-3,Mercovan Argentina S.A.,HDMUSELM44699800,TD,DR,30,1,15:44 Arribado
 2026-03-27,TRP,1100 ,HMMU-200570-0,Mercovan Argentina S.A.,HDMUSELM67370800,TD,DR,30,1,13:51 Arribado
-2026-03-27,TRP,1500 ,PCIU-953761-8,Mercovan Argentina S.A.,NGOC60018100,TD,HC,70,0,Pendiente arribo
+2026-03-27,TRP,1500 ,PCIU-953761-8,Mercovan Argentina S.A.,NGOC60018100,TD,HC,70,1,17:10 Arribado
 2026-03-17,EXOLGAN,1300 ,HLXU-538809-8,Mercovan Argentina S.A.,HLCULE126131970,TD,HC,70,1,20:29 Arribado
 2026-03-17,EXOLGAN,1300 ,FTAU-123854-4,Mercovan Argentina S.A.,MEDURN048638,TD,HC,30,1,20:21 Arribado
 2026-03-19,TRP,1200 ,TCNU-566891-3,Mercovan Argentina S.A.,ISB1898237,T,HC,70,1,15:18 Arribado
@@ -129,7 +129,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-03-17,EXOLGAN,1100 ,MSDU-729029-9,Xiadex Srl,NBOE26021704,T,HC,70,1,14:51 Arribado
 2026-03-17,EXOLGAN,0700 ,GAOU-788196-5,Xiadex Srl,NBOE26021703,T,HC,70,1,10:50 Arribado
 2026-03-25,TRP,1100 ,OOLU-439126-1,Impulso Jm S.A.,TCQD2601151,TD,HC,70,1,13:37 Arribado
-2026-03-27,TRP,1500 ,INKU-635295-2,Bazar Del Mundo S.A.,GZ26010210,T,HC,70,0,Pendiente arribo
+2026-03-27,TRP,1500 ,INKU-635295-2,Bazar Del Mundo S.A.,GZ26010210,T,HC,70,1,17:15 Arribado
 2026-03-10,EXOLGAN,0500 ,UETU-806550-3,Bicicletas Futura Sa,GILSH25100047,TD,HC,70,1,09:52 Arribado
 2026-03-10,EXOLGAN,0500 ,FSCU-885145-4,Bicicletas Futura Sa,GILSH25100047,TD,HC,70,1,09:24 Arribado
 2026-03-10,EXOLGAN,0500 ,TCLU-443955-6,Scan Global Logistics S.A.,95726-01012,TD,DR,60,1,09:39 Arribado
@@ -151,4 +151,4 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-03-19,T4,0500 ,WNGU-262404-0,Cooperativa De Trabajo Textil ...,TPTAOABD26016032,TD,DR,30,1,08:58 Arribado
 2026-03-19,T4,0500 ,MRKU-105413-4,Nuñez Moral Y Cia Srl,DLNB2602303,TD,HC,70,1,08:30 Arribado
 2026-03-26,T4,1000 ,MAEU-348409-8,Angel Masciotra Sociedad Anoni...,HTQD25010638,TD,FL,60,1,15:50 Arribado
-2026-03-30,EXOLGAN,1300 ,TLLU-249152-7,Dolce Gabbana Argentina Sa,FERBRE0001/26,T,DR,30,0,Pendiente arribo
+2026-03-30,EXOLGAN,1300 ,TLLU-249152-7,Dolce Gabbana Argentina Sa,FERBRE0001/26,TD,DR,30,0,Pendiente arribo
