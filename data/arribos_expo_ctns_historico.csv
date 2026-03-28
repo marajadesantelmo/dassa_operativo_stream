@@ -1,6 +1,6 @@
 Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2025-10-01,38026,MSKU-740259-0,Mercovan Argentina S...,259657556,******************* ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=7510
-2026-03-27,42930,,Mercovan Argentina S...,20975885,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-03-27,42930,HLXU-538809-8,Mercovan Argentina S...,20975885,**************      ,Arribado,
 2026-03-17,42736,GESU-108813-5,Mercovan Argentina S...,10731513,*********           ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29036
 2026-03-18,42789,CAIU-356240-4,Mercovan Argentina S...,92033560,*************       ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29042
 2026-03-12,42586,,Mercovan Argentina S...,26001PE01000046L,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
@@ -389,6 +389,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2025-10-06,38183,MRKU-738896-7,Alimentaria Sa,259173844,********************,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=17545
 2025-10-06,38184,MRKU-873429-9,Alimentaria Sa,259173844,*************       ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=17546
 2026-01-15,41230,MRKU-060333-2,Medical Foam S.R.L.,265138847,************        ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28386
+2026-03-30,42944,,Manufactura Los Ande...,BUEG03063600,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2026-02-20,42133,TRLU-683922-6,Manufactura Los Ande...,EBKG15780668,FX32966776          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28850
 2026-02-20,42134,DFSU-777119-5,Manufactura Los Ande...,EBKG15780668,FX32966897          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28851
 2026-02-20,42135,MSMU-873499-0,Manufactura Los Ande...,EBKG15780668,FX32966810          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28852
@@ -550,8 +551,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2025-11-06,39105,GCXU-643813-1,Maringa Maderas Sa,340500045720,***************     ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27815
 2025-11-06,39106,EMCU-167219-9,Maringa Maderas Sa,340500045720,*************       ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27816
 2025-11-06,39107,TRHU-570480-3,Maringa Maderas Sa,340500045720,*****************   ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27817
-2026-03-27,42936,MAGU-573417-2,Dodero & Cia S.R.L.,34032437,   ********         ,Arribado,
-2026-03-27,42934,UACU-585264-5,Dodero & Cia S.R.L.,34032437,***********         ,Arribado,
+2026-03-27,42936,MAGU-573417-2,Dodero & Cia S.R.L.,34032437,   ********         ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29075
+2026-03-27,42934,UACU-585264-5,Dodero & Cia S.R.L.,34032437,***********         ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29074
 2025-10-06,38097,,Suabia Maderas Srl,BUA0652019,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2025-10-13,38372,TCNU-303911-0,Suabia Maderas Srl,ZIMUBUE9044084,******************  ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=17575
 2025-12-05,40009,CMAU-767695-9,Suabia Maderas Srl,BUA0356545,R8691136            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28038
@@ -1512,7 +1513,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2025-10-17,38529,GLDU-949232-4,Chaguar Sociedad Ano...,EBKG14536752,FX32922562          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=27621
 2025-10-15,38467,MEDU-546151-7,Chaguar Sociedad Ano...,EBKG14423612,FX32918525          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=17602
 2025-10-14,38429,ZCSU-686029-4,Chaguar Sociedad Ano...,ZIMUBUE9044221,***************     ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=17596
-2026-03-27,42937,,Jet Cargo S.A.,EBKGQ001D85C,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-03-27,42937,BMOU-215775-2,Jet Cargo S.A.,EBKGQ001D85C,FX32950136          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29073
 2026-03-16,42679,MSBU-310628-3,Haciendo Historia Sr...,EBKG16159490,FX32963305          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28996
 2026-03-16,42680,AXIU-145322-4,Haciendo Historia Sr...,EBKG16159490,FX32963321          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28997
 2025-10-07,38193,TCLU-614988-0,Energy Group S R L,260316179,*************       ,Arribado,
