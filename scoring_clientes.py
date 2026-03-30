@@ -3,7 +3,8 @@ from tokens import username, password
 import pyodbc
 from datetime import datetime, timedelta
 import pandas as pd
-server = '101.44.8.58\\SQLEXPRESS_X86,1436'
+#server = '101.44.8.58\\SQLEXPRESS_X86,1436'
+server = 'SQL01\\SQLEXPRESS_X86,1437'
 conn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';UID='+username+';PWD='+ password)
 cursor = conn.cursor()
 

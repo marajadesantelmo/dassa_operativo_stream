@@ -11,7 +11,7 @@
     },
     "sql_server": {
         "enabled": false,
-        "server": "101.44.8.58\\SQLEXPRESS_X86,1436",
+        "server": "SQL01\\SQLEXPRESS_X86,1437",
         "database": "DEPOFIS",
         "schema": "DASSA",
         "table": "Salidas",

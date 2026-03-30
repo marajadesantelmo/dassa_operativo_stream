@@ -17,7 +17,8 @@ path = '//dc01/Usuarios/PowerBI/flastra/Documents/dassa_operativo_stream/'
 
 print('Actualizando información operativa Orden del Día DASSA')
 print('Descargando datos de SQL')
-server = '101.44.8.58\\SQLEXPRESS_X86,1436'
+#server = '101.44.8.58\\SQLEXPRESS_X86,1436'
+server = 'SQL01\\SQLEXPRESS_X86,1437'
 conn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';UID='+username+';PWD='+ password)
 cursor = conn.cursor()
 
