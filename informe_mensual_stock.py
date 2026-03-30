@@ -240,7 +240,7 @@ def send_email(mail):
 
 # Send notification emails
 print("--- Sending notification emails ---")
-recipients = ["santiago@dassa.com.ar", "manuel@dassa.com.ar", "marajadesantelmo@gmail.com", "alan@dassa.com.ar", "christian@dassa.com.ar"]
+recipients = ["santiago@dassa.com.ar", "manuel@dassa.com.ar", "marajadesantelmo@gmail.com", "alan@dassa.com.ar", "christian@dassa.com.ar", "deposito@dassa.com.ar"]
 
 for email in recipients:
     send_email(email)
