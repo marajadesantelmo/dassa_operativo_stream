@@ -1,6 +1,7 @@
 Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribado,Estado
 2026-03-22,TRP,1200 ,TCNU-566891-3,S/D,,TD,HC,70,0,Pendiente arribo
 2026-04-01,None,0500 ,MSDU-480072-1,S/D,,TD,DR,60,0,Pendiente arribo
+2026-04-01,TRP,0400 ,KOCU-414396-3,S/D,,TD,HC,70,0,Pendiente arribo
 2026-03-10,EXOLGAN,0500 ,HLBU-124399-3,Mercovan Argentina S.A.,HLCUME3260121821,TD,HC,30,1,11:04 Arribado
 2026-03-10,EXOLGAN,0500 ,TEMU-145367-1,Mercovan Argentina S.A.,HLCUBO226144174,TD,HC,30,1,10:50 Arribado
 2026-03-13,TRP,1600 ,THGU-699511-0,Mercovan Argentina S.A.,ISB1891287,TD,HC,70,0,Pendiente arribo
@@ -8,6 +9,7 @@ Fecha,Terminal,Turno,Contenedor,Cliente,Booking,Oper.,Tipo CNT,Dimension,arribad
 2026-03-31,EXOLGAN,0500 ,FBIU-009133-3,Mercovan Argentina S.A.,HLCUPTY260242524,TD,DR,30,0,Pendiente arribo
 2026-04-01,EXOLGAN,1900 ,TEMU-292039-0,Mercovan Argentina S.A.,HLCUSS526037455,TD,DR,30,0,Pendiente arribo
 2026-04-01,TRP,1700 ,TCLU-334263-8,Mercovan Argentina S.A.,ONEYLEHF48108700,TD,DR,30,0,Pendiente arribo
+2026-04-01,TRP,1800 ,TEMU-529112-0,Mercovan Argentina S.A.,ONEYLEHG00380500,TD,DR,30,0,Pendiente arribo
 2026-03-27,TRP,1300 ,FFAU-752751-0,Mercovan Argentina S.A.,NGOC60018100,TD,HC,70,1,17:12 Arribado
 2026-03-27,TRP,1600 ,PCIU-873114-6,Mercovan Argentina S.A.,NGOC60018100,TD,HC,70,1,18:16 Arribado
 2026-03-27,TRP,1700 ,DRYU-262303-9,Mercovan Argentina S.A.,NGOC60018100,TD,DR,30,1,19:24 Arribado
