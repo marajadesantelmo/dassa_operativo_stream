@@ -30,7 +30,7 @@ with SCPClient(ssh.get_transport()) as scp:
     scp.get('TallyBIEXPO.csv')
 
 # Procesamiento datos de IMPO
-datos_tally = pd.read_csv('TallyBI.csv', sep='|', encoding='latin1')
+datos_tally = pd.read_csv('TallyBI.csv', sep='|', encoding='latin1', on_bad_lines='warn')
 datos_tally = datos_tally.drop(index=0)
 datos_tally.columns = datos_tally.columns.str.strip()
 datos_tally['descripcion'] = datos_tally['descripcion'].str.strip()
@@ -48,7 +48,7 @@ datos_tally = datos_tally.dropna(subset=['cierre'])
 datos_tally.to_csv('data/tally.csv', sep=',', encoding='latin1', index=False)
 
 # Procesamiento datos de EXPO
-datos_tally_expo = pd.read_csv('TallyBIEXPO.csv', sep='|', encoding='latin1')
+datos_tally_expo = pd.read_csv('TallyBIEXPO.csv', sep='|', encoding='latin1', on_bad_lines='warn')
 
 # Logeo
 gc = gspread.service_account(filename='credenciales_gsheets.json')
