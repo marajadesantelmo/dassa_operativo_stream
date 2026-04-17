@@ -1,22 +1,22 @@
-Fecha,Booking,Cliente,Cantidad,Contenedor,Precinto,Origen,Obs.,Estado
-17/04,13422654,Lawter Argentina S.A.,1,HLBU-326066-5,********,Huxley Sa,HC,11:22 Arribado
-17/04,13422654,Lawter Argentina S.A.,1,HLBU-327201-2,************,Huxley Sa,40 HC,10:21 Arribado
-17/04,13422654,Lawter Argentina S.A.,1,TCNU-754689-5,***************,Huxley Sa,HC,10:15 Arribado
-17/04,23492565,Lawter Argentina S.A.,1,TCNU-325211-0,*************,Huxley Sa,HC,15:13 Arribado
-17/04,269320388,Boratex Srl,1,MRKU-060141-1,*************,Huxley Sa,1 x40 dry,08:39 Arribado
-17/04,269452297,Lawter Argentina S.A.,1,GCXU-575265-7,**********,Gamma Mujica,GAMMA LIBERTADOR 40HC 08 HS,15:17 Arribado
-17/04,269452297,Lawter Argentina S.A.,1,MRKU-588902-3,************,Huxley Sa,GAMMA LIBERTADOR 40 HC 08 HS,10:26 Arribado
-17/04,269452297,Lawter Argentina S.A.,1,MRSU-552281-1,***********,Gamma Mujica,40HC,12:13 Arribado
-17/04,269507196,Edelweiss Spedition Srl,1,MRKU-684262-7,********,Huxley Sa,20 DC,10:29 Arribado
-17/04,93775021,Lawter Argentina S.A.,1,HLBU-129007-0,***********,Huxley Sa,HUXLEY 40 HC,12:15 Arribado
-17/04,93775021,Lawter Argentina S.A.,1,UACU-553152-1,*****,Huxley Sa,HC,10:20 Arribado
-17/04,93775021,Lawter Argentina S.A.,1,UACU-565917-4,*************,Huxley Sa,HUXLEY 40 HC,12:20 Arribado
-17/04,93775021,Lawter Argentina S.A.,1,UACU-603862-8,************,Huxley Sa,HC,08:32 Arribado
-17/04,93775021,Lawter Argentina S.A.,1,UASU-102821-2,**************,Huxley Sa,HUXLEY 40 HC,12:17 Arribado
-19/04,123456,Lawter Argentina S.A.,1,-,,Defibe,PRUEBA,Pendiente
-20/04,153IAR0656758,Flint Ink Argentina S.R.L,1,-,,Medlog Berazategui,MEDLOG BERAZATEGUI 40 HC,Pendiente
-20/04,269320448,Boratex Srl,1,MRKU-104852-7,****************,Gamma Mujica,40 DRY,12:37 Arribado
-20/04,26936530,Pelama Chubut S.A.,1,-,,-,HIPERBAIRES 20 DV,Pendiente
-20/04,39142430,Pelama Chubut S.A.,1,-,,-,HUXLEY 40 DV,Pendiente
-20/04,LA0488294,Lift Van Int. Co S.A,1,MSNU-288423-5,*********,Hiperbaires - Icb T.Sur,ICB 20 DV,10:51 Arribado
-21/04,BUEA27600300,Curtiembre Infante Sa,2,-,,-,TRP 40 HC,Pendiente
+Fecha,Booking,Cliente,Cantidad,Dimension,Tipo,Contenedor,Precinto,Origen,Obs.,Estado
+17/04,13422654,Lawter Argentina S.A.,1,40,HC,HLBU-326066-5,********,Huxley Sa,HC,11:22 Arribado
+17/04,13422654,Lawter Argentina S.A.,1,40,HC,HLBU-327201-2,************,Huxley Sa,40 HC,10:21 Arribado
+17/04,13422654,Lawter Argentina S.A.,1,40,HC,TCNU-754689-5,***************,Huxley Sa,HC,10:15 Arribado
+17/04,23492565,Lawter Argentina S.A.,1,40,HC,TCNU-325211-0,*************,Huxley Sa,HC,15:13 Arribado
+17/04,269320388,Boratex Srl,1,40,DR,MRKU-060141-1,*************,Huxley Sa,1 x40 dry,08:39 Arribado
+17/04,269452297,Lawter Argentina S.A.,1,40,HC,GCXU-575265-7,**********,Gamma Mujica,GAMMA LIBERTADOR 40HC 08 HS,15:17 Arribado
+17/04,269452297,Lawter Argentina S.A.,1,40,HC,MRKU-588902-3,************,Huxley Sa,GAMMA LIBERTADOR 40 HC 08 HS,10:26 Arribado
+17/04,269452297,Lawter Argentina S.A.,1,40,HC,MRSU-552281-1,***********,Gamma Mujica,40HC,12:13 Arribado
+17/04,269507196,Edelweiss Spedition Srl,1,20,DR,MRKU-684262-7,********,Huxley Sa,20 DC,10:29 Arribado
+17/04,93775021,Lawter Argentina S.A.,1,40,HC,HLBU-129007-0,***********,Huxley Sa,HUXLEY 40 HC,12:15 Arribado
+17/04,93775021,Lawter Argentina S.A.,1,40,HC,UACU-553152-1,*****,Huxley Sa,HC,10:20 Arribado
+17/04,93775021,Lawter Argentina S.A.,1,40,HC,UACU-565917-4,*************,Huxley Sa,HUXLEY 40 HC,12:20 Arribado
+17/04,93775021,Lawter Argentina S.A.,1,40,HC,UACU-603862-8,************,Huxley Sa,HC,08:32 Arribado
+17/04,93775021,Lawter Argentina S.A.,1,40,HC,UASU-102821-2,**************,Huxley Sa,HUXLEY 40 HC,12:17 Arribado
+19/04,123456,Lawter Argentina S.A.,1,40,HC,-,,Defibe,PRUEBA,Pendiente
+20/04,153IAR0656758,Flint Ink Argentina S.R.L,1,40,HC,-,,Medlog Berazategui,MEDLOG BERAZATEGUI 40 HC,Pendiente
+20/04,269320448,Boratex Srl,1,40,DR,MRKU-104852-7,****************,Gamma Mujica,40 DRY,12:37 Arribado
+20/04,26936530,Pelama Chubut S.A.,1,0,,-,,-,HIPERBAIRES 20 DV,Pendiente
+20/04,39142430,Pelama Chubut S.A.,1,0,,-,,-,HUXLEY 40 DV,Pendiente
+20/04,LA0488294,Lift Van Int. Co S.A,1,20,DR,MSNU-288423-5,*********,Hiperbaires - Icb T.Sur,ICB 20 DV,10:51 Arribado
+21/04,BUEA27600300,Curtiembre Infante Sa,2,0,,-,,-,TRP 40 HC,Pendiente
