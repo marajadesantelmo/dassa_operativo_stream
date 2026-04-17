@@ -30,6 +30,22 @@ with SCPClient(ssh.get_transport()) as scp:
     scp.get('TallyBIEXPO.csv')
 
 # Procesamiento datos de IMPO
+# Sanitizar pipes dentro de campos para evitar errores de parseo
+with open('TallyBI.csv', 'r', encoding='latin1') as f:
+    header = f.readline()
+    n_cols = len(header.split('|'))
+    clean_lines = [header]
+    for lineno, line in enumerate(f, start=2):
+        parts = line.split('|')
+        if len(parts) > n_cols:
+            # Unir las columnas extra en el campo descripcion (columna 10, indice 10)
+            excess = len(parts) - n_cols
+            parts[10] = '|'.join(parts[10:10+excess+1]).replace('|', '-')
+            del parts[11:11+excess]
+        clean_lines.append('|'.join(parts))
+with open('TallyBI.csv', 'w', encoding='latin1') as f:
+    f.writelines(clean_lines)
+
 datos_tally = pd.read_csv('TallyBI.csv', sep='|', encoding='latin1', on_bad_lines='warn')
 datos_tally = datos_tally.drop(index=0)
 datos_tally.columns = datos_tally.columns.str.strip()
@@ -48,6 +64,23 @@ datos_tally = datos_tally.dropna(subset=['cierre'])
 datos_tally.to_csv('data/tally.csv', sep=',', encoding='latin1', index=False)
 
 # Procesamiento datos de EXPO
+# Sanitizar pipes dentro de campos para EXPO tambien
+with open('TallyBIEXPO.csv', 'r', encoding='latin1') as f:
+    header = f.readline()
+    n_cols = len(header.split('|'))
+    clean_lines = [header]
+    for lineno, line in enumerate(f, start=2):
+        parts = line.split('|')
+        if len(parts) > n_cols:
+            excess = len(parts) - n_cols
+            # Buscar columna descripcion por indice en EXPO
+            desc_idx = 10
+            parts[desc_idx] = '-'.join(parts[desc_idx:desc_idx+excess+1])
+            del parts[desc_idx+1:desc_idx+1+excess]
+        clean_lines.append('|'.join(parts))
+with open('TallyBIEXPO.csv', 'w', encoding='latin1') as f:
+    f.writelines(clean_lines)
+
 datos_tally_expo = pd.read_csv('TallyBIEXPO.csv', sep='|', encoding='latin1', on_bad_lines='warn')
 
 # Logeo
