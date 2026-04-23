@@ -8,7 +8,7 @@ Dia,Cliente,Conocimiento,Desc. Merc.,Contenedor,Obs.,Envase,Cant.,Volumen,Ubic.,
 17/04,Lift Van Int. Co S.A,LIFBUE26020012      ,Mudanza Hadda Sonia,HLBU-153660-4,con fondeo,Bultos,244.0,55.0,IB8,Realizado,41839-1-1
 17/04,Lift Van Int. Co S.A,LIFBUE26030010      ,Sani Martin Gustavo,RFSU-303798-9,fondeo,Bultos,137.0,26.0,EA8,Realizado,41984-1-1
 17/04,Lift Van Int. Co S.A,LIFBUE26030014      ,Ganboldo Badral,CSNU-847225-6,-,Bultos,157.0,61.0,NAVE 2,Realizado,42088-1-1
-17/04,Lift Van Int. Co S.A,LIFBUE26030015      ,Guelfo Tomas,ONEU-099077-0,"fondeo, con fondeo",Bultos,632.0,60.0,EA8,Realizado,42047-1-1
+17/04,Lift Van Int. Co S.A,LIFBUE26030015      ,Guelfo Tomas,ONEU-099077-0,"con fondeo, fondeo",Bultos,632.0,60.0,EA8,Realizado,42047-1-1
 20/04,Lift Van Int. Co S.A,LIFBUE26020012      ,Mudanza Hadda Sonia,HLBU-153660-4,FONDEO,Bultos,244.0,55.0,IB8,Realizado,41839-1-1
 20/04,Lift Van Int. Co S.A,LIFBUE26030010      ,Sani Martin Gustavo,RFSU-303798-9,FONDEO,Bultos,137.0,26.0,EA8,Realizado,41984-1-1
 20/04,Lift Van Int. Co S.A,LIFBUE26030014      ,Ganboldo Badral,CSNU-847225-6,-,Bultos,157.0,61.0,NAVE 2,Realizado,42088-1-1
@@ -19,15 +19,25 @@ Dia,Cliente,Conocimiento,Desc. Merc.,Contenedor,Obs.,Envase,Cant.,Volumen,Ubic.,
 21/04,Mercovan Argentina S...,MVANES20261203      ,Schang Aguerrido,MSDU-124500-8,-,Bultos,32.0,12.0,ANEX-A1,Realizado,42036-1-1
 21/04,Mercovan Argentina S...,MVANES31032026      ,Magnanini Ignacion,TCLU-689849-3,-,Bultos,60.0,12.0,ANEXO,Realizado,42087-1-1
 22/04,Aceptyourdestiny Sa,FDNBSE2601185       ,Telas,JXLU-644477-0,-,Contenedor,1.0,0.0,PLZA,Realizado,42263-0-1
-22/04,Edelweiss Spedition ...,69STO26             ,Mudanza Francisco Ja...,,CANES,Bultos,186.0,45.0,ANEX-A1,Realizado,41911-0-1
+22/04,Edelweiss Spedition ...,69STO26             ,Mudanza Francisco Ja...,-,CANES,Bultos,186.0,45.0,ANEX-A1,Realizado,41911-0-1
 22/04,Lift Van Int. Co S.A,LIFBUE26030011      ,Mudanza Michel Torin...,TCLU-418799-0,CON CANES,Bultos,206.0,49.0,IA6,Realizado,41896-1-1
 22/04,Lift Van Int. Co S.A,LIFBUE26030012      ,Rinaldi Ramiro,TEMU-223597-2,CON CANES,Bultos,112.0,20.0,ANEX-A1,Realizado,42059-1-1
 22/04,Lift Van Int. Co S.A,LIFBUE26030013      ,Ropero Rosique Mario,HLBU-364214-3,CON CANES,Bultos,83.0,10.0,EA8,Realizado,42055-1-1
 23/04,Aceptyourdestiny Sa,FDNBSE2602100       ,Telas,TCNU-890665-6,-,Contenedor,1.0,0.0,PLZA,Realizado,42278-0-1
-23/04,Lift Van Int. Co S.A,UY122318262         ,Mudanza Martin Rodri...,,-,Bultos,362.0,0.0,PLZA,Pendiente,42044-0-1
+23/04,Lift Van Int. Co S.A,UY122318262         ,Mudanza Martin Rodri...,-,-,Bultos,362.0,0.0,PLZA,Realizado,42044-0-1
 23/04,Mfrs Srl,HRYSE26020220       ,Metal Holder,MEDU-471417-0,-,Contenedor,1.0,0.0,PLZA,Realizado,42216-0-1
 23/04,Noah Servicess.R.L.,HBOL4498            ,Auto Ford Bronco  Vi...,MRKU-025625-4,-,Bultos,1.0,20.0,PA-A,Realizado,41977-1-1
 23/04,Noah Servicess.R.L.,HBOL4499            ,Ford Mustang Vin 1Fa...,MRKU-025625-4,-,Bultos,1.0,16.0,PA-A,Realizado,41977-2-1
+24/04,Aceptyourdestiny Sa,CL26020449          ,Textile,CSNU-823992-2,-,Contenedor,1.0,0.0,PLZA,Pendiente,42331-0-1
 24/04,Aceptyourdestiny Sa,FDNBSE2602067A      ,Textile Fabrics,CAIU-915772-8,-,Bultos,140.0,16.0,ANEX-A1,Pendiente,41938-1-1
 24/04,Aceptyourdestiny Sa,FDNBSE2602067B      ,Textile,CAIU-915772-8,-,Bultos,543.0,52.0,ANEX-A1,Pendiente,41938-2-1
+24/04,Baires International,ARBAIT27032026      ,Mudanza De Petris Lu...,MSNU-375861-1,AODO,Bultos,218.0,0.0,ANEXO,Pendiente,41542-1-1
+24/04,Lift Van Int. Co S.A,LIFBUE26030008      ,Axelrud Federico,HLBU-401100-8,FONDEO,Bultos,104.0,16.0,ANEXO 1,Pendiente,41976-1-1
 24/04,Lift Van Int. Co S.A,LIFBUE26030020      ,Sinigaglia Maria,TGBU-262626-2,-,Bultos,124.0,50.0,NV3,Pendiente,42133-1-1
+24/04,Lift Van Int. Co S.A,LIFBUE26040001      ,Cueto Leon,TIIU-619171-6,-,Bultos,291.0,62.0,ANEXO,Pendiente,42118-1-1
+24/04,Mercovan Argentina S...,MVANES20262903      ,Gosio Ivan,HLXU-819704-8,-,Bultos,289.0,50.0,NV1,Pendiente,42106-1-1
+24/04,Mercovan Argentina S...,ONEYLEHG00380500    ,Carreira De Castro M...,TEMU-529112-0,fondeo,Bultos,61.0,15.0,ANEXO,Pendiente,42086-1-1
+24/04,Noah Servicess.R.L.,HBOL4556            ,Auto Mg Year Vin Xpa...,EFEU-803354-6,-,Bultos,1.0,7.3,EA9,Pendiente,42302-1-1
+24/04,Refractarios Argenti...,APU188198           ,Phenolic Resin,MRKU-712064-0,-,Pallets,20.0,30.0,-,Pendiente,42277-1-1
+24/04,Southcross Logistics...,CMI009927A          ,Calderon Paula Lucia,MRKU-650372-6,FONDEO Y CANES,Bultos,19.0,0.0,ANEXO,Pendiente,42214-1-1
+24/04,Southcross Logistics...,TYBUFF25M302        ,Honda Nsx 1991 Vin N...,MSDU-463485-2,-,Bultos,1.0,9.0,PA-A,Pendiente,41595-1-1
