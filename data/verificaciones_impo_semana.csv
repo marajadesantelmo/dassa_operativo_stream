@@ -4,6 +4,8 @@ Dia,Cliente,Conocimiento,Desc. Merc.,Contenedor,Obs.,Envase,Cant.,Volumen,Ubic.,
 04/05,Mercovan Argentina S...,MVANES20262703-01   ,Zicarelli Brenda,HLBU-269526-2,CANES,Bultos,191.0,30.0,NV1,Pendiente,42111-1-1
 04/05,Noah Servicess.R.L.,34750               ,Beruti Ernesto,HASU-135508-5,canes,Bultos,5.0,15.0,NAVE 3,Pendiente,42164-1-1
 04/05,Noah Servicess.R.L.,BUE1453             ,Merlo Mirta,TRHU-194361-0,con canes,Bultos,207.0,25.0,ANEX-A1,Pendiente,42332-1-1
+04/05,Tandem Global Logist...,XMFZ26020001B       ,Ro Membrane,FCIU-964381-5,-,Bultos,1.0,2.0,IA1,Pendiente,42373-4-1
+04/05,Tandem Global Logist...,XMFZ26020001C       ,Exhaust,FCIU-964381-5,-,Bultos,3.0,3.0,IA1,Pendiente,42373-1-1
 23/04,Aceptyourdestiny Sa,FDNBSE2602100       ,Telas,TCNU-890665-6,-,Contenedor,1.0,0.0,PLZA,Realizado,42278-0-1
 23/04,Lift Van Int. Co S.A,UY122318262         ,Mudanza Martin Rodri...,-,-,Bultos,362.0,0.0,PLZA,Realizado,42044-0-1
 23/04,Mfrs Srl,HRYSE26020220       ,Metal Holder,MEDU-471417-0,-,Contenedor,1.0,0.0,PLZA,Realizado,42216-0-1
@@ -30,15 +32,15 @@ Dia,Cliente,Conocimiento,Desc. Merc.,Contenedor,Obs.,Envase,Cant.,Volumen,Ubic.,
 28/04,Lift Van Int. Co S.A,LIFBUE26030021      ,Vasallago Agustin,CMAU-915417-2,-,Bultos,224.0,43.0,IB3,Realizado,42197-1-1
 28/04,Lift Van Int. Co S.A,LIFBUE26030024      ,Coone Christian,ZCSU-707192-1,CANES,Bultos,346.0,10.0,EA9,Realizado,42048-1-1
 28/04,Mercovan Argentina S...,MVANLT20261803      ,Mudanza Moon Kyungha...,HMMU-224783-3,-,Bultos,145.0,27.0,EA6,Realizado,41961-1-1
-28/04,Refractarios Argenti...,DLC69499723         ,Refractoru Material,"CAIU-615348-3, MRKU-867762-4",SENASA,Pallets,27.0,24.0,ANEX-A1,Realizado,42358-1-1
+28/04,Refractarios Argenti...,DLC69499723         ,Refractory Material,"MRKU-867762-4, CAIU-615348-3",SENASA,Pallets,27.0,24.0,ANEX-A1,Realizado,42358-2-1
 29/04,Aceptyourdestiny Sa,FDNBSE2602068B      ,Telas,JXLU-749677-8,-,Rollos,540.0,52.0,CTNNAC,Realizado,41997-2-1
 29/04,Aceptyourdestiny Sa,}FDNBSE2602068A     ,Rollos De Tela,JXLU-749677-8,-,Rollos,144.0,16.0,CTNNAC,Realizado,41997-1-1
 29/04,Lift Van Int. Co S.A,LIFBUE26030021      ,Vasallago Agustin,CMAU-915417-2,"fondeo, FONDEO",Bultos,448.0,86.0,IB3,Realizado,42197-1-1
 29/04,Mercovan Argentina S...,MVANES02042026      ,Danti Carlos,HLXU-537214-7,FONDEO,Bultos,235.0,42.0,IA6,Realizado,42136-1-1
 29/04,Mercovan Argentina S...,MVANES20261803      ,Alasino Martin Ismae...,SEGU-281368-9,FONDEO,Bultos,152.0,30.0,ANEX-A1,Pendiente,42105-1-1
-29/04,Poka S.A.,TSSZ2603043         ,Plastic Toys,"NYKU-444499-6, NYKU-491477-0, SEGU-529650-6, ONEU-600851-4",-,Contenedor,4.0,0.0,PLZA,Realizado,42418-0-3
-29/04,Poka S.A.,TSSZ2603044         ,Plastic Toys,"TRHU-766629-8, TCLU-943959-0, FDCU-044340-0, BEAU-538506-8, TCNU-440316-5",-,Contenedor,5.0,0.0,PLZA,Realizado,42374-0-5
+29/04,Poka S.A.,TSSZ2603043         ,Plastic Toys,"SEGU-529650-6, NYKU-444499-6, ONEU-600851-4, NYKU-491477-0",-,Contenedor,4.0,0.0,PLZA,Realizado,42418-0-2
+29/04,Poka S.A.,TSSZ2603044         ,Plastic Toys,"TCLU-943959-0, BEAU-538506-8, FDCU-044340-0, TRHU-766629-8, TCNU-440316-5",-,Contenedor,5.0,0.0,PLZA,Realizado,42374-0-3
 29/04,Poka S.A.,TSSZ263043          ,Plastic Toys,ONEU-592333-1,-,Contenedor,1.0,0.0,PLZA,Realizado,42418-0-4
 30/04,Noah Servicess.R.L.,HBL-10020302        ,Mellini Branca,MRKU-072244-0,OADO,Bultos,27.0,10.0,NAVE 4,Realizado,41982-5-1
 30/04,Poka S.A.,TSSZ2602122         ,Plastic Toys,"TLLU-546383-2, TCLU-186310-7, SEGU-529792-4, ONEU-042870-0",-,Contenedor,4.0,0.0,PLZA,Realizado,42412-0-1
-30/04,Poka S.A.,TSSZ2603045         ,Plastic Toys,"TRHU-531935-0, TCNU-586456-2, SEKU-440589-1, FFAU-363440-2, ONEU-076313-8",-,Contenedor,5.0,0.0,PLZA,Realizado,42372-0-5
+30/04,Poka S.A.,TSSZ2603045         ,Plastic Toys,"FFAU-363440-2, ONEU-076313-8, TCNU-586456-2, TRHU-531935-0, SEKU-440589-1",-,Contenedor,5.0,0.0,PLZA,Realizado,42372-0-2
