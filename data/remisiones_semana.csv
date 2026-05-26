@@ -33,9 +33,9 @@ Dia,Cliente,Operacion,Booking,Contenedor,Volumen,Precinto,Observaciones,Estado,H
 22/05,Kluber Lubrication A...,42745-0-1,270933877,MRKU-033652-9,0.0,ML-AR2536310        ,multimodal chile,17:10 Realizado,10:00,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29324
 22/05,Lawter Argentina S.A...,42683-0-1,ZIMUBUE9049762,ZCSU-732245-7,0.0,*************       ,TERMINAL 4  17HS,16:04 Realizado,9:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29310
 22/05,Borax Argentina S A,42693-1-1,BUE600076200,BSIU-813641-2,30.0,                    ,TRP  00HS LIBERAR ANTES DEL CIERRE,17:06 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29300
+22/05,Borax Argentina S A,42685-1-1,BUE600076200,FFAU-433737-4,30.0,                    ,TRP  00HS LIBERAR ANTES DEL CIERRE,17:06 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29298
 22/05,Global Motion S.A.,42707-0-1,COSU6500626220,CSNU-292650-0,0.0,***********         ,TRP  03 AM  (LIBERAR ANTES DEL CIERRE),17:02 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29306
 22/05,Borax Argentina S A,42689-1-1,BUE600076200,GCXU-518530-0,30.0,                    ,TRP  00HS LIBERAR ANTES DEL CIERRE,17:06 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29299
-22/05,Borax Argentina S A,42685-1-1,BUE600076200,FFAU-433737-4,30.0,                    ,TRP  00HS LIBERAR ANTES DEL CIERRE,17:06 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29298
 22/05,Lawter Argentina S.A...,42666-0-1,ZIMUBUE9049900,ZCSU-795818-2,0.0,****                ,terminal 4  15hs,15:06 Realizado,9:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29290
 22/05,Lawter Argentina S.A...,42664-0-1,BUE600074900,PIDU-428654-9,0.0,***********         ,TRP  17HS,15:20 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29284
 22/05,Lawter Argentina S.A...,42659-0-1,BUE600074900,PCIU-948278-9,0.0,*************       ,TRP  17HS,15:20 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29283
@@ -43,7 +43,8 @@ Dia,Cliente,Operacion,Booking,Contenedor,Volumen,Precinto,Observaciones,Estado,H
 22/05,Minera Santa Rita Sr...,42653-0-1,BUE600085700,PCIU-943731-0,0.0,*************       ,TRP   15HS,12:26 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29294
 22/05,Borax Argentina S A,42611-0-1,BUE600076200,CAIU-636400-1,0.0,*************       ,TRP  00HS LIBERAR ANTES DEL CIERRE,17:07 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29275
 26/05,Powergen Solutions S...,42738-0-1,26816072,SZZU-252058-6,0.0,************        ,EXOLGAN  007HS A 10HS,11:20 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29333
-26/05,Borax Argentina S A,42661-0-1,270439933,MRKU-093496-3,0.0,****************    ,TERMINAL 4   11HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29288
+26/05,Borax Argentina S A,42672-1-1,270439897,MRKU-090929-8,60.0,                    ,TERMINAL 4   11HS,11:52 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29291
+26/05,Borax Argentina S A,42661-0-1,270439933,MRKU-093496-3,0.0,****************    ,TERMINAL 4   11HS,11:53 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29288
 26/05,Powergen Solutions S...,42737-0-1,26816072,SZZU-252057-0,0.0,***                 ,EXOLGAN  07HS,11:20 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29332
 26/05,Powergen Solutions S...,42734-0-1,26816072,SZZU-252062-6,0.0,*******             ,EXOLGAN  07HS,11:20 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29329
 26/05,Powergen Solutions S...,42740-0-1,26816072,SZZU-252059-1,0.0,*************       ,EXOLGAN  07HS,11:20 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29335
@@ -52,12 +53,11 @@ Dia,Cliente,Operacion,Booking,Contenedor,Volumen,Precinto,Observaciones,Estado,H
 26/05,Powergen Solutions S...,42744-0-1,26816072,SZZU-252065-2,0.0,************        ,EXOLGAN  07HS,11:19 Realizado,9:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29339
 26/05,Powergen Solutions S...,42741-0-1,26816072,SZZU-252064-7,0.0,************        ,EXOLGAN  07HS,11:20 Realizado,9:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29336
 26/05,Powergen Solutions S...,42736-0-1,26816072,SZZU-252053-9,0.0,**********          ,EXOLGAN  007HS A 10HS,11:20 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29331
+26/05,Powergen Solutions S...,42743-0-1,26816072,SZZU-252056-5,0.0,*********           ,EXOLGAN  13HS,En curso,9:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29338
+26/05,Borax Argentina S A,42671-0-1,270439958,SUDU-532147-1,0.0,************        ,TERMINAL 4   11HS,11:52 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29292
+26/05,Mercovan Argentina S...,42719-0-1,34997754,HLXU-535661-3,0.0,****************    ,EXOLGAN  13HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29315
 26/05,Powergen Solutions S...,42739-0-1,26816072,SZZU-252060-5,0.0,***********         ,EXOLGAN  07HS,11:20 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29334
 26/05,Powergen Solutions S...,42742-0-1,26816072,SZZU-252052-3,0.0,************        ,EXOLGAN  007HS A 10HS,11:20 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29337
 26/05,Litoral Citrus S A,42658-0-1,COSU6501375440,OOLU-229917-7,0.0,**************      ,TRP   11HS   (CARGA IMO),En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29305
-26/05,Mercovan Argentina S...,42719-0-1,34997754,HLXU-535661-3,0.0,****************    ,EXOLGAN  13HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29315
-26/05,Borax Argentina S A,42671-0-1,270439958,SUDU-532147-1,0.0,************        ,TERMINAL 4   11HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29292
-26/05,Borax Argentina S A,42672-1-1,270439897,MRKU-090929-8,60.0,                    ,TERMINAL 4   11HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29291
-26/05,Powergen Solutions S...,42743-0-1,26816072,SZZU-252056-5,0.0,*********           ,EXOLGAN  13HS,En curso,9:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29338
-27/05,Pelama Chubut S.A.,42720-0-1,  : 0                         ,OOCU-640341-0,0.0,**********          ,TRP  11HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29313
 27/05,Pelama Chubut S.A.,42725-0-1,  : 0                         ,CSGU-606168-4,0.0,**********          ,TRP  11HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29314
+27/05,Pelama Chubut S.A.,42720-0-1,  : 0                         ,OOCU-640341-0,0.0,**********          ,TRP  11HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29313
