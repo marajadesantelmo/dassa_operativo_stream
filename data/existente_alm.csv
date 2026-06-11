@@ -20,12 +20,12 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 42897-2-1,Noah Servicess.R.L.,Mercedes Benz Vin Wd...,270341081,MRKU-084135-1,02-06-2026,13.00,1650.00,PA-B,
 42910-3-1,Mh Port Sa,1966 Ford Vin 6R07C1...,267436054,CAAU-473229-3,02-06-2026,15.00,1528.00,EA9,
 42908-1-1,Mercovan Argentina S...,Mudanza Bustos Felip...,HLCUBC1260428125,FCIU-760715-1,02-06-2026,70.00,5920.00,IB9,
-42910-4-1,Mh Port Sa,2004 Merz Vin Wdbsk7...,267436054,CAAU-473229-3,02-06-2026,15.00,1528.00,EA9,
+42910-2-1,Mh Port Sa,2007 Hd Mc Vin 1Hd1K...,267436054,CAAU-473229-3,02-06-2026,10.00,250.00,EA9,
 42907-1-1,Mercovan Argentina S...,Mudanza Benegas Jero...,HLCUBC1260443782,HLBU-127637-0,02-06-2026,25.00,1550.00,NAVE 2,
 42907-2-1,Mercovan Argentina S...,Mudanza Varela Carol...,HLCUBC1260443782,HLBU-127637-0,02-06-2026,24.00,1369.00,NAVE 2,
-42910-5-1,Mh Port Sa,Mudanza Vazquez Esta...,267436054,CAAU-473229-3,02-06-2026,20.00,2248.00,NAVE 3,
+42910-4-1,Mh Port Sa,2004 Merz Vin Wdbsk7...,267436054,CAAU-473229-3,02-06-2026,15.00,1528.00,EA9,
 42891-0-1,Lift Van Int. Co S.A,Mudanza Sergio Saifi...,-,,02-06-2026,0.00,3150.00,RZ-1A,
-42910-2-1,Mh Port Sa,2007 Hd Mc Vin 1Hd1K...,267436054,CAAU-473229-3,02-06-2026,10.00,250.00,EA9,
+42910-5-1,Mh Port Sa,Mudanza Vazquez Esta...,267436054,CAAU-473229-3,02-06-2026,20.00,2248.00,NAVE 3,
 42910-1-1,Mh Port Sa,Ktm Mx Vin Vbksxn434...,267436054,CAAU-473229-3,02-06-2026,10.00,250.00,EA9,
 42896-1-1,Lift Van Int. Co S.A,Embajada De Los Eeuu...,HLCUBSC2604DUPF6,FANU-501875-5,02-06-2026,17.00,1848.00,ANEX-A1,
 42908-2-1,Mercovan Argentina S...,Mudanza De Apellaniz...,HLCUBC1260428125,FANU-375641-0,02-06-2026,50.00,3720.00,IB9,
@@ -81,8 +81,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 41982-1-1,Noah Servicess.R.L.,Vin Saldv224Xva11532...,266417554,MRKU-072244-0,26-03-2026,15.00,1700.00,NV5,http://dassaweb.mqbic.com/PublicTally.php?id2=NDIxMg==
 41982-3-1,Noah Servicess.R.L.,2004 Harley Vin 1Hd1...,266417554,MRKU-072244-0,26-03-2026,10.00,304.00,NAVE 4,http://dassaweb.mqbic.com/PublicTally.php?id2=NDIxMg==
 41956-1-1,Impulso Jm S.A.,Gorros,TCQD2601151,OOLU-439126-1,25-03-2026,28.04,3640.33,IB7,http://dassaweb.mqbic.com/PublicTally.php?id2=NDE5NA==
-41729-1-1,Bicicletas Futura Sa,Bicicletas,GILSH25100047,UETU-806550-3,10-03-2026,25.39,2055.04,IB8,http://dassaweb.mqbic.com/PublicTally.php?id2=NDExMQ==
 41729-2-1,Bicicletas Futura Sa,Bicicletas,GILSH25100047,FSCU-885145-4,10-03-2026,66.00,4201.00,IA9,http://dassaweb.mqbic.com/PublicTally.php?id2=NDExMg==
+41729-1-1,Bicicletas Futura Sa,Bicicletas,GILSH25100047,UETU-806550-3,10-03-2026,25.39,2055.04,IB8,http://dassaweb.mqbic.com/PublicTally.php?id2=NDExMQ==
 41690-1-1,Noah Servicess.R.L.,Jeep Wrangler  Vin 1...,265401386,MRKU-065227-6,06-03-2026,20.00,1960.00,IB6,http://dassaweb.mqbic.com/PublicTally.php?id2=NDA4Ng==
 41667-1-1,Grupo Rsm Srl,Bmw Color Blue Vin S...,266057324,MRKU-084071-4,05-03-2026,10.00,1466.00,ANEXO1,http://dassaweb.mqbic.com/PublicTally.php?id2=NDA3Mg==
 41667-2-1,Grupo Rsm Srl,Bmw Color Red V In W...,266057324,MRKU-084071-4,05-03-2026,9.00,1400.00,ANEXO 1,http://dassaweb.mqbic.com/PublicTally.php?id2=NDA3Mg==
@@ -130,9 +130,9 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 39383-1-1,Skop Trader S. A.,"Pp Folding Chair,Caj...",TCNB2509194,KOCU-403777-1,07-11-2025,65.00,11024.30,,
 39277-1-1,Skop Trader S. A.,Mesas De Plaatico,TCNB2508424,HMMU-658375-4,03-11-2025,71.00,14544.00,NV1,
 39247-1-1,Skop Trader S. A.,Mesas De Plastico,TCNB2508476,HMMU-659616-0,31-10-2025,71.00,14432.90,NV1,
-39238-1-1,Juliana Sa,Textil,OOLU2161806950,OOCU-963929-3,30-10-2025,70.00,24615.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id2=MzA0Mw==
 39225-1-1,Jupam Sa,Textil,NGP2732956,CMAU-934364-3,30-10-2025,68.00,16952.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MzAyOA==
 39239-1-1,Jupam Sa,Textil Fabrics,NGNT51061200,FFAU-495285-6,30-10-2025,68.00,15300.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MzA0NA==
+39238-1-1,Juliana Sa,Textil,OOLU2161806950,OOCU-963929-3,30-10-2025,70.00,24615.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id2=MzA0Mw==
 39205-1-1,Skop Trader S. A.,Mesas Y Sillas De Pl...,TCNB2507800,KOCU-492522-1,29-10-2025,68.00,13458.30,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id2=MzAxOA==
 39166-1-1,Juliana Sa,Textil,NGP2732970,GESU-646776-4,28-10-2025,68.00,16847.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id2=Mjk5MA==
 39147-1-1,Chelatex Sas,Telas,GILNB250900312,MRSU-534301-4,27-10-2025,68.00,16200.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=Mjk4Nw==
@@ -155,8 +155,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 38325-1-1,Jupam Sa,Textil Fabrics,TWLE25070182,JXLU-618880-5,17-09-2025,68.00,19578.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MjU5Mw==
 38303-1-1,Bulldog Solutions S....,Textile,HDE25-0800018,TCNU-240738-8,16-09-2025,70.00,16410.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MjU4Mg==
 38042-1-1,Fedtex S.R.L,Telas,TWLE25060076,OOCU-902366-7,05-09-2025,55.05,17170.89,IA8,http://dassaweb.mqbic.com/PublicTally.php?id2=MjQ2OA==
-37894-2-1,Grupo Harley S.A.,Motorcycle Tire,Z209GZH2505007,FCIU-813928-7,29-08-2025,70.00,15360.00,NV1,http://dassaweb.mqbic.com/PublicTally.php?id2=MjQxMg==
 37894-1-1,Grupo Harley S.A.,Motortcycle Tire,Z209GZH2505007,TGBU-925320-0,29-08-2025,298.85,11240.00,NV1,http://dassaweb.mqbic.com/PublicTally.php?id2=MjQxMQ==
+37894-2-1,Grupo Harley S.A.,Motorcycle Tire,Z209GZH2505007,FCIU-813928-7,29-08-2025,70.00,15360.00,NV1,http://dassaweb.mqbic.com/PublicTally.php?id2=MjQxMg==
 37107-2-1,Talwin Transport Ser...,Santo Tome / Ford Mu...,HLCUBSC2506AXZL0,TCLU-428516-8,23-07-2025,10.00,1508.00,NV5,http://dassaweb.mqbic.com/PublicTally.php?id2=MjIwNQ==
 37107-1-1,Talwin Transport Ser...,Santo Tome  Vehicle ...,HLCUBSC2506AXZL0,TCLU-428516-8,23-07-2025,10.00,1415.00,NV5,http://dassaweb.mqbic.com/PublicTally.php?id2=MjIwNQ==
 36936-0-1,Berkma S.A.,.Mercaderia Denuncia...,-,EITU-123028-0,17-07-2025,10.00,25.00,RZ-1A,
