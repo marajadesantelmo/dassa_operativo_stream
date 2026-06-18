@@ -25,13 +25,12 @@ Dia,Cliente,Operacion,Booking,Contenedor,Volumen,Precinto,Observaciones,Estado,H
 17/06,Borax Argentina S A,42956-1-1,BUA0368967,CSOU-125118-0,30.0,                    ,TERMINAL 4  11HS,10:48 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29412
 17/06,Lawter Argentina S.A...,43058-1-1,COSU6504260090,OOLU-441429-0,60.0,                    ,TRP  11HS,13:57 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29482
 17/06,Lawter Argentina S.A...,43064-1-1,COSU6504260090,TCLU-428676-0,60.0,                    ,TRP  11HS,13:57 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29483
-17/06,Borax Argentina S A,42952-1-1,BUA0368967,DFSU-299183-3,30.0,                    ,TERMINAL 4  11HS,10:48 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29410
 17/06,Borax Argentina S A,42951-1-1,BUA0368967,TCLU-752395-3,30.0,                    ,TERMINAL 4  11HS,10:48 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29409
 17/06,Borax Argentina S A,42953-1-1,BUA0368967,TGHU-194261-1,30.0,                    ,TERMINAL 4  11HS,10:48 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29411
 17/06,Borax Argentina S A,42957-1-1,BUA0368967,TEMU-113999-5,30.0,                    ,TERMINAL 4   11HS,10:48 Realizado,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29413
+17/06,Borax Argentina S A,42952-1-1,BUA0368967,DFSU-299183-3,30.0,                    ,TERMINAL 4  11HS,10:48 Realizado,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29410
 17/06,Pelama Chubut S.A.,43105-1-1,COSU6503625980,TRHU-420736-1,60.0,                    ,TRP  02AM,16:30 Realizado,9:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29492
 18/06,Alacor Sa,43117-1-1,26001EC01041234C              ,MRSU-623404-4,60.0,                    ,TERMINAL 4  23HS,Pendiente,10:00,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29496
-18/06,Mercovan Argentina S...,43074-0-1,  : 0                         ,GLDU-949681-8,0.0,*********           ,EXOLGAN 13HS,Pendiente,9:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29493
 18/06,Paramerica S.A.,43003-1-1,ZIMUBUE9050645,TGBU-576286-9,60.0,                    ,TERMINAL 4  19HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29440
 18/06,Paramerica S.A.,42989-1-1,ZIMUBUE9050645,KSSU-100895-3,60.0,                    ,TERMINAL 4   19HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29429
 18/06,Paramerica S.A.,42999-1-1,ZIMUBUE9050645,TCNU-247987-6,60.0,                    ,TERMINAL 4  19HS,En curso,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29436
@@ -50,6 +49,7 @@ Dia,Cliente,Operacion,Booking,Contenedor,Volumen,Precinto,Observaciones,Estado,H
 18/06,Paramerica S.A.,43020-1-1,ZIMUBUE9050645,TEMU-762155-6,60.0,                    ,TERMINAL 4  19HS,En curso,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29462
 18/06,Paramerica S.A.,43011-1-1,ZIMUBUE9050645,JXLU-639155-6,60.0,                    ,TERMINAL 4  19HS,En curso,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29447
 18/06,Paramerica S.A.,43016-1-1,ZIMUBUE9050645,TCNU-230450-1,60.0,                    ,TERMINAL 4  19HS,En curso,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29458
+18/06,Mercovan Argentina S...,43074-0-1,  : 0                         ,GLDU-949681-8,0.0,*********           ,EXOLGAN 13HS,Pendiente,9:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29493
 19/06,Paramerica S.A.,43000-1-1,26001EC03006319J              ,ZCSU-768443-5,60.0,                    ,TERMINAL 4  19HS,Pendiente,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29437
 19/06,Lift Van Int. Co S.A,43098-0-1,  : 0                         ,MEDU-401069-5,0.0,************        ,TRP  09HS,Pendiente,9:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29491
 19/06,Paramerica S.A.,42998-1-1,26001EC03006319J              ,ZCSU-692089-7,60.0,                    ,TERMINAL 4  19HS,Pendiente,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29435
@@ -62,7 +62,7 @@ Dia,Cliente,Operacion,Booking,Contenedor,Volumen,Precinto,Observaciones,Estado,H
 19/06,Paramerica S.A.,42979-1-1,26001EC03006319J              ,ZCSU-755585-0,60.0,                    ,TERMINAL 4   19HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29424
 19/06,Minera Santa Rita Sr...,43068-0-1,  : 0                         ,HPCU-434400-0,0.0,**********          ,TRP  11HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29487
 19/06,Minera Santa Rita Sr...,43067-0-1,  : 0                         ,GCXU-510289-9,0.0,*************       ,TRP  11HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29486
-19/06,Minera Santa Rita Sr...,43066-0-1,  : 0                         ,FFAU-486190-4,0.0,************        ,TRP  11HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29485
+19/06,Paramerica S.A.,42988-1-1,26001EC03006319J              ,ZCSU-774091-9,60.0,                    ,TERMINAL 4  19HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29428
 19/06,Paramerica S.A.,43004-1-1,26001EC03006319J              ,TRHU-835023-6,60.0,                    ,TERMINAL 4  19HS,Pendiente,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29441
 19/06,Paramerica S.A.,43017-1-1,26001EC03006319J              ,ZCSU-759501-9,60.0,                    ,TERMINAL 4  19HS,Pendiente,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29459
 19/06,Paramerica S.A.,43015-1-1,26001EC03006319J              ,ZCSU-709849-7,60.0,                    ,TERMINAL 4  19HS,Pendiente,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29457
@@ -75,5 +75,5 @@ Dia,Cliente,Operacion,Booking,Contenedor,Volumen,Precinto,Observaciones,Estado,H
 19/06,Paramerica S.A.,43028-1-1,26001EC03006319J              ,ZCSU-752395-5,60.0,                    ,TERMINAL 4  19HS,Pendiente,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29463
 19/06,Paramerica S.A.,43019-1-1,26001EC03006319J              ,ZCSU-653303-3,60.0,                    ,TERMINAL 4   19HS,Pendiente,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29461
 19/06,Paramerica S.A.,43018-1-1,26001EC03006319J              ,ZCSU-853059-0,60.0,                    ,TERMINAL 4   19HS,Pendiente,8:30 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29460
-19/06,Paramerica S.A.,42988-1-1,26001EC03006319J              ,ZCSU-774091-9,60.0,                    ,TERMINAL 4  19HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29428
+19/06,Minera Santa Rita Sr...,43066-0-1,  : 0                         ,FFAU-486190-4,0.0,************        ,TRP  11HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29485
 22/06,Mercovan Argentina S...,43073-0-1,  : 0                         ,SEGU-361950-7,0.0,*************       ,EXOLGAN   10HS,Pendiente,8:00 ,http://dassa.mqbic.com/NewTallyExpoConsumo.php?id=29494
