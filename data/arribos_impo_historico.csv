@@ -95,6 +95,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-06-22,11:00,TRP,CCLU-514677-2,Lift Van Int. Co S.A...,OOLU2323259200,TD,2026-06-22,,
 2026-06-22,09:00,TRP,TEMU-289243-1,Lift Van Int. Co S.A...,OOLU2323148270,T,2026-06-22,,
 2026-06-23,09:00,TRP,TCLU-316687-9,Lift Van Int. Co S.A...,ONEYLIV13334800,TD,2026-06-23,,
+2026-06-29,12:00,Terminal 4,CAAU-244355-8,Lift Van Int. Co S.A...,ZIMCRT913777,TD,,,
 2026-06-08,05:00,Terminal 4,TGHU-517286-4,Lift Van Int. Co S.A...,CDOLX260470,TD,2026-06-08,,
 2026-06-08,05:00,Terminal 4,ZCSU-761497-3,Lift Van Int. Co S.A...,CDOLX260470,TD,2026-06-08,,
 2026-06-11,06:00,Terminal 4,HLBU-174945-1,Lift Van Int. Co S.A...,FE2617104399NYCBUE,TD,2026-06-11,,
@@ -323,6 +324,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-06-24,15:00,Exolgan,CAIU-304578-3,Refractarios Argenti...,DLC69677437,TD,2026-06-24,,
 2026-06-24,15:00,Exolgan,CAIU-307839-1,Refractarios Argenti...,DLC69677437,TD,2026-06-24,,
 2026-06-24,17:00,Exolgan,GLDU-945577-9,Refractarios Argenti...,DLC69677437,TD,2026-06-24,,
+2026-06-29,06:00,Terminal 4,MRKU-671332-1,Refractarios Argenti...,270991877,TD,,,
+2026-06-29,06:00,Terminal 4,MRKU-711135-5,Refractarios Argenti...,270991877,TD,,,
 2026-06-24,13:00,Exolgan,MSBU-284854-4,Refractarios Argenti...,VIE69784901,TD,2026-06-24,,
 2026-06-24,13:00,Exolgan,MSDU-157445-1,Refractarios Argenti...,VIE69784901,TD,2026-06-24,,
 2026-06-24,13:00,Exolgan,MSNU-158654-0,Refractarios Argenti...,VIE69784901,TD,2026-06-24,,
@@ -491,7 +494,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-30,13:00,Exolgan,TCLU-630361-4,Aspee Monee         ...,AEM03260174,T,2026-03-30,,
 2026-03-31,15:00,Exolgan,TCLU-996391-0,Aspee Monee         ...,AEM03260175,T,2026-03-31,,
 2026-01-07,10:00,Terminal 4,CMAU-087855-7,Fenisan S.A.        ...,IBC1415791,T,2026-01-07,,
-2026-06-25,10:00,Terminal 4,MRKU-959648-7,Fenisan S.A.        ...,271350420,T,,,
+2026-06-25,10:00,Terminal 4,MRKU-959648-7,Fenisan S.A.        ...,271350420,T,2026-06-25,,
 2026-06-01,06:00,Terminal 4,MIEU-306120-9,Fenisan S.A.        ...,270286168,T,2026-06-01,,
 2026-02-11,06:00,Terminal 4,UETU-804679-8,Blue Mail S.A.      ...,263916089,TD,2026-02-13,,
 2026-02-10,10:00,TRP,EITU-184731-2,Shipy S.A.          ...,QD20250313,T,2026-02-10,,
@@ -737,7 +740,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-01-05,13:00,TRP,GCXU-210504-5,Dodero & Cia S.R.L. ...,HDMUSZPM02832800,T,2026-01-05,,
 2026-05-13,12:00,TRP,TCNU-164760-9,Foralia Sa          ...,UCL/KHI/0038022-26,T,2026-05-13,,
 2026-05-13,11:00,TRP,EISU-859224-6,Foralia Sa          ...,UCL/KHI/0038022-26,T,2026-05-13,,
-2026-06-25,10:00,Terminal 4,UACU-857770-0,Talwin Transport Ser...,HLCUBSC2605AVTD4,TD,,,
+2026-06-25,10:00,Terminal 4,UACU-857770-0,Talwin Transport Ser...,HLCUBSC2605AVTD4,TD,2026-06-25,,
 2026-06-25,,Terminal 4,+17862707195,Talwin Transport Ser...,HLCUBSC2605AVTD4,T,,,
 2026-03-04,13:00,Terminal 4,JXLU-784766-1,Moniport Cargo Sa   ...,ZIMUTRT936125,TD,2026-03-04,4066,http://dassaweb.mqbic.com/PublicTally.php?id=4066
 2026-03-04,13:00,Terminal 4,JXLU-784766-1,Moniport Cargo Sa   ...,ZIMUTRT936125,TD,2026-03-04,4066,http://dassaweb.mqbic.com/PublicTally.php?id=4066
@@ -797,8 +800,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-01-22,05:00,TRP,TLLU-163421-7,Noah Servicess.R.L. ...,IBC1413736,TD,2026-01-22,3831,http://dassaweb.mqbic.com/PublicTally.php?id=3831
 2026-01-30,05:00,Exolgan,MSBU-335877-3,Noah Servicess.R.L. ...,MEDUOQ433650,TD,2026-01-30,3874,http://dassaweb.mqbic.com/PublicTally.php?id=3874
 2026-06-11,05:00,Terminal 4,HASU-508726-8,Noah Servicess.R.L. ...,270709785,TD,2026-06-11,,
-2026-06-25,10:00,Terminal 4,MRKU-108852-0,Noah Servicess.R.L. ...,271340901,TD,,,
-2026-06-25,10:00,Terminal 4,MRKU-049271-1,Noah Servicess.R.L. ...,270710557,TD,,,
+2026-06-25,10:00,Terminal 4,MRKU-108852-0,Noah Servicess.R.L. ...,271340901,TD,2026-06-25,,
+2026-06-25,10:00,Terminal 4,MRKU-049271-1,Noah Servicess.R.L. ...,270710557,TD,2026-06-25,,
 2026-06-01,05:00,Terminal 4,MRSU-496716-6,Noah Servicess.R.L. ...,270403985,TD,2026-06-01,4691,http://dassaweb.mqbic.com/PublicTally.php?id=4691
 2026-06-01,05:00,Terminal 4,MRSU-496716-6,Noah Servicess.R.L. ...,270403985,TD,2026-06-01,4691,http://dassaweb.mqbic.com/PublicTally.php?id=4691
 2026-06-01,05:00,Terminal 4,MRSU-496716-6,Noah Servicess.R.L. ...,270403985,TD,2026-06-01,4691,http://dassaweb.mqbic.com/PublicTally.php?id=4691
