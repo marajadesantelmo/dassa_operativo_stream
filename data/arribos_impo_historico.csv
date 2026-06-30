@@ -91,7 +91,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-06-22,11:00,TRP,CCLU-514677-2,Lift Van Int. Co S.A...,OOLU2323259200,TD,2026-06-22,,
 2026-06-22,09:00,TRP,TEMU-289243-1,Lift Van Int. Co S.A...,OOLU2323148270,T,2026-06-22,,
 2026-06-23,09:00,TRP,TCLU-316687-9,Lift Van Int. Co S.A...,ONEYLIV13334800,TD,2026-06-23,,
-2026-06-29,12:00,Terminal 4,CAAU-244355-8,Lift Van Int. Co S.A...,ZIMCRT913777,TD,,,
+2026-06-29,12:00,Terminal 4,CAAU-244355-8,Lift Van Int. Co S.A...,ZIMCRT913777,TD,2026-06-29,,
 2026-06-11,06:00,Terminal 4,HLBU-174945-1,Lift Van Int. Co S.A...,FE2617104399NYCBUE,TD,2026-06-11,,
 2026-06-12,13:00,Exolgan,MSBU-271497-2,Lift Van Int. Co S.A...,MEDURS293849,TD,2026-06-12,,
 2026-06-16,13:00,Exolgan,HLXU-535618-8,Lift Van Int. Co S.A...,HLCUBC1260365833,TD,2026-06-16,,
@@ -260,6 +260,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-02-09,15:00,Exolgan,HAMU-477120-6,A La Orden          ...,,TD,2026-02-09,,
 2026-02-27,21:00,TRP,OOCU-812458-6,A La Orden          ...,GZ25120112,T,2026-02-27,,
 2026-02-27,20:00,TRP,FBLU-491486-1,A La Orden          ...,GZ25120112,T,2026-02-27,,
+2026-07-01,05:00,Terminal 4,TCNU-564687-4,A La Orden          ...,ZIMUHFX928904/01,TD,,,
 2026-01-02,07:00,Exolgan,MSNU-912687-5,La Tela Srl         ...,NGB31160333,TD,2026-01-02,3657,http://dassaweb.mqbic.com/PublicTally.php?id=3657
 2026-01-02,07:00,Exolgan,DFSU-687391-0,La Tela Srl         ...,NGB31160335,TD,2026-01-02,3658,http://dassaweb.mqbic.com/PublicTally.php?id=3658
 2026-01-02,07:00,Exolgan,MSDU-730035-5,La Tela Srl         ...,NGB31160337,TD,2026-01-02,3659,http://dassaweb.mqbic.com/PublicTally.php?id=3659
@@ -296,7 +297,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-06-12,06:00,Terminal 4,ZHLU-200844-7,Dpmg S.A.           ...,269767874,T,2026-06-12,,
 2026-06-17,10:00,Terminal 4,ZCSU-730661-0,Dpmg S.A.           ...,NBOBUE26041868,TD,2026-06-17,,
 2026-06-17,10:00,Terminal 4,ZHLU-202165-0,Dpmg S.A.           ...,269901796,T,2026-06-17,,
-2026-06-30,05:00,Terminal 4,MRKU-342418-2,Dpmg S.A.           ...,GILNB260500067,T,,,
+2026-06-30,05:00,Terminal 4,MRKU-342418-2,Dpmg S.A.           ...,GILNB260500067,T,2026-06-30,,
 2026-05-27,11:00,TRP,CMAU-833683-0,Dpmg S.A.           ...,NPG3472306,TD,2026-05-27,,
 2026-05-29,10:00,Terminal 4,MSKU-692119-0,Dpmg S.A.           ...,268757125,TD,2026-05-29,,
 2026-05-29,10:00,Terminal 4,MRKU-086634-4,Dpmg S.A.           ...,268757125,TD,2026-05-29,,
@@ -319,8 +320,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-06-24,15:00,Exolgan,CAIU-304578-3,Refractarios Argenti...,DLC69677437,TD,2026-06-24,,
 2026-06-24,15:00,Exolgan,CAIU-307839-1,Refractarios Argenti...,DLC69677437,TD,2026-06-24,,
 2026-06-24,17:00,Exolgan,GLDU-945577-9,Refractarios Argenti...,DLC69677437,TD,2026-06-24,,
-2026-06-29,13:00,Terminal 4,MRKU-671332-1,Refractarios Argenti...,270991877,TD,,,
-2026-06-29,13:00,Terminal 4,MRKU-711135-5,Refractarios Argenti...,270991877,TD,,,
+2026-07-01,13:00,Terminal 4,MRKU-671332-1,Refractarios Argenti...,270991877,TD,,,
+2026-07-01,13:00,Terminal 4,MRKU-711135-5,Refractarios Argenti...,270991877,TD,,,
 2026-06-30,15:00,Exolgan,MEDU-630336-8,Refractarios Argenti...,TSN69773188,TD,,,
 2026-06-24,13:00,Exolgan,MSDU-157445-1,Refractarios Argenti...,VIE69784901,TD,2026-06-24,,
 2026-06-24,13:00,Exolgan,MSNU-158654-0,Refractarios Argenti...,VIE69784901,TD,2026-06-24,,
@@ -453,7 +454,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-05-12,11:00,Exolgan,TRHU-720740-5,Planet Seguridad S.R...,WLLSH2603036,T,2026-05-12,,
 2026-05-26,06:00,Terminal 4,MRSU-995181-4,Planet Seguridad S.R...,WLLSH2603053,T,2026-05-26,,
 2026-06-10,13:00,TRP,UETU-517121-9,Planet Seguridad S.R...,XDSEF260417693,T,2026-06-10,,
-2026-06-30,05:00,Terminal 4,HLBU-213629-0,Planet Seguridad S.R...,XDSEF260512091,T,,,
+2026-06-30,05:00,Terminal 4,HLBU-213629-0,Planet Seguridad S.R...,XDSEF260512091,T,2026-06-30,,
 2026-01-26,13:00,Exolgan,NYKU-082751-2,Aspee Monee         ...,HLCUSHA2511BRPH0,T,2026-01-26,,
 2026-02-25,13:00,Exolgan,MEDU-754232-5,Aspee Monee         ...,MEDUP4915104,T,2026-02-25,,
 2026-02-27,13:00,Exolgan,FFAU-190598-0,Aspee Monee         ...,MEDUP4885349,T,2026-02-27,,
@@ -461,7 +462,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-10,05:00,Exolgan,MSCU-758217-3,Aspee Monee         ...,MEDUWP432174,T,2026-03-10,,
 2026-03-12,15:00,Exolgan,GAOU-789129-0,Aspee Monee         ...,MEDUWP425566,T,2026-03-12,,
 2026-06-26,15:00,Exolgan,TIIU-447004-9,Aspee Monee         ...,MEDUJ7526117,T,2026-06-26,,
-2026-06-29,15:00,Exolgan,TRHU-480663-1,Aspee Monee         ...,AEM05260216,T,,,
+2026-06-29,15:00,Exolgan,TRHU-480663-1,Aspee Monee         ...,AEM05260216,T,2026-06-29,,
 2026-06-02,11:00,Exolgan,MRSU-521710-3,Aspee Monee         ...,AEM05260207,T,2026-06-02,,
 2026-06-05,06:00,Terminal 4,GESU-687318-8,Aspee Monee         ...,FCLDEL25261915,T,2026-06-05,,
 2026-06-10,13:00,Terminal 4,MRKU-400788-2,Aspee Monee         ...,267682440,T,2026-06-10,,
@@ -625,7 +626,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-05-12,13:00,Exolgan,CAAU-730782-6,Jupam Sa            ...,SHOH26030139,T,2026-05-12,,
 2026-06-18,13:00,Exolgan,MEDU-738118-0,Jupam Sa            ...,NBOH26040106,T,2026-06-18,,
 2026-06-18,15:00,Exolgan,MEDU-943209-7,Jupam Sa            ...,NBOH26040104,T,2026-06-18,,
-2026-06-30,05:00,Terminal 4,CIPU-524334-0,Jupam Sa            ...,NBOH26050027,T,,,
+2026-06-30,05:00,Terminal 4,CIPU-524334-0,Jupam Sa            ...,NBOH26050027,T,2026-06-30,,
 2026-05-15,07:00,Exolgan,TGBU-408393-0,Jupam Sa            ...,NBOH26030073,T,2026-05-15,,
 2026-06-02,13:00,Exolgan,FCIU-737015-7,Jupam Sa            ...,NBOH26040047,T,2026-06-02,,
 2026-06-03,15:00,Exolgan,MSMU-450920-3,Jupam Sa            ...,NBOH26040046,T,2026-06-03,,
@@ -707,6 +708,12 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-02-21,10:00,Terminal 4,MSKU-794621-1,Chemotecnica Sa     ...,SSZBUE02298,T,2026-02-21,,
 2026-02-21,10:00,Terminal 4,MRKU-011961-0,Chemotecnica Sa     ...,SSZBUE02298,T,2026-02-21,,
 2026-02-21,10:00,Terminal 4,CAIU-464466-2,Chemotecnica Sa     ...,SSZBUE02298,T,2026-02-21,,
+2026-07-01,13:00,Terminal 4,CAIU-921956-3,Chemotecnica Sa     ...,ZIMUSNH7235180,TD,,,
+2026-07-01,13:00,Terminal 4,SEGU-533842-7,Chemotecnica Sa     ...,ZIMUSNH7235180,TD,,,
+2026-07-01,13:00,Terminal 4,ZCSU-708963-8,Chemotecnica Sa     ...,ZIMUSNH7235180,TD,,,
+2026-07-01,10:00,TRP,YMMU-710234-1,Chemotecnica Sa     ...,YMJAB237017046,TD,,,
+2026-07-01,11:00,TRP,TEMU-880922-9,Chemotecnica Sa     ...,YMJAB237017046,TD,,,
+2026-07-01,11:00,TRP,YMMU-707830-6,Chemotecnica Sa     ...,YMJAB237017046,TD,,,
 2026-06-24,07:00,Exolgan,HLBU-202312-3,Chemotecnica Sa     ...,TML/97476/BUA/0426,T,2026-06-24,,
 2026-06-24,07:00,Exolgan,HLBU-209098-6,Chemotecnica Sa     ...,TML/97476/BUA/0426,T,2026-06-24,,
 2026-06-30,15:00,Exolgan,HLBU-623241-4,Chemotecnica Sa     ...,HLCUSHA2604COTX7,T,,,
@@ -739,6 +746,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-02-20,11:00,Terminal 4,MRKU-258273-2,Eramine Sudamerica S...,ROECHN26010633,TD,2026-02-20,3964,http://dassaweb.mqbic.com/PublicTally.php?id=3964
 2026-05-19,05:00,Terminal 4,CAAU-715079-0,Bulldog Solutions S....,FDTJSE2602020,T,2026-05-19,,
 2026-03-09,05:00,Terminal 4,MSKU-684913-5,Gematec Srl         ...,SYNHKG26SE010024,TD,2026-03-09,4099,http://dassaweb.mqbic.com/PublicTally.php?id=4099
+2026-07-01,12:00,TRP,BEAU-223611-6,Gematec Srl         ...,SHZ8095573,T,,,
 2026-01-05,13:00,TRP,GCXU-210504-5,Dodero & Cia S.R.L. ...,HDMUSZPM02832800,T,2026-01-05,,
 2026-05-13,12:00,TRP,TCNU-164760-9,Foralia Sa          ...,UCL/KHI/0038022-26,T,2026-05-13,,
 2026-05-13,11:00,TRP,EISU-859224-6,Foralia Sa          ...,UCL/KHI/0038022-26,T,2026-05-13,,
@@ -925,7 +933,6 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-01-12,13:00,Terminal 4,TTNU-439200-0,Grupo Simpa Sa      ...,TCSH2511201,T,2026-01-12,,
 2026-01-27,11:00,TRP,YMMU-744052-3,Breyer Hnos S A     ...,APS20251100878,T,2026-01-27,,
 2026-05-29,12:00,TRP,BSIU-262462-0,Breyer Hnos S A     ...,TYGZSEZUH26030006,T,2026-05-29,,
-2026-01-01,04:00,TRP,ECMU-725934-6,Anaya San Martín Y A...,Z330GZH2510035,TD,2026-01-12,,
 2026-01-02,16:00,TRP,HPCU-433849-7,Anaya San Martín Y A...,TXPT50513000,T,2026-01-02,,
 2026-01-02,16:00,TRP,UETU-599315-0,Anaya San Martín Y A...,TXPT50513000,T,2026-01-02,,
 2026-01-09,15:00,Terminal 4,MRKU-688945-5,Grupo Rsm Srl       ...,262685150,TD,2026-01-09,3742,http://dassaweb.mqbic.com/PublicTally.php?id=3742
@@ -1207,6 +1214,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-06,11:00,TRP,AMCU-250427-7,Ofa Express Srl     ...,QGD2463394,TD,2026-03-06,4092,http://dassaweb.mqbic.com/PublicTally.php?id=4092
 2026-03-06,11:00,TRP,AMCU-250427-7,Ofa Express Srl     ...,QGD2463394,TD,2026-03-06,4092,http://dassaweb.mqbic.com/PublicTally.php?id=4092
 2026-03-06,11:00,TRP,SEGU-732757-1,Ofa Express Srl     ...,QGD2463394,TD,2026-03-06,4098,http://dassaweb.mqbic.com/PublicTally.php?id=4098
+2026-07-01,13:00,Terminal 4,MRSU-774273-3,Ofa Express Srl     ...,YON202608739,TD,,,
 2026-03-05,15:00,TRP,TCLU-757649-1,El Campo Sa         ...,GZ25120036,T,2026-03-05,,
 2026-03-05,12:00,TRP,OOCU-094730-9,El Campo Sa         ...,GZ25120036,T,2026-03-05,,
 2026-03-26,11:00,TRP,FCIU-956433-6,El Campo Sa         ...,GZ26010114,T,2026-03-26,,
@@ -1253,5 +1261,5 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-06-22,11:00,TRP,PIDU-415467-1,Llanos Yampa Ruben  ...,CNYTNFGD0031,T,2026-06-22,,
 2026-06-22,11:00,TRP,HPCU-297315-3,Barile Srl          ...,ONEYXMNG33868300,TD,2026-06-22,,
 2026-06-30,11:00,Exolgan,CAIU-568868-6,Imbal S.A.          ...,GZ26030299A,TD,,,
-2026-06-29,15:00,Exolgan,ONEU-301501-6,Hector Horacio Higa ...,ONEYNGOG10917900,TD,,,
+2026-06-29,15:00,Exolgan,ONEU-301501-6,Hector Horacio Higa ...,ONEYNGOG10917900,TD,2026-06-29,,
 2026-06-30,13:00,Terminal 4,TCKU-763587-4,Caribe Sur S.A.     ...,MAP000044.A/B,TD,,,
