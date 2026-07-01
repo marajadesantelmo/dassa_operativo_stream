@@ -36,6 +36,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-01-08,41077,,Lift Van Int. Co S.A,263643818,ALIRIO MATA ROJAS,Arribado
 2026-01-09,41112,,Lift Van Int. Co S.A,26001PE01000004F,AGUSTINA LORENZO DUFORT,Pendiente
 2026-06-26,44638,,Lift Van Int. Co S.A,45424059,EMMANUEL TURINETTO,Arribado
+2026-07-01,44700,,Lift Van Int. Co S.A,34563285,OLIVER HILLE SCHMIDT,Arribado
 2026-06-16,44385,,Lift Van Int. Co S.A,27054317,FREDERICK WAYNE JANZEN,Arribado
 2026-06-24,44558,,Lift Van Int. Co S.A,42678947,MARY ANN JACKSON HOLLEY,Arribado
 2026-06-25,44576,,Lift Van Int. Co S.A,271957134,ANJALI SARMA // EFECTOS PERS.,Arribado
@@ -206,6 +207,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-06-04,44168,,Termoplasticos Del S...,EBKG17166321,GRLEM261597 // FLEXI,Arribado
 2026-06-11,44296,,Termoplasticos Del S...,94695140,94695140,Arribado
 2026-06-24,44563,,Termoplasticos Del S...,45759782,GRLEM261813,Arribado
+2026-07-01,44705,,Termoplasticos Del S...,EBKG1752756,EBKG1752756,Pendiente
 2026-04-09,43068,HLBU-355306-7,Termoplasticos Del S...,36815061,GRLEM260944 / CONTENEDORES,Arribado
 2026-04-09,43069,HLBU-388346-0,Termoplasticos Del S...,36815061,GRLEM260944 / CONTENEDORES,Arribado
 2026-04-09,43070,HLBU-408077-6,Termoplasticos Del S...,36815061,GRLEM260944 / CONTENEDORES,Arribado
@@ -362,7 +364,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-03-25,42855,,Manufactura Los Ande...,FC 19-005,FC 19-005,Arribado
 2026-04-23,43331,,Dry Sea Srl,269615318,EL HINOJO S. A.,Arribado
 2026-06-03,44147,,Sunstar Americas Inc,24977569,SUNSTAR,Arribado
-2026-06-30,44678,,Sunstar Americas Inc,26001EC01044128H,EXPO TERRESTRE,Pendiente
+2026-06-30,44678,,Sunstar Americas Inc,26001EC01044128H,EXPO TERRESTRE,Arribado
 2026-02-05,41730,,Industrias Quimicas ...,ZIMUBUE9047185,ZIMUBUE9047185,Arribado
 2026-01-07,41045,,Kluber Lubrication A...,90622525,90622525,Arribado
 2026-02-04,41689,,Kluber Lubrication A...,265928062,265928062 //,Arribado
@@ -655,6 +657,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-01-06,40807,,Lawter Argentina S.A...,BUE500256200,5157377 - 5157378 - 5157379 - 5157380,Arribado
 2026-01-06,40808,,Lawter Argentina S.A...,BUE500256200,5157377 - 5157378 - 5157379 - 5157380,Arribado
 2026-01-06,40809,,Lawter Argentina S.A...,BUE500256200,5157377 - 5157378 - 5157379 - 5157380,Arribado
+2026-07-01,44701,,Lawter Argentina S.A...,11910506,REF 5161833 / 5161834,Arribado
+2026-07-01,44702,,Lawter Argentina S.A...,11910506,REF 5161833 / 5161834,Arribado
 2026-06-29,44622,,Lawter Argentina S.A...,ZIMUBUE9051339,REF 5160211-2-3-4,Arribado
 2026-06-29,44623,,Lawter Argentina S.A...,ZIMUBUE9051339,REF 5160211-2-3-4,Arribado
 2026-06-29,44624,,Lawter Argentina S.A...,ZIMUBUE9051339,REF 5160211-2-3-4,Arribado
@@ -900,6 +904,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-03-17,42764,,Curtiembre Infante S...,BUEA83381800,,Arribado
 2026-06-17,44409,,Curtiembre Infante S...,BUEA38590700,BUEA38590700,Arribado
 2026-06-17,44410,,Curtiembre Infante S...,BUEA38590700,BUEA38590700,Arribado
+2026-07-01,44703,,Curtiembre Infante S...,270440876,270440876 // CUERO,Arribado
+2026-07-01,44704,,Curtiembre Infante S...,270440876,270440876 // CUERO,Arribado
 2026-06-08,44193,,Curtiembre Infante S...,BUEA11865100,CUERO,Arribado
 2026-06-08,44194,,Curtiembre Infante S...,BUEA11865100,CUERO,Arribado
 2026-05-20,43817,,Curtiembre Infante S...,BUEA27662700,CUERO Y PIELES,Arribado
@@ -923,7 +929,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-01-09,41110,,Grupo Rsm Srl,34574870,AUTO,Pendiente
 2026-01-14,41179,,Grupo Rsm Srl,34574870,34574870,Arribado
 2026-06-25,44557,,Americana Shipping G...,23421391,YERBAMATE ROSAMONTE - CME021832 - 23421391,Arribado
-2026-06-30,44611,,Americana Shipping G...,23421391,YERBAMATE PLAYADITO - CME021832 - 23421391,Pendiente
+2026-07-01,44611,,Americana Shipping G...,23421391,YERBAMATE PLAYADITO - CME021832 - 23421391,Arribado
 2026-02-09,41781,,Forestal Guarani Sa,36860677,GRLEM26528 / 36860677,Arribado
 2026-02-09,41782,,Forestal Guarani Sa,36860677,GRLEM26528 / 36860677,Arribado
 2026-02-11,41900,,Forestal Guarani Sa,266005875,266005875,Arribado
@@ -972,7 +978,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-05-05,43576,,Alami Flejes De Prec...,ZIMUBUE9049622,ZIMUBUE9049622,Arribado
 2026-06-29,44612,,Ecomet Srl,45361741,45361741,Arribado
 2026-06-29,44613,,Ecomet Srl,45361741,45361741,Arribado
-2026-06-29,44614,,Ecomet Srl,45361741,45361741,Arribado
+2026-06-30,44614,,Ecomet Srl,45361741,45361741,Arribado
 2026-03-02,42345,,Forestal Eldorado Sr...,266461132,266461132,Arribado
 2026-03-02,42346,,Forestal Eldorado Sr...,266376132,266376132,Arribado
 2026-03-02,42347,,Forestal Eldorado Sr...,266376132,266376132,Arribado
