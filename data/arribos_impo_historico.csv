@@ -259,9 +259,6 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-02-09,15:00,Exolgan,HAMU-477120-6,A La Orden          ...,,TD,2026-02-09,,
 2026-02-27,21:00,TRP,OOCU-812458-6,A La Orden          ...,GZ25120112,T,2026-02-27,,
 2026-02-27,20:00,TRP,FBLU-491486-1,A La Orden          ...,GZ25120112,T,2026-02-27,,
-2026-01-06,11:00,Exolgan,CRXU-908098-3,La Tela Srl         ...,NGBS072205,TD,2026-01-06,3691,http://dassaweb.mqbic.com/PublicTally.php?id=3691
-2026-01-06,11:00,Exolgan,CARU-994279-5,La Tela Srl         ...,NGBS072203,TD,2026-01-06,3701,http://dassaweb.mqbic.com/PublicTally.php?id=3701
-2026-01-06,13:00,Exolgan,FDCU-021546-2,La Tela Srl         ...,GILNB251001261,TD,2026-01-06,3703,http://dassaweb.mqbic.com/PublicTally.php?id=3703
 2026-01-16,05:00,Exolgan,MSMU-611607-8,La Tela Srl         ...,NGBS072587,T,2026-01-16,,
 2026-02-13,13:00,Exolgan,MSMU-610261-8,La Tela Srl         ...,SHA31173940,T,2026-02-13,,
 2026-03-17,15:00,Exolgan,MEDU-424710-0,La Tela Srl         ...,NGB31163285,T,2026-03-17,,
@@ -278,30 +275,28 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-02-25,09:00,TRP,OOLU-996142-8,Ruedas Liberal Srl  ...,SZ25120272,T,2026-02-25,,
 2026-04-09,06:00,Terminal 4,JXLU-457696-7,Nicolas Garcia      ...,FDNBSE2602144,TD,2026-04-09,4329,http://dassaweb.mqbic.com/PublicTally.php?id=4329
 2026-04-30,13:00,TRP,KOCU-444839-2,Lolotex Srl         ...,WLC60204727,T,2026-04-30,,
-2026-01-06,13:00,Exolgan,DCIU-552766-7,Dpmg S.A.           ...,SYNTSN25SE100658,T,2026-01-06,,
-2026-01-06,11:00,Exolgan,SEGU-813491-5,Dpmg S.A.           ...,NABUE250495,T,2026-01-06,,
 2026-01-16,05:00,Exolgan,DCIU-542250-0,Dpmg S.A.           ...,NABUE250498,T,2026-01-16,,
 2026-01-16,05:00,Exolgan,TIFU-524416-9,Dpmg S.A.           ...,NABUE250497,T,2026-01-16,,
 2026-01-19,15:00,Exolgan,TIFU-548006-1,Dpmg S.A.           ...,NABUE250536,T,2026-01-19,,
 2026-01-19,15:00,Exolgan,DCIU-552742-0,Dpmg S.A.           ...,NABUE250501,T,2026-01-19,,
-2026-06-10,12:00,TRP,TCNU-128041-0,Dpmg S.A.           ...,NGP3510477,TD,2026-06-10,,
-2026-06-10,13:00,TRP,TCKU-716339-8,Dpmg S.A.           ...,NGP3510477,TD,2026-06-10,,
+2026-01-19,15:00,Exolgan,SEGU-818424-3,Dpmg S.A.           ...,NABUE250535,T,2026-01-19,,
+2026-01-19,15:00,Exolgan,DCIU-542240-8,Dpmg S.A.           ...,NABUE250502,T,2026-01-19,,
 2026-06-12,06:00,Terminal 4,ZHLU-200844-7,Dpmg S.A.           ...,269767874,T,2026-06-12,,
 2026-06-17,10:00,Terminal 4,ZCSU-730661-0,Dpmg S.A.           ...,NBOBUE26041868,TD,2026-06-17,,
 2026-06-17,10:00,Terminal 4,ZHLU-202165-0,Dpmg S.A.           ...,269901796,T,2026-06-17,,
 2026-06-30,05:00,Terminal 4,MRKU-342418-2,Dpmg S.A.           ...,GILNB260500067,T,2026-06-30,,
-2026-05-27,11:00,TRP,CMAU-833683-0,Dpmg S.A.           ...,NPG3472306,TD,2026-05-27,,
-2026-05-29,10:00,Terminal 4,MSKU-692119-0,Dpmg S.A.           ...,268757125,TD,2026-05-29,,
 2026-05-29,10:00,Terminal 4,MRKU-086634-4,Dpmg S.A.           ...,268757125,TD,2026-05-29,,
 2026-06-05,05:00,Terminal 4,ZCSU-792671-3,Dpmg S.A.           ...,NBOBUE26040171,TD,2026-06-05,,
 2026-06-05,05:00,Terminal 4,HASU-123002-5,Dpmg S.A.           ...,277989283,TD,2026-06-05,,
 2026-06-05,05:00,Terminal 4,HASU-111650-0,Dpmg S.A.           ...,277989283,TD,2026-06-05,,
-2026-01-19,15:00,Exolgan,SEGU-818424-3,Dpmg S.A.           ...,NABUE250535,T,2026-01-19,,
-2026-01-19,15:00,Exolgan,DCIU-542240-8,Dpmg S.A.           ...,NABUE250502,T,2026-01-19,,
+2026-06-10,12:00,TRP,TCNU-128041-0,Dpmg S.A.           ...,NGP3510477,TD,2026-06-10,,
+2026-06-10,13:00,TRP,TCKU-716339-8,Dpmg S.A.           ...,NGP3510477,TD,2026-06-10,,
 2026-01-30,06:00,Terminal 4,ZHLU-202220-8,Dpmg S.A.           ...,262928431,T,2026-01-30,,
 2026-05-19,05:00,Terminal 4,MRKU-077141-8,Dpmg S.A.           ...,267855243,TD,2026-05-19,4624,http://dassaweb.mqbic.com/PublicTally.php?id=4624
 2026-05-19,05:00,Terminal 4,MRKU-086150-6,Dpmg S.A.           ...,267140227,TD,2026-05-19,4626,http://dassaweb.mqbic.com/PublicTally.php?id=4626
 2026-05-27,11:00,TRP,CMAU-907672-1,Dpmg S.A.           ...,NPG3472295,TD,2026-05-27,,
+2026-05-27,11:00,TRP,CMAU-833683-0,Dpmg S.A.           ...,NPG3472306,TD,2026-05-27,,
+2026-05-29,10:00,Terminal 4,MSKU-692119-0,Dpmg S.A.           ...,268757125,TD,2026-05-29,,
 2026-03-27,03:00,Exolgan,TGBU-864250-6,Export Sud Srl      ...,SL26012611,T,2026-03-27,,
 2026-01-08,11:00,Exolgan,CAIU-669142-6,Refractarios Argenti...,VIE59187111,TD,2026-01-08,3719,http://dassaweb.mqbic.com/PublicTally.php?id=3719
 2026-01-08,15:00,Exolgan,GCXU-249161-0,Refractarios Argenti...,VIE59187111,TD,2026-01-08,3720,http://dassaweb.mqbic.com/PublicTally.php?id=3720
@@ -655,34 +650,32 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-02-21,05:00,Exolgan,TXGU-830689-1,Juliana Sa          ...,MEDUR9411196,T,2026-02-21,,
 2026-02-27,12:00,TRP,EITU-919019-0,Juliana Sa          ...,EGLV142504103604,T,2026-02-27,,
 2026-04-11,13:00,Exolgan,SEGU-698337-0,Juliana Sa          ...,HLCUSHA2601BXGB5,T,2026-04-11,,
-2026-01-06,05:00,Exolgan,MSNU-774556-7,Bisora Group Sa     ...,GILNB251100015,TD,2026-01-06,3695,http://dassaweb.mqbic.com/PublicTally.php?id=3695
-2026-01-06,11:00,Exolgan,DRYU-959583-3,Bisora Group Sa     ...,NBOE25019513,T,2026-01-06,,
 2026-01-07,11:00,Exolgan,CAIU-701659-3,Bisora Group Sa     ...,NBOE25019623,T,2026-01-07,,
 2026-01-19,11:00,Exolgan,MSNU-607649-3,Bisora Group Sa     ...,NBOE25019885,T,2026-01-19,,
 2026-01-20,07:00,Exolgan,MSNU-519342-7,Bisora Group Sa     ...,NBOE25019939,T,2026-01-20,,
 2026-01-27,05:00,Terminal 4,HAMU-216128-8,Bisora Group Sa     ...,NBOE25020564,T,2026-01-27,,
-2026-03-26,15:00,Exolgan,HAMU-227794-0,Bisora Group Sa     ...,GILNB260100773,TD,2026-03-26,4210,http://dassaweb.mqbic.com/PublicTally.php?id=4210
-2026-03-26,15:00,Exolgan,TXGU-890765-5,Bisora Group Sa     ...,GILNB260100566,TD,2026-03-26,4207,http://dassaweb.mqbic.com/PublicTally.php?id=4207
-2026-03-02,08:00,Terminal 4,MRSU-745460-8,Bisora Group Sa     ...,NBFC2601067,T,2026-03-02,,
-2026-03-06,11:00,Exolgan,HAMU-329182-0,Bisora Group Sa     ...,GILNB251201188,T,2026-03-06,,
+2026-02-06,17:00,TRP,PIDU-452464-7,Bisora Group Sa     ...,NGPX59095000,T,2026-02-06,,
+2026-02-09,12:00,TRP,PONU-807150-0,Bisora Group Sa     ...,QDOS035220,TD,2026-02-09,,
 2026-03-10,05:00,Exolgan,GLDU-771405-8,Bisora Group Sa     ...,GILSH260100004,TD,2026-03-10,4109,http://dassaweb.mqbic.com/PublicTally.php?id=4109
 2026-03-10,05:00,Exolgan,MSDU-813087-0,Bisora Group Sa     ...,GILNB251201060,T,2026-03-10,,
 2026-03-11,07:00,Exolgan,BMOU-688772-2,Bisora Group Sa     ...,GILNB251201120,T,2026-03-11,,
 2026-03-12,13:00,Exolgan,MEDU-443542-6,Bisora Group Sa     ...,GILNB260100376,TD,2026-03-12,4126,http://dassaweb.mqbic.com/PublicTally.php?id=4126
-2026-02-20,05:00,Exolgan,HLBU-215831-9,Bisora Group Sa     ...,GILNB251200732,T,2026-02-20,,
-2026-02-20,07:00,Exolgan,TEMU-708667-6,Bisora Group Sa     ...,GILNB2512007321,TD,2026-02-20,3960,http://dassaweb.mqbic.com/PublicTally.php?id=3960
+2026-03-26,15:00,Exolgan,HAMU-227794-0,Bisora Group Sa     ...,GILNB260100773,TD,2026-03-26,4210,http://dassaweb.mqbic.com/PublicTally.php?id=4210
+2026-03-26,15:00,Exolgan,TXGU-890765-5,Bisora Group Sa     ...,GILNB260100566,TD,2026-03-26,4207,http://dassaweb.mqbic.com/PublicTally.php?id=4207
 2026-02-21,11:00,Exolgan,TCLU-564841-6,Bisora Group Sa     ...,GILNB251200171,T,2026-02-21,,
 2026-02-21,11:00,Exolgan,TXGU-539598-2,Bisora Group Sa     ...,GILSH251200025,T,2026-02-21,,
 2026-02-24,11:00,Exolgan,MSDU-769974-9,Bisora Group Sa     ...,GILNB251200738,T,2026-02-24,,
 2026-02-26,07:00,Exolgan,MEDU-860884-9,Bisora Group Sa     ...,GILNB251200759,T,2026-02-26,,
-2026-02-06,17:00,TRP,PIDU-452464-7,Bisora Group Sa     ...,NGPX59095000,T,2026-02-06,,
-2026-02-09,12:00,TRP,PONU-807150-0,Bisora Group Sa     ...,QDOS035220,TD,2026-02-09,,
+2026-03-02,08:00,Terminal 4,MRSU-745460-8,Bisora Group Sa     ...,NBFC2601067,T,2026-03-02,,
+2026-03-06,11:00,Exolgan,HAMU-329182-0,Bisora Group Sa     ...,GILNB251201188,T,2026-03-06,,
 2026-02-10,05:00,1,MSMU-853067-8,Bisora Group Sa     ...,NGBSE2511047,T,2026-02-10,3914,http://dassaweb.mqbic.com/PublicTally.php?id=3914
 2026-02-13,05:00,Terminal 4,PONU-824404-0,Bisora Group Sa     ...,GILNB251200690,T,2026-02-13,,
 2026-02-13,05:00,Terminal 4,MSKU-949634-5,Bisora Group Sa     ...,GILNB251201136A/B,T,2026-02-13,,
 2026-02-13,05:00,Terminal 4,MSKU-949634-5,Bisora Group Sa     ...,GILNB251201136A/B,T,2026-02-13,,
 2026-02-13,07:00,1,MSMU-738799-0,Bisora Group Sa     ...,NBOE25020653A/B,T,2026-02-13,,
 2026-02-13,07:00,1,MSMU-738799-0,Bisora Group Sa     ...,NBOE25020653A/B,T,2026-02-13,,
+2026-02-20,05:00,Exolgan,HLBU-215831-9,Bisora Group Sa     ...,GILNB251200732,T,2026-02-20,,
+2026-02-20,07:00,Exolgan,TEMU-708667-6,Bisora Group Sa     ...,GILNB2512007321,TD,2026-02-20,3960,http://dassaweb.mqbic.com/PublicTally.php?id=3960
 2026-05-27,11:00,TRP,HMMU-406932-4,Grupo In 360 S.A.   ...,WLC60305466,T,2026-05-27,,
 2026-06-05,05:00,Terminal 4,MRKU-284468-4,Sergio Gabriel Vazqu...,268579249,TD,2026-06-05,,
 2026-06-12,06:00,Terminal 4,TCNU-558861-2,Pagraropao Srl      ...,DLNB2604351,T,2026-06-12,,
@@ -879,19 +872,14 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-25,15:00,Exolgan,TLLU-537383-1,Grass S. R. L.      ...,HPH-HPH-2601-0115,T,2026-03-25,,
 2026-06-24,15:00,Exolgan,MSNU-704614-8,Grass S. R. L.      ...,HBUE2604X0452,T,2026-06-24,,
 2026-06-24,13:00,Exolgan,UETU-784994-3,Grass S. R. L.      ...,HBUE2604X0452,T,2026-06-24,,
-2026-01-06,11:00,Exolgan,TGBU-486203-5,Telamania Srl       ...,NGB31160777,TD,2026-01-06,3692,http://dassaweb.mqbic.com/PublicTally.php?id=3692
-2026-01-06,13:00,Exolgan,FFAU-221978-9,Telamania Srl       ...,NGB31160769,TD,2026-01-06,3693,http://dassaweb.mqbic.com/PublicTally.php?id=3693
-2026-01-06,11:00,Exolgan,MSDU-748494-6,Telamania Srl       ...,NGBS072199,TD,2026-01-06,3694,http://dassaweb.mqbic.com/PublicTally.php?id=3694
-2026-01-06,11:00,Exolgan,TXGU-727613-3,Telamania Srl       ...,NGB31160773,TD,2026-01-06,3700,http://dassaweb.mqbic.com/PublicTally.php?id=3700
-2026-01-06,11:00,Exolgan,MEDU-797623-4,Telamania Srl       ...,NGB31160766,TD,2026-01-06,3702,http://dassaweb.mqbic.com/PublicTally.php?id=3702
-2026-04-22,15:00,TRP,PIDU-460747-0,Telamania Srl       ...,NGB31164192,T,2026-04-22,,
-2026-04-22,15:00,TRP,PCIU-893402-0,Telamania Srl       ...,NGB31164197,T,2026-04-22,,
-2026-04-22,15:00,TRP,HPCU-518321-3,Telamania Srl       ...,NGB31164201,T,2026-04-22,,
 2026-01-20,15:00,Exolgan,MSNU-614690-2,Telamania Srl       ...,GILNB251100170,T,2026-01-20,,
 2026-03-17,07:00,Exolgan,MSNU-614112-0,Telamania Srl       ...,NGB31163288,T,2026-03-17,,
 2026-03-27,05:00,Exolgan,MSCU-538936-0,Telamania Srl       ...,NGB31164143,T,2026-03-27,,
 2026-04-09,17:00,Exolgan,TRHU-735244-5,Telamania Srl       ...,NGB31164214,T,2026-04-09,,
 2026-04-09,17:00,Exolgan,UETU-777911-0,Telamania Srl       ...,NGB31164216,T,2026-04-09,,
+2026-04-22,15:00,TRP,PIDU-460747-0,Telamania Srl       ...,NGB31164192,T,2026-04-22,,
+2026-04-22,15:00,TRP,PCIU-893402-0,Telamania Srl       ...,NGB31164197,T,2026-04-22,,
+2026-04-22,15:00,TRP,HPCU-518321-3,Telamania Srl       ...,NGB31164201,T,2026-04-22,,
 2026-06-23,13:00,Terminal 4,ZCSU-714475-6,Grupo Simpa Sa      ...,NBOBUE26050142,TD,2026-06-23,,
 2026-05-26,15:00,Exolgan,MSNU-654749-0,Grupo Simpa Sa      ...,TL/HBL/080829,TD,2026-05-26,4658,http://dassaweb.mqbic.com/PublicTally.php?id=4658
 2026-06-10,12:00,Terminal 4,BMOU-524852-1,Grupo Simpa Sa      ...,NBOBUE26040175,TD,2026-06-10,,
@@ -1055,7 +1043,6 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-05-12,11:00,Exolgan,CARU-580228-6,Impulso Jm S.A.     ...,SYNTAO26SE030522,TD,2026-05-12,4577,http://dassaweb.mqbic.com/PublicTally.php?id=4577
 2026-02-26,12:00,TRP,OOLU-016721-1,Cordova Camila Valer...,PSN25122557-1,TD,2026-02-26,4009,http://dassaweb.mqbic.com/PublicTally.php?id=4009
 2026-02-25,12:00,TRP,BMOU-480058-0,Patagonia Maquinas S...,SHAS00261461,TD,2026-02-25,3996,http://dassaweb.mqbic.com/PublicTally.php?id=3996
-2026-01-06,14:00,Terminal 4,CICU-726431-5,Linkage Intertrade S...,SZE251000020,T,2026-01-06,,
 2026-03-04,11:00,TRP,CMAU-667987-1,Be Investment Sa    ...,OXOE2512026,T,2026-03-04,,
 2026-02-26,12:00,TRP,OOLU-435832-4,Casa Rami S.R.L.    ...,CTNB25120014,T,2026-02-26,,
 2026-04-01,04:00,TRP,KOCU-414396-3,Skop Trader S. A.   ...,TCSZ2602493,T,2026-04-01,,
@@ -1126,7 +1113,6 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-01-18,10:00,Terminal 4,HPCU-466135-0,Minera Del Mojotoro ...,ABTCJS03322,T,,,
 2026-01-09,11:00,TRP,EGSU-374226-8,Carrupi S.A.        ...,SY251169618,T,2026-01-09,,
 2026-01-09,12:00,TRP,EITU-191007-7,Carrupi S.A.        ...,SY251169618,T,2026-01-09,,
-2026-01-06,11:00,Exolgan,SEGU-966556-2,Mazzeo David Hernan ...,SYNTSN25SE100658,T,2026-01-06,,
 2026-01-09,14:00,Terminal 4,MRKU-368865-2,Distribuidora Jaro S...,OXOE2511021,T,2026-01-09,,
 2026-01-12,12:00,TRP,ECMU-725934-6,Distribuidora Jaro S...,Z330GZH2510035,T,2026-01-12,,
 2026-01-12,12:00,TRP,TIIU-582352-0,Distribuidora Jaro S...,Z330GZH2510035,T,2026-01-12,,
