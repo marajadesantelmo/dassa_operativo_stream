@@ -8,17 +8,17 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 43398-1-1,Mercovan Argentina S...,Novaro Carla  Andrea,ONEYSHAGC4926700,SEKU-152804-3,07-07-2026,18.00,1672.00,ANEX-A1,
 43389-0-1,Lift Van Int. Co S.A,Mudanza Federico Lui...,-,,07-07-2026,30.00,1992.00,ANEX-A1,
 43383-1-1,Santiago Saenz S A,Mosquitos Coil,IAYS260404,CBHU-898831-0,06-07-2026,68.00,27188.90,IB2,
-43355-2-1,Grupo Rsm Srl,Auto Triumph Green V...,270510694,MRKU-088617-1,06-07-2026,32.00,997.00,PA-A,
+43355-4-1,Grupo Rsm Srl,Ormachra Jusn Claudi...,270510694,MRKU-088617-1,06-07-2026,32.00,766.00,PA-A,
 43368-1-1,Enriquez Maximiliano...,"Donacion Libros,Ador...",HLCUME3260472674,NIDU-235392-3,06-07-2026,13.00,2125.00,ANEX-A1,
 43373-1-1,Edelweiss Spedition ...,Ledezma Claudio Abel...,HLCUME3260452978,UACU-852489-2,06-07-2026,54.00,5374.00,IA3,
 43369-1-1,Lift Van Int. Co S.A,Cura Bullrich Catali...,HLCUBSC2605BQUU2,UETU-272143-5,06-07-2026,28.00,2894.00,ANEX-A1,
 43358-0-1,Lift Van Int. Co S.A,Mudanza Nicolas Forc...,-,,06-07-2026,23.00,2300.00,ANEX-A1,
 43370-1-1,Grupo Rsm Srl,Efectos Y Auto,269448139,MRKU-080333-0,06-07-2026,40.00,3691.00,NV3,
 43357-0-1,Papelera San Andres ...,Maquinaria,-,,06-07-2026,56.00,9939.00,EA9,
-43355-1-1,Grupo Rsm Srl,Ohanian  Vin 1130421...,270510694,MRKU-088617-1,06-07-2026,32.00,1300.00,EA8,
-43383-2-1,Santiago Saenz S A,Mosquitos Coil,IAYS260404,CBHU-904101-8,06-07-2026,68.00,27137.30,IB9,
 43355-3-1,Grupo Rsm Srl,Trendline Technology,270510694,MRKU-088617-1,06-07-2026,32.00,731.00,PA-A,
-43355-4-1,Grupo Rsm Srl,Ormachra Jusn Claudi...,270510694,MRKU-088617-1,06-07-2026,32.00,766.00,PA-A,
+43383-2-1,Santiago Saenz S A,Mosquitos Coil,IAYS260404,CBHU-904101-8,06-07-2026,68.00,27137.30,IB9,
+43355-2-1,Grupo Rsm Srl,Auto Triumph Green V...,270510694,MRKU-088617-1,06-07-2026,32.00,997.00,PA-A,
+43355-1-1,Grupo Rsm Srl,Ohanian  Vin 1130421...,270510694,MRKU-088617-1,06-07-2026,32.00,1300.00,EA8,
 43359-0-1,Colorantes Industria...,Colorantes,-,,06-07-2026,12.00,5325.00,EA6,
 43371-1-1,Lift Van Int. Co S.A,De Castro Alves Pint...,OOLU2327714730,OOCU-748196-9,06-07-2026,66.00,6600.00,IA4,
 43335-1-1,Gematec Srl,Gematec Srl,H01EMKK26002900,TGHU-521406-5,03-07-2026,45.00,20617.00,IB5,
@@ -30,8 +30,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 43281-1-1,Dpmg S.A.,Empty Cylinder,GILNB260500067,MRKU-342418-2,30-06-2026,68.00,9410.00,IA5,
 43285-2-1,Caribe Sur S.A.,Silla/Bolsas/Mesa/Re...,MAP000044.A/B,TCKU-763587-4,30-06-2026,18.00,3317.00,IB5,
 43285-1-1,Caribe Sur S.A.,"Repisa Acero,Botelle...",MAP000044.A/B,TCKU-763587-4,30-06-2026,15.00,155.58,IB5,
-43264-0-1,Edelweiss Spedition ...,Macarena Seleme Efec...,-,,29-06-2026,18.00,1950.00,ANEX-A1,
 43264-0-2,Edelweiss Spedition ...,Marcelo Adrian  Efec...,-,,29-06-2026,42.00,3887.00,ANEX-A1,
+43264-0-1,Edelweiss Spedition ...,Macarena Seleme Efec...,-,,29-06-2026,18.00,1950.00,ANEX-A1,
 43264-0-3,Edelweiss Spedition ...,Diego Borel Efectos ...,-,,29-06-2026,28.00,2274.00,ANEX-A1,
 43274-1-1,Lift Van Int. Co S.A,Camargo Pimimiento,ZIMCRT913777,CAAU-244355-8,29-06-2026,16.00,1198.00,ANEX-A1,
 43227-2-1,Talwin Transport Ser...,Mustan 1965 Vin5F07T...,HLCUBSC2605AVTD4,UACU-857770-0,25-06-2026,12.00,245.00,PA-A,
@@ -103,11 +103,11 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 41982-3-1,Noah Servicess.R.L.,2004 Harley Vin 1Hd1...,266417554,MRKU-072244-0,26-03-2026,10.00,304.00,NAVE 4,http://dassaweb.mqbic.com/PublicTally.php?id2=NDIxMg==
 41982-1-1,Noah Servicess.R.L.,Vin Saldv224Xva11532...,266417554,MRKU-072244-0,26-03-2026,15.00,1700.00,NV5,http://dassaweb.mqbic.com/PublicTally.php?id2=NDIxMg==
 41956-1-1,Impulso Jm S.A.,Gorros,TCQD2601151,OOLU-439126-1,25-03-2026,28.04,3640.33,IB7,http://dassaweb.mqbic.com/PublicTally.php?id2=NDE5NA==
-41729-1-1,Bicicletas Futura Sa,Bicicletas,GILSH25100047,UETU-806550-3,10-03-2026,25.39,2055.04,IB8,http://dassaweb.mqbic.com/PublicTally.php?id2=NDExMQ==
 41729-2-1,Bicicletas Futura Sa,Bicicletas,GILSH25100047,FSCU-885145-4,10-03-2026,66.00,4201.00,IA9,http://dassaweb.mqbic.com/PublicTally.php?id2=NDExMg==
+41729-1-1,Bicicletas Futura Sa,Bicicletas,GILSH25100047,UETU-806550-3,10-03-2026,25.39,2055.04,IB8,http://dassaweb.mqbic.com/PublicTally.php?id2=NDExMQ==
 41690-1-1,Noah Servicess.R.L.,Jeep Wrangler  Vin 1...,265401386,MRKU-065227-6,06-03-2026,20.00,1960.00,IB6,http://dassaweb.mqbic.com/PublicTally.php?id2=NDA4Ng==
-41667-2-1,Grupo Rsm Srl,Bmw Color Red V In W...,266057324,MRKU-084071-4,05-03-2026,9.00,1400.00,ANEXO 1,http://dassaweb.mqbic.com/PublicTally.php?id2=NDA3Mg==
 41667-1-1,Grupo Rsm Srl,Bmw Color Blue Vin S...,266057324,MRKU-084071-4,05-03-2026,10.00,1466.00,ANEXO1,http://dassaweb.mqbic.com/PublicTally.php?id2=NDA3Mg==
+41667-2-1,Grupo Rsm Srl,Bmw Color Red V In W...,266057324,MRKU-084071-4,05-03-2026,9.00,1400.00,ANEXO 1,http://dassaweb.mqbic.com/PublicTally.php?id2=NDA3Mg==
 41624-1-1,Grupo Simpa Sa,Gas Generator,TCSH2512163,ZCSU-660457-0,03-03-2026,34.49,8946.69,IA1,http://dassaweb.mqbic.com/PublicTally.php?id2=NDA1Mg==
 41533-2-1,Grupo Rsm Srl,Porsche Color Black ...,265837880,MRKU-100003-5,26-02-2026,11.00,1560.00,NV1,http://dassaweb.mqbic.com/PublicTally.php?id2=NDAxMQ==
 41533-1-1,Grupo Rsm Srl,Porsche Cor Grey  Ye...,265837880,MRKU-100003-5,26-02-2026,11.00,1682.00,NV1,http://dassaweb.mqbic.com/PublicTally.php?id2=NDAxMQ==
@@ -139,8 +139,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 39643-1-1,Bisora Group Sa,Rollos De Tela,NBOE25018149,MSMU-516260-7,20-11-2025,60.00,22480.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MzI1NQ==
 39649-1-1,Bisora Group Sa,Rollos De Tela,NBFC2509116,YMLU-864970-4,20-11-2025,68.00,20200.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MzI1NA==
 39648-1-1,Bisora Group Sa,Rollos De Tela,NBFC2509025,YMMU-659378-6,20-11-2025,68.00,20950.00,ANEX-A2,http://dassaweb.mqbic.com/PublicTally.php?id2=MzI1Mw==
-39604-1-1,Jupam Sa,Rollos De Tela,NB250967283,TLLU-801151-7,18-11-2025,60.00,21060.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id2=MzIyNA==
 39594-1-1,Bisora Group Sa,Telas,NBFC2509023,BSIU-994537-1,18-11-2025,68.00,20600.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MzIwOA==
+39604-1-1,Jupam Sa,Rollos De Tela,NB250967283,TLLU-801151-7,18-11-2025,60.00,21060.00,ANEX-A1,http://dassaweb.mqbic.com/PublicTally.php?id2=MzIyNA==
 39539-1-1,Bisora Group Sa,Textil,NBFC2509104,HMMU-622167-3,14-11-2025,70.00,16392.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MzE4Mg==
 39518-1-1,Bisora Group Sa,Telas,NBOE25018116,TLLU-589228-8,14-11-2025,68.00,25977.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MzE3NA==
 39396-5-1,Clan Mobility,Cleaning Uniform,XMF202500827A/B/C/D,MSKU-122274-9,10-11-2025,5.80,1822.00,IA6,http://dassaweb.mqbic.com/PublicTally.php?id2=MzEyOA==
@@ -164,8 +164,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 38641-1-1,Jupam Sa,Telas,OOLU2161129870,CSNU-665628-0,03-10-2025,70.00,18710.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MjczMA==
 38644-1-1,Impulso Jm S.A.,Mochilas,TCNB2507645,OERU-432109-7,03-10-2025,50.00,7939.50,IA8,http://dassaweb.mqbic.com/PublicTally.php?id2=MjczOQ==
 38609-1-1,Boratex Srl,Conos De Hilo,256768758,MRSU-672624-0,02-10-2025,13.86,8729.10,IA1,http://dassaweb.mqbic.com/PublicTally.php?id2=MjcyMA==
-38493-1-1,Fedtex S.R.L,Textil Fabrics,TWLE25070207,EMCU-877109-0,24-09-2025,70.00,25320.00,IB5,http://dassaweb.mqbic.com/PublicTally.php?id2=MjY2NQ==
 38481-1-1,Grupo In 360 S.A.,Telas,HDE25-0800052,EISU-829329-2,24-09-2025,68.00,20517.60,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MjY2OQ==
+38493-1-1,Fedtex S.R.L,Textil Fabrics,TWLE25070207,EMCU-877109-0,24-09-2025,70.00,25320.00,IB5,http://dassaweb.mqbic.com/PublicTally.php?id2=MjY2NQ==
 38387-1-1,Jupam Sa,Telas,MEDUOP807326,MSNU-673412-5,19-09-2025,68.00,26400.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MjYyOA==
 38325-1-1,Jupam Sa,Textil Fabrics,TWLE25070182,JXLU-618880-5,17-09-2025,68.00,19578.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MjU5Mw==
 38303-1-1,Bulldog Solutions S....,Textile,HDE25-0800018,TCNU-240738-8,16-09-2025,70.00,16410.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MjU4Mg==
