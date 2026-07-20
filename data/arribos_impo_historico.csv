@@ -244,7 +244,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-04-30,05:00,Terminal 4,CAIU-953972-0,Juguetech Sa        ...,SZXS075378,T,2026-04-30,,
 2026-05-26,06:00,Terminal 4,ZCSU-651596-0,Juguetech Sa        ...,SZXS075917,T,2026-05-26,,
 2026-06-12,06:00,Terminal 4,BSIU-976733-0,Juguetech Sa        ...,SZXS076386,T,2026-06-12,,
-2026-07-20,06:00,Terminal 4,TGBU-596703-0,Juguetech Sa        ...,SZXS077764,T,,,
+2026-07-20,06:00,Terminal 4,TGBU-596703-0,Juguetech Sa        ...,SZXS077764,T,2026-07-20,,
 2026-02-09,15:00,Exolgan,HAMU-477120-6,A La Orden          ...,,TD,2026-02-09,,
 2026-02-09,15:00,Exolgan,HAMU-477120-6,A La Orden          ...,,TD,2026-02-09,,
 2026-02-27,21:00,TRP,OOCU-812458-6,A La Orden          ...,GZ25120112,T,2026-02-27,,
@@ -549,6 +549,13 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-27,11:00,TRP,KKFU-781836-3,Berkma S.A.         ...,SHOH26010095,T,2026-03-27,,
 2026-03-27,10:00,TRP,TCNU-416167-3,Berkma S.A.         ...,TSSZ2602009,T,2026-03-27,,
 2026-03-27,16:00,TRP,TCNU-582678-9,Berkma S.A.         ...,TSSZ2602009,T,2026-03-27,,
+2026-07-21,07:00,Exolgan,CAIU-497649-8,Berkma S.A.         ...,CNNBODLNB2605491,T,,,
+2026-07-21,07:00,Exolgan,GESU-672329-6,Berkma S.A.         ...,CNNBODLNB2605491,T,,,
+2026-07-21,07:00,Exolgan,HAMU-222853-0,Berkma S.A.         ...,DLNB2605491,T,,,
+2026-07-21,07:00,Exolgan,TGBU-580032-0,Berkma S.A.         ...,CNNBODLNB2605491,T,,,
+2026-07-21,07:00,Exolgan,HLBU-166094-0,Berkma S.A.         ...,CNNBODLNB2605491,T,,,
+2026-07-21,07:00,Exolgan,HAMU-252888-2,Berkma S.A.         ...,DLNB2605491,T,,,
+2026-07-21,07:00,Exolgan,HAMU-314702-6,Berkma S.A.         ...,DLNB2605491,T,,,
 2026-01-28,05:00,Exolgan,UACU-853040-5,Sk Distributors S.R....,DLSZ25120114,T,2026-01-28,,
 2026-02-09,15:00,Terminal 4,TCLU-413098-9,Sk Distributors S.R....,DLSZ25120203,TD,2026-02-09,,
 2026-02-11,13:00,Exolgan,BEAU-419421-5,Sk Distributors S.R....,DLNB2512489,T,2026-02-11,,
@@ -604,13 +611,16 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-06-19,05:00,Exolgan,MSNU-593332-8,Dmc Import Group S.R...,TSSZ2604097,T,2026-06-19,,
 2026-06-19,05:00,Exolgan,TCNU-791757-4,Dmc Import Group S.R...,TSSZ2604097,T,2026-06-19,,
 2026-06-23,11:00,TRP,LYGU-171866-0,Dmc Import Group S.R...,QD20260079,T,2026-06-23,,
+2026-07-21,15:00,Exolgan,TCNU-794130-7,Dmc Import Group S.R...,TSSZ2604147,T,,,
+2026-07-21,15:00,Exolgan,MSBU-550758-3,Dmc Import Group S.R...,TSSZ2604147,T,,,
 2026-04-28,11:00,Exolgan,TLLU-561107-7,Dmc Import Group S.R...,BK2630182,T,2026-04-28,,
 2026-06-10,13:00,TRP,CMAU-845833-4,Dmc Import Group S.R...,BK2630323,T,2026-06-10,,
 2026-06-11,13:00,TRP,CAAU-835811-3,Dmc Import Group S.R...,BK2630384,T,2026-06-11,,
 2026-06-11,13:00,TRP,SEKU-639760-3,Dmc Import Group S.R...,BK2630384,T,2026-06-11,,
 2026-06-12,13:00,Exolgan,MSMU-747704-9,Dmc Import Group S.R...,TSSZ2604091,T,2026-06-12,,
 2026-06-12,13:00,Exolgan,MSNU-541230-9,Dmc Import Group S.R...,TSSZ2604091,T,2026-06-12,,
-2026-07-20,06:00,Terminal 4,ZCSU-679237-4,German Hernan Gill  ...,OLGM262634,T,,,
+2026-07-20,06:00,Terminal 4,ZCSU-679237-4,German Hernan Gill  ...,OLGM262634,T,2026-07-20,,
+2026-07-21,13:00,Exolgan,UACU-581884-6,Compañia Bulk S.A.  ...,DLTJ2605033B,T,,,
 2026-06-23,11:00,TRP,TIIU-715644-8,Compañia Bulk S.A.  ...,SHOH26040086,T,2026-06-23,,
 2026-05-12,07:00,Exolgan,MEDU-762518-4,Compañia Bulk S.A.  ...,SHOH26030137,T,2026-05-12,,
 2026-06-02,13:00,Exolgan,HAMU-148628-9,Compañia Bulk S.A.  ...,DLSZ26040251,T,2026-06-02,,
@@ -704,7 +714,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-09,05:00,Terminal 4,MSKU-684913-5,Gematec Srl         ...,SYNHKG26SE010024,TD,2026-03-09,4099,http://dassaweb.mqbic.com/PublicTally.php?id=4099
 2026-07-01,12:00,TRP,BEAU-223611-6,Gematec Srl         ...,SHZ8095573,TD,2026-07-01,,
 2026-07-03,05:00,Terminal 4,TGHU-521406-5,Gematec Srl         ...,H01EMKK26002900,TD,2026-07-03,,
-2026-07-20,09:00,TRP,EITU-909862-7,Gematec Srl         ...,H01EMKK26003100,T,,,
+2026-07-20,09:00,TRP,EITU-909862-7,Gematec Srl         ...,H01EMKK26003100,T,2026-07-20,,
 2026-05-13,12:00,TRP,TCNU-164760-9,Foralia Sa          ...,UCL/KHI/0038022-26,T,2026-05-13,,
 2026-05-13,11:00,TRP,EISU-859224-6,Foralia Sa          ...,UCL/KHI/0038022-26,T,2026-05-13,,
 2026-06-25,10:00,Terminal 4,UACU-857770-0,Talwin Transport Ser...,HLCUBSC2605AVTD4,TD,2026-06-25,,
@@ -819,8 +829,6 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-18,13:00,TRP,TCNU-383955-5,Noah Servicess.R.L. ...,IBC1439972,TD,2026-03-18,4173,http://dassaweb.mqbic.com/PublicTally.php?id=4173
 2026-01-26,13:00,Exolgan,FANU-361119-1,Bazar Y Cia Sa      ...,DLNB2511487,T,2026-01-26,,
 2026-01-27,06:00,Terminal 4,MRSU-906392-1,Bazar Y Cia Sa      ...,DLNB2512332,T,2026-01-27,,
-2026-01-21,10:00,Terminal 4,TCLU-655583-2,Bymar Transforwardin...,HBG2076650,TD,2026-01-21,3825,http://dassaweb.mqbic.com/PublicTally.php?id=3825
-2026-01-21,10:00,Terminal 4,TCLU-655583-2,Bymar Transforwardin...,HBG2076650,TD,2026-01-21,3825,http://dassaweb.mqbic.com/PublicTally.php?id=3825
 2026-01-30,06:00,Terminal 4,FTAU-211368-6,Bymar Transforwardin...,IBC1421116,TD,2026-01-30,3876,http://dassaweb.mqbic.com/PublicTally.php?id=3876
 2026-02-02,05:00,Terminal 4,SEGU-519885-5,Corona Insumos Srl  ...,NBOBUE25120160,T,2026-02-02,3881,http://dassaweb.mqbic.com/PublicTally.php?id=3881
 2026-02-21,09:00,Exolgan,MSNU-676984-1,20N S.R.L.          ...,9572512038,TD,2026-02-21,3975,http://dassaweb.mqbic.com/PublicTally.php?id=3975
