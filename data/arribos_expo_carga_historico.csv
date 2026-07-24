@@ -33,6 +33,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-01-27,41425,,Lift Van Int. Co S.A,29776405,LEANDRO GASPAROTTO,Arribado
 2026-07-22,45140,,Lift Van Int. Co S.A,272297279,"GUTIERREZ ARDILA, SANTIAGO",Arribado
 2026-07-22,45141,,Lift Van Int. Co S.A,272297279,"ECHANDIA CAÑOLA, ANGELA",Pendiente
+2026-07-24,45182,,Lift Van Int. Co S.A,97460713,PEER DORON,Arribado
 2026-07-17,45042,,Lift Van Int. Co S.A,32325238,AARON HELLMAN // 1 VEHICULO,Arribado
 2026-07-21,45113,,Lift Van Int. Co S.A,25054489,"VILELLA, MARTIN",Arribado
 2026-07-21,45114,,Lift Van Int. Co S.A,19376020,THOMAS WILLIAM PEREZ,Arribado
@@ -186,6 +187,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-06-18,44440,,Neygi Moving Srl,38002536,FREDERKE RIENKE,Arribado
 2026-06-24,44559,,Neygi Moving Srl,98177190,GUILLERMO KESSLER SAINZ // EFECTOS,Arribado
 2026-06-24,44560,,Neygi Moving Srl,98177190,GUILLERMO KESSLER SAINZ // VEHICULO,Arribado
+2026-07-24,45183,,Neygi Moving Srl,22322435,PEREZ ROSALES,Pendiente
 2026-07-15,44988,,Neygi Moving Srl,340600022471,LORENZO VERMIGLI,Arribado
 2026-07-15,44989,,Neygi Moving Srl,98291264,DENIS KONSTANTIN DUTTMANN,Arribado
 2026-07-17,44990,,Neygi Moving Srl,38983174,MARTINEZ CACHERO,Arribado
@@ -205,6 +207,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-01-29,41472,-      -,Termoplasticos Del S...,69329511,69329511 // 5X20,Arribado
 2026-01-29,41473,BMOU-141469-2,Termoplasticos Del S...,69329511,69329511 // 5X20,Arribado
 2026-07-02,44719,MSMU-230214-0,Termoplasticos Del S...,EBKG17542718,EBKG17542718,Arribado
+2026-07-23,45171,,Termoplasticos Del S...,45395789,,Arribado
+2026-07-23,45172,,Termoplasticos Del S...,45395789,,Pendiente
+2026-07-23,45173,,Termoplasticos Del S...,45395789,,Pendiente
 2026-06-04,44168,,Termoplasticos Del S...,EBKG17166321,GRLEM261597 // FLEXI,Arribado
 2026-06-11,44296,,Termoplasticos Del S...,94695140,94695140,Arribado
 2026-06-24,44563,,Termoplasticos Del S...,45759782,GRLEM261813,Arribado
@@ -493,6 +498,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-01-26,41381,,Borax Argentina S A,265452576,FAC 12971,Arribado
 2026-07-22,45158,,Borax Argentina S A,FACT 13499,FACT 13499,Arribado
 2026-07-23,45161,,Borax Argentina S A,FC 13499,FC 13499,Arribado
+2026-07-24,45184,,Borax Argentina S A,274714228,FACT 13499,Pendiente
 2026-07-22,45143,,Borax Argentina S A,274576929,FAC 13482,Arribado
 2026-07-23,45144,,Borax Argentina S A,274576929,FAC 13482,Arribado
 2026-07-20,44898,,Borax Argentina S A,BUA0373334,FACT.13417,Arribado
@@ -1068,5 +1074,5 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-07-13,44906,,Prosal S.A.,26001EC03,PROSAL,Pendiente
 2026-07-15,45008,,Intercontainers Ship...,26001EC01047964S,TERRESTRE,Arribado
 2026-07-15,45009,,Intercontainers Ship...,26001EC01047964S,TERRESTRE,Arribado
-2026-07-23,45168,,Intercontainers Ship...,26001EC01050190D,EXPO TERRESTRE,Pendiente
+2026-07-23,45168,,Intercontainers Ship...,26001EC01050190D,EXPO TERRESTRE,Arribado
 2026-07-16,45012,,Florio Leonardo Arie...,26001EC01046636N,FLORIO LEONARDO ARIEL // EXPO TERRESTRE,Arribado
