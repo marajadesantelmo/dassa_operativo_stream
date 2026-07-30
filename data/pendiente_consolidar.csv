@@ -1,21 +1,21 @@
 Operacion,Cliente,Desc,Booking,Cantidad,Kilos,Volumen,Dias
 43786-0-2,Lift Van Int. Co S.A,Sean Miller   /  Efe...,,6,3208.00,34.00,0
-43789-0-1,Borax Argentina S A,Fac 13517,,20,24540.00,30.00,0
-43790-0-1,Borax Argentina S A,Fac 13518,,20,24540.00,30.00,0
 43783-0-1,Mercovan Argentina S.A.,"Zambrano Chacon, Vic...",BUA0374855,120,2055.00,20.00,0
 43785-0-1,Mercovan Argentina S.A.,Hernandez Ricardo Ra...,BUA0374855,1,2001.00,13.00,0
-43781-0-1,Indelval S A I Y C,153Iar0658819,,8,8850.00,30.00,0
-43784-0-1,Lift Van Int. Co S.A,Carlos Garcia  // Ef...,BUA0374855,4,2205.00,23.00,0
+43790-0-1,Borax Argentina S A,Fac 13518,,20,24540.00,30.00,0
+43789-0-1,Borax Argentina S A,Fac 13517,,20,24540.00,30.00,0
 43786-0-1,Lift Van Int. Co S.A,Sean Miller   /  /Ve...,,1,1514.00,13.00,0
-43750-0-1,Lift Van Int. Co S.A,Joseph Gale // Vehic...,,1,1400.00,13.00,1
+43784-0-1,Lift Van Int. Co S.A,Carlos Garcia  // Ef...,BUA0374855,4,2205.00,23.00,0
+43781-0-1,Indelval S A I Y C,153Iar0658819,,8,8850.00,30.00,0
 43772-0-1,Mercovan Argentina S.A.,Roedel Fernandez Sil...,,208,3349.00,0.00,1
 43749-0-1,Mercovan Argentina S.A.,Hernandez Ricardo Ra...,EBKG17779860,8,3965.00,45.00,1
 43751-0-1,Mader Zu S.R.L.,Grlae262091 / Bueg09...,,15,27430.00,60.00,1
+43750-0-1,Lift Van Int. Co S.A,Joseph Gale // Vehic...,,1,1400.00,13.00,1
 43747-0-1,Lift Van Int. Co S.A,Jimenez Manterola Do...,EBKG17779860,244,4682.00,70.00,2
 43725-0-1,Administracion Federal De Ingresos Publi,Obara,95726-05021,333,4700.00,0.00,2
-43705-0-2,Comworks Sa,Ebkg17878896,EBKG17878896,1120,27100.00,30.00,3
 43702-0-1,Mercovan Argentina S.A.,Leonardo Valverde Co...,BUEG10240800,332,5480.00,53.00,3
 43705-0-1,Comworks Sa,Ebkg17878896,EBKG17878896,1120,27100.00,30.00,3
+43705-0-2,Comworks Sa,Ebkg17878896,EBKG17878896,1120,27100.00,30.00,3
 43671-0-5,Lift Van Int. Co S.A,"Echandia Cañola, Ang...",19376020,24,630.00,0.00,8
 43671-0-4,Lift Van Int. Co S.A,"Gutierrez Ardila, Sa...",19376020,286,5365.00,67.00,8
 43671-0-1,Lift Van Int. Co S.A,"Gutierrez Ardila, Sa...",19376020,1,265.00,0.00,8
@@ -32,9 +32,9 @@ Operacion,Cliente,Desc,Booking,Cantidad,Kilos,Volumen,Dias
 37146-0-1,Chaguar Sociedad Anonima,Ctg: 10225550665/Ctg...,,3,75.34,0.09,367
 37135-0-1,Chaguar Sociedad Anonima,256457109 // 5X20,,12,298.22,0.36,370
 42927-0-1,Ads Agropecuaria Sa,Booking 256093262,,38,760.00,0.00,373
+36417-0-3,Forestal Guarani Sa,Grlae2596 /30741536,255083138,1,656.53,1.40,398
 36417-0-2,Forestal Guarani Sa,Grlae2596 /30741536,255083138,1,804.00,1.71,398
 36417-0-1,Forestal Guarani Sa,Grlae2596 /30741536,255083138,1,809.14,1.71,398
-36417-0-3,Forestal Guarani Sa,Grlae2596 /30741536,255083138,1,656.53,1.40,398
 36246-0-1,Ads Agropecuaria Sa,Ads Agropecuaria,COSU6421214450,140,3396.30,3.89,406
 35990-0-1,Ads Agropecuaria Sa,001 - Exp - Momasa /...,,24,604.37,0.75,416
 42928-0-1,Jsos S.R.L,Booking: 242989201,,13,260.00,0.00,709
