@@ -31,9 +31,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2026-03-13,42629,HASU-405406-4,Mercovan Argentina S...,266745333,**********          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28986
 2026-03-11,42571,HLBU-153726-2,Mercovan Argentina S...,40824842,**********          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28969
 2026-02-03,41625,TRHU-386759-2,Lift Van Int. Co S.A,BUA0359703,K1267038            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28546
-2026-07-31,45368,,Lift Van Int. Co S.A,EBKG17940046,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
-2026-07-31,45360,,Lift Van Int. Co S.A,EBKG1795676,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
-2026-07-31,45367,,Lift Van Int. Co S.A,EBKG17940100,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-07-31,45368,FBIU-028696-8,Lift Van Int. Co S.A,EBKG17940046,FX45805396          ,Arribado,
+2026-07-31,45360,MSDU-403036-4,Lift Van Int. Co S.A,EBKG17954676,fx45805215          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29770
+2026-07-31,45367,UETU-267872-4,Lift Van Int. Co S.A,EBKG17940100,FX45805402          ,Arribado,
 2026-07-23,45164,HLBU-379852-1,Lift Van Int. Co S.A,25054489,**********          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29733
 2026-07-27,45181,SEGU-176350-0,Lift Van Int. Co S.A,19376020,********            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29730
 2026-07-24,45186,UACU-847510-2,Lift Van Int. Co S.A,97460713,**************      ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29741
@@ -163,7 +163,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2026-07-15,44981,EITU-307270-7,Neygi Moving Srl,340600022471,*********           ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29637
 2026-07-24,45180,CAIU-900210-9,Neygi Moving Srl,38983174,***********         ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29735
 2026-07-27,45198,FBIU-009480-0,Neygi Moving Srl,22322435,************        ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29734
-2026-07-29,45257,CMAU-777342-9,Neygi Moving Srl,BUA0374200,K1229777            ,Arribado,
+2026-07-29,45257,CMAU-777342-9,Neygi Moving Srl,BUA0374200,K1229777            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29774
 2026-07-23,45159,,Neygi Moving Srl,26001PE01000190L,                    ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2026-07-24,45178,HAMU-226386-5,Neygi Moving Srl,98291264,**************      ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29736
 2026-03-05,42452,FDCU-012808-0,Aniceto Gomez Sa,14237748,********************,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28945
@@ -227,7 +227,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2026-04-28,43473,HAMU-505944-9,Sky Cargo S.R.L.,92371748,*****************   ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29205
 2026-05-19,43872,CSNU-292650-0,Global Motion S.A.,COSU6500626220,***********         ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29306
 2026-02-02,41599,TRHU-638174-7,Mader Zu S.R.L.,BUA0359805,K1265795            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28523
-2026-07-31,45353,ONEU-515762-1,Mader Zu S.R.L.,BUEG09989800,*************       ,Arribado,
+2026-07-31,45353,ONEU-515762-1,Mader Zu S.R.L.,BUEG09989800,*************       ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29772
 2026-02-20,42128,FFAU-607834-9,Mader Zu S.R.L.,COSU6444933450,****************    ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28857
 2026-02-20,42129,CBHU-916876-4,Mader Zu S.R.L.,COSU6444933450,***************     ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28858
 2026-02-20,42130,CSNU-808859-6,Mader Zu S.R.L.,COSU6444933450,******************* ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28859
@@ -458,13 +458,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2026-02-10,41876,FBIU-012031-8,Borax Argentina S A,38880230,**************      ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28613
 2026-07-30,45344,MRKU-970960-2,Borax Argentina S A,274714228,************        ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29766
 2026-07-30,45345,MRKU-739064-5,Borax Argentina S A,274714228,******              ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29767
-2026-07-30,45346,MSKU-579383-3,Borax Argentina S A,274920140,**********          ,Arribado,
+2026-07-30,45346,MSKU-579383-3,Borax Argentina S A,274920140,**********          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29773
 2026-07-29,45298,MRSU-032743-2,Borax Argentina S A,274714479,***********         ,Arribado,
 2026-07-30,45343,MRKU-907338-3,Borax Argentina S A,274714228,*******             ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29765
 2026-07-29,45233,FCIU-518126-2,Borax Argentina S A,BUA0374564,K1229772            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29750
 2026-07-29,45234,CMAU-305449-5,Borax Argentina S A,BUA0374564,K1229774            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29752
 2026-07-29,45235,GESU-142715-7,Borax Argentina S A,BUA0374564,K1229775            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29751
-2026-07-29,45297,MSKU-435215-5,Borax Argentina S A,274920091,************        ,Arribado,
+2026-07-29,45297,MSKU-435215-5,Borax Argentina S A,274920091,************        ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29771
 2026-07-29,45232,TLLU-232038-1,Borax Argentina S A,BUA0374564,K1229755            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29749
 2026-07-16,44977,TRHU-105168-1,Borax Argentina S A,BUA0373334,K1227841            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29654
 2026-07-16,44978,CAIU-384477-4,Borax Argentina S A,BUA0373334,K1227801            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29653
@@ -989,6 +989,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2026-07-29,45276,FCIU-898846-9,Placas Rivadavia S.R...,EBKG17900445,FX45805078          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29746
 2026-07-29,45277,TGHU-986402-7,Placas Rivadavia S.R...,EBKG17900445,FX45802289          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29747
 2026-07-29,45278,MSNU-687880-0,Placas Rivadavia S.R...,EBKG17900445,FX45802479          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29748
+2026-08-03,45414,,Placas Rivadavia S.R...,BUA0375187,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-08-03,45415,,Placas Rivadavia S.R...,BUA0375187,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-08-03,45412,,Placas Rivadavia S.R...,BUA0375187,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-08-03,45413,,Placas Rivadavia S.R...,BUA0375187,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2026-03-10,42536,TGCU-207881-4,Smart Trading S.A.S,ZIMUBUE9048101,***********         ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28972
 2026-03-10,42537,FCIU-413895-5,Smart Trading S.A.S,ZIMUBUE9048101,***********         ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28973
 2026-03-10,42538,ZIMU-306883-1,Smart Trading S.A.S,ZIMUBUE9048101,***********         ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28974
@@ -1167,3 +1171,5 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2026-07-29,45320,,Intercontainers Ship...,26001EC01051662X,                    ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2026-07-31,45371,,Intercontainers Ship...,26001EC01052105B,                    ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2026-07-16,45057,,Florio Leonardo Arie...,26001EC01046636N,                    ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-08-03,45396,,Comworks Sa,EBKG17878896,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-08-03,45397,,Comworks Sa,EBKG17878896,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052

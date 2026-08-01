@@ -248,7 +248,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-05-07,11:00,Exolgan,TCNU-189900-4,Baires International...,HLCUME3260311558,TD,2026-05-07,4535,http://dassaweb.mqbic.com/PublicTally.php?id=4535
 2026-05-07,11:00,Exolgan,TCNU-189900-4,Baires International...,HLCUME3260311558,TD,2026-05-07,4535,http://dassaweb.mqbic.com/PublicTally.php?id=4535
 2026-05-29,11:00,Exolgan,TEMU-118203-4,Baires International...,MEDUWN362258,TD,2026-05-29,4679,http://dassaweb.mqbic.com/PublicTally.php?id=4679
-2026-08-03,13:00,Exolgan,HLBU-233239-6,Baires International...,HLCUTOR260417776,T,,,
+2026-08-03,13:00,Exolgan,HLBU-233239-6,Baires International...,HLCUTOR260417776,TD,,,
+2026-08-03,13:00,Terminal 4,ONEU-514922-5,Baires International...,ONEYRICGS1598300,TD,,,
 2026-04-23,05:00,Terminal 4,CAIU-913676-7,Juguetech Sa        ...,SZX075235,T,2026-04-23,,
 2026-04-30,05:00,Terminal 4,CAIU-953972-0,Juguetech Sa        ...,SZXS075378,T,2026-04-30,,
 2026-05-26,06:00,Terminal 4,ZCSU-651596-0,Juguetech Sa        ...,SZXS075917,T,2026-05-26,,
@@ -298,6 +299,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-02-06,17:00,TRP,MRKU-697764-3,Refractarios Argenti...,PCBUE25110003,TD,2026-02-09,3893,http://dassaweb.mqbic.com/PublicTally.php?id=3893
 2026-06-30,15:00,Exolgan,MSDU-275541-2,Refractarios Argenti...,TSN69773188,TD,2026-06-30,,
 2026-07-27,13:00,Terminal 4,MRKU-691490-1,Refractarios Argenti...,721530080,TD,2026-07-27,,
+2026-08-03,11:00,1,TGBU-133255-6,Refractarios Argenti...,MEDUFC624766,TD,,,
+2026-08-03,11:00,1,CAIU-671642-1,Refractarios Argenti...,MEDUFC624766,TD,,,
 2026-06-24,15:00,Exolgan,CAIU-304578-3,Refractarios Argenti...,DLC69677437,TD,2026-06-24,,
 2026-06-24,15:00,Exolgan,CAIU-307839-1,Refractarios Argenti...,DLC69677437,TD,2026-06-24,,
 2026-06-24,17:00,Exolgan,GLDU-945577-9,Refractarios Argenti...,DLC69677437,TD,2026-06-24,,
@@ -714,6 +717,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-02-11,13:00,Exolgan,HOYU-967562-3,Unimers Argentina S....,1814680,T,2026-02-11,,
 2026-05-07,21:00,Exolgan,FFAU-416510-4,Unimers Argentina S....,MEDUWA666892,T,2026-05-07,,
 2026-05-08,11:00,Exolgan,MSCU-522286-1,Kuitca Guillermo Dav...,01415275,TD,2026-05-08,4552,http://dassaweb.mqbic.com/PublicTally.php?id=4552
+2026-08-03,11:00,Exolgan,TCNU-301195-6,Aerofit Srl         ...,AEM07260237,T,,,
 2026-02-20,11:00,Terminal 4,FFAU-571300-7,Eramine Sudamerica S...,ROECHN26010633,TD,2026-02-20,3961,http://dassaweb.mqbic.com/PublicTally.php?id=3961
 2026-02-20,11:00,Terminal 4,MRKU-395832-0,Eramine Sudamerica S...,ROECHN26010633,TD,2026-02-20,3962,http://dassaweb.mqbic.com/PublicTally.php?id=3962
 2026-02-20,11:00,Terminal 4,MRSU-783401-7,Eramine Sudamerica S...,ROWCHN26010633,TD,2026-02-20,3963,http://dassaweb.mqbic.com/PublicTally.php?id=3963
@@ -830,7 +834,6 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-26,14:00,Terminal 4,MRKU-072244-0,Noah Servicess.R.L. ...,266417554,TD,2026-03-26,4212,http://dassaweb.mqbic.com/PublicTally.php?id=4212
 2026-03-26,14:00,Terminal 4,MRKU-072244-0,Noah Servicess.R.L. ...,266417554,TD,2026-03-26,4212,http://dassaweb.mqbic.com/PublicTally.php?id=4212
 2026-03-26,14:00,Terminal 4,MRKU-072244-0,Noah Servicess.R.L. ...,266417554,TD,2026-03-26,4212,http://dassaweb.mqbic.com/PublicTally.php?id=4212
-2026-02-02,05:00,Terminal 4,SEGU-519885-5,Corona Insumos Srl  ...,NBOBUE25120160,T,2026-02-02,3881,http://dassaweb.mqbic.com/PublicTally.php?id=3881
 2026-02-21,09:00,Exolgan,MSNU-676984-1,20N S.R.L.          ...,9572512038,TD,2026-02-21,3975,http://dassaweb.mqbic.com/PublicTally.php?id=3975
 2026-02-21,09:00,Exolgan,FFAU-223615-3,20N S.R.L.          ...,9572512038,TD,2026-02-21,3976,http://dassaweb.mqbic.com/PublicTally.php?id=3976
 2026-02-06,17:00,TRP,MRSU-474415-7,Tmcp S.A.S.         ...,BSZFL25111386,T,2026-02-06,,
