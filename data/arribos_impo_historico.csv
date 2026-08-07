@@ -7,7 +7,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-03,09:00,TRP,ONEU-736876-8,Mercovan Argentina S...,ONEYISTF23002400,TD,2026-03-03,4056,http://dassaweb.mqbic.com/PublicTally.php?id=4056
 2026-08-03,13:00,1,UACU-851384-0,Mercovan Argentina S...,HLCUBSC2605BYWA3,TD,2026-08-03,,
 2026-08-04,06:00,Terminal 4,BSIU-279048-9,Mercovan Argentina S...,ZIMYOEF9097934,TD,2026-08-04,,
-2026-08-06,14:00,Terminal 4,MRSU-468783-8,Mercovan Argentina S...,271477637,TD,,,
+2026-08-06,14:00,Terminal 4,MRSU-468783-8,Mercovan Argentina S...,271477637,TD,2026-08-06,,
 2026-07-28,11:00,1,HAMU-167027-5,Mercovan Argentina S...,HLUSAN2260404962,T,2026-07-28,,
 2026-07-28,13:00,1,HAMU-133620-5,Mercovan Argentina S...,HLUSAN2260404890,T,2026-07-28,,
 2026-07-30,10:00,Terminal 4,MRKU-790459-6,Mercovan Argentina S...,271966493,TD,2026-07-30,,
@@ -91,6 +91,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-02-20,10:00,Terminal 4,TGHU-116304-1,Lift Van Int. Co S.A...,HLCUBSC2601APZK7,TD,2026-02-20,3956,http://dassaweb.mqbic.com/PublicTally.php?id=3956
 2026-02-20,10:00,Terminal 4,TGHU-116304-1,Lift Van Int. Co S.A...,HLCUBSC2601APZK7,TD,2026-02-20,3956,http://dassaweb.mqbic.com/PublicTally.php?id=3956
 2026-02-25,13:00,Exolgan,HLXU-116488-6,Lift Van Int. Co S.A...,HLCUHAM251291206,TD,2026-02-25,3997,http://dassaweb.mqbic.com/PublicTally.php?id=3997
+2026-08-10,14:00,Terminal 4,TCLU-717624-2,Lift Van Int. Co S.A...,HLCUBSC2606CZGG9,TD,,,
 2026-07-30,05:00,Terminal 4,TEMU-138400-9,Lift Van Int. Co S.A...,HLCUBSC2606CAYT4,TD,2026-07-30,,
 2026-08-03,11:00,1,UACU-858903-9,Lift Van Int. Co S.A...,HLCUBC1260556975,TD,2026-08-03,,
 2026-08-03,15:00,1,TEMU-598125-5,Lift Van Int. Co S.A...,HLCUME3260603171,TD,2026-08-03,,
@@ -295,9 +296,9 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-02-13,05:00,Terminal 4,TTNU-129510-0,Refractarios Argenti...,TSN25120055,TD,2026-02-13,3940,http://dassaweb.mqbic.com/PublicTally.php?id=3940
 2026-02-20,05:00,Terminal 4,CLHU-390344-0,Refractarios Argenti...,PCBUE25120001,TD,2026-02-20,3965,http://dassaweb.mqbic.com/PublicTally.php?id=3965
 2026-02-23,15:00,Exolgan,UETU-307902-1,Refractarios Argenti...,MEDUWJ351156,TD,2026-02-23,3988,http://dassaweb.mqbic.com/PublicTally.php?id=3988
-2026-08-07,05:00,Terminal 4,BSIU-349126-6,Refractarios Argenti...,WJM69991533,TD,,,
-2026-08-07,05:00,Terminal 4,MRKU-860461-2,Refractarios Argenti...,WJM69991533,TD,,,
-2026-08-07,05:00,Terminal 4,STJU-201767-6,Refractarios Argenti...,WJM69991533,TD,,,
+2026-08-07,05:00,Terminal 4,BSIU-349126-6,Refractarios Argenti...,WJM69991533,TD,2026-08-07,,
+2026-08-07,05:00,Terminal 4,MRKU-860461-2,Refractarios Argenti...,WJM69991533,TD,2026-08-07,,
+2026-08-07,05:00,Terminal 4,STJU-201767-6,Refractarios Argenti...,WJM69991533,TD,2026-08-07,,
 2026-06-30,15:00,Exolgan,MSDU-275541-2,Refractarios Argenti...,TSN69773188,TD,2026-06-30,,
 2026-07-27,13:00,Terminal 4,MRKU-691490-1,Refractarios Argenti...,721530080,TD,2026-07-27,,
 2026-08-03,11:00,1,TGBU-133255-6,Refractarios Argenti...,MEDUFC624766,TD,2026-08-03,,
@@ -1162,5 +1163,5 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-07-24,16:00,TRP,PCIU-856511-1,Felice Mega Store Sr...,SZSM26050304,T,2026-07-24,,
 2026-07-29,09:00,Exolgan,MSNU-674856-1,Sas Distribuidora Sr...,SYNSHA26SE060866A,T,2026-07-29,,
 2026-07-31,06:00,Terminal 4,MRKU-103623-3,Goldstein Valdez Gad...,HBOL218423,TD,2026-07-31,,
-2026-08-06,14:00,Terminal 4,LYGU-166871-7,Savino Del Bene Arge...,271667940,T,,,
+2026-08-06,14:00,Terminal 4,LYGU-166871-7,Savino Del Bene Arge...,271667940,T,2026-08-06,,
 2026-08-07,11:00,TRP,PCIU-464724-8,Alta Tension Sa     ...,KDRQ26050043,T,,,
