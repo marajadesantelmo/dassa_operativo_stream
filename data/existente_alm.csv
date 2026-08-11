@@ -24,16 +24,16 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 43775-1-1,Lift Van Int. Co S.A,Koruk Sebastian,HLCUBSC2606CAYT4,TEMU-138400-9,30-07-2026,7.00,696.00,ANEX-A1,
 43787-1-1,Lift Van Int. Co S.A,Rapoport Vanesa Iren...,OOLU2328291520,CSNU-888728-9,30-07-2026,50.00,3642.00,NV3,
 43791-1-1,Mercovan Argentina S...,Garcia Sotelo  Jorge...,271966493,MRKU-790459-6,30-07-2026,22.00,2160.00,ANEX-A1,
-43763-1-1,Trice Transport Comp...,Pipke Arnaldo Stc Mo...,HLCUBSC2606DCAP8,HLBU-268358-0,29-07-2026,3.10,229.00,PA-A,
 43763-2-1,Trice Transport Comp...,Piple Arnaldo  Stc V...,HLCUBSC2606DCAP8,HLBU-268358-0,29-07-2026,18.00,2110.00,PA-A,
+43763-1-1,Trice Transport Comp...,Pipke Arnaldo Stc Mo...,HLCUBSC2606DCAP8,HLBU-268358-0,29-07-2026,3.10,229.00,PA-A,
 43732-1-1,Lift Van Int. Co S.A,Bourdieu Shaw Clara,HLCUME3260553511,HLBU-345007-4,28-07-2026,10.00,875.00,ANEX-A1,
 43728-2-1,Lift Van Int. Co S.A,Auto Blanco Kia Rio ...,HLCUBC1260560339,HLXU-116333-9,28-07-2026,12.00,1110.00,PA-A,
 43729-1-1,Edelweiss Spedition ...,Castro Dora  Del Val...,HLCUHAM260591005,UACU-840941-4,28-07-2026,60.00,5800.00,EA4,
 43728-1-1,Lift Van Int. Co S.A,Caminata Juan Federi...,HLCUBC1260560339,HLXU-116333-9,28-07-2026,10.00,1160.00,ANEX-A1,
 43703-3-1,Caddell Construction...,Diplomatic Cargo,95726-05021,FCIU-749488-3,27-07-2026,19.00,4603.00,IB2,
-43703-1-1,Caddell Construction...,Diplomatic Crgo,95726-05021,HAMU-189596-5,27-07-2026,26.00,932.00,ANEX-A1,
-43701-1-1,Lift Van Int. Co S.A,Pessino Carola,MEDUXX383086,MSBU-401429-0,27-07-2026,60.00,5506.61,ANEX-A1,
 43703-2-1,Caddell Construction...,Diplomatic Cargo,95726-05021,FANU-348112-2,27-07-2026,33.00,1316.00,ANEX-A1,
+43701-1-1,Lift Van Int. Co S.A,Pessino Carola,MEDUXX383086,MSBU-401429-0,27-07-2026,60.00,5506.61,ANEX-A1,
+43703-1-1,Caddell Construction...,Diplomatic Crgo,95726-05021,HAMU-189596-5,27-07-2026,26.00,932.00,ANEX-A1,
 43673-1-1,Lift Van Int. Co S.A,Boldrini  Jorge,MEDUWW553749,MSMU-164052-3,23-07-2026,30.00,2180.00,ANEXO,
 43657-1-1,Givova Sport Srl,Givova Sport,KHI/BUE/00027,HLBU-388721-2,22-07-2026,26.00,1820.00,IA1,
 43610-1-1,Gematec Srl,Gematec,H01EMKK26003100,EITU-909862-7,20-07-2026,35.00,19430.39,IA7,
@@ -89,8 +89,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 42809-1-1,Dpmg S.A.,Gas Refrigerante R41...,NPG3472295,CMAU-907672-1,27-05-2026,56.00,26325.00,IA6,
 42810-1-1,Dpmg S.A.,Gas Refrigerante R41...,NPG3472306,CMAU-833683-0,27-05-2026,60.00,26460.00,IB4,
 42692-1-1,Magic Team S.A.,Footwear As Per  Bel...,HANS003759AB,TGHU-520062-6,19-05-2026,28.00,2549.00,IA7,http://dassaweb.mqbic.com/PublicTally.php?id2=NDYyOA==
-42686-1-1,Noah Servicess.R.L.,X20260417320338Porsc...,269557581,MRKU-073454-3,19-05-2026,11.00,1400.00,NV5,http://dassaweb.mqbic.com/PublicTally.php?id2=NDYyNQ==
 42686-3-1,Noah Servicess.R.L.,1Hd1Bzb1Xsy065129 Ha...,269557581,MRKU-073454-3,19-05-2026,4.00,275.00,NV4,http://dassaweb.mqbic.com/PublicTally.php?id2=NDYyNQ==
+42686-1-1,Noah Servicess.R.L.,X20260417320338Porsc...,269557581,MRKU-073454-3,19-05-2026,11.00,1400.00,NV5,http://dassaweb.mqbic.com/PublicTally.php?id2=NDYyNQ==
 42605-1-1,Lift Van Int. Co S.A,Michel Torino Car Ni...,266994998,MRKU-830149-4,12-05-2026,20.00,1660.00,PA-A,http://dassaweb.mqbic.com/PublicTally.php?id2=NDU4NQ==
 42595-1-1,Impulso Jm S.A.,Cotton/Polyester,SYNTAO26SE030522,CARU-580228-6,12-05-2026,16.67,3847.60,IA5,http://dassaweb.mqbic.com/PublicTally.php?id2=NDU3Nw==
 42596-1-1,El Mas Grande S.A.,Cartons,SZSE2603595,TRHU-246760-5,12-05-2026,28.00,4750.00,ANEXO 1,http://dassaweb.mqbic.com/PublicTally.php?id2=NDU3OA==
@@ -104,8 +104,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 41982-2-1,Noah Servicess.R.L.,Vin 1Hd1Ktp1Xpb68059...,266417554,MRKU-072244-0,26-03-2026,10.00,304.00,NAVE 4,http://dassaweb.mqbic.com/PublicTally.php?id2=NDIxMg==
 41974-1-1,Hra Consultora,Bmw Z4 Vin Wball5C56...,266326090,MRSU-005259-3,26-03-2026,11.00,1525.00,PA-A,http://dassaweb.mqbic.com/PublicTally.php?id2=NDIwNg==
 41956-1-1,Impulso Jm S.A.,Gorros,TCQD2601151,OOLU-439126-1,25-03-2026,28.04,3640.33,IB7,http://dassaweb.mqbic.com/PublicTally.php?id2=NDE5NA==
-41729-2-1,Bicicletas Futura Sa,Bicicletas,GILSH25100047,FSCU-885145-4,10-03-2026,66.00,4201.00,IA9,http://dassaweb.mqbic.com/PublicTally.php?id2=NDExMg==
 41729-1-1,Bicicletas Futura Sa,Bicicletas,GILSH25100047,UETU-806550-3,10-03-2026,25.39,2055.04,IB8,http://dassaweb.mqbic.com/PublicTally.php?id2=NDExMQ==
+41729-2-1,Bicicletas Futura Sa,Bicicletas,GILSH25100047,FSCU-885145-4,10-03-2026,66.00,4201.00,IA9,http://dassaweb.mqbic.com/PublicTally.php?id2=NDExMg==
 41690-1-1,Noah Servicess.R.L.,Jeep Wrangler  Vin 1...,265401386,MRKU-065227-6,06-03-2026,20.00,1960.00,IB6,http://dassaweb.mqbic.com/PublicTally.php?id2=NDA4Ng==
 41667-2-1,Grupo Rsm Srl,Bmw Color Red V In W...,266057324,MRKU-084071-4,05-03-2026,9.00,1400.00,ANEXO 1,http://dassaweb.mqbic.com/PublicTally.php?id2=NDA3Mg==
 41667-1-1,Grupo Rsm Srl,Bmw Color Blue Vin S...,266057324,MRKU-084071-4,05-03-2026,10.00,1466.00,ANEXO1,http://dassaweb.mqbic.com/PublicTally.php?id2=NDA3Mg==
@@ -144,8 +144,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 39518-1-1,Bisora Group Sa,Telas,NBOE25018116,TLLU-589228-8,14-11-2025,68.00,25977.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MzE3NA==
 39539-1-1,Bisora Group Sa,Textil,NBFC2509104,HMMU-622167-3,14-11-2025,70.00,16392.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MzE4Mg==
 39396-5-1,Clan Mobility,Cleaning Uniform,XMF202500827A/B/C/D,MSKU-122274-9,10-11-2025,5.80,1822.00,IA6,http://dassaweb.mqbic.com/PublicTally.php?id2=MzEyOA==
-39383-2-1,Skop Trader S. A.,"Pp Folding Chair,Caj...",TCNB2509194,KOCU-403777-1,07-11-2025,65.00,11024.30,IB7,
 39383-1-1,Skop Trader S. A.,"Pp Folding Chair,Caj...",TCNB2509194,KOCU-403777-1,07-11-2025,65.00,11024.30,,
+39383-2-1,Skop Trader S. A.,"Pp Folding Chair,Caj...",TCNB2509194,KOCU-403777-1,07-11-2025,65.00,11024.30,IB7,
 39277-1-1,Skop Trader S. A.,Mesas De Plaatico,TCNB2508424,HMMU-658375-4,03-11-2025,71.00,14544.00,NV1,
 39247-1-1,Skop Trader S. A.,Mesas De Plastico,TCNB2508476,HMMU-659616-0,31-10-2025,71.00,14432.90,NV1,
 39225-1-1,Jupam Sa,Textil,NGP2732956,CMAU-934364-3,30-10-2025,68.00,16952.00,CTNNAC,http://dassaweb.mqbic.com/PublicTally.php?id2=MzAyOA==
