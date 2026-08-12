@@ -4,7 +4,7 @@ Fecha,Orden,Booking,Cliente,Desc. Merc.,Patente Semi,Obs.,Estado,Peligrosa,Balan
 12/08,45744,terrestres,Intercontainers Shipping & Tra...,Ácidos grasos monocarboxílicos...,CNA071,expo terrestre cisterna - Remito: 11111,16:50 Arribado,0,16:43 Entrada
 12/08,45688,15602211,Lawter Argentina S.A.,SNOWTACK IBC,OBW027,REF 5161844 5161845 - Remito: 0000100044442,08:44 Arribado,0,10:15 Salida
 12/08,45687,15602211,Lawter Argentina S.A.,SNOWTACK IBC,ECI081,REF 5161844 5161845 - Remito: 00001 00044443,08:43 Arribado,0,11:39 Salida
-12/08,45583,BUA0375292,Paramerica S.A.,NEGRO (granos),NWL674,BUA0375292 // CORP. IPALTECO - Remito: 10234258608,09:01 Arribado,0,09:01 Entrada
+12/08,45583,BUA0375292,Paramerica S.A.,NEGRO (granos),NWL674,BUA0375292 // CORP. IPALTECO - Remito: 10234258608,09:01 Arribado,0,18:56 Salida
 12/08,45590,BUA0375292,Paramerica S.A.,NEGRO (granos),AF561NW,BUA0375292 // CORP. IPALTECO,17:11 Arribado,0,17:11 Entrada
 12/08,45589,BUA0375292,Paramerica S.A.,NEGRO (granos),KVS262,BUA0375292 // CORP. IPALTECO - Remito: CTG10234253766,16:08 Arribado,0,17:53 Salida
 12/08,45588,BUA0375292,Paramerica S.A.,NEGRO (granos),AI203AM,BUA0375292 // CORP. IPALTECO - Remito: 10234254865,15:47 Arribado,0,17:20 Salida
@@ -17,42 +17,50 @@ Fecha,Orden,Booking,Cliente,Desc. Merc.,Patente Semi,Obs.,Estado,Peligrosa,Balan
 12/08,45702,EBKG18110474,Neygi Moving Srl,Efectos personales y del hogar...,XBA667,Carmelo barbera // 348 BULTOS - Remito: 2479,08:46 Arribado,0,15:25 Salida
 12/08,45691,BUEG10748700,Aniceto Gomez Sa,jaulas (autopartes / repuestos...,-,OP.893 - ARGENPARTS - MEXICO - Remito: 461279,11:13 Arribado,0,-
 12/08,45698,BUEG10748700,Aniceto Gomez Sa,jaulas (autopartes / repuestos...,AEB864,OP.893 - ARGENPARTS - MEXICO - Remito: 46126,11:17 Arribado,0,13:59 Salida
-12/08,45411,BUA0375079,Isischu Srl,GRLEM262114 / BUA037509,PEJ788,GRLEM262114 / BUA0375079 - Remito: 8031,17:00 Arribado,0,18:28 Salida
 12/08,45701,FACT13568,Borax Argentina S A,Hidroboracita,-,FACT13568,Pendiente,0,-
+12/08,45411,BUA0375079,Isischu Srl,GRLEM262114 / BUA037509,PEJ788,GRLEM262114 / BUA0375079 - Remito: 8031,17:00 Arribado,0,18:28 Salida
 12/08,45699,FACT13568,Borax Argentina S A,Hidroboracita,AH112KL,FACT13568 - Remito: 30120,08:47 Arribado,0,11:21 Salida
-13/08,45623,BUEG10369600,Lawter Argentina S.A.,Big BG 650KG,-,,Pendiente,0,-
-13/08,45752,EBKG18110831,Delicia Maderas,GRLEM262252 //EBKG18110831,-,,Pendiente,0,-
-13/08,45621,BUEG10369600,Lawter Argentina S.A.,Big BG 650KG,-,,Pendiente,0,-
+13/08,45622,BUEG10369600,Lawter Argentina S.A.,Big BG 650KG,-,,Pendiente,0,-
 13/08,45620,BUEG10369600,Lawter Argentina S.A.,Big BG 650KG,-,,Pendiente,0,-
 13/08,45686,EBKG18148299,Saf Argentina Sociedad Anonima,EBKG18148299,-,EBKG18148299 / SAVTH26/4019,Pendiente,0,-
+13/08,45603,ZIMUBUE9052512,Paramerica S.A.,DRKB (granos),-,"ZIMUBUE9052512 / PKT Associates, Inc.",Pendiente,0,-
+13/08,45604,ZIMUBUE9052512,Paramerica S.A.,DRKB (granos),-,"ZIMUBUE9052512 / PKT Associates, Inc.",Pendiente,0,-
+13/08,45605,ZIMUBUE9052512,Paramerica S.A.,DRKB (granos),-,"ZIMUBUE9052512 / PKT Associates, Inc.",Pendiente,0,-
+13/08,45606,ZIMUBUE9052512,Paramerica S.A.,DRKB (granos),-,"ZIMUBUE9052512 / PKT Associates, Inc.",Pendiente,0,-
 13/08,45743,17929462,Edelweiss Spedition Srl,HOUSEHOLD AND PERSONAL EFFECTS,-,Victor Hugo Velez Alanis (edelweiss) 194 bultos,Pendiente,0,-
+13/08,45736,48026876,Edelweiss Spedition Srl,EFECTOS PERSONALES USADOS,-,Mudanza Victor Hugo Velez Alanis 194 bultos / 44.00 cbm / 4399.99 kg,Pendiente,0,-
+13/08,45596,ZIMUBUE9052511,Paramerica S.A.,DRKB (GRANOS) - ZAFRA 2026,-,"ZIMUBUE9052511 // PKT Associates, Inc.",Pendiente,0,-
+13/08,45597,ZIMUBUE9052511,Paramerica S.A.,DRKB (GRANOS) - ZAFRA 2026,-,"ZIMUBUE9052511 // PKT Associates, Inc.",Pendiente,0,-
+13/08,45598,ZIMUBUE9052511,Paramerica S.A.,DRKB (GRANOS) - ZAFRA 2026,-,"ZIMUBUE9052511 // PKT Associates, Inc.",Pendiente,0,-
+13/08,45602,ZIMUBUE9052512,Paramerica S.A.,DRKB (granos),-,"ZIMUBUE9052512 / PKT Associates, Inc.",Pendiente,0,-
 13/08,45746,EBKG18087580,Prosal S.A.,Azúcar (AP) - bolsas 25 Kg,-,EBKG18087580 // prosal,Pendiente,0,-
 13/08,45747,EBKG18087580,Prosal S.A.,Azúcar (AP) - bolsas 25 Kg,-,EBKG18087580 // prosal,Pendiente,0,-
 13/08,45748,EBKG18087580,Prosal S.A.,Azúcar (AP) - bolsas 25 Kg,-,EBKG18087580 // prosal,Pendiente,0,-
-13/08,45736,48026876,Edelweiss Spedition Srl,EFECTOS PERSONALES USADOS,-,Mudanza Victor Hugo Velez Alanis 194 bultos / 44.00 cbm / 4399.99 kg,Pendiente,0,-
-13/08,45622,BUEG10369600,Lawter Argentina S.A.,Big BG 650KG,-,,Pendiente,0,-
+13/08,45752,EBKG18110831,Delicia Maderas,GRLEM262252 //EBKG18110831,-,,Pendiente,0,-
+13/08,45621,BUEG10369600,Lawter Argentina S.A.,Big BG 650KG,-,,Pendiente,0,-
+13/08,45623,BUEG10369600,Lawter Argentina S.A.,Big BG 650KG,-,,Pendiente,0,-
 14/08,45738,275471082,Virasoro Maderas S R L,MADERAS,-,GRLAE262258 // 3x40HC,Pendiente,0,-
-14/08,45676,COSU6462599830,Norfor Sa,GRLEM262247,-,GRLEM262247 // 4x40HC // COSU6462599830,Pendiente,0,-
-14/08,45675,COSU6462599830,Norfor Sa,GRLEM262247,-,GRLEM262247 // 4x40HC // COSU6462599830,Pendiente,0,-
-14/08,45565,BUA0376757,Gestion Forward S.R.L.,maquinaria,-,BUA0376757 // Buenos Aires to Istanbul Ambarli Marport,Pendiente,0,-
 14/08,45673,COSU6462599830,Norfor Sa,GRLEM262247,-,GRLEM262247 // 4x40HC // COSU6462599830,Pendiente,0,-
 14/08,45674,COSU6462599830,Norfor Sa,GRLEM262247,-,GRLEM262247 // 4x40HC // COSU6462599830,Pendiente,0,-
+14/08,45675,COSU6462599830,Norfor Sa,GRLEM262247,-,GRLEM262247 // 4x40HC // COSU6462599830,Pendiente,0,-
+14/08,45676,COSU6462599830,Norfor Sa,GRLEM262247,-,GRLEM262247 // 4x40HC // COSU6462599830,Pendiente,0,-
+14/08,45565,BUA0376757,Gestion Forward S.R.L.,maquinaria,-,BUA0376757 // Buenos Aires to Istanbul Ambarli Marport,Pendiente,0,-
 18/08,45718,274766059,Isischu Srl,"Wood, articles of wood, nos",-,,Pendiente,0,-
+18/08,45716,274766059,Isischu Srl,"Wood, articles of wood, nos",-,,Pendiente,0,-
+18/08,45717,274766059,Isischu Srl,"Wood, articles of wood, nos",-,,Pendiente,0,-
 18/08,45739,275471082,Virasoro Maderas S R L,MADERAS,-,GRLAE262258 // 3x40HC,Pendiente,0,-
 18/08,45740,275471082,Virasoro Maderas S R L,MADERAS,-,GRLAE262258 // 3x40HC,Pendiente,0,-
 18/08,45557,275463678,Mader Zu S.R.L.,275463678,-,GRLEM262249 // 275463678,Pendiente,0,-
-18/08,45559,275463678,Mader Zu S.R.L.,275463678,-,GRLEM262249 // 275463678,Pendiente,0,-
-18/08,45560,275463678,Mader Zu S.R.L.,275463678,-,GRLEM262249 // 275463678,Pendiente,0,-
 18/08,45561,275463678,Mader Zu S.R.L.,275463678,-,GRLEM262249 // 275463678,Pendiente,0,-
-18/08,45716,274766059,Isischu Srl,"Wood, articles of wood, nos",-,,Pendiente,0,-
+18/08,45560,275463678,Mader Zu S.R.L.,275463678,-,GRLEM262249 // 275463678,Pendiente,0,-
+18/08,45559,275463678,Mader Zu S.R.L.,275463678,-,GRLEM262249 // 275463678,Pendiente,0,-
 18/08,45558,275463678,Mader Zu S.R.L.,275463678,-,GRLEM262249 // 275463678,Pendiente,0,-
-18/08,45717,274766059,Isischu Srl,"Wood, articles of wood, nos",-,,Pendiente,0,-
 20/08,45719,274766059,Isischu Srl,"Wood, articles of wood, nos",-,,Pendiente,0,-
 20/08,45720,274766059,Isischu Srl,"Wood, articles of wood, nos",-,,Pendiente,0,-
 21/08,45713,EBKG18088682,Isischu Srl,EBKG18088682,-,,Pendiente,0,-
-21/08,45714,EBKG18088682,Isischu Srl,EBKG18088682,-,,Pendiente,0,-
 21/08,45715,EBKG18088682,Isischu Srl,EBKG18088682,-,,Pendiente,0,-
-24/08,45647,ZIMUBUE9052334,Mader Zu S.R.L.,ZIMUBUE9052334,-,GRLEM262184 // 1x40HC // ZIMUBUE9052334,Pendiente,0,-
+21/08,45714,EBKG18088682,Isischu Srl,EBKG18088682,-,,Pendiente,0,-
+24/08,45737,COSU6509282040,Virasoro Maderas S R L,COSU6509282040,-,GRLEM262121// 1x40HC,Pendiente,0,-
 24/08,45626,21662848,Tipoiti Satic,hilado de algodón,-,,Pendiente,0,-
 24/08,45627,21662848,Tipoiti Satic,hilado de algodón,-,,Pendiente,0,-
-24/08,45737,COSU6509282040,Virasoro Maderas S R L,COSU6509282040,-,GRLEM262121// 1x40HC,Pendiente,0,-
+24/08,45647,ZIMUBUE9052334,Mader Zu S.R.L.,ZIMUBUE9052334,-,GRLEM262184 // 1x40HC // ZIMUBUE9052334,Pendiente,0,-
