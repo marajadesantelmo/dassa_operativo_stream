@@ -1,8 +1,10 @@
 Fecha,Booking,Cliente,Cantidad,Dimension,Tipo,Contenedor,Precinto,Origen,Obs.,Estado,Peligrosa
 12/08,51353208,Mercovan Argentina S.A.,1,40,DR,-,,Exolgan,,Pendiente,0
-12/08,96373497,Conextube Sa,1,40,HC,-,,Huxley Sa,,Pendiente,0
+12/08,96373497,Conextube Sa,1,40,HC,GCXU-592493-0,*****,Huxley Sa,Tara: 3700,11:01 Arribado,0
 12/08,96373497,Conextube Sa,1,40,HC,HLBU-225497-1,******,Huxley Sa,Tara: 3900,08:35 Arribado,0
 12/08,BUA0375184,Placas Rivadavia S.R.L.,3,40,HC,-,,Terminal 7,28600,Pendiente,0
+12/08,BUA0375185,Placas Rivadavia S.R.L.,1,40,HC,-,,Terminal 7,28600,Pendiente,0
+12/08,BUA0375292,Paramerica S.A.,1,40,HC,-,,Terminal 7,28600,Pendiente,0
 12/08,BUA0375292,Paramerica S.A.,1,40,HC,TGHU-632066-8,K1225846,Terminal 7,28600 - Tara: 3890,18:44 Arribado,0
 12/08,BUE600172000,Borax Argentina S A,1,0,,PCIU-285098-1,******,-,Tara: 2200,10:36 Arribado,0
 12/08,BUE600172000,Borax Argentina S A,1,20,DR,MAGU-245299-8,*****,Hiperbaires - Icb T.Sur,Fact.13539 - Tara: 2210,10:34 Arribado,0
@@ -10,7 +12,7 @@ Fecha,Booking,Cliente,Cantidad,Dimension,Tipo,Contenedor,Precinto,Origen,Obs.,Es
 12/08,BUEG10369600,Lawter Argentina S.A.,1,40,HC,CAAU-925861-2,*****,Exolgan,Tara: 3700,09:18 Arribado,0
 12/08,BUEG10748700,Aniceto Gomez Sa,1,40,HC,-,,Hiperbaires - Icb T.Sur,,Pendiente,0
 12/08,EBKG18110831,Delicia Maderas,1,40,HC,-,,Exolgan,,Pendiente,0
-12/08,EBKGQ0024E25,Mercovan Argentina S.A.,1,20,DR,-,,Murchinson,,Pendiente,0
+12/08,EBKGQ0024E25,Mercovan Argentina S.A.,1,20,DR,MSDU-411957-5,FX33005331,Murchinson,Tara: 3640,10:55 Arribado,0
 13/08,274766059,Isischu Srl,5,40,HC,-,,Gamma Libertador,,Pendiente,0
 13/08,COSU6462599830,Norfor Sa,4,40,HC,-,,Gamma Libertador,,Pendiente,0
 14/08,BUA0376757,Gestion Forward S.R.L.,1,40,HC,-,,Hiperbaires - Icb T.Sur,,Pendiente,0
