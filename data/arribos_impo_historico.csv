@@ -421,7 +421,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-08-13,13:00,TRP,MSMU-548252-9,Aspee Monee         ...,4315ES-MA,T,,,
 2026-08-13,10:00,Terminal 4,MRKU-370408-0,Aspee Monee         ...,AEM07260255,T,,,
 2026-08-13,14:00,Terminal 4,MRSU-869567-8,Aspee Monee         ...,AEM07260254,T,,,
-2026-08-13,05:00,Terminal 4,MRSU-782796-0,Aspee Monee         ...,271769207,T,,,
+2026-08-13,05:00,Terminal 4,MRSU-782796-0,Aspee Monee         ...,271769207,T,2026-08-13,,
 2026-08-13,13:00,TRP,CMAU-951968-7,Aspee Monee         ...,AEM07260234,T,,,
 2026-07-27,12:00,TRP,ONEU-932147-7,Aspee Monee         ...,CNCBUE2606401,T,2026-07-27,,
 2026-07-28,11:00,Exolgan,HASU-479907-8,Aspee Monee         ...,AEM06260231,T,2026-07-28,,
@@ -841,6 +841,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-04-20,18:00,Terminal 4,EFEU-803354-6,Noah Servicess.R.L. ...,HLCUBSC2602CPCT7,TD,2026-04-20,4399,http://dassaweb.mqbic.com/PublicTally.php?id=4399
 2026-04-20,18:00,Terminal 4,EFEU-803354-6,Noah Servicess.R.L. ...,HLCUBSC2602CPCT7,TD,2026-04-20,4399,http://dassaweb.mqbic.com/PublicTally.php?id=4399
 2026-04-22,07:00,Exolgan,HLBU-106196-2,Noah Servicess.R.L. ...,HLCUBC1260254836,TD,2026-04-22,,
+2026-08-14,16:00,TRP,TRHU-287794-0,Corona Insumos Srl  ...,TPE26060022,T,,,
 2026-02-21,09:00,Exolgan,MSNU-676984-1,20N S.R.L.          ...,9572512038,TD,2026-02-21,3975,http://dassaweb.mqbic.com/PublicTally.php?id=3975
 2026-02-21,09:00,Exolgan,FFAU-223615-3,20N S.R.L.          ...,9572512038,TD,2026-02-21,3976,http://dassaweb.mqbic.com/PublicTally.php?id=3976
 2026-04-24,13:00,TRP,TGBU-550967-6,Tmcp S.A.S.         ...,BSZFL26030254,T,2026-04-24,,
@@ -928,6 +929,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-19,10:00,TRP,GCXU-604955-1,E A Balbi E Hijos S ...,SHOH26010092,T,2026-03-19,,
 2026-03-04,05:00,Terminal 4,MRSU-904486-0,Vc Textil Srl       ...,SHOE25013839,T,2026-03-04,,
 2026-03-06,14:00,Terminal 4,UETU-732360-3,Vc Textil Srl       ...,SHOE26014027,T,2026-03-06,,
+2026-08-14,05:00,Terminal 4,MRSU-895651-3,Vc Textil Srl       ...,NBOE26025539,T,,,
 2026-05-21,11:00,TRP,TIIU-405586-0,Neumaticos Bisso Srl...,WLC60307667,T,2026-05-21,,
 2026-07-17,11:00,Terminal 4,MRSU-451543-8,Neumaticos Bisso Srl...,WLC60506595,T,2026-07-17,,
 2026-04-01,15:00,TRP,BMOU-149837-4,Alami Flejes De Prec...,S04932374,TD,2026-04-01,4278,http://dassaweb.mqbic.com/PublicTally.php?id=4278
@@ -1005,12 +1007,12 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-05-08,11:00,Exolgan,MSNU-650840-5,Caddell Construction...,MEDUFF295820,TD,2026-05-08,4546,http://dassaweb.mqbic.com/PublicTally.php?id=4546
 2026-05-08,11:00,Exolgan,MSNU-519226-7,Caddell Construction...,MEDUFF295846,TD,2026-05-08,4548,http://dassaweb.mqbic.com/PublicTally.php?id=4548
 2026-05-13,13:00,TRP,TRHU-107459-0,Caddell Construction...,SIJ0568543,TD,2026-05-13,4592,http://dassaweb.mqbic.com/PublicTally.php?id=4592
-2026-08-11,13:00,Exolgan,HAMU-194293-8,Caddell Construction...,HLUSAN2260202335,TD,2026-08-11,,
+2026-08-11,13:00,Exolgan,HAMU-194293-8,Caddell Construction...,HLUSAN2260202335,T,2026-08-11,,
 2026-07-27,13:00,Exolgan,FANU-348112-2,Caddell Construction...,95726-05021,TD,2026-07-27,,
 2026-07-27,15:00,Exolgan,FCIU-749488-3,Caddell Construction...,95726-05021,TD,2026-07-27,,
 2026-07-28,11:00,Exolgan,FSCU-841483-4,Caddell Construction...,95726-06007,TD,2026-07-28,,
-2026-08-11,13:00,Exolgan,HLBU-331432-9,Caddell Construction...,HLUSAN2260300528,TD,2026-08-11,,
-2026-08-11,13:00,Exolgan,UACU-569568-0,Caddell Construction...,HLUSAN2260202335,TD,2026-08-11,,
+2026-08-11,13:00,Exolgan,HLBU-331432-9,Caddell Construction...,HLUSAN2260300528,T,2026-08-11,,
+2026-08-11,13:00,Exolgan,UACU-569568-0,Caddell Construction...,HLUSAN2260202335,T,2026-08-11,,
 2026-06-24,15:00,Exolgan,TEMU-671257-0,Caddell Construction...,95726-04031,TD,2026-06-24,,
 2026-06-24,15:00,Exolgan,FANU-113902-3,Caddell Construction...,95726-04031,TD,2026-06-24,,
 2026-06-24,15:00,Exolgan,HAMU-311334-5,Caddell Construction...,95726-04031,TD,2026-06-24,,
@@ -1136,5 +1138,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-07-24,16:00,TRP,PCIU-856511-1,Felice Mega Store Sr...,SZSM26050304,T,2026-07-24,,
 2026-07-29,09:00,Exolgan,MSNU-674856-1,Sas Distribuidora Sr...,SYNSHA26SE060866A,T,2026-07-29,,
 2026-07-31,06:00,Terminal 4,MRKU-103623-3,Goldstein Valdez Gad...,HBOL218423,TD,2026-07-31,,
+2026-08-14,13:00,TRP,EMCU-829621-5,Bicicletas Pioneer S...,117GZH2605105,T,,,
+2026-08-14,13:00,TRP,TIIU-453745-6,Bicicletas Pioneer S...,117GZH2605105,T,,,
 2026-08-06,14:00,Terminal 4,LYGU-166871-7,Savino Del Bene Arge...,271667940,T,2026-08-06,,
 2026-08-07,11:00,TRP,PCIU-464724-8,Alta Tension Sa     ...,KDRQ26050043,T,2026-08-07,,
