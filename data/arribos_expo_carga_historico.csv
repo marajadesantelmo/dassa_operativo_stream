@@ -6,7 +6,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-03-04,42411,,Mercovan Argentina S...,26001PER1000106T,LEE SUWAN,Arribado
 2026-03-10,42547,,Mercovan Argentina S...,PER1000119A,LEE  HEE JIN,Arribado
 2026-08-18,45760,,Mercovan Argentina S...,275114004,EFECTOS PERSONALES USADOS,Pendiente
-2026-08-14,45761,,Mercovan Argentina S...,98288229,EFECTOS PERSONALES USADOS,Pendiente
+2026-08-14,45761,,Mercovan Argentina S...,98288229,EFECTOS PERSONALES USADOS,Arribado
 2026-08-14,45762,,Mercovan Argentina S...,98288229,87095,Pendiente
 2026-08-07,45537,,Mercovan Argentina S...,EBKGQ0024E25,EFECTOS PERSONALES USADOS,Pendiente
 2026-08-07,45562,,Mercovan Argentina S...,EBKGQ0024E25,EFECTOS PERSONALES USADOS,Arribado
@@ -48,6 +48,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-02-25,42229,,Lift Van Int. Co S.A,265641125,MARLENE VAZQUEZ,Arribado
 2026-08-10,45531,,Lift Van Int. Co S.A,97018959,Mudanza (cajones),Arribado
 2026-08-11,45549,,Lift Van Int. Co S.A,22738958,"Mudanzas, equipaje no acompañado - Efectos personales y del",Arribado
+2026-08-18,45806,,Lift Van Int. Co S.A,31242164,HOUSEHOLD AND PERSONAL EFFECTS,Pendiente
 2026-08-05,45430,,Lift Van Int. Co S.A,BKGSMK887368,EFECTOS PERSONALES USADOS,Pendiente
 2026-08-10,45530,,Lift Van Int. Co S.A,97018959,Mudanza (cajones),Arribado
 2026-07-28,45252,,Lift Van Int. Co S.A,26001PER1000384E,JIMENEZ MANTEROLA DOMINGO ANDRES,Arribado
@@ -197,6 +198,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-06-24,44560,,Neygi Moving Srl,98177190,GUILLERMO KESSLER SAINZ // VEHICULO,Arribado
 2026-08-11,45576,,Neygi Moving Srl,EBKG17920330,EBKG17920330,Arribado
 2026-08-12,45702,,Neygi Moving Srl,EBKG18110474,Efectos personales y del hogar / mudanza bajo régimen de fra,Arribado
+2026-08-14,45770,,Neygi Moving Srl,46712278,efectos personales / automóvil,Arribado
+2026-08-19,45771,,Neygi Moving Srl,48752932,efectos personales,Pendiente
 2026-07-24,45183,,Neygi Moving Srl,22322435,PEREZ ROSALES,Arribado
 2026-07-28,45251,,Neygi Moving Srl,BUA0374200,OBARA,Arribado
 2026-08-11,45548,,Neygi Moving Srl,EBKG18110474,EBKG18110474,Pendiente
@@ -376,7 +379,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-03-31,42970,,Chemotecnica Sa,15794763,VIRBAC R.S.A // EXPO 51,Arribado
 2026-05-21,43880,,Chemotecnica Sa,35993236,35993236 // IMO,Arribado
 2026-02-24,42191,,Gestion Forward S.R....,266573448,GAS INNOVATIONS  // 266573448,Pendiente
-2026-08-14,45565,,Gestion Forward S.R....,BUA0376757,maquinaria,Pendiente
+2026-08-14,45565,,Gestion Forward S.R....,BUA0376757,maquinaria,Arribado
 2026-06-26,44609,,Sam Log S.R.L.,45720754,45720754,Arribado
 2026-07-28,45249,,Mafralac Alimenticia...,ZIMUBUE9051755,ZIMUBUE9051755,Arribado
 2026-07-28,45250,,Mafralac Alimenticia...,ZIMUBUE9051755,ZIMUBUE9051755,Arribado
@@ -409,7 +412,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-05,45385,,Isischu Srl,275042741,"Wood, articles of wood, nos",Arribado
 2026-08-07,45388,,Isischu Srl,275043408,GRLAE262165 // 275043408,Arribado
 2026-08-12,45411,,Isischu Srl,BUA0375079,GRLEM262114 / BUA037509,Arribado
-2026-08-20,45719,,Isischu Srl,274766059,"Wood, articles of wood, nos",Pendiente
+2026-08-18,45719,,Isischu Srl,274766059,"Wood, articles of wood, nos",Pendiente
 2026-08-20,45720,,Isischu Srl,274766059,"Wood, articles of wood, nos",Pendiente
 2026-08-21,45713,,Isischu Srl,EBKG18088682,EBKG18088682,Pendiente
 2026-08-21,45714,,Isischu Srl,EBKG18088682,EBKG18088682,Pendiente
@@ -579,27 +582,32 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-03-09,42505,,Borax Argentina S A,26001EC01,,Arribado
 2026-02-26,42262,,Borax Argentina S A,266639504,FACT13042,Arribado
 2026-02-26,42268,,Borax Argentina S A,266639504,FACT13042,Pendiente
-2026-08-13,45686,,Saf Argentina Socied...,EBKG18148299,EBKG18148299,Pendiente
+2026-08-13,45686,,Saf Argentina Socied...,EBKG18148299,EBKG18148299,Arribado
 2026-07-22,45142,,Plasticos Dise S A,EBKG17855289,PLASTICOS DISE //  EBKG17855289,Arribado
 2026-02-20,42093,,Lawter Argentina S.A...,BUE600032500,5158002,Pendiente
 2026-02-20,42105,,Lawter Argentina S.A...,BUE600032600,5158004/5158005,Arribado
 2026-02-20,42109,,Lawter Argentina S.A...,BUE600032500,5158002/5158003,Arribado
 2026-02-20,42110,,Lawter Argentina S.A...,BUE600032500,5158002/5158003,Arribado
+2026-08-14,45774,,Lawter Argentina S.A...,ZIMUBUE9052010,Big BG 650KG,Arribado
+2026-08-19,45842,,Lawter Argentina S.A...,ZIMUBUE9052527,Drums 250 kg,Pendiente
+2026-08-19,45843,,Lawter Argentina S.A...,ZIMUBUE9052527,Drums 250 kg,Pendiente
+2026-08-19,45844,,Lawter Argentina S.A...,ZIMUBUE9052527,Drums 250 kg,Pendiente
+2026-08-19,45845,,Lawter Argentina S.A...,ZIMUBUE9052527,Drums 250 kg,Pendiente
+2026-08-14,45773,,Lawter Argentina S.A...,275716037,FILTREZ(TM) 3306 B-Flakes LDPE Bags 25kg,Pendiente
 2026-08-12,45687,,Lawter Argentina S.A...,15602211,SNOWTACK IBC,Arribado
 2026-08-12,45688,,Lawter Argentina S.A...,15602211,SNOWTACK IBC,Arribado
-2026-08-13,45623,,Lawter Argentina S.A...,BUEG10369600,Big BG 650KG,Arribado
 2026-08-11,45649,,Lawter Argentina S.A...,275361762,P2307 Big BG 650KG,Arribado
 2026-08-11,45650,,Lawter Argentina S.A...,275361762,P2307 Big BG 650KG,Arribado
 2026-08-11,45651,,Lawter Argentina S.A...,275361762,P2307 Big BG 650KG,Arribado
 2026-08-11,45652,,Lawter Argentina S.A...,275361762,P2307 Big BG 650KG,Arribado
-2026-08-11,45617,,Lawter Argentina S.A...,ZIMUBUE9052010,Big BG 650KG,Pendiente
-2026-08-11,45618,,Lawter Argentina S.A...,ZIMUBUE9052010,Big BG 650KG,Pendiente
-2026-08-11,45619,,Lawter Argentina S.A...,ZIMUBUE9052010,Big BG 650KG,Pendiente
+2026-08-14,45618,,Lawter Argentina S.A...,ZIMUBUE9052010,Big BG 650KG,Arribado
+2026-08-14,45619,,Lawter Argentina S.A...,ZIMUBUE9052010,Big BG 650KG,Arribado
 2026-08-13,45620,,Lawter Argentina S.A...,BUEG10369600,Big BG 650KG,Arribado
 2026-08-13,45621,,Lawter Argentina S.A...,BUEG10369600,Big BG 650KG,Arribado
 2026-08-13,45622,,Lawter Argentina S.A...,BUEG10369600,Big BG 650KG,Arribado
+2026-08-13,45623,,Lawter Argentina S.A...,BUEG10369600,Big BG 650KG,Arribado
 2026-08-11,45514,,Lawter Argentina S.A...,11925346,500 BOLSAS - P 9089 A BAG 50LB / 10 PALLETS,Arribado
-2026-08-11,45616,,Lawter Argentina S.A...,ZIMUBUE9052010,Big BG 650KG,Arribado
+2026-08-14,45617,,Lawter Argentina S.A...,ZIMUBUE9052010,Big BG 650KG,Arribado
 2026-08-05,45432,,Lawter Argentina S.A...,BUEG10368500,REF 5161847-10 / 5161847-20 / 5161847-30,Arribado
 2026-08-05,45433,,Lawter Argentina S.A...,BUEG10368500,REF 5161847-10 / 5161847-20 / 5161847-30 / 5161847-40,Arribado
 2026-08-05,45434,,Lawter Argentina S.A...,BUEG10368500,REF 5161847-10 / 5161847-20 / 5161847-30 / 5161847-40,Arribado
@@ -773,7 +781,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-10,45536,,Virasoro Maderas S R...,ZIMUBUE9051819,GRLAE262151// ZIMUBUE9051819,Arribado
 2026-08-12,45624,,Virasoro Maderas S R...,ZIMUBUE9051819,GRLAE262151// ZIMUBUE9051819 // RTO: 16405.,Pendiente
 2026-08-24,45737,,Virasoro Maderas S R...,COSU6509282040,COSU6509282040,Pendiente
-2026-08-14,45738,,Virasoro Maderas S R...,275471082,MADERAS,Pendiente
+2026-08-14,45738,,Virasoro Maderas S R...,275471082,MADERAS,Arribado
 2026-07-27,45207,,Tony Maderas Sa,ZIMUBUE9051959,GRLEM262056 // ZIMUBUE9051959,Arribado
 2026-02-18,42021,,Norfor Sa,340600005142,,Pendiente
 2026-08-14,45673,,Norfor Sa,COSU6462599830,GRLEM262247,Pendiente
@@ -921,6 +929,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-05-04,43564,,Sohcum S.A.,26001EC01,,Arribado
 2026-07-22,45138,,Sohcum S.A.,BUA0374293,BUA0374293 // BIG BAG,Pendiente
 2026-07-22,45139,,Sohcum S.A.,BUA0374293,BUA0374293 // BIG BAG,Pendiente
+2026-08-14,45777,,Sohcum S.A.,BUA0377056,26001EC01,Pendiente
 2026-05-19,43787,,Sohcum S.A.,CUR0271008,METALES,Arribado
 2026-07-15,44984,,Sohcum S.A.,26001EC01047830K,,Arribado
 2026-07-15,44985,,Sohcum S.A.,26001EC01047830K,,Arribado
@@ -954,13 +963,15 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-06-05,44199,,Coop. Apicola Del Pa...,BUEG04966500,BUEG04966500 // TAMBORES DE MIEL,Arribado
 2026-07-13,44876,,Coop. Apicola Del Pa...,COP0304272,COP0304272 // MIEL A GRANEL,Arribado
 2026-06-08,44217,,Paramerica S.A.,ZIMUBUE9050645,ZIMUBUE9050645 // BIG BAG,Arribado
-2026-08-13,45606,,Paramerica S.A.,ZIMUBUE9052512,DRKB (granos),Pendiente
+2026-08-14,45783,,Paramerica S.A.,ZIMUBUE9052512,DRKB (GRANOS,Arribado
+2026-08-14,45784,,Paramerica S.A.,ZIMUBUE9052512,DRKB (GRANOS),Arribado
+2026-08-14,45606,,Paramerica S.A.,ZIMUBUE9052512,DRKB (granos),Arribado
 2026-08-13,45602,,Paramerica S.A.,ZIMUBUE9052512,DRKB (granos),Arribado
-2026-08-13,45603,,Paramerica S.A.,ZIMUBUE9052512,DRKB (granos),Pendiente
-2026-08-13,45604,,Paramerica S.A.,ZIMUBUE9052512,DRKB (granos),Pendiente
-2026-08-13,45605,,Paramerica S.A.,ZIMUBUE9052512,DRKB (granos),Pendiente
-2026-08-10,45594,,Paramerica S.A.,BUA0375292,NEGRO (granos),Pendiente
-2026-08-10,45595,,Paramerica S.A.,BUA0375292,NEGRO (granos),Pendiente
+2026-08-13,45603,,Paramerica S.A.,ZIMUBUE9052512,DRKB (granos),Arribado
+2026-08-14,45604,,Paramerica S.A.,ZIMUBUE9052512,DRKB (granos),Arribado
+2026-08-13,45605,,Paramerica S.A.,ZIMUBUE9052512,DRKB (granos),Arribado
+2026-08-14,45594,,Paramerica S.A.,BUA0375292,NEGRO (granos),Arribado
+2026-08-13,45595,,Paramerica S.A.,BUA0375292,NEGRO (granos),Arribado
 2026-08-13,45596,,Paramerica S.A.,ZIMUBUE9052511,DRKB (GRANOS) - ZAFRA 2026,Arribado
 2026-08-13,45597,,Paramerica S.A.,ZIMUBUE9052511,DRKB (GRANOS) - ZAFRA 2026,Arribado
 2026-08-13,45598,,Paramerica S.A.,ZIMUBUE9052511,DRKB (GRANOS) - ZAFRA 2026,Arribado
@@ -1026,11 +1037,34 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-07-08,44828,,Prosal S.A.,26001EC01,AZUCAR ORGANICA,Arribado
 2026-07-13,44829,,Prosal S.A.,26001EC01,AZUCAR ORGANICA,Arribado
 2026-07-13,44902,,Prosal S.A.,26001EC03,PROSAL,Pendiente
+2026-08-18,45838,,Prosal S.A.,BUA0375829,Azúcar (AP),Pendiente
+2026-08-18,45839,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
+2026-08-18,45824,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
+2026-08-18,45825,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
+2026-08-18,45826,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
+2026-08-18,45827,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
+2026-08-18,45818,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
+2026-08-18,45819,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
+2026-08-18,45820,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
+2026-08-18,45821,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
+2026-08-18,45822,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
+2026-08-18,45823,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
+2026-08-18,45817,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
+2026-08-18,45807,,Prosal S.A.,BUA0375829,Azúcar (AP),Pendiente
+2026-08-18,45808,,Prosal S.A.,BUA0375829,Azúcar (AP),Pendiente
+2026-08-18,45809,,Prosal S.A.,BUA0375829,Azúcar (AP),Pendiente
+2026-08-18,45810,,Prosal S.A.,BUA0375829,Azúcar (AP),Pendiente
+2026-08-18,45811,,Prosal S.A.,BUA0375829,Azúcar (AP),Pendiente
+2026-08-18,45797,,Prosal S.A.,BUA0375805,Azúcar (AP) - 990 bolsas x cont / 50 lbs - Total 4.950 bolsa,Pendiente
+2026-08-18,45798,,Prosal S.A.,BUA0375805,Azúcar (AP) - 990 bolsas x cont / 50 lbs - Total 4.950 bolsa,Pendiente
+2026-08-18,45794,,Prosal S.A.,BUA0375805,Azúcar (AP) - 990 bolsas x cont / 50 lbs - Total 4.950 bolsa,Pendiente
+2026-08-18,45795,,Prosal S.A.,BUA0375805,Azúcar (AP) - 990 bolsas x cont / 50 lbs - Total 4.950 bolsa,Pendiente
+2026-08-18,45796,,Prosal S.A.,BUA0375805,Azúcar (AP) - 990 bolsas x cont / 50 lbs - Total 4.950 bolsa,Pendiente
 2026-07-21,45116,,Prosal S.A.,39347710,BOLSAS SUELTAS //,Arribado
 2026-07-27,45201,,Prosal S.A.,BUA0374460,BUA0374460,Arribado
-2026-08-13,45746,,Prosal S.A.,EBKG18087580,Azúcar (AP) - bolsas 25 Kg,Pendiente
-2026-08-13,45747,,Prosal S.A.,EBKG18087580,Azúcar (AP) - bolsas 25 Kg,Pendiente
-2026-08-13,45748,,Prosal S.A.,EBKG18087580,Azúcar (AP) - bolsas 25 Kg,Pendiente
+2026-08-14,45746,,Prosal S.A.,EBKG18087580,Azúcar (AP) - bolsas 25 Kg,Arribado
+2026-08-14,45747,,Prosal S.A.,EBKG18087580,Azúcar (AP) - bolsas 25 Kg,Arribado
+2026-08-14,45748,,Prosal S.A.,EBKG18087580,Azúcar (AP) - bolsas 25 Kg,Pendiente
 2026-07-21,45115,,Prosal S.A.,39347710,BOLSAS SUELTAS //,Arribado
 2026-07-13,44904,,Prosal S.A.,26001EC03,PROSAL,Pendiente
 2026-07-13,44905,,Prosal S.A.,26001EC03,PROSAL,Pendiente
@@ -1038,6 +1072,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-07-15,45008,,Intercontainers Ship...,26001EC01047964S,TERRESTRE,Arribado
 2026-07-15,45009,,Intercontainers Ship...,26001EC01047964S,TERRESTRE,Arribado
 2026-07-23,45168,,Intercontainers Ship...,26001EC01050190D,EXPO TERRESTRE,Arribado
+2026-08-14,45785,,Intercontainers Ship...,terrestre,Ácidos grasos monocarboxílicos industriales; aceites ácidos,Arribado
+2026-08-14,45786,,Intercontainers Ship...,terrestre,Ácidos grasos monocarboxílicos industriales; aceites ácidos,Arribado
 2026-07-30,45215,,Intercontainers Ship...,26001EC01051662X,TERRESTRE,Arribado
 2026-07-31,45370,,Intercontainers Ship...,TERRESTRE,INTERCONTAINERS SHIPPING & TRADING SA,Arribado
 2026-08-12,45744,,Intercontainers Ship...,terrestres,Ácidos grasos monocarboxílicos industriales; aceites ácidos,Arribado
