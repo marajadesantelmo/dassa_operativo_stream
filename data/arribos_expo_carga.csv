@@ -1,5 +1,5 @@
 Fecha,Orden,Booking,Cliente,Desc. Merc.,Patente Semi,Obs.,Estado,Peligrosa,Balanza
-14/08,45594,BUA0375292,Paramerica S.A.,NEGRO (granos),AE785RY,BUA0375292 // CORP. IPALTECO - Remito: 10234257716,09:02 Arribado,0,10:56 Salida
+14/08,45777,BUA0377056,Sohcum S.A.,26001EC01,-,BUA0377056 //,Pendiente,0,-
 14/08,45618,ZIMUBUE9052010,Lawter Argentina S.A.,Big BG 650KG,AA070EZ,Remito: 44462,08:32 Arribado,0,08:32 Entrada
 14/08,45619,ZIMUBUE9052010,Lawter Argentina S.A.,Big BG 650KG,HXU932,Remito: 00001-00044463,08:33 Arribado,0,12:26 Salida
 14/08,45773,275716037,Lawter Argentina S.A.,FILTREZ(TM) 3306 B-Flakes LDPE...,-,Cnee: Termopin /Q22831 - REF 5158597 / MULTIMODAL,Pendiente,0,-
@@ -9,7 +9,7 @@ Fecha,Orden,Booking,Cliente,Desc. Merc.,Patente Semi,Obs.,Estado,Peligrosa,Balan
 14/08,45674,COSU6462599830,Norfor Sa,GRLEM262247,-,GRLEM262247 // 4x40HC // COSU6462599830,Pendiente,0,-
 14/08,45675,COSU6462599830,Norfor Sa,GRLEM262247,-,GRLEM262247 // 4x40HC // COSU6462599830,Pendiente,0,-
 14/08,45676,COSU6462599830,Norfor Sa,GRLEM262247,-,GRLEM262247 // 4x40HC // COSU6462599830,Pendiente,0,-
-14/08,45777,BUA0377056,Sohcum S.A.,26001EC01,-,BUA0377056 //,Pendiente,0,-
+14/08,45594,BUA0375292,Paramerica S.A.,NEGRO (granos),AE785RY,BUA0375292 // CORP. IPALTECO - Remito: 10234257716,09:02 Arribado,0,10:56 Salida
 14/08,45604,ZIMUBUE9052512,Paramerica S.A.,DRKB (granos),-,"ZIMUBUE9052512 / PKT Associates, Inc. - Remito: 00000-00001380",14:06 Arribado,0,-
 14/08,45606,ZIMUBUE9052512,Paramerica S.A.,DRKB (granos),GVZ586,"ZIMUBUE9052512 / PKT Associates, Inc. - Remito: CTG102343338369",09:18 Arribado,0,-
 14/08,45783,ZIMUBUE9052512,Paramerica S.A.,DRKB (GRANOS,AC102MR,Remito: 1382,09:52 Arribado,0,-
@@ -25,51 +25,53 @@ Fecha,Orden,Booking,Cliente,Desc. Merc.,Patente Semi,Obs.,Estado,Peligrosa,Balan
 14/08,45762,98288229,Mercovan Argentina S.A.,87095,-,"ROCA BENITEZ, ALVARO // efectos pers. 72 bultos",Pendiente,0,-
 14/08,45770,46712278,Neygi Moving Srl,efectos personales / automóvil,JMK007,Pedro Zarco // efectos pers. 1 - Remito: 2481,10:37 Arribado,0,11:25 Salida
 14/08,45565,BUA0376757,Gestion Forward S.R.L.,maquinaria,AD287FQ,"BUA0376757 // Buenos Aires to Istanbul Ambarli Marport - Remito: 0001,00001392",08:43 Arribado,0,08:43 Entrada
-18/08,45718,274766059,Isischu Srl,"Wood, articles of wood, nos",-,GRLAE262106,Pendiente,0,-
-18/08,45821,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
-18/08,45820,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
 18/08,45819,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
 18/08,45818,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
 18/08,45827,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
-18/08,45825,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
-18/08,45824,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
 18/08,45826,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
-18/08,45822,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
+18/08,45825,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
+18/08,45796,BUA0375805,Prosal S.A.,Azúcar (AP) - 990 bolsas x con...,-,BUA0375805 // BSYD Corp // 4.950 bolsas,Pendiente,0,-
+18/08,45820,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
+18/08,45824,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
+18/08,45821,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
+18/08,45823,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
 18/08,45798,BUA0375805,Prosal S.A.,Azúcar (AP) - 990 bolsas x con...,-,BUA0375805 // BSYD Corp // 4.950 bolsas,Pendiente,0,-
 18/08,45797,BUA0375805,Prosal S.A.,Azúcar (AP) - 990 bolsas x con...,-,BUA0375805 // BSYD Corp // 4.950 bolsas,Pendiente,0,-
 18/08,45811,BUA0375829,Prosal S.A.,Azúcar (AP),-,BUA0375829 // BSYD Corp // bigbag 110,Pendiente,0,-
-18/08,45823,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
 18/08,45810,BUA0375829,Prosal S.A.,Azúcar (AP),-,BUA0375829 // BSYD Corp // bigbag 110,Pendiente,0,-
+18/08,45809,BUA0375829,Prosal S.A.,Azúcar (AP),-,BUA0375829 // BSYD Corp // bigbag 110,Pendiente,0,-
 18/08,45808,BUA0375829,Prosal S.A.,Azúcar (AP),-,BUA0375829 // BSYD Corp // bigbag 110,Pendiente,0,-
 18/08,45817,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
-18/08,45809,BUA0375829,Prosal S.A.,Azúcar (AP),-,BUA0375829 // BSYD Corp // bigbag 110,Pendiente,0,-
-18/08,45838,BUA0375829,Prosal S.A.,Azúcar (AP),-,BUA0375829 // BSYD Corp // bigbag 110,Pendiente,0,-
-18/08,45719,274766059,Isischu Srl,"Wood, articles of wood, nos",-,GRLAE262106,Pendiente,0,-
-18/08,45716,274766059,Isischu Srl,"Wood, articles of wood, nos",-,GRLAE262106,Pendiente,0,-
 18/08,45839,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
+18/08,45822,BUA0375872,Prosal S.A.,AP (Azúcar),-,BUA0375872 // BSYD Corp // 220 bigbag,Pendiente,0,-
+18/08,45838,BUA0375829,Prosal S.A.,Azúcar (AP),-,BUA0375829 // BSYD Corp // bigbag 110,Pendiente,0,-
+18/08,45760,275114004,Mercovan Argentina S.A.,EFECTOS PERSONALES USADOS,-,"Mudanza HA, YOUNGYTAEK 114 bultos / 20.00 cbm / 2300.00 kg",Pendiente,0,-
+18/08,45719,274766059,Isischu Srl,"Wood, articles of wood, nos",-,GRLAE262106,Pendiente,0,-
+18/08,45853,BUA0377439,Hilado Sa,HILADO,-,BUA0377439 // FARDOS DE LANA CARGA SUELTA,Pendiente,0,-
 18/08,45739,275471082,Virasoro Maderas S R L,MADERAS,-,GRLAE262258 // 3x40HC,Pendiente,0,-
 18/08,45740,275471082,Virasoro Maderas S R L,MADERAS,-,GRLAE262258 // 3x40HC,Pendiente,0,-
+18/08,45852,BUA0377439,Hilado Sa,HILADO,-,BUA0377439 // FARDOS DE LANA CARGA SUELTA,Pendiente,0,-
+18/08,45718,274766059,Isischu Srl,"Wood, articles of wood, nos",-,GRLAE262106,Pendiente,0,-
 18/08,45561,275463678,Mader Zu S.R.L.,275463678,-,GRLEM262249 // 275463678,Pendiente,0,-
 18/08,45560,275463678,Mader Zu S.R.L.,275463678,-,GRLEM262249 // 275463678,Pendiente,0,-
 18/08,45559,275463678,Mader Zu S.R.L.,275463678,-,GRLEM262249 // 275463678,Pendiente,0,-
-18/08,45760,275114004,Mercovan Argentina S.A.,EFECTOS PERSONALES USADOS,-,"Mudanza HA, YOUNGYTAEK 114 bultos / 20.00 cbm / 2300.00 kg",Pendiente,0,-
+18/08,45558,275463678,Mader Zu S.R.L.,275463678,-,GRLEM262249 // 275463678,Pendiente,0,-
 18/08,45557,275463678,Mader Zu S.R.L.,275463678,-,GRLEM262249 // 275463678,Pendiente,0,-
 18/08,45717,274766059,Isischu Srl,"Wood, articles of wood, nos",-,GRLAE262106,Pendiente,0,-
 18/08,45806,31242164,Lift Van Int. Co S.A,HOUSEHOLD AND PERSONAL EFFECTS,-,"Eyal, Sela // efectos pers. / 114 bultos",Pendiente,0,-
 18/08,45794,BUA0375805,Prosal S.A.,Azúcar (AP) - 990 bolsas x con...,-,BUA0375805 // BSYD Corp // 4.950 bolsas,Pendiente,0,-
 18/08,45795,BUA0375805,Prosal S.A.,Azúcar (AP) - 990 bolsas x con...,-,BUA0375805 // BSYD Corp // 4.950 bolsas,Pendiente,0,-
-18/08,45796,BUA0375805,Prosal S.A.,Azúcar (AP) - 990 bolsas x con...,-,BUA0375805 // BSYD Corp // 4.950 bolsas,Pendiente,0,-
-18/08,45558,275463678,Mader Zu S.R.L.,275463678,-,GRLEM262249 // 275463678,Pendiente,0,-
+18/08,45716,274766059,Isischu Srl,"Wood, articles of wood, nos",-,GRLAE262106,Pendiente,0,-
 19/08,45843,ZIMUBUE9052527,Lawter Argentina S.A.,Drums 250 kg,-,5159267-68-6-70,Pendiente,0,-
-19/08,45842,ZIMUBUE9052527,Lawter Argentina S.A.,Drums 250 kg,-,5159267-68-6-70,Pendiente,0,-
+19/08,45844,ZIMUBUE9052527,Lawter Argentina S.A.,Drums 250 kg,-,5159267-68-6-70,Pendiente,0,-
 19/08,45845,ZIMUBUE9052527,Lawter Argentina S.A.,Drums 250 kg,-,5159267-68-6-70,Pendiente,0,-
 19/08,45771,48752932,Neygi Moving Srl,efectos personales,-,gala serra // efectos pers.,Pendiente,0,-
-19/08,45844,ZIMUBUE9052527,Lawter Argentina S.A.,Drums 250 kg,-,5159267-68-6-70,Pendiente,0,-
+19/08,45842,ZIMUBUE9052527,Lawter Argentina S.A.,Drums 250 kg,-,5159267-68-6-70,Pendiente,0,-
 20/08,45720,274766059,Isischu Srl,"Wood, articles of wood, nos",-,GRLAE262106,Pendiente,0,-
 21/08,45713,EBKG18088682,Isischu Srl,EBKG18088682,-,,Pendiente,0,-
-21/08,45714,EBKG18088682,Isischu Srl,EBKG18088682,-,,Pendiente,0,-
 21/08,45715,EBKG18088682,Isischu Srl,EBKG18088682,-,,Pendiente,0,-
+21/08,45714,EBKG18088682,Isischu Srl,EBKG18088682,-,,Pendiente,0,-
 24/08,45626,21662848,Tipoiti Satic,hilado de algodón,-,,Pendiente,0,-
 24/08,45627,21662848,Tipoiti Satic,hilado de algodón,-,,Pendiente,0,-
-24/08,45647,ZIMUBUE9052334,Mader Zu S.R.L.,ZIMUBUE9052334,-,GRLEM262184 // 1x40HC // ZIMUBUE9052334,Pendiente,0,-
 24/08,45737,COSU6509282040,Virasoro Maderas S R L,COSU6509282040,-,GRLEM262121// 1x40HC,Pendiente,0,-
+24/08,45647,ZIMUBUE9052334,Mader Zu S.R.L.,ZIMUBUE9052334,-,GRLEM262184 // 1x40HC // ZIMUBUE9052334,Pendiente,0,-
