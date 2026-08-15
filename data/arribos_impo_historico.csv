@@ -306,7 +306,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-08-07,05:00,Terminal 4,BSIU-349126-6,Refractarios Argenti...,WJM69991533,TD,2026-08-07,,
 2026-08-07,05:00,Terminal 4,MRKU-860461-2,Refractarios Argenti...,WJM69991533,TD,2026-08-07,,
 2026-08-07,05:00,Terminal 4,STJU-201767-6,Refractarios Argenti...,WJM69991533,TD,2026-08-07,,
-2026-08-17,05:00,Terminal 4,MRSU-064014-9,Refractarios Argenti...,272831712,TD,,,
+2026-08-10,05:00,Terminal 4,MRSU-064014-9,Refractarios Argenti...,272831712,TD,,,
 2026-07-01,13:00,Terminal 4,MRKU-711135-5,Refractarios Argenti...,270991877,TD,2026-07-01,,
 2026-06-30,15:00,Exolgan,MEDU-630336-8,Refractarios Argenti...,TSN69773188,TD,2026-06-30,,
 2026-06-30,15:00,Exolgan,MSDU-275541-2,Refractarios Argenti...,TSN69773188,TD,2026-06-30,,
@@ -628,6 +628,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-06-30,05:00,Terminal 4,CIPU-524334-0,Jupam Sa            ...,NBOH26050027,T,2026-06-30,,
 2026-08-03,13:00,Exolgan,TCKU-731855-0,Jupam Sa            ...,AEM07260239,T,2026-08-03,,
 2026-08-03,13:00,Exolgan,CAAU-620652-8,Jupam Sa            ...,AEM07260240,T,2026-08-03,,
+2026-08-18,13:00,TRP,EITU-807464-1,Jupam Sa            ...,NBOH26060067,T,,,
 2026-05-15,07:00,Exolgan,TGBU-408393-0,Jupam Sa            ...,NBOH26030073,T,2026-05-15,,
 2026-06-02,13:00,Exolgan,FCIU-737015-7,Jupam Sa            ...,NBOH26040047,T,2026-06-02,,
 2026-06-03,15:00,Exolgan,MSMU-450920-3,Jupam Sa            ...,NBOH26040046,T,2026-06-03,,
@@ -645,8 +646,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-08-11,10:00,TRP,GAOU-694834-4,Dmc Import Group S.R...,TSSZ2606057,T,2026-08-11,,
 2026-08-11,12:00,TRP,TXGU-408260-1,Dmc Import Group S.R...,BK2630655,T,2026-08-11,,
 2026-08-11,09:00,TRP,TXGU-773778-6,Dmc Import Group S.R...,BK2630655,T,2026-08-11,,
-2026-08-14,12:00,TRP,EMCU-176625-6,Dmc Import Group S.R...,TSSZ2606085,T,,,
-2026-08-14,11:00,TRP,TIIU-574382-6,Dmc Import Group S.R...,TSSZ2606085,T,,,
+2026-08-14,12:00,TRP,EMCU-176625-6,Dmc Import Group S.R...,TSSZ2606085,T,2026-08-14,,
+2026-08-14,11:00,TRP,TIIU-574382-6,Dmc Import Group S.R...,TSSZ2606085,T,2026-08-14,,
 2026-06-19,05:00,Exolgan,TCNU-791757-4,Dmc Import Group S.R...,TSSZ2604097,T,2026-06-19,,
 2026-06-23,11:00,TRP,LYGU-171866-0,Dmc Import Group S.R...,QD20260079,T,2026-06-23,,
 2026-07-21,15:00,Exolgan,TCNU-794130-7,Dmc Import Group S.R...,TSSZ2604147,T,2026-07-21,,
@@ -992,7 +993,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-06-02,11:00,Exolgan,CAAU-473229-3,Mh Port Sa          ...,267436054,TD,2026-06-02,,
 2026-03-25,11:00,TRP,OOLU-439126-1,Impulso Jm S.A.     ...,TCQD2601151,TD,2026-03-25,4194,http://dassaweb.mqbic.com/PublicTally.php?id=4194
 2026-05-12,11:00,Exolgan,CARU-580228-6,Impulso Jm S.A.     ...,SYNTAO26SE030522,TD,2026-05-12,4577,http://dassaweb.mqbic.com/PublicTally.php?id=4577
-2026-08-18,12:00,Exolgan,TCKU-439903-4,Impulso Jm S.A.     ...,TCNB2606347,T,,,
+2026-08-18,12:00,TRP,TCKU-439903-4,Impulso Jm S.A.     ...,TCNB2606347,T,,,
 2026-02-26,12:00,TRP,OOLU-016721-1,Cordova Camila Valer...,PSN25122557-1,TD,2026-02-26,4009,http://dassaweb.mqbic.com/PublicTally.php?id=4009
 2026-02-25,12:00,TRP,BMOU-480058-0,Patagonia Maquinas S...,SHAS00261461,TD,2026-02-25,3996,http://dassaweb.mqbic.com/PublicTally.php?id=3996
 2026-03-04,11:00,TRP,CMAU-667987-1,Be Investment Sa    ...,OXOE2512026,T,2026-03-04,,
@@ -1148,8 +1149,8 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-07-24,16:00,TRP,PCIU-856511-1,Felice Mega Store Sr...,SZSM26050304,T,2026-07-24,,
 2026-07-29,09:00,Exolgan,MSNU-674856-1,Sas Distribuidora Sr...,SYNSHA26SE060866A,T,2026-07-29,,
 2026-07-31,06:00,Terminal 4,MRKU-103623-3,Goldstein Valdez Gad...,HBOL218423,TD,2026-07-31,,
-2026-08-14,13:00,TRP,EMCU-829621-5,Bicicletas Pioneer S...,117GZH2605105,T,,,
-2026-08-14,13:00,TRP,TIIU-453745-6,Bicicletas Pioneer S...,117GZH2605105,T,,,
+2026-08-14,13:00,TRP,EMCU-829621-5,Bicicletas Pioneer S...,117GZH2605105,T,2026-08-14,,
+2026-08-14,13:00,TRP,TIIU-453745-6,Bicicletas Pioneer S...,117GZH2605105,T,2026-08-14,,
 2026-08-06,14:00,Terminal 4,LYGU-166871-7,Savino Del Bene Arge...,271667940,T,2026-08-06,,
 2026-08-07,11:00,TRP,PCIU-464724-8,Alta Tension Sa     ...,KDRQ26050043,T,2026-08-07,,
 2026-08-15,13:00,Terminal 4,MRSU-485101-0,Yejiel Abraham Golds...,272070467,T,,,

@@ -8,6 +8,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-18,45760,,Mercovan Argentina S...,275114004,EFECTOS PERSONALES USADOS,Pendiente
 2026-08-14,45761,,Mercovan Argentina S...,98288229,EFECTOS PERSONALES USADOS,Arribado
 2026-08-14,45762,,Mercovan Argentina S...,98288229,87095,Pendiente
+2026-08-19,45858,,Mercovan Argentina S...,BUA0377332,EFECTOS PERSONALES USADOS,Pendiente
 2026-08-07,45537,,Mercovan Argentina S...,EBKGQ0024E25,EFECTOS PERSONALES USADOS,Pendiente
 2026-08-07,45562,,Mercovan Argentina S...,EBKGQ0024E25,EFECTOS PERSONALES USADOS,Arribado
 2026-08-03,45348,,Mercovan Argentina S...,51353208,EFECTOS PERSONALES USADOS,Arribado
@@ -284,6 +285,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-03-02,42343,,Hilado Sa,266423306,CME014382// HILADO,Arribado
 2026-07-14,44885,,Hilado Sa,96056507,96056507,Pendiente
 2026-07-13,44901,,Hilado Sa,96056507,HILADO,Pendiente
+2026-08-18,45852,,Hilado Sa,BUA0377439,HILADO,Pendiente
+2026-08-18,45853,,Hilado Sa,BUA0377439,HILADO,Pendiente
 2026-07-13,44880,,Hilado Sa,96056507,96056507,Arribado
 2026-07-13,44881,,Hilado Sa,96056507,96056507,Arribado
 2026-07-13,44882,,Hilado Sa,96056507,96056507,Arribado
@@ -449,6 +452,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-02-18,42099,,Borax Argentina S A,266368990,FACT 13020,Arribado
 2026-02-18,42100,,Borax Argentina S A,266420865,FACT 13032,Arribado
 2026-02-20,42183,,Borax Argentina S A,266213600,FACT.13002,Arribado
+2026-08-18,45862,,Borax Argentina S A,275601182,Borax penta,Pendiente
+2026-08-18,45863,,Borax Argentina S A,275601182,Borax penta,Pendiente
+2026-08-18,45864,,Borax Argentina S A,275601182,Borax penta,Pendiente
 2026-08-13,45701,,Borax Argentina S A,FACT13568,Hidroboracita,Arribado
 2026-08-12,45712,,Borax Argentina S A,FACT 13539,HIDROBORACITA,Arribado
 2026-08-13,45755,,Borax Argentina S A,FACT 13539,HIDROBORACITA,Arribado
@@ -846,6 +852,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-04-21,43290,,Curtiembre Infante S...,BUEA27600300,CME014497,Arribado
 2026-08-03,45382,,Sandrin Paola Karina,96939275,GRLEM262045  //96939275 // REMITO 10824,Arribado
 2026-08-12,45429,,Sandrin Paola Karina,37364026,GRLAE262082 // 37364026,Arribado
+2026-08-19,45859,,Sandrin Paola Karina,BUA0376178,LUMBER,Pendiente
+2026-08-19,45860,,Sandrin Paola Karina,BUA0376178,LUMBER,Pendiente
+2026-08-19,45861,,Sandrin Paola Karina,BUA0376178,LUMBER,Pendiente
 2026-08-03,45332,,Pro Forestal S.R.L,BUA0374855,GRLEM262092 / BUA0374855,Arribado
 2026-06-29,44617,,Conextube Sa,BUA0371769,BUA0371769,Arribado
 2026-06-29,44618,,Conextube Sa,BUA0371769,BUA0371769,Arribado
@@ -920,6 +929,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-07-17,45045,,Gleba S A,26001EC01048020C,IMO,Arribado
 2026-08-13,45752,,Delicia Maderas,EBKG18110831,GRLEM262252 //EBKG18110831,Arribado
 2026-07-21,45112,,Sam&Co S.R.L,ZIMUBUE9051528,SAM&CO S.R.L. //,Arribado
+2026-08-20,45868,,Sam&Co S.R.L,CME014720,"Cotton cloth rags (Valengo Fabrics brand), packed in 7, 14 a",Pendiente
 2026-02-24,42184,,Indelval S A I Y C,153IAR0655614,CME014379,Arribado
 2026-07-30,45317,,Indelval S A I Y C,153IAR0658819,153IAR0658819,Arribado
 2026-03-17,42750,,Oblan Sa,EBKG16072866,CME004693,Arribado
@@ -929,7 +939,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-05-04,43564,,Sohcum S.A.,26001EC01,,Arribado
 2026-07-22,45138,,Sohcum S.A.,BUA0374293,BUA0374293 // BIG BAG,Pendiente
 2026-07-22,45139,,Sohcum S.A.,BUA0374293,BUA0374293 // BIG BAG,Pendiente
-2026-08-14,45777,,Sohcum S.A.,BUA0377056,26001EC01,Pendiente
+2026-08-14,45777,,Sohcum S.A.,BUA0377056,26001EC01,Arribado
 2026-05-19,43787,,Sohcum S.A.,CUR0271008,METALES,Arribado
 2026-07-15,44984,,Sohcum S.A.,26001EC01047830K,,Arribado
 2026-07-15,44985,,Sohcum S.A.,26001EC01047830K,,Arribado
@@ -965,6 +975,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-06-08,44217,,Paramerica S.A.,ZIMUBUE9050645,ZIMUBUE9050645 // BIG BAG,Arribado
 2026-08-14,45783,,Paramerica S.A.,ZIMUBUE9052512,DRKB (GRANOS,Arribado
 2026-08-14,45784,,Paramerica S.A.,ZIMUBUE9052512,DRKB (GRANOS),Arribado
+2026-08-14,45857,,Paramerica S.A.,BUA0375292,NEGRO (GRANOS),Arribado
 2026-08-14,45606,,Paramerica S.A.,ZIMUBUE9052512,DRKB (granos),Arribado
 2026-08-13,45602,,Paramerica S.A.,ZIMUBUE9052512,DRKB (granos),Arribado
 2026-08-13,45603,,Paramerica S.A.,ZIMUBUE9052512,DRKB (granos),Arribado
@@ -1050,10 +1061,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-18,45822,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
 2026-08-18,45823,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
 2026-08-18,45817,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
-2026-08-18,45807,,Prosal S.A.,BUA0375829,Azúcar (AP),Pendiente
-2026-08-18,45808,,Prosal S.A.,BUA0375829,Azúcar (AP),Pendiente
-2026-08-18,45809,,Prosal S.A.,BUA0375829,Azúcar (AP),Pendiente
-2026-08-18,45810,,Prosal S.A.,BUA0375829,Azúcar (AP),Pendiente
+2026-08-14,45807,,Prosal S.A.,BUA0375829,Azúcar (AP),Arribado
+2026-08-14,45808,,Prosal S.A.,BUA0375829,Azúcar (AP),Arribado
+2026-08-14,45809,,Prosal S.A.,BUA0375829,Azúcar (AP),Pendiente
+2026-08-14,45810,,Prosal S.A.,BUA0375829,Azúcar (AP),Arribado
 2026-08-18,45811,,Prosal S.A.,BUA0375829,Azúcar (AP),Pendiente
 2026-08-18,45797,,Prosal S.A.,BUA0375805,Azúcar (AP) - 990 bolsas x cont / 50 lbs - Total 4.950 bolsa,Pendiente
 2026-08-18,45798,,Prosal S.A.,BUA0375805,Azúcar (AP) - 990 bolsas x cont / 50 lbs - Total 4.950 bolsa,Pendiente
@@ -1064,7 +1075,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-07-27,45201,,Prosal S.A.,BUA0374460,BUA0374460,Arribado
 2026-08-14,45746,,Prosal S.A.,EBKG18087580,Azúcar (AP) - bolsas 25 Kg,Arribado
 2026-08-14,45747,,Prosal S.A.,EBKG18087580,Azúcar (AP) - bolsas 25 Kg,Arribado
-2026-08-14,45748,,Prosal S.A.,EBKG18087580,Azúcar (AP) - bolsas 25 Kg,Pendiente
+2026-08-14,45748,,Prosal S.A.,EBKG18087580,Azúcar (AP) - bolsas 25 Kg,Arribado
 2026-07-21,45115,,Prosal S.A.,39347710,BOLSAS SUELTAS //,Arribado
 2026-07-13,44904,,Prosal S.A.,26001EC03,PROSAL,Pendiente
 2026-07-13,44905,,Prosal S.A.,26001EC03,PROSAL,Pendiente
