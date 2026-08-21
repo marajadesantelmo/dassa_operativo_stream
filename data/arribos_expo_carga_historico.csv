@@ -51,12 +51,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-02-25,42229,,Lift Van Int. Co S.A,265641125,MARLENE VAZQUEZ,Arribado
 2026-08-20,45872,,Lift Van Int. Co S.A,13626213,HHE (household effects) - TIZABI: 6 cajones 3148 kg / GALE:,Arribado
 2026-06-19,45893,,Lift Van Int. Co S.A,36652491,Efectos personales,Arribado
-2026-08-21,45913,,Lift Van Int. Co S.A,40702570,Efectos personales,Pendiente
+2026-08-21,45913,,Lift Van Int. Co S.A,40702570,Efectos personales,Arribado
 2026-08-20,45997,,Lift Van Int. Co S.A,39257935,HOUSEHOLD AND PERSONAL EFFECTS,Arribado
 2026-08-10,45531,,Lift Van Int. Co S.A,97018959,Mudanza (cajones),Arribado
 2026-08-11,45549,,Lift Van Int. Co S.A,22738958,"Mudanzas, equipaje no acompañado - Efectos personales y del",Arribado
 2026-08-18,45806,,Lift Van Int. Co S.A,31242164,HOUSEHOLD AND PERSONAL EFFECTS,Arribado
-2026-08-20,45871,,Lift Van Int. Co S.A,13626213,AUTOMÓVILES DE TURISMO Y DEMÁS VEHÍCULOS (VOLKSWAGEN JETTA S,Pendiente
+2026-08-20,45871,,Lift Van Int. Co S.A,13626213,AUTOMÓVILES DE TURISMO Y DEMÁS VEHÍCULOS (VOLKSWAGEN JETTA S,Arribado
 2026-08-05,45430,,Lift Van Int. Co S.A,BKGSMK887368,EFECTOS PERSONALES USADOS,Pendiente
 2026-08-10,45530,,Lift Van Int. Co S.A,97018959,Mudanza (cajones),Arribado
 2026-07-28,45252,,Lift Van Int. Co S.A,26001PER1000384E,JIMENEZ MANTEROLA DOMINGO ANDRES,Arribado
@@ -205,6 +205,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-06-24,44559,,Neygi Moving Srl,98177190,GUILLERMO KESSLER SAINZ // EFECTOS,Arribado
 2026-06-24,44560,,Neygi Moving Srl,98177190,GUILLERMO KESSLER SAINZ // VEHICULO,Arribado
 2026-08-18,45918,,Neygi Moving Srl,46712278,PEDRO ZARCO // EFECTOS PERS.,Arribado
+2026-08-26,46000,,Neygi Moving Srl,BUA0376419,BUA0376419,Pendiente
 2026-08-11,45576,,Neygi Moving Srl,EBKG17920330,EBKG17920330,Arribado
 2026-08-12,45702,,Neygi Moving Srl,EBKG18110474,Efectos personales y del hogar / mudanza bajo régimen de fra,Arribado
 2026-08-14,45770,,Neygi Moving Srl,46712278,efectos personales / automóvil,Arribado
@@ -333,7 +334,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-04-23,43335,,Tandem Global Logist...,71406215,,Arribado
 2026-05-21,43879,,Tandem Global Logist...,20000930,C-ME-00012506,Arribado
 2026-08-20,45914,,Cargo Logistics Exim...,terrestre,PE 26001EC01055936Z,Arribado
-2026-08-20,45942,,Geo Logistics Argent...,245771094,AUTOMÓVIL USADO - DODGE GTX COUPE 1974,Pendiente
+2026-08-21,45942,,Geo Logistics Argent...,245771094,AUTOMÓVIL USADO - DODGE GTX COUPE 1974,Pendiente
 2026-08-03,45354,,Mercopallet Srl,39583125,39583125,Arribado
 2026-08-03,45355,,Mercopallet Srl,39583125,39583125,Arribado
 2026-08-03,45356,,Mercopallet Srl,39583125,39583125,Arribado
@@ -419,16 +420,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-05,45385,,Isischu Srl,275042741,"Wood, articles of wood, nos",Arribado
 2026-08-07,45388,,Isischu Srl,275043408,GRLAE262165 // 275043408,Arribado
 2026-08-12,45411,,Isischu Srl,BUA0375079,GRLEM262114 / BUA037509,Arribado
-2026-08-24,45932,,Isischu Srl,6463147430,LUMBER,Pendiente
-2026-08-24,45933,,Isischu Srl,6463147430,LUMBER,Pendiente
-2026-08-24,45934,,Isischu Srl,6463147430,LUMBER,Pendiente
-2026-08-24,45930,,Isischu Srl,6463147430,LUMBER,Pendiente
-2026-08-24,45931,,Isischu Srl,6463147430,LUMBER,Pendiente
+2026-08-24,46006,,Isischu Srl,COSU6463153840,COSU6463153840,Pendiente
+2026-08-24,46007,,Isischu Srl,COSU6463153840,COSU6463153840,Pendiente
 2026-08-18,45719,,Isischu Srl,274766059,"Wood, articles of wood, nos",Arribado
 2026-08-20,45720,,Isischu Srl,274766059,GRLAE262106 // 274766059 // RTO: 8044,Arribado
 2026-08-21,45713,,Isischu Srl,EBKG18088682,EBKG18088682,Arribado
-2026-08-21,45714,,Isischu Srl,EBKG18088682,EBKG18088682,Pendiente
-2026-08-21,45715,,Isischu Srl,EBKG18088682,EBKG18088682,Pendiente
+2026-08-21,45714,,Isischu Srl,EBKG18088682,EBKG18088682,Arribado
+2026-08-21,45715,,Isischu Srl,EBKG18088682,EBKG18088682,Arribado
 2026-08-18,45716,,Isischu Srl,274766059,"Wood, articles of wood, nos",Arribado
 2026-08-18,45717,,Isischu Srl,274766059,"Wood, articles of wood, nos",Arribado
 2026-08-18,45718,,Isischu Srl,274766059,"Wood, articles of wood, nos",Arribado
@@ -599,6 +597,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-07-22,45142,,Plasticos Dise S A,EBKG17855289,PLASTICOS DISE //  EBKG17855289,Arribado
 2026-02-24,42192,,Lawter Argentina S.A...,266153442,5158220-5158221-5158222,Arribado
 2026-02-24,42193,,Lawter Argentina S.A...,266153442,5158220-5158221-5158222,Arribado
+2026-08-25,46008,,Lawter Argentina S.A...,275470185,"P2205B-Flakes Paper Bags 25kg (400 unidades, 10 pallets)",Pendiente
 2026-08-20,45843,,Lawter Argentina S.A...,ZIMUBUE9052527,Drums 250 kg,Arribado
 2026-08-20,45844,,Lawter Argentina S.A...,ZIMUBUE9052527,Drums 250 kg,Arribado
 2026-08-20,45845,,Lawter Argentina S.A...,ZIMUBUE9052527,Drums 250 kg,Arribado
@@ -793,11 +792,11 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-14,45674,,Norfor Sa,COSU6462599830,GRLEM262247,Pendiente
 2026-08-14,45675,,Norfor Sa,COSU6462599830,GRLEM262247,Pendiente
 2026-08-14,45676,,Norfor Sa,COSU6462599830,GRLEM262247,Pendiente
-2026-08-20,45877,,Norfor Sa,275770378,LUMBER,Pendiente
+2026-08-20,45877,,Norfor Sa,275770378,LUMBER,Arribado
 2026-08-20,45873,,Norfor Sa,275770378,LUMBER,Arribado
-2026-08-20,45874,,Norfor Sa,275770378,LUMBER,Pendiente
-2026-08-20,45875,,Norfor Sa,275770378,LUMBER,Pendiente
-2026-08-20,45876,,Norfor Sa,275770378,LUMBER,Pendiente
+2026-08-20,45874,,Norfor Sa,275770378,LUMBER,Arribado
+2026-08-20,45875,,Norfor Sa,275770378,LUMBER,Arribado
+2026-08-20,45876,,Norfor Sa,275770378,LUMBER,Arribado
 2026-02-25,42227,,Swallow Trade,266609396,YERBA COSMICO,Arribado
 2026-02-23,42146,,Praxair Argentina S....,26001ET02000065R,CME014379// PRAXAIR ARGENTINA,Arribado
 2026-07-30,45312,,Laharrague Chodorge ...,6508133130,GRLEM262008 / 6508133130,Arribado
@@ -868,7 +867,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-07-28,45255,,American Transport S...,BUEG10240800,MAQUINA,Arribado
 2026-08-04,45293,,Inter American Cargo...,274890053,DANES S.R.L // 274890053 // MAQUINA ESPECIAL,Arribado
 2026-08-11,45564,,Inter American Cargo...,274890053,TANQUE,Arribado
-2026-08-20,45935,,Inter American Cargo...,274890238,TERCER TANQUE,Pendiente
+2026-08-20,45935,,Inter American Cargo...,274890238,TERCER TANQUE,Arribado
 2026-06-25,44557,,Americana Shipping G...,23421391,YERBAMATE ROSAMONTE - CME021832 - 23421391,Arribado
 2026-07-01,44611,,Americana Shipping G...,23421391,YERBAMATE PLAYADITO - CME021832 - 23421391,Arribado
 2026-07-02,44718,,Americana Shipping G...,272488194,BINELLI PARRILLAS,Arribado
@@ -975,10 +974,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-06-05,44199,,Coop. Apicola Del Pa...,BUEG04966500,BUEG04966500 // TAMBORES DE MIEL,Arribado
 2026-07-13,44876,,Coop. Apicola Del Pa...,COP0304272,COP0304272 // MIEL A GRANEL,Arribado
 2026-06-08,44217,,Paramerica S.A.,ZIMUBUE9050645,ZIMUBUE9050645 // BIG BAG,Arribado
+2026-08-25,46001,,Paramerica S.A.,EBKG18238572,Azúcar (AP) - bolsas 25 Kg,Pendiente
+2026-08-25,46002,,Paramerica S.A.,EBKG18238572,Azúcar (AP) - bolsas 25 Kg,Pendiente
 2026-08-20,45963,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Pendiente
 2026-08-20,45964,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Pendiente
 2026-08-19,45957,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Arribado
-2026-08-20,45958,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Pendiente
+2026-08-20,45958,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Arribado
 2026-08-20,45959,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Pendiente
 2026-08-20,45960,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Pendiente
 2026-08-20,45961,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Pendiente
@@ -1060,6 +1061,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-07-08,44828,,Prosal S.A.,26001EC01,AZUCAR ORGANICA,Arribado
 2026-07-13,44829,,Prosal S.A.,26001EC01,AZUCAR ORGANICA,Arribado
 2026-07-13,44902,,Prosal S.A.,26001EC03,PROSAL,Pendiente
+2026-08-21,46004,,Prosal S.A.,BUEA40243000,Azúcar HP en 10 pallets - 800 bolsas de 25 kg,Pendiente
 2026-08-24,45920,,Prosal S.A.,BUA0377202,Azúcar (AP),Pendiente
 2026-08-24,45921,,Prosal S.A.,BUA0377202,Azúcar (AP),Pendiente
 2026-08-18,45838,,Prosal S.A.,BUA0375829,Azúcar (AP),Pendiente
