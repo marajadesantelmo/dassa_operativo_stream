@@ -334,10 +334,13 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-04-23,43335,,Tandem Global Logist...,71406215,,Arribado
 2026-05-21,43879,,Tandem Global Logist...,20000930,C-ME-00012506,Arribado
 2026-08-20,45914,,Cargo Logistics Exim...,terrestre,PE 26001EC01055936Z,Arribado
-2026-08-21,45942,,Geo Logistics Argent...,245771094,AUTOMÓVIL USADO - DODGE GTX COUPE 1974,Pendiente
+2026-08-21,45942,,Geo Logistics Argent...,245771094,AUTOMÓVIL USADO - DODGE GTX COUPE 1974,Arribado
 2026-08-03,45354,,Mercopallet Srl,39583125,39583125,Arribado
 2026-08-03,45355,,Mercopallet Srl,39583125,39583125,Arribado
 2026-08-03,45356,,Mercopallet Srl,39583125,39583125,Arribado
+2026-08-24,46017,,Mercopallet Srl,ZIMUBUE9052412,LUMBER,Pendiente
+2026-08-24,46018,,Mercopallet Srl,ZIMUBUE9052412,LUMBER,Pendiente
+2026-08-24,46019,,Mercopallet Srl,ZIMUBUE9052412,LUMBER,Pendiente
 2026-05-27,43970,,Pandion Logistics S....,26001EC01,EMEPLAS SRL,Pendiente
 2026-05-27,43971,,Pandion Logistics S....,26001EC01,EMEPLAS SRL,Pendiente
 2026-05-27,43972,,Pandion Logistics S....,26001EC01,EMEPLAS SRL,Pendiente
@@ -420,8 +423,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-05,45385,,Isischu Srl,275042741,"Wood, articles of wood, nos",Arribado
 2026-08-07,45388,,Isischu Srl,275043408,GRLAE262165 // 275043408,Arribado
 2026-08-12,45411,,Isischu Srl,BUA0375079,GRLEM262114 / BUA037509,Arribado
-2026-08-24,46006,,Isischu Srl,COSU6463153840,COSU6463153840,Pendiente
-2026-08-24,46007,,Isischu Srl,COSU6463153840,COSU6463153840,Pendiente
+2026-08-27,46006,,Isischu Srl,COSU6463153840,COSU6463153840,Pendiente
+2026-08-27,46007,,Isischu Srl,COSU6463153840,COSU6463153840,Pendiente
 2026-08-18,45719,,Isischu Srl,274766059,"Wood, articles of wood, nos",Arribado
 2026-08-20,45720,,Isischu Srl,274766059,GRLAE262106 // 274766059 // RTO: 8044,Arribado
 2026-08-21,45713,,Isischu Srl,EBKG18088682,EBKG18088682,Arribado
@@ -457,6 +460,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-02-26,42318,,Henn Y Cia S.R.L.,BUE600033800,,Pendiente
 2026-02-26,42262,,Borax Argentina S A,266639504,FACT13042,Arribado
 2026-02-26,42268,,Borax Argentina S A,266639504,FACT13042,Pendiente
+2026-08-24,46020,,Borax Argentina S A,BUEG11685800,Fac 13594 / RE: BUEG11685800,Pendiente
+2026-08-24,46021,,Borax Argentina S A,BUEG11685800,Fac 13594 / RE: BUEG11685800,Pendiente
+2026-08-24,46022,,Borax Argentina S A,BUE600179900,HIDROBORACITA F,Pendiente
 2026-08-20,45944,,Borax Argentina S A,49363592,hidroboracita,Pendiente
 2026-08-20,45945,,Borax Argentina S A,49363592,hidroboracita,Pendiente
 2026-08-19,45862,,Borax Argentina S A,275601182,Borax penta,Arribado
@@ -980,9 +986,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-20,45964,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Pendiente
 2026-08-19,45957,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Arribado
 2026-08-20,45958,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Arribado
-2026-08-20,45959,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Pendiente
-2026-08-20,45960,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Pendiente
-2026-08-20,45961,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Pendiente
+2026-08-22,45959,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Arribado
+2026-08-22,45960,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Arribado
+2026-08-22,45961,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Arribado
 2026-08-20,45962,,Paramerica S.A.,ZIMUBUE9052531,"PKT Associates, Inc. // poroto negro // ZIMUBUE9052531",Pendiente
 2026-08-14,45783,,Paramerica S.A.,ZIMUBUE9052512,DRKB (GRANOS,Arribado
 2026-08-14,45784,,Paramerica S.A.,ZIMUBUE9052512,DRKB (GRANOS),Arribado
@@ -1061,12 +1067,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-07-08,44828,,Prosal S.A.,26001EC01,AZUCAR ORGANICA,Arribado
 2026-07-13,44829,,Prosal S.A.,26001EC01,AZUCAR ORGANICA,Arribado
 2026-07-13,44902,,Prosal S.A.,26001EC03,PROSAL,Pendiente
-2026-08-21,46004,,Prosal S.A.,BUEA40243000,Azúcar HP en 10 pallets - 800 bolsas de 25 kg,Pendiente
+2026-08-24,46004,,Prosal S.A.,BUEA40243000,Azúcar HP en 10 pallets - 800 bolsas de 25 kg,Pendiente
 2026-08-24,45920,,Prosal S.A.,BUA0377202,Azúcar (AP),Pendiente
 2026-08-24,45921,,Prosal S.A.,BUA0377202,Azúcar (AP),Pendiente
 2026-08-18,45838,,Prosal S.A.,BUA0375829,Azúcar (AP),Pendiente
 2026-08-18,45839,,Prosal S.A.,BUA0375872,AP (Azúcar),Pendiente
-2026-08-20,45916,,Prosal S.A.,BUEA03879800,AP (Azúcar - producto alimenticio),Pendiente
+2026-08-24,45916,,Prosal S.A.,BUEA03879800,AP (Azúcar - producto alimenticio),Pendiente
 2026-08-24,45919,,Prosal S.A.,BUA0377202,Azúcar (AP),Pendiente
 2026-08-19,45825,,Prosal S.A.,BUA0375872,AP (Azúcar),Arribado
 2026-08-18,45826,,Prosal S.A.,BUA0375872,AP (Azúcar),Arribado

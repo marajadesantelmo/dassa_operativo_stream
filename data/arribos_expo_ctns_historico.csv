@@ -156,8 +156,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2026-06-26,44605,HLBU-235206-8,Neygi Moving Srl,38002536,****************    ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29558
 2026-06-29,44652,HLBU-308807-3,Neygi Moving Srl,98177190,*********           ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29570
 2026-07-15,44981,EITU-307270-7,Neygi Moving Srl,340600022471,*********           ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29637
-2026-08-21,45955,UACU-598506-2,Neygi Moving Srl,46712278,***                 ,Arribado,
-2026-08-21,45956,HLBU-180529-9,Neygi Moving Srl,48752932,******              ,Arribado,
+2026-08-21,45955,UACU-598506-2,Neygi Moving Srl,46712278,***                 ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29952
+2026-08-21,45956,HLBU-180529-9,Neygi Moving Srl,48752932,******              ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29951
 2026-08-14,45850,FSCU-476180-9,Neygi Moving Srl,EBKG18110474,FX45812581          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29920
 2026-08-14,45851,MSCU-449900-2,Neygi Moving Srl,EBKG17920330,FX45812560          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29919
 2026-07-24,45180,CAIU-900210-9,Neygi Moving Srl,38983174,***********         ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29735
@@ -376,9 +376,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2026-08-07,45497,TEMU-834307-0,Isischu Srl,BUA0375079,K1225988            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29846
 2026-08-10,45570,MRKU-269794-2,Isischu Srl,275043408,*********           ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29838
 2026-08-13,45732,MRKU-525525-0,Isischu Srl,274766059,********            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29917
-2026-08-19,45899,TGBU-717012-8,Isischu Srl,EBKG18088682,FX45812316          ,Arribado,
-2026-08-19,45900,MEDU-779561-6,Isischu Srl,EBKG18088682,FX45812278          ,Arribado,
-2026-08-20,45901,GAOU-745984-1,Isischu Srl,EBKG18088682,FX45812344          ,Arribado,
+2026-08-19,45899,TGBU-717012-8,Isischu Srl,EBKG18088682,FX45812316          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29962
+2026-08-19,45900,MEDU-779561-6,Isischu Srl,EBKG18088682,FX45812278          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29963
+2026-08-20,45901,GAOU-745984-1,Isischu Srl,EBKG18088682,FX45812344          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29964
 2026-08-13,45728,MRKU-580563-4,Isischu Srl,274766059,******              ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29915
 2026-08-13,45729,MRSU-825485-7,Isischu Srl,274766059,*****               ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29916
 2026-08-13,45730,UETU-850833-0,Isischu Srl,274766059,******              ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29945
@@ -623,7 +623,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2026-08-19,45848,ZCSU-685396-8,Lawter Argentina S.A...,ZIMUBUE9052527,****                ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29947
 2026-08-12,45710,ONEU-024248-5,Lawter Argentina S.A...,BUEG10369600,*****               ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29871
 2026-08-12,45711,KKFU-779086-2,Lawter Argentina S.A...,BUEG10369600,*****               ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29872
-2026-08-21,45781,,Lawter Argentina S.A...,275716037,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
+2026-08-22,45781,MRSU-737405-6,Lawter Argentina S.A...,275716037,ML-AR2536426        ,Arribado,
 2026-08-11,45689,TGBU-580393-1,Lawter Argentina S.A...,15602211,******              ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29847
 2026-08-11,45690,DFSU-737561-4,Lawter Argentina S.A...,15602211,**                  ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29848
 2026-08-12,45708,CAAU-925861-2,Lawter Argentina S.A...,BUEG10369600,*****               ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29869
@@ -883,7 +883,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2026-08-11,45438,CAXU-556266-3,Inter American Cargo...,274672702,***********         ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29826
 2026-08-10,45563,,Inter American Cargo...,274890053,                    ,Pendiente,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=6052
 2026-08-18,45780,MAEU-348784-1,Inter American Cargo...,274890053,******              ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29923
-2026-08-21,45968,MAEU-345483-2,Inter American Cargo...,274890238,*****               ,Arribado,
+2026-08-21,45968,MAEU-345483-2,Inter American Cargo...,274890238,*****               ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29950
 2026-06-29,44653,TEMU-148265-9,Americana Shipping G...,23421391,**********          ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29576
 2026-07-03,44731,CAAU-839583-7,Americana Shipping G...,272488194,*********           ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29586
 2026-03-03,42401,RFCU-227881-9,Litoral Citrus S A,BUA0361849,K1270133            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=28943
@@ -1017,15 +1017,15 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Precinto,Estado,e-tally
 2026-06-08,44232,ZCSU-666069-7,Paramerica S.A.,ZIMUBUE9050645,************        ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29422
 2026-06-08,44233,TGBU-726088-0,Paramerica S.A.,ZIMUBUE9050645,*********           ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29423
 2026-06-08,44234,ZCSU-755585-0,Paramerica S.A.,ZIMUBUE9050645,***********         ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29424
-2026-08-20,45991,SEGU-218407-7,Paramerica S.A.,ZIMUBUE9052531,**                  ,Arribado,
-2026-08-20,45992,BSIU-336408-7,Paramerica S.A.,ZIMUBUE9052531,****                ,Arribado,
-2026-08-20,45993,MBIU-827522-6,Paramerica S.A.,ZIMUBUE9052531,*****               ,Arribado,
-2026-08-20,45994,TCKU-349171-6,Paramerica S.A.,ZIMUBUE9052531,****                ,Arribado,
-2026-08-20,45995,TEMU-163367-3,Paramerica S.A.,ZIMUBUE9052531,*******             ,Arribado,
-2026-08-20,45996,BSIU-275064-0,Paramerica S.A.,ZIMUBUE9052531,****                ,Arribado,
-2026-08-20,45987,TGCU-207714-5,Paramerica S.A.,ZIMUBUE9052531,*****               ,Arribado,
-2026-08-20,45988,TRHU-137501-6,Paramerica S.A.,ZIMUBUE9052531,******              ,Arribado,
-2026-08-20,45989,ZIMU-312189-6,Paramerica S.A.,ZIMUBUE9052531,******              ,Arribado,
+2026-08-20,45991,SEGU-218407-7,Paramerica S.A.,ZIMUBUE9052531,**                  ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29958
+2026-08-20,45992,BSIU-336408-7,Paramerica S.A.,ZIMUBUE9052531,****                ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29954
+2026-08-20,45993,MBIU-827522-6,Paramerica S.A.,ZIMUBUE9052531,*****               ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29959
+2026-08-20,45994,TCKU-349171-6,Paramerica S.A.,ZIMUBUE9052531,****                ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29960
+2026-08-20,45995,TEMU-163367-3,Paramerica S.A.,ZIMUBUE9052531,*******             ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29961
+2026-08-20,45996,BSIU-275064-0,Paramerica S.A.,ZIMUBUE9052531,****                ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29955
+2026-08-20,45987,TGCU-207714-5,Paramerica S.A.,ZIMUBUE9052531,*****               ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29953
+2026-08-20,45988,TRHU-137501-6,Paramerica S.A.,ZIMUBUE9052531,******              ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29957
+2026-08-20,45989,ZIMU-312189-6,Paramerica S.A.,ZIMUBUE9052531,******              ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29956
 2026-08-20,45990,BHCU-320572-8,Paramerica S.A.,ZIMUBUE9052531,*****               ,Arribado,
 2026-08-13,45646,CMAU-450509-0,Paramerica S.A.,BUA0375292,K1228497            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29877
 2026-08-13,45767,CMAU-666035-1,Paramerica S.A.,BUA0375292,k1228490            ,Arribado,http://dassaweb.mqbic.com/NewTallyExpoConsumo.php?id=29880
