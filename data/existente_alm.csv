@@ -1,8 +1,8 @@
 Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e-tally
 44291-0-1,Edelweiss Spedition ...,Mudanza Felipe Mendi...,-,,26-08-2026,42.00,3805.00,ANEX-A1,
+44301-0-1,Danisco Argentina Sa,Carragenina,-,,26-08-2026,7.00,2893.00,ANEX-A1,
 44301-0-3,Danisco Argentina Sa,Carragenina,-,,26-08-2026,1.00,230.00,ANEX-A1,
 44301-0-2,Danisco Argentina Sa,Carragenina,-,,26-08-2026,12.00,5160.00,ANEX-A1,
-44301-0-1,Danisco Argentina Sa,Carragenina,-,,26-08-2026,7.00,2893.00,ANEX-A1,
 44269-0-1,Dpmg S.A.,Refrigerant Gas R134...,-,SEGU-810033-0,25-08-2026,0.00,18000.00,,
 44258-1-1,Refractarios Argenti...,Refractarios Argenti...,272831712,MRSU-064014-9,25-08-2026,16.00,25500.00,ANEX-A1,
 44235-1-1,Noah Servicess.R.L.,Lazo Eduardo Ruben  ...,IBC1506462,MAGU-234847-4,24-08-2026,25.00,1209.00,ANEX-A1,
@@ -27,19 +27,19 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 44042-1-1,Noah Servicess.R.L.,Barbero  Ariel  Luis,274090508,MRSU-353062-8,13-08-2026,50.00,5324.00,NV3,
 44042-3-1,Noah Servicess.R.L.,Vin  1Hd1Ylk13Jc0469...,274090508,MRSU-353062-8,13-08-2026,10.00,250.00,EA8,
 44042-2-1,Noah Servicess.R.L.,Vin 1Hd1Jl5498Y01312...,274090508,MRSU-353062-8,13-08-2026,10.00,250.00,PA-A,
-44002-1-1,Hra Consultora,Vin Edvgg5Hb2Eg17231...,274146685,MRSU-059189-3,12-08-2026,14.00,1830.00,PA-A,
 44002-2-1,Hra Consultora,Giaconi Nancy Noemi,274146685,MRSU-059189-3,12-08-2026,14.00,1461.00,NV3,
-43976-2-1,Noah Servicess.R.L.,Mercedes Benz  W200 ...,EBKG17380072,MSBU-452301-8,11-08-2026,12.00,1217.00,ANEXO,
+44002-1-1,Hra Consultora,Vin Edvgg5Hb2Eg17231...,274146685,MRSU-059189-3,12-08-2026,14.00,1830.00,PA-A,
+43945-3-1,Noah Servicess.R.L.,Lopreiato Lucia,IBC1502488,TXGU-751195-2,11-08-2026,27.00,4955.00,NV3,
 43980-1-1,Lift Van Int. Co S.A,Campora Regina Elda,HLCUBC1260588059,UACU-374340-8,11-08-2026,30.00,2180.00,ANEX-A1,
 43975-1-1,Lift Van Int. Co S.A,Haas Maxmimilian  Ma...,HLCULIV260534587,HLBU-410320-7,11-08-2026,14.00,1416.00,ANEXO,
 43981-1-1,Lift Van Int. Co S.A,Vin 5Kbyf6860Gb60218...,HLCUPTY260642359,HLBU-409483-0,11-08-2026,20.00,1978.00,PA-A,
 43978-1-1,Lift Van Int. Co S.A,Souto Mariano,HLCUME3260628547,UACU-410875-2,11-08-2026,20.00,1800.00,ANEX-A1,
 43945-1-1,Noah Servicess.R.L.,Auto Ranault 206 Vin...,IBC1502488,TXGU-751195-2,11-08-2026,10.00,1000.00,PA-B,
+43976-2-1,Noah Servicess.R.L.,Mercedes Benz  W200 ...,EBKG17380072,MSBU-452301-8,11-08-2026,12.00,1217.00,ANEXO,
 43982-1-1,Mercovan Argentina S...,Carberry Donovan Dun...,HLCUANR260671517,HLBU-244688-7,11-08-2026,75.00,4116.00,EA8,
+43979-1-1,Mercovan Argentina S...,Automobile Make Niss...,HLCUANR260671689,UACU-409944-0,11-08-2026,20.00,1630.00,ANEX-A1,
 43945-2-1,Noah Servicess.R.L.,Auto Mercedez 2007 V...,IBC1502488,TXGU-751195-2,11-08-2026,13.00,2085.00,PA-B,
 43976-1-1,Noah Servicess.R.L.,Mercedes Benz Sedan ...,EBKG17380072,MSBU-452301-8,11-08-2026,12.00,1108.00,ANEXO,
-43979-1-1,Mercovan Argentina S...,Automobile Make Niss...,HLCUANR260671689,UACU-409944-0,11-08-2026,20.00,1630.00,ANEX-A1,
-43945-3-1,Noah Servicess.R.L.,Lopreiato Lucia,IBC1502488,TXGU-751195-2,11-08-2026,27.00,4955.00,NV3,
 43977-1-1,Lift Van Int. Co S.A,Nuss Bertora Juan Ma...,HLCUGU2260656881,SEGU-261260-0,11-08-2026,20.00,1411.00,ANEX-A1,
 43918-1-1,Ciencia Y Tecnologia...,Ciencia Y Tecnologia...,272134047,TCLU-522051-5,07-08-2026,40.00,5252.00,IB6,
 43883-1-1,Baires International,De Waal Thomas Frede...,271104910,MRSU-049276-1,06-08-2026,27.00,3290.00,ANEX-A1,
@@ -53,8 +53,8 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 43840-2-1,Edelweiss Spedition ...,Vin 2T1Burhegec05076...,ONEYRICGS6929600,SEGU-596288-1,03-08-2026,10.00,1144.00,PA-A,
 43839-1-1,Baires International,Canessa  Sandra Marg...,ONEYRICGS1598300,ONEU-514922-5,03-08-2026,46.00,4801.00,ANEX-A1,
 43813-1-1,Noah Servicess.R.L.,Vin Wdbba45C9Fa03021...,272829776,MRKU-014398-3,03-08-2026,11.00,1570.00,PA-A,
-43833-1-1,Mercovan Argentina S...,Duni Alejandro Juan,HLCUBSC2605BYWA3,UACU-851384-0,03-08-2026,34.00,3628.74,ANEX-A1,
 43813-2-1,Noah Servicess.R.L.,Vin Wp0Jb09215860623...,272829776,MRKU-014398-3,03-08-2026,11.00,1590.00,PA-A,
+43833-1-1,Mercovan Argentina S...,Duni Alejandro Juan,HLCUBSC2605BYWA3,UACU-851384-0,03-08-2026,34.00,3628.74,ANEX-A1,
 43729-1-1,Edelweiss Spedition ...,Castro Dora  Del Val...,HLCUHAM260591005,UACU-840941-4,28-07-2026,60.00,5800.00,NV3,
 43728-2-1,Lift Van Int. Co S.A,Auto Blanco Kia Rio ...,HLCUBC1260560339,HLXU-116333-9,28-07-2026,12.00,1110.00,PA-A,
 43728-1-1,Lift Van Int. Co S.A,Caminata Juan Federi...,HLCUBC1260560339,HLXU-116333-9,28-07-2026,10.00,1160.00,ANEX-A1,
@@ -79,29 +79,29 @@ Operacion,Cliente,Desc,Conocimiento,Contenedor,Ingreso,Volumen,Kilos,Ubicacion,e
 43096-1-1,Colorantes Industria...,Leather Finish Produ...,269785454,HASU-141299-2,16-06-2026,10.89,2378.77,IB8,
 43076-1-1,Bazar Del Mundo S.A.,Umbrella / Toothpick,GZ26030078B,OTPU-613865-7,12-06-2026,28.63,7122.24,IA1,
 43071-1-1,Redes Bit S.A.S,Spc Forring,H01EMCS26082000,CAAU-883826-2,12-06-2026,30.00,27420.00,IB9,
-43044-1-1,Dpmg S.A.,"Dpmg S,A",NGP3510477,TCNU-128041-0,10-06-2026,56.00,26128.00,IB9,
 43043-1-1,Grupo Simpa Sa,Todoterreno,NBOBUE26040175,BMOU-524852-1,10-06-2026,38.00,5991.97,IA1,
 43044-2-1,Dpmg S.A.,Dpmg S.A,NGP3510477,TCKU-716339-8,10-06-2026,56.00,26128.00,IB9,
+43044-1-1,Dpmg S.A.,"Dpmg S,A",NGP3510477,TCNU-128041-0,10-06-2026,56.00,26128.00,IB9,
+42945-1-1,Dpmg S.A.,Empty  Can,NBOBUE26040171,ZCSU-792671-3,05-06-2026,68.00,18637.00,NV4,
 42946-1-1,Dpmg S.A.,Gas Refrigerant,277989283,HASU-111650-0,05-06-2026,28.00,19090.00,IA6,
 42946-2-1,Dpmg S.A.,Gas Refrigerant,277989283,HASU-123002-5,05-06-2026,28.00,19090.00,IA6,
-42945-1-1,Dpmg S.A.,Empty  Can,NBOBUE26040171,ZCSU-792671-3,05-06-2026,68.00,18637.00,NV4,
-42897-1-1,Noah Servicess.R.L.,Mercedes Benz Vin Wd...,270341081,MRKU-084135-1,02-06-2026,11.00,1870.00,PA-B,
-42898-1-1,Noah Servicess.R.L.,Chevrolet Corvette V...,270353387,MRKU-032739-0,02-06-2026,10.00,1469.00,PA-B,http://dassaweb.mqbic.com/PublicTally.php?id2=NDcxMw==
 42894-1-1,Noah Servicess.R.L.,Porsche Vin Wp1Aa2Ay...,269034496,MRKU-059784-1,02-06-2026,10.00,2860.00,PA-A,
-42894-2-1,Noah Servicess.R.L.,Jeep Wrangler Vin 1C...,269034496,MRKU-059784-1,02-06-2026,10.00,2420.00,PA-A,
-42891-0-1,Lift Van Int. Co S.A,Mudanza Sergio Saifi...,-,,02-06-2026,0.00,3150.00,RZ-1A,
 42897-2-1,Noah Servicess.R.L.,Mercedes Benz Vin Wd...,270341081,MRKU-084135-1,02-06-2026,13.00,1650.00,PA-B,
+42891-0-1,Lift Van Int. Co S.A,Mudanza Sergio Saifi...,-,,02-06-2026,0.00,3150.00,RZ-1A,
+42898-1-1,Noah Servicess.R.L.,Chevrolet Corvette V...,270353387,MRKU-032739-0,02-06-2026,10.00,1469.00,PA-B,http://dassaweb.mqbic.com/PublicTally.php?id2=NDcxMw==
+42897-1-1,Noah Servicess.R.L.,Mercedes Benz Vin Wd...,270341081,MRKU-084135-1,02-06-2026,11.00,1870.00,PA-B,
+42894-2-1,Noah Servicess.R.L.,Jeep Wrangler Vin 1C...,269034496,MRKU-059784-1,02-06-2026,10.00,2420.00,PA-A,
 42869-4-1,Noah Servicess.R.L.,Freyre Matiias,270403985,MRSU-496716-6,01-06-2026,30.00,2046.00,NV3,http://dassaweb.mqbic.com/PublicTally.php?id2=NDY5MQ==
 42869-1-1,Noah Servicess.R.L.,Bmw Motorcycle Vin W...,270403985,MRSU-496716-6,01-06-2026,8.00,200.00,NV4,http://dassaweb.mqbic.com/PublicTally.php?id2=NDY5MQ==
 42869-2-1,Noah Servicess.R.L.,Harley Dadidson Moto...,270403985,MRSU-496716-6,01-06-2026,5.00,280.00,NV4,http://dassaweb.mqbic.com/PublicTally.php?id2=NDY5MQ==
 42869-3-1,Noah Servicess.R.L.,Gondell Delfina,270403985,MRSU-496716-6,01-06-2026,30.00,2649.00,NV3,http://dassaweb.mqbic.com/PublicTally.php?id2=NDY5MQ==
-42848-1-1,Dpmg S.A.,Refrigerant Gas,268757125,MSKU-692119-0,29-05-2026,56.00,26891.00,NV4,
 42855-1-1,Noah Servicess.R.L.,Mercedez Benz Auto B...,270286152,TLLU-525162-2,29-05-2026,19.00,2583.00,PA-A,http://dassaweb.mqbic.com/PublicTally.php?id2=NDY4NQ==
 42848-2-1,Dpmg S.A.,Gas Refrigerant,268757125,MRKU-086634-4,29-05-2026,56.00,26775.00,NV4,
+42848-1-1,Dpmg S.A.,Refrigerant Gas,268757125,MSKU-692119-0,29-05-2026,56.00,26891.00,NV4,
 42817-2-1,Eagle Service Group ...,Moto Triumph Vin Smt...,268727829,TCLU-562844-6,27-05-2026,10.00,268.00,NV5,http://dassaweb.mqbic.com/PublicTally.php?id2=NDY2Nw==
-42809-1-1,Dpmg S.A.,Gas Refrigerante R41...,NPG3472295,CMAU-907672-1,27-05-2026,56.00,26325.00,IA6,
 42810-1-1,Dpmg S.A.,Gas Refrigerante R41...,NPG3472306,CMAU-833683-0,27-05-2026,60.00,26460.00,IB4,
 42817-1-1,Eagle Service Group ...,Mercedenz Benz Vin W...,268727829,TCLU-562844-6,27-05-2026,10.00,2475.00,NV5,http://dassaweb.mqbic.com/PublicTally.php?id2=NDY2Nw==
+42809-1-1,Dpmg S.A.,Gas Refrigerante R41...,NPG3472295,CMAU-907672-1,27-05-2026,56.00,26325.00,IA6,
 42692-1-1,Magic Team S.A.,Footwear As Per  Bel...,HANS003759AB,TGHU-520062-6,19-05-2026,28.00,2549.00,IA7,http://dassaweb.mqbic.com/PublicTally.php?id2=NDYyOA==
 42595-1-1,Impulso Jm S.A.,Cotton/Polyester,SYNTAO26SE030522,CARU-580228-6,12-05-2026,16.67,3847.60,IA5,http://dassaweb.mqbic.com/PublicTally.php?id2=NDU3Nw==
 42596-1-1,El Mas Grande S.A.,Cartons,SZSE2603595,TRHU-246760-5,12-05-2026,28.00,4750.00,ANEXO 1,http://dassaweb.mqbic.com/PublicTally.php?id2=NDU3OA==
