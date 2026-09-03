@@ -6,6 +6,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-16,13:00,Exolgan,SEKU-108835-0,Mercovan Argentina S...,HLCUHAM260130425,TD,2026-03-16,4151,http://dassaweb.mqbic.com/PublicTally.php?id=4151
 2026-08-31,11:00,Exolgan,HLBU-379003-2,Mercovan Argentina S...,HLCUMC2260504241,TD,2026-08-31,,
 2026-09-01,15:00,Exolgan,HLBU-152704-8,Mercovan Argentina S...,HLCUHAM2605AYOE5,TD,2026-09-01,,
+2026-09-04,15:00,Exolgan,HAMU-181368-0,Mercovan Argentina S...,HLCUBC1260686972,TD,,,
 2026-08-19,05:00,Exolgan,DRYU-604308-6,Mercovan Argentina S...,ONEYRICGW0560700,TD,2026-08-19,,
 2026-08-20,13:00,Exolgan,MSBU-304334-9,Mercovan Argentina S...,MEDURN092552,TD,2026-08-20,,
 2026-08-26,13:00,Exolgan,HLXU-840848-0,Mercovan Argentina S...,HLCUBC1260702701,TD,2026-08-26,,
@@ -89,6 +90,9 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-10,05:00,Exolgan,HLXU-141954-4,Lift Van Int. Co S.A...,HLCUBO2260131443,TD,2026-03-10,4113,http://dassaweb.mqbic.com/PublicTally.php?id=4113
 2026-03-10,05:00,Exolgan,RFCU-224388-0,Lift Van Int. Co S.A...,ONEYRICG04133900,TD,2026-03-10,4114,http://dassaweb.mqbic.com/PublicTally.php?id=4114
 2026-03-10,05:00,Exolgan,NYKU-987465-0,Lift Van Int. Co S.A...,ONEYRICG19338800,TD,2026-03-10,4115,http://dassaweb.mqbic.com/PublicTally.php?id=4115
+2026-09-04,15:00,Exolgan,TGHU-519591-5,Lift Van Int. Co S.A...,HLCUANR260623755,TD,,,
+2026-09-04,15:00,Exolgan,MEDU-271916-7,Lift Van Int. Co S.A...,MEDUH6887960,TD,,,
+2026-09-04,15:00,Exolgan,TCLU-416029-0,Lift Van Int. Co S.A...,HLCUHAM260710717,TD,,,
 2026-08-26,13:00,Exolgan,TLLU-252327-0,Lift Van Int. Co S.A...,HLCUBSC2606CMHU0,T,2026-08-26,,
 2026-08-28,13:00,Exolgan,GCXU-249271-0,Lift Van Int. Co S.A...,HLCUBC1260650290,TD,2026-08-28,,
 2026-09-01,15:00,Exolgan,GLDU-958222-2,Lift Van Int. Co S.A...,HLCUTOR260626597,TD,2026-09-01,,
@@ -216,6 +220,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-17,15:00,Exolgan,TCLU-517615-6,Lift Van Int. Co S.A...,HLCUBI2260137567,TD,2026-03-17,4160,http://dassaweb.mqbic.com/PublicTally.php?id=4160
 2026-03-13,15:00,Exolgan,UACU-847796-0,Edelweiss Spedition ...,HLCUHAM2601AVKG9,TD,2026-03-13,4139,http://dassaweb.mqbic.com/PublicTally.php?id=4139
 2026-08-27,15:00,Exolgan,HLBU-119695-2,Edelweiss Spedition ...,HLCULI3260633608,T,2026-08-27,,
+2026-09-03,12:00,Terminal 4,MRKU-662195-0,Edelweiss Spedition ...,275111166,TD,,,
 2026-08-18,13:00,Exolgan,HLXU-541019-1,Edelweiss Spedition ...,HLCURTM260650131,T,2026-08-18,,
 2026-08-18,13:00,Exolgan,UACU-850034-0,Edelweiss Spedition ...,HLCURTM260653922,T,2026-08-18,,
 2026-08-03,12:00,Terminal 4,SEGU-596288-1,Edelweiss Spedition ...,ONEYRICGS6929600,TD,2026-08-03,,
@@ -238,7 +243,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-26,13:00,Terminal 4,MRSU-005259-3,Hra Consultora      ...,266326090,TD,2026-03-26,4206,http://dassaweb.mqbic.com/PublicTally.php?id=4206
 2026-03-26,13:00,Terminal 4,MRSU-005259-3,Hra Consultora      ...,266326090,TD,2026-03-26,4206,http://dassaweb.mqbic.com/PublicTally.php?id=4206
 2026-08-12,09:00,Terminal 4,MRSU-059189-3,Hra Consultora      ...,274146685,TD,2026-08-12,,
-2026-09-02,14:00,Terminal 4,MRKU-064438-9,Hra Consultora      ...,275047765,TD,,,
+2026-09-02,14:00,Terminal 4,MRKU-064438-9,Hra Consultora      ...,275047765,TD,2026-09-02,,
 2026-04-09,17:00,Exolgan,GAOU-654429-7,Arbrex Commercial Gr...,TPSHKSG26026018A/B,TD,2026-04-09,4342,http://dassaweb.mqbic.com/PublicTally.php?id=4342
 2026-04-09,17:00,Exolgan,GAOU-654429-7,Arbrex Commercial Gr...,TPSHKSG26026018A/B,TD,2026-04-09,4342,http://dassaweb.mqbic.com/PublicTally.php?id=4342
 2026-04-09,17:00,Exolgan,GAOU-654429-7,Arbrex Commercial Gr...,TPSHKSG26026018A/B,TD,2026-04-09,4342,http://dassaweb.mqbic.com/PublicTally.php?id=4342
@@ -302,11 +307,19 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-26,11:00,Terminal 4,CAAU-299059-7,Refractarios Argenti...,PCBUE26010005,TD,2026-03-26,4203,http://dassaweb.mqbic.com/PublicTally.php?id=4203
 2026-03-30,13:00,Exolgan,MEDU-356620-5,Refractarios Argenti...,MEDUFC496801,TD,2026-03-30,4250,http://dassaweb.mqbic.com/PublicTally.php?id=4250
 2026-03-30,15:00,Exolgan,MSBU-306690-9,Refractarios Argenti...,MEDUFC496801,TD,2026-03-30,4251,http://dassaweb.mqbic.com/PublicTally.php?id=4251
+2026-09-04,11:00,Exolgan,TGBU-380764-5,Refractarios Argenti...,KNY.26.06.014761,TD,,,
+2026-09-04,11:00,Exolgan,GAOU-245124-1,Refractarios Argenti...,KNY.26.06.014761,TD,,,
+2026-09-04,11:00,Exolgan,MSNU-134602-4,Refractarios Argenti...,KNY.26.06.014761,TD,,,
+2026-09-04,11:00,Exolgan,TGBU-123646-5,Refractarios Argenti...,KNY.26.06.014761,TD,,,
+2026-09-04,11:00,Exolgan,GLDU-952059-7,Refractarios Argenti...,KNY.26.06.014761,TD,,,
+2026-09-04,11:00,Exolgan,FTAU-146999-1,Refractarios Argenti...,KNY.26.06.014761,TD,,,
+2026-09-04,11:00,Exolgan,TEMU-515031-2,Refractarios Argenti...,KNY.26.06.014761,TD,,,
 2026-09-01,17:00,Exolgan,TCLU-234857-0,Refractarios Argenti...,VIE10022072,TD,2026-09-01,,
 2026-09-01,15:00,Exolgan,CAIU-285809-5,Refractarios Argenti...,VIE10022072,TD,2026-09-01,,
 2026-09-01,15:00,Exolgan,FTAU-139341-1,Refractarios Argenti...,VIE10022072,TD,2026-09-01,,
-2026-09-02,13:00,Exolgan,MSMU-172214-9,Refractarios Argenti...,KNY.26.06.012959,TD,,,
-2026-09-02,13:00,Exolgan,MSBU-205705-5,Refractarios Argenti...,KNY.26.06.012959,TD,,,
+2026-09-02,13:00,Exolgan,MSMU-172214-9,Refractarios Argenti...,KNY.26.06.012959,TD,2026-09-02,,
+2026-09-02,13:00,Exolgan,MSBU-205705-5,Refractarios Argenti...,KNY.26.06.012959,TD,2026-09-02,,
+2026-09-04,11:00,Exolgan,MSNU-158076-8,Refractarios Argenti...,KNY.26.06.014761,TD,,,
 2026-09-01,15:00,Exolgan,MEDU-196550-4,Refractarios Argenti...,VIE10022072,TD,2026-09-01,,
 2026-09-01,15:00,Exolgan,MEDU-667876-5,Refractarios Argenti...,VIE10022072,TD,2026-09-01,,
 2026-09-01,15:00,Exolgan,MSBU-261992-8,Refractarios Argenti...,VIE10022072,TD,2026-09-01,,
@@ -441,7 +454,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-16,17:00,Exolgan,TGHU-690611-3,Aspee Monee         ...,AEM02260158,T,2026-03-16,,
 2026-03-27,10:00,TRP,TLLU-700390-2,Aspee Monee         ...,CNCBUE2602204,T,2026-03-27,,
 2026-03-27,21:00,Exolgan,MSDU-520738-8,Aspee Monee         ...,MEDUWP573670,T,2026-03-27,,
-2026-09-02,12:00,Terminal 4,MRSU-902278-0,Aspee Monee         ...,272031370,T,,,
+2026-09-02,12:00,Terminal 4,MRSU-902278-0,Aspee Monee         ...,272031370,T,2026-09-02,,
 2026-09-02,07:00,Terminal 4,HASU-423652-0,Aspee Monee         ...,272031177,T,2026-09-02,,
 2026-08-19,05:00,Terminal 4,FFAU-498901-1,Aspee Monee         ...,271767285,T,2026-08-19,,
 2026-08-25,07:00,Exolgan,MRKU-627377-3,Aspee Monee         ...,AEM08260262,T,2026-08-25,,
@@ -497,6 +510,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-04-16,13:00,Exolgan,MSKU-120173-0,Aspee Monee         ...,AEM3260193,T,2026-04-16,,
 2026-06-01,06:00,Terminal 4,MIEU-306120-9,Fenisan S.A.        ...,270286168,T,2026-06-01,,
 2026-06-25,10:00,Terminal 4,MRKU-959648-7,Fenisan S.A.        ...,271350420,T,2026-06-25,,
+2026-09-04,15:00,Exolgan,MEDU-940177-4,J. Llorente Y Cía. S...,MEDUJX257952,TD,,,
 2026-03-27,16:00,TRP,EGSU-933114-0,Shipy S.A.          ...,TSSZ2601106,T,2026-03-27,,
 2026-03-27,15:00,TRP,EGHU-966374-8,Shipy S.A.          ...,TSSZ2601106,T,2026-03-27,,
 2026-05-12,07:00,Exolgan,CAIU-783624-7,Shipy S.A.          ...,TSSZ2603053,T,2026-05-12,,
@@ -747,6 +761,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-07-20,09:00,TRP,EITU-909862-7,Gematec Srl         ...,H01EMKK26003100,TD,2026-07-20,,
 2026-08-13,13:00,TRP,TTNU-536519-1,Gematec Srl         ...,H01EMKK26003400,T,2026-08-13,,
 2026-08-20,12:00,TRP,SEGU-127146-0,Gematec Srl         ...,SHZ8262441,TD,2026-08-20,,
+2026-09-04,11:00,Exolgan,MSDU-461500-3,Gematec Srl         ...,SYNHKG26SE070011,T,,,
 2026-05-13,12:00,TRP,TCNU-164760-9,Foralia Sa          ...,UCL/KHI/0038022-26,T,2026-05-13,,
 2026-05-13,11:00,TRP,EISU-859224-6,Foralia Sa          ...,UCL/KHI/0038022-26,T,2026-05-13,,
 2026-06-25,10:00,Terminal 4,UACU-857770-0,Talwin Transport Ser...,HLCUBSC2605AVTD4,TD,2026-06-25,,
@@ -797,6 +812,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-04-10,18:00,Terminal 4,EFEU-803296-1,Noah Servicess.R.L. ...,HLCUBSC260350660,TD,2026-04-10,4344,http://dassaweb.mqbic.com/PublicTally.php?id=4344
 2026-04-10,18:00,Terminal 4,EFEU-803296-1,Noah Servicess.R.L. ...,HLCUBSC260350660,TD,2026-04-10,4344,http://dassaweb.mqbic.com/PublicTally.php?id=4344
 2026-09-02,09:00,Terminal 4,MRKU-090551-7,Noah Servicess.R.L. ...,275363804,TD,2026-09-02,,
+2026-09-03,08:00,Terminal 4,MRSU-438732-1,Noah Servicess.R.L. ...,275364159,TD,,,
 2026-08-11,13:00,Exolgan,MSBU-452301-8,Noah Servicess.R.L. ...,EBKG17380072,TD,2026-08-11,,
 2026-08-12,06:00,Terminal 4,CMAU-095058-5,Noah Servicess.R.L. ...,IBC1506590,TD,2026-08-12,,
 2026-08-13,10:00,Terminal 4,MRSU-353062-8,Noah Servicess.R.L. ...,274090508,TD,2026-08-13,,
@@ -988,24 +1004,24 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-04-24,13:00,Exolgan,TEMU-755492-5,Scan Global Logistic...,95726-02025,TD,2026-04-24,4449,http://dassaweb.mqbic.com/PublicTally.php?id=4449
 2026-05-29,14:00,Terminal 4,CAAU-240669-9,Tau Cargo S.R.L.    ...,269696823,TD,2026-05-29,,
 2026-07-13,06:00,Terminal 4,GCXU-640437-9,Tau Cargo S.R.L.    ...,271996919,TD,2026-07-13,,
-2026-09-02,08:00,TRP,CAIU-990291-8,Silver Freight Logis...,HDMUNBOZ6Y690600,T,,,
-2026-09-02,09:00,TRP,HMMU-476584-7,Silver Freight Logis...,HDMUNBOZ6Y690600,T,,,
-2026-09-02,08:00,TRP,CAIU-720375-8,Silver Freight Logis...,HDMUSZPM38804900,T,,,
-2026-09-02,12:00,TRP,HMMU-455448-5,Silver Freight Logis...,HDMUSZPM38804900,T,,,
-2026-09-02,10:00,TRP,HMMU-460537-1,Silver Freight Logis...,HDMUSZPM38804900,T,,,
-2026-09-02,12:00,TRP,HMMU-459744-5,Silver Freight Logis...,HDMUSZPM38804900,T,,,
-2026-09-02,12:00,TRP,DFSU-695775-5,Silver Freight Logis...,HDMUNBOZ6YW66600,T,,,
-2026-09-02,10:00,TRP,TLLU-576897-6,Silver Freight Logis...,HDMUNBOZ6YW66600,T,,,
-2026-09-02,11:00,TRP,HMMU-637101-4,Silver Freight Logis...,HDMUNBOZ6YW66600,T,,,
-2026-09-02,12:00,TRP,TGBU-634826-2,Silver Freight Logis...,HDMUNBOZ6YW66600,T,,,
-2026-09-02,12:00,TRP,HMMU-476631-3,Silver Freight Logis...,HDMUNBOZ6YW66600,T,,,
-2026-09-02,12:00,TRP,HMMU-485775-3,Silver Freight Logis...,HDMUNBOZ6YW66600,T,,,
-2026-09-02,08:00,TRP,HMMU-459720-8,Silver Freight Logis...,HDMUSZPM38804900,T,,,
-2026-09-02,10:00,TRP,HMMU-459937-1,Silver Freight Logis...,HDMUSZPM38804900,T,,,
-2026-09-02,10:00,TRP,HMMU-459811-7,Silver Freight Logis...,HDMUSZPM38804900,T,,,
-2026-09-02,09:00,TRP,HMMU-459848-3,Silver Freight Logis...,HDMUSZPM38804900,T,,,
-2026-09-02,10:00,TRP,KOCU-445674-1,Silver Freight Logis...,HDMUSZPM38804900,T,,,
-2026-09-02,10:00,TRP,KOCU-469712-1,Silver Freight Logis...,HDMUSZPM38804900,T,,,
+2026-09-02,08:00,TRP,CAIU-990291-8,Silver Freight Logis...,HDMUNBOZ6Y690600,T,2026-09-02,,
+2026-09-02,09:00,TRP,HMMU-476584-7,Silver Freight Logis...,HDMUNBOZ6Y690600,T,2026-09-02,,
+2026-09-02,08:00,TRP,CAIU-720375-8,Silver Freight Logis...,HDMUSZPM38804900,T,2026-09-02,,
+2026-09-02,12:00,TRP,HMMU-455448-5,Silver Freight Logis...,HDMUSZPM38804900,T,2026-09-02,,
+2026-09-02,10:00,TRP,HMMU-460537-1,Silver Freight Logis...,HDMUSZPM38804900,T,2026-09-02,,
+2026-09-02,12:00,TRP,HMMU-459744-5,Silver Freight Logis...,HDMUSZPM38804900,T,2026-09-02,,
+2026-09-02,12:00,TRP,DFSU-695775-5,Silver Freight Logis...,HDMUNBOZ6YW66600,T,2026-09-02,,
+2026-09-02,10:00,TRP,TLLU-576897-6,Silver Freight Logis...,HDMUNBOZ6YW66600,T,2026-09-02,,
+2026-09-02,11:00,TRP,HMMU-637101-4,Silver Freight Logis...,HDMUNBOZ6YW66600,T,2026-09-02,,
+2026-09-02,12:00,TRP,TGBU-634826-2,Silver Freight Logis...,HDMUNBOZ6YW66600,T,2026-09-02,,
+2026-09-02,12:00,TRP,HMMU-476631-3,Silver Freight Logis...,HDMUNBOZ6YW66600,T,2026-09-02,,
+2026-09-02,12:00,TRP,HMMU-485775-3,Silver Freight Logis...,HDMUNBOZ6YW66600,T,2026-09-02,,
+2026-09-02,08:00,TRP,HMMU-459720-8,Silver Freight Logis...,HDMUSZPM38804900,T,2026-09-02,,
+2026-09-02,10:00,TRP,HMMU-459937-1,Silver Freight Logis...,HDMUSZPM38804900,T,2026-09-02,,
+2026-09-02,10:00,TRP,HMMU-459811-7,Silver Freight Logis...,HDMUSZPM38804900,T,2026-09-02,,
+2026-09-02,09:00,TRP,HMMU-459848-3,Silver Freight Logis...,HDMUSZPM38804900,T,2026-09-02,,
+2026-09-02,10:00,TRP,KOCU-445674-1,Silver Freight Logis...,HDMUSZPM38804900,T,2026-09-02,,
+2026-09-02,10:00,TRP,KOCU-469712-1,Silver Freight Logis...,HDMUSZPM38804900,T,2026-09-02,,
 2026-03-13,06:00,Terminal 4,HASU-464098-0,Blanco Buenos Aires ...,NBOE26021585,T,2026-03-13,,
 2026-07-03,09:00,Terminal 4,FANU-103687-4,Grupo Tecnoled S.R.L...,XDSEF260435723,T,2026-07-03,,
 2026-03-26,13:00,Terminal 4,MRSU-815862-1,Greenwave Srl       ...,PVS/BUE/15178,T,2026-03-26,,
@@ -1017,7 +1033,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-04-10,19:00,TRP,GLDU-506004-5,Logcargo Srl        ...,NGP3363676,TD,2026-04-10,4334,http://dassaweb.mqbic.com/PublicTally.php?id=4334
 2026-07-24,15:00,TRP,CMAU-620273-9,Logcargo Srl        ...,SZ26040977,TD,2026-07-24,,
 2026-03-17,13:00,TRP,OOCU-982992-4,Wipik S.A.S         ...,NBSM26010077,T,2026-03-17,,
-2026-09-02,12:00,TRP,NYKU-365295-3,Wipik S.A.S         ...,TCQD2606278,T,,,
+2026-09-02,12:00,TRP,NYKU-365295-3,Wipik S.A.S         ...,TCQD2606278,T,2026-09-02,,
 2026-03-19,05:00,Terminal 4,WNGU-262404-0,Cooperativa De Traba...,TPTAOABD26016032,TD,2026-03-19,4176,http://dassaweb.mqbic.com/PublicTally.php?id=4176
 2026-03-19,05:00,Terminal 4,MRKU-105413-4,Nuñez Moral Y Cia Sr...,DLNB2602303,TD,2026-03-19,4177,http://dassaweb.mqbic.com/PublicTally.php?id=4177
 2026-03-26,10:00,Terminal 4,MAEU-348409-8,Angel Masciotra Soci...,HTQD25010638,TD,2026-03-26,4204,http://dassaweb.mqbic.com/PublicTally.php?id=4204
