@@ -230,6 +230,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-12,45698,,Aniceto Gomez Sa,BUEG10748700,jaulas (autopartes / repuestos),Arribado
 2026-06-30,44679,,Rubber Service Srl,COSU6506377470,RUBBER  //CME014655,Arribado
 2026-08-31,45966,,Rubber Service Srl,CME014740,RW309-ANTIADHERENTE P. (600 bolsas en 20 pallets),Arribado
+2026-09-15,46449,,Rubber Service Srl,LA0516876,CME014777 / S: RUBBER SERVICE S R L // Booking: LA0516876,Pendiente
 2026-05-04,43531,,A La Orden,269694408,ALARCOR S.A. // CALCOMEX CARGO SRL,Arribado
 2026-04-08,43061,UACU-396618-7,Termoplasticos Del S...,36842177,CONTENEDOR,Arribado
 2026-04-09,43068,HLBU-355306-7,Termoplasticos Del S...,36815061,GRLEM260944 / CONTENEDORES,Arribado
@@ -239,8 +240,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-04-09,43072,HLBU-412317-9,Termoplasticos Del S...,36815061,GRLEM260944 / CONTENEDORES,Arribado
 2026-08-28,46190,,Termoplasticos Del S...,13630072,TERMOPLASTICOS DURBAN BKG: 13630072 - 1X20 FLEXI 5273 EM GRL,Arribado
 2026-08-28,46192,,Termoplasticos Del S...,98887331,TERMOPLASTICOS DURBAN BKG: 98887331 - 1X20 FLEXI 5261 EM GRL,Arribado
-2026-09-04,46363,,Termoplasticos Del S...,EBKG18490644,INGRESO 04/09 EXPO TERMOPLASTICOS BKG: EBKG18490644 - 2X20 F,Pendiente
-2026-09-04,46364,,Termoplasticos Del S...,EBKG18490644,INGRESO 04/09 EXPO TERMOPLASTICOS BKG: EBKG18490644 - 2X20 F,Pendiente
+2026-09-04,46363,,Termoplasticos Del S...,EBKG18490644,INGRESO 04/09 EXPO TERMOPLASTICOS BKG: EBKG18490644 - 2X20 F,Arribado
+2026-09-04,46364,,Termoplasticos Del S...,EBKG18490644,INGRESO 04/09 EXPO TERMOPLASTICOS BKG: EBKG18490644 - 2X20 F,Arribado
 2026-07-23,45173,,Termoplasticos Del S...,45395789,,Arribado
 2026-07-01,44705,MSBU-112329-7,Termoplasticos Del S...,EBKG1752756,EBKG1752756,Arribado
 2026-07-02,44719,MSMU-230214-0,Termoplasticos Del S...,EBKG17542718,EBKG17542718,Arribado
@@ -363,6 +364,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-05-27,43964,,Fineport S.A.,28647804,KAHL GROUP S.A,Arribado
 2026-06-08,44202,,Famacon S.A.,36013219,36013219,Arribado
 2026-03-25,42855,,Manufactura Los Ande...,FC 19-005,FC 19-005,Arribado
+2026-09-14,46461,,Manufactura Los Ande...,276668395,BOOK: 276668395 // FC 17-208,Pendiente
+2026-09-14,46462,,Manufactura Los Ande...,276668395,BOOK: 276668395 // FC 17-208,Pendiente
 2026-05-26,43961,,Manufactura Los Ande...,ZIMUBUE9050125,FC 19-013,Arribado
 2026-05-26,43962,,Manufactura Los Ande...,ZIMUBUE9050125,FC 19-013,Arribado
 2026-06-16,44360,,Manufactura Los Ande...,271836601,FC 17-139,Arribado
@@ -471,6 +474,15 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-03-09,42503,,Borax Argentina S A,FC 13054,FC 13054,Arribado
 2026-03-09,42504,,Borax Argentina S A,26001EC01,,Arribado
 2026-03-09,42505,,Borax Argentina S A,26001EC01,,Arribado
+2026-09-07,46463,,Borax Argentina S A,BUA0380322,FAC 13637,Pendiente
+2026-09-07,46464,,Borax Argentina S A,BUA0380322,FAC 13637,Pendiente
+2026-09-16,46465,,Borax Argentina S A,BUA0377955,Borax PENTA,Pendiente
+2026-09-16,46466,,Borax Argentina S A,BUA0377955,Borax PENTA,Pendiente
+2026-09-07,46453,,Borax Argentina S A,FACT 13643,FACT 13643,Pendiente
+2026-09-07,46454,,Borax Argentina S A,Fact 13643,Hidroboracita (100 pallets),Pendiente
+2026-09-07,46455,,Borax Argentina S A,Fact 13643,Hidroboracita (100 pallets),Pendiente
+2026-09-07,46456,,Borax Argentina S A,Fact 13643,Hidroboracita (100 pallets),Pendiente
+2026-09-07,46457,,Borax Argentina S A,FACT 13643,FACT 13643 //,Pendiente
 2026-08-27,46161,,Borax Argentina S A,fact 13601,fact 13601 -5X20,Pendiente
 2026-08-27,46162,,Borax Argentina S A,fact 13601,fact 13601 -5X20,Pendiente
 2026-08-26,46164,,Borax Argentina S A,FACT 13601,FACT 13601 -5X20,Arribado
@@ -803,7 +815,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-26,45737,,Virasoro Maderas S R...,COSU6509282040,COSU6509282040,Arribado
 2026-08-14,45738,,Virasoro Maderas S R...,275471082,MADERAS,Arribado
 2026-07-27,45207,,Tony Maderas Sa,ZIMUBUE9051959,GRLEM262056 // ZIMUBUE9051959,Arribado
-2026-09-04,46225,,Tony Maderas Sa,275769715,GRLEM262377 //275769715,Pendiente
+2026-09-04,46225,,Tony Maderas Sa,275769715,GRLEM262377 //275769715,Arribado
 2026-08-14,45673,,Norfor Sa,COSU6462599830,GRLEM262247,Pendiente
 2026-08-14,45674,,Norfor Sa,COSU6462599830,GRLEM262247,Pendiente
 2026-08-14,45675,,Norfor Sa,COSU6462599830,GRLEM262247,Pendiente
@@ -847,8 +859,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-03-17,42763,,Curtiembre Infante S...,BUEA83381800,,Arribado
 2026-03-17,42764,,Curtiembre Infante S...,BUEA83381800,,Arribado
 2026-03-17,42765,,Curtiembre Infante S...,BUEA83381800,,Arribado
+2026-09-08,46451,,Curtiembre Infante S...,BUEA02792200,Re: CME014752 - CURTIEMBRE INFANTE SA // Booking: BUEA027922,Pendiente
 2026-08-26,46079,,Curtiembre Infante S...,274992164,WW-2026-0047A - B - 2 CNT XIAMEN / ME-00008177 // 274992164,Arribado
 2026-08-26,46080,,Curtiembre Infante S...,274992164,WW-2026-0047A - B - 2 CNT XIAMEN / ME-00008177 // 274992164,Arribado
+2026-09-08,46450,,Curtiembre Infante S...,BUEA02792200,Re: CME014752 - CURTIEMBRE INFANTE SA // Booking: BUEA027922,Pendiente
 2026-07-17,45043,,Curtiembre Infante S...,26001EC01,WW-2026-0043A - 26996 KG,Arribado
 2026-07-17,45044,,Curtiembre Infante S...,26001EC01,WW-2026-0043A - 26996 KG,Arribado
 2026-07-29,45283,,Curtiembre Infante S...,274833579,274833579,Arribado
@@ -878,6 +892,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-12,45429,,Sandrin Paola Karina,37364026,GRLAE262082 // 37364026,Arribado
 2026-08-19,45859,,Sandrin Paola Karina,BUA0376178,GRLEM262274 /BUA0376178,Arribado
 2026-08-19,45860,,Sandrin Paola Karina,BUA0376178,GRLEM262274 /BUA0376178,Arribado
+2026-09-07,46460,,Sandrin Paola Karina,BUA0380119,GRLEM262476,Pendiente
 2026-08-31,46196,,Sandrin Paola Karina,275769715,GRLEM262377 / 275769715,Arribado
 2026-09-09,46369,,Sandrin Paola Karina,44092210,GRLEM262482 // 4092210,Pendiente
 2026-09-09,46370,,Sandrin Paola Karina,44092210,GRLEM262482 // 4092210,Pendiente
@@ -895,7 +910,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-20,45935,,Inter American Cargo...,274890238,TERCER TANQUE,Arribado
 2026-08-26,46108,,Inter American Cargo...,274890399,1X40 FR (CUARTO TANQUE) / DANES S.R.L / BKG: 274890399 OP: 2,Arribado
 2026-09-02,46277,,Inter American Cargo...,274890611,CARGA 1X40 FR (QUINTO TANQUE) / DANES S.R.L / BKG: 274890399,Arribado
-2026-09-04,46389,,Inter American Cargo...,26001EC01060642G,LA YUNGERE SA 26001EC01060642G CDE20260800022909 // terrestr,Pendiente
+2026-09-04,46389,,Inter American Cargo...,26001EC01060642G,LA YUNGERE SA 26001EC01060642G CDE20260800022909 // terrestr,Arribado
 2026-06-25,44557,,Americana Shipping G...,23421391,YERBAMATE ROSAMONTE - CME021832 - 23421391,Arribado
 2026-07-01,44611,,Americana Shipping G...,23421391,YERBAMATE PLAYADITO - CME021832 - 23421391,Arribado
 2026-07-02,44718,,Americana Shipping G...,272488194,BINELLI PARRILLAS,Arribado
@@ -903,6 +918,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-05-08,43649,,Litoral Citrus S A,EBKG16789113,,Arribado
 2026-05-20,43845,,Litoral Citrus S A,COSU6501375440,ACEITES ESENCIALES,Arribado
 2026-09-01,46241,,Litoral Citrus S A,16564944,(IMO) CONSOLIDADO LITORAL CITRUS // 16564944,Arribado
+2026-09-09,46467,,Litoral Citrus S A,BUEG11383300,BUEG11383300 // carga imo,Pendiente
 2026-03-26,42857,,Hdv Leather S.R.L.,LOTE 4016,LOTE 4016,Arribado
 2026-03-26,42858,,Hdv Leather S.R.L.,LOTE 4020,LOTE 4020,Arribado
 2026-03-26,42859,,Hdv Leather S.R.L.,LOTE 4021,LOTE 4021,Arribado
@@ -973,7 +989,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-05-18,43766,MSBU-532861-2,Alacor Sa,EBKG16695032,,Arribado
 2026-07-14,44960,,Alacor Sa,272820867,272820867,Arribado
 2026-07-16,45023,-      -,Alacor Sa,93823716,,Arribado
-2026-09-04,46358,,Alacor Sa,EBKG18379175,EBKG18379175 // ALARCOR,Pendiente
+2026-09-07,46358,,Alacor Sa,EBKG18379175,EBKG18379175 // ALARCOR,Pendiente
 2026-06-17,44435,,Alacor Sa,271673908,271673908 //,Arribado
 2026-06-25,44577,,Alacor Sa,EBKG17209191,EBKG17209191,Arribado
 2026-07-07,44806,,Alacor Sa,26001EC01045943N,EXPO TERRESTRE,Arribado
