@@ -96,17 +96,17 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-03-17,15:00,Exolgan,HLBU-171922-5,Lift Van Int. Co S.A...,HLCULE1260119460,TD,2026-03-17,4168,http://dassaweb.mqbic.com/PublicTally.php?id=4168
 2026-03-17,15:00,Exolgan,TCLU-418799-0,Lift Van Int. Co S.A...,HLCUME3260136675,TD,2026-03-17,4169,http://dassaweb.mqbic.com/PublicTally.php?id=4169
 2026-03-17,15:00,Exolgan,TCLU-517615-6,Lift Van Int. Co S.A...,HLCUBI2260137567,TD,2026-03-17,4160,http://dassaweb.mqbic.com/PublicTally.php?id=4160
-2026-09-11,08:00,Terminal 4,HLBU-395155-9,Lift Van Int. Co S.A...,HLCUBSC2607BUXG8,TD,,,
+2026-09-11,08:00,Terminal 4,HLBU-395155-9,Lift Van Int. Co S.A...,HLCUBSC2607BUXG8,TD,2026-09-11,,
 2026-09-09,13:00,Exolgan,HLBU-235304-3,Lift Van Int. Co S.A...,HLUSPIL260702498,TD,2026-09-09,,
 2026-09-09,13:00,Exolgan,UACU-850608-1,Lift Van Int. Co S.A...,HLCUGOA260721695,TD,2026-09-09,,
 2026-09-09,13:00,Exolgan,TEMU-184862-4,Lift Van Int. Co S.A...,HLCUBO2260730059,TD,2026-09-09,,
-2026-09-10,08:00,Terminal 4,MRKU-684772-1,Lift Van Int. Co S.A...,274669298,TD,,,
-2026-09-10,13:00,Exolgan,HLBU-376370-0,Lift Van Int. Co S.A...,HLCULIV260739309,TD,,,
-2026-09-10,13:00,Exolgan,HLBU-363648-0,Lift Van Int. Co S.A...,HLUSPIL260704895,TD,,,
+2026-09-10,08:00,Terminal 4,MRKU-684772-1,Lift Van Int. Co S.A...,274669298,TD,2026-09-10,,
+2026-09-10,13:00,Exolgan,HLBU-376370-0,Lift Van Int. Co S.A...,HLCULIV260739309,TD,2026-09-10,,
+2026-09-10,13:00,Exolgan,HLBU-363648-0,Lift Van Int. Co S.A...,HLUSPIL260704895,TD,2026-09-10,,
 2026-09-04,15:00,Exolgan,TGHU-519591-5,Lift Van Int. Co S.A...,HLCUANR260623755,TD,2026-09-04,,
 2026-09-04,15:00,Exolgan,MEDU-271916-7,Lift Van Int. Co S.A...,MEDUH6887960,TD,2026-09-04,,
 2026-09-04,15:00,Exolgan,TCLU-416029-0,Lift Van Int. Co S.A...,HLCUHAM260710717,TD,2026-09-04,,
-2026-09-09,15:00,Exolgan,HLBU-370115-9,Lift Van Int. Co S.A...,HLCUTOR260651219,TD,2026-09-09,,
+2026-09-09,15:00,Exolgan,HLBU-370115-9,Lift Van Int. Co S.A...,HLCUTOR260651219,T,2026-09-09,,
 2026-08-26,13:00,Exolgan,TLLU-252327-0,Lift Van Int. Co S.A...,HLCUBSC2606CMHU0,T,2026-08-26,,
 2026-08-28,13:00,Exolgan,GCXU-249271-0,Lift Van Int. Co S.A...,HLCUBC1260650290,TD,2026-08-28,,
 2026-09-01,15:00,Exolgan,GLDU-958222-2,Lift Van Int. Co S.A...,HLCUTOR260626597,TD,2026-09-01,,
@@ -270,7 +270,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-08-04,05:00,Terminal 4,ZCSU-738525-0,Baires International...,ZIMUNYC9129072,TD,2026-08-04,,
 2026-08-06,05:00,Terminal 4,MRSU-049276-1,Baires International...,271104910,TD,2026-08-06,,
 2026-09-01,07:00,Exolgan,MSBU-180155-8,Baires International...,MEDUXX667413,TD,2026-09-01,,
-2026-09-10,13:00,Exolgan,HLXU-122573-9,Baires International...,HLCULIV260746150,TD,,,
+2026-09-10,13:00,Exolgan,HLXU-122573-9,Baires International...,HLCULIV260746150,TD,2026-09-10,,
 2026-04-23,05:00,Terminal 4,CAIU-913676-7,Juguetech Sa        ...,SZX075235,T,2026-04-23,,
 2026-04-30,05:00,Terminal 4,CAIU-953972-0,Juguetech Sa        ...,SZXS075378,T,2026-04-30,,
 2026-05-26,06:00,Terminal 4,ZCSU-651596-0,Juguetech Sa        ...,SZXS075917,T,2026-05-26,,
@@ -818,7 +818,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-04-10,18:00,Terminal 4,EFEU-803296-1,Noah Servicess.R.L. ...,HLCUBSC260350660,TD,2026-04-10,4344,http://dassaweb.mqbic.com/PublicTally.php?id=4344
 2026-09-02,09:00,Terminal 4,MRKU-090551-7,Noah Servicess.R.L. ...,275363804,TD,2026-09-02,,
 2026-09-03,08:00,Terminal 4,MRSU-438732-1,Noah Servicess.R.L. ...,275364159,TD,2026-09-03,,
-2026-09-10,08:00,Terminal 4,MRKU-070945-3,Noah Servicess.R.L. ...,275538305,TD,,,
+2026-09-10,08:00,Terminal 4,MRKU-070945-3,Noah Servicess.R.L. ...,275538305,TD,2026-09-10,,
 2026-08-11,13:00,Exolgan,MSBU-452301-8,Noah Servicess.R.L. ...,EBKG17380072,TD,2026-08-11,,
 2026-08-12,06:00,Terminal 4,CMAU-095058-5,Noah Servicess.R.L. ...,IBC1506590,TD,2026-08-12,,
 2026-08-13,10:00,Terminal 4,MRSU-353062-8,Noah Servicess.R.L. ...,274090508,TD,2026-08-13,,
@@ -987,7 +987,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-06-23,13:00,Exolgan,BSIU-967209-2,Caddell Construction...,95726-03009,TD,2026-06-23,,
 2026-06-23,15:00,Exolgan,HLXU-826790-5,Caddell Construction...,95726-03009,TD,2026-06-23,,
 2026-06-23,15:00,Exolgan,HLBU-204431-6,Caddell Construction...,95726-03009,TD,2026-06-23,,
-2026-08-11,18:00,Terminal 4,SUDU-674612-5,Andres Madariya     ...,272332952,T,,,
+2026-09-11,09:00,Terminal 4,SUDU-674612-5,Andres Madariya     ...,272332952,T,2026-09-11,,
 2026-06-16,08:00,Terminal 4,HASU-141299-2,Colorantes Industria...,269785454,TD,2026-06-16,,
 2026-04-14,13:00,Exolgan,CAAU-585823-9,Bicicletas Futura Sa...,GILSH260100019,TD,2026-04-14,4357,http://dassaweb.mqbic.com/PublicTally.php?id=4357
 2026-04-14,15:00,Exolgan,MSNU-590751-9,Bicicletas Futura Sa...,GILSH260100019,TD,2026-04-14,4358,http://dassaweb.mqbic.com/PublicTally.php?id=4358
@@ -1076,6 +1076,7 @@ Fecha,Turno,Terminal,Contenedor,Cliente,Booking,Operacion,Fecha Ingreso,idcont,e
 2026-06-12,13:00,Terminal 4,TCLU-243568-0,Mackentack Automotiv...,TSN26040044,TD,2026-06-12,,
 2026-07-22,12:00,Terminal 4,JXLU-471091-0,Mackentack Automotiv...,NBOBUE26050948,TD,2026-07-22,,
 2026-06-12,06:00,Terminal 4,CAAU-883826-2,Redes Bit S.A.S     ...,H01EMCS26082000,TD,2026-06-12,,
+2026-09-14,12:00,TRP,JXLU-621836-6,Redes Bit S.A.S     ...,H01EMCS26171600,T,,,
 2026-06-22,11:00,TRP,PIDU-415467-1,Llanos Yampa Ruben  ...,CNYTNFGD0031,T,2026-06-22,,
 2026-06-22,11:00,TRP,HPCU-297315-3,Barile Srl          ...,ONEYXMNG33868300,TD,2026-06-22,,
 2026-06-30,11:00,Exolgan,CAIU-568868-6,Imbal S.A.          ...,GZ26030299A,TD,2026-06-30,,

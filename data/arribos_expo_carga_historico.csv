@@ -229,7 +229,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-07-14,44961,,Aniceto Gomez Sa,26001EC03,OP.891 - ARGENPARTS - MEXICO,Arribado
 2026-08-12,45691,,Aniceto Gomez Sa,BUEG10748700,jaulas (autopartes / repuestos),Arribado
 2026-08-12,45698,,Aniceto Gomez Sa,BUEG10748700,jaulas (autopartes / repuestos),Arribado
-2026-09-11,46567,,Aniceto Gomez Sa,ZIMUBUE9053246,ZIMUBUE9053246 // OP.895 - ARGENPARTS - MEXICO,Pendiente
+2026-09-11,46567,,Aniceto Gomez Sa,ZIMUBUE9053246,ZIMUBUE9053246 // OP.895 - ARGENPARTS - MEXICO,Arribado
+2026-09-11,46601,,Aniceto Gomez Sa,ZIMUBUE9053246,ZIMUBUE9053246 // OP.895 - ARGENPARTS - MEXICO,Arribado
 2026-06-30,44679,,Rubber Service Srl,COSU6506377470,RUBBER  //CME014655,Arribado
 2026-08-31,45966,,Rubber Service Srl,CME014740,RW309-ANTIADHERENTE P. (600 bolsas en 20 pallets),Arribado
 2026-09-15,46449,,Rubber Service Srl,LA0516876,CME014777 / S: RUBBER SERVICE S R L // Booking: LA0516876,Pendiente
@@ -292,7 +293,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-26,46078,,Administracion Feder...,BUA0376419,Andrada Vanderwilde // efectos pers // 185 bultos,Pendiente
 2026-09-14,46540,,Administracion Feder...,EBKG18551146,Tejada Chacon // efectos pers. // BUA0380361B,Pendiente
 2026-09-16,46541,,Administracion Feder...,BUA0380361B,Tejada Chacon // efectos pers / BUA0380361B,Pendiente
-2026-09-10,46560,,J. Llorente Y Cía. S...,26001EC01062352G,Expo // J. Llorente & Cia. SA // 1 camion // Terrestre // FC,Pendiente
+2026-09-10,46560,,J. Llorente Y Cía. S...,26001EC01062352G,Expo // J. Llorente & Cia. SA // 1 camion // Terrestre // FC,Arribado
 2026-09-14,46587,,J. Llorente Y Cía. S...,EBKG18400595,1 x 20 ST / YERBA /// E 30473 // EBKG18400595,Pendiente
 2026-07-29,45267,,Mader Zu S.R.L.,BUEG09989800,GRLAE262091 / BUEG09989800,Arribado
 2026-08-05,45431,,Mader Zu S.R.L.,ZIMUBUE9052164,GRLEM262129 // ZIMUBUE9052164,Arribado
@@ -369,6 +370,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-05-27,43973,,Pandion Logistics S....,26001EC01,EMEPLAS SRL,Pendiente
 2026-05-27,43964,,Fineport S.A.,28647804,KAHL GROUP S.A,Arribado
 2026-06-08,44202,,Famacon S.A.,36013219,36013219,Arribado
+2026-09-16,46589,,Geo-Trade Comercio E...,BUA0379242,Maquinaria,Pendiente
+2026-09-16,46590,,Geo-Trade Comercio E...,BUA0379242,Maquinaria,Pendiente
 2026-03-25,42855,,Manufactura Los Ande...,FC 19-005,FC 19-005,Arribado
 2026-09-14,46461,,Manufactura Los Ande...,276668395,BOOK: 276668395 // FC 17-208,Pendiente
 2026-09-14,46462,,Manufactura Los Ande...,276668395,BOOK: 276668395 // FC 17-208,Pendiente
@@ -478,7 +481,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-06,45403,,Carpal Sa,ZIMUBUE9052214,ZIMUBUE9052214,Arribado
 2026-03-16,42639,,Borax Argentina S A,267433604,FACT.13107,Arribado
 2026-03-16,42640,,Borax Argentina S A,267433604,FACT.13107,Arribado
-2026-09-10,46531,,Borax Argentina S A,276739225,Fac 13646 / RE: 276739225 de 9x20,Pendiente
+2026-09-11,46531,,Borax Argentina S A,276739225,Fac 13646 / RE: 276739225 de 9x20,Arribado
 2026-09-10,46532,,Borax Argentina S A,276739225,Fac 13646 / RE: 276739225 de 9x20,Pendiente
 2026-09-10,46533,,Borax Argentina S A,276739225,Fac 13646 / RE: 276739225 de 9x20,Pendiente
 2026-09-10,46534,,Borax Argentina S A,276739225,Fac 13646 / RE: 276739225 de 9x20,Pendiente
@@ -498,7 +501,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-09-07,46453,,Borax Argentina S A,FACT 13643,FACT 13643,Arribado
 2026-09-08,46454,,Borax Argentina S A,Fact 13643,Hidroboracita (100 pallets),Arribado
 2026-09-08,46455,,Borax Argentina S A,Fact 13643,Hidroboracita (100 pallets),Arribado
-2026-09-07,46456,,Borax Argentina S A,Fact 13643,Hidroboracita (100 pallets),Pendiente
+2026-09-11,46456,,Borax Argentina S A,Fact 13643,Hidroboracita (100 pallets),Arribado
 2026-09-07,46457,,Borax Argentina S A,FACT 13643,FACT 13643 //,Arribado
 2026-09-07,46463,,Borax Argentina S A,BUA0380322,FAC 13637,Arribado
 2026-08-27,46162,,Borax Argentina S A,fact 13601,fact 13601 -5X20,Pendiente
@@ -653,6 +656,10 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-03-16,42682,,Lawter Argentina S.A...,153IAR0655832,4700175758-759-760-761,Arribado
 2026-03-16,42683,,Lawter Argentina S.A...,153IAR0655832,4700175758-759-760-761,Arribado
 2026-03-16,42684,,Lawter Argentina S.A...,153IAR0655832,4700175758-759-760-761,Arribado
+2026-09-15,46591,,Lawter Argentina S.A...,ZIMUBUE9052798,BK ZIMUBUE9052798 5162137-10 / 20 / 30 /40,Pendiente
+2026-09-15,46592,,Lawter Argentina S.A...,ZIMUBUE9052798,BK ZIMUBUE9052798 5162137-10 / 20 / 30 /40,Pendiente
+2026-09-15,46593,,Lawter Argentina S.A...,ZIMUBUE9052798,BK ZIMUBUE9052798 5162137-10 / 20 / 30 /40,Pendiente
+2026-09-15,46594,,Lawter Argentina S.A...,ZIMUBUE9052798,BK ZIMUBUE9052798 5162137-10 / 20 / 30 /40,Pendiente
 2026-09-10,46399,,Lawter Argentina S.A...,275904735,5162136-10 / 5162136-20 / 5162136-30 / 5162136-40 // bk: 275,Arribado
 2026-09-02,46341,,Lawter Argentina S.A...,275904643,5162131-10/5162131-20/5162131-40-2759046-43,Arribado
 2026-09-02,46344,,Lawter Argentina S.A...,,5162131-10/5162131-20/5162131-30/5162131-40 - 275904643,Arribado
@@ -1107,8 +1114,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-09-14,46434,,Prosal S.A.,276369916,CONSOLIDADO DASSA - PROSAL SA - 276369916,Pendiente
 2026-09-10,46430,,Prosal S.A.,276369916,CONSOLIDADO DASSA - PROSAL SA - 276369916,Arribado
 2026-09-10,46431,,Prosal S.A.,276369916,CONSOLIDADO DASSA - PROSAL SA - 276369916,Arribado
-2026-09-14,46432,,Prosal S.A.,276369916,CONSOLIDADO DASSA - PROSAL SA - 276369916,Pendiente
-2026-09-10,46433,,Prosal S.A.,276369916,CONSOLIDADO DASSA - PROSAL SA - 276369916,Pendiente
+2026-09-11,46432,,Prosal S.A.,276369916,CONSOLIDADO DASSA - PROSAL SA - 276369916,Arribado
+2026-09-11,46433,,Prosal S.A.,276369916,CONSOLIDADO DASSA - PROSAL SA - 276369916,Arribado
 2026-09-08,46412,,Prosal S.A.,275963141,CONSOLIDADO DASSA - PROSAL SA - 275963141,Arribado
 2026-09-08,46410,,Prosal S.A.,275963141,CONSOLIDADO DASSA - PROSAL SA - 275963141,Arribado
 2026-09-08,46411,,Prosal S.A.,275963141,CONSOLIDADO DASSA - PROSAL SA - 275963141,Arribado
