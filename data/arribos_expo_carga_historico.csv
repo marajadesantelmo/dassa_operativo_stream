@@ -260,8 +260,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-08-26,46105,,Refractarios Argenti...,ZIMUBUE9052450,COLOMBIA // EC 2732-26 // 2X20 // DASSA // PT //,Arribado
 2026-03-25,42839,,Pelama Chubut S.A.,COSU6447748720,COSU6447748720,Arribado
 2026-03-25,42840,,Pelama Chubut S.A.,COSU6447748720,COSU6447748720,Arribado
-2026-09-21,46688,,Pelama Chubut S.A.,EBKG18648464,PELAMA CHUBUT,Pendiente
-2026-09-21,46699,,Pelama Chubut S.A.,COSU6466575310,PELAMA CHUBUT,Pendiente
+2026-09-21,46688,,Pelama Chubut S.A.,EBKG18648464,PELAMA CHUBUT,Arribado
+2026-09-21,46699,,Pelama Chubut S.A.,COSU6466575310,PELAMA CHUBUT,Arribado
 2026-08-31,46188,,Pelama Chubut S.A.,COSU6462048400,COSU6462048400 // LANA U PELO FINO A GRANEL,Arribado
 2026-08-24,46023,,Pelama Chubut S.A.,34657795,34657795 // LANA U PELO FINO A GRANEL 1X20,Arribado
 2026-08-27,46109,,Pelama Chubut S.A.,COSU6464274450,COSU6464274450 // LANA U PELO FINO A GRANEL,Arribado
@@ -284,7 +284,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-04-15,43160,,Pelama Chubut S.A.,COSU6447749350,COSU6447749350,Arribado
 2026-04-28,43472,,Sky Cargo S.R.L.,92371748,GRUPO COMECA  SA,Arribado
 2026-05-18,43740,,Global Motion S.A.,COSU6500626220,CHATARRA,Arribado
-2026-09-21,46833,,Barbury Company S.A.,ZIMUBUE9053429,CME014797 - CME014798 - barbury ( 896 cajas sueltas ),Pendiente
+2026-09-21,46833,,Barbury Company S.A.,ZIMUBUE9053429,CME014797 - CME014798 - barbury ( 896 cajas sueltas ),Arribado
 2026-08-11,45575,,Administracion Feder...,EBKG17920330,EBKG17920330,Pendiente
 2026-08-26,46076,,Administracion Feder...,BUA0376419,Andrada Vanderwilde // efectos pers // 185 bultos,Pendiente
 2026-08-26,46077,,Administracion Feder...,BUA0376419,Andrada Vanderwilde // efectos pers // 185 bultos,Pendiente
@@ -438,7 +438,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-04-30,43488,,Tipoiti Satic,270274759,EXPO 1803 RIGOTEX - FC 1490 - OP 19490,Arribado
 2026-04-04,43513,,Tipoiti Satic,ZIMUBUE9049427,EXPO 1810 RIGOTEX - FC 1496,Arribado
 2026-08-24,45951,,Tipoiti Satic,21662848,hilado de algodón,Pendiente
-2026-09-21,46498,,Tipoiti Satic,276561052,276561052 // TIPOITI/1x40HC // EXPO 1850 FC 1536,Pendiente
+2026-09-21,46498,,Tipoiti Satic,276561052,276561052 // TIPOITI/1x40HC // EXPO 1850 FC 1536,Arribado
 2026-07-13,44878,,Tipoiti Satic,ZIMUBUE9051495,EXPO 1828 //ZIMUBUE9051495,Arribado
 2026-08-24,45626,,Tipoiti Satic,21662848,hilado de algodón,Arribado
 2026-08-25,45627,,Tipoiti Satic,21662848,hilado de algodón,Arribado
@@ -483,6 +483,7 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-03-27,42849,,Borax Argentina S A,26001EC03,FACT.13127,Arribado
 2026-03-31,42850,,Borax Argentina S A,267482567,FACT.13119,Arribado
 2026-03-25,42851,,Borax Argentina S A,267432495,FC 13083,Arribado
+2026-09-21,46883,,Borax Argentina S A,LA0441617,fact 13678 // LA0441617,Arribado
 2026-09-16,46684,,Borax Argentina S A,BUA0381222,act 13666 -BUA0381222 de 3x20 J,Arribado
 2026-09-16,46685,,Borax Argentina S A,BUA0381222,act 13666 -BUA0381222 de 3x20 J,Arribado
 2026-09-16,46689,,Borax Argentina S A,BUA0381175,FACT.13665 -1x20 -COSCO SHIPPING DANUBE -BOOKING BUA 0381175,Arribado
@@ -501,9 +502,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-09-10,46529,,Borax Argentina S A,276739225,Fac 13646 / RE: 276739225 de 9x20,Arribado
 2026-09-10,46530,,Borax Argentina S A,276739225,Fac 13646 / RE: 276739225 de 9x20,Arribado
 2026-09-11,46531,,Borax Argentina S A,276739225,Fac 13646 / RE: 276739225 de 9x20,Arribado
-2026-09-10,46533,,Borax Argentina S A,276739225,Fac 13646 / RE: 276739225 de 9x20,Pendiente
-2026-09-10,46534,,Borax Argentina S A,276739225,Fac 13646 / RE: 276739225 de 9x20,Pendiente
-2026-09-10,46535,,Borax Argentina S A,276739225,Fac 13646 / RE: 276739225 de 9x20,Pendiente
+2026-09-21,46533,,Borax Argentina S A,276739225,Fac 13646 / RE: 276739225 de 9x20,Arribado
+2026-09-21,46534,,Borax Argentina S A,276739225,Fac 13646 / RE: 276739225 de 9x20,Arribado
+2026-09-21,46535,,Borax Argentina S A,276739225,Fac 13646 / RE: 276739225 de 9x20,Arribado
 2026-09-11,46483,,Borax Argentina S A,BUA0376390,Hidro A6E,Pendiente
 2026-09-11,46484,,Borax Argentina S A,BUA0376390,Hidro A6E,Pendiente
 2026-09-11,46485,,Borax Argentina S A,BUA0376390,Hidro A6E,Pendiente
@@ -513,8 +514,8 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-09-07,46457,,Borax Argentina S A,FACT 13643,FACT 13643 //,Arribado
 2026-09-07,46463,,Borax Argentina S A,BUA0380322,FAC 13637,Arribado
 2026-09-07,46464,,Borax Argentina S A,BUA0380322,FAC 13637,Arribado
-2026-09-16,46465,,Borax Argentina S A,BUA0377955,Borax PENTA,Pendiente
-2026-09-16,46466,,Borax Argentina S A,BUA0377955,Borax PENTA,Pendiente
+2026-09-21,46465,,Borax Argentina S A,BUA0377955,FAC 13638,Arribado
+2026-09-21,46466,,Borax Argentina S A,BUA0377955,FAC 13638,Arribado
 2026-09-07,46453,,Borax Argentina S A,FACT 13643,FACT 13643,Arribado
 2026-09-08,46454,,Borax Argentina S A,Fact 13643,Hidroboracita (100 pallets),Arribado
 2026-09-08,46455,,Borax Argentina S A,Fact 13643,Hidroboracita (100 pallets),Arribado
@@ -651,12 +652,12 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-07-22,45142,,Plasticos Dise S A,EBKG17855289,PLASTICOS DISE //  EBKG17855289,Arribado
 2026-04-06,42974,,Lawter Argentina S.A...,268813963,REF 5158593  // MULTIMODAL,Arribado
 2026-04-09,43059,,Lawter Argentina S.A...,BUEG03138900,REF 5159475,Arribado
-2026-09-18,46784,,Lawter Argentina S.A...,277063142,REF 5158598 - BKN 277063142,Pendiente
-2026-09-21,46777,,Lawter Argentina S.A...,BUA0381782,BK BUA0381782 -REF 4700179025-26-27-28,Pendiente
-2026-09-21,46778,,Lawter Argentina S.A...,BUA0381782,BK BUA0381782 -REF 4700179025-26-27-28,Pendiente
-2026-09-21,46779,,Lawter Argentina S.A...,BUA0381782,BK BUA0381782 -REF 4700179025-26-27-28,Pendiente
+2026-09-21,46784,,Lawter Argentina S.A...,277063142,REF 5158598 - BKN 277063142,Arribado
+2026-09-21,46777,,Lawter Argentina S.A...,BUA0381782,BK BUA0381782 -REF 4700179025-26-27-28,Arribado
+2026-09-21,46778,,Lawter Argentina S.A...,BUA0381782,BK BUA0381782 -REF 4700179025-26-27-28,Arribado
+2026-09-21,46779,,Lawter Argentina S.A...,BUA0381782,BK BUA0381782 -REF 4700179025-26-27-28,Arribado
 2026-09-17,46751,,Lawter Argentina S.A...,EBKG18610122,P2307 Big BG 650KG,Arribado
-2026-09-21,46776,,Lawter Argentina S.A...,BUA0381782,BK BUA0381782 -REF 4700179025-26-27-28,Pendiente
+2026-09-21,46776,,Lawter Argentina S.A...,BUA0381782,BK BUA0381782 -REF 4700179025-26-27-28,Arribado
 2026-09-16,46717,,Lawter Argentina S.A...,15623392,ref 4700179396 // bk 15623392,Arribado
 2026-09-17,46718,,Lawter Argentina S.A...,ZIMUBUE9052974,ZIMUBUE9052974 - - REF 5162759,Arribado
 2026-09-16,46748,,Lawter Argentina S.A...,EBKG18610122,P2307 Big BG 650KG,Arribado
@@ -947,10 +948,9 @@ Fecha,Operacion,Contenedor,Cliente,Booking,Descripcion,Estado
 2026-06-29,44613,,Ecomet Srl,45361741,45361741,Arribado
 2026-06-30,44614,,Ecomet Srl,45361741,45361741,Arribado
 2026-09-18,46837,,Ecomet Srl,276932123,ECOMET / PE / 276932123 / AR528842,Arribado
-2026-09-18,46838,,Ecomet Srl,276932123,ECOMET / PE / 276932123 / AR528842,Pendiente
-2026-09-18,46839,,Ecomet Srl,276932123,ECOMET / PE / 276932123 / AR528842,Pendiente
-2026-09-21,46840,,Ecomet Srl,276932123,ECOMET / PE / 276932123 / AR528842,Pendiente
-2026-09-21,46841,,Ecomet Srl,276932123,ECOMET / PE / 276932123 / AR528842,Pendiente
+2026-09-21,46839,,Ecomet Srl,276932123,ECOMET / PE / 276932123 / AR528842,Arribado
+2026-09-21,46840,,Ecomet Srl,276932123,ECOMET / PE / 276932123 / AR528842,Arribado
+2026-09-21,46841,,Ecomet Srl,276932123,ECOMET / PE / 276932123 / AR528842,Arribado
 2026-07-20,45088,,Ecomet Srl,32874407,AR2026-07-0-000-421 / PO 54457,Arribado
 2026-07-20,45089,,Ecomet Srl,32874407,AR2026-07-0-000-421 / PO 54457,Arribado
 2026-07-27,45213,,Ecomet Srl,274713151,REF: PO 54668  //274713151,Arribado
