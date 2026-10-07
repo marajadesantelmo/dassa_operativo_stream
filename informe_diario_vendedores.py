@@ -77,7 +77,7 @@ def send_email_vendedor(row, mail, operations, existente):
         server.sendmail(msg['From'], msg['To'], msg.as_string())
 
 
-server = '101.44.8.58\\SQLEXPRESS_X86,1436'
+server = 'SQL01\\SQLEXPRESS_X86,1437'
 conn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';UID='+username+';PWD='+ password)
 cursor = conn.cursor()
 
