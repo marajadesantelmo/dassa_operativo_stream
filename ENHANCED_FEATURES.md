@@ -188,7 +188,7 @@ python update_traficov2.py --config production_config.json
 ```json
 "sql_server": {
     "enabled": true,
-    "server": "101.44.8.58\\SQLEXPRESS_X86,1436",
+    "server": "SQL01\\SQLEXPRESS_X86,1437",
     "database": "DEPOFIS",
     "schema": "DASSA",
     "table": "Salidas",
